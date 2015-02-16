@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <global>
   <settings>
     <id>SettingsInfoImpl-73e5db00:1428d1a6a2e:-8000</id>
@@ -9,7 +10,7 @@
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
-  </settings>
+  <proxyBaseUrl>http://geoserver-imas.imas.utas.edu.au/geoserver</proxyBaseUrl></settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
     <recycling>false</recycling>
