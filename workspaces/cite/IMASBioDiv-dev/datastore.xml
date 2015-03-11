@@ -1,0 +1,26 @@
+<dataStore>
+  <id>DataStoreInfoImpl--1faff594:13661eec6dd:-7fff</id>
+  <name>IMASBioDiv-dev</name>
+  <description>IMASBioDiv-dev</description>
+  <type>Microsoft SQL Server</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--570ae188:124761b8d78:-7ff3</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Connection timeout">20</entry>
+    <entry key="port">1196</entry>
+    <entry key="passwd">redmap</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="host">localhost</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="max connections">10</entry>
+    <entry key="database">IMASBioDiv-dev</entry>
+    <entry key="namespace">http://www.opengeospatial.net/cite</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="user">redmap</entry>
+    <entry key="min connections">1</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

@@ -1,0 +1,25 @@
+<dataStore>
+  <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-151a</id>
+  <name>IMASInshoreLoggers</name>
+  <description>IMASInshoreLoggers</description>
+  <type>Microsoft SQL Server</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-4c2d46e6:138d5271d9a:-7fdc</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Connection timeout">20</entry>
+    <entry key="port">1433</entry>
+    <entry key="passwd">ky1Q0Y*(#0A8</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="host">imasinshoreloggers-db.its.utas.edu.au</entry>
+    <entry key="max connections">10</entry>
+    <entry key="database">IMASInshoreLoggers</entry>
+    <entry key="namespace">aodn</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="user">IMASGeoServer</entry>
+    <entry key="min connections">1</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

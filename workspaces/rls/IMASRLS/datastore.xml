@@ -1,0 +1,25 @@
+<dataStore>
+  <id>DataStoreInfoImpl--558bdc10:14930a065eb:-5807</id>
+  <name>IMASRLS</name>
+  <description>IMASRLS</description>
+  <type>Microsoft SQL Server</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:14858a72b3d:-6a9c</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Connection timeout">20</entry>
+    <entry key="port">1433</entry>
+    <entry key="passwd">ky1Q0Y*(#0A8</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="host">imasbiodiv-db.its.utas.edu.au</entry>
+    <entry key="max connections">10</entry>
+    <entry key="database">IMASBioDiv</entry>
+    <entry key="namespace">rls</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="user">IMASGeoServer</entry>
+    <entry key="min connections">1</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
