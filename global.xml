@@ -10,7 +10,7 @@
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
-  <proxyBaseUrl>http://geoserver-imas.imas.utas.edu.au/geoserver</proxyBaseUrl></settings>
+  <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl></settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
     <recycling>false</recycling>
