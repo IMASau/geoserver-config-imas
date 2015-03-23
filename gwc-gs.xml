@@ -4,7 +4,7 @@
   <WMSCEnabled>true</WMSCEnabled>
   <WMTSEnabled>true</WMTSEnabled>
   <TMSEnabled>true</TMSEnabled>
-  <cacheLayersByDefault>true</cacheLayersByDefault>
+  <cacheLayersByDefault>false</cacheLayersByDefault>
   <cacheNonDefaultStyles>true</cacheNonDefaultStyles>
   <metaTilingX>4</metaTilingX>
   <metaTilingY>4</metaTilingY>

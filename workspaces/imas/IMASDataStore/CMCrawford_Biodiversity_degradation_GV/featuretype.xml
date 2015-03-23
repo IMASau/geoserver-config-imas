@@ -1,21 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2fcfbde1:1444416a1c9:-2608</id>
-  <name>LTTRMP_SITE_SURVEY_SUMMARY</name>
-  <nativeName>LTTRMP_SITE_SURVEY_SUMMARY</nativeName>
+  <id>FeatureTypeInfoImpl--338f9103:14c0791088d:-7ff8</id>
+  <name>CMCrawford_Biodiversity_degradation_GV</name>
+  <nativeName>NH1_CMCrawford_Biodiversity_degradation_GV</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Long Term Temperate Reef Monitoring Program Sites</title>
-  <abstract>The data is quantitative abundance of fish, megafaunal invertebrates and percent algal cover derived from underwater visual census methods involving transect counts at rocky reef sites around Tasmania. This dataset allows examination of changes in Tasmanian shallow reef faunal and floral communities over a decadal scale - initial surveys were conducted in 1992-1995, and this dataset represents resurveys of the same sites that were conducted in 2006-2007. There are plans for ongoing surveys.</abstract>
+  <title>Biodiversity and degradation of estuaries</title>
   <keywords>
-    <string>LTTRMP_SITE_SURVEY_SUMMARY</string>
     <string>features</string>
+    <string>NH1_CMCrawford_Biodiversity_degradation_GV</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
-      <metadataType>TC211</metadataType>
-      <content>http://mest.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=9cedf662-806f-4b13-b9d4-6aa3225b095c</content>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=f74a525d-d78d-4e8d-83b2-6ef5e08cb804</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -29,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>114.942168189</minx>
-    <maxx>150.839951562</maxx>
-    <miny>-43.644509362</miny>
-    <maxy>-30.120732261</maxy>
+    <minx>144.9242212</minx>
+    <maxx>145.448742</maxx>
+    <miny>-40.885909999999996</miny>
+    <maxy>-40.72914</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>114.942168189</minx>
-    <maxx>150.839951562</maxx>
-    <miny>-43.644509362</miny>
-    <maxy>-30.120732261</maxy>
+    <minx>144.9242212</minx>
+    <maxx>145.448742</maxx>
+    <miny>-40.885909999999996</miny>
+    <maxy>-40.72914</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -56,15 +55,15 @@
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-3d92</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
