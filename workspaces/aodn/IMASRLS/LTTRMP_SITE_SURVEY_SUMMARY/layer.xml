@@ -8,6 +8,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--2fcfbde1:1444416a1c9:-2608</id>
   </resource>
+  <enabled>true</enabled>
   <metadata>
     <entry key="GWC.autoCacheStyles">true</entry>
     <entry key="GWC.metaTilingX">4</entry>
