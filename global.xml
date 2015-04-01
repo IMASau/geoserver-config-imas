@@ -6,6 +6,7 @@
     </contact>
     <charset>UTF-8</charset>
     <numDecimals>4</numDecimals>
+    <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
@@ -29,7 +30,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>80</updateSequence>
+  <updateSequence>100</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>

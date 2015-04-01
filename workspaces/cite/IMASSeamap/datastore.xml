@@ -1,0 +1,21 @@
+<dataStore>
+  <id>DataStoreInfoImpl-31650bb1:132806df81b:-8000</id>
+  <name>IMASSeamap</name>
+  <description>IMASSeamap</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--570ae188:124761b8d78:-7ff3</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
+    <entry key="namespace">http://www.opengeospatial.net/cite</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

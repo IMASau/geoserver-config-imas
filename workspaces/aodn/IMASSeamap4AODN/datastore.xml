@@ -1,0 +1,21 @@
+<dataStore>
+  <id>DataStoreInfoImpl-4c2d46e6:138d5271d9a:-7fda</id>
+  <name>IMASSeamap4AODN</name>
+  <description>IMASSeamap4AODN</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-4c2d46e6:138d5271d9a:-7fdc</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
+    <entry key="namespace">aodn</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

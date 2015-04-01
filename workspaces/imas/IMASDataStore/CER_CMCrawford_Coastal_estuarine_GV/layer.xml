@@ -1,0 +1,15 @@
+<layer>
+  <name>CER_CMCrawford_Coastal_estuarine_GV</name>
+  <id>LayerInfoImpl-1aa01e27:14c2ff3a16e:-7f9d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1aa01e27:14c2ff3a16e:-7f9e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
