@@ -22,6 +22,7 @@
     <pngAcceleration>false</pngAcceleration>
     <jpegAcceleration>false</jpegAcceleration>
     <allowNativeMosaic>false</allowNativeMosaic>
+    <allowNativeWarp>false</allowNativeWarp>
   </jai>
   <coverageAccess>
     <maxPoolSize>5</maxPoolSize>
@@ -30,7 +31,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>100</updateSequence>
+  <updateSequence>120</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>

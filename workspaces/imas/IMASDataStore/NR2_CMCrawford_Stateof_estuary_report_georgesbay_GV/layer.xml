@@ -1,12 +1,12 @@
 <layer>
-  <name>LTTRMP_SURVEYS</name>
-  <id>LayerInfoImpl--558bdc10:1485e0de12a:-3e5f</id>
+  <name>NR2_CMCrawford_Stateof_estuary_report_georgesbay_GV</name>
+  <id>LayerInfoImpl-1aa01e27:14c2ff3a16e:-6560</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--558bdc10:1485e0de12a:-3e60</id>
+    <id>FeatureTypeInfoImpl-1aa01e27:14c2ff3a16e:-6561</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
