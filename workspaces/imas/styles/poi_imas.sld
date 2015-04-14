@@ -19,7 +19,7 @@
                   <CssParameter name="fill-opacity">1.0</CssParameter>
                 </Fill>
               </Mark>
-              <Size>14</Size>
+              <Size>24</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -31,12 +31,11 @@
                   <CssParameter name="fill-opacity">1.0</CssParameter>
                 </Fill>
               </Mark>
-              <Size>12</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
         <Rule>
-          <MaxScaleDenominator>32000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
               <ogc:PropertyName>POT</ogc:PropertyName>
