@@ -1,12 +1,12 @@
 <layer>
-  <name>LTTRMP_SURVEYS</name>
-  <id>LayerInfoImpl--558bdc10:1485e0de12a:-3e5f</id>
+  <name>ACE_JRHunter_Observations_sea_level_portarthur_GV2</name>
+  <id>LayerInfoImpl-6e1dfad:14c6e59ef97:131c</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--558bdc10:1485e0de12a:-3e60</id>
+    <id>FeatureTypeInfoImpl-6e1dfad:14c6e59ef97:131b</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
