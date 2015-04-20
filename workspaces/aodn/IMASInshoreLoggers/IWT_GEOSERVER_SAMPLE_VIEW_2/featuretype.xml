@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3c8070a5:14cd43be1e5:a2d</id>
-  <name>IWT_GEOSERVER_SAMPLE_VIEW</name>
-  <nativeName>IWT_GEOSERVER_SAMPLE_VIEW</nativeName>
+  <id>FeatureTypeInfoImpl-3c8070a5:14cd58f0412:-894</id>
+  <name>IWT_GEOSERVER_SAMPLE_VIEW_2</name>
+  <nativeName>IWT_GEOSERVER_SAMPLE_VIEW_2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
   </namespace>
   <title>Nearshore temperature monitoring in Tasmanian coastal waters</title>
   <keywords>
+    <string>IWT_GEOSERVER_SAMPLE_VIEW_2</string>
     <string>features</string>
-    <string>IWT_GEOSERVER_SAMPLE_VIEW</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -30,15 +30,14 @@
   <nativeBoundingBox>
     <minx>144.608199</minx>
     <maxx>148.346681</maxx>
-    <miny>39.209919</miny>
-    <maxy>43.593931</maxy>
-    <crs>EPSG:4326</crs>
+    <miny>-43.593931</miny>
+    <maxy>-39.209919</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>144.608199</minx>
     <maxx>148.346681</maxx>
-    <miny>39.209919</miny>
-    <maxy>43.593931</maxy>
+    <miny>-43.593931</miny>
+    <maxy>-39.209919</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -48,7 +47,21 @@
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-151a</id>
   </store>
