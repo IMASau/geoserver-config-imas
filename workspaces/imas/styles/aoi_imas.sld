@@ -9,24 +9,45 @@
       <Title>Area of interest</Title>
       <Abstract>Areas of interest</Abstract>
       <FeatureTypeStyle>
-        <Rule>
-		 <Name>ZoomIn</Name>
+	    <Rule>
+		 <Name>ZoomFarIn</Name>
          <MinScaleDenominator>40</MinScaleDenominator>
-         <MaxScaleDenominator>40000</MaxScaleDenominator>
+         <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>circle</WellKnownName>
+                <WellKnownName>square</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#EDE513</CssParameter>
                   <CssParameter name="fill-opacity">0.2</CssParameter>
                 </Fill>
                 <Stroke>
                		<CssParameter name="stroke">#000000</CssParameter>
-               		<CssParameter name="stroke-width">1</CssParameter>
+               		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>500</Size>
+              <Size>4500</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+        <Rule>
+		 <Name>ZoomIn</Name>
+         <MinScaleDenominator>4000</MinScaleDenominator>
+         <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#EDE513</CssParameter>
+                  <CssParameter name="fill-opacity">0.2</CssParameter>
+                </Fill>
+                <Stroke>
+               		<CssParameter name="stroke">#000000</CssParameter>
+               		<CssParameter name="stroke-width">0.5</CssParameter>
+             	</Stroke>
+              </Mark>
+              <Size>1500</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -37,38 +58,59 @@
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>circle</WellKnownName>
+                <WellKnownName>square</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#EDE513</CssParameter>
                   <CssParameter name="fill-opacity">0.2</CssParameter>
                 </Fill>
                 <Stroke>
                		<CssParameter name="stroke">#000000</CssParameter>
-               		<CssParameter name="stroke-width">1</CssParameter>
+               		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>80</Size>
+              <Size>280</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
 		<Rule>
 		 <Name>ZoomOut</Name>
 		 <MinScaleDenominator>1000000</MinScaleDenominator>
-         <MaxScaleDenominator>120000000</MaxScaleDenominator>
+         <MaxScaleDenominator>4000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>circle</WellKnownName>
+                <WellKnownName>square</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#EDE513</CssParameter>
                   <CssParameter name="fill-opacity">0.2</CssParameter>
                 </Fill>
                 <Stroke>
                		<CssParameter name="stroke">#000000</CssParameter>
-               		<CssParameter name="stroke-width">1</CssParameter>
+               		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
               <Size>18</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		<Rule>
+		 <Name>ZoomFarOut</Name>
+		 <MinScaleDenominator>4000000</MinScaleDenominator>
+         <MaxScaleDenominator>120000000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#EDE513</CssParameter>
+                  <CssParameter name="fill-opacity">0.2</CssParameter>
+                </Fill>
+                <Stroke>
+               		<CssParameter name="stroke">#000000</CssParameter>
+               		<CssParameter name="stroke-width">0.5</CssParameter>
+             	</Stroke>
+              </Mark>
+              <Size>4</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
