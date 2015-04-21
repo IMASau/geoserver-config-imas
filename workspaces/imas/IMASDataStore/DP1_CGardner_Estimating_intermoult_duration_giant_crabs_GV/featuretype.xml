@@ -13,7 +13,7 @@
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
-      <metadataType>ISO19115:2003</metadataType>
+      <metadataType>19139</metadataType>
       <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=943a5590-8d85-11dc-915c-00188b4c0af8</content>
     </metadataLink>
   </metadataLinks>
@@ -49,6 +49,20 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
