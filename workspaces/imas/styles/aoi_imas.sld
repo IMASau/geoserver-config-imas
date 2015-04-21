@@ -26,7 +26,7 @@
                		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>4500</Size>
+              <Size>6500</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -47,7 +47,7 @@
                		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>1500</Size>
+              <Size>2500</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -68,7 +68,7 @@
                		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>280</Size>
+              <Size>880</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -89,7 +89,7 @@
                		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>18</Size>
+              <Size>24</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -110,7 +110,7 @@
                		<CssParameter name="stroke-width">0.5</CssParameter>
              	</Stroke>
               </Mark>
-              <Size>4</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
