@@ -1,12 +1,12 @@
 <layer>
-  <name>LTTRMP_SURVEYS</name>
-  <id>LayerInfoImpl--558bdc10:1485e0de12a:-3e5f</id>
+  <name>ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_1971_GV</name>
+  <id>LayerInfoImpl-3c8070a5:14cc21afa81:2f8b</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--558bdc10:1485e0de12a:-3e60</id>
+    <id>FeatureTypeInfoImpl-3c8070a5:14cc21afa81:2f8a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -1,12 +1,12 @@
 <layer>
-  <name>LTTRMP_SURVEYS</name>
-  <id>LayerInfoImpl--558bdc10:1485e0de12a:-3e5f</id>
+  <name>DP1_CGardner_Effects_water_temp_thermoclines_larval_behaviour_giant_crab_GV</name>
+  <id>LayerInfoImpl-3c8070a5:14cc21afa81:2f67</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--558bdc10:1485e0de12a:-3e60</id>
+    <id>FeatureTypeInfoImpl-3c8070a5:14cc21afa81:2f66</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

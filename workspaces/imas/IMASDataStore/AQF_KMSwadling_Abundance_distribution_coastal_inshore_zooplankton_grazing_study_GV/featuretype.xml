@@ -1,21 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--558bdc10:1485e0de12a:-3e60</id>
-  <name>LTTRMP_SURVEYS</name>
-  <nativeName>LTTRMP_SURVEYS</nativeName>
+  <id>FeatureTypeInfoImpl-3c8070a5:14cc21afa81:2f5f</id>
+  <name>AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_grazing_study_GV</name>
+  <nativeName>AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_grazing_study_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Long Term Temperate Reef Monitoring Program Site Surveys</title>
-  <abstract>The data is quantitative abundance of fish, megafaunal invertebrates and percent algal cover derived from underwater visual census methods involving transect counts at rocky reef sites around Tasmania. This dataset allows examination of changes in Tasmanian shallow reef faunal and floral communities over a decadal scale - initial surveys were conducted in 1992-1995, and this dataset represents resurveys of the same sites that were conducted in 2006-2007. There are plans for ongoing surveys.</abstract>
+  <title>Abundance and distribution of coastal, inshore zooplankton in the Huon Estuary and D&apos;Entrecasteaux Channel, Tasmania: Grazing study in North West Bay</title>
   <keywords>
+    <string>AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_grazing_study_GV</string>
     <string>features</string>
-    <string>LTTRMP_SURVEYS</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
-      <metadataType>TC211</metadataType>
-      <content>http://mest.imas.utas.edu.au/geonetwork/srv/en/iso19139.xml?uuid=9cedf662-806f-4b13-b9d4-6aa3225b095c</content>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=c2d305d0-f7bc-41f7-843d-a4e772efa320</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -29,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>114.942168189</minx>
-    <maxx>150.839951562</maxx>
-    <miny>-43.644509362</miny>
-    <maxy>-30.120732261</maxy>
+    <minx>147.249999</minx>
+    <maxx>147.250001</maxx>
+    <miny>-43.250001</miny>
+    <maxy>-43.249999</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>114.942168189</minx>
-    <maxx>150.839951562</maxx>
-    <miny>-43.644509362</miny>
-    <maxy>-30.120732261</maxy>
+    <minx>147.249999</minx>
+    <maxx>147.250001</maxx>
+    <miny>-43.250001</miny>
+    <maxy>-43.249999</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -65,7 +64,7 @@
     </entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--558bdc10:1485e0de12a:-4ad7</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

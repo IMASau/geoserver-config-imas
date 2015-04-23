@@ -1,0 +1,59 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-6d38b415:14cda0176c2:-7f78</id>
+  <name>ACE_JRHunter_Historical_observations_sea_level_portarthur_GV</name>
+  <nativeName>ACE_JRHunter_Historical_observations_sea_level_portarthur_GV</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>Historical observations of sea level at Port Arthur, Tasmania</title>
+  <keywords>
+    <string>ACE_JRHunter_Historical_observations_sea_level_portarthur_GV</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=b7ef8b60-9323-11dc-9613-00188b4c0af8</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>147.582799</minx>
+    <maxx>147.582801</maxx>
+    <miny>-43.147200999999995</miny>
+    <maxy>-43.147199</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>147.582799</minx>
+    <maxx>147.582801</maxx>
+    <miny>-43.147200999999995</miny>
+    <maxy>-43.147199</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
