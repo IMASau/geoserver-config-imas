@@ -1,0 +1,72 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-4c2d46e6:138d5271d9a:-7fd5</id>
+  <name>SEAMAP_GEOSERVER_VIEW</name>
+  <nativeName>SEAMAP_GEOSERVER_VIEW</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
+  </namespace>
+  <title>SeaMap Habitat Data</title>
+  <keywords>
+    <string>SEAMAP_GEOSERVER_VIEW</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://mest.imas.utas.edu.au/geonetwork/srv/en/iso19139.xml?id=300</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 72 / UTM zone 55N&quot;, 
+  GEOGCS[&quot;WGS 72&quot;, 
+    DATUM[&quot;World Geodetic System 1972&quot;, 
+      SPHEROID[&quot;WGS 72&quot;, 6378135.0, 298.26, AUTHORITY[&quot;EPSG&quot;,&quot;7043&quot;]], 
+      TOWGS84[0.0, 0.0, 4.5, 0.0, 0.0, 0.554, 0.219], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6322&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32255&quot;]]</nativeCRS>
+  <srs>EPSG:32255</srs>
+  <nativeBoundingBox>
+    <minx>321319.78096795996</minx>
+    <maxx>616187.1698024698</maxx>
+    <miny>-4827279.221745955</miny>
+    <maxy>-4359535.658524551</maxy>
+    <crs class="projected">EPSG:32255</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>144.78718799604167</minx>
+    <maxx>148.4394445006124</maxx>
+    <miny>-43.598255819880706</miny>
+    <maxy>-39.36679642738305</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-4c2d46e6:138d5271d9a:-7fda</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
