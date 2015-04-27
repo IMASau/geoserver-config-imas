@@ -1,0 +1,25 @@
+<layer>
+  <name>MB_SPECIES_DISTRIBUTION_REDMAP_VIEW</name>
+  <id>LayerInfoImpl--49b8387a:13923c68d98:-3c1c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fed</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49b8387a:13923c68d98:-3c1d</id>
+  </resource>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="GWC.metaTilingX">4</entry>
+    <entry key="GWC.autoCacheStyles">true</entry>
+    <entry key="GWC.metaTilingY">4</entry>
+    <entry key="GWC.gutter">0</entry>
+    <entry key="GWC.enabled">true</entry>
+    <entry key="GWC.gridSets">EPSG:4326,EPSG:900913</entry>
+    <entry key="GWC.cacheFormats">image/jpeg,image/png</entry>
+  </metadata>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

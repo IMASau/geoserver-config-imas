@@ -1,0 +1,21 @@
+<dataStore>
+  <id>DataStoreInfoImpl--49b8387a:13923c68d98:-7f4d</id>
+  <name>IMASRedmap</name>
+  <description>IMAS Redmap</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--49b8387a:13923c68d98:-7f4f</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/redmap</entry>
+    <entry key="namespace">redmap</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="fetch size">1000</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
