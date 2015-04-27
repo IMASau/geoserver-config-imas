@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--338f9103:14c0791088d:-7ff8</id>
-  <name>NH1_CMCrawford_Biodiversity_degradation_GV</name>
-  <nativeName>NH1_CMCrawford_Biodiversity_degradation_GV</nativeName>
+  <id>FeatureTypeInfoImpl-3c8070a5:14cc21afa81:2f8c</id>
+  <name>ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_2000_GV</name>
+  <nativeName>ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_2000_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Biodiversity and degradation of estuaries</title>
+  <title>Zooplanktonic communities of south east Tasmania 2000-2001</title>
   <keywords>
     <string>features</string>
-    <string>NH1_CMCrawford_Biodiversity_degradation_GV</string>
+    <string>ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_2000_GV</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=f74a525d-d78d-4e8d-83b2-6ef5e08cb804</content>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=19535cf4-54a2-40a2-bb3c-f44b80f60761</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>144.9242212</minx>
-    <maxx>145.448742</maxx>
-    <miny>-40.885909999999996</miny>
-    <maxy>-40.72914</maxy>
+    <minx>147.994999</minx>
+    <maxx>147.995001</maxx>
+    <miny>-42.530001</miny>
+    <maxy>-42.529999000000004</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.9242212</minx>
-    <maxx>145.448742</maxx>
-    <miny>-40.885909999999996</miny>
-    <maxy>-40.72914</maxy>
+    <minx>147.994999</minx>
+    <maxx>147.995001</maxx>
+    <miny>-42.530001</miny>
+    <maxy>-42.529999000000004</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -49,20 +49,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-        <defaultValue/>
-      </dimensionInfo>
-    </entry>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
