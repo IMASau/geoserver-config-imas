@@ -15,60 +15,17 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF0000</CssParameter>
-                  <CssParameter name="fill-opacity">1.0</CssParameter>
+                  <CssParameter name="fill">#FFB222</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
                 </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+               </Stroke>
               </Mark>
-              <Size>24</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#EDE513</CssParameter>
-                  <CssParameter name="fill-opacity">1.0</CssParameter>
-                </Fill>
-              </Mark>
-              <Size>22</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>POT</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-weight">Bold</CssParameter>
-              <CssParameter name="font-size">14</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX>0.5</AnchorPointX>
-                  <AnchorPointY>0.5</AnchorPointY>
-                </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-15</DisplacementY>
-                </Displacement>
-              </PointPlacement>
-            </LabelPlacement>
-            <Halo>
-              <Radius>
-                <ogc:Literal>2</ogc:Literal>
-              </Radius>
-              <Fill>
-                <CssParameter name="fill">#FFFFFF</CssParameter>
-              </Fill>
-            </Halo>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-          </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
