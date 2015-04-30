@@ -12,10 +12,10 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">
-                <ogc:Literal>#EDE513</ogc:Literal>
+                <ogc:Literal>#FFB222</ogc:Literal>
               </CssParameter>
               <CssParameter name="fill-opacity">
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:Literal>0.5</ogc:Literal>
               </CssParameter>
             </Fill>
           </PolygonSymbolizer>
