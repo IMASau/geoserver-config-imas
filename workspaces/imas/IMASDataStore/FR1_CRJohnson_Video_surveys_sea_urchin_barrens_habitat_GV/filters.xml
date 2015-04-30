@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>site name</name>
+        <name>site_name</name>
         <type>string</type>
         <label>Site name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>subsite name</name>
+        <name>subsite_name</name>
         <type>string</type>
         <label>Subsite name</label>
         <visualised>true</visualised>
