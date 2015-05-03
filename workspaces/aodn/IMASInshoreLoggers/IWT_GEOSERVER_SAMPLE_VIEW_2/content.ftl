@@ -10,7 +10,7 @@
   <b>Depth: </b> ${feature.DEPTH.value}<BR>
   <b>Mooring Description: </b> ${feature.MOORING_DESCRIPTION.value}<BR>
   <b>Date UTC: </b> ${feature.DATETIME_UTC.value}<BR>
-  <b>Temp: </b> ${feature.TEMP_C.value}<BR>
+  <b>Temp: </b> ${feature.TEMP_C.value}<BR><BR>
 
  </div>
 	<#else>

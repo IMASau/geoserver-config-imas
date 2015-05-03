@@ -15,7 +15,7 @@
   <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}<BR>
   <b>Turbidity: </b> ${feature.TURBIDITY.value}<BR>
   <b>Ammonia: </b> ${feature.AMMONIA.value}<BR>
-  <b>Silicate: </b> ${feature.SILICATE.value}<BR>
+  <b>Silicate: </b> ${feature.SILICATE.value}<BR><BR>
 
  </div>
 	<#else>

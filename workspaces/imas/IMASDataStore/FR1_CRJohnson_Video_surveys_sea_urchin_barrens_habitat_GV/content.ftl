@@ -13,7 +13,7 @@
   <b>Macrocyctis: </b> ${feature.Macrocyctis.value}<BR>
   <b>Lessonia: </b> ${feature.Lessonia.value}<BR>
   <b>Durvillea: </b> ${feature.Durvillea.value}<BR>
-  <b>Carpoglossum: </b> ${feature.Carpoglossum.value}<BR>
+  <b>Carpoglossum: </b> ${feature.Carpoglossum.value}<BR><BR>
 
  </div>
 	<#else>

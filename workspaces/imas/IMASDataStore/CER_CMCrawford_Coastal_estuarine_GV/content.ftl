@@ -15,7 +15,7 @@
   <b>Turbidity: </b> ${feature.TURBIDITY.value}<BR>
   <b>Ammonia: </b> ${feature.AMMONIA.value}<BR>
   <b>Silicate: </b> ${feature.SILICATE.value}<BR>
-  <b>CHL A: </b> ${feature.CHL_A.value}<BR>
+  <b>CHL A: </b> ${feature.CHL_A.value}<BR><BR>
 
  </div>
 	<#else>
