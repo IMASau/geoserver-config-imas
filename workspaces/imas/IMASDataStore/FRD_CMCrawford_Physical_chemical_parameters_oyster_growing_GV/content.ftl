@@ -13,7 +13,7 @@
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value}<BR>
   <b>Nitrate: </b> ${feature.NITRATE.value}<BR>
   <b>Silicate: </b> ${feature.SILICATE.value}<BR>
-  <b>CHL A: </b> ${feature.CHL_A.value}<BR>
+  <b>CHL A: </b> ${feature.CHL_A.value}<BR><BR>
 
  </div>
 	<#else>

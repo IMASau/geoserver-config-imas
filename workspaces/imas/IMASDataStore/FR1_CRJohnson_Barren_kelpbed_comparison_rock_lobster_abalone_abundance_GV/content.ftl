@@ -18,7 +18,7 @@
   <b>Zonaria spp.: </b> ${feature.Zonaria_spp.value}<BR>
   <b>Sargassum spp.: </b> ${feature.Sargassum_spp.value}<BR>
   <b>Caulerpa flexilis: </b> ${feature.Caulerpa_flexilis.value}<BR>
-  <b>Acrocarpia paniculata: </b> ${feature.Acrocarpia_paniculata.value}<BR>
+  <b>Acrocarpia paniculata: </b> ${feature.Acrocarpia_paniculata.value}<BR><BR>
 
  </div>
 	<#else>

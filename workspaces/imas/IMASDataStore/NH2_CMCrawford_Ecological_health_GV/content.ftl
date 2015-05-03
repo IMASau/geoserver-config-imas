@@ -16,7 +16,7 @@
   <b>Nitrite: </b> ${feature.NITRITE.value}<BR>
   <b>Nox: </b> ${feature.NOX.value}<BR>
   <b>Ammonia: </b> ${feature.AMMONIA.value}<BR>
-  <b>CHL A: </b> ${feature.CHL_A.value}<BR>
+  <b>CHL A: </b> ${feature.CHL_A.value}<BR><BR>
 
  </div>
 	<#else>
