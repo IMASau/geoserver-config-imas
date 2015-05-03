@@ -22,9 +22,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Habitat_(Kelp_Barren)</name>
+        <name>Habitat_Kelp_Barren</name>
         <type>string</type>
-        <label>Habitat (Kelp Barren)</label>
+        <label>Habitat</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
