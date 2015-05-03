@@ -16,7 +16,7 @@
     </filter>
     <filter>
         <name>GEOM</name>
-        <type>Geometrygeometrypropertytype</type>
+        <type>geometrypropertytype</type>
         <label>GEOM</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
