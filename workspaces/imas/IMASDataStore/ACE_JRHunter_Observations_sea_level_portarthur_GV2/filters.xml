@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Datetime</name>
+        <type>datetime</type>
+        <label>Datetime</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>distance in mm measured DOWNWARDS from tide gauge zero to water surface</name>
+        <type>string</type>
+        <label>Distance in mm measured downwards from tide gauge zero to water surface</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
