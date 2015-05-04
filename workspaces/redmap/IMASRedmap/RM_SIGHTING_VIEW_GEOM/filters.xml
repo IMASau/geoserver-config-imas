@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>SIGHTING_DATE</name>
+        <type>datetime</type>
+        <label>Sighting Date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SPECIES_CATEGORY</name>
+        <type>string</type>
+        <label>Species Category</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SPECIES</name>
+        <type>string</type>
+        <label>Species</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>COMMON_NAME</name>
+        <type>string</type>
+        <label>Common Name</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>ACTIVITY_DESCRIPTION</name>
+        <type>string</type>
+        <label>Activity Description</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
