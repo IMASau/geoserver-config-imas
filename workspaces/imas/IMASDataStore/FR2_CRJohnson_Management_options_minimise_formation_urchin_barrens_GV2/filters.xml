@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
+        <name>Sub_project</name>
+        <type>string</type>
+        <label>Sub project</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>Date</name>
         <type>datetime</type>
         <label>Date</label>
@@ -11,6 +18,13 @@
         <name>Site</name>
         <type>string</type>
         <label>Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Habitat_Kelp_Barren</name>
+        <type>string</type>
+        <label>Habitat</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

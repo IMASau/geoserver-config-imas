@@ -21,11 +21,4 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
-    <filter>
-        <name>Trans_(No/Side)</name>
-        <type>string</type>
-        <label>Trans (No/Side)</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
 </filters>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>ESTUARY</name>
+        <type>string</type>
+        <label>Estuary</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SAMPLE_DATE</name>
+        <type>datetime</type>
+        <label>SAMPLE DATE</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>LOCATION</name>
+        <type>string</type>
+        <label>Location</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>

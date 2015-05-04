@@ -22,14 +22,14 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>147.873279</minx>
-    <maxx>148.958121</maxx>
+    <maxx>148.34792099999999</maxx>
     <miny>-43.141000999999996</miny>
     <maxy>-41.209039000000004</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>147.873279</minx>
-    <maxx>148.958121</maxx>
+    <maxx>148.34792099999999</maxx>
     <miny>-43.141000999999996</miny>
     <maxy>-41.209039000000004</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
@@ -42,6 +42,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
