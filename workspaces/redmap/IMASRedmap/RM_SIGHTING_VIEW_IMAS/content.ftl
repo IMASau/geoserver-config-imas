@@ -1,5 +1,5 @@
 <#import "config.ftl" as my>
-<h3>These are some of the species sighted at this point</h3>
+<h3>These are some of the species sighted at this point</h3><BR>
 
 
 <#list features as feature>
