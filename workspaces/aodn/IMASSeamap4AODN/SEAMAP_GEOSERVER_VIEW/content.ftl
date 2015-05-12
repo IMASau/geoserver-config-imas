@@ -1,6 +1,6 @@
+<h4>Please visit the metadata record for further information.</h4><BR>
 
-<h3>SeaMap Tasmania Habitat data</h3>
-<p><a href="http://mest.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=7a6751e0-1ad5-11dc-9e36-00188b4c0af8"  target="_blank"  rel="external" class="h3" title="http://mest.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=7a6751e0-1ad5-11dc-9e36-00188b4c0af8">Metadata record</a> 
+<p><a href="http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=7a6751e0-1ad5-11dc-9e36-00188b4c0af8"  target="_blank"  rel="external" class="h3" title="http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=7a6751e0-1ad5-11dc-9e36-00188b4c0af8">Metadata record</a> 
 </p>
 <#list features as feature>
 <#if (feature_index < 2) >
