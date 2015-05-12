@@ -25,9 +25,9 @@
       </gml>
     </entry>
     <entry>
-      <version>V_11</version>
+      <version>V_20</version>
       <gml>
-        <srsNameStyle>URN</srsNameStyle>
+        <srsNameStyle>URN2</srsNameStyle>
         <overrideGMLAttributes>false</overrideGMLAttributes>
       </gml>
     </entry>
