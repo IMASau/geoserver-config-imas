@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>the_geom</name>
+        <type>pointpropertytype</type>
+        <label>geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
