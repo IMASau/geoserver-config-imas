@@ -1,0 +1,84 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1548556e:14da9b69d4d:-7579</id>
+  <name>Openness_SA_Vic_Tas_merged_M</name>
+  <nativeName>Openness_SA_Vic_Tas_merged_M</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>Fetch-based exposure indices for temperate Australia</title>
+  <keywords>
+    <string>Openness_SA_Vic_Tas_merged_M</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=bc9916f6-e452-4039-9f17-fecea5376cbb</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS class="projected">PROJCS[&quot;GDA_1994_Geoscience_Australia_Lambert&quot;, 
+  GEOGCS[&quot;GCS_GDA_1994&quot;, 
+    DATUM[&quot;D_GDA_1994&quot;, 
+      SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH]], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>128.33102644914788</minx>
+    <maxx>149.05962582852953</maxx>
+    <miny>-44.230167537598355</miny>
+    <maxy>-30.894905396978565</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>128.33102644914788</minx>
+    <maxx>149.05962582852953</maxx>
+    <miny>-44.230167537598355</miny>
+    <maxy>-30.894905396978565</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1548556e:14da9b69d4d:-757a</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--1548556e:14da9b69d4d:-757a</id>
+  <name>NHill_SF</name>
+  <description>Nicole Hill - Shapefile</description>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Australia/Hobart</entry>
+    <entry key="fstype">shape</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:///mnt/rdsi/attachments/bc9916f6-e452-4039-9f17-fecea5376cbb/Openness_SA_Vic_Tas_merged_M.shp</entry>
+    <entry key="namespace">imas</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
