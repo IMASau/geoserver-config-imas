@@ -5,7 +5,7 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Survey Date:</b> ${feature.Date.value[0..9]}<BR>
+  <b>Survey Date:</b> ${feature.Date.value}<BR>
   <b>Species:</b> ${feature.Species.value}<BR>
   <b>Location:</b> ${feature.Location.value}<BR>
   <b>Depth:</b> ${feature.Depth.value}m<BR>
