@@ -14,9 +14,9 @@
   <b>Tissue percentage carbon:</b> ${feature.percent_C.value}&#37<BR>
   <b>Tissue percentage nitrogen: </b>${feature.percent_N.value}&#37<BR><BR>
 
- </div>
-<#else>
-<h6>More data is available at this location.</h6>
-<#break>
-  </#if>
+</div>
+	<#else>
+	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
+		<#break>
+</#if>
 </#list>
