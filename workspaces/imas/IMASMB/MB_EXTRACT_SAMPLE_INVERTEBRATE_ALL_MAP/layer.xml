@@ -1,0 +1,15 @@
+<layer>
+  <name>MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_MAP</name>
+  <id>LayerInfoImpl--4019d23:14dd2e9815d:-7fd7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4019d23:14dd2e9815d:-7fd8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
