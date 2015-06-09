@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4019d23:14dd2e9815d:-7fd6</id>
-  <name>MB_EXTRACT_SAMPLE_QUADRAT_MAP</name>
-  <nativeName>MB_EXTRACT_SAMPLE_QUADRAT_MAP</nativeName>
+  <id>FeatureTypeInfoImpl--4019d23:14dd5cd5984:52f1</id>
+  <name>MB_EXTRACT_SAMPLE_QUADRAT_DATA</name>
+  <nativeName>MB_EXTRACT_SAMPLE_QUADRAT_DATA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Condition of rocky reef communities around Tasmania: algal surveys</title>
   <keywords>
-    <string>MB_EXTRACT_SAMPLE_QUADRAT_MAP</string>
     <string>features</string>
+    <string>MB_EXTRACT_SAMPLE_QUADRAT_DATA</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -49,20 +49,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-        <defaultValue/>
-      </dimensionInfo>
-    </entry>
-    <entry key="cachingEnabled">false</entry>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--558bdc10:1485e0de12a:-4ad7</id>
   </store>

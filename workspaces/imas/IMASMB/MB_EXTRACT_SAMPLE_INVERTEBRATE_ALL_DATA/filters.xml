@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>LOCATION_DESCRIPTION</name>
+        <type>string</type>
+        <label>Location</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>true</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SURVEY_DATE</name>
+        <type>datetime</type>
+        <label>SURVEY DATE</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SPECIES_NAME</name>
+        <type>string</type>
+        <label>Species</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>FAMILY</name>
+        <type>string</type>
+        <label>Family</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
