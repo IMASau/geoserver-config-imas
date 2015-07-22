@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5a661a57:14eb3bf5093:-2415</id>
-  <name>TPW_NSBarrett_MacHarbour_O2_GV</name>
-  <nativeName>TPW_NSBarrett_MacHarbour_O2_GV</nativeName>
+  <id>FeatureTypeInfoImpl--5a661a57:14eb46e873d:-677b</id>
+  <name>TPW_NSBarrett_MacHarbour_O2_GV2</name>
+  <nativeName>TPW_NSBarrett_MacHarbour_O2_GV2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Macquarie Harbour WHA oxygen logger dataset</title>
   <keywords>
+    <string>TPW_NSBarrett_MacHarbour_O2_GV2</string>
     <string>features</string>
-    <string>TPW_NSBarrett_MacHarbour_O2_GV</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -49,9 +49,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
