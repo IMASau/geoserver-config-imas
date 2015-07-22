@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Location</name>
+        <type>string</type>
+        <label>Location</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>Geometry</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>true</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>DateTime_GMT+11</name>
+        <type>datetime</type>
+        <label>DateTime GMT+11</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
