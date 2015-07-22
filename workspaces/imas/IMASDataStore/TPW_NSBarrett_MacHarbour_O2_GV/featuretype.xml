@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5a661a57:14eb05bcf79:-7b4a</id>
+  <id>FeatureTypeInfoImpl--5a661a57:14eb3bf5093:-2415</id>
   <name>TPW_NSBarrett_MacHarbour_O2_GV</name>
   <nativeName>TPW_NSBarrett_MacHarbour_O2_GV</nativeName>
   <namespace>
@@ -30,15 +30,15 @@
   <nativeBoundingBox>
     <minx>145.466929</minx>
     <maxx>145.531711</maxx>
-    <miny>42.376579</miny>
-    <maxy>42.396370999999995</maxy>
+    <miny>-42.396370999999995</miny>
+    <maxy>-42.376579</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>145.466929</minx>
     <maxx>145.531711</maxx>
-    <miny>42.376579</miny>
-    <maxy>42.396370999999995</maxy>
+    <miny>-42.396370999999995</miny>
+    <maxy>-42.376579</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
