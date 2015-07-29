@@ -15,9 +15,9 @@
         <excludedFromDownload>true</excludedFromDownload>
     </filter>
     <filter>
-        <name>DateTime_GMT+11</name>
+        <name>DateTime</name>
         <type>datetime</type>
-        <label>DateTime GMT+11</label>
+        <label>DateTime</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
