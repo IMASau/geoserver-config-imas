@@ -64,4 +64,7 @@ Seawater from 3 m depth was supplied continuously from the ship’s clean seawat
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
 </featureType>
