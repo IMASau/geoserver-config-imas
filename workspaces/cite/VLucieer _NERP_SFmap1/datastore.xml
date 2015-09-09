@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl-93cc340:14fb1d9a2f0:-7fd8</id>
+  <name>VLucieer _NERP_SFmap1</name>
+  <description>Vanessa Lucieer: National Environmental Research Program - Seafloor map of the Flinders Commonwealth MPA</description>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--570ae188:124761b8d78:-7ff3</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Australia/Hobart</entry>
+    <entry key="fstype">shape</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:///mnt/rdsi/attachments/ed613567-55d1-4986-8a7b-004fcb66aaed</entry>
+    <entry key="namespace">http://www.opengeospatial.net/cite</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

@@ -14,8 +14,8 @@
     <entry key="create spatial index">true</entry>
     <entry key="charset">ISO-8859-1</entry>
     <entry key="filetype">shapefile</entry>
-    <entry key="enable spatial index">true</entry>
     <entry key="cache and reuse memory maps">true</entry>
+    <entry key="enable spatial index">true</entry>
     <entry key="url">file:///mnt/rdsi/attachments/bc9916f6-e452-4039-9f17-fecea5376cbb/Openness_SA_Vic_Tas_merged_M.shp</entry>
     <entry key="namespace">imas</entry>
   </connectionParameters>
