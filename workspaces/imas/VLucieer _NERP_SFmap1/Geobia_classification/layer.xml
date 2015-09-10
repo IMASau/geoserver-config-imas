@@ -1,12 +1,12 @@
 <layer>
   <name>Geobia_classification</name>
-  <id>LayerInfoImpl-93cc340:14fb1d9a2f0:-7fd2</id>
+  <id>LayerInfoImpl-1f8e0021:14fb4eeca48:-7ff9</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-93cc340:14fb1d9a2f0:-7fd3</id>
+    <id>FeatureTypeInfoImpl-1f8e0021:14fb4eeca48:-7ffa</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
