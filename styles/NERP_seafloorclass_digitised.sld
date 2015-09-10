@@ -16,11 +16,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Name>HD</sld:Name>
           <sld:Title>Hard</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
-              <ogc:Literal>*HD*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
+              <ogc:Literal>Hard</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>			
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#640000</sld:CssParameter>
@@ -31,12 +31,12 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Name>MX</sld:Name>
           <sld:Title>Mixed</sld:Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
-              <ogc:Literal>*MX*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
+              <ogc:Literal>Mixed</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>	
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#A1967A</sld:CssParameter>
@@ -48,11 +48,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Name>SFT</sld:Name>
           <sld:Title>Soft</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
-              <ogc:Literal>*SFT*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
+              <ogc:Literal>Soft</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>	
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
@@ -64,11 +64,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Name>UM</sld:Name>
           <sld:Title>Unmapped</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
-              <ogc:Literal>*VEG*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
+              <ogc:Literal>Unmapped</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>	
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:GraphicFill>
