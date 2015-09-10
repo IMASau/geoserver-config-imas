@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-93cc340:14fb1d9a2f0:-7fd3</id>
-  <name>Geobia_classification</name>
+  <name>GEOBIA_classification</name>
   <nativeName>Geobia_classification</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -66,6 +66,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-93cc340:14fb1d9a2f0:-7fd8</id>
   </store>
