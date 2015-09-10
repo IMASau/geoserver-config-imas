@@ -17,7 +17,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Hard</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>Substratum</ogc:PropertyName>
               <ogc:Literal>*HD*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -33,7 +33,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mixed</sld:Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>Substratum</ogc:PropertyName>
               <ogc:Literal>*MX*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -49,7 +49,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Soft</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>Substratum</ogc:PropertyName>
               <ogc:Literal>*SFT*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -65,7 +65,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Unmapped</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>Substratum</ogc:PropertyName>
               <ogc:Literal>*VEG*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
