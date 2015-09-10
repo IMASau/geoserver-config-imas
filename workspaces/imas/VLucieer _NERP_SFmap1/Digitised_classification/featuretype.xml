@@ -1,16 +1,11 @@
 <featureType>
-<<<<<<< HEAD
   <id>FeatureTypeInfoImpl-93cc340:14fb1d9a2f0:-7fd5</id>
   <name>DIGITISED_classification</name>
-=======
-  <id>FeatureTypeInfoImpl-1f8e0021:14fb4eeca48:-7ffc</id>
-  <name>Digitised_classification</name>
->>>>>>> origin/master
   <nativeName>Digitised_classification</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Digitised_classification</title>
+  <title>Seafloor map of the Flinders Commonwealth MPA: Digitised Classification</title>
   <keywords>
     <string>Digitised_classification</string>
     <string>features</string>
