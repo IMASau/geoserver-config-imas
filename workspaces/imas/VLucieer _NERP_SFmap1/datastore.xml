@@ -5,7 +5,7 @@
   <type>Directory of spatial files (shapefiles)</type>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl--570ae188:124761b8d78:-7ff3</id>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
   <connectionParameters>
     <entry key="memory mapped buffer">false</entry>
@@ -14,10 +14,10 @@
     <entry key="create spatial index">true</entry>
     <entry key="charset">ISO-8859-1</entry>
     <entry key="filetype">shapefile</entry>
-    <entry key="enable spatial index">true</entry>
     <entry key="cache and reuse memory maps">true</entry>
+    <entry key="enable spatial index">true</entry>
     <entry key="url">file:///mnt/rdsi/attachments/ed613567-55d1-4986-8a7b-004fcb66aaed</entry>
-    <entry key="namespace">http://www.opengeospatial.net/cite</entry>
+    <entry key="namespace">imas</entry>
   </connectionParameters>
   <__default>false</__default>
 </dataStore>
