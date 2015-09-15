@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-93cc340:14fb1d9a2f0:-7fd5</id>
-  <name>DIGITISED_classification</name>
-  <nativeName>Digitised_classification</nativeName>
+  <id>FeatureTypeInfoImpl-93cc340:14fb1d9a2f0:-7fd3</id>
+  <name>GEOBIA_classification_broken</name>
+  <nativeName>Geobia_classification</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Seafloor map of the Flinders Commonwealth MPA: Digitised Classification</title>
+  <title>Seafloor map of the Flinders Commonwealth MPA: Geobia Classification</title>
   <keywords>
-    <string>Digitised_classification</string>
     <string>features</string>
+    <string>Geobia_classification</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;WGS_1984_UTM_Zone_55S&quot;, 
   GEOGCS[&quot;GCS_WGS_1984&quot;, 
@@ -29,10 +29,10 @@
   AXIS[&quot;y&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>647418.4683072431</minx>
-    <maxx>651938.5316927568</maxx>
-    <miny>5499491.999999999</miny>
-    <maxy>5505449.999999999</maxy>
+    <minx>647418.4683</minx>
+    <maxx>651938.5316999999</maxx>
+    <miny>5499492.0</miny>
+    <maxy>5505450.0</maxy>
     <crs class="projected">PROJCS[&quot;WGS_1984_UTM_Zone_55S&quot;, 
   GEOGCS[&quot;GCS_WGS_1984&quot;, 
     DATUM[&quot;D_WGS_1984&quot;, 
@@ -52,10 +52,10 @@
   AXIS[&quot;y&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.74203510179376</minx>
-    <maxx>148.79686097939668</maxx>
-    <miny>-40.64227022806538</miny>
-    <maxy>-40.58780269904328</maxy>
+    <minx>148.74203510170824</minx>
+    <maxx>148.7968609794823</maxx>
+    <miny>-40.64227022806667</miny>
+    <maxy>-40.587802699041944</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
