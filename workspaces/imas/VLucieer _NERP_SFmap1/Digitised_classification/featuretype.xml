@@ -1,15 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-93cc340:14fb1d9a2f0:-7fd3</id>
-  <name>GEOBIA_classification_seafloor</name>
-  <nativeName>GEOBIA_classification_seafloor</nativeName>
+  <id>FeatureTypeInfoImpl--4f634408:14fd362af01:-7ffd</id>
+  <name>Digitised_classification</name>
+  <nativeName>Digitised_classification</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Seafloor map of the Flinders Commonwealth MPA: Geobia Classification</title>
+  <title>Seafloor map of the Flinders Commonwealth MPA: Digitised Classification</title>
   <keywords>
+    <string>Digitised_classification</string>
     <string>features</string>
-    <string>Geobia_classification</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=ed613567-55d1-4986-8a7b-004fcb66aaed</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;WGS_1984_UTM_Zone_55S&quot;, 
   GEOGCS[&quot;GCS_WGS_1984&quot;, 
     DATUM[&quot;D_WGS_1984&quot;, 
@@ -29,10 +36,10 @@
   AXIS[&quot;y&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>647418.4683</minx>
-    <maxx>651938.5316999999</maxx>
-    <miny>5499492.0</miny>
-    <maxy>5505450.0</maxy>
+    <minx>647418.4683072431</minx>
+    <maxx>651938.5316927568</maxx>
+    <miny>5499491.999999999</miny>
+    <maxy>5505449.999999999</maxy>
     <crs class="projected">PROJCS[&quot;WGS_1984_UTM_Zone_55S&quot;, 
   GEOGCS[&quot;GCS_WGS_1984&quot;, 
     DATUM[&quot;D_WGS_1984&quot;, 
@@ -52,10 +59,10 @@
   AXIS[&quot;y&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.74203510170824</minx>
-    <maxx>148.7968609794823</maxx>
-    <miny>-40.64227022806667</miny>
-    <maxy>-40.587802699041944</maxy>
+    <minx>148.74203510179376</minx>
+    <maxx>148.79686097939668</maxx>
+    <miny>-40.64227022806538</miny>
+    <maxy>-40.58780269904328</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -64,10 +71,21 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-93cc340:14fb1d9a2f0:-7fd8</id>
