@@ -1,0 +1,15 @@
+<layer>
+  <name>AAA_THREDDS_TEST_GV2</name>
+  <id>LayerInfoImpl-12a7a840:150407ab882:7ce1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-12a7a840:150407ab882:7ce0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
