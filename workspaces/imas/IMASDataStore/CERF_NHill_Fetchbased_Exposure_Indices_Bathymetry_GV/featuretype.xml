@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-12a7a840:150885c510f:-6f0f</id>
+  <name>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</name>
+  <nativeName>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</title>
+  <keywords>
+    <string>features</string>
+    <string>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=bc9916f6-e452-4039-9f17-fecea5376cbb</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:3112</srs>
+  <nativeBoundingBox>
+    <minx>-469575.12630099966</minx>
+    <maxx>1251703.6288009973</maxx>
+    <miny>-4736340.839300999</miny>
+    <maxy>-3553612.2305989997</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>128.45998460991194</minx>
+    <maxx>148.70954314575792</maxx>
+    <miny>-42.111113626517096</miny>
+    <maxy>-30.895747359487775</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
