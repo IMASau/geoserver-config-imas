@@ -22,13 +22,6 @@
   </metadata>
   <gml>
     <entry>
-      <version>V_20</version>
-      <gml>
-        <srsNameStyle>URN2</srsNameStyle>
-        <overrideGMLAttributes>false</overrideGMLAttributes>
-      </gml>
-    </entry>
-    <entry>
       <version>V_10</version>
       <gml>
         <srsNameStyle>URL</srsNameStyle>
@@ -39,6 +32,13 @@
       <version>V_11</version>
       <gml>
         <srsNameStyle>URN</srsNameStyle>
+        <overrideGMLAttributes>false</overrideGMLAttributes>
+      </gml>
+    </entry>
+    <entry>
+      <version>V_20</version>
+      <gml>
+        <srsNameStyle>URN2</srsNameStyle>
         <overrideGMLAttributes>false</overrideGMLAttributes>
       </gml>
     </entry>
