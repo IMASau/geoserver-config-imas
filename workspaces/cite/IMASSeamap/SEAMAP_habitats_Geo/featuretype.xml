@@ -40,10 +40,10 @@
     <crs class="projected">EPSG:900913</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.32311476552</minx>
-    <maxx>148.90288523448</maxx>
-    <miny>-43.77238523448002</miny>
-    <maxy>-39.192614765519984</maxy>
+    <minx>144.2773170608304</minx>
+    <maxx>148.9486829391696</maxx>
+    <miny>-43.81818293916962</miny>
+    <maxy>-39.14681706083039</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
