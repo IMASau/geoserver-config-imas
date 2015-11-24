@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -40,10 +40,10 @@
     <crs class="projected">EPSG:900913</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.45519000000002</minx>
-    <maxx>148.77080999999998</maxx>
-    <miny>-43.64031</miny>
-    <maxy>-39.32469</maxy>
+    <minx>144.32311476552</minx>
+    <maxx>148.90288523448</maxx>
+    <miny>-43.77238523448002</miny>
+    <maxy>-39.192614765519984</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -55,12 +55,12 @@
       </dimensionInfo>
     </entry>
     <entry key="cacheAgeMax">60</entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-31650bb1:132806df81b:-8000</id>

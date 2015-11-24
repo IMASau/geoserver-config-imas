@@ -46,10 +46,10 @@
     <crs class="projected">EPSG:900913</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.1645568543048</minx>
-    <maxx>149.11182182976995</maxx>
-    <miny>-43.96073829891396</miny>
-    <maxy>-39.013473323448856</maxy>
+    <minx>143.90709919815998</minx>
+    <maxx>149.36927948591477</maxx>
+    <miny>-44.21819595505882</miny>
+    <maxy>-38.756015667304</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -69,12 +69,12 @@
     </entry>
     <entry key="kml.regionateAttribute">Geometry</entry>
     <entry key="cacheAgeMax">60</entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
     <entry key="kml.regionateStrategy">geometry</entry>
   </metadata>
   <store class="dataStore">
