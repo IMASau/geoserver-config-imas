@@ -37,7 +37,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32255&quot;]]</nativeCRS>
-  <srs>EPSG:900913</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>1.6123169385400949E7</minx>
     <maxx>1.6524207751405524E7</maxx>
@@ -46,10 +46,10 @@
     <crs class="projected">EPSG:900913</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>143.90709919815998</minx>
-    <maxx>149.36927948591477</maxx>
-    <miny>-44.21819595505882</miny>
-    <maxy>-38.756015667304</maxy>
+    <minx>143.85247739528245</minx>
+    <maxx>149.4239012887923</maxx>
+    <miny>-44.272817757936366</miny>
+    <maxy>-38.70139386442645</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
