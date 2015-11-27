@@ -1,12 +1,12 @@
 <layer>
-  <name>IWT_GEOSERVER_TESTVIEW</name>
-  <id>LayerInfoImpl-169fad83:1514782d606:-6dc6</id>
+  <name>IWT_GEOSERVER_TESTVIEW2</name>
+  <id>LayerInfoImpl-169fad83:15147fb22ae:-224</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff2</id>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-169fad83:1514782d606:-6dc7</id>
+    <id>FeatureTypeInfoImpl-169fad83:15147fb22ae:-225</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
