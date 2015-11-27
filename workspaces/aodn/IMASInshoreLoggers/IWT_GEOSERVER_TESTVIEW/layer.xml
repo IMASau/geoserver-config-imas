@@ -1,12 +1,12 @@
 <layer>
-  <name>Openness_SA_Vic_Tas_merged_M</name>
-  <id>LayerInfoImpl--1548556e:14da9b69d4d:-7578</id>
+  <name>IWT_GEOSERVER_TESTVIEW</name>
+  <id>LayerInfoImpl-169fad83:1514782d606:-6dc6</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--1548556e:14da9b69d4d:-7579</id>
+    <id>FeatureTypeInfoImpl-169fad83:1514782d606:-6dc7</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
