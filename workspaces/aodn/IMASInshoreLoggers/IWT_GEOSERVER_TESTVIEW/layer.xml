@@ -1,0 +1,15 @@
+<layer>
+  <name>IWT_GEOSERVER_TESTVIEW</name>
+  <id>LayerInfoImpl-169fad83:151557e65e7:-1757</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-169fad83:151557e65e7:-1758</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
