@@ -50,6 +50,20 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <units>EPSG:5030</units>
+        <unitSymbol>m</unitSymbol>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
