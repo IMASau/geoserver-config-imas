@@ -15,7 +15,7 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>DATE_LOCAL</name>
+        <name>DATETIME_LOCAL</name>
         <type>datetime</type>
         <label>Date</label>
         <visualised>true</visualised>

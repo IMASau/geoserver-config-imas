@@ -49,6 +49,13 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-151a</id>
   </store>
