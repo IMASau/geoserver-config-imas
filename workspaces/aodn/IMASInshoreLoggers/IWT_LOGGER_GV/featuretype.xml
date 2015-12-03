@@ -1,13 +1,13 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-169fad83:15148598d24:26d7</id>
-  <name>IWT_GEOSERVER_SAMPLE_VIEW_2</name>
-  <nativeName>IWT_GEOSERVER_SAMPLE_VIEW_2</nativeName>
+  <id>FeatureTypeInfoImpl-169fad83:1515c937321:75c2</id>
+  <name>IWT_LOGGER_GV</name>
+  <nativeName>IWT_LOGGER_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
   </namespace>
-  <title>IWT_GEOSERVER_SAMPLE_VIEW_2</title>
+  <title>IWT_LOGGER_GV</title>
   <keywords>
-    <string>IWT_GEOSERVER_SAMPLE_VIEW_2</string>
+    <string>IWT_LOGGER_GV</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
@@ -49,23 +49,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-        <defaultValue/>
-      </dimensionInfo>
-    </entry>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-        <units>EPSG:5030</units>
-        <unitSymbol>m</unitSymbol>
-        <defaultValue/>
-      </dimensionInfo>
-    </entry>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-151a</id>
   </store>
