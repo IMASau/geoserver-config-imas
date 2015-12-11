@@ -51,10 +51,10 @@ SeaMap Tasmania is a project conducted at the Institute for Marine and Antarctic
     <crs class="projected">EPSG:32255</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.78718798672722</minx>
-    <maxx>148.43944450667385</maxx>
-    <miny>-43.5982560742825</miny>
-    <maxy>-39.366828711716046</maxy>
+    <minx>144.13442046451019</minx>
+    <maxx>149.09221202889088</maxx>
+    <miny>-43.96143817518962</miny>
+    <maxy>-39.003646610808936</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -72,12 +72,12 @@ SeaMap Tasmania is a project conducted at the Institute for Marine and Antarctic
         <defaultValue/>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-4c2d46e6:138d5271d9a:-7fda</id>

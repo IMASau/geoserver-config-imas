@@ -74,7 +74,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:GraphicFill>
                 <sld:Graphic>
                   <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="unknown.png" />
+                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/unknown.png" />
                     <sld:Format>image/png</sld:Format>
                   </sld:ExternalGraphic>
                   <sld:Size>
