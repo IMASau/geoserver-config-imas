@@ -59,10 +59,10 @@
   AXIS[&quot;y&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.74203510179376</minx>
-    <maxx>148.79686097939668</maxx>
-    <miny>-40.64227022806538</miny>
-    <maxy>-40.58780269904328</maxy>
+    <minx>148.73603182116057</minx>
+    <maxx>148.80286426002988</maxx>
+    <miny>-40.648452682989</miny>
+    <maxy>-40.58162024411966</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -80,12 +80,12 @@
         <defaultValue/>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-93cc340:14fb1d9a2f0:-7fd8</id>

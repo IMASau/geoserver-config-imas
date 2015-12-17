@@ -59,10 +59,10 @@
   AXIS[&quot;y&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.74203510170824</minx>
-    <maxx>148.7968609794823</maxx>
-    <miny>-40.64227022806667</miny>
-    <maxy>-40.587802699041944</maxy>
+    <minx>148.7360318210563</minx>
+    <maxx>148.80286426013427</maxx>
+    <miny>-40.648452683093296</miny>
+    <maxy>-40.58162024401531</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
