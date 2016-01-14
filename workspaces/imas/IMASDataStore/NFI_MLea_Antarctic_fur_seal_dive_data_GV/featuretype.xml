@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-604b7401:1523d8f611f:-6922</id>
+  <name>NFI_MLea_Antarctic_fur_seal_dive_data_GV</name>
+  <nativeName>NFI_MLea_Antarctic_fur_seal_dive_data_GV</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>NFI_MLea_Antarctic_fur_seal_dive_data_GV</title>
+  <keywords>
+    <string>features</string>
+    <string>NFI_MLea_Antarctic_fur_seal_dive_data_GV</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>ISO19115:2003</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=68642aed-c712-4724-b448-a8f7d3e1dadd</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>26.2</minx>
+    <maxx>83.6</maxx>
+    <miny>-62.4</miny>
+    <maxy>-35.3</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>26.2</minx>
+    <maxx>83.6</maxx>
+    <miny>-62.4</miny>
+    <maxy>-35.3</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
