@@ -16,10 +16,10 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Name>RF</sld:Name>
           <sld:Title>Reef</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Habitat</ogc:PropertyName>
-              <ogc:Literal>*Reef*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -32,10 +32,10 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Name>NR</sld:Name>
           <sld:Title>Non-Reef</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Habitat</ogc:PropertyName>
-              <ogc:Literal>*Non-Reef*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Non-Reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
