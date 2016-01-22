@@ -39,13 +39,16 @@
     <maxy>-4359535.658524551</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>143.70887276548092</minx>
-    <maxx>149.51775973117316</maxx>
-    <miny>-44.386969606478004</miny>
-    <maxy>-38.57808264078575</maxy>
+    <minx>143.650783895824</minx>
+    <maxx>149.57584860083008</maxx>
+    <miny>-44.445058476134925</miny>
+    <maxy>-38.51999377112883</maxy>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
