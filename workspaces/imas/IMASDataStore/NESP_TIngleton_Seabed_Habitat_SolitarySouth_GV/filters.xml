@@ -17,7 +17,7 @@
     <filter>
         <name>Label</name>
         <type>string</type>
-        <label>Habitat & Depth</label>
+        <label>Habitat AND depth</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
