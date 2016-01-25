@@ -17,14 +17,7 @@
     <filter>
         <name>Label</name>
         <type>string</type>
-        <label>Habitat & Depth</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>geom</name>
-        <type>geometrypropertytype</type>
-        <label>Geom</label>
+        <label>Label</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
