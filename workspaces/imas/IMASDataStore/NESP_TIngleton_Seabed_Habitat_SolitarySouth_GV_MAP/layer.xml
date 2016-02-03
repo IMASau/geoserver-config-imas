@@ -1,12 +1,12 @@
 <layer>
-  <name>NESP_SouthSolHAB_trial10m_GV</name>
-  <id>LayerInfoImpl-604b7401:152a56a70b0:5c3d</id>
+  <name>NESP_TIngleton_Seabed_Habitat_SolitarySouth_GV_MAP</name>
+  <id>LayerInfoImpl-604b7401:152a5a6c2e3:23d9</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-604b7401:15268106db1:-6f17</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-604b7401:152a56a70b0:5c3c</id>
+    <id>FeatureTypeInfoImpl-604b7401:152a5a6c2e3:23d8</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

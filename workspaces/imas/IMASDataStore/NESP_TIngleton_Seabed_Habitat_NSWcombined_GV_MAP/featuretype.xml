@@ -1,15 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-604b7401:152a56a70b0:5c3c</id>
-  <name>NESP_SouthSolHAB_trial10m_GV</name>
-  <nativeName>NESP_SouthSolHAB_trial10m_GV</nativeName>
+  <id>FeatureTypeInfoImpl-604b7401:152a5a6c2e3:23da</id>
+  <name>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV_MAP</name>
+  <nativeName>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NESP_SouthSolHAB_trial10m_GV</title>
+  <title>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV_MAP</title>
   <keywords>
+    <string>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV_MAP</string>
     <string>features</string>
-    <string>NESP_SouthSolHAB_trial10m_GV</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=78096d8e-66d7-4644-bf1c-4cf3261f0204</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -21,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>153.15322192128315</minx>
-    <maxx>153.32706342759667</maxx>
-    <miny>-30.32542234659195</miny>
-    <maxy>-30.15182699263096</maxy>
+    <minx>149.87229265272617</minx>
+    <maxx>153.69585651159286</maxx>
+    <miny>-37.507353123142614</miny>
+    <maxy>-28.135408461093903</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>153.15322192128315</minx>
-    <maxx>153.32706342759667</maxx>
-    <miny>-30.32542234659195</miny>
-    <maxy>-30.15182699263096</maxy>
+    <minx>149.87229265272617</minx>
+    <maxx>153.69585651159286</maxx>
+    <miny>-37.507353123142614</miny>
+    <maxy>-28.135408461093903</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
