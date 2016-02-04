@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4f634408:14fd362af01:-7ffb</id>
-  <name>Geobia_classification</name>
-  <nativeName>Geobia_classification</nativeName>
+  <id>FeatureTypeInfoImpl-604b7401:152a960540e:-2f51</id>
+  <name>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</name>
+  <nativeName>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Seafloor map of the Flinders Commonwealth MPA: Geobia Classification</title>
+  <title>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</title>
   <keywords>
     <string>features</string>
-    <string>Geobia_classification</string>
+    <string>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -17,52 +17,39 @@
       <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=ed613567-55d1-4986-8a7b-004fcb66aaed</content>
     </metadataLink>
   </metadataLinks>
-  <nativeCRS class="projected">PROJCS[&quot;WGS_1984_UTM_Zone_55S&quot;, 
-  GEOGCS[&quot;GCS_WGS_1984&quot;, 
-    DATUM[&quot;D_WGS_1984&quot;, 
-      SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 55S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
     UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Longitude&quot;, EAST], 
-    AXIS[&quot;Latitude&quot;, NORTH]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
   PARAMETER[&quot;false_easting&quot;, 500000.0], 
   PARAMETER[&quot;false_northing&quot;, 10000000.0], 
   UNIT[&quot;m&quot;, 1.0], 
-  AXIS[&quot;x&quot;, EAST], 
-  AXIS[&quot;y&quot;, NORTH]]</nativeCRS>
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
     <minx>647418.4683</minx>
     <maxx>651938.5316999999</maxx>
     <miny>5499492.0</miny>
     <maxy>5505450.0</maxy>
-    <crs class="projected">PROJCS[&quot;WGS_1984_UTM_Zone_55S&quot;, 
-  GEOGCS[&quot;GCS_WGS_1984&quot;, 
-    DATUM[&quot;D_WGS_1984&quot;, 
-      SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0], 
-    UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Longitude&quot;, EAST], 
-    AXIS[&quot;Latitude&quot;, NORTH]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 147.0], 
-  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
-  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
-  PARAMETER[&quot;false_easting&quot;, 500000.0], 
-  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
-  UNIT[&quot;m&quot;, 1.0], 
-  AXIS[&quot;x&quot;, EAST], 
-  AXIS[&quot;y&quot;, NORTH]]</crs>
+    <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.7360318210563</minx>
-    <maxx>148.80286426013427</maxx>
-    <miny>-40.648452683093296</miny>
-    <maxy>-40.58162024401531</maxy>
+    <minx>148.74203510170824</minx>
+    <maxx>148.7968609794823</maxx>
+    <miny>-40.64227022806667</miny>
+    <maxy>-40.587802699041944</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -77,7 +64,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-93cc340:14fb1d9a2f0:-7fd8</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

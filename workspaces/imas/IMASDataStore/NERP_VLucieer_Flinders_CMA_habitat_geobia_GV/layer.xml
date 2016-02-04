@@ -1,0 +1,20 @@
+<layer>
+  <name>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</name>
+  <id>LayerInfoImpl-604b7401:152a960540e:-2f50</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1f8e0021:14fb4eeca48:-6cb2</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1f8e0021:14fb4eeca48:-6cb2</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-604b7401:152a960540e:-2f51</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
