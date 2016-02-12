@@ -1,15 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-604b7401:15258e7bb0c:74e1</id>
-  <name>TEST_3_class_hab_4</name>
-  <nativeName>TEST_3_class_hab_4</nativeName>
+  <id>FeatureTypeInfoImpl-604b7401:152d40c91bc:-62df</id>
+  <name>NERP_NBarrett_TasFracture_CMR_AUV_GV</name>
+  <nativeName>NERP_NBarrett_TasFracture_CMR_AUV_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>TEST_3_class_hab_4</title>
+  <title>NERP_NBarrett_TasFracture_CMR_AUV_GV</title>
   <keywords>
-    <string>TEST_3_class_hab_4</string>
     <string>features</string>
+    <string>NERP_NBarrett_TasFracture_CMR_AUV_GV</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=69ca0060-c59a-4eb1-8f02-0e892298b604</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -21,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>514727.68242945</minx>
-    <maxx>530762.48828125</maxx>
-    <miny>6646542.064260417</miny>
-    <maxy>6655019.248760417</maxy>
+    <minx>146.2756568</minx>
+    <maxx>146.2949795</maxx>
+    <miny>-43.7554729</miny>
+    <maxy>-43.7371867</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>514727.68242945</minx>
-    <maxx>530762.48828125</maxx>
-    <miny>6646542.064260417</miny>
-    <maxy>6655019.248760417</maxy>
+    <minx>146.2756568</minx>
+    <maxx>146.2949795</maxx>
+    <miny>-43.7554729</miny>
+    <maxy>-43.7371867</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -42,6 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
