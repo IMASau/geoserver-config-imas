@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Non Reef 0 - 20m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Lable</ogc:PropertyName>
+              <ogc:PropertyName>Label</ogc:PropertyName>
               <ogc:Literal>Non Reef 0 - 20m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Non Reef 20 - 60m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Lable</ogc:PropertyName>
+              <ogc:PropertyName>Label</ogc:PropertyName>
               <ogc:Literal>Non Reef 20 - 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Non Reef > 60m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Lable</ogc:PropertyName>
+              <ogc:PropertyName>Label</ogc:PropertyName>
               <ogc:Literal>Non Reef > 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef 0 - 20m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Lable</ogc:PropertyName>
+              <ogc:PropertyName>Label</ogc:PropertyName>
               <ogc:Literal>Reef 0 - 20m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef 20 - 60m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Lable</ogc:PropertyName>
+              <ogc:PropertyName>Label</ogc:PropertyName>
               <ogc:Literal>Reef 20 - 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -91,13 +91,13 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef > 60m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Lable</ogc:PropertyName>
+              <ogc:PropertyName>Label</ogc:PropertyName>
               <ogc:Literal>Reef > 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#000099</sld:CssParameter>
+              <sld:CssParameter name="fill">#000080</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
