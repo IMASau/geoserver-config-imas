@@ -8,13 +8,6 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Depth</name>
-        <type>string</type>
-        <label>Depth strata</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>Label</name>
         <type>string</type>
         <label>Label</label>

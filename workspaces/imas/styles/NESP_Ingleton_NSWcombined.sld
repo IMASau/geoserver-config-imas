@@ -13,12 +13,11 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Name>ISL</sld:Name>
           <sld:Title>Island</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Habitat</ogc:PropertyName>
-              <ogc:Literal>Island</ogc:Literal>
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Island 0m</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -27,39 +26,97 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>	        
         <sld:Rule>
-          <sld:Name>RF</sld:Name>
-          <sld:Title>Reef</sld:Title>
+          <sld:Title>Non Reef 0 - 20m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Habitat</ogc:PropertyName>
-              <ogc:Literal>Reef</ogc:Literal>
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Non Reef 0 - 20m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#640000</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffffcc</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>NR</sld:Name>
-          <sld:Title>Non-Reef</sld:Title>
+          <sld:Title>Non Reef 20 - 60m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Habitat</ogc:PropertyName>
-              <ogc:Literal>Non-Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Non Reef 20 - 60m</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffce99</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Non Reef > 60m</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Non Reef > 60m</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ff9c33</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Reef 0 - 20m</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Reef 0 - 20m</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b3b3ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Reef 20 - 60m</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Reef 20 - 60m</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#4d4dff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Reef > 60m</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Label</ogc:PropertyName>
+              <ogc:Literal>Reef > 60m</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#000080</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>			
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
