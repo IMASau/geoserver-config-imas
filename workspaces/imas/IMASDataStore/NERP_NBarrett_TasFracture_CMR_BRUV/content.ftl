@@ -12,9 +12,11 @@
   <b>Zone: </b> ${feature.Zone.value}<BR>      
   <b>CATAMI substrate classification: </b> ${feature.CATAMI_Sup.value}<BR>
   <b>CATAMI biota classification: </b> ${feature.CATAMI_biota.value}<BR><BR>
-  <b>Species: </b> ${feature.Species.value}<BR>
+  
+  <b>Taxon: </b> ${feature.Species_Nam.value}<BR>
   <b>CAAB code: </b> ${feature.Code.value}<BR>
-  <b>Max. N: </b> ${feature.MaxN.value}<BR><BR>
+  <b>Max. N: </b> ${feature.MaxN.value}<BR>
+  <b>Has fed? </b> ${feature.Has_fed.value}<BR><BR>
 
 
  
