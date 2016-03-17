@@ -1,0 +1,29 @@
+<settings>
+  <id>SettingsInfoImpl--21ff83f9:15382a7cf0b:-7ff1</id>
+  <workspace>
+    <id>WorkspaceInfoImpl--570ae188:124761b8d78:-7ff3</id>
+    <name>cite</name>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <addressCountry>Australia</addressCountry>
+    <addressState>Tasmania</addressState>
+    <contactEmail>IMAS.DataManager@utas.edu.au</contactEmail>
+    <contactOrganization>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</contactOrganization>
+    <contactPerson>Data Manager</contactPerson>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>4</numDecimals>
+  <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
+  <verbose>true</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+</settings>
