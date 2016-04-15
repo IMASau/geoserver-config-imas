@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>REGION_DESCRIPTION</name>
+        <type>string</type>
+        <label>REGION DESCRIPTION</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SITE_NAME</name>
+        <type>string</type>
+        <label>SITE NAME</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>DATETIME_LOCAL</name>
+        <type>datetime</type>
+        <label>DATETIME LOCAL</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
