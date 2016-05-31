@@ -15,6 +15,13 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>DATETIME_LOCAL</name>
         <type>datetime</type>
         <label>DATETIME LOCAL</label>
