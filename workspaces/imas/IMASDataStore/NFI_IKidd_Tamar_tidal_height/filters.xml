@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>date_time</name>
+        <type>datetime</type>
+        <label>Date time</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
