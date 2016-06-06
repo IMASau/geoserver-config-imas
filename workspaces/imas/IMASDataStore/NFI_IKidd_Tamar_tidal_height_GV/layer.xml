@@ -1,0 +1,15 @@
+<layer>
+  <name>NFI_IKidd_Tamar_tidal_height_GV</name>
+  <id>LayerInfoImpl--68e5e5c7:155236738db:-792d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-145546ae:14cb533292d:-358e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--68e5e5c7:155236738db:-792e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--68e5e5c7:1551c83d367:46a9</id>
+  <name>NFI_IKidd_Tamar_tidal_height</name>
+  <nativeName>NFI_IKidd_Tamar_tidal_height</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>NFI_IKidd_Tamar_tidal_height</title>
+  <keywords>
+    <string>NFI_IKidd_Tamar_tidal_height</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au:/geonetwork/srv/en/metadata.show?uuid=cf40574e-79b0-4f92-9038-8e5a9c4cb294</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.0</minx>
+    <maxx>0.0</maxx>
+    <miny>-1.0</miny>
+    <maxy>0.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>147.12311</minx>
+    <maxx>147.13547</maxx>
+    <miny>-41.43883</miny>
+    <maxy>-41.43059</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
