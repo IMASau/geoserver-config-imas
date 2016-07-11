@@ -7,14 +7,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Green Point</Name>
+    <Name>Green Point - CIRCLE</Name>
     <UserStyle>
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Rule 1</Name>
-          <Title>GreenCircle</Title>
-          <Abstract>A green fill with an 11 pixel size</Abstract>
+          <Title>Sampling locations</Title>
+          <Abstract>A green fill with a 7 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -23,7 +23,7 @@
                   <CssParameter name="fill">#28A526</CssParameter>
                 </Fill>
               </Mark>
-              <Size>6</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
