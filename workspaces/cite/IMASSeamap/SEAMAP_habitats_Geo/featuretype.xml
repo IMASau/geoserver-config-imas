@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -33,18 +33,24 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32255&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>1.6117636041E7</minx>
-    <maxx>1.6524203375E7</maxx>
-    <miny>-5403480.381</miny>
-    <maxy>-4774349.034</maxy>
-    <crs class="projected">EPSG:900913</crs>
+    <minx>144.78718799604167</minx>
+    <maxx>148.4394445006124</maxx>
+    <miny>-43.598255819880706</miny>
+    <maxy>-39.36679642738305</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.2773170608304</minx>
-    <maxx>148.9486829391696</maxx>
-    <miny>-43.81818293916962</miny>
-    <maxy>-39.14681706083039</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>144.78718799604167</minx>
+    <maxx>148.4394445006124</maxx>
+    <miny>-43.598255819880706</miny>
+    <maxy>-39.36679642738305</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
@@ -55,12 +61,12 @@
       </dimensionInfo>
     </entry>
     <entry key="cacheAgeMax">60</entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-31650bb1:132806df81b:-8000</id>
