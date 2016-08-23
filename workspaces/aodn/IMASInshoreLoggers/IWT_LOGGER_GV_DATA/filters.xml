@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>SITE_NAME</name>
-        <type>string</type>
-        <label>Site Name</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>REGION_DESCRIPTION</name>
         <type>string</type>
         <label>Region Description</label>
@@ -15,16 +8,23 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>DATETIME_LOCAL</name>
+        <name>SITE_NAME</name>
         <type>string</type>
-        <label>Date</label>
+        <label>Site Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>geom</name>
+        <name>GEOM</name>
         <type>geometrypropertytype</type>
-        <label>Geom</label>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>DATETIME_LOCAL</name>
+        <type>datetime</type>
+        <label>DATETIME LOCAL</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

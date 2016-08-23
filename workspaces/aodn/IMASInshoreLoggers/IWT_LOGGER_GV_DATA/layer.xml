@@ -1,12 +1,12 @@
 <layer>
-  <name>IWT_LOGGER_GV</name>
-  <id>LayerInfoImpl-169fad83:1515c937321:75c3</id>
+  <name>IWT_LOGGER_GV_DATA</name>
+  <id>LayerInfoImpl-6803348a:156b51370e2:-2fb7</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffd</id>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-169fad83:1515c937321:75c2</id>
+    <id>FeatureTypeInfoImpl-6803348a:156b51370e2:-2fb8</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

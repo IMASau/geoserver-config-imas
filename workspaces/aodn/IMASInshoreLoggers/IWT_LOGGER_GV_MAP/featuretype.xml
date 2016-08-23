@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-169fad83:1515c937321:75c4</id>
-  <name>IWT_LOGGER_GV2</name>
-  <nativeName>IWT_LOGGER_GV2</nativeName>
+  <id>FeatureTypeInfoImpl-6803348a:156b51370e2:-2fb6</id>
+  <name>IWT_LOGGER_GV_MAP</name>
+  <nativeName>IWT_LOGGER_GV_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
   </namespace>
-  <title>IWT_LOGGER_GV2</title>
+  <title>IWT_LOGGER_GV_MAP</title>
   <keywords>
+    <string>IWT_LOGGER_GV_MAP</string>
     <string>features</string>
-    <string>IWT_LOGGER_GV2</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -49,6 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-151a</id>
   </store>

@@ -1,0 +1,20 @@
+<layer>
+  <name>IWT_LOGGER_GV_MAP</name>
+  <id>LayerInfoImpl-6803348a:156b51370e2:-2fb5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff7</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6803348a:156b51370e2:-2fb6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
