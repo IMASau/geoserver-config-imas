@@ -8,7 +8,7 @@
 
   <b>Region description: </b> ${feature.REGION_DESCRIPTION.value}<BR>  
   <b>Site name: </b> ${feature.SITE_NAME.value}<BR>
-  <b>Date (local): </b> ${feature.DATETIME_LOCAL.value[0..10]}<BR>      
+  <b>Date (local): </b> ${feature.DATETIME_LOCAL.value[0..11]}<BR>      
   <b>Logged temperature: </b> ${feature.TEMP_C.value[0..4]} &#176C<BR><BR>
 
 
