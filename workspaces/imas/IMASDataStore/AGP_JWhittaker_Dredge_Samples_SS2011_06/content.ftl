@@ -7,7 +7,7 @@
   <div class="feature"> 
   
   Dredge site no. ${feature.SiteNum.value}<BR>  
-  Plate no. </b> ${feature.PLATEID1.value}<BR>
+  Plate no. </b> ${feature.PLATEID1.value}<BR><BR>
  
  </div>
 	<#else>
