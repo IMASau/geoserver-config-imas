@@ -21,7 +21,7 @@ Isotopic signatures and nutrients in kelp & sediment<BR><BR>
   <b>Sediment d15N: </b> ${feature.Sed_d15N_AIR.value}<BR> &#8240
   <b>Kelp d15N: </b> ${feature.Kelp_d15N_AIR.value}<BR> &#8240
   <b>Kelp d13C: </b> ${feature.Kelp_d13C_VPDB.value}<BR> &#8240
-  <b>Kelp C:N molar ratio: </b> ${feature.Kelp_C.N_molar.value}<BR>
+  <b>Kelp C:N molar ratio: </b> ${feature.Kelp_CN_molar.value}<BR>
   <b>Sediment TOC: </b> ${feature.TOC_mg_per_Kg.value} mg/kg<BR>
   <b>Sediment concentration of N: </b> ${feature.Sed_N_mg_per_Kg.value} mg/kg<BR>  
   <b>Sediment concentration of P: </b> ${feature.Sed_P_mg_per_Kg.value} mg/kg<BR><BR>  
