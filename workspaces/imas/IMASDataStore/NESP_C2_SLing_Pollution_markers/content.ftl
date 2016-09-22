@@ -7,7 +7,7 @@
   <div class="feature"> 
   <b>NESP site code: </b> ${feature.NESP_site_code.value}<BR>
   <b>Depth: </b> ${feature.Depth.value} m<BR>
-  <b>Date: </b> ${feature.Sampling_date.value[0..11]}<BR><BR>  
+  <b>Date: </b> ${feature.Sampling_date.value[0..7]}<BR><BR>  
 
 Concentration of metals in sediment (mg/kg)<BR>
 
