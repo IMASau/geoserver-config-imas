@@ -13,7 +13,7 @@
       <FeatureTypeStyle>
         <Rule>
           <Name>Rule 1</Name>
-          <Title>OrangeSquare</Title>
+          <Title>Observation</Title>
           <Abstract>A orange fill with an 11 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>

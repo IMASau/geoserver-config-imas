@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3ea8dad8:15792c76970:7724</id>
+  <name>NESP_D1_UWA_OS_OpportunisticMegafauna2012_other</name>
+  <nativeName>NESP_D1_UWA_OS_OpportunisticMegafauna2012_other</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>NESP_D1_UWA_OS_OpportunisticMegafauna2012_other</title>
+  <keywords>
+    <string>NESP_D1_UWA_OS_OpportunisticMegafauna2012_other</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au:/geonetwork/srv/en/metadata.show?uuid=99208235-d68e-4039-bf77-362549a7aa48</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-1.0</minx>
+    <maxx>0.0</maxx>
+    <miny>-1.0</miny>
+    <maxy>0.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.0</minx>
+    <maxx>0.0</maxx>
+    <miny>-1.0</miny>
+    <maxy>0.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
