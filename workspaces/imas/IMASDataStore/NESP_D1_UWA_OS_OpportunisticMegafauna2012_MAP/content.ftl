@@ -6,12 +6,12 @@
 
 <div class="feature">
   <b>Location: </b> ${feature.Location.value}<BR>
-  <b>Observation date/time: </b> ${feature.Date.value[0..11]} ${feature.Time_UTC.value}<BR>
+  <b>Observation date: </b> ${feature.Date.value[0..11]}, sighted at ${feature.Time_UTC.value[0..4]}<BR>
   <b>Taxon: </b> ${feature.Taxon.value}<BR>
   <b>Species: </b> ${feature.Species.value}<BR>
   
   <#if feature.Taxon.value == "Cetacean">
-  <b>Individuals observed (adults, calves): </b> ${feature.Total_No.value} (${feature.Adults.value}, ${feature.Calves.value})<BR>
+  <b>Total no. observed: </b> ${feature.Total_No.value} (${feature.Adults.value} adults, ${feature.Calves.value} calves)<BR>
   <b>Confidence of count: </b> ${feature.Confidence_group.value}<BR>
   <b>Confidence of ID: </b> ${feature.Confidence_ID.value}<BR><BR>
   </#if>	
