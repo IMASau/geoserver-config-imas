@@ -6,7 +6,7 @@
 
 <div class="feature">
   <b>Location: </b> ${feature.Location.value}<BR>
-  <b>Observation date/time: </b> ${feature.Date?date("mm-dd-yyyy")} ${feature.Time_UTC.value}<BR>
+  <b>Observation date/time: </b> ${feature.Date?date} ${feature.Time_UTC.value}<BR>
   <b>Taxon: </b> ${feature.Taxon.value}<BR>
   <b>Species: </b> ${feature.Species.value}<BR>
   
