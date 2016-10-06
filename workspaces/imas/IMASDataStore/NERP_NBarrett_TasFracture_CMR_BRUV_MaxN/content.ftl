@@ -8,7 +8,7 @@
 
   <b>Video file name:</b> ${feature.Filename.value}<BR>  
   <b>Time (mins):</b> ${feature.Time_mins.value}<BR>
-  <b>Depth:</b> ${feature.Depth.value} m<BR>  
+  <b>Depth:</b> ${feature.Depth.value[0..6]?abs} m<BR>  
   <b>Zone:</b> ${feature.Zone.value}<BR>      
   <b>CATAMI substrate classification:</b> ${feature.CATAMI_Sup.value}<BR>
   <b>CATAMI biota classification:</b> ${feature.CATAMI_biota.value}<BR><BR>
