@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Zone</name>
+        <type>string</type>
+        <label>Zone</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>

@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--72e8c848:153442f9be1:-52bf</id>
-  <name>NERP_NBarrett_TasFracture_CMR_BRUV</name>
-  <nativeName>NERP_NBarrett_TasFracture_CMR_BRUV</nativeName>
+  <id>FeatureTypeInfoImpl--3ea8dad8:15793887a18:-5eda</id>
+  <name>NERP_NBarrett_TasFracture_CMR_BRUV_MaxN</name>
+  <nativeName>NERP_NBarrett_TasFracture_CMR_BRUV_MaxN</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NERP_NBarrett_TasFracture_CMR_BRUV</title>
+  <title>NERP_NBarrett_TasFracture_CMR_BRUV_MaxN</title>
   <keywords>
-    <string>NERP_NBarrett_TasFracture_CMR_BRUV</string>
     <string>features</string>
+    <string>NERP_NBarrett_TasFracture_CMR_BRUV_MaxN</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=36e7e8e5-6ec4-4a3a-9382-b244f0f062e1</content>
+      <content>http://metadata.imas.utas.edu.au:/geonetwork/srv/en/metadata.show?uuid=36e7e8e5-6ec4-4a3a-9382-b244f0f062e1</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -49,6 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
