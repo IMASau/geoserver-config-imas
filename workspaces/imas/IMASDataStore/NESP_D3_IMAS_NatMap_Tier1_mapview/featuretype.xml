@@ -1,13 +1,13 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157bb635de2:2da5</id>
-  <name>NESP_D3_IMAS_NatMap_Tier1</name>
-  <nativeName>NESP_D3_IMAS_NatMap_Tier1</nativeName>
+  <id>FeatureTypeInfoImpl--3ea8dad8:157bb635de2:5820</id>
+  <name>NESP_D3_IMAS_NatMap_Tier1_mapview</name>
+  <nativeName>NESP_D3_IMAS_NatMap_Tier1_mapview</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NESP_D3_IMAS_NatMap_Tier1</title>
+  <title>NESP_D3_IMAS_NatMap_Tier1_mapview</title>
   <keywords>
-    <string>NESP_D3_IMAS_NatMap_Tier1</string>
+    <string>NESP_D3_IMAS_NatMap_Tier1_mapview</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
