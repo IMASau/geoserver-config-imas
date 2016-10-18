@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157bb635de2:-a2b</id>
-  <name>SeamapAus_NSW_estuarine_fisheries_VISmap</name>
-  <nativeName>SeamapAus_NSW_estuarine_fisheries_VISmap</nativeName>
+  <id>FeatureTypeInfoImpl--3ea8dad8:157d5b53711:7e49</id>
+  <name>SeamapAus_NSW_estuarine_inventory</name>
+  <nativeName>SeamapAus_NSW_estuarine_inventory</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NSW_estuarine_fisheries_VISmap</title>
+  <title>SeamapAus_NSW_estuarine_inventory</title>
   <keywords>
-    <string>SeamapAus_NSW_estuarine_fisheries_VISmap</string>
     <string>features</string>
+    <string>SeamapAus_NSW_estuarine_inventory</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 

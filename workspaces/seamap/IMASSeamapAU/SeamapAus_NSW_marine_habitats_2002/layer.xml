@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_NSW_estuarine_fisheries_VISmap</name>
-  <id>LayerInfoImpl--3ea8dad8:157bb635de2:-a2a</id>
+  <name>SeamapAus_NSW_marine_habitats_2002</name>
+  <id>LayerInfoImpl--3ea8dad8:157d5b53711:7e4c</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3ea8dad8:157bb635de2:-a2b</id>
+    <id>FeatureTypeInfoImpl--3ea8dad8:157d5b53711:7e4b</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
