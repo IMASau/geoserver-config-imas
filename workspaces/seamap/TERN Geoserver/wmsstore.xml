@@ -1,6 +1,7 @@
 <wmsStore>
   <id>WMSStoreInfoImpl--3ea8dad8:157d6d08d00:bf1</id>
-  <name>TERN</name>
+  <name>TERN Geoserver</name>
+  <description>SeamapAus WA seagrass data</description>
   <type>WMS</type>
   <enabled>true</enabled>
   <workspace>
