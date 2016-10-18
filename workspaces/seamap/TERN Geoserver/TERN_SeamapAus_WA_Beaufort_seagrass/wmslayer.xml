@@ -1,0 +1,50 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:c1e</id>
+  <name>TERN_SeamapAus_WA_Beaufort_seagrass</name>
+  <nativeName>acef-default:WA_Beaufort_SAV_polygons_reproj</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>WA Beaufort Seagrass 2009</title>
+  <description></description>
+  <keywords>
+    <string>features</string>
+    <string>WA_Beaufort_SAV_polygons_reproj</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
+  DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+    TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
+  <srs>EPSG:4283</srs>
+  <nativeBoundingBox>
+    <minx>118.853303945555</minx>
+    <maxx>118.905414496886</maxx>
+    <miny>-34.4708591985575</miny>
+    <maxy>-34.4471929042328</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>118.85330394555501</minx>
+    <maxx>118.905414496886</maxx>
+    <miny>-34.47085919767673</miny>
+    <maxy>-34.44719290335232</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--3ea8dad8:157d6d08d00:bf1</id>
+  </store>
+</wmsLayer>
