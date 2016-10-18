@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_StokesInlet_seagrass_2009</name>
+  <id>LayerInfoImpl--3ea8dad8:157d6d08d00:c38</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:c37</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
