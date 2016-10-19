@@ -1,15 +1,17 @@
 <wmsLayer>
-  <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:c1c</id>
-  <name>TERN_SeamapAus_WA_WilsonsInlet_seagrass_2008</name>
-  <nativeName>acef-default:WA_Seagrass_wi_2008_gda94z50_reproj</nativeName>
+  <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:c01</id>
+  <name>TERN_SeamapAus_WA_PrincessRoyal_seagrass_2006</name>
+  <nativeName>acef-default:WA_Seagrass_prh_2006_gda94_z50_reproj</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>WA Wilson Inlet Seagrass 2008</title>
+  <title>Seamap Australia - WA - Princess Royal Harbour seagrass 2006</title>
   <description></description>
   <keywords>
-    <string>WA_Seagrass_wi_2008_gda94z50_reproj</string>
-    <string>features</string>
+    <string>habitat mapping</string>
+    <string>seagrass</string>
+    <string>Seamap Australia</string>
+    <string>Terrestrial Ecosystem Research Network (TERN)</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -23,17 +25,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
   <srs>EPSG:4283</srs>
   <nativeBoundingBox>
-    <minx>117.331366499802</minx>
-    <maxx>117.479803321428</maxx>
-    <miny>-35.0222507032841</miny>
-    <maxy>-34.966963949631</maxy>
+    <minx>117.849051373281</minx>
+    <maxx>117.922992549826</maxx>
+    <miny>-35.0801433389812</miny>
+    <maxy>-35.0277550507692</maxy>
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>117.32836807600513</minx>
-    <maxx>117.48280174522485</maxx>
-    <miny>-35.07182416018062</miny>
-    <maxy>-34.917390490960905</maxy>
+    <minx>117.84905137328101</minx>
+    <maxx>117.92299254982599</maxx>
+    <miny>-35.08014333809345</miny>
+    <maxy>-35.02775504988204</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

@@ -1,11 +1,11 @@
 <wmsLayer>
-  <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:bf3</id>
-  <name>TERN_SeamapAus_WA_HardysInlet_seagrass</name>
-  <nativeName>acef-default:WA_MAFRL_seagrass_gda94_z50_reproj3</nativeName>
+  <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:c15</id>
+  <name>TERN_SeamapAus_WA_WilsonInlet_seagrass_2007</name>
+  <nativeName>acef-default:WA_Seagrass_wi_2007_gda94_z50_reproj</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>WA Hardy Inlet Seagrass 2008</title>
+  <title>Seamap Australia - WA - Wilson Inlet seagrass 2007</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>
@@ -25,17 +25,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
   <srs>EPSG:4283</srs>
   <nativeBoundingBox>
-    <minx>115.143847999995</minx>
-    <maxx>115.226031999996</maxx>
-    <miny>-34.3244796689416</miny>
-    <maxy>-34.259823</maxy>
+    <minx>117.326423163283</minx>
+    <maxx>117.479769387537</maxx>
+    <miny>-35.0263140575779</miny>
+    <maxy>-34.9669629320869</maxy>
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.143847999995</minx>
-    <maxx>115.22603199999601</maxx>
-    <miny>-34.324479668062565</miny>
-    <maxy>-34.259822999121745</maxy>
+    <minx>117.326423163283</minx>
+    <maxx>117.479769387537</maxx>
+    <miny>-35.02631405669075</miny>
+    <maxy>-34.96696293120042</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

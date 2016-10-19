@@ -5,11 +5,13 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>WA Oyster Harbour Seagrass 1996</title>
+  <title>Seamap Australia - WA - Oyster Harbour seagrass 1996</title>
   <description></description>
   <keywords>
-    <string>features</string>
-    <string>WA_OH_96_Seagrass_V4_reproj</string>
+    <string>habitat mapping</string>
+    <string>seagrass</string>
+    <string>Seamap Australia</string>
+    <string>Terrestrial Ecosystem Research Network (TERN)</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 

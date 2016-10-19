@@ -5,10 +5,10 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NSW_marine_habitat_2013</title>
+  <title>Seamap Australia - NSW - OEH marine habitats 2013</title>
   <keywords>
-    <string>SeamapAus_NSW_marine_habitat_2013</string>
-    <string>features</string>
+    <string>habitat mapping</string>
+    <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.6593488624768</minx>
-    <maxx>155.33379443860588</maxx>
-    <miny>-37.51168756405259</miny>
-    <maxy>-28.116465768723415</maxy>
+    <minx>147.20500853492345</minx>
+    <maxx>156.78813476615923</maxx>
+    <miny>-37.60563978200589</miny>
+    <maxy>-28.022513550770125</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

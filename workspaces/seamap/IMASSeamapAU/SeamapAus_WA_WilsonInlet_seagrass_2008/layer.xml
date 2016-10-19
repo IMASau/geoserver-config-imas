@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_WA_HardysInlet_seagrass</name>
-  <id>LayerInfoImpl--3ea8dad8:157d6d08d00:be9</id>
+  <name>SeamapAus_WA_WilsonInlet_seagrass_2008</name>
+  <id>LayerInfoImpl--3ea8dad8:157d6d08d00:c34</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:be8</id>
+    <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:c33</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
