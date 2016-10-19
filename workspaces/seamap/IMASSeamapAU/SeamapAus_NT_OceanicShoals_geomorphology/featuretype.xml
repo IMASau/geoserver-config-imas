@@ -5,10 +5,11 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NT_OceanicShoals_geomorphology</title>
+  <title>Seamap Australia - NT - Oceanic Shoals geomorphology</title>
   <keywords>
-    <string>SeamapAus_NT_OceanicShoals_geomorphology</string>
-    <string>features</string>
+    <string>habitat mapping</string>
+    <string>Seamap Australia</string>
+    <string>Geoscience Australia (GA)</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
