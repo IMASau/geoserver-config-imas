@@ -13,7 +13,7 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>       
         <sld:Rule>
-          <sld:Title>Very deep, low hardness, very high slope, unconsolidated</sld:Title>
+          <sld:Title>Very deep, very high slope, unconsolidated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Comments</ogc:PropertyName>
@@ -28,7 +28,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Deep, low hardness, low slope, unconsolidated</sld:Title>
+          <sld:Title>Deep, low slope, unconsolidated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Comments</ogc:PropertyName>
@@ -43,7 +43,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Moderately deep, moderately high hardness, low slope, unconsolidated</sld:Title>
+          <sld:Title>Moderately deep, low slope, unconsolidated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Comments</ogc:PropertyName>
@@ -58,7 +58,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Moderately shallow, high hardness, high slope, low consolidation</sld:Title>
+          <sld:Title>Moderately shallow, high slope, low consolidation</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Comments</ogc:PropertyName>
@@ -73,7 +73,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>			
         <sld:Rule>
-          <sld:Title>Shallow, low hardness, very low slope, unconsolidated</sld:Title>
+          <sld:Title>Shallow, very low slope, unconsolidated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Comments</ogc:PropertyName>
@@ -88,7 +88,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Very shallow, very high hardness, very low slope, highly consolidated</sld:Title>
+          <sld:Title>Very shallow, very low slope, highly consolidated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Comments</ogc:PropertyName>
