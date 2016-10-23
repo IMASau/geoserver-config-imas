@@ -37,7 +37,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#005700</sld:CssParameter>
+              <sld:CssParameter name="fill">#004d00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -74,10 +74,12 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
         <sld:Rule>
           <sld:Title>Sparse</sld:Title>
+          <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DENSITY</ogc:PropertyName>
               <ogc:Literal>S</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#D1FF73</sld:CssParameter>
