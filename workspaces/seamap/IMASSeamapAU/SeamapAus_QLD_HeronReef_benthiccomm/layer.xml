@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_QLD_HeronReef_benthiccomm</name>
+  <id>LayerInfoImpl--3ea8dad8:157f40ad9c7:56ca</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:56c9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
