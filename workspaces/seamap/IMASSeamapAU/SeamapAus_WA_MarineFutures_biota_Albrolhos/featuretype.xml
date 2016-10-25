@@ -38,14 +38,14 @@
   <nativeBoundingBox>
     <minx>-1936552.35546875</minx>
     <maxx>-1915314.2578125</maxx>
-    <miny>-3421222.155879937</miny>
+    <miny>-3421222.155878104</miny>
     <maxy>-3395806.640625</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.82682631091636</minx>
+    <minx>113.8268263109194</minx>
     <maxx>114.08595495484309</maxx>
-    <miny>-28.900510068622804</miny>
+    <miny>-28.900510068606266</miny>
     <maxy>-28.6405925671041</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
