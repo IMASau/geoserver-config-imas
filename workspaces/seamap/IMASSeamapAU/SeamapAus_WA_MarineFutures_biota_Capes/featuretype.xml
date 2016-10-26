@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:7478</id>
+  <id>FeatureTypeInfoImpl--3ea8dad8:157fadca229:25fc</id>
   <name>SeamapAus_WA_MarineFutures_biota_Capes</name>
   <nativeName>SeamapAus_WA_MarineFutures_biota_Capes</nativeName>
   <namespace>
@@ -57,6 +57,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
