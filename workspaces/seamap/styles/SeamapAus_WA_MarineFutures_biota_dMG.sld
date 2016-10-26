@@ -12,21 +12,51 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Title>Habitat Polygon</sld:Title>
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
-        <sld:Rule>        
-          <sld:Title>Hard coral and all mixes</sld:Title>
+        <sld:Rule>
+          <sld:Title>Kelp</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Biota</ogc:PropertyName>
-              <ogc:Literal>Hard coral*</ogc:Literal>
+              <ogc:Literal>Kel*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#d7191c</sld:CssParameter>
+              <sld:CssParameter name="fill">#006600</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Other algae</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:Literal>Other algae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#d0b0a8</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>  
+        <sld:Rule>
+          <sld:Title>Mixed kelp and other algae</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:Literal>Mixed kelp and other algae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#009999</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>          
         <sld:Rule>
           <sld:Title>Sessile invertebrates (SI)</sld:Title>
           <ogc:Filter>
@@ -41,28 +71,28 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Vegetation</sld:Title>
+        </sld:Rule>      		        
+        <sld:Rule>        
+          <sld:Title>Mixed other algae and SI</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Biota</ogc:PropertyName>
-              <ogc:Literal>Veg*</ogc:Literal>
+              <ogc:Literal>Mixed other algae*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#04e600</sld:CssParameter>
+              <sld:CssParameter name="fill">#00bfff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>        
         <sld:Rule>
           <sld:Title>Mixed vegetation and SI</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>Biota</ogc:PropertyName>
-              <ogc:Literal>Mixed veg*</ogc:Literal>
+              <ogc:Literal>Mixed kelp and S*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -72,6 +102,21 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Transition</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:Literal>Transition</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#fcabe6</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>None modelled with certainty</sld:Title>
           <ogc:Filter>          
