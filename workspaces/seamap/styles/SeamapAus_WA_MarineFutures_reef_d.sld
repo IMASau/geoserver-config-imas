@@ -92,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substrate</ogc:PropertyName>
-              <ogc:Literal>Mixed gravel and sand</ogc:Literal>
+              <ogc:Literal>Mixed reef and gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
