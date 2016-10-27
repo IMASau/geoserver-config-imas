@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_WA_MOU74_ScottReef</title>
+  <title>Seamap Australia - WA - MOU74 marine resources, Scott Reef (CSIRO)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>121.49892493951526</minx>
-    <maxx>122.4932215562537</maxx>
-    <miny>-14.302294151472902</miny>
-    <maxy>-13.33102421971999</maxy>
+    <minx>121.48898197334788</minx>
+    <maxx>122.50316452242109</maxx>
+    <miny>-14.32375046013305</miny>
+    <maxy>-13.309567911059842</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

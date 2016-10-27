@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Walpole Nornalup Inlets seagrass 2009</title>
+  <title>Seamap Australia - WA - Walpole Nornalup Inlets seagrass 2009 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>116.69459033989038</minx>
-    <maxx>116.76220361381155</maxx>
-    <miny>-35.034089267649385</miny>
-    <maxy>-34.97229880493097</maxy>
+    <minx>116.69391420715117</minx>
+    <maxx>116.76287974655077</maxx>
+    <miny>-35.03767680598997</miny>
+    <maxy>-34.96871126659038</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

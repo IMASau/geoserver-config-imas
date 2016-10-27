@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_QLD_HeronReef_benthiccomm</title>
+  <title>Seamap Australia - QLD - Heron Reef benthic community</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>151.89279116322433</minx>
-    <maxx>152.01141769601318</maxx>
-    <miny>-23.489881667191764</miny>
-    <maxy>-23.40933880574791</maxy>
+    <minx>151.89160489789643</minx>
+    <maxx>152.01260396134109</maxx>
+    <miny>-23.51010976819215</miny>
+    <maxy>-23.389110704747523</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

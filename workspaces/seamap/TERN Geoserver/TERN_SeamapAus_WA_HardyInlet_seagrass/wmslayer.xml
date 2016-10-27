@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Hardy Inlet seagrass 2008</title>
+  <title>Seamap Australia - WA - Hardy Inlet seagrass 2008 (TERN ACEF)</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>
@@ -32,10 +32,10 @@
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.143847999995</minx>
-    <maxx>115.22603199999601</maxx>
-    <miny>-34.324479668062565</miny>
-    <maxy>-34.259822999121745</maxy>
+    <minx>115.14302615999499</minx>
+    <maxx>115.22685383999602</maxx>
+    <miny>-34.33406517359267</miny>
+    <maxy>-34.25023749359165</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

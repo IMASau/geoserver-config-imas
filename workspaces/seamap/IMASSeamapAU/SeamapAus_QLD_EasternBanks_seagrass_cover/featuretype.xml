@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_QLD_EasternBanks_seagrass_cover</title>
+  <title>Seamap Australia - QLD - Eastern Banks seagrass cover</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>153.28303401209598</minx>
-    <maxx>153.4568232423749</maxx>
-    <miny>-27.533070445961755</miny>
-    <maxy>-27.280739125983484</maxy>
+    <minx>153.24123965404652</minx>
+    <maxx>153.49861760042435</maxx>
+    <miny>-27.53559375916154</miny>
+    <maxy>-27.2782158127837</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

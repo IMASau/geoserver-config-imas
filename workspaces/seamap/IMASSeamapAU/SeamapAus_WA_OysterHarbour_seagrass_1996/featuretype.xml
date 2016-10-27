@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Oyster Harbour seagrass 1996</title>
+  <title>Seamap Australia - WA - Oyster Harbour seagrass 1996 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>117.9404905542788</minx>
-    <maxx>117.98382871538988</maxx>
-    <miny>-34.998281475540175</miny>
-    <maxy>-34.946250321928595</maxy>
+    <minx>117.93562374649242</minx>
+    <maxx>117.98869552317625</maxx>
+    <miny>-34.99880178707629</miny>
+    <maxy>-34.94573001039248</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

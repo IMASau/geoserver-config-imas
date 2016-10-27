@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Stokes Inlet seagrass 2009</title>
+  <title>Seamap Australia - WA - Stokes Inlet seagrass 2009 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>121.13232212893665</minx>
-    <maxx>121.19590111713072</maxx>
-    <miny>-33.857509710166816</miny>
-    <maxy>-33.79346608988014</maxy>
+    <minx>121.13144937668747</minx>
+    <maxx>121.1967738693799</maxx>
+    <miny>-33.85815014636968</miny>
+    <maxy>-33.792825653677276</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

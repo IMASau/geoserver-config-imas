@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Beaufort seagrass 2009</title>
+  <title>Seamap Australia - WA - Beaufort seagrass 2009 (TERN ACEF)</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>
@@ -32,10 +32,10 @@
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>118.85330394555501</minx>
-    <maxx>118.905414496886</maxx>
-    <miny>-34.47085919767673</miny>
-    <maxy>-34.44719290335232</maxy>
+    <minx>118.8527828400417</minx>
+    <maxx>118.90593560239931</maxx>
+    <miny>-34.48560243169332</miny>
+    <maxy>-34.432449669335725</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

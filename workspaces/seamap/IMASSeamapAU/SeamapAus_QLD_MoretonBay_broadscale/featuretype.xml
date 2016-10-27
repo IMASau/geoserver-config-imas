@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_QLD_MoretonBay_broadscale</title>
+  <title>Seamap Australia - QLD - Moreton Bay broadscale habitats (DNPSR)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>152.93983334115774</minx>
-    <maxx>153.70410572207513</maxx>
-    <miny>-27.980944516059395</miny>
-    <maxy>-26.752175064576637</maxy>
+    <minx>152.69529711136022</minx>
+    <maxx>153.94864195187264</maxx>
+    <miny>-27.993232210574224</miny>
+    <maxy>-26.73988737006181</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

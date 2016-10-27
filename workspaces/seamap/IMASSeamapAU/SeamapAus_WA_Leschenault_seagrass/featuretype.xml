@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Leschenault seagrass 2009</title>
+  <title>Seamap Australia - WA - Leschenault seagrass 2009 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.66682531771472</minx>
-    <maxx>115.72744330155159</maxx>
-    <miny>-33.32572652390312</miny>
-    <maxy>-33.19592660299641</maxy>
+    <minx>115.63093634997072</minx>
+    <maxx>115.76333226929559</maxx>
+    <miny>-33.327024523112186</miny>
+    <maxy>-33.19462860378734</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

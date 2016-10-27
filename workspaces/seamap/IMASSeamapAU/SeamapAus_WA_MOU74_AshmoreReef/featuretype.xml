@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_WA_MOU74_AshmoreReef</title>
+  <title>Seamap Australia - WA - MOU74 marine resources, Ashmore Reef (CSIRO)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>122.67856356339337</minx>
-    <maxx>123.65421243020769</maxx>
-    <miny>-12.905730083274804</miny>
-    <maxy>-11.892239311802845</maxy>
+    <minx>122.64950770334984</minx>
+    <maxx>123.68326829025122</maxx>
+    <miny>-12.915864990989524</miny>
+    <maxy>-11.882104404088125</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

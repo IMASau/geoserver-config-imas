@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Princess Royal Harbour seagrass 1996-2006</title>
+  <title>Seamap Australia - WA - Princess Royal Harbour seagrass 1996-2006 (TERN ACEF)</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>
@@ -32,10 +32,10 @@
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>117.849051373355</minx>
-    <maxx>117.923103566074</maxx>
-    <miny>-35.08327230120712</miny>
-    <maxy>-35.02775504988204</maxy>
+    <minx>117.84831085142781</minx>
+    <maxx>117.92384408800119</maxx>
+    <miny>-35.09328029383128</miny>
+    <maxy>-35.017747057257886</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

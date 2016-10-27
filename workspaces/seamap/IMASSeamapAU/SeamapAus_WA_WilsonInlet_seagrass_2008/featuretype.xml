@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Wilson Inlet seagrass 2008</title>
+  <title>Seamap Australia - WA - Wilson Inlet seagrass 2008 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>117.33071429954043</minx>
-    <maxx>117.4842011048397</maxx>
-    <miny>-35.026868024756986</miny>
-    <maxy>-34.9543518236447</maxy>
+    <minx>117.32917943148743</minx>
+    <maxx>117.4857359728927</maxx>
+    <miny>-35.06888819490347</miny>
+    <maxy>-34.91233165349822</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

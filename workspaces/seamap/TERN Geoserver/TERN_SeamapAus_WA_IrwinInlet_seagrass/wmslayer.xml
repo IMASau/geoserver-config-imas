@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Irwin Inlet seagrass 2009</title>
+  <title>Seamap Australia - WA - Irwin Inlet seagrass 2009 (TERN ACEF)</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>
@@ -32,10 +32,10 @@
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>116.94268799999999</minx>
-    <maxx>116.996345005646</maxx>
-    <miny>-35.01955499911293</miny>
-    <maxy>-34.97310699911344</maxy>
+    <minx>116.94215142994354</minx>
+    <maxx>116.99688157570246</maxx>
+    <miny>-35.02369607199265</miny>
+    <maxy>-34.968965926233714</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NT_Arhnem_seagrass</title>
+  <title>Seamap Australia - NT - Arhnem Land seagrass (DLRM/QDPI)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>133.30554951862536</minx>
-    <maxx>135.26864483820393</maxx>
-    <miny>-12.252695605412603</miny>
-    <maxy>-11.492517790628636</maxy>
+    <minx>133.28591856542957</minx>
+    <maxx>135.2882757913997</maxx>
+    <miny>-12.87378531100569</miny>
+    <maxy>-10.871428085035546</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

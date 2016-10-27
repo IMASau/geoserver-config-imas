@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_WA_CockburnSound_mapping</title>
+  <title>Seamap Australia - WA - mapping selected areas of Cockburn Sound (CSMC)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.71074472453346</minx>
-    <maxx>115.78412230691467</maxx>
-    <miny>-32.23847080852272</miny>
-    <maxy>-32.131774289814615</maxy>
+    <minx>115.69301829118294</minx>
+    <maxx>115.8018487402652</maxx>
+    <miny>-32.2395377737098</miny>
+    <maxy>-32.13070732462754</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

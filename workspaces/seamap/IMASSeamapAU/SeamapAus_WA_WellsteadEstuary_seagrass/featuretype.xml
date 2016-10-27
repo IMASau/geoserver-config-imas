@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Wellstead Estuary seagrass 2009</title>
+  <title>Seamap Australia - WA - Wellstead Estuary seagrass 2009 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>119.35875637757988</minx>
-    <maxx>119.39367691685709</maxx>
-    <miny>-34.393283831453836</miny>
-    <maxy>-34.35995541183912</maxy>
+    <minx>119.35840717218711</minx>
+    <maxx>119.39402612224985</maxx>
+    <miny>-34.394429096677854</miny>
+    <maxy>-34.3588101466151</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

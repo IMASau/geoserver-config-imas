@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Swan Canning seagrass 2011</title>
+  <title>Seamap Australia - WA - Swan Canning seagrass 2011 (TERN ACEF)</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>
@@ -32,10 +32,10 @@
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.75622891566297</minx>
-    <maxx>115.87158228767201</maxx>
-    <miny>-32.03825160222676</miny>
-    <maxy>-31.958741711376305</maxy>
+    <minx>115.75507538194289</minx>
+    <maxx>115.8727358213921</maxx>
+    <miny>-32.05732687652614</miny>
+    <maxy>-31.939666437076923</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

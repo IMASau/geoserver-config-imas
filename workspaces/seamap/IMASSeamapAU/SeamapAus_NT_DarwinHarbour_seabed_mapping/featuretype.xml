@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NT_DarwinHarbour_seabed_mapping</title>
+  <title>Seamap Australia - NT - Darwin Harbour seabeed mapping (GA)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>130.68659926805273</minx>
-    <maxx>130.94500323545094</maxx>
-    <miny>-12.594504806652415</miny>
-    <maxy>-12.324227930717614</maxy>
+    <minx>130.6779600450251</minx>
+    <maxx>130.95364245847858</maxx>
+    <miny>-12.597207575411764</miny>
+    <maxy>-12.321525161958265</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
