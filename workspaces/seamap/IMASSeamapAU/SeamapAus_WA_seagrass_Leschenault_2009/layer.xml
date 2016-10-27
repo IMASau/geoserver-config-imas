@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_seagrass_Leschenault_2009</name>
+  <id>LayerInfoImpl--3ea8dad8:15803a125f7:-200a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ea8dad8:15803a125f7:-200b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

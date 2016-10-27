@@ -1,0 +1,52 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:c1c</id>
+  <name>TERN_SeamapAus_WA_seagrass_WilsonInlet_2008</name>
+  <nativeName>acef-default:WA_Seagrass_wi_2008_gda94z50_reproj</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Seamap Australia - WA - seagrass Wilson Inlet 2008 (TERN ACEF)</title>
+  <description></description>
+  <keywords>
+    <string>habitat mapping</string>
+    <string>seagrass</string>
+    <string>Seamap Australia</string>
+    <string>Terrestrial Ecosystem Research Network (TERN)</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
+  DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+    TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
+  <srs>EPSG:4283</srs>
+  <nativeBoundingBox>
+    <minx>117.331366499802</minx>
+    <maxx>117.479803321428</maxx>
+    <miny>-35.0222507032841</miny>
+    <maxy>-34.966963949631</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>117.32682373931294</minx>
+    <maxx>117.48434608191704</maxx>
+    <miny>-35.07336849687282</miny>
+    <maxy>-34.915846154268706</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--3ea8dad8:157d6d08d00:bf1</id>
+  </store>
+</wmsLayer>
