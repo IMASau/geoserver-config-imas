@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT - Darwin Harbour mangrove</title>
+  <title>Seamap Australia - NT - Darwin Harbour mangrove (DLRM)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>mangrove</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>130.70519654183167</minx>
-    <maxx>131.0551185842262</maxx>
-    <miny>-12.742197946847392</miny>
-    <maxy>-12.42560321762086</maxy>
+    <minx>130.70169732140772</minx>
+    <maxx>131.05861780465014</maxx>
+    <miny>-12.762360823855333</miny>
+    <maxy>-12.405440340612918</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NSW_estuarine_macrophytes</title>
+  <title>Seamap Australia - NSW - estuarine macrophytes (DPI)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.64376228319117</minx>
-    <maxx>155.24455333259374</maxx>
-    <miny>-37.47577096387217</miny>
-    <maxy>-28.15963761506802</maxy>
+    <minx>147.19292980000233</minx>
+    <maxx>156.69538581578257</maxx>
+    <miny>-37.56893229736021</miny>
+    <maxy>-28.06647628157998</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

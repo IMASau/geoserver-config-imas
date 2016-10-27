@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT - Bynoe Harbour mangrove</title>
+  <title>Seamap Australia - NT - Bynoe Harbour mangrove (DLRM)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>mangrove</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>130.34587967581302</minx>
-    <maxx>130.7933769085774</maxx>
-    <miny>-12.80896500197041</miny>
-    <maxy>-12.372516470839601</maxy>
+    <minx>130.34140470348538</minx>
+    <maxx>130.79785188090503</maxx>
+    <miny>-12.818964325114832</miny>
+    <maxy>-12.362517147695181</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

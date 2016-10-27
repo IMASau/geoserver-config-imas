@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NSW - OEH marine habitats 2013</title>
+  <title>Seamap Australia - NSW - marine habitats 2013 (OEH)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.20500853492345</minx>
-    <maxx>156.78813476615923</maxx>
-    <miny>-37.60563978200589</miny>
-    <maxy>-28.022513550770125</maxy>
+    <minx>147.1091772726111</minx>
+    <maxx>156.88396602847158</maxx>
+    <miny>-37.701471044318254</miny>
+    <maxy>-27.926682288457755</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

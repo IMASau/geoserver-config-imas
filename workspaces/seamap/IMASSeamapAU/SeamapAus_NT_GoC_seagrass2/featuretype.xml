@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NT_GoC_seagrass2</title>
+  <title>Seamap Australia - NT - Gulf of Carpentaria seagrass v2 (DLRM/QDPI)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>135.3652862963603</minx>
-    <maxx>142.67026637406778</maxx>
-    <miny>-17.832300306442004</miny>
-    <maxy>-10.91516515578412</maxy>
+    <minx>135.2922364955832</minx>
+    <maxx>142.74331617484486</maxx>
+    <miny>-18.099272570743878</miny>
+    <maxy>-10.648192891482246</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NT_Kakadu_seagrass</title>
+  <title>Seamap Australia - NT - Kakadu seagrass (DLRM/QDPI)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>132.27198509410778</minx>
-    <maxx>132.54885647114102</maxx>
-    <miny>-12.23062371075124</miny>
-    <maxy>-12.055294102046073</maxy>
+    <minx>132.26921638033744</minx>
+    <maxx>132.55162518491136</maxx>
+    <miny>-12.284163308685613</miny>
+    <maxy>-12.001754504111702</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
