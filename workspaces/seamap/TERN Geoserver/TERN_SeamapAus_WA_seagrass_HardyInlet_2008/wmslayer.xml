@@ -1,11 +1,11 @@
 <wmsLayer>
   <id>WMSLayerInfoImpl--3ea8dad8:157d6d08d00:bf3</id>
-  <name>TERN_SeamapAus_WA_HardyInlet_seagrass</name>
+  <name>TERN_SeamapAus_WA_seagrass_HardyInlet_2008</name>
   <nativeName>acef-default:WA_MAFRL_seagrass_gda94_z50_reproj3</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Hardy Inlet seagrass 2008 (TERN ACEF)</title>
+  <title>Seamap Australia - WA - seagrass Hardy Inlet 2008 (TERN ACEF)</title>
   <description></description>
   <keywords>
     <string>habitat mapping</string>

@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:c3b</id>
-  <name>SeamapAus_WA_IrwinInlet_seagrass</name>
-  <nativeName>SeamapAus_WA_IrwinInlet_seagrass</nativeName>
+  <id>FeatureTypeInfoImpl--3ea8dad8:15803a125f7:-2010</id>
+  <name>SeamapAus_WA_seagrass_IrwinInlet_2009</name>
+  <nativeName>SeamapAus_WA_seagrass_IrwinInlet_2009</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Irwin Inlet seagrass 2009 (TERN ACEF)</title>
+  <title>Seamap Australia - WA - seagrass Irwin Inlet 2009 (TERN ACEF)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>116.94036428173496</minx>
-    <maxx>116.99865337745628</maxx>
-    <miny>-35.02607605769528</miny>
-    <maxy>-34.96778696197396</maxy>
+    <minx>116.94093574345771</minx>
+    <maxx>116.99808191573352</maxx>
+    <miny>-35.02352749679345</miny>
+    <maxy>-34.970335522875786</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
