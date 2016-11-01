@@ -13,12 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>SEAGRASS BIOMASS (dry weight per m2)</sld:Title>
+          <sld:Title>SEAGRASS BIOMASS (dry weight per m&#178;)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLessThan>
               <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-              <ogc:Literal>nodensityrequired</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>0</ogc:Literal>
+            </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
