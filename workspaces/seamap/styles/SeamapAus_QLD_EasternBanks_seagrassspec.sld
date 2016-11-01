@@ -7,15 +7,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:gml="http://www.opengis.net/gml">
   <sld:NamedLayer>
+    <sld:Name>habitat_polygon</sld:Name>
     <sld:UserStyle>
-      <sld:Title>Seagrass species mapping</sld:Title>
-      <sld:Abstract>A style that renders seagrass mapping</sld:Abstract>
+      <sld:Title>Habitat Polygon</sld:Title>
+      <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:Title>DOMINANT SEAGRASS SPECIES</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -30,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>Ho</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -40,12 +41,12 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>
         <sld:Rule>
           <sld:Title>Halophila spinulosa</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>Hs</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -60,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Syringodium isoetifolium</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>Si</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -75,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Cymedocea serrulata</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>Cs</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -90,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Zostera muelleri / Halophila uninervis combined</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>Zm</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -105,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>optically deep area / no seagrass</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>6Major</ogc:PropertyName>
+              <ogc:PropertyName>Major</ogc:PropertyName>
               <ogc:Literal>noSG</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -115,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>		        
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
