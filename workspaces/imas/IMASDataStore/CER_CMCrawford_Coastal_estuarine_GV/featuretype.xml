@@ -5,11 +5,19 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Coastal and estuarine resource condition assessment</title>
+  <title>Baseline coastal and estuarine condition assessment of the southern NRM region, Tasmania</title>
+  <abstract>A 12-month program was developed and implemented in order to obtain baseline information on water quality (salinity, water temperature, dissolved oxygen, turbidity, pH, dissolved nutrients, silica), ecological condition as shown by Chlorophyll a, benthic macroinvertebrates, pathogens, and habitat extent determined from habitat mapping. Five key estuaries and coastal waters were assessed in the Southern NRM Region of Tasmania. This data includes sampling from Pitt Water / Orielton Lagoon, North West Bay, Port Cygnet, Little Swanport, Moulting Lagoon / Great Swanport.</abstract>
   <keywords>
     <string>CER_CMCrawford_Coastal_estuarine_GV</string>
     <string>features</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=c1a2a0b4-e33d-4748-a503-5c6016fc0998</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 

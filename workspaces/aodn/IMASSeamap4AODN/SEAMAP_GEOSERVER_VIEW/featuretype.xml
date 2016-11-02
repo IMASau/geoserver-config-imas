@@ -5,7 +5,10 @@
   <namespace>
     <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
   </namespace>
-  <title>SeaMap Habitat Data</title>
+  <title>SeaMap Tasmania Habitat Data</title>
+  <abstract>SeaMap Tasmania: Mapping the seabed for discovery, resource management and biodiversity assessment.&#xd;
+&#xd;
+SeaMap Tasmania is a project conducted at the Institute for Marine and Antarctic Studies that aims to improve our understanding of the marine environment and management of marine resources throughout Tasmanian state coastal waters.</abstract>
   <keywords>
     <string>SEAMAP_GEOSERVER_VIEW</string>
     <string>features</string>
@@ -28,7 +31,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 

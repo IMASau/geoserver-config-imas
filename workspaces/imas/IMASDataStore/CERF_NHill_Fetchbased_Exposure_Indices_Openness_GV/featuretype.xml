@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>CERF_NHill_Fetchbased_Exposure_Indices_Openness_GV</title>
+  <title>CERF - Fetch-based exposure indices for temperate Australia - Openness</title>
+  <abstract>These data describe quantitative exposure indices generated using cartographic fetch methods on a 0.01 degree grid across temperate Australia (South Australia, Victoria and Tasmania). This layer describes openness. Openness is a measure of the distance of a site to the nearest coastline in all directions and describes potential exposure to locally generated seas and undefined swell.</abstract>
   <keywords>
     <string>CERF_NHill_Fetchbased_Exposure_Indices_Openness_GV</string>
     <string>features</string>

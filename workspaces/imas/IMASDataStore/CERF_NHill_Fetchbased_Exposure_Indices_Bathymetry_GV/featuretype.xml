@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</title>
+  <title>CERF - Fetch-based exposure indices for temperate Australia - Bathymetry-altered fetch</title>
+  <abstract>These data describe quantitative exposure indices generated using cartographic fetch methods on a 0.01 degree grid across temperate Australia (South Australia, Victoria and Tasmania). This layer describes bathymetry-altered fetch. Bathymetry-altered fetch attempts to account for the attenuation of wave energy as waves move into shallow waters and encounter friction with the seafloor.</abstract>
   <keywords>
     <string>features</string>
     <string>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</string>
