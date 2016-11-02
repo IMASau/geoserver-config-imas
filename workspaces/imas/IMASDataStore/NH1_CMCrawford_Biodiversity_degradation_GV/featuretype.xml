@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Assessing the biodiversity and degradation of human impacted estuaries in North-Western Tasmania</title>
+  <abstract>Water quality and biological data was collected from four tide-dominated river estuaries indicative of catchments with varying levels of human impacts to: 1) assess draft indicator levels for water quality, and 2) investigate biological indicators of estuarine health in NW Tasmania. This data includes sampling from Detention River, Duck Bay, Montagu River and Black River</abstract>
   <keywords>
     <string>features</string>
     <string>NH1_CMCrawford_Biodiversity_degradation_GV</string>
@@ -56,12 +57,12 @@
         <defaultValue/>
       </dimensionInfo>
     </entry>
+    <entry key="cachingEnabled">false</entry>
     <entry key="elevation">
       <dimensionInfo>
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
