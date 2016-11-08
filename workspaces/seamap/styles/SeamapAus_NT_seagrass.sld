@@ -12,6 +12,21 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Title>Habitat Polygon</sld:Title>
       <sld:FeatureTypeStyle>
         <sld:Rule>
+          <sld:Title>Enhalus acoroides</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Enhalus acoroides</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#f8d3ed</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	  
+        <sld:Rule>
           <sld:Title>Enhalus acoroides with Halophila ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -40,6 +55,27 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Halodule uninervis (narrow form)</sld:Title>
+          <ogc:Filter>
+		  <ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+		  </ogc:Or>
+			</ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#fae8a1</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
           <sld:Title>Halodule uninervis (narrow form) with Enhalus acoroides</sld:Title>
@@ -51,7 +87,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f5da8a</sld:CssParameter>
+              <sld:CssParameter name="fill">#f1cb5b</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -59,18 +95,45 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Halodule uninervis (narrow form) with Halophila ovalis</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+		  <ogc:Or>
+		  <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
+		  <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+		  </ogc:Or>
+			</ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f2b90d</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb800</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Halodule uninervis with mixed species</sld:Title>
+          <ogc:Filter>
+		  <ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+		  </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#f98006</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>Halophila decipiens</sld:Title>
           <ogc:Filter>
@@ -156,7 +219,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#8a4128</sld:CssParameter>
+              <sld:CssParameter name="fill">#6f3b2a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
