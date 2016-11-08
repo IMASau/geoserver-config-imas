@@ -24,6 +24,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#f8d3ed</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>			
           </sld:PolygonSymbolizer>
         </sld:Rule>	  
         <sld:Rule>
@@ -39,6 +44,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#eca093</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -54,10 +64,15 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#bd3f28</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Halodule uninervis (narrow form)</sld:Title>
+          <sld:Title>Halodule uninervis</sld:Title>
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
@@ -67,7 +82,11 @@ xmlns:gml="http://www.opengis.net/gml">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (wide form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>					
 		  </ogc:Or>
 			</ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -75,31 +94,75 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#fae8a1</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Halodule uninervis (narrow form) with Enhalus acoroides</sld:Title>
+          <sld:Title>Halodule uninervis with Enhalus acoroides</sld:Title>
           <ogc:Filter>
+		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form) with Enhalus acoroides</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Enhalus acoroides/Halodule uninervis (wide form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+			</ogc:Or>
+			</ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#f1cb5b</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halodule uninervis (narrow form) with Halophila ovalis</sld:Title>
+          <sld:Title>Halodule uninervis with Halophila decipiens</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow form)/Halophila decipiens</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+			</ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ecec13</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Halodule uninervis with Halophila ovalis</sld:Title>
           <ogc:Filter>
 		  <ogc:Or>
 		  <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+		  <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis with Halodule uninervis (narrow form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
 		  <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
@@ -111,6 +174,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#ffb800</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -124,7 +192,11 @@ xmlns:gml="http://www.opengis.net/gml">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis with mixed species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow form) with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>					
 		  </ogc:Or>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -132,6 +204,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#f98006</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
@@ -147,6 +224,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#e3fe92</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -162,6 +244,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#85b102</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -177,6 +264,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#d9cda6</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -192,6 +284,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#b3994d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -207,6 +304,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#9e662e</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
@@ -222,8 +324,53 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#6f3b2a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Halophila ovalis with mixed species</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#47291f</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Syringodium isoetifolium with mixed species</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Syringodium isoetifolium with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#3385ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>Thalassia hemprichii</sld:Title>
           <ogc:Filter>	  
@@ -237,6 +384,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#b0fe9a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -252,6 +404,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#39fc03</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
@@ -267,6 +424,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#009900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
@@ -282,6 +444,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#335214</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
@@ -297,6 +464,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#00cc99</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -312,6 +484,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#166969</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>			
       </sld:FeatureTypeStyle>
