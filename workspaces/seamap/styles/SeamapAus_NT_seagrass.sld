@@ -12,7 +12,7 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Title>Habitat Polygon</sld:Title>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Enhalus acoroides / Halophila ovalis</sld:Title>
+          <sld:Title>Enhalus acoroides with Halophila ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CATEGORY</ogc:PropertyName>
@@ -21,37 +21,52 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#009999</sld:CssParameter>
+              <sld:CssParameter name="fill">#eca093</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Avicennia marina</sld:Title>
+          <sld:Title>Enhalus acoroides with mixed species</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Avicennia*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Enhalus acoroides with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
+              <sld:CssParameter name="fill">#bd3f28</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Halodule uninervis (narrow form) with Enhalus acoroides</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow form) with Enhalus acoroides</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#f5da8a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Bruguiera parviflora &#xB1; Rhizophora stylosa</sld:Title>
+          <sld:Title>Halodule uninervis (narrow form) with Halophila ovalis</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Bruguiera*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#cc9900</sld:CssParameter>
+              <sld:CssParameter name="fill">#f2b90d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -96,7 +111,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#c2af70</sld:CssParameter>
+              <sld:CssParameter name="fill">#d9cda6</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -126,7 +141,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b27334</sld:CssParameter>
+              <sld:CssParameter name="fill">#9e662e</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -141,7 +156,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#8f663d</sld:CssParameter>
+              <sld:CssParameter name="fill">#8a4128</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
