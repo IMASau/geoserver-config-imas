@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl--3ea8dad8:157dfd0e8b0:-3c50</id>
-  <name>SeamapAus_NT_DarwinHarbour</name>
+  <id>StyleInfoImpl--68c28a1c:158286f5911:-7fe3</id>
+  <name>SeamapAus_NT_DarwinHarbour_mangrove</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_NT_DarwinHarbour.sld</filename>
+  <filename>SeamapAus_NT_DarwinHarbour_mangrove.sld</filename>
 </style>
