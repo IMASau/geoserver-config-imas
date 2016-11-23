@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--68c28a1c:1588e2a69bd:39d</id>
+  <name>DEMO_SeamapTas_datastore</name>
+  <description>Seamap Tasmania data as store of shapefiles</description>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Australia/Hobart</entry>
+    <entry key="fstype">shape</entry>
+    <entry key="create spatial index">false</entry>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:///mnt/rdsi/attachments/shapefilestore_demo</entry>
+    <entry key="namespace">seamap</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

@@ -1,0 +1,15 @@
+<layer>
+  <name>DEMO_SeamapTas</name>
+  <id>LayerInfoImpl--68c28a1c:1588e2a69bd:3a0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--68c28a1c:1588e2a69bd:39f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
