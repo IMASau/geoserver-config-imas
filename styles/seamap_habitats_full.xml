@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--2cde9246:132a9900d8b:-7ff4</id>
-  <name>seamap_habitats</name>
+  <name>seamap_habitats_full</name>
   <sldVersion>
     <version>1.0.0</version>
   </sldVersion>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>seamap_habitats.sld</filename>
+  <filename>seamap_habitats_full.sld</filename>
 </style>

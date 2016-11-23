@@ -3,7 +3,7 @@
   <name>DEMO_SeamapTas</name>
   <nativeName>SEAMAP_habitats_gdaLambert</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>DEMO ONLY: Seamap Tasmania habitat data - added as data store</title>
   <keywords>
@@ -70,6 +70,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--68c28a1c:1588e2a69bd:39d</id>
   </store>
