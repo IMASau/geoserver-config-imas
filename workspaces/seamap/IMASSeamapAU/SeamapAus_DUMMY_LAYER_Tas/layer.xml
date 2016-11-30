@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_DUMMY_LAYER_Tas</name>
+  <id>LayerInfoImpl--a189114:158b2dab1a2:43a1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a189114:158b2dab1a2:43a0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
