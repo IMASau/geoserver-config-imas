@@ -13,72 +13,87 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>> 0m (land)</sld:Title>
+          <sld:Title>Brackish lake</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
-              <ogc:Literal>* 0m</ogc:Literal>
-            </ogc:PropertyIsLike>            
+              <ogc:Literal>Brackish lake</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#666666</sld:CssParameter>
+              <sld:CssParameter name="fill">#e07552</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>	        
         <sld:Rule>
-          <sld:Title>0 - 20m</sld:Title>
+          <sld:Title>Freshwater</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
-              <ogc:Literal>0 - 20m</ogc:Literal>
+              <ogc:Literal>Freshwater</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffffcc</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#66d9ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>20 - 60m</sld:Title>
+          <sld:Title>Intermittent estuary</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
-              <ogc:Literal>20 - 60m</ogc:Literal>
+              <ogc:Literal>Intermittent estuary</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffce99</sld:CssParameter>
+              <sld:CssParameter name="fill">#e68a00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>60 - 200m</sld:Title>
+          <sld:Title>Ocean embayment</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
-              <ogc:Literal>60 -200m</ogc:Literal>
+              <ogc:Literal>Ocean embayment</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ff9c33</sld:CssParameter>
+              <sld:CssParameter name="fill">#5151fb</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>>200m</sld:Title>
+          <sld:Title>Tide dominated estuary</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
-              <ogc:Literal>*> 200m</ogc:Literal>
-            </ogc:PropertyIsLike>                   
+              <ogc:Literal>Tide dominated estuary</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                   
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#009999</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Wave dominated estuary</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:Literal>Wave dominated estuary</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                   
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -86,7 +101,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>			
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
