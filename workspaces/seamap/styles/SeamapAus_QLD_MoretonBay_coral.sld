@@ -13,199 +13,116 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Macroalgae with minor cover by rock, live coral and dead coral</sld:Title>
+          <sld:Title>Massive</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Al(RO+LC*</ogc:Literal>
-            </ogc:PropertyIsLike>
+			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Massive</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+			  <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Masive</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+			</ogc:Or>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00b359</sld:CssParameter>
+              <sld:CssParameter name="fill">#fa0505</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
-          <sld:Title>Macroalgae with minor cover by rock and sediment</sld:Title>
+        <sld:Rule>
+          <sld:Title>Soft</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Al(Ro+Sed*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Soft</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#608000</sld:CssParameter>
+              <sld:CssParameter name="fill">#69fcb3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>        
         <sld:Rule>
-          <sld:Title>Benthic microalgae</sld:Title>
+          <sld:Title>Branching</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>BMA</ogc:Literal>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Branching</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ac3939</sld:CssParameter>
+              <sld:CssParameter name="fill">#fb50fb</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Bommies</sld:Title>
+          <sld:Title>Sponge</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Bommies</ogc:Literal>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Sponge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#60401f</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffff00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Coral (live/dead combined)</sld:Title>
+          <sld:Title>Massive/Soft</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Coral</ogc:Literal>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Massive/Soft</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e68a00</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff8c1a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Deep reef structures</sld:Title>
+          <sld:Title>Massive/Soft/Sponge/Branching</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Deep Reef Structures</ogc:Literal>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Massive/Soft/Sponge/Branching</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e68a00</sld:CssParameter>
+              <sld:CssParameter name="fill">#7b50fb</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Live branching coral (slope)</sld:Title>
+          <sld:Title>Massive/Sponge/Plate/Branching</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>LC slope branching</ogc:Literal>
+              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:Literal>Massive/Sponge/Plate/Branching</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b561d1</sld:CssParameter>
+              <sld:CssParameter name="fill">#00e673</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Live coral dominated with minor dead coral</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>LC(DC)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#cc6699</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Live coral / rock (slope)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>LC+RO Slope</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ac3956</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule> 	
-        <sld:Rule>
-          <sld:Title>Flat/hard low-relief bottom</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Pavement</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#006666</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule> 	
-        <sld:Rule>
-          <sld:Title>Rock dominated with minor live coral (reef crest)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>RO(LC) crest</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#999966</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rubble / sand</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Ru+Sand</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule> 
-        <sld:Rule>
-          <sld:Title>Sand</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Sand</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule> 		
+        </sld:Rule>    		
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
