@@ -17,7 +17,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Al(RO*LC*)*</ogc:Literal>
+              <ogc:Literal>Al*RO*LC*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -32,7 +32,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>BenthicCom</ogc:PropertyName>
-              <ogc:Literal>Al(Ro*Sed*)</ogc:Literal>
+              <ogc:Literal>Al*Ro*Sed*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
