@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--a189114:158b2dab1a2:3f82</id>
-  <name>SeamapAus_QLD_Point_Lookout_ecology</name>
+  <name>SeamapAus_QLD_PointLookout_ecology</name>
   <nativeName>SeamapAus_QLD_Point_Lookout_ecology</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -56,6 +56,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
