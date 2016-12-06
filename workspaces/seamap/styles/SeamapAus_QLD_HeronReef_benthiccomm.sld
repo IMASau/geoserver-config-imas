@@ -29,6 +29,7 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
           <sld:Title>Macroalgae with minor cover by rock and sediment</sld:Title>
           <ogc:Filter>
+            <ogc:PropertyIsLike>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>BenthicCom</ogc:PropertyName>
               <ogc:Literal>Al(Ro+Sed*</ogc:Literal>
