@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl--3a9062c2:158f162f621:-6cee</id>
-  <name>SeamapAus_NAT_CAMRIS_benthic_substrate</name>
+  <id>StyleInfoImpl--3a9062c2:158f162f621:-6ce4</id>
+  <name>SeamapAus_NAT_CAMRIS_seagrass</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_NAT_CAMRIS_benthic_substrate.sld</filename>
+  <filename>SeamapAus_NAT_CAMRIS_seagrass.sld</filename>
 </style>
