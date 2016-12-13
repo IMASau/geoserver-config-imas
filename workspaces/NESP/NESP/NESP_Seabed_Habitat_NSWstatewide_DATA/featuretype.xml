@@ -1,11 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3a9062c2:158f6d056c9:-3ec5</id>
-  <name>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV</name>
+  <name>NESP_Seabed_Habitat_NSWstatewide_DATA</name>
   <nativeName>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV</title>
+  <title>Seabed Habitat New South Wales State Waters (NSW OEH) - data</title>
+  <abstract>Digitised habitat layers for the New South Wales continental shelf predominantly to 3NM. The shape file contains polygons of areas of 1) reef and 2) unconsolidated seafloor types as interpreted from a number of remote sensing methods predominantly mulitbeam, LIDAR (LADS) and Aerial Imagery obtained in surveys across 2005-2013.</abstract>
   <keywords>
     <string>NESP_TIngleton_Seabed_Habitat_NSWcombined_GV</string>
     <string>features</string>

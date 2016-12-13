@@ -1,12 +1,12 @@
 <layer>
-  <name>NESP_TIngleton_Seabed_Habitat_SolitarySouth_GV</name>
-  <id>LayerInfoImpl-604b7401:15268106db1:-6f13</id>
+  <name>NESP_Seabed_Habitat_SolitarySouth_DATA</name>
+  <id>LayerInfoImpl--3a9062c2:158f6e761ff:225</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-604b7401:15268106db1:-6f17</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-604b7401:15268106db1:-6f14</id>
+    <id>FeatureTypeInfoImpl--3a9062c2:158f6e761ff:224</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

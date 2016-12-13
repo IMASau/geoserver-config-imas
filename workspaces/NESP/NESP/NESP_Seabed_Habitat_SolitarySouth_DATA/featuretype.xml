@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-604b7401:15268106db1:-6f14</id>
-  <name>NESP_TIngleton_Seabed_Habitat_SolitarySouth_GV</name>
+  <id>FeatureTypeInfoImpl--3a9062c2:158f6e761ff:224</id>
+  <name>NESP_Seabed_Habitat_SolitarySouth_DATA</name>
   <nativeName>NESP_TIngleton_Seabed_Habitat_SolitarySouth_GV</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP_TIngleton_Seabed_Habitat_SolitarySouth_GV</title>
+  <title>Seabed Habitat Solitary Islands Marine Park and Commonwealth Marine Reserve (South) (NSW OEH) - data</title>
+  <abstract>Digitised habitat layers for the southern section of the Solitary Islands Marine Park and Solitary Islands Marine Reserve, NSW. Includes reef and unconsolidated seafloor types as interpreted from a series of high resolution bathymetry and backscatter data obtained during swath surveys 2005-2012.</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_TIngleton_Seabed_Habitat_SolitarySouth_GV</string>
@@ -50,21 +51,10 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-        <defaultValue/>
-      </dimensionInfo>
-    </entry>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
