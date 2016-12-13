@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
+  <name>NESP</name>
+  <description>NESP_marine_biodiversity_hub</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/datastore</entry>
+    <entry key="namespace">NESP</entry>
+    <entry key="schema">dbo</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Use Native Paging">true</entry>
+    <entry key="fetch size">1000</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
