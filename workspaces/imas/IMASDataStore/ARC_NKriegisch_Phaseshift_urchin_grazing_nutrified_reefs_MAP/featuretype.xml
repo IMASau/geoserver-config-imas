@@ -1,0 +1,63 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3a9062c2:15905e5474e:-1a11</id>
+  <name>ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP</name>
+  <nativeName>ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP</title>
+  <keywords>
+    <string>ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP</string>
+    <string>features</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=21245d18-7a4f-4e25-9b98-ae90ae92748b</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>144.89389</minx>
+    <maxx>144.89474</maxx>
+    <miny>-37.8702</miny>
+    <maxy>-37.86952</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>144.89389</minx>
+    <maxx>144.89474</maxx>
+    <miny>-37.8702</miny>
+    <maxy>-37.86952</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
