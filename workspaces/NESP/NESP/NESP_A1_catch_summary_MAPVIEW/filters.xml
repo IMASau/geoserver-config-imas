@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>SetDateTime</name>
+        <type>datetime</type>
+        <label>Date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Species</name>
+        <type>string</type>
+        <label>Species</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
