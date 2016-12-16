@@ -5,7 +5,7 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Fishing set date: </b> ${feature.Date.value[0..9]}<BR>
+  <b>Fishing set date: </b> ${feature.DateTime.value[0..11}<BR>
   <b>Fishing gear: </b> ${feature.Gear_type.value}<BR>  
   <b>Depth: </b> ${feature.Depth.value} m<BR>
   <b>Temperature: </b> ${feature.Temperature.value[0..4]} &#176C<BR>
