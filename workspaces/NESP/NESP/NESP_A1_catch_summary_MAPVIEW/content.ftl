@@ -7,17 +7,17 @@
 <div class="feature">
   <b>Fishing set date: </b> ${feature.Setdate.value}<BR>
   <b>Fishing gear: </b> ${feature.Gear_type.value}<BR>  
-  <b>Depth: </b> ${feature.Depth.value} m<BR>
-  <b>Temperature: </b> ${feature.Temperature.value[0..4]!"not measured"} &#176C<BR>
-  <b>Percent sat. dissolved oxygen: </b> ${feature.DO_per.value} &#37<BR><BR>
+  <b>Depth (m): </b> ${feature.Depth.value!"not measured"}<BR>
+  <b>Temperature: </b> ${feature.Temperature.value!"not measured"} &#176C<BR>
+  <b>Percent sat. dissolved oxygen: </b> ${feature.DO_per.value!"NA"} &#37<BR><BR>
   
-  <b>Species (sex): </b> ${feature.Species.value} (${feature.Sex.value}), ${feature.Mat.value} <BR>
-  <b>Total length: </b> ${feature.TL_mm.value} mm<BR>
-  <b>Fork length: </b> ${feature.FL_mm.value} mm<BR>
-  <b>Precaudal length: </b> ${feature.PCL_mm.value} mm<BR>
+  <b>Species (sex): </b> ${feature.Species.value} (${feature.Sex.value!"not sexed"}), ${feature.Mat.value} <BR>
+  <b>Total length: </b> ${feature.TL_mm.value!"NA"} mm<BR>
+  <b>Fork length: </b> ${feature.FL_mm.value!"NA"} mm<BR>
+  <b>Precaudal length: </b> ${feature.PCL_mm.value!"NA"}<BR>
   <b>Genetic code (if sampled): </b> ${feature.Genetic_code.value}<BR>
   <b>Tag code (if tagged): </b> ${feature.Tag_code.value}<BR>
-  <b>Health (if scored): </b> ${feature.Health.value}<BR>  
+  <b>Health (if scored): </b> ${feature.Health.value}<BR><BR>  
 
  </div>
 	<#else>
