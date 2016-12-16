@@ -8,16 +8,16 @@
   <b>Fishing set date: </b> ${feature.Setdate.value}<BR>
   <b>Fishing gear: </b> ${feature.Gear_type.value}<BR>  
   <b>Depth: </b> ${feature.Depth.value} m<BR>
-  <b>Temperature: </b> ${feature.Temperature.value[0..4]} &#176C<BR>
+  <b>Temperature: </b> ${feature.Temperature.value[0..4]!"not measured"} &#176C<BR>
   <b>Percent sat. dissolved oxygen: </b> ${feature.DO_per.value} &#37<BR><BR>
   
   <b>Species (sex): </b> ${feature.Species.value} (${feature.Sex.value}), ${feature.Mat.value} <BR>
   <b>Total length: </b> ${feature.TL_mm.value} mm<BR>
   <b>Fork length: </b> ${feature.FL_mm.value} mm<BR>
   <b>Precaudal length: </b> ${feature.PCL_mm.value} mm<BR>
-  <b>Genetic code (if sampled): </b> ${feature.Genetic_code.value} mm<BR>
-  <b>Tag code (if tagged): </b> ${feature.Tag_code.value} mm<BR>
-  <b>Health (if scored): </b> ${feature.Health.value} mm<BR>  
+  <b>Genetic code (if sampled): </b> ${feature.Genetic_code.value}<BR>
+  <b>Tag code (if tagged): </b> ${feature.Tag_code.value}<BR>
+  <b>Health (if scored): </b> ${feature.Health.value}<BR>  
 
  </div>
 	<#else>
