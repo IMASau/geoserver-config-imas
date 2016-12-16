@@ -9,7 +9,7 @@
   <b>Fishing gear: </b> ${feature.Gear_type.value}<BR>  
   <b>Depth: </b> ${feature.Depth.value} m<BR>
   <b>Temperature: </b> ${feature.Temperature.value[0..4]} &#176C<BR>
-  <b>Percent sat. dissolved oxygen: </b> ${feature.DO_per.value[0..4]} &#37<BR><BR>
+  <b>Percent sat. dissolved oxygen: </b> ${feature.DO_per.value} &#37<BR><BR>
   
   <b>Species (sex): </b> ${feature.Species.value} (${feature.Sex.value}), ${feature.Mat.value} <BR>
   <b>Total length: </b> ${feature.TL_mm.value} mm<BR>
