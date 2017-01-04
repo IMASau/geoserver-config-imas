@@ -1,0 +1,15 @@
+<layer>
+  <name>REGS_EOliver_ETAS_marine_heatwaves_atlas_MAP</name>
+  <id>LayerInfoImpl--3a9062c2:159673e5d15:-4443</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6d38b415:14cfffeba2d:-4e90</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3a9062c2:159673e5d15:-4444</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
