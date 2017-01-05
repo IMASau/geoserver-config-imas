@@ -1,13 +1,13 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157d65597e2:483</id>
-  <name>SeamapAus_NSW_marine_habitat_2013</name>
-  <nativeName>SeamapAus_NSW_marine_habitat_2013</nativeName>
+  <id>FeatureTypeInfoImpl--3a9062c2:159673e5d15:-39aa</id>
+  <name>SeamapAus_NSW_marine_habitats_2013</name>
+  <nativeName>SeamapAus_NSW_marine_habitats_2013</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - NSW - marine habitats 2013 (OEH)</title>
   <keywords>
-    <string>habitat mapping</string>
+    <string>habitat</string>
     <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -42,10 +42,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.1091772726111</minx>
-    <maxx>156.88396602847158</maxx>
-    <miny>-37.701471044318254</miny>
-    <maxy>-27.926682288457755</maxy>
+    <minx>148.6593488624768</minx>
+    <maxx>155.33379443860588</maxx>
+    <miny>-37.51168756405259</miny>
+    <maxy>-28.116465768723415</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -56,6 +56,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
