@@ -24,7 +24,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Fill>
               <sld:CssParameter name="fill">#640000</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
+            </sld:Fill>           
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -32,14 +32,14 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
-              <ogc:Literal>Reef</ogc:Literal>
+              <ogc:Literal>oTHER</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#14A4AC</sld:CssParameter>
+              <sld:CssParameter name="fill">#408000</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
+            </sld:Fill>            
           </sld:PolygonSymbolizer>
         </sld:Rule>
       </sld:FeatureTypeStyle>
