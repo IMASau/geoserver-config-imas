@@ -192,13 +192,27 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>			
           </sld:PolygonSymbolizer>
         </sld:Rule>
-
         <sld:Rule>
-          <sld:Title>Offshore Waters (10  - 20 metres)</sld:Title>
+          <sld:Title>Offshore Waters (&gt; 20 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
-              <ogc:Literal>Offshore Waters *10 - 20*</ogc:Literal>
+              <ogc:Literal>Offshore Waters .. 20*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#000080</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+            </sld:Fill>			
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Offshore Waters (10 - 20 metres)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:Literal>Offshore Waters *- 20*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
