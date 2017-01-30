@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NESP_D3_IMAS_NatMap_Tier3</title>
+  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 3</title>
   <keywords>
     <string>features</string>
     <string>NESP_D3_IMAS_NatMap_Tier3</string>
@@ -50,6 +50,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
