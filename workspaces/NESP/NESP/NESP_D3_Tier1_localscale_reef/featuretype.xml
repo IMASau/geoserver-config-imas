@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--91876d2:159edb015c3:17f5</id>
+  <name>NESP_D3_Tier1_localscale_reef</name>
+  <nativeName>NESP_D3_Tier1_localscale_reef</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 1 (local scale) - MAP ONLY</title>
+  <keywords>
+    <string>features</string>
+    <string>NESP_D3_Tier1_localscale_reef</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
+  DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+    TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
+  <srs>EPSG:4283</srs>
+  <nativeBoundingBox>
+    <minx>113.19734597206116</minx>
+    <maxx>159.36354941129684</maxx>
+    <miny>-43.779797904924095</miny>
+    <maxy>-10.283541341025803</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>113.19734597206114</minx>
+    <maxx>159.36354941129684</maxx>
+    <miny>-43.77979790398165</miny>
+    <maxy>-10.283541340693924</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
