@@ -1,12 +1,12 @@
 <layer>
-  <name>NESP_D3_IMAS_NatMap_Tier1_mv</name>
-  <id>LayerInfoImpl--91876d2:159e220049f:-7183</id>
+  <name>NESP_D3_Tier4_reef_probability</name>
+  <id>LayerInfoImpl--91876d2:159edb015c3:-4460</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--3ea8dad8:157bb635de2:2db3</id>
+    <id>StyleInfoImpl--91876d2:159ed550a4e:-796d</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--91876d2:159e220049f:-7184</id>
+    <id>FeatureTypeInfoImpl--91876d2:159edb015c3:-4461</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

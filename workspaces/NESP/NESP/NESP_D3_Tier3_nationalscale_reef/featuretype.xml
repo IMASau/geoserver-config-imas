@@ -1,22 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157bb635de2:2da9</id>
-  <name>NESP_D3_IMAS_NatMap_Tier3</name>
-  <nativeName>NESP_D3_IMAS_NatMap_Tier3</nativeName>
+  <id>FeatureTypeInfoImpl--91876d2:159edb015c3:-445e</id>
+  <name>NESP_D3_Tier3_nationalscale_reef</name>
+  <nativeName>NESP_D3_Tier3_nationalscale_reef</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 3 data</title>
+  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 3 (national scale) - MAP ONLY</title>
   <keywords>
+    <string>NESP_D3_Tier3_nationalscale_reef</string>
     <string>features</string>
-    <string>NESP_D3_IMAS_NatMap_Tier3</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=2ffb37a5-5c58-4ea9-a47d-5d526be31346</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
     SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
@@ -54,7 +47,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

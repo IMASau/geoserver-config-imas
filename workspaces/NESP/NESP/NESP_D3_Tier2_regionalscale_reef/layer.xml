@@ -1,0 +1,15 @@
+<layer>
+  <name>NESP_D3_Tier2_regionalscale_reef</name>
+  <id>LayerInfoImpl--91876d2:159edb015c3:-445b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--91876d2:159ed550a4e:-7960</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--91876d2:159edb015c3:-445c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
