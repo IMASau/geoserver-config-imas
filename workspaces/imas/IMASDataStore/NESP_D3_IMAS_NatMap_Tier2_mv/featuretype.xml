@@ -1,22 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157bb635de2:2da7</id>
-  <name>NESP_D3_IMAS_NatMap_Tier4</name>
-  <nativeName>NESP_D3_IMAS_NatMap_Tier4</nativeName>
+  <id>FeatureTypeInfoImpl--91876d2:159ed550a4e:-6b01</id>
+  <name>NESP_D3_IMAS_NatMap_Tier2_mv</name>
+  <nativeName>NESP_D3_IMAS_NatMap_Tier2_mv</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 4 data</title>
+  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 2 - MAP ONLY</title>
   <keywords>
+    <string>NESP_D3_IMAS_NatMap_Tier2_mv</string>
     <string>features</string>
-    <string>NESP_D3_IMAS_NatMap_Tier4</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=2ffb37a5-5c58-4ea9-a47d-5d526be31346</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
     SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
@@ -29,17 +22,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
   <srs>EPSG:4283</srs>
   <nativeBoundingBox>
-    <minx>112.61952459999998</minx>
-    <maxx>159.29590230000005</maxx>
-    <miny>-43.92861619999988</miny>
-    <maxy>-9.196436996383705</maxy>
+    <minx>112.21572907290707</minx>
+    <maxx>153.91104860531675</maxx>
+    <miny>-44.33503600360052</miny>
+    <maxy>-9.000022502250724</maxy>
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.61952459999999</minx>
-    <maxx>159.29590230000005</maxx>
-    <miny>-43.92861619905725</miny>
-    <maxy>-9.196436996085614</maxy>
+    <minx>112.21572907290705</minx>
+    <maxx>153.91104860531678</maxx>
+    <miny>-44.33503600265751</miny>
+    <maxy>-9.000022501958785</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -50,6 +43,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
