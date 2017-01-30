@@ -13,7 +13,7 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Reef</sld:Title>
+          <sld:Title>Reef (Tier 3)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
@@ -22,7 +22,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#640000</sld:CssParameter>
+              <sld:CssParameter name="fill">#86862d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -30,26 +30,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	          
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Non reef</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
-              <ogc:Literal>Other</ogc:Literal>
-            </ogc:PropertyIsNotEqualTo>            
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#408000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>  
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>	            
           </sld:PolygonSymbolizer>
         </sld:Rule>
       </sld:FeatureTypeStyle>
