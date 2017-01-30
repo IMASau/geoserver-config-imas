@@ -71,7 +71,22 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>     
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Island</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>FEAT_NAME</ogc:PropertyName>
+              <ogc:Literal>Island</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#000000</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>           
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

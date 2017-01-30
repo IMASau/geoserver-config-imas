@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>DATASET</name>
+        <type>string</type>
+        <label>Source dataset</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>CUSTODIAN</name>
+        <type>string</type>
+        <label>Custodian of source data</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
