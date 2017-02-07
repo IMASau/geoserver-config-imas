@@ -1,0 +1,51 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-352bf6ec:15a10be52eb:-499f</id>
+  <name>SeamapAus_NAT_CoastalWaterways_geomorphic</name>
+  <nativeName>SeamapAus_NAT_CoastalWaterways_geomorphic</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Seamap Austraia - NATIONAL - coastal waterways geomorphic habitat (GA)</title>
+  <keywords>
+    <string>habitat mapping</string>
+    <string>Seamap Australia</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=9b403526-e386-47ef-8a78-be1ae179419d</content>
+    </metadataLink>
+  </metadataLinks>
+  <srs>EPSG:3112</srs>
+  <nativeBoundingBox>
+    <minx>-2053298.2485302468</minx>
+    <maxx>1918409.941547553</maxx>
+    <miny>-4960116.585826786</miny>
+    <maxy>-1301872.9362339552</maxy>
+    <crs class="projected">EPSG:3112</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>109.55225803197766</minx>
+    <maxx>156.87812778669465</maxx>
+    <miny>-44.06642289001932</miny>
+    <maxy>-9.808712193457605</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
