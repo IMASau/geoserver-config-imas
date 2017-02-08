@@ -1,12 +1,12 @@
 <layer>
   <name>SeamapAus_NAT_CoastalWaterways_geomorphic</name>
-  <id>LayerInfoImpl-352bf6ec:15a10be52eb:-499e</id>
+  <id>LayerInfoImpl-352bf6ec:15a1657dbc7:32c</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl-352bf6ec:15a10be52eb:-497f</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-352bf6ec:15a10be52eb:-499f</id>
+    <id>FeatureTypeInfoImpl-352bf6ec:15a1657dbc7:32b</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
