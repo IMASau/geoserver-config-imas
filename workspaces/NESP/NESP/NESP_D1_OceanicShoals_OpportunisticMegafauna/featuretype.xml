@@ -1,14 +1,13 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:15792c76970:7720</id>
-  <name>NESP_D1_UWA_OS_OpportunisticMegafauna2012_MAP</name>
-  <nativeName>NESP_D1_UWA_OS_OpportunisticMegafauna2012_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-352bf6ec:15a1657dbc7:397</id>
+  <name>NESP_D1_OceanicShoals_OpportunisticMegafauna</name>
+  <nativeName>NESP_D1_OceanicShoals_OpportunisticMegafauna</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
   <title>NESP MBH D1 - Oceanic Shoals opportunistic visual surveys of marine megafauna</title>
   <keywords>
     <string>National Environmental Science Program (NESP) Marine Biodiversity Hub</string>
-    <string>marine megafauna</string>
     <string>visual survey</string>
     <string>Oceanic Shoals</string>
   </keywords>
@@ -16,7 +15,7 @@
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au:/geonetwork/srv/en/metadata.show?uuid=99208235-d68e-4039-bf77-362549a7aa48</content>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=99208235-d68e-4039-bf77-362549a7aa48</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -55,7 +54,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

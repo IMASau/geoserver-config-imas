@@ -1,24 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:15792c76970:7720</id>
-  <name>NESP_D1_UWA_OS_OpportunisticMegafauna2012_MAP</name>
-  <nativeName>NESP_D1_UWA_OS_OpportunisticMegafauna2012_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-352bf6ec:15a1657dbc7:395</id>
+  <name>NESP_D1_OceanicShoals_CMR_pegalic_BRUV_MaxN</name>
+  <nativeName>NESP_D1_UWA_OS_CMR_pegalic_BRUV_MaxN</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MBH D1 - Oceanic Shoals opportunistic visual surveys of marine megafauna</title>
+  <title>NESP MBH D1 - Oceanic Shoals CMR pelagic BRUV MaxN scoring data - 2012</title>
   <keywords>
     <string>National Environmental Science Program (NESP) Marine Biodiversity Hub</string>
-    <string>marine megafauna</string>
-    <string>visual survey</string>
+    <string>BRUV</string>
     <string>Oceanic Shoals</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au:/geonetwork/srv/en/metadata.show?uuid=99208235-d68e-4039-bf77-362549a7aa48</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -30,17 +22,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>122.012799</minx>
-    <maxx>127.453341</maxx>
-    <miny>-17.164861000000002</miny>
-    <maxy>-11.387799000000001</maxy>
+    <minx>126.907899</minx>
+    <maxx>127.454747</maxx>
+    <miny>-12.219738999999999</miny>
+    <maxy>-11.392915</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>122.012799</minx>
-    <maxx>127.453341</maxx>
-    <miny>-17.164861000000002</miny>
-    <maxy>-11.387799000000001</maxy>
+    <minx>126.907899</minx>
+    <maxx>127.454747</maxx>
+    <miny>-12.219738999999999</miny>
+    <maxy>-11.392915</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -55,7 +47,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
