@@ -1,12 +1,12 @@
 <layer>
   <name>NESP_D1_OceanicShoals_CMR_pegalic_BRUV_MaxN</name>
-  <id>LayerInfoImpl-352bf6ec:15a1657dbc7:396</id>
+  <id>LayerInfoImpl-352bf6ec:15a1657dbc7:79f</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
+    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff6</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-352bf6ec:15a1657dbc7:395</id>
+    <id>FeatureTypeInfoImpl-352bf6ec:15a1657dbc7:79e</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
