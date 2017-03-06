@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Algal mat</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Algal*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -36,7 +36,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Macroalgae, undifferentiated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Macroalgae</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -56,7 +56,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Coral</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Filter feeders</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Filter*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -96,7 +96,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Dune vegetation, undifferentiated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Dune*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -116,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sedge, shrub land</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sedge*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Seagrass</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -156,7 +156,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mangroves</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mangroves</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -176,7 +176,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Salt marsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Salt*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Unvegetated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Unvegetated</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -216,7 +216,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Unknown</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Unknown</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
