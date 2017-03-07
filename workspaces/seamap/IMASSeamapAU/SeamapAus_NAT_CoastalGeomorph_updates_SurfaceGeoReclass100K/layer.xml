@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_NAT_CoastalGeomorph_updates_SurfaceGeoReclass100K</name>
+  <id>LayerInfoImpl--4f0e078:15aa0bb5894:461</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4f0e078:15aa0bb5894:455</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4f0e078:15aa0bb5894:460</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

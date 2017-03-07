@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_NAT_CoastalGeomorph_updates_OffshoreReclass100K</name>
-  <id>LayerInfoImpl-352bf6ec:15a1ffdbc2b:-3956</id>
+  <name>SeamapAus_NAT_CoastalGeomorph_updates_SurfaceGeoReclass500K</name>
+  <id>LayerInfoImpl--4f0e078:15aa0bb5894:47e</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--4f0e078:15aa0bb5894:477</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-352bf6ec:15a1ffdbc2b:-3957</id>
+    <id>FeatureTypeInfoImpl--4f0e078:15aa0bb5894:47d</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
