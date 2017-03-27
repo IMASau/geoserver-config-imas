@@ -1,12 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-64d5dda4:15b0f122cc8:-7aae</id>
+  <id>FeatureTypeInfoImpl-64d5dda4:15b0f600c58:6103</id>
   <name>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</name>
   <nativeName>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT - Darwin Harbour seabed mapping (GA) - MAP ONLY</title>
-  <abstract>Reduced spatial resolution of native data layer</abstract>
+  <title>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</title>
   <keywords>
     <string>features</string>
     <string>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</string>
