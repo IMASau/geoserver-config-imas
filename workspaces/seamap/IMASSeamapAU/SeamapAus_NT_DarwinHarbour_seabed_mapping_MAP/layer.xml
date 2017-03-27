@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</name>
+  <id>LayerInfoImpl-64d5dda4:15b0f122cc8:-7aad</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ea8dad8:157dfd0e8b0:-3c50</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-64d5dda4:15b0f122cc8:-7aae</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
