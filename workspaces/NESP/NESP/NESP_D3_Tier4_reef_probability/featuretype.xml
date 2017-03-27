@@ -6,9 +6,14 @@
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
   <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 4 (reef probability) - MAP ONLY</title>
+  <abstract>Rocky reefs form an important habitat on the continental shelf and one subject to disproportionate fishing pressure given the high productivity of this habitat relative to adjacent sandy seabed. Despite this, little is known of the extent and nature of these systems beyond their value to the fishing industry. The NESP Marine Biodiversity Hub Project D3 collates all known mapping data from government and industry (including data acquired during CERF and NERP Hubs) to provide an updated map of this key habitat around Australia.&#xd;
+&#xd;
+The data was contributed from several national and State sources including the Australian Hydrographic Service, Queensland, Victoria, New South Wales, South Australia, Tasmania, Western Australia and Northern Territory. The information was synthesised and the information collected to describe rocky reef location on the Australian Continental shelf is described by 4 tiers of decreasing level of certainty/resolution/validation.&#xd;
+&#xd;
+This data layer describes TIER 4 reef mapping. Tier 4 is a ‘reef probability’ information source isolated from the Australian Hydrographic Service&apos;s (AHS) deep features S57 layer.</abstract>
   <keywords>
-    <string>NESP_D3_Tier4_reef_probability</string>
-    <string>features</string>
+    <string>National Environmental Science Program (NESP) Marine Biodiversity Hub</string>
+    <string>habitat mapping</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -29,10 +34,10 @@
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.61952459999999</minx>
-    <maxx>159.29590230000005</maxx>
-    <miny>-43.92861619905725</miny>
-    <maxy>-9.196436996085614</maxy>
+    <minx>112.152760823</minx>
+    <maxx>159.76266607700006</maxx>
+    <miny>-50.36747922457147</miny>
+    <maxy>-2.7575739705714017</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
