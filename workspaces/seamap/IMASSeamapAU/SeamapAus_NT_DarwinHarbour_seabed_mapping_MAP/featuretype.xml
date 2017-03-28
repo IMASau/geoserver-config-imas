@@ -5,10 +5,11 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</title>
+  <title>Seamap Australia - NT - Darwin Harbour seabed mapping (GA) - MAP ONLY</title>
+  <abstract>Reduced spatial resolution - for mapping only.</abstract>
   <keywords>
-    <string>features</string>
-    <string>SeamapAus_NT_DarwinHarbour_seabed_mapping_MAP</string>
+    <string>habitat mapping</string>
+    <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
