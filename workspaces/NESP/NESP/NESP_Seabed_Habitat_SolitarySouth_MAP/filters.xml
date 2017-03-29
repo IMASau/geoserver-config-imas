@@ -3,7 +3,7 @@
     <filter>
         <name>Label</name>
         <type>string</type>
-        <label>Label</label>
+        <label>Substrate / Depth label</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
