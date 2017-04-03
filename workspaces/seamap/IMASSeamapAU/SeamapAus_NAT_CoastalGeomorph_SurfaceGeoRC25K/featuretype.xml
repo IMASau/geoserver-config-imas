@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4f0e078:15aa0bb5894:2e6</id>
-  <name>SeamapAus_NAT_CoastalGeomorph_updates_Reclass25K</name>
-  <nativeName>SeamapAus_NAT_CoastalGeomorph_updates_Reclass25K</nativeName>
+  <id>FeatureTypeInfoImpl-4d2de92:15b3132c1cb:-7fe9</id>
+  <name>SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC25K</name>
+  <nativeName>SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC25K</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-2094941.1875</minx>
-    <maxx>1891033.292169254</maxx>
-    <miny>-4307903.241080481</miny>
-    <maxy>-1421859.3009612218</maxy>
+    <minx>908551.4227730749</minx>
+    <maxx>1889357.4065773145</maxx>
+    <miny>-4916747.526434646</miny>
+    <maxy>-3276263.5390625</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>110.50259706294064</minx>
-    <maxx>155.25594984860848</maxx>
-    <miny>-38.307499735175625</miny>
-    <maxy>-10.797486518513725</maxy>
+    <minx>143.41459832716086</minx>
+    <maxx>156.44766536945644</maxx>
+    <miny>-43.34743103375268</miny>
+    <maxy>-27.629824887791887</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
