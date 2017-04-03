@@ -13,12 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>abyssal-plain/deep ocean floor</sld:Title>
+          <sld:Title>abyssal-plain&#47;deep ocean floor</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>abyssal-plain/deep ocean floor</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>abyssal-plain*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -28,12 +28,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>apron/fan</sld:Title>
+          <sld:Title>apron&#47;fan</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>apron/fan</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>apron*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -43,12 +43,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>bank/shoals</sld:Title>
+          <sld:Title>bank&#47;shoals</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>bank/shoals</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>bank*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>basin</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>basin</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>canyon</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>canyon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>continental-rise</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>continental-rise</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -103,12 +103,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>deep/hole/valley</sld:Title>
+          <sld:Title>deep&#47;hole&#47;valley</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>deep/hole/valley</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>deep*hole*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>escarpment</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>escarpment</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -133,12 +133,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>knoll/abyssal-hills/hills/mountains/peak</sld:Title>
+          <sld:Title>knoll&#47;abyssal-hills&#47;hills&#47;mountains&#47;peak</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>knoll/abyssal-hills/hills/mountains/peak</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>knoll*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>pinnacle</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>pinnacle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -166,7 +166,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>plateau</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>plateau</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -181,7 +181,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>ridge</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>ridge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -211,7 +211,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>saddle</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>saddle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -223,12 +223,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>seamount/guyot</sld:Title>
+          <sld:Title>seamount&#47;guyot</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>seamount/guyot</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>seamount*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -241,7 +241,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>shelf</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>shelf</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -256,7 +256,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>sill</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>sill</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -271,7 +271,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>slope</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -286,7 +286,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>terrace</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>terrace</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -298,12 +298,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>  
         <sld:Rule>
-          <sld:Title>tidal-sandwave/sand-bank</sld:Title>
+          <sld:Title>tidal-sandwave&#47;sand-bank</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>tidal-sandwave/sand-bank</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>tidal-sandwave*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -313,12 +313,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>  
         <sld:Rule>
-          <sld:Title>trench/trough</sld:Title>
+          <sld:Title>trench&#47;trough</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
-              <ogc:Literal>trench/trough</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>trench*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>

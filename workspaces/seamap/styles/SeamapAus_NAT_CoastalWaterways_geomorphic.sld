@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Barrier/back-barrier</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Barrier*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -36,7 +36,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bedrock</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bedrock</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -56,7 +56,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Central Basin</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Central*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Channel</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Channel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -96,7 +96,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Coral</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -116,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Flood- and Ebb-tide Delta</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Flood*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Fluvial (bay-head) Delta</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Fluvial*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -156,7 +156,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Intertidal Flats</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Interidal*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -176,7 +176,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mangrove</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mangrove</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rocky Reef</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rocky*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -216,7 +216,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Saltmarsh/Sandflat</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Saltmarsh*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -236,7 +236,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Tidal Sand Banks</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Tidal*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -256,7 +256,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Unassigned</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>GH_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Unassigned</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>
