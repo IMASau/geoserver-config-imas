@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sand (intertidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand (intertidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sand (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sandy intermediate</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sandy intermediate</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef flat</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef flat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef crest</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef crest</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Deep lagoon</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Deep reef flat</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep reef flat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Lagoon sand / algae</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Lagoon sand / algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Lagoon sand / rubble</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Lagoon sand / rubble</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Backreef / shallow lagoon</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Backreef / shallow lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -166,7 +166,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Blue hole</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>HAB_NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Blue hole</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            

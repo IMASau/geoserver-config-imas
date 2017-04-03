@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Channel - Deep (10 - 20 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Channel - Deep*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Channel - Moderate (5 - 10 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Channel - Moderate*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Channel - Shallow (&lt; 5 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Channel - Shall*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Coastline - Sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Coastline - S*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Embayment - Subtidal Zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Embayment - S*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mangroves</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mangrove*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mud and tidal flats</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mud and*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Nearshore reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Nearshore r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Salt flats</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Salt*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -166,7 +166,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Shallow island fringe</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Shallow island*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -181,7 +181,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Tidal channel (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Tidal ch*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore Waters (&gt; 20 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore Waters .. 20*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -211,7 +211,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore Waters (10 - 20 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore Waters *- 20*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -226,7 +226,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore Waters (5 - 10 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore Waters *5 - 10*</ogc:Literal>
             </ogc:PropertyIsLike>		   
           </ogc:Filter>
@@ -241,7 +241,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore waters 5-10 metres (island, shoal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore Waters 5-10*</ogc:Literal>
             </ogc:PropertyIsLike>		   
           </ogc:Filter>
@@ -256,7 +256,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore waters &lt; 5 metres (island, shoal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore Waters *5 metres*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -271,22 +271,17 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Nearshore Waters (&lt; 5 metres)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>L3C_TXT</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Nearshore Waters *</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffcc99</sld:CssParameter>
+              <sld:CssParameter name="fill">#00b359</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>			
           </sld:PolygonSymbolizer>
         </sld:Rule>				
-
-
-		
-		
-		
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

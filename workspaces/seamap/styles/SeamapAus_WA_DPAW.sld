@@ -14,9 +14,9 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:Title>Algal mat (subtidal)</sld:Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>ALGAL MAT (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare reef (intertidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>BARE REEF (intertidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare reef (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>BARE REEF (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Coral reef (intertidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>CORAL REEF (intertidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Coral reef (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>CORAL REEF (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Filter feeders (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>FILTER FEEDERS (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Gravel/rubble (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>GRAVEL/RUBBLE (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Macroalgae (intertidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>MACROALGAE (intertidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Macroalgae (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>MACROALGAE (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mangals</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>MANGALS</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -166,13 +166,13 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mobile sand (subtidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>MOBILE SAND (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#fef8a4</sld:CssParameter>
+              <sld:CssParameter name="fill">#eade9c</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -181,13 +181,13 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mudflat</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>MUDFLAT</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#a5a5a5</sld:CssParameter>
+              <sld:CssParameter name="fill">#8c8c8c</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Pelagic</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>PELAGIC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -211,7 +211,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Saltmarsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>SALTMARSH</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -226,7 +226,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sandshoal</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>SANDSHOAL</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -241,13 +241,13 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sandy beach (intertidal)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>SANDY BEACH (intertidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#fefe00</sld:CssParameter>
+              <sld:CssParameter name="fill">#fafa38</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -256,7 +256,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Seagrass</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>SEAGRASS</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -271,7 +271,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Silt</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BROADSCALE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>SILT</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
