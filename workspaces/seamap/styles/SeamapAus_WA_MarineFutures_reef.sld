@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mixed reef and sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed reef and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>None modelled with certainty</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Substrate</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

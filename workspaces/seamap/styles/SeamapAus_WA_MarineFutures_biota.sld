@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Hard coral and all mixes</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Hard coral*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sessile invertebrates (SI)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sessile*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Vegetation</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Veg*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mixed vegetation and SI</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed veg*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>None modelled with certainty</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>None mod*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            

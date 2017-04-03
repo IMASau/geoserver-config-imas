@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Kelp</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Kel*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rhodolith</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rhod*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mixed vegetation</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed vegetation</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Other algae</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Other algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Seagrass</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sessile invertebrates (SI)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sessile*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mixed vegetation and SI</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed vegetation and*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>None modelled with certainty</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Biota</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>None mod*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
