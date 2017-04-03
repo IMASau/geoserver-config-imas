@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4f0e078:15aa0bb5894:460</id>
-  <name>SeamapAus_NAT_CoastalGeomorph_updates_SurfaceGeoReclass100K</name>
-  <nativeName>SeamapAus_NAT_CoastalGeomorph_updates_SurfaceGeoReclass100K</nativeName>
+  <id>FeatureTypeInfoImpl-4d2de92:15b3132c1cb:-7fa9</id>
+  <name>SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC250K</name>
+  <nativeName>SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC250K</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: surface geology, reclassified 100K (GA)</title>
+  <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: surface geology, reclassified 250K (GA)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-1850618.3536859239</minx>
-    <maxx>1924052.3132715912</maxx>
-    <miny>-4399508.527746653</miny>
-    <maxy>-1416821.2802734375</maxy>
+    <minx>-2059217.964959948</minx>
+    <maxx>1891534.3308071392</maxx>
+    <miny>-4973388.695901769</miny>
+    <maxy>-1289152.7049812374</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.01959166627827</minx>
-    <maxx>155.79663834971632</maxx>
-    <miny>-39.128959283346425</miny>
-    <maxy>-10.96793969824936</maxy>
+    <minx>109.45307252996464</minx>
+    <maxx>156.5926702946133</maxx>
+    <miny>-44.18074385000484</miny>
+    <maxy>-9.690992517232813</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

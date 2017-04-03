@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_NAT_CoastalGeomorph_updates_Regolith25K</name>
-  <id>LayerInfoImpl--4f0e078:15aa0bb5894:44a</id>
+  <name>SeamapAus_NAT_CoastalGeomorph_Regolith25K</name>
+  <id>LayerInfoImpl-4d2de92:15b3132c1cb:-7fb5</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--4f0e078:15aa0bb5894:477</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--4f0e078:15aa0bb5894:449</id>
+    <id>FeatureTypeInfoImpl-4d2de92:15b3132c1cb:-7fb6</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
