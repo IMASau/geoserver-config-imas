@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare Sandy - Mixed Sediments</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bare Sandy*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare Sand - Mud (flats/bars)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bare Sand - Mud*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare Rocky Reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bare Rocky R*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare Coarse Sediment rippled sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bare Coarse Sediment R*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare Coarse Sediment with possibility small rocky outcrops/rippled sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bare Coarse Sediment w*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Medium density Filter Feeders (Sponges &amp; Soft Corals)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Medium Density F*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>High density Filter Feeders (Sponges &amp; Soft Corals)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>High Density F*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Low density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Low Density M*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Low-medium density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Low-Medium Density M*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Medium density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Medium density M*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -166,7 +166,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>High density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>High Density M*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -181,7 +181,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bare Substrate</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Comm_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bare Sub*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            

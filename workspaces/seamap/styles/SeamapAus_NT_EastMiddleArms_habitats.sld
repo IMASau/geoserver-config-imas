@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Intertidal mobile substrates</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Intertidal, mobile*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Intertidal, non-mobile substrates</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Intertidal, non-mobile*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Low intertidal, non-mobile, rough</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Low intertidal, non-mobile, r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Low intertidal, non-mobile, smooth</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Low intertidal, non-mobile, s*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, mobile, PS zone, rough</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, mobile, PS zone, r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, mobile, PS zone, smooth</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, mobile, PS zone, s*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, non-mobile, PS zone, rough</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, non-mobile, PS zone, r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, non-mobile, PS zone, smooth</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, non-mobile, PS zone, s*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, mobile, below PS zone, rough</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, mobile, below PS zone, r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, mobile, below PS zone, smooth</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, mobile, below PS zone, s*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -166,7 +166,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, non-mobile, below PS zone, rough</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, non-mobile, below PS zone, r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -181,7 +181,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Subtidal, non-mobile, below PS zone, smooth</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>Hab_Name</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Subtidal, non-mobile, below PS zone, s*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
