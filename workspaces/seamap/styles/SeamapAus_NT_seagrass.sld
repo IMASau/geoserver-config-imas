@@ -15,7 +15,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Enhalus acoroides</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Enhalus acoroides</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -35,7 +35,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Enhalus acoroides with Halophila ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Enhalus acoroides with Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -55,7 +55,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Enhalus acoroides with mixed species</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Enhalus acoroides with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -76,15 +76,15 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (wide form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>					
 		  </ogc:Or>
@@ -106,11 +106,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form) with Enhalus acoroides</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Enhalus acoroides/Halodule uninervis (wide form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
 			</ogc:Or>
@@ -131,7 +131,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halodule uninervis with Halophila decipiens</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form)/Halophila decipiens</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Filter>
@@ -152,19 +152,19 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
 		  <ogc:Or>
 		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis with Halodule uninervis (narrow form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
 		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
 		  </ogc:Or>
@@ -186,15 +186,15 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halodule uninervis (narrow form) with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>					
 		  </ogc:Or>
@@ -215,7 +215,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila decipiens</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila decipiens</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -235,7 +235,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila decipiens with mixed species</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila decipiens with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -255,7 +255,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila ovalis</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -275,7 +275,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila ovalis with Enhalus acoroides</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis with Enhalus acoroides</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -295,7 +295,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila ovalis with Halophila decipiens</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis/Halophila decipiens</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -315,7 +315,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila ovalis with Thalassia hemprichii</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis with Thalassia hemprichii</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -335,7 +335,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila ovalis with mixed species</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila ovalis with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -355,7 +355,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Syringodium isoetifolium with mixed species</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Syringodium isoetifolium with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -375,7 +375,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Thalassia hemprichii</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Thalassia hemprichii with Enhalus acoroides</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -395,7 +395,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Thalassia hemprichii with Enhalus acoroides</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Thalassia hemprichii with Enhalus acoroides</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -415,7 +415,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Thalassia hemprichii with Halophila ovalis</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Thalassia hemprichii with Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -435,7 +435,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Thalassia hemprichii with mixed species</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Thalassia hemprichii with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -455,7 +455,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Thalassodendron ciliatum</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Thalassodendron ciliatum</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -475,7 +475,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Thalassodendron ciliatum with Thalassia hemprichii</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CATEGORY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Thalassadendron ciliatum with Thalassia hemprichii</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
