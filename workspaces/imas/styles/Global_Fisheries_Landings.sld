@@ -12,10 +12,15 @@
           <RasterSymbolizer>
             <Opacity>1.0</Opacity>
             <ColorMap>
-              <ColorMapEntry color="#FF0000" quantity="0" />
-              <ColorMapEntry color="#FFFFFF" quantity="1"/>
-              <ColorMapEntry color="#00FF00" quantity="10"/>
-              <ColorMapEntry color="#0000FF" quantity="1000"/>
+              <ColorMapEntry color="#000000" opacity="0.0" quantity="-1" />
+              <ColorMapEntry color="#000000" opacity="0.0" quantity="0" />
+              <ColorMapEntry color="#0000e6" opacity="0.5" quantity="0.000000001" />              
+              <ColorMapEntry color="#58a6f3" opacity="0.8" quantity="0.00001"/>
+              <ColorMapEntry color="#58f3f3" opacity="0.8" quantity="0.001"/>
+              <ColorMapEntry color="#58f3a6" opacity="0.8" quantity="0.1"/>              
+              <ColorMapEntry color="#7ff358" opacity="0.8" quantity="1"/>
+              <ColorMapEntry color="#f37f58" opacity="0.8" quantity="10"/>
+              <ColorMapEntry color="#f47171" opacity="0.8" quantity="1000"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
