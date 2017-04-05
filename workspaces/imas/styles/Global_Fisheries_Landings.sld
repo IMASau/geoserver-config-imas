@@ -11,7 +11,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="No catches"/>
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="No catches recorded for 2014"/>
               <ColorMapEntry color="#0000e6" opacity="0.5" quantity="0.000000001" label="1.0 E-9 t&#47;km&#178;"/>              
               <ColorMapEntry color="#668cff" opacity="0.8" quantity="0.000001" label="1.0 E-6 t&#47;km&#178;"/>
               <ColorMapEntry color="#58f3f3" opacity="0.8" quantity="0.001" label="1.0 E-3 t&#47;km&#178;"/>
@@ -19,7 +19,7 @@
               <ColorMapEntry color="#7ff358" opacity="0.8" quantity="0.1" label="0.1 t&#47;km&#178;"/>
               <ColorMapEntry color="#f3f358" opacity="0.8" quantity="1" label="1 t&#47;km&#178;"/>
               <ColorMapEntry color="#ff5c33" opacity="0.8" quantity="10" label="10 t&#47;km&#178;"/>
-              <ColorMapEntry color="#f91f1f" opacity="0.8" quantity="1000" label="1000 tonnes &#47; km&#178; ocean"/>              
+              <ColorMapEntry color="#f91f1f" opacity="0.8" quantity="1000" label="1000 tonnes &#47; km&#178; ocean [2014]"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
