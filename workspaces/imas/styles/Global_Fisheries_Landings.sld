@@ -10,17 +10,16 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <Opacity>1.0</Opacity>
             <ColorMap>
-              <ColorMapEntry color="#000000" opacity="0.0" quantity="-1" />
-              <ColorMapEntry color="#000000" opacity="0.0" quantity="0" />
-              <ColorMapEntry color="#0000e6" opacity="0.5" quantity="0.000000001" />              
-              <ColorMapEntry color="#58a6f3" opacity="0.8" quantity="0.00001"/>
-              <ColorMapEntry color="#58f3f3" opacity="0.8" quantity="0.001"/>
-              <ColorMapEntry color="#58f3a6" opacity="0.8" quantity="0.1"/>              
-              <ColorMapEntry color="#7ff358" opacity="0.8" quantity="1"/>
-              <ColorMapEntry color="#f37f58" opacity="0.8" quantity="10"/>
-              <ColorMapEntry color="#f47171" opacity="0.8" quantity="1000"/>              
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="No catches"/>
+              <ColorMapEntry color="#0000e6" opacity="0.5" quantity="0.000000001" label="1.0 E-9 t&#47;km&#178;"/>              
+              <ColorMapEntry color="#668cff" opacity="0.8" quantity="0.000001" label="1.0 E-6 t&#47;km&#178;"/>
+              <ColorMapEntry color="#58f3f3" opacity="0.8" quantity="0.001" label="1.0 E-3 t&#47;km&#178;"/>
+              <ColorMapEntry color="#58f3a6" opacity="0.8" quantity="0.01" label="0.01 t&#47;km&#178;"/>              
+              <ColorMapEntry color="#7ff358" opacity="0.8" quantity="0.1" label="0.1 t&#47;km&#178;"/>
+              <ColorMapEntry color="#f3f358" opacity="0.8" quantity="1" label="1 t&#47;km&#178;"/>
+              <ColorMapEntry color="#ff5c33" opacity="0.8" quantity="10" label="10 t&#47;km&#178;"/>
+              <ColorMapEntry color="#f91f1f" opacity="0.8" quantity="1000" label="1000 tonnes &#47; km&#178; ocean"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
