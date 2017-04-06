@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Deep lagoon</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep Lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Shallow lagoon</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Shallow Lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef crest</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef Crest</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef slope</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef Slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef flat (inner)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef flat Inner</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Reef flat (outer)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef Flat Outer</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Deep areas</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep Areas</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>unclassified</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>Classname_</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>unclassified</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            

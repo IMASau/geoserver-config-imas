@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Avicennia</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Avicennia</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -36,7 +36,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Avicennia / Aegiceras</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Avicennia/Aegiceras</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -56,7 +56,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Avicennia / Ceriops</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Avicennia/Ceriops</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bruguiera</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Bruguiera</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -96,7 +96,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Ceriops</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Ceriops</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -116,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mixed</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Mixed</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rhizophora</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Rhizophora</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -156,7 +156,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rhizophora/Aegiceras</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Rhizophora/Aegiceras</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -176,7 +176,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rhizophora/Avicennia</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*Rhizophora/Avicennia</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sparse Seagrass</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sparse Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -216,7 +216,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Saline Grassland</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Saline Grassland</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
@@ -236,7 +236,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Saltpan</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Saltpan</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>
@@ -256,7 +256,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Samphire-dominated Saltpan</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Samphire-dominated Saltpan</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -276,7 +276,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Water and terrestrial</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Water and Terrestrial</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

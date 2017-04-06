@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Eroded sandstone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Eroded sandstone</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rock</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rock</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Large rock</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Large Rock</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Exposed rock</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Exposed Rock</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rubble and sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rubble*Sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sand and boulders</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand and bolders</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Boulder and rubble</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
-              <ogc:PropertyName>BottomType</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Boulder*Rubble</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
