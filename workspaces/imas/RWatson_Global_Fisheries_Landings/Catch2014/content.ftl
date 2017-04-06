@@ -5,7 +5,7 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Catch: </b> ${feature.GRAY_INDEX.string.number} kg &#47; km&#178; ocean<BR><BR>
+  <b>Catch: </b> ${feature.GRAY_INDEX.value} tonnes &#47; km&#178; ocean<BR><BR>
 
 </div>
 	<#else>
