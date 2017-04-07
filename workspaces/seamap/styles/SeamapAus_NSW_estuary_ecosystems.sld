@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Brackish lake</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Brackish lake</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Freshwater</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Freshwater</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Intermittent estuary</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Intermittent estuary</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Ocean embayment</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Ocean embayment</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Tide dominated estuary</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Tide dominated estuary</ogc:Literal>
             </ogc:PropertyIsEqualTo>                   
           </ogc:Filter>
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Wave dominated estuary</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Wave dominated estuary</ogc:Literal>
             </ogc:PropertyIsEqualTo>                   
           </ogc:Filter>

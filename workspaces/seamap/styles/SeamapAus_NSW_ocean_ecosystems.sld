@@ -13,10 +13,10 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>> 0m (land)</sld:Title>
+          <sld:Title>&#60; 0m (land)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>* 0m</ogc:Literal>
             </ogc:PropertyIsLike>            
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>0 - 20m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>0 - 20m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>20 - 60m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>20 - 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>60 - 200m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>60 -200m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
@@ -73,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>>200m</sld:Title>
+          <sld:Title>&#62; 200m</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>ECOSYSTEM</ogc:PropertyName>
-              <ogc:Literal>*> 200m</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>..200m</ogc:Literal>
             </ogc:PropertyIsLike>                   
           </ogc:Filter>
           <sld:PolygonSymbolizer>
