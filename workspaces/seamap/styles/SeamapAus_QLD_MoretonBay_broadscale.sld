@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rocky headland</sld:Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rocky h*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Rocky shores</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rocky sh*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Inshore, algal/sponge habitat</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Inshore,*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -61,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Inshore reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Inshore reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>High energy coastal</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>High energy*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -91,7 +91,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mangrove/intertidal habitat</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mangrove*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -106,7 +106,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bioturbated mud</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bioturbated m*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -121,7 +121,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Bioturbated sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bioturbated s*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -136,7 +136,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Diverse sandy</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Diverse sa*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sandy channels</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sandy ch*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -166,7 +166,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sand/rubble</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand/r*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -181,7 +181,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Seagrass</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Riverine/estuarine</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Riverine*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -211,7 +211,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore sandy</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore sa*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -226,7 +226,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore re*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -241,7 +241,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Offshore deep</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>HABITAT_TY</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Offshore de*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>

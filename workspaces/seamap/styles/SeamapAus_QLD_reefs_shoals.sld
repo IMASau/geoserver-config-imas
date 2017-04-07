@@ -14,17 +14,11 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:Title>Reef, submerged</sld:Title>
-          <ogc:Filter>
-          <ogc:And>		  
+          <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURETYP</ogc:PropertyName>
-              <ogc:Literal>Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>RELATIONSH</ogc:PropertyName>
-              <ogc:Literal>Submerged</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 
-          </ogc:And>				
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Reef, Submerged</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
           </ogc:Filter>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -35,17 +29,11 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
         <sld:Rule>
           <sld:Title>Reef, tidal</sld:Title>
-          <ogc:Filter>
-          <ogc:And>		  
+          <ogc:Filter>  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURETYP</ogc:PropertyName>
-              <ogc:Literal>Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>RELATIONSH</ogc:PropertyName>
-              <ogc:Literal>Tidal</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 			
-          </ogc:And>				
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Reef, Tidal</ogc:Literal>
+            </ogc:PropertyIsEqualTo>				
           </ogc:Filter>				  
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -56,17 +44,11 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
         <sld:Rule>
           <sld:Title>Shoal, submerged</sld:Title>
-          <ogc:Filter>
-          <ogc:And>		  
+          <ogc:Filter>  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURETYP</ogc:PropertyName>
-              <ogc:Literal>Shoal</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>RELATIONSH</ogc:PropertyName>
-              <ogc:Literal>Submerged</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 			
-          </ogc:And>				
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Shoal, Submerged</ogc:Literal>
+            </ogc:PropertyIsEqualTo>				
           </ogc:Filter>			  
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -77,17 +59,11 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>	
         <sld:Rule>
           <sld:Title>Shoal, tidal</sld:Title>
-          <ogc:Filter>
-          <ogc:And>		  
+          <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURETYP</ogc:PropertyName>
-              <ogc:Literal>Shoal</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>RELATIONSH</ogc:PropertyName>
-              <ogc:Literal>Tidal</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 			
-          </ogc:And>				
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Shoal, Tidal</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
           </ogc:Filter>				  
           <sld:PolygonSymbolizer>
             <sld:Fill>
