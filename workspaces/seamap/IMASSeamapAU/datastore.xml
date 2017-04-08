@@ -1,22 +1,23 @@
 <dataStore>
   <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   <name>IMASSeamapAU</name>
-  <description>IMASSeamapAU</description>
+  <description>Seamap SQL Storage Databases</description>
   <type>Microsoft SQL Server (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
   <connectionParameters>
+    <entry key="schema">dbo</entry>
     <entry key="dbtype">sqlserver</entry>
     <entry key="Use native geometry serialization">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Use Native Paging">true</entry>
     <entry key="Integrated Security">false</entry>
     <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">5000</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
     <entry key="namespace">seamap</entry>
-    <entry key="Expose primary keys">false</entry>
-    <entry key="Use Native Paging">false</entry>
-    <entry key="fetch size">5000</entry>
   </connectionParameters>
   <__default>false</__default>
 </dataStore>

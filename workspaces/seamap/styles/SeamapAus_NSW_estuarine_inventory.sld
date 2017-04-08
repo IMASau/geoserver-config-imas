@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Mangrove &#xB1; Saltmarsh Communities</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mangrove*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Saltmarsh Communities &#xB1; A. marina</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Saltmarsh*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -47,15 +47,15 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>A. corn*</ogc:Literal>
             </ogc:PropertyIsLike>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>A.corn*</ogc:Literal>
             </ogc:PropertyIsLike>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Aegiceras*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Or>			
@@ -71,7 +71,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Ruppia sp. &#xB1; Zosteraceae</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Ruppia*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -87,11 +87,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
           <ogc:Or>		  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>P. aust*</ogc:Literal>
             </ogc:PropertyIsLike>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Posidona*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Or>			
@@ -107,7 +107,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Zostera sp. &#xB1; Ruppia sp., Halophila spp.</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Zostera*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -122,7 +122,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Halophila sp. &#xB1; Ruppia sp., Zostera sp.</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Halophila*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -146,7 +146,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Avicennia marina</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Avicennia*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -161,7 +161,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Algal Beds</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Algal*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -177,11 +177,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Other</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsNull>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
             </ogc:PropertyIsNull>			
 		  </ogc:Or>			
           </ogc:Filter>
@@ -190,11 +190,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill">#000000</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
-            <!--sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">1</sld:CssParameter>
-            </sld:Stroke-->
           </sld:PolygonSymbolizer>
         </sld:Rule>		
       </sld:FeatureTypeStyle>
