@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -31,13 +31,13 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32255&quot;]]</nativeCRS>
-  <srs>EPSG:32255</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>321319.78096795996</minx>
-    <maxx>616187.1698024698</maxx>
-    <miny>-4827279.221745955</miny>
-    <maxy>-4359535.658524551</maxy>
-    <crs class="projected">EPSG:32255</crs>
+    <minx>144.78718799604167</minx>
+    <maxx>148.4394445006124</maxx>
+    <miny>-43.598255819880706</miny>
+    <maxy>-39.36679642738305</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>144.78718799604167</minx>
@@ -52,7 +52,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
