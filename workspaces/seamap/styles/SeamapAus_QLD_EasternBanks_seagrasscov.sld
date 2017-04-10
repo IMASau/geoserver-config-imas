@@ -30,10 +30,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>1-10%</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Cov_Class</ogc:PropertyName>
-              <ogc:Literal>1-10</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>1-10*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -45,10 +45,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>10-40%</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Cov_Class</ogc:PropertyName>
-              <ogc:Literal>10-40</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>10-40*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -60,10 +60,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>40-70%</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Cov_Class</ogc:PropertyName>
-              <ogc:Literal>M</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>40-70*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -75,10 +75,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>70-100%</sld:Title>
           <ogc:Filter>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Cov_Class</ogc:PropertyName>
-              <ogc:Literal>70-100</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>70-100*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -88,11 +88,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>optically deep / no seagrass</sld:Title>
+          <sld:Title>No seagrass</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Cov_Class</ogc:PropertyName>
-              <ogc:Literal>noSG</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>No Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
