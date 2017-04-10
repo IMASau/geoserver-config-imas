@@ -13,12 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>SEAGRASS BIOMASS (dry weight per m&#178;)</sld:Title>
+          <sld:Title>SEAGRASS BIOMASS (g &#47; m&#178;)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsLessThan>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -28,53 +28,58 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>0-100</sld:Title>
+          <sld:Title>&lt; 25</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-              <ogc:Literal>100</ogc:Literal>
-            </ogc:PropertyIsLessThan>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>*25 g*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b3ffb3</sld:CssParameter>
+              <sld:CssParameter name="fill">#daffb3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>100-250</sld:Title>
+          <sld:Title>25-50</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsBetween>
-              <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-          <ogc:LowerBoundary>
-           <ogc:Literal>100</ogc:Literal>
-          </ogc:LowerBoundary>
-          <ogc:UpperBoundary>
-           <ogc:Literal>250</ogc:Literal>
-          </ogc:UpperBoundary>
-            </ogc:PropertyIsBetween>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>25-50*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#33ff33</sld:CssParameter>
+              <sld:CssParameter name="fill">#b5ff66</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>250-500</sld:Title>
+          <sld:Title>50-75</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsBetween>
-              <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-          <ogc:LowerBoundary>
-           <ogc:Literal>250</ogc:Literal>
-          </ogc:LowerBoundary>
-          <ogc:UpperBoundary>
-           <ogc:Literal>500</ogc:Literal>
-          </ogc:UpperBoundary>
-            </ogc:PropertyIsBetween>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>50-75*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#4dff4d</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>75-100</sld:Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>75-100*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#00cc00</sld:CssParameter>
@@ -83,40 +88,35 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>500-1000</sld:Title>
+          <sld:Title>100-1000</sld:Title>
           <ogc:Filter>          
-            <ogc:PropertyIsBetween>
-              <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-          <ogc:LowerBoundary>
-           <ogc:Literal>500</ogc:Literal>
-          </ogc:LowerBoundary>
-          <ogc:UpperBoundary>
-           <ogc:Literal>1000</ogc:Literal>
-          </ogc:UpperBoundary>
-            </ogc:PropertyIsBetween>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>100-1000*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#006600</sld:CssParameter>
+              <sld:CssParameter name="fill">#007100</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>greater than 1000</sld:Title>
+          <sld:Title>&#62; 1000</sld:Title>
           <ogc:Filter>          
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>BIOMASS</ogc:PropertyName>
-              <ogc:Literal>1000</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>* 1000*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#003300</sld:CssParameter>
+              <sld:CssParameter name="fill">#002c00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>			
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
