@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>DOMINANT SEAGRASS SPECIES</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -30,10 +30,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Halophila ovalis</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
-              <ogc:Literal>Ho</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ov*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -45,10 +45,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Halophila spinulosa</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
-              <ogc:Literal>Hs</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila spin*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -60,10 +60,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Syringodium isoetifolium</sld:Title>
           <ogc:Filter>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
-              <ogc:Literal>Si</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Syringodium iso*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -73,12 +73,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Cymedocea serrulata</sld:Title>
+          <sld:Title>Cymodocea serrulata</sld:Title>
           <ogc:Filter>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
-              <ogc:Literal>Cs</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Cymodocea serr*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -88,12 +88,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera muelleri / Halophila uninervis combined</sld:Title>
+          <sld:Title>Zostera muelleri / Halophila uninervis</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
-              <ogc:Literal>Zm</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Zostera*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -103,11 +103,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>optically deep area / no seagrass</sld:Title>
+          <sld:Title>No seagrass</sld:Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>_6Major</ogc:PropertyName>
-              <ogc:Literal>noSG</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>No Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
