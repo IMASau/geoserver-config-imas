@@ -276,7 +276,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed Seagrass Species</ogc:Literal>
+              <ogc:Literal>Mixed seagrass species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
