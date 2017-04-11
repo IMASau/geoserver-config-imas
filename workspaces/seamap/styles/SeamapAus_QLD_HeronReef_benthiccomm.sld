@@ -28,7 +28,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	  
         <sld:Rule>
-          <sld:Title>Macroalgae with minor cover by rock, live coral and dead coral</sld:Title>
+          <sld:Title>Macroalgae (&#43; minor rock, live coral and dead coral)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -43,7 +43,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>            
-          <sld:Title>Macroalgae with minor cover by rock and sediment</sld:Title>
+          <sld:Title>Macroalgae (&#43; minor rock and sediment)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -88,11 +88,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Live coral dominated with minor dead coral</sld:Title>
+          <sld:Title>Live coral (&#43; minor dead coral)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Live Coral*dead coral</ogc:Literal>
+              <ogc:Literal>Live Coral*dead coral.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -133,7 +133,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>Rock dominated with minor live coral on reef crest</sld:Title>
+          <sld:Title>Rock (&#43; live coral) on reef crest</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -167,7 +167,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep Reef Structrures</ogc:Literal>
+              <ogc:Literal>Deep Reef Structures</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
