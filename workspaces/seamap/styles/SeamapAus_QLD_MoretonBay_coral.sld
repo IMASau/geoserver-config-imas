@@ -15,16 +15,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Massive</sld:Title>
           <ogc:Filter>
-			<ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Massive</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-			  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
-              <ogc:Literal>Masive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-			</ogc:Or>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -37,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Soft</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Soft</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -52,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Branching</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Branching</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -67,7 +61,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Sponge</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sponge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -81,10 +75,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Massive/Soft</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
-              <ogc:Literal>Massive/Soft</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Massive.Soft</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -96,10 +90,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Massive/Soft/Sponge/Branching</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
-              <ogc:Literal>Massive/Soft/Sponge/Branching</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Massive.Soft.Sponge.Branching</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -111,10 +105,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Massive/Sponge/Plate/Branching</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Seamap_dom</ogc:PropertyName>
-              <ogc:Literal>Massive/Sponge/Plate/Branching</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Massive.Sponge.Plate.Branching</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
