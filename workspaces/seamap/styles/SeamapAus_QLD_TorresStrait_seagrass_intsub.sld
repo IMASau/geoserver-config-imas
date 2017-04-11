@@ -22,7 +22,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e59acc</sld:CssParameter>
+              <sld:CssParameter name="fill">#fff566</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -42,7 +42,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#993366</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff904d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -82,7 +82,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffccb3</sld:CssParameter>
+              <sld:CssParameter name="fill">#70c299</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -102,7 +102,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ff884d</sld:CssParameter>
+              <sld:CssParameter name="fill">#00cc7a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -122,7 +122,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#bbff99</sld:CssParameter>
+              <sld:CssParameter name="fill">#dd99ff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -142,7 +142,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#39fc03</sld:CssParameter>
+              <sld:CssParameter name="fill">#e864b1</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -162,7 +162,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#39ac39</sld:CssParameter>
+              <sld:CssParameter name="fill">#9f80ff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -262,7 +262,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#33ff99</sld:CssParameter>
+              <sld:CssParameter name="fill">#00ff00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>

@@ -13,7 +13,7 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Light H. uninervis (thin)</sld:Title>
+          <sld:Title>Light H. uninervis (narrow)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -58,7 +58,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Moderate H. uninervis (thin)</sld:Title>
+          <sld:Title>Moderate H. uninervis (narrow)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -73,7 +73,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Moderate H. uninervis (thin) with H. ovalis</sld:Title>
+          <sld:Title>Moderate H. uninervis (narrow) with H. ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -88,7 +88,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Moderate H. uninervis (thin) with H. uninervis (wide)</sld:Title>
+          <sld:Title>Moderate H. uninervis (narrow) with H. uninervis (wide)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -103,7 +103,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Moderate H. uninervis (thin) with mixed species</sld:Title>
+          <sld:Title>Moderate H. uninervis (narrow) with mixed species</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -118,7 +118,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
 		<sld:Rule>
-          <sld:Title>Dense H. uninervis (thin) with H. ovalis</sld:Title>
+          <sld:Title>Dense H. uninervis (narrow) with H. ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -133,7 +133,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Dense H. uninervis (thin) with mixed species</sld:Title>
+          <sld:Title>Dense H. uninervis (narrow) with mixed species</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -148,7 +148,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Dense H. uninervis (thin)&#47; T. hemprichii</sld:Title>
+          <sld:Title>Dense H. uninervis (narrow)&#47; T. hemprichii</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -163,7 +163,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Light H. ovalis with H. uninervis (thin)</sld:Title>
+          <sld:Title>Light H. ovalis with H. uninervis (narrow)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -172,7 +172,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e59acc</sld:CssParameter>
+              <sld:CssParameter name="fill">#f5bcdd</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -187,7 +187,67 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#993366</sld:CssParameter>
+              <sld:CssParameter name="fill">#e864b1</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Light H. decipiens</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Light*decipiens</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#dd99ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		        
+        <sld:Rule>
+          <sld:Title>Light H. decipiens&#47;H. uninervis (narrow)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Light H. decipens*uninervis*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ac39a1</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	        
+        <sld:Rule>
+          <sld:Title>Light H. spinulosa&#47;H. uninervis (wide)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Light H. spinulosa*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ccccff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Moderate T. hemprichii with mixed species</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Moderate T. hemprichii*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b3994d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -202,7 +262,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ccccff</sld:CssParameter>
+              <sld:CssParameter name="fill">#fff566</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -217,7 +277,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffbb99</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffe6b3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -232,7 +292,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffe6b3</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffbb99</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -247,7 +307,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ff884d</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff904d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -266,67 +326,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Light H. decipiens</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Light*decipiens</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#33ccff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Light H. decipiens&#47;H. uninervis (thin)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Light H. decipens*uninervis*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#993366</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Light H. spinulosa&#47;H. uninervis (wide)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Light H. spinulosa*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffff00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Moderate T. hemprichii with mixed species</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Moderate T. hemprichii*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b3cce6</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
+        </sld:Rule>		
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
