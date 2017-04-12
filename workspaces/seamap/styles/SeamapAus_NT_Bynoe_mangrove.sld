@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Aegiceras corniculatum</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Aegiceras*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -30,10 +30,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Avicennia marina</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Avicennia*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Avicennia marina</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -43,11 +43,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Bruguiera parviflora &#xB1; Rhizophora stylosa</sld:Title>
+          <sld:Title>Avicennia marina/Ceriops tagal</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Bruguiera*</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Avicennia*Ceriops*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -58,12 +58,27 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Ceriops tagal low forest</sld:Title>
+          <sld:Title>Bruguiera exaristata</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Ceriops tagal low*</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Bruguiera exa*</ogc:Literal>
             </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b2fc03</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>
+          <sld:Title>Bruguiera parviflora</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Bruguiera parviflora</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -73,11 +88,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Ceriops tagal tall forest</sld:Title>
+          <sld:Title>Bruguiera parviflora/Rhizophora stylosa</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Tall Ceriops*</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Bruguiera parviflora*Rhizophora*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -86,50 +101,29 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Mixed mangrove low forest</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Mixed species low*</ogc:Literal>
-            </ogc:PropertyIsLike>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#c2af70</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Mixed mangrove tall forest</sld:Title>
+          <sld:Title>Ceriops tagal</sld:Title>
           <ogc:Filter>
-          <ogc:Or>		  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Mixed species closed*</ogc:Literal>
-            </ogc:PropertyIsLike>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Mixed species tall*</ogc:Literal>
-            </ogc:PropertyIsLike>			
-          </ogc:Or>
-		  </ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Ceriops tagal</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#6b5d2e</sld:CssParameter>
+              <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Rhizophora stylosa low forest</sld:Title>
+          <sld:Title>Rhizophora stylosa</sld:Title>
           <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Rhizophora stylosa low*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rhizophora stylosa</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -139,11 +133,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Rhizophora stylosa tall forest</sld:Title>
+          <sld:Title>Rhizophora stylosa/Camptostemon schultzii</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Rhizophora stylosa tall*</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rhizophora stylosa*Camptostemon*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -154,26 +148,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Rhizophora stylosa + mixed species transition zone</sld:Title>
+          <sld:Title>Rhizophora stylosa/Bruguiera spp./Ceriops spp.</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Rhizophora stylosa/Bruguiera*</ogc:Literal>
-            </ogc:PropertyIsLike>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#437043</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora stylosa + mixed species tidal creek forest</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Rhizophora stylosa/Camp*</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rhizophora stylosa*Bruguiera*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -182,35 +161,74 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Sonneratia alba + mixed species</sld:Title>
+          <sld:Title>Sonneratia alba</sld:Title>
           <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Sonneratia*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sonneratia alba</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
+              <sld:CssParameter name="fill">#dfd19f</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Unsampled mangrove</sld:Title>
-          <ogc:Filter>
-		  <ogc:Or>
+          <sld:Title>Sonneratia alba/Aegiceras corniculatum</sld:Title>
+          <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_TYPE</ogc:PropertyName>
-              <ogc:Literal>Un-sampled Mangrove*</ogc:Literal>
-            </ogc:PropertyIsLike>		  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_DESC</ogc:PropertyName>
-              <ogc:Literal>Unknown. Small areas of mangroves*</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sonneratia alba*Aegiceras*</ogc:Literal>
             </ogc:PropertyIsLike>
-		  </ogc:Or>			
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b69449</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Sonneratia alba/Rhizophora stylosa/Avicennia marina</sld:Title>
+          <ogc:Filter>  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sonneratia alba*Rhizophora*Avicennia*</ogc:Literal>
+            </ogc:PropertyIsLike>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#734e26</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Mixed mangrove species</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mixed mangrove*</ogc:Literal>
+            </ogc:PropertyIsLike>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#396039</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>  
+        <sld:Rule>
+          <sld:Title>Unknown / inacessible mangrove species</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Unknown*</ogc:Literal>
+            </ogc:PropertyIsLike>		  		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -218,12 +236,12 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		        
+        </sld:Rule>				
         <sld:Rule>
-          <sld:Title>Non-mangrove vegetation</sld:Title>
+          <sld:Title>Non-mangrove vegetation communities</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VEG_TYPE</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Non-mangrove*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -238,17 +256,17 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Title>Salt flats</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>VEG_TYPE</ogc:PropertyName>
-              <ogc:Literal>Salt Flats</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Salt flats</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#1a8cff</sld:CssParameter>
+              <sld:CssParameter name="fill">#e63900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>     
+        </sld:Rule>  		           
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
