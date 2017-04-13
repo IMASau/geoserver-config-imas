@@ -13,57 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Avicennia</sld:Title>
+          <sld:Title>Avicennia marina</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Avicennia</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#85b102</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Avicennia/Ceriops</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Avicennia*Ceriops</ogc:Literal>
-            </ogc:PropertyIsLike>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#c2af70</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Ceriops</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Ceriops</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#009999</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Rhizophora</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Avicennia marina</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -71,89 +26,89 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Sonneratia</sld:Title>
-          <ogc:Filter>	  
+          <sld:Title>Avicennia marina/Ceriops tagal</sld:Title>
+          <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Sonneratia</ogc:Literal>
+              <ogc:Literal>Avicennia*Ceriops*</ogc:Literal>
             </ogc:PropertyIsLike>
-		  </ogc:Filter>
+          </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#009900</sld:CssParameter>
+              <sld:CssParameter name="fill">#cc9900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Mixed</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+          <sld:Title>Ceriops tagal</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Mixed</ogc:Literal>
-            </ogc:PropertyIsLike>
-		  </ogc:Filter>
+              <ogc:Literal>Ceriops tagal</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	        
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Saline Grassland</sld:Title>
-          <ogc:Filter>
+          <sld:Title>Rhizophora spp.</sld:Title>
+          <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Saline grass*</ogc:Literal>
+              <ogc:Literal>Rhizophora*</ogc:Literal>
             </ogc:PropertyIsLike>
-          </ogc:Filter>
+		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#003366</sld:CssParameter>
+              <sld:CssParameter name="fill">#6beb47</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Samphire-dominated Saltpan</sld:Title>
+          <sld:Title>Sonneratia alba</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sonneratia alba</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#dfd19f</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Mixed mangrove species</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Samphire*</ogc:Literal>
-            </ogc:PropertyIsLike>		
-          </ogc:Filter>
+              <ogc:Literal>Mixed mangrove*</ogc:Literal>
+            </ogc:PropertyIsLike>
+		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#660000</sld:CssParameter>
+              <sld:CssParameter name="fill">#43705a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>  			
         <sld:Rule>
-          <sld:Title>Saltpan</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Saltpan</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#cc3300</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-        <sld:Rule>
-          <sld:Title>Sedgeland</sld:Title>
+          <sld:Title>Non-mangrove vegetation communities</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sedgeland</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Non-mangrove*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -161,7 +116,37 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>          
+        <sld:Rule>
+          <sld:Title>Salt flats</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Salt flats</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#e63900</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>  
+        <sld:Rule>
+          <sld:Title>Water and terrestrial</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Water*</ogc:Literal>
+            </ogc:PropertyIsLike>		  		
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#000066</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>			
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
