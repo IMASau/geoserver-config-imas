@@ -23,10 +23,25 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#006600</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>        
+          <sld:Title>Rhodolith</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rhod*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#d7191c</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>Other algae</sld:Title>
           <ogc:Filter>
@@ -38,22 +53,43 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#d0b0a8</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>  
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Mixed kelp and other algae</sld:Title>
+          <sld:Title>Seagrass</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed kelp and other algae</ogc:Literal>
+              <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
+              <sld:CssParameter name="fill">#04e600</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule> 		
+        <sld:Rule>
+          <sld:Title>Mixed vegetation</sld:Title>
+          <ogc:Filter>
+          <ogc:Or>		  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mixed*</ogc:Literal>
+            </ogc:PropertyIsLike>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Vegetati*</ogc:Literal>
+            </ogc:PropertyIsLike>			
+          </ogc:Or>			
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
               <sld:CssParameter name="fill">#009999</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>          
@@ -68,7 +104,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#ab7bea</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>      		        
@@ -82,8 +118,8 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00bfff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill">#cc0066</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>        
@@ -97,8 +133,8 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f59053</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill">#f4843e</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
@@ -112,8 +148,23 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#fcabe6</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb3b3</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	
+        <sld:Rule>        
+          <sld:Title>Hard coral and all mixes</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Hard coral*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b33c00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
@@ -128,7 +179,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#989898</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>        
