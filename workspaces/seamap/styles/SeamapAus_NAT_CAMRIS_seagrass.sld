@@ -15,15 +15,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Seagrass (presence)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsBetween>
-              <ogc:PropertyName>ID2</ogc:PropertyName>
-              <ogc:LowerBoundary>
-                <ogc:Literal>1</ogc:Literal>
-              </ogc:LowerBoundary>
-              <ogc:UpperBoundary>
-                <ogc:Literal>10000</ogc:Literal>
-              </ogc:UpperBoundary>
-            </ogc:PropertyIsBetween>		  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+                <ogc:Literal>Seagrass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
