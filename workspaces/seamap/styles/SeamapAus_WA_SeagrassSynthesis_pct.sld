@@ -13,18 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>&#60;2&#37;</sld:Title>
+          <sld:Title>0&#37;</sld:Title>
           <ogc:Filter>
-		  <Or>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*2.</ogc:Literal>
-            </ogc:PropertyIsLike>
-            <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-		  </Or>			
+              <ogc:Literal>0.</ogc:Literal>
+            </ogc:PropertyIsLike>		
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -34,11 +28,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	  
         <sld:Rule>
-          <sld:Title>2-15&#37;</sld:Title>
+          <sld:Title>1-10&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*15.</ogc:Literal>
+              <ogc:Literal>..10*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -49,11 +43,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	  
         <sld:Rule>
-          <sld:Title>15-45&#37;</sld:Title>
+          <sld:Title>11-30&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>15*45*</ogc:Literal>
+              <ogc:Literal>11*30*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -64,11 +58,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>45-75&#37;</sld:Title>
+          <sld:Title>31-50&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>45*75.</ogc:Literal>
+              <ogc:Literal>31*50*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -79,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	       
         <sld:Rule>
-          <sld:Title>&#62;75&#37;</sld:Title>
+          <sld:Title>51-75&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>..75*</ogc:Literal>
+              <ogc:Literal>51*75*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -94,16 +88,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>patches</sld:Title>
+          <sld:Title>76-100&#37;</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>			
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>patches</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>76*100*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#bfbfbf</sld:CssParameter>
+              <sld:CssParameter name="fill">#374705</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
