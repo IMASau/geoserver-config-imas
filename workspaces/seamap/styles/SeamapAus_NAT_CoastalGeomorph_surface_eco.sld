@@ -137,7 +137,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hard</ogc:Literal>
+              <ogc:Literal>Hard substrate</ogc:Literal>
             </ogc:PropertyIsEqualTo>	           
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -157,7 +157,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Soft</ogc:Literal>
+              <ogc:Literal>Soft substrate</ogc:Literal>
             </ogc:PropertyIsEqualTo>	           
           </ogc:Filter>
           <sld:PolygonSymbolizer>
