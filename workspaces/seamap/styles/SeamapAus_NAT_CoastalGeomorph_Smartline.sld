@@ -20,12 +20,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Coral communities</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#e600ac</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#e600ac</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>		
         </sld:Rule>	
         <sld:Rule>
           <sld:Title>Fringing coral reefs</sld:Title>
@@ -35,12 +36,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Fringing coral reefs</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#aa80ff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aa80ff</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
         </sld:Rule>			
         <sld:Rule>
           <sld:Title>Boulder&#47;cobble&#47;shingle&#47;pebble&#47;sand</sld:Title>
@@ -50,12 +52,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Boulder*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#3C6442</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#3C6442</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
         </sld:Rule>
         <sld:Rule>
           <sld:Title>Sediment bottom</sld:Title>
@@ -65,12 +68,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Sediment*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#BBA600</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#BBA600</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>		  
         </sld:Rule>		
         <sld:Rule>
           <sld:Title>Mixed sandy bottom</sld:Title>
@@ -80,12 +84,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed sandy bottom</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#FFAD00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#FFAD00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
         </sld:Rule>		
         <sld:Rule>
           <sld:Title>Muddy bottom</sld:Title>
@@ -95,12 +100,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Muddy*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#974749</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#974749</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
         </sld:Rule>
         <sld:Rule>
           <sld:Title>Hard rocky reefs</sld:Title>
@@ -110,12 +116,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Hard rocky*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#4d3319</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#4d3319</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
         </sld:Rule>		
         <sld:Rule>
           <sld:Title>Patchy hard rocky reefs &#47; exposed rock</sld:Title>
@@ -125,12 +132,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Patchy hard*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#14A4AC</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#14A4AC</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
         </sld:Rule>			
         <sld:Rule>
           <sld:Title>Sandy lagoon (protected)</sld:Title>
@@ -140,12 +148,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Sandy lagoon*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#E8C7AE</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
         </sld:Rule>		
         <sld:Rule>
           <sld:Title>Rocky platform</sld:Title>
@@ -155,13 +164,14 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Rocky platform</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#999999</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#00cc66</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+		</sld:Rule>	
         <sld:Rule>
           <sld:Title>Rock wall</sld:Title>
           <ogc:Filter>
@@ -170,13 +180,14 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Rock wall</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ff8533</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ff8533</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+		</sld:Rule>	
         <sld:Rule>
           <sld:Title>Plunging cliff</sld:Title>
           <ogc:Filter>
@@ -185,12 +196,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Plunging cliff</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#cc3300</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#cc3300</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
         </sld:Rule>			
         <sld:Rule>
           <sld:Title>Artificial substrate</sld:Title>
@@ -200,13 +212,30 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Artificial substrate</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#000000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>		  
-        </sld:Rule>			
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	  
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Unclassified</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Unclassified</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+		</sld:Rule>        
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
