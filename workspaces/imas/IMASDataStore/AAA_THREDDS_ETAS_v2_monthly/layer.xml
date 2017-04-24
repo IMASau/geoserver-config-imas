@@ -1,0 +1,15 @@
+<layer>
+  <name>AAA_THREDDS_ETAS_v2_monthly</name>
+  <id>LayerInfoImpl--1f3a3d34:15b9a98820a:14cd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1f3a3d34:15b9a98820a:14cc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
