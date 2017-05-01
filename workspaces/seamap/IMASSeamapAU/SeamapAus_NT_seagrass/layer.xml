@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_NT_seagrass</name>
+  <id>LayerInfoImpl--a82c043:15bc18b5cb3:-a95</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--68c28a1c:158410580bf:-684</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a82c043:15bc18b5cb3:-a96</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
