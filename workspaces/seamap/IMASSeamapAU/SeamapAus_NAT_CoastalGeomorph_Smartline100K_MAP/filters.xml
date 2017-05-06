@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>geom</name>
+        <name>GEOM</name>
         <type>geometrypropertytype</type>
-        <label>Geom</label>
+        <label>GEOM</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

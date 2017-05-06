@@ -1,9 +1,16 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>Substrate</name>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SM_HAB_CLS</name>
         <type>string</type>
-        <label>Substrate</label>
+        <label>Substrate Type</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
