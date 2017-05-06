@@ -43,10 +43,10 @@
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-554362.796875</minx>
-    <maxx>431205.00389999896</maxx>
-    <miny>-1923538.1506999992</miny>
-    <maxy>-1285277.2851999998</maxy>
+    <minx>128.8262185144818</minx>
+    <maxx>138.02526708612817</maxx>
+    <miny>-16.657995556774065</miny>
+    <maxy>-10.875332102571134</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
