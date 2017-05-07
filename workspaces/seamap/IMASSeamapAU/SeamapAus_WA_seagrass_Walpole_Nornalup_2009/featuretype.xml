@@ -34,7 +34,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-1570185.3776071272</minx>
     <maxx>-1564823.1134953622</maxx>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>116.69252110325529</minx>
-    <maxx>116.76427285044664</maxx>
-    <miny>-35.039069909885846</miny>
-    <maxy>-34.967318162694504</maxy>
+    <minx>-1570185.3776071272</minx>
+    <maxx>-1564823.1134953622</maxx>
+    <miny>-4050948.7350049075</miny>
+    <maxy>-4044788.3971432354</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -55,7 +55,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>

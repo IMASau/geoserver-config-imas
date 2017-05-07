@@ -34,7 +34,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-1690186.0821853213</minx>
     <maxx>-1686556.7015887045</maxx>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.62826195240036</minx>
-    <maxx>115.76600666686595</maxx>
-    <miny>-33.32969892068257</miny>
-    <maxy>-33.19195420621697</maxy>
+    <minx>-1690186.0821853213</minx>
+    <maxx>-1686556.7015887045</maxx>
+    <miny>-3877738.5133661143</miny>
+    <maxy>-3863815.146042319</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -55,7 +55,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>

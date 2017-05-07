@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -34,7 +34,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-1740910.3671875</minx>
     <maxx>-1722251.2109375</maxx>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.05991868138554</minx>
-    <maxx>115.27903853641251</maxx>
-    <miny>-33.680557651462</miny>
-    <maxy>-33.46143779643503</maxy>
+    <minx>-1740910.3671875</minx>
+    <maxx>-1722251.2109375</maxx>
+    <miny>-3916392.76171875</miny>
+    <maxy>-3907159.18359375</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -55,7 +55,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
