@@ -1,12 +1,12 @@
 <layer>
-  <name>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</name>
-  <id>LayerInfoImpl-12a7a840:150885c510f:-6f0e</id>
+  <name>CERF_NHill_FEI_Bathymetry</name>
+  <id>LayerInfoImpl--18dc4a09:15bebf7977d:1bd5</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-12a7a840:150885c510f:-6f0f</id>
+    <id>FeatureTypeInfoImpl--18dc4a09:15bebf7977d:1bd4</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-12a7a840:150885c510f:-6f0f</id>
-  <name>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</name>
-  <nativeName>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</nativeName>
+  <id>FeatureTypeInfoImpl--18dc4a09:15bebf7977d:1bd4</id>
+  <name>CERF_NHill_FEI_Bathymetry</name>
+  <nativeName>CERF_NHill_FEI_Bathymetry</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
@@ -9,27 +9,30 @@
   <abstract>These data describe quantitative exposure indices generated using cartographic fetch methods on a 0.01 degree grid across temperate Australia (South Australia, Victoria and Tasmania). This layer describes bathymetry-altered fetch. Bathymetry-altered fetch attempts to account for the attenuation of wave energy as waves move into shallow waters and encounter friction with the seafloor.</abstract>
   <keywords>
     <string>features</string>
-    <string>CERF_NHill_Fetchbased_Exposure_Indices_Bathymetry_GV</string>
+    <string>CERF_NHill_FEI_Bathymetry</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=bc9916f6-e452-4039-9f17-fecea5376cbb</content>
-    </metadataLink>
-  </metadataLinks>
-  <srs>EPSG:3112</srs>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-469575.12630099966</minx>
     <maxx>1251703.6288009973</maxx>
     <miny>-4736340.839300999</miny>
     <maxy>-3553612.2305989997</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>128.45998460991194</minx>
-    <maxx>148.70954314575792</maxx>
-    <miny>-42.111113626517096</miny>
-    <maxy>-30.895747359487775</maxy>
+    <minx>-469575.12630099966</minx>
+    <maxx>1251703.6288009973</maxx>
+    <miny>-4736340.839300999</miny>
+    <maxy>-3553612.2305989997</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -38,11 +41,8 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
