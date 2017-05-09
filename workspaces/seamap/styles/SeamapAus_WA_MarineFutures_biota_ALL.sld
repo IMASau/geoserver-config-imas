@@ -215,47 +215,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>SITE</sld:Title>
-          <ogc:Filter>
-          <ogc:Or>		  
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>6</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>14</ogc:Literal>
-          </ogc:PropertyIsEqualTo>		  
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>18</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>22</ogc:Literal>
-          </ogc:PropertyIsEqualTo>			  
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
-          </ogc:PropertyIsEqualTo>			  
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>38</ogc:Literal>
-          </ogc:PropertyIsEqualTo>		                
-          <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ID</ogc:PropertyName>
-              <ogc:Literal>46</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-          </ogc:Or>			        		  
-          </ogc:Filter>			        
+          <sld:Title>SITE</sld:Title>		        
 		  <sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
             <sld:Graphic>
