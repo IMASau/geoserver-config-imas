@@ -77,6 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>SITE</sld:Title>          
 <sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
             <sld:Graphic>
@@ -91,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
                    <sld:CssParameter name="stroke-width">1</sld:CssParameter>
                </sld:Stroke>
               </sld:Mark>
-              <sld:Size>19</sld:Size>
+              <sld:Size>17</sld:Size>
             </sld:Graphic>
           </sld:PointSymbolizer>
         </sld:Rule>		
