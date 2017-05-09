@@ -29,6 +29,22 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>Sessile invertebrates (SI)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sessile*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ab7bea</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
           <sld:Title>Kelp</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -45,22 +61,6 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>        
         <sld:Rule>
-          <sld:Title>Other algae</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Other algae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#84e1e1</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
           <sld:Title>Seagrass</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -75,7 +75,23 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule> 		
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Other algae</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Other algae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#84e1e1</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
         <sld:Rule>
           <sld:Title>Mixed vegetation</sld:Title>
           <ogc:Filter>
@@ -102,22 +118,6 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>          
-        <sld:Rule>
-          <sld:Title>Sessile invertebrates (SI)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sessile*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ab7bea</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
         <sld:Rule>        
           <sld:Title>Mixed kelp and SI</sld:Title>
           <ogc:Filter>
@@ -217,20 +217,44 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>SITE</sld:Title>
           <ogc:Filter>
+          <ogc:Or>		  
           <ogc:PropertyIsEqualTo>
-			<ogc:Function name="in8">
               <ogc:PropertyName>ID</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
-              <ogc:Literal>5</ogc:Literal>
-              <ogc:Literal>9</ogc:Literal>
-              <ogc:Literal>78443</ogc:Literal>
-              <ogc:Literal>78451</ogc:Literal>
-              <ogc:Literal>78459</ogc:Literal>
-              <ogc:Literal>78467</ogc:Literal>
-              <ogc:Literal>78474</ogc:Literal>			  
-			</ogc:Function>
-            <ogc:Literal>true</ogc:Literal>
-          </ogc:PropertyIsEqualTo>			
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>6</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>14</ogc:Literal>
+          </ogc:PropertyIsEqualTo>		  
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>18</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>22</ogc:Literal>
+          </ogc:PropertyIsEqualTo>			  
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>30</ogc:Literal>
+          </ogc:PropertyIsEqualTo>			  
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>38</ogc:Literal>
+          </ogc:PropertyIsEqualTo>		                
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>46</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          </ogc:Or>			        		  
           </ogc:Filter>			        
 		  <sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
