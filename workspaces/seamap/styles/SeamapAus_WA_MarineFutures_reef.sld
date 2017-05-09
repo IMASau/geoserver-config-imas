@@ -24,10 +24,26 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#640000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Gravel</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Gravel</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#994d00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>Sand</sld:Title>
           <ogc:Filter>
@@ -39,11 +55,27 @@ xmlns:gml="http://www.opengis.net/gml">
 		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffd480</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Mixed reef and gravel</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mixed reef and gravel</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#cc0000</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>  
           <sld:Title>Mixed reef and sand</sld:Title>
           <ogc:Filter>
@@ -55,11 +87,43 @@ xmlns:gml="http://www.opengis.net/gml">
 		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#E64C00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff884d</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>
+        <sld:Rule>  
+          <sld:Title>Mixed gravel and sand</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mixed gravel and sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#d2a679</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>  
+          <sld:Title>Mixed gravel, reef and sand</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mixed reef*gravel*sand</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#cccc00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>			
         <sld:Rule> 
           <sld:Title>None modelled with certainty</sld:Title>
           <ogc:Filter>
