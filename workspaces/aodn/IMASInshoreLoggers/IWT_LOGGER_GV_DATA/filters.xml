@@ -19,7 +19,7 @@
         <type>geometrypropertytype</type>
         <label>GEOM</label>
         <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
+        <excludedFromDownload>true</excludedFromDownload>
     </filter>
     <filter>
         <name>DATETIME_LOCAL</name>
