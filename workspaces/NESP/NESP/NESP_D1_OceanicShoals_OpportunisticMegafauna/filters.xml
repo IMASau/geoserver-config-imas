@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>geom</name>
-        <type>geometrypropertytype</type>
-        <label>Geom</label>
+        <name>Date</name>
+        <type>datetime</type>
+        <label>Date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SM_HAB_CLS</name>
-        <type>string</type>
-        <label>Substrate Type</label>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
