@@ -1,12 +1,12 @@
 <layer>
-  <name>CERF_NHill_FEI_Bathymetry</name>
-  <id>LayerInfoImpl--18dc4a09:15bebf7977d:1bd5</id>
+  <name>CERF_NHill_FEIndex_Bathymetry</name>
+  <id>LayerInfoImpl-70876ad1:15bec6858da:-7ffa</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
+    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff6</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--18dc4a09:15bebf7977d:1bd4</id>
+    <id>FeatureTypeInfoImpl-70876ad1:15bec6858da:-7ffb</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

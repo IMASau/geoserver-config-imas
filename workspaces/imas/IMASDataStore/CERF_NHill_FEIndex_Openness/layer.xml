@@ -1,12 +1,12 @@
 <layer>
-  <name>CERF_NHill_FEI_Openness</name>
-  <id>LayerInfoImpl--18dc4a09:15bebf7977d:1bda</id>
+  <name>CERF_NHill_FEIndex_Openness</name>
+  <id>LayerInfoImpl-70876ad1:15bec6858da:-7ff8</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff7</id>
+    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--18dc4a09:15bebf7977d:1bd9</id>
+    <id>FeatureTypeInfoImpl-70876ad1:15bec6858da:-7ff9</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
