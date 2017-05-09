@@ -77,8 +77,24 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>SITE</sld:Title>          
-<sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
+          <sld:Title>SITE</sld:Title>
+          <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+			<ogc:Function name="in8">
+              <ogc:PropertyName>ID</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>5</ogc:Literal>
+              <ogc:Literal>9</ogc:Literal>
+              <ogc:Literal>78443</ogc:Literal>
+              <ogc:Literal>78451</ogc:Literal>
+              <ogc:Literal>78459</ogc:Literal>
+              <ogc:Literal>78467</ogc:Literal>
+              <ogc:Literal>78474</ogc:Literal>			  
+			</ogc:Function>
+            <ogc:Literal>true</ogc:Literal>
+          </ogc:PropertyIsEqualTo>			
+          </ogc:Filter>			        
+		  <sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
             <sld:Graphic>
               <sld:Mark>
