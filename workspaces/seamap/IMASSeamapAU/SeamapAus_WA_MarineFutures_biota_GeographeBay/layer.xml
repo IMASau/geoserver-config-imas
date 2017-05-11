@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_MarineFutures_biota_GeographeBay</name>
+  <id>LayerInfoImpl-111fe3a:15bf5948b19:-760d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ea8dad8:157fadca229:2618</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-111fe3a:15bf5948b19:-760e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
