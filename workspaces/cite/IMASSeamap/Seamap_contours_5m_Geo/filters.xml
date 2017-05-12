@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Geometry</name>
+        <type>geometrypropertytype</type>
+        <label>Geometry</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
