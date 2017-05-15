@@ -13,17 +13,17 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Saltmarsh</sld:Title>
+          <sld:Title>Halophila</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Saltmarsh</ogc:Literal>
+              <ogc:Literal>Halophila</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#E64C00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#d9cda6</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -33,17 +33,17 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Mangrove &#xB1; Saltmarsh</sld:Title>
+          <sld:Title>Halophila / Ruppia</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mangrov*</ogc:Literal>
+              <ogc:Literal>Halophila . Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#14A4AC</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#9e662e</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -51,19 +51,59 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>        
+        </sld:Rule> 
         <sld:Rule>
-          <sld:Title>Posidonia</sld:Title>
+          <sld:Title>Halophila / Zostera</sld:Title>
           <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila . Zostera</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ffb800</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>         
+        <sld:Rule>
+          <sld:Title>Posidona</sld:Title>
+          <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia</ogc:Literal>
+              <ogc:Literal>Posidona</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#9f8060</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#ecee5d</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>          
+        <sld:Rule>
+          <sld:Title>Posidona / Halophila</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Posidona . Halophila</ogc:Literal>
+            </ogc:PropertyIsLike>		
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#609f60</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -72,6 +112,86 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Posidona / Halophila / Ruppia</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Posidona . Halophila . Ruppia</ogc:Literal>
+            </ogc:PropertyIsLike>		
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#7070a9</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Posidona / Ruppia</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Posidona . Ruppia</ogc:Literal>
+            </ogc:PropertyIsLike>		
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#8b4d80</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Posidona / Zostera</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Posidona . Zostera</ogc:Literal>
+            </ogc:PropertyIsLike>		
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b3b300</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Posidona / Zostera / Halophila</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Posidona . Zostera . Halophila</ogc:Literal>
+            </ogc:PropertyIsLike>		
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#9c3416</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>Ruppia</sld:Title>
           <ogc:Filter>
@@ -82,8 +202,8 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#bc8fbc</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#D3FFBE</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -91,7 +211,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>        
         <sld:Rule>
           <sld:Title>Zostera</sld:Title>
           <ogc:Filter>
@@ -102,68 +222,8 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f3b372</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Posidonia/Halophila</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia/Halophila</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#609f60</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Posidonia/Halophila/Ruppia</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia/Halophila/Ruppia</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#7070a9</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-        <sld:Rule>
-          <sld:Title>Posidonia/Ruppia</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia/Ruppia</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#704370</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#8ef28c</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -173,17 +233,17 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidonia/Zostera</sld:Title>
+          <sld:Title>Zostera / Ruppia</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia/Zostera</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		
+              <ogc:Literal>Zostera . Ruppia</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#cc00cc</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#ace600</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -191,19 +251,19 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidonia/Zostera/Halophila</sld:Title>
+          <sld:Title>Zostera / Ruppia / Halophila</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia/Zostera/Halophila</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		
+              <ogc:Literal>Zostera . Ruppia . Halophila</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b30000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#1de619</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -211,19 +271,19 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>        
         <sld:Rule>
-          <sld:Title>Zostera/Ruppia</sld:Title>
+          <sld:Title>Mangroves</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera/Ruppia</ogc:Literal>
+              <ogc:Literal>Mangroves</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b3f372</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#26734b</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -231,19 +291,39 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Zostera/Halophila</sld:Title>
+          <sld:Title>Mangroves / Saltmarsh</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mangroves*Saltmarsh</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#458aa1</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>         
+        <sld:Rule>
+          <sld:Title>Saltmarsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera/Halophila</ogc:Literal>
+              <ogc:Literal>Saltmarsh</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#5b80f1</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+              <sld:CssParameter name="fill">#E64C00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
@@ -251,27 +331,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Zostera/Halophila/Ruppia</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera/Halophila/Ruppia</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b30059</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.03</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
+        </sld:Rule>       	
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

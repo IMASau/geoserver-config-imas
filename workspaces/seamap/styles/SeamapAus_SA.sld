@@ -133,16 +133,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>		  
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Saltmarsh/Mangrove</sld:Title>
+          <sld:Title>Mangroves / Saltmarsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Saltmarsh*</ogc:Literal>
+              <ogc:Literal>Mangroves . Saltmarsh</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#018200</sld:CssParameter>
+              <sld:CssParameter name="fill">>#458aa1</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
