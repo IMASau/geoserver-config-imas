@@ -233,11 +233,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>			
         <sld:Rule>
-          <sld:Title>Saltpan</sld:Title>
+          <sld:Title>Salt flats</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Saltpan</ogc:Literal>
+              <ogc:Literal>Salt flats</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -253,11 +253,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		        
         <sld:Rule>
-          <sld:Title>Samphire-dominated Saltpan</sld:Title>
+          <sld:Title>Samphire-dominated salt flats</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Samphire-dominated Saltpan</ogc:Literal>
+              <ogc:Literal>Samphire-dominated salt flats</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
