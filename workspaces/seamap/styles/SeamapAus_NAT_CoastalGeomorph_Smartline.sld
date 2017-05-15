@@ -221,11 +221,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:LineSymbolizer>	  
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Unclassified</sld:Title>
+          <sld:Title>Undefined</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Unclassified</ogc:Literal>
+              <ogc:Literal>Undefined</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:LineSymbolizer>

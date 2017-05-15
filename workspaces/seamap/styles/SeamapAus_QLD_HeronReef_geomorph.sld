@@ -116,21 +116,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>unclassified</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>unclassified</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b3b3b3</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
         </sld:Rule>		
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
