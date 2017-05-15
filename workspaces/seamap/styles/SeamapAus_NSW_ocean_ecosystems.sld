@@ -17,7 +17,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>* 0m</ogc:Literal>
+              <ogc:Literal>*0m</ogc:Literal>
             </ogc:PropertyIsLike>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -62,7 +62,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>60 -200m</ogc:Literal>
+              <ogc:Literal>60 - 200m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -77,7 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>..200m</ogc:Literal>
+              <ogc:Literal>. 200m</ogc:Literal>
             </ogc:PropertyIsLike>                   
           </ogc:Filter>
           <sld:PolygonSymbolizer>
