@@ -37,7 +37,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#974749</sld:CssParameter>
+              <sld:CssParameter name="fill">#44a1b5</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -67,20 +67,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:GraphicFill>
-                <sld:Graphic>
-                  <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/patchy_reef.png" />
-                    <sld:Format>image/png</sld:Format>
-                  </sld:ExternalGraphic>
-                  <sld:Size>
-                    <ogc:Literal>20</ogc:Literal>
-                  </sld:Size>
-                </sld:Graphic>
-              </sld:GraphicFill>
+              <sld:CssParameter name="fill">#974749</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>		
         <sld:Rule>
           <sld:Title>Terrace</sld:Title>
           <ogc:Filter>
