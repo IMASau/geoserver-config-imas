@@ -13,18 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>&#60;2&#37;</sld:Title>
+          <sld:Title>&#60; 2&#37;</sld:Title>
           <ogc:Filter>
-		  <Or>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*2.</ogc:Literal>
-            </ogc:PropertyIsLike>
-            <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-		  </Or>			
+              <ogc:Literal>. 2.</ogc:Literal>
+            </ogc:PropertyIsLike>					
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -34,7 +28,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	  
         <sld:Rule>
-          <sld:Title>2-15&#37;</sld:Title>
+          <sld:Title>2 - 15&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -49,11 +43,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	  
         <sld:Rule>
-          <sld:Title>15-45&#37;</sld:Title>
+          <sld:Title>15 - 45&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>15*45*</ogc:Literal>
+              <ogc:Literal>15*45.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -64,7 +58,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>45-75&#37;</sld:Title>
+          <sld:Title>45 - 75&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -79,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	       
         <sld:Rule>
-          <sld:Title>&#62;75&#37;</sld:Title>
+          <sld:Title>&#62; 75&#37;</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>..75*</ogc:Literal>
+              <ogc:Literal>. 75.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -94,7 +88,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>patches</sld:Title>
+          <sld:Title>Patches</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
