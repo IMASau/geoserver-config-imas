@@ -13,11 +13,11 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>abyssal-plain&#47;deep ocean floor</sld:Title>
+          <sld:Title>Abyssal-plain &#47; Deep ocean floor</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>abyssal-plain*</ogc:Literal>
+              <ogc:Literal>Abyssal-plain*Deep ocean floor</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -28,41 +28,41 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>apron&#47;fan</sld:Title>
+          <sld:Title>Apron&#47;Fan</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>apron*</ogc:Literal>
+              <ogc:Literal>Apron.Fan</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b52829</sld:CssParameter>
+              <sld:CssParameter name="fill">#ccff66</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>bank&#47;shoals</sld:Title>
+          <sld:Title>Bank&#47;Shoals</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>bank*</ogc:Literal>
+              <ogc:Literal>Bank.Shoals</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#3cc4c3</sld:CssParameter>
+              <sld:CssParameter name="fill">#44a1b5</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule> 					
         <sld:Rule>
-          <sld:Title>basin</sld:Title>
+          <sld:Title>Basin</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>basin</ogc:Literal>
+              <ogc:Literal>Basin</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -73,26 +73,56 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>canyon</sld:Title>
+          <sld:Title>Canyon</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>canyon</ogc:Literal>
+              <ogc:Literal>Canyon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#c630c6</sld:CssParameter>
+              <sld:CssParameter name="fill">#2634aa</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>				
         <sld:Rule>
-          <sld:Title>continental-rise</sld:Title>
+          <sld:Title>Continental-rise</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>continental-rise</ogc:Literal>
+              <ogc:Literal>Continental-rise</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#c471da</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Deep&#47;Hole&#47;Valley</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Deep.Hole.Valley</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>            
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#000000</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Escarpment</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>	
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Escarpment</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -101,43 +131,13 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>deep&#47;hole&#47;valley</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>deep*hole*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#a26d3f</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>escarpment</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>	
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>escarpment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#4228c6</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>knoll&#47;abyssal-hills&#47;hills&#47;mountains&#47;peak</sld:Title>
+          <sld:Title>Knoll&#47;Abyssal-hills&#47;Hills&#47;Mountains&#47;Peak</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>knoll*</ogc:Literal>
+              <ogc:Literal>Knoll.Abyssal-hills*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -148,86 +148,86 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 		
         <sld:Rule>
-          <sld:Title>pinnacle</sld:Title>
+          <sld:Title>Pinnacle</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>pinnacle</ogc:Literal>
+              <ogc:Literal>Pinnacle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#319e6b</sld:CssParameter>
+              <sld:CssParameter name="fill">#b52829</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>plateau</sld:Title>
+          <sld:Title>Plateau</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>plateau</ogc:Literal>
+              <ogc:Literal>Plateau</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#6ba242</sld:CssParameter>
+              <sld:CssParameter name="fill">#aed392</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>reef</sld:Title>
+          <sld:Title>Reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>reef</ogc:Literal>
+              <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#7338ad</sld:CssParameter>
+              <sld:CssParameter name="fill">#640000</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>ridge</sld:Title>
+          <sld:Title>Ridge</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>ridge</ogc:Literal>
+              <ogc:Literal>Ridge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#68c031</sld:CssParameter>
+              <sld:CssParameter name="fill">#974749</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>saddle</sld:Title>
+          <sld:Title>Saddle</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>saddle</ogc:Literal>
+              <ogc:Literal>Saddle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#c64d5a</sld:CssParameter>
+              <sld:CssParameter name="fill">#e6e600</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>seamount&#47;guyot</sld:Title>
+          <sld:Title>Seamount&#47;Guyot</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>seamount*</ogc:Literal>
+              <ogc:Literal>Seamount.Guyot</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -238,11 +238,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>shelf</sld:Title>
+          <sld:Title>Shelf</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>shelf</ogc:Literal>
+              <ogc:Literal>Shelf</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -253,26 +253,26 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>sill</sld:Title>
+          <sld:Title>Sill</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>sill</ogc:Literal>
+              <ogc:Literal>Sill</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#2634aa</sld:CssParameter>
+              <sld:CssParameter name="fill">#5a41d8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>  
         <sld:Rule>
-          <sld:Title>slope</sld:Title>
+          <sld:Title>Slope</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>slope</ogc:Literal>
+              <ogc:Literal>Slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -283,46 +283,46 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>  
         <sld:Rule>
-          <sld:Title>terrace</sld:Title>
+          <sld:Title>Terrace</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>terrace</ogc:Literal>
+              <ogc:Literal>Terrace</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#44a1b5</sld:CssParameter>
+              <sld:CssParameter name="fill">#FFAD00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>  
         <sld:Rule>
-          <sld:Title>tidal-sandwave&#47;sand-bank</sld:Title>
+          <sld:Title>Tidal-sandwave&#47;Sand-bank</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>tidal-sandwave*</ogc:Literal>
+              <ogc:Literal>Tidal-sandwave.Sand-bank</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#399d42</sld:CssParameter>
+              <sld:CssParameter name="fill">#00ffff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>  
         <sld:Rule>
-          <sld:Title>trench&#47;trough</sld:Title>
+          <sld:Title>Trench&#47;Trough</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>trench*</ogc:Literal>
+              <ogc:Literal>Trench.Trough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#307867</sld:CssParameter>
+              <sld:CssParameter name="fill">#2c6d5e</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
