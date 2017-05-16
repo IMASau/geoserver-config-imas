@@ -13,12 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Aquatic Macrophytes</sld:Title>
+          <sld:Title>Aquatic macrophytes</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Aquatic*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Aquatic macrophytes</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -82,12 +82,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>HP</sld:Name>
-          <sld:Title>High Profile Reef</sld:Title>
+          <sld:Title>High profile reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>High Profile Reef</ogc:Literal>
+              <ogc:Literal>High profile reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -98,11 +97,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Medium Profile Reef</sld:Title>
+          <sld:Title>Medium profile reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Medium Profile Reef</ogc:Literal>
+              <ogc:Literal>Medium profile reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -113,11 +112,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Low Profile Reef</sld:Title>
+          <sld:Title>Low profile reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Low Profile Reef</ogc:Literal>
+              <ogc:Literal>Low profile reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -128,11 +127,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Patchy Reef</sld:Title>
+          <sld:Title>Patchy reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Patchy Reef</ogc:Literal>
+              <ogc:Literal>Patchy reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -182,11 +181,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Hard Sand</sld:Title>
+          <sld:Title>Hard sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hard Sand</ogc:Literal>
+              <ogc:Literal>Hard sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -197,11 +196,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Shelly Sand</sld:Title>
+          <sld:Title>Shelly sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Shelly Sand</ogc:Literal>
+              <ogc:Literal>Shelly sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -212,11 +211,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Silty Sand</sld:Title>
+          <sld:Title>Silty sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Silty Sand</ogc:Literal>
+              <ogc:Literal>Silty sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -257,12 +256,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Patchy Seagrass</sld:Title>
+          <sld:Title>Patchy seagrass</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Patchy Sea*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Patchy seagrass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -281,12 +280,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Sparse Seagrass</sld:Title>
+          <sld:Title>Sparse seagrass</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sparse Sea*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Sparse seagrass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -296,12 +295,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Sparse Patchy Seagrass</sld:Title>
+          <sld:Title>Sparse patchy seagrass</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sparse Patchy*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Sparse patchy seagrass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -322,10 +321,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Ruppia</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*RU*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -374,11 +373,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Vegetated Unconsolidated</sld:Title>
+          <sld:Title>Vegetated unconsolidated</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Vegetated Unconsolidated</ogc:Literal>
+              <ogc:Literal>Vegetated unconsolidated</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
