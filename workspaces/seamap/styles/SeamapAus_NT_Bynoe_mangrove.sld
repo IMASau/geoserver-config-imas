@@ -242,7 +242,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Unknown*</ogc:Literal>
+              <ogc:Literal>Unknown*inacessible mangrove species</ogc:Literal>
             </ogc:PropertyIsLike>		  		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
