@@ -17,7 +17,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Very deep*</ogc:Literal>
+              <ogc:Literal>Very deep*very high slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>		             
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -32,7 +32,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep*</ogc:Literal>
+              <ogc:Literal>Deep*low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -47,7 +47,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Moderately deep*</ogc:Literal>
+              <ogc:Literal>Moderately deep*low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>         
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -62,7 +62,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Moderately shallow*</ogc:Literal>
+              <ogc:Literal>Moderately shallow*high slope*low consolidation</ogc:Literal>
             </ogc:PropertyIsLike>	         
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -77,7 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Shallow*</ogc:Literal>
+              <ogc:Literal>Shallow*very low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -92,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Very shallow*</ogc:Literal>
+              <ogc:Literal>Very shallow*very low slope*highly consolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
           <sld:PolygonSymbolizer>
