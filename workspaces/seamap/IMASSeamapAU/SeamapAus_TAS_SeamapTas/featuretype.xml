@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--573af72d:15c0e821a6a:33e7</id>
+  <id>FeatureTypeInfoImpl--573af72d:15c100386bd:5dbe</id>
   <name>SeamapAus_TAS_SeamapTas</name>
   <nativeName>SeamapAus_TAS_SeamapTas</nativeName>
   <namespace>
@@ -54,7 +54,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
