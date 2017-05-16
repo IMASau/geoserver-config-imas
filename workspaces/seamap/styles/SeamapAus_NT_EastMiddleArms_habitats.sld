@@ -13,41 +13,41 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Intertidal mobile substrates</sld:Title>
+          <sld:Title>Intertidal - mobile substrates</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Intertidal, mobile*</ogc:Literal>
+              <ogc:Literal>Intertidal*mobile substrates</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffff66</sld:CssParameter>
+              <sld:CssParameter name="fill">#ecffb3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Intertidal, non-mobile substrates</sld:Title>
+          <sld:Title>Intertidal - non-mobile substrates</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Intertidal, non-mobile*</ogc:Literal>
+              <ogc:Literal>Intertidal*non-mobile substrates</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e6e600</sld:CssParameter>
+              <sld:CssParameter name="fill">#c5d300</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Low intertidal, non-mobile, rough</sld:Title>
+          <sld:Title>Low intertidal - non-mobile substrate (rough)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Low intertidal, non-mobile, r*</ogc:Literal>
+              <ogc:Literal>Low intertidal*non-mobile*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -58,11 +58,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Low intertidal, non-mobile, smooth</sld:Title>
+          <sld:Title>Low intertidal - non-mobile substrate (smooth)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Low intertidal, non-mobile, s*</ogc:Literal>
+              <ogc:Literal>Low intertidal*non-mobile*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -73,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>			
         <sld:Rule>
-          <sld:Title>Subtidal, mobile, PS zone, rough</sld:Title>
+          <sld:Title>Subtidal - mobile substrate (rough), PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, mobile, PS zone, r*</ogc:Literal>
+              <ogc:Literal>Subtidal*mobile*PS zone*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -88,11 +88,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Subtidal, mobile, PS zone, smooth</sld:Title>
+          <sld:Title>Subtidal - mobile substrate (smooth), PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, mobile, PS zone, s*</ogc:Literal>
+              <ogc:Literal>Subtidal*mobile*PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -103,11 +103,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Subtidal, non-mobile, PS zone, rough</sld:Title>
+          <sld:Title>Subtidal - non-mobile substrate (rough), PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, non-mobile, PS zone, r*</ogc:Literal>
+              <ogc:Literal>Subtidal*non-mobile*PS zone*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -118,11 +118,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Subtidal, non-mobile, PS zone, smooth</sld:Title>
+          <sld:Title>Subtidal - non-mobile substrate (smooth), PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, non-mobile, PS zone, s*</ogc:Literal>
+              <ogc:Literal>Subtidal*non-mobile*PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -133,11 +133,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Subtidal, mobile, below PS zone, rough</sld:Title>
+          <sld:Title>Subtidal - mobile substrate (rough), below PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, mobile, below PS zone, r*</ogc:Literal>
+              <ogc:Literal>Subtidal*mobile*below PS zone*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -148,26 +148,26 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Subtidal, mobile, below PS zone, smooth</sld:Title>
+          <sld:Title>Subtidal - mobile substrate (smooth), below PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, mobile, below PS zone, s*</ogc:Literal>
+              <ogc:Literal>Subtidal*mobile*below PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#295aa6</sld:CssParameter>
+              <sld:CssParameter name="fill">#52217a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Subtidal, non-mobile, below PS zone, rough</sld:Title>
+          <sld:Title>Subtidal - non-mobile substrate (rough), below PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, non-mobile, below PS zone, r*</ogc:Literal>
+              <ogc:Literal>Subtidal*non-mobile*below PS zone*rough*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -178,11 +178,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Subtidal, non-mobile, below PS zone, smooth</sld:Title>
+          <sld:Title>Subtidal - non-mobile substrate (smooth), below PS zone</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Subtidal, non-mobile, below PS zone, s*</ogc:Literal>
+              <ogc:Literal>Subtidal*non-mobile*below PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>

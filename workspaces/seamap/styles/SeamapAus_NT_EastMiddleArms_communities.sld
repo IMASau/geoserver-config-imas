@@ -13,26 +13,26 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Bare Sandy - Mixed Sediments</sld:Title>
+          <sld:Title>Bare sandy to mixed sediments</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
+            <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare Sandy*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Bare sandy to mixed sediments</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
+              <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Bare Sand - Mud (flats/bars)</sld:Title>
+          <sld:Title>Bare sand and mud (either flats/bars)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare Sand - Mud*</ogc:Literal>
+              <ogc:Literal>Bare sand and mud*flats.bars.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -43,12 +43,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Bare Rocky Reef</sld:Title>
+          <sld:Title>Bare rocky reef</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
+            <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare Rocky R*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Bare rocky reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -58,12 +58,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>			
         <sld:Rule>
-          <sld:Title>Bare Coarse Sediment rippled sand</sld:Title>
+          <sld:Title>Bare coarse sediment with rippled sand</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
+            <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare Coarse Sediment R*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Bare coarse sediment with rippled sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -73,26 +73,26 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Bare Coarse Sediment with possibility small rocky outcrops/rippled sand</sld:Title>
+          <sld:Title>Bare coarse sediment with possibility of small rocky outcrops/rippled sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare Coarse Sediment w*</ogc:Literal>
+              <ogc:Literal>Bare coarse sediment*possibility*outcrops*rippled sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#A16632</sld:CssParameter>
+              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Medium density Filter Feeders (Sponges &amp; Soft Corals)</sld:Title>
+          <sld:Title>Filter feeders (sponges &amp; soft corals) - medium density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Medium Density F*</ogc:Literal>
+              <ogc:Literal>Medium density filter feeders*sponges*corals*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -103,11 +103,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>High density Filter Feeders (Sponges &amp; Soft Corals)</sld:Title>
+          <sld:Title>Filter feeders (sponges &amp; soft corals) - high density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>High Density F*</ogc:Literal>
+              <ogc:Literal>High density filter feeders*sponges*corals*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -118,11 +118,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Low density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - low density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Low Density M*</ogc:Literal>
+              <ogc:Literal>Low density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -133,11 +133,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Low-medium density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - low-medium density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Low-Medium Density M*</ogc:Literal>
+              <ogc:Literal>Low-medium density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -148,11 +148,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Medium density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - medium density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Medium density M*</ogc:Literal>
+              <ogc:Literal>Medium density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -163,11 +163,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>High density Mixed Community (Corals, Algae, Sponges &amp; Soft Corals)</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - high density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>High Density M*</ogc:Literal>
+              <ogc:Literal>High density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -178,12 +178,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Bare Substrate</sld:Title>
+          <sld:Title>Bare substrate</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
+            <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare Sub*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Bare substrate</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
