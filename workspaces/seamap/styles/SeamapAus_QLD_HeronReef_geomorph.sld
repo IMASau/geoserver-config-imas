@@ -13,26 +13,11 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>            
-          <sld:Title>Deep lagoon</sld:Title>
+          <sld:Title>Lagoon (shallow)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep Lagoon</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#8529a3</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>        
-        <sld:Rule>            
-          <sld:Title>Shallow lagoon</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Shallow Lagoon</ogc:Literal>
+              <ogc:Literal>Shallow lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -41,18 +26,48 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule> 
+        </sld:Rule>        
+        <sld:Rule>            
+          <sld:Title>Lagoon (deep)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Deep lagoon</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#8529a3</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Other deep areas</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Deep areas</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#16389c</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	         
         <sld:Rule>
           <sld:Title>Reef crest</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef Crest</ogc:Literal>
+              <ogc:Literal>Reef crest</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffb3b3</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff9999</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -62,12 +77,12 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef Slope</ogc:Literal>
+              <ogc:Literal>Reef slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#800000</sld:CssParameter>
+              <sld:CssParameter name="fill">#bd4b28</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -77,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef flat Inner</ogc:Literal>
+              <ogc:Literal>Reef flat inner</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -92,7 +107,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef Flat Outer</ogc:Literal>
+              <ogc:Literal>Reef flat outer</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -101,22 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Deep areas</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep Areas</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#16389c</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>	
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
