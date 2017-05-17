@@ -32,7 +32,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macroalgae*rock*live*coral*</ogc:Literal>
+              <ogc:Literal>Macroalgae*minor rock*live coral and dead coral.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -47,7 +47,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrolgae*rock*sediment*</ogc:Literal>
+              <ogc:Literal>Macrolgae*minor rock and sediment.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -67,7 +67,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#60401f</sld:CssParameter>
+              <sld:CssParameter name="fill">#4d3319</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -77,7 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Branching Live Coral*reef slope</ogc:Literal>
+              <ogc:Literal>Branching live coral*reef slope</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -92,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Live Coral*dead coral.</ogc:Literal>
+              <ogc:Literal>Live coral*dead coral.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -103,11 +103,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Coral (live/dead combined)</sld:Title>
+          <sld:Title>Live/dead coral combined</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Live and Dead Coral</ogc:Literal>
+              <ogc:Literal>Live and dead coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -122,7 +122,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Live Coral*Rock*reef slope</ogc:Literal>
+              <ogc:Literal>Live coral and rock. reef slope</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -167,7 +167,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep Reef Structures</ogc:Literal>
+              <ogc:Literal>Deep reef structures</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -182,7 +182,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rubble and Sand</ogc:Literal>
+              <ogc:Literal>Rubble and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
