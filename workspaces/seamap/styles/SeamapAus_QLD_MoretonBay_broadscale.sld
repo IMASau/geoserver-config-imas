@@ -148,6 +148,21 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>Rubble and sand</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rubble and sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
           <sld:Title>Sandy channels</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -158,21 +173,6 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Sand/rubble</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand*rubble</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#E8C7AE</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>

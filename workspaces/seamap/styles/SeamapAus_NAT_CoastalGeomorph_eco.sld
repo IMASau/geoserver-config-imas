@@ -22,7 +22,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#558000</sld:CssParameter>
+              <sld:CssParameter name="fill">#8fb300</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -42,7 +42,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#14A4AC</sld:CssParameter>
+              <sld:CssParameter name="fill">#2d9624</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.85</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>

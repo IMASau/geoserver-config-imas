@@ -37,22 +37,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#14A4AC</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Other</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Other</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#BBA600</sld:CssParameter>
+              <sld:CssParameter name="fill">#2d9624</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -103,6 +88,21 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>Cobble</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Cobble</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#00a9e6</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>		  
+        </sld:Rule>        
+        <sld:Rule>
           <sld:Title>Invertebrate community</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -117,21 +117,6 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Cobble</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Cobble</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffad33</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>		  
-        </sld:Rule>
         <sld:Rule>
           <sld:Title>Mangroves / Saltmarsh</sld:Title>
           <ogc:Filter>
