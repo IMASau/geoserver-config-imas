@@ -22,7 +22,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#009999</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffde4d</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -37,7 +37,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb980</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -52,7 +52,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#d1d500</sld:CssParameter>
+              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -112,7 +112,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f09475</sld:CssParameter>
+              <sld:CssParameter name="fill">#f28c8c</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -157,7 +157,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#33ffad</sld:CssParameter>
+              <sld:CssParameter name="fill">#00ff99</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -193,11 +193,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Sonneratia alba/Aegiceras corniculatum</sld:Title>
+          <sld:Title>Sonneratia alba / Aegiceras corniculatum</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sonneratia alba*Aegiceras*</ogc:Literal>
+              <ogc:Literal>Sonneratia alba . Aegiceras*</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -206,22 +206,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Sonneratia alba/Rhizophora stylosa/Avicennia marina</sld:Title>
-          <ogc:Filter>  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sonneratia alba*Rhizophora*Avicennia*</ogc:Literal>
-            </ogc:PropertyIsLike>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#734e26</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>			
         <sld:Rule>
           <sld:Title>Mixed mangrove species</sld:Title>
           <ogc:Filter>	  
@@ -266,7 +251,22 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>          
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Low tidal mudflat</sld:Title>
+          <ogc:Filter>  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Low tidal mudflat</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#734e26</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	        
         <sld:Rule>
           <sld:Title>Salt flats</sld:Title>
           <ogc:Filter>

@@ -13,6 +13,26 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
+          <sld:Title>Aegiceras corniculatum</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Aegiceras corniculatum</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ffde4d</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>	            
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
           <sld:Title>Aegiceras corniculatum / Avicennia marina</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -22,7 +42,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffbf00</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb000</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -42,7 +62,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb980</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -62,7 +82,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#d1d500</sld:CssParameter>
+              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -73,11 +93,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Bruguiera</sld:Title>
+          <sld:Title>Bruguiera (closed forest)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bruguiera</ogc:Literal>
+              <ogc:Literal>Bruguiera*closed*</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -91,7 +111,27 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Bruguiera (open woodland)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Bruguiera*open*</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#d1d500</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>	
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	        
         <sld:Rule>
           <sld:Title>Ceriops tagal</sld:Title>
           <ogc:Filter>
@@ -102,7 +142,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f09475</sld:CssParameter>
+              <sld:CssParameter name="fill">#f28c8c</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -122,26 +162,6 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b2fc9c</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>	
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora/Aegiceras</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Rhizophora/Aegiceras</ogc:Literal>
-            </ogc:PropertyIsLike>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
               <sld:CssParameter name="fill">#3fd411</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
@@ -153,11 +173,31 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Rhizophora/Avicennia</sld:Title>
+          <sld:Title>Rhizophora / Aegiceras corniculatum</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*Rhizophora/Avicennia</ogc:Literal>
+              <ogc:Literal>Rhizophora . Aegiceras corniculatum</ogc:Literal>
+            </ogc:PropertyIsLike>
+		  </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#b2fc9c</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>	
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Rhizophora / Avicennia marina</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rhizophora . Avicennia marina</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -193,16 +233,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>        
         <sld:Rule>
-          <sld:Title>Sparse Seagrass</sld:Title>
+          <sld:Title>Sparse seagrass</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sparse Seagrass</ogc:Literal>
+              <ogc:Literal>Sparse seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
+              <sld:CssParameter name="fill">#D1FF73</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -213,16 +253,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Saline Grassland</sld:Title>
+          <sld:Title>Saline grassland</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Saline Grassland</ogc:Literal>
+              <ogc:Literal>Saline grassland</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#437043</sld:CssParameter>
+              <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -282,7 +322,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#1a8cff</sld:CssParameter>
+              <sld:CssParameter name="fill">#000080</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
