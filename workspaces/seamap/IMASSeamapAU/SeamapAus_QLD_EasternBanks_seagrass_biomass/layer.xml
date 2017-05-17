@@ -1,12 +1,12 @@
 <layer>
   <name>SeamapAus_QLD_EasternBanks_seagrass_biomass</name>
-  <id>LayerInfoImpl--3ea8dad8:157f40ad9c7:56c4</id>
+  <id>LayerInfoImpl-1546e939:15c143c255d:-7f5b</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--68c28a1c:1581812343e:-6b7b</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:56c3</id>
+    <id>FeatureTypeInfoImpl-1546e939:15c143c255d:-7f5c</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

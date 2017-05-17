@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:56c3</id>
+  <id>FeatureTypeInfoImpl-1546e939:15c143c255d:-7f5c</id>
   <name>SeamapAus_QLD_EasternBanks_seagrass_biomass</name>
   <nativeName>SeamapAus_QLD_EasternBanks_seagrass_biomass</nativeName>
   <namespace>
@@ -8,7 +8,6 @@
   <title>Seamap Australia - QLD - Eastern Banks seagrass biomass</title>
   <keywords>
     <string>habitat mapping</string>
-    <string>seagrass</string>
     <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -55,7 +54,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
