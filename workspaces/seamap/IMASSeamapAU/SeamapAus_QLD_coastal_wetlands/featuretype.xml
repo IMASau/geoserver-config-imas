@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a189114:158b2dab1a2:3f84</id>
+  <id>FeatureTypeInfoImpl-1546e939:15c143c255d:-7ffb</id>
   <name>SeamapAus_QLD_coastal_wetlands</name>
   <nativeName>SeamapAus_QLD_coastal_wetlands</nativeName>
   <namespace>
@@ -54,7 +54,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
