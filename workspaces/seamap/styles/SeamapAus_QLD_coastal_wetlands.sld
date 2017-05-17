@@ -95,10 +95,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Bruguiera (closed forest)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bruguiera*closed*</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -115,10 +115,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Bruguiera (open woodland)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Bruguiera*open*</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -317,7 +317,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Water and Terrestrial</ogc:Literal>
+              <ogc:Literal>Water and terrestrial</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
