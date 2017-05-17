@@ -22,32 +22,47 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb980</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Avicennia marina/Bruguiera exaristata</sld:Title>
+          <sld:Title>Avicennia marina / Ceriops tagal</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Avicennia marina*Bruguiera*</ogc:Literal>
+              <ogc:Literal>Avicennia marina . Ceriops tagal</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffb366</sld:CssParameter>
+              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>        
         <sld:Rule>
-          <sld:Title>Avicennia marina/Ceriops tagal/Aegialitis annulata</sld:Title>
+          <sld:Title>Avicennia marina / Bruguiera exaristata</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Avicennia*Ceriops*</ogc:Literal>
+              <ogc:Literal>Avicennia marina . Bruguiera exaristata</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#c9ff66</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Avicennia marina / Ceriops tagal / Aegialitis annulata</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Avicennia marina . Ceriops tagal . Aegialitis annulata</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -67,22 +82,22 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
+              <sld:CssParameter name="fill">#f28c8c</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>        
         <sld:Rule>
           <sld:Title>Lumnitzera racemosa</sld:Title>
           <ogc:Filter>	  
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Lumnitzera*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Lumnitzera racemosa</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00cc00</sld:CssParameter>
+              <sld:CssParameter name="fill">#7ab8b8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -101,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>          
+        </sld:Rule>         
         <sld:Rule>
           <sld:Title>Salt flats</sld:Title>
           <ogc:Filter>
@@ -118,35 +133,20 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>Cultural features</sld:Title>
+          <sld:Title>Roads, cultural features</sld:Title>
           <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Cultural features</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Roads*cultural features</ogc:Literal>
+            </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#660066</sld:CssParameter>
+              <sld:CssParameter name="fill">#4a1c4a</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>				
-        <sld:Rule>
-          <sld:Title>Roads</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Roads</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#262626</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
