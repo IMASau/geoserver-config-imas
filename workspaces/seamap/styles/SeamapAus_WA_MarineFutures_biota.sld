@@ -199,7 +199,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#a6a6a6</sld:CssParameter>
+              <sld:CssParameter name="fill">#c0c1c8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
