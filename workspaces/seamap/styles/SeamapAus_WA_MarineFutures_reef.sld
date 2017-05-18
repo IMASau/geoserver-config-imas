@@ -55,7 +55,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffd480</sld:CssParameter>
+              <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
