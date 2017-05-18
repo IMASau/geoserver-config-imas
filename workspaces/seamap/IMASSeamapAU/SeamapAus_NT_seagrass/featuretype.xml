@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a82c043:15bc18b5cb3:-a96</id>
+  <id>FeatureTypeInfoImpl-1546e939:15c143c255d:-7cf7</id>
   <name>SeamapAus_NT_seagrass</name>
   <nativeName>SeamapAus_NT_seagrass</nativeName>
   <namespace>
@@ -8,7 +8,6 @@
   <title>Seamap Australia - NT - seagrass meadows (DLRM/QDPI)</title>
   <keywords>
     <string>habitat mapping</string>
-    <string>seagrass</string>
     <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
