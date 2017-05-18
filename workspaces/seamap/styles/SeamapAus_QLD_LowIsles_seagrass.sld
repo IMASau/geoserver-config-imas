@@ -13,12 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
 		<sld:Rule>
-          <sld:Title>dense E.acoroides circle (sand)</sld:Title>
+          <sld:Title>Enhalus acoroides</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>dense E*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Enhalus acoroides</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -28,26 +28,41 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>dense T.hemprichii with H.ovalis &#38; massive coral (sand&#47;shell&#47;rubble)</sld:Title>
+          <sld:Title>Thalassia hemprichii</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Thalassia hemprichii</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#00e6ac</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
+          <sld:Title>Thalassia hemprichii / Halodule uninervis (narrow form)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>dense T*massive*</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii.Halodule uninervis*narrow*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#339966</sld:CssParameter>
+              <sld:CssParameter name="fill">#39ac73</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>dense T.hemprichii with occassional H.uninervis(wide)&#47;H.ovalis (coarse sand&#47;shell&#47;rubble)</sld:Title>
+          <sld:Title>Thalassia hemprichii / Halodule uninervis (wide form)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>dense T*uninervis*</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii.Halodule uninervis*wide*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -58,42 +73,42 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>sparse T.hemprichii with soft coral  (sand)</sld:Title>
+          <sld:Title>Thalassia hemprichii / Halophila ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>sparse T.hemprichii*coral*</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii.Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00e6ac</sld:CssParameter>
+              <sld:CssParameter name="fill">#c28bff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>sparse T.hemprichii&#47;H.ovalis with algae (sand)</sld:Title>
+          <sld:Title>Thalassia hemprichii / Halodule uninervis (wide form) / Halophila ovalis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>sparse T.hemprichii*algae*</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii.Halodule uninervis*wide*Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b3ffda</sld:CssParameter>
+              <sld:CssParameter name="fill">#6f2a6f</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>	        
         <sld:Rule>
-          <sld:Title>T.hemprichii in sandy pool (sand)</sld:Title>
+          <sld:Title>Thalassia hemprichii in sandy pool</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>T.hemprichii*sandy pool*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Thalassia hemprichii in sandy pool</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -103,27 +118,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>T.hemprichii with H.uninervis(narrow) (sand)</sld:Title>
+          <sld:Title>Thalassia hemprichii and green algae</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>T.hemprichii*narrow*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#6f2a6f</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>T.hemprichii&#47;H.uninervis(wide) and green algae&#47;Halophila ovalis (coarse sand&#47;rubble&#47;shell)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>T.hemprichii*uninervis*green*Halophila*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Thalassia hemprichii and green algae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
