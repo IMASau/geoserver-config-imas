@@ -21,7 +21,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f8d3ed</sld:CssParameter>
+              <sld:CssParameter name="fill">#4dc3ff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -30,18 +30,38 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>			
           </sld:PolygonSymbolizer>
-        </sld:Rule>	  
+        </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Enhalus acoroides with Halophila ovalis</sld:Title>
+          <sld:Title>Enhalus acoroides / Halodule uninervis (wide form)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Enhalus acoroides with Halophila ovalis</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Enhalus acoroides.Halodule uninervis .wide form.</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#7a99b8</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
+          <sld:Title>Enhalus acoroides / Halophila ovalis</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Enhalus acoroides.Halophila ovalis</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#eca093</sld:CssParameter>
+              <sld:CssParameter name="fill">#6b75d1</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -61,63 +81,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#bd3f28</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Halodule uninervis</sld:Title>
-          <ogc:Filter>
-		  <ogc:Or>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (wide form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-		  </ogc:Or>
-			</ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#fae8a1</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Halodule uninervis with Enhalus acoroides</sld:Title>
-          <ogc:Filter>
-		  <ogc:Or>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow form) with Enhalus acoroides</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Enhalus acoroides/Halodule uninervis (wide form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-			</ogc:Or>
-			</ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#f1cb5b</sld:CssParameter>
+              <sld:CssParameter name="fill">#1a3365</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -128,12 +92,52 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halodule uninervis with Halophila decipiens</sld:Title>
+          <sld:Title>Halodule uninervis (wide form)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow form)/Halophila decipiens</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Halodule uninervis .wide form.</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ffcc00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>            
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
+          <sld:Title>Halodule uninervis (narrow form)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis .narrow form.</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#e8e8b0</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>				
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Halodule uninervis (narrow form) / Enhalus acoroides</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis .narrow form..Enhalus acoroides</ogc:Literal>
+            </ogc:PropertyIsLike>
 			</ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -148,26 +152,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Halodule uninervis with Halophila ovalis</sld:Title>
+          <sld:Title>Halodule uninervis (narrow form) / Halophila decipiens</sld:Title>
           <ogc:Filter>
-		  <ogc:Or>
-		  <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis with Halodule uninervis (narrow form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-		  <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis/Halodule uninervis (narrow form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-		  </ogc:Or>
+              <ogc:Literal>Halodule uninervis .narrow form.Halophila decipiens</ogc:Literal>
+            </ogc:PropertyIsLike>
 			</ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -182,26 +172,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halodule uninervis with mixed species</sld:Title>
+          <sld:Title>Halodule uninervis (narrow form) with mixed species</sld:Title>
           <ogc:Filter>
-		  <ogc:Or>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow form)/Halophila ovalis with mixed species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis with mixed species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis (narrow form) with mixed species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-		  </ogc:Or>
+              <ogc:Literal>Halodule uninervis .narrow form. with mixed species</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#f98006</sld:CssParameter>
+              <sld:CssParameter name="fill">#e07306</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -221,7 +201,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e3fe92</sld:CssParameter>
+              <sld:CssParameter name="fill">#b3daff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -230,7 +210,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>    
         <sld:Rule>
           <sld:Title>Halophila decipiens with mixed species</sld:Title>
           <ogc:Filter>
@@ -241,7 +221,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#85b102</sld:CssParameter>
+              <sld:CssParameter name="fill">#476b6b</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -261,7 +241,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#d9cda6</sld:CssParameter>
+              <sld:CssParameter name="fill">#bfff80</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -272,12 +252,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halophila ovalis with Enhalus acoroides</sld:Title>
+          <sld:Title>Halophila ovalis / Enhalus acoroides</sld:Title>
           <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis with Enhalus acoroides</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Halophila ovalis.Enhalus acoroides</ogc:Literal>
+            </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -292,12 +272,32 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halophila ovalis with Halophila decipiens</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
+          <sld:Title>Halophila ovalis / Halodule uninervis (narrow form)</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis/Halophila decipiens</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Halophila ovalis.Halodule uninervis .narrow form.</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#86b300</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>	            
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Halophila ovalis / Halophila decipiens</sld:Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis.Halophila decipiens</ogc:Literal>
+            </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -311,26 +311,6 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Halophila ovalis with Thalassia hemprichii</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis with Thalassia hemprichii</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#6f3b2a</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
         <sld:Rule>
           <sld:Title>Halophila ovalis with mixed species</sld:Title>
           <ogc:Filter>
@@ -373,84 +353,84 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>		
         <sld:Rule>
           <sld:Title>Thalassia hemprichii</sld:Title>
-          <ogc:Filter>	  
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Thalassia hemprichii with Enhalus acoroides</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
+          </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b0fe9a</sld:CssParameter>
+              <sld:CssParameter name="fill">#00e6ac</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
+            </sld:Stroke>            
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
+        <sld:Rule>
+          <sld:Title>Thalassia hemprichii / Enhalus acoroides</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Thalassia hemprichii.Enhalus acoroides</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#80ffff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>             
+          </sld:PolygonSymbolizer>
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Thalassia hemprichii / Halophila ovalis</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Thalassia hemprichii.Halophila ovalis</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#c28bff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>            
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Thalassia hemprichii with Enhalus acoroides</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Thalassia hemprichii with Enhalus acoroides</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#39fc03</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Thalassia hemprichii with Halophila ovalis</sld:Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Thalassia hemprichii with Halophila ovalis</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#009900</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
           <sld:Title>Thalassia hemprichii with mixed species</sld:Title>
-          <ogc:Filter>	  
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Thalassia hemprichii with mixed species</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii.Halodule uninervis .wide form..Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
+          </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#335214</sld:CssParameter>
+              <sld:CssParameter name="fill">#6f2a6f</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
+            </sld:Stroke>            
           </sld:PolygonSymbolizer>
-        </sld:Rule>		
+        </sld:Rule>
         <sld:Rule>
           <sld:Title>Thalassodendron ciliatum</sld:Title>
           <ogc:Filter>
@@ -461,36 +441,36 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00cc99</sld:CssParameter>
+              <sld:CssParameter name="fill">#125454</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
+            </sld:Stroke>			
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Thalassodendron ciliatum with Thalassia hemprichii</sld:Title>
+          <sld:Title>Thalassodendron ciliatum / Thalassia hemprichii</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Thalassadendron ciliatum with Thalassia hemprichii</ogc:Literal>
+              <ogc:Literal>Thalassodendron ciliatum.Thalassia hemprichii</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#166969</sld:CssParameter>
+              <sld:CssParameter name="fill">#94b8b8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>				
+            </sld:Stroke>			
           </sld:PolygonSymbolizer>
-        </sld:Rule>			
+        </sld:Rule>           
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
