@@ -232,9 +232,6 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
         </sld:Rule>
-		
-
-		
         <sld:Rule>
           <sld:Title>Zostera muelleri</sld:Title>
           <ogc:Filter>
@@ -245,7 +242,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b21234</sld:CssParameter>
+              <sld:CssParameter name="fill">#cc2900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -265,7 +262,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ddc19c</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb3b3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -285,7 +282,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ddcb5f</sld:CssParameter>
+              <sld:CssParameter name="fill">#cc6699</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -305,7 +302,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#a6b252</sld:CssParameter>
+              <sld:CssParameter name="fill">#f0426e</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -325,7 +322,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#93c19c</sld:CssParameter>
+              <sld:CssParameter name="fill">#742535</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -345,7 +342,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#5682bb</sld:CssParameter>
+              <sld:CssParameter name="fill">#8e8bce</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -414,10 +411,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.05</sld:CssParameter>
             </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
-
-
-		
+        </sld:Rule>			
         <sld:Rule>
           <sld:Title>Unidentified seagrass</sld:Title>
           <ogc:Filter>

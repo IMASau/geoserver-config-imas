@@ -26,18 +26,33 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0</sld:CssParameter>			  
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule> 	  
+        </sld:Rule> 
+        <sld:Rule>
+          <sld:Title>Cymodocea serrulata</sld:Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Cymodocea serrulata</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#ff904d</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	        
         <sld:Rule>
           <sld:Title>Halophila ovalis</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ov*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Halophila ovalis</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#32cdcd</sld:CssParameter>
+              <sld:CssParameter name="fill">#bfff80</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -45,14 +60,14 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Halophila spinulosa</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila spin*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Halophila spinulosa</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ff8566</sld:CssParameter>
+              <sld:CssParameter name="fill">#e864b1</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -60,44 +75,29 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Syringodium isoetifolium</sld:Title>
           <ogc:Filter>          
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Syringodium iso*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Syringodium isoetifolium</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#73e600</sld:CssParameter>
+              <sld:CssParameter name="fill">#3385ff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Cymodocea serrulata</sld:Title>
-          <ogc:Filter>          
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Cymodocea serr*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffaa00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
           <sld:Title>Zostera muelleri / Halophila uninervis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera*</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halophila uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#944dff</sld:CssParameter>
+              <sld:CssParameter name="fill">#742535</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
@@ -112,7 +112,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#d9d9d9</sld:CssParameter>
+              <sld:CssParameter name="fill">#e6e6e6</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
