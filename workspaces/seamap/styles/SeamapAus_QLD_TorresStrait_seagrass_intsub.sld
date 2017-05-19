@@ -22,16 +22,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#fff566</sld:CssParameter>
+              <sld:CssParameter name="fill">#ecec13</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.05</sld:CssParameter>
-            </sld:Stroke>					
+              <sld:CssParameter name="stroke-width">0.1</sld:CssParameter>
+            </sld:Stroke>			
           </sld:PolygonSymbolizer>
-        </sld:Rule>			
+        </sld:Rule>	  
         <sld:Rule>
           <sld:Title>Cymodocea serrulata</sld:Title>
           <ogc:Filter>
@@ -48,10 +48,10 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.05</sld:CssParameter>
-            </sld:Stroke>			
+              <sld:CssParameter name="stroke-width">0.1</sld:CssParameter>
+            </sld:Stroke>				
           </sld:PolygonSymbolizer>
-        </sld:Rule>				  
+        </sld:Rule>
         <sld:Rule>
           <sld:Title>Enhalus acoroides</sld:Title>
           <ogc:Filter>
@@ -62,7 +62,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#82a5c9</sld:CssParameter>
+              <sld:CssParameter name="fill">#4dc3ff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -73,16 +73,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		  
         <sld:Rule>
-          <sld:Title>Halodule uninervis (narrow)</sld:Title>
+          <sld:Title>Halodule uninervis (narrow form)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis*narrow*</ogc:Literal>
+              <ogc:Literal>Halodule uninervis .narrow form.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#70c299</sld:CssParameter>
+              <sld:CssParameter name="fill">#e8e8b0</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -93,16 +93,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Halodule uninervis (wide)</sld:Title>
+          <sld:Title>Halodule uninervis (wide form)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halodule uninervis*wide*</ogc:Literal>
+              <ogc:Literal>Halodule uninervis* .wide form.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00cc7a</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffcc00</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -122,7 +122,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#dd99ff</sld:CssParameter>
+              <sld:CssParameter name="fill">#b3daff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -142,7 +142,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e864b1</sld:CssParameter>
+              <sld:CssParameter name="fill">#bfff80</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -162,7 +162,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#9f80ff</sld:CssParameter>
+              <sld:CssParameter name="fill">#b299ff</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -202,7 +202,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#b3994d</sld:CssParameter>
+              <sld:CssParameter name="fill">#00e6ac</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -222,7 +222,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#166969</sld:CssParameter>
+              <sld:CssParameter name="fill">#125454</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -242,7 +242,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#bd3f28</sld:CssParameter>
+              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -255,14 +255,14 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Mixed seagrass species</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Mixed seagrass species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#00ff00</sld:CssParameter>
+              <sld:CssParameter name="fill">#009900</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
