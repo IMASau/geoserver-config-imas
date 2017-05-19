@@ -153,11 +153,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Halophila ovalis / Zostera meulleri / Halophila spinulosa</sld:Title>
+          <sld:Title>Halophila ovalis / Zostera muelleri / Halophila spinulosa</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis.Zostera meulleri.Halophila spinulosa</ogc:Literal>
+              <ogc:Literal>Halophila ovalis.Zostera muelleri.Halophila spinulosa</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -173,11 +173,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Halophila ovalis / Zostera meulleri / Syringodium isoetifolium</sld:Title>
+          <sld:Title>Halophila ovalis / Zostera muelleri / Syringodium isoetifolium</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis.Zostera meulleri.Syringodium isoetifolium</ogc:Literal>
+              <ogc:Literal>Halophila ovalis.Zostera muelleri.Syringodium isoetifolium</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -193,11 +193,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Halophila ovalis / Zostera meulleri / Halophila spinulosa / Syringodium isoetifolium</sld:Title>
+          <sld:Title>Halophila ovalis / Zostera muelleri / Halophila spinulosa / Syringodium isoetifolium</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis.Zostera meulleri.Halophila spinulosa.Syringodium isoetifolium</ogc:Literal>
+              <ogc:Literal>Halophila ovalis.Zostera muelleri.Halophila spinulosa.Syringodium isoetifolium</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -253,11 +253,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Cymodocea serrulata</sld:Title>
+          <sld:Title>Zostera muelleri / Cymodocea serrulata</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Cymodocea serrulata</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -273,11 +273,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Halodule uninervis</sld:Title>
+          <sld:Title>Zostera muelleri / Halodule uninervis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Halodule uninervis</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -293,11 +293,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Halophila spinulosa</sld:Title>
+          <sld:Title>Zostera muelleri / Halophila spinulosa</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Halophila spinulosa</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halophila spinulosa</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -333,11 +333,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Halodule uninervis / Syringodium isoetifolium</sld:Title>
+          <sld:Title>Zostera muelleri / Halodule uninervis / Syringodium isoetifolium</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Halodule uninervis.Syringodium isoetifolium</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halodule uninervis.Syringodium isoetifolium</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -353,11 +353,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Halophila ovalis / Cymodocea serrulata</sld:Title>
+          <sld:Title>Zostera muelleri / Halophila ovalis / Cymodocea serrulata</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Halophila ovalis.Cymodocea serrulata</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halophila ovalis.Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -373,11 +373,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Halophila ovalis / Halodule uninervis</sld:Title>
+          <sld:Title>Zostera muelleri / Halophila ovalis / Halodule uninervis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Halophila ovalis.Halodule uninervis</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halophila ovalis.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -393,11 +393,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Zostera meulleri / Halophila ovalis / Cymodocea serrulata / Syringodium isoetifolium</sld:Title>
+          <sld:Title>Zostera muelleri / Halophila ovalis / Cymodocea serrulata / Syringodium isoetifolium</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera meulleri.Halophila ovalis.Cymodocea serrulata.Syringodium isoetifolium</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halophila ovalis.Cymodocea serrulata.Syringodium isoetifolium</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
