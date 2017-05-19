@@ -62,7 +62,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffb800</sld:CssParameter>
+              <sld:CssParameter name="fill">#742535</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -73,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>         
         <sld:Rule>
-          <sld:Title>Posidona</sld:Title>
+          <sld:Title>Posidonia</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona</ogc:Literal>
+              <ogc:Literal>Posidonia</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -93,11 +93,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>          
         <sld:Rule>
-          <sld:Title>Posidona / Halophila</sld:Title>
+          <sld:Title>Posidonia / Halophila</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona . Halophila</ogc:Literal>
+              <ogc:Literal>Posidonia . Halophila</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -113,11 +113,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidona / Halophila / Ruppia</sld:Title>
+          <sld:Title>Posidonia / Halophila / Ruppia</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona . Halophila . Ruppia</ogc:Literal>
+              <ogc:Literal>Posidonia . Halophila . Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -133,11 +133,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidona / Ruppia</sld:Title>
+          <sld:Title>Posidonia / Ruppia</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona . Ruppia</ogc:Literal>
+              <ogc:Literal>Posidonia . Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -153,11 +153,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Posidona / Zostera</sld:Title>
+          <sld:Title>Posidonia / Zostera</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona . Zostera</ogc:Literal>
+              <ogc:Literal>Posidonia . Zostera</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -173,16 +173,16 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidona / Zostera / Halophila</sld:Title>
+          <sld:Title>Posidonia / Zostera / Halophila</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona . Zostera . Halophila</ogc:Literal>
+              <ogc:Literal>Posidonia . Zostera . Halophila</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#9c3416</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffb800</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>

@@ -182,7 +182,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffb800</sld:CssParameter>
+              <sld:CssParameter name="fill">#742535</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -193,11 +193,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>         
         <sld:Rule>
-          <sld:Title>Posidona australis</sld:Title>
+          <sld:Title>Posidonia australis</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona australis</ogc:Literal>
+              <ogc:Literal>Posidonia australis</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -213,11 +213,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>          
         <sld:Rule>
-          <sld:Title>Posidona australis / Halophila</sld:Title>
+          <sld:Title>Posidonia australis / Halophila</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona australis . Halophila</ogc:Literal>
+              <ogc:Literal>Posidonia australis . Halophila</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -233,11 +233,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidona australis / Zostera</sld:Title>
+          <sld:Title>Posidonia australis / Zostera</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidona australis . Zostera</ogc:Literal>
+              <ogc:Literal>Posidonia australis . Zostera</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
