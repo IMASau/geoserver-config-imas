@@ -416,7 +416,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Thalassia hemprichii.Halodule uninervis .wide form..Halophila ovalis</ogc:Literal>
+              <ogc:Literal>Thalassia hemprichii with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
