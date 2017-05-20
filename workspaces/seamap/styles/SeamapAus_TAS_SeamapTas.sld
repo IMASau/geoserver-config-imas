@@ -323,7 +323,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>*RU*</ogc:Literal>
+              <ogc:Literal>Ruppia</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
