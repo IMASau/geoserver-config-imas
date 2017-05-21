@@ -44,12 +44,11 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>
           </sld:LineSymbolizer>	
         </sld:Rule>			
-        <sld:Rule>
-          <sld:Title>Boulder&#47;cobble&#47;shingle&#47;pebble&#47;sand</sld:Title>
+        <sld:Rule>  <sld:Title>Boulder&#47;cobble&#47;shingle&#47;pebble&#47;sand</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Boulder*</ogc:Literal>
+              <ogc:Literal>Boulder . cobble . shingle . pebble . sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:LineSymbolizer>
@@ -63,10 +62,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Sediment bottom</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sediment*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Sediment bottom</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
@@ -95,10 +94,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Muddy bottom</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Muddy*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Muddy bottom</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
@@ -109,16 +108,64 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:LineSymbolizer>	
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Hard rocky reefs</sld:Title>
+          <sld:Title>Sloping rocky bottom</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hard rocky*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Sloping rocky bottom</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#4d3319</sld:CssParameter>
+              <sld:CssParameter name="stroke">#000066</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Sloping sandy bottom</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sloping sandy bottom</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#4747eb</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
+        </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Soft bedrock</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Soft bedrock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#fff21a</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>	
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Hard rocky reefs</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Hard rocky reefs</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#640000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
               <sld:CssParameter name="stroke-width">2</sld:CssParameter>
             </sld:Stroke>
@@ -127,10 +174,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Patchy hard rocky reefs &#47; exposed rock</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Patchy hard*</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Patchy hard rocky reefs . exposed rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
@@ -145,7 +192,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sandy lagoon*</ogc:Literal>
+              <ogc:Literal>Sandy lagoon .protected.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:LineSymbolizer>
