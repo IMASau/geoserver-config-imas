@@ -176,7 +176,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
-        </sld:Rule> 		
+        </sld:Rule>       
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

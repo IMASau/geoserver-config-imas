@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a189114:158b2dab1a2:3fa7</id>
+  <id>FeatureTypeInfoImpl--39fd01fb:15c2ee9264b:-76d9</id>
   <name>SeamapAus_NAT_Aus_margin_geomorph_2006</name>
   <nativeName>SeamapAus_NAT_Aus_margin_geomorph_2006</nativeName>
   <namespace>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
