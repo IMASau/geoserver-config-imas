@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-4d2de92:15b3132c1cb:-7fb6</id>
+  <id>FeatureTypeInfoImpl--39fd01fb:15c32f8f6f1:-10d9</id>
   <name>SeamapAus_NAT_CoastalGeomorph_Regolith25K</name>
   <nativeName>SeamapAus_NAT_CoastalGeomorph_Regolith25K</nativeName>
   <namespace>
@@ -7,8 +7,8 @@
   </namespace>
   <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: regolith geomorphology, reclassified 25K (GA)</title>
   <keywords>
-    <string>habitat mapping</string>
     <string>Seamap Australia</string>
+    <string>habitat mapping</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
