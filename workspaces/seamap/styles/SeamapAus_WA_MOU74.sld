@@ -88,7 +88,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>				
         <sld:Rule>
-          <sld:Title>Deep lagoon</sld:Title>
+          <sld:Title>Lagoon (deep)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -97,13 +97,13 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#6600cc</sld:CssParameter>
+              <sld:CssParameter name="fill">#8529a3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Deep reef flat</sld:Title>
+          <sld:Title>Reef flat (deep)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
