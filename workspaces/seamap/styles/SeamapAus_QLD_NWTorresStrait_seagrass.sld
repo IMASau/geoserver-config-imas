@@ -208,7 +208,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Halophila spinulosa ovalis / Halodule uninervis (wide form)</sld:Title>
+          <sld:Title>Halophila spinulosa / Halodule uninervis (wide form)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
