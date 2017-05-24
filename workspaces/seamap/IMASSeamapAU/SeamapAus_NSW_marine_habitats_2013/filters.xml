@@ -10,7 +10,7 @@
     <filter>
         <name>SM_HAB_CLS</name>
         <type>string</type>
-        <label>Substrate Type</label>
+        <label>Substrate Type (depth zone)</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
