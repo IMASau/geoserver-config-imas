@@ -5,8 +5,8 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Site: </b> ${feature.Site.value} (${feature.State.value[0..11]})<BR>
-  <b>Catch date: </b> ${feature.Date.value}<BR>
+  <b>Site: </b> ${feature.Site.value} (${feature.State.value})<BR>
+  <b>Catch date: </b> ${feature.Date.value[0..11]}<BR>
   <b>Sex: </b> ${feature.Sex.value}<BR>  
   <b>Unique capture code: </b> ${feature.Unique_Code.value}<BR><BR>  
 
