@@ -1,5 +1,4 @@
 <h3>
-Properties.name: ${properties.name}
 Properties.title: ${properties.title}
 Type.name: ${type.name}
 Type.title: ${type.title}
