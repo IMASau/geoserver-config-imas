@@ -18,7 +18,7 @@
   <verbose>false</verbose>
   <metadata>
     <entry key="SHAPE-ZIP_DEFAULT_PRJ_IS_ESRI">false</entry>
-    <entry key="maxNumberOfFeaturesForPreview">100000</entry>
+    <entry key="maxNumberOfFeaturesForPreview">0</entry>
   </metadata>
   <gml>
     <entry>
@@ -29,22 +29,22 @@
       </gml>
     </entry>
     <entry>
-      <version>V_11</version>
-      <gml>
-        <srsNameStyle>URN</srsNameStyle>
-        <overrideGMLAttributes>false</overrideGMLAttributes>
-      </gml>
-    </entry>
-    <entry>
       <version>V_20</version>
       <gml>
         <srsNameStyle>URN2</srsNameStyle>
         <overrideGMLAttributes>false</overrideGMLAttributes>
       </gml>
     </entry>
+    <entry>
+      <version>V_11</version>
+      <gml>
+        <srsNameStyle>URN</srsNameStyle>
+        <overrideGMLAttributes>false</overrideGMLAttributes>
+      </gml>
+    </entry>
   </gml>
   <serviceLevel>COMPLETE</serviceLevel>
-  <maxFeatures>1000000</maxFeatures>
+  <maxFeatures>10000000</maxFeatures>
   <featureBounding>true</featureBounding>
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
