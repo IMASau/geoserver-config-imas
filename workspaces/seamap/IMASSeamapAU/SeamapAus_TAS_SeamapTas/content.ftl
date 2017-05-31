@@ -1,13 +1,10 @@
-<h3>
-Type.name: ${type.name}
-</h3><BR>
+<h3>${type.name}</h3>
 
 <#list features as feature>
 	<#if (feature_index < 1) >
   <div class="feature"> 
 
-  <b>Benthic habitat classification:</b> ${feature.SM_HAB_CLS.value} 
+  <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value} 
 
-		<#break>
   </#if>
 </#list>
