@@ -6,7 +6,7 @@
 <#if (feature_index < 2) >
 
 <div class="feature">
-<p><b>Habitat classification:</b> ${feature.Substrate_Description.value}  (${feature.Substrate2_Description.value})</p>
+<p><b>Habitat classification:</b> ${feature.Substrate.value}  (${feature.Substrate2.value})</p>
 
 </div>
 </#if>
