@@ -1,6 +1,5 @@
 <h3>
 Type.name: ${type.name}
-Type.title: ${type.title}
 </h3><BR>
 
 <#list features as feature>
