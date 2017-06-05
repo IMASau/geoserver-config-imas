@@ -10,7 +10,7 @@
     <filter>
         <name>SM_HAB_CLS</name>
         <type>string</type>
-        <label>Benthic Habitat Classification</label>
+        <label>SM HAB CLS</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
