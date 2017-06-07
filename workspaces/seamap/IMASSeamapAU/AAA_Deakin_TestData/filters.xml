@@ -3,7 +3,7 @@
     <filter>
         <name>hab_txt</name>
         <type>string</type>
-        <label>Habitat Type</label>
+        <label>Benthic Habitat</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

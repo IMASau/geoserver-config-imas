@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--39fd01fb:15c766110b0:666</id>
-  <name>AAA_DeakinTestData</name>
-  <nativeName>AAA_DeakinTestData</nativeName>
+  <id>FeatureTypeInfoImpl--39fd01fb:15c807bee13:-5753</id>
+  <name>AAA_Deakin_TestData</name>
+  <nativeName>AAA_Deakin_TestData</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Deakin test data - Vic Habitat Poly</title>
   <keywords>
+    <string>AAA_Deakin_TestData</string>
     <string>features</string>
-    <string>AAA_DeakinTestData</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -43,9 +43,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
