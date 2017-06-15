@@ -5,26 +5,14 @@
 		xmlns:ogc="http://www.opengis.net/ogc" 
 		xmlns:xlink="http://www.w3.org/1999/xlink" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-		<!-- a named layer is the basic building block of an sld document -->
-
 	<NamedLayer>
 		<Name>Default Point</Name>
 		<UserStyle>
-		    <!-- they have names, titles and abstracts -->
-		  
 			<Title>A boring default style</Title>
-			<Abstract>A sample style that just prints out a purple square</Abstract>
-			<!-- FeatureTypeStyles describe how to render different features -->
-			<!-- a feature type for points -->
-
 			<FeatureTypeStyle>
-				<!--FeatureTypeName>Feature</FeatureTypeName-->
 				<Rule>
-					<Name>Rule 1</Name>
-					<Title>RedSquare</Title>
-					<Abstract>A red fill with an 11 pixel size</Abstract>
-
-					<!-- like a linesymbolizer but with a fill too -->
+					<Title>Sample</Title>
+					<Abstract>A red filled square with a 6 pixel size</Abstract>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -37,7 +25,6 @@
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
-
 		    </FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>

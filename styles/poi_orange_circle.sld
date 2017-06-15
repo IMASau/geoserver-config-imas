@@ -14,7 +14,7 @@
         <Rule>
           <Name>Rule 1</Name>
           <Title>Observation</Title>
-          <Abstract>A orange fill with a 7 pixel size</Abstract>
+          <Abstract>A orange fill with an 8 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -28,7 +28,7 @@
                    <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>7</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
