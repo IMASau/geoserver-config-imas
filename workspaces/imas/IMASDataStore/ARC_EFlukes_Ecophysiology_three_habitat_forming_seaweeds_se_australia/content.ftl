@@ -13,12 +13,12 @@
   <b>Fv/Fm:</b> ${feature.D_FvFm.value}<BR>  
   <b>Tissue carbon:</b> ${feature.percent_C.value}&#37<BR>
   <b>Tissue nitrogen: </b>${feature.percent_N.value}&#37<BR>
-  <b>RNA:DNA ratio: </b>${feature.RNA_DNA.value}!"NA"<BR>  
-  <b>Pigments (Chl a, Chl c, Fucoxanthin):</b> ${feature.Chl_a.value!"NA"}, ${feature.Chl_c.value!"NA"}, ${feature.Fucoxanthin.value!"NA"} mg.gww<sup>-1</sup><BR><BR>
+  <b>RNA:DNA ratio: </b>${feature.RNA_DNA.value!"NA"}<BR>  
+  <b>Pigments (Chl a, Chl c, Fucoxanthin):</b> ${feature.Chl_a.value!"NA"}, ${feature.Chl_c.value!"NA"}, ${feature.Fucoxanthin.value!"NA"} mg gww<sup>-1</sup><BR><BR>
 
 </div>
 	<#else>
-	<h6>This information provides a preview only.<BR>Proceed to step 3 to download the complete data collection.</h6>
+	<h6>This information provides a preview only. Proceed to step 3 to download the complete data collection.</h6>
 		<#break>
 </#if>
 </#list>
