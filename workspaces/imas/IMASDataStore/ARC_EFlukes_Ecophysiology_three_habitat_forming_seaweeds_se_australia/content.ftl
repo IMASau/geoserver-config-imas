@@ -5,18 +5,20 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Survey Date:</b> ${feature.Date.value}<BR>
+  <b>Survey date &#38; location:</b> ${feature.Date.value[0..11]} (${feature.Location.value})<BR>
   <b>Species:</b> ${feature.Species.value}<BR>
-  <b>Location:</b> ${feature.Location.value}<BR>
   <b>Depth:</b> ${feature.Depth.value} m<BR>
-  <b>Relative electron transport rate (light-acclimated sample):</b> ${feature.L_rETRmax.value}<BR>
-  <b>Relative electron transport rate (dark-acclimated sample):</b> ${feature.D_rETRmax.value}<BR>
-  <b>Tissue percentage carbon:</b> ${feature.percent_C.value}&#37<BR>
-  <b>Tissue percentage nitrogen: </b>${feature.percent_N.value}&#37<BR><BR>
+  <b>rETRmax (light-acclimated):</b> ${feature.L_rETRmax.value}<BR>
+  <b>rETRmax (dark-acclimated):</b> ${feature.D_rETRmax.value}<BR>
+  <b>Fv/Fm:</b> ${feature.D_FvFm.value}<BR>  
+  <b>Tissue carbon:</b> ${feature.percent_C.value}&#37<BR>
+  <b>Tissue nitrogen: </b>${feature.percent_N.value}&#37<BR>
+  <b>RNA:DNA ratio </b>${feature.RNA_DNA.value}<BR>  
+  <b>Pigments (Chl a, Chl c, Fucoxanthin):</b> ${feature.Chl_a.value}, ${feature.Chl_c.value}, ${feature.Fucoxanthin.value} mg.gww<sup>-1</sup><BR><BR>
 
 </div>
 	<#else>
-	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
+	<h6>This information provides a preview only.<BR>Proceed to step 3 to download the complete data collection.</h6>
 		<#break>
 </#if>
 </#list>
