@@ -187,7 +187,7 @@
   
  </div>
 	<#else>
-	<BR><h6>This information has been limited to five results.<BR>There may be more sightings at this point. <BR>Zoom in for greater detail or proceed to step 3 to download data.</h6>
+	<h6>This information has been limited to five results. There may be more sightings at this point. <BR>Zoom in for greater detail or proceed to step 3 to download data.</h6>
 		<#break>
   </#if>
 </#list>
