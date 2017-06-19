@@ -1,5 +1,5 @@
 <#import "config.ftl" as my>
-<h3>These are some of the species sighted at this point</h3><BR>
+<h3>Species sighted at this point</h3><BR>
 
 
 <#list features as feature>
@@ -8,10 +8,10 @@
 	
   <div class="feature">  
 
-<#if feature.SPECIES.value == "">
-<h3>Species: ${feature.OTHER_SPECIES.value}</h3>
+  <#if feature.SPECIES.value == "">
+	<b>Other species:</b> ${feature.OTHER_SPECIES.value}<BR><BR>
 <#else>
-<h3>Species: ${feature.SPECIES.value}</h3>
+	<b>Redmap-listed species:</b> ${feature.SPECIES.value}<BR>
 	<b>Common name:</b> ${feature.COMMON_NAME.value}<BR><BR>
   </#if>	
 
