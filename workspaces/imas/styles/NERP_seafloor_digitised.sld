@@ -13,8 +13,29 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders seafloor classification from DIGITISED map</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
+          <sld:Title>STUDY LOCATION</sld:Title>		        
+		  <sld:MinScaleDenominator>3000000</sld:MinScaleDenominator>				
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#FFB222</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.6</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                   <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+                   <sld:CssParameter name="stroke-width">1</sld:CssParameter>
+               </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>17</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>		                        
+        <sld:Rule>
           <sld:Name>HD</sld:Name>
           <sld:Title>Hard</sld:Title>
+		  <sld:MaxScaleDenominator>3000000</sld:MaxScaleDenominator>	          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
@@ -31,6 +52,7 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Name>MX</sld:Name>
           <sld:Title>Mixed</sld:Title>
+		  <sld:MaxScaleDenominator>3000000</sld:MaxScaleDenominator>	          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
@@ -47,6 +69,7 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Name>SFT</sld:Name>
           <sld:Title>Soft</sld:Title>
+		  <sld:MaxScaleDenominator>3000000</sld:MaxScaleDenominator>	          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>
@@ -63,6 +86,7 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Name>UM</sld:Name>
           <sld:Title>Unmapped</sld:Title>
+		  <sld:MaxScaleDenominator>3000000</sld:MaxScaleDenominator>	          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Substratum</ogc:PropertyName>

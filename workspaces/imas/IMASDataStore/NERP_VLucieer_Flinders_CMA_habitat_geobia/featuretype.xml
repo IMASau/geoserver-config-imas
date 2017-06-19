@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-604b7401:152a960540e:-2f53</id>
-  <name>NERP_VLucieer_Flinders_CMA_habitat_digitised_GV</name>
-  <nativeName>NERP_VLucieer_Flinders_CMA_habitat_digitised_GV</nativeName>
+  <id>FeatureTypeInfoImpl-604b7401:152a960540e:-2f51</id>
+  <name>NERP_VLucieer_Flinders_CMA_habitat_geobia</name>
+  <nativeName>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NERP_VLucieer_Flinders_CMA_habitat_digitised_GV</title>
+  <title>Flinders CMA benthic habitat (Geobia classification) - NERP</title>
   <keywords>
-    <string>NERP_VLucieer_Flinders_CMA_habitat_digitised_GV</string>
     <string>features</string>
+    <string>NERP_VLucieer_Flinders_CMA_habitat_geobia_GV</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -39,17 +39,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>647418.4683072431</minx>
-    <maxx>651938.5317382812</maxx>
+    <minx>647418.4683</minx>
+    <maxx>651938.5316999999</maxx>
     <miny>5499492.0</miny>
-    <maxy>5505449.999999999</maxy>
+    <maxy>5505450.0</maxy>
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>647418.4683072431</minx>
-    <maxx>651938.5317382812</maxx>
+    <minx>647418.4683</minx>
+    <maxx>651938.5316999999</maxx>
     <miny>5499492.0</miny>
-    <maxy>5505449.999999999</maxy>
+    <maxy>5505450.0</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
