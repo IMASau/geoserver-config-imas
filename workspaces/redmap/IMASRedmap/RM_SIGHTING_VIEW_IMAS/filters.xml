@@ -36,6 +36,13 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>OTHER_SPECIES</name>
+        <type>string</type>
+        <label>Other Species</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>ACTIVITY_DESCRIPTION</name>
         <type>string</type>
         <label>Activity Description</label>

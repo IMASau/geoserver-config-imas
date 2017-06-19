@@ -12,8 +12,7 @@
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Name>Rule 1</Name>
-          <Title>BlueSquare</Title>
+          <Title>Observation</Title>
           <Abstract>A blue fill with an 11 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
