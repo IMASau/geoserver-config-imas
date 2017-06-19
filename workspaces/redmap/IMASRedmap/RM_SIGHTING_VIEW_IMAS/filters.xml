@@ -17,35 +17,35 @@
     <filter>
         <name>SPECIES_CATEGORY</name>
         <type>string</type>
-        <label>Species Category</label>
+        <label>Category of sighting</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>SPECIES</name>
         <type>string</type>
-        <label>Species</label>
+        <label>Redmap-listed species</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>COMMON_NAME</name>
         <type>string</type>
-        <label>Common Name</label>
+        <label>Common name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>OTHER_SPECIES</name>
         <type>string</type>
-        <label>Other Species</label>
+        <label>Other species</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>ACTIVITY_DESCRIPTION</name>
         <type>string</type>
-        <label>Activity Description</label>
+        <label>Sighting activity description</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
