@@ -7,12 +7,11 @@
 	<#if (feature_index < 5) >
 	
   <div class="feature">  
-
+  ${feature.SIGHTING_DATE.value[0..11]} (${feature.ACTIVITY_DESCRIPTION.value})<BR>
   <#if feature.SPECIES.value == "">
 	<b>Other species:</b> ${feature.OTHER_SPECIES.value}<BR><BR>
 <#else>
-	<b>Redmap-listed species:</b> ${feature.SPECIES.value}<BR>
-	<b>Common name:</b> ${feature.COMMON_NAME.value}<BR><BR>
+	<b>Redmap-listed species:</b> ${feature.SPECIES.value} (${feature.COMMON_NAME.value})<BR><BR>
   </#if>	
 
   <#if feature.SPECIES.value == "Acanthistius ocellatus">
