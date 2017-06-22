@@ -7,20 +7,20 @@
 <Title>Penguin tracks</Title>
           <LineSymbolizer>
           <Stroke>
-            <CssParameter name="stroke">#0BD61C</CssParameter>
+            <CssParameter name="stroke">#ac39ac</CssParameter>
             <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-width">1.5</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
 <Rule>
   <Title>Penguin tracks (uniquely coloured)</Title>
-<MaxScaleDenominator>20000000</MaxScaleDenominator>
+<MaxScaleDenominator>2000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
             <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-width">1.5</CssParameter>
           </Stroke>
         </LineSymbolizer>
 <LineSymbolizer>
