@@ -1,10 +1,10 @@
 <StyledLayerDescriptor xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.opengis.net/sld" version="1.0.0">
 <NamedLayer>
-<Name>Little penguin tracks</Name>
+<Name>Animal tracks</Name>
 <UserStyle>
 <FeatureTypeStyle>
 <Rule>
-<Title>Penguin tracks</Title>
+<Title>Animal tracks</Title>
           <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#ac39ac</CssParameter>
@@ -14,7 +14,7 @@
         </LineSymbolizer>
 </Rule>
 <Rule>
-  <Title>Penguin tracks (uniquely coloured)</Title>
+  <Title>Animal tracks (coloured by unique track ID)</Title>
 <MaxScaleDenominator>2000000</MaxScaleDenominator>
         <LineSymbolizer>
           <Stroke>
