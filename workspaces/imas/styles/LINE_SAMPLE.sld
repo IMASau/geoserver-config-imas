@@ -10,13 +10,7 @@
       <Title>Draws dots for animal tracks</Title>
       <FeatureTypeStyle>
      <Rule>
-       <Title>bor_1</Title>
-       <ogc:Filter>
-         <ogc:PropertyIsEqualTo>
-           <ogc:PropertyName>penguin_id</ogc:PropertyName>
-           <ogc:Literal>bor_1</ogc:Literal>
-         </ogc:PropertyIsEqualTo>
-       </ogc:Filter>        
+       <Title>Animal tracks</Title>       
           <PointSymbolizer>
             <Graphic>
               <Mark>

@@ -10,7 +10,7 @@
     <filter>
         <name>site</name>
         <type>string</type>
-        <label>Site</label>
+        <label>Release Site</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

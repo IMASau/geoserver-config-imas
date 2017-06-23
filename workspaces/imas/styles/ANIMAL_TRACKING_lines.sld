@@ -29,32 +29,33 @@
 </LineSymbolizer>
 </Rule>
 <Rule>
-<MaxScaleDenominator>4500000</MaxScaleDenominator>
-  
-<TextSymbolizer>
-  <Label>
-<ogc:PropertyName>track_id</ogc:PropertyName>
-</Label>
-<Font>
-<CssParameter name="font-family">Verdana</CssParameter>
-<CssParameter name="font-style">Normal</CssParameter>
-<CssParameter name="font-size">10</CssParameter>
-</Font>
-<sld:LabelPlacement>
-<sld:PointPlacement>
-<sld:Displacement>
-<sld:DisplacementX>-10.0</sld:DisplacementX>
-<sld:DisplacementY>10.0</sld:DisplacementY>
-</sld:Displacement>
-</sld:PointPlacement>
-</sld:LabelPlacement>
-<Fill>
-<CssParameter name="fill">#111100</CssParameter>
-<CssParameter name="fill-opacity">1</CssParameter>
-</Fill>
-<VendorOption name="followLine">true</VendorOption>
-
-</TextSymbolizer>
+	<MaxScaleDenominator>4500000</MaxScaleDenominator>
+  	<TextSymbolizer>
+  		<Label>
+            <ogc:Function name="Concatenate">
+              <ogc:Literal>Track ID: </ogc:Literal>         
+			<ogc:PropertyName>track_id</ogc:PropertyName>
+            </ogc:Function>              
+		</Label>
+		<Font>
+			<CssParameter name="font-family">Verdana</CssParameter>
+			<CssParameter name="font-style">Normal</CssParameter>
+			<CssParameter name="font-size">10</CssParameter>
+		</Font>
+		<sld:LabelPlacement>
+			<sld:PointPlacement>
+				<sld:Displacement>
+					<sld:DisplacementX>-10.0</sld:DisplacementX>
+					<sld:DisplacementY>10.0</sld:DisplacementY>
+				</sld:Displacement>
+				</sld:PointPlacement>
+		</sld:LabelPlacement>
+		<Fill>
+			<CssParameter name="fill">#111100</CssParameter>
+			<CssParameter name="fill-opacity">1</CssParameter>
+		</Fill>
+		<VendorOption name="followLine">true</VendorOption>
+	</TextSymbolizer>
 </Rule>
 </FeatureTypeStyle>
 </UserStyle>

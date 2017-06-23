@@ -24,13 +24,13 @@
     <minx>147.323241</minx>
     <maxx>147.7912</maxx>
     <miny>-43.558578999999995</miny>
-    <maxy>42.945189</maxy>
+    <maxy>-42.945189</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>147.323241</minx>
     <maxx>147.7912</maxx>
     <miny>-43.558578999999995</miny>
-    <maxy>42.945189</maxy>
+    <maxy>-42.945189</maxy>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
