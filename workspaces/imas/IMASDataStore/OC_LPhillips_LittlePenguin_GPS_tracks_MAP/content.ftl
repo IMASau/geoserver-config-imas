@@ -10,4 +10,3 @@
 </div>
  
 	<h6>This information is limited. Proceed to step 3 to download the complete data collection.</h6>
-		<#break>
