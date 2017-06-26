@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--39fd01fb:15cd2693d07:-2344</id>
-  <name>NESP_NationalOutfallDatabase_VIEW</name>
-  <nativeName>NESP_NationalOutfallDatabase_VIEW</nativeName>
+  <id>FeatureTypeInfoImpl--39fd01fb:15ce4921bd9:-7fd9</id>
+  <name>NESP_NationalOutfallDatabase_DATA</name>
+  <nativeName>NESP_NationalOutfallDatabase_DATA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
@@ -10,11 +10,8 @@
 &#xd;
 This data was last updated 31/12/2016 from https://www.outfalls.info/</abstract>
   <keywords>
-    <string>wastewater</string>
-    <string>outfall</string>
-    <string>National Outfall Database</string>
-    <string>marine monitoring</string>
-    <string>Clean Ocean Foundation</string>
+    <string>features</string>
+    <string>NESP_NationalOutfallDatabase_DATA</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
