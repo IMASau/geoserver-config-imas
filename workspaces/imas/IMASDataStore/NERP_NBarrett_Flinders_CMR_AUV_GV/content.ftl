@@ -1,4 +1,4 @@
-<h3>This is a sample of data collected at this point</h3><BR>
+<h3>This is a sample of the data collected at this point</h3><BR>
 
 <#list features as feature>
 
@@ -19,12 +19,13 @@ Proportion cover of taxon from scored images<BR><BR>
 
 Taxon biologically classified using <a  rel="external" href="http://catami.org/" target="_blank" class="h3" >CATAMI</a> 
 <br>
-AUV images available through <a  rel="external" href="https://squidle.acfr.usyd.edu.au/" target="_blank" class="h3" >Squidle</a> 
-<br><br>  
+AUV images available through <a  rel="external" href="https://squidle.acfr.usyd.edu.au/" target="_blank" class="h3" >Squidle</a>  
  
  </div>
+ 
 	<#else>
-	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
+	<br>
+	<h6>This information is limited. Zoom in or proceed to download for the full data collection.</h6>
 		<#break>
   </#if>
 </#list>
