@@ -22,13 +22,6 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>treatment</name>
-        <type>string</type>
-        <label>Treatment</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>GEOM</name>
         <type>geometrypropertytype</type>
         <label>GEOM</label>
