@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-76008731:15d1a79aeb0:-7fd5</id>
+  <name>IMASSeamap2012</name>
+  <description>Testing new SQL Server</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap2012</entry>
+    <entry key="namespace">seamap</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Use Native Paging">true</entry>
+    <entry key="fetch size">5000</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
