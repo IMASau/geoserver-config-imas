@@ -35,10 +35,10 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>Non reef (Tier 1)</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsNotEqualTo>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
-              <ogc:Literal>Reef</ogc:Literal>
-            </ogc:PropertyIsNotEqualTo>            
+              <ogc:Literal>Other</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
@@ -52,6 +52,26 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>	            
           </sld:PolygonSymbolizer>
         </sld:Rule>
+        <sld:Rule>
+          <sld:Title>Unclassified</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
+              <ogc:Literal>Unclass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#cccccc</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>  
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+            </sld:Stroke>	            
+          </sld:PolygonSymbolizer>
+        </sld:Rule>        
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
