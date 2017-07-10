@@ -32,7 +32,7 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
-  <srs>EPSG:4283</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>112.920464</minx>
     <maxx>159.0763224</maxx>
@@ -41,10 +41,10 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.45890541600001</minx>
-    <maxx>159.537880984</maxx>
-    <miny>-50.023322901240505</miny>
-    <maxy>-2.9443473332404992</maxy>
+    <minx>112.920464</minx>
+    <maxx>159.0763224</maxx>
+    <miny>-43.635222299999995</miny>
+    <maxy>-9.332447935725575</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -53,7 +53,7 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
