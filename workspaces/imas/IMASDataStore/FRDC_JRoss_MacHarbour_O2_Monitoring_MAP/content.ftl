@@ -10,8 +10,7 @@
 		<b>Date:</b> ${feature.Date.value[0..11]}<BR>
 		<b>Sensor ID (depth):</b> ${feature.Sensor_ID.value} (${feature.Depth.value} m)<BR>		
 		<b>Dissolved oxygen:</b> ${feature.DO.value} &#37; saturation<BR>
-		<b>Temperature:</b> ${feature.Temp.value} &#176;C<BR><BR>	
-  </#if>	
+		<b>Temperature:</b> ${feature.Temp.value} &#176;C<BR><BR>		
   
  </div>
 	<#else>
