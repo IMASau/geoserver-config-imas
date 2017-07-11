@@ -14,7 +14,9 @@
   
  </div>
 	<#else>
+	
 	<h6>This information has been limited to five sensors. There may be more data at this point. Proceed to download for the full data collection.</h6>
+	
 		<#break>
   </#if>
 </#list>
