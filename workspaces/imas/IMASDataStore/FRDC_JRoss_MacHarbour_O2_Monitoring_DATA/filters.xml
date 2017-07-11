@@ -19,6 +19,6 @@
         <type>geometrypropertytype</type>
         <label>GEOM</label>
         <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
+        <excludedFromDownload>true</excludedFromDownload>
     </filter>
 </filters>
