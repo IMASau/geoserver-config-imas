@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_VIC_WPPB_biotopes</name>
-  <id>LayerInfoImpl--39fd01fb:15ced3a5436:391c</id>
+  <name>SeamapAus_VIC_WPB_biotopes</name>
+  <id>LayerInfoImpl--299276c9:15d62d1f244:135b</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-76008731:15d304b4202:-1230</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--39fd01fb:15ced3a5436:391b</id>
+    <id>FeatureTypeInfoImpl--299276c9:15d62d1f244:135a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

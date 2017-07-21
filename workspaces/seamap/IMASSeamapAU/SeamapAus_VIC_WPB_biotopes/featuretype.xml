@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--39fd01fb:15ced3a5436:391b</id>
-  <name>SeamapAus_VIC_WPPB_biotopes</name>
-  <nativeName>SeamapAus_VIC_WPPB_biotopes</nativeName>
+  <id>FeatureTypeInfoImpl--299276c9:15d62d1f244:135a</id>
+  <name>SeamapAus_VIC_WPB_biotopes</name>
+  <nativeName>SeamapAus_VIC_WPB_biotopes</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - VIC - Western Port Phillip Bay biotopes</title>
+  <title>Seamap Australia - VIC - Western Port Bay biotopes</title>
   <keywords>
-    <string>Seamap Australia</string>
-    <string>habitat mapping</string>
+    <string>features</string>
+    <string>SeamapAus_VIC_WPB_biotopes</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -43,6 +43,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
