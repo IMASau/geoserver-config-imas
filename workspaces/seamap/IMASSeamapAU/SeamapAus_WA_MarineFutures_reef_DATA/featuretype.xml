@@ -1,15 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-2370e712:15beadc71d9:506f</id>
-  <name>SeamapAus_WA_MarineFutures_biota</name>
-  <nativeName>SeamapAus_WA_MarineFutures_biota</nativeName>
+  <id>FeatureTypeInfoImpl--299276c9:15d7cbdfc8e:48ba</id>
+  <name>SeamapAus_WA_MarineFutures_reef_DATA</name>
+  <nativeName>SeamapAus_WA_MarineFutures_reef_DATA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Marine Futures biota (UWA)</title>
-  <abstract>This layer is a reduced view for mapping purposes only.</abstract>
+  <title>Seamap Australia - WA - Marine Futures reef (UWA)  - FINE-SCALE DATA</title>
   <keywords>
-    <string>habitat mapping</string>
-    <string>Seamap Australia</string>
+    <string>SeamapAus_WA_MarineFutures_reef_DATA</string>
+    <string>features</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>112.69250415470371</minx>
-    <maxx>123.84674228344197</maxx>
-    <miny>-35.79568931667026</miny>
-    <maxy>-28.64059259171098</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-1936594.0703125</minx>
+    <maxx>-970469.515625</maxx>
+    <miny>-4069343.7265625</miny>
+    <maxy>-3395764.9296875</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.69250415470371</minx>
-    <maxx>123.84674228344197</maxx>
-    <miny>-35.79568931667026</miny>
-    <maxy>-28.64059259171098</maxy>
+    <minx>-1936594.0703125</minx>
+    <maxx>-970469.515625</maxx>
+    <miny>-4069343.7265625</miny>
+    <maxy>-3395764.9296875</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

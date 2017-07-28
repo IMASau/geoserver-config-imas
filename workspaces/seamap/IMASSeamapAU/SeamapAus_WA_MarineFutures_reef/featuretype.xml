@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - WA - Marine Futures reef (UWA)</title>
+  <abstract>This layer is a reduced view for mapping purposes only.</abstract>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -21,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -35,17 +36,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-1936594.0703125</minx>
-    <maxx>-970469.515625</maxx>
-    <miny>-4069343.7265625</miny>
-    <maxy>-3395764.9296875</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>112.69200455145214</minx>
+    <maxx>123.84663659267447</maxx>
+    <miny>-35.795918955634484</miny>
+    <maxy>-28.64015582160976</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-1936594.0703125</minx>
-    <maxx>-970469.515625</maxx>
-    <miny>-4069343.7265625</miny>
-    <maxy>-3395764.9296875</maxy>
+    <minx>112.69200455145214</minx>
+    <maxx>123.84663659267447</maxx>
+    <miny>-35.795918955634484</miny>
+    <maxy>-28.64015582160976</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
