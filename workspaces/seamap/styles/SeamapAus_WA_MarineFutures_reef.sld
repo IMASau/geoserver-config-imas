@@ -20,7 +20,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#640000</sld:CssParameter>
@@ -36,7 +36,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#82837E</sld:CssParameter>
@@ -52,7 +52,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
@@ -68,7 +68,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed reef and gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#cc0000</sld:CssParameter>
@@ -84,7 +84,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed reef and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#ff884d</sld:CssParameter>
@@ -100,7 +100,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed gravel and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#d2a679</sld:CssParameter>
@@ -116,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed reef*gravel*sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#cccc00</sld:CssParameter>
@@ -132,7 +132,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		
+		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#c0c1c8</sld:CssParameter>
@@ -142,7 +142,7 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
         <sld:Rule>
           <sld:Title>SITE</sld:Title>	        
-		  <sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
+		  <sld:MinScaleDenominator>15000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
             <sld:Graphic>
               <sld:Mark>

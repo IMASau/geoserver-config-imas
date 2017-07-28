@@ -20,7 +20,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Rhodoliths</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#d7191c</sld:CssParameter>
@@ -36,7 +36,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Sessile invertebrates*SI*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#ab7bea</sld:CssParameter>
@@ -52,7 +52,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Kelp</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#006600</sld:CssParameter>
@@ -68,7 +68,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#02DC00</sld:CssParameter>
@@ -84,7 +84,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Other algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#84e1e1</sld:CssParameter>
@@ -100,7 +100,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed vegetation</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#009999</sld:CssParameter>
@@ -116,7 +116,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed kelp and SI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#77b300</sld:CssParameter>
@@ -132,7 +132,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed other algae and SI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#cc0066</sld:CssParameter>
@@ -148,7 +148,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Mixed vegetation and SI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#ff8533</sld:CssParameter>
@@ -164,7 +164,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Hard coral and all mixes</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#b33c00</sld:CssParameter>
@@ -180,7 +180,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>Transition</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#0000cc</sld:CssParameter>
@@ -196,7 +196,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <sld:MaxScaleDenominator>8000000</sld:MaxScaleDenominator>		  
+		  <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		  
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#c0c1c8</sld:CssParameter>
@@ -206,7 +206,7 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
         <sld:Rule>
           <sld:Title>SITE</sld:Title>		        
-		  <sld:MinScaleDenominator>8000000</sld:MinScaleDenominator>				
+		  <sld:MinScaleDenominator>15000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
             <sld:Graphic>
               <sld:Mark>
