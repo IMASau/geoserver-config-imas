@@ -22,9 +22,9 @@
   <b>Microplastic particle items: </b> ${feature.Microplastic_particle_items.value}<BR>
   <b>Microplastic filament items: </b> ${feature.Microplastic_filament_items.value}<BR>
   <b>Total no. microplastic items: </b> ${feature.Total_microplastic_items.value}<BR>
-  <b>Sediment Particle Size &lt;0.063mm: </b> ${feature.Sediment_sub_0-063_V.value} &#37; by vol<BR>
-  <b>Sediment Particle Size 0.125mm: </b> ${feature.Sediment_0-125_V.value} &#37; by vol<BR>
-  <b>Sediment Particle Size 0.5mm: </b> ${feature.Sediment_0-5_V.value} &#37; by vol<BR>
+  <b>Sediment Particle Size &lt;0.063mm: </b> ${feature.Sediment_sub_0_063_V.value} &#37; by vol<BR>
+  <b>Sediment Particle Size 0.125mm: </b> ${feature.Sediment_0_125_V.value} &#37; by vol<BR>
+  <b>Sediment Particle Size 0.5mm: </b> ${feature.Sediment_0_5_V.value} &#37; by vol<BR>
   <b>Sediment Particle Size 4mm: </b> ${feature.Sediment_4_V.value} &#37; by vol<BR>   
 . . . . .<BR> 
  </div>
