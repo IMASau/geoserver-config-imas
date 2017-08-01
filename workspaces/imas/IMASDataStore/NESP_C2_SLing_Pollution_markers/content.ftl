@@ -19,6 +19,14 @@
   <b>Sediment N: </b> ${feature.Sed_N_mg_per_Kg.value} mg/kg<BR>  
   <b>Sediment P: </b> ${feature.Sed_P_mg_per_Kg.value} mg/kg<BR>  
 . . . . .<BR> 
+  <b>Microplastic particle items: </b> ${feature.Microplastic_particle_items.value}<BR>
+  <b>Microplastic filament items: </b> ${feature.Microplastic_filament_items.value}<BR>
+  <b>Total no. microplastic items: </b> ${feature.Total_microplastic_items.value}<BR>
+  <b>Sediment Particle Size &lt;0.063mm: </b> ${feature.Sediment_sub_0-063_V.value} &#37; by vol<BR>
+  <b>Sediment Particle Size 0.125mm: </b> ${feature.Sediment_0-125_V.value} &#37; by vol<BR>
+  <b>Sediment Particle Size 0.5mm: </b> ${feature.Sediment_0-5_V.value} &#37; by vol<BR>
+  <b>Sediment Particle Size 4mm: </b> ${feature.Sediment_4_V.value} &#37; by vol<BR>   
+. . . . .<BR> 
  </div>
 	<#else>
 	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
