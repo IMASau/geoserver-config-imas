@@ -21,4 +21,11 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+        <name>sitegeom</name>
+        <type>geometrypropertytype</type>
+        <label>Site Geometry</label>
+        <visualised>false</visualised>
+        <excludedFromDownload>true</excludedFromDownload>
+    </filter>	
 </filters>
