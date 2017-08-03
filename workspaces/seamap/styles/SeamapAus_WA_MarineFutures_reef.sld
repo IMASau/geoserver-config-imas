@@ -1,166 +1,193 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>habitat_polygon</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Habitat Polygon</sld:Title>
-      <sld:Abstract>A style that renders habitats</sld:Abstract>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>
-          <sld:Title>Reef</sld:Title>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>habitat_polygon</Name>
+    <UserStyle>
+      <Title>Habitat Polygon</Title>
+      <Abstract>A style that renders habitats</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#640000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Gravel</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#640000</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Gravel</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#82837E</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Sand</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#82837E</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>Sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Mixed reef and gravel</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#FFF9A5</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Mixed reef and gravel</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed reef and gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#cc0000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>  
-          <sld:Title>Mixed reef and sand</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#cc0000</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>  
+          <Title>Mixed reef and sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed reef and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ff884d</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>  
-          <sld:Title>Mixed gravel and sand</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#ff884d</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>  
+          <Title>Mixed gravel and sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed gravel and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#d2a679</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>  
-          <sld:Title>Mixed reef, gravel and sand</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#d2a679</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>  
+          <Title>Mixed reef, gravel and sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed reef*gravel*sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#cccc00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-        <sld:Rule> 
-          <sld:Title>None modelled with certainty</sld:Title>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#cccc00</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>			
+        <Rule> 
+          <Title>None modelled with certainty</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <sld:MaxScaleDenominator>15000000</sld:MaxScaleDenominator>		
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#c0c1c8</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>SITE</sld:Title>	        
-		  <sld:MinScaleDenominator>15000000</sld:MinScaleDenominator>				
-          <sld:PointSymbolizer>
-            <sld:Graphic>
-              <sld:Mark>
-                <sld:WellKnownName>circle</sld:WellKnownName>
-                <sld:Fill>
-                  <sld:CssParameter name="fill">#FFB222</sld:CssParameter>
-                  <sld:CssParameter name="fill-opacity">0.6</sld:CssParameter>
-                </sld:Fill>
-                <sld:Stroke>
-                   <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-                   <sld:CssParameter name="stroke-width">1</sld:CssParameter>
-               </sld:Stroke>
-              </sld:Mark>
-              <sld:Size>17</sld:Size>
-            </sld:Graphic>
-          </sld:PointSymbolizer>
-        </sld:Rule>		
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#c0c1c8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>SITE (zoomed out)</Title>	        
+		  <MinScaleDenominator>15000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>				
+			</Geometry>			  
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FFB222</CssParameter>
+                  <CssParameter name="fill-opacity">0.6</CssParameter>
+                </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">1</CssParameter>
+               </Stroke>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>		
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
