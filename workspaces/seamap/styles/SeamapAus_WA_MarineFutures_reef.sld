@@ -186,6 +186,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>Site</ogc:PropertyName>
+            </Label>  
+            <Font>
+			  <CssParameter name="font-family">Verdana</CssParameter>
+			  <CssParameter name="font-style">Normal</CssParameter>
+			  <CssParameter name="font-size">10</CssParameter>
+            </Font>
+            <Fill>
+			  <CssParameter name="fill">#111100</CssParameter>
+			  <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="goodnessOfFit">0.00000000000000000001</VendorOption>
+        <VendorOption name="spaceAround">-1</VendorOption>
+<VendorOption name="maxDisplacement">1000000000000000000</VendorOption>		
+          </TextSymbolizer>		  
         </Rule>		
       </FeatureTypeStyle>
     </UserStyle>
