@@ -38,6 +38,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#016300</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -54,6 +55,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#ff8000</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -70,6 +72,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		  
             <Fill>
               <CssParameter name="fill">#00a9e6</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -86,6 +89,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#E8C7AE</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -102,6 +106,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#f9f075</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -118,6 +123,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#82837E</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
@@ -134,6 +140,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#640000</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -150,6 +157,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#ecee5d</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -166,6 +174,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#a5d742</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -182,6 +191,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#009999</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -198,6 +208,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#d9cda6</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>

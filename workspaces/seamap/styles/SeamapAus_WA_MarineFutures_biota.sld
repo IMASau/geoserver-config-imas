@@ -14,6 +14,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Title>Habitat Poly</Title>
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>15000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	        
         <Rule>        
           <Title>Rhodoliths</Title>
           <ogc:Filter>
@@ -239,30 +255,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>SITE (zoomed out)</Title>		        
-		  <MinScaleDenominator>15000000</MinScaleDenominator>				
-          <PointSymbolizer>
-			<Geometry>
-			<ogc:PropertyName>sitegeom</ogc:PropertyName>
-			</Geometry>			  
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#FFB222</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">1</CssParameter>
-               </Stroke>
-              </Mark>
-              <Size>16</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>		        
+        </Rule>	        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
