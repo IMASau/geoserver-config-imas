@@ -205,7 +205,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>SITE</sld:Title>		        
+          <sld:Title>SITE (zoomed out)</sld:Title>		        
 		  <sld:MinScaleDenominator>15000000</sld:MinScaleDenominator>				
           <sld:PointSymbolizer>
             <sld:Graphic>
@@ -220,9 +220,17 @@ xmlns:gml="http://www.opengis.net/gml">
                    <sld:CssParameter name="stroke-width">1</sld:CssParameter>
                </sld:Stroke>
               </sld:Mark>
-              <sld:Size>17</sld:Size>
+              <sld:Size>16</sld:Size>
             </sld:Graphic>
           </sld:PointSymbolizer>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>Site</ogc:PropertyName>
+            </Label>  
+            <Fill>
+              <CssParameter name="fill">#FFFFFF</CssParameter>
+            </Fill>
+          </TextSymbolizer>		  
         </sld:Rule>		        
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
