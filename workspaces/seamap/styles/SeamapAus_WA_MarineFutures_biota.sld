@@ -16,7 +16,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>15000000</MinScaleDenominator>				
+		  <MinScaleDenominator>10000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -38,7 +38,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Rhodoliths</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -57,7 +57,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sessile invertebrates*SI*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry><ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Kelp</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -93,7 +93,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -112,7 +112,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Other algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -131,7 +131,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed vegetation</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -150,7 +150,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed kelp and SI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -169,7 +169,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed other algae and SI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -188,7 +188,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed vegetation and SI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -207,7 +207,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Hard coral and all mixes</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -226,7 +226,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Transition</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -245,7 +245,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>15000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				

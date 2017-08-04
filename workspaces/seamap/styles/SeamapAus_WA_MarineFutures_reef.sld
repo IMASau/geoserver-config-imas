@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>15000000</MinScaleDenominator>				
+		  <MinScaleDenominator>10000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -55,7 +55,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -93,7 +93,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed reef and gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -112,7 +112,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed reef and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -131,7 +131,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed gravel and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -150,7 +150,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed reef*gravel*sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -169,7 +169,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		        <MaxScaleDenominator>15000000</MaxScaleDenominator>		
+		        <MaxScaleDenominator>10000000</MaxScaleDenominator>		
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
