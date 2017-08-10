@@ -43,6 +43,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:LineSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#A67D3D</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>   
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
