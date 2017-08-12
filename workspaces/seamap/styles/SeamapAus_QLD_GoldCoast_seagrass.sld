@@ -157,7 +157,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>HHalophila spinulosa.Halodule uninervis</ogc:Literal>
+              <ogc:Literal>Halophila spinulosa.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
