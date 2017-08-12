@@ -71,22 +71,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Circalittoral rock with tide-swept channels</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Tide-swept channels of circalittoral rock</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#00ffcc</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>	
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	        
+        </sld:Rule>        
         <sld:Rule>
           <sld:Title>Infralittoral rock (low energy)</sld:Title>
           <ogc:Filter>
@@ -223,7 +208,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Sublittoral sediment with seaweed communities</sld:Title>
+          <sld:Title>Seaweed communities on sublittoral sediment</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -237,6 +222,21 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>	
           </sld:PolygonSymbolizer>
         </sld:Rule>		
+        <sld:Rule>
+          <sld:Title>Tide-swept channels of circalittoral rocks</sld:Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Tide-swept channels of circalittoral rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#00ffcc</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+            </sld:Fill>	
+          </sld:PolygonSymbolizer>
+        </sld:Rule>	        
         <sld:Rule>
           <sld:Title>Undefined</sld:Title>
           <ogc:Filter>
