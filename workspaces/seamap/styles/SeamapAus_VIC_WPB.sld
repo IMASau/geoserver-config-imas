@@ -71,22 +71,22 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
-        </sld:Rule>			
+        </sld:Rule>
         <sld:Rule>
-          <sld:Title>Hole/canyon feature</sld:Title>
+          <sld:Title>Circalittoral rock with tide-swept channels</sld:Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hole.canyon feature</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Tide-swept channels of circalittoral rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#000066</sld:CssParameter>
+              <sld:CssParameter name="fill">#00ffcc</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
-        </sld:Rule>
+        </sld:Rule>	        
         <sld:Rule>
           <sld:Title>Infralittoral rock (low energy)</sld:Title>
           <ogc:Filter>
@@ -116,21 +116,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
-        </sld:Rule> 
-        <sld:Rule>
-          <sld:Title>Infralittoral rock (high energy)</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>High energy infralittoral rock</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#99f1ff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>	
-          </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
           <sld:Title>Littoral rock</sld:Title>
@@ -142,11 +127,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#5a60d8</sld:CssParameter>
+              <sld:CssParameter name="fill">#004466</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
-        </sld:Rule>	
+        </sld:Rule>	        
         <sld:Rule>
           <sld:Title>Littoral sediment</sld:Title>
           <ogc:Filter>
@@ -177,21 +162,6 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>	
           </sld:PolygonSymbolizer>
         </sld:Rule>			
-        <sld:Rule>
-          <sld:Title>Sublittoral mud</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sublittoral mud</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#974749</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>	
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
         <sld:Rule>
           <sld:Title>Sublittoral sand</sld:Title>
           <ogc:Filter>
@@ -263,21 +233,6 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#2d9624</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>	
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Circalittoral rock with tide channels</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Tide-swept channels of circalittoral rock</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#00ffcc</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
