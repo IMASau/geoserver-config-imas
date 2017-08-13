@@ -77,7 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Label</ogc:PropertyName>
-              <ogc:Literal>Non Reef 0 - 20m</ogc:Literal>
+              <ogc:Literal>Non-Reef 0 - 20m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -92,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Label</ogc:PropertyName>
-              <ogc:Literal>Non Reef 20 - 60m</ogc:Literal>
+              <ogc:Literal>Non-Reef 20 - 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -107,7 +107,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Label</ogc:PropertyName>
-              <ogc:Literal>Non Reef > 60m</ogc:Literal>
+              <ogc:Literal>Non-Reef > 60m</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>

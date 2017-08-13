@@ -33,11 +33,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Aegiceras corniculatum/Avicennia marina</sld:Title>
+          <sld:Title>Aegiceras corniculatum / Avicennia marina</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Aegiceras corniculatum.Avicennia marina</ogc:Literal>
+              <ogc:Literal>Aegiceras corniculatum . Avicennia marina</ogc:Literal>
             </ogc:PropertyIsLike>			
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -53,11 +53,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Aegiceras corniculatum/Saltmarsh</sld:Title>
+          <sld:Title>Aegiceras corniculatum / Saltmarsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Aegiceras corniculatum.Saltmarsh</ogc:Literal>
+              <ogc:Literal>Aegiceras corniculatum . Saltmarsh</ogc:Literal>
             </ogc:PropertyIsLike>			
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -73,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>           
         <sld:Rule>
-          <sld:Title>Aegiceras corniculatum/Avicennia marina/Saltmarsh</sld:Title>
+          <sld:Title>Aegiceras corniculatum / Avicennia marina / Saltmarsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Aegiceras corniculatum.Avicennia marina.Saltmarsh</ogc:Literal>
+              <ogc:Literal>Aegiceras corniculatum . Avicennia marina . Saltmarsh</ogc:Literal>
             </ogc:PropertyIsLike>			
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -113,11 +113,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>        
         <sld:Rule>
-          <sld:Title>Avicennia marina/Saltmarsh</sld:Title>
+          <sld:Title>Avicennia marina / Saltmarsh</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Avicennia marina.Saltmarsh</ogc:Literal>
+              <ogc:Literal>Avicennia marina . Saltmarsh</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -153,11 +153,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halophila/Ruppia</sld:Title>
+          <sld:Title>Halophila / Ruppia</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila.Ruppia</ogc:Literal>
+              <ogc:Literal>Halophila . Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -173,11 +173,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>Halophila/Zostera</sld:Title>
+          <sld:Title>Halophila / Zostera</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila.Zostera</ogc:Literal>
+              <ogc:Literal>Halophila . Zostera</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -213,11 +213,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>          
         <sld:Rule>
-          <sld:Title>Posidonia australis/Halophila</sld:Title>
+          <sld:Title>Posidonia australis / Halophila</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia australis.Halophila</ogc:Literal>
+              <ogc:Literal>Posidonia australis . Halophila</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -233,11 +233,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidonia australis/Zostera</sld:Title>
+          <sld:Title>Posidonia australis / Zostera</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia australis.Zostera</ogc:Literal>
+              <ogc:Literal>Posidonia australis . Zostera</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -293,11 +293,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Zostera/Ruppia</sld:Title>
+          <sld:Title>Zostera / Ruppia</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera.Ruppia</ogc:Literal>
+              <ogc:Literal>Zostera . Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -313,11 +313,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Zostera/Ruppia/Halophila</sld:Title>
+          <sld:Title>Zostera / Ruppia / Halophila</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera.Ruppia.Halophila</ogc:Literal>
+              <ogc:Literal>Zostera . Ruppia . Halophila</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>

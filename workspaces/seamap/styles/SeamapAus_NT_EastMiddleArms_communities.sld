@@ -118,7 +118,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - low density</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft corals) - low density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -133,7 +133,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - low-medium density</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft corals) - low-medium density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -148,7 +148,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - medium density</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft corals) - medium density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -163,7 +163,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 	
         <sld:Rule>
-          <sld:Title>Mixed community (corals, algae, sponges &amp; soft sorals) - high density</sld:Title>
+          <sld:Title>Mixed community (corals, algae, sponges &amp; soft corals) - high density</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
