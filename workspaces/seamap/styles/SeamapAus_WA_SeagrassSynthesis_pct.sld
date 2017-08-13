@@ -32,7 +32,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>..10*</ogc:Literal>
+              <ogc:Literal>1-10.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -47,7 +47,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>11*30*</ogc:Literal>
+              <ogc:Literal>11-30.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -62,7 +62,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>31*50*</ogc:Literal>
+              <ogc:Literal>31-50.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -77,7 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>51*75*</ogc:Literal>
+              <ogc:Literal>51-75.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
@@ -92,7 +92,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>76*100*</ogc:Literal>
+              <ogc:Literal>76-100.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
