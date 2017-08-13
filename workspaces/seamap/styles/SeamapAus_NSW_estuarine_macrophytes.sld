@@ -33,11 +33,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Halophila / Ruppia</sld:Title>
+          <sld:Title>Halophila/Ruppia</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila . Ruppia</ogc:Literal>
+              <ogc:Literal>Halophila.Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -53,11 +53,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>Halophila / Zostera</sld:Title>
+          <sld:Title>Halophila/Zostera</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila . Zostera</ogc:Literal>
+              <ogc:Literal>Halophila.Zostera</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -93,11 +93,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>          
         <sld:Rule>
-          <sld:Title>Posidonia / Halophila</sld:Title>
+          <sld:Title>Posidonia/Halophila</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia . Halophila</ogc:Literal>
+              <ogc:Literal>Posidonia.Halophila</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -113,11 +113,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidonia / Halophila / Ruppia</sld:Title>
+          <sld:Title>Posidonia/Halophila/Ruppia</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia . Halophila . Ruppia</ogc:Literal>
+              <ogc:Literal>Posidonia.Halophila.Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -133,11 +133,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidonia / Ruppia</sld:Title>
+          <sld:Title>Posidonia/Ruppia</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia . Ruppia</ogc:Literal>
+              <ogc:Literal>Posidonia.Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -153,11 +153,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>		
         <sld:Rule>
-          <sld:Title>Posidonia / Zostera</sld:Title>
+          <sld:Title>Posidonia/Zostera</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia . Zostera</ogc:Literal>
+              <ogc:Literal>Posidonia.Zostera</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -173,11 +173,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Posidonia / Zostera / Halophila</sld:Title>
+          <sld:Title>Posidonia/Zostera/Halophila</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Posidonia . Zostera . Halophila</ogc:Literal>
+              <ogc:Literal>Posidonia.Zostera.Halophila</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -233,11 +233,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Zostera / Ruppia</sld:Title>
+          <sld:Title>Zostera/Ruppia</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera . Ruppia</ogc:Literal>
+              <ogc:Literal>Zostera.Ruppia</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -253,11 +253,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Zostera / Ruppia / Halophila</sld:Title>
+          <sld:Title>Zostera/Ruppia/Halophila</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera . Ruppia . Halophila</ogc:Literal>
+              <ogc:Literal>Zostera.Ruppia.Halophila</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
