@@ -86,51 +86,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>
-        <sld:Rule>		
-          <sld:Title>Microbes</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Microbes</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#996699</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule> 		
-        <sld:Rule>		
-          <sld:Title>Mixed Filter Feeder Community</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Filter Feeder Community</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#ff99e6</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule>
-        <sld:Rule>		
-          <sld:Title>Sponges</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Sponges</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#FCFAE2</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
         </sld:Rule> 		
         <sld:Rule>		
           <sld:Title>Macroalgae</sld:Title>		
@@ -158,6 +113,66 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>		
             <sld:Fill>		
               <sld:CssParameter name="fill">#26734b</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Microbes</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Microbes</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#996699</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Mixed Biota</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Biota</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#1aa3ff</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Mixed Filter Feeder Community</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Filter Feeder Community</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#ff99e6</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Vegetation</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Vegetation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#016300</sld:CssParameter>		
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
@@ -206,51 +221,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>		
-        <sld:Rule>		
-          <sld:Title>Seagrass</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Seagrass</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#02DC00</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule>
-        <sld:Rule>		
-          <sld:Title>Vegetation</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Vegetation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#016300</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule> 		
-        <sld:Rule>		
-          <sld:Title>Mixed Biota</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#0099ff</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
         </sld:Rule> 				
         <sld:Rule>		
           <sld:Title>Saltmarsh</sld:Title>		
@@ -281,33 +251,33 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>
+        </sld:Rule> 		
         <sld:Rule>		
-          <sld:Title>Coarse Sediment</sld:Title>		
+          <sld:Title>Seagrass</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Coarse Sediment</ogc:Literal>		
+              <ogc:Literal>Seagrass</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
             <sld:Fill>		
-              <sld:CssParameter name="fill">#ff8c66</sld:CssParameter>		
+              <sld:CssParameter name="fill">#02DC00</sld:CssParameter>		
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>		
+        </sld:Rule> 		
         <sld:Rule>		
-          <sld:Title>Fine Sediment</sld:Title>		
+          <sld:Title>Sponges</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Fine Sediment</ogc:Literal>		
+              <ogc:Literal>Sponges</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
             <sld:Fill>		
-              <sld:CssParameter name="fill">#f9f075</sld:CssParameter>		
+              <sld:CssParameter name="fill">#FCFAE2</sld:CssParameter>		
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
@@ -326,37 +296,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule> 
-        <sld:Rule>		
-          <sld:Title>Mixed Coarse Sediments</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Coarse Sediments</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#a84524</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule>		
-        <sld:Rule>		
-          <sld:Title>Mixed Fine Sediments</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Fine Sediments</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#c8ae1e</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule>
+        </sld:Rule> 		
         <sld:Rule>		
           <sld:Title>Mixed Soft Substrata</sld:Title>		
           <ogc:Filter>		
@@ -371,7 +311,67 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>  		 		 		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Fine Sediment</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Fine Sediment</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#f9f075</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Mixed Fine Sediments</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Fine Sediments</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#c8ae1e</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Coarse Sediment</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Coarse Sediment</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#ff8c66</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Mixed Coarse Sediments</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Coarse Sediments</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#a84524</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
         <sld:Rule>		
           <sld:Title>Sand</sld:Title>		
           <ogc:Filter>		
@@ -521,21 +521,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>		
-        <sld:Rule>		
-          <sld:Title>Biota Present</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Biota Present</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#ccff99</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
         </sld:Rule>
         <sld:Rule>		
           <sld:Title>Biota Absent</sld:Title>		
@@ -552,6 +537,21 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
         </sld:Rule> 		
+        <sld:Rule>		
+          <sld:Title>Biota Present</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Biota Present</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#ccff99</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		        
         <sld:Rule>		
           <sld:Title>Unknown</sld:Title>		
           <ogc:Filter>		
