@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>State</name>
+        <type>string</type>
+        <label>State</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_MEOW_R</name>
+        <type>string</type>
+        <label>MEOW Realm</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_MEOW_P</name>
+        <type>string</type>
+        <label>MEOW Province</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_MEOW_E</name>
+        <type>string</type>
+        <label>MEOW Ecoregion</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_IMCRA_P</name>
+        <type>string</type>
+        <label>IMCRA Province</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_IMCRA_B</name>
+        <type>string</type>
+        <label>IMCRA Realm</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
