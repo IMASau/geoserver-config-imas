@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>8000000</MinScaleDenominator>				
+		  <MinScaleDenominator>6000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -37,7 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Intertidal*mobile substrates</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -56,7 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Intertidal*non-mobile substrates</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Low intertidal*non-mobile*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -94,7 +94,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Low intertidal*non-mobile*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -113,7 +113,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*mobile*PS zone*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -132,7 +132,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*mobile*PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -151,7 +151,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*non-mobile*PS zone*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -170,7 +170,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*non-mobile*PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -189,7 +189,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*mobile*below PS zone*rough</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -208,7 +208,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*mobile*below PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -227,7 +227,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*non-mobile*below PS zone*rough*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -246,7 +246,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Subtidal*non-mobile*below PS zone*smooth</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				

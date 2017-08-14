@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>8000000</MinScaleDenominator>				
+		  <MinScaleDenominator>6000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -37,7 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Bare sandy to mixed sediments</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -56,7 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Bare sand and mud*flats.bars.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Bare rocky reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -94,7 +94,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Bare coarse sediment with rippled sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -113,7 +113,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Bare coarse sediment*possibility*outcrops*rippled sand</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -132,7 +132,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Medium density filter feeders*sponges*corals*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -151,7 +151,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>High density filter feeders*sponges*corals*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -170,7 +170,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Low density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -189,7 +189,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Low-medium density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -208,7 +208,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Medium density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -227,7 +227,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>High density mixed community*corals*algae*sponges*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -246,7 +246,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Bare substrate</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				

@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>8000000</MinScaleDenominator>				
+		  <MinScaleDenominator>6000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -37,7 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Avicennia marina.Ceriops tagal</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -56,7 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Ceriops tagal</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Rhizophora stylosa .closed forest.</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -94,7 +94,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Rhizophora stylosa .open woodland.</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -113,7 +113,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Rhizophora stylosa.Camptostemon schultzii</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -132,7 +132,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Rhizophora stylosa.Bruguiera.Ceriops</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -151,7 +151,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sonneratia alba</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -170,7 +170,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed mangrove species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -189,7 +189,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Low tidal mudflat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -208,7 +208,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Salt flats</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -227,7 +227,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Beach</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
