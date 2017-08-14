@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--33782a62:15dcfa5c105:99c</id>
-  <name>SeamapAus_WA_MOU74_AshmoreReef</name>
-  <nativeName>SeamapAus_WA_MOU74_AshmoreReef</nativeName>
+  <id>FeatureTypeInfoImpl--33782a62:15dcfa5c105:9dd</id>
+  <name>SeamapAus_WA_MOU74_Ashmore</name>
+  <nativeName>SeamapAus_WA_MOU74_Ashmore</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -36,17 +36,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>122.67856356339337</minx>
-    <maxx>123.65421243020769</maxx>
-    <miny>-12.90573008671738</miny>
-    <maxy>-11.892239314538314</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-1249273.3010929695</minx>
+    <maxx>-1149863.1842625637</maxx>
+    <miny>-1551649.1868352275</miny>
+    <maxy>-1445484.9411095746</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>122.67856356339337</minx>
-    <maxx>123.65421243020769</maxx>
-    <miny>-12.90573008671738</miny>
-    <maxy>-11.892239314538314</maxy>
+    <minx>-1249273.3010929695</minx>
+    <maxx>-1149863.1842625637</maxx>
+    <miny>-1551649.1868352275</miny>
+    <maxy>-1445484.9411095746</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
