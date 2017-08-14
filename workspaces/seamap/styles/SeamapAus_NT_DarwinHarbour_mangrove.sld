@@ -13,11 +13,11 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Avicennia marina / Ceriops tagal</sld:Title>
+          <sld:Title>Avicennia marina/Ceriops tagal</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Avicennia marina . Ceriops tagal</ogc:Literal>
+              <ogc:Literal>Avicennia marina.Ceriops tagal</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -73,11 +73,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Rhizophora stylosa / Camptostemon schultzii</sld:Title>
+          <sld:Title>Rhizophora stylosa/Camptostemon schultzii</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rhizophora stylosa . Camptostemon schultzii</ogc:Literal>
+              <ogc:Literal>Rhizophora stylosa.Camptostemon schultzii</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
@@ -88,11 +88,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Rhizophora stylosa / Bruguiera / Ceriops</sld:Title>
+          <sld:Title>Rhizophora stylosa/Bruguiera/Ceriops</sld:Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rhizophora stylosa . Bruguiera . Ceriops</ogc:Literal>
+              <ogc:Literal>Rhizophora stylosa.Bruguiera.Ceriops</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
