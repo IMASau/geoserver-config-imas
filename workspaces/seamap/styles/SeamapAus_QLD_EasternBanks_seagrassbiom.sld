@@ -1,123 +1,164 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>habitat_polygon</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Habitat Polygon</sld:Title>
-      <sld:Abstract>A style that renders habitats</sld:Abstract>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>
-          <sld:Title>SEAGRASS BIOMASS (g &#47; m&#178;)</sld:Title>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>habitat_polygon</Name>
+    <UserStyle>
+      <Title>Habitat Polygon</Title>
+      <Abstract>A style that renders habitats</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>5000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>SEAGRASS BIOMASS (g &#47; m&#178;)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0</sld:CssParameter>			  
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule> 
-        <sld:Rule>
-          <sld:Title>&lt; 25</sld:Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>			  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>&lt; 25</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>*25 g*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#daffb3</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>25-50</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#daffb3</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>25-50</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>25-50*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b5ff66</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>50-75</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#b5ff66</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>50-75</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>50-75*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#4dff4d</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>75-100</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#4dff4d</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>75-100</Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>75-100*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#00cc00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>100-1000</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#00cc00</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>100-1000</Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>100-1000*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#007100</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>&#62; 1000</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#007100</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>&#62; 1000</Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>* 1000*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#002c00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#002c00</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>			
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
