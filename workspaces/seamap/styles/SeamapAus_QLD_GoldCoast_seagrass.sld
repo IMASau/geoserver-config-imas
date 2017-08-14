@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>2000000</MinScaleDenominator>				
+		  <MinScaleDenominator>5000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -37,7 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -61,7 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Cymodocea serrulata.Zostera muelleri</ogc:Literal>
             </ogc:PropertyIsLike>					
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -85,7 +85,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halodule uninervis.Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsLike>					
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -109,7 +109,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -133,7 +133,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -157,7 +157,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis.Halophila spinulosa.Zostera muelleri</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -181,7 +181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila spinulosa</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -205,7 +205,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila spinulosa.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -229,7 +229,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Zostera muelleri</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -253,7 +253,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Zostera muelleri.Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -277,7 +277,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Zostera muelleri.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -301,7 +301,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Zostera muelleri.Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -325,7 +325,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Zostera muelleri.Syringodium isoetifolium</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -349,7 +349,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Unidentified seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
