@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:74a4</id>
+  <id>FeatureTypeInfoImpl--33782a62:15dcfa5c105:99c</id>
   <name>SeamapAus_WA_MOU74_AshmoreReef</name>
   <nativeName>SeamapAus_WA_MOU74_AshmoreReef</nativeName>
   <namespace>
@@ -7,8 +7,8 @@
   </namespace>
   <title>Seamap Australia - WA - MOU74 marine resources, Ashmore Reef (CSIRO)</title>
   <keywords>
-    <string>habitat mapping</string>
     <string>Seamap Australia</string>
+    <string>habitat mapping</string>
     <string>MOU74</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -57,6 +57,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>

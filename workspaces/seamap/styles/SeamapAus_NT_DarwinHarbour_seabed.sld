@@ -1,108 +1,149 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>habitat_polygon</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Habitat Polygon</sld:Title>
-      <sld:Abstract>A style that renders habitats</sld:Abstract>
-      <sld:FeatureTypeStyle>       
-        <sld:Rule>
-          <sld:Title>Very deep, very high slope, unconsolidated</sld:Title>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>habitat_polygon</Name>
+    <UserStyle>
+      <Title>Habitat Polygon</Title>
+      <Abstract>A style that renders habitats</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>5000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	      
+        <Rule>
+          <Title>Very deep, very high slope, unconsolidated</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Very deep*very high slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>		             
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#000080</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>			
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Deep, low slope, unconsolidated</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#000080</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Deep, low slope, unconsolidated</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep*low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#4d4dff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>		  
-          </sld:PolygonSymbolizer>
-        </sld:Rule>		
-        <sld:Rule>
-          <sld:Title>Moderately deep, low slope, unconsolidated</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#4d4dff</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>		  
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>Moderately deep, low slope, unconsolidated</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Moderately deep*low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>         
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b3b3ff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>		  
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Moderately shallow, high slope, low consolidation</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#b3b3ff</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>		  
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Moderately shallow, high slope, low consolidation</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Moderately shallow*high slope*low consolidation</ogc:Literal>
             </ogc:PropertyIsLike>	         
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ff9c33</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>		  
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-        <sld:Rule>
-          <sld:Title>Shallow, very low slope, unconsolidated</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#ff9c33</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>		  
+          </PolygonSymbolizer>
+        </Rule>			
+        <Rule>
+          <Title>Shallow, very low slope, unconsolidated</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Shallow*very low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffce99</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>			  	  
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Very shallow, very low slope, highly consolidated</sld:Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#ffce99</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>			  	  
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Very shallow, very low slope, highly consolidated</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Very shallow*very low slope*highly consolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffffcc</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#ffffcc</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>			
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
