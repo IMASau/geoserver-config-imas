@@ -1,123 +1,168 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>habitat_polygon</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Habitat Polygon</sld:Title>
-      <sld:Abstract>A style that renders habitats</sld:Abstract>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>            
-          <sld:Title>Lagoon (shallow)</sld:Title>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>habitat_polygon</Name>
+    <UserStyle>
+      <Title>Habitat Polygon</Title>
+      <Abstract>A style that renders habitats</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>3000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	  
+        <Rule>            
+          <Title>Lagoon (shallow)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Shallow lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#dbadeb</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>        
-        <sld:Rule>            
-          <sld:Title>Lagoon (deep)</sld:Title>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#dbadeb</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>            
+          <Title>Lagoon (deep)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep lagoon</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#8529a3</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Other deep areas</sld:Title>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#8529a3</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Other deep areas</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Deep areas</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#16389c</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	         
-        <sld:Rule>
-          <sld:Title>Reef crest</sld:Title>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#16389c</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	         
+        <Rule>
+          <Title>Reef crest</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef crest</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ff9999</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Reef slope</sld:Title>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#ff9999</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Reef slope</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#bd4b28</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Reef flat (inner)</sld:Title>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#bd4b28</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Reef flat (inner)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef flat inner</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#fcf769</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Reef flat (outer)</sld:Title>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#fcf769</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Reef flat (outer)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef flat outer</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ff8000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		  <MaxScaleDenominator>3000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#ff8000</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
