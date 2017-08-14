@@ -1,183 +1,244 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>habitat_polygon</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Habitat Polygon</sld:Title>
-      <sld:Abstract>A style that renders habitats</sld:Abstract>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>
-          <sld:Title>Avicennia marina/Ceriops tagal</sld:Title>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>habitat_polygon</Name>
+    <UserStyle>
+      <Title>Habitat Polygon</Title>
+      <Abstract>A style that renders habitats</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>8000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	 	  
+        <Rule>
+          <Title>Avicennia marina/Ceriops tagal</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Avicennia marina.Ceriops tagal</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b35900</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Ceriops tagal</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#b35900</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Ceriops tagal</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Ceriops tagal</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#f28c8c</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora stylosa (closed forest)</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#f28c8c</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Rhizophora stylosa (closed forest)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rhizophora stylosa .closed forest.</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#89fd1c</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora stylosa (open woodland)</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#89fd1c</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Rhizophora stylosa (open woodland)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rhizophora stylosa .open woodland.</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b5f8c6</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora stylosa/Camptostemon schultzii</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#b5f8c6</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Rhizophora stylosa/Camptostemon schultzii</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rhizophora stylosa.Camptostemon schultzii</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#00ff99</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Rhizophora stylosa/Bruguiera/Ceriops</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#00ff99</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Rhizophora stylosa/Bruguiera/Ceriops</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Rhizophora stylosa.Bruguiera.Ceriops</ogc:Literal>
             </ogc:PropertyIsLike>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#336600</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>        
-        <sld:Rule>
-          <sld:Title>Sonneratia alba</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#336600</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>Sonneratia alba</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sonneratia alba</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#dfd19f</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Mixed mangrove species</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#dfd19f</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Mixed mangrove species</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed mangrove species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#43705a</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule> 
-        <sld:Rule>
-          <sld:Title>Low tidal mudflat</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#43705a</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Low tidal mudflat</Title>
           <ogc:Filter>  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Low tidal mudflat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#734e26</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	          
-        <sld:Rule>
-          <sld:Title>Salt flats</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#734e26</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	          
+        <Rule>
+          <Title>Salt flats</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Salt flats</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b12d38</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Beach</sld:Title>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#b12d38</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Beach</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Beach</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#FFF9A5</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>          		           
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#FFF9A5</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>          		           
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
