@@ -28,11 +28,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>       
         <sld:Rule>
-          <sld:Title>Avicennia marina / Bruguiera exaristata</sld:Title>
+          <sld:Title>Avicennia marina/Bruguiera exaristata</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Avicennia marina . Bruguiera exaristata</ogc:Literal>
+              <ogc:Literal>Avicennia marina.Bruguiera exaristata</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <sld:PolygonSymbolizer>
