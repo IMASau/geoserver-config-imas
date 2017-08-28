@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_WA_MOU74_Ashmore</name>
-  <id>LayerInfoImpl--33782a62:15dcfa5c105:9de</id>
+  <name>SeamapAus_WA_MOU74_AshmoreReef</name>
+  <id>LayerInfoImpl--33782a62:15e22e9da83:7932</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--a189114:158dbde6619:-daa</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--33782a62:15dcfa5c105:9dd</id>
+    <id>FeatureTypeInfoImpl--33782a62:15e22e9da83:7931</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
