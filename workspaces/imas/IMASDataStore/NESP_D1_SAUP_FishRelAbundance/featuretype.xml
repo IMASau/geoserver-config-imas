@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-2b4a173c:15e3e1ca8bf:-35d1</id>
+  <name>NESP_D1_SAUP_FishRelAbundance</name>
+  <nativeName>NESP_D1_SAUP_FishRelAbundance</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>NESP_D1_SAUP_FishRelAbundance</title>
+  <keywords>
+    <string>National Environmental Science Program (NESP) Marine Biodiversity Hub</string>
+    <string>Sea Around Us Project</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
+  DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+    TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>109.00000000000011</minx>
+    <maxx>129.00000000000023</maxx>
+    <miny>-39.000000000922896</miny>
+    <maxy>-9.000000000291863</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>109.00000000000011</minx>
+    <maxx>129.00000000000023</maxx>
+    <miny>-39.000000000922896</miny>
+    <maxy>-9.000000000291863</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
