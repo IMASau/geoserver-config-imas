@@ -523,21 +523,6 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>		
         </sld:Rule>
         <sld:Rule>		
-          <sld:Title>Biota Absent</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Biota Absent</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#404040</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
-        </sld:Rule> 		
-        <sld:Rule>		
           <sld:Title>Biota Present</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
@@ -551,7 +536,22 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule> 		        
+        </sld:Rule> 		             
+        <sld:Rule>		
+          <sld:Title>Biota Absent</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Biota Absent</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#404040</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		   
         <sld:Rule>		
           <sld:Title>Unknown</sld:Title>		
           <ogc:Filter>		
