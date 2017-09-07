@@ -43,9 +43,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SC_Level1</name>
+        <name>BC_Level1</name>
         <type>string</type>
-        <label>Substrate Classification (lvl 1)</label>
+        <label>Biota Presence</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
