@@ -45,7 +45,7 @@
     <filter>
         <name>BC_Level1</name>
         <type>string</type>
-        <label>Biota Presence</label>
+        <label>Presence of Biota</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
