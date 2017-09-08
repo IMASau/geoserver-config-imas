@@ -10,35 +10,35 @@
     <filter>
         <name>BS_MEOW_R</name>
         <type>string</type>
-        <label>MEOW Realm</label>
+        <label>1. MEOW Realm</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>BS_MEOW_P</name>
         <type>string</type>
-        <label>MEOW Province</label>
+        <label>2. MEOW Province</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>BS_MEOW_E</name>
         <type>string</type>
-        <label>MEOW Ecoregion</label>
+        <label>3. MEOW Ecoregion</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>BS_IMCRA_P</name>
         <type>string</type>
-        <label>IMCRA Province</label>
+        <label>A. IMCRA Province</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>BS_IMCRA_B</name>
         <type>string</type>
-        <label>IMCRA Realm</label>
+        <label>B. IMCRA Realm</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
