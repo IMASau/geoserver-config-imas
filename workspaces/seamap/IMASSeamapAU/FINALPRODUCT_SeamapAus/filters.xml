@@ -38,7 +38,7 @@
     <filter>
         <name>BS_IMCRA_B</name>
         <type>string</type>
-        <label>B. IMCRA Realm</label>
+        <label>B. IMCRA Bioregion</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
