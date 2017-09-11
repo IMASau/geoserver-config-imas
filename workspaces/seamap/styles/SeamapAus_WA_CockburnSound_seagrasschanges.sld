@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>2000000</MinScaleDenominator>				
+		  <MinScaleDenominator>5000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#640000</CssParameter>
@@ -52,7 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#02DC00</CssParameter>
@@ -68,7 +68,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FFF9A5</CssParameter>
@@ -84,7 +84,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Dredged</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#A5A5A5</CssParameter>
