@@ -3,10 +3,10 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>rain</Name>
+    <Name>GFL</Name>
     <UserStyle>
-      <Name>rain</Name>
-      <Title>Rain distribution</Title>
+      <Name>Global Fisheries Landings</Name>
+      <Title>Global Fisheries Landings</Title>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
