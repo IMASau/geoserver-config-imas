@@ -186,7 +186,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Pavement</ogc:Literal>
+              <ogc:Literal>Pavement bottom</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
 		  <MaxScaleDenominator>3000000</MaxScaleDenominator>

@@ -1,15 +1,12 @@
 <style>
-  <id>StyleInfoImpl--2cde9246:132a9900d8b:-7ffc</id>
-  <name>seamap_contours</name>
+  <id>StyleInfoImpl--6d173b33:15e76440c15:-768b</id>
+  <name>SeamapAus_contours</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <sldVersion>
-    <version>1.0.0</version>
-  </sldVersion>
   <format>sld</format>
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>seamap_contours.sld</filename>
+  <filename>SeamapAus_contours.sld</filename>
 </style>
