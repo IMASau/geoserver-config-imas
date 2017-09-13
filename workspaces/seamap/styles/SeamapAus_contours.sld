@@ -16,7 +16,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:Name>rule_0</sld:Name>
           <sld:Title>Contours</sld:Title>
           <sld:Abstract>A coloured line for a contour</sld:Abstract>
-          <sld:MaxScaleDenominator>320000</sld:MaxScaleDenominator>
+          <sld:MaxScaleDenominator>400000</sld:MaxScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#A67D3D</sld:CssParameter>
