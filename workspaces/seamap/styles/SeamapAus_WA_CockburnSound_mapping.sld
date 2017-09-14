@@ -33,7 +33,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Vegetated area</ogc:Literal>
+              <ogc:Literal>Vegetated Area</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
@@ -101,7 +101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>	
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Fine sediment</ogc:Literal>
+              <ogc:Literal>Fine Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
@@ -135,7 +135,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Pavement reef</ogc:Literal>
+              <ogc:Literal>Pavement Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
@@ -186,7 +186,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed seagrass and reef</ogc:Literal>
+              <ogc:Literal>Mixed Seagrass and Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
 		  <MaxScaleDenominator>2000000</MaxScaleDenominator>			  
