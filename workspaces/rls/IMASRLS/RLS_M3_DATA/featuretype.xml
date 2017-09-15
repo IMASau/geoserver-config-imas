@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:28de</id>
+  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:28e5</id>
   <name>RLS_M3_DATA</name>
   <nativeName>RLS_GEOS_M3_A_DATA</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-4c2d46e6:138d5271d9a:-7fdb</id>
+    <id>NamespaceInfoImpl--558bdc10:14858a72b3d:-6a9b</id>
   </namespace>
   <title>RLS M3 Photoquadrats</title>
+  <abstract>TEST VERSION ONLY</abstract>
   <keywords>
     <string>RLS_GEOS_M3_A_DATA</string>
     <string>features</string>
@@ -46,7 +47,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-3d92</id>
+    <id>DataStoreInfoImpl--558bdc10:14930a065eb:-5807</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
