@@ -1,3 +1,4 @@
+<#ftl output_format="HTML">
 <#import "config.ftl" as my>
 <h6>This is a sample of the RLS data available at this point</h6><BR>
 
