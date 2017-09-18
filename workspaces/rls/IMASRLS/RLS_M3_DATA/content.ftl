@@ -1,5 +1,5 @@
 <#import "config.ftl" as my>
-<h3>This is a sample of the data available at this point</h3><BR>
+<h6>This is a sample of the RLS data available at this point</h6><BR>
 
 <#list features as feature>
 
@@ -7,8 +7,7 @@
 
 <div class="feature">
   <b>Survey Date:</b> ${feature.SurveyDate.value[0..11]}<BR>
-  <b>Site: </b>${feature.Site.value}, ${feature.Country.value}<BR>
-  <b>Ecoregion:</b> ${feature.Ecoregion.value}<BR>  
+  <b>Site: </b>${feature.Site.value}, ${feature.Country.value}<BR> 
   <b>Major category benthic cover:</b> ${feature.MajorCategory.value}<BR>
   <b>Description:</b> ${feature.CategoryDescription.value}<BR>
   <b>Percent Cover:</b> ${feature.PercentCover.value?string[0..2]}&#37;<BR><BR>
