@@ -5,11 +5,15 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:14858a72b3d:-6a9b</id>
   </namespace>
-  <title>RLS M3 Photoquadrats</title>
-  <abstract>TEST VERSION ONLY</abstract>
+  <title>RLS Habitat Photo Quadrats</title>
+  <abstract>Reef Life Survey uses standardised underwater visual census methods employed by trained SCUBA divers to survey fish and invertebrate species, and to record habitat type using photo quadrats. This data refers to information on the percentage cover of sessile animals and seaweeds along 50m transect lines using photo-quadrats taken sequentially each 2.5 m along the 50m transect.&#xd;
+&#xd;
+This data layer has been added to this catalogue to complement the Seamap Australia habitat mapping project. For the full catalogue of RLS data layers, see http://geoserver-rls.imas.utas.edu.au</abstract>
   <keywords>
-    <string>RLS_GEOS_M3_A_DATA</string>
-    <string>features</string>
+    <string>Reef Life Survey</string>
+    <string>Photo Quadrats</string>
+    <string>benthic habitat</string>
+    <string>citizen science</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
