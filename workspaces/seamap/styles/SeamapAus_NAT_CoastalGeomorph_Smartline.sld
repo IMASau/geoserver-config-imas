@@ -24,7 +24,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#dd3c8c</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>		
         </sld:Rule>	
@@ -40,7 +40,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#aa80ff</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>			
@@ -55,7 +55,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#3C6442</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>
@@ -71,7 +71,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#BBA600</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>		  
         </sld:Rule>		
@@ -87,7 +87,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFAD00</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>		
@@ -103,7 +103,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#734e26</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>
@@ -119,7 +119,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000066</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>
@@ -135,7 +135,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#4747eb</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>		
@@ -151,7 +151,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#fff21a</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>
@@ -167,7 +167,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#640000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>		
@@ -183,7 +183,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#14A4AC</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	
         </sld:Rule>			
@@ -199,7 +199,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#E8C7AE</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
         </sld:Rule>		
@@ -215,7 +215,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#00cc66</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
 		</sld:Rule>	
@@ -231,7 +231,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#ff8533</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
 		</sld:Rule>	
@@ -247,7 +247,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#cc3300</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
         </sld:Rule>			
@@ -263,7 +263,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>	  
         </sld:Rule>
@@ -279,7 +279,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Stroke>
               <sld:CssParameter name="stroke">#999999</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.9</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
 		</sld:Rule>        

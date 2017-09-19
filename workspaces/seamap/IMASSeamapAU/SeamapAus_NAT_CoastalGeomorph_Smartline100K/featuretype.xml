@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:52d9</id>
+  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:536e</id>
   <name>SeamapAus_NAT_CoastalGeomorph_Smartline100K</name>
   <nativeName>SeamapAus_NAT_CoastalGeomorph_Smartline100K</nativeName>
   <namespace>
@@ -37,14 +37,14 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-2083193.4170000032</minx>
+    <minx>-2083192.394100003</minx>
     <maxx>1923908.3271000013</maxx>
     <miny>-4991821.1622</miny>
     <maxy>-1116044.0643000007</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-2083193.4170000032</minx>
+    <minx>-2083192.394100003</minx>
     <maxx>1923908.3271000013</maxx>
     <miny>-4991821.1622</miny>
     <maxy>-1116044.0643000007</maxy>
