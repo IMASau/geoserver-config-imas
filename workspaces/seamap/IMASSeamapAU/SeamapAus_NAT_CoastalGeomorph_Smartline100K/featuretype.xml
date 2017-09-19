@@ -1,14 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--1f3a3d34:15b8a20db80:12dc</id>
+  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:52d9</id>
   <name>SeamapAus_NAT_CoastalGeomorph_Smartline100K</name>
   <nativeName>SeamapAus_NAT_CoastalGeomorph_Smartline100K</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: Smartline 100K (GA)</title>
+  <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: Smartline 100K (GA) [MAP ONLY]</title>
+  <abstract>Reduced view for mapping purposes.</abstract>
   <keywords>
-    <string>habitat mapping</string>
     <string>Seamap Australia</string>
+    <string>habitat mapping</string>
+    <string>Smartline</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -21,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 

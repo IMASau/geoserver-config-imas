@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_NAT_CoastalGeomorph_Smartline100K</name>
-  <id>LayerInfoImpl--6d173b33:15e76440c15:52da</id>
+  <name>SeamapAus_NAT_CoastalGeomorph_Smartline100K_DATA</name>
+  <id>LayerInfoImpl--6d173b33:15e76440c15:52d6</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--1f3a3d34:15b8a20db80:12d3</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:52d9</id>
+    <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:52d5</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
