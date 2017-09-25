@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_VIC_GippslandLake_biotopes</name>
-  <id>LayerInfoImpl--299276c9:15d7cbdfc8e:48be</id>
+  <name>SeamapAus_VIC_GippslandLakes_biotopes</name>
+  <id>LayerInfoImpl--59080c5d:15eb7395f98:6e1b</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-76008731:15d304b4202:-11a9</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--299276c9:15d7cbdfc8e:48bd</id>
+    <id>FeatureTypeInfoImpl--59080c5d:15eb7395f98:6e1a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

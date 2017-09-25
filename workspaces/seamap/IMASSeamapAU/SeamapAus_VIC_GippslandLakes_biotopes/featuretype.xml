@@ -1,14 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--299276c9:15d7cbdfc8e:48bd</id>
-  <name>SeamapAus_VIC_GippslandLake_biotopes</name>
-  <nativeName>SeamapAus_VIC_GippslandLake_biotopes</nativeName>
+  <id>FeatureTypeInfoImpl--59080c5d:15eb7395f98:6e1a</id>
+  <name>SeamapAus_VIC_GippslandLakes_biotopes</name>
+  <nativeName>SeamapAus_VIC_GippslandLakes_biotopes</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - VIC - Gippsland Lake biotopes</title>
   <keywords>
-    <string>features</string>
-    <string>SeamapAus_VIC_GippslandLake_biotopes</string>
+    <string>Seamap Australia</string>
+    <string>benthic habitat</string>
+    <string>CBICS</string>
+    <string>biotopes</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
