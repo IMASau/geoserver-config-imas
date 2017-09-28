@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--39fd01fb:15ceeb3c416:dd9</id>
+  <id>FeatureTypeInfoImpl--59080c5d:15ec3542511:-4b1c</id>
   <name>SeamapAus_QLD_GBRWHA_seagrass</name>
   <nativeName>SeamapAus_QLD_GBRWHA_seagrass</nativeName>
   <namespace>
@@ -7,8 +7,8 @@
   </namespace>
   <title>Seamap Australia - QLD - GBRWHA seagrass (JCU)</title>
   <keywords>
-    <string>habitat mapping</string>
     <string>Seamap Australia</string>
+    <string>benthic habitat</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>142.5214</minx>
-    <maxx>152.1345</maxx>
-    <miny>-24.4944</miny>
-    <maxy>-10.7528</maxy>
+    <minx>955676.9826000035</minx>
+    <maxx>1811235.0874999985</maxx>
+    <miny>-2917339.6347000003</miny>
+    <maxy>-1293582.0315000005</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>142.5214</minx>
-    <maxx>152.1345</maxx>
-    <miny>-24.4944</miny>
-    <maxy>-10.7528</maxy>
+    <minx>955676.9826000035</minx>
+    <maxx>1811235.0874999985</maxx>
+    <miny>-2917339.6347000003</miny>
+    <maxy>-1293582.0315000005</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
