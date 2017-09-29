@@ -10,7 +10,7 @@
     <filter>
         <name>SM_HAB_CLS</name>
         <type>string</type>
-        <label>SM HAB CLS</label>
+        <label>Seagrass Biomass</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
