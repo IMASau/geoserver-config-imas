@@ -1,16 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:536e</id>
-  <name>SeamapAus_NAT_CoastalGeomorph_Smartline100K</name>
-  <nativeName>SeamapAus_NAT_CoastalGeomorph_Smartline100K</nativeName>
+  <id>FeatureTypeInfoImpl--59080c5d:15ec8e18d02:69ee</id>
+  <name>SeamapAus_NAT_Aus_margin_geomorph_2006_DATA</name>
+  <nativeName>SeamapAus_NAT_Aus_margin_geomorph_2006_DATA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: Smartline 100K (GA) [MAP VIEW]</title>
-  <abstract>Reduced view for mapping purposes.</abstract>
+  <title>Seamap Australia - NATIONAL - geomorphic features of Australia&apos;s margin (GA)</title>
   <keywords>
+    <string>geomorphology</string>
+    <string>benthic habitat</string>
+    <string>Geoscience Australia (GA)</string>
     <string>Seamap Australia</string>
-    <string>habitat mapping</string>
-    <string>Smartline</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -37,17 +37,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-2083192.394100003</minx>
-    <maxx>1923908.3271000013</maxx>
-    <miny>-4991821.1622</miny>
-    <maxy>-1116044.0643000007</maxy>
+    <minx>-4461366.168399997</minx>
+    <maxx>3599230.099100001</maxx>
+    <miny>-7222822.5</miny>
+    <maxy>-1047062.2272999994</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-2083192.394100003</minx>
-    <maxx>1923908.3271000013</maxx>
-    <miny>-4991821.1622</miny>
-    <maxy>-1116044.0643000007</maxy>
+    <minx>-4461366.168399997</minx>
+    <maxx>3599230.099100001</maxx>
+    <miny>-7222822.5</miny>
+    <maxy>-1047062.2272999994</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

@@ -1,14 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--39fd01fb:15c2ee9264b:-76d9</id>
+  <id>FeatureTypeInfoImpl--59080c5d:15ec8e18d02:69e9</id>
   <name>SeamapAus_NAT_Aus_margin_geomorph_2006</name>
   <nativeName>SeamapAus_NAT_Aus_margin_geomorph_2006</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NATIONAL - geomorphic features of Australia&apos;s margin (GA)</title>
+  <title>Seamap Australia - NATIONAL - geomorphic features of Australia&apos;s margin (GA) [MAP VIEW]</title>
+  <abstract>Reduced view for mapping purposes.</abstract>
   <keywords>
     <string>habitat mapping</string>
     <string>geomorphology</string>
+    <string>Geoscience Australia (GA)</string>
     <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -22,7 +24,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
