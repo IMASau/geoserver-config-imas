@@ -8,59 +8,19 @@
 	<NamedLayer>
 		<Name>Generic Polyfill</Name>
 		<UserStyle>
-			<Title>Marine Ecosystems of the World - Realms</Title>
+			<Title>Integrated Marine and Coastal Regionalisation of Australia (IMCRA) - Provinces</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Title>Arctic</Title>
+					<Title>Southwest Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Arctic</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Southwest Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#d6e1b3</CssParameter>
-							<CssParameter name="fill-opacity">0.5</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>	
-				<Rule>
-					<Title>Temperate Northern Atlantic</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Temperate Northern Atlantic</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#867faa</CssParameter>
-							<CssParameter name="fill-opacity">0.5</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Title>Temperate Northern Pacific</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Temperate Northern Pacific</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#89ae6b</CssParameter>
+							<CssParameter name="fill">#7db310</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -71,16 +31,36 @@
 					</PolygonSymbolizer>
 				</Rule>				
 				<Rule>
-					<Title>Tropical Atlantic</Title>
+					<Title>Southwest Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Tropical Atlantic</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Southwest Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#446640</CssParameter>
+							<CssParameter name="fill">#eec974</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>	
+				<Rule>
+					<Title>Central Western Province</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Central Western Province</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#ed5e22</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -91,16 +71,36 @@
 					</PolygonSymbolizer>
 				</Rule>			
 				<Rule>
-					<Title>Western Indo-Pacific</Title>
+					<Title>Central Western Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Western Indo-Pacific</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Central Western Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#454364</CssParameter>
+							<CssParameter name="fill">#faf9af</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>			
+				<Rule>
+					<Title>Northwest Province</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Northwest Province</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#e62d28</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -111,16 +111,16 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Central Indo-Pacific</Title>
+					<Title>Northwest Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Central Indo-Pacific</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Northwest Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#6d505a</CssParameter>
+							<CssParameter name="fill">#ebd1c0</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -131,16 +131,16 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Eastern Indo-Pacific</Title>
+					<Title>Northern Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Eastern Indo-Pacific</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Northern Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#3f5d60</CssParameter>
+							<CssParameter name="fill">#a3777a</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -151,16 +151,16 @@
 					</PolygonSymbolizer>
 				</Rule>				
 				<Rule>
-					<Title>Tropical Eastern Pacific</Title>
+					<Title>Northeast Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Tropical Eastern Pacific</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Northeast Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#68683d</CssParameter>
+							<CssParameter name="fill">#fff7ac</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -171,16 +171,16 @@
 					</PolygonSymbolizer>
 				</Rule>					
 				<Rule>
-					<Title>Temperate South America</Title>
+					<Title>Northeast Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Temperate South America</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Northeast Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#7dab9c</CssParameter>
+							<CssParameter name="fill">#f14168</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -191,16 +191,16 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Temperate Southern Africa</Title>
+					<Title>Central Eastern Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Temperate Southern Africa</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Central Eastern Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#a98f83</CssParameter>
+							<CssParameter name="fill">#ebd35c</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -211,16 +211,36 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Temperate Australasia</Title>
+					<Title>Central Eastern Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Temperate Australasia</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Central Eastern Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#88ae45</CssParameter>
+							<CssParameter name="fill">#a3a888</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>				
+				<Rule>
+					<Title>Southeast Transition</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Southeast Transition</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#e4d987</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -231,16 +251,16 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>Southern Ocean</Title>
+					<Title>Tasmanian Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REALM</PropertyName>
-					      <Literal>Southern Ocean</Literal>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Tasmania Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#c1e6c9</CssParameter>
+							<CssParameter name="fill">#2135be</CssParameter>
 							<CssParameter name="fill-opacity">0.5</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -249,7 +269,87 @@
 							<CssParameter name="stroke-width">0.3</CssParameter>
 						</Stroke>
 					</PolygonSymbolizer>
-				</Rule>				
+				</Rule>	
+				<Rule>
+					<Title>Bass Strait Province</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Bass Strait Province</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#6262c1</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>	
+				<Rule>
+					<Title>Western Bass Strait Transition</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Western Bass Strait Transition</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#fff3d0</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>	
+				<Rule>
+					<Title>Spencer Gulf Province</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Spencer Gulf Province</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#92ab58</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>	
+				<Rule>
+					<Title>Great Australian Bight Transition</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>PROVINCE</PropertyName>
+					      <Literal>Great Australian Bight Transition</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#feecd8</CssParameter>
+							<CssParameter name="fill-opacity">0.5</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>					
 		    </FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>
