@@ -1,12 +1,12 @@
 <layer>
   <name>SeamapAus_BOUNDARIES_IMCRA</name>
-  <id>LayerInfoImpl--59080c5d:15ecd78b91b:-59e2</id>
+  <id>LayerInfoImpl--59080c5d:15eda4c5ff3:-b17</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--59080c5d:15ecd78b91b:-51e7</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--59080c5d:15ecd78b91b:-59e3</id>
+    <id>FeatureTypeInfoImpl--59080c5d:15eda4c5ff3:-b18</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
