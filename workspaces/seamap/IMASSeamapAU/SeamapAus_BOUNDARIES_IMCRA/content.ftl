@@ -2,7 +2,7 @@
 	<#if (feature_index < 1) >
   <div class="feature"> 
   <b>IMCRA Province:</b> ${feature.PROVINCE.value}<br> 
-  <b>IMCRA Meso-scale Bioregion:</b> ${feature.BIOREGION.value}   
+  <b>IMCRA Meso-scale Bioregion:</b> ${feature.BIOREGION.value}<br>   
   </div>
   </#if>
 </#list>
