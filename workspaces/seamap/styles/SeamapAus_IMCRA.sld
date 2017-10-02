@@ -100,7 +100,7 @@
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#ed5e22</CssParameter>
+							<CssParameter name="fill">#d97f02</CssParameter>
 							<CssParameter name="fill-opacity">0.6</CssParameter>                          
 						</Fill>
 						<Stroke>
