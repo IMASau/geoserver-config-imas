@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--91876d2:159cd8b2f16:59ab</id>
-  <name>SeamapAus_WA_ecosystem_NWShelf</name>
-  <nativeName>SeamapAus_WA_ecosystem_NWShelf</nativeName>
+  <id>FeatureTypeInfoImpl--59080c5d:15ee166c11e:-72c0</id>
+  <name>SeamapAus_WA_NWShelf_ecosystems</name>
+  <nativeName>SeamapAus_WA_NWShelf_ecosystems</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - ecosystem characterisation of the NW shelf (GA)</title>
+  <title>Seamap Australia - WA - ecosystem characterisation of the NW shelf (GA) [MAP VIEW]</title>
+  <abstract>Reduced view for mapping purposes.</abstract>
   <keywords>
     <string>Seamap Australia</string>
     <string>habitat mapping</string>
@@ -21,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -36,14 +37,14 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-2074028.6869647913</minx>
-    <maxx>-1430481.7942384884</maxx>
+    <maxx>-1455275.3935527117</maxx>
     <miny>-2796011.855612889</miny>
     <maxy>-2235124.3825230263</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-2074028.6869647913</minx>
-    <maxx>-1430481.7942384884</maxx>
+    <maxx>-1455275.3935527117</maxx>
     <miny>-2796011.855612889</miny>
     <maxy>-2235124.3825230263</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 

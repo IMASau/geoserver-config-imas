@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--91876d2:159cd8b2f16:5a9c</id>
-  <name>SeamapAus_WA_ecosystem_NWShelf</name>
+  <name>SeamapAus_WA_NWShelf_ecosystems</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_WA_ecosystem_NWShelf.sld</filename>
+  <filename>SeamapAus_WA_NWShelf_ecosystems.sld</filename>
 </style>
