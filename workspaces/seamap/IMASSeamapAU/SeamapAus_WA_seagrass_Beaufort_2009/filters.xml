@@ -10,7 +10,7 @@
     <filter>
         <name>SM_HAB_CLS</name>
         <type>string</type>
-        <label>Substrate Type</label>
+        <label>Seagrass Cover</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
