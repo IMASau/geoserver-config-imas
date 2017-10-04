@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>1000000</MinScaleDenominator>				
+		  <MinScaleDenominator>1250000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>
 			<ogc:PropertyName>sitegeom</ogc:PropertyName>
@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>0.</ogc:Literal>
             </ogc:PropertyIsLike>		
           </ogc:Filter>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d6c29d</CssParameter>
@@ -52,7 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>1-10.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e9efbc</CssParameter>
@@ -68,7 +68,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>11-30.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9ecc3b</CssParameter>
@@ -84,7 +84,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>31-50.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter> 
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#38a748</CssParameter>
@@ -100,7 +100,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>51-75.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2a753a</CssParameter>
@@ -116,7 +116,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>76-100.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter> 
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#374705</CssParameter>
