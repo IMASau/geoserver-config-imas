@@ -10,7 +10,7 @@
   <connectionParameters>
     <entry key="schema">dbo</entry>
     <entry key="dbtype">sqlserver</entry>
-    <entry key="Expose primary keys">true</entry>
+    <entry key="Expose primary keys">false</entry>
     <entry key="Use native geometry serialization">true</entry>
     <entry key="Use Native Paging">true</entry>
     <entry key="Integrated Security">false</entry>

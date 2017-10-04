@@ -75,10 +75,16 @@ xmlns:gml="http://www.opengis.net/gml">
         <sld:Rule>
           <sld:Title>&#62;75&#37;</sld:Title>
           <ogc:Filter>
+            <ogc:Or>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>.75.</ogc:Literal>
             </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Dense Patches</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
+            </ogc:Or>  
           </ogc:Filter>            
           <sld:PolygonSymbolizer>
             <sld:Fill>
