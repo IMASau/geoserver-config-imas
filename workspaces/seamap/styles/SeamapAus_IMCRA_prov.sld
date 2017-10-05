@@ -14,7 +14,7 @@
 					<Title>Southwest Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Southwest Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -34,7 +34,7 @@
 					<Title>Southwest Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Southwest Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -54,7 +54,7 @@
 					<Title>Southwest Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Southwest Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -74,7 +74,7 @@
 					<Title>Central Western Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Western Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -94,7 +94,7 @@
 					<Title>Central Western Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Western Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -114,7 +114,7 @@
 					<Title>Central Western Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Western Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -134,7 +134,7 @@
 					<Title>Central Western Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Western Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -154,7 +154,7 @@
 					<Title>Northwest Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northwest Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -174,7 +174,7 @@
 					<Title>Northwest Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northwest Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -194,7 +194,7 @@
 					<Title>Northwest Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northwest Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -214,7 +214,7 @@
 					<Title>Timor Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Timor Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -234,7 +234,7 @@
 					<Title>Northwest Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northwest Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -254,7 +254,7 @@
 					<Title>Timor Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Timor Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -274,7 +274,7 @@
 					<Title>Northern Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northern Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -294,7 +294,7 @@
 					<Title>Northeast Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northeast Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -314,7 +314,7 @@
 					<Title>Cape Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Cape Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -334,7 +334,7 @@
 					<Title>Northeast Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northeast Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -354,7 +354,7 @@
 					<Title>Northeast Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northeast Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -374,7 +374,7 @@
 					<Title>Northeast Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Northeast Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -394,7 +394,7 @@
 					<Title>Kenn Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Kenn Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -414,7 +414,7 @@
 					<Title>Kenn Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Kenn Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -434,7 +434,7 @@
 					<Title>Central Eastern Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Eastern Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -454,7 +454,7 @@
 					<Title>Central Eastern Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Eastern Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -474,7 +474,7 @@
 					<Title>Central Eastern Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Eastern Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -494,7 +494,7 @@
 					<Title>Central Eastern Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Central Eastern Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -514,7 +514,7 @@
 					<Title>Southeast Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Southeast Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -534,7 +534,7 @@
 					<Title>Southeast Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Southeast Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -554,7 +554,7 @@
 					<Title>Bass Strait Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Bass Strait Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -574,7 +574,7 @@
 					<Title>Tasmania Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Tasmania Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -594,7 +594,7 @@
 					<Title>Tasmanian Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Tasmanian Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -614,7 +614,7 @@
 					<Title>Western Bass Strait Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Western Bass Strait Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -634,7 +634,7 @@
 					<Title>West Tasmania Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>West Tasmania Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -654,7 +654,7 @@
 					<Title>Spencer Gulf Shelf Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Spencer Gulf Shelf Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -674,7 +674,7 @@
 					<Title>Southern Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Southern Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -694,7 +694,7 @@
 					<Title>Great Australian Bight Shelf Transition</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Great Australian Bight Shelf Transition</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -714,7 +714,7 @@
 					<Title>Tasman Basin Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Tasman Basin Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -734,7 +734,7 @@
 					<Title>Lord Howe Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Lord Howe Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -754,7 +754,7 @@
 					<Title>Norfolk Island Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Norfolk Island Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -774,7 +774,7 @@
 					<Title>Christmas Island Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Christmas Island Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -794,7 +794,7 @@
 					<Title>Cocos (Keeling) Island Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Cocos (Keeling) Island Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -814,7 +814,7 @@
 					<Title>Macquarie Island Province</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>PB_NAME</PropertyName>
+					      <PropertyName>REGION</PropertyName>
 					      <Literal>Macquarie Island Province</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       

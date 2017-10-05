@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_BOUNDARIES_IMCRA</name>
-  <id>LayerInfoImpl--59080c5d:15eda4c5ff3:-b17</id>
+  <name>SeamapAus_BOUNDARIES_IMCRA_PROVBIO</name>
+  <id>LayerInfoImpl--59080c5d:15ee6c9c16d:-72a5</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--59080c5d:15ecd78b91b:-51e7</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--59080c5d:15eda4c5ff3:-b18</id>
+    <id>FeatureTypeInfoImpl--59080c5d:15ee6c9c16d:-72a6</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--59080c5d:15ecd78b91b:-51e7</id>
-  <name>SeamapAus_IMCRA</name>
+  <name>SeamapAus_IMCRA_prov</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_IMCRA.sld</filename>
+  <filename>SeamapAus_IMCRA_prov.sld</filename>
 </style>
