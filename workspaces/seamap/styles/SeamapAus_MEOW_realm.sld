@@ -8,7 +8,7 @@
 	<NamedLayer>
 		<Name>Generic Polyfill</Name>
 		<UserStyle>
-			<Title>Polygon Fill</Title>
+			<Title>Marine Ecosystems of the World - Realms</Title>
 			<FeatureTypeStyle>
 				<Rule>
 					<Title>Commonwealth Marine Reserve (CMR)</Title>
@@ -20,10 +20,32 @@
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
 							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
+							<CssParameter name="stroke-width">0.6</CssParameter>
 						</Stroke>
 					</PolygonSymbolizer>
 				</Rule>
+						    </FeatureTypeStyle>
+									    <FeatureTypeStyle>
+				<Rule>
+					<Title>Southern NZ</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Southern New Zealand</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#c1e6c9</CssParameter>
+							<CssParameter name="fill-opacity">0.35</CssParameter>                          
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>				
 		    </FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>
