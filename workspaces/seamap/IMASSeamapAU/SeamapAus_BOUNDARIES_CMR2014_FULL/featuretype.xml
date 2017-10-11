@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--59080c5d:15ee6c9c16d:-72a9</id>
-  <name>SeamapAus_BOUNDARIES_CMR2014</name>
-  <nativeName>SeamapAus_BOUNDARIES_CMR2014</nativeName>
+  <id>FeatureTypeInfoImpl-4e65983:15f0682f837:6552</id>
+  <name>SeamapAus_BOUNDARIES_CMR2014_FULL</name>
+  <nativeName>SeamapAus_BOUNDARIES_CMR2014_FULL</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian CMR Boundaries 2014 - MAP VIEW</title>
-  <abstract>DoEE Commonwealth Marine Reserves [2014] - reduced view for mapping. Rehosted for use on the Seamap Australia website.</abstract>
+  <title>Australian CMR Boundaries 2014 - FULL</title>
+  <abstract>DoEE Commonwealth Marine Reserves [2014]. Rehosted for use on the Seamap Australia website.</abstract>
   <keywords>
-    <string>SeamapAus_BOUNDARIES_CMR2014</string>
     <string>features</string>
+    <string>SeamapAus_BOUNDARIES_CMR2014_FULL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -37,14 +37,14 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-4599472.505190786</minx>
-    <maxx>3447053.375</maxx>
+    <maxx>3447053.3802876687</maxx>
     <miny>-7183626.7317454</miny>
     <maxy>-1047063.2096431699</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-4599472.505190786</minx>
-    <maxx>3447053.375</maxx>
+    <maxx>3447053.3802876687</maxx>
     <miny>-7183626.7317454</miny>
     <maxy>-1047063.2096431699</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 

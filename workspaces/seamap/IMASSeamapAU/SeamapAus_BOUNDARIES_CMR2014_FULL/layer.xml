@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_CMR2014_FULL</name>
+  <id>LayerInfoImpl-4e65983:15f0682f837:6553</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--59080c5d:15eb8541c08:668</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4e65983:15f0682f837:6552</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
