@@ -41,7 +41,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
