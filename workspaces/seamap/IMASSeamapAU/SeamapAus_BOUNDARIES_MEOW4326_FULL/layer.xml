@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_BOUNDARIES_MEOW_FULL</name>
-  <id>LayerInfoImpl-4e65983:15f0682f837:6eb2</id>
+  <name>SeamapAus_BOUNDARIES_MEOW4326_FULL</name>
+  <id>LayerInfoImpl-4e65983:15f0682f837:7620</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-4e65983:15eeaae8f14:-3cb</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-4e65983:15f0682f837:6eb1</id>
+    <id>FeatureTypeInfoImpl-4e65983:15f0682f837:761f</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
