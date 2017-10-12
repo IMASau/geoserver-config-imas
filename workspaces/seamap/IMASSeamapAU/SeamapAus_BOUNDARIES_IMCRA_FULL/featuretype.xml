@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-4e65983:15eeaae8f14:-332</id>
+  <id>FeatureTypeInfoImpl-4e65983:15f0682f837:6eab</id>
   <name>SeamapAus_BOUNDARIES_IMCRA_FULL</name>
   <nativeName>SeamapAus_BOUNDARIES_IMCRA_FULL</nativeName>
   <namespace>
@@ -8,31 +8,45 @@
   <title>Integrated Marine and Coastal Regionalisation (IMCRA)</title>
   <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Rehosted for the purposes of Seamap Australia.</abstract>
   <keywords>
-    <string>management boundaries</string>
-    <string>Integrated Marine and Coastal Regionalisation</string>
+    <string>SeamapAus_BOUNDARIES_IMCRA_FULL</string>
+    <string>features</string>
   </keywords>
-  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
-  DATUM[&quot;World Geodetic System 1984&quot;, 
-    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>93.41231500003727</minx>
-    <maxx>171.801107000088</maxx>
-    <miny>-58.44947000073989</miny>
-    <maxy>-8.473405000240518</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-4461159.192405208</minx>
+    <maxx>3599230.0</maxx>
+    <miny>-6889567.263302322</miny>
+    <maxy>-1047063.286764517</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>93.41231500003727</minx>
-    <maxx>171.801107000088</maxx>
-    <miny>-58.44947000073989</miny>
-    <maxy>-8.473405000240518</maxy>
+    <minx>-4461159.192405208</minx>
+    <maxx>3599230.0</maxx>
+    <miny>-6889567.263302322</miny>
+    <maxy>-1047063.286764517</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -41,7 +55,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
