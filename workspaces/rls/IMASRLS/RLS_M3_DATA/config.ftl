@@ -1,1 +1,1 @@
-<#assign baseRLSpqs = "https://reeflifesurvey.imas.utas.edu.au/imgviewer.html?survey_id=" >
+<#assign baseRLSpqs = "http://reeflifesurvey.imas.utas.edu.au/static/imgviewer.html?survey_id=" >
