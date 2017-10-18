@@ -16,7 +16,7 @@
     </filter>
     <filter>
         <name>Logger_ID</name>
-        <type>double</type>
+        <type>string</type>
         <label>Logger ID</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
