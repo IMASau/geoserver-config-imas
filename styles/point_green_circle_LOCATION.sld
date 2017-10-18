@@ -14,18 +14,23 @@
         <Rule>
           <Name>Rule 1</Name>
           <Title>Sampling locations</Title>
-          <Abstract>A green fill with a 7 pixel size</Abstract>
+          <Abstract>A green fill with a 9 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#28A526</CssParameter>
+                  <CssParameter name="fill">#28A526</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+               </Stroke>                
               </Mark>
-              <Size>7</Size>
+              <Size>9</Size>
             </Graphic>
-          </PointSymbolizer>
+          </PointSymbolizer>      
         </Rule>
         </FeatureTypeStyle>
     </UserStyle>
