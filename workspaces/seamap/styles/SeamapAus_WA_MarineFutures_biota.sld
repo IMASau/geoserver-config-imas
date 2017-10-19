@@ -54,7 +54,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sessile invertebrates*SI*</ogc:Literal>
+              <ogc:Literal>Sessile invertebrates .SI.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
 		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
@@ -145,10 +145,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>        
           <Title>Mixed kelp and SI</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed kelp and SI</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Mixed kelp and sessile invertebrates .SI.</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
 		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
@@ -164,10 +164,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>        
           <Title>Mixed other algae and SI</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed other algae and SI</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Mixed other algae and sessile invertebrates .SI.</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
 		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
@@ -183,10 +183,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Mixed vegetation and SI</Title>
           <ogc:Filter>          
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed vegetation and SI</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Mixed vegetation and sessile invertebrates .SI.</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
 		  <MaxScaleDenominator>10000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
