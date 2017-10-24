@@ -8,7 +8,7 @@
   
 		<b>Site:</b> ${feature.Site.value}<BR>
 		<b>Date:</b> ${feature.Date.value[0..11]}<BR>
-		<b>Depth:</b> ${feature.Depth.value[0..3]}m (sensor &#35;${feature.Sensor_ID.value})<BR>		
+		<b>Depth:</b> ${feature.Depth.value[0..2]}m (sensor &#35;${feature.Sensor_ID.value})<BR>		
 		<b>Dissolved oxygen:</b> ${feature.DO.value[0..3]}&#37; saturation<BR>
 		<b>Temperature:</b> ${feature.Temp.value[0..3]} &#176;C<BR><BR>		
   
