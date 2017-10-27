@@ -1,0 +1,15 @@
+<layer>
+  <name>EDI</name>
+  <id>LayerInfoImpl--4677ad3c:15f5aaf01f0:3e14</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4677ad3c:15f5aaf01f0:3e1d</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--4677ad3c:15f5aaf01f0:3e13</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
