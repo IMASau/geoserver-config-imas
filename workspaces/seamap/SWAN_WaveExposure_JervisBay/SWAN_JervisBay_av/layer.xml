@@ -1,0 +1,15 @@
+<layer>
+  <name>SWAN_JervisBay_av</name>
+  <id>LayerInfoImpl--4677ad3c:15f66823c9f:-5e9c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4677ad3c:15f66823c9f:-5e97</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--4677ad3c:15f66823c9f:-5e9d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
