@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-4e65983:15f0682f837:6eab</id>
+  <id>FeatureTypeInfoImpl--4677ad3c:15f89a5f2ca:3dea</id>
   <name>SeamapAus_BOUNDARIES_IMCRA_FULL</name>
   <nativeName>SeamapAus_BOUNDARIES_IMCRA_FULL</nativeName>
   <namespace>
@@ -37,14 +37,14 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-4461159.192405208</minx>
-    <maxx>3599230.0</maxx>
+    <maxx>3599229.9141170373</maxx>
     <miny>-6889567.263302322</miny>
     <maxy>-1047063.286764517</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-4461159.192405208</minx>
-    <maxx>3599230.0</maxx>
+    <maxx>3599229.9141170373</maxx>
     <miny>-6889567.263302322</miny>
     <maxy>-1047063.286764517</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
@@ -57,9 +57,6 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
