@@ -1,5 +1,5 @@
 <#list features as feature>
-${feature.type.title[18...]}
+${feature.type.title?substring(18)}
 	<#if (feature_index < 1) >
   <div class="feature"> 
   <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value} 
