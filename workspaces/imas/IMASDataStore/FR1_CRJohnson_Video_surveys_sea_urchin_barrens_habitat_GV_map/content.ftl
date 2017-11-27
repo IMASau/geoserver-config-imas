@@ -5,9 +5,8 @@
 	<#if (feature_index < 1) >
 	
   <div class="feature"> 
-  <b>Site Name: </b> ${feature.site_name.value}<BR>
-  <b>Subsite Name: </b> ${feature.subsite_name.value}<BR>
-  <b>Date: </b> ${feature.date.value}<BR>
+  <b>Site (Subsite): </b> ${feature.site_name.value} (${feature.subsite_name.value})<BR>
+  <b>Date: </b> ${feature.date.value[0..11]}<BR>
   <b>Ecklonia: </b> ${feature.Ecklonia.value}<BR>
   <b>Phyllospora: </b> ${feature.Phyllospora.value}<BR>
   <b>Macrocyctis: </b> ${feature.Macrocyctis.value}<BR>
