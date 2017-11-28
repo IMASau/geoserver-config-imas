@@ -26,7 +26,7 @@
 <TD Align="Center">${feature.subsite_name.value}</td>
 <TD Align="Center">${feature.date.value[0..11]}</td>
 <TD Align="Center">${feature.depth.value}</td>
-<TD Align="Center"> <#if feature.barren.value == '0'> no <#else> yes</#if></td>
+<TD Align="Center"> <#if feature.barren.value == '0'>no barren<#elseif feature.barren.value == '1'>extensive barren zone<#elseif feature.barren.value == '2'>barren patches - abundant<#elseif feature.barren.value == '3'>barren pathes - moderate<#elseif feature.barren.value == '4'>barren patches - rare</#if></td>
 <TD Align="Center">${feature.Ecklonia.value}</td>                              
 <TD Align="Center">${feature.Phyllospora.value}</td>
 <TD Align="Center">${feature.Sargassum.value}</td>
@@ -37,6 +37,9 @@
 <TD Align="Center">${feature.Cystophora.value}</td>
 <TD Align="Center">${feature.Perithalia.value}</td>
 <TD Align="Center">${feature.Carpoglossum.value}</td>
+<#else>
+<h6>More data is available at this location.</h6>
+<#break>
 </#if>
 </#list>
 </TR>
