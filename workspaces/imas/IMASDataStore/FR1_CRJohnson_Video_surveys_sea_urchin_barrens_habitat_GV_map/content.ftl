@@ -1,3 +1,5 @@
+<#if type.name = "FR1_CRJohnson_Video_surveys_sea_urchin_barrens_habitat_GV_map"><br/>
+<br><br/>
 <h3>Video survey scoring data</h3>
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="video_scoring_heading">
@@ -17,9 +19,9 @@
 <th>Perithalia spp.</th>
 <th>Carpoglossum</th>
 </TR>
-<TR class="scoring">
 <#list features as feature>
 <#if (feature_index < 10)> 
+<TR class="scoring">
 <TD Align="Center">${feature.site_name.value}</td>                              
 <TD Align="Center">${feature.subsite_name.value}</td>
 <TD Align="Center">${feature.date.value[0..11]}</td>
@@ -39,4 +41,5 @@
 </TABLE>
 </#if>
 </#list>
+</#if>
 
