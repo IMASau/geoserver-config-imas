@@ -37,9 +37,6 @@
 <TD Align="Center">${feature.Carpoglossum.value}</td>
 </TR>
 </TABLE>
-<#else>
-<h6>More data is available at this location.</h6>
-<#break>
 </#if>
 </#list>
 
