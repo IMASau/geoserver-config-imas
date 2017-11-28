@@ -40,8 +40,11 @@
 <TD Align="Center">${feature.Cystophora.value}</td>
 <TD Align="Center">${feature.Perithalia.value}</td>
 <TD Align="Center">${feature.Carpoglossum.value}</td>
-</#if>
 </#list>
 </TR>
 </TABLE>
+<#else>
+<h6>More data is available at this location.</h6>
+<#break>
+</#if>
 </#if>
