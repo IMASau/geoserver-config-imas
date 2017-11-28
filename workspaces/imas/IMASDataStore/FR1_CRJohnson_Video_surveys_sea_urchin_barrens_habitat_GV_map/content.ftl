@@ -1,22 +1,45 @@
-<h3>This is a sample of data collected at this point</h3><BR>
-
+<h3>Video survey scoring data</h3>
+<TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
+<TR class="video_scoring_heading">
+<th>Site</th>
+<th>Subsite</th>
+<th>Date</th>
+<th>Depth</th>
+<th>Dominant substratum</th>
+<th>Sub-dominant substratum</th>
+<th>Urchin barren</th>
+<th>Ecklonia</th>
+<th>Phyllospora</th>
+<th>Sargassum spp.</th>
+<th>Macrocystis</th>
+<th>Lessonia</th>
+<th>Durvillea</th>
+<th>Caulerpa spp.</th>
+<th>Cystophora spp.</th>
+<th>Perithalia spp.</th>
+<th>Carpoglossum</th>
+</TR>
 <#list features as feature>
-
-	<#if (feature_index < 1) >
-	
-  <div class="feature"> 
-  <b>Site (Subsite): </b> ${feature.site_name.value} (${feature.subsite_name.value})<BR>
-  <b>Date: </b> ${feature.date.value[0..11]}<BR>
-  <b>Ecklonia: </b> ${feature.Ecklonia.value}<BR>
-  <b>Phyllospora: </b> ${feature.Phyllospora.value}<BR>
-  <b>Macrocyctis: </b> ${feature.Macrocyctis.value}<BR>
-  <b>Lessonia: </b> ${feature.Lessonia.value}<BR>
-  <b>Durvillea: </b> ${feature.Durvillea.value}<BR>
-  <b>Carpoglossum: </b> ${feature.Carpoglossum.value}<BR><BR>
-
- </div>
-	<#else>
-	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
-		<#break>
-  </#if>
+<#if (feature_index < 10)> 
+<TR class="scoring">
+<TD Align="Center">${feature.site_name.value}</td>                              
+<TD Align="Center">${feature.subsite_name.value}</td>
+<TD Align="Center">${feature.date.value}</td>
+<TD Align="Center">${feature.depth.value}</td>
+<TD Align="Center">${feature.DomSub.value}</td>
+<TD Align="Center">${feature.SubDomSub.value}</td>
+<TD Align="Center">${feature.barren.value}</td>
+<TD Align="Center">${feature.Ecklonia.value}</td>                              
+<TD Align="Center">${feature.Phyllospora.value}</td>
+<TD Align="Center">${feature.Sargassum.value}</td>
+<TD Align="Center">${feature.Macrocystis.value}</td>
+<TD Align="Center">${feature.Durvillea.value}</td>
+<TD Align="Center">${feature.Caulerpa.value}</td>
+<TD Align="Center">${feature.Cystophora.value}</td>
+<TD Align="Center">${feature.Perithalia.value}</td>
+<TD Align="Center">${feature.Carpoglossum.value}</td>
+</#if>
 </#list>
+</TR>
+</TABLE>
+</#if>

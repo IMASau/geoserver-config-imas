@@ -1,4 +1,4 @@
-<h3>Jervis Bay seabed exposure grid</h3><BR>
+<h6>Jervis Bay seabed exposure grid</h6><BR>
 
 <#list features as feature>
 	<#if (feature_index < 1) >

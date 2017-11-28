@@ -1,4 +1,4 @@
-<h3>Carnarvon Shelf seabed exposure grid</h3><BR>
+<h6>Carnarvon Shelf seabed exposure grid</h6><BR>
 
 <#list features as feature>
 	<#if (feature_index < 1) >

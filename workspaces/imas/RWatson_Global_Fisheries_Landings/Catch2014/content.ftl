@@ -1,4 +1,4 @@
-<h3>Total Catch</h3><BR>
+<h6>Total Catch</h6><BR>
 
 <#list features as feature>
 	<#if (feature_index < 1) >
