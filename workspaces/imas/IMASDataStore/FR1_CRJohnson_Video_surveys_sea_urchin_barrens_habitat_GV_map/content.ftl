@@ -20,7 +20,7 @@
 <th>Carpoglossum</th>
 </TR>
 <#list features as feature>
-<#if (feature_index < 10)> 
+<#if (feature_index < 1)> 
 <TR class="scoring">
 <TD Align="Center">${feature.site_name.value}</td>                              
 <TD Align="Center">${feature.subsite_name.value}</td>
@@ -38,7 +38,8 @@
 <TD Align="Center">${feature.Cystophora.value}</td>
 <TD Align="Center">${feature.Perithalia.value}</td>
 <TD Align="Center">${feature.Carpoglossum.value}</td>
-</#list>
 </TR>
 </TABLE>
 </#if>
+</#list>
+
