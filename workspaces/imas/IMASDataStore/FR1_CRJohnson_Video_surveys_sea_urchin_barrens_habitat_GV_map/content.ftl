@@ -38,7 +38,7 @@
 <TD Align="Center">${feature.Cystophora.value}</td>
 <TD Align="Center">${feature.Perithalia.value}</td>
 <TD Align="Center">${feature.Carpoglossum.value}</td>
-</#if>
 </#list>
 </TR>
 </TABLE>
+</#if>
