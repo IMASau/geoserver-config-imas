@@ -1,3 +1,5 @@
+<#if type.name = "FR1_CRJohnson_video_surveys_sea_urchin_barrens_habitat_GV_map"><br/>
+<br><br/>
 <h3>Video survey scoring data</h3>
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="video_scoring_heading">
