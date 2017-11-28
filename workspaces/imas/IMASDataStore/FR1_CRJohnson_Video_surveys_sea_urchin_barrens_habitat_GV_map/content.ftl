@@ -17,9 +17,9 @@
 <th>Perithalia spp.</th>
 <th>Carpoglossum</th>
 </TR>
+<TR class="scoring">
 <#list features as feature>
 <#if (feature_index < 10)> 
-<TR class="scoring">
 <TD Align="Center">${feature.site_name.value}</td>                              
 <TD Align="Center">${feature.subsite_name.value}</td>
 <TD Align="Center">${feature.date.value[0..11]}</td>
@@ -36,7 +36,7 @@
 <TD Align="Center">${feature.Perithalia.value}</td>
 <TD Align="Center">${feature.Carpoglossum.value}</td>
 </TR>
+</TABLE>
 </#if>
 </#list>
-</TABLE>
 
