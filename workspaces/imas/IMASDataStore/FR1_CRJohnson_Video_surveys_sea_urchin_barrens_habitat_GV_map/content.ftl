@@ -1,6 +1,5 @@
-<#if type.name = "FR1_CRJohnson_Video_surveys_sea_urchin_barrens_habitat_GV_map"><br/>
-<br><br/>
-<h3>Video survey scoring data</h3>
+<#if type.name = "FR1_CRJohnson_Video_surveys_sea_urchin_barrens_habitat_GV_map">
+<h3>Urchin barren video surveys - scoring data</h3><br>
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="video_scoring_heading">
 <th>Site</th>
@@ -38,7 +37,7 @@
 <TD Align="Center">${feature.Perithalia.value}</td>
 <TD Align="Center">${feature.Carpoglossum.value}</td>
 <#else>
-<h6>More data is available at this location.</h6>
+<h6>This is a sample of the video scoring data. More data is available at this location.</h6>
 <#break>
 </#if>
 </#list>
