@@ -15,12 +15,12 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#008000</CssParameter>
-							<CssParameter name="fill-opacity">0.2</CssParameter>                          
+							<CssParameter name="fill-opacity">0.18</CssParameter>                          
 						</Fill>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
+							<CssParameter name="stroke-opacity">0.6</CssParameter>
+							<CssParameter name="stroke-width">0.25</CssParameter>
 						</Stroke>
 					</PolygonSymbolizer>
 				</Rule>
