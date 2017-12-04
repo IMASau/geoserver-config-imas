@@ -14,7 +14,7 @@
 					<Title>Australian Primary Coastal Compartments</Title>
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#990099</CssParameter>
+							<CssParameter name="fill">#e600e6</CssParameter>
 							<CssParameter name="fill-opacity">0.18</CssParameter>                          
 						</Fill>
 						<Stroke>

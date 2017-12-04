@@ -11,10 +11,10 @@
 			<Title>Polygon Fill</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Title>Australian Primary Coastal Compartments</Title>
+					<Title>Australian Secondary Coastal Compartments</Title>
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#008000</CssParameter>
+							<CssParameter name="fill">#b35900</CssParameter>
 							<CssParameter name="fill-opacity">0.18</CssParameter>                          
 						</Fill>
 						<Stroke>
