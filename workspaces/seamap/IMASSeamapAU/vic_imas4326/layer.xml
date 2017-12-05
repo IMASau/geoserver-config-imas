@@ -1,12 +1,12 @@
 <layer>
-  <name>vic_deakin3112</name>
-  <id>LayerInfoImpl--61b25384:1601ee6146f:3e64</id>
+  <name>vic_imas4326</name>
+  <id>LayerInfoImpl--61b25384:1601ee6146f:3e8c</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--61b25384:1601ee6146f:3e63</id>
+    <id>FeatureTypeInfoImpl--61b25384:1601ee6146f:3e8b</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
