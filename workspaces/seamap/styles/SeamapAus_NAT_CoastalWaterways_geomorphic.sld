@@ -157,7 +157,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Interidal flats</ogc:Literal>
+              <ogc:Literal>Intertidal flats</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
