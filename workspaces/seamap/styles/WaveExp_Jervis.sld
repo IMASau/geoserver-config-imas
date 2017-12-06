@@ -11,7 +11,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#f1eef6" opacity="0.9" quantity="0.0001" label="&#60;0.0001 [dimensionless seabed exposure index]"/>
+              <ColorMapEntry color="#f1eef6" opacity="0.9" quantity="0.0001" label="&#60;0.0001 [dimensionless exposure index]"/>
               <ColorMapEntry color="#d7b5d8" opacity="0.9" quantity="0.03" label="0.03"/>              
               <ColorMapEntry color="#df65b0" opacity="0.9" quantity="0.12" label="0.12"/>            
               <ColorMapEntry color="#dd1c77" opacity="0.9" quantity="0.18" label="0.18"/>            

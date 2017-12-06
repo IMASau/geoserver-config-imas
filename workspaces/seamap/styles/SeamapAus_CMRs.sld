@@ -11,7 +11,7 @@
 			<Title>Polygon Fill</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Title>Commonwealth Marine Reserve (CMR)</Title>
+					<Title>Commonwealth Marine Reserve</Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#4d0026</CssParameter>
