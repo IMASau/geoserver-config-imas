@@ -1,11 +1,6 @@
-<h3>This is a sample of the Tier 4 shelf reef classification at this point</h3><BR>
-
-<#list features as feature>
-
+<h6>TIER 4 Shelf Reef - reef probability</h6>
   <div class="feature"> 
-  <b>Source dataset (custodian): </b> ${feature.DATASET.value} (${feature.CUSTODIAN.value})<BR>
-  <b>Project D3 reclass: </b> ${feature.IMAS_CL.value} reef<BR><BR>
+  <b>Source dataset: </b>${feature.DATASET.value} (${feature.CUSTODIAN.value})<BR>
+  <b>Reef probability: </b>${feature.IMAS_CL.value}<BR>
  </div>
-<h6>This information is limited. Zoom in or proceed to download for the full data collection.</h6>
-		<#break>
 </#list>
