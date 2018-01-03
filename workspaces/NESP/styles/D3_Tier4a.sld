@@ -13,16 +13,16 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Reef (Tier 3)</sld:Title>
+          <sld:Title>Possible Reef (Tier 4)</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
-              <ogc:Literal>Reef</ogc:Literal>
+              <ogc:Literal>Possible</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#86862d</sld:CssParameter>
+              <sld:CssParameter name="fill">#e67300</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
@@ -32,8 +32,8 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>	          
           </sld:PolygonSymbolizer>
         </sld:Rule>
-        <sld:Rule>
-        </sld:Rule>          
+        <sld:Rule>        
+        </sld:Rule>
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

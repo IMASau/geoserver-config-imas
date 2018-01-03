@@ -41,10 +41,10 @@ This data layer describes TIER 2 reef mapping. Tier 2 are ‘regional surveys’
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>111.79877587758295</minx>
-    <maxx>154.32800180064086</maxx>
-    <miny>-47.93214221383711</miny>
-    <maxy>-5.402916290779185</maxy>
+    <minx>110.04588789960012</minx>
+    <maxx>156.0808897786237</maxx>
+    <miny>-49.68503019181995</miny>
+    <maxy>-3.650028312796352</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
