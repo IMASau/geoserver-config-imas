@@ -25,9 +25,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	          
           </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>        
-        </sld:Rule>        
+        </sld:Rule>     
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

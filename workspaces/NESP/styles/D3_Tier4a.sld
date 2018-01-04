@@ -32,8 +32,6 @@ xmlns:gml="http://www.opengis.net/gml">
             </sld:Stroke>	          
           </sld:PolygonSymbolizer>
         </sld:Rule>
-        <sld:Rule>        
-        </sld:Rule>
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
