@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>Year</name>
-        <type>short</type>
-        <label>Year</label>
+        <name>Date</name>
+        <type>datetime</type>
+        <label>Date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
