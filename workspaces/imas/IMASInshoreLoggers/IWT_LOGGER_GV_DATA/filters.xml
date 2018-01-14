@@ -3,14 +3,14 @@
     <filter>
         <name>REGION_DESCRIPTION</name>
         <type>string</type>
-        <label>Region Description</label>
+        <label>Region (broad)</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>SITE_NAME</name>
         <type>string</type>
-        <label>Site Name</label>
+        <label>Site (narrow)</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
