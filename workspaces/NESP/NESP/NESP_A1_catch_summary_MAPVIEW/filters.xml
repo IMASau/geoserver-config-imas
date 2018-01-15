@@ -1,9 +1,16 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>SetDateTime</name>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Setdate</name>
         <type>datetime</type>
-        <label>Date</label>
+        <label>Set date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
