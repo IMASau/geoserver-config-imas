@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6803348a:156b51370e2:-2fb8</id>
+  <id>FeatureTypeInfoImpl-5218996c:160fa6ef871:-61a9</id>
   <name>IWT_LOGGER_GV_DATA</name>
   <nativeName>IWT_LOGGER_GV_DATA</nativeName>
   <namespace>
@@ -7,8 +7,8 @@
   </namespace>
   <title>Nearshore temperature monitoring in Tasmanian coastal waters (data)</title>
   <keywords>
-    <string>IWT_LOGGER_GV_DATA</string>
     <string>features</string>
+    <string>IWT_LOGGER_GV_DATA</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -49,6 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-7beaab6a:13ec9b3301c:-151a</id>
   </store>
