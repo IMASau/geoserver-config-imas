@@ -1,12 +1,12 @@
 <layer>
-  <name>FR2_CRJohnson_Management_options_minimise_formation_urchin_barrens_GV1</name>
-  <id>LayerInfoImpl-199c3397:14c9c8c6d5a:3515</id>
+  <name>FR2_CRJohnson_Management_urchin_barrens_DATA</name>
+  <id>LayerInfoImpl-199c3397:14ca183734d:-3659</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-199c3397:14c9c8c6d5a:3514</id>
+    <id>FeatureTypeInfoImpl-199c3397:14ca183734d:-365a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
