@@ -1,0 +1,15 @@
+<layer>
+  <name>IWT_LOGGER_GV_MAP</name>
+  <id>LayerInfoImpl-1d1b5eb9:1610472e7d6:5f9e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-145546ae:14cb533292d:-358e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1d1b5eb9:1610472e7d6:5f9d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

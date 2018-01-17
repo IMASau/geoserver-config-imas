@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-1d1b5eb9:1610472e7d6:5f9a</id>
+  <name>IMASInshoreLoggers</name>
+  <description>IMASInshoreLoggers</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/inshoreloggers</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">imas</entry>
+    <entry key="Use Native Paging">false</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
