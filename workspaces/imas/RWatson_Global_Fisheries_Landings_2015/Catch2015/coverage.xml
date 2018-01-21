@@ -1,0 +1,109 @@
+<coverage>
+  <id>CoverageInfoImpl--67718880:161093c5a3d:-2075</id>
+  <name>Catch2015</name>
+  <nativeName>Catch2015</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>Catch2015</title>
+  <description>Generated from GeoTIFF</description>
+  <keywords>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+    <string>Catch2015</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.25</minx>
+    <maxx>179.75</maxx>
+    <miny>-89.75</miny>
+    <maxy>90.25</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.25</minx>
+    <maxx>179.75</maxx>
+    <miny>-89.75</miny>
+    <maxy>90.25</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="dirName">RWatson_Global_Fisheries_Landings_2015_Catch2015</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--67718880:161093c5a3d:-2076</id>
+  </store>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>720 360</high>
+    </range>
+    <transform>
+      <scaleX>0.5</scaleX>
+      <scaleY>-0.5</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>-180.0</translateX>
+      <translateY>90.0</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>ImageMosaic</string>
+    <string>GEOTIFF</string>
+    <string>ArcGrid</string>
+    <string>Gtopo30</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>REAL_64BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:4326</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:4326</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>InputTransparentColor</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>Catch2015</nativeCoverageName>
+</coverage>
