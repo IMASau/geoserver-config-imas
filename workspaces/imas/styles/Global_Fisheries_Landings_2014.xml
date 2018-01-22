@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--68fa8172:15b405a069e:-7af9</id>
-  <name>Global_Fisheries_Landings_v2</name>
+  <name>Global_Fisheries_Landings_2014</name>
   <workspace>
     <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>Global_Fisheries_Landings_v2.sld</filename>
+  <filename>Global_Fisheries_Landings_2014.sld</filename>
 </style>

@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--39fd01fb:15cd2693d07:-55fb</id>
+  <id>FeatureTypeInfoImpl--67718880:161093c5a3d:-ccd</id>
   <name>OC_LPhillips_LittlePenguin_GPS_tracks_DATA</name>
   <nativeName>OC_LPhillips_LittlePenguin_GPS_tracks_DATA</nativeName>
   <namespace>
@@ -7,8 +7,8 @@
   </namespace>
   <title>OC_LPhillips_LittlePenguin_GPS_tracks_DATA</title>
   <keywords>
-    <string>OC_LPhillips_LittlePenguin_GPS_tracks_DATA</string>
     <string>features</string>
+    <string>OC_LPhillips_LittlePenguin_GPS_tracks_DATA</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
