@@ -39,6 +39,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">RWatson_Global_Fisheries_Landings_2015_Catch2015</entry>
   </metadata>
   <store class="coverageStore">
@@ -65,10 +66,7 @@
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>ImageMosaic</string>
     <string>GEOTIFF</string>
-    <string>ArcGrid</string>
-    <string>Gtopo30</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
