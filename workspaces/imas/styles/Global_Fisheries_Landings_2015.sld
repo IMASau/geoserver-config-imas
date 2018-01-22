@@ -12,9 +12,9 @@
           <RasterSymbolizer>
             <ColorMap>
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="No catches recorded for 2015"/>
-              <ColorMapEntry color="#2992c8" opacity="0.5" quantity="0.01" label="&#60;0.01 tonnes"/>
-              <ColorMapEntry color="#80b3ab" opacity="0.8" quantity="0.1" label="0.1 tonnes"/>              
-              <ColorMapEntry color="#bed48a" opacity="0.8" quantity="5" label="5 tonnes"/>            
+              <ColorMapEntry color="#2992c8" opacity="0.5" quantity="0.1" label="&#60;0.1 tonnes"/>
+              <ColorMapEntry color="#80b3ab" opacity="0.8" quantity="0.5" label="0.5 tonnes"/>              
+              <ColorMapEntry color="#bed48a" opacity="0.8" quantity="5" label="5.0 tonnes"/>            
               <ColorMapEntry color="#f2ea67" opacity="0.8" quantity="70" label="70 tonnes"/>
               <ColorMapEntry color="#f9b345" opacity="0.8" quantity="500" label="500 tonnes"/>
               <ColorMapEntry color="#ee6f30" opacity="0.8" quantity="2000" label="2,000 tonnes"/>              
