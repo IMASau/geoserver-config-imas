@@ -8,7 +8,7 @@
     <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
   <connectionParameters>
-    <entry key="Force spatial index usage via hints">true</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
     <entry key="Integrated Security">false</entry>
     <entry key="fetch size">1000</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/inshoreloggers</entry>
