@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--33782a62:15dcfa5c105:578</id>
+  <id>FeatureTypeInfoImpl-5a17232d:1619115badc:-6538</id>
   <name>FINALPRODUCT_SeamapAus</name>
   <nativeName>FINALPRODUCT_SeamapAus</nativeName>
   <namespace>
@@ -11,17 +11,17 @@
 This layer represents Version 1 of the data. The data should be seen as a live product and may continue to be updated with minor corrections or amendments. Any large-scale structural changes or addition of datasets will be released as Version 2 of Seamap Australia.</abstract>
   <keywords>
     <string>Seamap Australia</string>
-    <string>benthic habitat</string>
     <string>marine</string>
     <string>data aggregation</string>
     <string>biota</string>
+    <string>benthic habitat</string>
     <string>substrata</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=4739e4b0-4dba-4ec5-b658-02c09f27ab9a</content>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=4739e4b0-4dba-4ec5-b658-02c09f27ab9a</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -35,7 +35,7 @@ This layer represents Version 1 of the data. The data should be seen as a live p
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -51,15 +51,15 @@ This layer represents Version 1 of the data. The data should be seen as a live p
   <nativeBoundingBox>
     <minx>112.3</minx>
     <maxx>154.4</maxx>
-    <miny>-44.078516721231416</miny>
-    <maxy>-8.039812374995323</maxy>
+    <miny>-44.07851672123112</miny>
+    <maxy>-8.039812374995243</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>112.3</minx>
     <maxx>154.4</maxx>
-    <miny>-44.078516721231416</miny>
-    <maxy>-8.039812374995323</maxy>
+    <miny>-44.07851672123112</miny>
+    <maxy>-8.039812374995243</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -71,6 +71,17 @@ This layer represents Version 1 of the data. The data should be seen as a live p
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
