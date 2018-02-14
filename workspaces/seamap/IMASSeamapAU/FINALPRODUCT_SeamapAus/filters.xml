@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>State</name>
+        <type>string</type>
+        <label>State</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_MEOW_R</name>
+        <type>string</type>
+        <label>1. MEOW Realm</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_MEOW_P</name>
+        <type>string</type>
+        <label>2. MEOW Province</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_MEOW_E</name>
+        <type>string</type>
+        <label>3. MEOW Ecoregion</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_IMCRA_P</name>
+        <type>string</type>
+        <label>A. IMCRA Province</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BS_IMCRA_B</name>
+        <type>string</type>
+        <label>B. IMCRA Bioregion</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>AS_TidalZ</name>
+        <type>string</type>
+        <label>Tidal Zone</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>AS_BDepth</name>
+        <type>string</type>
+        <label>Benthic Depth Zone</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>BC_Level1</name>
+        <type>string</type>
+        <label>Presence of Biota</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
