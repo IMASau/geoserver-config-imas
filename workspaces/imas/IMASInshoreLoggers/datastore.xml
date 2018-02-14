@@ -16,7 +16,7 @@
     <entry key="dbtype">sqlserver</entry>
     <entry key="namespace">imas</entry>
     <entry key="Use Native Paging">false</entry>
-    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Use native geometry serialization">true</entry>
   </connectionParameters>
   <__default>false</__default>
 </dataStore>
