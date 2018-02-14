@@ -3,7 +3,7 @@
     <filter>
         <name>State</name>
         <type>string</type>
-        <label>State</label>
+        <label>***State</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
@@ -45,21 +45,21 @@
     <filter>
         <name>AS_TidalZ</name>
         <type>string</type>
-        <label>Tidal Zone</label>
+        <label>*Tidal Zone</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>AS_BDepth</name>
         <type>string</type>
-        <label>Benthic Depth Zone</label>
+        <label>*Benthic Depth Zone</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
         <name>BC_Level1</name>
         <type>string</type>
-        <label>Presence of Biota</label>
+        <label>**Presence of Biota</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
