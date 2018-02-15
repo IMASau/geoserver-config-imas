@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-352bf6ec:15a1657dbc7:79e</id>
-  <name>NESP_D1_OceanicShoals_CMR_pegalic_BRUV_MaxN</name>
-  <nativeName>NESP_D1_OceanicShoals_CMR_pegalic_BRUV_MaxN</nativeName>
+  <id>FeatureTypeInfoImpl--5ef9d6cf:161996d9bf3:-7fd2</id>
+  <name>NESP_D1_OceanicShoals_CMR_pelagic_BRUV</name>
+  <nativeName>NESP_D1_OceanicShoals_CMR_pelagic_BRUV</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MBH D1 - Oceanic Shoals CMR pelagic BRUV MaxN scoring data - 2012</title>
+  <title>NESP D1 - Oceanic Shoals CMR pelagic BRUV scoring</title>
   <keywords>
-    <string>National Environmental Science Program (NESP) Marine Biodiversity Hub</string>
-    <string>BRUV</string>
-    <string>Oceanic Shoals</string>
+    <string>MaxN</string>
+    <string>length</string>
+    <string>Baited Remote Underwater Video (BRUV)</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
