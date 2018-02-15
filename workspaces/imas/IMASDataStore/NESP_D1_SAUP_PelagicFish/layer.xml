@@ -1,12 +1,12 @@
 <layer>
-  <name>NESP_D1_SAUP_FishRelAbundance</name>
-  <id>LayerInfoImpl-2b4a173c:15e3e1ca8bf:-35d0</id>
+  <name>NESP_D1_SAUP_PelagicFish</name>
+  <id>LayerInfoImpl--5ef9d6cf:161996d9bf3:-7ffc</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-2b4a173c:15e3e1ca8bf:-358b</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-2b4a173c:15e3e1ca8bf:-35d1</id>
+    <id>FeatureTypeInfoImpl--5ef9d6cf:161996d9bf3:-7ffd</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
