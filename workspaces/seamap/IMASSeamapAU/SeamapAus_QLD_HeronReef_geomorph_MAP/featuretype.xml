@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:56cc</id>
-  <name>SeamapAus_QLD_HeronReef_geomorph</name>
-  <nativeName>SeamapAus_QLD_HeronReef_geomorph</nativeName>
+  <id>FeatureTypeInfoImpl-547f8d2a:161f26d6f5b:-770</id>
+  <name>SeamapAus_QLD_HeronReef_geomorph_MAP</name>
+  <nativeName>SeamapAus_QLD_HeronReef_geomorph_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - Heron Reef geomorphology</title>
+  <title>Seamap Australia - QLD - Heron Reef geomorphology - MAP</title>
+  <abstract>Mapping view (zoom-based styling pin for site)</abstract>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
