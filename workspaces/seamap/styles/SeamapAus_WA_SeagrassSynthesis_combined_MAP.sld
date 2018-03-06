@@ -1,4 +1,5 @@
 <StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
 xmlns="http://www.opengis.net/sld" 
 xmlns:gml="http://www.opengis.net/gml"
@@ -10,7 +11,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Title>Habitat Polygon</Title>
       <Abstract>A style that renders habitats</Abstract>
-      <FeatureTypeStyle>	  
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>1250000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>		  
         <Rule>
           <Title>&#60;2&#37;</Title>
           <ogc:Filter>
@@ -25,6 +42,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>            
           </Or>              
           </ogc:Filter>          
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d6c29d</CssParameter>
@@ -49,7 +67,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>2-15.</ogc:Literal>
             </ogc:PropertyIsLike>              
           </Or>             
-          </ogc:Filter>  
+          </ogc:Filter>
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e9efbc</CssParameter>
@@ -65,6 +84,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>11-30.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9ecc3b</CssParameter>
@@ -86,6 +106,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>            
           </Or>            
           </ogc:Filter> 
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#38a748</CssParameter>
@@ -107,6 +128,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>            
           </Or>               
           </ogc:Filter>
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2a753a</CssParameter>
@@ -128,6 +150,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>            
           </Or>             
           </ogc:Filter> 
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#374705</CssParameter>
@@ -143,6 +166,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>patches</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bfbfbf</CssParameter>
@@ -163,7 +187,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Dense Patches</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </Or>            
-          </ogc:Filter>			  
+          </ogc:Filter>
+		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4de6bf</CssParameter>
