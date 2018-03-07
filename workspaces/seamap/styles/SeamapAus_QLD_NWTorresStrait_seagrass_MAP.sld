@@ -14,6 +14,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>
         <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>10000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	 
+        <Rule>
           <Title>Cymodocea rotundata</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -21,7 +37,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Cymodocea rotundata</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ecec13</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -36,7 +56,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ff904d</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -51,7 +75,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Cymodocea serrulata.Halodule uninervis .wide form.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#993b00</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -66,7 +94,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Cymodocea serrulata with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#331a00</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -81,7 +113,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halodule uninervis .narrow and wide forms.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffccff</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -96,7 +132,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halodule uninervis .narrow form.</ogc:Literal>
             </ogc:PropertyIsLike>
 			</ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#e8e8b0</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -111,7 +151,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halodule uninervis .narrow form.Halophila decipiens</ogc:Literal>
             </ogc:PropertyIsLike>
 			</ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffb800</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -126,7 +170,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halodule uninervis .narrow form. with mixed species</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#e07306</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -141,7 +189,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halodule uninervis .wide form. with mixed species</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#808000</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -156,7 +208,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila decipiens</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#b3daff</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -171,7 +227,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#bfff80</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -186,7 +246,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#8cff1a</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -201,7 +265,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis.Halodule uninervis .narrow form.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#86b300</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -216,7 +284,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila spinulosa.Halodule uninervis .wide form.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#2929a3</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -231,7 +303,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Thalassia hemprichii.Halodule uninervis .narrow form.</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <PolygonSymbolizer>		  	
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#39ac73</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -246,7 +322,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Thalassia hemprichii with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#6f2a6f</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
