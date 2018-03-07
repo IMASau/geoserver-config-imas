@@ -14,22 +14,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>8000000</MinScaleDenominator>				
-          <PointSymbolizer>
-			<Geometry>
-			<ogc:PropertyName>sitegeom</ogc:PropertyName>
-			</Geometry>			  
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 <Size>20</Size>
-  			 </Graphic>
-          </PointSymbolizer>
-        </Rule>	 
-        <Rule>
           <Title>Massive coral</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -37,11 +21,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Massive coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#b30000</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>
@@ -61,11 +41,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Soft coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ff80ff</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>
@@ -85,11 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Branching coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#00ffaa</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>
@@ -109,11 +81,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sponge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#FCFAE2</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>
@@ -133,11 +101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Massive*Soft coral</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffb84d</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>
@@ -157,11 +121,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Massive*Soft*Branching coral*Sponge</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#7b50fb</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>
@@ -181,11 +141,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Massive*Plate*Branching coral*Sponge</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#00b3b3</CssParameter>
               <CssParameter name="fill-opacity">0.85</CssParameter>

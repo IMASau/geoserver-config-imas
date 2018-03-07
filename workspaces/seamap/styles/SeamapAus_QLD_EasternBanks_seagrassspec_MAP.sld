@@ -12,27 +12,42 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Title>Habitat Polygon</Title>
       <Abstract>A style that renders habitats</Abstract>
-      <FeatureTypeStyle>  
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>5000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>	
         <Rule>
           <Title>Cymodocea serrulata</Title>
-          <ogc:Filter>
+          <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Cymodocea serrulata</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
+          </ogc:Filter>            
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ff904d</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.08</CssParameter>
-            </Stroke>				
           </PolygonSymbolizer>
-        </Rule>		  	  
+        </Rule>	        
         <Rule>
           <Title>Halophila ovalis</Title>
           <ogc:Filter>
@@ -41,16 +56,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila ovalis</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#bfff80</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.08</CssParameter>
-            </Stroke>				
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -61,78 +75,74 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Halophila spinulosa</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
               <CssParameter name="fill">#b299ff</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.08</CssParameter>
-            </Stroke>				
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Zostera muelleri</Title>
-          <ogc:Filter>
+          <Title>Syringodium isoetifolium</Title>
+          <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera muelleri</ogc:Literal>
+              <ogc:Literal>Syringodium isoetifolium</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
+          </ogc:Filter>            
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
-              <CssParameter name="fill">#cc2900</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#3385ff</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.08</CssParameter>
-            </Stroke>			
           </PolygonSymbolizer>
-        </Rule>					
+        </Rule>
         <Rule>
-          <Title>Mixed seagrass species</Title>
+          <Title>Zostera muelleri / Halophila uninervis</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed seagrass species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Zostera muelleri.Halophila uninervis</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
-          <PolygonSymbolizer>		  	
-            <Fill>
-              <CssParameter name="fill">#009900</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.08</CssParameter>
-            </Stroke>			
-          </PolygonSymbolizer>
-        </Rule>				
-        <Rule>
-          <Title>Unidentified seagrass</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Unidentified seagrass</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
             <Fill>
-              <CssParameter name="fill">#999999</CssParameter>
+              <CssParameter name="fill">#742535</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>No seagrass</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>No Seagrass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+            <Fill>
+              <CssParameter name="fill">#d9d9d9</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.08</CssParameter>
-            </Stroke>			
           </PolygonSymbolizer>
-        </Rule>	
+        </Rule>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
