@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_MarineFutures_reef_MAP</name>
+  <id>LayerInfoImpl-547f8d2a:161fe3915c2:42a1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-547f8d2a:161fe3915c2:4282</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-547f8d2a:161fe3915c2:42a0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
