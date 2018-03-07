@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_WA_MarineFutures_biota</name>
-  <id>LayerInfoImpl-2370e712:15beadc71d9:5070</id>
+  <name>SeamapAus_WA_MOU74_ScottReef_MAP</name>
+  <id>LayerInfoImpl-547f8d2a:161fe3915c2:4817</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--573af72d:15c0abcf51c:349f</id>
+    <id>StyleInfoImpl-547f8d2a:161fe3915c2:441a</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-2370e712:15beadc71d9:506f</id>
+    <id>FeatureTypeInfoImpl-547f8d2a:161fe3915c2:4816</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

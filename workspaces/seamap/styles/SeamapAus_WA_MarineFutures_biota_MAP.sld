@@ -15,15 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Mapped location (zoomed out)</Title>	  
-          <ogc:Filter>
-               <ogc:PropertyIsEqualTo>
-                     <ogc:Function name="PropertyExists">
-                          <ogc:Literal>sitegeom</ogc:Literal>
-                     </ogc:Function>
-                     <ogc:Literal>true</ogc:Literal>
-               </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>			   
+          <Title>Mapped location (zoomed out)</Title>	  		   
 		  <MinScaleDenominator>10000000</MinScaleDenominator>				
           <PointSymbolizer>
 			<Geometry>

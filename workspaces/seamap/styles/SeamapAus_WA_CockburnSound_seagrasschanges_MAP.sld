@@ -11,7 +11,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Title>Habitat Polygon</Title>
       <Abstract>A style that renders habitats</Abstract>
-      <FeatureTypeStyle>	  
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>		        
+		  <MinScaleDenominator>5000000</MinScaleDenominator>				
+          <PointSymbolizer>
+			<Geometry>
+			<ogc:PropertyName>sitegeom</ogc:PropertyName>
+			</Geometry>			  
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 <Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>		  
         <Rule>
           <Title>Reef</Title>
           <ogc:Filter>
@@ -19,7 +35,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>		  
+          </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#640000</CssParameter>
@@ -34,7 +51,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>		  
+          </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#02DC00</CssParameter>
@@ -49,7 +67,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>		  
+          </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FFF9A5</CssParameter>
@@ -64,7 +83,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Dredged</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>	  
+          </ogc:Filter>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#A5A5A5</CssParameter>
