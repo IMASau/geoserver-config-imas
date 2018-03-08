@@ -1,14 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:b0a</id>
-  <name>SeamapAus_NT_BynoeHarbour_mangrove</name>
-  <nativeName>SeamapAus_NT_BynoeHarbour_mangrove</nativeName>
+  <id>FeatureTypeInfoImpl-69a648bc:16202824658:-7ba</id>
+  <name>SeamapAus_NT_BynoeHarbour_mangrove_MAP</name>
+  <nativeName>SeamapAus_NT_BynoeHarbour_mangrove_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT - Bynoe Harbour mangroves (DLRM)</title>
+  <title>Seamap Australia - NT - Bynoe Harbour mangroves - MAP</title>
+  <abstract>Mapping view (zoom-based styling pin for study area)</abstract>
   <keywords>
-    <string>habitat mapping</string>
     <string>mangrove</string>
+    <string>habitat mapping</string>
     <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -36,17 +37,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-403811.315700002</minx>
-    <maxx>-355558.4528999999</maxx>
-    <miny>-1497586.6623</miny>
-    <maxy>-1449691.7700999994</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>130.34587967581302</minx>
+    <maxx>130.7933769085774</maxx>
+    <miny>-12.808965005341287</miny>
+    <maxy>-12.372516473898097</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-403811.315700002</minx>
-    <maxx>-355558.4528999999</maxx>
-    <miny>-1497586.6623</miny>
-    <maxy>-1449691.7700999994</maxy>
+    <minx>130.34587967581302</minx>
+    <maxx>130.7933769085774</maxx>
+    <miny>-12.808965005341287</miny>
+    <maxy>-12.372516473898097</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -57,6 +58,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
