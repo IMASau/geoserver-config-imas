@@ -1,0 +1,15 @@
+<layer>
+  <name>seamapaus_contours_1m</name>
+  <id>LayerInfoImpl-2369868d:162ad4f7f7d:-1b5c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2369868d:162ad4f7f7d:-1b5d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
