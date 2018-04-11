@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--6d173b33:15e76440c15:-768b</id>
-  <name>SeamapAus_contours</name>
+  <name>SeamapAus_contours_5m</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_contours.sld</filename>
+  <filename>SeamapAus_contours_5m.sld</filename>
 </style>
