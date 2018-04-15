@@ -2,7 +2,7 @@
 <filters>
     <filter>
         <name>Date_Time</name>
-        <type>string</type>
+        <type>datetime</type>
         <label>Time</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
