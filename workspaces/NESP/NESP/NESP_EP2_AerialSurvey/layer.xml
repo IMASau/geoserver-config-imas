@@ -1,0 +1,15 @@
+<layer>
+  <name>NESP_EP2_AerialSurvey</name>
+  <id>LayerInfoImpl--2abeb1ae:162bdab688a:452b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2abeb1ae:162bdab688a:4528</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2abeb1ae:162bdab688a:452a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
