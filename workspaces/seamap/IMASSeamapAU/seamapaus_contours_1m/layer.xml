@@ -1,12 +1,12 @@
 <layer>
-  <name>seamapaus_contours_1m</name>
-  <id>LayerInfoImpl-2369868d:162ad4f7f7d:-1b5c</id>
+  <name>SeamapAus_CONTOURS_1m</name>
+  <id>LayerInfoImpl-2369868d:162ad4f7f7d:-1b2f</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl-2369868d:162ad4f7f7d:-1b38</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-2369868d:162ad4f7f7d:-1b5d</id>
+    <id>FeatureTypeInfoImpl-2369868d:162ad4f7f7d:-1b30</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
