@@ -12,21 +12,46 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Title>Commonwealth Marine Reserve</Title>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#4d0026</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>              
-				</Rule>              
-		    </FeatureTypeStyle>
+					<MubScaleDenominator>20000</MaxScaleDenominator>
+						<PolygonSymbolizer>
+							<Fill>
+								<CssParameter name="fill">#4d0026</CssParameter>
+								<CssParameter name="fill-opacity">0.15</CssParameter>                          
+							</Fill>
+							<Stroke>
+								<CssParameter name="stroke">#000000</CssParameter>
+								<CssParameter name="stroke-opacity">0.8</CssParameter>
+								<CssParameter name="stroke-width">0.3</CssParameter>
+							</Stroke>
+						</PolygonSymbolizer>            
+ 				</Rule>			
+				<Rule>
+					<Title>Commonwealth Marine Reserve</Title>
+					<MaxScaleDenominator>20000</MaxScaleDenominator>
+						<PolygonSymbolizer>
+							<Fill>
+								<CssParameter name="fill">#4d0026</CssParameter>
+								<CssParameter name="fill-opacity">0.15</CssParameter>                          
+							</Fill>
+							<Stroke>
+								<CssParameter name="stroke">#000000</CssParameter>
+								<CssParameter name="stroke-opacity">0.8</CssParameter>
+								<CssParameter name="stroke-width">0.3</CssParameter>
+							</Stroke>
+						</PolygonSymbolizer>
+          				<TextSymbolizer>
+            				<Label>
+              					<PropertyName>REGION</PropertyName>
+            				</Label>
+            				<Font>
+              					<CssParameter name="font">Helvetica</CssParameter>			
+            				</Font>			
+            				<Fill>
+              					<CssParameter name="fill">#000000</CssParameter>
+            				</Fill>
+          				</TextSymbolizer>              
+ 				</Rule>             
+		   </FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>
 </StyledLayerDescriptor>
