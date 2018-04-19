@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--771e51da:162dadc6eca:-4462</id>
-  <name>SeamapAus_TAS_Huon_geomorph_other</name>
-  <nativeName>SeamapAus_TAS_Huon_geomorph_other</nativeName>
+  <id>FeatureTypeInfoImpl--771e51da:162dadc6eca:-4459</id>
+  <name>SeamapAus_TAS_Huon_geomorph</name>
+  <nativeName>SeamapAus_TAS_Huon_geomorph</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -43,10 +43,10 @@
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>146.93044535561316</minx>
-    <maxx>148.86052107548934</maxx>
-    <miny>-44.905115405610104</miny>
-    <maxy>-43.489589482729784</maxy>
+    <minx>1075567.7351663932</minx>
+    <maxx>1219948.8052756093</maxx>
+    <miny>-5112779.262453776</miny>
+    <maxy>-4964863.638835743</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -57,6 +57,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
