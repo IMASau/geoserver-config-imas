@@ -1,0 +1,15 @@
+<layer>
+  <name>AllSpeciesPredicted</name>
+  <id>LayerInfoImpl--771e51da:162fade6940:e7</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--771e51da:162fade6940:e6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
