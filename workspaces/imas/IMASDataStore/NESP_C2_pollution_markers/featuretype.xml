@@ -1,15 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3a9062c2:15900fd34cb:21d2</id>
-  <name>NESP_A1_catch_summary_MAPVIEW</name>
-  <nativeName>NESP_A1_catch_summary_MAPVIEW</nativeName>
+  <id>FeatureTypeInfoImpl-20660635:1574f949431:-5572</id>
+  <name>NESP_C2_pollution_markers</name>
+  <nativeName>NESP_C2_SLing_Pollution_markers</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NESP_A1_catch_summary_MAPVIEW</title>
+  <title>NESP Project C2 - Pollution markers at ecological monitoring sites</title>
   <keywords>
-    <string>NESP_A1_catch_summary_MAPVIEW</string>
+    <string>NESP_C2_SLing_Pollution_markers</string>
     <string>features</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=11075fdf-e53e-4d8c-8999-0b239a742243</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -21,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>123.563259</minx>
-    <maxx>134.568561</maxx>
-    <miny>-17.350721</miny>
-    <maxy>-12.138439</maxy>
+    <minx>138.186549</minx>
+    <maxx>151.264191</maxx>
+    <miny>-43.292035999999996</miny>
+    <maxy>-33.830814000000004</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>123.563259</minx>
-    <maxx>134.568561</maxx>
-    <miny>-17.350721</miny>
-    <maxy>-12.138439</maxy>
+    <minx>138.186549</minx>
+    <maxx>151.264191</maxx>
+    <miny>-43.292035999999996</miny>
+    <maxy>-33.830814000000004</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -46,7 +53,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

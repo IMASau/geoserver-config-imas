@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-20660635:1574f949431:-5572</id>
-  <name>NESP_C2_SLing_Pollution_markers</name>
-  <nativeName>NESP_C2_SLing_Pollution_markers</nativeName>
+  <id>FeatureTypeInfoImpl--3a9062c2:15900fd34cb:21d2</id>
+  <name>NESP_A1_catch_summary_MAP</name>
+  <nativeName>NESP_A1_catch_summary_MAPVIEW</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP_C2_SLing_Pollution_markers</title>
+  <title>NESP Project A1 - Catch summary from Euryhaline Elasmobranchs Fishing Database</title>
   <keywords>
-    <string>NESP_C2_SLing_Pollution_markers</string>
+    <string>NESP_A1_catch_summary_MAPVIEW</string>
     <string>features</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=11075fdf-e53e-4d8c-8999-0b239a742243</content>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=a0cf8cc5-67cd-49bb-bcaa-dedf21ed3287</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>138.186549</minx>
-    <maxx>151.264191</maxx>
-    <miny>-43.292035999999996</miny>
-    <maxy>-33.830814000000004</maxy>
+    <minx>123.563259</minx>
+    <maxx>134.568561</maxx>
+    <miny>-17.350721</miny>
+    <maxy>-12.138439</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>138.186549</minx>
-    <maxx>151.264191</maxx>
-    <miny>-43.292035999999996</miny>
-    <maxy>-33.830814000000004</maxy>
+    <minx>123.563259</minx>
+    <maxx>134.568561</maxx>
+    <miny>-17.350721</miny>
+    <maxy>-12.138439</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -53,7 +53,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
