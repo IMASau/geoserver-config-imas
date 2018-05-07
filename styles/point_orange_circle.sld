@@ -7,20 +7,21 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Green Point - CIRCLE</Name>
+    <Name>Orange Point - CIRCLE</Name>
     <UserStyle>
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Rule 1</Name>
-          <Title>Observation</Title>         
-          <Abstract>A green fill with an 8 pixel size</Abstract>
+          <Title>Observation</Title>
+          <Abstract>A orange fill with an 8 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#28A526</CssParameter>
+                  <CssParameter name="fill">#FF5733</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
@@ -29,7 +30,7 @@
               </Mark>
               <Size>8</Size>
             </Graphic>
-          </PointSymbolizer>
+          </PointSymbolizer>      
         </Rule>
         </FeatureTypeStyle>
     </UserStyle>

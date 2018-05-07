@@ -1,12 +1,12 @@
 <layer>
-  <name>NR2_CMCrawford_Stateof_estuary_report_georgesbay_GV</name>
-  <id>LayerInfoImpl-1aa01e27:14c2ff3a16e:-6560</id>
+  <name>WA_seagrass_WilsonInlet_2008_sites</name>
+  <id>LayerInfoImpl--771e51da:16330360a77:-1edf</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--771e51da:16330360a77:-1eb6</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-1aa01e27:14c2ff3a16e:-6561</id>
+    <id>FeatureTypeInfoImpl--771e51da:16330360a77:-1ee0</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

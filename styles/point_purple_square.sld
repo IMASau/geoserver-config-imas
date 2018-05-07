@@ -7,30 +7,25 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Orange POI (circle)</Name>
+    <Name>Purple point - SQUARE</Name>
     <UserStyle>
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Rule 1</Name>
           <Title>Observation</Title>
-          <Abstract>A orange fill with an 8 pixel size</Abstract>
+          <Abstract>A purple fill with a 6 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>circle</WellKnownName>
+                <WellKnownName>square</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF5733</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#8D1BC6</CssParameter>
                 </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.5</CssParameter>
-               </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
         </Rule>
         </FeatureTypeStyle>
     </UserStyle>
