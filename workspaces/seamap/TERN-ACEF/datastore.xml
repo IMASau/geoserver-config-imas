@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--771e51da:16330360a77:-2092</id>
+  <name>TERN-ACEF</name>
+  <description>TERN-ACEF hosted data relevant to Seamap Australia product</description>
+  <type>Microsoft SQL Server (JTDS Driver) (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">dbo</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">seamap</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
