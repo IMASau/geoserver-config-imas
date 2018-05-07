@@ -1,21 +1,21 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--771e51da:16330360a77:-1edc</id>
-  <name>WA_seagrass_WilsonInlet_2007_sites</name>
-  <nativeName>WA_seagrass_WilsonInlet_2007_sites</nativeName>
+  <id>FeatureTypeInfoImpl--771e51da:16330360a77:-1e4f</id>
+  <name>WA_seagrass_Walpole_Nornalup_2009_sites</name>
+  <nativeName>WA_seagrass_Walpole_Nornalup_2009_sites</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>TERN-ACEF - WA Wilson Inlet seagrass sampling sites 2007</title>
-  <abstract>This data is part of the 2013 report &quot;Synthesis of seagrass mapping studies conducted by the Water Science Branch of the Department of Water&quot;. See related layer seamap:SeamapAus_WA_seagrass_WilsonInlet_2007 for polygons of seagrass extent in Wilson Inlet, 2007.</abstract>
+  <title>TERN-ACEF - WA Walpole Nornalup Inlets seagrass sampling sites 2009</title>
+  <abstract>This data is part of the 2013 report &quot;Synthesis of seagrass mapping studies conducted by the Water Science Branch of the Department of Water&quot;. See related layer seamap:SeamapAus_WA_seagrass_Walpole_Nornalup_2009 for polygons of seagrass extent in Walpole Nornalup Inlets, 2009.</abstract>
   <keywords>
+    <string>WA_seagrass_Walpole_Nornalup_2009_sites</string>
     <string>features</string>
-    <string>WA_seagrass_WilsonInlet_2007_sites</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=C2E30581-8A7C-4DBF-BBB9-4BEFFB556083</content>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=B489C13F-6C28-4F49-A29E-361961A1547F</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
@@ -43,17 +43,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>117.32979204427686</minx>
-    <maxx>117.47757543322155</maxx>
-    <miny>-35.03390269933515</miny>
-    <maxy>-34.95941659761176</maxy>
+    <minx>116.70315611726402</minx>
+    <maxx>116.7531176783516</maxx>
+    <miny>-35.03169030020489</miny>
+    <maxy>-34.97620391083141</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>117.32979204427686</minx>
-    <maxx>117.47757543322155</maxx>
-    <miny>-35.03390269933515</miny>
-    <maxy>-34.95941659761176</maxy>
+    <minx>116.70315611726402</minx>
+    <maxx>116.7531176783516</maxx>
+    <miny>-35.03169030020489</miny>
+    <maxy>-34.97620391083141</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -68,7 +68,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl--771e51da:16330360a77:-2092</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
