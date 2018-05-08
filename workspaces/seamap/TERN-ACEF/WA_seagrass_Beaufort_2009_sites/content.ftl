@@ -6,9 +6,9 @@
 
 <div class="feature">
   <b>Sampling date: </b> ${feature.DATE_.value[0..10]}<BR>
-  <b>Type: </b> ${feature.COLLECTION.value}<BR>
+  <b>Sampling type: </b> ${feature.COLLECTION.value}<BR>
   <b>Depth: </b> ${feature.DEPTH_M.value} m<BR>
-  <b>Comments: </b> ${feature.COMMENTS.value)}<BR><BR>
+  <b>Comments: </b> ${feature.COMMENTS.value}<BR><BR>
 
 </div>
 	<#else>
