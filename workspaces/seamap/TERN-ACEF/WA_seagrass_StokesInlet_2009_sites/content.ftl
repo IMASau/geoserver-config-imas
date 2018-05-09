@@ -7,10 +7,10 @@
 <div class="feature">
   <b>Sampling date: </b> ${feature.DATE_.value[0..9]}<BR>
   <b>Sampling type: </b> ${feature.SAMP_TYPE.value}<BR>
-  <b>Depth: </b> ${feature.DEPTH_M.rawValue?string("0")} m<BR> 
-  <b>Seagrass cover: </b> ${feature.ALG_DENSITY.rawValue?string("0")}&#37;<BR>
+  <b>Depth: </b> ${feature.DEPTH.rawValue?string("0")} m<BR> 
+  <b>Seagrass cover: </b> ${feature.TOTAL_SAV.rawValue?string("0")}&#37;<BR>
   <b>Algae cover: </b> ${feature.MISC_ALGAE.rawValue?string("0")}&#37;<BR>
-  <b>Notes: </b> ${feature.NOTES.value}<BR><BR>
+  <b>Notes: </b> ${feature.NOTES.value!"nil"}<BR><BR>
  
 
 </div>

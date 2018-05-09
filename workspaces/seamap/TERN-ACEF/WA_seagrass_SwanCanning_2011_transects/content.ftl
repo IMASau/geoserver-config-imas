@@ -5,7 +5,7 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Seagrass density: </b> ${feature.Zone.rawValue?string("0")}<BR><BR>
+  <b>Seagrass density: </b> ${feature.Zone.value}<BR><BR>
 
 </div>
 	<#else>
