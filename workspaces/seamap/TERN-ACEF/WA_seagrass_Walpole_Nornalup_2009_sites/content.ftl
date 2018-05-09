@@ -6,9 +6,9 @@
 
 <div class="feature">
   <b>Sampling date: </b> ${feature.DATE_.value[0..9]}<BR>
-  <b>Sampling type: </b> ${feature.COLLECTION.value}<BR>
-  <b>Depth: </b> ${feature.DEPTH_M.rawValue?string("0")} m<BR>
-  <b>Comments: </b> ${feature.COMMENTS.value}<BR><BR>
+  <b>Depth: </b> ${feature.DEPTH_M.rawValue?string("0")} m<BR> 
+  <b>Seagrass cover: </b> ${feature._SAV.rawValue?string("0")}&#37;<BR><BR>
+ 
 
 </div>
 	<#else>

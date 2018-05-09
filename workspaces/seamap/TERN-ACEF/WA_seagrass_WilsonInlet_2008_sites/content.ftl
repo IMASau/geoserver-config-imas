@@ -5,10 +5,8 @@
 <#if (feature_index < 1) >
 
 <div class="feature">
-  <b>Sampling date: </b> ${feature.DATE_.value[0..9]}<BR>
-  <b>Sampling type: </b> ${feature.COLLECTION.value}<BR>
-  <b>Depth: </b> ${feature.DEPTH_M.rawValue?string("0")} m<BR>
-  <b>Comments: </b> ${feature.COMMENTS.value}<BR><BR>
+  <b>Depth: </b> ${feature.DEPTH.rawValue?string("0")} m<BR>
+  <b>Seagrass cover: </b> ${feature.SG_PERCENT.value}&#37;<BR><BR>
 
 </div>
 	<#else>
