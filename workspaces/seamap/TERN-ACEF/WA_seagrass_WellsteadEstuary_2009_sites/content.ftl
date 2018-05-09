@@ -9,7 +9,7 @@
   <b>Sampling type: </b> ${feature.COLLECTION.value}<BR>  
   <b>Depth: </b> ${feature.DEPTH_M.rawValue?string("0")} m<BR>
   <b>Seagrass cover: </b> ${feature.TOTAL_SAV.value}&#37;<BR>
-  <b>Algae cover: </b> ${feature.TOTAL_ALGAE.value}&#37;<BR>
+  <b>Algae cover: </b> ${feature.TOT_ALGAE.value}&#37;<BR>
   <b>Comments: </b> ${feature.COMMENTS.value}<BR> <BR>
 
 </div>
