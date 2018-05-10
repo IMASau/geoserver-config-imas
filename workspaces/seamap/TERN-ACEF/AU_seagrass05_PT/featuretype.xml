@@ -1,0 +1,64 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--771e51da:163470b7e32:-226b</id>
+  <name>AU_seagrass05_PT</name>
+  <nativeName>AU_seagrass05_PT</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Australian Seagrass distribution Points Dataset 2005</title>
+  <abstract>The seagrass dataset has been compiled by UNEP-WCMC in collaboration with Dr Frederick T. Short, University of New Hampshire, USA to show the global distribution of seagrass species. This dataset has been created from multiple sources and was used in the creation of the “World Atlas of Seagrasses” (2003). This polygon feature dataset is an update of the data used in the Atlas and is a unique data holding about the state of the world’s seagrasses. For a complete overview of global seagrass distribution this dataset should be displayed together with the associated point dataset.&#xd;
+&#xd;
+This data has been clipped to the Australian region only. The full global seagrass distribution dataset can be accessed at http://data.unep-wcmc.org/datasets</abstract>
+  <keywords>
+    <string>features</string>
+    <string>AU_seagrass05_PT</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=61F2E4F8-96DB-4723-AADE-08274DAF2268</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
+  DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+    TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
+  <srs>EPSG:4283</srs>
+  <nativeBoundingBox>
+    <minx>113.01862473962746</minx>
+    <maxx>159.08001618160026</maxx>
+    <miny>-43.04362686087252</miny>
+    <maxy>-8.50001082999978</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>113.01862473962744</minx>
+    <maxx>159.08001618160026</maxx>
+    <miny>-43.04362685993138</miny>
+    <maxy>-8.500010829723564</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--771e51da:16330360a77:-2092</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
