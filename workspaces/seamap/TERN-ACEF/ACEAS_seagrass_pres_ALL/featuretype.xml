@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--32d068c9:1634df39a5a:3816</id>
-  <name>ACEAS_seagrass_ALL</name>
-  <nativeName>ACEAS_seagrass_ALL</nativeName>
+  <id>FeatureTypeInfoImpl--32d068c9:1634df39a5a:3814</id>
+  <name>ACEAS_seagrass_pres_ALL</name>
+  <nativeName>ACEAS_seagrass_pres_ALL</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seagrass Presence Absence Australia (ACEAS)</title>
-  <abstract>This seagrass habitat map was produced by the ACEAS Seagrass working group as part of the seagrass habitat risk modelling effort. This map shows seagrass PRESENCE AND ABSENCE across Australia.</abstract>
+  <title>Seagrass Presence ONLY Australia (ACEAS)</title>
+  <abstract>This seagrass habitat map was produced by the ACEAS Seagrass working group as part of the seagrass habitat risk modelling effort. This map shows seagrass PRESENCE ONLY across Australia.</abstract>
   <keywords>
+    <string>ACEAS_seagrass_pres_ALL</string>
     <string>features</string>
-    <string>ACEAS_seagrass_ALL</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GDA94&quot;, 
   DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -23,17 +23,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
   <srs>EPSG:4283</srs>
   <nativeBoundingBox>
-    <minx>112.609896</minx>
-    <maxx>154.141144</maxx>
-    <miny>-44.253571</miny>
-    <maxy>-8.91292</maxy>
+    <minx>112.943105</minx>
+    <maxx>153.696289</maxx>
+    <miny>-43.631829</miny>
+    <maxy>-10.491093</maxy>
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.60989600000002</minx>
-    <maxx>154.141144</maxx>
-    <miny>-44.253570999057054</miny>
-    <maxy>-8.912919999710793</maxy>
+    <minx>112.943105</minx>
+    <maxx>153.696289</maxx>
+    <miny>-43.631828999057774</miny>
+    <maxy>-10.49109299966172</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
@@ -44,9 +44,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--771e51da:16330360a77:-2092</id>
   </store>
