@@ -11,7 +11,7 @@ xmlns:gml="http://www.opengis.net/gml">
     <sld:UserStyle>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Seagrass present</sld:Title>
+          <sld:Title>Seagrass Present</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>S_Sea</ogc:PropertyName>
@@ -26,7 +26,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Seagrass absent</sld:Title>
+          <sld:Title>Seagrass Absent</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>S_Sea</ogc:PropertyName>
@@ -41,31 +41,22 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>	
         <sld:Rule>
-          <sld:Title>Unknown</sld:Title>
-          <ogc:Filter>
+          <sld:Title>Unknown / Not Assessed</sld:Title>
+          <ogc:Filter>          
+          <ogc:Or>
+          <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>S_Sea</ogc:PropertyName>
+                <ogc:Literal>N/A</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>S_Sea</ogc:PropertyName>
                 <ogc:Literal>UNKNOWN</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		  
+            </ogc:PropertyIsEqualTo>
+          </ogc:Or>            
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#a6a6a6</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
-            </sld:Fill>           
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>N/A</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>S_Sea</ogc:PropertyName>
-                <ogc:Literal>N/A</ogc:Literal>
-            </ogc:PropertyIsEqualTo>		  
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#a598cd</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
             </sld:Fill>           
           </sld:PolygonSymbolizer>
