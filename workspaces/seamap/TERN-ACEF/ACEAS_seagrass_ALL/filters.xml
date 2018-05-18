@@ -3,7 +3,7 @@
     <filter>
         <name>S_Sea</name>
         <type>string</type>
-        <label>Seagrass Presence</label>
+        <label>Seagrass Status</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
