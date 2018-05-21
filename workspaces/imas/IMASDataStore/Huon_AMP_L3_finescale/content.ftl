@@ -1,5 +1,5 @@
 <#list features as feature>
-<h6>Huon AMP finescale geomorphology</h6><br>
+<h6>Huon AMP finescale geomorphology</h6><br><br>
   <div class="feature"> 
   <b>Benthic habitat:</b> ${feature.ZONE.value} 
   </div>
