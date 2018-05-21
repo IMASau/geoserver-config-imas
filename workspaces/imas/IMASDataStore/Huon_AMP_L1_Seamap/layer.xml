@@ -1,0 +1,15 @@
+<layer>
+  <name>Huon_AMP_L1_Seamap</name>
+  <id>LayerInfoImpl--32d068c9:163827d3d24:450e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--32d068c9:163827d3d24:451d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--32d068c9:163827d3d24:450d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
