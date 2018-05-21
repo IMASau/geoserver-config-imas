@@ -7,11 +7,4 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
-    <filter>
-        <name>ZONE</name>
-        <type>string</type>
-        <label>Geomorphology</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
 </filters>
