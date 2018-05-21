@@ -42,17 +42,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>146.97984975881337</minx>
-    <maxx>148.85645383459376</maxx>
-    <miny>-44.877185046520346</miny>
-    <maxy>-43.51008432288542</maxy>
+    <minx>146.9304449170891</minx>
+    <maxx>148.86052133778733</maxx>
+    <miny>-44.90511524282325</miny>
+    <maxy>-43.489589127098334</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>146.97984975881337</minx>
-    <maxx>148.85645383459376</maxx>
-    <miny>-44.877185046520346</miny>
-    <maxy>-43.51008432288542</maxy>
+    <minx>146.9304449170891</minx>
+    <maxx>148.86052133778733</maxx>
+    <miny>-44.90511524282325</miny>
+    <maxy>-43.489589127098334</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
