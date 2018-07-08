@@ -6,13 +6,7 @@
   
 		<b>${feature.VesselTripName.value}</b> - ${feature.DateTime.value[0..11]} (${feature.StartTimeUTC.value}-${feature.EndTimeUTC.value})<BR>
 		<b>Depth:</b> ${feature.Depth.rawValue?string("0.0")} m<BR>			
-		<#assign Temperature=feature.SeaTemperature.value>
 		<#assign Salinity=feature.Salinity.value>		
-			<#if Temperature=="NA">
-					<b>Water temperature:</b> no data<BR>
-				<#elseif Temperature!="NA">
-					<b>Water temperature:</b> ${feature.SeaTemperature.value} &#176;C<BR>
-			</#if>
 			<#if Salinity=="NA">
 					<b>Salinity:</b> no data<BR>
 				<#elseif Salinity!="NA">
