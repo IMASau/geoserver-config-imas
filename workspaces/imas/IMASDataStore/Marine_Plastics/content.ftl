@@ -11,7 +11,7 @@
 			<#if Temperature=="NA">
 					<b>Water temperature:</b> no data<BR>
 				<#elseif Temperature!="NA">
-					<b>Water temperature:</b> ${feature.SeaTemperature.rawValue?string("0.0")} &#176;C<BR>
+					<b>Water temperature:</b> ${feature.SeaTemperature.value} &#176;C<BR>
 			</#if>
 			<#if Salinity=="NA">
 					<b>Salinity:</b> no data<BR>
