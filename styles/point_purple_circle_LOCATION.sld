@@ -7,7 +7,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Green Point - CIRCLE</Name>
+    <Name>Purple Point - CIRCLE</Name>
     <UserStyle>
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
