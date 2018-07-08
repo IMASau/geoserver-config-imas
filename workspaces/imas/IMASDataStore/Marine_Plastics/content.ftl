@@ -6,6 +6,7 @@
   
 		<b>${feature.VesselTripName.value}</b> - ${feature.DateTime.value[0..11]} (${feature.StartTimeUTC.value}-${feature.EndTimeUTC.value})<BR>
 		<b>Water temperature:</b> ${feature.SeaTemperature.rawValue?string("0.0")} &#176;C<BR>
+		<b>Salinity:</b> ${feature.Salinity.rawValue?string("0.0")} mg/L<BR>			
 		<b>Depth:</b> ${feature.Depth.rawValue?string("0.0")} m<BR>		
 		<b>No. plastic pieces in sample:</b> ${feature.TotalPlastics.value} (${feature.HardPlastics.value}, ${feature.SoftPlastics.value} soft)<BR>
 		<b>Sea surface plastic concentration:</b> ${feature.Temp.rawValue?string("0.0")} pieces/km&#178;<BR><BR>		
