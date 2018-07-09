@@ -18,10 +18,10 @@
 				<#else>
 					<b>Salinity:</b> ${feature.Salinity.rawValue?string("0.0")} mg/L<BR>
 			</#if>								
-		--------------------
+		--------------------<br>
 		<b>No. plastic pieces in sample:</b> ${feature.TotalPlastics.value} (${feature.HardPlastics.value} hard, ${feature.SoftPlastics.value} soft)<BR>
-		<b>Plastic concentration at sea surface:</b> ${feature.Cs.rawValue?string("0.0")} pieces/km&#178;<BR><BR>		
-		--------------------
+		<b>Plastic concentration at sea surface:</b> ${feature.Cs.rawValue?string("0.0")} pieces/km&#178;<BR>		
+		--------------------<br><br>
 		
  </div>
 	<#else>
