@@ -13,7 +13,7 @@
 				<#else>
 					<b>Water temperature:</b> ${feature.SeaTemperature.value[0..3]} &#176;C<BR>
 			</#if>			
-			<#if feature.Salinityvalue == "NA">
+			<#if feature.Salinity.value == "NA">
 					<b>Salinity:</b> no data<BR>
 				<#else>
 					<b>Salinity:</b> ${feature.Salinity.value[0..3]} mg/L<BR>
