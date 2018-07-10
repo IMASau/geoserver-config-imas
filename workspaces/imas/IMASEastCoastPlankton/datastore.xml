@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-3f754c3d:164835f3fba:-7ffd</id>
+  <name>IMASEastCoastPlankton</name>
+  <description>IMAS East Coast Plankton SQL database</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/eastcoastplankton</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">imas</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
