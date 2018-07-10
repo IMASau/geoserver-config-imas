@@ -11,12 +11,12 @@
 			<#if feature.SeaTemperature.value == "NA">
 					<b>Water temperature:</b> no data<BR>
 				<#else>
-					<b>Water temperature:</b> ${feature.SeaTemperature.rawValue?string("0.0")} &#176;C<BR>
+					<b>Water temperature:</b> ${feature.SeaTemperature.value[0..3]} &#176;C<BR>
 			</#if>			
 			<#if feature.Salinityvalue == "NA">
 					<b>Salinity:</b> no data<BR>
 				<#else>
-					<b>Salinity:</b> ${feature.Salinity.rawValue?string("0.0")} mg/L<BR>
+					<b>Salinity:</b> ${feature.Salinity.value[0..3]} mg/L<BR>
 			</#if>								
 		--------------------<br>
 		<b>No. plastic pieces in sample:</b> ${feature.TotalPlastics.value} (${feature.HardPlastics.value} hard, ${feature.SoftPlastics.value} soft)<BR>
