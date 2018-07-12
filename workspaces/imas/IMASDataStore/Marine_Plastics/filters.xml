@@ -3,7 +3,7 @@
     <filter>
         <name>VesselTripName</name>
         <type>string</type>
-        <label>Vessel Trip Name</label>
+        <label>Vessel / Trip Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
