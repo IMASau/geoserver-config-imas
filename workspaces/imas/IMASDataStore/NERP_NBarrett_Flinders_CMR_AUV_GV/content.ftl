@@ -1,4 +1,4 @@
-<h3>This is a sample of the data collected at this point</h3><BR>
+<h3>Sample data collected at this point</h3><BR>
 
 <#list features as feature>
 
@@ -6,20 +6,21 @@
 	
   <div class="feature"> 
   <b>Image ID: </b> ${feature.leftimage.value}<BR>
-  <b>Depth (m): </b> ${feature.depth.value}<BR><BR>
+  <b>Depth (m): </b> ${feature.depth.rawValue?string("0.0")<BR><BR>
 
-Proportion cover of taxon from scored images<BR><BR>
+Taxon % cover from scored images<BR><BR>
   
-  <b>Ascidians (stalked colonial): </b> ${feature.Ascidians_Stalked_Colonial.value}<BR>  
-  <b>Bryozoa cnidaria hydroid matrix: </b> ${feature.Bryozoa_Cnidaria_Hydroid_MATRIX.value}<BR>
-  <b>Molluscs / gastropods: </b> ${feature.Molluscs_Gastropods.value}<BR>  
-  <b>Sponges (erect branching forms): </b> ${feature.Sponges_Erect_forms_Branching.value}<BR>      
-  <b>Unconsolidated substrate (hard cobbles): </b> ${feature.Substrate_Consolidated_hardCobbles.value}<BR><BR>
+  <b>Ascidians (stalked colonial): </b> ${feature.Ascidians_Stalked_Colonial.value}&#37; <BR>  
+  <b>Bryozoa cnidaria hydroid matrix: </b> ${feature.Bryozoa_Cnidaria_Hydroid_MATRIX.value}&#37; <BR>
+  <b>Molluscs / gastropods: </b> ${feature.Molluscs_Gastropods.value}&#37; <BR>  
+  <b>Sponges (erect branching forms): </b> ${feature.Sponges_Erect_forms_Branching.value}&#37; <BR>      
+  <b>Unconsolidated substrate (hard cobbles): </b> ${feature.Substrate_Consolidated_hardCobbles.value}&#37; <BR>
+  &hellip;<BR><BR>
   
 
 Taxon biologically classified using <a  rel="external" href="http://catami.org/" target="_blank" class="h3" >CATAMI</a> 
 <br>
-AUV images available through <a  rel="external" href="https://squidle.acfr.usyd.edu.au/" target="_blank" class="h3" >Squidle</a>  
+Raw AUV images available through <a  rel="external" href="https://squidle.acfr.usyd.edu.au/" target="_blank" class="h3" >Squidle</a>  
  
  </div>
  
