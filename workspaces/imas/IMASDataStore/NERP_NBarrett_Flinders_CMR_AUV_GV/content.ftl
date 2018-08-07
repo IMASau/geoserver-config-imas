@@ -6,16 +6,16 @@
 	
   <div class="feature"> 
   <b>Image ID: </b> ${feature.leftimage.value}<BR>
-  <b>Depth (m): </b> ${feature.depth.rawValue?string("0.0")<BR><BR>
+  <b>Depth (m): </b> ${feature.depth.rawValue?string("0.0")}<BR><BR>
 
-Taxon % cover from scored images<BR><BR>
+Taxon/biotope % cover from scored images<BR>
   
   <b>Ascidians (stalked colonial): </b> ${feature.Ascidians_Stalked_Colonial.value}&#37; <BR>  
   <b>Bryozoa cnidaria hydroid matrix: </b> ${feature.Bryozoa_Cnidaria_Hydroid_MATRIX.value}&#37; <BR>
   <b>Molluscs / gastropods: </b> ${feature.Molluscs_Gastropods.value}&#37; <BR>  
   <b>Sponges (erect branching forms): </b> ${feature.Sponges_Erect_forms_Branching.value}&#37; <BR>      
   <b>Unconsolidated substrate (hard cobbles): </b> ${feature.Substrate_Consolidated_hardCobbles.value}&#37; <BR>
-  &hellip;<BR><BR>
+  &hellip; (69 others scored)<BR><BR>
   
 
 Taxon biologically classified using <a  rel="external" href="http://catami.org/" target="_blank" class="h3" >CATAMI</a> 
