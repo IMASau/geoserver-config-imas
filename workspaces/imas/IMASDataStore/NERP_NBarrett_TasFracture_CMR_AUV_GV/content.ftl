@@ -6,9 +6,9 @@
 	
   <div class="feature"> 
   <b>Image ID: </b> ${feature.Left_Image.value}<BR>
-  <b>Depth (m): </b> ${feature.depth.rawValue?string("0.0")}<BR><BR>
+  <b>Depth: </b> ${feature.depth.rawValue?string("0.0")} m<BR><BR>
 
-Taxon/biotope % cover from scored images<BR>
+<i>Taxon/biotope % cover from scored images</i><BR>
   
   <b>Ascidian 12 (colonial red): </b> ${feature.Ascidian_12_Colonial_Red.value}&#37; <BR>  
   <b>Biological rubble: </b> ${feature.Biological_Rubble.value}&#37; <BR>

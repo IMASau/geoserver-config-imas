@@ -6,9 +6,9 @@
 	
   <div class="feature"> 
   <b>Image ID: </b> ${feature.leftimage.value}<BR>
-  <b>Depth (m): </b> ${feature.depth.rawValue?string("0.0")}<BR><BR>
+  <b>Depth: </b> ${feature.depth.rawValue?string("0.0")} m<BR><BR>
 
-Taxon/biotope % cover from scored images<BR>
+<i>Taxon/biotope % cover from scored images</i><BR>
   
   <b>Ascidians (stalked colonial): </b> ${feature.Ascidians_Stalked_Colonial.value}&#37; <BR>  
   <b>Bryozoa cnidaria hydroid matrix: </b> ${feature.Bryozoa_Cnidaria_Hydroid_MATRIX.value}&#37; <BR>
