@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>DATE_TRIP</name>
+        <type>date</type>
+        <label>DATE TRIP</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GENUS_SPECIES</name>
+        <type>string</type>
+        <label>Taxa</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>ABUNDANCE</name>
+        <type>decimal</type>
+        <label>Abundance per m3</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
