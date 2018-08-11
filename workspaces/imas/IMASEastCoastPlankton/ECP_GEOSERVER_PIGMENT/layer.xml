@@ -1,0 +1,15 @@
+<layer>
+  <name>ECP_GEOSERVER_PIGMENT</name>
+  <id>LayerInfoImpl--29d2dcf7:16523c8932c:-5504</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--29d2dcf7:16523c8932c:-5505</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

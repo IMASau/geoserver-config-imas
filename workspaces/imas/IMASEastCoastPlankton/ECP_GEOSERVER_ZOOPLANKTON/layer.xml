@@ -1,0 +1,15 @@
+<layer>
+  <name>ECP_GEOSERVER_ZOOPLANKTON</name>
+  <id>LayerInfoImpl--29d2dcf7:16523c8932c:-550d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--29d2dcf7:16523c8932c:-550e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
