@@ -16,7 +16,7 @@
 			<#if feature.Salinity.value == "NA">
 					<b>Salinity:</b> no data<BR>
 				<#else>
-					<b>Salinity:</b> ${feature.Salinity.value[0..3]} mg/L<BR>
+					<b>Salinity:</b> ${feature.Salinity.value[0..3]} PSU<BR>
 			</#if>								
 		--------------------<br>
 		<b>No. plastic pieces in sample:</b> ${feature.TotalPlastics.value} (${feature.HardPlastics.value} hard, ${feature.SoftPlastics.value} soft)<BR>
