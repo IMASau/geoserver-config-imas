@@ -11,9 +11,8 @@
 <div class="featurewhite">
 <b>Site code :</b> ${feature.SITE_CODE.value}<br/>
 <b>Date trip:</b> ${feature.DATE_TRIP.value[0..7]}<br/>
-<b>Secchi depth :</b> ${feature.DEPTH_SECCHI.rawValue?string("0.0")} m<br/>
 <b>Taxon name :</b> ${feature.GENUS_SPECIES.value}<br/>
-<b>Taxon concentration (cells/L) :</b> ${feature.CORRECTED_CELL_CONCENTRATION_CELLS_PER_LITRE.rawValue?string("0")}<br/>
+<b>Abundance (count per m<sup>3</sup>) :</b> ${feature.ABUNDANCE.rawValue?string("0.0")}<br/>
 <BR>
 </div>
 </#if>
