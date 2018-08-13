@@ -15,9 +15,16 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>GENUS_SPECIES</name>
+        <type>string</type>
+        <label>Species</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>TAXON_GROUP</name>
         <type>string</type>
-        <label>TAXON GROUP</label>
+        <label>Group</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

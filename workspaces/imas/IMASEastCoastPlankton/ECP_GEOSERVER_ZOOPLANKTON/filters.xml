@@ -17,7 +17,7 @@
     <filter>
         <name>GENUS_SPECIES</name>
         <type>string</type>
-        <label>Taxa</label>
+        <label>Species</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
