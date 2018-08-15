@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--68e5e5c7:1551c83d367:46a9</id>
-  <name>NFI_IKidd_Tamar_tidal_height</name>
+  <name>Tamar_tidal_height</name>
   <nativeName>NFI_IKidd_Tamar_tidal_height</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>NFI_IKidd_Tamar_tidal_height</title>
+  <title>Upper Tamar Tidal Height Data</title>
   <keywords>
     <string>NFI_IKidd_Tamar_tidal_height</string>
     <string>features</string>
