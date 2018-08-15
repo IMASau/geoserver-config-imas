@@ -19,7 +19,7 @@
 
 Taxon biologically classified using the UTAS morphospecies classification scheme, which can be mapped back to <a  rel="external" href="http://catami.org/" target="_blank" class="h3" >CATAMI</a> 
 <br>
-Raw AUV images available through <a  rel="external" href="https://squidle.acfr.usyd.edu.au/" target="_blank" class="h3" >Squidle</a> 
+Raw AUV images available through <a  rel="external" href="https://auv.aodn.org.au/auv/" target="_blank" class="h3" >the IMOS/AODN AUV Image Viewer</a> 
  
  </div>
  
