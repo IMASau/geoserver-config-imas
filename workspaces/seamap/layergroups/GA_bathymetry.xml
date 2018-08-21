@@ -1,0 +1,68 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--29d2dcf7:16559e52900:37d1</id>
+  <name>GA_bathymetry</name>
+  <mode>SINGLE</mode>
+  <title>Geoscience Australia Bathymetry</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37cb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37cd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37f0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37f2</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37f4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37f6</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37f8</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:37fa</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>154.494472</minx>
+    <maxx>166.662649</maxx>
+    <miny>-61.088545</miny>
+    <maxy>-48.921906</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

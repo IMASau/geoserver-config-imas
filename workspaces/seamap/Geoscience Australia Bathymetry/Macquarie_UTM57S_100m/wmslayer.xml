@@ -1,0 +1,46 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--29d2dcf7:16559e52900:37ca</id>
+  <name>Macquarie_UTM57S_100m</name>
+  <nativeName>Macquarie_UTM57S_100m</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Macquarie UTM57S 100m</title>
+  <description>This layer contains all processed multibeam bathymetry data that is publically available at Geoscience Australia, around Macquarie Ridge within UTM Zone 57 South. Data is gridded at 100 metres resolution. The colour ramp for the WMS is stretched between 300-6500 metres water depth. The dataset can be downloaded at the following URL http://services.ga.gov.au/metadata-gateway/metadata/record/73697.</description>
+  <abstract>This layer contains all processed multibeam bathymetry data that is publically available at Geoscience Australia, around Macquarie Ridge within UTM Zone 57 South. Data is gridded at 100 metres resolution. The colour ramp for the WMS is stretched between 300-6500 metres water depth. The dataset can be downloaded at the following URL http://services.ga.gov.au/metadata-gateway/metadata/record/73697.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>161.727168</minx>
+    <maxx>166.662649</maxx>
+    <miny>-53.331516</miny>
+    <maxy>-48.921906</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>161.727168</minx>
+    <maxx>166.662649</maxx>
+    <miny>-53.331516</miny>
+    <maxy>-48.921906</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--29d2dcf7:16559e52900:37c5</id>
+  </store>
+</wmsLayer>

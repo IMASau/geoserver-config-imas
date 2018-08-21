@@ -1,0 +1,46 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--29d2dcf7:16559e52900:37f7</id>
+  <name>GA0305_entrance_3m</name>
+  <nativeName>GA0305_entrance_3m</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>GA0305 Entrance 3m</title>
+  <description>This layer is a bathymetry grid of the survey area near Jervis Bay&apos;s entrance from marine surveys GA0303, GA0305, GA0309 and GA0312, collected around Jervis Bay, New South Wales. The data is gridded at three metre resolution. A total of eleven areas were surveyed at various resolutions. The colour ramp for the WMS is stretched between 2-60 metres water depth. The dataset can be downloaded at the following URL http://services.ga.gov.au/metadata-gateway/metadata/record/72004.</description>
+  <abstract>This layer is a bathymetry grid of the survey area near Jervis Bay&apos;s entrance from marine surveys GA0303, GA0305, GA0309 and GA0312, collected around Jervis Bay, New South Wales. The data is gridded at three metre resolution. A total of eleven areas were surveyed at various resolutions. The colour ramp for the WMS is stretched between 2-60 metres water depth. The dataset can be downloaded at the following URL http://services.ga.gov.au/metadata-gateway/metadata/record/72004.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>150.756574</minx>
+    <maxx>150.808198</maxx>
+    <miny>-35.115754</miny>
+    <maxy>-35.075228</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>150.756574</minx>
+    <maxx>150.808198</maxx>
+    <miny>-35.115754</miny>
+    <maxy>-35.075228</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--29d2dcf7:16559e52900:37c5</id>
+  </store>
+</wmsLayer>

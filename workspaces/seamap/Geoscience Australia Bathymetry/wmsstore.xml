@@ -1,6 +1,6 @@
 <wmsStore>
   <id>WMSStoreInfoImpl--29d2dcf7:16559e52900:37c5</id>
-  <name>GA Bathymetry</name>
+  <name>Geoscience Australia Bathymetry</name>
   <description>Harvesting GA bathymetry tiles for Seamap Australia third party layers</description>
   <type>WMS</type>
   <enabled>true</enabled>
@@ -12,6 +12,8 @@
   </metadata>
   <__default>false</__default>
   <capabilitiesURL>http://services.ga.gov.au/gis/services/Marine_Survey_Multibeam_Bathymetry/MapServer/WMSServer</capabilitiesURL>
+  <user>admin</user>
+  <password>iNM760wH8</password>
   <maxConnections>6</maxConnections>
   <readTimeout>60</readTimeout>
   <connectTimeout>30</connectTimeout>
