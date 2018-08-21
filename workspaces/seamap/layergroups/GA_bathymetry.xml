@@ -31,8 +31,20 @@
     <published type="layer">
       <id>LayerInfoImpl--29d2dcf7:16559e52900:37fa</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:395a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--29d2dcf7:16559e52900:3957</id>
+    </published>
   </publishables>
   <styles>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
     <style>
       <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
     </style>
