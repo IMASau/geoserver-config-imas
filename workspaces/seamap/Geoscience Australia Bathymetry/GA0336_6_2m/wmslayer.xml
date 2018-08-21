@@ -1,0 +1,47 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--29d2dcf7:16559e52900:3a2d</id>
+  <name>GA0336_6_2m</name>
+  <nativeName>GA0336_6_2m</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>GA0336 6 2m</title>
+  <description>This layer is tile 6 of a bathymetric grid collected on marine survey GA0336, over the Petrel Sub-basin, offshore Northern Australia. The total dataset consists of 11 tiles gridded at two metre resolution. The colour ramp for the WMS is stretched between 40-115 metres water depth. The dataset can be downloaded at the following URL http://services.ga.gov.au/metadata-gateway/metadata/record/75120.</description>
+  <abstract>This layer is tile 6 of a bathymetric grid collected on marine survey GA0336, over the Petrel Sub-basin, offshore Northern Australia. The total dataset consists of 11 tiles gridded at two metre resolution. The colour ramp for the WMS is stretched between 40-115 metres water depth. The dataset can be downloaded at the following URL http://services.ga.gov.au/metadata-gateway/metadata/record/75120.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>129.55111</minx>
+    <maxx>130.007789</maxx>
+    <miny>-12.761862</miny>
+    <maxy>-12.290117</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>129.55111</minx>
+    <maxx>130.007789</maxx>
+    <miny>-12.761862</miny>
+    <maxy>-12.290117</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--29d2dcf7:16559e52900:37c5</id>
+  </store>
+</wmsLayer>

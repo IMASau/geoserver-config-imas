@@ -40,6 +40,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <store class="wmsStore">
     <id>WMSStoreInfoImpl--29d2dcf7:16559e52900:37c5</id>
   </store>
