@@ -14,7 +14,7 @@
         <Rule>
           <Name>Rule 1</Name>
           <Title>Observation</Title>
-          <Abstract>A purple fill with a 6 pixel size</Abstract>
+          <Abstract>A purple fill with a 7 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -23,7 +23,7 @@
                   <CssParameter name="fill">#8D1BC6</CssParameter>
                 </Fill>
               </Mark>
-              <Size>6</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
