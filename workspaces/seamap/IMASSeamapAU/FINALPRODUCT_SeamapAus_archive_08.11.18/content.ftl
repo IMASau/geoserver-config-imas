@@ -14,9 +14,9 @@ div.a:hover {
 <#list features as feature>
 <h6>Seamap Australia</h6>
   <div class="a">
-  <b>Seamap Australia habitat:</b> ${feature.NAT_HAB_CL.value} <br>
-  <b>Data source:</b> ${feature.Data_ORIG.value} <br>
-  <b>Source habitat:</b> ${feature.Hab_ORIG.value}    
+  <b><a href="https://vocabs.ands.org.au/viewById/129" target="_blank"><b>Seamap Australia</a> benthic habitat:</b> ${feature.NAT_HAB_CL.value} <br><br>
+  <b>Source data habitat:</b> ${feature.Hab_ORIG.value} <br>
+  <b>Source data provider:</b> ${feature.Data_ORIG.value}    
   </div>
 </#list>
 </body>
