@@ -9,11 +9,11 @@
 		<b>Date:</b> ${feature.Date_UTC.value}<BR>		
 		<b>Time:</b> ${feature.Time_UTC.value}<BR>		
 		<b>Depth:</b> ${feature.Depth_m.value}m<BR>
-			<#assign ChlA=feature.Chl_a.value>
+		<#assign ChlA=feature.Chl_a.value>
 			<#if ChlA=="">
-				<b>Chlorophyll a:</b> no data<BR>
+		<b>Chlorophyll a:</b> no data<BR>
 			<#elseif ChlA!="">
-				<b>Chlorophyll a:</b> ${feature.Chl_a.value} mg/m<sup>3</sup><BR>
+		<b>Chlorophyll a:</b> ${feature.Chl_a.value} mg/m<sup>3</sup><BR>
 			</#if>		
  <BR>
  </div>
