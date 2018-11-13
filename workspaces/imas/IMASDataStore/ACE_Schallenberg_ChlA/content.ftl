@@ -13,7 +13,7 @@
 			<#if ChlA=="">
 				<b>Chlorophyll a:</b> no data<BR>
 			<#elseif ChlA!="">
-				<b>Chlorophyll a:</b> ${feature.Chl_a.value[0...5]}mg/m<sup>3</sup><BR>
+				<b>Chlorophyll a:</b> ${feature.Chl_a.value}mg/m<sup>3</sup><BR>
 			</#if>		
  
  </div>
