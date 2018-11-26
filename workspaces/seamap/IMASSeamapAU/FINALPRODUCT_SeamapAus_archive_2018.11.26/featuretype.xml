@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--1488fbdb:166ff0814c2:5d86</id>
-  <name>FINALPRODUCT_SeamapAus_archive_08.11.18</name>
-  <nativeName>FINALPRODUCT_SeamapAus_archive_08.11.18</nativeName>
+  <id>FeatureTypeInfoImpl-3ab7a136:167491b2948:7895</id>
+  <name>FINALPRODUCT_SeamapAus_archive_2018.11.26</name>
+  <nativeName>FINALPRODUCT_SeamapAus_archive_2018.11.26</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>FINALPRODUCT_SeamapAus_archive_08.11.18</title>
+  <title>FINALPRODUCT_SeamapAus_archive_2018.11.26</title>
   <keywords>
     <string>features</string>
-    <string>FINALPRODUCT_SeamapAus_archive_08.11.18</string>
+    <string>FINALPRODUCT_SeamapAus_archive_2018.11.26</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
