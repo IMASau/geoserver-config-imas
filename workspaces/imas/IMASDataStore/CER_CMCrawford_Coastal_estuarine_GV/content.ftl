@@ -1,6 +1,6 @@
-<h3>This is a sample of data collected at ${feature.ESTUARY.value} Estuary</h3><BR>
-
 <#list features as feature>
+
+<h3>This is a sample of data collected at ${feature.ESTUARY.value} Estuary</h3><BR>
 
 	<#if (feature_index < 1) >
 	
@@ -9,7 +9,7 @@
   <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176C<BR>
   <b>PH: </b> ${feature.PH.value}<BR>
-  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37<BR>
+  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
   <b>Turbidity: </b> ${feature.TURBIDITY.value?string("0.00")} NTU<BR>
   <b>Ammonia: </b> ${feature.AMMONIA.value} mg/L<BR>
   <b>Silicate: </b> ${feature.SILICATE.value} mg/L<BR>
