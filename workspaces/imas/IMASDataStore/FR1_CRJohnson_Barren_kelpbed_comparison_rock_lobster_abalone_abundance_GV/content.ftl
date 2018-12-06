@@ -1,6 +1,6 @@
-<h3>This is a sample of data collected at ${feature.Site.value}</h3><BR>
-
 <#list features as feature>
+
+<h3>This is a sample of data collected at ${feature.Site.value}</h3><BR>
 
 	<#if (feature_index < 1) >
 	
@@ -11,13 +11,13 @@
   <b>Abalone: </b> ${feature.Abalone.value}<BR>
   <b>Rock Lobster: </b> ${feature.Rock_Lobster.value}<BR><BR>
   
-  <b>Proportion sea urchin barrens: </b ${feature.Percentage_Barrens.value}&#37<BR><BR>
+  <b>Proportion sea urchin barrens: </b ${feature.Percentage_Barrens.value}&#37;<BR><BR>
   
   <b>Dominant algal cover</b><BR><BR> 
-  <b>Ecklonia radiata: </b> ${feature.Ecklonia_radiata.value}&#37<BR>
-  <b>Phylospora comosa: </b> ${feature.Phylospora_comosa.value}&#37<BR>
+  <b>Ecklonia radiata: </b> ${feature.Ecklonia_radiata.value}&#37;<BR>
+  <b>Phylospora comosa: </b> ${feature.Phylospora_comosa.value}&#37;<BR>
   <b>Reds: </b> ${feature.Reds.value}&#37<BR>
-  <i>...(other species may also be present)</i><BR><BR>
+  <i>&hellip;(other species may also be present)</i><BR><BR>
 
  </div>
 	<#else>
