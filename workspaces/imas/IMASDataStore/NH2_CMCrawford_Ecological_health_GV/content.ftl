@@ -5,16 +5,16 @@
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
-  <b>Date: </b> ${feature.SAMPLE_DATE[0...11].value}<BR>
-  <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.value} PSU<BR>
-  <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
-  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
-  <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate: </b> ${feature.NITRATE.value} mg/L<BR>
-  <b>Nitrite: </b> ${feature.NITRITE.value} mg/L<BR>
-  <b>Nox: </b> ${feature.NOX.value} mg/L<BR>
-  <b>Ammonia: </b> ${feature.AMMONIA.value} mg/L<BR>
-  <b>CHL A: </b> ${feature.CHL_A.value} mg/L<BR><BR>
+  <b>Date:</b> ${feature.SAMPLE_DATE.value[0..11]}<BR>
+  <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value} PSU<BR>
+  <b>Surface Temperature:</b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
+  <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
+  <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
+  <b>Nitrate:</b> ${feature.NITRATE.value} mg/L<BR>
+  <b>Nitrite:</b> ${feature.NITRITE.value} mg/L<BR>
+  <b>Nox:</b> ${feature.NOX.value} mg/L<BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value} mg/L<BR>
+  <b>CHL A:</b> ${feature.CHL_A.value} mg/L<BR><BR>
 
  </div>
 	<#else>

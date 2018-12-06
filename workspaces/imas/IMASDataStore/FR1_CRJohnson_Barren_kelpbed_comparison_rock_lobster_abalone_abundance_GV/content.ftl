@@ -5,7 +5,7 @@
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
-  <b>Date: </b> ${feature.Date.value[0...11]} (transect no. ${feature.tran.value})<BR><br>
+  <b>Date: </b> ${feature.Date.value[0..11]} (transect no. ${feature.tran.value})<BR><br>
   <b>Invertebrate counts (per 10m<sup>2</sup> block)</b><br>
   <b><i>Centrostephanus</i>: </b> ${feature.Centro.value}<BR>
   <b>Abalone: </b> ${feature.Abalone.value}<BR>
