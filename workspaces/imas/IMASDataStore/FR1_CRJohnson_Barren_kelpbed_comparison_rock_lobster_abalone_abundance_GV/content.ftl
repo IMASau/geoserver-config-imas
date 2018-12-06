@@ -1,24 +1,23 @@
-<h3>This is a sample of data collected at this point</h3><BR>
+<h3>This is a sample of data collected at ${feature.Site.value}</h3><BR>
 
 <#list features as feature>
 
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
-  <b>Date: </b> ${feature.Date.value}<BR>
-  <b>Site: </b> ${feature.Site.value}<BR>
-  <b>Tran: </b> ${feature.tran.value}<BR>
-  <b>Centro: </b> ${feature.Centro.value}<BR>
+  <b>Date: </b> ${feature.Date.value[0...11]} (transect no. ${feature.tran.value})<BR><br>
+  <b>Invertebrate counts (per 10m<sup>2</sup> block)</b><br>
+  <b><i>Centrostephanus</i>: </b> ${feature.Centro.value}<BR>
   <b>Abalone: </b> ${feature.Abalone.value}<BR>
-  <b>Rock Lobster: </b> ${feature.Rock_Lobster.value}<BR>
-  <b>% Barrens: </b> ${feature.Percentage_Barrens.value}<BR>
-  <b>Ecklonia radiata: </b> ${feature.Ecklonia_radiata.value}<BR>
-  <b>Phylospora comosa: </b> ${feature.Phylospora_comosa.value}<BR>
-  <b>Reds: </b> ${feature.Reds.value}<BR>
-  <b>Zonaria spp.: </b> ${feature.Zonaria_spp.value}<BR>
-  <b>Sargassum spp.: </b> ${feature.Sargassum_spp.value}<BR>
-  <b>Caulerpa flexilis: </b> ${feature.Caulerpa_flexilis.value}<BR>
-  <b>Acrocarpia paniculata: </b> ${feature.Acrocarpia_paniculata.value}<BR><BR>
+  <b>Rock Lobster: </b> ${feature.Rock_Lobster.value}<BR><BR>
+  
+  <b>Proportion sea urchin barrens: </b ${feature.Percentage_Barrens.value}&#37<BR><BR>
+  
+  <b>Dominant algal cover</b><BR><BR> 
+  <b>Ecklonia radiata: </b> ${feature.Ecklonia_radiata.value}&#37<BR>
+  <b>Phylospora comosa: </b> ${feature.Phylospora_comosa.value}&#37<BR>
+  <b>Reds: </b> ${feature.Reds.value}&#37<BR>
+  <i>...(other species may also be present)</i><BR><BR>
 
  </div>
 	<#else>
