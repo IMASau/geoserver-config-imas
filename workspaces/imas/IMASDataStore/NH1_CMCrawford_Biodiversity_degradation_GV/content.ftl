@@ -1,11 +1,10 @@
 <#list features as feature>
 
-<h3>This is a sample of data collected at ${feature.ESTUARY.value} Estuary</h3><BR>
+<h3>This is a sample of data collected at ${feature.ESTUARY.value} Estuary</h3>
 
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
-  <b>Date:</b> ${feature.SAMPLE_DATE.value[0..11]}<BR>
   <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
   <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
