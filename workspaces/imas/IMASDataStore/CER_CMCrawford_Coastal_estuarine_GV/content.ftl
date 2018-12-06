@@ -10,10 +10,10 @@
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176C<BR>
   <b>PH: </b> ${feature.PH.value}<BR>
   <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
-  <b>Turbidity: </b> ${feature.TURBIDITY.value?string("0.00")} NTU<BR>
+  <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
   <b>Ammonia: </b> ${feature.AMMONIA.value} mg/L<BR>
   <b>Silicate: </b> ${feature.SILICATE.value} mg/L<BR>
-  <b>CHL A: </b> ${feature.CHL_A.value} mg/L<BR><BR>
+  <b>CHL A: </b> ${feature.CHL_A.value} mg/L<BR>
 
  </div>
 	<#else>

@@ -15,7 +15,7 @@
   &bull; <b><i>Ecklonia radiata</i>:</b> ${feature.Ecklonia_radiata.value}&#37;<BR>
   &bull; <b><i>Phylospora comosa</i>:</b> ${feature.Phylospora_comosa.value}&#37;<BR>
   &bull; <b>Reds:</b> ${feature.Reds.value}&#37<BR>
-  <i>&hellip;(other species may also be present)</i><BR><BR>
+  <i>&hellip;(other species may also be present)</i><BR>
 
  </div>
 	<#else>
