@@ -10,20 +10,26 @@
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176C<BR>
   <b>PH: </b> ${feature.PH.value}<BR>
   <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
-  <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
 
   <#assign Turbidity=feature.TURBIDITY.value>
-  <#assign Ammonia=feature.AMMONIA.value>  
-  <#if Turbidity??>
-    <b>Turbidity2: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
+  <#assign Ammonia=feature.AMMONIA.value>
+  <#assign Silicate=feature.SILICATE.value>  
+  <#assign CHL=feature.CHL_A.value>    
+  
+  <#if Turbidity?has_content>
+    <b>Turbidity: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
   </#if>
   <#if Ammonia?has_content>
-    <b>Ammonia2: </b> ${feature.AMMONIA.value} mg/L<BR>
+    <b>Ammonia: </b> ${feature.AMMONIA.rawValue?string("0.0")} mg/L<BR>
+  </#if>
+  <#if Silicate?has_content>
+    <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} mg/L<BR>
   </#if> 
+  <#if CHL?has_content>
+    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} mg/L<BR>
+  </#if>  
   
-  <b>Ammonia: </b> ${feature.AMMONIA.value} mg/L<BR>
-  <b>Silicate: </b> ${feature.SILICATE.value} mg/L<BR>
-  <b>CHL A: </b> ${feature.CHL_A.value} mg/L<BR><BR>
+<BR>
 
  </div>
 	<#else>
