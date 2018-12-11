@@ -1,6 +1,6 @@
 <#list features as feature>
 
-<h3>This is a sample of data collected at ${feature.Site.value}</h3>
+<h3>This is a sample of the data collected at ${feature.Site.value}</h3><BR>
 
 	<#if (feature_index < 1) >
 	
@@ -15,11 +15,11 @@
   &bull; <b><i>Ecklonia radiata</i>:</b> ${feature.Ecklonia_radiata.value}&#37;<BR>
   &bull; <b><i>Phylospora comosa</i>:</b> ${feature.Phylospora_comosa.value}&#37;<BR>
   &bull; <b>Reds:</b> ${feature.Reds.value}&#37<BR>
-  <i>&hellip;(other species may also be present)</i><BR>
+  <i>&hellip;(other species may also be present)</i><BR><BR>
 
  </div>
 	<#else>
-	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
+	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
 </#list>
