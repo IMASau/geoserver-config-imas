@@ -12,10 +12,10 @@
   <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
   <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
 
-  <#if ${feature.TURBIDITY.value??}>
+  <#if ${feature.TURBIDITY.value}??>
     <b>Turbidity2: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
   </#if>   
-  <#if ${feature.AMMONIA.value??}>
+  <#if ${feature.AMMONIA.value}??>
     <b>Ammonia2: </b> ${feature.AMMONIA.value} mg/L<BR>
   </#if> 
   
