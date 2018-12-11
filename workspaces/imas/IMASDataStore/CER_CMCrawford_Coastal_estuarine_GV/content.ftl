@@ -16,8 +16,8 @@
   <#assign Ammonia=feature.AMMONIA.value>  
   <#if Turbidity??>
     <b>Turbidity2: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
-  </#if>   
-  <#if Ammonia??>
+  </#if>
+  <#if Ammonia?has_content>
     <b>Ammonia2: </b> ${feature.AMMONIA.value} mg/L<BR>
   </#if> 
   
