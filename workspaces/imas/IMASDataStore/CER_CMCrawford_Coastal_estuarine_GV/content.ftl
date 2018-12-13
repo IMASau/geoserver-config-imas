@@ -26,7 +26,7 @@
     <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} mg/L<BR>
   </#if> 
   <#if CHL?has_content>
-    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} mg/L<BR>
+    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.00")} mg/L<BR>
   </#if>  
   
 <BR>

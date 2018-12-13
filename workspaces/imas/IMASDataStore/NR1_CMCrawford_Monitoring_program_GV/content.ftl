@@ -1,6 +1,6 @@
 <#list features as feature>
 
-<h3>This is a sample of the data collected at ${feature.ESTUARY.value} Estuary</h3>
+<h3>This is a sample of the data collected at ${feature.ESTUARY.value} Estuary</h3><BR>
 
 	<#if (feature_index < 1) >
 	

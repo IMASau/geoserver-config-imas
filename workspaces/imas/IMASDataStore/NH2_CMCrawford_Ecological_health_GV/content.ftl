@@ -1,20 +1,26 @@
 <#list features as feature>
 
-<h3>This is a sample of the data collected at ${feature.ESTUARY.value} Estuary</h3>
+<h3>This is a sample of the data collected at ${feature.ESTUARY.value} Estuary</h3><BR>
 
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
   <b>Date:</b> ${feature.SAMPLE_DATE.value[0..11]}<BR>
-  <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value} PSU<BR>
-  <b>Surface Temperature:</b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
-  <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
-  <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate:</b> ${feature.NITRATE.value} &#181;g/L<BR>
-  <b>Nitrite:</b> ${feature.NITRITE.value} &#181;g/L<BR>
-  <b>Nox:</b> ${feature.NOX.value} &#181;g/L<BR>
-  <b>Ammonia:</b> ${feature.AMMONIA.value} &#181;g/L<BR>
-  <b>CHL A:</b> ${feature.CHL_A.value} &#181;g/L<BR><BR>
+  <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value!"NA"} PSU<BR>
+  <b>Surface Temperature:</b> ${feature.SURFACE_TEMPERATURE.value!"NA"} &#176;C<BR>
+  <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value!"NA"}&#37;<BR>
+  
+  <b>Turbidity:</b> ${feature.TURBIDITY.value!"NA"} NTU<BR>
+  <b>Nitrate:</b> ${feature.NITRATE.value!"NA"} &#181;g/L<BR>
+  <b>Nitrite:</b> ${feature.NITRITE.value!"NA"} &#181;g/L<BR>
+  <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} &#181;g/L<BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} &#181;g/L<BR>
+  
+  <#assign CHL=feature.CHL_A.value> 
+  <#if CHL?has_content>  
+    <b>Chlorophyll a:</b> ${feature.CHL_A.rawValue?string("0.00")} &#181;g/L<BR>
+  </#if>    
+  <BR>
 
  </div>
 	<#else>
