@@ -4,7 +4,9 @@
 
 	<#if (feature_index < 1) >
 	
-  <div class="feature">  
+  <div class="feature"> 
+  <b>Level of flushing: </b> ${feature.FLUSHING_CLASS.value!"unknown"}<BR>
+  
   <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
   <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>

@@ -9,9 +9,15 @@
   <b>Rainfall: </b> ${feature.RAINFALL.value} mm<BR>
   <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
-  <b>Disolved Oxygen: </b> ${feature.DISOLVED_OXYGEN.value} mg l<sup>-1</sup><BR>
+  
+  <#assign Oxygen=feature.DISOLVED_OXYGEN_SATURATION.value> 
+  <#if Oxygen?has_content>  
+  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.rawValue?string("0.0")}&#37;</sup><BR>
+  </#if>
+  
   <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
   <b>Nitrate: </b> ${feature.NITRATE.value!"NA"} &#181;g l<sup>-1</sup><BR>
+  <b>Nitrite: </b> ${feature.NITRITE.value!"NA"} &#181;g l<sup>-1</sup><BR>  
   <b>Silicate: </b> ${feature.SILICATE.value!"NA"} &#181;g l<sup>-1</sup><BR>
   <b>Chlorophyll a: </b> ${feature.CHL_A.value!"NA"} &#181;g l<sup>-1</sup><BR><BR>
 

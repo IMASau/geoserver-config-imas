@@ -6,14 +6,20 @@
 	
   <div class="feature">  
   <b>Date:</b> ${feature.SAMPLE_DATE.value[0..11]}<BR>
-  <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value} PSU<BR>
-  <b>Surface Temperature:</b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
-  <b>PH:</b> ${feature.PH.value}<BR>
-  <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
-  <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate:</b> ${feature.NITRATE.value} mg/L<BR>
-  <b>Silicate:</b> ${feature.SILICATE.value} mg/L<BR>
-  <b>CHL A:</b> ${feature.CHL_A.value} mg/L<BR><BR>
+  <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value!"NA"} PSU<BR>
+  <b>Surface Temperature:</b> ${feature.SURFACE_TEMPERATURE.value!"NA"} &#176;C<BR>
+  <b>PH:</b> ${feature.PH.value!"NA"}<BR>  
+  <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value!"NA"}&#37;<BR>
+
+  <#assign Turbidity=feature.TURBIDITY.value>
+  <#if Turbidity?has_content>  
+  <b>Turbidity:</b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
+  </#if>  
+  
+  <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} mg/L<BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} mg/L<BR>  
+  <b>Silicate:</b> ${feature.SILICATE.value!"NA"} mg/L<BR>
+  <b>Chlorophyll A:</b> ${feature.CHL_A.value!"NA"} mg/L<BR><BR>
 
  </div>
 	<#else>

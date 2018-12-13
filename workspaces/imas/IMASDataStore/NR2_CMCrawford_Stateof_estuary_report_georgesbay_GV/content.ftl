@@ -5,13 +5,30 @@
 	
   <div class="feature">  
   <b>Date: </b>${feature.SAMPLE_DATE.value[0..11]}<BR>
-  <b>Surface Salinity: </b>${feature.SURFACE_SALINITY.value} PSU<BR>
-  <b>Surface Temperature: </b>${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
-  <b>PH: </b>${feature.PH.value}<BR>
-  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
-  <b>Turbidity: </b>${feature.TURBIDITY.value} NTU<BR>
+  <b>Surface Salinity: </b>${feature.SURFACE_SALINITY.value!"NA"} PSU<BR>
+  <b>Surface Temperature: </b>${feature.SURFACE_TEMPERATURE.value!"NA"} &#176;C<BR>
+  <b>PH: </b>${feature.PH.value!"NA"}<BR>
+  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.value!"NA"}&#37;<BR>
+  
+  <#assign Turbidity=feature.TURBIDITY.value>
+  <#assign Nitrogen=feature.NOX.value>     
+  <#assign Ammonia=feature.AMMONIA.value>
+  <#assign Silicate=feature.SILICATE.value>  
+  
+  <#if Turbidity?has_content>
+  <b>Turbidity: </b>${feature.TURBIDITY.rawValue?string("0.00")} NTU<BR>
+  </#if>  
+  <#if Nitrogen?has_content>
+  <b>Total Nitrogen: </b>${feature.NOX.value} mg/L<BR>  
+  </#if>  
+  <#if Ammonia?has_content>
   <b>Ammonia: </b>${feature.AMMONIA.value} mg/L<BR>
-  <b>Silicate: </b>${feature.SILICATE.value} mg/L<BR><BR>
+  </#if>  
+  <#if Silicate?has_content>
+  <b>Silicate: </b>${feature.SILICATE.value} mg/L<BR>
+  </#if> 
+
+<BR>  
 
  </div>
 	<#else>
