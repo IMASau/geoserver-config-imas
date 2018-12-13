@@ -1,6 +1,6 @@
 <#list features as feature>
 
-<h3>This is a sample of data collected at ${feature.ESTUARY.value} Estuary</h3>
+<h3>This is a sample of the data collected at ${feature.ESTUARY.value} Estuary</h3>
 
 	<#if (feature_index < 1) >
 	
@@ -10,15 +10,15 @@
   <b>Surface Temperature:</b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
   <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
   <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate:</b> ${feature.NITRATE.value} mg/L<BR>
-  <b>Nitrite:</b> ${feature.NITRITE.value} mg/L<BR>
-  <b>Nox:</b> ${feature.NOX.value} mg/L<BR>
-  <b>Ammonia:</b> ${feature.AMMONIA.value} mg/L<BR>
-  <b>CHL A:</b> ${feature.CHL_A.value} mg/L<BR><BR>
+  <b>Nitrate:</b> ${feature.NITRATE.value} &#181;g/L<BR>
+  <b>Nitrite:</b> ${feature.NITRITE.value} &#181;g/L<BR>
+  <b>Nox:</b> ${feature.NOX.value} &#181;g/L<BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value} &#181;g/L<BR>
+  <b>CHL A:</b> ${feature.CHL_A.value} &#181;g/L<BR><BR>
 
  </div>
 	<#else>
-	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
+	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
 </#list>
