@@ -1,5 +1,8 @@
 <wfs>
-  <id>WFSInfoImpl--21071077:14b33c29d5b:-7ff8</id>
+  <id>WFSInfoImpl--182e70b4:167ba155ed4:3373</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
   <enabled>true</enabled>
   <name>WFS</name>
   <title>IMAS Geoserver</title>

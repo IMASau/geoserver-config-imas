@@ -3,6 +3,7 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
     <name>seamap</name>
+    <isolated>false</isolated>
   </workspace>
   <contact>
     <id>contact</id>
@@ -10,7 +11,7 @@
     <addressState>Tasmania</addressState>
     <contactEmail>IMAS.DataManager@utas.edu.au</contactEmail>
     <contactOrganization>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</contactOrganization>
-    <contactPerson>Data Manager</contactPerson>
+    <contactPerson>Data Manager SEAMAP</contactPerson>
   </contact>
   <charset>UTF-8</charset>
   <numDecimals>4</numDecimals>
