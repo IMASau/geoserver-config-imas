@@ -24,6 +24,7 @@
 
  </div>
 	<#else>
+	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>

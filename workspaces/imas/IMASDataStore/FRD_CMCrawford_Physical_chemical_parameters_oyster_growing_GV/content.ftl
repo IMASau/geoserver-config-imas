@@ -15,7 +15,7 @@
   <#assign CHL=feature.CHL_A.value>    
 
   <#if Salinity?has_content>  
-  <  b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.rawValue?string("0.0")} PSU<BR>
+    <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.rawValue?string("0.0")} PSU<BR>
   </#if>  
   <#if Temperature?has_content>  
     <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.rawValue?string("0.0")} &#176;C<BR>
@@ -27,11 +27,12 @@
     <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} &#181;g/L<BR>
   </#if>  
   <#if CHL?has_content>  
-    <b>CHL A: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g/L<BR><BR>
+    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g/L<BR><BR>
   </#if> 
 	
  </div>
 	<#else>
+	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>

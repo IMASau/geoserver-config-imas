@@ -19,10 +19,11 @@
   <b>Nitrate: </b> ${feature.NITRATE.value!"NA"} &#181;g l<sup>-1</sup><BR>
   <b>Nitrite: </b> ${feature.NITRITE.value!"NA"} &#181;g l<sup>-1</sup><BR>  
   <b>Silicate: </b> ${feature.SILICATE.value!"NA"} &#181;g l<sup>-1</sup><BR>
-  <b>Chlorophyll a: </b> ${feature.CHL_A.value!"NA"} &#181;g l<sup>-1</sup><BR><BR>
+  <b>Chlorophyll a: </b> ${feature.CHL_A.value!"NA"} &#181;g l<sup>-1</sup><BR>
 
  </div>
 	<#else>
+	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>

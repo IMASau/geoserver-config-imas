@@ -28,11 +28,10 @@
   <#if CHL?has_content>
     <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.00")} mg/L<BR>
   </#if>  
-  
-<BR>
 
  </div>
 	<#else>
+	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>

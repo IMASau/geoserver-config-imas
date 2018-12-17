@@ -28,10 +28,9 @@
   <b>Silicate: </b>${feature.SILICATE.value} mg/L<BR>
   </#if> 
 
-<BR>  
-
  </div>
 	<#else>
+	<BR>
 	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
 		<#break>
   </#if>

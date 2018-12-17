@@ -19,10 +19,11 @@
   <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} mg/L<BR>
   <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} mg/L<BR>  
   <b>Silicate:</b> ${feature.SILICATE.value!"NA"} mg/L<BR>
-  <b>Chlorophyll A:</b> ${feature.CHL_A.value!"NA"} mg/L<BR><BR>
+  <b>Chlorophyll a:</b> ${feature.CHL_A.value!"NA"} mg/L<BR>
 
  </div>
 	<#else>
+	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>

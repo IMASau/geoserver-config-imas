@@ -12,10 +12,11 @@
   <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
   <b>Nitrate:</b> ${feature.NITRATE.value} &#181;g/L<BR>
   <b>Nitrite:</b> ${feature.NITRITE.value} &#181;g/L<BR>
-  <b>Ammonia:</b> ${feature.AMMONIA.value} &#181;g/L<BR><BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value} &#181;g/L<BR>
 
  </div>
 	<#else>
+	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
