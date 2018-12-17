@@ -1,10 +1,13 @@
 <wms>
-  <id>WMSInfoImpl--21071077:14b33c29d5b:-7ff7</id>
+  <id>WMSInfoImpl--182e70b4:167ba155ed4:3375</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
   <enabled>true</enabled>
   <name>WMS</name>
-  <title>IMAS Web Mapping Services (WMS)</title>
+  <title>Seamap Australia Web Mapping Services (WMS)</title>
   <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
-  <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver catalogues IMAS geospatial data, and hosts a number of other data layers from its collaborators.</abstrct>
+  <abstrct>Seamap Australia brings together all available benthic habitat data collected on the Australian continental shelf and hosts this for the benefit of the broader research community. The product is a single, uniformly classified, continental-scale benthic habitat dataset.</abstrct>
   <versions>
     <org.geotools.util.Version>
       <version>1.1.1</version>
@@ -14,14 +17,15 @@
     </org.geotools.util.Version>
   </versions>
   <citeCompliant>false</citeCompliant>
+  <onlineResource>https://seamapaustralia.org</onlineResource>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <metadata>
     <entry key="kmlSuperoverlayMode">auto</entry>
     <entry key="kmlReflectorMode">refresh</entry>
     <entry key="loopContinuously">false</entry>
-    <entry key="svgAntiAlias">false</entry>
     <entry key="kmlPlacemark">false</entry>
+    <entry key="svgAntiAlias">false</entry>
     <entry key="kmlKmscore">40</entry>
     <entry key="mapWrapping">true</entry>
     <entry key="pngCompression">25</entry>
@@ -33,6 +37,7 @@
     <entry key="scalehintMapunitsPixel">false</entry>
     <entry key="framesDelay">1000</entry>
   </metadata>
+  <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>
     <enabled>false</enabled>
     <position>BOT_RIGHT</position>
@@ -47,4 +52,5 @@
   <maxRequestMemory>0</maxRequestMemory>
   <maxRenderingTime>0</maxRenderingTime>
   <maxRenderingErrors>0</maxRenderingErrors>
+  <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
 </wms>

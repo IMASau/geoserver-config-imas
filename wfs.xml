@@ -2,8 +2,9 @@
   <id>WFSInfoImpl--21071077:14b33c29d5b:-7ff8</id>
   <enabled>true</enabled>
   <name>WFS</name>
-  <title>IMAS Geoserver</title>
-  <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver contains IMAS geospatial data, and hosts other data sets of national and global interest and to the benefit of the community.</abstrct>
+  <title>IMAS Data Catalogue (WFS)</title>
+  <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
+  <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver catalogues IMAS geospatial data, and hosts a number of other data layers from its collaborators.</abstrct>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>

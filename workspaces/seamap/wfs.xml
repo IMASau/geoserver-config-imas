@@ -5,8 +5,9 @@
   </workspace>
   <enabled>true</enabled>
   <name>WFS</name>
-  <title>IMAS Geoserver</title>
-  <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver contains IMAS geospatial data, and hosts other data sets of national and global interest and to the benefit of the community.</abstrct>
+  <title>Seamap Australia Data Catalogue (WFS)</title>
+  <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
+  <abstrct>Seamap Australia brings together all available benthic habitat data collected on the Australian continental shelf and hosts this for the benefit of the broader research community. The product is a single, uniformly classified, continental-scale benthic habitat dataset.</abstrct>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>
@@ -19,6 +20,7 @@
     </org.geotools.util.Version>
   </versions>
   <citeCompliant>false</citeCompliant>
+  <onlineResource>https://seamapaustralia.org</onlineResource>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <metadata>
