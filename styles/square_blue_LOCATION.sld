@@ -11,17 +11,22 @@
 			<Title>A boring default style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Title>Sample</Title>
-					<Abstract>A red filled square with a 6 pixel size</Abstract>
+					<Title>Sampling locations</Title>
+					<Abstract>A blue filled square with a 8 pixel size</Abstract>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
 								<WellKnownName>square</WellKnownName>
 								<Fill>
-									<CssParameter name="fill">#FF0000</CssParameter>
+									<CssParameter name="fill">#4d4dff</CssParameter>
+                                    <CssParameter name="fill-opacity">0.8</CssParameter> 
 								</Fill>
-							</Mark>
-							<Size>6</Size>
+								<Stroke>
+									<CssParameter name="stroke">#000000</CssParameter>
+									<CssParameter name="stroke-width">0.5</CssParameter>
+								</Stroke>                                  
+							</Mark>                        
+							<Size>8</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
