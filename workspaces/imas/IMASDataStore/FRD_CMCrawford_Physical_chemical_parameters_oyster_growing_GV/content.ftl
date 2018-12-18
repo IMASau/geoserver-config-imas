@@ -27,12 +27,11 @@
     <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} &#181;g/L<BR>
   </#if>  
   <#if CHL?has_content>  
-    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g/L<BR><BR>
+    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g/L<BR>
   </#if> 
-	
+<BR> 	
  </div>
 	<#else>
-	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>

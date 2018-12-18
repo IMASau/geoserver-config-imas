@@ -21,10 +21,9 @@
     <b>Chlorophyll a:</b> ${feature.CHL_A.rawValue?string("0.00")} &#181;g/L<BR>
   </#if>    
   <BR>
-
+<BR> 	
  </div>
 	<#else>
-	<BR>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
