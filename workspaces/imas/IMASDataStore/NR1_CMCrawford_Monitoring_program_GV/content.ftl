@@ -18,9 +18,9 @@
   <b>Turbidity:</b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
   </#if>  
   
-  <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} mg/L<BR>
-  <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} mg/L<BR>  
-  <b>Silicate:</b> ${feature.SILICATE.value!"NA"} mg/L<BR>
+  <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} mg L<sup>-1<BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} mg L<sup>-1<BR>  
+  <b>Silicate:</b> ${feature.SILICATE.value!"NA"} mg L<sup>-1<BR>
   
   <#if CHL?has_content>  
   <b>Chlorophyll a:</b> ${feature.CHL_A.rawValue?string("0.0")} mg/L<BR>

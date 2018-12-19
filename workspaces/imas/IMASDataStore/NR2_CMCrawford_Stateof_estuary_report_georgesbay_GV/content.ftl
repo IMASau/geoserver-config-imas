@@ -19,18 +19,18 @@
   <b>Turbidity: </b>${feature.TURBIDITY.rawValue?string("0.00")} NTU<BR>
   </#if>  
   <#if Nitrogen?has_content>
-  <b>Total Nitrogen: </b>${feature.NOX.value} mg/L<BR>  
+  <b>Total Nitrogen: </b>${feature.NOX.value} mg L<sup>-1<BR>  
   </#if>  
   <#if Ammonia?has_content>
-  <b>Ammonia: </b>${feature.AMMONIA.value} mg/L<BR>
+  <b>Ammonia: </b>${feature.AMMONIA.value} mg L<sup>-1<BR>
   </#if>  
   <#if Silicate?has_content>
-  <b>Silicate: </b>${feature.SILICATE.value} mg/L<BR>
+  <b>Silicate: </b>${feature.SILICATE.value} mg L<sup>-1<BR>
   </#if> 
 <BR> 	
  </div>
 	<#else>
-	<h6>This information is limited.<BR>Proceed to step 3 and download the complete data.</h6>
+	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
 </#list>

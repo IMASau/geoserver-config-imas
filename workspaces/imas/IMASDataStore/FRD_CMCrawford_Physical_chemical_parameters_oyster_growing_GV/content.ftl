@@ -21,13 +21,13 @@
     <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.rawValue?string("0.0")} &#176;C<BR>
   </#if>  
     <#if Nitrate?has_content>  
-  <b>Nitrate: </b> ${feature.NITRATE.rawValue?string("0.0")} &#181;g/L<BR>
+  <b>Nitrate: </b> ${feature.NITRATE.rawValue?string("0.0")} &#181;g L<sup>-1<BR>
   </#if>  
   <#if Silicate?has_content>  
-    <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} &#181;g/L<BR>
+    <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} &#181;g L<sup>-1<BR>
   </#if>  
   <#if CHL?has_content>  
-    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g/L<BR>
+    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g L<sup>-1<BR>
   </#if> 
 <BR> 	
  </div>
