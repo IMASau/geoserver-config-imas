@@ -19,13 +19,13 @@
   <b>Turbidity: </b>${feature.TURBIDITY.rawValue?string("0.00")} NTU<BR>
   </#if>  
   <#if Nitrogen?has_content>
-  <b>Total Nitrogen: </b>${feature.NOX.value} mg L<sup>-1<BR>  
+  <b>Total Nitrogen: </b>${feature.NOX.value} mg L<sup>-1</sup><BR>  
   </#if>  
   <#if Ammonia?has_content>
-  <b>Ammonia: </b>${feature.AMMONIA.value} mg L<sup>-1<BR>
+  <b>Ammonia: </b>${feature.AMMONIA.value} mg L<sup>-1</sup><BR>
   </#if>  
   <#if Silicate?has_content>
-  <b>Silicate: </b>${feature.SILICATE.value} mg L<sup>-1<BR>
+  <b>Silicate: </b>${feature.SILICATE.value} mg L<sup>-1</sup><BR>
   </#if> 
 <BR> 	
  </div>

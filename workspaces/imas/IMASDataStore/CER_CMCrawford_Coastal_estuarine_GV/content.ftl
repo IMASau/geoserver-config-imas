@@ -20,13 +20,13 @@
     <b>Turbidity: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
   </#if>
   <#if Ammonia?has_content>
-    <b>Ammonia: </b> ${feature.AMMONIA.rawValue?string("0.0")}  mg L<sup>-1<BR>
+    <b>Ammonia: </b> ${feature.AMMONIA.rawValue?string("0.0")}  mg L<sup>-1</sup><BR>
   </#if>
   <#if Silicate?has_content>
-    <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} mg L<sup>-1<BR>
+    <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} mg L<sup>-1</sup><BR>
   </#if> 
   <#if CHL?has_content>
-    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.00")} mg L<sup>-1<BR>
+    <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.00")} mg L<sup>-1</sup><BR>
   </#if>  
 <BR> 	
  </div>

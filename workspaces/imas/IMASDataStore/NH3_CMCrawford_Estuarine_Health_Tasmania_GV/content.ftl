@@ -16,10 +16,10 @@
   </#if>
   
   <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate: </b> ${feature.NITRATE.value!"NA"} &#181;g L<sup>-1</sup><BR>
-  <b>Nitrite: </b> ${feature.NITRITE.value!"NA"} &#181;g L<sup>-1</sup><BR>  
-  <b>Silicate: </b> ${feature.SILICATE.value!"NA"} &#181;g L<sup>-1</sup><BR>
-  <b>Chlorophyll a: </b> ${feature.CHL_A.value!"NA"} &#181;g L<sup>-1</sup><BR>
+  <b>Nitrate: </b> ${feature.NITRATE.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>
+  <b>Nitrite: </b> ${feature.NITRITE.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>  
+  <b>Silicate: </b> ${feature.SILICATE.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>
+  <b>Chlorophyll a: </b> ${feature.CHL_A.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>
 <BR> 	
  </div>
 	<#else>

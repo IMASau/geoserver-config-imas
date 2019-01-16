@@ -10,9 +10,9 @@
   <b>Surface Salinity:</b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value}&#37;<BR>
   <b>Turbidity:</b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate:</b> ${feature.NITRATE.value} &#181;g L<sup>-1<BR>
-  <b>Nitrite:</b> ${feature.NITRITE.value} &#181;g L<sup>-1<BR>
-  <b>Ammonia:</b> ${feature.AMMONIA.value} &#181;g L<sup>-1<BR>
+  <b>Nitrate:</b> ${feature.NITRATE.value} &#181;g L<sup>-1</sup><BR>
+  <b>Nitrite:</b> ${feature.NITRITE.value} &#181;g L<sup>-1</sup><BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value} &#181;g L<sup>-1</sup><BR>
 <BR> 	
  </div>
 	<#else>

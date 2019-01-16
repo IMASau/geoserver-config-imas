@@ -11,10 +11,10 @@
   <b>Disolved Oxygen Saturation:</b> ${feature.DISOLVED_OXYGEN_SATURATION.value!"NA"}&#37;<BR>
   
   <b>Turbidity:</b> ${feature.TURBIDITY.value!"NA"} NTU<BR>
-  <b>Nitrate:</b> ${feature.NITRATE.value!"NA"} &#181;g L<sup>-1<BR>
-  <b>Nitrite:</b> ${feature.NITRITE.value!"NA"} &#181;g L<sup>-1<BR>
-  <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} &#181;g L<sup>-1<BR>
-  <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} &#181;g L<sup>-1<BR>
+  <b>Nitrate:</b> ${feature.NITRATE.value!"NA"} &#181;g L<sup>-1</sup><BR>
+  <b>Nitrite:</b> ${feature.NITRITE.value!"NA"} &#181;g L<sup>-1</sup><BR>
+  <b>Total Nitrogen:</b> ${feature.NOX.value!"NA"} &#181;g L<sup>-1</sup><BR>
+  <b>Ammonia:</b> ${feature.AMMONIA.value!"NA"} &#181;g L<sup>-1</sup><BR>
   
   <#assign CHL=feature.CHL_A.value> 
   <#if CHL?has_content>  
