@@ -1,3 +1,4 @@
+<#list features as feature>
 <h3>Urchin barren video surveys - scoring data</h3><br>
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="video_scoring_heading">
@@ -42,3 +43,4 @@
 </#list>
 </TR>
 </TABLE>
+</#list>
