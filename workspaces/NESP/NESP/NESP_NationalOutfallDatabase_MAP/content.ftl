@@ -9,7 +9,7 @@
   <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
   
-  <#assign BOD=feature.BDO 5-days.value>
+  <#assign BOD=feature.["BOD 5-days"].value>
   <#assign Grease=feature.Oil and Grease.value>
   <#assign Flow=feature.Flow volume.value> 
   <#assign P=feature.Total Phosphorus.value>
