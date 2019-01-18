@@ -20,7 +20,7 @@
   <#assign Coliforms=feature["Total coliforms"].value>
   <#assign FColiforms=feature["Faecal Coliforms"].value> 
   <#assign EColi=feature["E-coli"].value>   
-  <#assign Algae=feature["Total Algal Count"].value>     
+  <#assign Algae=feature["Total Algae Count"].value>     
 
   
   <#if BOD?has_content>  
@@ -63,7 +63,7 @@
   <b>Total Coliforms: </b> ${feature["Total Coliforms"].rawValue?string("0")} org 100mL<sup>-1</sup><BR>
   </#if>   
   <#if Algae?has_content>  
-  <b>Total algal count: </b> ${feature["Total Algal Count"].rawValue?string("0.0")} cells  ml<sup>-1</sup><BR>
+  <b>Total algal count: </b> ${feature["Total Algae Count"].rawValue?string("0.0")} cells  ml<sup>-1</sup><BR>
   </#if>  
  
 <BR> 	
