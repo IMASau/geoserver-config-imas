@@ -10,16 +10,32 @@
   <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.value} PSU<BR>
   <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
   
-  <#assign Oxygen=feature.DISOLVED_OXYGEN_SATURATION.value> 
+  <#assign Oxygen=feature.DISOLVED_OXYGEN_SATURATION.value>
+  <#assign Turbidity=feature.TURBIDITY.value>
+  <#assign Nitrate=feature.NITRATE.value>
+  <#assign Nitrite=feature.NITRITE.value>  
+  <#assign Silicate=feature.SILICATE.value>  
+  <#assign CHL=feature.CHL_A.value>   
+
+  
   <#if Oxygen?has_content>  
   <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.rawValue?string("0.0")}&#37;</sup><BR>
   </#if>
-  
-  <b>Turbidity: </b> ${feature.TURBIDITY.value} NTU<BR>
-  <b>Nitrate: </b> ${feature.NITRATE.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>
-  <b>Nitrite: </b> ${feature.NITRITE.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>  
-  <b>Silicate: </b> ${feature.SILICATE.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>
-  <b>Chlorophyll a: </b> ${feature.CHL_A.value!"NA"} &#181;g L<sup>-1</sup></sup><BR>
+  <#if Turbidity?has_content>  
+  <b>Turbidity: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU</sup><BR>
+  </#if>
+  <#if Nitrate?has_content>
+  <b>Nitrate: </b> ${feature.Nitrate.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>
+  </#if>  
+  <#if Nitrite?has_content>
+  <b>Nitrite: </b> ${feature.Nitrite.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>  
+  </#if>  
+  <#if Silicate?has_content>
+  <b>Silicate: </b> ${feature.Silicate.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>  
+  </#if>  
+  <#if CHL?has_content>
+  <b>Chlorophyll a: </b> ${feature.CHL.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>  
+  </#if>  
 <BR> 	
  </div>
 	<#else>
