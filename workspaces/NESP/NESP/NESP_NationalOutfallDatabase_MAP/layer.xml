@@ -1,0 +1,15 @@
+<layer>
+  <name>NESP_NationalOutfallDatabase_MAP</name>
+  <id>LayerInfoImpl-7bb16d75:1685f00f98f:438e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--39fd01fb:15ce4ab4f64:-232b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7bb16d75:1685f00f98f:438d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
