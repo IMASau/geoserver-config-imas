@@ -1,17 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a0a04fb:1626f1088c0:-1c83</id>
-  <name>NESP_NationalOutfallDatabase_DATA</name>
-  <nativeName>NESP_NationalOutfallDatabase_DATA</nativeName>
+  <id>FeatureTypeInfoImpl-7bb16d75:1685f00f98f:-4c4a</id>
+  <name>NESP_NationalOutfallDatabase_MAP</name>
+  <nativeName>NESP_NationalOutfallDatabase_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>National Outfall Database (Clean Ocean Foundation)</title>
-  <abstract>The National Outfall Database (NOD) maps the marine impacts of wastewater disposal to ocean and estuarine waters in Australia. The database currently tracks 29 indicators across 178 monitoring sites.&#xd;
-&#xd;
-This data was last updated 30/06/18 from https://www.outfalls.info/</abstract>
+  <title>National Outfall Database (Clean Ocean Foundation) - REDUCED MAPPING VIEW</title>
+  <abstract>Reduced view for mapping purposes.</abstract>
   <keywords>
     <string>features</string>
-    <string>NESP_NationalOutfallDatabase_DATA</string>
+    <string>NESP_NationalOutfallDatabase_MAP</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -24,21 +22,22 @@ This data was last updated 30/06/18 from https://www.outfalls.info/</abstract>
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>96.893387</minx>
+    <minx>-1.0E-6</minx>
     <maxx>153.605334</maxx>
     <miny>-43.315852</miny>
-    <maxy>-10.432288000000002</maxy>
+    <maxy>1.0E-6</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>96.893387</minx>
+    <minx>-1.0E-6</minx>
     <maxx>153.605334</maxx>
     <miny>-43.315852</miny>
-    <maxy>-10.432288000000002</maxy>
+    <maxy>1.0E-6</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
