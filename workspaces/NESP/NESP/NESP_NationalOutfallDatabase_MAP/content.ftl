@@ -15,8 +15,8 @@
   <#assign P=feature["Total Phosphorus"].value>
   <#assign N=feature["Total Nitrogen"].value>  
   <#assign PH=feature.pH.value>    
-  <#assign Turbidity=feature["Turbidity].value>
-  <#assign TDS=feature["Total Dissolved Solids].value>  
+  <#assign Turbidity=feature.Turbidity.value>
+  <#assign TDS=feature["Total Dissolved Solids"].value>  
   <#assign TSS=feature["Total Suspended Solids"].value>    
   <#assign Ent=feature.Enterococci.value>   
   <#assign Coliforms=feature["Total coliforms"].value>
@@ -38,7 +38,7 @@
   <b>pH: </b> ${feature.pH.rawValue?string("0.0")} pH units<BR>
   </#if> 
   <#if Turbidity?has_content>  
-  <b>pH: </b> ${feature["Turbidity"].rawValue?string("0.0")} NTU<BR>
+  <b>Turbidity: </b> ${feature.Turbidity.rawValue?string("0.0")} NTU<BR>
   </#if>  
   <#if TDS?has_content>  
   <b>Total Dissolved Solids: </b> ${feature["Total Dissolved Solids"].rawValue?string("0")} mg L<sup>-1</sup><BR>
