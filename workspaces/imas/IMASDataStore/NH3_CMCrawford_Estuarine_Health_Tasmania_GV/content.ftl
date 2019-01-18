@@ -19,22 +19,22 @@
 
   
   <#if Oxygen?has_content>  
-  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.rawValue?string("0.0")}&#37;</sup><BR>
+  <b>Disolved Oxygen Saturation: </b> ${feature.DISOLVED_OXYGEN_SATURATION.rawValue?string("0.0")}&#37;<BR>
   </#if>
   <#if Turbidity?has_content>  
-  <b>Turbidity: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU</sup><BR>
+  <b>Turbidity: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
   </#if>
   <#if Nitrate?has_content>
-  <b>Nitrate: </b> ${feature.Nitrate.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>
+  <b>Nitrate: </b> ${feature.Nitrate.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>
   </#if>  
   <#if Nitrite?has_content>
-  <b>Nitrite: </b> ${feature.Nitrite.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>  
+  <b>Nitrite: </b> ${feature.Nitrite.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
   </#if>  
   <#if Silicate?has_content>
-  <b>Silicate: </b> ${feature.Silicate.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>  
+  <b>Silicate: </b> ${feature.Silicate.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
   </#if>  
   <#if CHL?has_content>
-  <b>Chlorophyll a: </b> ${feature.CHL.rawValue?string("0.0")} &#181;g L<sup>-1</sup></sup><BR>  
+  <b>Chlorophyll a: </b> ${feature.CHL.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
   </#if>  
 <BR> 	
  </div>
