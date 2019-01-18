@@ -5,10 +5,8 @@
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
-  <b>Date: </b> ${feature.sample_date.value[0..11]}<BR>
-  <b>Surface Salinity: </b> ${feature.SURFACE_SALINITY.value} PSU<BR>
-  <b>Surface Temperature: </b> ${feature.SURFACE_TEMPERATURE.value} &#176;C<BR>
-  
+  <b>Date: </b> ${feature.sample_date.value[0..11]}<BR><BR>
+
   <#assign BOD=feature["BOD 5-days"].value>
   <#assign Grease=feature["Oil and Grease"].value>
   <#assign Flow=feature["Flow volume"].value> 
