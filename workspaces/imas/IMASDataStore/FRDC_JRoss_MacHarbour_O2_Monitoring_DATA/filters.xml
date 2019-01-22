@@ -15,6 +15,13 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>Logger_ID</name>
+        <type>string</type>
+        <label>Logger ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>GEOM</name>
         <type>geometrypropertytype</type>
         <label>GEOM</label>
