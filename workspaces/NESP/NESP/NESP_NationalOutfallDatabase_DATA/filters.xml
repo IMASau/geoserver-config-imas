@@ -8,13 +8,6 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>indicator</name>
-        <type>string</type>
-        <label>Indicator</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>site</name>
         <type>string</type>
         <label>Site</label>
