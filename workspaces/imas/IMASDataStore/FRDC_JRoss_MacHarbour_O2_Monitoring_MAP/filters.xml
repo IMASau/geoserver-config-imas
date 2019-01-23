@@ -15,9 +15,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Sensor_ID</name>
+        <name>Logger_ID</name>
         <type>string</type>
-        <label>Sensor ID</label>
+        <label>Logger ID</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
