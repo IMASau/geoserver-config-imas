@@ -1,4 +1,4 @@
-<h3>This is general area of modelling</h3><BR>
+<h3>This is the general area of Southern Ocean modelling</h3><BR>
 
 <#list features as feature>
 <div class="feature">
