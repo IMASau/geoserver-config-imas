@@ -8,6 +8,13 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>Taxon</name>
+        <type>string</type>
+        <label>Taxon</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>GEOM</name>
         <type>geometrypropertytype</type>
         <label>GEOM</label>
