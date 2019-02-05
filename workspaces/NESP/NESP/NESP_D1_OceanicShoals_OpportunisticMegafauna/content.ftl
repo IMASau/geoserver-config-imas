@@ -8,7 +8,7 @@
   
 		<b>Sighting location:</b> ${feature.Location.value}<BR>
 		<b>Date/Time:</b> ${feature.Date.value[0..11]} @ ${feature.Time_UTC.value}<BR>
-		<b>Taxa:</b> ${feature.Taxon.value} - ${feature.Species.value}<BR>		
+		<b>Taxa:</b> ${feature.Taxon.value}: ${feature.Species.value}<BR>		
 		<b>Count:</b> ${feature.Adults.value} adults, ${feature.Calves.value} (${feature.Total_No.value} total)<BR><BR>		
   
  </div>
