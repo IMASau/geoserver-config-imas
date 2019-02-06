@@ -9,8 +9,7 @@
 	<#if (feature_index < 5) >
 	<div class="feature">
 
-	<b>Date trip:</b> ${feature.DATE_TRIP.value[0.11]}<BR>
-	<b>Site code :</b> ${feature.SITE_CODE.value}<BR>
+	<b>Date trip:</b> ${feature.DATE_TRIP.value[0...11]}<BR>
     <b>Depth: </b> ${feature.DEPTH.value} m<BR>
 	<b>Secchi depth:</b> ${feature.DEPTH_SECCHI.rawValue?string("0")} m<BR>
     <b>S${feature.PIGMENT.value}:</b> ${feature.CONCENTRATION.value}<BR>

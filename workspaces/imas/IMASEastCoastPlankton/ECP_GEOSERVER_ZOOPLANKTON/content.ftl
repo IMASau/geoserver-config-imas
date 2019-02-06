@@ -9,8 +9,7 @@
 	<#if (feature_index < 5) >
 	<div class="feature">
 
-	<b>Site code :</b> ${feature.SITE_CODE.value}<br/>
-	<b>Date trip:</b> ${feature.DATE_TRIP.value[0.11]}<br/>
+	<b>Date trip:</b> ${feature.DATE_TRIP.value[0...11]}<br/>
 	<b>Taxon name:</b> ${feature.GENUS_SPECIES.value}<br/>
 	<b>Abundance:</b> ${feature.ABUNDANCE.rawValue?string("0.0")} m<sup>-3</sup><BR><BR>
 

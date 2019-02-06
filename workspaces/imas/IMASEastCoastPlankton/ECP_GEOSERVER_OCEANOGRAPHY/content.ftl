@@ -18,8 +18,7 @@
   <#assign Salinity=feature.SALINITY.value>
   <#assign Temp=feature.TEMP_ITS90.value> 	
 
-	<b>Date trip:</b> ${feature.DATETIME_START.value[0.11]}<BR>
-	<b>Site code :</b> ${feature.SITE_CODE.value}<BR>
+	<b>Date trip:</b> ${feature.DATETIME_START.value[0...11]}<BR>
   <#if Depth?has_content>  
     <b>Depth: </b> ${feature.DEPTH.rawValue?string("0.0")} m<BR>
   </#if>

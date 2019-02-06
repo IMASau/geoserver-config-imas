@@ -12,8 +12,7 @@
 	<#assign Ammonium=feature.AMMONIUM.value>
 	<#assign Nitrite=feature.NITRITE.value>
 
-	<b>Date trip:</b> ${feature.DATETIME_START.value[0.11]}<BR>
-	<b>Site code :</b> ${feature.SITE_CODE.value}<BR>
+	<b>Date trip:</b> ${feature.DATE_TRIP.value[0...11]}<BR>
     <b>Depth: </b> ${feature.DEPTH.value} m<BR>
     <b>Silicate: </b> ${feature.SILICATE.value}  &#181;M<BR>
     <b>Phosphate: </b> ${feature.PHOSPHATE.value}  &#181;M<BR>
