@@ -9,9 +9,9 @@
 	<#if (feature_index < 5) >
 	<div class="feature">
 
-	<b>Date trip:</b> ${feature.DATE_TRIP.value[0...11]}<br/>
+	<b>Date trip:</b> ${feature.DATE_TRIP.value[0..11]}<br/>
 	<b>Taxon name:</b> ${feature.GENUS_SPECIES.value}<br/>
-	<b>Abundance:</b> ${feature.ABUNDANCE.rawValue?string("0.0")} m<sup>-3</sup><BR><BR>
+	<b>Abundance:</b> ${feature.ABUNDANCE.rawValue?string("0.0")} individuals m<sup>-3</sup><BR><BR>
 
 	</div>
 		<#else>

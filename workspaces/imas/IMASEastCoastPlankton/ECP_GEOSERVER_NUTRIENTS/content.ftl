@@ -12,13 +12,13 @@
 	<#assign Ammonium=feature.AMMONIUM.value>
 	<#assign Nitrite=feature.NITRITE.value>
 
-	<b>Date trip:</b> ${feature.DATE_TRIP.value[0...11]}<BR>
+	<b>Date trip:</b> ${feature.DATE_TRIP.value[0..11]}<BR>
     <b>Depth: </b> ${feature.DEPTH.value} m<BR>
     <b>Silicate: </b> ${feature.SILICATE.value}  &#181;M<BR>
     <b>Phosphate: </b> ${feature.PHOSPHATE.value}  &#181;M<BR>
     <b>Nitrate + nitrite: </b> ${feature.NITRATE_NITRITE.value}  &#181;M<BR>
   <#if Ammonium?has_content>  
-    <b>Ammonium: </b> ${feature.AMNMONIUM.value}  &#181;M<BR>
+    <b>Ammonium: </b> ${feature.AMMONIUM.value}  &#181;M<BR>
   </#if> 		
   <#if Nitrite?has_content>  
     <b>Nitrite: </b> ${feature.NITRITE.value}  &#181;M<BR>
