@@ -8,9 +8,23 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>SITE_CODE</name>
+        <type>string</type>
+        <label>Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>GEOM</name>
         <type>geometrypropertytype</type>
         <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PIGMENT</name>
+        <type>string</type>
+        <label>Pigment</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
