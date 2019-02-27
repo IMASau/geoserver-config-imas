@@ -1,352 +1,329 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor
+  version="1.0.0"
+  xmlns="http://www.opengis.net/sld"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gml="http://www.opengis.net/gml"
+  xsi:schemaLocation="http://www.opengis.net/sld
+    http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <se:Name>AustralianMarineParks</se:Name>
+    <Name>AustralianMarineParks</Name>
     <UserStyle>
-      <se:Name>AustralianMarineParks</se:Name>
-      <se:FeatureTypeStyle>
-        <se:Rule>
-          <se:Name>Sanctuary Zone (IUCN Ia)</se:Name>
-          <se:Description>
-            <se:Title>Sanctuary Zone (IUCN Ia)</se:Title>
-          </se:Description>
+      <Name>AustralianMarineParks</Name>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Sanctuary Zone (IUCN Ia)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#f7c0d8</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>National Park Zone (IUCN II)</se:Name>
-          <se:Description>
-            <se:Title>National Park Zone (IUCN II) (Marine National Park Zone (IUCN II) in the SE)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#f7c0d8</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>National Park Zone (IUCN II) (Marine National Park Zone (IUCN II) in the SE)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escapeChar='!'>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>%Park Zone%II%</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#7bbc63</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Recreational Use Zone (IUCN IV)</se:Name>
-          <se:Description>
-            <se:Title>Recreational Use Zone (IUCN IV)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#7bbc63</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Recreational Use Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Recreational Use Zone (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#fdba33</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Habitat Protection Zone (Lord Howe) (IUCN IV)</se:Name>
-          <se:Description>
-            <se:Title>Habitat Protection Zone (Lord Howe) (IUCN IV)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fdba33</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Habitat Protection Zone (Lord Howe) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (Lord Howe) (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#fff8a3</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:GraphicFill>
-                <se:Graphic>
-                  <se:Mark>
-                    <se:WellKnownName>shape://slash</se:WellKnownName>
-                    <se:Stroke>
-                      <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                    </se:Stroke>
-                  </se:Mark>
-                  <se:Size>4.5</se:Size>
-                </se:Graphic>
-              </se:GraphicFill>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Habitat Protection Zone (Reefs) (IUCN IV)</se:Name>
-          <se:Description>
-            <se:Title>Habitat Protection Zone (Reefs) (IUCN IV)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff8a3</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#686868</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>4.5</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Habitat Protection Zone (Reefs) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (Reefs) (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#fff8a3</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:GraphicFill>
-                <se:Graphic>
-                  <se:Mark>
-                    <se:WellKnownName>shape://slash</se:WellKnownName>
-                    <se:Stroke>
-                      <se:SvgParameter name="stroke">#7bbc63</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                    </se:Stroke>
-                  </se:Mark>
-                  <se:Size>9</se:Size>
-                </se:Graphic>
-              </se:GraphicFill>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Habitat Protection Zone (IUCN IV)</se:Name>
-          <se:Description>
-            <se:Title>Habitat Protection Zone (IUCN IV)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff8a3</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#7bbc63</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>9</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Habitat Protection Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#fff8a3</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Multiple Use Zone (IUCN VI)</se:Name>
-          <se:Description>
-            <se:Title>Multiple Use Zone (IUCN VI)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff8a3</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Multiple Use Zone (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Multiple Use Zone (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#b9e6fb</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Special Purpose Zone (Norfolk) (IUCN VI)</se:Name>
-          <se:Description>
-            <se:Title>Special Purpose Zone (Norfolk) (IUCN VI)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#b9e6fb</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Norfolk) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#6dafe0</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:GraphicFill>
-                <se:Graphic>
-                  <se:Mark>
-                    <se:WellKnownName>shape://slash</se:WellKnownName>
-                    <se:Stroke>
-                      <se:SvgParameter name="stroke">#fff8a3</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                    </se:Stroke>
-                  </se:Mark>
-                  <se:Size>10.5</se:Size>
-                </se:Graphic>
-              </se:GraphicFill>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Special Purpose Zone (Mining Exclusion) (IUCN VI)</se:Name>
-          <se:Description>
-            <se:Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#6dafe0</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#fff8a3</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10.5</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Mining Exclusion) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#6dafe0</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:GraphicFill>
-                <se:Graphic>
-                  <se:Mark>
-                    <se:WellKnownName>shape://slash</se:WellKnownName>
-                    <se:Stroke>
-                      <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-                    </se:Stroke>
-                  </se:Mark>
-                  <se:Size>9</se:Size>
-                </se:Graphic>
-              </se:GraphicFill>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Special Purpose Zone (Trawl) (IUCN VI)</se:Name>
-          <se:Description>
-            <se:Title>Special Purpose Zone (Trawl) (IUCN VI)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#6dafe0</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#686868</CssParameter>
+                      <CssParameter name="stroke-width">2</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>9</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Special Purpose Zone (Trawl) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Trawl) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#6dafe0</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:GraphicFill>
-                <se:Graphic>
-                  <se:Mark>
-                    <se:WellKnownName>shape://backslash</se:WellKnownName>
-                    <se:Stroke>
-                      <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                    </se:Stroke>
-                  </se:Mark>
-                  <se:Size>7.5</se:Size>
-                </se:Graphic>
-              </se:GraphicFill>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>Special Purpose Zone (IUCN VI)</se:Name>
-          <se:Description>
-            <se:Title>Special Purpose Zone (IUCN VI)</se:Title>
-          </se:Description>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#6dafe0</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://backslash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ffffff</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>7.5</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Special Purpose Zone (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#6dafe0</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#686868</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-				<se:Rule>
-				  <se:Description>
-					<se:Title>(zoom in to see AMP Name)</se:Title>
-				  </se:Description>
-					<se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>                   
-          				<se:TextSymbolizer>
-            				<se:Label>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#6dafe0</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#686868</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+				<Rule>
+					<Title>(zoom in to see AMP Name)</Title>
+					<MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+          				<TextSymbolizer>                         
+            				<Label>
               					<ogc:PropertyName>RESNAME</ogc:PropertyName>
-            				</se:Label>		
-							<se:LabelPlacement>
-								<se:PointPlacement>
-									<se:AnchorPoint>
-									<se:AnchorPointX>0.5</se:AnchorPointX>
-									<se:AnchorPointY>0.5</se:AnchorPointY>
-									</se:AnchorPoint>
-								</se:PointPlacement>
-							</se:LabelPlacement>                          
-						</se:TextSymbolizer>              
- 				</se:Rule>          
-      </se:FeatureTypeStyle>
+            				</Label>
+            				<Font>
+              					<CssParameter name="font-family">sans-serif</CssParameter>
+              					<CssParameter name="font-size">16</CssParameter>								
+            				</Font>
+	 							<LabelPlacement>
+								<PointPlacement>
+									<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.5</AnchorPointY>
+									</AnchorPoint>
+								</PointPlacement>
+							</LabelPlacement>
+						</TextSymbolizer>              
+ 				</Rule>          
+      </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
