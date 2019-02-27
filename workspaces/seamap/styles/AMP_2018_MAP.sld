@@ -320,7 +320,7 @@
         
 				<Rule>
 					<Title>(zoom in to see AMP Name)</Title>
-					<MaxScaleDenominator>50000000</MaxScaleDenominator>                   
+					<MaxScaleDenominator>20000000</MaxScaleDenominator>                   
           				<TextSymbolizer> 
                           <Geometry>
   <ogc:Function name="centroid">
@@ -331,7 +331,7 @@
               					<ogc:PropertyName>RESNAME</ogc:PropertyName>
             				</Label>            				<Font>
               					<CssParameter name="font-family">sans-serif</CssParameter>
-              					<CssParameter name="font-size">13</CssParameter>								
+              					<CssParameter name="font-size">12</CssParameter>								
             				</Font>
                             <VendorOption name="partials">true</VendorOption>
 
