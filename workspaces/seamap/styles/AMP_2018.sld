@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld">
   <NamedLayer>
     <se:Name>AustralianMarineParks</se:Name>
     <UserStyle>
@@ -327,6 +327,25 @@
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
+				<se:Rule>
+				  <se:Description>
+					<se:Title>(zoom in to see AMP Name)</se:Title>
+				  </se:Description>
+					<se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>                   
+          				<se:TextSymbolizer>
+            				<se:Label>
+              					<ogc:PropertyName>RESNAME</ogc:PropertyName>
+            				</se:Label>		
+							<se:LabelPlacement>
+								<se:PointPlacement>
+									<se:AnchorPoint>
+									<se:AnchorPointX>0.5</se:AnchorPointX>
+									<se:AnchorPointY>0.5</se:AnchorPointY>
+									</se:AnchorPoint>
+								</se:PointPlacement>
+							</se:LabelPlacement>                          
+						</se:TextSymbolizer>              
+ 				</se:Rule>          
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
