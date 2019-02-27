@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_AMP2018</name>
+  <id>LayerInfoImpl-7c15cfb8:1692c9017e1:5161</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7c15cfb8:1692c9017e1:515d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7c15cfb8:1692c9017e1:5160</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
