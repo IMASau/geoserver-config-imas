@@ -22,6 +22,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
             </Fill>
@@ -41,6 +42,7 @@
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
             </Fill>
@@ -60,7 +62,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
             </Fill>
             <Stroke>
@@ -79,7 +82,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
             </Fill>
             <Stroke>
@@ -89,7 +93,8 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+		  <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -114,7 +119,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
             </Fill>
             <Stroke>
@@ -124,7 +130,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-            <Fill>
+		  <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -149,7 +155,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
             </Fill>
             <Stroke>
@@ -168,7 +175,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
             </Fill>
             <Stroke>
@@ -187,7 +195,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
             <Stroke>
@@ -197,7 +206,8 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -222,7 +232,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
             <Stroke>
@@ -232,7 +243,8 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -257,7 +269,8 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
             <Stroke>
@@ -267,6 +280,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -292,6 +306,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
@@ -302,25 +317,32 @@
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
+        
 				<Rule>
 					<Title>(zoom in to see AMP Name)</Title>
-					<MaxScaleDenominator>10000000</MaxScaleDenominator>                   
-          				<TextSymbolizer>                         
+					<MaxScaleDenominator>50000000</MaxScaleDenominator>                   
+          				<TextSymbolizer> 
+                          <Geometry>
+  <ogc:Function name="centroid">
+    <ogc:PropertyName>sitegeom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
             				<Label>
               					<ogc:PropertyName>RESNAME</ogc:PropertyName>
-            				</Label>
-            				<Font>
+            				</Label>            				<Font>
               					<CssParameter name="font-family">sans-serif</CssParameter>
-              					<CssParameter name="font-size">16</CssParameter>								
+              					<CssParameter name="font-size">14</CssParameter>								
             				</Font>
 	 							<LabelPlacement>
 								<PointPlacement>
 									<AnchorPoint>
-									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointX>1</AnchorPointX>
 									<AnchorPointY>0.5</AnchorPointY>
 									</AnchorPoint>
 								</PointPlacement>
 							</LabelPlacement>
+                            <VendorOption name="partials">true</VendorOption>
+
 						</TextSymbolizer>              
  				</Rule>          
       </FeatureTypeStyle>
