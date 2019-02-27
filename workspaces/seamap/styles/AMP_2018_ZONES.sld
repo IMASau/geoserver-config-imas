@@ -12,33 +12,7 @@
     <Name>AustralianMarineParks - ZONES</Name>
     <UserStyle>
       <Name>AustralianMarineParks - ZONES</Name>
-      <FeatureTypeStyle>
-		<Rule>
-		  <Title>Zone Name</Title>                 
-          	<TextSymbolizer> 
-              <Geometry>
-				<ogc:Function name="centroid">
-				<ogc:PropertyName>geom</ogc:PropertyName>
-				</ogc:Function>
-			  </Geometry>
-			  <Label>
-              	<ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              </Label>
-			  <Font>
-              	<CssParameter name="font-family">sans-serif</CssParameter>
-              	<CssParameter name="font-size">12</CssParameter>								
-              </Font>
-	 			<LabelPlacement>
-				  <PointPlacement>
-					<AnchorPoint>
-					<AnchorPointX>1</AnchorPointX>
-					<AnchorPointY>0.5</AnchorPointY>
-					</AnchorPoint>
-				  </PointPlacement>
-				</LabelPlacement>
-                <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
-		</Rule>   	  
+      <FeatureTypeStyle> 	  
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
