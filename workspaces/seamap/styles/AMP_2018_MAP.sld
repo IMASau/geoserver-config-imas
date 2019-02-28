@@ -317,26 +317,25 @@
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
-        
-				<Rule>
-					<Title>(zoom in to see AMP Name)</Title>
-					<MaxScaleDenominator>20000000</MaxScaleDenominator>                   
-          				<TextSymbolizer> 
-                          <Geometry>
-  <ogc:Function name="centroid">
-    <ogc:PropertyName>geom_GROUPED</ogc:PropertyName>
-  </ogc:Function>
-</Geometry>
-            				<Label>
-              					<ogc:PropertyName>RESNAME</ogc:PropertyName>
-            				</Label>            				<Font>
-              					<CssParameter name="font-family">sans-serif</CssParameter>
-              					<CssParameter name="font-size">12</CssParameter>								
-            				</Font>
-                            <VendorOption name="partials">true</VendorOption>
-
-						</TextSymbolizer>              
- 				</Rule>          
+ 		<Rule>
+		  <Title>(zoom in to see AMP Name)</Title>
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom_GROUPED</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
+           		  </Label>
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>								
+          		  </Font>
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
