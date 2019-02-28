@@ -19,7 +19,7 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_NETWORK</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -40,8 +40,7 @@
               <ogc:Literal>Coral Sea</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#ffc021</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -60,8 +59,7 @@
               <ogc:Literal>North</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#ea5a68</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -80,8 +78,7 @@
               <ogc:Literal>North-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#b461dd</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>	
@@ -100,8 +97,7 @@
               <ogc:Literal>Temperate East</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#24c295</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -120,8 +116,7 @@
               <ogc:Literal>South-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#485ec1</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -140,8 +135,7 @@
               <ogc:Literal>South-east</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#0eb0ea</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -160,8 +154,7 @@
               <ogc:Literal>HIMI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#56ec00</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
