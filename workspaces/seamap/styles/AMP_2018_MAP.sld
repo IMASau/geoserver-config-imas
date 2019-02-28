@@ -318,7 +318,7 @@
           </PolygonSymbolizer>
         </Rule>
  		<Rule>
-		  <Title>(zoom in to see AMP Name)</Title>
+		  <Title>(zoom in for Reserve Name)</Title>
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>

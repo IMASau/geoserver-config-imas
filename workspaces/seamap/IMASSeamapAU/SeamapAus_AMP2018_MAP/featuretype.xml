@@ -1,13 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7c15cfb8:1692c9017e1:52ae</id>
-  <name>SeamapAus_BOUNDARIES_AMP2018_MAP</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2018_MAP</nativeName>
+  <id>FeatureTypeInfoImpl--7ff863ee:169342ca2c5:3326</id>
+  <name>SeamapAus_AMP2018_MAP</name>
+  <nativeName>SeamapAus_AMP2018_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian Marine Parks (AMPs) 2018 - MAP</title>
+  <abstract>Catalogued as third-party layer for Seamap Australia (https://seamapaustralia.org/map)</abstract>
   <keywords>
-    <string>SeamapAus_BOUNDARIES_AMP2018_MAP</string>
+    <string>SeamapAus_AMP2018_MAP</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -34,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-4599472.142522038</minx>
-    <maxx>3447053.332833917</maxx>
-    <miny>-7183626.73173895</miny>
-    <maxy>-1047063.6342078854</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>-175.97769536141647</minx>
+    <maxx>178.95983351478912</maxx>
+    <miny>-61.77865382458602</miny>
+    <maxy>-2.719523594200699</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-4599472.142522038</minx>
-    <maxx>3447053.332833917</maxx>
-    <miny>-7183626.73173895</miny>
-    <maxy>-1047063.6342078854</maxy>
+    <minx>-175.97769536141647</minx>
+    <maxx>178.95983351478912</maxx>
+    <miny>-61.77865382458602</miny>
+    <maxy>-2.719523594200699</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
