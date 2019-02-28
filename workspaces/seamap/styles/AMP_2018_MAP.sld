@@ -323,7 +323,7 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_GROUPED</ogc:PropertyName>
+                        <ogc:PropertyName>geom_RESERVE</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>

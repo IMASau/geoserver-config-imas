@@ -19,7 +19,7 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_GROUPED</ogc:PropertyName>
+                        <ogc:PropertyName>geom_NETWORK</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -27,7 +27,7 @@
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
 			</TextSymbolizer>              
@@ -41,6 +41,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#ffc021</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -60,6 +61,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#ea5a68</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -79,6 +81,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#b461dd</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>	
@@ -98,6 +101,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#24c295</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -117,6 +121,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#485ec1</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -136,6 +141,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#0eb0ea</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -155,6 +161,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#56ec00</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  

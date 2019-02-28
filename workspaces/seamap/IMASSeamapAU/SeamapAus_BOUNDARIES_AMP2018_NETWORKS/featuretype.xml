@@ -1,13 +1,13 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--7ff863ee:1692ea38dcc:-7fc5</id>
+  <id>FeatureTypeInfoImpl--7ff863ee:16931835b1b:2c14</id>
   <name>SeamapAus_BOUNDARIES_AMP2018_NETWORKS</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2018_NETWORKS</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2018_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian Marine Parks (AMPs) 2018 - NETWORKS</title>
   <keywords>
-    <string>SeamapAus_BOUNDARIES_AMP2018_NETWORKS</string>
+    <string>SeamapAus_BOUNDARIES_AMP2018_MAP</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -38,17 +38,19 @@
     <maxx>3447053.332833917</maxx>
     <miny>-7183626.73173895</miny>
     <maxy>-1047063.6342078854</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-4599472.142522038</minx>
     <maxx>3447053.332833917</maxx>
     <miny>-7183626.73173895</miny>
     <maxy>-1047063.6342078854</maxy>
-    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
