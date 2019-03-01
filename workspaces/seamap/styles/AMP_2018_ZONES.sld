@@ -301,7 +301,26 @@
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>       
+        </Rule>
+ 		<Rule>
+		  <Title>(zoom in for unique Zone IDs)</Title>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>POLYGONID</ogc:PropertyName>
+           		  </Label>
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>					
+          		  </Font>
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>   		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

@@ -9,12 +9,12 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>AustralianMarineParks - NETWORKS</Name>
+    <Name>AustralianMarineParks - RESERVES</Name>
     <UserStyle>
-      <Name>AustralianMarineParks - NETWORKS</Name>
-      <FeatureTypeStyle>          
+      <Name>AustralianMarineParks - RESERVES</Name>
+      <FeatureTypeStyle>        
         <Rule>
-          <Title>Coral Sea Network</Title>
+          <Title>Coral Sea</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -33,7 +33,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>North Network (multiple Reserves)</Title>
+            <Title>North</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -52,7 +52,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>North-west Network (multiple Reserves)</Title>
+            <Title>North-west</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -71,7 +71,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Temperate East Network (multiple Reserves)</Title>
+            <Title>Temperate East</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -90,7 +90,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>South-west Network (multiple Reserves)</Title>
+            <Title>South-west</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -109,7 +109,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>South-east Network (multiple Reserves)</Title>
+            <Title>South-east</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -128,7 +128,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>HIMI Network</Title>
+            <Title>HIMI</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
@@ -147,7 +147,7 @@
           </PolygonSymbolizer>
         </Rule>  
  		<Rule>
-		  <Title>(zoom in for Reserve names)</Title>
+		  <Title>(zoom in to see Reserve Name)</Title>
 		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
@@ -160,11 +160,11 @@
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
 			</TextSymbolizer>              
- 		</Rule>          
+ 		</Rule>    		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
