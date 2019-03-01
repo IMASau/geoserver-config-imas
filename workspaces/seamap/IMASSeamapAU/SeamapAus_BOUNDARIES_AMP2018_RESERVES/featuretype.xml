@@ -8,7 +8,6 @@
   <title>Australian Marine Parks (AMPs) 2018 - RESERVES</title>
   <abstract>Provides boundary layers for subsetting in Seamap Australia</abstract>
   <keywords>
-    <string>features</string>
     <string>SeamapAus_BOUNDARIES_AMP2018_RESERVES</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 

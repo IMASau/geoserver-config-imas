@@ -25,6 +25,7 @@
            		  <Label>
            			<ogc:PropertyName>NETNAME</ogc:PropertyName>
            		  </Label>
+              
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
            			<CssParameter name="font-size">14</CssParameter>								

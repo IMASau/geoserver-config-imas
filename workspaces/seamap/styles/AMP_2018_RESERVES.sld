@@ -158,6 +158,14 @@
            		  <Label>
            			<ogc:PropertyName>RESNAME</ogc:PropertyName>
            		  </Label>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>                    
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
            			<CssParameter name="font-size">13</CssParameter>								

@@ -9,10 +9,33 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>AustralianMarineParks - ZONES</Name>
+    <Name>AustralianMarineParks - ZONES by NETWORK</Name>
     <UserStyle>
-      <Name>AustralianMarineParks - ZONES</Name>
-      <FeatureTypeStyle> 	  
+      <Name>AustralianMarineParks - ZONES by NETWORK</Name>
+      <FeatureTypeStyle> 	
+ 		<Rule>
+		  <Title>Zone Type</Title>
+		  <MaxScaleDenominator>50000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+
+           		  <Label>
+           			<ogc:PropertyName>NETNAME</ogc:PropertyName> - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           		  </Label>     
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>					
+          		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>               
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>         
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -159,25 +182,7 @@
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
-        <Rule>
-            <Title>Multiple Use Zone (IUCN VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Multiple Use Zone</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#b9e6fb</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>					  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
+
         <Rule>
             <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -302,33 +307,139 @@
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
- 		<Rule>
-		  <Title>(zoom in for unique Zone IDs)</Title>
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>POLYGONID</ogc:PropertyName>
-           		  </Label>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>
-           			</PointPlacement>
-         		   </LabelPlacement>      
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>					
-          		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
- 		</Rule>   		
+        <Rule>
+          <Title>(Coral Sea)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>Coral Sea</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ffc021</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>(North)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>North</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ea5a68</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>(North-west)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>North-west</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>	
+			  </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#b461dd</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>(Temperate East)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>Temperate East</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#24c295</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>(South-west)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>South-west</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#485ec1</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>(South-east)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>South-east</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0eb0ea</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>(HIMI)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>HIMI</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#56ec00</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>           		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
