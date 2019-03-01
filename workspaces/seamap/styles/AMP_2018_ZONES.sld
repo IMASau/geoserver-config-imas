@@ -318,7 +318,6 @@
            			<CssParameter name="font-family">sans-serif</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>					
           		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
 			</TextSymbolizer>              
  		</Rule>   		
       </FeatureTypeStyle>
