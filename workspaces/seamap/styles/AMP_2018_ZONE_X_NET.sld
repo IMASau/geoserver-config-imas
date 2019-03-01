@@ -19,7 +19,7 @@
 			<TextSymbolizer> 
 
            		  <Label>
-           			<ogc:PropertyName>NETNAME</ogc:PropertyName> - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           			<ogc:PropertyName>NETNAME</ogc:PropertyName> Network - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
            		  </Label>     
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
@@ -45,6 +45,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -64,6 +65,7 @@
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -83,6 +85,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -102,6 +105,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -137,6 +141,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -172,6 +177,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -191,6 +197,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -210,6 +217,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -218,7 +226,7 @@
               <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
-          </PolygonSymbolizer>
+          </PolygonSymbolizer>		  
           <PolygonSymbolizer>
             <Fill>
               <GraphicFill>
@@ -245,6 +253,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -280,6 +289,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -315,6 +325,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -326,138 +337,145 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>(Coral Sea)</Title>
+          <Title>Coral Sea Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>Coral Sea</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>			  
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ffc021</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>(North)</Title>
+            <Title>North Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>North</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>		  
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ea5a68</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>(North-west)</Title>
+            <Title>North-west Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>North-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>			  
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>	
 			  </Fill>
             <Stroke>
               <CssParameter name="stroke">#b461dd</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>(Temperate East)</Title>
+            <Title>Temperate East Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>Temperate East</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>			  
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#24c295</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>(South-west)</Title>
+            <Title>South-west Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>South-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>		  
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#485ec1</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>(South-east)</Title>
+            <Title>South-east Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>South-east</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>			  
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#0eb0ea</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>(HIMI)</Title>
+            <Title>HIMI Network boundary</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>HIMI</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>			  
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_NETWORK</ogc:PropertyName></Geometry>				            		  
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#56ec00</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>           		
+        </Rule> 		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
