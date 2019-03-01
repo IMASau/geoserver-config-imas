@@ -45,6 +45,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -64,6 +65,7 @@
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -83,6 +85,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -102,6 +105,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -137,6 +141,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -172,6 +177,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -191,6 +197,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -210,6 +217,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -245,6 +253,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -280,6 +289,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -290,6 +300,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		            
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -315,6 +326,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		            
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.75</CssParameter>					  
@@ -327,13 +339,8 @@
         </Rule>
         <Rule>
             <Title>Reserve Boundary</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
-              <ogc:Literal>HIMI</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>			  
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_RESERVE</ogc:PropertyName></Geometry>				            
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
