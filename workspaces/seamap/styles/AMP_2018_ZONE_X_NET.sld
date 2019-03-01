@@ -182,7 +182,25 @@
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
-
+        <Rule>
+            <Title>Multiple Use Zone (IUCN VI)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+              <ogc:Literal>Multiple Use Zone</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#b9e6fb</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
         <Rule>
             <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -322,7 +340,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ffc021</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -341,7 +359,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ea5a68</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -360,7 +378,7 @@
 			  </Fill>
             <Stroke>
               <CssParameter name="stroke">#b461dd</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -379,7 +397,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#24c295</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -398,7 +416,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#485ec1</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -417,7 +435,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#0eb0ea</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -436,7 +454,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#56ec00</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>           		
