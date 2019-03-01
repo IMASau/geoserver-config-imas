@@ -21,8 +21,7 @@
               <ogc:Literal>Sanctuary Zone (IUCN Ia)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
             </Fill>
@@ -41,8 +40,7 @@
               <ogc:Literal>%Park Zone%II%</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
             </Fill>
@@ -61,8 +59,7 @@
               <ogc:Literal>Recreational Use Zone (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+          <PolygonSymbolizer>	
 		  <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
             </Fill>
@@ -81,8 +78,7 @@
               <ogc:Literal>Habitat Protection Zone (Lord Howe) (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+          <PolygonSymbolizer>	
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
             </Fill>
@@ -92,8 +88,7 @@
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>		  
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -119,7 +114,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
             </Fill>
@@ -154,8 +148,7 @@
               <ogc:Literal>Habitat Protection Zone (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+          <PolygonSymbolizer>	
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
             </Fill>
@@ -175,7 +168,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
             </Fill>
@@ -194,8 +186,7 @@
               <ogc:Literal>Special Purpose Zone (Norfolk) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+          <PolygonSymbolizer>	
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
@@ -205,8 +196,7 @@
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+          <PolygonSymbolizer>	
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -232,7 +222,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
@@ -243,7 +232,6 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -269,7 +257,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
@@ -280,7 +267,6 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -305,8 +291,7 @@
               <ogc:Literal>Special Purpose Zone (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+          <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
             </Fill>
@@ -323,7 +308,7 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_RESERVE</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -334,6 +319,7 @@
            			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
+                    <VendorOption name="group">yes</VendorOption>
 			</TextSymbolizer>              
  		</Rule>          
       </FeatureTypeStyle>

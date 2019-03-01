@@ -9,10 +9,33 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>AustralianMarineParks - ZONES</Name>
+    <Name>AustralianMarineParks - ZONES by RESERVE</Name>
     <UserStyle>
-      <Name>AustralianMarineParks - ZONES</Name>
-      <FeatureTypeStyle> 	  
+      <Name>AustralianMarineParks - ZONES by RESERVE</Name>
+      <FeatureTypeStyle> 	
+ 		<Rule>
+		  <Title>Zone Type</Title>
+		  <MaxScaleDenominator>50000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName> - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           		  </Label>     
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>					
+          		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>               
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>         
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -28,7 +51,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -47,7 +70,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -66,7 +89,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -85,7 +108,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -120,7 +143,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -155,7 +178,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -174,7 +197,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -193,7 +216,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -228,7 +251,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -263,7 +286,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -298,37 +321,29 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
- 		<Rule>
-		  <Title>(zoom in for unique Zone IDs)</Title>
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>POLYGONID</ogc:PropertyName>
-           		  </Label>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>
-           			</PointPlacement>
-         		   </LabelPlacement>      
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>					
-          		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
- 		</Rule>   		
+        <Rule>
+            <Title>Reserve Boundary</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:Literal>HIMI</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#f2f2f2</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>           		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
