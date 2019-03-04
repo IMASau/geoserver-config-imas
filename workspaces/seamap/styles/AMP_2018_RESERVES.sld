@@ -12,7 +12,34 @@
     <Name>AustralianMarineParks - RESERVES</Name>
     <UserStyle>
       <Name>AustralianMarineParks - RESERVES</Name>
-      <FeatureTypeStyle>        
+      <FeatureTypeStyle>
+ 		<Rule>
+		  <Title>(zoom in to see Reserve Name)</Title>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
+           		  </Label>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>                    
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">13</CssParameter>								
+          		  </Font>
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>         
         <Rule>
           <Title>Coral Sea</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -145,34 +172,7 @@
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>  
- 		<Rule>
-		  <Title>(zoom in to see Reserve Name)</Title>
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
-           		  </Label>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>
-           			</PointPlacement>
-         		   </LabelPlacement>                    
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
-          		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
- 		</Rule>    		
+        </Rule>     		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

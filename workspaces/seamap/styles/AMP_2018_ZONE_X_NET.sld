@@ -57,7 +57,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>National Park Zone (IUCN II) (Marine National Park Zone (IUCN II) in the SE)</Title>
+            <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
