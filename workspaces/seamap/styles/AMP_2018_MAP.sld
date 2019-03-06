@@ -13,6 +13,25 @@
     <UserStyle>
       <Name>AustralianMarineParks</Name>
       <FeatureTypeStyle>
+ 		<Rule>
+		  <Title>(zoom in for Reserve Name)</Title>
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom_RESERVE</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
+           		  </Label>
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>								
+          		  </Font>
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule> 	  
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -25,6 +44,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -34,7 +54,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>National Park Zone (IUCN II) (Marine National Park Zone (IUCN II) in the SE)</Title>
+            <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
@@ -45,6 +65,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -65,6 +86,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -85,6 +107,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -122,6 +145,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -158,6 +182,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -178,6 +203,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -198,6 +224,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -235,6 +262,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -272,6 +300,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -309,6 +338,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -316,26 +346,7 @@
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>
- 		<Rule>
-		  <Title>(zoom in for Reserve Name)</Title>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_RESERVE</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
-           		  </Label>
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
-          		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
- 		</Rule>          
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
