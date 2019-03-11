@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>Date</name>
+        <name>UVC_Date</name>
         <type>datetime</type>
-        <label>Date</label>
+        <label>UVC Date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
