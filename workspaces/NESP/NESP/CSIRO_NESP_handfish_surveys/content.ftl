@@ -26,7 +26,7 @@
 		<b>Fish sighting depth:</b> ${feature.Sighted_Depth_m.rawValue?string("0.0")} m<BR>
 	</#if>
 	
-  <#if>		
+  </#if>		
 
 <BR> 	
  </div>
