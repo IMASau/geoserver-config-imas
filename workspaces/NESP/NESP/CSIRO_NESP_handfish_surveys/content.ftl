@@ -10,22 +10,20 @@
   <#assign Depth=feature.Sighted_Depth_m.value>  
   <#assign Area=feature.Swath_Area_m2.value>  
   
-  <#if Fish_Obs?has_content>
-  
-		<b>Survey date: </b> ${feature.UVC_Date.value[0..11]}<BR>
-		<b>Site: </b> ${feature.Site.value}<BR>
-		<b>Transect no.: </b> ${feature.Transect_Number.value}<BR>
+	<b>Survey date: </b> ${feature.UVC_Date.value[0..11]}<BR>
+	<b>Site: </b> ${feature.Site.value}<BR>
+	<b>Transect no: </b> ${feature.Transect_Number.value}<BR>
 	<#if Area?has_content>  
 		<b>Area searched: </b> ${feature.Swath_Area_m2.value} m&#178;<BR>
 	</#if> 
-		<BR> 	
-	
-		<b>Fish info</b> 	
+	<BR>   
+  
+  <#if Fish_Obs?has_content>	
 		<b>Fish length:</b> ${feature.Fish_Length_mm.value!"(not measured)"} mm<BR>
 	<#if Depth?has_content>  
 		<b>Fish sighting depth:</b> ${feature.Sighted_Depth_m.value} m<BR>
 	</#if>
-	
+		----------<BR>
   </#if>		
 
 <BR> 	
