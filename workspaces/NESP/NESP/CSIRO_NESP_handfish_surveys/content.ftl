@@ -1,6 +1,6 @@
-<#list features as feature>
-
 <h3>This is a sample of the handfish survey data from this study area.</h3><BR>
+
+<#list features as feature>
 
 	<#if (feature_index < 5) >
 	
@@ -23,7 +23,7 @@
 		<b>Fish info</b> 	
 		<b>Fish length:</b> ${feature.Fish_Length_mm.value!"(not measured)"} mm<BR>
 	<#if Depth?has_content>  
-		<b>Fish sighting depth:</b> ${feature.Sighted_Depth_m.rawValue?string("0.0")} m<BR>
+		<b>Fish sighting depth:</b> ${feature.Sighted_Depth_m.value} m<BR>
 	</#if>
 	
   </#if>		
