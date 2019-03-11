@@ -31,7 +31,7 @@
 <BR> 	
  </div>
 	<#else>
-	<h6>This information has been limited to five records. Download the full dataset to see all information available at this location.</h6>	
+	<h6>This information has been limited to five records. Download the full dataset for more information from this location.</h6>	
 	<#break>
   </#if>
 </#list>
