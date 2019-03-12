@@ -29,11 +29,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Survey Region</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#AAAAAA</CssParameter>
+              <CssParameter name="fill">#e62e00</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
