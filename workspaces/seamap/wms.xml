@@ -5,7 +5,7 @@
   </workspace>
   <enabled>true</enabled>
   <name>WMS</name>
-  <title>Seamap Australia Web Mapping Services (WMS)</title>
+  <title>Seamap Australia Web Mapping Service (WMS)</title>
   <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
   <abstrct>Seamap Australia brings together all available benthic habitat data collected on the Australian continental shelf and hosts this for the benefit of the broader research community. The product is a single, uniformly classified, continental-scale benthic habitat dataset.</abstrct>
   <versions>
