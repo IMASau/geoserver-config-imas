@@ -23,12 +23,12 @@
 	<#if Depth?has_content>  
 		<b>Fish sighting depth:</b> ${feature.Sighted_Depth_m.value} m<BR>
 	</#if>
-		----------<BR><BR>
+		----------------------<BR><BR>
   </#if>		
 	
  </div>
 	<#else>
-	<h6>This information has been limited to five records. Download the full dataset for more information from this location.</h6>	
+	<h6>This information has been limited to five sightings. Download the full dataset for more information from this location.</h6>	
 	<#break>
   </#if>
 </#list>
