@@ -1,12 +1,12 @@
 <layer>
   <name>NESP_D1_SAUP_PelagicFish</name>
-  <id>LayerInfoImpl--5ef9d6cf:161996d9bf3:-7ffc</id>
+  <id>LayerInfoImpl-3f48560:169a3269d8a:-6f08</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-2b4a173c:15e3e1ca8bf:-358b</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--5ef9d6cf:161996d9bf3:-7ffd</id>
+    <id>FeatureTypeInfoImpl-3f48560:169a3269d8a:-6f09</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
