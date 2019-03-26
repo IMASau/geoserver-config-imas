@@ -70,4 +70,11 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+        <name>NAT_HAB_CL</name>
+        <type>string</type>
+        <label>Benthic Habitat Classification</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
 </filters>
