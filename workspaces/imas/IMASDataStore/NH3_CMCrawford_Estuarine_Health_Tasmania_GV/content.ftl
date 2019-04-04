@@ -25,16 +25,16 @@
   <b>Turbidity: </b> ${feature.TURBIDITY.rawValue?string("0.0")} NTU<BR>
   </#if>
   <#if Nitrate?has_content>
-  <b>Nitrate: </b> ${feature.Nitrate.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>
+  <b>Nitrate: </b> ${feature.NITRATE.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>
   </#if>  
   <#if Nitrite?has_content>
-  <b>Nitrite: </b> ${feature.Nitrite.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
+  <b>Nitrite: </b> ${feature.NITRITE.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
   </#if>  
   <#if Silicate?has_content>
-  <b>Silicate: </b> ${feature.Silicate.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
+  <b>Silicate: </b> ${feature.SILICATE.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
   </#if>  
   <#if CHL?has_content>
-  <b>Chlorophyll a: </b> ${feature.CHL.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
+  <b>Chlorophyll a: </b> ${feature.CHL_A.rawValue?string("0.0")} &#181;g L<sup>-1</sup><BR>  
   </#if>  
 <BR> 	
  </div>
