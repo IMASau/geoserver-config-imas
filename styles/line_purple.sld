@@ -17,7 +17,7 @@
 					<Abstract>A purple line with a 2 pixel width</Abstract>
 					<LineSymbolizer>
 						<Stroke>
-							<CssParameter name="stroke">#6600cc</CssParameter>
+							<CssParameter name="stroke">#6600ff</CssParameter>
 							<CssParameter name="stroke-width">2</CssParameter>                          
 						</Stroke>
 					</LineSymbolizer>
