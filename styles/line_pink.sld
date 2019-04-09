@@ -18,7 +18,7 @@
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#ff1ac6</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>                          
+							<CssParameter name="stroke-width">2</CssParameter>                          
 						</Stroke>
 					</LineSymbolizer>
 				</Rule>
