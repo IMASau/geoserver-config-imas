@@ -14,10 +14,10 @@
 				<Rule>
 					<Name>Rule 1</Name>
 					<Title>Track</Title>
-					<Abstract>A purple line with a 2 pixel width</Abstract>
+					<Abstract>A pink line with a 2 pixel width</Abstract>
 					<LineSymbolizer>
 						<Stroke>
-							<CssParameter name="stroke">#ff4dff</CssParameter>
+							<CssParameter name="stroke">#ff1ac6</CssParameter>
 							<CssParameter name="stroke-width">1</CssParameter>                          
 						</Stroke>
 					</LineSymbolizer>
