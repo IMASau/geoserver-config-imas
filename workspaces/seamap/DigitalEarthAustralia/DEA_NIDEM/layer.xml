@@ -8,6 +8,7 @@
   <resource class="wmsLayer">
     <id>WMSLayerInfoImpl--4f39574d:16aaed9f274:-d5a</id>
   </resource>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

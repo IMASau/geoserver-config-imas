@@ -137,6 +137,19 @@ For service status information, see https://status.dea.ga.gov.au</abstract>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="wmsStore">
     <id>WMSStoreInfoImpl--4f39574d:16aaed9f274:-d5b</id>
   </store>
