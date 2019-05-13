@@ -1,7 +1,7 @@
 <wmsStore>
   <id>WMSStoreInfoImpl--4f39574d:16aaed9f274:-d5b</id>
-  <name>NIDEM</name>
-  <description>Harvesting NIDEM tiles for Seamap Australia third party layers</description>
+  <name>DigitalEarthAustralia</name>
+  <description>Harvesting DEA tiles for Seamap Australia third party layers</description>
   <type>WMS</type>
   <enabled>true</enabled>
   <workspace>
@@ -13,8 +13,8 @@
   <__default>false</__default>
   <capabilitiesURL>https://ows.services.dea.ga.gov.au/</capabilitiesURL>
   <user>admin</user>
-  <password>crypt1:CMBSfsADQcIkHEE4pWZHaxgGadIq0b6X</password>
-  <maxConnections>6</maxConnections>
+  <password>crypt1:ISSDYRWW7EdZuT+cFPNVy/xBQAW7jDUD</password>
+  <maxConnections>20</maxConnections>
   <readTimeout>60</readTimeout>
   <connectTimeout>30</connectTimeout>
 </wmsStore>
