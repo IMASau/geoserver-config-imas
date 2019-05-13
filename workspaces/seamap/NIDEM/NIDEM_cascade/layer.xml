@@ -1,0 +1,15 @@
+<layer>
+  <name>NIDEM_cascade</name>
+  <id>LayerInfoImpl--4f39574d:16aaed9f274:-d59</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--4f39574d:16aaed9f274:-d5a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
