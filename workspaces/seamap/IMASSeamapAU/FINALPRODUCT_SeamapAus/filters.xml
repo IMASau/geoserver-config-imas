@@ -10,7 +10,7 @@
     <filter>
         <name>State</name>
         <type>string</type>
-        <label>***State</label>
+        <label>**State</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
@@ -64,16 +64,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>BC_Level1</name>
-        <type>string</type>
-        <label>**Presence of Biota</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>NAT_HAB_CL</name>
         <type>string</type>
-        <label>Benthic Habitat Classification</label>
+        <label>***SMA Benthic Habitat Classification</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
