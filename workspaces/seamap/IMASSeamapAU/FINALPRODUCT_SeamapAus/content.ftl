@@ -25,7 +25,7 @@ div.a:hover {
   </div>
  </div>
 	<#else>
-	<h6>Multiple habitats exist at this point. Zoom in for higher precision.</h6>
+	<br><h6>Multiple habitats exist at this point. Zoom in for higher precision.</h6>
 	<#break>
   </#if>
 </#list>
