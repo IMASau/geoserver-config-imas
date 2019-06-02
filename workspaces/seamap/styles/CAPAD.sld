@@ -13,25 +13,6 @@
     <UserStyle>
       <Name>CAPAD</Name>
       <FeatureTypeStyle> 	
- 		<Rule>
-		  <Title>(zoom in for protected area name)</Title>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>NAME</ogc:PropertyName>
-           		  </Label>    
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>					
-          		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
- 		</Rule>
         <Rule>
             <Title>Aquatic Reserve</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
