@@ -1,14 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-18f101d8:16b121c361b:65d5</id>
-  <name>CAPAD</name>
-  <nativeName>CAPAD</nativeName>
+  <id>FeatureTypeInfoImpl-18f101d8:16b1b24ff37:-73a3</id>
+  <name>SeamapAus_CAPAD</name>
+  <nativeName>SeamapAus_CAPAD</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_CAPAD</title>
+  <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2016 - DRAFT ONLY</title>
+  <abstract>Collaborative Australian Protected Areas Database (Marine). Draft version of 2016 CAPAD with minor corrections. Hosted for the purposes of Seamap Australia.</abstract>
   <keywords>
     <string>features</string>
-    <string>CAPAD</string>
+    <string>SeamapAus_CAPAD</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
