@@ -32,6 +32,7 @@
 		  </ogc:Or>				
           </ogc:Filter>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>					  
@@ -63,8 +64,9 @@
               <ogc:Literal>VI</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
 		  </ogc:Or>				
-          </ogc:Filter>		
+          </ogc:Filter>			  
           <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#8c8c8c</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>					  
