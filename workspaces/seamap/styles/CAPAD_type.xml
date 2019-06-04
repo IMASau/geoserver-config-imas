@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-18f101d8:16b121c361b:40db</id>
-  <name>CAPAD</name>
+  <name>CAPAD_type</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CAPAD.sld</filename>
+  <filename>CAPAD_type.sld</filename>
 </style>
