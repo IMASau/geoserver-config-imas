@@ -92,7 +92,167 @@
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>			
+        </Rule>
+        <Rule>
+          <Title>QLD waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>QLD</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ffc021</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>NT waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>NT</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ea5a68</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>WA waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>WA</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>	
+			  </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#b461dd</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>SA waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>SA</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ff9999</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>         
+        <Rule>
+            <Title>TAS waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>TAS</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#485ec1</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>VIC waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>VIC</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0eb0ea</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>NSW waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>NSW</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#24c295</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>Commonwealth waters</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>STATE</ogc:PropertyName>
+              <ogc:Literal>COM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>	
+			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#e6e6ff</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
