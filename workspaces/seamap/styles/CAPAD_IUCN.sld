@@ -101,7 +101,7 @@
               <ogc:Literal>QLD</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -122,7 +122,7 @@
               <ogc:Literal>NT</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -143,7 +143,7 @@
               <ogc:Literal>WA</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -164,7 +164,7 @@
               <ogc:Literal>SA</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -185,7 +185,7 @@
               <ogc:Literal>TAS</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -206,7 +206,7 @@
               <ogc:Literal>VIC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -227,7 +227,7 @@
               <ogc:Literal>NSW</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -248,7 +248,7 @@
               <ogc:Literal>COM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
+		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
