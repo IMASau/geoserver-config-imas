@@ -35,7 +35,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>					  
+              <CssParameter name="fill-opacity">0.75</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -69,7 +69,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#8c8c8c</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>					  
+              <CssParameter name="fill-opacity">0.75</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -101,6 +101,7 @@
               <ogc:Literal>QLD</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -109,7 +110,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ffc021</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -121,6 +122,7 @@
               <ogc:Literal>NT</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -129,7 +131,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ea5a68</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -141,6 +143,7 @@
               <ogc:Literal>WA</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -149,7 +152,7 @@
 			  </Fill>
             <Stroke>
               <CssParameter name="stroke">#b461dd</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -161,6 +164,7 @@
               <ogc:Literal>SA</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -169,7 +173,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ff9999</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>         
@@ -181,6 +185,7 @@
               <ogc:Literal>TAS</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -189,7 +194,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#485ec1</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -201,6 +206,7 @@
               <ogc:Literal>VIC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -209,7 +215,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#0eb0ea</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -221,6 +227,7 @@
               <ogc:Literal>NSW</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -229,7 +236,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#24c295</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>        
@@ -241,6 +248,7 @@
               <ogc:Literal>COM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+		  <MinScaleDenominator>500000</MinScaleDenominator> 			  
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
             <Fill>
@@ -248,8 +256,8 @@
               <CssParameter name="fill-opacity">0</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#e6e6ff</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke">#e6e6e6</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>		
