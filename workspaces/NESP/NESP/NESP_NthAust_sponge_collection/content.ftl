@@ -2,9 +2,9 @@
 
 <#list features as feature>
   <div class="feature">
-  <b>Station: </b>${feature.Station.value} (${feature.Survey.value} survey)<BR>
-  <b>Geomorphic feature: </b>${feature.Geomorph_Feature.value}<BR>
-	<#if (feature_index < 5) >
+ 	<#if (feature_index < 5) >
+	
+  <b>Station: </b>${feature.Station.value} (</b>${feature.Geomorph_Feature.value}) - Survey (${feature.Survey.value}<BR>
   <b>Collected species: </b> ${feature.Full_name.value}<BR>
 
 <BR> 	
