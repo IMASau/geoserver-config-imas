@@ -4,7 +4,8 @@
   <div class="feature">
  	<#if (feature_index < 5) >
 	
-  <b>Station: </b>${feature.Station.value} (</b>${feature.Geomorph_Feature.value}) - Survey (${feature.Survey.value}<BR>
+  <b>Survey: </b>${feature.Survey.value}<BR>
+  <b>Station: </b>${feature.Station.value} (</b>${feature.Geomorph_Feature.value})<BR>
   <b>Collected species: </b> ${feature.Full_name.value}<BR>
 
 <BR> 	
