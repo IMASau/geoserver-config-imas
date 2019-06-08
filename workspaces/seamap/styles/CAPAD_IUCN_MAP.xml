@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-42684b0e:16b33b0493c:2c03</id>
-  <name>CAPAD_IUCN</name>
+  <id>StyleInfoImpl-42684b0e:16b1ed8b108:423d</id>
+  <name>CAPAD_IUCN_MAP</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CAPAD_IUCN.sld</filename>
+  <filename>CAPAD_IUCN_MAP.sld</filename>
 </style>
