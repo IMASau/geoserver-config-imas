@@ -110,7 +110,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ffc021</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -131,7 +131,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ea5a68</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -152,7 +152,7 @@
 			  </Fill>
             <Stroke>
               <CssParameter name="stroke">#b461dd</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -173,7 +173,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ff9999</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>         
@@ -194,7 +194,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#485ec1</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -215,7 +215,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#0eb0ea</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -236,7 +236,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#24c295</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>        
@@ -257,7 +257,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#e6e6e6</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>		
