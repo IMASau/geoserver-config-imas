@@ -1,12 +1,12 @@
 <layer>
-  <name>TG_KML</name>
-  <id>LayerInfoImpl-41a7422:169ecab5dc2:7fe0</id>
+  <name>TG_KML_V2</name>
+  <id>LayerInfoImpl-40cbe73b:16b7f877d43:22a</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-40cbe73b:16b7f877d43:224</id>
+    <id>StyleInfoImpl-41a7422:169ecab5dc2:7fe4</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-41a7422:169ecab5dc2:7fdf</id>
+    <id>FeatureTypeInfoImpl-40cbe73b:16b7f877d43:229</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
