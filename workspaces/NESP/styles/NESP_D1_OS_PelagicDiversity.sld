@@ -10,6 +10,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
+              <ColorMapEntry color="#fcffa4" opacity="0" quantity="1"/>              
               <ColorMapEntry color="#fcffa4" opacity="1" quantity="1.6" label="less diverse"/>
               <ColorMapEntry color="#fa8d0a" opacity="1" quantity="2"/>              
               <ColorMapEntry color="#bb3754" opacity="1" quantity="2.2"/>            
