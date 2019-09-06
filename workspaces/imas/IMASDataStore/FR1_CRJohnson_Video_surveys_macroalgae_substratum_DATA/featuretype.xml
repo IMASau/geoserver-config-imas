@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-666f1fb1:16d03ed56a9:-7156</id>
-  <name>FR1_CRJohnson_Video_surveys_macroalgae_substratum</name>
-  <nativeName>FR1_CRJohnson_Video_surveys_macroalgae_substratum</nativeName>
+  <id>FeatureTypeInfoImpl-666f1fb1:16d03ed56a9:-1d7</id>
+  <name>FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA</name>
+  <nativeName>FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Video surveys of long spined sea urchin (Centrostephanus rodgersii) barrens habitat, eastern Tasmania</title>
   <keywords>
     <string>features</string>
-    <string>FR1_CRJohnson_Video_surveys_macroalgae_substratum</string>
+    <string>FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=6d88abe0-8e7a-11dc-94b1-00188b4c0af8</content>
+      <metadataType>ISO19115:2003</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=6d88abe0-8e7a-11dc-94b1-00188b4c0af8</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
