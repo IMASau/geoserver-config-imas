@@ -19,12 +19,14 @@
 </TR>
 <#list features as feature>
 <#if (feature_index < 10)> 
+
+<#assign UB=feature.Urchin_Barren.value> 
 <TR class="scoring">
 <TD Align="Center">${feature.Site_Name.value}</td>                              
 <TD Align="Center">${feature.Subsite_Name.value}</td>
 <TD Align="Center">${feature.Date.value[0..11]}</td>
 <TD Align="Center">${feature.depth.value}</td>
-<TD Align="Center"> <#if ${feature.Urchin_Barren.value} == '0'> no <#else> yes</#if></td>
+<TD Align="Center"> <#if UB == '0'> no<#else>yes</#if></td>
 <TD Align="Center">${feature.Ecklonia_radiata.value}</td>                              
 <TD Align="Center">${feature.Phyllospora_comosa.value}</td>
 <TD Align="Center">${feature.Sargassum_spp.value}</td>
@@ -38,4 +40,11 @@
 </#list>
 </TR>
 </TABLE>
+</#if>
+
+
+<#if x == 1>
+  x is 1
+<#else>
+  x is not 1
 </#if>
