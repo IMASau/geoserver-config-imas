@@ -1,4 +1,7 @@
 <h3>Video survey scoring data</h3>
+<#list features as feature>
+<#if (feature_index < 10)> 
+
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="video_scoring_heading">
 <th>Site</th>
@@ -17,8 +20,6 @@
 <th>Perithalia spp.</th>
 <th>Carpoglossum confluens</th>
 </TR>
-<#list features as feature>
-<#if (feature_index < 10)> 
 
 <TR class="scoring">
 <TD Align="Center">${feature.Site_Name.value}</td>                              
@@ -35,14 +36,10 @@
 <TD Align="Center">${feature.Cystophora_spp.value}</td>
 <TD Align="Center">${feature.Perithalia_spp.value}</td>
 <TD Align="Center">${feature.Carpoglossum_confluens.value}</td>
-</#list>
 </TR>
 </TABLE>
-</#if>
-
-
-<#if x == 1>
-  x is 1
-<#else>
-  x is not 1
-</#if>
+	<#else>
+	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
+		<#break>
+  </#if>
+</#list>
