@@ -31,7 +31,7 @@
 <TD Align="Center">${feature.Sargassum_spp.value}</td>
 <TD Align="Center">${feature.Macrocystis_pyrifera.value}</td>
 <TD Align="Center">${feature.Lessonia_corrugata.value}</td>
-<TD Align="Center">${feature.Durvillaea_potatorum}.value}</td>
+<TD Align="Center">${feature.Durvillaea_potatorum.value}</td>
 <TD Align="Center">${feature.Caulerpa_spp.value}</td>
 <TD Align="Center">${feature.Cystophora_spp.value}</td>
 <TD Align="Center">${feature.Perithalia_spp.value}</td>
