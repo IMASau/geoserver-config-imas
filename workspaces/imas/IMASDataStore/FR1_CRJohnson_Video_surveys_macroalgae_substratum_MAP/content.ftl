@@ -1,6 +1,4 @@
 <h3>Video survey scoring data</h3>
-<#list features as feature>
-<#if (feature_index < 10)> 
 
 <TABLE bordercolorlight="#000000" class="table_design" ALIGN="LEFT" border="2">
 <TR class="video_scoring_heading">
@@ -8,7 +6,6 @@
 <th>Subsite</th>
 <th>Date</th>
 <th>Depth (m)</th>
-<th>Urchin barren</th>
 <th>Ecklonia radiata</th>
 <th>Phyllospora comosa</th>
 <th>Sargassum spp.</th>
@@ -20,6 +17,9 @@
 <th>Perithalia spp.</th>
 <th>Carpoglossum confluens</th>
 </TR>
+
+<#list features as feature>
+<#if (feature_index < 10)> 
 
 <TR class="scoring">
 <TD Align="Center">${feature.Site_Name.value}</td>                              
@@ -38,6 +38,7 @@
 <TD Align="Center">${feature.Carpoglossum_confluens.value}</td>
 </TR>
 </TABLE>
+
 	<#else>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
