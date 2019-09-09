@@ -24,7 +24,7 @@
 <TD Align="Center">${feature.Date.value[0..11]}</td>
 <TD Align="Center">${feature.depth.value}</td>
 <TD Align="Center">
-<#if ${feature.Urchin_Barren.value} == '0'>no<#else>yes</#if>
+<#if feature.Urchin_Barren.value == '0'>no<#else>yes</#if>
 </td>
 <TD Align="Center">${feature.Ecklonia_radiata.value}</td>                              
 <TD Align="Center">${feature.Phyllospora_comosa.value}</td>
