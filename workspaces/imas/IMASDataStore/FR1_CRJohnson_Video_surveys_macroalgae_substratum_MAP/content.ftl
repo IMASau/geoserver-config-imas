@@ -37,10 +37,11 @@
 <TD Align="Center">${feature.Perithalia_spp.value}</td>
 <TD Align="Center">${feature.Carpoglossum_confluens.value}</td>
 </TR>
-</TABLE>
 
 	<#else>
 	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
 </#list>
+</TABLE>
+
