@@ -17,7 +17,7 @@
 </TR>
 
 <#list features as feature>
-<#if (feature_index < 10)> 
+<#if (feature_index < 15)> 
 
 <TR class="scoring">
 <TD Align="Center">${feature.Subsite_Name.value}</td>
@@ -39,7 +39,7 @@
 </TR>
 
 	<#else>
-	<h6>Download the full dataset to see all information available at this location.<br></h6>
+	<h6>Download the full dataset to see all information available at this location.<br><br></h6>
 		<#break>
   </#if>
 </#list>
