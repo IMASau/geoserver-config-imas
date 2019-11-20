@@ -77,7 +77,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>intentionallyblank</ogc:Literal>		
+              <ogc:Literal>Non-Molluscan Filter Feeders</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
@@ -167,7 +167,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>intentionallyblank</ogc:Literal>		
+              <ogc:Literal>Shelled Biota</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
@@ -317,7 +317,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>intentionallyblank</ogc:Literal>		
+              <ogc:Literal>Wetland Vegetation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
@@ -452,7 +452,7 @@ xmlns:gml="http://www.opengis.net/gml">
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>intentionallyblank</ogc:Literal>		
+              <ogc:Literal>Unconsolidated Hard Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
