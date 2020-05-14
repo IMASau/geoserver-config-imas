@@ -47,4 +47,9 @@
   <maxRequestMemory>0</maxRequestMemory>
   <maxRenderingTime>0</maxRenderingTime>
   <maxRenderingErrors>0</maxRenderingErrors>
+  <cacheConfiguration>
+    <enabled>false</enabled>
+    <maxEntries>1000</maxEntries>
+    <maxEntrySize>51200</maxEntrySize>
+  </cacheConfiguration>
 </wms>
