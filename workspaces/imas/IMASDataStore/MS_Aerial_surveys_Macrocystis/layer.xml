@@ -1,0 +1,15 @@
+<layer>
+  <name>MS_Aerial_surveys_Macrocystis</name>
+  <id>LayerInfoImpl-7017fe13:1723a999a2d:940</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7017fe13:1723a999a2d:92d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7017fe13:1723a999a2d:93f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
