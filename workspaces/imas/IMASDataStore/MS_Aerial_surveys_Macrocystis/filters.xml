@@ -15,7 +15,7 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>IMCRA MESO</name>
+        <name>IMCRA_MESO</name>
         <type>string</type>
         <label>IMCRA</label>
         <visualised>true</visualised>
