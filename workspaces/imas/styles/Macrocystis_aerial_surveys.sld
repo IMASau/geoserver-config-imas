@@ -1,91 +1,109 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>Macrocystis density - polygons</sld:Name>
-    <sld:UserStyle>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>
-          <sld:Title>Macrocystis density</sld:Title>
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  <NamedLayer>
+    <Name>Macrocystis density</Name>
+    <UserStyle>
+      <Title>Macrocystis density - aerial surveys</Title>
+      <FeatureTypeStyle>	  
+        <Rule>
+          <Title>Macrocystis density</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Density</ogc:PropertyName>
                 <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0</sld:CssParameter>
-            </sld:Fill>           
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	        
-        <sld:Rule>
-          <sld:Title>Dense</sld:Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>
+            </Fill>           
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Dense</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Density</ogc:PropertyName>
                 <ogc:Literal>Dense</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#002c00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
-            </sld:Stroke>			
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	
-        <sld:Rule>
-          <sld:Title>Medium</sld:Title>
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#002c00</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Medium</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Density</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#00cc00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
-            </sld:Stroke>			
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Sparse</sld:Title>
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#00cc00</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Sparse</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Density</ogc:PropertyName>
                 <ogc:Literal>Sparse</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#b5ff66</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
-            </sld:Stroke>			
-          </sld:PolygonSymbolizer>
-        </sld:Rule>        
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#b5ff66</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>			
+          </PolygonSymbolizer>
+        </Rule>   
+        <Rule>
+          <Title>Area surveyed (zoomed out)</Title>
+		  <MinScaleDenominator>100000</MinScaleDenominator>		  
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#ff572f</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+			<Stroke>
+              <CssParameter name="stroke">#ff572f</CssParameter>
+              <CssParameter name="stroke-opacity">1</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+			</Stroke>        
+          </PolygonSymbolizer>
+        </Rule>			
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
