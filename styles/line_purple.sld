@@ -13,7 +13,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name>Rule 1</Name>
-					<Title>Track</Title>
+					<Title>Survey Track</Title>
 					<Abstract>A purple line with a 2 pixel width</Abstract>
 					<LineSymbolizer>
 						<Stroke>
