@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>EDDY_code</name>
+        <type>string</type>
+        <label>Eddy code</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Depth_m</name>
+        <type>short</type>
+        <label>Depth</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
