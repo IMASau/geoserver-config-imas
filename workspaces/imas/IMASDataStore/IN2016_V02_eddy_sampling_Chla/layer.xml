@@ -1,0 +1,15 @@
+<layer>
+  <name>IN2016_V02_eddy_sampling_Chla</name>
+  <id>LayerInfoImpl-7017fe13:172b60e1886:12c5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ea8dad8:15793887a18:7173</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7017fe13:172b60e1886:12c4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
