@@ -9,9 +9,9 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#e0e0e0" opacity="0.7" quantity="1" label=" Slope"/>
-              <ColorMapEntry color="#a8a800" opacity="0.7" quantity="2" label=" Plain"/>
-              <ColorMapEntry color="#0084a8" opacity="0.7" quantity="3" label=" Escarpment"/>                      
+              <ColorMapEntry color="#e0e0e0" opacity="0.8" quantity="1" label=" Slope"/>
+              <ColorMapEntry color="#a8a800" opacity="0.8" quantity="2" label=" Plain"/>
+              <ColorMapEntry color="#0084a8" opacity="0.8" quantity="3" label=" Escarpment"/>                      
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
