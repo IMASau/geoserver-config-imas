@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7017fe13:172e394665d:-3d9</id>
+  <name>CoralSea_seamounts_surface</name>
+  <description>Lucieer (NESP D4) - Coral Sea seamount surface classification</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/a56b2120-9753-4285-9767-f09060f8f3b8/CoralSea_seamounts_surface.tif</url>
+</coverageStore>
