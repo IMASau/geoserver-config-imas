@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <global>
   <settings>
     <id>SettingsInfoImpl-73e5db00:1428d1a6a2e:-8000</id>
@@ -11,7 +12,7 @@
     </contact>
     <charset>UTF-8</charset>
     <numDecimals>4</numDecimals>
-    <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
+    <proxyBaseUrl>https://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
