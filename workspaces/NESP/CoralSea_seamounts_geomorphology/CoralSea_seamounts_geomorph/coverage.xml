@@ -1,0 +1,128 @@
+<coverage>
+  <id>CoverageInfoImpl--33242ed1:172eb0be8db:-65db</id>
+  <name>CoralSea_seamounts_geomorph</name>
+  <nativeName>CoralSea_seamounts_geomorph</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>Coral Sea seamounts - geomorphology classification</title>
+  <description>Generated from GeoTIFF</description>
+  <keywords>
+    <string>CoralSea_seamounts_geomorph</string>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=a56b2120-9753-4285-9767-f09060f8f3b8</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 56S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 153.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32756&quot;]]</nativeCRS>
+  <srs>EPSG:32756</srs>
+  <nativeBoundingBox>
+    <minx>581595.0</minx>
+    <maxx>993840.4189</maxx>
+    <miny>7600889.2223</miny>
+    <maxy>8427512.9338</maxy>
+    <crs class="projected">EPSG:32756</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>153.7562882926652</minx>
+    <maxx>157.76788738130045</maxx>
+    <miny>-21.693507421045272</miny>
+    <maxy>-14.180171352936712</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="dirName">CoralSea_seamounts_geomorphology_CoralSea_seamounts_geomorph</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--33242ed1:172eb0be8db:-65dc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>13723 27517</high>
+    </range>
+    <transform>
+      <scaleX>30.040473577206154</scaleX>
+      <scaleY>-30.040473579968786</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>581610.0202367886</translateX>
+      <translateY>8427497.91356321</translateY>
+    </transform>
+    <crs>EPSG:32756</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>3.4028234663852886E38</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:32756</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:32756</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>CoralSea_seamounts_geomorph</nativeCoverageName>
+</coverage>
