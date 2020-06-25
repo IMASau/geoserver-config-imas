@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-7017fe13:172e394665d:-3d6</id>
+  <id>CoverageInfoImpl--33242ed1:172eb0be8db:-67bd</id>
   <name>CoralSea_seamounts_surface</name>
   <nativeName>CoralSea_seamounts_surface</nativeName>
   <namespace>
@@ -41,17 +41,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32756&quot;]]</nativeCRS>
   <srs>EPSG:32756</srs>
   <nativeBoundingBox>
-    <minx>176655.0</minx>
-    <maxx>884295.0</maxx>
-    <miny>7600875.0</miny>
-    <maxy>8427525.0</maxy>
+    <minx>581595.0</minx>
+    <maxx>993840.4189</maxx>
+    <miny>7600889.2223</miny>
+    <maxy>8427512.9338</maxy>
     <crs class="projected">EPSG:32756</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>149.87584251198996</minx>
-    <maxx>156.712190040053</maxx>
-    <miny>-21.695250061951175</miny>
-    <maxy>-14.197277725490954</maxy>
+    <minx>153.7562882926652</minx>
+    <maxx>157.76788738130045</maxx>
+    <miny>-21.693507421045272</miny>
+    <maxy>-14.180171352936712</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -68,15 +68,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>23588 27555</high>
+      <high>13723 27517</high>
     </range>
     <transform>
-      <scaleX>30.0</scaleX>
-      <scaleY>-30.0</scaleY>
+      <scaleX>30.040473577206154</scaleX>
+      <scaleY>-30.040473579968786</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>176670.0</translateX>
-      <translateY>8427510.0</translateY>
+      <translateX>581610.0202367886</translateX>
+      <translateY>8427497.91356321</translateY>
     </transform>
     <crs>EPSG:32756</crs>
   </grid>
@@ -101,6 +101,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.4028234663852886E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>

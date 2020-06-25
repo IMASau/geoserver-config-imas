@@ -1,12 +1,12 @@
 <layer>
   <name>CoralSea_seamounts_surface</name>
-  <id>LayerInfoImpl-7017fe13:172e394665d:-3d5</id>
+  <id>LayerInfoImpl--33242ed1:172eb0be8db:-67bc</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-7017fe13:172e394665d:-3f2</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7017fe13:172e394665d:-3d6</id>
+    <id>CoverageInfoImpl--33242ed1:172eb0be8db:-67bd</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
