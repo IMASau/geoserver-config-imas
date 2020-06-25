@@ -1,8 +1,6 @@
 <h3>Macrocystis aerial surveys</h3><BR>
 
 <#list features as feature>
-
-	
   <div class="feature"> 
 
   <b>Location: </b> ${feature.Location.value}<BR>  
