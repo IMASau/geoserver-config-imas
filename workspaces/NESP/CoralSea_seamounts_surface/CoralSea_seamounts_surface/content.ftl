@@ -5,4 +5,5 @@
   <b>Surface:</b> 
   <#if feature.GRAY_INDEX.value == '1'>Slope<#elseif feature.GRAY_INDEX.value == '2'>Plain<#elseif feature.GRAY_INDEX.value == '3'>Escarpment</#if> 
   </div>
+</#if>
 </#list>
