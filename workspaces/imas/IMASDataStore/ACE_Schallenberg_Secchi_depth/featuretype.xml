@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=85fbe003-6480-4474-9bf4-59e421b5aae9</content>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=85fbe003-6480-4474-9bf4-59e421b5aae9</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -49,6 +49,7 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
