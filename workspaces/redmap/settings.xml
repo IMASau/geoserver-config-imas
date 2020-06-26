@@ -3,6 +3,7 @@
   <workspace>
     <id>WorkspaceInfoImpl--49b8387a:13923c68d98:-7f4f</id>
     <name>redmap</name>
+    <isolated>false</isolated>
   </workspace>
   <contact>
     <id>contact</id>
@@ -14,7 +15,7 @@
   </contact>
   <charset>UTF-8</charset>
   <numDecimals>4</numDecimals>
-  <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
+  <proxyBaseUrl>https://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
   <verbose>true</verbose>
   <verboseExceptions>false</verboseExceptions>
   <metadata>
