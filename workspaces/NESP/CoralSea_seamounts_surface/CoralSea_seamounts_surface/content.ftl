@@ -1,4 +1,5 @@
-<h6>Seamount surface classification/h6>
+<h6>Seamount surface classification</h6><BR><BR>
+
 <#list features as feature>
 <#if (feature_index < 1) >
   <div class="feature"> 
