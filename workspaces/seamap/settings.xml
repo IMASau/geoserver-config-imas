@@ -15,7 +15,7 @@
   </contact>
   <charset>UTF-8</charset>
   <numDecimals>4</numDecimals>
-  <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
+  <proxyBaseUrl>https://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
   <verbose>true</verbose>
   <verboseExceptions>false</verboseExceptions>
   <metadata>

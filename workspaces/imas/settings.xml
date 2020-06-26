@@ -3,6 +3,7 @@
   <workspace>
     <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
     <name>imas</name>
+    <isolated>false</isolated>
   </workspace>
   <contact>
     <id>contact</id>
@@ -14,7 +15,7 @@
   </contact>
   <charset>UTF-8</charset>
   <numDecimals>4</numDecimals>
-  <proxyBaseUrl>http://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
+  <proxyBaseUrl>https://geoserver.imas.utas.edu.au/geoserver</proxyBaseUrl>
   <verbose>true</verbose>
   <verboseExceptions>false</verboseExceptions>
   <metadata>
