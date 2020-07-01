@@ -1,0 +1,15 @@
+<layer>
+  <name>OSCMR_PelagicAbundance_fine</name>
+  <id>LayerInfoImpl--33242ed1:1730436c629:6d68</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--33242ed1:1730436c629:6fcd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--33242ed1:1730436c629:6d67</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

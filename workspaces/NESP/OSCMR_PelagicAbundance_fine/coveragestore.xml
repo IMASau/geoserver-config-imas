@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--33242ed1:1730436c629:6d66</id>
+  <name>OSCMR_PelagicAbundance_fine</name>
+  <description>NESP MBH Data: Oceanic Shoals CMR - Predicted pelagic abundance and diversity [finescale]</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/ef604d5c-6208-4a4a-9e68-9e5a26109588/pelagic_abundance_fine.tif</url>
+</coverageStore>

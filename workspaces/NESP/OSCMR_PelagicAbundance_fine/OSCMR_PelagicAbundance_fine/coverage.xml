@@ -1,0 +1,126 @@
+<coverage>
+  <id>CoverageInfoImpl--33242ed1:1730436c629:6d67</id>
+  <name>OSCMR_PelagicAbundance_fine</name>
+  <nativeName>OSCMR_PelagicAbundance_fine</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>NESP MBH - Oceanic Shoals CMR - Predicted pelagic abundance [finescale]</title>
+  <description>Generated from GeoTIFF</description>
+  <keywords>
+    <string>pelagic_abundance_fine</string>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=ef604d5c-6208-4a4a-9e68-9e5a26109588</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 52S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 129.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32752&quot;]]</nativeCRS>
+  <srs>EPSG:32752</srs>
+  <nativeBoundingBox>
+    <minx>270896.0</minx>
+    <maxx>333246.0</maxx>
+    <miny>8648380.0</miny>
+    <maxy>8740130.0</maxy>
+    <crs class="projected">EPSG:32752</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>126.8941298081417</minx>
+    <maxx>127.4716694788449</maxx>
+    <miny>-12.222411457279216</miny>
+    <maxy>-11.389442117373122</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">OSCMR_PelagicAbundance_fine_pelagic_abundance_fine</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--33242ed1:1730436c629:6d66</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>1247 1835</high>
+    </range>
+    <transform>
+      <scaleX>50.0</scaleX>
+      <scaleY>-50.0</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>270921.0</translateX>
+      <translateY>8740105.0</translateY>
+    </transform>
+    <crs>EPSG:32752</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:32752</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:32752</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>pelagic_abundance_fine</nativeCoverageName>
+</coverage>

@@ -1,0 +1,15 @@
+<layer>
+  <name>OSCMR_PelagicDiversity_fine</name>
+  <id>LayerInfoImpl--33242ed1:1730436c629:6d75</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--33242ed1:1730436c629:6ff4</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--33242ed1:1730436c629:6d74</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
