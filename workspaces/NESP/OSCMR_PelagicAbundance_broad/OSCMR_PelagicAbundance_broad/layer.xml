@@ -1,12 +1,12 @@
 <layer>
-  <name>OSCMR_PelagicAbundance</name>
-  <id>LayerInfoImpl-4db7f46f:16cd55b48d5:-155a</id>
+  <name>OSCMR_PelagicAbundance_broad</name>
+  <id>LayerInfoImpl--33242ed1:1730436c629:6d55</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-4db7f46f:16cd55b48d5:-1460</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-4db7f46f:16cd55b48d5:-155b</id>
+    <id>CoverageInfoImpl--33242ed1:1730436c629:6d54</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

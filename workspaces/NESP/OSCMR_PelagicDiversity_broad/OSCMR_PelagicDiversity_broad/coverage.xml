@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl-4db7f46f:16cd55b48d5:-155b</id>
-  <name>OSCMR_PelagicAbundance</name>
-  <nativeName>OSCMR_PelagicAbundance</nativeName>
+  <id>CoverageInfoImpl--33242ed1:1730436c629:6d59</id>
+  <name>OSCMR_PelagicDiversity_broad</name>
+  <nativeName>OSCMR_PelagicDiversity_broad</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MBH - Oceanic Shoals CMR - Predicted pelagic abundance</title>
+  <title>NESP MBH - Oceanic Shoals CMR - Predicted pelagic diversity [broadscale]</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>pelagic_abundance</string>
+    <string>pelagic_diversity_broad</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -57,10 +57,11 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="dirName">NESP_OSCMR_PelagicAbundance_pelagic_abundance</entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">OSCMR_PelagicDiversity_broad_pelagic_diversity_broad</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-4db7f46f:16cd55b48d5:-1560</id>
+    <id>CoverageStoreInfoImpl-4db7f46f:16cd55b48d5:-155f</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
@@ -124,5 +125,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>pelagic_abundance</nativeCoverageName>
+  <nativeCoverageName>pelagic_diversity_broad</nativeCoverageName>
 </coverage>

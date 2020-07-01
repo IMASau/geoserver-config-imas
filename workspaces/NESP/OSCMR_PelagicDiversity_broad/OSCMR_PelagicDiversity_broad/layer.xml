@@ -1,12 +1,12 @@
 <layer>
-  <name>OSCMR_PelagicDiversity</name>
-  <id>LayerInfoImpl-4db7f46f:16cd55b48d5:-155c</id>
+  <name>OSCMR_PelagicDiversity_broad</name>
+  <id>LayerInfoImpl--33242ed1:1730436c629:6d5a</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-4db7f46f:16cd55b48d5:-1087</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-4db7f46f:16cd55b48d5:-155d</id>
+    <id>CoverageInfoImpl--33242ed1:1730436c629:6d59</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
