@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>ogr_geometry</name>
+        <name>geom</name>
         <type>geometrypropertytype</type>
-        <label>geom</label>
+        <label>Geom</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
