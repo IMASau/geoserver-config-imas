@@ -6,8 +6,8 @@
 	
   <div class="feature">  
 
-		<b>Year (transect):</b> ${feature.year.value} (${feature.transect.value})<BR>  
-		<b>Depth:</b> ${feature.actual_depth.rawValue?string("0.00")}m<BR>	
+		<b>Year:</b> ${feature.year.value}<BR>  
+		<b>Depth:</b> ${feature.actual_depth.rawValue?string("0.0")}m<BR>	
 		<b>Image ID:</b> ${feature.leftimage.value}<BR>
 		<#if feature.MPA.value == '1'>
 				<b>MPA status? (y/n):</b> Yes<BR>  
