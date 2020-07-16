@@ -7,10 +7,10 @@
   <div class="feature">  
 
 		<b>Eddy code:</b> ${feature.EDDY_code.value}<BR>
-		<b>CTD no.:</b> ${feature.CTD.value} (sample ${feature.Sample_ID.value})<BR>  		
+		<b>CTD no:</b> ${feature.CTD.value} (sample ${feature.Sample_ID.value})<BR>  		
 		<b>Depth:</b> ${feature.Depth_m.value}m<BR>	
-		<b>Chlorophyll a:</b> ${feature.Chla_ug.L-1.value} &#181;g L<sup>-1</sup><BR>
-		<b>Phaeophytin:</b> ${feature.Phaeo_ug.L-1.value} &#181;g L<sup>-1</sup><BR>		
+		<b>Chlorophyll a:</b> ${feature.Chla_ugL.value} &#181;g L<sup>-1</sup><BR>
+		<b>Phaeophytin:</b> ${feature.Phaeo_ugL.value} &#181;g L<sup>-1</sup><BR>		
 		<BR>			
   
  </div>

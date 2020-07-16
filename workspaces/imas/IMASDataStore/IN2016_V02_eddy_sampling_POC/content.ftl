@@ -7,7 +7,7 @@
   <div class="feature">  
 
 		<b>Eddy code:</b> ${feature.EDDY_code.value}<BR>
-		<b>CTD no.:</b> ${feature.CTD.value} (sample ${feature.Sample_ID.value}, vial ${feature.POC_vial.value})<BR>  		
+		<b>CTD no:</b> ${feature.CTD.value} (sample ${feature.Sample_ID.value}, vial ${feature.POC_vial.value})<BR>  		
 		<b>Depth:</b> ${feature.Depth_m.value}m<BR>	
 		<b>PO Nitrogen:</b> ${feature.N_ug.value} &#181;g<BR>
 		<b>PO Carbon:</b> ${feature.C_ug.value} &#181;g<BR>
