@@ -15,16 +15,16 @@
   <#assign PAR=feature.PAR.value>    
   
   <#if Temp!="NA">
-    <b>Temperature: </b> ${feature.Temperature.rawValue?string("0.00")} &#176C<BR>
+    <b>Temperature: </b> ${feature.Temperature.value[0..4]} &#176C<BR>
   </#if>
   <#if Cond!="NA">
-    <b>Conductivity: </b> ${feature.Conductivity.rawValue?string("0.00")} Siemens m<sup>-2</sup><BR>
+    <b>Conductivity: </b> ${feature.Conductivity.value[0..5]} Siemens m<sup>-2</sup><BR>
   </#if>
   <#if Sal!="NA">
-    <b>Salinity: </b> ${feature.Salinity.rawValue?string("0.00")} PSU<BR>
+    <b>Salinity: </b> ${feature.Salinity.value[0..5]} PSU<BR>
   </#if> 
   <#if PAR!="NA">
-    <b>PAR: </b> ${feature.PAR.rawValue?string("0.00")} &#181;mol photons m<sup>-2</sup> s<sup>-1</sup><BR>
+    <b>PAR: </b> ${feature.PAR.value[0..5]} &#181;mol photons m<sup>-2</sup> s<sup>-1</sup><BR>
   </#if>  
   <b>Particulate Organic Carbon (POC): </b> ${feature.POC.rawValue?string("0.00")} &#181;g L<sup>-1</sup><BR>  
 <BR> 	
