@@ -23,7 +23,7 @@
   <#if Sal!="NA">
     <b>Salinity: </b> ${feature.Salinity.value[0..5]} PSU<BR>
   </#if> 
-  <#if PAR!="NA">
+  <#if PAR!="NA" && PAR!="0">
     <b>PAR: </b> ${feature.PAR.value[0..5]} &#181;mol photons m<sup>-2</sup> s<sup>-1</sup><BR>
   </#if>  
   <b>Particulate Organic Carbon (POC): </b> ${feature.POC.rawValue?string("0.00")} &#181;g L<sup>-1</sup><BR>  
