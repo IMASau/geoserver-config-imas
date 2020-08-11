@@ -7,7 +7,7 @@
   <div class="feature">  
   <b>Site: </b> ${feature.site.value}<BR>  
   <b>Station ID: </b> ${feature.Station.value}<BR>
-  <b>Pressure: </b> ${feature.Pressure.value} db<BR>
+  <b>Approx depth: </b> ${feature.Pressure.value} m<BR>
 
   <#assign Temp=feature.Temperature.value>
   <#assign Cond=feature.Conductivity.value>
