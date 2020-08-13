@@ -8,7 +8,7 @@
   <b>Site: </b> ${feature.Site.value}<BR>  
   <b>Station ID: </b> ${feature.Station.value}<BR>
   <b>Pressure: </b> ${feature.Pressure.value} dbar<BR>
-    <b>Concentration of Ammonium: </b> ${feature.Ammonium.value)} &#181;mol L<sup>-1</sup><BR>
+    <b>Concentration of Ammonium: </b> ${feature.Ammonium.value} &#181;mol L<sup>-1</sup><BR>
 <BR> 	
  </div>
 	<#else>
