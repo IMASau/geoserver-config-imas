@@ -1,13 +1,12 @@
 <layer>
-  <name>Seamap_contours_5m_Geo</name>
-  <id>LayerInfoImpl-31650bb1:132806df81b:-7ffa</id>
-  <path>SEAMAP</path>
+  <name>SeamapTAS_contours_5m</name>
+  <id>LayerInfoImpl-70a8d5d5:173fa41b30f:-4615</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--2cde9246:132a9900d8b:-7ffc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-31650bb1:132806df81b:-7ffb</id>
+    <id>FeatureTypeInfoImpl-70a8d5d5:173fa41b30f:-4616</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
