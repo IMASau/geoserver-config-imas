@@ -48,7 +48,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -68,7 +68,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -88,7 +88,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -108,7 +108,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -144,7 +144,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -180,7 +180,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -200,7 +200,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -220,7 +220,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -256,7 +256,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -292,7 +292,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -328,7 +328,7 @@
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.65</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
