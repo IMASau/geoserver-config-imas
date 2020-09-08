@@ -31,7 +31,7 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -49,14 +49,14 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#666666</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.3</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.2</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>        
