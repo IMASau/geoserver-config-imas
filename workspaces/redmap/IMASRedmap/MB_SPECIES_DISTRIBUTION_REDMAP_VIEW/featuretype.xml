@@ -32,24 +32,22 @@
     <maxx>154.67980233900016</maxx>
     <miny>-44.32971261899988</miny>
     <maxy>-7.989816894531128</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--49b8387a:13923c68d98:-7f4d</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
