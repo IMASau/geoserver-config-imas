@@ -55,7 +55,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:GraphicFill>
                 <sld:Graphic>
                   <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/cobble.png" />
+                    <sld:OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/cobble.png" />
                     <sld:Format>image/png</sld:Format>
                   </sld:ExternalGraphic>
                   <sld:Size>
@@ -139,7 +139,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:GraphicFill>
                 <sld:Graphic>
                   <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/patchy_reef.png" />
+                    <sld:OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/patchy_reef.png" />
                     <sld:Format>image/png</sld:Format>
                   </sld:ExternalGraphic>
                   <sld:Size>
@@ -253,7 +253,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:GraphicFill>
                 <sld:Graphic>
                   <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/patchy_seagrass.png" />
+                    <sld:OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/patchy_seagrass.png" />
                     <sld:Format>image/png</sld:Format>
                   </sld:ExternalGraphic>
                   <sld:Size>
@@ -292,7 +292,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:GraphicFill>
                 <sld:Graphic>
                   <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/sparse_patchy_seagrass.png" />
+                    <sld:OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/sparse_patchy_seagrass.png" />
                     <sld:Format>image/png</sld:Format>
                   </sld:ExternalGraphic>
                   <sld:Size>
@@ -376,7 +376,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:GraphicFill>
                 <sld:Graphic>
                   <sld:ExternalGraphic>
-                    <sld:OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/unknown.png" />
+                    <sld:OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/unknown.png" />
                     <sld:Format>image/png</sld:Format>
                   </sld:ExternalGraphic>
                   <sld:Size>
