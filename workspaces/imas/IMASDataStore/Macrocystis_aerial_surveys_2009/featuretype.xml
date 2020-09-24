@@ -1,0 +1,72 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-70a8d5d5:174bd3f6218:-2629</id>
+  <name>Macrocystis_aerial_surveys_2009</name>
+  <nativeName>Macrocystis_aerial_surveys_2009</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>Aerial surveys of Macrocystis 2009</title>
+  <keywords>
+    <string>features</string>
+    <string>Macrocystis_aerial_surveys_2009</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=1597c354-8782-4d55-81d9-60ff737febd2</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / MGA zone 55&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;28355&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>146.88598572149587</minx>
+    <maxx>148.41143844957668</maxx>
+    <miny>-43.61893198469495</miny>
+    <maxy>-40.93180063856792</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>146.88598572149587</minx>
+    <maxx>148.41143844957668</maxx>
+    <miny>-43.61893198469495</miny>
+    <maxy>-40.93180063856792</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Dense</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>150000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#002c00</CssParameter>
@@ -56,7 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Medium</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>150000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#00cc00</CssParameter>
@@ -76,7 +76,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Sparse</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>150000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b5ff66</CssParameter>
@@ -89,8 +89,28 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
+          <Title>Patchy</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Density</ogc:PropertyName>
+                <ogc:Literal>Patchy</ogc:Literal>
+            </ogc:PropertyIsEqualTo>		  
+          </ogc:Filter>
+		  <MaxScaleDenominator>150000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#944dff</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>			
+          </PolygonSymbolizer>
+        </Rule>          
+        <Rule>
           <Title>Area surveyed (zoomed out)</Title>
-		  <MinScaleDenominator>100000</MinScaleDenominator>		  
+		  <MinScaleDenominator>150000</MinScaleDenominator>		  
           <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#ff572f</CssParameter>
