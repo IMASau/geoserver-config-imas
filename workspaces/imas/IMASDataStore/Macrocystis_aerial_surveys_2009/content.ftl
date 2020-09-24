@@ -1,0 +1,11 @@
+<h3>Macrocystis aerial surveys</h3><BR>
+
+<#list features as feature>
+  <div class="feature"> 
+
+  <b>Macrocystis density: </b> ${feature.Density.value}<BR>
+  <b>Additional comments: </b> ${feature.Comments.value}<BR>   
+  <b>Mapped area: </b> ${feature.Area_m2.rawValue?string("0")} m&#178;<BR><BR>
+
+ </div>
+</#list>
