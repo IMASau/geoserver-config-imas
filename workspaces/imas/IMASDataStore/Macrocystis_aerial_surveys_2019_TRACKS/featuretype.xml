@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7017fe13:1723a999a2d:91d</id>
-  <name>Aerial_surveys_Macrocystis_2019_TRACKS</name>
-  <nativeName>MS_Aerial_surveys_Macrocystis_TRACKS</nativeName>
+  <id>FeatureTypeInfoImpl-70a8d5d5:174bd3f6218:-2d72</id>
+  <name>Macrocystis_aerial_surveys_2019_TRACKS</name>
+  <nativeName>Macrocystis_aerial_surveys_2019_TRACKS</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Marine Solutions - Aerial surveys of Macrocystis - SURVEY TRACKS</title>
+  <title>Aerial surveys of Macrocystis 2019 - SURVEY TRACKS</title>
   <keywords>
     <string>features</string>
-    <string>MS_Aerial_surveys_Macrocystis_TRACKS</string>
+    <string>Macrocystis_aerial_surveys_2019_TRACKS</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=f0904e61-2e15-4346-bb0e-638366b7e626</content>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=f0904e61-2e15-4346-bb0e-638366b7e626</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;WGS 84 / Pseudo-Mercator&quot;, 
@@ -47,13 +47,13 @@
     <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>0.0013188950725857</minx>
-    <maxx>0.0013327748260681</maxx>
-    <miny>-3.920797687673E-4</miny>
-    <maxy>-3.666421914031E-4</maxy>
+    <minx>146.81872789</minx>
+    <maxx>148.36381498</maxx>
+    <miny>-43.64612021</miny>
+    <maxy>-40.81442205</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>

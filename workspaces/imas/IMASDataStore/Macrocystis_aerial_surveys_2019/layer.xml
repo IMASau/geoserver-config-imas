@@ -1,12 +1,12 @@
 <layer>
-  <name>Aerial_surveys_Macrocystis_2019</name>
-  <id>LayerInfoImpl-7017fe13:1723a999a2d:940</id>
+  <name>Macrocystis_aerial_surveys_2019</name>
+  <id>LayerInfoImpl-70a8d5d5:174bd3f6218:-2dc7</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-7017fe13:1723a999a2d:92d</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-7017fe13:1723a999a2d:93f</id>
+    <id>FeatureTypeInfoImpl-70a8d5d5:174bd3f6218:-2dc8</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

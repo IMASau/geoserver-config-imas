@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7017fe13:1723a999a2d:93f</id>
-  <name>Aerial_surveys_Macrocystis_2019</name>
-  <nativeName>MS_Aerial_surveys_Macrocystis</nativeName>
+  <id>FeatureTypeInfoImpl-70a8d5d5:174bd3f6218:-2dc8</id>
+  <name>Macrocystis_aerial_surveys_2019</name>
+  <nativeName>Macrocystis_aerial_surveys_2019</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Marine Solutions - Aerial surveys of Macrocystis</title>
+  <title>Aerial surveys of Macrocystis 2019</title>
   <keywords>
     <string>features</string>
-    <string>MS_Aerial_surveys_Macrocystis</string>
+    <string>Macrocystis_aerial_surveys_2019</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -40,17 +40,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;28355&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>491008.97455252334</minx>
-    <maxx>613394.2081262389</maxx>
-    <miny>5173158.155720567</miny>
-    <maxy>5477841.818755626</maxy>
-    <crs class="projected">EPSG:28355</crs>
+    <minx>146.8886120834741</minx>
+    <maxx>148.40461033373055</maxx>
+    <miny>-43.594494320611716</miny>
+    <maxy>-40.842628977136094</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>491008.97455252334</minx>
-    <maxx>613394.2081262389</maxx>
-    <miny>5173158.155720567</miny>
-    <maxy>5477841.818755626</maxy>
+    <minx>146.8886120834741</minx>
+    <maxx>148.40461033373055</maxx>
+    <miny>-43.594494320611716</miny>
+    <maxy>-40.842628977136094</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
