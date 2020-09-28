@@ -1,20 +1,20 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-70a8d5d5:174bd3f6218:-2629</id>
-  <name>Macrocystis_aerial_surveys_2009</name>
-  <nativeName>Macrocystis_aerial_surveys_2009</nativeName>
+  <id>FeatureTypeInfoImpl-70a8d5d5:174d25a5d8c:-d85</id>
+  <name>Macrocystis_areal_extent_1986</name>
+  <nativeName>Macrocystis_areal_extent_1986</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Areal extent of Macrocystis, 2009 - TAS aerial surveys</title>
+  <title>Areal extent of Macrocystis, 1986 - TAS aerial surveys</title>
   <keywords>
     <string>features</string>
-    <string>Macrocystis_aerial_surveys_2009</string>
+    <string>Macrocystis_areal_extent_1986</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=1597c354-8782-4d55-81d9-60ff737febd2</content>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=3adc02df-cbaf-4d9f-a246-74a21b367849</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / MGA zone 55&quot;, 
@@ -40,17 +40,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;28355&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>146.88598572149587</minx>
-    <maxx>148.41143844957668</maxx>
-    <miny>-43.61893198469495</miny>
-    <maxy>-40.93180063856792</maxy>
+    <minx>146.89008482713965</minx>
+    <maxx>148.4082690857259</maxx>
+    <miny>-43.59909081259023</miny>
+    <maxy>-40.97102794338582</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>146.88598572149587</minx>
-    <maxx>148.41143844957668</maxx>
-    <miny>-43.61893198469495</miny>
-    <maxy>-40.93180063856792</maxy>
+    <minx>146.89008482713965</minx>
+    <maxx>148.4082690857259</maxx>
+    <miny>-43.59909081259023</miny>
+    <maxy>-40.97102794338582</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>

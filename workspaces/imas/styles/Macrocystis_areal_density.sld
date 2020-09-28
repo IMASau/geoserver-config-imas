@@ -113,7 +113,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>          
         <Rule>
-          <Title>Area surveyed (zoomed out)</Title>
+          <Title>Kelp bed area (zoomed out)</Title>
 		  <MinScaleDenominator>200000</MinScaleDenominator>		  
           <PolygonSymbolizer>			  
             <Fill>
