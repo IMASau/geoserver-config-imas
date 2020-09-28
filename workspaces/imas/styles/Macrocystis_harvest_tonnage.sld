@@ -44,6 +44,7 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
@@ -74,6 +75,7 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
                    <CssParameter name="stroke-width">0.25</CssParameter>
                </Stroke>                
               </Mark>
@@ -104,10 +106,11 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
                    <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10</Size>
+              <Size>10.5</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>
@@ -134,10 +137,11 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.75</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
+                   <CssParameter name="stroke-width">0.7</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>11</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>
@@ -164,10 +168,11 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
+                   <CssParameter name="stroke-width">0.9</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>12</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>		
@@ -194,10 +199,11 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">1.25</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
+                   <CssParameter name="stroke-width">1.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>		
@@ -224,10 +230,11 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">1.5</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>   				   
+                   <CssParameter name="stroke-width">1.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>16</Size>
+              <Size>18.5</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>	
@@ -249,10 +256,10 @@
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">1</CssParameter>
+                   <CssParameter name="stroke-width">1.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>18</Size>
+              <Size>21.5</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>			
