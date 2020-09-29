@@ -48,7 +48,7 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>
@@ -79,7 +79,7 @@
                    <CssParameter name="stroke-width">0.25</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>9</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>		
@@ -110,7 +110,7 @@
                    <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10.5</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>
@@ -141,7 +141,7 @@
                    <CssParameter name="stroke-width">0.7</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>12</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>
@@ -172,7 +172,7 @@
                    <CssParameter name="stroke-width">0.9</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>		
@@ -203,7 +203,7 @@
                    <CssParameter name="stroke-width">1.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>16</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>		
@@ -234,7 +234,7 @@
                    <CssParameter name="stroke-width">1.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>18.5</Size>
+              <Size>27</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>	
@@ -259,7 +259,7 @@
                    <CssParameter name="stroke-width">1.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>21.5</Size>
+              <Size>37</Size>
             </Graphic>
           </PointSymbolizer> 		  
         </Rule>			
