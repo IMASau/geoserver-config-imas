@@ -1,4 +1,4 @@
-<h3>Macrocystis areal extent 2009</h3><BR>
+<h3>Macrocystis areal extent (East Coast Tas) 2009</h3><BR>
 
 <#list features as feature>
   <div class="feature"> 
