@@ -11,7 +11,7 @@
  	</div>
  
 	<#else>
-	<h6>More data exists at this point. Download dataset to access the full collection.</h6>
+	<h6>More data exists at this point. Zoom in or download dataset to access the full collection.</h6>
 	<#break>
 	
   </#if>
