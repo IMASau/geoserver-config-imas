@@ -1,0 +1,15 @@
+<layer>
+  <name>Macrocystis_areal_extent_timeseries</name>
+  <id>LayerInfoImpl-70a8d5d5:174e0be867d:385d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-70a8d5d5:174e0be867d:3854</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-70a8d5d5:174e0be867d:385c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
