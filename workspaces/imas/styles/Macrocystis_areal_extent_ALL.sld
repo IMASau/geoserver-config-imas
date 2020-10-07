@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Dense</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#002c00</CssParameter>
@@ -57,7 +57,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Medium</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#00cc00</CssParameter>
@@ -78,7 +78,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Sparse</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b5ff66</CssParameter>
@@ -99,7 +99,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Patchy</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#944dff</CssParameter>
@@ -120,7 +120,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>Present</ogc:Literal>
             </ogc:PropertyIsEqualTo>		  
           </ogc:Filter>
-		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
+		  <MaxScaleDenominator>250000</MaxScaleDenominator>			  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#007585</CssParameter>
@@ -135,7 +135,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Title>Kelp bed area (zoomed out)</Title>
-		  <MinScaleDenominator>200000</MinScaleDenominator>		  
+		  <MinScaleDenominator>250000</MinScaleDenominator>		  
           <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#ff572f</CssParameter>
