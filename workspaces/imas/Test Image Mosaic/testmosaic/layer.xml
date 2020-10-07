@@ -1,0 +1,15 @@
+<layer>
+  <name>testmosaic</name>
+  <id>LayerInfoImpl-70a8d5d5:17500d592ec:16fd</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-70a8d5d5:17500d592ec:16fc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
