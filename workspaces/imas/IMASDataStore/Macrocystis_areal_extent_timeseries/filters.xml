@@ -3,7 +3,7 @@
     <filter>
         <name>Year</name>
         <type>string</type>
-        <label>Survey tear</label>
+        <label>Survey year</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
