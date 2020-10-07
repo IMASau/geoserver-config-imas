@@ -3,13 +3,14 @@
 <#list features as feature>
   <div class="feature"> 
 
-  <b>Survey year: </b> ${feature.Year.value}<BR>  
-  <b>Macrocystis species (if assessed): </b> ${feature.Species.value}<BR>
-  <b>Macrocystis density (if assessed): </b> ${feature.Density.value}<BR>   
-  <b>Mapped area: </b> ${(feature.Area_m2.value/10000)?int} hectares<BR><BR>
+  <b>Survey year: </b>${feature.Year.value}<BR>  
+  <b>Macrocystis species (if assessed):</b> ${feature.Species.value}<BR>
+  <b>Macrocystis density (if assessed):</b> ${feature.Density.value}<BR> 
+<#if ${(feature.Area_m2.value?has_content}>
+  <b>Mapped area: </b>${(feature.Area_m2.value/10000)} hectares<BR><BR>
+<#else<b>Mapped area:</b> N/A<BR><BR>
+</#if>
+	  
 
  </div>
 </#list>
-
-
-${(x/2)?int}
