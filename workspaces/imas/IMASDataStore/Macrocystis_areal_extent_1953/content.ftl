@@ -1,4 +1,4 @@
-<h3>Macrocystis areal extent (select locations only) 1953</h3><BR>
+<h3>Macrocystis extent (select locations only) 1953</h3><BR>
 
 <#list features as feature>
   <div class="feature"> 
