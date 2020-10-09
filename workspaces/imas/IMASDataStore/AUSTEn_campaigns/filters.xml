@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>Year</name>
+        <name>Site</name>
         <type>string</type>
-        <label>Survey year</label>
+        <label>1. Site</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Species</name>
+        <name>Campaign</name>
         <type>string</type>
-        <label>Macrocystis species (if available)</label>
+        <label>3. Campaign</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Density</name>
+        <name>Dataset_type</name>
         <type>string</type>
-        <label>Density (if available)</label>
+        <label>2. Dataset type</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
