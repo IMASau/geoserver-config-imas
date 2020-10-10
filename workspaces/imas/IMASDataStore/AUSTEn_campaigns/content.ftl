@@ -8,9 +8,9 @@
   <b>Site:</b> ${feature.Site.value}<BR>
   <b>Data type: </b> ${feature.Dataset_type.value}<BR>
   <b>Campaign:</b> ${feature.Campaign.value}<BR>
-  <b>Date start-end:</b> ${feature.Datetime_start_UTC.value[0..11]} - ${feature.Datetime_end_UTC.value[0..11]}<BR>  
-  <b><a href="${feature.Metadata_URL.value}">Metadata URL</a></b><BR>
-  <b><a href="${feature.THREDDS_collection_URL.value}">THREDDS_collection_URL URL</a></b><BR><BR>
+  <b>Date/time start-end:</b> ${feature.Datetime_start_UTC.value[0..15]} to ${feature.Datetime_end_UTC.value[0..15]}<BR>  
+  <a href="${feature.Metadata_URL.value}">Metadata URL</a><BR>
+  <a href="${feature.THREDDS_collection_URL.value}">THREDDS collection URL</a><BR><BR>
 
 </div>
 	<#else>
