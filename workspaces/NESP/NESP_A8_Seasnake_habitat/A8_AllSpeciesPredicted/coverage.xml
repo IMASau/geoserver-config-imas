@@ -46,6 +46,7 @@
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--771e51da:162fade6940:e5</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -100,7 +101,7 @@
   <parameters>
     <entry>
       <string>InputTransparentColor</string>
-      <string></string>
+      <null/>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
