@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-70a8d5d5:1756b8b644d:-7062</id>
+  <name>NESP_D1_SAUP_DemersalFish</name>
+  <description>NESP MBH Data: D1 relative demersal fish abundance</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/e90f84bd-a1c8-4943-ac6a-dbfee0cc313e/SAUP_NW_demersalfish.tif</url>
+</coverageStore>

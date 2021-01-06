@@ -1,0 +1,15 @@
+<layer>
+  <name>SAUP_NW_DemersalFish</name>
+  <id>LayerInfoImpl-70a8d5d5:1756b8b644d:-7056</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-70a8d5d5:1756b8b644d:-7058</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-70a8d5d5:1756b8b644d:-7057</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
