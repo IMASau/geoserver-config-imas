@@ -3418,3 +3418,241 @@ GetMap Request
 	XPixel = 50
 	YPixel = 50
 2021-01-28 23:59:24,371 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&FORMAT=image%2Fpng&TRANSPARENT=true&QUERY_LAYERS=imas%3ACIRCA_Projects&LAYERS=imas%3ACIRCA_Projects&exceptions=application%2Fvnd.ogc.se_inimage&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=50&X=50&Y=50&SRS=EPSG%3A4326&STYLES=&WIDTH=101&HEIGHT=101&BBOX=129.287109375%2C-43.41796875%2C147.041015625%2C-25.6640625" took 291ms
+2021-01-29 00:14:39,835 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?name=imas" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?18" "" 
+2021-01-29 00:14:39,927 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?name=imas" took 90ms
+2021-01-29 00:14:39,934 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?20&name=imas" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?18" "" 
+2021-01-29 00:14:39,941 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?20&name=imas" took 5ms
+2021-01-29 00:14:44,166 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?20&name=imas" "" 
+2021-01-29 00:14:44,206 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage" took 40ms
+2021-01-29 00:14:44,213 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?21" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?20&name=imas" "" 
+2021-01-29 00:14:44,219 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?21" took 5ms
+2021-01-29 00:14:45,830 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?name=imas" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?21" "" 
+2021-01-29 00:14:45,903 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?name=imas" took 72ms
+2021-01-29 00:14:45,909 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?22&name=imas" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspacePage?21" "" 
+2021-01-29 00:14:45,915 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?22&name=imas" took 5ms
+2021-01-29 00:14:49,253 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?22&name=imas" "" 
+2021-01-29 00:14:49,262 WARN [geoserver.web] - Unable to find property: 'format.wms.application/vnd.google-earth.kml' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,263 WARN [geoserver.web] - Unable to find property: 'format.wms.rss' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,263 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,264 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,264 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,264 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,265 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,265 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,265 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,266 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,266 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,266 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,267 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,268 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,282 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,283 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,287 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,287 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,289 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,289 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,291 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,291 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,293 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,293 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,295 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,296 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,298 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,299 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,302 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,302 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,306 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,307 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,309 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,309 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,313 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,314 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,316 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,316 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,317 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,318 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,319 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,319 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,321 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,322 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,324 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,324 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,335 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,335 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:49,390 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" took 136ms
+2021-01-29 00:14:49,396 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.data.workspace.WorkspaceEditPage?22&name=imas" "" 
+2021-01-29 00:14:49,410 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" took 7ms
+2021-01-29 00:14:51,693 INFO [geoserver.filters] - 192.168.33.1 "POST /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23-1.IBehaviorListener.0-table-filterForm-submit" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" "application/x-www-form-urlencoded; charset=UTF-8"  request-size: 40 body: 
+id116_hf_0=&filter=circa&p%3A%3Asubmit=1
+
+2021-01-29 00:14:51,748 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-restricted-column' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:51,749 WARN [geoserver.web] - Unable to find property: 'format.wfs.csv-with-metadata-header' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-01-29 00:14:51,760 INFO [geoserver.filters] - 192.168.33.1 "POST /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23-1.IBehaviorListener.0-table-filterForm-submit" took 65ms
+2021-01-29 00:14:51,777 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/resource/org.geoserver.web.GeoServerBasePage/img/icons/geosilk/vector-ver-7D907ECB447ED3214265284C9C1061A4.png?antiCache=1611879291752" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" "" 
+2021-01-29 00:14:51,782 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/resource/org.geoserver.web.GeoServerBasePage/img/icons/geosilk/vector-ver-7D907ECB447ED3214265284C9C1061A4.png?antiCache=1611879291752" took 5ms
+2021-01-29 00:14:53,470 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?service=WMS&version=1.1.0&request=GetMap&layers=imas%3ACIRCA_Projects&bbox=115.44975869100477%2C-42.886298857725954%2C153.40000306800002%2C-16.92549066149018&width=768&height=525&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" "" 
+2021-01-29 00:14:53,477 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-01-29 00:14:53,479 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-01-29 00:14:53,499 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://192.168.33.21:8082/geoserver/
+	Bbox = SRSEnvelope[115.44975869100477 : 153.40000306800002, -42.886298857725954 : -16.92549066149018]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 525
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@731e5b4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=115.44975869100477,-42.886298857725954,153.40000306800002,-16.92549066149018, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=525, LAYERS=imas:CIRCA_Projects}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_green_circle_PROJECT_LOCATION]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2021-01-29 00:14:53,500 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?service=WMS&version=1.1.0&request=GetMap&layers=imas%3ACIRCA_Projects&bbox=115.44975869100477%2C-42.886298857725954%2C153.40000306800002%2C-16.92549066149018&width=768&height=525&srs=EPSG%3A4326&format=application/openlayers" took 30ms
+2021-01-29 00:14:53,672 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=imas%3ACIRCA_Projects&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A4326&STYLES=&WIDTH=768&HEIGHT=525&BBOX=100.634765625%2C-52.9541015625%2C168.134765625%2C-6.8115234375" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/imas/wms?service=WMS&version=1.1.0&request=GetMap&layers=imas%3ACIRCA_Projects&bbox=115.44975869100477%2C-42.886298857725954%2C153.40000306800002%2C-16.92549066149018&width=768&height=525&srs=EPSG%3A4326&format=application/openlayers" "" 
+2021-01-29 00:14:53,680 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-01-29 00:14:53,682 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-01-29 00:14:53,757 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://192.168.33.21:8082/geoserver/
+	Bbox = SRSEnvelope[100.634765625 : 168.134765625, -52.9541015625 : -6.8115234375]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 525
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@731e5b4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=100.634765625,-52.9541015625,168.134765625,-6.8115234375, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=525, TRANSPARENT=true, LAYERS=imas:CIRCA_Projects}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_green_circle_PROJECT_LOCATION]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-01-29 00:14:53,778 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=imas%3ACIRCA_Projects&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A4326&STYLES=&WIDTH=768&HEIGHT=525&BBOX=100.634765625%2C-52.9541015625%2C168.134765625%2C-6.8115234375" took 105ms
+2021-01-29 00:14:55,512 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&FORMAT=image%2Fpng&TRANSPARENT=true&QUERY_LAYERS=imas%3ACIRCA_Projects&LAYERS=imas%3ACIRCA_Projects&exceptions=application%2Fvnd.ogc.se_inimage&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=50&X=50&Y=50&SRS=EPSG%3A4326&STYLES=&WIDTH=101&HEIGHT=101&BBOX=146.9970703125%2C-37.6171875%2C155.8740234375%2C-28.740234375" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/imas/wms?service=WMS&version=1.1.0&request=GetMap&layers=imas%3ACIRCA_Projects&bbox=115.44975869100477%2C-42.886298857725954%2C153.40000306800002%2C-16.92549066149018&width=768&height=525&srs=EPSG%3A4326&format=application/openlayers" "" 
+2021-01-29 00:14:55,521 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-01-29 00:14:55,524 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-01-29 00:14:55,625 INFO [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://192.168.33.21:8082/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[146.9970703125 : 155.8740234375, -37.6171875 : -28.740234375]
+ layers: imas:CIRCA_Projects
+ styles: point_green_circle_PROJECT_LOCATION
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@731e5b4e]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=imas:CIRCA_Projects, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:4326, BBOX=146.9970703125,-37.6171875,155.8740234375,-28.740234375, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=imas:CIRCA_Projects, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+2021-01-29 00:14:55,652 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/imas/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&FORMAT=image%2Fpng&TRANSPARENT=true&QUERY_LAYERS=imas%3ACIRCA_Projects&LAYERS=imas%3ACIRCA_Projects&exceptions=application%2Fvnd.ogc.se_inimage&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=50&X=50&Y=50&SRS=EPSG%3A4326&STYLES=&WIDTH=101&HEIGHT=101&BBOX=146.9970703125%2C-37.6171875%2C155.8740234375%2C-28.740234375" took 139ms
+2021-01-29 00:16:30,665 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" "" 
+2021-01-29 00:16:30,735 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage" took 68ms
+2021-01-29 00:16:30,742 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage?24" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?23" "" 
+2021-01-29 00:16:30,748 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage?24" took 5ms
+2021-01-29 00:16:38,459 INFO [geoserver.filters] - 192.168.33.1 "POST /geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage?24-1.IFormSubmitListener-form" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage?24" "application/x-www-form-urlencoded"  request-size: 339 body: 
+id152_hf_0=&proxyBaseUrl=http%3A%2F%2F192.168.33.21%3A8082%2Fgeoserver&globalServices=on&charset=80&numDecimals=4&verbose=on&resourceErrorHandling=SKIP_MISCONFIGURED_LAYERS&loggingLocation=&log4jConfigFile=&xmlPostRequestLogBufferSize=1024&featureTypeCacheSize=0&lockProvider=&webUIMode=0&extensions%3A0%3Acontent%3Arootdir=&p%3A%3Asubmit=
+
+2021-01-29 00:16:38,506 INFO [geoserver.filters] - 192.168.33.1 "POST /geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage?24-1.IFormSubmitListener-form" took 46ms
+2021-01-29 00:16:38,510 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "http://192.168.33.21:8082/geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.GlobalSettingsPage?24" "" 
+2021-01-29 00:16:38,575 WARN [geoserver.security] - Failed login, user admin from 192.168.33.1
+2021-01-29 00:16:38,575 INFO [geoserver.security] - Brute force attack prevention, delaying login for 4954ms
+2021-01-29 00:16:43,620 INFO [geoserver.filters] - 192.168.33.1 "GET /geoserver/web/" took 5109ms
