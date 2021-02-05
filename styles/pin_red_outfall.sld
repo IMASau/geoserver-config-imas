@@ -19,7 +19,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>20</Size>
+    			 	<Size>30</Size>
   			 </Graphic>
           </PointSymbolizer>
         </Rule>
