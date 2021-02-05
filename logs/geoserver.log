@@ -1865,3 +1865,915 @@
 2021-01-20 22:10:01,294 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
 2021-01-20 22:10:01,802 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/web/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "" "" 
 2021-01-20 22:10:02,431 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/web/" took 629ms
+2021-02-06 06:59:01,147 INFO [georss.GeoRSSPoller] - destroy() invoked
+2021-02-06 06:59:01,150 INFO [geowebcache.GeoWebCacheDispatcher] - GeoWebCacheDispatcher.destroy() was invoked, shutting down.
+2021-02-06 06:59:01,157 INFO [diskquota.DiskQuotaMonitor] - Disk quota monitor shutting down...
+2021-02-06 06:59:01,160 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota usage monitor...
+2021-02-06 06:59:01,160 INFO [diskquota.QuotaUpdatesMonitor] - Shutting down quota usage monitor...
+2021-02-06 06:59:01,182 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota statistics gathering monitor...
+2021-02-06 06:59:01,182 INFO [diskquota.QueuedQuotaUpdatesConsumer] - Shutting down quota update background task due to InterruptedException
+2021-02-06 06:59:01,184 INFO [diskquota.QueuedUsageStatsConsumer] - Shutting down quota update background task due to interrupted exception
+2021-02-06 06:59:01,189 INFO [seed.SeederThreadPoolExecutor] - Initiating shut down for running and pending seed tasks...
+2021-02-06 06:59:01,189 INFO [seed.SeederThreadPoolExecutor] - Seeder thread pool executor shut down complete.
+2021-02-06 06:59:01,189 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker
+2021-02-06 06:59:49,201 INFO [geoserver.logging] - Suppressing StdOut logging.  If you want to see GeoServer logs, be sure to look in '/opt/imas-webapps/geoserver/logs/geoserver.log'
+2021-02-06 06:59:55,629 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2021-02-06 06:59:56,227 INFO [org.geoserver] - Loaded style 'ACEAS_seagrass'
+2021-02-06 06:59:56,228 INFO [org.geoserver] - Loaded style 'LINE_SAMPLE'
+2021-02-06 06:59:56,228 INFO [org.geoserver] - Loaded style 'AU_seagrass05_POLY'
+2021-02-06 06:59:56,229 INFO [org.geoserver] - Loaded style 'AU_seagrass05_PT'
+2021-02-06 06:59:56,241 INFO [org.geoserver] - Loaded style 'CTD_location'
+2021-02-06 06:59:56,242 INFO [org.geoserver] - Loaded style 'Huon_AMP_broadscale'
+2021-02-06 06:59:56,242 INFO [org.geoserver] - Loaded style 'Huon_AMP_Seamap'
+2021-02-06 06:59:56,242 INFO [org.geoserver] - Loaded style 'SeaAroundUs_FishAbundance'
+2021-02-06 06:59:56,243 INFO [org.geoserver] - Loaded style 'Niskin_sample_pink'
+2021-02-06 06:59:56,243 INFO [org.geoserver] - Loaded style 'Niskin_sample_green'
+2021-02-06 06:59:56,243 INFO [org.geoserver] - Loaded style 'Huon_AMP_finescale'
+2021-02-06 06:59:56,296 INFO [org.geoserver] - Loaded style 'dem'
+2021-02-06 06:59:56,297 INFO [org.geoserver] - Loaded style 'cwt_logger_site'
+2021-02-06 06:59:56,308 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2021-02-06 06:59:56,308 INFO [org.geoserver] - Loaded style 'line'
+2021-02-06 06:59:56,309 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2021-02-06 06:59:56,310 INFO [org.geoserver] - Loaded style 'green'
+2021-02-06 06:59:56,310 INFO [org.geoserver] - Loaded style 'generic'
+2021-02-06 06:59:56,310 INFO [org.geoserver] - Loaded style 'line_orange'
+2021-02-06 06:59:56,311 INFO [org.geoserver] - Loaded style 'line_pink'
+2021-02-06 06:59:56,311 INFO [org.geoserver] - Loaded style 'line_aqua'
+2021-02-06 06:59:56,311 INFO [org.geoserver] - Loaded style 'line_purple'
+2021-02-06 06:59:56,311 INFO [org.geoserver] - Loaded style 'marine_plastics'
+2021-02-06 06:59:56,312 INFO [org.geoserver] - Loaded style 'pin_red'
+2021-02-06 06:59:56,312 INFO [org.geoserver] - Loaded style 'pin_red_outfall'
+2021-02-06 06:59:56,312 INFO [org.geoserver] - Loaded style 'poi_dredge'
+2021-02-06 06:59:56,313 INFO [org.geoserver] - Loaded style 'point'
+2021-02-06 06:59:56,313 INFO [org.geoserver] - Loaded style 'point_orange_circle_OBSERVATION'
+2021-02-06 06:59:56,313 INFO [org.geoserver] - Loaded style 'point_green_circle_OBSERVATION'
+2021-02-06 06:59:56,314 INFO [org.geoserver] - Loaded style 'point_green_circle_LOCATION'
+2021-02-06 06:59:56,314 INFO [org.geoserver] - Loaded style 'point_green_circle_HARVEST'
+2021-02-06 06:59:56,314 INFO [org.geoserver] - Loaded style 'point_purple_circle_LOCATION'
+2021-02-06 06:59:56,314 INFO [org.geoserver] - Loaded style 'point_purple_square_OBSERVATION'
+2021-02-06 06:59:56,315 INFO [org.geoserver] - Loaded style 'point_orange_circle_SAMPLE'
+2021-02-06 06:59:56,315 INFO [org.geoserver] - Loaded style 'point_purple_star_SAMPLE'
+2021-02-06 06:59:56,315 INFO [org.geoserver] - Loaded style 'polygon'
+2021-02-06 06:59:56,315 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2021-02-06 06:59:56,316 INFO [org.geoserver] - Loaded style 'pophatch (maths operators)'
+2021-02-06 06:59:56,316 INFO [org.geoserver] - Loaded style 'population (maths operators)'
+2021-02-06 06:59:56,316 INFO [org.geoserver] - Loaded style 'raster'
+2021-02-06 06:59:56,316 INFO [org.geoserver] - Loaded style 'restricted'
+2021-02-06 06:59:56,316 INFO [org.geoserver] - Loaded style 'rain (raster example)'
+2021-02-06 06:59:56,317 INFO [org.geoserver] - Loaded style 'seamap_habitats_full'
+2021-02-06 06:59:56,317 INFO [org.geoserver] - Loaded style 'simple_roads'
+2021-02-06 06:59:56,317 INFO [org.geoserver] - Loaded style 'simple_streams'
+2021-02-06 06:59:56,317 INFO [org.geoserver] - Loaded style 'seamap_habitats_reduced'
+2021-02-06 06:59:56,318 INFO [org.geoserver] - Loaded style 'soop_co2_tracks'
+2021-02-06 06:59:56,318 INFO [org.geoserver] - Loaded style 'square_blue_LOCATION'
+2021-02-06 06:59:56,318 INFO [org.geoserver] - Loaded style 'point_green_circle_PROJECT_LOCATION'
+2021-02-06 06:59:56,318 INFO [org.geoserver] - Loaded style 'square_red_LOCATION'
+2021-02-06 06:59:56,335 INFO [org.geoserver] - Loaded default workspace imas
+2021-02-06 06:59:56,556 INFO [org.geoserver] - Loaded workspace 'redmap'
+2021-02-06 06:59:56,559 INFO [org.geoserver] - Loaded workspace 'seamap'
+2021-02-06 06:59:56,626 INFO [org.geoserver] - Loaded style 'AMP_2018_MAP'
+2021-02-06 06:59:56,627 INFO [org.geoserver] - Loaded style 'AMP_2018_NETWORKS_v2'
+2021-02-06 06:59:56,627 INFO [org.geoserver] - Loaded style 'AMP_2018_NETWORKS'
+2021-02-06 06:59:56,628 INFO [org.geoserver] - Loaded style 'AMP_2018_ZONES'
+2021-02-06 06:59:56,628 INFO [org.geoserver] - Loaded style 'AMP_2018_RESERVES'
+2021-02-06 06:59:56,629 INFO [org.geoserver] - Loaded style 'AMP_2018_ZONE_X_RES'
+2021-02-06 06:59:56,629 INFO [org.geoserver] - Loaded style 'AMP_2018_ZONE_X_NET'
+2021-02-06 06:59:56,630 INFO [org.geoserver] - Loaded style 'CAPAD_IUCN'
+2021-02-06 06:59:56,630 INFO [org.geoserver] - Loaded style 'CAPAD_IUCN_MAP'
+2021-02-06 06:59:56,630 INFO [org.geoserver] - Loaded style 'CAPAD_type'
+2021-02-06 06:59:56,631 INFO [org.geoserver] - Loaded style 'Ecological_Disturbance_Index'
+2021-02-06 06:59:56,631 INFO [org.geoserver] - Loaded style 'SeamapAus_CMRs'
+2021-02-06 06:59:56,648 INFO [org.geoserver] - Loaded style 'SeamapAus_CoastalCompartments_1'
+2021-02-06 06:59:56,651 INFO [org.geoserver] - Loaded style 'SeamapAus_IMCRA_full'
+2021-02-06 06:59:56,651 INFO [org.geoserver] - Loaded style 'SeamapAus_FINAL'
+2021-02-06 06:59:56,652 INFO [org.geoserver] - Loaded style 'SeamapAus_CoastalCompartments_2'
+2021-02-06 06:59:56,656 INFO [org.geoserver] - Loaded style 'SeamapAus_IMCRA_prov'
+2021-02-06 06:59:56,656 INFO [org.geoserver] - Loaded style 'SeamapAus_MEOW_full'
+2021-02-06 06:59:56,657 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_Aus_margin_geomorph'
+2021-02-06 06:59:56,657 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_CAMRIS_benthic_substrate'
+2021-02-06 06:59:56,657 INFO [org.geoserver] - Loaded style 'SeamapAus_MEOW_custom'
+2021-02-06 06:59:56,658 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_CoastalGeomorph_eco'
+2021-02-06 06:59:56,658 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_CoastalGeomorph_Smartline'
+2021-02-06 06:59:56,658 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_CoastalGeomorph_substrate'
+2021-02-06 06:59:56,661 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_seagrass'
+2021-02-06 06:59:56,661 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_CoastalGeomorph_surface_eco'
+2021-02-06 06:59:56,662 INFO [org.geoserver] - Loaded style 'SeamapAus_NAT_CoastalWaterways_geomorphic'
+2021-02-06 06:59:56,662 INFO [org.geoserver] - Loaded style 'SeamapAus_NSW_2002'
+2021-02-06 06:59:56,664 INFO [org.geoserver] - Loaded style 'SeamapAus_NSW_2013'
+2021-02-06 06:59:56,665 INFO [org.geoserver] - Loaded style 'SeamapAus_NSW_estuarine_inventory'
+2021-02-06 06:59:56,665 INFO [org.geoserver] - Loaded style 'SeamapAus_NSW_estuarine_macrophytes'
+2021-02-06 06:59:56,665 INFO [org.geoserver] - Loaded style 'SeamapAus_NSW_estuary_ecosystems'
+2021-02-06 06:59:56,666 INFO [org.geoserver] - Loaded style 'SeamapAus_NSW_ocean_ecosystems'
+2021-02-06 06:59:56,666 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_DarwinHarbour_mangrove'
+2021-02-06 06:59:56,667 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_Bynoe_mangrove_MAP'
+2021-02-06 06:59:56,667 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_Bynoe_mangrove'
+2021-02-06 06:59:56,667 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_DarwinHarbour_mangrove_MAP'
+2021-02-06 06:59:56,669 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_DarwinHarbour_seabed'
+2021-02-06 06:59:56,669 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_DarwinHarbour_seabed_DATA'
+2021-02-06 06:59:56,669 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_EastMiddleArms_communities_MAP'
+2021-02-06 06:59:56,669 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_EastMiddleArms_communities'
+2021-02-06 06:59:56,679 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_EastMiddleArms_habitats'
+2021-02-06 06:59:56,680 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_OceanicShoals'
+2021-02-06 06:59:56,680 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_EastMiddleArms_habitats_MAP'
+2021-02-06 06:59:56,680 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_OceanicShoals_MAP'
+2021-02-06 06:59:56,680 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_mangroves_100'
+2021-02-06 06:59:56,681 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_PetrelBasin_MAP'
+2021-02-06 06:59:56,681 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_PetrelBasin'
+2021-02-06 06:59:56,681 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_seagrass'
+2021-02-06 06:59:56,682 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_mangroves_LudmillaCreek_MAP'
+2021-02-06 06:59:56,682 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_EasternBanks_seagrassbiom'
+2021-02-06 06:59:56,682 INFO [org.geoserver] - Loaded style 'SeamapAus_NT_mangroves_LudmillaCreek'
+2021-02-06 06:59:56,685 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_EasternBanks_seagrassbiom_MAP'
+2021-02-06 06:59:56,685 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_EasternBanks_seagrasscov_MAP'
+2021-02-06 06:59:56,685 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_EasternBanks_seagrasscov'
+2021-02-06 06:59:56,685 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_EasternBanks_seagrassspec'
+2021-02-06 06:59:56,694 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_GoldCoast_seagrass'
+2021-02-06 06:59:56,694 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_GBR_features'
+2021-02-06 06:59:56,694 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_GBRWHA_seagrass'
+2021-02-06 06:59:56,695 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_EasternBanks_seagrassspec_MAP'
+2021-02-06 06:59:56,697 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_GoldCoast_seagrass_MAP'
+2021-02-06 06:59:56,697 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_HeronReef_benthiccomm'
+2021-02-06 06:59:56,698 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_HeronReef_geomorph'
+2021-02-06 06:59:56,698 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_HeronReef_benthiccomm_MAP'
+2021-02-06 06:59:56,700 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_LowIsles_seagrass'
+2021-02-06 06:59:56,700 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_HeronReef_geomorph_MAP'
+2021-02-06 06:59:56,701 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_LowIsles_seagrass_MAP'
+2021-02-06 06:59:56,701 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_broadscale'
+2021-02-06 06:59:56,709 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_coral'
+2021-02-06 06:59:56,709 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_seagrass2004'
+2021-02-06 06:59:56,710 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_coral_MAP'
+2021-02-06 06:59:56,710 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_seagrass2004_MAP'
+2021-02-06 06:59:56,710 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_NWTorresStrait_seagrass_MAP'
+2021-02-06 06:59:56,710 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_NWTorresStrait_seagrass'
+2021-02-06 06:59:56,711 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_seagrass2011_MAP'
+2021-02-06 06:59:56,711 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_MoretonBay_seagrass2011'
+2021-02-06 06:59:56,718 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_TorresStrait_seagrass_intsub'
+2021-02-06 06:59:56,719 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_PointLookout_MAP'
+2021-02-06 06:59:56,719 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_PointLookout'
+2021-02-06 06:59:56,719 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_coastal_wetlands'
+2021-02-06 06:59:56,720 INFO [org.geoserver] - Loaded style 'SeamapAus_TAS_Huon_geomorph'
+2021-02-06 06:59:56,720 INFO [org.geoserver] - Loaded style 'SeamapAus_SA'
+2021-02-06 06:59:56,720 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_wetland'
+2021-02-06 06:59:56,720 INFO [org.geoserver] - Loaded style 'SeamapAus_QLD_reefs_shoals'
+2021-02-06 06:59:56,721 INFO [org.geoserver] - Loaded style 'SeamapAus_TAS_TasFracture_geomorph'
+2021-02-06 06:59:56,721 INFO [org.geoserver] - Loaded style 'SeamapAus_VIC_GippslandLakes'
+2021-02-06 06:59:56,721 INFO [org.geoserver] - Loaded style 'SeamapAus_TAS_SeamapTas'
+2021-02-06 06:59:56,721 INFO [org.geoserver] - Loaded style 'SeamapAus_VIC_OpenCoast'
+2021-02-06 06:59:56,724 INFO [org.geoserver] - Loaded style 'SeamapAus_VIC_WPB'
+2021-02-06 06:59:56,724 INFO [org.geoserver] - Loaded style 'SeamapAus_VIC_PPB'
+2021-02-06 06:59:56,724 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_CockburnSound_mapping'
+2021-02-06 06:59:56,724 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_CockburnSound_mapping_MAP'
+2021-02-06 06:59:56,729 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_CockburnSound_seagrasschanges'
+2021-02-06 06:59:56,729 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_DPAW'
+2021-02-06 06:59:56,729 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_CockburnSound_seagrasschanges_MAP'
+2021-02-06 06:59:56,729 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_MOU74'
+2021-02-06 06:59:56,732 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_MarineFutures_biota_MAP'
+2021-02-06 06:59:56,732 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_MarineFutures_reef'
+2021-02-06 06:59:56,732 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_MarineFutures_biota'
+2021-02-06 06:59:56,732 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_MOU74_MAP'
+2021-02-06 06:59:56,733 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_MarineFutures_reef_MAP'
+2021-02-06 06:59:56,734 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_SeagrassSynthesis_combined'
+2021-02-06 06:59:56,735 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_NWShelf_ecosystems'
+2021-02-06 06:59:56,735 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_SeagrassSynthesis_combined_MAP'
+2021-02-06 06:59:56,735 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_SeagrassSynthesis_labels'
+2021-02-06 06:59:56,738 INFO [org.geoserver] - Loaded style 'SeamapAus_WA_SeagrassSynthesis_pct'
+2021-02-06 06:59:56,738 INFO [org.geoserver] - Loaded style 'SeamapAus_contours_1m'
+2021-02-06 06:59:56,739 INFO [org.geoserver] - Loaded style 'SeamapAus_contours_5m'
+2021-02-06 06:59:56,739 INFO [org.geoserver] - Loaded style 'WaveExp_Carnarvon'
+2021-02-06 06:59:56,775 INFO [org.geoserver] - Loaded style 'seamaptas_contours'
+2021-02-06 06:59:56,775 INFO [org.geoserver] - Loaded style 'WaveExp_Jervis'
+2021-02-06 06:59:56,776 INFO [org.geoserver] - Loaded workspace 'imas'
+2021-02-06 06:59:56,787 INFO [org.geoserver] - Loaded style 'ANIMAL_TRACKING_lines'
+2021-02-06 06:59:56,788 INFO [org.geoserver] - Loaded style 'ANIMAL_TRACKING_dots'
+2021-02-06 06:59:56,798 INFO [org.geoserver] - Loaded style 'ECP_chlorophyll'
+2021-02-06 06:59:56,798 INFO [org.geoserver] - Loaded style 'ECP_nutrients'
+2021-02-06 06:59:56,798 INFO [org.geoserver] - Loaded style 'ECP_oceanography'
+2021-02-06 06:59:56,799 INFO [org.geoserver] - Loaded style 'ECP_zooplankton'
+2021-02-06 06:59:56,799 INFO [org.geoserver] - Loaded style 'ECP_pigments'
+2021-02-06 06:59:56,811 INFO [org.geoserver] - Loaded style 'ECP_phytoplankton'
+2021-02-06 06:59:56,811 INFO [org.geoserver] - Loaded style 'Global_Fisheries_Landings_2015'
+2021-02-06 06:59:56,811 INFO [org.geoserver] - Loaded style 'Macrocystis_areal_density'
+2021-02-06 06:59:56,812 INFO [org.geoserver] - Loaded style 'Macrocystis_areal_extent'
+2021-02-06 06:59:56,812 INFO [org.geoserver] - Loaded style 'Macrocystis_harvest_tonnage'
+2021-02-06 06:59:56,812 INFO [org.geoserver] - Loaded style 'NERP_seafloor_digitised'
+2021-02-06 06:59:56,812 INFO [org.geoserver] - Loaded style 'Global_Fisheries_Landings_2014'
+2021-02-06 06:59:56,812 INFO [org.geoserver] - Loaded style 'NERP_seafloor_geobia'
+2021-02-06 06:59:56,813 INFO [org.geoserver] - Loaded style 'Presence Absence urchin barren'
+2021-02-06 06:59:56,813 INFO [org.geoserver] - Loaded style 'aoi_imas'
+2021-02-06 06:59:56,813 INFO [org.geoserver] - Loaded style 'large_poly_imas'
+2021-02-06 06:59:56,813 INFO [org.geoserver] - Loaded style 'poi_imas'
+2021-02-06 06:59:56,813 INFO [org.geoserver] - Loaded style 'survey_region_SM'
+2021-02-06 06:59:56,813 INFO [org.geoserver] - Loaded style 'Macrocystis_areal_extent_ALL'
+2021-02-06 06:59:56,815 INFO [org.geoserver] - Loaded style 'AUSTEn_campaigns'
+2021-02-06 06:59:56,815 INFO [org.geoserver] - Loaded workspace 'NESP'
+2021-02-06 06:59:56,823 INFO [org.geoserver] - Loaded style 'A8_SeaSnake_habitat'
+2021-02-06 06:59:56,824 INFO [org.geoserver] - Loaded style 'D3_Tier1'
+2021-02-06 06:59:56,824 INFO [org.geoserver] - Loaded style 'D3_Tier2'
+2021-02-06 06:59:56,824 INFO [org.geoserver] - Loaded style 'D3_Tier4'
+2021-02-06 06:59:56,825 INFO [org.geoserver] - Loaded style 'D3_Tier3'
+2021-02-06 06:59:56,838 INFO [org.geoserver] - Loaded style 'EP2_AerialSurvey'
+2021-02-06 06:59:56,850 INFO [org.geoserver] - Loaded style 'NESP_D1_OS_PelagicAbundance'
+2021-02-06 06:59:56,851 INFO [org.geoserver] - Loaded style 'NESP_A1_elasmo_db'
+2021-02-06 06:59:56,851 INFO [org.geoserver] - Loaded style 'NESP_D1_OS_PelagicAbundance_fine'
+2021-02-06 06:59:56,851 INFO [org.geoserver] - Loaded style 'NESP_D1_OS_PelagicDiversity'
+2021-02-06 06:59:56,862 INFO [org.geoserver] - Loaded style 'raster_CoralSea_seamounts_geomorph'
+2021-02-06 06:59:56,863 INFO [org.geoserver] - Loaded style 'NESP_Ingleton_SolitarySouth'
+2021-02-06 06:59:56,863 INFO [org.geoserver] - Loaded style 'raster_CoralSea_seamounts_surface'
+2021-02-06 06:59:56,863 INFO [org.geoserver] - Loaded style 'NESP_D1_OS_PelagicDiversity_fine'
+2021-02-06 06:59:56,875 INFO [org.geoserver] - Loaded style 'NESP_D1_NW_demersalfish'
+2021-02-06 06:59:56,876 INFO [org.geoserver] - Loaded workspace 'rls'
+2021-02-06 06:59:56,906 INFO [org.geoserver] - Loaded style 'rls_reef_fish_map'
+2021-02-06 06:59:56,907 INFO [org.geoserver] - Loaded style 'rls_site_point'
+2021-02-06 06:59:57,255 INFO [org.geoserver] - Loaded coverage store 'CoralSea_seamounts_geomorphology', enabled
+2021-02-06 06:59:59,271 INFO [org.geoserver] - Loaded coverage 'CoralSea_seamounts_geomorph', enabled
+2021-02-06 06:59:59,279 INFO [org.geoserver] - Loaded layer 'CoralSea_seamounts_geomorph'
+2021-02-06 06:59:59,280 INFO [org.geoserver] - Loaded coverage store 'CoralSea_seamounts_surface', enabled
+2021-02-06 06:59:59,314 INFO [org.geoserver] - Loaded coverage 'CoralSea_seamounts_surface', enabled
+2021-02-06 06:59:59,315 INFO [org.geoserver] - Loaded layer 'CoralSea_seamounts_surface'
+2021-02-06 06:59:59,532 INFO [org.geoserver] - Loaded data store 'NESP', enabled
+2021-02-06 06:59:59,615 INFO [org.geoserver] - Loaded feature type 'CSIRO_NESP_handfish_surveys', enabled
+2021-02-06 06:59:59,616 INFO [org.geoserver] - Loaded layer 'CSIRO_NESP_handfish_surveys'
+2021-02-06 06:59:59,618 INFO [org.geoserver] - Loaded feature type 'CSIRO_NESP_handfish_surveys_MAP', enabled
+2021-02-06 06:59:59,619 INFO [org.geoserver] - Loaded layer 'CSIRO_NESP_handfish_surveys_MAP'
+2021-02-06 06:59:59,643 INFO [org.geoserver] - Loaded feature type 'NESP_A1_catch_summary_MAP', enabled
+2021-02-06 06:59:59,644 INFO [org.geoserver] - Loaded layer 'NESP_A1_catch_summary_MAP'
+2021-02-06 06:59:59,645 INFO [org.geoserver] - Loaded feature type 'NESP_A9_RBradford_GNS_Tissue_Samples', enabled
+2021-02-06 06:59:59,646 INFO [org.geoserver] - Loaded layer 'NESP_A9_RBradford_GNS_Tissue_Samples'
+2021-02-06 06:59:59,660 INFO [org.geoserver] - Loaded feature type 'NESP_D1_OceanicShoals_CMR_pelagic_BRUV', enabled
+2021-02-06 06:59:59,660 INFO [org.geoserver] - Loaded layer 'NESP_D1_OceanicShoals_CMR_pelagic_BRUV'
+2021-02-06 06:59:59,663 INFO [org.geoserver] - Loaded feature type 'NESP_D1_OceanicShoals_OpportunisticMegafauna', enabled
+2021-02-06 06:59:59,675 INFO [org.geoserver] - Loaded layer 'NESP_D1_OceanicShoals_OpportunisticMegafauna'
+2021-02-06 06:59:59,721 INFO [org.geoserver] - Loaded feature type 'NESP_D1_SAUP_PelagicFish', enabled
+2021-02-06 06:59:59,722 INFO [org.geoserver] - Loaded layer 'NESP_D1_SAUP_PelagicFish'
+2021-02-06 06:59:59,724 INFO [org.geoserver] - Loaded feature type 'NESP_D3_Tier1_localscale_reef', enabled
+2021-02-06 06:59:59,724 INFO [org.geoserver] - Loaded layer 'NESP_D3_Tier1_localscale_reef'
+2021-02-06 06:59:59,726 INFO [org.geoserver] - Loaded feature type 'NESP_D3_Tier2_regionalscale_reef', enabled
+2021-02-06 06:59:59,726 INFO [org.geoserver] - Loaded layer 'NESP_D3_Tier2_regionalscale_reef'
+2021-02-06 06:59:59,728 INFO [org.geoserver] - Loaded feature type 'NESP_D3_Tier3_nationalscale_reef', enabled
+2021-02-06 06:59:59,742 INFO [org.geoserver] - Loaded layer 'NESP_D3_Tier3_nationalscale_reef'
+2021-02-06 06:59:59,744 INFO [org.geoserver] - Loaded feature type 'NESP_D3_Tier4_reef_probability', enabled
+2021-02-06 06:59:59,744 INFO [org.geoserver] - Loaded layer 'NESP_D3_Tier4_reef_probability'
+2021-02-06 06:59:59,745 INFO [org.geoserver] - Loaded feature type 'NESP_EP2_AerialSurvey', enabled
+2021-02-06 06:59:59,746 INFO [org.geoserver] - Loaded layer 'NESP_EP2_AerialSurvey'
+2021-02-06 06:59:59,747 INFO [org.geoserver] - Loaded feature type 'NESP_NationalOutfallDatabase_DATA', enabled
+2021-02-06 06:59:59,747 INFO [org.geoserver] - Loaded layer 'NESP_NationalOutfallDatabase_DATA'
+2021-02-06 06:59:59,750 INFO [org.geoserver] - Loaded feature type 'NESP_Seabed_Habitat_SolitarySouth_DATA', enabled
+2021-02-06 06:59:59,752 INFO [org.geoserver] - Loaded layer 'NESP_Seabed_Habitat_SolitarySouth_DATA'
+2021-02-06 06:59:59,754 INFO [org.geoserver] - Loaded feature type 'NESP_NationalOutfallDatabase_MAP', enabled
+2021-02-06 06:59:59,754 INFO [org.geoserver] - Loaded layer 'NESP_NationalOutfallDatabase_MAP'
+2021-02-06 06:59:59,755 INFO [org.geoserver] - Loaded feature type 'NESP_NthAust_sponge_collection', enabled
+2021-02-06 06:59:59,756 INFO [org.geoserver] - Loaded layer 'NESP_NthAust_sponge_collection'
+2021-02-06 06:59:59,757 INFO [org.geoserver] - Loaded feature type 'NESP_Seabed_Habitat_SolitarySouth_MAP', enabled
+2021-02-06 06:59:59,757 INFO [org.geoserver] - Loaded layer 'NESP_Seabed_Habitat_SolitarySouth_MAP'
+2021-02-06 06:59:59,758 INFO [org.geoserver] - Loaded coverage store 'NESP_A8_Seasnake_habitat', enabled
+2021-02-06 06:59:59,782 INFO [org.geoserver] - Loaded coverage 'A8_AllSpeciesPredicted', enabled
+2021-02-06 06:59:59,782 INFO [org.geoserver] - Loaded layer 'A8_AllSpeciesPredicted'
+2021-02-06 06:59:59,783 INFO [org.geoserver] - Loaded coverage store 'OSCMR_PelagicAbundance_broad', enabled
+2021-02-06 06:59:59,812 INFO [org.geoserver] - Loaded coverage 'OSCMR_PelagicAbundance_broad', enabled
+2021-02-06 06:59:59,813 INFO [org.geoserver] - Loaded layer 'OSCMR_PelagicAbundance_broad'
+2021-02-06 06:59:59,813 INFO [org.geoserver] - Loaded coverage store 'OSCMR_PelagicAbundance_fine', enabled
+2021-02-06 06:59:59,828 INFO [org.geoserver] - Loaded coverage 'OSCMR_PelagicAbundance_fine', enabled
+2021-02-06 06:59:59,829 INFO [org.geoserver] - Loaded layer 'OSCMR_PelagicAbundance_fine'
+2021-02-06 06:59:59,829 INFO [org.geoserver] - Loaded coverage store 'OSCMR_PelagicDiversity_fine', enabled
+2021-02-06 06:59:59,852 INFO [org.geoserver] - Loaded coverage 'OSCMR_PelagicDiversity_fine', enabled
+2021-02-06 06:59:59,853 INFO [org.geoserver] - Loaded layer 'OSCMR_PelagicDiversity_fine'
+2021-02-06 06:59:59,854 INFO [org.geoserver] - Loaded coverage store 'OSCMR_PelagicDiversity_broad', enabled
+2021-02-06 06:59:59,868 INFO [org.geoserver] - Loaded coverage 'OSCMR_PelagicDiversity_broad', enabled
+2021-02-06 06:59:59,869 INFO [org.geoserver] - Loaded layer 'OSCMR_PelagicDiversity_broad'
+2021-02-06 06:59:59,869 INFO [org.geoserver] - Loaded coverage store 'NESP_D1_SAUP_DemersalFish', enabled
+2021-02-06 06:59:59,882 INFO [org.geoserver] - Loaded coverage 'SAUP_NW_DemersalFish', enabled
+2021-02-06 06:59:59,882 INFO [org.geoserver] - Loaded layer 'SAUP_NW_DemersalFish'
+2021-02-06 06:59:59,893 INFO [org.geoserver] - Loaded data store 'IMASInshoreLoggers', enabled
+2021-02-06 06:59:59,902 INFO [org.geoserver] - Loaded feature type 'IWT_LOGGER_GV_MAP', enabled
+2021-02-06 06:59:59,903 INFO [org.geoserver] - Loaded layer 'IWT_LOGGER_GV_MAP'
+2021-02-06 06:59:59,912 INFO [org.geoserver] - Loaded feature type 'IWT_LOGGER_GV_DATA', enabled
+2021-02-06 06:59:59,912 INFO [org.geoserver] - Loaded layer 'IWT_LOGGER_GV_DATA'
+2021-02-06 06:59:59,915 INFO [org.geoserver] - Loaded data store 'IMASEastCoastPlankton', enabled
+2021-02-06 06:59:59,936 INFO [org.geoserver] - Loaded feature type 'ECP_GEOSERVER_NUTRIENTS', enabled
+2021-02-06 06:59:59,936 INFO [org.geoserver] - Loaded layer 'ECP_GEOSERVER_NUTRIENTS'
+2021-02-06 06:59:59,951 INFO [org.geoserver] - Loaded feature type 'ECP_GEOSERVER_OCEANOGRAPHY', enabled
+2021-02-06 06:59:59,952 INFO [org.geoserver] - Loaded layer 'ECP_GEOSERVER_OCEANOGRAPHY'
+2021-02-06 06:59:59,953 INFO [org.geoserver] - Loaded feature type 'ECP_GEOSERVER_CHLOROPHYLL', enabled
+2021-02-06 06:59:59,953 INFO [org.geoserver] - Loaded layer 'ECP_GEOSERVER_CHLOROPHYLL'
+2021-02-06 06:59:59,954 INFO [org.geoserver] - Loaded feature type 'ECP_GEOSERVER_PIGMENT', enabled
+2021-02-06 06:59:59,954 INFO [org.geoserver] - Loaded layer 'ECP_GEOSERVER_PIGMENT'
+2021-02-06 06:59:59,958 INFO [org.geoserver] - Loaded feature type 'ECP_GEOSERVER_ZOOPLANKTON', enabled
+2021-02-06 06:59:59,958 INFO [org.geoserver] - Loaded layer 'ECP_GEOSERVER_ZOOPLANKTON'
+2021-02-06 06:59:59,959 INFO [org.geoserver] - Loaded feature type 'ECP_GEOSERVER_PHYTOPLANKTON', enabled
+2021-02-06 06:59:59,960 INFO [org.geoserver] - Loaded layer 'ECP_GEOSERVER_PHYTOPLANKTON'
+2021-02-06 06:59:59,960 INFO [org.geoserver] - Loaded coverage store 'RWatson_Global_Fisheries_Landings_2014', enabled
+2021-02-06 06:59:59,978 INFO [org.geoserver] - Loaded coverage 'Catch2014', enabled
+2021-02-06 06:59:59,978 INFO [org.geoserver] - Loaded layer 'Catch2014'
+2021-02-06 06:59:59,979 INFO [org.geoserver] - Loaded coverage store 'RWatson_Global_Fisheries_Landings_2015', enabled
+2021-02-06 06:59:59,992 INFO [org.geoserver] - Loaded coverage 'Catch2015', enabled
+2021-02-06 06:59:59,993 INFO [org.geoserver] - Loaded layer 'Catch2015'
+2021-02-06 06:59:59,995 INFO [org.geoserver] - Loaded data store 'IMASDataStore', enabled
+2021-02-06 07:00:00,052 INFO [org.geoserver] - Loaded feature type 'AAA_THREDDS_NatBathy', enabled
+2021-02-06 07:00:00,053 INFO [org.geoserver] - Loaded layer 'AAA_THREDDS_NatBathy'
+2021-02-06 07:00:00,056 INFO [org.geoserver] - Loaded feature type 'ACE_JRHunter_Historical_observations_sea_level_portarthur_GV', enabled
+2021-02-06 07:00:00,057 INFO [org.geoserver] - Loaded layer 'ACE_JRHunter_Historical_observations_sea_level_portarthur_GV'
+2021-02-06 07:00:00,058 INFO [org.geoserver] - Loaded feature type 'ACE_JRHunter_Observations_sea_level_portarthur_GV', enabled
+2021-02-06 07:00:00,058 INFO [org.geoserver] - Loaded layer 'ACE_JRHunter_Observations_sea_level_portarthur_GV'
+2021-02-06 07:00:00,074 INFO [org.geoserver] - Loaded feature type 'ACE_JRHunter_Observations_sea_level_portarthur_GV1', enabled
+2021-02-06 07:00:00,074 INFO [org.geoserver] - Loaded layer 'ACE_JRHunter_Observations_sea_level_portarthur_GV1'
+2021-02-06 07:00:00,075 INFO [org.geoserver] - Loaded feature type 'ACE_LRatnarajah_Trace_element_concentration_whale_faeces_southern_ocean_GV', enabled
+2021-02-06 07:00:00,075 INFO [org.geoserver] - Loaded layer 'ACE_LRatnarajah_Trace_element_concentration_whale_faeces_southern_ocean_GV'
+2021-02-06 07:00:00,076 INFO [org.geoserver] - Loaded feature type 'ACE_JRHunter_Observations_sea_level_portarthur_GV2', enabled
+2021-02-06 07:00:00,076 INFO [org.geoserver] - Loaded layer 'ACE_JRHunter_Observations_sea_level_portarthur_GV2'
+2021-02-06 07:00:00,077 INFO [org.geoserver] - Loaded feature type 'ACE_Ratnarajah_AntarcticCTD_Ammonium', enabled
+2021-02-06 07:00:00,077 INFO [org.geoserver] - Loaded layer 'ACE_Ratnarajah_AntarcticCTD_Ammonium'
+2021-02-06 07:00:00,090 INFO [org.geoserver] - Loaded feature type 'ACE_Ratnarajah_AntarcticCTD_POC_PON', enabled
+2021-02-06 07:00:00,090 INFO [org.geoserver] - Loaded layer 'ACE_Ratnarajah_AntarcticCTD_POC_PON'
+2021-02-06 07:00:00,091 INFO [org.geoserver] - Loaded feature type 'ACE_Ratnarajah_AntarcticCTD_POC', enabled
+2021-02-06 07:00:00,091 INFO [org.geoserver] - Loaded layer 'ACE_Ratnarajah_AntarcticCTD_POC'
+2021-02-06 07:00:00,092 INFO [org.geoserver] - Loaded feature type 'ACE_Ratnarajah_POC_Antarctic', enabled
+2021-02-06 07:00:00,092 INFO [org.geoserver] - Loaded layer 'ACE_Ratnarajah_POC_Antarctic'
+2021-02-06 07:00:00,093 INFO [org.geoserver] - Loaded feature type 'ACE_Schallenberg_ChlA', enabled
+2021-02-06 07:00:00,093 INFO [org.geoserver] - Loaded layer 'ACE_Schallenberg_ChlA'
+2021-02-06 07:00:00,094 INFO [org.geoserver] - Loaded feature type 'ACE_SCook_Iceberg_size', enabled
+2021-02-06 07:00:00,095 INFO [org.geoserver] - Loaded layer 'ACE_SCook_Iceberg_size'
+2021-02-06 07:00:00,095 INFO [org.geoserver] - Loaded feature type 'ACE_Schallenberg_Secchi_depth', enabled
+2021-02-06 07:00:00,096 INFO [org.geoserver] - Loaded layer 'ACE_Schallenberg_Secchi_depth'
+2021-02-06 07:00:00,096 INFO [org.geoserver] - Loaded feature type 'AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_grazing_study_GV', enabled
+2021-02-06 07:00:00,097 INFO [org.geoserver] - Loaded layer 'AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_grazing_study_GV'
+2021-02-06 07:00:00,097 INFO [org.geoserver] - Loaded feature type 'AGP_JWhittaker_Dredge_Samples_SS2011_06', enabled
+2021-02-06 07:00:00,098 INFO [org.geoserver] - Loaded layer 'AGP_JWhittaker_Dredge_Samples_SS2011_06'
+2021-02-06 07:00:00,100 WARN [org.geoserver] - Ignoring feature type directory workspaces/imas/IMASDataStore/Aerial_surveys_Macrocystis_2019_TRACKS
+2021-02-06 07:00:00,127 INFO [org.geoserver] - Loaded feature type 'AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_tasmania_GV', enabled
+2021-02-06 07:00:00,127 INFO [org.geoserver] - Loaded layer 'AQF_KMSwadling_Abundance_distribution_coastal_inshore_zooplankton_tasmania_GV'
+2021-02-06 07:00:00,128 INFO [org.geoserver] - Loaded feature type 'ARC_CLayton_transplanted_kelp_reefs_MAP', enabled
+2021-02-06 07:00:00,128 INFO [org.geoserver] - Loaded layer 'ARC_CLayton_transplanted_kelp_reefs_MAP'
+2021-02-06 07:00:00,129 INFO [org.geoserver] - Loaded feature type 'ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia', enabled
+2021-02-06 07:00:00,129 INFO [org.geoserver] - Loaded layer 'ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia'
+2021-02-06 07:00:00,130 INFO [org.geoserver] - Loaded feature type 'ARE_ECOliver_Statistically_downscaled_aus_continental_shelf_sea_surface_temps_GV', enabled
+2021-02-06 07:00:00,130 INFO [org.geoserver] - Loaded layer 'ARE_ECOliver_Statistically_downscaled_aus_continental_shelf_sea_surface_temps_GV'
+2021-02-06 07:00:00,131 INFO [org.geoserver] - Loaded feature type 'ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP', enabled
+2021-02-06 07:00:00,131 INFO [org.geoserver] - Loaded layer 'ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP'
+2021-02-06 07:00:00,132 INFO [org.geoserver] - Loaded feature type 'DP1_CGardner_Analysis_giant_crab_brain_lipofuscin_age_determination_GV', enabled
+2021-02-06 07:00:00,132 INFO [org.geoserver] - Loaded layer 'DP1_CGardner_Analysis_giant_crab_brain_lipofuscin_age_determination_GV'
+2021-02-06 07:00:00,217 INFO [org.geoserver] - Loaded feature type 'CERF_NHill_FEIndex_Bathymetry', enabled
+2021-02-06 07:00:00,218 INFO [org.geoserver] - Loaded layer 'CERF_NHill_FEIndex_Bathymetry'
+2021-02-06 07:00:00,219 INFO [org.geoserver] - Loaded feature type 'DP1_CGardner_Effects_water_temp_thermoclines_larval_behaviour_giant_crab_GV', enabled
+2021-02-06 07:00:00,219 INFO [org.geoserver] - Loaded layer 'DP1_CGardner_Effects_water_temp_thermoclines_larval_behaviour_giant_crab_GV'
+2021-02-06 07:00:00,220 INFO [org.geoserver] - Loaded feature type 'CERF_NHill_FEIndex_Openness', enabled
+2021-02-06 07:00:00,220 INFO [org.geoserver] - Loaded layer 'CERF_NHill_FEIndex_Openness'
+2021-02-06 07:00:00,221 INFO [org.geoserver] - Loaded feature type 'DP1_CGardner_Estimating_intermoult_duration_giant_crabs_GV', enabled
+2021-02-06 07:00:00,221 INFO [org.geoserver] - Loaded layer 'DP1_CGardner_Estimating_intermoult_duration_giant_crabs_GV'
+2021-02-06 07:00:00,222 INFO [org.geoserver] - Loaded feature type 'CER_CMCrawford_Coastal_estuarine_GV', enabled
+2021-02-06 07:00:00,222 INFO [org.geoserver] - Loaded layer 'CER_CMCrawford_Coastal_estuarine_GV'
+2021-02-06 07:00:00,223 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV', enabled
+2021-02-06 07:00:00,223 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV'
+2021-02-06 07:00:00,224 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Analysis_enzyme_long_spined_sea_urchin_GV', enabled
+2021-02-06 07:00:00,224 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Analysis_enzyme_long_spined_sea_urchin_GV'
+2021-02-06 07:00:00,225 INFO [org.geoserver] - Loaded feature type 'DP1_CGardner_Monitoring_size_composition_eggs_from_giant_crabs_GV', enabled
+2021-02-06 07:00:00,225 INFO [org.geoserver] - Loaded layer 'DP1_CGardner_Monitoring_size_composition_eggs_from_giant_crabs_GV'
+2021-02-06 07:00:00,226 INFO [org.geoserver] - Loaded feature type 'DP1_CGardner_Fecundity_egg_size_of_giant_crabs_GV', enabled
+2021-02-06 07:00:00,226 INFO [org.geoserver] - Loaded layer 'DP1_CGardner_Fecundity_egg_size_of_giant_crabs_GV'
+2021-02-06 07:00:00,227 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Expansion_sea_urchin_loss_taxonomic_diversity_kelp_GV', enabled
+2021-02-06 07:00:00,229 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Expansion_sea_urchin_loss_taxonomic_diversity_kelp_GV'
+2021-02-06 07:00:00,230 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Surveys_macroalgae_urchin_barrens_habitat_KentGroup_DATA', enabled
+2021-02-06 07:00:00,230 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Surveys_macroalgae_urchin_barrens_habitat_KentGroup_DATA'
+2021-02-06 07:00:00,242 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Surveys_long_spined_sea_urchin_barrens_habitat_kent_group_GV', enabled
+2021-02-06 07:00:00,242 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Surveys_long_spined_sea_urchin_barrens_habitat_kent_group_GV'
+2021-02-06 07:00:00,243 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA', enabled
+2021-02-06 07:00:00,243 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA'
+2021-02-06 07:00:00,244 INFO [org.geoserver] - Loaded feature type 'FR1_CRJohnson_Video_surveys_macroalgae_substratum_MAP', enabled
+2021-02-06 07:00:00,244 INFO [org.geoserver] - Loaded layer 'FR1_CRJohnson_Video_surveys_macroalgae_substratum_MAP'
+2021-02-06 07:00:00,245 INFO [org.geoserver] - Loaded feature type 'FR2_CRJohnson_Urchin_barrens_macroalgae_invert_surveys_DATA', enabled
+2021-02-06 07:00:00,245 INFO [org.geoserver] - Loaded layer 'FR2_CRJohnson_Urchin_barrens_macroalgae_invert_surveys_DATA'
+2021-02-06 07:00:00,246 INFO [org.geoserver] - Loaded feature type 'FR2_CRJohnson_Presence_sea_urchin_dna_in_rock_lobster_faecal_samples_GV', enabled
+2021-02-06 07:00:00,246 INFO [org.geoserver] - Loaded layer 'FR2_CRJohnson_Presence_sea_urchin_dna_in_rock_lobster_faecal_samples_GV'
+2021-02-06 07:00:00,247 INFO [org.geoserver] - Loaded feature type 'FR3_CJSanderson_Pilot_management_program_urchin_density_meredithpoint_GV', enabled
+2021-02-06 07:00:00,247 INFO [org.geoserver] - Loaded layer 'FR3_CJSanderson_Pilot_management_program_urchin_density_meredithpoint_GV'
+2021-02-06 07:00:00,248 INFO [org.geoserver] - Loaded feature type 'FR3_CJSanderson_Pilot_management_program_urchin_density_hopeisland_GV', enabled
+2021-02-06 07:00:00,248 INFO [org.geoserver] - Loaded layer 'FR3_CJSanderson_Pilot_management_program_urchin_density_hopeisland_GV'
+2021-02-06 07:00:00,249 INFO [org.geoserver] - Loaded feature type 'FR4_JMSemmens_Understanding_movement_patterns_key_reef_species_GV', enabled
+2021-02-06 07:00:00,249 INFO [org.geoserver] - Loaded layer 'FR4_JMSemmens_Understanding_movement_patterns_key_reef_species_GV'
+2021-02-06 07:00:00,250 INFO [org.geoserver] - Loaded feature type 'FR2_CRJohnson_Urchin_barrens_macroalgae_invert_surveys_MAP', enabled
+2021-02-06 07:00:00,250 INFO [org.geoserver] - Loaded layer 'FR2_CRJohnson_Urchin_barrens_macroalgae_invert_surveys_MAP'
+2021-02-06 07:00:00,251 INFO [org.geoserver] - Loaded feature type 'FR6_JMLyle_Post_release_survival_flathead_GV', enabled
+2021-02-06 07:00:00,251 INFO [org.geoserver] - Loaded layer 'FR6_JMLyle_Post_release_survival_flathead_GV'
+2021-02-06 07:00:00,253 INFO [org.geoserver] - Loaded feature type 'FR5_JMLyle_Age_structure_growth_population_status_banded_morwong_GV', enabled
+2021-02-06 07:00:00,254 INFO [org.geoserver] - Loaded layer 'FR5_JMLyle_Age_structure_growth_population_status_banded_morwong_GV'
+2021-02-06 07:00:00,254 INFO [org.geoserver] - Loaded feature type 'FRDC_JRoss_MacHarbour_HOBO_loggers_DATA', enabled
+2021-02-06 07:00:00,255 INFO [org.geoserver] - Loaded layer 'FRDC_JRoss_MacHarbour_HOBO_loggers_DATA'
+2021-02-06 07:00:00,255 INFO [org.geoserver] - Loaded feature type 'FRDC_JRoss_MacHarbour_O2_Monitoring_MAP', enabled
+2021-02-06 07:00:00,256 INFO [org.geoserver] - Loaded layer 'FRDC_JRoss_MacHarbour_O2_Monitoring_MAP'
+2021-02-06 07:00:00,256 INFO [org.geoserver] - Loaded feature type 'FRDC_JRoss_MacHarbour_O2_Monitoring_DATA', enabled
+2021-02-06 07:00:00,256 INFO [org.geoserver] - Loaded layer 'FRDC_JRoss_MacHarbour_O2_Monitoring_DATA'
+2021-02-06 07:00:00,257 INFO [org.geoserver] - Loaded feature type 'FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV', enabled
+2021-02-06 07:00:00,257 INFO [org.geoserver] - Loaded layer 'FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV'
+2021-02-06 07:00:00,259 INFO [org.geoserver] - Loaded feature type 'Huon_AMP_L1_Seamap', enabled
+2021-02-06 07:00:00,259 INFO [org.geoserver] - Loaded layer 'Huon_AMP_L1_Seamap'
+2021-02-06 07:00:00,259 INFO [org.geoserver] - Loaded feature type 'FWC_JMLyle_Recreational_scallop_fisheries_tasmania_GV', enabled
+2021-02-06 07:00:00,260 INFO [org.geoserver] - Loaded layer 'FWC_JMLyle_Recreational_scallop_fisheries_tasmania_GV'
+2021-02-06 07:00:00,261 INFO [org.geoserver] - Loaded feature type 'Huon_AMP_L3_broadscale', enabled
+2021-02-06 07:00:00,261 INFO [org.geoserver] - Loaded layer 'Huon_AMP_L3_broadscale'
+2021-02-06 07:00:00,262 INFO [org.geoserver] - Loaded feature type 'IN2016_V02_eddy_sampling_Chla', enabled
+2021-02-06 07:00:00,262 INFO [org.geoserver] - Loaded layer 'IN2016_V02_eddy_sampling_Chla'
+2021-02-06 07:00:00,263 INFO [org.geoserver] - Loaded feature type 'Huon_AMP_L3_finescale', enabled
+2021-02-06 07:00:00,277 INFO [org.geoserver] - Loaded layer 'Huon_AMP_L3_finescale'
+2021-02-06 07:00:00,278 INFO [org.geoserver] - Loaded feature type 'IN2016_V02_eddy_sampling_POC', enabled
+2021-02-06 07:00:00,279 INFO [org.geoserver] - Loaded layer 'IN2016_V02_eddy_sampling_POC'
+2021-02-06 07:00:00,280 INFO [org.geoserver] - Loaded feature type 'Macrocystis_aerial_surveys_2009', enabled
+2021-02-06 07:00:00,280 INFO [org.geoserver] - Loaded layer 'Macrocystis_aerial_surveys_2009'
+2021-02-06 07:00:00,281 INFO [org.geoserver] - Loaded feature type 'JCU_Haapkyla_Hoga_Reef_communities_MAP', enabled
+2021-02-06 07:00:00,281 INFO [org.geoserver] - Loaded layer 'JCU_Haapkyla_Hoga_Reef_communities_MAP'
+2021-02-06 07:00:00,282 INFO [org.geoserver] - Loaded feature type 'FRDC_JRoss_MacHarbour_HOBO_loggers_MAP', enabled
+2021-02-06 07:00:00,282 INFO [org.geoserver] - Loaded layer 'FRDC_JRoss_MacHarbour_HOBO_loggers_MAP'
+2021-02-06 07:00:00,283 INFO [org.geoserver] - Loaded feature type 'Macrocystis_areal_extent_1965', enabled
+2021-02-06 07:00:00,283 INFO [org.geoserver] - Loaded layer 'Macrocystis_areal_extent_1965'
+2021-02-06 07:00:00,284 INFO [org.geoserver] - Loaded feature type 'Macrocystis_aerial_surveys_2019', enabled
+2021-02-06 07:00:00,284 INFO [org.geoserver] - Loaded layer 'Macrocystis_aerial_surveys_2019'
+2021-02-06 07:00:00,286 INFO [org.geoserver] - Loaded feature type 'Macrocystis_areal_extent_1953', enabled
+2021-02-06 07:00:00,286 INFO [org.geoserver] - Loaded layer 'Macrocystis_areal_extent_1953'
+2021-02-06 07:00:00,289 WARN [org.geoserver] - Ignoring feature type directory workspaces/imas/IMASDataStore/NESP_D1_SAUP_PelagicFish
+2021-02-06 07:00:00,307 INFO [org.geoserver] - Loaded feature type 'Macrocystis_aerial_surveys_2019_TRACKS', enabled
+2021-02-06 07:00:00,307 INFO [org.geoserver] - Loaded layer 'Macrocystis_aerial_surveys_2019_TRACKS'
+2021-02-06 07:00:00,309 INFO [org.geoserver] - Loaded feature type 'Macrocystis_areal_extent_1988', enabled
+2021-02-06 07:00:00,309 INFO [org.geoserver] - Loaded layer 'Macrocystis_areal_extent_1988'
+2021-02-06 07:00:00,310 INFO [org.geoserver] - Loaded feature type 'Macrocystis_areal_extent_1986', enabled
+2021-02-06 07:00:00,327 INFO [org.geoserver] - Loaded layer 'Macrocystis_areal_extent_1986'
+2021-02-06 07:00:00,329 INFO [org.geoserver] - Loaded feature type 'Macrocystis_areal_extent_1999', enabled
+2021-02-06 07:00:00,330 INFO [org.geoserver] - Loaded layer 'Macrocystis_areal_extent_1999'
+2021-02-06 07:00:00,331 INFO [org.geoserver] - Loaded feature type 'Macrocystis_harvest_1971', enabled
+2021-02-06 07:00:00,332 INFO [org.geoserver] - Loaded layer 'Macrocystis_harvest_1971'
+2021-02-06 07:00:00,333 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_Flinders_CMR_AUV_GV', enabled
+2021-02-06 07:00:00,333 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_Flinders_CMR_AUV_GV'
+2021-02-06 07:00:00,334 INFO [org.geoserver] - Loaded feature type 'Marine_Plastics', enabled
+2021-02-06 07:00:00,334 INFO [org.geoserver] - Loaded layer 'Marine_Plastics'
+2021-02-06 07:00:00,335 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_Flinders_CMR_BRUV_MaxN', enabled
+2021-02-06 07:00:00,335 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_Flinders_CMR_BRUV_MaxN'
+2021-02-06 07:00:00,336 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_Flinders_CMR_BRUV_Length', enabled
+2021-02-06 07:00:00,337 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_Flinders_CMR_BRUV_Length'
+2021-02-06 07:00:00,337 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_TasFracture_CMR_AUV_GV', enabled
+2021-02-06 07:00:00,351 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_TasFracture_CMR_AUV_GV'
+2021-02-06 07:00:00,352 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_TasFracture_CMR_BRUV_Length', enabled
+2021-02-06 07:00:00,352 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_TasFracture_CMR_BRUV_Length'
+2021-02-06 07:00:00,353 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_TasFracture_CMR_BRUV_MaxN', enabled
+2021-02-06 07:00:00,353 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_TasFracture_CMR_BRUV_MaxN'
+2021-02-06 07:00:00,354 INFO [org.geoserver] - Loaded feature type 'NERP_NBarrett_TasFracture_CMR_LobPotting', enabled
+2021-02-06 07:00:00,354 INFO [org.geoserver] - Loaded layer 'NERP_NBarrett_TasFracture_CMR_LobPotting'
+2021-02-06 07:00:00,371 INFO [org.geoserver] - Loaded feature type 'NERP_VLucieer_Flinders_CMA_habitat_digitised', enabled
+2021-02-06 07:00:00,372 INFO [org.geoserver] - Loaded layer 'NERP_VLucieer_Flinders_CMA_habitat_digitised'
+2021-02-06 07:00:00,373 INFO [org.geoserver] - Loaded feature type 'NERP_VLucieer_Flinders_CMA_habitat_geobia', enabled
+2021-02-06 07:00:00,373 INFO [org.geoserver] - Loaded layer 'NERP_VLucieer_Flinders_CMA_habitat_geobia'
+2021-02-06 07:00:00,385 INFO [org.geoserver] - Loaded feature type 'NESP_C2_pollution_markers', enabled
+2021-02-06 07:00:00,386 INFO [org.geoserver] - Loaded layer 'NESP_C2_pollution_markers'
+2021-02-06 07:00:00,386 INFO [org.geoserver] - Loaded feature type 'NESP_NPerkins_AUV_urchinbarrens', enabled
+2021-02-06 07:00:00,387 INFO [org.geoserver] - Loaded layer 'NESP_NPerkins_AUV_urchinbarrens'
+2021-02-06 07:00:00,387 INFO [org.geoserver] - Loaded feature type 'NFI_MLea_Antarctic_fur_seal_dive_data_GV', enabled
+2021-02-06 07:00:00,387 INFO [org.geoserver] - Loaded layer 'NFI_MLea_Antarctic_fur_seal_dive_data_GV'
+2021-02-06 07:00:00,388 INFO [org.geoserver] - Loaded feature type 'NFI_LLort_PISCES_1D_MAP', enabled
+2021-02-06 07:00:00,388 INFO [org.geoserver] - Loaded layer 'NFI_LLort_PISCES_1D_MAP'
+2021-02-06 07:00:00,389 INFO [org.geoserver] - Loaded feature type 'NR1_CMCrawford_Monitoring_program_GV', enabled
+2021-02-06 07:00:00,389 INFO [org.geoserver] - Loaded layer 'NR1_CMCrawford_Monitoring_program_GV'
+2021-02-06 07:00:00,390 INFO [org.geoserver] - Loaded feature type 'NH2_CMCrawford_Ecological_health_GV', enabled
+2021-02-06 07:00:00,390 INFO [org.geoserver] - Loaded layer 'NH2_CMCrawford_Ecological_health_GV'
+2021-02-06 07:00:00,391 INFO [org.geoserver] - Loaded feature type 'NH1_CMCrawford_Biodiversity_degradation_GV', enabled
+2021-02-06 07:00:00,391 INFO [org.geoserver] - Loaded layer 'NH1_CMCrawford_Biodiversity_degradation_GV'
+2021-02-06 07:00:00,391 INFO [org.geoserver] - Loaded feature type 'NR2_CMCrawford_Stateof_estuary_report_georgesbay_GV', enabled
+2021-02-06 07:00:00,392 INFO [org.geoserver] - Loaded layer 'NR2_CMCrawford_Stateof_estuary_report_georgesbay_GV'
+2021-02-06 07:00:00,392 INFO [org.geoserver] - Loaded feature type 'NH3_CMCrawford_Estuarine_Health_Tasmania_GV', enabled
+2021-02-06 07:00:00,392 INFO [org.geoserver] - Loaded layer 'NH3_CMCrawford_Estuarine_Health_Tasmania_GV'
+2021-02-06 07:00:00,393 INFO [org.geoserver] - Loaded feature type 'OC_LPhillips_LittlePenguin_GPS_tracks_MAP', enabled
+2021-02-06 07:00:00,393 INFO [org.geoserver] - Loaded layer 'OC_LPhillips_LittlePenguin_GPS_tracks_MAP'
+2021-02-06 07:00:00,394 INFO [org.geoserver] - Loaded feature type 'OC_LPhillips_LittlePenguin_GPS_tracks_DATA', enabled
+2021-02-06 07:00:00,394 INFO [org.geoserver] - Loaded layer 'OC_LPhillips_LittlePenguin_GPS_tracks_DATA'
+2021-02-06 07:00:00,395 INFO [org.geoserver] - Loaded feature type 'SCI_CJSanderson_Restoration_string_kelp_habitat_tasmania_GV', enabled
+2021-02-06 07:00:00,395 INFO [org.geoserver] - Loaded layer 'SCI_CJSanderson_Restoration_string_kelp_habitat_tasmania_GV'
+2021-02-06 07:00:00,396 INFO [org.geoserver] - Loaded feature type 'REGS_EOliver_ETAS_marine_heatwaves_atlas_MAP', enabled
+2021-02-06 07:00:00,409 INFO [org.geoserver] - Loaded layer 'REGS_EOliver_ETAS_marine_heatwaves_atlas_MAP'
+2021-02-06 07:00:00,410 INFO [org.geoserver] - Loaded feature type 'TAF_CGardner_Measuring_shell_hardness_southern_rock_lobster_GV', enabled
+2021-02-06 07:00:00,410 INFO [org.geoserver] - Loaded layer 'TAF_CGardner_Measuring_shell_hardness_southern_rock_lobster_GV'
+2021-02-06 07:00:00,411 INFO [org.geoserver] - Loaded feature type 'TAF_CGardner_Measuring_effect_cooking_carapace_length_rock_lobster_GV', enabled
+2021-02-06 07:00:00,411 INFO [org.geoserver] - Loaded layer 'TAF_CGardner_Measuring_effect_cooking_carapace_length_rock_lobster_GV'
+2021-02-06 07:00:00,412 INFO [org.geoserver] - Loaded feature type 'TAF_CNMundy_Abalone_size_at_reproductive_maturity_GV', enabled
+2021-02-06 07:00:00,412 INFO [org.geoserver] - Loaded layer 'TAF_CNMundy_Abalone_size_at_reproductive_maturity_GV'
+2021-02-06 07:00:00,415 INFO [org.geoserver] - Loaded feature type 'TPW_NSBarrett_MacHarbour_O2_GV2', enabled
+2021-02-06 07:00:00,415 INFO [org.geoserver] - Loaded layer 'TPW_NSBarrett_MacHarbour_O2_GV2'
+2021-02-06 07:00:00,416 INFO [org.geoserver] - Loaded feature type 'TPW_NSBarrett_MacHarbour_O2_GV_MAP', enabled
+2021-02-06 07:00:00,416 INFO [org.geoserver] - Loaded layer 'TPW_NSBarrett_MacHarbour_O2_GV_MAP'
+2021-02-06 07:00:00,416 INFO [org.geoserver] - Loaded feature type 'TAF_DJRoss_Impacts_northern_pacific_seastar_european_green_crab_soft_sediment_GV', enabled
+2021-02-06 07:00:00,428 INFO [org.geoserver] - Loaded layer 'TAF_DJRoss_Impacts_northern_pacific_seastar_european_green_crab_soft_sediment_GV'
+2021-02-06 07:00:00,429 INFO [org.geoserver] - Loaded feature type 'Tamar_tidal_height', enabled
+2021-02-06 07:00:00,429 INFO [org.geoserver] - Loaded layer 'Tamar_tidal_height'
+2021-02-06 07:00:00,430 INFO [org.geoserver] - Loaded feature type 'ZOO_KMSwadling_Zooplankton_hydrology_inshore_coastal_waters_tasmania_GV', enabled
+2021-02-06 07:00:00,430 INFO [org.geoserver] - Loaded layer 'ZOO_KMSwadling_Zooplankton_hydrology_inshore_coastal_waters_tasmania_GV'
+2021-02-06 07:00:00,431 INFO [org.geoserver] - Loaded feature type 'ZOO_KMSwadling_Zooplankton_hydrology_derwent_river_tasmania_GV', enabled
+2021-02-06 07:00:00,431 INFO [org.geoserver] - Loaded layer 'ZOO_KMSwadling_Zooplankton_hydrology_derwent_river_tasmania_GV'
+2021-02-06 07:00:00,432 INFO [org.geoserver] - Loaded feature type 'ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_1971_GV', enabled
+2021-02-06 07:00:00,432 INFO [org.geoserver] - Loaded layer 'ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_1971_GV'
+2021-02-06 07:00:00,432 INFO [org.geoserver] - Loaded feature type 'ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_2000_GV', enabled
+2021-02-06 07:00:00,433 INFO [org.geoserver] - Loaded layer 'ZOO_KMSwadling_Zooplanktonic_communities_south_east_tasmania_2000_GV'
+2021-02-06 07:00:00,433 INFO [org.geoserver] - Loaded feature type 'ZOO_RHMagierowski_Community_assembly_marine_macrofauna_communities_GV', enabled
+2021-02-06 07:00:00,434 INFO [org.geoserver] - Loaded layer 'ZOO_RHMagierowski_Community_assembly_marine_macrofauna_communities_GV'
+2021-02-06 07:00:00,434 INFO [org.geoserver] - Loaded feature type 'ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV', enabled
+2021-02-06 07:00:00,434 INFO [org.geoserver] - Loaded layer 'ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV'
+2021-02-06 07:00:00,435 INFO [org.geoserver] - Loaded feature type 'Macrocystis_areal_extent_timeseries', enabled
+2021-02-06 07:00:00,436 INFO [org.geoserver] - Loaded layer 'Macrocystis_areal_extent_timeseries'
+2021-02-06 07:00:00,436 INFO [org.geoserver] - Loaded feature type 'ZOO_SDLing_Reproductive_potential_long_spined_sea_urchin_tasmania_GV', enabled
+2021-02-06 07:00:00,436 INFO [org.geoserver] - Loaded layer 'ZOO_SDLing_Reproductive_potential_long_spined_sea_urchin_tasmania_GV'
+2021-02-06 07:00:00,437 INFO [org.geoserver] - Loaded feature type 'AUSTEn_campaigns', enabled
+2021-02-06 07:00:00,437 INFO [org.geoserver] - Loaded layer 'AUSTEn_campaigns'
+2021-02-06 07:00:00,437 INFO [org.geoserver] - Loaded feature type 'ETAS_monthly_url', enabled
+2021-02-06 07:00:00,438 INFO [catalog.impl] - Layer imas:ETAS_monthly_url is missing the default style, assigning one automatically
+2021-02-06 07:00:00,930 INFO [org.geoserver] - Loaded layer 'ETAS_monthly_url'
+2021-02-06 07:00:00,931 INFO [org.geoserver] - Loaded feature type 'AUSTEn_campaigns_MAP', enabled
+2021-02-06 07:00:00,931 INFO [org.geoserver] - Loaded layer 'AUSTEn_campaigns_MAP'
+2021-02-06 07:00:00,932 INFO [org.geoserver] - Loaded feature type 'CIRCA_Projects', enabled
+2021-02-06 07:00:00,932 INFO [org.geoserver] - Loaded layer 'CIRCA_Projects'
+2021-02-06 07:00:00,933 INFO [org.geoserver] - Loaded coverage store 'Test Image Mosaic', enabled
+2021-02-06 07:00:00,939 INFO [org.geoserver] - Loaded coverage 'testmosaic', enabled
+2021-02-06 07:00:00,939 INFO [org.geoserver] - Loaded layer 'testmosaic'
+2021-02-06 07:00:00,943 INFO [org.geoserver] - Loaded data store 'IMASMB', enabled
+2021-02-06 07:00:00,960 INFO [org.geoserver] - Loaded feature type 'LTTRMP_SITE_SURVEY_SUMMARY', enabled
+2021-02-06 07:00:00,960 INFO [org.geoserver] - Loaded layer 'LTTRMP_SITE_SURVEY_SUMMARY'
+2021-02-06 07:00:00,976 INFO [org.geoserver] - Loaded feature type 'LTTRMP_SURVEYS', enabled
+2021-02-06 07:00:00,976 INFO [org.geoserver] - Loaded layer 'LTTRMP_SURVEYS'
+2021-02-06 07:00:00,977 INFO [org.geoserver] - Loaded feature type 'MB_EXTRACT_SAMPLE_FISH_ALL_DATA', enabled
+2021-02-06 07:00:00,978 INFO [org.geoserver] - Loaded layer 'MB_EXTRACT_SAMPLE_FISH_ALL_DATA'
+2021-02-06 07:00:00,979 INFO [org.geoserver] - Loaded feature type 'MB_EXTRACT_SAMPLE_FISH_ALL_MAP', enabled
+2021-02-06 07:00:00,979 INFO [org.geoserver] - Loaded layer 'MB_EXTRACT_SAMPLE_FISH_ALL_MAP'
+2021-02-06 07:00:00,983 INFO [org.geoserver] - Loaded feature type 'MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA', enabled
+2021-02-06 07:00:00,983 INFO [org.geoserver] - Loaded layer 'MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA'
+2021-02-06 07:00:00,985 INFO [org.geoserver] - Loaded feature type 'MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_MAP', enabled
+2021-02-06 07:00:00,986 INFO [org.geoserver] - Loaded layer 'MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_MAP'
+2021-02-06 07:00:00,987 INFO [org.geoserver] - Loaded feature type 'MB_EXTRACT_SAMPLE_QUADRAT_DATA', enabled
+2021-02-06 07:00:00,987 INFO [org.geoserver] - Loaded layer 'MB_EXTRACT_SAMPLE_QUADRAT_DATA'
+2021-02-06 07:00:00,992 INFO [org.geoserver] - Loaded feature type 'MB_EXTRACT_SAMPLE_QUADRAT_MAP', enabled
+2021-02-06 07:00:00,993 INFO [org.geoserver] - Loaded layer 'MB_EXTRACT_SAMPLE_QUADRAT_MAP'
+2021-02-06 07:00:00,997 INFO [org.geoserver] - Loaded data store 'IMASRedmap', enabled
+2021-02-06 07:00:01,024 INFO [org.geoserver] - Loaded feature type 'MB_SPECIES_DISTRIBUTION_REDMAP_VIEW', enabled
+2021-02-06 07:00:01,025 INFO [org.geoserver] - Loaded layer 'MB_SPECIES_DISTRIBUTION_REDMAP_VIEW'
+2021-02-06 07:00:01,029 INFO [org.geoserver] - Loaded feature type 'RM_SIGHTING_VIEW_MAP', enabled
+2021-02-06 07:00:01,029 INFO [org.geoserver] - Loaded layer 'RM_SIGHTING_VIEW_MAP'
+2021-02-06 07:00:01,030 INFO [org.geoserver] - Loaded feature type 'RM_SIGHTING_VIEW_DATA', enabled
+2021-02-06 07:00:01,030 INFO [org.geoserver] - Loaded layer 'RM_SIGHTING_VIEW_DATA'
+2021-02-06 07:00:01,040 INFO [org.geoserver] - Loaded data store 'IMASRLS', enabled
+2021-02-06 07:00:01,045 INFO [org.geoserver] - Loaded feature type 'RLS_M3_DATA', enabled
+2021-02-06 07:00:01,046 INFO [org.geoserver] - Loaded layer 'RLS_M3_DATA'
+2021-02-06 07:00:01,047 INFO [org.geoserver] - Loaded feature type 'RLS_REEF_FISH_MAP', enabled
+2021-02-06 07:00:01,048 INFO [org.geoserver] - Loaded layer 'RLS_REEF_FISH_MAP'
+2021-02-06 07:00:01,048 INFO [org.geoserver] - Loaded feature type 'RLS_REEF_FISH_DATA', enabled
+2021-02-06 07:00:01,049 INFO [org.geoserver] - Loaded layer 'RLS_REEF_FISH_DATA'
+2021-02-06 07:00:01,065 INFO [org.geoserver] - Loaded wmsstore 'DigitalEarthAustralia', enabled
+2021-02-06 07:00:01,085 INFO [org.geoserver] - Loaded resource 'DEA_NIDEM', enabled
+2021-02-06 07:00:01,086 INFO [org.geoserver] - Loaded layer 'DEA_NIDEM'
+2021-02-06 07:00:01,103 INFO [org.geoserver] - Loaded resource 'DEA_mangrove_cover', enabled
+2021-02-06 07:00:01,103 INFO [org.geoserver] - Loaded layer 'DEA_mangrove_cover'
+2021-02-06 07:00:01,113 INFO [org.geoserver] - Loaded coverage store 'Ecological_Disturbance_Index', enabled
+2021-02-06 07:00:01,119 INFO [org.geoserver] - Loaded coverage 'EDI', enabled
+2021-02-06 07:00:01,119 INFO [org.geoserver] - Loaded layer 'EDI'
+2021-02-06 07:00:01,119 INFO [org.geoserver] - Loaded coverage store 'SWAN_WaveExposure_JervisBay', enabled
+2021-02-06 07:00:01,133 INFO [org.geoserver] - Loaded coverage 'SWAN_JervisBay_av', enabled
+2021-02-06 07:00:01,133 INFO [org.geoserver] - Loaded layer 'SWAN_JervisBay_av'
+2021-02-06 07:00:01,134 INFO [org.geoserver] - Loaded coverage store 'SWAN_WaveExposure_Carnarvon', enabled
+2021-02-06 07:00:01,139 INFO [org.geoserver] - Loaded coverage 'SWAN_Carnarvon_av', enabled
+2021-02-06 07:00:01,139 INFO [org.geoserver] - Loaded layer 'SWAN_Carnarvon_av'
+2021-02-06 07:00:01,142 INFO [org.geoserver] - Loaded data store 'TERN-ACEF', enabled
+2021-02-06 07:00:01,159 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_NSW', enabled
+2021-02-06 07:00:01,159 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_NSW'
+2021-02-06 07:00:01,160 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_ALL', enabled
+2021-02-06 07:00:01,160 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_ALL'
+2021-02-06 07:00:01,161 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_QLD', enabled
+2021-02-06 07:00:01,161 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_QLD'
+2021-02-06 07:00:01,162 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_NT', enabled
+2021-02-06 07:00:01,162 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_NT'
+2021-02-06 07:00:01,164 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_TAS', enabled
+2021-02-06 07:00:01,164 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_TAS'
+2021-02-06 07:00:01,165 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_WA', enabled
+2021-02-06 07:00:01,165 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_WA'
+2021-02-06 07:00:01,166 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_VIC', enabled
+2021-02-06 07:00:01,166 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_VIC'
+2021-02-06 07:00:01,167 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_Beaufort_2009_sites', enabled
+2021-02-06 07:00:01,168 INFO [org.geoserver] - Loaded layer 'WA_seagrass_Beaufort_2009_sites'
+2021-02-06 07:00:01,168 INFO [org.geoserver] - Loaded feature type 'AU_seagrass05_PT', enabled
+2021-02-06 07:00:01,169 INFO [org.geoserver] - Loaded layer 'AU_seagrass05_PT'
+2021-02-06 07:00:01,169 INFO [org.geoserver] - Loaded feature type 'AU_seagrass05_POLY', enabled
+2021-02-06 07:00:01,169 INFO [org.geoserver] - Loaded layer 'AU_seagrass05_POLY'
+2021-02-06 07:00:01,172 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_SwanCanning_2011_transects', enabled
+2021-02-06 07:00:01,172 INFO [org.geoserver] - Loaded layer 'WA_seagrass_SwanCanning_2011_transects'
+2021-02-06 07:00:01,173 INFO [org.geoserver] - Loaded feature type 'ACEAS_seagrass_SA', enabled
+2021-02-06 07:00:01,173 INFO [org.geoserver] - Loaded layer 'ACEAS_seagrass_SA'
+2021-02-06 07:00:01,174 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_StokesInlet_2009_sites', enabled
+2021-02-06 07:00:01,174 INFO [org.geoserver] - Loaded layer 'WA_seagrass_StokesInlet_2009_sites'
+2021-02-06 07:00:01,175 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_Leschenault_2009_sites', enabled
+2021-02-06 07:00:01,177 INFO [org.geoserver] - Loaded layer 'WA_seagrass_Leschenault_2009_sites'
+2021-02-06 07:00:01,178 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_WilsonInlet_2007_sites', enabled
+2021-02-06 07:00:01,179 INFO [org.geoserver] - Loaded layer 'WA_seagrass_WilsonInlet_2007_sites'
+2021-02-06 07:00:01,180 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_WilsonInlet_2008_sites', enabled
+2021-02-06 07:00:01,180 INFO [org.geoserver] - Loaded layer 'WA_seagrass_WilsonInlet_2008_sites'
+2021-02-06 07:00:01,181 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_Walpole_Nornalup_2009_sites', enabled
+2021-02-06 07:00:01,181 INFO [org.geoserver] - Loaded layer 'WA_seagrass_Walpole_Nornalup_2009_sites'
+2021-02-06 07:00:01,182 INFO [org.geoserver] - Loaded feature type 'WA_seagrass_WellsteadEstuary_2009_sites', enabled
+2021-02-06 07:00:01,182 INFO [org.geoserver] - Loaded layer 'WA_seagrass_WellsteadEstuary_2009_sites'
+2021-02-06 07:00:01,184 INFO [org.geoserver] - Loaded data store 'IMASSeamapAU', enabled
+2021-02-06 07:00:01,205 INFO [org.geoserver] - Loaded feature type 'FINALPRODUCT_SeamapAus', enabled
+2021-02-06 07:00:01,205 INFO [org.geoserver] - Loaded layer 'FINALPRODUCT_SeamapAus'
+2021-02-06 07:00:01,206 INFO [org.geoserver] - Loaded feature type 'FINALPRODUCT_SeamapAus_archive_2018.11.26', enabled
+2021-02-06 07:00:01,206 INFO [org.geoserver] - Loaded layer 'FINALPRODUCT_SeamapAus_archive_2018.11.26'
+2021-02-06 07:00:01,207 INFO [org.geoserver] - Loaded feature type 'SeamapAus_AMP2018_MAP', enabled
+2021-02-06 07:00:01,208 INFO [org.geoserver] - Loaded layer 'SeamapAus_AMP2018_MAP'
+2021-02-06 07:00:01,211 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_AMP2018_RESERVES', enabled
+2021-02-06 07:00:01,211 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_AMP2018_RESERVES'
+2021-02-06 07:00:01,212 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_AMP2018_ZONES', enabled
+2021-02-06 07:00:01,212 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_AMP2018_ZONES'
+2021-02-06 07:00:01,213 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_AMP2018_ZONE_X_NET', enabled
+2021-02-06 07:00:01,213 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_AMP2018_ZONE_X_NET'
+2021-02-06 07:00:01,214 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_AMP2018_NETWORKS', enabled
+2021-02-06 07:00:01,215 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_AMP2018_NETWORKS'
+2021-02-06 07:00:01,216 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_CMR2014', enabled
+2021-02-06 07:00:01,216 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_CMR2014'
+2021-02-06 07:00:01,217 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_AMP2018_ZONE_X_RES', enabled
+2021-02-06 07:00:01,217 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_AMP2018_ZONE_X_RES'
+2021-02-06 07:00:01,219 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_CMR2014_FULL', enabled
+2021-02-06 07:00:01,219 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_CMR2014_FULL'
+2021-02-06 07:00:01,220 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_CoastalCompartments_1_FULL', enabled
+2021-02-06 07:00:01,220 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_CoastalCompartments_1_FULL'
+2021-02-06 07:00:01,224 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_IMCRA_FULL', enabled
+2021-02-06 07:00:01,224 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_IMCRA_FULL'
+2021-02-06 07:00:01,225 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_CoastalCompartments_2_FULL', enabled
+2021-02-06 07:00:01,226 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_CoastalCompartments_2_FULL'
+2021-02-06 07:00:01,226 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_MEOW4326_FULL', enabled
+2021-02-06 07:00:01,227 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_MEOW4326_FULL'
+2021-02-06 07:00:01,228 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_IMCRA_PROVBIO', enabled
+2021-02-06 07:00:01,228 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_IMCRA_PROVBIO'
+2021-02-06 07:00:01,229 INFO [org.geoserver] - Loaded feature type 'SeamapAus_CAPAD', enabled
+2021-02-06 07:00:01,229 INFO [org.geoserver] - Loaded layer 'SeamapAus_CAPAD'
+2021-02-06 07:00:01,230 INFO [org.geoserver] - Loaded feature type 'SeamapAus_BOUNDARIES_MEOW4326_PROV', enabled
+2021-02-06 07:00:01,230 INFO [org.geoserver] - Loaded layer 'SeamapAus_BOUNDARIES_MEOW4326_PROV'
+2021-02-06 07:00:01,231 INFO [org.geoserver] - Loaded feature type 'SeamapAus_CONTOURS_1m', enabled
+2021-02-06 07:00:01,231 INFO [org.geoserver] - Loaded layer 'SeamapAus_CONTOURS_1m'
+2021-02-06 07:00:01,232 INFO [org.geoserver] - Loaded feature type 'SeamapAus_CAPAD_MAP', enabled
+2021-02-06 07:00:01,232 INFO [org.geoserver] - Loaded layer 'SeamapAus_CAPAD_MAP'
+2021-02-06 07:00:01,234 INFO [org.geoserver] - Loaded feature type 'SeamapAus_CONTOURS_5m', enabled
+2021-02-06 07:00:01,234 INFO [org.geoserver] - Loaded layer 'SeamapAus_CONTOURS_5m'
+2021-02-06 07:00:01,235 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_Aus_margin_geomorph_2006', enabled
+2021-02-06 07:00:01,235 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_Aus_margin_geomorph_2006'
+2021-02-06 07:00:01,236 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_Aus_margin_geomorph_2006_DATA', enabled
+2021-02-06 07:00:01,236 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_Aus_margin_geomorph_2006_DATA'
+2021-02-06 07:00:01,237 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CAMRIS_benthic_substrate', enabled
+2021-02-06 07:00:01,237 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CAMRIS_benthic_substrate'
+2021-02-06 07:00:01,239 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CAMRIS_seagrass', enabled
+2021-02-06 07:00:01,239 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CAMRIS_seagrass'
+2021-02-06 07:00:01,240 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_OffshoreRC100K', enabled
+2021-02-06 07:00:01,240 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_OffshoreRC100K'
+2021-02-06 07:00:01,242 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_OzEstuariesRC100K', enabled
+2021-02-06 07:00:01,242 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_OzEstuariesRC100K'
+2021-02-06 07:00:01,243 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_RC100K', enabled
+2021-02-06 07:00:01,243 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_RC100K'
+2021-02-06 07:00:01,244 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_RC50K', enabled
+2021-02-06 07:00:01,245 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_RC50K'
+2021-02-06 07:00:01,245 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_RC25K', enabled
+2021-02-06 07:00:01,246 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_RC25K'
+2021-02-06 07:00:01,247 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_Regolith25K', enabled
+2021-02-06 07:00:01,247 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_Regolith25K'
+2021-02-06 07:00:01,248 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_Smartline100K', enabled
+2021-02-06 07:00:01,248 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_Smartline100K'
+2021-02-06 07:00:01,250 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC100K', enabled
+2021-02-06 07:00:01,250 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC100K'
+2021-02-06 07:00:01,251 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_Smartline100K_DATA', enabled
+2021-02-06 07:00:01,251 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_Smartline100K_DATA'
+2021-02-06 07:00:01,252 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC25K', enabled
+2021-02-06 07:00:01,253 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC25K'
+2021-02-06 07:00:01,254 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC250K', enabled
+2021-02-06 07:00:01,254 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalGeomorph_SurfaceGeoRC250K'
+2021-02-06 07:00:01,255 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NSW_estuarine_inventory', enabled
+2021-02-06 07:00:01,255 INFO [org.geoserver] - Loaded layer 'SeamapAus_NSW_estuarine_inventory'
+2021-02-06 07:00:01,256 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NAT_CoastalWaterways_geomorphic', enabled
+2021-02-06 07:00:01,256 INFO [org.geoserver] - Loaded layer 'SeamapAus_NAT_CoastalWaterways_geomorphic'
+2021-02-06 07:00:01,258 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NSW_estuary_ecosystems_2002', enabled
+2021-02-06 07:00:01,258 INFO [org.geoserver] - Loaded layer 'SeamapAus_NSW_estuary_ecosystems_2002'
+2021-02-06 07:00:01,259 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NSW_estuarine_macrophytes', enabled
+2021-02-06 07:00:01,259 INFO [org.geoserver] - Loaded layer 'SeamapAus_NSW_estuarine_macrophytes'
+2021-02-06 07:00:01,260 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NSW_marine_habitats_2013', enabled
+2021-02-06 07:00:01,260 INFO [org.geoserver] - Loaded layer 'SeamapAus_NSW_marine_habitats_2013'
+2021-02-06 07:00:01,261 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NSW_marine_habitats_2002', enabled
+2021-02-06 07:00:01,261 INFO [org.geoserver] - Loaded layer 'SeamapAus_NSW_marine_habitats_2002'
+2021-02-06 07:00:01,263 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_BynoeHarbour_mangrove', enabled
+2021-02-06 07:00:01,263 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_BynoeHarbour_mangrove'
+2021-02-06 07:00:01,264 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NSW_ocean_ecosystems_2002', enabled
+2021-02-06 07:00:01,264 INFO [org.geoserver] - Loaded layer 'SeamapAus_NSW_ocean_ecosystems_2002'
+2021-02-06 07:00:01,266 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_BynoeHarbour_mangrove_MAP', enabled
+2021-02-06 07:00:01,266 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_BynoeHarbour_mangrove_MAP'
+2021-02-06 07:00:01,267 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_DarwinHarbour_mangrove', enabled
+2021-02-06 07:00:01,267 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_DarwinHarbour_mangrove'
+2021-02-06 07:00:01,268 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_DarwinHarbour_mangrove_MAP', enabled
+2021-02-06 07:00:01,268 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_DarwinHarbour_mangrove_MAP'
+2021-02-06 07:00:01,269 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_DarwinHarbour_seabed_mapping', enabled
+2021-02-06 07:00:01,269 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_DarwinHarbour_seabed_mapping'
+2021-02-06 07:00:01,271 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_EastMiddleArms_communities', enabled
+2021-02-06 07:00:01,271 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_EastMiddleArms_communities'
+2021-02-06 07:00:01,272 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_DarwinHarbour_seabed_mapping_DATA', enabled
+2021-02-06 07:00:01,272 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_DarwinHarbour_seabed_mapping_DATA'
+2021-02-06 07:00:01,273 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_EastMiddleArms_communities_MAP', enabled
+2021-02-06 07:00:01,273 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_EastMiddleArms_communities_MAP'
+2021-02-06 07:00:01,274 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_EastMiddleArms_habitats', enabled
+2021-02-06 07:00:01,274 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_EastMiddleArms_habitats'
+2021-02-06 07:00:01,277 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_OceanicShoals_geomorphology', enabled
+2021-02-06 07:00:01,278 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_OceanicShoals_geomorphology'
+2021-02-06 07:00:01,278 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_EastMiddleArms_habitats_MAP', enabled
+2021-02-06 07:00:01,279 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_EastMiddleArms_habitats_MAP'
+2021-02-06 07:00:01,279 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_PetrelBasin_geomorphology', enabled
+2021-02-06 07:00:01,280 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_PetrelBasin_geomorphology'
+2021-02-06 07:00:01,280 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_OceanicShoals_geomorphology_MAP', enabled
+2021-02-06 07:00:01,281 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_OceanicShoals_geomorphology_MAP'
+2021-02-06 07:00:01,282 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_mangroves_100', enabled
+2021-02-06 07:00:01,282 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_mangroves_100'
+2021-02-06 07:00:01,283 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_PetrelBasin_geomorphology_MAP', enabled
+2021-02-06 07:00:01,283 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_PetrelBasin_geomorphology_MAP'
+2021-02-06 07:00:01,285 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_mangroves_LudmillaCreek_MAP', enabled
+2021-02-06 07:00:01,285 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_mangroves_LudmillaCreek_MAP'
+2021-02-06 07:00:01,286 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_mangroves_LudmillaCreek', enabled
+2021-02-06 07:00:01,286 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_mangroves_LudmillaCreek'
+2021-02-06 07:00:01,287 INFO [org.geoserver] - Loaded feature type 'SeamapAus_NT_seagrass', enabled
+2021-02-06 07:00:01,287 INFO [org.geoserver] - Loaded layer 'SeamapAus_NT_seagrass'
+2021-02-06 07:00:01,288 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_EasternBanks_seagrass_biomass', enabled
+2021-02-06 07:00:01,288 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_EasternBanks_seagrass_biomass'
+2021-02-06 07:00:01,291 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_EasternBanks_seagrass_biomass_MAP', enabled
+2021-02-06 07:00:01,291 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_EasternBanks_seagrass_biomass_MAP'
+2021-02-06 07:00:01,292 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_EasternBanks_seagrass_cover', enabled
+2021-02-06 07:00:01,292 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_EasternBanks_seagrass_cover'
+2021-02-06 07:00:01,293 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_EasternBanks_seagrass_cover_MAP', enabled
+2021-02-06 07:00:01,293 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_EasternBanks_seagrass_cover_MAP'
+2021-02-06 07:00:01,294 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_EasternBanks_seagrass_species', enabled
+2021-02-06 07:00:01,294 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_EasternBanks_seagrass_species'
+2021-02-06 07:00:01,296 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_GBRWHA_seagrass', enabled
+2021-02-06 07:00:01,296 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_GBRWHA_seagrass'
+2021-02-06 07:00:01,297 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_EasternBanks_seagrass_species_MAP', enabled
+2021-02-06 07:00:01,298 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_EasternBanks_seagrass_species_MAP'
+2021-02-06 07:00:01,299 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_GBR_features', enabled
+2021-02-06 07:00:01,299 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_GBR_features'
+2021-02-06 07:00:01,300 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_GoldCoast_seagrass', enabled
+2021-02-06 07:00:01,300 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_GoldCoast_seagrass'
+2021-02-06 07:00:01,302 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_HeronReef_benthiccomm', enabled
+2021-02-06 07:00:01,302 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_HeronReef_benthiccomm'
+2021-02-06 07:00:01,303 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_GoldCoast_seagrass_MAP', enabled
+2021-02-06 07:00:01,303 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_GoldCoast_seagrass_MAP'
+2021-02-06 07:00:01,310 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_HeronReef_benthiccomm_MAP', enabled
+2021-02-06 07:00:01,310 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_HeronReef_benthiccomm_MAP'
+2021-02-06 07:00:01,311 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_HeronReef_geomorph', enabled
+2021-02-06 07:00:01,311 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_HeronReef_geomorph'
+2021-02-06 07:00:01,312 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_HeronReef_geomorph_MAP', enabled
+2021-02-06 07:00:01,312 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_HeronReef_geomorph_MAP'
+2021-02-06 07:00:01,313 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_LowIsles_seagrass', enabled
+2021-02-06 07:00:01,313 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_LowIsles_seagrass'
+2021-02-06 07:00:01,317 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_LowIsles_seagrass_MAP', enabled
+2021-02-06 07:00:01,317 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_LowIsles_seagrass_MAP'
+2021-02-06 07:00:01,328 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_broadscale', enabled
+2021-02-06 07:00:01,329 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_broadscale'
+2021-02-06 07:00:01,330 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_coral', enabled
+2021-02-06 07:00:01,330 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_coral'
+2021-02-06 07:00:01,331 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_coral_MAP', enabled
+2021-02-06 07:00:01,331 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_coral_MAP'
+2021-02-06 07:00:01,332 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_seagrass_2004_MAP', enabled
+2021-02-06 07:00:01,332 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_seagrass_2004_MAP'
+2021-02-06 07:00:01,333 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_seagrass_2004', enabled
+2021-02-06 07:00:01,333 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_seagrass_2004'
+2021-02-06 07:00:01,334 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_seagrass_2011', enabled
+2021-02-06 07:00:01,334 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_seagrass_2011'
+2021-02-06 07:00:01,335 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_MoretonBay_seagrass_2011_MAP', enabled
+2021-02-06 07:00:01,336 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_MoretonBay_seagrass_2011_MAP'
+2021-02-06 07:00:01,336 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_NWTorresStrait_seagrass_MAP', enabled
+2021-02-06 07:00:01,337 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_NWTorresStrait_seagrass_MAP'
+2021-02-06 07:00:01,337 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_PointLookout_ecology', enabled
+2021-02-06 07:00:01,338 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_PointLookout_ecology'
+2021-02-06 07:00:01,338 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_NWTorresStrait_seagrass', enabled
+2021-02-06 07:00:01,339 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_NWTorresStrait_seagrass'
+2021-02-06 07:00:01,346 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_PointLookout_ecology_MAP', enabled
+2021-02-06 07:00:01,346 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_PointLookout_ecology_MAP'
+2021-02-06 07:00:01,347 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_TorresStrait_seagrass_subtidal', enabled
+2021-02-06 07:00:01,347 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_TorresStrait_seagrass_subtidal'
+2021-02-06 07:00:01,348 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_coastal_wetlands', enabled
+2021-02-06 07:00:01,348 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_coastal_wetlands'
+2021-02-06 07:00:01,349 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_TorresStrait_seagrass_intertidal', enabled
+2021-02-06 07:00:01,349 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_TorresStrait_seagrass_intertidal'
+2021-02-06 07:00:01,350 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_reefs_shoals', enabled
+2021-02-06 07:00:01,350 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_reefs_shoals'
+2021-02-06 07:00:01,351 INFO [org.geoserver] - Loaded feature type 'SeamapAus_SA_state_benthic_habitats', enabled
+2021-02-06 07:00:01,351 INFO [org.geoserver] - Loaded layer 'SeamapAus_SA_state_benthic_habitats'
+2021-02-06 07:00:01,352 INFO [org.geoserver] - Loaded feature type 'SeamapAus_QLD_wetland_v4', enabled
+2021-02-06 07:00:01,352 INFO [org.geoserver] - Loaded layer 'SeamapAus_QLD_wetland_v4'
+2021-02-06 07:00:01,353 INFO [org.geoserver] - Loaded feature type 'SeamapAus_TAS_Huon_geomorph', enabled
+2021-02-06 07:00:01,353 INFO [org.geoserver] - Loaded layer 'SeamapAus_TAS_Huon_geomorph'
+2021-02-06 07:00:01,354 INFO [org.geoserver] - Loaded feature type 'SeamapAus_TAS_SeamapTas', enabled
+2021-02-06 07:00:01,354 INFO [org.geoserver] - Loaded layer 'SeamapAus_TAS_SeamapTas'
+2021-02-06 07:00:01,358 INFO [org.geoserver] - Loaded feature type 'SeamapAus_TAS_TasFracture_geomorph', enabled
+2021-02-06 07:00:01,358 INFO [org.geoserver] - Loaded layer 'SeamapAus_TAS_TasFracture_geomorph'
+2021-02-06 07:00:01,359 INFO [org.geoserver] - Loaded feature type 'SeamapAus_VIC_OpenCoast_biotopes', enabled
+2021-02-06 07:00:01,359 INFO [org.geoserver] - Loaded layer 'SeamapAus_VIC_OpenCoast_biotopes'
+2021-02-06 07:00:01,360 INFO [org.geoserver] - Loaded feature type 'SeamapAus_VIC_GippslandLakes_biotopes', enabled
+2021-02-06 07:00:01,360 INFO [org.geoserver] - Loaded layer 'SeamapAus_VIC_GippslandLakes_biotopes'
+2021-02-06 07:00:01,361 INFO [org.geoserver] - Loaded feature type 'SeamapAus_VIC_WPB_biotopes', enabled
+2021-02-06 07:00:01,361 INFO [org.geoserver] - Loaded layer 'SeamapAus_VIC_WPB_biotopes'
+2021-02-06 07:00:01,362 INFO [org.geoserver] - Loaded feature type 'SeamapAus_VIC_PPB_biotopes', enabled
+2021-02-06 07:00:01,362 INFO [org.geoserver] - Loaded layer 'SeamapAus_VIC_PPB_biotopes'
+2021-02-06 07:00:01,363 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_CockburnSound_mapping_MAP', enabled
+2021-02-06 07:00:01,364 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_CockburnSound_mapping_MAP'
+2021-02-06 07:00:01,364 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_CockburnSound_mapping', enabled
+2021-02-06 07:00:01,365 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_CockburnSound_mapping'
+2021-02-06 07:00:01,365 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_CockburnSound_seagrass_1999_MAP', enabled
+2021-02-06 07:00:01,366 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_CockburnSound_seagrass_1999_MAP'
+2021-02-06 07:00:01,366 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_CockburnSound_seagrass_1999', enabled
+2021-02-06 07:00:01,367 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_CockburnSound_seagrass_1999'
+2021-02-06 07:00:01,367 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MOU74_AshmoreReef', enabled
+2021-02-06 07:00:01,368 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MOU74_AshmoreReef'
+2021-02-06 07:00:01,372 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_DPAW_marine_habitats', enabled
+2021-02-06 07:00:01,372 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_DPAW_marine_habitats'
+2021-02-06 07:00:01,373 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MOU74_AshmoreReef_MAP', enabled
+2021-02-06 07:00:01,373 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MOU74_AshmoreReef_MAP'
+2021-02-06 07:00:01,374 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MOU74_ScottReef', enabled
+2021-02-06 07:00:01,374 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MOU74_ScottReef'
+2021-02-06 07:00:01,375 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MOU74_ScottReef_MAP', enabled
+2021-02-06 07:00:01,375 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MOU74_ScottReef_MAP'
+2021-02-06 07:00:01,376 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MarineFutures_biota', enabled
+2021-02-06 07:00:01,376 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MarineFutures_biota'
+2021-02-06 07:00:01,377 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MarineFutures_biota_MAP', enabled
+2021-02-06 07:00:01,377 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MarineFutures_biota_MAP'
+2021-02-06 07:00:01,378 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MarineFutures_biota_TEST', enabled
+2021-02-06 07:00:01,378 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MarineFutures_biota_TEST'
+2021-02-06 07:00:01,379 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MarineFutures_reef', enabled
+2021-02-06 07:00:01,379 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MarineFutures_reef'
+2021-02-06 07:00:01,383 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_MarineFutures_reef_MAP', enabled
+2021-02-06 07:00:01,384 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_MarineFutures_reef_MAP'
+2021-02-06 07:00:01,385 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_Seagrass_Synthesis_2013', enabled
+2021-02-06 07:00:01,385 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_Seagrass_Synthesis_2013'
+2021-02-06 07:00:01,386 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_NWShelf_ecosystems_DATA', enabled
+2021-02-06 07:00:01,386 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_NWShelf_ecosystems_DATA'
+2021-02-06 07:00:01,387 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_NWShelf_ecosystems', enabled
+2021-02-06 07:00:01,387 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_NWShelf_ecosystems'
+2021-02-06 07:00:01,390 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_Beaufort_2009', enabled
+2021-02-06 07:00:01,390 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_Beaufort_2009'
+2021-02-06 07:00:01,391 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_HardyInlet_2008', enabled
+2021-02-06 07:00:01,391 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_HardyInlet_2008'
+2021-02-06 07:00:01,392 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_IrwinInlet_2009', enabled
+2021-02-06 07:00:01,393 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_IrwinInlet_2009'
+2021-02-06 07:00:01,393 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_Leschenault_2009', enabled
+2021-02-06 07:00:01,393 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_Leschenault_2009'
+2021-02-06 07:00:01,397 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_OysterHarbour_1988', enabled
+2021-02-06 07:00:01,397 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_OysterHarbour_1988'
+2021-02-06 07:00:01,398 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_OysterHarbour_1996', enabled
+2021-02-06 07:00:01,398 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_OysterHarbour_1996'
+2021-02-06 07:00:01,399 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_OysterHarbour_2006', enabled
+2021-02-06 07:00:01,399 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_OysterHarbour_2006'
+2021-02-06 07:00:01,400 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_PrincessRoyal_1996', enabled
+2021-02-06 07:00:01,400 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_PrincessRoyal_1996'
+2021-02-06 07:00:01,401 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_PrincessRoyal_2006', enabled
+2021-02-06 07:00:01,401 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_PrincessRoyal_2006'
+2021-02-06 07:00:01,402 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_SwanCanning_2011', enabled
+2021-02-06 07:00:01,402 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_SwanCanning_2011'
+2021-02-06 07:00:01,403 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_Walpole_Nornalup_2009', enabled
+2021-02-06 07:00:01,403 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_Walpole_Nornalup_2009'
+2021-02-06 07:00:01,404 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_StokesInlet_2009', enabled
+2021-02-06 07:00:01,404 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_StokesInlet_2009'
+2021-02-06 07:00:01,406 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_WellsteadEstuary_2009', enabled
+2021-02-06 07:00:01,406 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_WellsteadEstuary_2009'
+2021-02-06 07:00:01,410 INFO [org.geoserver] - Loaded feature type 'SeamapTAS_contours_5m', enabled
+2021-02-06 07:00:01,411 INFO [org.geoserver] - Loaded layer 'SeamapTAS_contours_5m'
+2021-02-06 07:00:01,411 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_WilsonInlet_2007', enabled
+2021-02-06 07:00:01,412 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_WilsonInlet_2007'
+2021-02-06 07:00:01,420 INFO [org.geoserver] - Loaded feature type 'SeamapAus_WA_seagrass_WilsonInlet_2008', enabled
+2021-02-06 07:00:01,421 INFO [org.geoserver] - Loaded layer 'SeamapAus_WA_seagrass_WilsonInlet_2008'
+2021-02-06 07:00:01,422 INFO [org.geoserver] - Loaded feature type 'SeamapTAS_habitats_described', enabled
+2021-02-06 07:00:01,422 INFO [org.geoserver] - Loaded layer 'SeamapTAS_habitats_described'
+2021-02-06 07:00:01,569 INFO [org.geoserver] - Loaded service 'WCSInfoImpl--21071077:14b33c29d5b:-7ff9', enabled
+2021-02-06 07:00:01,579 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl--603629f4:1697c2be67f:-7ffd', enabled
+2021-02-06 07:00:01,598 INFO [org.geoserver] - Loaded service 'WMSInfoImpl--21071077:14b33c29d5b:-7ff7', enabled
+2021-02-06 07:00:01,621 INFO [org.geoserver] - Loaded service 'WFSInfoImpl--21071077:14b33c29d5b:-7ff8', enabled
+2021-02-06 07:00:01,635 INFO [org.geoserver] - Loaded service 'WMSInfoImpl--182e70b4:167ba155ed4:3375', enabled
+2021-02-06 07:00:01,644 INFO [org.geoserver] - Loaded service 'WFSInfoImpl--182e70b4:167ba155ed4:3373', enabled
+2021-02-06 07:00:01,673 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+2021-02-06 07:00:01,830 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-02-06 07:00:01,830 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-02-06 07:00:01,830 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-02-06 07:00:02,003 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-02-06 07:00:02,003 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: Cannot find the declaration of element 'gwcConfiguration'.
+2021-02-06 07:00:02,004 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2021-02-06 07:00:02,004 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-02-06 07:00:02,153 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2021-02-06 07:00:02,154 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2021-02-06 07:00:02,294 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2021-02-06 07:00:02,294 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2021-02-06 07:00:02,294 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2021-02-06 07:00:02,339 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2021-02-06 07:00:02,344 INFO [storage.DefaultStorageFinder] - ******************************************************************************************************************************
+2021-02-06 07:00:02,344 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /opt/imas-webapps/geoserver, using it as the default prefix. ***
+2021-02-06 07:00:02,344 INFO [storage.DefaultStorageFinder] - ******************************************************************************************************************************
+2021-02-06 07:00:03,373 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2021-02-06 07:00:03,607 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-02-06 07:00:03,792 WARN [wms.NcwmsConfig] - Could not open config file '/opt/imas-webapps/geoserver/ncwms.xml': '/opt/imas-webapps/geoserver/ncwms.xml (No such file or directory) Nested exception: /opt/imas-webapps/geoserver/ncwms.xml (No such file or directory)'
+2021-02-06 07:00:03,793 WARN [wms.NcwmsConfig] - Could not read '/opt/imas-webapps/geoserver/ncwms.xml' as an xml document: '/opt/imas-webapps/geoserver/ncwms.xml (No such file or directory) Nested exception: /opt/imas-webapps/geoserver/ncwms.xml (No such file or directory)'
+2021-02-06 07:00:03,939 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+2021-02-06 07:00:03,978 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+2021-02-06 07:00:03,980 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-02-06 07:00:03,987 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-02-06 07:00:03,988 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2021-02-06 07:00:03,988 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2021-02-06 07:00:03,992 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2021-02-06 07:00:04,071 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2021-02-06 07:00:04,658 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2021-02-06 07:00:04,695 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2021-02-06 07:00:04,705 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2021-02-06 07:00:04,876 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2021-02-06 07:00:04,876 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
