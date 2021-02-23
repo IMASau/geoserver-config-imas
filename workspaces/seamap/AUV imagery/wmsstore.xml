@@ -1,0 +1,18 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl--59961f48:177ccf1a1cb:cc1</id>
+  <name>AUV imagery</name>
+  <description>IMOS depth stratified AUV imagery</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <capabilitiesURL>http://geoserver-123.aodn.org.au/geoserver/imos/wms</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>
