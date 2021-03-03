@@ -3808,3 +3808,1577 @@ Request: getFeature
     outputFormat = csv
     resultType = results
 2021-03-03 22:30:04,152 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" took 21ms
+2021-03-03 22:30:08,131 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" "Java/1.8.0_282" "" "" 
+2021-03-03 22:30:08,136 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:30:08,136 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:30:08,137 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Schallenberg_Secchi_depth
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:30:08,149 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" took 18ms
+2021-03-03 22:30:32,050 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "https://geoserver.imas.utas.edu.au/" "" 
+2021-03-03 22:30:32,055 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver" took 5ms
+2021-03-03 22:30:32,549 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver/index.html" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "https://geoserver.imas.utas.edu.au/geoserver" "" 
+2021-03-03 22:30:32,554 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver/index.html" took 5ms
+2021-03-03 22:30:38,241 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" "Java/1.8.0_282" "" "" 
+2021-03-03 22:30:38,246 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:30:38,247 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:30:38,247 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_OCEANOGRAPHY
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:30:38,386 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" took 145ms
+2021-03-03 22:30:39,454 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "https://geoserver.imas.utas.edu.au/" "" 
+2021-03-03 22:30:39,459 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver" took 5ms
+2021-03-03 22:30:40,061 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver/index.html" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "https://geoserver.imas.utas.edu.au/geoserver" "" 
+2021-03-03 22:30:40,066 INFO [geoserver.filters] - 192.99.18.108 "GET /geoserver/index.html" took 5ms
+2021-03-03 22:30:42,014 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" "Java/1.8.0_282" "" "" 
+2021-03-03 22:30:42,020 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:30:42,020 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:30:42,021 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_OCEANOGRAPHY
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:30:42,131 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" took 117ms
+2021-03-03 22:30:56,894 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:30:56,899 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:30:56,900 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:30:56,900 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:30:56,914 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" took 20ms
+2021-03-03 22:31:01,693 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:31:01,699 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:31:01,699 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:31:01,700 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:31:01,712 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" took 19ms
+2021-03-03 22:31:20,340 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:31:20,345 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:31:20,345 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:31:20,346 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:31:20,684 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" took 344ms
+2021-03-03 22:31:24,512 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:31:24,517 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:31:24,517 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:31:24,518 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:31:24,914 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" took 402ms
+2021-03-03 22:31:44,921 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:31:44,928 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:31:44,928 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:31:44,929 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:31:44,944 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" took 23ms
+2021-03-03 22:31:51,551 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:31:51,556 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:31:51,556 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:31:51,557 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:31:51,572 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" took 21ms
+2021-03-03 22:31:55,971 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:31:55,977 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:31:55,977 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:31:55,978 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_Flinders_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:31:55,993 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" took 21ms
+2021-03-03 22:32:02,612 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:02,617 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:02,618 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:02,618 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_Flinders_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:02,633 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" took 21ms
+2021-03-03 22:32:23,107 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:23,112 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:23,112 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:23,113 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_Chla
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:23,124 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" took 17ms
+2021-03-03 22:32:23,149 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:23,154 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:23,154 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:23,155 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_POC
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:23,166 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" took 17ms
+2021-03-03 22:32:26,573 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:26,579 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:26,579 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:26,580 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_Chla
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:26,592 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" took 19ms
+2021-03-03 22:32:26,618 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:26,625 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:26,625 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:26,625 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_POC
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:26,638 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" took 20ms
+2021-03-03 22:32:47,227 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:47,233 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:47,233 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:47,234 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}OC_LPhillips_LittlePenguin_GPS_tracks_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:47,246 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" took 19ms
+2021-03-03 22:32:49,272 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:49,277 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:49,278 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:49,278 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRDC_JRoss_MacHarbour_HOBO_loggers_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:49,289 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" took 17ms
+2021-03-03 22:32:49,573 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:49,578 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:49,578 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:49,579 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}OC_LPhillips_LittlePenguin_GPS_tracks_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:49,590 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" took 17ms
+2021-03-03 22:32:51,617 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:32:51,623 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:32:51,623 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:32:51,624 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRDC_JRoss_MacHarbour_HOBO_loggers_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:32:51,636 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" took 19ms
+2021-03-03 22:33:08,107 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_QUADRAT_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:33:08,113 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:33:08,114 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:33:08,114 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_QUADRAT_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:33:08,213 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_QUADRAT_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:33:08,220 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:33:08,220 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:33:08,221 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_QUADRAT_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:33:08,337 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_QUADRAT_DATA" took 230ms
+2021-03-03 22:33:08,410 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_QUADRAT_DATA" took 197ms
+2021-03-03 22:33:11,343 INFO [geoserver.filters] - 192.99.18.136 "GET /geoserver" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "https://geoserver.imas.utas.edu.au/" "" 
+2021-03-03 22:33:11,348 INFO [geoserver.filters] - 192.99.18.136 "GET /geoserver" took 5ms
+2021-03-03 22:33:18,604 INFO [geoserver.filters] - 192.99.18.136 "GET /geoserver" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "http://geoserver.imas.utas.edu.au/geoserver" "" 
+2021-03-03 22:33:18,609 INFO [geoserver.filters] - 192.99.18.136 "GET /geoserver" took 5ms
+2021-03-03 22:33:19,289 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/imas/ows?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=AUSTEn_campaigns_MAP" "Java/1.8.0_282" "" "" 
+2021-03-03 22:33:19,296 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:33:19,297 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:33:19,297 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}AUSTEn_campaigns_MAP
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:33:19,311 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/imas/ows?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=AUSTEn_campaigns_MAP" took 21ms
+2021-03-03 22:33:19,414 INFO [geoserver.filters] - 192.99.18.136 "GET /geoserver/index.html" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" "https://geoserver.imas.utas.edu.au/geoserver" "" 
+2021-03-03 22:33:19,418 INFO [geoserver.filters] - 192.99.18.136 "GET /geoserver/index.html" took 4ms
+2021-03-03 22:33:19,721 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/imas/ows?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=AUSTEn_campaigns_MAP" "Java/1.8.0_282" "" "" 
+2021-03-03 22:33:19,727 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:33:19,727 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:33:19,728 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}AUSTEn_campaigns_MAP
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:33:19,739 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/imas/ows?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=AUSTEn_campaigns_MAP" took 18ms
+2021-03-03 22:33:26,278 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_C2_pollution_markers" "Java/1.8.0_282" "" "" 
+2021-03-03 22:33:26,283 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:33:26,284 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:33:26,285 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NESP_C2_pollution_markers
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:33:26,298 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_C2_pollution_markers" took 20ms
+2021-03-03 22:33:28,543 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_C2_pollution_markers" "Java/1.8.0_282" "" "" 
+2021-03-03 22:33:28,549 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:33:28,549 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:33:28,550 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NESP_C2_pollution_markers
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:33:28,564 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_C2_pollution_markers" took 21ms
+2021-03-03 22:34:01,660 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_O2_Monitoring_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:01,666 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:01,667 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:01,667 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRDC_JRoss_MacHarbour_O2_Monitoring_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:01,679 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_O2_Monitoring_DATA" took 19ms
+2021-03-03 22:34:21,740 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/redmap/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=RM_SIGHTING_VIEW_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:21,748 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:21,748 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:21,749 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {redmap}RM_SIGHTING_VIEW_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:21,774 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/redmap/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=RM_SIGHTING_VIEW_DATA" took 33ms
+2021-03-03 22:34:25,839 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/redmap/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=RM_SIGHTING_VIEW_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:25,844 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:25,845 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:25,845 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {redmap}RM_SIGHTING_VIEW_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:25,860 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/redmap/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=RM_SIGHTING_VIEW_DATA" took 21ms
+2021-03-03 22:34:35,392 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:35,398 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:35,398 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:35,399 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Ratnarajah_AntarcticCTD_POC
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:35,412 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC" took 20ms
+2021-03-03 22:34:35,438 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC_PON" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:35,443 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:35,443 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:35,444 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Ratnarajah_AntarcticCTD_POC_PON
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:35,456 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC_PON" took 18ms
+2021-03-03 22:34:35,482 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_Ammonium" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:35,487 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:35,487 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:35,488 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Ratnarajah_AntarcticCTD_Ammonium
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:35,500 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_Ammonium" took 18ms
+2021-03-03 22:34:35,763 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:35,768 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:35,768 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:35,769 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Ratnarajah_AntarcticCTD_POC
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:35,781 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC" took 18ms
+2021-03-03 22:34:35,807 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC_PON" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:35,811 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:35,812 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:35,812 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Ratnarajah_AntarcticCTD_POC_PON
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:35,823 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_POC_PON" took 16ms
+2021-03-03 22:34:35,849 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_Ammonium" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:35,854 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:35,854 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:35,854 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Ratnarajah_AntarcticCTD_Ammonium
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:35,865 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Ratnarajah_AntarcticCTD_Ammonium" took 16ms
+2021-03-03 22:34:44,854 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:44,859 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:44,859 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:44,860 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:44,873 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV" took 19ms
+2021-03-03 22:34:46,381 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:34:46,388 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:34:46,388 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:34:46,389 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:34:46,402 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FR1_CRJohnson_Barren_kelpbed_comparison_rock_lobster_abalone_abundance_GV" took 21ms
+2021-03-03 22:35:00,560 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_CMR_pelagic_BRUV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:35:00,566 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:35:00,566 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:35:00,567 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_D1_OceanicShoals_CMR_pelagic_BRUV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:35:00,581 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_CMR_pelagic_BRUV" took 21ms
+2021-03-03 22:35:02,815 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_CMR_pelagic_BRUV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:35:02,821 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:35:02,821 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:35:02,821 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_D1_OceanicShoals_CMR_pelagic_BRUV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:35:02,833 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_CMR_pelagic_BRUV" took 18ms
+2021-03-03 22:45:11,654 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_OpportunisticMegafauna" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:11,660 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:11,660 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:11,661 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_D1_OceanicShoals_OpportunisticMegafauna
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:11,685 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_OpportunisticMegafauna" took 31ms
+2021-03-03 22:45:12,423 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_OpportunisticMegafauna" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:12,428 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:12,428 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:12,428 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_D1_OceanicShoals_OpportunisticMegafauna
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:12,442 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_D1_OceanicShoals_OpportunisticMegafauna" took 19ms
+2021-03-03 22:45:35,523 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:35,528 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:35,529 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:35,529 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:35,546 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV" took 23ms
+2021-03-03 22:45:37,803 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:37,808 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:37,809 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:37,809 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:37,822 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRD_CMCrawford_Physical_chemical_parameters_oyster_growing_GV" took 19ms
+2021-03-03 22:45:42,483 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/imas/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:CER_CMCrawford_Coastal_estuarine_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:42,488 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:42,488 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:42,489 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}CER_CMCrawford_Coastal_estuarine_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:42,503 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/imas/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:CER_CMCrawford_Coastal_estuarine_GV" took 20ms
+2021-03-03 22:45:43,498 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/imas/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:CER_CMCrawford_Coastal_estuarine_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:43,504 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:43,505 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:43,505 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}CER_CMCrawford_Coastal_estuarine_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:43,518 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/imas/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:CER_CMCrawford_Coastal_estuarine_GV" took 20ms
+2021-03-03 22:45:45,544 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_MaxN" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:45,549 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:45,550 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:45,550 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_BRUV_MaxN
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:45,564 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_MaxN" took 20ms
+2021-03-03 22:45:45,589 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_Length" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:45,595 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:45,595 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:45,595 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_BRUV_Length
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:45,609 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_Length" took 20ms
+2021-03-03 22:45:47,381 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_MaxN" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:47,387 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:47,387 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:47,388 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_BRUV_MaxN
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:47,401 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_MaxN" took 20ms
+2021-03-03 22:45:47,426 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_Length" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:47,431 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:47,432 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:47,432 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_BRUV_Length
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:47,446 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_BRUV_Length" took 20ms
+2021-03-03 22:45:49,635 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:TPW_NSBarrett_MacHarbour_O2_GV2" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:49,641 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:49,641 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:49,642 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}TPW_NSBarrett_MacHarbour_O2_GV2
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:49,656 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:TPW_NSBarrett_MacHarbour_O2_GV2" took 21ms
+2021-03-03 22:45:51,473 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:TPW_NSBarrett_MacHarbour_O2_GV2" "Java/1.8.0_282" "" "" 
+2021-03-03 22:45:51,478 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:45:51,478 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:45:51,479 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}TPW_NSBarrett_MacHarbour_O2_GV2
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:45:51,492 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:TPW_NSBarrett_MacHarbour_O2_GV2" took 19ms
+2021-03-03 22:46:32,674 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_LobPotting" "Java/1.8.0_282" "" "" 
+2021-03-03 22:46:32,679 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:46:32,679 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:46:32,680 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_LobPotting
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:46:32,694 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_LobPotting" took 20ms
+2021-03-03 22:46:33,955 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_LobPotting" "Java/1.8.0_282" "" "" 
+2021-03-03 22:46:33,962 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:46:33,962 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:46:33,963 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_LobPotting
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:46:33,974 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_LobPotting" took 19ms
+2021-03-03 22:46:46,066 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_EP2_AerialSurvey" "Java/1.8.0_282" "" "" 
+2021-03-03 22:46:46,074 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:46:46,074 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:46:46,075 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_EP2_AerialSurvey
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:46:46,086 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_EP2_AerialSurvey" took 20ms
+2021-03-03 22:46:47,288 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_EP2_AerialSurvey" "Java/1.8.0_282" "" "" 
+2021-03-03 22:46:47,294 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:46:47,294 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:46:47,295 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_EP2_AerialSurvey
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:46:47,308 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_EP2_AerialSurvey" took 20ms
+2021-03-03 22:52:09,892 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_NUTRIENTS" "Java/1.8.0_282" "" "" 
+2021-03-03 22:52:09,899 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:52:09,900 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:52:09,901 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_NUTRIENTS
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:52:09,926 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_NUTRIENTS" took 34ms
+2021-03-03 22:52:11,952 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IWT_LOGGER_GV_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:52:11,960 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:52:11,960 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:52:11,961 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IWT_LOGGER_GV_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:52:12,743 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_NUTRIENTS" "Java/1.8.0_282" "" "" 
+2021-03-03 22:52:12,749 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:52:12,749 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:52:12,750 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_NUTRIENTS
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:52:12,777 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_NUTRIENTS" took 34ms
+2021-03-03 22:52:12,951 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IWT_LOGGER_GV_DATA" took 999ms
+2021-03-03 22:52:14,804 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IWT_LOGGER_GV_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:52:14,811 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:52:14,811 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:52:14,812 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IWT_LOGGER_GV_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:52:15,576 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IWT_LOGGER_GV_DATA" took 772ms
+2021-03-03 22:52:46,626 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:Marine_Plastics" "Java/1.8.0_282" "" "" 
+2021-03-03 22:52:46,633 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:52:46,633 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:52:46,634 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}Marine_Plastics
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:52:46,661 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:Marine_Plastics" took 35ms
+2021-03-03 22:52:47,028 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:Marine_Plastics" "Java/1.8.0_282" "" "" 
+2021-03-03 22:52:47,034 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:52:47,034 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:52:47,035 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}Marine_Plastics
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:52:47,048 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:Marine_Plastics" took 20ms
+2021-03-03 22:53:37,948 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_NationalOutfallDatabase_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:53:37,956 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:53:37,956 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:53:37,957 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_NationalOutfallDatabase_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:53:38,201 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_NationalOutfallDatabase_DATA" took 253ms
+2021-03-03 22:53:39,814 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_NationalOutfallDatabase_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:53:39,821 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:53:39,822 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:53:39,822 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}NESP_NationalOutfallDatabase_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:53:40,018 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=NESP_NationalOutfallDatabase_DATA" took 204ms
+2021-03-03 22:54:25,277 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_ChlA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:54:25,285 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:54:25,285 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:54:25,286 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Schallenberg_ChlA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:54:25,299 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_ChlA" took 22ms
+2021-03-03 22:54:25,795 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_ChlA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:54:25,802 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:54:25,802 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:54:25,803 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Schallenberg_ChlA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:54:25,816 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_ChlA" took 21ms
+2021-03-03 22:54:27,843 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_ZOOPLANKTON" "Java/1.8.0_282" "" "" 
+2021-03-03 22:54:27,851 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:54:27,852 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:54:27,852 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_ZOOPLANKTON
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:54:27,881 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_ZOOPLANKTON" took 38ms
+2021-03-03 22:54:29,834 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_ZOOPLANKTON" "Java/1.8.0_282" "" "" 
+2021-03-03 22:54:29,842 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:54:29,842 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:54:29,843 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_ZOOPLANKTON
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:54:29,861 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_ZOOPLANKTON" took 27ms
+2021-03-03 22:55:17,297 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_NPerkins_AUV_urchinbarrens" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:17,304 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:17,304 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:17,305 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NESP_NPerkins_AUV_urchinbarrens
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:17,319 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_NPerkins_AUV_urchinbarrens" took 22ms
+2021-03-03 22:55:18,284 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_NPerkins_AUV_urchinbarrens" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:18,290 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:18,290 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:18,291 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NESP_NPerkins_AUV_urchinbarrens
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:18,304 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NESP_NPerkins_AUV_urchinbarrens" took 20ms
+2021-03-03 22:55:19,345 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=CSIRO_NESP_handfish_surveys" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:19,352 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:19,352 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:19,353 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}CSIRO_NESP_handfish_surveys
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:19,368 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=CSIRO_NESP_handfish_surveys" took 23ms
+2021-03-03 22:55:20,330 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=CSIRO_NESP_handfish_surveys" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:20,336 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:20,336 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:20,337 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {NESP}CSIRO_NESP_handfish_surveys
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:20,350 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/NESP/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=CSIRO_NESP_handfish_surveys" took 20ms
+2021-03-03 22:55:21,395 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_FISH_ALL_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:21,404 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:21,404 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:21,405 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_FISH_ALL_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:21,972 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_FISH_ALL_DATA" took 577ms
+2021-03-03 22:55:22,377 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_FISH_ALL_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:22,382 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:22,383 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:22,383 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_FISH_ALL_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:22,696 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_FISH_ALL_DATA" took 319ms
+2021-03-03 22:55:23,999 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_CHLOROPHYLL" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:24,005 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:24,005 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:24,005 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_CHLOROPHYLL
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:24,036 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_CHLOROPHYLL" took 37ms
+2021-03-03 22:55:24,723 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_CHLOROPHYLL" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:24,728 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:24,728 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:24,729 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_CHLOROPHYLL
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:24,743 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_CHLOROPHYLL" took 20ms
+2021-03-03 22:55:26,063 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH3_CMCrawford_Estuarine_Health_Tasmania_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:26,068 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:26,069 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:26,069 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NH3_CMCrawford_Estuarine_Health_Tasmania_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:26,106 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH3_CMCrawford_Estuarine_Health_Tasmania_GV" took 43ms
+2021-03-03 22:55:26,769 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH3_CMCrawford_Estuarine_Health_Tasmania_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:26,774 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:26,774 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:26,775 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NH3_CMCrawford_Estuarine_Health_Tasmania_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:26,789 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH3_CMCrawford_Estuarine_Health_Tasmania_GV" took 20ms
+2021-03-03 22:55:28,132 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PIGMENT" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:28,138 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:28,138 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:28,139 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_PIGMENT
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:28,153 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PIGMENT" took 21ms
+2021-03-03 22:55:28,815 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PIGMENT" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:28,820 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:28,821 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:28,821 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_PIGMENT
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:28,834 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PIGMENT" took 19ms
+2021-03-03 22:55:42,271 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PHYTOPLANKTON" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:42,277 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:42,277 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:42,278 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_PHYTOPLANKTON
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:42,292 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PHYTOPLANKTON" took 21ms
+2021-03-03 22:55:42,556 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PHYTOPLANKTON" "Java/1.8.0_282" "" "" 
+2021-03-03 22:55:42,561 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:55:42,561 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:55:42,562 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_PHYTOPLANKTON
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:55:42,576 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_PHYTOPLANKTON" took 20ms
+2021-03-03 22:56:27,286 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia" "Java/1.8.0_282" "" "" 
+2021-03-03 22:56:27,291 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:56:27,291 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:56:27,292 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:56:27,306 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia" took 20ms
+2021-03-03 22:56:29,667 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia" "Java/1.8.0_282" "" "" 
+2021-03-03 22:56:29,673 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:56:29,674 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:56:29,674 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:56:29,689 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ARC_EFlukes_Ecophysiology_three_habitat_forming_seaweeds_se_australia" took 22ms
+2021-03-03 22:56:34,736 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH1_CMCrawford_Biodiversity_degradation_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:56:34,742 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:56:34,742 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:56:34,743 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NH1_CMCrawford_Biodiversity_degradation_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:56:34,757 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH1_CMCrawford_Biodiversity_degradation_GV" took 21ms
+2021-03-03 22:56:35,173 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH1_CMCrawford_Biodiversity_degradation_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:56:35,178 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:56:35,178 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:56:35,179 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NH1_CMCrawford_Biodiversity_degradation_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:56:35,193 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NH1_CMCrawford_Biodiversity_degradation_GV" took 20ms
+2021-03-03 22:57:17,774 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" "Java/1.8.0_282" "" "" 
+2021-03-03 22:57:17,780 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:57:17,780 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:57:17,781 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Schallenberg_Secchi_depth
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:57:17,794 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" took 20ms
+2021-03-03 22:57:20,669 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" "Java/1.8.0_282" "" "" 
+2021-03-03 22:57:20,674 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:57:20,675 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:57:20,675 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ACE_Schallenberg_Secchi_depth
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:57:20,689 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ACE_Schallenberg_Secchi_depth" took 20ms
+2021-03-03 22:57:51,667 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" "Java/1.8.0_282" "" "" 
+2021-03-03 22:57:51,672 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:57:51,673 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:57:51,673 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_OCEANOGRAPHY
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:57:51,797 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" took 130ms
+2021-03-03 22:57:54,504 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" "Java/1.8.0_282" "" "" 
+2021-03-03 22:57:54,509 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:57:54,510 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:57:54,510 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ECP_GEOSERVER_OCEANOGRAPHY
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:57:54,619 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ECP_GEOSERVER_OCEANOGRAPHY" took 115ms
+2021-03-03 22:58:10,053 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:58:10,059 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:58:10,059 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:58:10,060 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:58:10,073 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" took 20ms
+2021-03-03 22:58:13,861 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:58:13,867 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:58:13,868 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:58:13,868 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:58:13,883 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:ZOO_SDLing_Growth_age_range_extension_region_sea_urchin_tasmania_GV" took 22ms
+2021-03-03 22:58:32,401 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:58:32,407 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:58:32,407 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:58:32,408 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:58:32,845 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" took 444ms
+2021-03-03 22:58:34,644 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:58:34,649 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:58:34,650 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:58:34,650 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:58:35,059 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:MB_EXTRACT_SAMPLE_INVERTEBRATE_ALL_DATA" took 415ms
+2021-03-03 22:58:54,477 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:58:54,482 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:58:54,483 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:58:54,484 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:58:54,500 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" took 23ms
+2021-03-03 22:59:00,644 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:00,650 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:00,650 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:00,651 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_TasFracture_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:00,667 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_TasFracture_CMR_AUV_GV" took 23ms
+2021-03-03 22:59:05,548 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:05,553 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:05,553 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:05,554 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_Flinders_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:05,568 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" took 20ms
+2021-03-03 22:59:11,746 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:11,752 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:11,752 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:11,752 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}NERP_NBarrett_Flinders_CMR_AUV_GV
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:11,768 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:NERP_NBarrett_Flinders_CMR_AUV_GV" took 21ms
+2021-03-03 22:59:31,319 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:31,325 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:31,325 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:31,325 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_Chla
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:31,339 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" took 20ms
+2021-03-03 22:59:31,364 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:31,369 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:31,369 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:31,370 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_POC
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:31,382 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" took 18ms
+2021-03-03 22:59:34,367 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:34,372 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:34,373 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:34,373 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_Chla
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:34,387 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_Chla" took 20ms
+2021-03-03 22:59:34,412 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:34,417 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:34,418 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:34,418 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}IN2016_V02_eddy_sampling_POC
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:34,430 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:IN2016_V02_eddy_sampling_POC" took 18ms
+2021-03-03 22:59:53,860 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:53,865 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:53,865 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:53,866 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}OC_LPhillips_LittlePenguin_GPS_tracks_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:53,879 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" took 19ms
+2021-03-03 22:59:55,905 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:55,910 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:55,910 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:55,911 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRDC_JRoss_MacHarbour_HOBO_loggers_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:55,924 INFO [geoserver.filters] - 52.62.194.9 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" took 19ms
+2021-03-03 22:59:57,032 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:57,037 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:57,038 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:57,038 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}OC_LPhillips_LittlePenguin_GPS_tracks_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:57,052 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:OC_LPhillips_LittlePenguin_GPS_tracks_DATA" took 20ms
+2021-03-03 22:59:59,078 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" "Java/1.8.0_282" "" "" 
+2021-03-03 22:59:59,083 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-03-03 22:59:59,084 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2021-03-03 22:59:59,084 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8082/geoserver/
+    query[0]:
+        typeName[0] = {imas}FRDC_JRoss_MacHarbour_HOBO_loggers_DATA
+    maxFeatures = 1
+    outputFormat = csv
+    resultType = results
+2021-03-03 22:59:59,098 INFO [geoserver.filters] - 13.55.155.205 "GET /geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&maxFeatures=1&outputFormat=csv&typeName=imas:FRDC_JRoss_MacHarbour_HOBO_loggers_DATA" took 20ms
