@@ -16,18 +16,19 @@
                  <ogc:Literal>data</ogc:Literal>
                </ogc:Function>
                <ogc:Function name="parameter">
+                 <ogc:Literal>weightAttr</ogc:Literal>                 
                  <ogc:Literal>total_abundance</ogc:Literal>
                </ogc:Function>
                <ogc:Function name="parameter">
                  <ogc:Literal>radiusPixels</ogc:Literal>
                  <ogc:Function name="env">
                    <ogc:Literal>radius</ogc:Literal>
-                   <ogc:Literal>100</ogc:Literal>
+                   <ogc:Literal>1000</ogc:Literal>
                  </ogc:Function>
                </ogc:Function>
                <ogc:Function name="parameter">
                  <ogc:Literal>pixelsPerCell</ogc:Literal>
-                 <ogc:Literal>10</ogc:Literal>
+                 <ogc:Literal>100</ogc:Literal>
                </ogc:Function>
                <ogc:Function name="parameter">
                  <ogc:Literal>outputBBOX</ogc:Literal>
