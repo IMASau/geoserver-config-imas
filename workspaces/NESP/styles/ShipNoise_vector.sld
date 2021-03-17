@@ -11,10 +11,10 @@
                 <Rule>
                   <Title>Cumulative Sound Exposure Level (SEL) - all vessels</Title>
                     <ogc:Filter>
-                        <ogc:PropertyIsLessThan>
+                        <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>NseA</ogc:PropertyName>
-                            <ogc:Literal>0</ogc:Literal>
-                        </ogc:PropertyIsLessThan>
+                            <ogc:Literal>-0</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
@@ -36,8 +36,12 @@
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#000096</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>				  
-            </Fill>          
+              <CssParameter name="fill-opacity">1</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000096</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+            </Stroke>          
           </PolygonSymbolizer>
                 </Rule>
 
@@ -58,8 +62,12 @@
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#0048fd</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>				  
-            </Fill>           
+              <CssParameter name="fill-opacity">1</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0048fd</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+            </Stroke>             
           </PolygonSymbolizer>
                 </Rule>
      
@@ -80,8 +88,12 @@
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#09ffdc</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>				  
-            </Fill>           
+              <CssParameter name="fill-opacity">1</CssParameter>				  
+            </Fill>   
+            <Stroke>
+              <CssParameter name="stroke">#09ffdc</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+            </Stroke> 			
           </PolygonSymbolizer>
                 </Rule>
               
@@ -102,8 +114,12 @@
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#f1fe00</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>				  
-            </Fill>             
+              <CssParameter name="fill-opacity">1</CssParameter>				  
+            </Fill>    
+            <Stroke>
+              <CssParameter name="stroke">#f1fe00</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+            </Stroke> 			
           </PolygonSymbolizer>
                 </Rule>
      
@@ -124,8 +140,12 @@
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#ff4600</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>				  
-            </Fill>              
+              <CssParameter name="fill-opacity">1</CssParameter>				  
+            </Fill>  
+            <Stroke>
+              <CssParameter name="stroke">#ff4600</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+            </Stroke> 	            
           </PolygonSymbolizer>
                 </Rule>
                 <Rule>
@@ -139,8 +159,12 @@
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#830000</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>				  
-            </Fill>              
+              <CssParameter name="fill-opacity">1</CssParameter>				  
+            </Fill>   
+            <Stroke>
+              <CssParameter name="stroke">#830000</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+            </Stroke> 			
           </PolygonSymbolizer>
                 </Rule>              
      
