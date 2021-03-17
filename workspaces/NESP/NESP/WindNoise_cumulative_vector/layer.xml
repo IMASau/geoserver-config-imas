@@ -1,0 +1,15 @@
+<layer>
+  <name>WindNoise_cumulative_vector</name>
+  <id>LayerInfoImpl-19fc1e69:1783e106a71:-688d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-19fc1e69:1783e106a71:-6891</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-19fc1e69:1783e106a71:-688e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
