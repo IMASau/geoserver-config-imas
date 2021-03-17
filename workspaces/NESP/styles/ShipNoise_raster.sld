@@ -12,12 +12,12 @@
             <ColorMap>
               
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="Cumulative Sound Exposure Level (SEL) - all vessels"/>
-              <ColorMapEntry color="#000096" opacity="0.8" quantity="100" label="&#60;100 dB re 1&#181;Pa 2s"/>
-              <ColorMapEntry color="#0048fd" opacity="0.8" quantity="120" label="120"/>              
-              <ColorMapEntry color="#09ffdc" opacity="0.8" quantity="140" label="140"/>            
-              <ColorMapEntry color="#f1fe00" opacity="0.8" quantity="160" label="160"/>
-              <ColorMapEntry color="#ff4600" opacity="0.8" quantity="180" label="180"/>
-              <ColorMapEntry color="#830000" opacity="0.8" quantity="200" label="&#62;200"/>              
+              <ColorMapEntry color="#000096" opacity="0.8" quantity="90" label="&#60;90 dB re 1&#181;Pa 2s"/>
+              <ColorMapEntry color="#0048fd" opacity="0.8" quantity="110" label="110"/>              
+              <ColorMapEntry color="#09ffdc" opacity="0.8" quantity="130" label="130"/>            
+              <ColorMapEntry color="#f1fe00" opacity="0.8" quantity="150" label="150"/>
+              <ColorMapEntry color="#ff4600" opacity="0.8" quantity="170" label="170"/>
+              <ColorMapEntry color="#830000" opacity="0.8" quantity="190" label="&#62;190"/>              
           
             </ColorMap>
           </RasterSymbolizer>

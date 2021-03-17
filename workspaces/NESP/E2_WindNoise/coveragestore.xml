@@ -1,5 +1,5 @@
 <coverageStore>
-  <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:-2ad</id>
+  <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:-28c</id>
   <name>E2_WindNoise</name>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
@@ -7,5 +7,5 @@
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
   <__default>false</__default>
-  <url>file:///mnt/rdsi/attachments/480847b4-b692-4112-89ff-0dcef75e3b84/ShipNoise.tif</url>
+  <url>file:///mnt/rdsi/attachments/0d3c7edc-463a-4fa0-8039-4d5a779035c3/WindNoise.tif</url>
 </coverageStore>
