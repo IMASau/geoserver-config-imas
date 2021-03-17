@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-19fc1e69:1783f2e8dff:-2a7</id>
+  <id>CoverageInfoImpl-19fc1e69:1783f2e8dff:247</id>
   <name>ShipNoise_cumulative_raster</name>
   <nativeName>ShipNoise_cumulative_raster</nativeName>
   <namespace>
@@ -34,42 +34,42 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32653&quot;]]</nativeCRS>
   <srs>EPSG:32653</srs>
   <nativeBoundingBox>
-    <minx>-2160450.0</minx>
-    <maxx>3289050.0</maxx>
-    <miny>-5313050.0</miny>
-    <maxy>-972350.0</maxy>
+    <minx>-2160900.0</minx>
+    <maxx>3289100.0</maxx>
+    <miny>-5313500.0</miny>
+    <maxy>-972500.0</maxy>
     <crs class="projected">EPSG:32653</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>102.40361372863917</minx>
-    <maxx>168.89567357526295</maxx>
-    <miny>-47.96752660198655</miny>
-    <maxy>-8.006696157173478</maxy>
+    <minx>102.39699925649089</minx>
+    <maxx>168.89820851893666</maxx>
+    <miny>-47.97159496578433</miny>
+    <maxy>-8.00790331641937</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">E2_WindNoise_ShipNoise</entry>
+    <entry key="dirName">E2_ShipNoise_ShipNoise</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:-2ad</id>
+    <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:245</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>54495 43407</high>
+      <high>5450 4341</high>
     </range>
     <transform>
-      <scaleX>100.0</scaleX>
-      <scaleY>-100.0</scaleY>
+      <scaleX>1000.0</scaleX>
+      <scaleY>-1000.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
       <translateX>-2160400.0</translateX>
-      <translateY>-972400.0</translateY>
+      <translateY>-973000.0</translateY>
     </transform>
     <crs>EPSG:32653</crs>
   </grid>

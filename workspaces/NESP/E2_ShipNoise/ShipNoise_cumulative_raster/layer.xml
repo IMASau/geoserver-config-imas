@@ -1,12 +1,12 @@
 <layer>
   <name>ShipNoise_cumulative_raster</name>
-  <id>LayerInfoImpl-19fc1e69:1783f2e8dff:-2a6</id>
+  <id>LayerInfoImpl-19fc1e69:1783f2e8dff:248</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-19fc1e69:17835d7bbbd:317a</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-19fc1e69:1783f2e8dff:-2a7</id>
+    <id>CoverageInfoImpl-19fc1e69:1783f2e8dff:247</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
