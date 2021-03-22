@@ -5,4 +5,4 @@ Thumbs.db
 gwc-layers/*
 gwc/*
 
-logs/geoserver.log
+logs/geoserver.log*
