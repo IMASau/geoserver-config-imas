@@ -1,12 +1,12 @@
 <layer>
-  <name>WindNoise_cumulative_raster</name>
-  <id>LayerInfoImpl-19fc1e69:1785af80ecd:3de9</id>
+  <name>WindNoise_TEST</name>
+  <id>LayerInfoImpl-19fc1e69:1785af80ecd:3eef</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-19fc1e69:1783f2e8dff:-440</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-19fc1e69:1785af80ecd:3de8</id>
+    <id>CoverageInfoImpl-19fc1e69:1785af80ecd:3eee</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

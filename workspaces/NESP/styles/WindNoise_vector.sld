@@ -9,7 +9,7 @@
             <Name>ShipNoise</Name>
             <FeatureTypeStyle>
                 <Rule>
-                  <Title>Cumulative Sound Exposure Level (SEL) - wind noise</Title>
+                  <Title>Cumulative Sound Exposure - wind noise</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>WINTotal</ogc:PropertyName>

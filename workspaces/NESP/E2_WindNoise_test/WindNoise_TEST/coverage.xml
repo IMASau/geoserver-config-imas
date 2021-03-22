@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl-19fc1e69:1783f2e8dff:247</id>
-  <name>ShipNoise_cumulative_raster</name>
-  <nativeName>ShipNoise_cumulative_raster</nativeName>
+  <id>CoverageInfoImpl-19fc1e69:1785af80ecd:3eee</id>
+  <name>WindNoise_TEST</name>
+  <nativeName>WindNoise_TEST</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>MAP of cumulative sound exposure from shipping in Aus EEZ</title>
+  <title>WindNoise_TEST</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>ShipNoise</string>
+    <string>WindNoise</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -51,10 +51,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">E2_ShipNoise_ShipNoise</entry>
+    <entry key="dirName">E2_WindNoise_test_WindNoise</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:245</id>
+    <id>CoverageStoreInfoImpl-19fc1e69:1785af80ecd:3eed</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
@@ -118,5 +118,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>ShipNoise</nativeCoverageName>
+  <nativeCoverageName>WindNoise</nativeCoverageName>
 </coverage>

@@ -11,13 +11,13 @@
           <RasterSymbolizer>
             <ColorMap>
               
-              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="Cumulative Sound Exposure Level (SEL) - wind noise"/>
-              <ColorMapEntry color="#edf8fb" opacity="0.95" quantity="175" label="&#60;175 dB re 1&#181;Pa 2s"/>
-              <ColorMapEntry color="#bfd6e8" opacity="0.95" quantity="176" label="176"/>              
-              <ColorMapEntry color="#9cacd2" opacity="0.95" quantity="177" label="177"/>            
-              <ColorMapEntry color="#8a7cba" opacity="0.95" quantity="178" label="178"/>
-              <ColorMapEntry color="#87489f" opacity="0.95" quantity="179" label="179"/>
-              <ColorMapEntry color="#810f7c" opacity="0.95" quantity="180" label="&#62;180"/>              
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="Cumulative Sound Exposure - wind noise"/>
+              <ColorMapEntry color="#edf8fb" opacity="0.95" quantity="170" label="&#60;170 dB re 1&#181;Pa 2s"/>
+              <ColorMapEntry color="#bfd6e8" opacity="0.95" quantity="171" label="171"/>              
+              <ColorMapEntry color="#9cacd2" opacity="0.95" quantity="172" label="172"/>            
+              <ColorMapEntry color="#8a7cba" opacity="0.95" quantity="173" label="173"/>
+              <ColorMapEntry color="#87489f" opacity="0.95" quantity="174" label="174"/>
+              <ColorMapEntry color="#810f7c" opacity="0.95" quantity="185" label="&#62;175"/>              
           
             </ColorMap>
           </RasterSymbolizer>

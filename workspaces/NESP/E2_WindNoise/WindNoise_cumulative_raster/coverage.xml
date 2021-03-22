@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl-19fc1e69:1783f2e8dff:23f</id>
+  <id>CoverageInfoImpl-19fc1e69:1785af80ecd:3de8</id>
   <name>WindNoise_cumulative_raster</name>
   <nativeName>WindNoise_cumulative_raster</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>WindNoise</title>
+  <title>MAP of cumulative sound exposure from wind in Aus EEZ</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>WindNoise</string>
@@ -54,7 +54,7 @@
     <entry key="dirName">E2_WindNoise_WindNoise</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:23e</id>
+    <id>CoverageStoreInfoImpl-19fc1e69:1785af80ecd:3de5</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>

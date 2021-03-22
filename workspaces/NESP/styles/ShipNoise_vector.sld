@@ -9,7 +9,7 @@
             <Name>ShipNoise</Name>
             <FeatureTypeStyle>
                 <Rule>
-                  <Title>Cumulative Sound Exposure Level (SEL) - all vessels</Title>
+                  <Title>Cumulative Sound Exposure - all vessels</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>NseA</ogc:PropertyName>
@@ -26,11 +26,11 @@
               
               
                 <Rule>
-                  <Title>&#60;100 dB re 1&#181;Pa 2s</Title>
+                  <Title>&#60;90 dB re 1&#181;Pa 2s</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsLessThan>
                             <ogc:PropertyName>NseA</ogc:PropertyName>
-                            <ogc:Literal>100</ogc:Literal>
+                            <ogc:Literal>90</ogc:Literal>
                         </ogc:PropertyIsLessThan>
                     </ogc:Filter>
           <PolygonSymbolizer>		  
@@ -46,16 +46,16 @@
                 </Rule>
 
                 <Rule>
-                    <Title>100-125</Title>
+                    <Title>90-115</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>100</ogc:Literal>
+                                <ogc:Literal>90</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>125</ogc:Literal>
+                                <ogc:Literal>115</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -72,16 +72,16 @@
                 </Rule>
      
                 <Rule>
-                    <Title>125 - 140</Title>
+                    <Title>115 - 130</Title>
                   <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>125</ogc:Literal>
+                                <ogc:Literal>115</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>140</ogc:Literal>
+                                <ogc:Literal>130</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -98,16 +98,16 @@
                 </Rule>
               
                              <Rule>
-                    <Title>140 - 155</Title>
+                    <Title>130 - 145</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>140</ogc:Literal>
+                                <ogc:Literal>130</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>155</ogc:Literal>
+                                <ogc:Literal>145</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -124,16 +124,16 @@
                 </Rule>
      
                 <Rule>
-                    <Name>155 - 170</Name>
+                    <Name>145 - 160</Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>155</ogc:Literal>
+                                <ogc:Literal>145</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>170</ogc:Literal>
+                                <ogc:Literal>160</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -149,11 +149,11 @@
           </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>&#62;170</Name>
+                    <Name>&#62;160</Name>
                     <ogc:Filter>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>NseA</ogc:PropertyName>
-                                <ogc:Literal>170</ogc:Literal>
+                                <ogc:Literal>160</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                     </ogc:Filter>
           <PolygonSymbolizer>		  
