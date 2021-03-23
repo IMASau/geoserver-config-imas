@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-19fc1e69:1785af80ecd:3de8</id>
+  <id>CoverageInfoImpl--30c0f569:1785c768c28:-7d18</id>
   <name>WindNoise_cumulative_raster</name>
   <nativeName>WindNoise_cumulative_raster</nativeName>
   <namespace>
@@ -51,10 +51,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">E2_WindNoise_WindNoise</entry>
+    <entry key="dirName">E2_WindNoise2_WindNoise</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-19fc1e69:1785af80ecd:3de5</id>
+    <id>CoverageStoreInfoImpl--30c0f569:1785c768c28:-7d1c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
@@ -74,11 +74,11 @@
     <crs>EPSG:32653</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>

@@ -26,11 +26,11 @@
               
               
                 <Rule>
-                  <Title>&#60;175 dB re 1&#181;Pa 2s</Title>
+                  <Title>&#60;170 dB re 1&#181;Pa 2s</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsLessThan>
                             <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                            <ogc:Literal>175</ogc:Literal>
+                            <ogc:Literal>170</ogc:Literal>
                         </ogc:PropertyIsLessThan>
                     </ogc:Filter>
           <PolygonSymbolizer>		  
@@ -46,16 +46,16 @@
                 </Rule>
 
                 <Rule>
-                    <Title>175 - 176</Title>
+                    <Title>170 - 171</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>175</ogc:Literal>
+                                <ogc:Literal>170</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>176</ogc:Literal>
+                                <ogc:Literal>171</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -72,16 +72,16 @@
                 </Rule>
      
                 <Rule>
-                    <Title>176 - 177</Title>
+                    <Title>171 - 172</Title>
                   <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>176</ogc:Literal>
+                                <ogc:Literal>171</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>177</ogc:Literal>
+                                <ogc:Literal>172</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -98,16 +98,16 @@
                 </Rule>
               
                              <Rule>
-                    <Title>177 - 178</Title>
+                    <Title>172 - 173</Title>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>177</ogc:Literal>
+                                <ogc:Literal>172</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>178</ogc:Literal>
+                                <ogc:Literal>173</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -124,16 +124,16 @@
                 </Rule>
      
                 <Rule>
-                    <Name>178 - 179</Name>
+                    <Name>173 - 174</Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>178</ogc:Literal>
+                                <ogc:Literal>173</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                             <ogc:PropertyIsLessThan>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>179</ogc:Literal>
+                                <ogc:Literal>174</ogc:Literal>
                             </ogc:PropertyIsLessThan>
                         </ogc:And>
                     </ogc:Filter>
@@ -149,11 +149,11 @@
           </PolygonSymbolizer>
                 </Rule>
                 <Rule>
-                    <Name>&#62;179</Name>
+                    <Name>&#62;174</Name>
                     <ogc:Filter>
                             <ogc:PropertyIsGreaterThanOrEqualTo>
                                 <ogc:PropertyName>WINTotal</ogc:PropertyName>
-                                <ogc:Literal>179</ogc:Literal>
+                                <ogc:Literal>174</ogc:Literal>
                             </ogc:PropertyIsGreaterThanOrEqualTo>
                     </ogc:Filter>
           <PolygonSymbolizer>		  
