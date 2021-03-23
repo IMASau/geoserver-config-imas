@@ -1,4 +1,4 @@
-<h6>Cumulative sound exposure level (SEL) from shipping</h6><BR>
+<h6>Cumulative sound exposure level (SEL) from shipping - finescale GBR</h6><BR>
 
 <#list features as feature>
 	<#if (feature_index < 1) >
