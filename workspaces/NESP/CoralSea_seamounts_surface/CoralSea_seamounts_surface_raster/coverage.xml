@@ -7,6 +7,7 @@
   </namespace>
   <title>Coral Sea seamounts - surface classification</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>These raster layers retained for performance reasons (mapping) - see vector version of layers for full data.</abstract>
   <keywords>
     <string>CoralSea_seamounts_surface</string>
     <string>WCS</string>
