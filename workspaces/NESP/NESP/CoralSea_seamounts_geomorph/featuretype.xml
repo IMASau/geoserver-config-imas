@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--30c0f569:1786161edf3:fe0</id>
-  <name>NESP_CoralSea_seamounts_sfc</name>
-  <nativeName>NESP_CoralSea_seamounts_sfc</nativeName>
+  <id>FeatureTypeInfoImpl-e91977e:17862eefac5:385a</id>
+  <name>CoralSea_seamounts_geomorph</name>
+  <nativeName>NESP_CoralSea_seamounts_geo</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP - Coral Sea seamounts surface classification</title>
+  <title>NESP - Coral Sea seamounts geomorphological classification</title>
   <keywords>
     <string>features</string>
-    <string>NESP_CoralSea_seamounts_sfc</string>
+    <string>NESP_CoralSea_seamounts_geo</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>153.1309677284659</minx>
-    <maxx>158.42059767988366</maxx>
-    <miny>-21.750701029026967</miny>
-    <maxy>-14.427813834363336</maxy>
+    <minx>153.13065753792836</minx>
+    <maxx>158.42093550210527</maxx>
+    <miny>-21.75100818376142</miny>
+    <maxy>-14.427503638973976</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>153.1309677284659</minx>
-    <maxx>158.42059767988366</maxx>
-    <miny>-21.750701029026967</miny>
-    <maxy>-14.427813834363336</maxy>
+    <minx>153.13065753792836</minx>
+    <maxx>158.42093550210527</maxx>
+    <miny>-21.75100818376142</miny>
+    <maxy>-14.427503638973976</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -54,7 +54,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>

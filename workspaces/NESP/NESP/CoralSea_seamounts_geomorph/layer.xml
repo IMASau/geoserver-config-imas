@@ -1,12 +1,12 @@
 <layer>
-  <name>NESP_CoralSea_seamounts_sfc</name>
-  <id>LayerInfoImpl--30c0f569:1786161edf3:fe1</id>
+  <name>CoralSea_seamounts_geomorph</name>
+  <id>LayerInfoImpl-e91977e:17862eefac5:385b</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--30c0f569:1786161edf3:f58</id>
+    <id>StyleInfoImpl--30c0f569:1786161edf3:f42</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--30c0f569:1786161edf3:fe0</id>
+    <id>FeatureTypeInfoImpl-e91977e:17862eefac5:385a</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

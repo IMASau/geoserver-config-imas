@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--33242ed1:172eb0be8db:-65db</id>
-  <name>CoralSea_seamounts_geomorph</name>
-  <nativeName>CoralSea_seamounts_geomorph</nativeName>
+  <id>CoverageInfoImpl--33242ed1:172eb0be8db:-67bd</id>
+  <name>CoralSea_seamounts_surface_raster</name>
+  <nativeName>CoralSea_seamounts_surface</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Coral Sea seamounts - geomorphology classification</title>
+  <title>Coral Sea seamounts - surface classification</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>CoralSea_seamounts_geomorph</string>
+    <string>CoralSea_seamounts_surface</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -57,10 +57,11 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="dirName">CoralSea_seamounts_geomorphology_CoralSea_seamounts_geomorph</entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">CoralSea_seamounts_surface_CoralSea_seamounts_surface</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--33242ed1:172eb0be8db:-65dc</id>
+    <id>CoverageStoreInfoImpl-7017fe13:172e394665d:-3d9</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
@@ -124,5 +125,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>CoralSea_seamounts_geomorph</nativeCoverageName>
+  <nativeCoverageName>CoralSea_seamounts_surface</nativeCoverageName>
 </coverage>
