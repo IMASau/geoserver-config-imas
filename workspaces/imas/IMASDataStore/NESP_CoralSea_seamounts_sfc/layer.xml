@@ -1,0 +1,15 @@
+<layer>
+  <name>NESP_CoralSea_seamounts_sfc</name>
+  <id>LayerInfoImpl--30c0f569:1786161edf3:fe1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--30c0f569:1786161edf3:f58</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--30c0f569:1786161edf3:fe0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
