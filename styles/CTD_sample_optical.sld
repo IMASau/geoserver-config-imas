@@ -7,28 +7,28 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Pink sample location (star)</Name>
+    <Name>CTD cast optical sensor (triangle)</Name>
     <UserStyle>
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Rule 1</Name>
-          <Title>Niskin sample CN</Title>
-          <Abstract>A pink fill with a 10 pixel size</Abstract>
+          <Title>CTD cast optical sensor</Title>
+          <Abstract>An orange with an 11 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>star</WellKnownName>
+                <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff00ff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#ff9933</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
