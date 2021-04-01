@@ -48,27 +48,21 @@ The methods are described in detail in Edgar and Barrett (1997). Primarily the d
     <maxx>148.458024071</maxx>
     <miny>-43.644509362</miny>
     <maxy>-39.213839485</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="time">
       <dimensionInfo>
         <enabled>false</enabled>
         <defaultValue/>
-      </dimensionInfo>
-    </entry>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
       </dimensionInfo>
     </entry>
     <entry key="cachingEnabled">false</entry>
@@ -76,8 +70,11 @@ The methods are described in detail in Edgar and Barrett (1997). Primarily the d
   <store class="dataStore">
     <id>DataStoreInfoImpl--558bdc10:1485e0de12a:-4ad7</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
