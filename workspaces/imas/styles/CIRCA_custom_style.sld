@@ -17,7 +17,7 @@
           <Title>NET Type</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
 					    <ogc:Literal>intentionallyblank</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>   		  
@@ -35,11 +35,11 @@
         </Rule>
 		
         <Rule>
-          <Title>Afforestation and reforestation</Title>
+          <Title>Agriculture</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Afforestation*</ogc:Literal>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Agriculture*</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>  		  
           <PointSymbolizer>
@@ -47,12 +47,64 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00cc00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#00b300</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>
+		
+        <Rule>
+          <Title>Agriculture &amp; Geological</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Agriculture*Geological*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#004d4d</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>		
+
+        <Rule>
+          <Title>Geological</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Geological</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#996600</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>10</Size>
@@ -61,11 +113,11 @@
         </Rule>
 
         <Rule>
-          <Title>Agricultural practices</Title>
+          <Title>Geological &amp; Ocean</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Agricultural*</ogc:Literal>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Geological*Ocean</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>  		  
           <PointSymbolizer>
@@ -73,12 +125,12 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ffd500</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#538cc6</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>10</Size>
@@ -87,12 +139,65 @@
         </Rule>	
 
         <Rule>
-          <Title>Biochar</Title>
+          <Title>Ocean</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Ocean</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0000ff</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>	
+		
+
+        <Rule>
+          <Title>Mine</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Biochar*</ogc:Literal>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Mine*</ogc:Literal>
 					</ogc:PropertyIsLike>
+			</ogc:Filter>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#b30000</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>	
+
+        <Rule>
+          <Title>Other</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>NETTYPE</ogc:PropertyName>
+					    <ogc:Literal>Other</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  		  
           <PointSymbolizer>
             <Graphic>
@@ -100,193 +205,11 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#000000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Blue carbon</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Bluecarbon*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#0033cc</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Carbon capture and storage</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Carbon Capture*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#00cc99</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Direct air capture with storage</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Direct air*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#66ffff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Enhanced rock weathering</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>*rock weathering*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#996633</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Land management for soil carbon</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Land management*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#cc0000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Mineral carbonation</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Mineral carbonation*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#85adad</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>	
-
-        <Rule>
-          <Title>Ocean fertilization</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Ocean fertilization*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#cc66ff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>10</Size>
@@ -294,34 +217,6 @@
           </PointSymbolizer>      
         </Rule>
 
-        <Rule>
-          <Title>Solar radiation management</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET</ogc:PropertyName>
-					    <ogc:Literal>Solar radiation*</ogc:Literal>
-					</ogc:PropertyIsLike>
-			</ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ff9933</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>			
-		
-		
-		
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

@@ -24,14 +24,14 @@
     <minx>115.44975869100477</minx>
     <maxx>153.40000306800002</maxx>
     <miny>-43.0250008605</miny>
-    <maxy>37.562200751244</maxy>
+    <maxy>-16.92549066149018</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>115.44975869100477</minx>
     <maxx>153.40000306800002</maxx>
     <miny>-43.0250008605</miny>
-    <maxy>37.562200751244</maxy>
+    <maxy>-16.92549066149018</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
