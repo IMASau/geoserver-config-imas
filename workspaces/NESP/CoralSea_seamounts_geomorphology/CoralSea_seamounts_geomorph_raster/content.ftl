@@ -1,4 +1,4 @@
-<h6>Seamount geomorphology classification</h6><BR>
+<h6>Seamount geomorphology classification</h6><BR><BR>
 
 <#list features as feature>
 <#if (feature_index < 1) >
