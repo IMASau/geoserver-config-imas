@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-e91977e:17862eefac5:3853</id>
-  <name>CoralSea_seamounts_surface</name>
+  <name>CoralSea_seamounts_surface_vector</name>
   <nativeName>NESP_CoralSea_seamounts_sfc</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP - Coral Sea seamounts surface classification</title>
+  <title>Coral Sea seamounts surface classification</title>
   <keywords>
     <string>features</string>
     <string>NESP_CoralSea_seamounts_sfc</string>
@@ -50,6 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

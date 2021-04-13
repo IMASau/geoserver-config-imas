@@ -1,0 +1,32 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-e91977e:178c8645a4f:-50fa</id>
+  <name>CoralSea_seamounts_surface</name>
+  <mode>OPAQUE_CONTAINER</mode>
+  <title>NESP - Coral Sea seamounts surface classification</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--33242ed1:172eb0be8db:-67bc</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-e91977e:17862eefac5:3854</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-7017fe13:172e394665d:-3f2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--30c0f569:1786161edf3:f58</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>153.1309677284659</minx>
+    <maxx>158.42059767988366</maxx>
+    <miny>-21.750701029026967</miny>
+    <maxy>-14.180171352936712</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>
