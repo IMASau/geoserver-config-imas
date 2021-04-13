@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-e91977e:178c8645a4f:-55c7</id>
+  <name>TEST_CoralSea_seamounts_geomorph</name>
+  <mode>SINGLE</mode>
+  <title>NESP - Coral Sea seamounts geomorphological classification</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--33242ed1:172eb0be8db:-65da</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-e91977e:17862eefac5:385b</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-7017fe13:172e394665d:-3ea</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--30c0f569:1786161edf3:f42</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>153.13065753792836</minx>
+    <maxx>158.42093550210527</maxx>
+    <miny>-21.75100818376142</miny>
+    <maxy>-14.180171352936712</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layerGroup>
