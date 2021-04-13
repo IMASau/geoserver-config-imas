@@ -1,7 +1,7 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-e91977e:178c8645a4f:-55c7</id>
   <name>CoralSea_seamounts_geomorph</name>
-  <mode>OPAQUE_CONTAINER</mode>
+  <mode>SINGLE</mode>
   <title>NESP - Coral Sea seamounts geomorphological classification</title>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
