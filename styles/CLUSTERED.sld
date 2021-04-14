@@ -13,7 +13,7 @@
     <Abstract>Styling using cluster points server side</Abstract>
     <FeatureTypeStyle>
       <Transformation>
-        <ogc:Function name="gs:PointStacker">
+        <ogc:Function name="vec:PointStacker">
           <ogc:Function name="parameter">
             <ogc:Literal>data</ogc:Literal>
           </ogc:Function>
@@ -43,7 +43,7 @@
       </Transformation>
      <Rule>
       <Name>rule1</Name>
-      <Title>Singoli punti</Title>
+      <Title>study site</Title>
       <MinScaleDenominator>2000</MinScaleDenominator>
       <PointSymbolizer>
         <Graphic>

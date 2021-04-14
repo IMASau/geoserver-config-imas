@@ -9,7 +9,7 @@
 	
 
   <NamedLayer>
-    <Name>Point-based style coloured according to NET</Name>
+    <Name>Point-based style coloured according to NET Type</Name>
     <UserStyle>
       <FeatureTypeStyle>
 	  
