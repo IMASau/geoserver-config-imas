@@ -37,15 +37,15 @@
   <nativeBoundingBox>
     <minx>144.75108485762377</minx>
     <maxx>148.7504773858987</maxx>
-    <miny>-43.717087560834926</miny>
-    <maxy>-39.31359803622316</maxy>
-    <crs>EPSG:4283</crs>
+    <miny>-43.717087601636734</miny>
+    <maxy>-39.31359807472205</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>144.75108485762377</minx>
     <maxx>148.7504773858987</maxx>
-    <miny>-43.717087560834926</miny>
-    <maxy>-39.31359803622316</maxy>
+    <miny>-43.717087601636734</miny>
+    <maxy>-39.31359807472205</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
