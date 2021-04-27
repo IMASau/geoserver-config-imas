@@ -1,7 +1,7 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-e91977e:178c8645a4f:-50fa</id>
   <name>CoralSea_seamounts_surface</name>
-  <mode>SINGLE</mode>
+  <mode>NAMED</mode>
   <title>NESP - Coral Sea seamounts surface classification</title>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
@@ -13,7 +13,6 @@
     <published type="layer">
       <id>LayerInfoImpl--33242ed1:172eb0be8db:-67bc</id>
     </published>
-    <published/>
   </publishables>
   <styles>
     <style>
@@ -21,9 +20,6 @@
     </style>
     <style>
       <id>StyleInfoImpl-7017fe13:172e394665d:-3f2</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--30c0f569:1786161edf3:f58</id>
     </style>
   </styles>
   <bounds>
