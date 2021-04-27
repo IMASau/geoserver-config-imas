@@ -8,7 +8,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Surface polygons</Name>
+    <Name>NESP:CoralSea_seamounts_surface_vector</Name>
     <UserStyle>
       <Title>Seamount surface classification</Title>
       <FeatureTypeStyle>
@@ -63,4 +63,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
+  
+  
+   <NamedLayer>
+    <Name>NESP:CoralSea_seamounts_surface_raster</Name>
+    <UserStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <MinScaleDenominator>220000</MinScaleDenominator>                                                  
+          <RasterSymbolizer>
+            <ColorMap type="values">
+              <ColorMapEntry color="#e0e0e0" opacity="0.8" quantity="1" label=" Slope"/>
+              <ColorMapEntry color="#a8a800" opacity="0.8" quantity="2" label=" Plain"/>
+              <ColorMapEntry color="#0084a8" opacity="0.8" quantity="3" label=" Escarpment"/>                      
+            </ColorMap>
+          </RasterSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer> 
+  
 </StyledLayerDescriptor>

@@ -13,11 +13,17 @@
     <published type="layer">
       <id>LayerInfoImpl--33242ed1:172eb0be8db:-67bc</id>
     </published>
+    <published/>
   </publishables>
   <styles>
-    <style/>
+    <style>
+      <id>StyleInfoImpl--30c0f569:1786161edf3:f58</id>
+    </style>
     <style>
       <id>StyleInfoImpl-7017fe13:172e394665d:-3f2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--30c0f569:1786161edf3:f58</id>
     </style>
   </styles>
   <bounds>
