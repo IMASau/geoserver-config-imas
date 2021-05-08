@@ -11,6 +11,21 @@
 			<Title>Marine Ecosystems of the World - Realms</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<Title>REALM (click for Province/Ecoregion)</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>intentionallyblank</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+							<CssParameter name="fill-opacity">0</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>	              
+				<Rule>
 					<Title>Arctic</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
