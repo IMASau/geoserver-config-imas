@@ -364,48 +364,6 @@
 							<CssParameter name="stroke-width">0.3</CssParameter>
 						</Stroke>
 					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Title>Central Indo-Pacific - OTHER</Title>
-					<Filter>
-					<Or>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>South China Sea</Literal>
-					   </PropertyIsEqualTo>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Sunda Shelf</Literal>
-					   </PropertyIsEqualTo>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Java Transitional</Literal>
-					   </PropertyIsEqualTo>	
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>South Kuroshio</Literal>
-					   </PropertyIsEqualTo>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Tropical Northwestern Pacific</Literal>
-					   </PropertyIsEqualTo>	
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Western Coral Triangle</Literal>
-					   </PropertyIsEqualTo>						   
-					</Or>	
-					</Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#6d505a</CssParameter>
-							<CssParameter name="fill-opacity">0.35</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
 				</Rule>			
 				<Rule>
 					<Title>Temperate Australasia - OTHER</Title>
@@ -424,26 +382,6 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#88ae45</CssParameter>
-							<CssParameter name="fill-opacity">0.35</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Title>Eastern Coral Triangle</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Eastern Coral Triangle</Literal>
-					   </PropertyIsEqualTo>	
-					</Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#9dc286</CssParameter>
 							<CssParameter name="fill-opacity">0.35</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -474,46 +412,6 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Northeast Australian Shelf</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Northeast Australian Shelf</Literal>
-					   </PropertyIsEqualTo>	
-					</Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#69c4b7</CssParameter>
-							<CssParameter name="fill-opacity">0.35</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>	
-				<Rule>
-					<Title>Northwest Australian Shelf</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
-					      <Literal>Northwest Australian Shelf</Literal>
-					   </PropertyIsEqualTo>	
-					</Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#87b539</CssParameter>
-							<CssParameter name="fill-opacity">0.35</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>	
-				<Rule>
 					<Title>Tropical Southwestern Pacific</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
@@ -536,14 +434,60 @@
 				<Rule>
 					<Title>Central Indo-Pacific</Title>
 					<Filter>
+					<Or>
 					   <PropertyIsEqualTo>
 					      <PropertyName>REGION</PropertyName>
-					      <Literal>Central Indo-Pacific</Literal>
+					      <Literal>South China Sea</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Sunda Shelf</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Java Transitional</Literal>
 					   </PropertyIsEqualTo>	
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>South Kuroshio</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Tropical Northwestern Pacific</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Tropical Southwestern Pacific</Literal>
+					   </PropertyIsEqualTo>						   
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Western Coral Triangle</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Sahul Shelf</Literal>
+					   </PropertyIsEqualTo>		
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Lord Howe and Norfolk Islands</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Eastern Coral Triangle</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Northeast Australian Shelf</Literal>
+					   </PropertyIsEqualTo>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REGION</PropertyName>
+					      <Literal>Northwest Australian Shelf</Literal>
+					   </PropertyIsEqualTo>						   
+					</Or>	
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#89c779</CssParameter>
+							<CssParameter name="fill">#6d505a</CssParameter>
 							<CssParameter name="fill-opacity">0.35</CssParameter>                          
 						</Fill>
 						<Stroke>
