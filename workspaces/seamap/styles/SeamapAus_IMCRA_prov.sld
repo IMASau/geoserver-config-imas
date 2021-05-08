@@ -37,7 +37,11 @@
              			</AnchorPoint>
            			</PointPlacement>
          		   </LabelPlacement>               
-              <VendorOption name="spaceAround">-5</VendorOption>
+                    <VendorOption name="partials">true</VendorOption>
+        <VendorOption name="spaceAround">-1</VendorOption>
+        <VendorOption name="group">yes</VendorOption>
+        <VendorOption name="labelAllGroup">true</VendorOption>
+        <VendorOption name="conflictResolution">false</VendorOption>
 			</TextSymbolizer>              
  		</Rule>              
 				<Rule>

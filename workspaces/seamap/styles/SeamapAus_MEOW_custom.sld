@@ -8,8 +8,9 @@
 	<NamedLayer>
 		<Name>Generic Polyfill</Name>
 		<UserStyle>
-			<Title>Marine Ecosystems of the World - REGIONs</Title>
+			<Title>Marine Ecosystems of the World - REGIONS</Title>
 			<FeatureTypeStyle>
+
 				<Rule>
 					<Title>Arctic</Title>
 					<Filter>
