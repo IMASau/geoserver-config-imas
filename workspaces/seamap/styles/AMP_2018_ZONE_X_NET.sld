@@ -22,7 +22,7 @@
            			<ogc:PropertyName>NETNAME</ogc:PropertyName> Network - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
            		  </Label>     
                   <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>					
           		  </Font>
                    <LabelPlacement>

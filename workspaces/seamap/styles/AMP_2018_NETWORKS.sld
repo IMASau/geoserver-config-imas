@@ -27,7 +27,7 @@
            		  </Label>
               
                   <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-family">SansSerif.bold</CssParameter>
            			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>

@@ -34,7 +34,7 @@
            			</PointPlacement>
          		   </LabelPlacement>      
                   <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-family">SansSerif.italic</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>					
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>

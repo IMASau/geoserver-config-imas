@@ -24,7 +24,11 @@
                   </Geometry>
            		  <Label>
            			<ogc:PropertyName>RESNAME</ogc:PropertyName>
-           		  </Label>
+           		  </Label>                  
+                  <Font>
+           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
+           			<CssParameter name="font-size">13</CssParameter>								
+          		  </Font>
                    <LabelPlacement>
            			<PointPlacement>
              			<AnchorPoint>
@@ -32,11 +36,7 @@
                			<AnchorPointY>0</AnchorPointY>
              			</AnchorPoint>
            			</PointPlacement>
-         		   </LabelPlacement>                    
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
-          		  </Font>
+         		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
 			</TextSymbolizer>              
  		</Rule>         
