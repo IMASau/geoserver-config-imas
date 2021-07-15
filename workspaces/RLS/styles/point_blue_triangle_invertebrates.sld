@@ -14,7 +14,7 @@
         <Rule>
           <Name>Rule 1</Name>
           <Title>Invertebrate surveys</Title>
-          <Abstract>A blue fill with an 8 pixel size</Abstract>
+          <Abstract>A blue fill with a 9 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -23,7 +23,7 @@
                   <CssParameter name="fill">#2E00FF</CssParameter>
                 </Fill>
               </Mark>
-              <Size>8</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
