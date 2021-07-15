@@ -8,15 +8,15 @@
     <id>WorkspaceInfoImpl--558bdc10:14858a72b3d:-6a9c</id>
   </workspace>
   <connectionParameters>
-    <entry key="dbtype">sqlserver</entry>
-    <entry key="Expose primary keys">false</entry>
-    <entry key="Use native geometry serialization">false</entry>
-    <entry key="Use Native Paging">false</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
     <entry key="Integrated Security">false</entry>
     <entry key="fetch size">1000</entry>
-    <entry key="Force spatial index usage via hints">false</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/biodiv</entry>
-    <entry key="namespace">rls</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">rls_archived</entry>
+    <entry key="Use Native Paging">false</entry>
+    <entry key="Use native geometry serialization">false</entry>
   </connectionParameters>
   <__default>false</__default>
 </dataStore>
