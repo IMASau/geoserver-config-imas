@@ -1,8 +1,8 @@
 <settings>
-  <id>SettingsInfoImpl--21ff83f9:15382a7cf0b:-7ff2</id>
+  <id>SettingsInfoImpl-f741dfa:17aa82d31b5:-7f92</id>
   <workspace>
-    <id>WorkspaceInfoImpl--558bdc10:14858a72b3d:-6a9c</id>
-    <name>rls</name>
+    <id>WorkspaceInfoImpl-f741dfa:17aa82d31b5:-7f94</id>
+    <name>RLS</name>
     <isolated>false</isolated>
   </workspace>
   <contact>
@@ -11,7 +11,7 @@
     <addressState>Tasmania</addressState>
     <contactEmail>IMAS.DataManager@utas.edu.au</contactEmail>
     <contactOrganization>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</contactOrganization>
-    <contactPerson>Data Manager</contactPerson>
+    <contactPerson>IMAS Data Manager</contactPerson>
   </contact>
   <charset>UTF-8</charset>
   <numDecimals>4</numDecimals>
