@@ -59,7 +59,7 @@
     <filter>
         <name>SurveyDate</name>
         <type>datetime</type>
-        <label>SurveyDate</label>
+        <label>Survey Date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

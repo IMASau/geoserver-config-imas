@@ -1,6 +1,34 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
+        <name>Country</name>
+        <type>string</type>
+        <label>Country</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Ecoregion</name>
+        <type>string</type>
+        <label>Ecoregion</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Realm</name>
+        <type>string</type>
+        <label>Realm</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SurveyDate</name>
+        <type>datetime</type>
+        <label>Survey Date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>Phylum</name>
         <type>string</type>
         <label>Phylum</label>
@@ -29,37 +57,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Country</name>
-        <type>string</type>
-        <label>Country</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>Ecoregion</name>
-        <type>string</type>
-        <label>Ecoregion</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>Realm</name>
-        <type>string</type>
-        <label>Realm</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Geom</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>SurveyDate</name>
-        <type>datetime</type>
-        <label>Survey Date</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
