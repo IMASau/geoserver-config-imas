@@ -26,7 +26,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke">#640000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	          
@@ -46,7 +46,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>  
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke">#53c6a9</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	            
@@ -66,7 +66,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>  
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke">#cccccc</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	            
