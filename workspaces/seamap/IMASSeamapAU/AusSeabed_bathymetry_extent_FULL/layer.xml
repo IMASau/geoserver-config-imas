@@ -1,0 +1,15 @@
+<layer>
+  <name>AusSeabed_bathymetry_extent_FULL</name>
+  <id>LayerInfoImpl-74e96815:17b15e38909:5086</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-74e96815:17b15e38909:5085</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
