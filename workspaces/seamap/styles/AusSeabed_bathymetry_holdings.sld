@@ -12,81 +12,55 @@
     <Name>AusSeabed bathymetry holdings</Name>
     <UserStyle>
       <Name>Survey extents styled by resolution and data availability</Name>
-      <FeatureTypeStyle> 	         
+      <FeatureTypeStyle> 
         <Rule>
-          <Title>Sanctuary Zone (IUCN Ia)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <Title>Bathymetry data - by resolution and accessibility</Title>
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Sanctuary Zone</ogc:Literal>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f7c0d8</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>	  
         <Rule>
-            <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <Title>No / unknown access</Title>
+			<ogc:Filter>
+			          <ogc:Or>			
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>%National Park Zone%</ogc:Literal>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>maybe%</ogc:Literal>
+            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>no</ogc:Literal>
+            </ogc:PropertyIsEqualTo>				  
+			          </ogc:Or>				
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#999999</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		  
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Recreational Use Zone (IUCN IV)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Recreational Use Zone</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fdba33</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Habitat Protection Zone (Lord Howe) (IUCN IV)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Habitat Protection Zone (Lord Howe)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
             <Fill>
@@ -99,15 +73,46 @@
                       <CssParameter name="stroke-width">0.5</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>4.5</Size>
+                  <Size>6</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
+
+        <Rule>
+            <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+              <ogc:Literal>%National Park Zone%</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#7bbc63</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>Recreational Use Zone (IUCN IV)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+              <ogc:Literal>Recreational Use Zone</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fdba33</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
         <Rule>
             <Title>Habitat Protection Zone (Reefs) (IUCN IV)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (Reefs)</ogc:Literal>
@@ -116,12 +121,8 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
             <Fill>
@@ -142,7 +143,7 @@
         </Rule>
         <Rule>
             <Title>Habitat Protection Zone (IUCN IV)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone</ogc:Literal>
@@ -151,17 +152,13 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
             <Title>Multiple Use Zone (IUCN VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
               <ogc:Literal>Multiple Use Zone</ogc:Literal>
@@ -170,17 +167,13 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
             <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Norfolk)</ogc:Literal>
@@ -189,12 +182,8 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
             <Fill>
@@ -215,7 +204,7 @@
         </Rule>
         <Rule>
             <Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Mining Exclusion)</ogc:Literal>
@@ -224,12 +213,8 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#686868</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
             <Fill>
@@ -250,7 +235,7 @@
         </Rule>
         <Rule>
             <Title>Special Purpose Zone (Trawl) (IUCN VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ZONENAME</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Trawl)</ogc:Literal>
@@ -259,12 +244,8 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
+              <CssParameter name="fill-opacity">0.9</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
             <Fill>
@@ -282,26 +263,7 @@
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Special Purpose Zone (IUCN VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Special Purpose Zone</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>					  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>		
+        </Rule>	
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
