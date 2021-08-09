@@ -14,7 +14,7 @@
       <Name>Survey extents styled by resolution and data availability</Name>
       <FeatureTypeStyle> 
         <Rule>
-          <Title>Bathymetry data - by resolution and accessibility</Title>
+          <Title>Available surveyed bathymetry</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>objectid</ogc:PropertyName>
@@ -28,192 +28,187 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>	  
+
+
         <Rule>
-            <Title>No / unknown access</Title>
-			<ogc:Filter>
-			          <ogc:Or>			
+            <Title>&#60; 5m resolution</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>5</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
-              <ogc:Literal>maybe%</ogc:Literal>
-            </ogc:PropertyIsLike>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>data_dl</ogc:PropertyName>
-              <ogc:Literal>no</ogc:Literal>
-            </ogc:PropertyIsEqualTo>				  
-			          </ogc:Or>				
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#999999</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
+              <CssParameter name="fill">#d53e4f</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		  
+        </Rule>
         <Rule>
+            <Title>5 to 10m</Title>
           <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>5</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fc8d59</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>&#62;10 to 20m</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>20</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fee08b</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>&#62;20 to 50m</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>20</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#e6f598</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>&#62;50 to 100m</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#99d594</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+         <Rule>
+            <Title>&#62; 100m resolution</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>100</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#3288bd</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>Available modelled bathymetry</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>			
+        <Rule>
+            <Title>&#8804; 50m resolution</Title>
+          <ogc:Filter>
+			<ogc:And>					  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#686868</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>6</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-
-        <Rule>
-            <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
-          <ogc:Filter>
+            </ogc:PropertyIsLike>					  
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Resolution</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>%National Park Zone%</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>	
+			</ogc:And>					
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Recreational Use Zone (IUCN IV)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Recreational Use Zone</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fdba33</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Habitat Protection Zone (Reefs) (IUCN IV)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Habitat Protection Zone (Reefs)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#7bbc63</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>9</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Habitat Protection Zone (IUCN IV)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Habitat Protection Zone</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Multiple Use Zone (IUCN VI)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Multiple Use Zone</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#b9e6fb</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Special Purpose Zone (Norfolk)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#fff8a3</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10.5</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Special Purpose Zone (Mining Exclusion)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
+              <CssParameter name="fill">#e6f598</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -224,27 +219,37 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#686868</CssParameter>
-                      <CssParameter name="stroke-width">2</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>9</Size>
+                  <Size>7.5</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>	
         <Rule>
-            <Title>Special Purpose Zone (Trawl) (IUCN VI)</Title>
+            <Title>&#8805; 50m resolution</Title>		
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-              <ogc:Literal>Special Purpose Zone (Trawl)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+			<ogc:And>						  
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>					  
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>				
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>					  
+              <CssParameter name="fill">#3288bd</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -252,7 +257,7 @@
               <GraphicFill>
                 <Graphic>
                   <Mark>
-                    <WellKnownName>shape://backslash</WellKnownName>
+                    <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#ffffff</CssParameter>
                       <CssParameter name="stroke-width">0.5</CssParameter>
@@ -264,6 +269,28 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>	
+        <Rule>
+            <Title>No / unknown access to data</Title>
+			<ogc:Filter>
+				<ogc:Or>			
+					<ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+						<ogc:PropertyName>data_dl</ogc:PropertyName>
+						<ogc:Literal>maybe%</ogc:Literal>
+					</ogc:PropertyIsLike>
+					<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>data_dl</ogc:PropertyName>
+						<ogc:Literal>no</ogc:Literal>
+					</ogc:PropertyIsEqualTo>				  
+				</ogc:Or>				
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#999999</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		  
+		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
