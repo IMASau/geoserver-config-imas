@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-74e96815:17b15e38909:6ee7</id>
-  <name>AusSeabed_bathymetry_holdings</name>
-  <nativeName>AusSeabed_bathy_extents_published</nativeName>
+  <id>FeatureTypeInfoImpl-74e96815:17b2cd2977a:-477f</id>
+  <name>AusSeabed_bathymetry_holdings_rd100</name>
+  <nativeName>AusSeabed_bathy_red100</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Coverage of Australian bathymetry surveys and data accessibility</title>
-  <abstract>Extracted from GA&apos;s AusSeabed &quot;bathymetry holdings&quot; layer</abstract>
+  <title>Coverage of Australian bathymetry surveys and data accessibility - 100m resolution</title>
+  <abstract>Extracted from GA&apos;s AusSeabed &quot;bathymetry holdings&quot; layer and reduced to 100m resolution for performance purposes</abstract>
   <keywords>
     <string>features</string>
-    <string>AusSeabed_bathy_extents_published</string>
+    <string>AusSeabed_bathy_red100</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -34,24 +34,23 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-80.27971396823705</miny>
-    <maxy>52.685787567328845</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-1.2004202909977766E7</minx>
+    <maxx>9888076.036707655</maxx>
+    <miny>-1.0479224152350467E7</miny>
+    <maxy>6744209.831933715</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-80.27971396823705</miny>
-    <maxy>52.685787567328845</maxy>
+    <miny>-80.27971396699967</miny>
+    <maxy>52.68578753064869</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
