@@ -1,12 +1,12 @@
 <layer>
   <name>AusSeabed_bathymetry_holdings</name>
-  <id>LayerInfoImpl-74e96815:17b15e38909:6ee8</id>
+  <id>LayerInfoImpl-74e96815:17b2cd2977a:-477e</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-74e96815:17b15e38909:6ef0</id>
+    <id>StyleInfoImpl-74e96815:17b2cd2977a:5193</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-74e96815:17b15e38909:6ee7</id>
+    <id>FeatureTypeInfoImpl-74e96815:17b2cd2977a:-477f</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
