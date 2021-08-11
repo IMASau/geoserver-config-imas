@@ -196,7 +196,7 @@
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
+              <ogc:Literal>100</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
@@ -278,7 +278,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fee08b</CssParameter>
+              <CssParameter name="fill">#fdd568</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
@@ -311,7 +311,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fc8d59</CssParameter>
+              <CssParameter name="fill">#fb8650</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
@@ -340,7 +340,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d53e4f</CssParameter>
+              <CssParameter name="fill">#d12e41</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
