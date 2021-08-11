@@ -54,17 +54,17 @@
       </FeatureTypeStyle> 
       <FeatureTypeStyle> 		
         <Rule>
-            <Title>&#8805; 50m resolution</Title>		
+            <Title>&gt; 50m resolution</Title>		
           <ogc:Filter>
 			<ogc:And>						  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>					  
-            <ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -85,10 +85,10 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#ffffff</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>7.5</Size>
+                  <Size>5</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
@@ -104,10 +104,10 @@
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>					  
-            <ogc:PropertyIsGreaterThan>
+            <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
+            </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -128,10 +128,10 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#686868</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>7.5</Size>
+                  <Size>5</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
@@ -164,7 +164,13 @@
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>			
+            </ogc:PropertyIsGreaterThan>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>             
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -192,6 +198,12 @@
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>                
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -219,6 +231,12 @@
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>                 
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -246,6 +264,12 @@
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>20</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>                
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -273,6 +297,12 @@
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>               
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -296,6 +326,12 @@
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>			
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
