@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-80.27971396699967</miny>
-    <maxy>52.68578753064869</maxy>
+    <minx>-1.2004202909977766E7</minx>
+    <maxx>9888076.036707655</maxx>
+    <miny>-1.0479224152350467E7</miny>
+    <maxy>6744209.831933715</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
