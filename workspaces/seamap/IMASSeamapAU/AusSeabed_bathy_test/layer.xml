@@ -1,0 +1,15 @@
+<layer>
+  <name>AusSeabed_bathy_test</name>
+  <id>LayerInfoImpl--58d0a304:17b38d2dd03:-1b17</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74e96815:17b2cd2977a:5193</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--58d0a304:17b38d2dd03:-1b18</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
