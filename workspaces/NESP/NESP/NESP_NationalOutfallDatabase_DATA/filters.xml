@@ -10,7 +10,21 @@
     <filter>
         <name>site</name>
         <type>string</type>
-        <label>Site</label>
+        <label>2_Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>state</name>
+        <type>string</type>
+        <label>1_State</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>treatment</name>
+        <type>string</type>
+        <label>3_Treatment</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
