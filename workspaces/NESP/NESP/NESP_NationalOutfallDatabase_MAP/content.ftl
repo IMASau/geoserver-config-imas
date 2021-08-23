@@ -5,7 +5,7 @@
 	<#if (feature_index < 1) >
 	
   <div class="feature">  
-  <b>Date: </b> ${feature.sample_date.value[0..11]}<BR><BR>
+  <b>Date: </b> ${feature.sample_date.value[0..9]}<BR><BR>
 
   <#assign BOD=feature["BOD 5-days"].value>
   <#assign Grease=feature["Oil and Grease"].value>
