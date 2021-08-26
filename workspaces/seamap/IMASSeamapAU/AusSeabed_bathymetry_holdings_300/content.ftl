@@ -20,11 +20,11 @@
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
 
-	<TR class="values" ALIGN="LEFT" cellpadding="20" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-	<TD cellpadding="50">
+	<TD>
 		<#if collection?has_content>
-			${feature.TITLE_ASB.value}
+			${feature.TITLE_ASB.value}</i>
 		<#else>
 			${feature.name.value}
 		</#if>
@@ -48,7 +48,7 @@
 		<#elseif network?has_content>
 			${feature.AMP_RES.value} (${feature.AMP_NET.value} network)
 		<#else>
-			N/A
+			-
 		</#if>
 	</TD>   
      
