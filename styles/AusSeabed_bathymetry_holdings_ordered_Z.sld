@@ -205,7 +205,7 @@
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>			
+        </Rule>	  	
         <Rule>
           <Title>Available modelled bathymetry</Title>
           <ogc:Filter>
@@ -324,9 +324,8 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">data_dl, objectid, RES_ACTUAL</VendorOption>		
+      <VendorOption name="sortBy">data_dl, newtype, RES_ACTUAL</VendorOption>		
       </FeatureTypeStyle> 	  
-
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
