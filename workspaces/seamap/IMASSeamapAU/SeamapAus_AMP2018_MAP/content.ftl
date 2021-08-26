@@ -1,8 +1,8 @@
 <#list features as feature>
-<h6>Australian Marine Park zoning [2018]</h6>
+<h3>Australian Marine Parks zoning [2018]</h3><br>
   <div class="feature"> 
   <b>Network name:</b> ${feature.NETNAME.value} <br>
   <b>Reserve name:</b> ${feature.RESNAME.value} <br>
-  <b>Zone name:</b> ${feature.NATLEGEND.value}   
+  <b>Zone name:</b> ${feature.NATLEGEND.value} <br><br>   
   </div>
 </#list>

@@ -60,7 +60,7 @@
 		<#elseif feature.data_dl.value == 'yes - ASB'>
 			yes - AusSeabed
 		<#else>
-			no
+			not available
 		</#if>
 	</TD>   
 
@@ -75,9 +75,10 @@
 </TR>
 
 		<#else>
-			<h6>More surveys exist at this location<br><br></h6>
+			<h3>More surveys exist at this location<br><br></h3>
 		<#break>
 		</#if>
 	</#list>
 </TABLE>
+<br>
 
