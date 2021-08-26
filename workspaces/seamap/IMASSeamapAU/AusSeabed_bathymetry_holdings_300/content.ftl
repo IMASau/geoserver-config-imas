@@ -1,8 +1,8 @@
 <#setting date_format="yyyy">
 
-<TABLE bordercolorlight="#000000" class="striped" ALIGN="LEFT" cellpadding="4" border="2">
+<TABLE bordercolorlight="#000000" cellpadding="4" border="2" >
 
-	<TR class="AusSeabed bathymetry holdings headers" style='background-color:#b3d9ff'>
+	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff'>
 		<th>Collection name</th>
 		<th>Date range</th>
 		<th>Resolution</th>
@@ -15,13 +15,14 @@
 		<#if (feature_index < 6)> 
 
 		<#assign collection=feature.TITLE_ASB.value>
+		<#assign network=feature.AMP_NET.value>		
 		<#assign metadata=feature.METADATA.value>
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
 
-	<TR class="values" Align="Center" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+	<TR class="values" ALIGN="LEFT" cellpadding="20" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-	<TD>
+	<TD cellpadding="50">
 		<#if collection?has_content>
 			${feature.TITLE_ASB.value}
 		<#else>
@@ -44,8 +45,10 @@
 	<TD>
 		<#if feature.AMP_RES.value == 'various'>
 			various
-		<#else>
+		<#elseif network?has_content>
 			${feature.AMP_RES.value} (${feature.AMP_NET.value} network)
+		<#else>
+			N/A
 		</#if>
 	</TD>   
      
