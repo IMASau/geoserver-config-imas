@@ -53,16 +53,6 @@
   <enabled>true</enabled>
   <advertised>true</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
