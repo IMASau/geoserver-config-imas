@@ -1,7 +1,7 @@
 	${ORGANISATION.value}<BR><BR>
 	${DESCRIPTION.value}<BR><BR>
-	<b>NET:</b> ${NET.value}<BR>
-	<b>NETTYPE:</b> ${NETTYPE.value}<BR>
+	<b>NET:</b> ${CO2_REMOVAL_TYPE.value}<BR>
+	<b>NETTYPE:</b> ${NET_TYPE.value}<BR>
 	<b>Start:</b> ${YEAR_START.value}<BR>
 	<b>Finish:</b> ${YEAR_END.value}<BR>
 	<BR><b><A HREF="${URL.value}" TARGET="_NEW">More Information</A></b><BR><BR>
