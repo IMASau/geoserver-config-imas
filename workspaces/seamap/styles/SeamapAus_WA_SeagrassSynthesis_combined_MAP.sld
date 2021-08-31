@@ -21,7 +21,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			</Geometry>			  
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 <Size>20</Size>
