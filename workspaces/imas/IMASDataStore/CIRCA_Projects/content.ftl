@@ -11,12 +11,11 @@
 	<b>Description:</b> ${feature.DESCRIPTION.value}<BR>
 	<b>CO&#8322; removal:</b> ${feature.CO2_REMOVAL_TYPE.value}<BR>
 	<b>NET Type:</b> ${feature.NET_TYPE.value}<BR>
-	<b>Start:</b> ${feature.YEAR_START.value}<BR>
 	<#assign status=feature.ONGOING.value>
 		<#if status?has_content>	
-			<b>Finish:</b> <i>ongoing</i><BR>
+			<b>Years active:</b> ${feature.YEAR_START.value} - present <i>(ongoing)</i><BR>
 		<#else> 
-	<b>Finish:</b> ${feature.YEAR_END.value}<BR>
+		<b>Years active:</b> ${feature.YEAR_START.value} - ${feature.YEAR_END.value}<BR>
 		</#if>
 	</div>
 
