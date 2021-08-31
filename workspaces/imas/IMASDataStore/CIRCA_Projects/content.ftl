@@ -9,8 +9,8 @@
 	<b><i><A HREF="${feature.URL.value}" TARGET="_NEW">${feature.NAME.value}</A></i></b><BR><br>
 	<b>Organisation:</b> ${feature.ORGANISATION.value}<BR>
 	<b>Description:</b> ${feature.DESCRIPTION.value}<BR>
-	<b>CO&#8322; removal:</b> ${feature.NET.value}<BR>
-	<b>NET Type:</b> ${feature.NETTYPE.value}<BR>
+	<b>CO&#8322; removal:</b> ${feature.CO2_REMOVAL_TYPE.value}<BR>
+	<b>NET Type:</b> ${feature.NET_TYPE.value}<BR>
 	<b>Start:</b> ${feature.YEAR_START.value}<BR>
 	<#assign status=feature.ONGOING.value>
 		<#if status?has_content>	
