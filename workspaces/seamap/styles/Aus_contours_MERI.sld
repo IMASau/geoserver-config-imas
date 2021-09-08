@@ -22,7 +22,7 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke"> #ff00ff</CssParameter>
+              <CssParameter name="stroke">#db4dff</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
@@ -53,7 +53,7 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#33cc33</CssParameter>
+              <CssParameter name="stroke">#2eb82e</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
@@ -102,7 +102,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">300</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
