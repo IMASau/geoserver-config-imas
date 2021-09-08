@@ -19,13 +19,17 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:LineSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#0000ff</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>                 
+              <sld:CssParameter name="stroke-width">0.6</sld:CssParameter>                 
             </sld:Stroke>
           </sld:LineSymbolizer>
           <sld:TextSymbolizer>
             <sld:Label>
               <ogc:PropertyName>CONTOUR</ogc:PropertyName>
             </sld:Label>
+                  <sld:Font>
+           			<sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+           			<sld:CssParameter name="font-size">12</sld:CssParameter>								
+          		  </sld:Font>             
             <sld:Fill>
               <sld:CssParameter name="fill">#000000</sld:CssParameter>
             </sld:Fill>

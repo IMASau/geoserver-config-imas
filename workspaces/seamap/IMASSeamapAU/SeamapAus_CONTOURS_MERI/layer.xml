@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_CONTOURS_MERI</name>
+  <id>LayerInfoImpl--5d921cd2:17bc49977b7:3788</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5d921cd2:17bc49977b7:3787</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

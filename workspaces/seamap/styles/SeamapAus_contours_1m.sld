@@ -25,9 +25,13 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Label>
               <ogc:PropertyName>CONTOUR</ogc:PropertyName>
             </sld:Label>
+                  <sld:Font>
+           			<sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+           			<sld:CssParameter name="font-size">12</sld:CssParameter>								
+          		  </sld:Font>             
             <sld:Fill>
               <sld:CssParameter name="fill">#000000</sld:CssParameter>
-            </sld:Fill>
+            </sld:Fill>           
             <sld:VendorOption name="followLine">true</sld:VendorOption>
             <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
             <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
