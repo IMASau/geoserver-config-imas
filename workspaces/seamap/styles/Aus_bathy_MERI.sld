@@ -9,14 +9,14 @@
        <Rule>
          <RasterSymbolizer>  
            <ColorMap type="intervals">
-             <ColorMapEntry color="#663333" quantity="-6000" label="abyss (&gt;4,000m)"/>
-             <ColorMapEntry color="#663333" quantity="-4000" label="lower-slope (4,000-2,000m)"/>             
-             <ColorMapEntry color="#663333" quantity="-2000" label="mid-slope (2,000-700m)"/>
-             <ColorMapEntry color="#663333" quantity="-700" label="upper-slope (700-200m)"/>             
-             <ColorMapEntry color="#663333" quantity="-200" label="rariphotic (200-70m)"/>             
-             <ColorMapEntry color="#663333" quantity="-70" label="mesophotic (70-30m)"/>                       
-             <ColorMapEntry color="#663333" quantity="-30" label="shallow (&lt;30m)" />
-             <ColorMapEntry color="#008000" quantity="-0" />             
+             <ColorMapEntry color="#ffffff" quantity="-6000" opacity="0.001" label=" MERI Natural Values depth zone"/>
+             <ColorMapEntry color="#1418ff" quantity="-4000" label=" abyss (&gt;4,000 m)"/>             
+             <ColorMapEntry color="#3b8cff" quantity="-2000" label=" lower-slope (2,000-4,000 m)"/>
+             <ColorMapEntry color="#21e9ff" quantity="-700" label=" mid-slope (700-2,000 m)"/>             
+             <ColorMapEntry color="#b6ff8f" quantity="-200" label=" upper-slope (200-700 m)"/>             
+             <ColorMapEntry color="#ffff0d" quantity="-70" label=" rariphotic (70-200 m)"/>                       
+             <ColorMapEntry color="#ffcc00" quantity="-30" label=" mesophotic (30-70 m)" />
+             <ColorMapEntry color="#ff2600" quantity="-0" label=" shallow (&lt;30 m)"/>             
            </ColorMap>
          </RasterSymbolizer>
        </Rule>
