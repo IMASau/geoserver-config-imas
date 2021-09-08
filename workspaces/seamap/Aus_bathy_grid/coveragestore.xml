@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--5d921cd2:17bc397365e:-626a</id>
+  <name>Aus_bathy_grid</name>
+  <description>GA bathymetry data gridded to 50m nearshore with 250m interpolation deeper</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_gridded_depth/Aus_bathy_grid.tif</url>
+</coverageStore>
