@@ -17,7 +17,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>CONTOUR</ogc:PropertyName>
-              <ogc:Literal>70</ogc:Literal>
+              <ogc:Literal>30</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>          
           <LineSymbolizer>
@@ -40,7 +40,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">150</VendorOption>
+            <VendorOption name="repeat">180</VendorOption>
           </TextSymbolizer>
         </Rule>        
         <Rule>
@@ -71,7 +71,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">150</VendorOption>
+            <VendorOption name="repeat">180</VendorOption>
           </TextSymbolizer>
         </Rule>        
         <Rule>
@@ -102,7 +102,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">150</VendorOption>
+            <VendorOption name="repeat">180</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
