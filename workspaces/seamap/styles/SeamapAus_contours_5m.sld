@@ -13,13 +13,12 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders contours</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Name>rule_0</sld:Name>
-          <sld:Title>Contours</sld:Title>
+          <sld:Title>5m depth contours</sld:Title>
           <sld:Abstract>A coloured line for a contour</sld:Abstract>
-          <sld:MaxScaleDenominator>400000</sld:MaxScaleDenominator>
+          <sld:MaxScaleDenominator>500000</sld:MaxScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#A67D3D</sld:CssParameter>
+              <sld:CssParameter name="stroke">#0000ff</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>                 
             </sld:Stroke>
           </sld:LineSymbolizer>
@@ -37,14 +36,12 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>rule_0</sld:Name>
-          <sld:Title>Contours</sld:Title>
-          <sld:Abstract>A coloured line for a contour</sld:Abstract>
-          <sld:MinScaleDenominator>400000</sld:MinScaleDenominator>
+          <sld:Title>(zoom in for depth labels)</sld:Title>
+          <sld:MinScaleDenominator>500000</sld:MinScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#A67D3D</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>   
+              <sld:CssParameter name="stroke">#0000ff</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>   
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
