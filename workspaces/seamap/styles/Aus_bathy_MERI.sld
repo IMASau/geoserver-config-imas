@@ -7,11 +7,16 @@
     <UserStyle>
      <FeatureTypeStyle>
        <Rule>
-         <RasterSymbolizer>
+         <RasterSymbolizer>  
            <ColorMap type="intervals">
-             <ColorMapEntry color="#008000" quantity="30" label="shallow" />
-             <ColorMapEntry color="#663333" quantity="70" label="mesophotic"/>
-           
+             <ColorMapEntry color="#663333" quantity="-6000" label="abyss (&gt;4,000m)"/>
+             <ColorMapEntry color="#663333" quantity="-4000" label="lower-slope (4,000-2,000m)"/>             
+             <ColorMapEntry color="#663333" quantity="-2000" label="mid-slope (2,000-700m)"/>
+             <ColorMapEntry color="#663333" quantity="-700" label="upper-slope (700-200m)"/>             
+             <ColorMapEntry color="#663333" quantity="-200" label="rariphotic (200-70m)"/>             
+             <ColorMapEntry color="#663333" quantity="-70" label="mesophotic (70-30m)"/>                       
+             <ColorMapEntry color="#663333" quantity="-30" label="shallow (&lt;30m)" />
+             <ColorMapEntry color="#008000" quantity="-0" />             
            </ColorMap>
          </RasterSymbolizer>
        </Rule>
