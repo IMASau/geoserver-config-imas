@@ -1,12 +1,12 @@
 <layer>
   <name>Aus_depth_contours_MERI</name>
-  <id>LayerInfoImpl--5d921cd2:17bc49977b7:3788</id>
+  <id>LayerInfoImpl--5d921cd2:17bc56f81bb:5bc3</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--5d921cd2:17bc49977b7:37a5</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--5d921cd2:17bc49977b7:3787</id>
+    <id>FeatureTypeInfoImpl--5d921cd2:17bc56f81bb:5bc2</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
