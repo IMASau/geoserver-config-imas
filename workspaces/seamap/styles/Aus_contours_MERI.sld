@@ -23,7 +23,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.4</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -32,7 +32,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -40,7 +40,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">200</VendorOption>
           </TextSymbolizer>
         </Rule>        
         <Rule>
@@ -54,7 +54,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.4</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -63,7 +63,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -71,7 +71,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">200</VendorOption>
           </TextSymbolizer>
         </Rule>        
         <Rule>
@@ -85,7 +85,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>                 
+              <CssParameter name="stroke-width">1.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -97,7 +97,7 @@
           </Label>	
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -116,7 +116,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.4</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -125,7 +125,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -133,7 +133,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">200</VendorOption>
           </TextSymbolizer>
         </Rule>
         <Rule>
@@ -147,7 +147,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.4</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -156,7 +156,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -164,7 +164,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">200</VendorOption>
           </TextSymbolizer>
         </Rule> 
         <Rule>
@@ -178,7 +178,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.4</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -187,7 +187,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -195,7 +195,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">200</VendorOption>
           </TextSymbolizer>
         </Rule> 
         <Rule>
@@ -209,7 +209,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.4</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -218,7 +218,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>             
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -226,7 +226,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">180</VendorOption>
+            <VendorOption name="repeat">200</VendorOption>
           </TextSymbolizer>
         </Rule>  		
       </FeatureTypeStyle>
