@@ -12,11 +12,12 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#DDDDDD</CssParameter>
-              <CssParameter name="fill-opacity">0.65</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>
