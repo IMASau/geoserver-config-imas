@@ -24,7 +24,11 @@
 
 	<TD>
 		<#if collection?has_content>
-			${feature.TITLE_ASB.value}</i>
+			<#if feature.objectid.value?contains("DEM")>
+				${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
+			<#else>
+				${feature.TITLE_ASB.value}</i>	
+			</#if>				
 		<#else>
 			${feature.name.value}
 		</#if>
