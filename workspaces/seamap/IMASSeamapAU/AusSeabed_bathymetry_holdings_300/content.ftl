@@ -1,7 +1,9 @@
 <#setting date_format="yyyy">
 
 <TABLE bordercolorlight="#000000" cellpadding="4" border="2" >
-
+	<#list features as feature>
+		<#if (feature_index < 6)> 
+		
 	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff'>
 		<th>Collection name</th>
 		<th>Date range</th>
@@ -11,8 +13,7 @@
 		<th>Info</th>
 	</TR>
 
-	<#list features as feature>
-		<#if (feature_index < 6)> 
+
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign network=feature.AMP_NET.value>		
