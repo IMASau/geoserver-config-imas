@@ -12,7 +12,6 @@
 	</TR>
 
 	<#list features as feature>
-		<#if (feature_index < 6)> 
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign network=feature.AMP_NET.value>		
@@ -78,11 +77,13 @@
 
 </TR>
 
-		<#else>
+
+	</#list>
+</TABLE>
+	<#list features as feature>
+		<#if (feature_index > 4)> 
 			<h3>More surveys exist at this location<br><br></h3>
 		<#break>
 		</#if>
-	</#list>
-</TABLE>
-<br>
+
 
