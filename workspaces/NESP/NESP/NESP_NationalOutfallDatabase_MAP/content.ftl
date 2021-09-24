@@ -1,8 +1,6 @@
 <#list features as feature>
-
+<#if (feature_index < 1) >
 <h3>This is a sample of the data collected at ${feature.site.value} (${feature.state.value}) - ${feature.treatment.value} treatment</h3><BR>
-
-	<#if (feature_index < 1) >
 	
   <div class="feature">  
   <b>Date: </b> ${feature.sample_date.value[0..9]}<BR><BR>
@@ -65,11 +63,9 @@
   <#if Algae?has_content>  
   <b>Total algal count: </b> ${feature["Total Algae Count"].rawValue?string("0.0")} cells  ml<sup>-1</sup><BR>
   </#if>  
- 
-<BR> 	
  </div>
 	<#else>
-	<h6>More data exists at this point.<BR>Download the full dataset to see all information available at this location.</h6>
+	<h6>More data exists at this point. Download the full dataset to see all information available at this location.</h6>
 		<#break>
   </#if>
 </#list>
