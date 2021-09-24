@@ -6,7 +6,7 @@
 		<th>Collection name</th>
 		<th>Date range</th>
 		<th>Resolution</th>
-		<th>Aus Marine Park</th>
+		<th>Marine Park(s)</th>
 		<th>Data availability</th>
 		<th>Info</th>
 	</TR>
@@ -15,7 +15,7 @@
 		<#if (feature_index < 6)> 
 
 		<#assign collection=feature.TITLE_ASB.value>
-		<#assign network=feature.AMP_NET.value>		
+		<#assign reserve=feature.AMP_RES.value>		
 		<#assign metadata=feature.METADATA.value>
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
@@ -49,8 +49,8 @@
 	<TD>
 		<#if feature.AMP_RES.value == 'various'>
 			various
-		<#elseif network?has_content>
-			${feature.AMP_RES.value} (${feature.AMP_NET.value} network)
+		<#elseif reserve?has_content>
+			${feature.AMP_RES.value}
 		<#else>
 			-
 		</#if>
