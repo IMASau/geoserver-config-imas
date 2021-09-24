@@ -205,8 +205,126 @@
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	  		
-      <VendorOption name="sortBy">RES_ACTUAL A</VendorOption>		
+        </Rule>	  	
+        <Rule>
+          <Title>Available modelled bathymetry</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+            <Title>   &#8804; 50m resolution</Title>
+          <ogc:Filter>
+			<ogc:And>					  
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>					  
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>	
+			</ogc:And>					
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#e6f598</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#686868</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>5</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+            <Title>   &gt; 50m resolution</Title>		
+          <ogc:Filter>
+			<ogc:And>						  
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>					  
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>				
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#3288bd</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ffffff</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>5</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+             <Title>No / unknown access to data</Title>
+			<ogc:Filter>
+				<ogc:Or>			
+					<ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+						<ogc:PropertyName>data_dl</ogc:PropertyName>
+						<ogc:Literal>maybe%</ogc:Literal>
+					</ogc:PropertyIsLike>
+					<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>data_dl</ogc:PropertyName>
+						<ogc:Literal>no</ogc:Literal>
+					</ogc:PropertyIsEqualTo>				  
+				</ogc:Or>				
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#999999</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+      <VendorOption name="sortBy">data_dl D, data_typ D, RES_ACTUAL A</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>

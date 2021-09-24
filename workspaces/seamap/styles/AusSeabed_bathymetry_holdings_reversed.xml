@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-25b7d820:17c16cdca6f:31c8</id>
-  <name>AusSeabed_bathymetry_holdings_revordered</name>
+  <name>AusSeabed_bathymetry_holdings_reversed</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>AusSeabed_bathymetry_holdings_revordered.sld</filename>
+  <filename>AusSeabed_bathymetry_holdings_reversed.sld</filename>
 </style>
