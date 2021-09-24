@@ -12,7 +12,7 @@
 	</TR>
 
 	<#list features as feature>
-		<#if (feature_index < 6)> 
+		<#if (feature_index < 10)> 
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
