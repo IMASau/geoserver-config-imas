@@ -1,12 +1,12 @@
 <layer>
-  <name>Aus_depth_contours_MERI</name>
-  <id>LayerInfoImpl--5d921cd2:17bc92229a3:316c</id>
+  <name>IMOS_AUV_tracks</name>
+  <id>LayerInfoImpl-6e5efb92:17c345e5502:-2aa9</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--5d921cd2:17bc92229a3:32dc</id>
+    <id>StyleInfoImpl--3e316b73:17c34ad0e80:-6210</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--5d921cd2:17bc92229a3:316b</id>
+    <id>FeatureTypeInfoImpl-6e5efb92:17c345e5502:-2aaa</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

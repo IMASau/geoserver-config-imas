@@ -22,8 +22,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>                 
+              <CssParameter name="stroke">#ff2600</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -32,11 +32,8 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
@@ -53,8 +50,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>                 
+              <CssParameter name="stroke">#ffcc00</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -63,11 +60,8 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
@@ -84,7 +78,7 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
+              <CssParameter name="stroke">#ffff0d</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
@@ -97,7 +91,7 @@
           </Label>	
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -115,8 +109,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>                 
+              <CssParameter name="stroke">#b6ff8f</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -125,11 +119,8 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
@@ -146,8 +137,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>                 
+              <CssParameter name="stroke">#21e9ff</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -156,11 +147,8 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
@@ -177,8 +165,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>                 
+              <CssParameter name="stroke">#3b8cff</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -187,11 +175,8 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>
@@ -208,8 +193,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00000</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>                 
+              <CssParameter name="stroke">#1318ff</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -218,11 +203,8 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
+           			<CssParameter name="font-size">13</CssParameter>								
           		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
             <VendorOption name="maxDisplacement">400</VendorOption>

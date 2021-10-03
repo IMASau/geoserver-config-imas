@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-266d40be:17b3766221e:2e81</id>
-  <name>AusSeabed_bathymetry_holdings_300</name>
-  <nativeName>AusSeabed_bathy_reduced</nativeName>
+  <id>FeatureTypeInfoImpl-6e5efb92:17c004859d4:-7836</id>
+  <name>AusSeabed_bathymetry_holdings</name>
+  <nativeName>AusSeabed_bathy_extents_published</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Coverage of Australian bathymetry surveys and data accessibility - reduced view</title>
-  <abstract>Extent and data availability status of Australian bathymetry surveys - extracted from AusSeabed layer &quot;bathymetry holdings&quot;. Reduced to 300m resolution for display purposes.</abstract>
+  <title>Coverage of Australian bathymetry surveys and data accessibility</title>
+  <abstract>Extent and data availability status of Australian bathymetry surveys - extracted from AusSeabed layer &quot;bathymetry holdings&quot;. Coverage shows surveys only (not DEMs).</abstract>
   <keywords>
     <string>features</string>
-    <string>AusSeabed_bathy_reduced</string>
+    <string>AusSeabed_bathy_extents_published</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -37,21 +37,20 @@
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
     <minx>-1.2004202909977766E7</minx>
-    <maxx>9888076.036707655</maxx>
-    <miny>-1.0479224152350467E7</miny>
+    <maxx>9888076.036707658</maxx>
+    <miny>-1.047922415235047E7</miny>
     <maxy>6744209.831933715</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-80.27971396699967</miny>
+    <miny>-80.2797139669997</miny>
     <maxy>52.68578753064869</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>NONE</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

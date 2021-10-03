@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5d921cd2:17bc56f81bb:5bc2</id>
+  <id>FeatureTypeInfoImpl--5d921cd2:17bc92229a3:316b</id>
   <name>Aus_depth_contours_MERI</name>
-  <nativeName>SeamapAus_CONTOURS_10m_EEZ_MERI</nativeName>
+  <nativeName>SeamapAus_CONTOURS_MERI</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian Depth Contours (MERI zones)</title>
-  <abstract>30, 70 and 200m depth contours (shelf) corresponding with the Parks Australia common language Ecosystem depth zones for MERI reporting. Derived from the Australian Bathymetric and Topography Grid, June 2009 (GA) by the Australian Hydrographic Service for use on Seamap Australia website.</abstract>
+  <abstract>30, 70, 200, 700, 2000, 4000, 6000m depth contours corresponding with the Parks Australia common language Ecosystem depth zones for MERI reporting. Derived from the Australian Bathymetric and Topography Grid, June 2009 (GA) by the Australian Hydrographic Service for use on Seamap Australia website.</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_CONTOURS_10m_EEZ_MERI</string>
+    <string>SeamapAus_CONTOURS_MERI</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -34,22 +34,22 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-175.74801603572726</minx>
-    <maxx>179.5454798602126</maxx>
-    <miny>-59.70653358057912</miny>
-    <maxy>-3.4447795364524287</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-4571320.425581589</minx>
+    <maxx>4289078.681341261</maxx>
+    <miny>-7263165.551167471</miny>
+    <maxy>-945984.5278337188</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-175.74801603572726</minx>
-    <maxx>179.5454798602126</maxx>
-    <miny>-59.70653358057912</miny>
-    <maxy>-3.4447795364524287</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-62.48824270560428</miny>
+    <maxy>-1.9847920377912571</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>

@@ -1,12 +1,12 @@
 <layer>
-  <name>Aus_depth_contours_MERI</name>
-  <id>LayerInfoImpl--5d921cd2:17bc92229a3:316c</id>
+  <name>SeamapAus_BOUNDARIES_Aus_EEZ</name>
+  <id>LayerInfoImpl--5d921cd2:17bc92229a3:5304</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--5d921cd2:17bc92229a3:32dc</id>
+    <id>StyleInfoImpl--5d921cd2:17bc92229a3:52be</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--5d921cd2:17bc92229a3:316b</id>
+    <id>FeatureTypeInfoImpl--5d921cd2:17bc92229a3:5303</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

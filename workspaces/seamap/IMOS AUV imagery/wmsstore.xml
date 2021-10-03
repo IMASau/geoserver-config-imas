@@ -1,6 +1,6 @@
 <wmsStore>
   <id>WMSStoreInfoImpl--59961f48:177ccf1a1cb:cc1</id>
-  <name>AUV imagery</name>
+  <name>IMOS AUV imagery</name>
   <description>IMOS depth stratified AUV imagery</description>
   <type>WMS</type>
   <enabled>true</enabled>
