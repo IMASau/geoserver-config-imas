@@ -15,13 +15,12 @@
 		<#else>
 			<b>Count:</b> ${feature.Adults.value} adults, ${feature.Calves.value} calves (${feature.Total_No.value} total)	
 		</#if>		
-		<BR><BR>		
+		<BR>		
   
  </div>
 	<#else>
 	
 	<h6>This information has been limited to 4 sightings. There may be more sightings recorded at this point. Download the full data collection for more information.</h6>
-	
 		<#break>
   </#if>
 </#list>
