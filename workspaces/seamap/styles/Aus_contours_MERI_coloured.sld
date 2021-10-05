@@ -32,7 +32,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -60,7 +60,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -91,7 +91,7 @@
           </Label>	
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -119,7 +119,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -147,7 +147,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -175,7 +175,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
@@ -193,7 +193,7 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#1318ff</CssParameter>
+              <CssParameter name="stroke">#1218ff</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
@@ -203,7 +203,7 @@
             </Label>
                   <Font>
            			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">13</CssParameter>								
+           			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
