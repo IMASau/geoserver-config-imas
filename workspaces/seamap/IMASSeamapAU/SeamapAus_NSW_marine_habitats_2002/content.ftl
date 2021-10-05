@@ -1,6 +1,16 @@
 <#list features as feature>
-<h6>NSW - Marine habitats 2002</h6>
-  <div class="feature"> 
-  <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value} 
-  </div>
+	<#if (feature_index < 1) >
+
+	<h5>Habitat - NSW Marine habitats 2002</h5>
+	<BR>
+	<div class="feature"> 
+		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<BR><BR>
+	</div>
+		<#else>
+			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
+			<BR><BR>
+		<#break>
+		
+  </#if>
 </#list>

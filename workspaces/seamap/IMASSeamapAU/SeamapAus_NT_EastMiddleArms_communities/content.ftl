@@ -1,6 +1,16 @@
 <#list features as feature>
-<h6>NT - Darwin Harbour benthic communities (East & Middle Arms)</h6>
-  <div class="feature"> 
-  <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value} 
-  </div>
+	<#if (feature_index < 1) >
+
+	<h5>Habitat - NT - Darwin Harbour benthic communities (East & Middle Arms)</h5>
+	<BR>
+	<div class="feature"> 
+		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<BR><BR>
+	</div>
+		<#else>
+			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
+			<BR><BR>
+		<#break>
+		
+  </#if>
 </#list>
