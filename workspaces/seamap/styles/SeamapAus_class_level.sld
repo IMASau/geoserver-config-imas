@@ -11,7 +11,7 @@
 			<Title>Seamap Australia - level of classification</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Title>Level of biotic classification</Title>
+					<Title>Resolution of biotic classification</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>LEVEL</PropertyName>
@@ -26,7 +26,7 @@
 					</PolygonSymbolizer>
 				</Rule>	              
 				<Rule>
-					<Title>Level 1 (coarsest)</Title>
+					<Title>Level 1 (coarse)</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>LEVEL</PropertyName>
@@ -71,7 +71,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>Level 4 (finest)</Title>
+					<Title>Level 4 (fine)</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>LEVEL</PropertyName>
@@ -86,7 +86,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Level of substrata classification (if no biotic available)</Title>
+					<Title>Resolution of substrata classification (if no biotic available)</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>LEVEL</PropertyName>
@@ -101,7 +101,7 @@
 					</PolygonSymbolizer>
 				</Rule>	              
 				<Rule>
-					<Title>Level 1 (coarsest)</Title>
+					<Title>Level 1 (coarse)</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>LEVEL</PropertyName>
@@ -146,7 +146,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>Level 4 (finest)</Title>
+					<Title>Level 4 (fine)</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>LEVEL</PropertyName>
