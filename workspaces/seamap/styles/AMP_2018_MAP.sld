@@ -27,7 +27,7 @@
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
+           			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
 			</TextSymbolizer>              
