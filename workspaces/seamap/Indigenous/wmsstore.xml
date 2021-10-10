@@ -1,7 +1,7 @@
 <wmsStore>
-  <id>WMSStoreInfoImpl--3e316b73:17c67aba90b:5d24</id>
+  <id>WMSStoreInfoImpl--3e316b73:17c67aba90b:5d43</id>
   <name>Indigenous</name>
-  <description>data.gov.au - source of some NationalMap layers</description>
+  <description>Source of some NationalMap layers</description>
   <type>WMS</type>
   <enabled>true</enabled>
   <workspace>
@@ -12,8 +12,6 @@
   </metadata>
   <__default>false</__default>
   <capabilitiesURL>https://data.gov.au/geoserver/wms</capabilitiesURL>
-  <user>admin</user>
-  <password>crypt1:y8Sbf36zl3pKgXCCx/PSeZ/YDLNKIqXf</password>
   <maxConnections>6</maxConnections>
   <readTimeout>60</readTimeout>
   <connectTimeout>30</connectTimeout>
