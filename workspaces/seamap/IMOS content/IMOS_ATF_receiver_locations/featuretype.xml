@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3e316b73:17c6a5bed1d:37ce</id>
-  <name>IMOS_AUV_tracks_CASCADED</name>
-  <nativeName>imos_auv_tracks_vw</nativeName>
+  <id>FeatureTypeInfoImpl--3e316b73:17c6a5bed1d:39c0</id>
+  <name>IMOS_ATF_receiver_locations</name>
+  <nativeName>imos_acoustic_installation_summary_map</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Tracks from IMOS AUV facility (cascaded from IMOS Geoserver WFS)</title>
+  <title>IMOS Animal Tracking Facility - acoustic receiver locations</title>
   <keywords>
     <string>features</string>
-    <string>auv_tracks_vw</string>
+    <string>installation_summary</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -36,21 +36,8 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--3e316b73:17c6a5bed1d:37c8</id>
+    <id>DataStoreInfoImpl--3e316b73:17c6a5bed1d:3985</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
