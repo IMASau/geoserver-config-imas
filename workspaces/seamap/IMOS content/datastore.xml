@@ -14,11 +14,13 @@
     <entry key="usedefaultsrs">false</entry>
     <entry key="WFSDataStoreFactory:AXIS_ORDER">Compliant</entry>
     <entry key="WFSDataStoreFactory:PROTOCOL">false</entry>
+    <entry key="WFSDataStoreFactory:USERNAME">admin</entry>
     <entry key="WFSDataStoreFactory:GML_COMPLIANCE_LEVEL">0</entry>
     <entry key="WFSDataStoreFactory:GET_CAPABILITIES_URL">http://geoserver-123.aodn.org.au/geoserver/imos/wfs</entry>
+    <entry key="WFSDataStoreFactory:PASSWORD">crypt1:CHBuEDWw4BG9uophZxeWiBJeTnNQRfpu</entry>
     <entry key="WFSDataStoreFactory:MAXFEATURES">0</entry>
     <entry key="WFSDataStoreFactory:FILTER_COMPLIANCE">0</entry>
-    <entry key="WFSDataStoreFactory:TIMEOUT">3000</entry>
+    <entry key="WFSDataStoreFactory:TIMEOUT">300000</entry>
     <entry key="WFSDataStoreFactory:BUFFER_SIZE">10</entry>
     <entry key="namespace">seamap</entry>
     <entry key="WFSDataStoreFactory:WFS_STRATEGY">auto</entry>
