@@ -17,7 +17,7 @@
 				<b>Dates active:</b> ${feature.deployment_date.value[0..9]} - <i>ongoing</i><BR>
 			</#if>	
 		</#if>	
-		<BR><BR>
+		<BR>
 	</div>
 		<#else>
 			<i>This information has been limited to 3 receivers. Zoom in for higher precision.</i>
