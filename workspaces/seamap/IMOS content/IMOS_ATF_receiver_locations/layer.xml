@@ -1,12 +1,12 @@
 <layer>
-  <name>IMOS_AUV_tracks_CASCADED</name>
-  <id>LayerInfoImpl--3e316b73:17c6a5bed1d:37cf</id>
+  <name>IMOS_ATF_receiver_locations</name>
+  <id>LayerInfoImpl--3e316b73:17c70e24759:7b00</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-111fe3a:15bf5948b19:-7ffd</id>
+    <id>StyleInfoImpl--3e316b73:17c6a5bed1d:39e3</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3e316b73:17c6a5bed1d:37ce</id>
+    <id>FeatureTypeInfoImpl--3e316b73:17c70e24759:7aff</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
