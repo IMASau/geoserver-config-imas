@@ -227,7 +227,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">data_dl, RES_ACTUAL D</VendorOption>		
+      <VendorOption name="sortBy">sort D, RES_ACTUAL D</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
