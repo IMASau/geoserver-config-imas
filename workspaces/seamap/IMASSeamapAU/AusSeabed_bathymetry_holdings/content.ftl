@@ -59,7 +59,7 @@
 	<TD>
 		<#if feature.data_dl.value == 'no'>
 			not available
-		<#elseif feature.data_dl.value == 'yes -  other'>
+		<#elseif feature.data_dl.value == 'yes - other'>
 			yes - other
 		<#elseif feature.data_dl.value == 'yes - ASB'>
 			yes - <a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
