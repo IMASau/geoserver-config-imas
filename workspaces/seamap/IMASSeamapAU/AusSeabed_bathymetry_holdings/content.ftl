@@ -30,7 +30,11 @@
 				${feature.TITLE_ASB.value}</i>	
 			</#if>				
 		<#else>
-			${feature.name.value}
+			<#if feature.objectid.value?contains("DEM")>
+				${feature.name.value} <b><i>[modelled]</i></b>
+			<#else>
+				${feature.name.value}</i>	
+			</#if>
 		</#if>
 	</TD>
 
