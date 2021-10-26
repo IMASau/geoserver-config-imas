@@ -18,14 +18,12 @@
 							</ogc:Function>
 						</Geometry>
 
-						<Graphic>
-							<Mark>
-								<WellKnownName>cross</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#8533ff</CssParameter>
-								</Fill>
-							</Mark>
-							<Size>10</Size>
+						<Graphic>        
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera.png" />
+								<Format>image/png</Format>
+							</ExternalGraphic> 
+							<Size>18</Size>				
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
