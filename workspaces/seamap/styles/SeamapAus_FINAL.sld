@@ -103,6 +103,21 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>		
         </sld:Rule>
         <sld:Rule>		
+          <sld:Title>         Bioturbators</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Bioturbators</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#538cc6</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule> 		
+        <sld:Rule>		
           <sld:Title>         Bryozoans</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
