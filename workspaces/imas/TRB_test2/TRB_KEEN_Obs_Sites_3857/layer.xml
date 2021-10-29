@@ -1,12 +1,12 @@
 <layer>
-  <name>AusSeabed_bathymetry_holdings_300</name>
-  <id>LayerInfoImpl-266d40be:17b3766221e:2e82</id>
+  <name>TRB_KEEN_Obs_Sites_3857</name>
+  <id>LayerInfoImpl--3e316b73:17c6a5bed1d:75ad</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-74e96815:17b2cd2977a:5193</id>
+    <id>StyleInfoImpl-111fe3a:15bf5948b19:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-266d40be:17b3766221e:2e81</id>
+    <id>FeatureTypeInfoImpl--3e316b73:17c6a5bed1d:75ac</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

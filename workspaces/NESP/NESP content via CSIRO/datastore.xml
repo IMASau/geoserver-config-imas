@@ -1,11 +1,10 @@
 <dataStore>
-  <id>DataStoreInfoImpl--3e316b73:17c70e24759:794f</id>
-  <name>IMOS content</name>
-  <description>IMOS content cascaded via WFS for restyling in Seamap</description>
+  <id>DataStoreInfoImpl-50e6ef9f:17cc8467967:7168</id>
+  <name>NESP content via CSIRO</name>
   <type>Web Feature Server (NG)</type>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
   <connectionParameters>
     <entry key="WFSDataStoreFactory:TRY_GZIP">true</entry>
@@ -15,12 +14,12 @@
     <entry key="WFSDataStoreFactory:AXIS_ORDER">East / North</entry>
     <entry key="WFSDataStoreFactory:PROTOCOL">false</entry>
     <entry key="WFSDataStoreFactory:GML_COMPLIANCE_LEVEL">0</entry>
-    <entry key="WFSDataStoreFactory:GET_CAPABILITIES_URL">https://geoserver-123.aodn.org.au/geoserver/ows?service=wfs&amp;version=1.1.0&amp;request=GetCapabilities</entry>
+    <entry key="WFSDataStoreFactory:GET_CAPABILITIES_URL">https://www.cmar.csiro.au/geoserver/nerp/ows?service=wfs&amp;version=1.1.0&amp;request=GetCapabilities</entry>
     <entry key="WFSDataStoreFactory:MAXFEATURES">0</entry>
     <entry key="WFSDataStoreFactory:FILTER_COMPLIANCE">0</entry>
     <entry key="WFSDataStoreFactory:TIMEOUT">3000</entry>
     <entry key="WFSDataStoreFactory:BUFFER_SIZE">10</entry>
-    <entry key="namespace">seamap</entry>
+    <entry key="namespace">NESP</entry>
     <entry key="WFSDataStoreFactory:WFS_STRATEGY">auto</entry>
     <entry key="WFSDataStoreFactory:AXIS_ORDER_FILTER">East / North</entry>
     <entry key="WFSDataStoreFactory:USE_HTTP_CONNECTION_POOLING">true</entry>

@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3e316b73:17c70e24759:7aff</id>
-  <name>IMOS_ATF_receiver_locations</name>
-  <nativeName>imos_acoustic_installation_summary_map</nativeName>
+  <id>FeatureTypeInfoImpl--3e316b73:17c6a5bed1d:7608</id>
+  <name>TRB_KEEN_Obs_Sites</name>
+  <nativeName>TRB_KEEN_Obs_Sites</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>IMOS Animal Tracking Facility - acoustic receiver locations</title>
+  <title>Kelp Ecosystem Ecology Network (KEEN) Observational Data - SITES</title>
   <description></description>
   <keywords>
     <string>features</string>
-    <string>installation_summary</string>
+    <string>KEEN_Obs_Sites</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -20,28 +20,25 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3857</srs>
   <nativeBoundingBox>
-    <minx>111.0</minx>
-    <maxx>170.0</maxx>
-    <miny>-48.0</miny>
-    <maxy>8.5</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-7944473.762343851</minx>
+    <maxx>-7737577.243620843</maxx>
+    <miny>5082942.871563555</miny>
+    <maxy>5440079.417706327</maxy>
+    <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>111.0</minx>
-    <maxx>170.0</maxx>
-    <miny>-48.0</miny>
-    <maxy>8.5</maxy>
+    <minx>-71.36642205</minx>
+    <maxx>-69.507839</maxx>
+    <miny>41.47691366999999</miny>
+    <maxy>43.835880999999986</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--3e316b73:17c70e24759:794f</id>
+    <id>DataStoreInfoImpl--3e316b73:17c6a5bed1d:5bc7</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>

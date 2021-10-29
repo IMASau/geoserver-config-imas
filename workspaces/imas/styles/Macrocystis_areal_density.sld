@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Title>Macrocystis density - aerial surveys</Title>
       <FeatureTypeStyle>	  
         <Rule>
-          <Title>Macrocystis density</Title>
+          <Title>Macrocystis density - areal surveys</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Density</ogc:PropertyName>

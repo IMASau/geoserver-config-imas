@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3e316b73:17c70e24759:7aff</id>
-  <name>IMOS_ATF_receiver_locations</name>
-  <nativeName>imos_acoustic_installation_summary_map</nativeName>
+  <id>FeatureTypeInfoImpl-50e6ef9f:17cc8467967:7169</id>
+  <name>National_Aquaculture_facilities</name>
+  <nativeName>nerp_national_aquaculture</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>IMOS Animal Tracking Facility - acoustic receiver locations</title>
+  <title>NESP - location of national aquaculture facilities</title>
   <description></description>
   <keywords>
     <string>features</string>
-    <string>installation_summary</string>
+    <string>national_aquaculture</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -22,26 +22,23 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>111.0</minx>
-    <maxx>170.0</maxx>
-    <miny>-48.0</miny>
-    <maxy>8.5</maxy>
+    <minx>96.0</minx>
+    <maxx>154.0</maxx>
+    <miny>-44.0</miny>
+    <maxy>-10.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>111.0</minx>
-    <maxx>170.0</maxx>
-    <miny>-48.0</miny>
-    <maxy>8.5</maxy>
+    <minx>96.0</minx>
+    <maxx>154.0</maxx>
+    <miny>-44.0</miny>
+    <maxy>-10.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--3e316b73:17c70e24759:794f</id>
+    <id>DataStoreInfoImpl-50e6ef9f:17cc8467967:7168</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>

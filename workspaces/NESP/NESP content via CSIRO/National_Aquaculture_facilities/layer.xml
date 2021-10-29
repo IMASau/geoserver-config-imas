@@ -1,12 +1,12 @@
 <layer>
-  <name>IMOS_AUV_tracks</name>
-  <id>LayerInfoImpl-6e5efb92:17c345e5502:-2aa9</id>
+  <name>National_Aquaculture_facilities</name>
+  <id>LayerInfoImpl-50e6ef9f:17cc8467967:716a</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-50e6ef9f:17cba29e9de:16fb</id>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-6e5efb92:17c345e5502:-2aaa</id>
+    <id>FeatureTypeInfoImpl-50e6ef9f:17cc8467967:7169</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

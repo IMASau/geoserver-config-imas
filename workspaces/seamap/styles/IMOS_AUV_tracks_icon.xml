@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-50e6ef9f:17cba29e9de:16fb</id>
-  <name>IMOS_AUV_tracks</name>
+  <id>StyleInfoImpl--3e316b73:17c34ad0e80:-6210</id>
+  <name>IMOS_AUV_tracks_icon</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>IMOS_AUV_tracks.sld</filename>
+  <filename>IMOS_AUV_tracks_icon.sld</filename>
 </style>

@@ -1,12 +1,12 @@
 <layer>
-  <name>IMOS_AUV_tracks</name>
-  <id>LayerInfoImpl-6e5efb92:17c345e5502:-2aa9</id>
+  <name>AusSeabed_bathymetry_holdings_DEM</name>
+  <id>LayerInfoImpl-50e6ef9f:17cace9100c:61d</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-50e6ef9f:17cba29e9de:16fb</id>
+    <id>StyleInfoImpl-74e96815:17b2cd2977a:5193</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-6e5efb92:17c345e5502:-2aaa</id>
+    <id>FeatureTypeInfoImpl-50e6ef9f:17cace9100c:61c</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
