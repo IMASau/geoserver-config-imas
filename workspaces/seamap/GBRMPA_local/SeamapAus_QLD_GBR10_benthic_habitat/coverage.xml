@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl-2925422a:17ccb137da3:-7fdf</id>
-  <name>GBR10_GBRMP_benthic_habitat_l</name>
+  <name>SeamapAus_QLD_GBR10_benthic_habitat</name>
   <nativeName>GBR10_GBRMP_benthic_habitat_l</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -39,6 +39,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">GBRMPA_local_GBR10_GBRMP_Benthic</entry>
   </metadata>
   <store class="coverageStore">
@@ -62,14 +63,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>ImageMosaic</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>ArcGrid</string>
     <string>GEOTIFF</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
