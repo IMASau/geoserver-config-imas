@@ -49,8 +49,13 @@
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>0</maxRequestMemory>
-  <maxRenderingTime>0</maxRenderingTime>
-  <maxRenderingErrors>0</maxRenderingErrors>
+  <maxRequestMemory>16384</maxRequestMemory>
+  <maxRenderingTime>120</maxRenderingTime>
+  <maxRenderingErrors>100</maxRenderingErrors>
   <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
+  <cacheConfiguration>
+    <enabled>false</enabled>
+    <maxEntries>1000</maxEntries>
+    <maxEntrySize>51200</maxEntrySize>
+  </cacheConfiguration>
 </wms>
