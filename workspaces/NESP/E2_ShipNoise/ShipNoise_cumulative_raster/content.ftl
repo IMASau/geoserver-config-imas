@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 	
-	<h5>Cumulative sound exposure level (SEL) from shipping</h5><BR>
+	<h5>Cumulative sound exposure level (SEL) from shipping</h5>
 		<br>
 		<div class="feature"> 
 			<i>Shipping noise (dB re 1&#181;Pa 2s) for all vessel size classes</i><BR><BR>  
