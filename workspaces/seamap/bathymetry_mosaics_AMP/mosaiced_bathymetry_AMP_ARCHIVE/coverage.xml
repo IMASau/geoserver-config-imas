@@ -1,6 +1,6 @@
 <coverage>
-  <id>CoverageInfoImpl--1295cef3:17d21cb61bd:20c8</id>
-  <name>mosaiced_bathymetry_AMP</name>
+  <id>CoverageInfoImpl--1295cef3:17d21cb61bd:1f39</id>
+  <name>mosaiced_bathymetry_AMP_ARCHIVE</name>
   <nativeName>mosaiced_bathymetry_AMP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -39,22 +39,22 @@
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
     <minx>224320.3089</minx>
-    <maxx>1749198.4636829277</maxx>
+    <maxx>1749162.868</maxx>
     <miny>-5408497.8673</miny>
     <maxy>-4013639.1658</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>136.47954937545563</minx>
-    <maxx>155.82015019455307</maxx>
+    <maxx>155.81971503106868</maxx>
     <miny>-47.89688036687065</miny>
-    <maxy>-34.459324257123</maxy>
+    <maxy>-34.459373251360105</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_mosaics_AMP_bathymetry_AMPs_mosaic</entry>
   </metadata>
   <store class="coverageStore">
@@ -65,24 +65,27 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>35941 32877</high>
+      <high>30340 27754</high>
     </range>
     <transform>
-      <scaleX>42.42651589373461</scaleX>
-      <scaleY>-42.42651589373464</scaleY>
+      <scaleX>50.2577840681173</scaleX>
+      <scaleY>-50.25778406811731</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>224341.52215794686</translateX>
-      <translateY>-4013660.379057947</translateY>
+      <translateX>224345.43779203406</translateX>
+      <translateY>-4013664.294692034</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
   <supportedFormats>
+    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
+    <string>ImageMosaic</string>
+    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>

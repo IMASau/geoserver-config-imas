@@ -1,12 +1,12 @@
 <layer>
   <name>mosaiced_bathymetry_AMP</name>
-  <id>LayerInfoImpl--1295cef3:17d21cb61bd:1f3a</id>
+  <id>LayerInfoImpl--1295cef3:17d21cb61bd:20c9</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl--1295cef3:17d21cb61bd:20dc</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--1295cef3:17d21cb61bd:1f39</id>
+    <id>CoverageInfoImpl--1295cef3:17d21cb61bd:20c8</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
