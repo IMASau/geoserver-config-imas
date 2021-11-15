@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--1295cef3:17d21cb61bd:20c8</id>
-  <name>mosaiced_bathymetry_AMP</name>
-  <nativeName>mosaiced_bathymetry_AMP</nativeName>
+  <id>CoverageInfoImpl--1295cef3:17d21cb61bd:2410</id>
+  <name>mosaiced_bathymetry_AMP_50m</name>
+  <nativeName>mosaiced_bathymetry_AMP_50m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Mosaiced multibeam bathymetry - clipped to AMP boundaries</title>
+  <title>Mosaiced multibeam bathymetry - clipped to AMP boundaries - regridded 50m</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single tiff per Australian Marine Park (AMP). Each AMP tiff is gridded at the finest resolution of survey data available for that region.</abstract>
+  <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single tiff per Australian Marine Park (AMP). Each AMP tiff is regridded to 50m resolution.</abstract>
   <keywords>
-    <string>bathymetry_AMPs_mosaic</string>
+    <string>bathymetry_mosaics_AMP_50m</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -55,7 +55,7 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_mosaics_AMP_bathymetry_AMPs_mosaic</entry>
+    <entry key="dirName">bathymetry_mosaics_AMP_bathymetry_mosaics_AMP_50m</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--1295cef3:17d21cb61bd:1e36</id>
@@ -174,5 +174,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>bathymetry_AMPs_mosaic</nativeCoverageName>
+  <nativeCoverageName>bathymetry_mosaics_AMP_50m</nativeCoverageName>
 </coverage>
