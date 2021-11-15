@@ -11,8 +11,8 @@
           <RasterSymbolizer>
             <ColorMap>
               
-              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="Cumulative Sound Exposure Level - all vessels"/>
-              <ColorMapEntry color="#000096" opacity="0.95" quantity="90" label="&#60;90 dB re 1&#181;Pa 2s"/>
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0" label="Cumulative Sound Exposure Level - all vessel sizes"/>
+              <ColorMapEntry color="#000096" opacity="0.95" quantity="90" label="&#60;90 dB re 1&#181;Pa&#178;s"/>
               <ColorMapEntry color="#0048fd" opacity="0.95" quantity="110" label="110"/>              
               <ColorMapEntry color="#09ffdc" opacity="0.95" quantity="130" label="130"/>            
               <ColorMapEntry color="#f1fe00" opacity="0.95" quantity="150" label="150"/>

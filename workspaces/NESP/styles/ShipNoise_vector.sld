@@ -9,7 +9,7 @@
             <Name>ShipNoise</Name>
             <FeatureTypeStyle>
                 <Rule>
-                  <Title>Cumulative Sound Exposure - all vessels</Title>
+                  <Title>Cumulative Sound Exposure - all vessel sizes</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>NseA</ogc:PropertyName>
@@ -26,7 +26,7 @@
               
               
                 <Rule>
-                  <Title>&#60;100 dB re 1&#181;Pa 2s</Title>
+                  <Title>&#60;100 dB re 1&#181;Pa&#178;s</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsLessThan>
                             <ogc:PropertyName>NseA</ogc:PropertyName>

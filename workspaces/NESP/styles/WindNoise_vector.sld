@@ -26,7 +26,7 @@
               
               
                 <Rule>
-                  <Title>&#60;170 dB re 1&#181;Pa 2s</Title>
+                  <Title>&#60;170 dB re 1&#181;Pa&#178;s</Title>
                     <ogc:Filter>
                         <ogc:PropertyIsLessThan>
                             <ogc:PropertyName>WINTotal</ogc:PropertyName>
