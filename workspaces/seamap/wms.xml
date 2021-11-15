@@ -28,8 +28,8 @@
     <entry key="svgAntiAlias">false</entry>
     <entry key="kmlKmscore">40</entry>
     <entry key="mapWrapping">true</entry>
-    <entry key="pngCompression">0</entry>
-    <entry key="jpegCompression">0</entry>
+    <entry key="pngCompression">25</entry>
+    <entry key="jpegCompression">25</entry>
     <entry key="advancedProjectionHandling">true</entry>
     <entry key="maxAllowedFrames">2147483647</entry>
     <entry key="kmlAttr">true</entry>
