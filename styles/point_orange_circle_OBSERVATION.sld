@@ -15,6 +15,7 @@
           <Name>Rule 1</Name>
           <Title>Observation</Title>
           <Abstract>A orange fill with an 8 pixel size</Abstract>
+          <Title>Observation</Title>          
           <PointSymbolizer>
             <Graphic>
               <Mark>

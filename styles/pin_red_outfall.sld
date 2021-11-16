@@ -12,7 +12,6 @@
       <FeatureTypeStyle>
         <Rule>
           <Title>Outfall monitoring site</Title>
-          <Abstract>A red pin</Abstract>
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
