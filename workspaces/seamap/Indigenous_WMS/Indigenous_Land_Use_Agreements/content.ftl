@@ -1,19 +1,19 @@
+<h5>Indigenous Land Use Agreements</h5>
+<br>
 <#list features as feature>
-	<#if (feature_index < 1) >
+	<#if (feature_index < 3) >
 
-	<h5>Indigenous Land Use Agreements</h5>
-	<BR>
 	<div class="feature"> 
-		<b>ILUA name:</b> ${feature.name.value}<BR>
+		<b><i>${feature.name.value}</i></b><BR>
 		<b>Purpose:</b> ${feature.subjmatter.value}<BR>
-		<b>Date registered:</b> ${feature.dateregd.value}
-		<b>Agreement type:</b> ${feature.agtype.value}
-		<b>Applicant:</b> ${feature.applicant.value}
+		<b>Agreement type:</b> ${feature.agtype.value}<BR>
+		<b>Applicant:</b> ${feature.applicant.value}<BR>
+		<b>Date registered:</b> ${feature.dateregd.value}		
 
 		<BR><BR>
 	</div>
 		<#else>
-			<i>Multiple ILUAs exist at this point. Zoom in for higher precision.</i>
+			<i>More ILUAs exist at this point. Zoom in for higher precision.</i>
 			<BR><BR>
 		<#break>
 		
