@@ -1,0 +1,15 @@
+<layer>
+  <name>ckan_54f906a3_2c6c_4143_bcb4_27d542429939</name>
+  <id>LayerInfoImpl--1295cef3:17d27c902a4:-715d</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--1295cef3:17d27c902a4:-715e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
