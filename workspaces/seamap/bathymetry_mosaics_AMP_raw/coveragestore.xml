@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1295cef3:17d27c902a4:-6f6a</id>
+  <name>bathymetry_mosaics_AMP_raw</name>
+  <description>Store of bathymetry mosaics per AMP - raw</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/bathymetry_mosaics_AMP_raw</url>
+</coverageStore>
