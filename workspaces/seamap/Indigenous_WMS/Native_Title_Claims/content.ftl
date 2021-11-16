@@ -11,11 +11,11 @@
 		<b>Claim info</b><BR>
 		<i>Claim ID: ${feature.fcno.value}<BR>
 		Date lodged:${feature.datelodged.value}</i>
-
+------------------------------
 		<BR><BR>
 	</div>
 		<#else>
-			<i>Multiple Native Title Claims exist at this point. Zoom in for higher precision.</i>
+			<i>More Native Title Claims exist at this point. Zoom in for higher precision.</i>
 			<BR><BR>
 		<#break>
 		
