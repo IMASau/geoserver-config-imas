@@ -8,6 +8,7 @@
       <Name>Abalone habitat - 50cm bathymetry</Name>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                                            
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1000" label="Depth (m)"/>                                          

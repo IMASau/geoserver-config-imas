@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl--1295cef3:17d3575c0f1:41a8</id>
-  <name>abalone_habitat_bathy_50cm</name>
+  <name>abalone_habitat_bathy_fullres</name>
   <nativeName>abalone_habitat_bathy_50cm</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -49,6 +49,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Abalone_block_bathy_50cm_bathy_50cm</entry>

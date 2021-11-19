@@ -1,0 +1,15 @@
+<layer>
+  <name>Lucieer_AbHab_mapped_bathy_extent</name>
+  <id>LayerInfoImpl--1295cef3:17d3575c0f1:5c48</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1295cef3:17d3575c0f1:5c40</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1295cef3:17d3575c0f1:5c47</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--1295cef3:17d3575c0f1:5168</id>
-  <name>abalone_habitat_bathy</name>
+  <name>abalone_habitat_bathy_50cm</name>
   <mode>SINGLE</mode>
   <title>Bathymetric surveys in abalone fishing blocks</title>
   <workspace>
@@ -10,10 +10,16 @@
     <published type="layer">
       <id>LayerInfoImpl--1295cef3:17d3575c0f1:41a9</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1295cef3:17d3575c0f1:5c48</id>
+    </published>
   </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl--1295cef3:17d3575c0f1:45d7</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1295cef3:17d3575c0f1:5c40</id>
     </style>
   </styles>
   <bounds>
