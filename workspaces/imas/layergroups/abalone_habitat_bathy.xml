@@ -1,0 +1,26 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--1295cef3:17d3575c0f1:5168</id>
+  <name>abalone_habitat_bathy</name>
+  <mode>SINGLE</mode>
+  <title>Bathymetric surveys in abalone fishing blocks</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--1295cef3:17d3575c0f1:41a9</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--1295cef3:17d3575c0f1:45d7</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>573142.75</minx>
+    <maxx>616443.75</maxx>
+    <miny>5213458.25</miny>
+    <maxy>5444677.25</maxy>
+    <crs class="projected">EPSG:32755</crs>
+  </bounds>
+</layerGroup>
