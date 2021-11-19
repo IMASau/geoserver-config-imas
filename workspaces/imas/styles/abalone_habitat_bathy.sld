@@ -11,16 +11,16 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1000" label="Depth (m)"/>                                          
-              <ColorMapEntry color="#004cbf" label="-70" quantity="-70"/>
-              <ColorMapEntry color="#0a6ccf" label="-60" quantity="-60"/>
-              <ColorMapEntry color="#188ad5" label="-50" quantity="-50"/>
-              <ColorMapEntry color="#24a5cf" label="-40" quantity="-40"/>
-              <ColorMapEntry color="#26bdba" label="-30" quantity="-30"/>
-              <ColorMapEntry color="#32d496" label="-20" quantity="-20"/>
-              <ColorMapEntry color="#83cd51" label="-15" quantity="-15"/>
-              <ColorMapEntry color="#dde83f" label="-10" quantity="-10"/>
-              <ColorMapEntry color="#e9af33" label="-5" quantity="-5"/>
-              <ColorMapEntry color="#eb6821" label="-1" quantity="-1"/>
+              <ColorMapEntry color="#0048b4" label="-70" quantity="-70"/>
+              <ColorMapEntry color="#0570da" label="-60" quantity="-60"/>
+              <ColorMapEntry color="#4497ea" label="-50" quantity="-50"/>
+              <ColorMapEntry color="#1cc6cf" label="-40" quantity="-40"/>
+              <ColorMapEntry color="#26be84" label="-30" quantity="-30"/>
+              <ColorMapEntry color="#58d439" label="-20" quantity="-20"/>
+              <ColorMapEntry color="#b1d64b" label="-15" quantity="-15"/>
+              <ColorMapEntry color="#efe11e" label="-10" quantity="-10"/>
+              <ColorMapEntry color="#e99d33" label="-5" quantity="-5"/>
+              <ColorMapEntry color="#eb5021" label="-1" quantity="-1"/>
               <ColorMapEntry color="#ea0090" label="0" quantity="0"/>
             </ColorMap>
           </RasterSymbolizer>
