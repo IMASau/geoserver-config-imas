@@ -3,9 +3,9 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Shipping Noise</Name>
+    <Name>Bathymetry colour ramp</Name>
     <UserStyle>
-      <Name>NESP E2 Cumulative Shipping Noise</Name>
+      <Name>depth colour ramp surface-abyssal</Name>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
