@@ -1,0 +1,53 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--1295cef3:17d3575c0f1:1f42</id>
+  <name>abalone_fishing_blocks_commercial</name>
+  <nativeName>Abalone Fishing Block</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Abalone Fishing Block</title>
+  <description>This data set spatially depicts commercial fishing blocks that may be affected by an oil spill in Tasmanian State coastal waters as specified by the Oil Spill Response Atlas project.  The dataset contains Tasmanian commercial fisheries catch figures for blacklip and greenlip abalone, southern rock lobster and scalefish species for the years 1996-1998 inclusive.  The catch figures are compiled from commercial fishers logbook returns submitted to the Department of Primary Industry, Water and Environment for research and stock assessment purposes.  The fisheries research is conducted by the Tasmanian Aquaculture and Fisheries Institute.  All requirements under Tasmanian legislation relating to the release of commercial fisheries catch information have been met.  The scalefish dataset does not include any fish taken in Commonwealth fisheries which are managed under the jurisdiction of the Australian Fisheries Management Authority.  Also excluded are jack mackerel, other than that taken as bycatch, and species of crabs other than giant crab. The base data is currently held in AGD66 geographicals (ie Latitude Longitude).</description>
+  <abstract>This data set spatially depicts commercial fishing blocks that may be affected by an oil spill in Tasmanian State coastal waters as specified by the Oil Spill Response Atlas project.  The dataset contains Tasmanian commercial fisheries catch figures for blacklip and greenlip abalone, southern rock lobster and scalefish species for the years 1996-1998 inclusive.  The catch figures are compiled from commercial fishers logbook returns submitted to the Department of Primary Industry, Water and Environment for research and stock assessment purposes.  The fisheries research is conducted by the Tasmanian Aquaculture and Fisheries Institute.  All requirements under Tasmanian legislation relating to the release of commercial fisheries catch information have been met.  The scalefish dataset does not include any fish taken in Commonwealth fisheries which are managed under the jurisdiction of the Australian Fisheries Management Authority.  Also excluded are jack mackerel, other than that taken as bycatch, and species of crabs other than giant crab. The base data is currently held in AGD66 geographicals (ie Latitude Longitude).</abstract>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / MGA zone 55&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;28355&quot;]]</nativeCRS>
+  <srs>EPSG:28355</srs>
+  <nativeBoundingBox>
+    <minx>216405.98978400006</minx>
+    <maxx>637008.298549</maxx>
+    <miny>5142864.426398001</miny>
+    <maxy>5667177.671859001</maxy>
+    <crs class="projected">EPSG:28355</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>143.718608</minx>
+    <maxx>148.585423</maxx>
+    <miny>-43.820177</miny>
+    <maxy>-39.144592</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--1295cef3:17d3575c0f1:1f3e</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+</wmsLayer>
