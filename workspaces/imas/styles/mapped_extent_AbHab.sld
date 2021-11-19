@@ -16,7 +16,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ff0000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
             </Stroke>				
           </PolygonSymbolizer>
         </Rule>                      
