@@ -1,11 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1295cef3:17d3575c0f1:5c47</id>
-  <name>Lucieer_AbHab_mapped_bathy_extent</name>
+  <name>AbHab_mapped_bathy_extent</name>
   <nativeName>Lucieer_AbHab_mapped_extent</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Abalone Habitat and Warming Reefs - mapped bathymetry extent polygon</title>
+  <title>Abalone habitat bathymetry mapped extent</title>
+  <abstract>Abalone Habitat and Warming Reefs projects - spatial extent of multibeam bathymetry mapped for fishing blocks 22, 23, 24, 27, 28, 29, 30. Created for display purposes in composite styled layer (abalone_habitat_bathy_50cm_MAP).</abstract>
   <keywords>
     <string>features</string>
     <string>Lucieer_AbHab_mapped_extent</string>
@@ -47,6 +48,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

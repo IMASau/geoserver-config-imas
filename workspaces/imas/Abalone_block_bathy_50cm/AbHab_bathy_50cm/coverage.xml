@@ -1,12 +1,13 @@
 <coverage>
   <id>CoverageInfoImpl--1295cef3:17d3575c0f1:41a8</id>
-  <name>abalone_habitat_bathy_fullres</name>
+  <name>AbHab_bathy_50cm</name>
   <nativeName>abalone_habitat_bathy_50cm</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Abalone Habitat and Warming Reefs - 50cm resolution multibeam bathymetry split by fishing block</title>
+  <title>Abalone habitat 50cm resolution multibeam bathymetry</title>
   <description>Generated from ImageMosaic</description>
+  <abstract>Abalone Habitat and Warming Reefs projects - 50cm resolution multibeam bathymetry split by fishing block (22, 23, 24, 27, 28, 29, 30).</abstract>
   <keywords>
     <string>bathy_50cm</string>
     <string>WCS</string>
