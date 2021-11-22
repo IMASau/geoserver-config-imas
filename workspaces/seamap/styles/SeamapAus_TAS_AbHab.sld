@@ -14,7 +14,28 @@
       <Title>Abalone Habitat - substratum</Title>
       <FeatureTypeStyle>
         <Rule>		
-          <Title>Megaclast</Title>		
+          <Title>Mapped habitat area (zoomed out)</Title>
+		  <MinScaleDenominator>4000000</MinScaleDenominator>				          
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>substratum</ogc:PropertyName>		
+              <ogc:Literal>intentionallyblank</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>
+              <CssParameter name="fill">#ff0000</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ff0000</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>	
+          </PolygonSymbolizer>		
+        </Rule>        
+        <Rule>		
+          <Title>Megaclast</Title>
+		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				          
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -29,7 +50,8 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Mixed Hard Substrata</Title>		
+          <Title>Mixed Hard Substrata</Title>
+		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -44,7 +66,8 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Pavement</Title>		
+          <Title>Pavement</Title>
+		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -59,7 +82,8 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Sand</Title>		
+          <Title>Sand</Title>
+		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
