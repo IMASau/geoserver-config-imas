@@ -6,8 +6,7 @@
 			<b>Depth:</b> N/A <i>(click is outside area of data coverage)</i><BR>
 		<#else>
 			<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?string("0.0")} m <i><BR>		
-		</#if>			
-		<BR>		
+		</#if>					
 		</div>
   </#if>
 </#list>
