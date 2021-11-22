@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_TAS_AbHab_substrata</name>
+  <id>LayerInfoImpl--1295cef3:17d4610413e:6a84</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1295cef3:17d4610413e:6a83</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
