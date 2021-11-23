@@ -12,12 +12,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#000000" quantity="0"/>
+              <ColorMapEntry color="#000000" quantity="0.0"/>
               <ColorMapEntry color="#FFFFFF" quantity="254.0"/>              
               <ColorMapEntry color="#FFFFFF" opacity="0.0" quantity="255.0"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
+        <VendorOption name="composite">multiply</VendorOption>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
