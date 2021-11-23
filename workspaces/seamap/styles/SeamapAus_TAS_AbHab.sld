@@ -15,7 +15,6 @@
       <FeatureTypeStyle>
         <Rule>		
           <Title>Mapped habitat area (zoomed out)</Title>
-		  <MinScaleDenominator>4000000</MinScaleDenominator>				          
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -35,7 +34,7 @@
         </Rule>        
         <Rule>		
           <Title>Megaclast</Title>
-		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				          
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>				          
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -51,7 +50,7 @@
         </Rule>
         <Rule>		
           <Title>Mixed Hard Substrata</Title>
-		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -67,7 +66,7 @@
         </Rule>
         <Rule>		
           <Title>Pavement</Title>
-		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -83,7 +82,7 @@
         </Rule>
         <Rule>		
           <Title>Sand</Title>
-		  <MaxScaleDenominator>4000000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
