@@ -1,0 +1,31 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--1295cef3:17d4b36a9a4:7f0b</id>
+  <name>SeamapAus_TAS_AbHab_substrata_MAP_tree_single</name>
+  <mode>NAMED</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--1295cef3:17d4a68a13f:47b9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1295cef3:17d4a68a13f:-3166</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--1295cef3:17d46d4a7c7:-7fe8</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1295cef3:17d4a68a13f:-315f</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>1165430.423231464</minx>
+    <maxx>1226905.190238771</maxx>
+    <miny>-4928892.414041233</miny>
+    <maxy>-4695681.534063778</maxy>
+    <crs class="projected">EPSG:3112</crs>
+  </bounds>
+</layerGroup>

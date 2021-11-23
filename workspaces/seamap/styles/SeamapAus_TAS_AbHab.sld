@@ -12,20 +12,7 @@
     <Name>SeamapAus_TAS_AbHab_substratum</Name>
     <UserStyle>
       <Title>Abalone Habitat - substratum</Title>
-      <FeatureTypeStyle>
-        <Rule>		
-          <Title>Mapped habitat area (zoomed out)</Title>		
-          <PolygonSymbolizer>		
-            <Fill>
-              <CssParameter name="fill">#ff0000</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#ff0000</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
-            </Stroke>	
-          </PolygonSymbolizer>		
-        </Rule>        
+      <FeatureTypeStyle>    
         <Rule>		
           <Title>Megaclast</Title>
 		  <MaxScaleDenominator>100000</MaxScaleDenominator>				          
