@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Lucieer_AbHab_mapped_extent</title>
+  <title>Abalone habitat seafloor mapped extent</title>
+  <abstract>Abalone Habitat and Warming Reefs projects - spatial extent of multibeam bathymetry mapped for fishing blocks 22, 23, 24, 27, 28, 29, 30. Created for display purposes in composite styled layer (SeamapAus_TAS_AbHab_substrata_MAP).</abstract>
   <keywords>
     <string>features</string>
     <string>Lucieer_AbHab_mapped_extent</string>
@@ -33,7 +34,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>1165430.423231464</minx>
     <maxx>1226905.190238771</maxx>
@@ -42,14 +43,15 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.65227043787257</minx>
-    <maxx>148.68395998748346</maxx>
-    <miny>-43.231622367136296</miny>
-    <maxy>-41.13480300683694</maxy>
+    <minx>1165430.423231464</minx>
+    <maxx>1226905.190238771</maxx>
+    <miny>-4928892.414041233</miny>
+    <maxy>-4695681.534063778</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
