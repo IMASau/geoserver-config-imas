@@ -5,14 +5,16 @@
   <NamedLayer>
     <Name>Hillshading</Name>
     <UserStyle>
-      <Name>Abalone habitat - 50cm hillshade</Name>
+      <Title/>
       <FeatureTypeStyle>
+        <Name>name</Name>
+        <FeatureTypeName>Feature</FeatureTypeName>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap type="ramp">
-              <ColorMapEntry color="#FFFFFF" label="254" quantity="254"/>
-              <ColorMapEntry color="#909090" label="127" quantity="127"/>              
-              <ColorMapEntry color="#000000" label="0" quantity="0"/>
+            <ColorMap>
+              <ColorMapEntry color="#FFFFFF" quantity="1.0"/>
+              <ColorMapEntry color="#282828" quantity="254.0"/>              
+              <ColorMapEntry color="#FFFFFF" opacity="0.0" quantity="255.0"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
