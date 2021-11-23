@@ -11,7 +11,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" label="254" quantity="254"/>
-              <ColorMapEntry color="#909090" quantity="127"/>              
+              <ColorMapEntry color="#909090" label="127" quantity="127"/>              
               <ColorMapEntry color="#000000" label="0" quantity="0"/>
             </ColorMap>
           </RasterSymbolizer>
