@@ -14,13 +14,7 @@
       <Title>Abalone Habitat - substratum</Title>
       <FeatureTypeStyle>
         <Rule>		
-          <Title>Mapped habitat area (zoomed out)</Title>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>substratum</ogc:PropertyName>		
-              <ogc:Literal>intentionallyblank</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          <Title>Mapped habitat area (zoomed out)</Title>		
           <PolygonSymbolizer>		
             <Fill>
               <CssParameter name="fill">#ff0000</CssParameter>
