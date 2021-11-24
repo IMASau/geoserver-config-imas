@@ -3,7 +3,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Hillshading</Name>
+    <Name>Traffic lights</Name>
     <UserStyle>
       <Title/>
       <FeatureTypeStyle>
@@ -11,14 +11,13 @@
         <FeatureTypeName>Feature</FeatureTypeName>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap>
-              <ColorMapEntry color="#ff1ab3" quantity="0.0"/>
-              <ColorMapEntry color="#FFFFFF" quantity="254.0"/>              
-              <ColorMapEntry color="#FFFFFF" opacity="0.0" quantity="255.0"/>              
+            <ColorMap type="values">
+              <ColorMapEntry color="#ff0000" quantity="1" label=" likely bare" opacity="0.9"/>
+              <ColorMapEntry color="#ffff1a" quantity="2" label=" possibly vegetation" opacity="0.9"/>              
+              <ColorMapEntry color="#70a800" quantity="3" label=" likely vegetation" opacity="0.9"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
-        <VendorOption name="composite">multiply</VendorOption>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
