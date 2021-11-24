@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Abalone habitat seafloor mapped extent</title>
+  <title>Abalone habitat mapped seafloor extent</title>
   <abstract>Abalone Habitat and Warming Reefs projects - spatial extent of multibeam bathymetry mapped for fishing blocks 22, 23, 24, 27, 28, 29, 30. Created for display purposes in composite styled layer (SeamapAus_TAS_AbHab_substrata_MAP).</abstract>
   <keywords>
     <string>features</string>
@@ -51,7 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
