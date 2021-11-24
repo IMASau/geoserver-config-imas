@@ -2,6 +2,8 @@
   <id>WCSInfoImpl--21071077:14b33c29d5b:-7ff9</id>
   <enabled>true</enabled>
   <name>WCS</name>
+  <title>Web Coverage Service</title>
+  <abstrct>The IMAS WCS server implements the WCS specification 1.0 and 1.1.1. All layers published by this service are also available on WMS.</abstrct>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>
@@ -18,7 +20,8 @@
   <verbose>false</verbose>
   <gmlPrefixing>false</gmlPrefixing>
   <latLon>false</latLon>
-  <maxInputMemory>-1</maxInputMemory>
-  <maxOutputMemory>-1</maxOutputMemory>
+  <maxInputMemory>0</maxInputMemory>
+  <maxOutputMemory>0</maxOutputMemory>
   <subsamplingEnabled>true</subsamplingEnabled>
+  <overviewPolicy>QUALITY</overviewPolicy>
 </wcs>
