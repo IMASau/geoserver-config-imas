@@ -5,7 +5,7 @@
 <#if (feature_index < 3) >
 
 <div class="feature">
-<#if $feature.Project_URL.value == 'n/a'>
+<#if feature.Project_URL.value == 'n/a'>
   <b>Project: ${feature.Project_ID.value}</b><BR>
 <#else>
   <b>Project: <A HREF="${feature.Project_URL.value}" TARGET="_NEW">${feature.Project_ID.value}</A></b><BR>
