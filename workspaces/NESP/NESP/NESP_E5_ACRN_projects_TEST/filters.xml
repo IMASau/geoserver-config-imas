@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Country</name>
+        <type>string</type>
+        <label>Country</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
