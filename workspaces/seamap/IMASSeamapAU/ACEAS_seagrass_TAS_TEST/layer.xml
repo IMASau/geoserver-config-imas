@@ -1,0 +1,15 @@
+<layer>
+  <name>ACEAS_seagrass_TAS_TEST</name>
+  <id>LayerInfoImpl--1295cef3:17d5503e272:-543c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1295cef3:17d5503e272:-543d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
