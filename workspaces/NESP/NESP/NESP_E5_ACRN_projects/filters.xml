@@ -3,14 +3,7 @@
     <filter>
         <name>Habitat_type</name>
         <type>string</type>
-        <label>Habitat Type</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>Restoration_Method</name>
-        <type>string</type>
-        <label>Restoration Method</label>
+        <label>Restored Habitat Type</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

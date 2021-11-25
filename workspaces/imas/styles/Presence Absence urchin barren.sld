@@ -49,7 +49,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#666666</CssParameter>  
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.2</CssParameter>                       
                 </Fill>             
               </Mark>
               <Size>6</Size>
