@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>ogr_geometry</name>
-        <type>geometrypropertytype</type>
-        <label>Ogr geometry</label>
+        <name>Habitat_type</name>
+        <type>string</type>
+        <label>Habitat Type</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>Habitat_type</name>
+        <name>Restoration_Method</name>
         <type>string</type>
-        <label>Habitat Type</label>
+        <label>Restoration Method</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
