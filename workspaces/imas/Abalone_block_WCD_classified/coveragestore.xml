@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--1295cef3:17d50160312:-69</id>
   <name>Abalone_block_WCD_classified</name>
-  <description>Water Column Data classified per abalone fishing block</description>
+  <description>Water Column Data - classification of vegetation likelihood</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
   <workspace>
