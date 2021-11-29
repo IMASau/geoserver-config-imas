@@ -12,9 +12,9 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#ff0000" quantity="1" label=" likely bare" opacity="0.9"/>
-              <ColorMapEntry color="#ffff1a" quantity="2" label=" possibly vegetation" opacity="0.9"/>              
-              <ColorMapEntry color="#70a800" quantity="3" label=" likely vegetation" opacity="0.9"/>              
+              <ColorMapEntry color="#ff0000" quantity="1" label=" No signal" opacity="0.9"/>
+              <ColorMapEntry color="#ffff1a" quantity="2" label=" Medium signal (some vegetation)" opacity="0.9"/>              
+              <ColorMapEntry color="#70a800" quantity="3" label=" Dense signal (vegetation)" opacity="0.9"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
