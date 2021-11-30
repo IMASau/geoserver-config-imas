@@ -51,6 +51,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Abalone_block_WCD_1m_1m2_mean</entry>
   </metadata>
   <store class="coverageStore">
@@ -74,14 +75,11 @@
     <crs>EPSG:32755</crs>
   </grid>
   <supportedFormats>
-    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>ImageMosaic</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>

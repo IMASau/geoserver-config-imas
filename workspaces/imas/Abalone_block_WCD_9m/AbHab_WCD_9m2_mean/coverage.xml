@@ -74,14 +74,11 @@
     <crs>EPSG:32755</crs>
   </grid>
   <supportedFormats>
-    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>ImageMosaic</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
