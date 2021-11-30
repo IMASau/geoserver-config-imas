@@ -10,13 +10,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1000" label="Signal"/>                                          
-              <ColorMapEntry quantity="-64" label="-64" color="#ffffcd"/>
-              <ColorMapEntry quantity="-54" label="-54" color="#d6ecad"/>
-              <ColorMapEntry quantity="-45" label="-45" color="#add98d"/>
-              <ColorMapEntry quantity="-34" label="-34" color="#85c66c"/>
-              <ColorMapEntry quantity="-22" label="-22" color="#5cb34c"/>
-              <ColorMapEntry quantity="-10" label="-10" color="#33a02c"/>
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1000000" label="Signal"/>                                          
+              <ColorMapEntry quantity="-64.0" label="-64" color="#ffffcd"/>
+              <ColorMapEntry quantity="-54.0" label="-54" color="#d6ecad"/>
+              <ColorMapEntry quantity="-45.0" label="-45" color="#add98d"/>
+              <ColorMapEntry quantity="-34.0" label="-34" color="#85c66c"/>
+              <ColorMapEntry quantity="-22.0" label="-22" color="#5cb34c"/>
+              <ColorMapEntry quantity="-10.0" label="-10" color="#33a02c"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
