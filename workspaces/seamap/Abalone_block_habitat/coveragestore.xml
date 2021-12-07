@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1295cef3:17d93dc3025:6d77</id>
+  <name>Abalone_block_habitat</name>
+  <description>Seamap Australia classified habitat per abalone fishing block</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/Abalone_habitat_warming_reefs/habitat</url>
+</coverageStore>
