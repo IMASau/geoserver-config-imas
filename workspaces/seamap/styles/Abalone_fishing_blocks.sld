@@ -13,21 +13,33 @@
     <UserStyle>
       <Name>Abalone fishing blocks</Name>
       <FeatureTypeStyle>
-        <Rule>
-          <Title>Abalone fishing block ID</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>blockno</ogc:PropertyName>
-              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>	  
+ 		<Rule>
+		  <Title>(zoom in for abalone block ID)</Title>
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom_block</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>blockno</ogc:PropertyName>
+           		  </Label>                  
+                  <Font>
+           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
+           			<CssParameter name="font-size">13</CssParameter>								
+          		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>                
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>   
         <Rule>
           <Title>22</Title>
           <ogc:Filter>
@@ -37,10 +49,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#8dd3c7</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -52,10 +66,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffffb3</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -67,10 +83,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fb8072</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
 		
@@ -83,12 +101,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>			
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -114,12 +132,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>			
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -146,10 +164,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#80b1d3</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -161,10 +181,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fdb462</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -176,10 +198,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#b3de69</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -191,10 +215,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fccde5</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>					  
-            </Fill>
+			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  		  
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="opacity">0.8</CssParameter>					  			  
+            </Stroke>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>

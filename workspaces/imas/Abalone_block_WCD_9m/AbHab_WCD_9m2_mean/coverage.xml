@@ -23,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -51,6 +51,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Abalone_block_WCD_9m_9m2_mean</entry>
   </metadata>
   <store class="coverageStore">
