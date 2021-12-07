@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Abalone habitat finescale substratum</title>
+  <title>Seamap Australia - TAS - Abalone habitat finescale substratum (UTAS)</title>
   <keywords>
     <string>features</string>
     <string>SeamapAus_TAS_AbHab_substrata</string>
@@ -50,6 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
