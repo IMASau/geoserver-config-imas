@@ -1,0 +1,15 @@
+<layer>
+  <name>TasAbalone_fishing_block</name>
+  <id>LayerInfoImpl--1295cef3:17d93dc3025:32ea</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1295cef3:17d93dc3025:3305</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1295cef3:17d93dc3025:32e9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
