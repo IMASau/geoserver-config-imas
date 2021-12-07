@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--1295cef3:17d27c902a4:-6f6a</id>
   <name>bathymetry_mosaics_AMP_raw</name>
-  <description>Store of bathymetry mosaics per AMP - raw</description>
+  <description>Store of bathymetry mosaics per AMP</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
   <workspace>
