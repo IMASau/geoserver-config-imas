@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - TAS - Abalone habitat finescale substratum (UTAS)</title>
+  <title>Abalone habitat finescale substratum</title>
   <keywords>
     <string>features</string>
     <string>SeamapAus_TAS_AbHab_substrata</string>
@@ -33,22 +33,22 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>147.6523435762679</minx>
-    <maxx>148.67903745459986</maxx>
-    <miny>-43.23154541789608</miny>
-    <maxy>-41.13526872407378</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>1165436.1134360824</minx>
+    <maxx>1226900.0458578102</maxx>
+    <miny>-4928884.182030874</miny>
+    <maxy>-4695687.059880103</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>147.6523435762679</minx>
-    <maxx>148.67903745459986</maxx>
-    <miny>-43.23154541789608</miny>
-    <maxy>-41.13526872407378</maxy>
+    <maxx>148.68388751737734</maxx>
+    <miny>-43.2315453772097</miny>
+    <maxy>-41.134856684288025</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
