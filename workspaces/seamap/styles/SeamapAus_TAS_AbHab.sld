@@ -15,7 +15,7 @@
       <FeatureTypeStyle>    
         <Rule>		
           <Title>Megaclast</Title>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>				          
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				          
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -31,7 +31,7 @@
         </Rule>
         <Rule>		
           <Title>Mixed Hard Substrata</Title>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -47,7 +47,7 @@
         </Rule>
         <Rule>		
           <Title>Pavement</Title>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
@@ -63,7 +63,7 @@
         </Rule>
         <Rule>		
           <Title>Sand</Title>
-		  <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>substratum</ogc:PropertyName>		
