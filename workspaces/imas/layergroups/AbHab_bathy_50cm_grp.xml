@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--1295cef3:17d3575c0f1:5168</id>
-  <name>abalone_habitat_bathy_50cm_MAP</name>
+  <name>AbHab_bathy_50cm_grp</name>
   <mode>NAMED</mode>
   <title>Bathymetric surveys in abalone fishing blocks</title>
   <abstractTxt>Abalone Habitat and Warming Reefs projects - 50cm resolution multibeam bathymetry split by fishing block (22, 23, 24, 27, 28, 29, 30). Includes spatial extent polygon showing mapped area of multibeam bathymetry visible at higher zoom levels.</abstractTxt>

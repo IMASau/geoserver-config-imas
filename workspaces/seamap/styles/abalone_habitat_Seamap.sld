@@ -7,6 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <RasterSymbolizer>
             <ColorMap type="values">
               <ColorMapEntry color="#a3a375" opacity="0.8" quantity="1" label=" Megaclast"/>

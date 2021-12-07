@@ -1,8 +1,9 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--1295cef3:17d4a68a13f:-3163</id>
-  <name>SeamapAus_TAS_AbHab_substrata_grp</name>
+  <name>AbHab_seamap_habitat_grp</name>
   <mode>NAMED</mode>
   <title>Seamap Australia - TAS - Abalone habitat finescale substratum (UTAS) - MAP VIEW</title>
+  <abstractTxt>Abalone Habitat and Warming Reefs projects - habitat map (Seamap Australia classification) generated from 50cm resolution multibeam bathymetry split by fishing block (22, 23, 24, 27, 28, 29, 30). Includes spatial extent polygon showing mapped area of multibeam bathymetry visible at higher zoom levels.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -11,7 +12,7 @@
       <id>LayerInfoImpl--1295cef3:17d4a68a13f:-3166</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--1295cef3:17d46d4a7c7:-7f28</id>
+      <id>LayerInfoImpl--1295cef3:17d93dc3025:6e82</id>
     </published>
   </publishables>
   <styles>
@@ -19,7 +20,7 @@
       <id>StyleInfoImpl--1295cef3:17d4a68a13f:-315f</id>
     </style>
     <style>
-      <id>StyleInfoImpl--1295cef3:17d46d4a7c7:-7fe8</id>
+      <id>StyleInfoImpl--1295cef3:17d96ecb220:-7dc0</id>
     </style>
   </styles>
   <bounds>

@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Abalone habitat finescale substratum (raster)</title>
+  <title>Abalone habitat finescale substratum</title>
   <description>Generated from ImageMosaic</description>
   <abstract>This layer forms part of the composite layer group &apos;SeamapAus_TAS_AbHab_substrata_grp&apos; which has been styled to optimise load performance. Please use the layer group containing this layer, for any web mapping purposes. This data has been reduced (1m, from 0.5m) for load efficiency. The full data is available with layer name &apos;SeamapAus_TAS_AbHab_substrata_DATA&apos;</abstract>
   <keywords>
@@ -33,7 +33,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
-  <srs>EPSG:32755</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
     <minx>573148.6096119881</minx>
     <maxx>616317.24998</maxx>
@@ -42,13 +42,13 @@
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.87168689045984</minx>
-    <maxx>148.43222575499</maxx>
-    <miny>-43.22780085653801</miny>
-    <maxy>-41.14093211682952</maxy>
+    <minx>137.45768908752567</minx>
+    <maxx>137.75967964045122</maxx>
+    <miny>34.625112542318476</miny>
+    <maxy>35.78169659013569</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
