@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--1295cef3:17d9260010e:2ed7</id>
-  <name>SeamapAus_TAS_AbHab_substrata_MAP_TEST</name>
-  <nativeName>SeamapAus_TAS_AbHab_substrata_MAP_TEST</nativeName>
+  <id>FeatureTypeInfoImpl--1295cef3:17d9260010e:2f85</id>
+  <name>SeamapAus_TAS_AbHab_substrata_BLOCK28</name>
+  <nativeName>SeamapAus_TAS_AbHab_substrata_BLOCK28</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_TAS_AbHab_substrata_MAP_TEST</title>
+  <title>SeamapAus_TAS_AbHab_substrata_BLOCK28</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_TAS_AbHab_substrata_MAP_TEST</string>
+    <string>SeamapAus_TAS_AbHab_substrata_BLOCK28</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
