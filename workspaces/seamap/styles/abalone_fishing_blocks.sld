@@ -56,10 +56,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>blockno</ogc:PropertyName>
-              <ogc:Literal>25</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>blockno</ogc:PropertyName>
               <ogc:Literal>27</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -78,6 +74,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  
+            <Fill>
+              <CssParameter name="fill">#d9d9d9</CssParameter>
+              <CssParameter name="fill-opacity">0.3</CssParameter>					  
+            </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
