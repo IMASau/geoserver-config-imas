@@ -1,20 +1,16 @@
-<h3>Summary of data collection campaigns at this point</h3><BR>
-
 <#list features as feature>
-
-<#if (feature_index < 3) >
-
-<div class="feature">
-  <b>Site:</b> ${feature.Site.value}<BR>
-  <b>Data type: </b> ${feature.Dataset_type.value}<BR>
-  <b>Campaign:</b> ${feature.Campaign.value}<BR>
-  <b>Date/time start-end:</b> ${feature.Datetime_start_UTC.value[0..15]} to ${feature.Datetime_end_UTC.value[0..15]}<BR>  
-  <a href="${feature.Metadata_URL.value}">Metadata URL</a><BR>
-  <a href="${feature.THREDDS_collection_URL.value}">THREDDS collection URL</a><BR><BR>
-
-</div>
-	<#else>
-	<h6>This information has been limited to 3 results.<BR>More data has been collected at this point.</h6>
-		<#break>
-</#if>
+	<#if (feature_index < 3) >
+		<div class="feature">
+			<b>Video capture date:</b> ${feature.date.value[0..8]}<BR>
+			<#if ${feature.barren_typ.value} == 'barren_rare'>
+				<b>Barren type:</b> rare<BR>
+			<#elseif ${feature.barren_typ.value} == 'barren_common'>
+				<b>Barren type:</b> common<BR>
+			<#elseif ${feature.barren_typ.value} == 'barren_dense'>
+				<b>Barren type:</b> dense<BR> 
+			<#if>
+			<BR>
+		</div>	
+  	</#if>		
+  	</#if>
 </#list>
