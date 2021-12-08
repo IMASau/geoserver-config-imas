@@ -24,10 +24,10 @@
     </style>
   </styles>
   <bounds>
-    <minx>1140305.4058382362</minx>
-    <maxx>1253486.5756746812</maxx>
-    <miny>-4935777.338319747</miny>
-    <maxy>-4688936.595352718</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>147.65227043787255</minx>
+    <maxx>148.68395998748346</maxx>
+    <miny>-43.23162240782269</miny>
+    <maxy>-41.13480304662393</maxy>
+    <crs>EPSG:4326</crs>
   </bounds>
 </layerGroup>
