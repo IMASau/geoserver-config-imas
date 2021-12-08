@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 		<#if feature.GRAY_INDEX.rawValue?string("0") == '128'>
-		<i>Click is outside water column mapped area</i>
+		<i>no data</i>
 		<#else>		
 		<div class="feature">
 		<h5>Water Column Data - vegetation likelihood classification</h5><BR>
