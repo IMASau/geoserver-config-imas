@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Abalone habitat 50cm resolution bathymetry</title>
+  <title>50cm resolution bathymetry</title>
   <description>Generated from ImageMosaic</description>
   <abstract>Abalone Habitat and Warming Reefs projects - 50cm resolution multibeam bathymetry split by fishing block (22, 23, 24, 27, 28, 29, 30).</abstract>
   <keywords>
@@ -23,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
