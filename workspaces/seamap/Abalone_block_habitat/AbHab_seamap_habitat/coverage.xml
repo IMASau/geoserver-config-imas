@@ -5,9 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Abalone habitat finescale substratum</title>
+  <title>Finescale habitat (Seamap Australia classified)</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>This layer forms part of the composite layer group &apos;SeamapAus_TAS_AbHab_substrata_grp&apos; which has been styled to optimise load performance. Please use the layer group containing this layer, for any web mapping purposes. This data has been reduced (1m, from 0.5m) for load efficiency. The full data is available with layer name &apos;SeamapAus_TAS_AbHab_substrata_DATA&apos;</abstract>
+  <abstract>This layer forms part of the composite layer group &apos;AbHab_seamap_habitat_grp&apos; which has been rasterised to optimise load performance. Please use the layer group named above for any web mapping purposes. The full vectorised data is available with layer name &apos;SeamapAus_TAS_AbHab_substrata_DATA&apos;</abstract>
   <keywords>
     <string>habitat</string>
     <string>WCS</string>
@@ -50,6 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Abalone_block_habitat_habitat</entry>
