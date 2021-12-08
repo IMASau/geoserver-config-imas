@@ -33,7 +33,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>573148.6096119881</minx>
     <maxx>616317.24998</maxx>
@@ -42,16 +42,26 @@
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>137.45768908752567</minx>
-    <maxx>137.75967964045122</maxx>
-    <miny>34.625112542318476</miny>
-    <maxy>35.78169659013569</maxy>
+    <minx>573148.6096119881</minx>
+    <maxx>616317.24998</maxx>
+    <miny>5213493.96676</miny>
+    <maxy>5444672.249968282</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Abalone_block_habitat_habitat</entry>
   </metadata>
