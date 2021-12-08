@@ -79,7 +79,7 @@
                   <CssParameter name="stroke-opacity">0.8</CssParameter>                                                           
                </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -105,7 +105,7 @@
                   <CssParameter name="stroke-opacity">0.8</CssParameter>                                                                             
                </Stroke>                
               </Mark>
-              <Size>11</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>         

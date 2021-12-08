@@ -7,7 +7,7 @@
       <Title>Red fill with thick border</Title>
       <FeatureTypeStyle>
         <Rule>
-          <MinScaleDenominator>100000</MinScaleDenominator>                                                  
+          <MinScaleDenominator>300000</MinScaleDenominator>                                                  
           <Title>Bathymetry mapped extent</Title>
           <PolygonSymbolizer>
             <Fill>
