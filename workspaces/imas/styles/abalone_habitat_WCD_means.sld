@@ -10,7 +10,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1000000" label="Signal"/>                                          
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1000000" label="db signal"/>                                          
               <ColorMapEntry quantity="-64.0" label="-64" color="#ffffcd"/>
               <ColorMapEntry quantity="-54.0" label="-54" color="#d6ecad"/>
               <ColorMapEntry quantity="-45.0" label="-45" color="#add98d"/>
