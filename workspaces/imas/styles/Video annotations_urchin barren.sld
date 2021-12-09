@@ -9,28 +9,7 @@
   <NamedLayer>
     <Name>Points indicating presence and density of urchin barrens</Name>
     <UserStyle>
-      <FeatureTypeStyle>
-        <Rule>
-          <Title>Urchin barren prevalence</Title>
-					<ogc:Filter>
-					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>barren_typ</ogc:PropertyName>
-					      <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-					   </ogc:PropertyIsEqualTo>
-					</ogc:Filter>                 
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#000000</CssParameter>  
-                  <CssParameter name="fill-opacity">0</CssParameter>                       
-                </Fill>             
-              </Mark>
-              <Size>6</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>         
+      <FeatureTypeStyle>        
         <Rule>
           <Title>Barren rare (&lt;40%)</Title>
 					<ogc:Filter>

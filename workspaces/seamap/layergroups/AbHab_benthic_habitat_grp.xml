@@ -23,6 +23,13 @@
       <id>StyleInfoImpl--1295cef3:17d96ecb220:-7dc0</id>
     </style>
   </styles>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/de61f7c0-41bb-47bf-895a-7ff958689657</content>
+    </metadataLink>
+  </metadataLinks>
   <bounds>
     <minx>147.65227043787255</minx>
     <maxx>148.68395998748346</maxx>

@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl--1295cef3:17d5bf9e30e:1dbf</id>
-  <name>AbHab_WCD_9m2_mean</name>
+  <name>AbHab_WCD_9m2_means</name>
   <nativeName>AbHab_WCD_9m2_mean</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -23,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
