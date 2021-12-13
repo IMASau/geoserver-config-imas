@@ -1,6 +1,6 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-		<#if feature.GRAY_INDEX.rawValue?string("0") == '127'>
+		<#if feature.GRAY_INDEX.rawValue?string("0") == '0'>
 	<i>Click is outside area of habitat data coverage</i><BR>
 	<#else>
 	<BR><h5>Benthic habitat (<a href="https://seamapaustralia.org/wp-content/uploads/2017/11/Classification_Hierarchy_20170907.pdf" target="_blank">Seamap Australia classified</a>)</h5><BR>
