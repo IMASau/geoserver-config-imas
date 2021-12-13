@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Mosaiced multibeam bathymetry - clipped to AMP boundaries - original resolution</title>
+  <title>Mosaiced multibeam bathymetry - clipped to AMP boundaries</title>
   <description>Generated from ImageMosaic</description>
   <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single tiff per Australian Marine Park (AMP). Each AMP tiff is gridded to the equivalent of the finest resolution of data available in that region.</abstract>
   <keywords>
@@ -24,7 +24,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -53,6 +53,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_mosaics_AMP_raw_bathymetry_mosaics_AMP_raw</entry>
