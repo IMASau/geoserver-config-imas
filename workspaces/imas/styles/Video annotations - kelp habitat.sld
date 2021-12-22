@@ -44,16 +44,16 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ffcc00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.85</CssParameter>                       
+                  <CssParameter name="fill">#666666</CssParameter>  
+                  <CssParameter name="fill-opacity">0.4</CssParameter>                       
                 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.7</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                                         
                </Stroke>                    
               </Mark>
-              <Size>7</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>           
@@ -88,7 +88,7 @@
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
 					      <ogc:PropertyName>canopy_density</ogc:PropertyName>
-					      <ogc:Literal>common</ogc:Literal>
+					      <ogc:Literal>middle</ogc:Literal>
 					   </ogc:PropertyIsEqualTo>
 					</ogc:Filter>             
           <PointSymbolizer>
@@ -134,33 +134,7 @@
               <Size>13</Size>
             </Graphic>
           </PointSymbolizer>      
-        </Rule>
-        <Rule>
-          <Title>unscorable</Title>
-					<ogc:Filter>
-					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>canopy_density</ogc:PropertyName>
-					      <ogc:Literal>unscorable</ogc:Literal>
-					   </ogc:PropertyIsEqualTo>
-					</ogc:Filter>             
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#666666</CssParameter>  
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                       
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.4</CssParameter>                                         
-               </Stroke>                    
-              </Mark>
-              <Size>6</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule> 		
+        </Rule>		
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
