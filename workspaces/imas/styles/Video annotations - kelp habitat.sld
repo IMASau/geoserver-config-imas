@@ -65,7 +65,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00cc00</CssParameter>  
+                  <CssParameter name="fill">#80ff80</CssParameter>  
                   <CssParameter name="fill-opacity">0.85</CssParameter>                       
                 </Fill>
                 <Stroke>
@@ -74,12 +74,12 @@
                   <CssParameter name="stroke-opacity">0.7</CssParameter>                                                           
                </Stroke>                
               </Mark>
-              <Size>9</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
         <Rule>
-          <Title>Common (20-60%)</Title>
+          <Title>Mid (20-60%)</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
 					      <ogc:PropertyName>canopy_density</ogc:PropertyName>
@@ -91,7 +91,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00e600</CssParameter>  
+                  <CssParameter name="fill">#00cc00</CssParameter>  
                   <CssParameter name="fill-opacity">0.85</CssParameter>                       
                 </Fill>
                 <Stroke>
