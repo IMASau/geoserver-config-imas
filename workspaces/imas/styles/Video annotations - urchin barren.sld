@@ -14,7 +14,7 @@
           <Title>Barren rare (&lt;40%)</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>barren_typ</ogc:PropertyName>
+					      <ogc:PropertyName>barren_type</ogc:PropertyName>
 					      <ogc:Literal>barren_rare</ogc:Literal>
 					   </ogc:PropertyIsEqualTo>
 					</ogc:Filter>             
@@ -40,7 +40,7 @@
           <Title>Barren common (40-85%)</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>barren_typ</ogc:PropertyName>
+					      <ogc:PropertyName>barren_type</ogc:PropertyName>
 					      <ogc:Literal>barren_common</ogc:Literal>
 					   </ogc:PropertyIsEqualTo>
 					</ogc:Filter>             
@@ -66,7 +66,7 @@
           <Title>Barren dense (&gt;85%)</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>barren_typ</ogc:PropertyName>
+					      <ogc:PropertyName>barren_type</ogc:PropertyName>
 					      <ogc:Literal>barren_dense</ogc:Literal>
 					   </ogc:PropertyIsEqualTo>
 					</ogc:Filter>             
