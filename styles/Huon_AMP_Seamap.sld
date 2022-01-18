@@ -41,21 +41,6 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>  
-        <sld:Rule>		
-          <sld:Title>Unknown</sld:Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>Substratum</ogc:PropertyName>		
-              <ogc:Literal>Unknown</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <sld:PolygonSymbolizer>		
-            <sld:Fill>		
-              <sld:CssParameter name="fill">#999999</sld:CssParameter>		
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>		
-            </sld:Fill>		
-          </sld:PolygonSymbolizer>		
         </sld:Rule>  		
       </sld:FeatureTypeStyle>
     </sld:UserStyle>

@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Huon AMP geomorphology - L3 - FINESCALE classification</title>
+  <title>Huon AMP geomorphology - L3 GA FINESCALE geomorphic classification</title>
+  <abstract>Geomorphology of the Huon marine park - FINESCALE geomorphic classification (Geoscience Australia Level 3 geomorphology).</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_VLucieer_Huon_AMP_L3_finescale</string>
@@ -28,7 +29,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
