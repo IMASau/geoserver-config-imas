@@ -1,0 +1,15 @@
+<layer>
+  <name>Huon_AMP_L3_finescale_geomorphology</name>
+  <id>LayerInfoImpl--32d068c9:163827d3d24:4516</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--32d068c9:163827d3d24:4517</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--32d068c9:163827d3d24:4515</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

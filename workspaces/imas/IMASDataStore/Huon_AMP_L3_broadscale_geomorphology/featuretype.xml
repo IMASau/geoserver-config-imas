@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--32d068c9:163827d3d24:4515</id>
-  <name>Huon_AMP_L3_finescale</name>
-  <nativeName>NESP_VLucieer_Huon_AMP_L3_finescale</nativeName>
+  <id>FeatureTypeInfoImpl--32d068c9:163827d3d24:4511</id>
+  <name>Huon_AMP_L3_broadscale_geomorphology</name>
+  <nativeName>NESP_VLucieer_Huon_AMP_L3_broadscale</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Huon AMP geomorphology - L3 GA FINESCALE geomorphic classification</title>
-  <abstract>Geomorphology of the Huon marine park - FINESCALE geomorphic classification (Geoscience Australia Level 3 geomorphology).</abstract>
+  <title>Huon AMP geomorphology - L3 GA BROADSCALE geomorphic classification</title>
+  <abstract>Geomorphology of the Huon marine park - BROADSCALE classification (Geoscience Australia Level 3 geomorphology).</abstract>
   <keywords>
     <string>features</string>
-    <string>NESP_VLucieer_Huon_AMP_L3_finescale</string>
+    <string>NESP_VLucieer_Huon_AMP_L3_broadscale</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -43,17 +43,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>147.06679064531042</minx>
-    <maxx>148.30163160479887</maxx>
-    <miny>-44.873909412548535</miny>
-    <maxy>-43.860042276803696</maxy>
+    <minx>146.93044491691782</minx>
+    <maxx>148.86052133794627</maxx>
+    <miny>-44.90511524244258</miny>
+    <maxy>-43.48958912721755</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.06679064531042</minx>
-    <maxx>148.30163160479887</maxx>
-    <miny>-44.873909412548535</miny>
-    <maxy>-43.860042276803696</maxy>
+    <minx>146.93044491691782</minx>
+    <maxx>148.86052133794627</maxx>
+    <miny>-44.90511524244258</miny>
+    <maxy>-43.48958912721755</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
