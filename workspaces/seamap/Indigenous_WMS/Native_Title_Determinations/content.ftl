@@ -5,16 +5,18 @@
 	<BR>
 	<div class="feature"> 
 		<b>Claimant:</b> ${feature.name.value}<BR>
-		<b>Determination outcome:</b> ${feature.detoutcome.value}<BR>
+		<b>Outcome:</b> <i>${feature.detoutcome.value}</i><BR>
 		<b>Determination type:</b> ${feature.dettype.value}<BR>
-		<b>Date of currency:</b> ${feature.datecurr.value}<BR>
-		<b>Current Native Title holder:</b> ${feature.nthold.value}
+		<b>Date registered:</b> ${feature.detregdate.value[0..7]}<BR>
+		<b>Date determined:</b> ${feature.detdate.value[0..7]}<BR>
+		<b>Determination method:</b> ${feature.detmethod.value}<BR>
+		<b>Status:</b> ${feature.dettype.value}<BR>			
+		<b>RNTBC name:</b> ${feature.rntbcname.value}
 		<BR><BR>
 		<b>Determination info</b><BR>
 		<i>${feature.fcname.value}<BR>
 		Case ID <a  rel="external" href="${feature.link.value}" target="_blank">${feature.fcno.value}</a><BR>
-		${feature.detbody.value}<BR>
-		${feature.detdate.value}</i>
+		${feature.detbody.value}</i>
 
 		<BR><BR>
 	</div>
