@@ -5,13 +5,10 @@
 	<BR>
 	<div class="feature"> 
 		<b>Claimant:</b> ${feature.name.value}<BR>
-		<b>Status:</b> ${feature.rtstatus.value}<BR>
-		<b>Date of currency:</b> ${feature.datecurr.value}
-		<BR><BR>
-		<b>Claim info</b><BR>
-		<i>Claim ID: ${feature.fcno.value}<BR>
-		Date lodged:${feature.datelodged.value}</i>
-------------------------------
+		<b>Status:</b> <i>${feature.rtstatus.value}</i><BR>
+		<b>Date registered:</b> ${feature.datereg.value[0..7]}<BR>
+		<b>Date determined:</b> ${feature.datertdec.value[0..7]}<BR>
+		<b>Representative:</b> ${feature.rep.value}
 		<BR><BR>
 	</div>
 		<#else>
@@ -21,3 +18,4 @@
 		
   </#if>
 </#list>
+

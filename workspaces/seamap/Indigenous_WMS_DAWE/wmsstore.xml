@@ -1,7 +1,7 @@
 <wmsStore>
-  <id>WMSStoreInfoImpl--1295cef3:17d27c902a4:-7163</id>
-  <name>Indigenous_WMS</name>
-  <description>Source of indigenous contextual cascaded WMS layers (data.gov.au)</description>
+  <id>WMSStoreInfoImpl--5bc17bf2:17e888eeff1:-6b62</id>
+  <name>Indigenous_WMS_DAWE</name>
+  <description>Source of indigenous contextual cascaded WMS layers (DAWE)</description>
   <type>WMS</type>
   <enabled>true</enabled>
   <workspace>
@@ -11,7 +11,7 @@
     <entry key="useConnectionPooling">true</entry>
   </metadata>
   <__default>false</__default>
-  <capabilitiesURL>https://data.gov.au/geoserver/wms</capabilitiesURL>
+  <capabilitiesURL>http://www.environment.gov.au/mapping/services/ogc_services/Indigenous_Protected_Areas/MapServer/WMSServer</capabilitiesURL>
   <maxConnections>6</maxConnections>
   <readTimeout>60</readTimeout>
   <connectTimeout>30</connectTimeout>
