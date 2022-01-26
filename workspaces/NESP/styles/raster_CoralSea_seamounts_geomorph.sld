@@ -7,7 +7,6 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MinScaleDenominator>219999</MinScaleDenominator>                                        
           <RasterSymbolizer>
             <ColorMap type="values">
               <ColorMapEntry color="#e60000" opacity="0.8" quantity="10" label=" High ridges"/>
