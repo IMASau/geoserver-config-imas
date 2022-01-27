@@ -1,9 +1,12 @@
 <#list features as feature>
 <#if (feature_index < 1) >
-<h3>This is a sample of the data collected at ${feature.site.value} (${feature.state.value}) - ${feature.treatment.value} treatment</h3><BR>
+<h5>This is a sample of the data collected at ${feature.site.value} (${feature.state.value})</h5><BR>
 	
-  <div class="feature">  
-  <b>Date: </b> ${feature.sample_date.value[0..9]}<BR><BR>
+  <div class="feature">
+
+  <b>Scale: </b> ${feature.scale.value}<BR>
+  <b>Population: </b> ${feature.population.value}<BR>
+  <b>Treatment level: </b> ${feature.treatment.value}<BR><BR>
 
   <#assign BOD=feature["BOD 5-days"].value>
   <#assign Grease=feature["Oil and Grease"].value>
@@ -20,6 +23,7 @@
   <#assign EColi=feature["E-coli"].value>   
   <#assign Algae=feature["Total Algae Count"].value>     
 
+  <b>Date: </b> ${feature.sample_date.value[0..9]}<BR>
   
   <#if BOD?has_content>  
   <b>5-day BOD: </b> ${feature["Bod 5-days"].rawValue?string("0.0")} mg L<sup>-1</sup><BR>
@@ -65,7 +69,7 @@
   </#if>  
  </div>
 	<#else>
-	<h6>More data exists at this point. Download the full dataset to see all information available at this location.</h6>
+	<i><BR>Download the full dataset to see all information available at this location.</i>
 		<#break>
   </#if>
 </#list>
