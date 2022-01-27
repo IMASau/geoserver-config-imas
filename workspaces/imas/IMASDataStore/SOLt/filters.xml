@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Author</name>
+        <type>string</type>
+        <label>Author</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Cruise</name>
+        <type>string</type>
+        <label>Cruise ID</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>start_date</name>
+        <type>datetime</type>
+        <label>Start date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
