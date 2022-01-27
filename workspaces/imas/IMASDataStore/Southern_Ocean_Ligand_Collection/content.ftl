@@ -20,7 +20,7 @@
  
  </div>
 	<#else>
-	<i><BR>Download the full dataset to see all information available at this location.</i>
+	<i>This information has been limited to 3 observations. Download the full collection to see all data available at this location.</i>
 		<#break>
   </#if>
 </#list>
