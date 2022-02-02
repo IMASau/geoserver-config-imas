@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_TAS_Huon_substrata</name>
+  <id>LayerInfoImpl--5bc17bf2:17eb7720de7:2602</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5bc17bf2:17eb7720de7:2608</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5bc17bf2:17eb7720de7:2601</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
