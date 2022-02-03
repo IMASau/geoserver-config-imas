@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-69a648bc:16203636226:2a6a</id>
-  <name>SeamapAus_QLD_NWTorresStrait_seagrass_MAP</name>
+  <name>SeamapAus_QLD_TorresStrait_seagrass_northwest_MAP</name>
   <nativeName>SeamapAus_QLD_NWTorresStrait_seagrass_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - NW Torres Strait seagrass - MAP</title>
+  <title>Seamap Australia - QLD - Torres Strait seagrass northwest - MAP</title>
   <abstract>Mapping view (zoom-based styling pin for study area)</abstract>
   <keywords>
     <string>habitat mapping</string>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
