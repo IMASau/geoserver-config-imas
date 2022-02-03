@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_Kimberley_benthic_biodiversity</name>
+  <id>LayerInfoImpl--5bc17bf2:17ebe43659c:-16c5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5bc17bf2:17ebe43659c:-16c6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
