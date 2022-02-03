@@ -10,8 +10,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
     <Name>habitat_polygon</Name>
     <UserStyle>
-      <Title>Habitat Polygon</Title>
-      <Abstract>A style that renders habitats</Abstract>
+      <Title>Kimberley benthic biodiversity</Title>
       <FeatureTypeStyle>
         <Rule>
           <Title>Dense Gorgonian, Dense Sponge</Title>
