@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_QLD_TorresStrait_seagrass_OrmanReef_2017</name>
+  <id>LayerInfoImpl--5bc17bf2:17ebd277095:1f1a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5bc17bf2:17ebd277095:1f14</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5bc17bf2:17ebd277095:1f19</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
