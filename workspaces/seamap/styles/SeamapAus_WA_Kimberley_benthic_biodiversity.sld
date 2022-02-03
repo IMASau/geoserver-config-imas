@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Alcyon, Burrowers, Caulerpa, Rhodoliths, Medium Whips, Dense Whips, No benthos</Title>
+          <Title>Alcyon, Burrowers, Caulerpa, Rhodoliths, Medium &amp; Dense Whips</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
