@@ -88,7 +88,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sparse Hard Coral, Medium Hard Coral, Bryozoans</Title>
+          <Title>Sparse &amp; Medium Hard Coral, Bryozoans</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
