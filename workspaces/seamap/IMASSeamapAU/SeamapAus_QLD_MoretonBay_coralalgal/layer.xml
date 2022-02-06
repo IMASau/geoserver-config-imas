@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_QLD_MoretonBay_coralalgal</name>
+  <id>LayerInfoImpl-3f118783:17ebeec14b9:-7ecc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f118783:17ebeec14b9:-7f0f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3f118783:17ebeec14b9:-7ecd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
