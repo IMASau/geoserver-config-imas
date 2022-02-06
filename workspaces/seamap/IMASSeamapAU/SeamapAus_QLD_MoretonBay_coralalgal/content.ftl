@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - QLD - GBR Cairns to Cooktown benthic habitat type</h5>
+	<h5>Habitat - QLD - Moreton Bay benthic inventory of reefal areas</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
