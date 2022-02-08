@@ -49,8 +49,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">geomorphology_maps_geomorph_AMP</entry>
   </metadata>
   <store class="coverageStore">
@@ -74,14 +75,11 @@
     <crs>EPSG:32756</crs>
   </grid>
   <supportedFormats>
-    <string>ImageMosaic</string>
     <string>GEOTIFF</string>
-    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
