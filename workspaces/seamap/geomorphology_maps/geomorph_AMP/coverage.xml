@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-733d3287:17ed8ffd77c:73c0</id>
+  <id>CoverageInfoImpl-733d3287:17eda00b620:-6d7e</id>
   <name>geomorph_AMP</name>
   <nativeName>geomorph_AMP</nativeName>
   <namespace>
@@ -8,7 +8,7 @@
   <title>Geomorphology maps for Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>geomorph_AMP</string>
+    <string>geomorph</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -37,24 +37,24 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>1362585.6857</minx>
-    <maxx>1771515.869812045</maxx>
-    <miny>-4448187.2593</miny>
-    <maxy>-3705746.3166</maxy>
+    <minx>1362585.6857288901</minx>
+    <maxx>1771517.4028856023</maxx>
+    <miny>-4448204.4913346255</miny>
+    <maxy>-3705746.3165962547</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.60017248893683</minx>
-    <maxx>154.18713101075753</maxx>
-    <miny>-38.8093031859686</miny>
-    <maxy>-31.665759415259007</maxy>
+    <minx>148.60017248923896</minx>
+    <maxx>154.1871794545941</maxx>
+    <miny>-38.80945579247676</miny>
+    <maxy>-31.66575732205437</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">geomorphology_maps_geomorph_AMP</entry>
+    <entry key="dirName">geomorphology_maps_geomorph</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:4115</id>
@@ -64,15 +64,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>246207 447006</high>
+      <high>204465 371229</high>
     </range>
     <transform>
-      <scaleX>1.6609170868347862</scaleX>
-      <scaleY>-1.6609170868348444</scaleY>
+      <scaleX>2.0</scaleX>
+      <scaleY>-2.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>1362586.5161585435</translateX>
-      <translateY>-3705747.1470585433</translateY>
+      <translateX>1362586.6857288901</translateX>
+      <translateY>-3705747.3165962547</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
@@ -98,10 +98,10 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>-2.147483648E9</double>
       </nullValues>
       <dimensionType>
-        <name>UNSIGNED_8BITS</name>
+        <name>SIGNED_32BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -173,5 +173,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>geomorph_AMP</nativeCoverageName>
+  <nativeCoverageName>geomorph</nativeCoverageName>
 </coverage>

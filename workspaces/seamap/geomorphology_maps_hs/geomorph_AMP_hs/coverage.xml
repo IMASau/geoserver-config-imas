@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-733d3287:17ed8ffd77c:7388</id>
+  <id>CoverageInfoImpl-733d3287:17eda00b620:-6d82</id>
   <name>geomorph_AMP_hs</name>
   <nativeName>geomorph_AMP_hs</nativeName>
   <namespace>
@@ -53,7 +53,6 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
   </metadata>
