@@ -1,0 +1,15 @@
+<layer>
+  <name>geomorph_AMP</name>
+  <id>LayerInfoImpl-733d3287:17ed8ffd77c:428f</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-733d3287:17ed8ffd77c:428e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:4115</id>
+  <name>geomorphology_maps</name>
+  <description>Geomorphology maps clipped to Aus Marine Park boundaries</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/geomorph_AMP</url>
+</coverageStore>
