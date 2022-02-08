@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-733d3287:17eda00b620:-6d82</id>
-  <name>geomorph_AMP_hs</name>
+  <name>geomorph_hs_AMP</name>
   <nativeName>geomorph_AMP_hs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade layer geomorphology maps</title>
+  <title>Bathymetry hillshade layer of Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
   <abstract>Hillshade (z-factor 5m) to be viewed in combination with geomorphology maps for AMPs.</abstract>
   <keywords>
@@ -53,6 +53,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
   </metadata>
@@ -101,7 +102,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
