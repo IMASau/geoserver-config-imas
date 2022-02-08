@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--1295cef3:17d27c902a4:-6f55</id>
+  <id>CoverageInfoImpl-733d3287:17ed726102a:449b</id>
   <name>mosaiced_bathymetry_AMP</name>
-  <nativeName>mosaiced_bathymetry_AMP_raw</nativeName>
+  <nativeName>mosaiced_bathymetry_AMP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Mosaiced multibeam bathymetry - clipped to AMP boundaries</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single tiff per Australian Marine Park (AMP). Each AMP tiff is gridded to the equivalent of the finest resolution of data available in that region.</abstract>
+  <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region.</abstract>
   <keywords>
-    <string>bathymetry_mosaics_AMP_raw</string>
+    <string>bathymetry_mosaics_AMP</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -41,49 +41,49 @@
     <minx>-4707046.8838</minx>
     <maxx>3554511.9010241325</maxx>
     <miny>-7249044.730879928</miny>
-    <maxy>-885552.2551727835</maxy>
+    <maxy>-912245.8538097795</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.6335271509336</minx>
-    <maxx>178.04482566011274</maxx>
+    <minx>-174.21595840036125</minx>
+    <maxx>178.07265664816637</maxx>
     <miny>-62.24945040840132</miny>
-    <maxy>-1.1606693147540046</maxy>
+    <maxy>-1.371530517894182</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_mosaics_AMP_raw_bathymetry_mosaics_AMP_raw</entry>
+    <entry key="dirName">bathymetry_mosaics_AMP_bathymetry_mosaics_AMP</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--1295cef3:17d27c902a4:-6f6a</id>
+    <id>CoverageStoreInfoImpl-733d3287:17ed726102a:449a</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>2146016 3154247</high>
+      <high>8784626 6738003</high>
     </range>
     <transform>
       <scaleX>0.9404564403697298</scaleX>
       <scaleY>-0.9404564403697291</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>224321.4028164261</translateX>
-      <translateY>-4013638.1418741224</translateY>
+      <translateX>-4707046.41357178</translateX>
+      <translateY>-912246.3240379997</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -99,9 +99,6 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <nullValues>
-        <double>-3.402823E38</double>
-      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -175,5 +172,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>bathymetry_mosaics_AMP_raw</nativeCoverageName>
+  <nativeCoverageName>bathymetry_mosaics_AMP</nativeCoverageName>
 </coverage>

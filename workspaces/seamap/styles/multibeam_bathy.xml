@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--1295cef3:17d21cb61bd:20dc</id>
-  <name>bathymetry_mosaics</name>
+  <name>multibeam_bathy</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>bathymetry_mosaics.sld</filename>
+  <filename>multibeam_bathy.sld</filename>
 </style>
