@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-2925422a:17ccb137da3:-7fdf</id>
-  <name>SeamapAus_QLD_GBR10_benthic_habitat</name>
+  <name>SeamapAus_QLD_GBR10_benthictype</name>
   <nativeName>GBR10_GBRMP_benthic_habitat_l</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - GBRMP Benthic Habitat Type</title>
+  <title>Seamap Australia - QLD - GBR MP benthic habitat type (10m grid)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>GBR10_GBRMP_Benthic</string>
