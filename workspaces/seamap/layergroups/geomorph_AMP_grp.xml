@@ -1,0 +1,30 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-733d3287:17ed8ffd77c:7393</id>
+  <name>geomorph_AMP_grp</name>
+  <mode>SINGLE</mode>
+  <title>Layer group for geomorphology maps</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-733d3287:17ed8ffd77c:7389</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>1277143.7521832562</minx>
+    <maxx>1888831.9394233264</maxx>
+    <miny>-4505449.443682473</miny>
+    <maxy>-3651724.1494252915</maxy>
+    <crs class="projected">EPSG:3112</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layerGroup>
