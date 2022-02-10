@@ -1,30 +1,31 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-
-	<#assign MERI_depth_zone=feature.GRAY_INDEX.value?number>	
 	
-	<h5>Assorted resolution multibeam bathymetry data</h5><BR>
-		<i>Mosaiced and clipped to Australian Marine Parks</i><BR>
-		<br>
+	<h5>Geomorphic classification</h5><BR>
 		<div class="feature">
-		<#if feature.GRAY_INDEX.rawValue?string("0") == '-340282306073709650000000000000000000000'>
-			<b>Depth:</b> N/A <i>(click is outside area of data coverage)</i><BR>
+		<#if feature.GRAY_INDEX.rawValue?string("0") == '-2147483647'>
+			Feature: <b>N/A (click is outside area of data coverage)<BR>
 		<#else>
-			<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?string("0.0")} m <i>
-			<#if (MERI_depth_zone <= -4000)>
-				(abyssal)
-			<#elseif (MERI_depth_zone > -4000) && (MERI_depth_zone <= -2000)>
-				(lower-slope)
-			<#elseif (MERI_depth_zone > -2000) && (MERI_depth_zone <= -700)>
-				(mid-slope)
-			<#elseif (MERI_depth_zone > -700) && (MERI_depth_zone <= -200)>
-				(upper-slope)
-			<#elseif (MERI_depth_zone > -200) && (MERI_depth_zone <= -70)>
-				(rariphotic)
-			<#elseif (MERI_depth_zone > -70) && (MERI_depth_zone <= -30)>
-				(mesophotic)
-			<#elseif (MERI_depth_zone > -30)>
-				(shallow)
+			<#if feature.GRAY_INDEX.rawValue?string("0") == '1'>
+				Feature: <b>Flat</b>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '2'>
+				Feature: <b>Peak</b> <i>(summit)</i>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '3'>
+				Feature: <b>Ridge</b>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '4'>
+				Feature: <b>Shoulder</b>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '5'>
+				Feature: <b>Spur</b> <i>(convex)</i>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '6'>
+				Feature: <b>Slope</b>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '7'>
+				Feature: <b>Hollow</b> <i>(concave)</i>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '8'>
+				Feature: <b>Footslope</b>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '9'>
+				Feature: <b>Valley</b>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '10'>
+				Feature: <b>Pit</b> <i>(depression)</i>
 			</#if>			
 		<BR>
 		</#if>
