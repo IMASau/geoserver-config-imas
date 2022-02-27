@@ -9,6 +9,9 @@
   </workspace>
   <publishables>
     <published type="layer">
+      <id>LayerInfoImpl-733d3287:17ee0c36557:-64f9</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl-733d3287:17eda00b620:-6d81</id>
     </published>
     <published type="layer">
@@ -16,6 +19,9 @@
     </published>
   </publishables>
   <styles>
+    <style>
+      <id>StyleInfoImpl-733d3287:17ee0c36557:-6284</id>
+    </style>
     <style>
       <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
     </style>
