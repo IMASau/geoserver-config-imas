@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl--36d2fac4:17f5e228d2e:-71e0</id>
-  <name>geomorph_hs_AMP4</name>
-  <nativeName>geomorph_hs_AMP4</nativeName>
+  <id>CoverageInfoImpl--36d2fac4:17f5e97e260:f3a</id>
+  <name>hillshade</name>
+  <nativeName>hillshade</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -38,15 +38,15 @@
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
     <minx>-4707043.39714158</minx>
-    <maxx>2518367.184956368</maxx>
+    <maxx>3554485.3470550105</maxx>
     <miny>-7249023.774016198</miny>
     <maxy>-1046659.4767366815</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>68.0619369896261</minx>
-    <maxx>171.7397971393643</maxx>
-    <miny>-62.17221122828522</miny>
+    <minx>-174.21642177090052</minx>
+    <maxx>178.21294166713446</maxx>
+    <miny>-62.24929429000415</miny>
     <maxy>-2.437766888859881</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -63,7 +63,7 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>6895582 5919236</high>
+      <high>7884403 5919236</high>
     </range>
     <transform>
       <scaleX>1.0478317688322716</scaleX>
