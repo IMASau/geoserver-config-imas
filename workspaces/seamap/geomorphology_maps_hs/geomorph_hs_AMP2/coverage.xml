@@ -1,13 +1,12 @@
 <coverage>
-  <id>CoverageInfoImpl-733d3287:17eda00b620:-6d82</id>
-  <name>geomorph_hs_AMP</name>
-  <nativeName>geomorph_AMP_hs</nativeName>
+  <id>CoverageInfoImpl-3032fc8c:17f59da47cf:cc</id>
+  <name>geomorph_hs_AMP2</name>
+  <nativeName>geomorph_hs_AMP2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Bathymetry hillshade layer of Australian Marine Parks (AMPs)</title>
+  <title>hillshade</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Hillshade (z-factor 5m) to be viewed in combination with geomorphology maps for AMPs.</abstract>
   <keywords>
     <string>hillshade</string>
     <string>WCS</string>
@@ -38,24 +37,22 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>1362585.6857</minx>
-    <maxx>1771515.8675</maxx>
-    <miny>-4448187.2593</miny>
-    <maxy>-3705746.3166</maxy>
+    <minx>-4707043.39714158</minx>
+    <maxx>3554485.3470550105</maxx>
+    <miny>-7249023.774016198</miny>
+    <maxy>-1046659.4767366815</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.60017248893683</minx>
-    <maxx>154.18713098486174</maxx>
-    <miny>-38.8093031859686</miny>
-    <maxy>-31.665759418415746</maxy>
+    <minx>-179.51014033661068</minx>
+    <maxx>178.21294166713446</maxx>
+    <miny>-62.24929429000415</miny>
+    <maxy>-2.437766888859881</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
   </metadata>
   <store class="coverageStore">
@@ -66,24 +63,27 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>180977 447006</high>
+      <high>261476 120939</high>
     </range>
     <transform>
-      <scaleX>2.2595587423311594</scaleX>
-      <scaleY>-1.6609170868348444</scaleY>
+      <scaleX>15.0</scaleX>
+      <scaleY>-15.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>1362586.8154793712</translateX>
-      <translateY>-3705747.1470585433</translateY>
+      <translateX>-2172948.3086895687</translateX>
+      <translateY>-2926608.41545994</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>ArcGrid</string>
+    <string>GeoPackage (mosaic)</string>
+    <string>GEOTIFF</string>
+    <string>ImageMosaic</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
