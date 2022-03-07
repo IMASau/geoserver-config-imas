@@ -99,10 +99,10 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-2.147483648E9</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
-        <name>SIGNED_32BITS</name>
+        <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>

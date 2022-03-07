@@ -24,7 +24,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -38,17 +38,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>1362585.6857</minx>
-    <maxx>1771515.8675</maxx>
-    <miny>-4448187.2593</miny>
-    <maxy>-3705746.3166</maxy>
+    <minx>-4707043.39714158</minx>
+    <maxx>3551860.4149496453</maxx>
+    <miny>-7249023.774016198</miny>
+    <maxy>-885552.2519595157</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.60017248893683</minx>
-    <maxx>154.18713098486174</maxx>
-    <miny>-38.8093031859686</miny>
-    <maxy>-31.665759418415746</maxy>
+    <minx>-179.66514310651738</minx>
+    <maxx>178.01452747312229</maxx>
+    <miny>-62.24862669947749</miny>
+    <maxy>-1.1606782264974265</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -140,7 +140,7 @@
     </entry>
     <entry>
       <string>OutputTransparentColor</string>
-      <null/>
+      <string>#FFFFFF</string>
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
