@@ -44,7 +44,7 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-174.25048314043775</minx>
+    <minx>-179.66514310651738</minx>
     <maxx>178.01452747312229</maxx>
     <miny>-62.24862669947749</miny>
     <maxy>-1.1606782264974265</maxy>
@@ -156,7 +156,7 @@
     </entry>
     <entry>
       <string>InputTransparentColor</string>
-      <string>#000000</string>
+      <null/>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
@@ -164,7 +164,7 @@
     </entry>
     <entry>
       <string>Accurate resolution computation</string>
-      <boolean>false</boolean>
+      <boolean>true</boolean>
     </entry>
     <entry>
       <string>SORTING</string>
