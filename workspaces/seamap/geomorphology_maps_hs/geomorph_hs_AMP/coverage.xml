@@ -96,8 +96,8 @@
       <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>-inf</min>
-        <max>inf</max>
+        <min>0.0</min>
+        <max>255.0</max>
       </range>
       <nullValues>
         <double>255.0</double>
@@ -116,7 +116,7 @@
   <parameters>
     <entry>
       <string>BackgroundValues</string>
-      <null/>
+      <string>255</string>
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
@@ -140,7 +140,7 @@
     </entry>
     <entry>
       <string>OutputTransparentColor</string>
-      <string>#FFFFFF</string>
+      <null/>
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
