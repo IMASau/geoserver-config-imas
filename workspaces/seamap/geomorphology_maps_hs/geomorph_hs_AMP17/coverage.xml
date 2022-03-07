@@ -44,13 +44,13 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-174.25048314043775</minx>
+    <minx>-179.66514310651738</minx>
     <maxx>178.01452747312229</maxx>
     <miny>-62.24862669947749</miny>
     <maxy>-1.1606782264974265</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
