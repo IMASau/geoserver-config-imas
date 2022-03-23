@@ -265,7 +265,472 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Continental Slope Demersal Fish Communities</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Continental Slope Demersal Fish Communities</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Diamantina Fracture Zone</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Diamantina Fracture Zone</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Elizabeth and Middleton reefs</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Elizabeth and Middleton reefs</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Exmouth Plateau</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Exmouth Plateau</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Glomar Shoals</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Glomar Shoals</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Gulf of Carpentaria basin</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Gulf of Carpentaria basin</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Gulf of Carpentaria coastal zone</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Gulf of Carpentaria coastal zone</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Kangaroo Island Pool, canyons and adjacent \nshelf break, and Eyre Peninsula upwellings</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Kangaroo Island Pool, canyons and adjacent shelf break, and Eyre Peninsula upwellings</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
         </Rule>			
+        <Rule>
+          <Title>Lord Howe seamount chain</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Lord Howe seamount chain</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>			
+        <Rule>
+          <Title>Mermaid Reef and Commonwealth waters \nsurrounding Rowley Shoals</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Mermaid Reef and Commonwealth waters surrounding Rowley Shoals</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Naturaliste Plateau</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Naturaliste Plateau</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Norfolk Ridge</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Norfolk Ridge</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>Perth Canyon and adjacent shelf break, and \nother west coast canyons</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Perth Canyon and adjacent shelf break, and other west coast canyons</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>Pinnacles of the Bonaparte Basin</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Pinnacles of the Bonaparte Basin</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Plateaux and saddle north-west of the \nWellesley Islands</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Plateaux and saddle north-west of the Wellesley Islands</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Reefs, cays and herbivorous fish of the \nMarion Plateau</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Reefs, cays and herbivorous fish of the Marion Plateau</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>			
+        <Rule>
+          <Title>Reefs, cays and herbivorous fish of the \nQueensland Plateau</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Reefs, cays and herbivorous fish of the Queensland Plateau</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Seamounts South and east of Tasmania</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Seamounts South and east of Tasmania</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Seringapatam Reef and Commonwealth waters \nin the Scott Reef Complex</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Seringapatam Reef and Commonwealth waters in the Scott Reef Complex</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Shelf break and slope of the Arafura Shelf</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Shelf break and slope of the Arafura Shelf</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Shelf rocky reefs</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Shelf rocky reefs</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Submerged coral reefs of the Gulf of Carpentaria</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Submerged coral reefs of the Gulf of Carpentaria</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Tasman Front and eddy field</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Tasman Front and eddy field</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Tasmantid seamount chain</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Tasmantid seamount chain</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Tributary Canyons of the Arafura Depression</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Tributary Canyons of the Arafura Depression</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Upwelling East of Eden</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Upwelling East of Eden</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Upwelling off Fraser Island</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Upwelling off Fraser Island</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Wallaby Saddle</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Wallaby Saddle</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>West Tasmania Canyons</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>West Tasmania Canyons</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Western demersal slope and associated \nfish communities</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Western demersal slope and associated fish communities</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Western rock lobster</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:Literal>Western rock lobster</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e7e500</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>		
 
 
       <VendorOption name="sortBy">AREA_KM2 D</VendorOption>		
