@@ -310,7 +310,7 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#7c77c8</CssParameter>
+							<CssParameter name="fill">#dd74e8</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
 						<Stroke>
@@ -1130,7 +1130,7 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#2b22f9</CssParameter>
+							<CssParameter name="fill">#7273c7</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
 						<Stroke>
