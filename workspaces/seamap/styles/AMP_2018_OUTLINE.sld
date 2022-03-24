@@ -41,9 +41,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <PolygonSymbolizer>
 
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-              <CssParameter name="opacity">0.9</CssParameter>					  			  
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="opacity">0.7</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
  		</Rule>   

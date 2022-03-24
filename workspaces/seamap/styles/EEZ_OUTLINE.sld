@@ -13,7 +13,7 @@
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>              
+              <CssParameter name="stroke-opacity">0.5</CssParameter>              
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>
