@@ -1,9 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-	
-	<h5>Australian Exclusive Economic Zone (EEZ)</h5><BR>
 		<div class="feature">
-			${feature.GEONAME.value}		
+			<b>${feature.GEONAME.value}</b>		
 			<BR><BR>
 		</div>
 	</#if>
