@@ -14,7 +14,7 @@
 			<Title>Integrated Marine and Coastal Regionalisation of Australia (IMCRA) - Provinces</Title>
 			<FeatureTypeStyle>
  		<Rule>
-		  <Title>Province Name</Title>
+		  <Title>Provincial Bioregion</Title>
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
