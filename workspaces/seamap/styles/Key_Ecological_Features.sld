@@ -733,7 +733,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>		
 
 
-      <VendorOption name="sortBy">AREA_KM2 D</VendorOption>		
+      <VendorOption name="sortBy">draworder D</VendorOption>		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

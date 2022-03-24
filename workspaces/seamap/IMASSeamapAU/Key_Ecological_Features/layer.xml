@@ -1,0 +1,15 @@
+<layer>
+  <name>Key_Ecological_Features</name>
+  <id>LayerInfoImpl--492f85e9:17fb9dc51bb:-7512</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--492f85e9:17fb2196d8e:-2ddd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--492f85e9:17fb9dc51bb:-7513</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
