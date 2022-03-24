@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-25b7d820:17bb800735e:-7316</id>
-  <name>EEZ</name>
+  <name>EEZ_OUTLINE</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>EEZ.sld</filename>
+  <filename>EEZ_OUTLINE.sld</filename>
 </style>

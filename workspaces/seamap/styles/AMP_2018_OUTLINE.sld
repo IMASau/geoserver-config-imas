@@ -37,15 +37,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			</TextSymbolizer>
  		</Rule>
  		<Rule>
-		  <Title>AMP boundary outline</Title>          
+		  <Title>Australian Marine Park boundary</Title>          
                     <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#d9d9d9</CssParameter>
-              <CssParameter name="fill-opacity">0.01</CssParameter>					  
-            </Fill>
+
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
               <CssParameter name="opacity">0.9</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
