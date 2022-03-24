@@ -14,6 +14,12 @@
 		<FeatureTypeStyle>		
  		<Rule>
 		  <Title>Meso-scale Bioregion</Title>
+					<ogc:Filter>
+					   <ogc:PropertyIsNotEqualTo>
+					      <ogc:PropertyName>MESO_NAME</ogc:PropertyName>
+					      <ogc:Literal>nil</ogc:Literal>
+					   </ogc:PropertyIsNotEqualTo>
+					</ogc:Filter>        
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
@@ -28,11 +34,10 @@
            			<CssParameter name="font-family">SansSerif.plain</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>             
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">-1</VendorOption>
-					<VendorOption name="group">yes</VendorOption>
-					<VendorOption name="labelAllGroup">true</VendorOption>
-					<VendorOption name="conflictResolution">false</VendorOption>
+                    <VendorOption name="partials">false</VendorOption>
+					<VendorOption name="spaceAround">0</VendorOption>
+					<VendorOption name="group">false</VendorOption>
+					<VendorOption name="conflictResolution">true</VendorOption>
 			</TextSymbolizer>              
  		</Rule>              
 				<Rule>
