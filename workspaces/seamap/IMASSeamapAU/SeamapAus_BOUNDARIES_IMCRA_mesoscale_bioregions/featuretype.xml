@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4677ad3c:15f89a5f2ca:3dea</id>
-  <name>SeamapAus_BOUNDARIES_IMCRA_FULL</name>
+  <id>FeatureTypeInfoImpl--492f85e9:17fbabaeeb8:52e1</id>
+  <name>SeamapAus_BOUNDARIES_IMCRA_mesoscale_bioregions</name>
   <nativeName>SeamapAus_BOUNDARIES_IMCRA_FULL</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Integrated Marine and Coastal Regionalisation (IMCRA) - Provincial Bioregions</title>
-  <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Styling applied at the Provincial Bioregion level. Rehosted for the purposes of Seamap Australia.</abstract>
+  <title>Integrated Marine and Coastal Regionalisation (IMCRA) - Meso-scale Bioregions</title>
+  <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Styling applied at the Meso-scale Bioregion level. Rehosted for the purposes of Seamap Australia.</abstract>
   <keywords>
-    <string>SeamapAus_BOUNDARIES_IMCRA_FULL</string>
     <string>features</string>
+    <string>SeamapAus_BOUNDARIES_IMCRA_FULL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,24 +36,21 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-4461159.192405208</minx>
-    <maxx>3599229.9141170373</maxx>
-    <miny>-6889567.263302322</miny>
-    <maxy>-1047063.286764517</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>-175.6193611758568</minx>
+    <maxx>179.66385972022826</maxx>
+    <miny>-59.68316458476494</miny>
+    <maxy>-3.0698452028467043</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-4461159.192405208</minx>
-    <maxx>3599229.9141170373</maxx>
-    <miny>-6889567.263302322</miny>
-    <maxy>-1047063.286764517</maxy>
+    <minx>-175.6193611758568</minx>
+    <maxx>179.66385972022826</maxx>
+    <miny>-59.68316458476494</miny>
+    <maxy>-3.0698452028467043</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
