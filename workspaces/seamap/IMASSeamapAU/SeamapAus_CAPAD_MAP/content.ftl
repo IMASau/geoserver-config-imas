@@ -8,5 +8,5 @@
 			<b>Zone:</b> ${feature.ZONE_TYPE.value} 
 			<BR>BR>
 		</div>
-	</if>  
+	</#if>  
 </#list>
