@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--492f85e9:17fbabaeeb8:3974</id>
-  <name>SeamapAus_IMCRA_mesoscale_bioregion</name>
+  <name>SeamapAus_IMCRA_mesoscale_bioregions</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_IMCRA_mesoscale_bioregion.sld</filename>
+  <filename>SeamapAus_IMCRA_mesoscale_bioregions.sld</filename>
 </style>
