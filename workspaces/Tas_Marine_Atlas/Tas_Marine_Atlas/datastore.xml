@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
+  <name>Tas_Marine_Atlas</name>
+  <description>Tasmania Marine Atlas SQL Storage Databases</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--492f85e9:17f900e0339:504d</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">dbo</entry>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/tasmarineatlas</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">Tas_Marine_Atlas</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
