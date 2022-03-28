@@ -1,0 +1,15 @@
+<layer>
+  <name>MGrant_seabird_review</name>
+  <id>LayerInfoImpl--492f85e9:17fcf1df8e2:67c8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--492f85e9:17fcf1df8e2:67cc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--492f85e9:17fcf1df8e2:67c7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
