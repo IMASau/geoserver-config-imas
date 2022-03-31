@@ -23,7 +23,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ff2600</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -51,7 +51,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ffcc00</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -79,7 +79,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ffff0d</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>                 
+              <CssParameter name="stroke-width">1.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -110,7 +110,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#b6ff8f</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -138,7 +138,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#21e9ff</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -166,7 +166,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3b8cff</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -194,7 +194,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#1218ff</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>                 
+              <CssParameter name="stroke-width">0.8</CssParameter>                 
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
