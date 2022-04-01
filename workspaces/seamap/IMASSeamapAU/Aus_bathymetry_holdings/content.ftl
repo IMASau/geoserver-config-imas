@@ -17,6 +17,7 @@
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
 		<#assign metadata=feature.METADATA.value>
+		<#assign surveyID=feature.surveyID.value>		
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
 
@@ -31,9 +32,12 @@
 			</#if>				
 		<#else>
 			<#if feature.objectid.value?contains("DEM")>
-				${feature.name.value} <b><i>[modelled]</i></b>
+				${feature.name.value} <b><i>[modelled]</i></b>				
 			<#else>
-				${feature.name.value}</i>	
+				${feature.name.value} 
+				<#if surveyID?has_content>
+					<i>(${feature.surveyID.value})</i>
+				</#if>
 			</#if>
 		</#if>
 	</TD>
