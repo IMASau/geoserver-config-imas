@@ -7,6 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>577800</MaxScaleDenominator>                                        		            
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-8000" label="Depth (m)"/>                                          

@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl--1295cef3:17d21cb61bd:20dc</id>
-  <name>multibeam_bathy</name>
+  <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
+  <name>multibeam_bathy_coarse</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>multibeam_bathy.sld</filename>
+  <filename>multibeam_bathy_coarse.sld</filename>
 </style>
