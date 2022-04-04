@@ -55,6 +55,16 @@
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_mosaics_AMP_viewing</entry>
   </metadata>
@@ -117,7 +127,7 @@
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
-      <string>QUALITY</string>
+      <string>SPEED</string>
     </entry>
     <entry>
       <string>MergeBehavior</string>
