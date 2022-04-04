@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--4812677:17ff49a5b56:-7d51</id>
+  <name>bathymetry_maps_thumbs</name>
+  <description>AMP bathymetry resampled for low zoom</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/AMP_bathymetry_derivatives/bathy_mosaics_AMP/viewing/overviews</url>
+</coverageStore>

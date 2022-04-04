@@ -15,6 +15,9 @@
       <id>LayerInfoImpl-733d3287:17eda00b620:-6d81</id>
     </published>
     <published type="layer">
+      <id>LayerInfoImpl--4812677:17ff49a5b56:-7d1a</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl--4812677:17fecb17b75:6f15</id>
     </published>
   </publishables>
@@ -24,6 +27,9 @@
     </style>
     <style>
       <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
     </style>
     <style>
       <id>StyleInfoImpl--1295cef3:17d21cb61bd:20dc</id>
