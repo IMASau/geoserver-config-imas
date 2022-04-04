@@ -23,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -37,17 +37,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>1362585.6857288901</minx>
-    <maxx>1771517.4028856023</maxx>
-    <miny>-4448204.4913346255</miny>
-    <maxy>-3705746.3165962547</maxy>
+    <minx>-4707046.883825728</minx>
+    <maxx>2518367.1857188386</maxx>
+    <miny>-7249085.50456742</miny>
+    <maxy>-3207899.1098667923</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>148.60017248923896</minx>
-    <maxx>154.1871794545941</maxx>
-    <miny>-38.80945579247676</miny>
-    <maxy>-31.66575732205437</maxy>
+    <minx>68.06148304445345</minx>
+    <maxx>171.74006670823715</maxx>
+    <miny>-62.390818026182316</miny>
+    <maxy>-20.33166547394149</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>

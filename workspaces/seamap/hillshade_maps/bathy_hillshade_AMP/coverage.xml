@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-733d3287:17ed726102a:449b</id>
-  <name>mosaiced_bathymetry_AMP</name>
-  <nativeName>mosaiced_bathymetry_AMP</nativeName>
+  <id>CoverageInfoImpl-733d3287:17eda00b620:-6d82</id>
+  <name>bathy_hillshade_AMP</name>
+  <nativeName>geomorph_AMP_hs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Mosaiced multibeam bathymetry - clipped to AMP boundaries</title>
+  <title>Bathymetry hillshade of Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region.</abstract>
+  <abstract>Hillshade (z-factor 5m) to be viewed in combination with geomorphology and bathymetry maps for AMPs.</abstract>
   <keywords>
-    <string>bathymetry_mosaics_AMP</string>
+    <string>hillshade</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -24,7 +24,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -38,43 +38,43 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-4707046.8838</minx>
-    <maxx>3554511.9010241325</maxx>
-    <miny>-7249044.730879928</miny>
-    <maxy>-912245.8538097795</maxy>
+    <minx>-4707043.39714158</minx>
+    <maxx>3551860.4149496453</maxx>
+    <miny>-7249023.774016198</miny>
+    <maxy>-885552.2519595157</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-174.21595840036125</minx>
-    <maxx>178.07265664816637</maxx>
-    <miny>-62.24945040840132</miny>
-    <maxy>-1.371530517894182</maxy>
+    <minx>-179.66514310651738</minx>
+    <maxx>178.01452747312229</maxx>
+    <miny>-62.24862669947749</miny>
+    <maxy>-1.1606782264974265</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_mosaics_AMP_bathymetry_mosaics_AMP</entry>
+    <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-733d3287:17ed726102a:449a</id>
+    <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:737c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>8784626 6738003</high>
+      <high>180977 447006</high>
     </range>
     <transform>
-      <scaleX>0.9404564403697298</scaleX>
-      <scaleY>-0.9404564403697291</scaleY>
+      <scaleX>2.2595587423311594</scaleX>
+      <scaleY>-1.6609170868348444</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4707046.41357178</translateX>
-      <translateY>-912246.3240379997</translateY>
+      <translateX>1362586.8154793712</translateX>
+      <translateY>-3705747.1470585433</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
@@ -96,11 +96,14 @@
       <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>-inf</min>
-        <max>inf</max>
+        <min>0.0</min>
+        <max>255.0</max>
       </range>
+      <nullValues>
+        <double>255.0</double>
+      </nullValues>
       <dimensionType>
-        <name>REAL_32BITS</name>
+        <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -113,7 +116,7 @@
   <parameters>
     <entry>
       <string>BackgroundValues</string>
-      <null/>
+      <string>255</string>
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
@@ -172,5 +175,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>bathymetry_mosaics_AMP</nativeCoverageName>
+  <nativeCoverageName>hillshade</nativeCoverageName>
 </coverage>

@@ -1,6 +1,6 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-733d3287:17ed726102a:449a</id>
-  <name>bathymetry_mosaics_AMP</name>
+  <name>bathymetry_maps</name>
   <description>Store of bathymetry mosaics per AMP</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
