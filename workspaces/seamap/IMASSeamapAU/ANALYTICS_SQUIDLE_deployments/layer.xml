@@ -1,0 +1,15 @@
+<layer>
+  <name>ANALYTICS_SQUIDLE_deployments</name>
+  <id>LayerInfoImpl--4812677:17ff719b201:-2a6b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4677ad3c:15f2870e874:-adf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4812677:17ff719b201:-2a6c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
