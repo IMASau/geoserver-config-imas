@@ -14,7 +14,27 @@
       <Name>AustralianMarineParks - RESERVES</Name>
       <FeatureTypeStyle>
  		<Rule>
-		  <Title>(zoom in to see Reserve Name)</Title>
+		  <Title>Network Name</Title>
+		  <MaxScaleDenominator>50000000</MaxScaleDenominator>
+		  <MinScaleDenominator>10000000</MinScaleDenominator>                             
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>NETNAME</ogc:PropertyName>
+           		  </Label>
+              
+                  <Font>
+           			<CssParameter name="font-family">SansSerif.bold</CssParameter>
+           			<CssParameter name="font-size">14</CssParameter>								
+          		  </Font>
+                    <VendorOption name="partials">true</VendorOption>
+			</TextSymbolizer>              
+ 		</Rule>         
+ 		<Rule>
 		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
