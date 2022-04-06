@@ -5,11 +5,8 @@ will be called multiple times if there are various feature collections
 
 
 <#list features as feature>
-${feature.type.title}
-</#list>
 <table class="featureInfo">
-  <caption class="featureInfo">${type.name}</caption>
-  <tr>
+<caption class="featureInfo">${feature.type.title}<br><br></caption>
 <#list type.attributes as attribute>
   <#if !attribute.isGeometry>
     <th >${attribute.name}</th>
@@ -33,5 +30,10 @@ ${feature.type.title}
   </#list>
   </tr>
 </#list>
+<#break>
+
+</#list>
+
 </table>
+
 <br/>
