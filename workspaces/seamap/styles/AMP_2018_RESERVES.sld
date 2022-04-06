@@ -15,8 +15,8 @@
       <FeatureTypeStyle>
  		<Rule>
 		  <Title>Network Name</Title>
-		  <MaxScaleDenominator>50000000</MaxScaleDenominator>
-		  <MinScaleDenominator>10000000</MinScaleDenominator>                             
+          <MinScaleDenominator>10000000</MinScaleDenominator>                                       
+		  <MaxScaleDenominator>1500000000</MaxScaleDenominator>
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -32,6 +32,8 @@
            			<CssParameter name="font-size">14</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
+                    <VendorOption name="group">yes</VendorOption>
+              
 			</TextSymbolizer>              
  		</Rule>         
  		<Rule>
