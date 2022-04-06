@@ -3,6 +3,6 @@
   <div class="feature"> 
   <b>Network:</b> ${feature.NETNAME.value} <br>
   <b>Reserve:</b> ${feature.RESNAME.value} <br>
-  <b>Zone:</b> ${feature.NATLEGEND.value} <i>(ID: ${feature.POLYGONID.value})</i> <br><br>   
+  <b>Zone:</b> ${feature.ZONENAME.value} - IUCN ${feature.ZONEIUCN.value} <i>(${feature.POLYGONID.value})</i> <br><br>   
   </div>
 </#list>
