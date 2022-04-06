@@ -14,8 +14,8 @@
       <Name>AustralianMarineParks</Name>
       <FeatureTypeStyle>
  		<Rule>
-		  <Title>(zoom in for Reserve Name)</Title>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
+		  <MinScaleDenominator>5000000</MinScaleDenominator>                             
+		  <MaxScaleDenominator>40000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -30,8 +30,40 @@
            			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
+                    <VendorOption name="group">true</VendorOption>              
+                   <LabelPlacement>
+           			<PointPlacement>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+           			</PointPlacement>
+         		   </LabelPlacement>                
+                    <VendorOption name="partials">true</VendorOption>
+                    <VendorOption name="group">yes</VendorOption>					
+			</TextSymbolizer>                           
+ 		</Rule>
+ 		<Rule>
+		  <Title>Zone Type</Title>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName> Reserve - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           		  </Label>     
+                  <Font>
+           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
+           			<CssParameter name="font-size">11</CssParameter>					
+          		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>               
+                    <VendorOption name="partials">true</VendorOption>
 			</TextSymbolizer>              
- 		</Rule> 	  
+ 		</Rule>          
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">

@@ -6,7 +6,11 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian Marine Parks (AMPs) 2018 - ZONES</title>
-  <abstract>Provides boundary layers for subsetting in Seamap Australia</abstract>
+  <abstract>Australian Marine Parks (AMPs) 2018 management zonation.&#xd;
+&#xd;
+Green zones offer a high level of protection for conservation features like canyons, seamounts and reefs.&#xd;
+Yellow zones support activities like fishing and diving, so long as the seafloor is not harmed.&#xd;
+Blue zones allow a wider range of activities, supporting our sustainable commercial industries and the coastal communities that rely on them.</abstract>
   <keywords>
     <string>SeamapAus_BOUNDARIES_AMP2018_ZONES_UNIQUE</string>
   </keywords>
@@ -21,7 +25,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 

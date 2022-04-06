@@ -1,6 +1,6 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-		<h5>Collaborative Australian Protected Areas Database (Marine) 2016 [DRAFT]</h5><BR>
+		<h6>Collaborative Australian Protected Areas Database (Marine) 2016 [DRAFT]</h6>
 		<div class="feature"> 
 			<b>State:</b> ${feature.STATE.value} (${feature.EPBC.value} managed)<br>  
 			<b>Area name:</b> ${feature.NAME.value}<br>    

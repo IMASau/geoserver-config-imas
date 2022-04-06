@@ -13,8 +13,8 @@
       <Name>Australian Marine Parks - ZONES</Name>
       <FeatureTypeStyle>
          <Rule>
-		  <MinScaleDenominator>50000000</MinScaleDenominator>                              
-		  <MaxScaleDenominator>100000000</MaxScaleDenominator>                   
+		  <MinScaleDenominator>10000000</MinScaleDenominator>                              
+		  <MaxScaleDenominator>40000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -42,7 +42,7 @@
  		</Rule> 
  		<Rule>
 		  <Title>Zone Type</Title>
-		  <MaxScaleDenominator>50000000</MaxScaleDenominator>                   
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
 
            		  <Label>
