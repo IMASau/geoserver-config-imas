@@ -116,14 +116,45 @@
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>			
+        </Rule>
         <Rule>
-            <Title>   &#62;20 to 50m</Title>
+            <Title>   &#62;20 to 30m</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>20</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>30</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>                 
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fffc66</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+            <Title>   &#62;30 to 50m</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>30</ogc:Literal>
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
@@ -143,11 +174,11 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e6f598</CssParameter>
+              <CssParameter name="fill">#d5ff80</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>        
         <Rule>
             <Title>   &#62;50 to 100m</Title>
           <ogc:Filter>
