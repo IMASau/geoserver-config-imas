@@ -65,6 +65,6 @@
   <padWithZeros>false</padWithZeros>
   <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
-  <skipNumberMatched>false</skipNumberMatched>
+  <skipNumberMatched>true</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
 </featureType>
