@@ -339,8 +339,10 @@
         </Rule>
         <Rule>
             <Title>Reserve Boundary</Title>
-          <PolygonSymbolizer>	
-			<Geometry> <ogc:PropertyName>geom_RESERVE</ogc:PropertyName></Geometry>				            
+          <PolygonSymbolizer>
+            
+			<Geometry> <ogc:PropertyName>geom_RESERVE</ogc:PropertyName></Geometry>	
+            
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>				  
@@ -349,7 +351,9 @@
               <CssParameter name="stroke">#f2f2f2</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
             </Stroke>
+            
           </PolygonSymbolizer>
+
         </Rule>           		
       </FeatureTypeStyle>
     </UserStyle>
