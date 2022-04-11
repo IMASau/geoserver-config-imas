@@ -108,6 +108,26 @@
 							<CssParameter name="stroke-width">0.3</CssParameter>
 						</Stroke>
 					</PolygonSymbolizer>
+				</Rule>	
+				<Rule>
+					<Title>    Northeast Province</Title>
+					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+					    <ogc:PropertyIsEqualTo>
+					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
+					     <ogc:Literal>Northeast Province</ogc:Literal>
+					    </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                    
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#f58697</CssParameter>
+							<CssParameter name="fill-opacity">0.9</CssParameter>                     
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
 				</Rule>				
 				<Rule>
 					<Title>    Cape Province</Title>
@@ -170,7 +190,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Northern IMCRA Province</Title>
+					<Title>    Northern Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -190,7 +210,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Northwest IMCRA Province</Title>
+					<Title>    Northwest Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -210,16 +230,16 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Northeast IMCRA Province</Title>
+					<Title>    Northeast Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
-					     <ogc:Literal>Northeast Province</ogc:Literal>
+					     <ogc:Literal>Northeast Shelf Province</ogc:Literal>
 					    </ogc:PropertyIsEqualTo>
 					</ogc:Filter>                    
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#f58697</CssParameter>
+							<CssParameter name="fill">#f14168</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
 						<Stroke>
@@ -280,7 +300,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>    Central Western IMCRA Province</Title>
+					<Title>    Central Western Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -510,7 +530,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Northwest IMCRA Transition</Title>
+					<Title>    Northwest Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -530,7 +550,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Central Western IMCRA Transition</Title>
+					<Title>    Central Western Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -550,7 +570,7 @@
 					</PolygonSymbolizer>
 				</Rule>						
 				<Rule>
-					<Title>    Southwest IMCRA Transition</Title>
+					<Title>    Southwest Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -570,7 +590,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>    Great Australian Bight IMCRA Transition</Title>
+					<Title>    Great Australian Bight Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -590,7 +610,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>    Western Bass Strait IMCRA Transition</Title>
+					<Title>    Western Bass Strait Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -610,7 +630,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>    Southeast IMCRA Transition</Title>
+					<Title>    Southeast Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -630,7 +650,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Central Eastern IMCRA Transition</Title>
+					<Title>    Central Eastern Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -650,7 +670,7 @@
 					</PolygonSymbolizer>
 				</Rule>										
 				<Rule>
-					<Title>    Northeast IMCRA Transition</Title>
+					<Title>    Northeast Shelf Transition</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -659,7 +679,7 @@
 					</ogc:Filter>                    
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#fff7ac</CssParameter>
+							<CssParameter name="fill">#faf8a4</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
 						<Stroke>
@@ -800,7 +820,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Southwest IMCRA Province</Title>
+					<Title>    Southwest Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -820,7 +840,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Spencer Gulf IMCRA Province</Title>
+					<Title>    Spencer Gulf Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -838,7 +858,27 @@
 							<CssParameter name="stroke-width">0.3</CssParameter>
 						</Stroke>
 					</PolygonSymbolizer>
-				</Rule>					
+				</Rule>
+				<Rule>
+					<Title>    Central Eastern Shelf Province</Title>
+					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+					    <ogc:PropertyIsEqualTo>
+					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
+					     <ogc:Literal>Central Eastern Shelf Province</ogc:Literal>
+					    </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                    
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#a8b37a</CssParameter>
+							<CssParameter name="fill-opacity">0.9</CssParameter>                     
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-opacity">0.8</CssParameter>
+							<CssParameter name="stroke-width">0.3</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>				
 				<Rule>
 					<Title>     .....</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -874,7 +914,7 @@
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
-					     <ogc:Literal>Tasmanian Province</ogc:Literal>
+					     <ogc:Literal>Tasmania Province</ogc:Literal>
 					    </ogc:PropertyIsEqualTo>
 					</ogc:Filter>                    
 					<PolygonSymbolizer>
@@ -910,7 +950,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>    Bass Strait IMCRA Province</Title>
+					<Title>    Bass Strait Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
@@ -930,7 +970,7 @@
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
-					<Title>    Tasmania IMCRA Province</Title>
+					<Title>    Tasmania Shelf Province</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
 					    <ogc:PropertyIsEqualTo>
 					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
