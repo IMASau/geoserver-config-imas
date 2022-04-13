@@ -1,26 +1,19 @@
-<h5>Southern Ocean Ligand (SOLt) Collection</h5><BR>
+<h5>Published studies - seabird breeding, roosting, and nesting</h5><BR>
 <#list features as feature>
 <#if (feature_index < 3) >
 	
   <div class="feature">
 
-  <b>Author:</b> <a rel="external" href="${feature.DOI.value}" target="_blank">${feature.Author.value}</a><BR>
-  <b>Cruise ID:</b> ${feature.Cruise.value}<BR>
-  <b>Date: </b> ${feature.start_date.value[0..9]}<BR>  
-
-  <#assign dFe=feature.dFe.value>
-  <#assign Lt=feature.Lt.value>
-  
-  <#if dFe?has_content>  
-  <b>Concentration dissolved iron: </b> ${feature.dFe.rawValue?string("0.00")} nmol L<sup>-1</sup><BR>
-  </#if>
-  <#if dFe?has_content>  
-  <b>Concentration iron-binding ligand: </b> ${feature.Lt.value} nEq M Fe<BR><BR>
-  </#if>
- 
+  ${feature.First_Author.value} (${feature.Year.value}) <i>${feature.Title.value}</i>. ${feature.Journal.value}.<BR><BR>
+  <b>Ecosystem/Region/Habitat:</b> ${feature.Ecosystem.value} / ${feature.Region.value} / ${feature.Subregion_habitat.value}<BR>
+  <b>Study years:</b> ${feature.Start.value} - ${feature.Finish.value}<BR>
+  <b>Focus of study:</b> <i>${feature.Focus_of_Study.value}</i><BR>
+  <b>Overall effect: </b> <i>${feature.Overall_effect.value}</i><BR><BR>
+---------------<BR><BR>
+   
  </div>
 	<#else>
-	<i>This information has been limited to 3 observations. Download the full collection to see all data available at this location.</i>
+	<i>This information has been limited to 3 studies. Download the full collection to see all studies available at this location.</i>
 		<#break>
   </#if>
 </#list>
