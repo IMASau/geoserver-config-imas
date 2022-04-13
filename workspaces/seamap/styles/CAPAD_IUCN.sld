@@ -24,7 +24,11 @@
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IUCN</ogc:PropertyName>
               <ogc:Literal>IA</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>IUCN</ogc:PropertyName>
+              <ogc:Literal>Ia</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IUCN</ogc:PropertyName>
               <ogc:Literal>II</ogc:Literal>
