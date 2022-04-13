@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl--4812677:180027682a4:-6131</id>
-  <name>SQUIDLE_deployment_platforms</name>
+  <id>StyleInfoImpl-2922ad46:1801ff894ed:3b9b</id>
+  <name>SQUIDLE_platforms</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SQUIDLE_deployment_platforms.sld</filename>
+  <filename>SQUIDLE_platforms.sld</filename>
 </style>
