@@ -1,10 +1,5 @@
-<StyledLayerDescriptor version="1.0.0"
-xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
-xmlns="http://www.opengis.net/sld" 
-xmlns:gml="http://www.opengis.net/gml"
-xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
     <Name>Point-based samples from Marine Sediment database coloured by sampling method</Name>
     <UserStyle>
@@ -29,6 +24,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>      
         </Rule>	  
+		
         <Rule>
           <Title>Core</Title>
 			<ogc:Filter>
@@ -36,21 +32,25 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
 					    <ogc:Literal>*core*</ogc:Literal>
 					</ogc:PropertyIsLike>
-			</ogc:Filter>   		  
+			</ogc:Filter>  
+          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				  
+			
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#006600</CssParameter>  
-                  <CssParameter name="fill-opacity">0.85</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   
+				   
                </Stroke>                
               </Mark>
-              <Size>10</Size>				
+              <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>      
         </Rule>	
@@ -61,21 +61,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
 					    <ogc:Literal>*dredge*</ogc:Literal>
 					</ogc:PropertyIsLike>
-			</ogc:Filter>   		  
+			</ogc:Filter>
+          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            						  			
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4080bf</CssParameter>  
-                  <CssParameter name="fill-opacity">0.85</CssParameter>                       
+                  <CssParameter name="fill">#6699cc</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>10</Size>				
+              <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>      
         </Rule>	
@@ -86,21 +88,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
 					    <ogc:Literal>*grab*</ogc:Literal>
 					</ogc:PropertyIsLike>
-			</ogc:Filter>   		  
+			</ogc:Filter>
+          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            						  			
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#ff944d</CssParameter>  
-                  <CssParameter name="fill-opacity">0.85</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>10</Size>				
+              <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -128,27 +132,157 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					</ogc:PropertyIsLike>
 			</ogc:Not>
 			</ogc:And>			
-			</ogc:Filter>  
+			</ogc:Filter>
+          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            						  			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>8</Size>				
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>
 
+        <Rule>
+          <Title>Core - zoomed</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>  
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				  
 			
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>  
-                  <CssParameter name="fill-opacity">0.85</CssParameter>                       
+                  <CssParameter name="fill">#006600</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>10</Size>				
+              <Size>12</Size>				
             </Graphic>
           </PointSymbolizer>      
-        </Rule>			
-		
+        </Rule>	
+        <Rule>
+          <Title>Dredge - zoomed</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            						  			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6699cc</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>12</Size>				
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>	
+        <Rule>
+          <Title>Grab - zoomed</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            						  			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff944d</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>12</Size>				
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>		
+        <Rule>
+          <Title>Other - zoomed</Title>
+
+			<ogc:Filter>
+			<ogc:And>
+			<ogc:Not>			
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>			
+					
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>								
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>
+			</ogc:And>			
+			</ogc:Filter>
+
+          <MaxScaleDenominator>400000</MaxScaleDenominator>
+		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   
+               </Stroke>                
+              </Mark>
+              <Size>12</Size>				
+                 </Graphic>
+                 <VendorOption name="inclusion">legendOnly</VendorOption>
+              </PointSymbolizer>
+           </Rule>	
 	
  
  
