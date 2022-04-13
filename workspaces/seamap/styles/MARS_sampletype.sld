@@ -24,7 +24,136 @@
             </Graphic>
           </PointSymbolizer>      
         </Rule>	  
-		
+        <Rule>
+          <Title>Core - zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>  
+          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				  
+			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006600</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>	
+        <Rule>
+          <Title>Dredge - zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            						  			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6699cc</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>	
+        <Rule>
+          <Title>Grab - zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            						  			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff944d</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>		
+        <Rule>
+          <Title>Other - zoomed out</Title>
+
+			<ogc:Filter>
+			<ogc:And>
+			<ogc:Not>			
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>			
+					
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>								
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>
+			</ogc:And>			
+			</ogc:Filter>
+
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+                 </Graphic>
+                 <VendorOption name="inclusion">legendOnly</VendorOption>
+              </PointSymbolizer>
+           </Rule>		
         <Rule>
           <Title>Core</Title>
 			<ogc:Filter>
@@ -34,7 +163,7 @@
 					</ogc:PropertyIsLike>
 			</ogc:Filter>  
           <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				  
-			
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				  			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -62,7 +191,8 @@
 					    <ogc:Literal>*dredge*</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            						  			
+          <MinScaleDenominator>400000</MinScaleDenominator> 
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				  					  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -89,7 +219,8 @@
 					    <ogc:Literal>*grab*</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            						  			
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				  					  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -133,7 +264,8 @@
 			</ogc:Not>
 			</ogc:And>			
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            						  			
+          <MinScaleDenominator>400000</MinScaleDenominator> 
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				  					  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -154,7 +286,7 @@
         </Rule>
 
         <Rule>
-          <Title>Core - zoomed</Title>
+          <Title>Core - zoomed in</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
@@ -182,7 +314,7 @@
           </PointSymbolizer>      
         </Rule>	
         <Rule>
-          <Title>Dredge - zoomed</Title>
+          <Title>Dredge - zoomed in</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
@@ -209,7 +341,7 @@
           </PointSymbolizer>      
         </Rule>	
         <Rule>
-          <Title>Grab - zoomed</Title>
+          <Title>Grab - zoomed in</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
@@ -236,7 +368,7 @@
           </PointSymbolizer>      
         </Rule>		
         <Rule>
-          <Title>Other - zoomed</Title>
+          <Title>Other - zoomed in</Title>
 
 			<ogc:Filter>
 			<ogc:And>
@@ -280,7 +412,6 @@
               </Mark>
               <Size>12</Size>				
                  </Graphic>
-                 <VendorOption name="inclusion">legendOnly</VendorOption>
               </PointSymbolizer>
            </Rule>	
 	
