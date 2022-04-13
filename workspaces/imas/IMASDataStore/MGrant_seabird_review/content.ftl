@@ -1,4 +1,3 @@
-<h5>Published studies - seabird breeding, roosting, and nesting</h5><BR>
 <#list features as feature>
 <#if (feature_index < 3) >
 	
