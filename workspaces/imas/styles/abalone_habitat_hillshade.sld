@@ -7,9 +7,8 @@
     <UserStyle>
       <Title/>
       <FeatureTypeStyle>
-        <Name>name</Name>
-        <FeatureTypeName>Feature</FeatureTypeName>
         <Rule>
+          <MaxScaleDenominator>300000</MaxScaleDenominator>                                                                      
           <RasterSymbolizer>
             <ColorMap>
               <ColorMapEntry color="#000000" quantity="0.0"/>
