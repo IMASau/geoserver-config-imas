@@ -48,6 +48,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d12e41</CssParameter>
@@ -79,6 +80,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fb8650</CssParameter>
@@ -110,7 +112,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
-
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fdd568</CssParameter>
@@ -142,7 +144,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
-
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fffc66</CssParameter>
@@ -174,7 +176,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
-
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d5ff80</CssParameter>
@@ -206,7 +208,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
-
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#99d594</CssParameter>
@@ -234,7 +236,7 @@
             </ogc:PropertyIsLike>				
 			</ogc:And>			
           </ogc:Filter>
-
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#3288bd</CssParameter>
@@ -256,7 +258,7 @@
 					</ogc:PropertyIsEqualTo>				  
 				</ogc:Or>				
           </ogc:Filter>
-
+          <MinScaleDenominator>1000001</MinScaleDenominator>                                        		             	  				 					  		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#999999</CssParameter>

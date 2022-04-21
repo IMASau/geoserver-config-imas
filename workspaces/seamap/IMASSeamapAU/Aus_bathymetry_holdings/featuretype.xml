@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6e5efb92:17c004859d4:-7836</id>
+  <id>FeatureTypeInfoImpl-2922ad46:18046e1a230:-4658</id>
   <name>Aus_bathymetry_holdings</name>
-  <nativeName>AusSeabed_bathy_extents_published</nativeName>
+  <nativeName>Aus_bathy_extents_published</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -9,7 +9,7 @@
   <abstract>Extent and data availability status of Australian bathymetry surveys - coverage extracted primarily from AusSeabed layer &quot;bathymetry holdings&quot; with some minor additional coverage for more recent surveys (2021-present) and data held by IMAS that has not yet been published by AusSeabed. Coverage shows surveys only (not DEMs).</abstract>
   <keywords>
     <string>features</string>
-    <string>AusSeabed_bathy_extents_published</string>
+    <string>Aus_bathy_extents_published</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -65,6 +65,6 @@
   <padWithZeros>false</padWithZeros>
   <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
-  <skipNumberMatched>true</skipNumberMatched>
+  <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
 </featureType>
