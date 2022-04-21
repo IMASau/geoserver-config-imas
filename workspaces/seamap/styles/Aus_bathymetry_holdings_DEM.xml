@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-6e5efb92:17c004859d4:-783b</id>
-  <name>AusSeabed_bathymetry_holdings</name>
+  <id>StyleInfoImpl-74e96815:17b2cd2977a:5193</id>
+  <name>Aus_bathymetry_holdings_DEM</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>AusSeabed_bathymetry_holdings.sld</filename>
+  <filename>Aus_bathymetry_holdings_DEM.sld</filename>
 </style>
