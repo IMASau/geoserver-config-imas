@@ -5,22 +5,16 @@
   <title>Abalone habitat finescale substratum (Seamap Australia classified)</title>
   <abstractTxt>Abalone Habitat and Warming Reefs projects - habitat map (Seamap Australia classification) generated from 50cm resolution multibeam bathymetry split by fishing block (22, 23, 24, 27, 28, 29, 30). Includes spatial extent polygon showing mapped area of multibeam bathymetry visible at higher zoom levels.</abstractTxt>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--1295cef3:17d4a68a13f:-3166</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl--1295cef3:17d93dc3025:6e82</id>
+      <id>LayerInfoImpl--1295cef3:17d3575c0f1:5c48</id>
     </published>
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl--1295cef3:17d4a68a13f:-315f</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--1295cef3:17d96ecb220:-7dc0</id>
+      <id>StyleInfoImpl--1295cef3:17d3575c0f1:5c40</id>
     </style>
   </styles>
   <metadataLinks>
@@ -37,4 +31,8 @@
     <maxy>-41.13480304662393</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
 </layerGroup>

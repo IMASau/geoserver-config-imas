@@ -12,12 +12,18 @@
       <id>LayerInfoImpl--1295cef3:17d3575c0f1:5c48</id>
     </published>
     <published type="layer">
+      <id>LayerInfoImpl--1295cef3:17d4c36cfbe:-2ea8</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl--1295cef3:17d3575c0f1:41a9</id>
     </published>
   </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl--1295cef3:17d3575c0f1:5c40</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1295cef3:17d4c36cfbe:624</id>
     </style>
     <style>
       <id>StyleInfoImpl--1295cef3:17d3575c0f1:45d7</id>

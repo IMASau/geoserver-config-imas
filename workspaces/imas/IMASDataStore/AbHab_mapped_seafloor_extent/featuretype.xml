@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Mapped extent (zoomed out)</title>
-  <abstract>Abalone Habitat and Warming Reefs projects - spatial extent of multibeam bathymetry mapped for fishing blocks 22, 23, 24, 27, 28, 29, 30. Created for display purposes in composite styled layer (abalone_habitat_bathy_50cm_MAP).</abstract>
+  <abstract>Abalone Habitat and Warming Reefs projects - spatial extent of multibeam bathymetry mapped for fishing blocks 22, 23, 24, 27, 28, 29, 30. Created for display purposes in composite styled layers (AbHab_bathy_50cm_grp and AbHab_benthic_habitat_grp).</abstract>
   <keywords>
     <string>features</string>
     <string>Lucieer_AbHab_mapped_extent</string>
