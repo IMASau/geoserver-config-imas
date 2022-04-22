@@ -10,10 +10,10 @@
 		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#a3a375" opacity="0.8" quantity="1" label=" Megaclast"/>
-              <ColorMapEntry color="#c68c53" opacity="0.8" quantity="2" label=" Mixed Hard Substrata"/>
-              <ColorMapEntry color="#cccc00" opacity="0.8" quantity="3" label=" Pavement"/>
-              <ColorMapEntry color="#FFF9A5" opacity="0.8" quantity="4" label=" Sand"/>                 
+              <ColorMapEntry color="#a3a375" opacity="0.6" quantity="1" label=" Megaclast"/>
+              <ColorMapEntry color="#c68c53" opacity="0.6" quantity="2" label=" Mixed Hard Substrata"/>
+              <ColorMapEntry color="#cccc00" opacity="0.6" quantity="3" label=" Pavement"/>
+              <ColorMapEntry color="#FFF9A5" opacity="0.6" quantity="4" label=" Sand"/>                 
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
