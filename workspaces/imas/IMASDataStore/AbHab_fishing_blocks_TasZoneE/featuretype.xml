@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--1295cef3:17d93dc3025:338e</id>
-  <name>SeamapAus_BOUNDARIES_TasAbalone_fishing_blocks</name>
-  <nativeName>SeamapAus_BOUNDARIES_TasAbFishBlocks_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-2922ad46:1804ecc400e:-6a30</id>
+  <name>AbHab_fishing_blocks_TasZoneE</name>
+  <nativeName>Lucieer_AbHab_TasAbFishBlocks_ZoneE_MAP</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Tasmanian abalone fishery - commercial fishing blocks (Zone E)</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_BOUNDARIES_TasAbFishBlocks_MAP</string>
+    <string>Lucieer_AbHab_TasAbFishBlocks_ZoneE_MAP</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -53,7 +53,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
