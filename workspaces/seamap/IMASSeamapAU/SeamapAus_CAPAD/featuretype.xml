@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-42684b0e:16b33b0493c:2c06</id>
-  <name>SeamapAus_CAPAD2016_MAP</name>
-  <nativeName>SeamapAus_CAPAD_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-18f101d8:16b1b24ff37:-73a3</id>
+  <name>SeamapAus_CAPAD</name>
+  <nativeName>SeamapAus_CAPAD</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2016 - MAP VIEW</title>
-  <abstract>Collaborative Australian Protected Areas Database (Marine) - MODIFIED VIEW FOR MAPPING PURPOSES ONLY.</abstract>
+  <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2016 - DRAFT ONLY</title>
+  <abstract>Collaborative Australian Protected Areas Database (Marine). Draft version of 2016 CAPAD with minor corrections. Hosted for the purposes of Seamap Australia.</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_CAPAD_MAP</string>
+    <string>SeamapAus_CAPAD</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -40,16 +40,18 @@
     <maxx>161.97761805291222</maxx>
     <miny>-43.93404960645542</miny>
     <maxy>-8.315710698258522</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>109.2816989925849</minx>
     <maxx>161.97761805291222</maxx>
     <miny>-43.93404960645542</miny>
     <maxy>-8.315710698258522</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

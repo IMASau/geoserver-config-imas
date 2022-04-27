@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_CAPAD2016_MAP</name>
-  <id>LayerInfoImpl-42684b0e:16b33b0493c:2c07</id>
+  <name>SeamapAus_CAPAD_MAP</name>
+  <id>LayerInfoImpl-2922ad46:1806901251a:5c1d</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-42684b0e:16b1ed8b108:423d</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-42684b0e:16b33b0493c:2c06</id>
+    <id>FeatureTypeInfoImpl-2922ad46:1806901251a:5c1c</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
