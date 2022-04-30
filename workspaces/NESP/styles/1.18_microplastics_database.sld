@@ -9,10 +9,10 @@
         <Rule>
           <Title>Study sampling type</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>NET_TYPE</ogc:PropertyName>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>Study_ID</ogc:PropertyName>
 					    <ogc:Literal>intentionallyblank</ogc:Literal>
-					</ogc:PropertyIsLike>
+					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>        
         
           <PointSymbolizer>
@@ -31,7 +31,7 @@
           <Title>Water</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Study Type - water</ogc:PropertyName>
+					<ogc:PropertyName>StudyType_water</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>        
@@ -49,7 +49,7 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>       
         </Rule>        
@@ -57,7 +57,7 @@
           <Title>Sediment</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Study Type - sediment</ogc:PropertyName>
+					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>        
@@ -65,7 +65,7 @@
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>circle</WellKnownName>
+                <WellKnownName>square</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#e68a00</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
@@ -75,7 +75,7 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>9</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>       
         </Rule>
@@ -85,14 +85,14 @@
           <Title>Biota</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Study Type - biota</ogc:PropertyName>
+					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>         
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>square</WellKnownName>
+                <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#00cc00</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
@@ -102,7 +102,7 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>9</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -110,7 +110,7 @@
           <Title>Beach survey</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Study Type - survey</ogc:PropertyName>
+					<ogc:PropertyName>StudyType_survey</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
@@ -123,7 +123,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
-              <Size>8</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>	          
@@ -142,11 +142,19 @@
                 <ogc:Literal>#999999</ogc:Literal>
               </CssParameter>
               <CssParameter name="fill-opacity">
-                <ogc:Literal>0.5</ogc:Literal>
+                <ogc:Literal>0.15</ogc:Literal>
               </CssParameter>
             </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">
+                <ogc:Literal>0.4</ogc:Literal>
+              </CssParameter>                  
+               </Stroke>               
           </PolygonSymbolizer>
         </Rule>
+      <VendorOption name="sortBy">geomtype D</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
