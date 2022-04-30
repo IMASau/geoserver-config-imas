@@ -107,6 +107,7 @@
           </PointSymbolizer>      
         </Rule>
         <Rule>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
           <Title>Beach survey</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -114,6 +115,8 @@
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
+          
+
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -125,7 +128,8 @@
               </Mark>
               <Size>9</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+          
         </Rule>	          
         
         <Rule>
@@ -142,18 +146,39 @@
                 <ogc:Literal>#999999</ogc:Literal>
               </CssParameter>
               <CssParameter name="fill-opacity">
-                <ogc:Literal>0.15</ogc:Literal>
+                <ogc:Literal>0.1</ogc:Literal>
               </CssParameter>
             </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-opacity">
-                <ogc:Literal>0.4</ogc:Literal>
+                <ogc:Literal>0.3</ogc:Literal>
               </CssParameter>                  
                </Stroke>               
           </PolygonSymbolizer>
         </Rule>
+        
+        <Rule>
+          <Title></Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">
+                <ogc:Literal>#000000</ogc:Literal>
+              </CssParameter>
+              <CssParameter name="fill-opacity">
+                <ogc:Literal>0</ogc:Literal>
+              </CssParameter>
+            </Fill>              
+          </PolygonSymbolizer>
+        </Rule>        
+        
       <VendorOption name="sortBy">geomtype D</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
