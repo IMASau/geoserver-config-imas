@@ -30,10 +30,18 @@
         <Rule>
           <Title>Water</Title>
 			<ogc:Filter>
+			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_water</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
+			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not>               
+			</ogc:And>                            
 			</ogc:Filter>        
         
           <PointSymbolizer>
@@ -56,10 +64,18 @@
         <Rule>
           <Title>Sediment</Title>
 			<ogc:Filter>
+			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
+              			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not> 
+			</ogc:And>                            
 			</ogc:Filter>        
         
           <PointSymbolizer>
@@ -84,10 +100,18 @@
         <Rule>
           <Title>Biota</Title>
 			<ogc:Filter>
+			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
+              			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not> 
+			</ogc:And>                            
 			</ogc:Filter>         
           <PointSymbolizer>
             <Graphic>
@@ -107,16 +131,23 @@
           </PointSymbolizer>      
         </Rule>
         <Rule>
-          <VendorOption name="inclusion">mapOnly</VendorOption>
           <Title>Beach survey</Title>
 			<ogc:Filter>
+			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_survey</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
+              			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not> 
+              			</ogc:And>              
+
 			</ogc:Filter>
           
-
           <PointSymbolizer>
             <Graphic>
               <Mark>
