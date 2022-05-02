@@ -190,7 +190,7 @@
           </PolygonSymbolizer>
         </Rule>
         
-        <Rule>
+                <Rule>
           <Title></Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -208,7 +208,9 @@
               </CssParameter>
             </Fill>              
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>  
+        
+      
         
       <VendorOption name="sortBy">geomtype D</VendorOption>		        
       </FeatureTypeStyle>
