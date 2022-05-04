@@ -189,29 +189,7 @@
                </Stroke>               
           </PolygonSymbolizer>
         </Rule>
-        
-                <Rule>
-          <Title></Title>
-			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			</ogc:Filter>  
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">
-                <ogc:Literal>#000000</ogc:Literal>
-              </CssParameter>
-              <CssParameter name="fill-opacity">
-                <ogc:Literal>0</ogc:Literal>
-              </CssParameter>
-            </Fill>              
-          </PolygonSymbolizer>
-        </Rule>  
-        
-      
-        
+
       <VendorOption name="sortBy">geomtype D</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
