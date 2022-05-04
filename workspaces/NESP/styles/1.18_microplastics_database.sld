@@ -6,6 +6,7 @@
     <Name>Microplastics studies</Name>
     <UserStyle>
       <FeatureTypeStyle>
+	  
         <Rule>
           <Title>Study sampling type</Title>
 			<ogc:Filter>
@@ -27,8 +28,9 @@
             </Graphic>
           </PointSymbolizer>      
         </Rule>
+		
         <Rule>
-          <Title>Water</Title>
+          <Title>Water - zoomed out</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -57,113 +59,11 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>11</Size>				
+              <Size>14</Size>				
             </Graphic>
-          </PointSymbolizer>       
-        </Rule>        
-        <Rule>
-          <Title>Sediment</Title>
-			<ogc:Filter>
-			<ogc:And>              
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-			</ogc:And>                            
-			</ogc:Filter>        
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				                  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>square</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#e68a00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill> 
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>				
-            </Graphic>
-          </PointSymbolizer>       
-        </Rule>
-        
-        
-        <Rule>
-          <Title>Biota</Title>
-			<ogc:Filter>
-			<ogc:And>              
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-			</ogc:And>                            
-			</ogc:Filter> 
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          			
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#00cc00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>               
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>
-        <Rule>
-          <Title>Beach survey</Title>
-			<ogc:Filter>
-			<ogc:And>              
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_survey</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-              			</ogc:And>              
-
-			</ogc:Filter>
-           <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          
-         
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>cross</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#b30000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>                              
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          
-        </Rule>	          
+          </PointSymbolizer>		  
+        </Rule>	
+		
           <Rule>
           <Title>Water</Title>
 			<ogc:Filter>
@@ -194,10 +94,47 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>       
-        </Rule>        
+        </Rule>
+
+        
+        <Rule>
+          <Title>Sediment - zoomed out</Title>
+			<ogc:Filter>
+			<ogc:And>              
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
+					    <ogc:Literal>Y</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+              			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not> 
+			</ogc:And>                            
+			</ogc:Filter>        
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				                  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#e68a00</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>13</Size>				
+            </Graphic>
+          </PointSymbolizer>       
+        </Rule>
+        
         <Rule>
           <Title>Sediment</Title>
 			<ogc:Filter>
@@ -228,12 +165,47 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>13</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>       
+        </Rule>    
+
+    
+        <Rule>
+          <Title>Biota - zoomed out</Title>
+			<ogc:Filter>
+			<ogc:And>              
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
+					    <ogc:Literal>Y</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+              			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not> 
+			</ogc:And>                            
+			</ogc:Filter> 
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#00cc00</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>      
         </Rule>
-        
-        
+
         <Rule>
           <Title>Biota</Title>
 			<ogc:Filter>
@@ -264,10 +236,45 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>13</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>      
+        </Rule>		
+		
+        <Rule>
+          <Title>Beach survey - zoomed out</Title>
+			<ogc:Filter>
+			<ogc:And>              
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>StudyType_survey</ogc:PropertyName>
+					    <ogc:Literal>Y</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+              			<ogc:Not>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>geomtype</ogc:PropertyName>
+					    <ogc:Literal>nil</ogc:Literal>
+					</ogc:PropertyIsEqualTo> 
+			</ogc:Not> 
+              			</ogc:And>              
+
+			</ogc:Filter>
+           <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          
+         
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#b30000</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>
         </Rule>
+		  
+                 
         <Rule>
           <Title>Beach survey</Title>
 			<ogc:Filter>
@@ -296,11 +303,11 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
-              <Size>12</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
-          
-        </Rule>	      
+        </Rule>
+		
         <Rule>
           <Title>---general study area---</Title>
 			<ogc:Filter>

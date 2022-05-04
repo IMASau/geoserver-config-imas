@@ -35,7 +35,20 @@
         
 	<TD style="padding:5px">
 		<#if feature.StudyType_water.value == 'Y'>
+			<#if feature.StudyType_sediment.value == 'Y'>
+				<#if feature.StudyType_biota.value == 'Y'>
+					<#if feature.StudyType_survey.value == 'Y'>
+						water, sediment, biota, beach survey
+					<#else>	
+						water, sediment, biota
+					</#if>
+				<#else>
+					water, sediment
+				</#if>
+			<#else>
 			water
+			</#if>		
+
 		<#elseif feature.StudyType_sediment.value == 'Y'>
 			sediment
 		<#elseif feature.StudyType_biota.value == 'Y'>
