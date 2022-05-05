@@ -8,6 +8,9 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-2922ad46:18079d64d67:-4989</id>
   </resource>
+  <metadata>
+    <entry key="buffer">500</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
