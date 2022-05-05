@@ -17,7 +17,12 @@
 
 	<TD style="padding:5px">				
 		<#if URL?has_content>
-			<a rel="external" href="http://${feature.Reference_DOI.value}" target="_blank">${feature.Study_Citation_OR_NGO_source.value}</a>
+				<#if URL?contains("http")>
+					<a rel="external" href="${feature.Reference_DOI.value}" target="_blank">${feature.Study_Citation_OR_NGO_source.value}</a>
+				<#else>
+					<a rel="external" href="http://dx.doi.org/${feature.Reference_DOI.value}" target="_blank">${feature.Study_Citation_OR_NGO_source.value}</a>
+
+				</#if>			
 		<#else>
 			${feature.Study_Citation_OR_NGO_source.value}
 		</#if>			
