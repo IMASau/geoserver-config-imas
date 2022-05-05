@@ -30,7 +30,7 @@
         </Rule>
 		
         <Rule>
-          <Title>Water - zoomed out</Title>
+          <Title>Water</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -65,7 +65,7 @@
         </Rule>	
 		
           <Rule>
-          <Title>Water</Title>
+          <Title>Water - zoomed out</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -101,7 +101,7 @@
 
         
         <Rule>
-          <Title>Sediment - zoomed out</Title>
+          <Title>Sediment</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -136,7 +136,7 @@
         </Rule>
         
         <Rule>
-          <Title>Sediment</Title>
+          <Title>Sediment - zoomed out</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -172,7 +172,7 @@
 
     
         <Rule>
-          <Title>Biota - zoomed out</Title>
+          <Title>Biota</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -207,7 +207,7 @@
         </Rule>
 
         <Rule>
-          <Title>Biota</Title>
+          <Title>Biota - zoomed out</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -242,7 +242,7 @@
         </Rule>		
 		
         <Rule>
-          <Title>Beach survey - zoomed out</Title>
+          <Title>Beach survey</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
@@ -276,7 +276,7 @@
 		  
                  
         <Rule>
-          <Title>Beach survey</Title>
+          <Title>Beach survey - zoomed out</Title>
 			<ogc:Filter>
 			<ogc:And>              
 				<ogc:PropertyIsEqualTo>

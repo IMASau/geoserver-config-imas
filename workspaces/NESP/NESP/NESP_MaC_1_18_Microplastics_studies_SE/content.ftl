@@ -11,9 +11,7 @@
 	</TR>
 
 	<#list features as feature>
-		<#if (feature_index < 10)> 
-
-		<#assign URL=feature.Reference_DOI.value>
+	<#assign URL=feature.Reference_DOI.value>
 
 	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
@@ -34,6 +32,7 @@
 	</TD> 
         
 	<TD style="padding:5px">
+	
 		<#if feature.StudyType_water.value == 'Y'>
 			<#if feature.StudyType_sediment.value == 'Y'>
 				<#if feature.StudyType_biota.value == 'Y'>
@@ -47,12 +46,26 @@
 				</#if>
 			<#else>
 			water
-			</#if>		
+		</#if>		
 
-		<#elseif feature.StudyType_sediment.value == 'Y'>
-			sediment
+		<#elseif feature.StudyType_sediment.value == 'Y'>		
+			<#if feature.StudyType_biota.value == 'Y'>
+				<#if feature.StudyType_survey.value == 'Y'>
+					sediment, biota, beach survey
+				<#else>	
+					sediment, biota
+				</#if>
+			<#else>
+				sediment
+			</#if>			
+			
 		<#elseif feature.StudyType_biota.value == 'Y'>
-			biota			
+			<#if feature.StudyType_survey.value == 'Y'>
+				biota, beach survey
+			<#else>	
+				biota
+			</#if>
+
 		<#elseif feature.StudyType_survey.value == 'Y'>
 			beach survey
 		<#else>
@@ -64,12 +77,8 @@
 		<i>${feature.Data_Source.value}</i>
 	</TD>      
 
-</TR>
-
-		<#else>
-			<h3>More surveys exist at this location<br><br></h3>
-		<#break>
-		</#if>
 	</#list>
+	</TR>
+
 </TABLE>
 
