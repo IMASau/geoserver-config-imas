@@ -1,17 +1,15 @@
 <layer>
   <name>mosaiced_bathymetry_AMP</name>
-  <id>LayerInfoImpl--4812677:17fecb17b75:6f15</id>
+  <id>LayerInfoImpl-2922ad46:18099e13b80:-2140</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--1295cef3:17d21cb61bd:20dc</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--4812677:17fecb17b75:6f14</id>
+    <id>CoverageInfoImpl-2922ad46:18099e13b80:-2141</id>
   </resource>
-  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
 </layer>

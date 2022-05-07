@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--4812677:17fecb17b75:6f14</id>
+  <id>CoverageInfoImpl-2922ad46:18099e13b80:-2141</id>
   <name>mosaiced_bathymetry_AMP</name>
   <nativeName>mosaiced_bathymetry_AMP</nativeName>
   <namespace>
@@ -45,7 +45,7 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.6335271533962</minx>
+    <minx>-174.21595840036125</minx>
     <maxx>178.0448256567646</maxx>
     <miny>-62.24945040840132</miny>
     <maxy>-1.1606692893892718</maxy>
@@ -55,21 +55,11 @@
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_mosaics_AMP_viewing</entry>
+    <entry key="dirName">bathymetry_maps_viewing</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-733d3287:17ed726102a:449a</id>
+    <id>CoverageStoreInfoImpl-2922ad46:18099e13b80:-21ac</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>ImageMosaic</nativeFormat>
@@ -89,11 +79,11 @@
     <crs>EPSG:3112</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -127,7 +117,7 @@
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
-      <string>SPEED</string>
+      <string>QUALITY</string>
     </entry>
     <entry>
       <string>MergeBehavior</string>
