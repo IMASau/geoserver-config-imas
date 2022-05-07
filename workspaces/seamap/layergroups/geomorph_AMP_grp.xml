@@ -14,9 +14,6 @@
     <published type="layer">
       <id>LayerInfoImpl-733d3287:17eda00b620:-6d7d</id>
     </published>
-    <published type="layer">
-      <id>LayerInfoImpl-733d3287:17ee0c36557:-64f9</id>
-    </published>
   </publishables>
   <styles>
     <style>
@@ -24,9 +21,6 @@
     </style>
     <style>
       <id>StyleInfoImpl-733d3287:17ed8ffd77c:5893</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-733d3287:17ee0c36557:-6284</id>
     </style>
   </styles>
   <bounds>
