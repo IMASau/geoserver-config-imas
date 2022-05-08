@@ -6,7 +6,7 @@
 			<b>Depth:</b> N/A<BR><BR>
 		<#else>
 
-		<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?substring(1)} m		
+		<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?string("0")} m		
 		<BR><BR>
   </#if>
   </div>		
