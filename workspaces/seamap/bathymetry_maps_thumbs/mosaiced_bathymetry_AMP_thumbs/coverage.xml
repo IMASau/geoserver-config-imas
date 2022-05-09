@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--4812677:17ff49a5b56:-7d1b</id>
+  <id>CoverageInfoImpl-2922ad46:180a80ba0ce:-3255</id>
   <name>mosaiced_bathymetry_AMP_thumbs</name>
   <nativeName>mosaiced_bathymetry_AMP_thumbs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>THUMBNAILS - mosaiced bathymetry of AMPs</title>
+  <title>OVERVIEWS - mosaiced bathymetry of AMPs</title>
   <description>Generated from ImageMosaic</description>
   <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single Geotiff per Australian Marine Park (AMP). Resampled to 100m for viewing performance for use in zoom-based layer group.</abstract>
   <keywords>
-    <string>overviews</string>
+    <string>viewing</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -45,7 +45,7 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.63372658842624</minx>
+    <minx>-174.2161827755246</minx>
     <maxx>178.0446369565578</maxx>
     <miny>-62.249413840448355</miny>
     <maxy>-1.1606692893892718</maxy>
@@ -56,7 +56,7 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_maps_thumbs_overviews</entry>
+    <entry key="dirName">bathymetry_maps_thumbs_viewing</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--4812677:17ff49a5b56:-7d51</id>
@@ -66,7 +66,7 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>82615 63367</high>
+      <high>82615 63634</high>
     </range>
     <transform>
       <scaleX>100.0</scaleX>
@@ -74,23 +74,23 @@
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
       <translateX>-4706996.8838</translateX>
-      <translateY>-912295.8538097795</translateY>
+      <translateY>-885602.2519595157</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
     <string>bilinear</string>
     <string>bicubic</string>
   </interpolationMethods>
-  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <defaultInterpolationMethod>bilinear</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
       <name>GRAY_INDEX</name>
@@ -172,5 +172,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>overviews</nativeCoverageName>
+  <nativeCoverageName>viewing</nativeCoverageName>
 </coverage>
