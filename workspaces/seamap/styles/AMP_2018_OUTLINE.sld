@@ -34,6 +34,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
            			</PointPlacement>
          		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
+					<VendorOption name="spaceAround">-1</VendorOption>             
 			</TextSymbolizer>
  		</Rule>
  		<Rule>
