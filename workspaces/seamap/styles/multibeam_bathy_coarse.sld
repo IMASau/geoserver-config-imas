@@ -7,7 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MinScaleDenominator>100000</MinScaleDenominator> 
+          <MinScaleDenominator>50000</MinScaleDenominator> 
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-8000" label="Depth (m)"/>                                          
@@ -26,7 +26,7 @@
               <ColorMapEntry color="#f0cc3a" opacity="0.7" label="-150" quantity="-150"/>
               <ColorMapEntry color="#fdae35" opacity="0.7" label="-100" quantity="-100"/>
               <ColorMapEntry color="#fc8825" opacity="0.7" label="-70" quantity="-70"/>
-              <ColorMapEntry color="#f26014" opacity="0.7" label="-50" quantity="-50"/>
+              <ColorMapEntry color="#f26014" opacity="0.7" label="-40" quantity="-40"/>
               <ColorMapEntry color="#c52603" opacity="0.7" label="-20" quantity="-20"/>
               <ColorMapEntry color="#a21201" opacity="0.7" label="-10" quantity="-10"/>
               <ColorMapEntry color="#7a0403" opacity="0.7" label="-1" quantity="-1"/>
