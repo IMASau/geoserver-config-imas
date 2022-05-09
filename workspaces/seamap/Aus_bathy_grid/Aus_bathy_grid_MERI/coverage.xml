@@ -7,7 +7,7 @@
   </namespace>
   <title>Australian 250m Bathymetry Grid (MERI depth zones)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Australian Bathymetry and Topography Grid, June 2009 (Geoscience Australia). Grid is 9 arc second (0.0025° or ~250m at the equator). Styled based on 30, 70, 200, 700, 2000, 4000 and 6000m zones corresponding with the Parks Australia common language Ecosystem depth zones for MERI reporting, for use on the Seamap Australia website.</abstract>
+  <abstract>The Australian Bathymetry and Topography Grid, June 2009 (Geoscience Australia) classified according to MERI depth zones. Grid is 9 arc second (0.0025° or ~250m at the equator). Style colouring is based on 30, 70, 200, 700, 2000, 4000 and 6000m depths corresponding with the Parks Australia common language Ecosystem depth zones for MERI reporting, for use on the Seamap Australia website.</abstract>
   <keywords>
     <string>Aus_bathy_grid</string>
     <string>WCS</string>
