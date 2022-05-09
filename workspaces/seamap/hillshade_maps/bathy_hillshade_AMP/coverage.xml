@@ -7,7 +7,7 @@
   </namespace>
   <title>Bathymetry hillshade of Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Hillshade (z-factor 5m) to be viewed in combination with geomorphology and bathymetry maps for AMPs.</abstract>
+  <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology and bathymetry maps.</abstract>
   <keywords>
     <string>hillshade</string>
     <string>WCS</string>
