@@ -41,19 +41,19 @@
     <minx>-4707046.8838</minx>
     <maxx>3554496.5998</maxx>
     <miny>-7249040.1728</miny>
-    <maxy>-912245.8538097795</maxy>
+    <maxy>-885552.2519595157</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.61326058301032</minx>
-    <maxx>178.0724678391508</maxx>
+    <minx>-179.63372658842624</minx>
+    <maxx>178.0446369565578</maxx>
     <miny>-62.249413840448355</miny>
-    <maxy>-1.371530517894182</maxy>
+    <maxy>-1.1606692893892718</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_maps_thumbs_overviews</entry>

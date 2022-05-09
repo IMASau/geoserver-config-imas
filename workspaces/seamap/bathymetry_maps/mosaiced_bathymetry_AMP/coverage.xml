@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-2922ad46:18099e13b80:-2141</id>
+  <id>CoverageInfoImpl-2922ad46:180a80ba0ce:-3682</id>
   <name>mosaiced_bathymetry_AMP</name>
   <nativeName>mosaiced_bathymetry_AMP</nativeName>
   <namespace>
@@ -9,7 +9,6 @@
   <description>Generated from ImageMosaic</description>
   <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region.</abstract>
   <keywords>
-    <string>viewing</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -24,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -41,14 +40,14 @@
     <minx>-4707046.8838</minx>
     <maxx>3554511.9010241325</maxx>
     <miny>-7249044.730879928</miny>
-    <maxy>-885552.2519595157</maxy>
+    <maxy>-885552.2533137854</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-174.21595840036125</minx>
-    <maxx>178.0448256567646</maxx>
+    <minx>-179.6335271523583</minx>
+    <maxx>178.04482565817574</maxx>
     <miny>-62.24945040840132</miny>
-    <maxy>-1.1606692893892718</maxy>
+    <maxy>-1.160669300079536</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -56,7 +55,7 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_maps_viewing</entry>
+    <entry key="dirName">bathymetry_maps_raw</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-2922ad46:18099e13b80:-21ac</id>
@@ -66,15 +65,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>4130779 3181746</high>
+      <high>8784626 6766387</high>
     </range>
     <transform>
-      <scaleX>2.0</scaleX>
-      <scaleY>-2.0</scaleY>
+      <scaleX>0.9404564403697298</scaleX>
+      <scaleY>-0.9404564403697291</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4707045.8838</translateX>
-      <translateY>-885553.2519595157</translateY>
+      <translateX>-4707046.41357178</translateX>
+      <translateY>-885552.7235420056</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
@@ -90,7 +89,7 @@
     <string>bilinear</string>
     <string>bicubic</string>
   </interpolationMethods>
-  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <defaultInterpolationMethod>bilinear</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
       <name>GRAY_INDEX</name>
@@ -172,5 +171,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>viewing</nativeCoverageName>
+  <nativeCoverageName>raw</nativeCoverageName>
 </coverage>

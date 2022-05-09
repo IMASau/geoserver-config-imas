@@ -1,6 +1,6 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-2922ad46:180a80ba0ce:-34c8</id>
-  <name>bathymetry_AMP_grp</name>
+  <id>LayerGroupInfoImpl-2922ad46:180a80ba0ce:-3327</id>
+  <name>bathymetry_AMP_grp2</name>
   <mode>SINGLE</mode>
   <title>Bathymetry of Australian Marine Parks (AMPs)</title>
   <abstractTxt>Layer group for visualising bathymetry of Australian Marine Parks (AMPs). Group comprises of bathymetry mosaics overlaid on a hillshade layer, clipped to boundaries of Australian Marine Parks (2018).</abstractTxt>
@@ -36,10 +36,10 @@
     </style>
   </styles>
   <bounds>
-    <minx>-1.3390096821748048E7</minx>
-    <maxx>1.475525615607948E7</maxx>
-    <miny>-1.3497404728523815E7</miny>
-    <maxy>-257269.79240470284</maxy>
+    <minx>-4599473.142445153</minx>
+    <maxx>3447054.332820597</maxx>
+    <miny>-7183627.73173886</miny>
+    <maxy>-1047062.6342105796</maxy>
     <crs class="projected">EPSG:3112</crs>
   </bounds>
   <attribution>
