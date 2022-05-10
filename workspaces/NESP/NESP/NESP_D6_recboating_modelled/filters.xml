@@ -7,4 +7,32 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+        <name>mpType</name>
+        <type>string</type>
+        <label>Marine Park Type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>mpZone</name>
+        <type>string</type>
+        <label>Marine Park Zone</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>ampNtwr</name>
+        <type>string</type>
+        <label>AMP Network</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>mpName</name>
+        <type>string</type>
+        <label>AMP Reserve</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
 </filters>
