@@ -11,8 +11,8 @@
 	</#if>
 	 		
   
-  <b>Estimated boating trips per year: ${feature.meanTripsY0.rawValue?string("0.#")} trips</b><br>
-  Confidence interval: ${feature.lowCiTripsY0.rawValue?string("0.#")}-${feature.uppCiTripsY0.rawValue?string("0.#")} trips</i><br>
+  Estimated <b>${feature.meanTripsY0.rawValue?string("0")}</b> boating trips per year<br>
+  Confidence interval: <b>${feature.lowCiTripsY0.rawValue?string("0")}-${feature.uppCiTripsY0.rawValue?string("0")}</b> trips</i><br>
   </div>
   </#if>
 </#list>
