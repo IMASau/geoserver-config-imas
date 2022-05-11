@@ -24,7 +24,7 @@
     <filter>
         <name>mpName</name>
         <type>string</type>
-        <label>C. AMP Name</label>
+        <label>C. Marine Park Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
