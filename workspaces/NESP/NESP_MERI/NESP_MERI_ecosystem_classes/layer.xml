@@ -1,0 +1,15 @@
+<layer>
+  <name>NESP_MERI_ecosystem_classes</name>
+  <id>LayerInfoImpl-19c3df12:180c6c8e7e2:-347f</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-19c3df12:180c6c8e7e2:-3480</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
