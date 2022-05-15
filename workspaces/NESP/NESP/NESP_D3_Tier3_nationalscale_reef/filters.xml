@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>IMAS_CL</name>
-        <type>string</type>
-        <label>D3 Classification</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>geom</name>
         <type>geometrypropertytype</type>
         <label>Geom</label>
