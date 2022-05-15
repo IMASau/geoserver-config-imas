@@ -55,4 +55,8 @@ Tier 4 is a ‘reef probability’ information source isolated from the Australi
     <maxy>-9.000022502250724</maxy>
     <crs>EPSG:4283</crs>
   </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
 </layerGroup>

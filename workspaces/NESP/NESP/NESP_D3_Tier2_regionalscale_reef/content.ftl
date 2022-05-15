@@ -1,6 +1,9 @@
 <#list features as feature>
-<h6>TIER 2 Shelf Reef - regional surveys</h6>
+	<#if (feature_index < 1) >
+<h5>Regional surveys (Tier 2)</h5><br>
   <div class="feature"> 
-  <b>Project D3 classification: </b>Reef<BR>
+  <b>Classification: </b>Reef<BR>
  </div>
+  </#if>
 </#list>
+<br>

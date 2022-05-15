@@ -1,8 +1,11 @@
 <#list features as feature>
-<h6>TIER 3 Shelf Reef - national surveys</h6>
+	<#if (feature_index < 1) >
+<h5>National surveys (Tier 3)</h5><br>
   <div class="feature"> 
-  <b>Source dataset: </b>${feature.DATASET.value} (${feature.CUSTODIAN.value})<BR>
+  <b>D3 classification: </b>${feature.IMAS_CL.value}<BR>
   <b>Native classification: </b>${feature.NATIVE_CL.value}<BR> 
-  <b>Project D3 reclass: </b>${feature.IMAS_CL.value}<BR>
+  <i>(Source: ${feature.DATASET.value} - ${feature.CUSTODIAN.value})</i><BR>
  </div>
+  </#if>
 </#list>
+<br>

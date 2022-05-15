@@ -1,7 +1,10 @@
 <#list features as feature>
-<h6>TIER 4 Shelf Reef - reef probability</h6>
+	<#if (feature_index < 1) >
+<h5>Reef probability (Tier 4)</h5><br>
   <div class="feature"> 
-  <b>Source dataset: </b>${feature.DATASET.value} (${feature.CUSTODIAN.value})<BR>
-  <b>Reef probability: </b>${feature.IMAS_CL.value}<BR>
+  <b>Reef likelihood: </b>${feature.IMAS_CL.value}<BR>
+  <i>(Source: ${feature.DATASET.value} - ${feature.CUSTODIAN.value})</i><BR>
  </div>
+  </#if>
 </#list>
+<br>
