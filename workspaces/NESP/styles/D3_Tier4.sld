@@ -22,12 +22,7 @@ xmlns:gml="http://www.opengis.net/gml">
             <sld:Fill>
               <sld:CssParameter name="fill">#ff9933</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.1</sld:CssParameter>
-            </sld:Stroke>	          
+            </sld:Fill>	          
           </sld:PolygonSymbolizer>
         </sld:Rule>
       </sld:FeatureTypeStyle>

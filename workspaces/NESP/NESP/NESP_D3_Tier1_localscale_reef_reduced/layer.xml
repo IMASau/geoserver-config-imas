@@ -8,6 +8,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-19c3df12:180c6c8e7e2:-57fe</id>
   </resource>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
