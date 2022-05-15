@@ -32,7 +32,7 @@ This data layer describes TIER 2 reef mapping. Tier 2 are ‘regional surveys’
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
-  <srs>EPSG:4283</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>112.21572907290707</minx>
     <maxx>153.91104860531675</maxx>
@@ -41,19 +41,13 @@ This data layer describes TIER 2 reef mapping. Tier 2 are ‘regional surveys’
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>110.04588789960012</minx>
-    <maxx>156.0808897786237</maxx>
-    <miny>-49.68503019181995</miny>
-    <maxy>-3.650028312796352</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <minx>112.21572907290707</minx>
+    <maxx>153.91104860531675</maxx>
+    <miny>-44.33503600360052</miny>
+    <maxy>-9.000022502250724</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
@@ -61,8 +55,11 @@ This data layer describes TIER 2 reef mapping. Tier 2 are ‘regional surveys’
   <store class="dataStore">
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>

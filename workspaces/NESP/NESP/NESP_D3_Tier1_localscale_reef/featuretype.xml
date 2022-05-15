@@ -31,22 +31,22 @@ This data layer describes TIER 1 reef mapping. Tier 1 are high resolution multib
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
-  <srs>EPSG:4283</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>113.19734597206116</minx>
-    <maxx>159.36354941129684</maxx>
-    <miny>-43.779797904924095</miny>
-    <maxy>-10.283541341025803</maxy>
+    <minx>113.19734597523666</minx>
+    <maxx>159.36354938289776</maxx>
+    <miny>-43.7797979052491</miny>
+    <maxy>-10.283541340860154</maxy>
     <crs>EPSG:4283</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.19734597206116</minx>
-    <maxx>159.36354941129684</maxx>
-    <miny>-43.779797904924095</miny>
-    <maxy>-10.283541341025803</maxy>
+    <minx>113.19734597523666</minx>
+    <maxx>159.36354938289776</maxx>
+    <miny>-43.7797979052491</miny>
+    <maxy>-10.283541340860154</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
