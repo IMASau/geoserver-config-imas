@@ -1,5 +1,5 @@
 <layer>
-  <name>NESP_D3_Tier1_localscale_reef</name>
+  <name>NESP_D3_Tier1_localscale_reef_full</name>
   <id>LayerInfoImpl-2ae9b1f8:180c2915d17:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -8,6 +8,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-2ae9b1f8:180c2915d17:-7fff</id>
   </resource>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

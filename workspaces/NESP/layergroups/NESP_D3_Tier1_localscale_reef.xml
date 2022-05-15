@@ -1,0 +1,44 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-19c3df12:180c6c8e7e2:-5343</id>
+  <name>NESP_D3_Tier1_localscale_reef</name>
+  <mode>SINGLE</mode>
+  <title>Tier 1 (local scale surveys)</title>
+  <abstractTxt>Rocky reefs form an important habitat on the continental shelf and one subject to disproportionate fishing pressure given the high productivity of this habitat relative to adjacent sandy seabed. Despite this, little is known of the extent and nature of these systems beyond their value to the fishing industry. The NESP Marine Biodiversity Hub Project D3 collates all known mapping data from government and industry (including data acquired during CERF and NERP Hubs) to provide an updated map of this key habitat around Australia.&#xd;
+&#xd;
+The data was contributed from several national and State sources including the Australian Hydrographic Service, Queensland, Victoria, New South Wales, South Australia, Tasmania, Western Australia and Northern Territory. The information was synthesised and the information collected to describe rocky reef location on the Australian Continental shelf is described by 4 tiers of decreasing level of certainty/resolution/validation.&#xd;
+&#xd;
+This data layer describes TIER 1 reef mapping. Tier 1 are high resolution multibeam ‘local surveys’ generally carried out by the State stakeholders.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-19c3df12:180c6c8e7e2:-57fd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2ae9b1f8:180c2915d17:-7ffe</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-19c3df12:180c6c8e7e2:-580a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3ea8dad8:157bb635de2:2db3</id>
+    </style>
+  </styles>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>19139</metadataType>
+      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=2ffb37a5-5c58-4ea9-a47d-5d526be31346</content>
+    </metadataLink>
+  </metadataLinks>
+  <bounds>
+    <minx>113.19734597523666</minx>
+    <maxx>159.36354938289776</maxx>
+    <miny>-43.7797979052491</miny>
+    <maxy>-10.283541340860154</maxy>
+    <crs>EPSG:4283</crs>
+  </bounds>
+</layerGroup>

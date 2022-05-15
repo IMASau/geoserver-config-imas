@@ -25,6 +25,9 @@ Tier 4 is a ‘reef probability’ information source isolated from the Australi
       <id>LayerInfoImpl--91876d2:159edb015c3:-445b</id>
     </published>
     <published type="layer">
+      <id>LayerInfoImpl-19c3df12:180c6c8e7e2:-57fd</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl-2ae9b1f8:180c2915d17:-7ffe</id>
     </published>
   </publishables>
@@ -37,6 +40,9 @@ Tier 4 is a ‘reef probability’ information source isolated from the Australi
     </style>
     <style>
       <id>StyleInfoImpl--91876d2:159ed550a4e:-7960</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-19c3df12:180c6c8e7e2:-580a</id>
     </style>
     <style>
       <id>StyleInfoImpl--3ea8dad8:157bb635de2:2db3</id>
