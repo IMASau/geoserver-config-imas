@@ -11,7 +11,7 @@ xmlns:gml="http://www.opengis.net/gml">
     <sld:UserStyle>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Reef (Tier 1)</sld:Title>
+          <sld:Title>Reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
@@ -31,7 +31,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Non reef (Tier 1)</sld:Title>
+          <sld:Title>Non-reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
@@ -41,31 +41,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#53c6a9</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
             </sld:Fill>  
             <sld:Stroke>
               <sld:CssParameter name="stroke">#53c6a9</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-            </sld:Stroke>	            
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>Unclassified</sld:Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
-              <ogc:Literal>Unclass</ogc:Literal>
-            </ogc:PropertyIsEqualTo>            
-          </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#cccccc</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
-            </sld:Fill>  
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#cccccc</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.5</sld:CssParameter>
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	            
           </sld:PolygonSymbolizer>

@@ -45,7 +45,7 @@
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>500</maxBuffer>
   <maxRequestMemory>100000000</maxRequestMemory>
-  <maxRenderingTime>540</maxRenderingTime>
+  <maxRenderingTime>180</maxRenderingTime>
   <maxRenderingErrors>100</maxRenderingErrors>
   <cacheConfiguration>
     <enabled>false</enabled>

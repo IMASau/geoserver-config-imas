@@ -11,7 +11,7 @@ xmlns:gml="http://www.opengis.net/gml">
     <sld:UserStyle>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Possible Reef (Tier 4)</sld:Title>
+          <sld:Title>Possible reef</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IMAS_CL</ogc:PropertyName>
@@ -20,13 +20,13 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#e67300</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff9933</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#000000</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.1</sld:CssParameter>
             </sld:Stroke>	          
           </sld:PolygonSymbolizer>
         </sld:Rule>
