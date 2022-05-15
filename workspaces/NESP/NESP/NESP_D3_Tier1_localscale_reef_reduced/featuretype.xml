@@ -42,7 +42,7 @@ NOTE: this data has been simplified for viewing to ~200m. See layer group &apos;
     <maxy>-10.283541340860154</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>

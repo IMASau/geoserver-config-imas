@@ -47,7 +47,7 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
     <maxy>-9.332447935725575</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>

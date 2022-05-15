@@ -36,8 +36,8 @@ This data layer describes TIER 1 reef mapping. Tier 1 are high resolution multib
   </metadataLinks>
   <bounds>
     <minx>113.19734597523666</minx>
-    <maxx>159.36354938289776</maxx>
-    <miny>-43.7797979052491</miny>
+    <maxx>159.36354938289773</maxx>
+    <miny>-43.77979794794811</miny>
     <maxy>-10.283541340860154</maxy>
     <crs>EPSG:4283</crs>
   </bounds>

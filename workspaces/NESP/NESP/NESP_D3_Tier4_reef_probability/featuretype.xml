@@ -47,7 +47,7 @@ This data layer describes TIER 4 reef mapping. Tier 4 is a â€˜reef probabilityâ€
     <maxy>-9.196436996383705</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
