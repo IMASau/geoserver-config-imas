@@ -1,13 +1,14 @@
 <layer>
-  <name>SeamapAus_AMP2018_OUTLINE</name>
-  <id>LayerInfoImpl-19c3df12:180c6c8e7e2:-3102</id>
+  <name>SeamapAus_AMP2018_OUTLINE_NOQUERY</name>
+  <id>LayerInfoImpl-2922ad46:18099e13b80:-68ea</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-733d3287:17ee0c36557:-6284</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-19c3df12:180c6c8e7e2:-3103</id>
+    <id>FeatureTypeInfoImpl-2922ad46:18099e13b80:-68eb</id>
   </resource>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
