@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Reefs on the Australian Continental Shelf (NESP MBH D3) - Tier 3 (national scale)</title>
+  <title>Tier 3 (national scale surveys)</title>
   <abstract>Rocky reefs form an important habitat on the continental shelf and one subject to disproportionate fishing pressure given the high productivity of this habitat relative to adjacent sandy seabed. Despite this, little is known of the extent and nature of these systems beyond their value to the fishing industry. The NESP Marine Biodiversity Hub Project D3 collates all known mapping data from government and industry (including data acquired during CERF and NERP Hubs) to provide an updated map of this key habitat around Australia.&#xd;
 &#xd;
 The data was contributed from several national and State sources including the Australian Hydrographic Service, Queensland, Victoria, New South Wales, South Australia, Tasmania, Western Australia and Northern Territory. The information was synthesised and the information collected to describe rocky reef location on the Australian Continental shelf is described by 4 tiers of decreasing level of certainty/resolution/validation.&#xd;
@@ -32,7 +32,7 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:4283</srs>
   <nativeBoundingBox>
     <minx>112.920464</minx>
     <maxx>159.0763224</maxx>
@@ -45,15 +45,9 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
     <maxx>159.0763224</maxx>
     <miny>-43.635222299999995</miny>
     <maxy>-9.332447935725575</maxy>
-    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
-  DATUM[&quot;WGS84&quot;, 
-    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
@@ -61,8 +55,11 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
   <store class="dataStore">
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>

@@ -7,10 +7,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:gml="http://www.opengis.net/gml">
   <sld:NamedLayer>
-    <sld:Name>habitat_polygon</sld:Name>
+    <sld:Name>Tier 3 reef</sld:Name>
     <sld:UserStyle>
-      <sld:Title>Habitat Polygon</sld:Title>
-      <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:Title>Reef (Tier 3)</sld:Title>
@@ -31,9 +29,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
             </sld:Stroke>	          
           </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-        </sld:Rule>          
+        </sld:Rule>       
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>
