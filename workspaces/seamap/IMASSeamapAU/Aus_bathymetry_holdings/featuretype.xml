@@ -6,9 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Coverage of Australian bathymetry surveys by resolution and data accessibility</title>
-  <abstract>NOTE: THIS LAYER NOT TO BE PUBLISHED (performance reasons). RETAINED EXCLUSIVELY TO SEED TILES FOR &apos;Aus_bathymetry_holdings&apos;, which is a reduced resolution layer (.Reduce(200)), but encounters errors when attempting to seed tiles.&#xd;
-&#xd;
-Extent and data availability status of Australian bathymetry surveys - coverage extracted primarily from AusSeabed layer &quot;bathymetry holdings&quot; with some minor additional coverage for more recent surveys (2021-present) and data held by IMAS that has not yet been published by AusSeabed. Coverage shows surveys only (not DEMs). Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
+  <abstract>Extent and data availability status of Australian bathymetry surveys - coverage extracted primarily from AusSeabed layer &quot;bathymetry holdings&quot; with some minor additional coverage for more recent surveys (2021-present) and data held by IMAS that has not yet been published by AusSeabed. Coverage shows surveys only (not DEMs). Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
   <keywords>
     <string>features</string>
     <string>Aus_bathy_extents_published</string>
