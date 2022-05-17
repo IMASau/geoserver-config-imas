@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1295cef3:17d4610413e:6a83</id>
-  <name>SeamapAus_TAS_AbHab_substrata_DATA</name>
+  <name>SeamapAus_TAS_AbHab_substrata</name>
   <nativeName>SeamapAus_TAS_AbHab_substrata</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -50,7 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
