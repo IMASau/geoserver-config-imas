@@ -2,7 +2,7 @@
 
 <#list features as feature>
 
-<#if (feature_index < 3) >
+<#if (feature_index <3) >
 	
   <div class="feature">  
   
