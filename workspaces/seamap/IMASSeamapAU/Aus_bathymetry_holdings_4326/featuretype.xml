@@ -1,17 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-2922ad46:1809e8566c7:-34be</id>
-  <name>Aus_bathymetry_holdings_REDUCED</name>
-  <nativeName>Aus_bathy_extents_published_reduced</nativeName>
+  <id>FeatureTypeInfoImpl-2e7a6e68:180d49df0a7:-7835</id>
+  <name>Aus_bathymetry_holdings_4326</name>
+  <nativeName>Aus_bathy_extents_published</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Coverage of Australian bathymetry surveys by resolution and data accessibility - reduced resolution for viewing (500m)</title>
-  <abstract>NOTE: this layer has been created at a reduced resolution (.Reduce(500).STBuffer(1)) for performance reasons, but encounters errors when attempting to seed tiles, and does not render correctly.&#xd;
-&#xd;
-Extent and data availability status of Australian bathymetry surveys - coverage extracted primarily from AusSeabed layer &quot;bathymetry holdings&quot; with some minor additional coverage for more recent surveys (2021-present) and data held by IMAS that has not yet been published by AusSeabed. Coverage shows surveys only (not DEMs). Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
+  <title>EPSG:4326</title>
   <keywords>
     <string>features</string>
-    <string>Aus_bathy_extents_published_reduced</string>
+    <string>Aus_bathy_extents_published</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,42 +33,30 @@ Extent and data availability status of Australian bathymetry surveys - coverage 
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-1.2004202909977766E7</minx>
-    <maxx>9888076.036707655</maxx>
-    <miny>-1.0479224152350467E7</miny>
+    <maxx>9888076.036707658</maxx>
+    <miny>-1.047922415235047E7</miny>
     <maxy>6744209.831933715</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-80.27971396699967</miny>
-    <maxy>52.68578753064869</maxy>
+    <minx>-1.2004202909977766E7</minx>
+    <maxx>9888076.036707658</maxx>
+    <miny>-1.047922415235047E7</miny>
+    <maxy>6744209.831933715</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>NONE</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
-  <cqlFilter>data_typ_sort &lt;&gt; &apos;modelled&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
