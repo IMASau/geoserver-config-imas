@@ -1,7 +1,8 @@
 <#setting date_format="yyyy">
 
-<TABLE bordercolorlight="#000000" cellpadding="4" border="2" >
 
+<TABLE bordercolorlight="#000000" cellpadding="4" border="2" >
+<THEAD>
 	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff'>
 		<th style="padding:5px">Collection name</th>
 		<th style="padding:5px">Date range</th>
@@ -10,7 +11,8 @@
 		<th style="padding:5px">Data availability</th>
 		<th style="padding:5px">Info</th>
 	</TR>
-
+</THEAD>
+<TBODY>
 	<#list features as feature>
 		<#if (feature_index < 10)> 
 
@@ -77,10 +79,11 @@
 			<a rel="external" href="${feature.METADATA.value}" target="_blank">view metadata</a>
 		<#else>
 			-
-		</#if>
+		</#if> 
 	</TD>    
 
 </TR>
+</TBODY>
 
 		<#else>
 			<h3>More surveys exist at this location<br><br></h3>
