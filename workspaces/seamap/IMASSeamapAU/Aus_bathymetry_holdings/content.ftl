@@ -1,7 +1,7 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1pt solid black' >
+<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
 
 <THEAD>
 	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff; border:1.5pt solid black'>
@@ -27,7 +27,7 @@
 <TBODY>
 	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="padding:5pxl; border-right:1pt">
+		<TD style="padding:5px">
 			<#if collection?has_content>
 				<#if feature.objectid.value?contains("DEM")>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -89,7 +89,7 @@
 </TBODY>
 
 		<#else>
-			<h3>More surveys exist at this location<br><br></h3>
+			<h3>More surveys exist at this location</h3><br>
 		<#break>
 		</#if>
 	</#list>
