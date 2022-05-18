@@ -3,12 +3,12 @@
 <TABLE bordercolorlight="#000000" cellpadding="4" border="2" >
 
 	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff'>
-		<th>Collection name</th>
-		<th>Date range</th>
-		<th>Resolution</th>
-		<th>Marine Park(s)</th>
-		<th>Data availability</th>
-		<th>Info</th>
+		<th style="padding:5px">Collection name</th>
+		<th style="padding:5px">Date range</th>
+		<th style="padding:5px">Resolution</th>
+		<th style="padding:5px">Marine Park(s)</th>
+		<th style="padding:5px">Data availability</th>
+		<th style="padding:5px">Info</th>
 	</TR>
 
 	<#list features as feature>
@@ -22,7 +22,7 @@
 
 	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-	<TD>
+	<TD style="padding:5px">
 		<#if collection?has_content>
 			<#if feature.objectid.value?contains("DEM")>
 				${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -46,11 +46,11 @@
 		</#if>
 	</TD>
 
-	<TD>
+	<TD style="padding:5px">
 		${feature.RESOLUTION.value}
 	</TD>     
                  
-	<TD>
+	<TD style="padding:5px">
 		<#if feature.AMP_RES.value == 'various'>
 			various
 		<#elseif reserve?has_content>
@@ -60,7 +60,7 @@
 		</#if>
 	</TD>   
      
-	<TD>
+	<TD style="padding:5px">
 		<#if feature.data_dl.value == 'no'>
 			not available
 		<#elseif feature.data_dl.value == 'yes - other'>
@@ -72,7 +72,7 @@
 		</#if>
 	</TD>   
 
-	<TD>
+	<TD style="padding:5px">
 		<#if metadata?has_content>
 			<a rel="external" href="${feature.METADATA.value}" target="_blank">view metadata</a>
 		<#else>
@@ -89,3 +89,4 @@
 	</#list>
 </TABLE>
 
+<br>
