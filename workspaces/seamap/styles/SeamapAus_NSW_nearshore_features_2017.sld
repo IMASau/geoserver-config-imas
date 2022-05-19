@@ -132,22 +132,7 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
-        </Rule>      
-        <Rule>
-          <Title>Land - Other</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Land - Other</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#828282</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>         
+        </Rule>               
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
