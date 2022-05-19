@@ -29,6 +29,6 @@
 	</#if> 
 	
 </#list>
-
-<a href="https://climatechangerecovery.com/" TARGET="_NEW">
-<img src="https://images.squarespace-cdn.com/content/5e3393c1e7f1641a3b7ee996/1583292756369-NSZ4WG5UQ7X0739Q3L0W/logo_low_res.jpg" alt="CRI" /><BR>
+<br>
+<a href="https://climaterecoveryinstitute.com.au/our-work/nets/" TARGET="_NEW">
+<img src="https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/CRI_logo_col.jpg" alt="CRI" height="100" /><BR>
