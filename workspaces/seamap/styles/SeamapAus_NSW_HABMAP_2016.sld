@@ -14,76 +14,16 @@
       <Name>Habitat polygons - NSW coastal nearshore reef features</Name>
       <FeatureTypeStyle>  
         <Rule>
-          <Title>Pipeline</Title>
+          <Title>Beach</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Pipeline</ogc:Literal>
+              <ogc:Literal>Beach</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Shipwreck</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Shipwreck</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#444f89</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Rocky reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rocky reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#895a44</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>		
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Sand veneer/bare reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand veneer/bare reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#d7c29e</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>		
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Sand</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffffbe</CssParameter>
+              <CssParameter name="fill">#f3f359</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
@@ -102,37 +42,22 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>   
         <Rule>
-          <Title>Beach/dune sand/gravel</Title>
+          <Title>Reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Beach/dune sand/gravel</ogc:Literal>
+              <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f3f359</CssParameter>
+              <CssParameter name="fill">#895a44</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
+            </Fill>		
           </PolygonSymbolizer>
-        </Rule>      
-        <Rule>
-          <Title>Beach cobble/boulder</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Beach cobble/boulder</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffd37f</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>
+        </Rule>		
         <Rule>
           <Title>Exposed reef/outcrop</Title>
           <ogc:Filter>
@@ -149,12 +74,33 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Land - Other</Title>
+          <Title>Unconsolidated</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Land - Other</ogc:Literal>
+              <ogc:Literal>unconsolidated</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffbe</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+          <Title>Land - Other</Title>
+          <ogc:Filter>
+			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Land - Other</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Other</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 			
+			</ogc:Or>			
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
