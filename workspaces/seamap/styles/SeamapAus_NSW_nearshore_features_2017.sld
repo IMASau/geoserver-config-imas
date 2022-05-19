@@ -102,37 +102,7 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Beach/dune sand/gravel</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Beach/dune sand/gravel</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#f3f359</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
         </Rule>      
-        <Rule>
-          <Title>Beach cobble/boulder</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Beach cobble/boulder</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffd37f</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>
         <Rule>
           <Title>Exposed reef/outcrop</Title>
           <ogc:Filter>
@@ -147,7 +117,22 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
-        </Rule> 
+        </Rule>         
+        <Rule>
+          <Title>Beach</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Beach*</ogc:Literal>
+            </ogc:PropertyIsLike>  
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#f3f359</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>      
         <Rule>
           <Title>Land - Other</Title>
           <ogc:Filter>
