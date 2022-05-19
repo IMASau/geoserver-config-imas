@@ -1,14 +1,15 @@
 <featureType>
   <id>FeatureTypeInfoImpl--59961f48:1771585cd25:-5d06</id>
   <name>CRI_Projects</name>
-  <nativeName>CIRCA_Projects</nativeName>
+  <nativeName>CRI_Projects</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>CRI Climate Recovery Projects</title>
   <keywords>
-    <string>features</string>
-    <string>CIRCA_Projects</string>
+    <string>CRI</string>
+    <string>CIRCA</string>
+    <string>Climate Recovery</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 

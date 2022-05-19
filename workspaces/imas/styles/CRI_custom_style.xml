@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-e91977e:178b435b9cb:4483</id>
-  <name>CIRCA_custom_style</name>
+  <name>CRI_custom_style</name>
   <workspace>
     <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CIRCA_custom_style.sld</filename>
+  <filename>CRI_custom_style.sld</filename>
 </style>
