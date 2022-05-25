@@ -23,14 +23,13 @@
 
 	<#else>
 
-		<h6>There is more than one project at this location, zoom in for more detail.<BR></h6>
+		<h6>There is more than one project at this location, zoom in for more detail.</h6>
 		<#break>
 	
 	</div>
 	</#if> 
 	
 </#list>
-<br>
 <a href="https://protect-au.mimecast.com/s/KgxeCWLJ2zf50WGOpinPRv9?domain=climaterecoveryinstitute.com.au" TARGET="_NEW">
 <img src="https://protect-au.mimecast.com/s/lKHMCXLK3AfXmz026umVXhU?domain=data.imas.utas.edu.au" alt="CRI" height="100" /><BR>
 </div>
