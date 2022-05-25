@@ -1,3 +1,4 @@
+<div class="cri-popup">
 <h3>Project Details</h3><BR>
 
 <#list features as feature>
@@ -30,5 +31,7 @@
 	
 </#list>
 <br>
-<a href="https://climaterecoveryinstitute.com.au/our-work/nets/" TARGET="_NEW">
-<img src="https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/CRI_logo_col.jpg" alt="CRI" height="100" /><BR>
+<a href="https://protect-au.mimecast.com/s/KgxeCWLJ2zf50WGOpinPRv9?domain=climaterecoveryinstitute.com.au" TARGET="_NEW">
+<img src="https://protect-au.mimecast.com/s/lKHMCXLK3AfXmz026umVXhU?domain=data.imas.utas.edu.au" alt="CRI" height="100" /><BR>
+</div>
+
