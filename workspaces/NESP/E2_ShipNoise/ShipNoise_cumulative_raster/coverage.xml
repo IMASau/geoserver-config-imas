@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>MAP of cumulative sound exposure from shipping in Aus EEZ</title>
+  <title>MAP - Cumulative sound exposure from shipping in Aus EEZ (raster product)</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>NESP MBH Project E2 - Cumulative 6 month sound exposure from shipping in Aus EEZ (raster product)</abstract>
   <keywords>
     <string>ShipNoise</string>
     <string>WCS</string>

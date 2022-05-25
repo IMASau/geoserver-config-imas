@@ -1,12 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl-19fc1e69:1783e106a71:-69a1</id>
-  <name>ShipNoise_cumulative</name>
+  <name>ShipNoise_cumulative_vector</name>
   <nativeName>NESP_E2_ShipNoise_cumulative</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Cumulative sound exposure from shipping in Aus EEZ</title>
-  <abstract>NESP MBH Project E2 - Cumulative 6 month sound exposure from shipping in Aus EEZ</abstract>
+  <title>Cumulative sound exposure from shipping in Aus EEZ (vector product)</title>
+  <abstract>NESP MBH Project E2 - Cumulative 6 month sound exposure from shipping in Aus EEZ (vector product)</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_E2_ShipNoise_cumulative</string>
