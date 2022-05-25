@@ -1,12 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl-19fc1e69:1783e106a71:-688e</id>
-  <name>WindNoise_cumulative</name>
+  <name>WindNoise_cumulative_vector</name>
   <nativeName>NESP_E2_WindNoise_cumulative</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Cumulative sound exposure from wind in Aus EEZ</title>
-  <abstract>NESP MBH Project E2 - Cumulative 6 month sound exposure from wind in Aus EEZ</abstract>
+  <title>Cumulative sound exposure from wind in Aus EEZ (vector product)</title>
+  <abstract>NESP MBH Project E2 - Cumulative 6 month sound exposure from wind in Aus EEZ (vector product)</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_E2_WindNoise_cumulative</string>
@@ -15,7 +15,7 @@
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=0d3c7edc-463a-4fa0-8039-4d5a779035c3</content>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/0d3c7edc-463a-4fa0-8039-4d5a779035c3</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 53N&quot;, 
@@ -55,6 +55,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
