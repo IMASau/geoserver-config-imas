@@ -8,14 +8,14 @@
   <b>Cruise ID:</b> ${feature.Cruise.value}<BR>
   <b>Date: </b> ${feature.start_date.value[0..9]}<BR>  
 
-  <#assign dFe=feature.dFe.value>
-  <#assign Lt=feature.Lt.value>
+  <#assign dFe=feature.dFe_nM.value>
+  <#assign L=feature.L_nM.value>
   
   <#if dFe?has_content>  
-  <b>Concentration dissolved iron: </b> ${feature.dFe.rawValue?string("0.00")} nmol L<sup>-1</sup><BR>
+  <b>Concentration dissolved iron: </b> ${feature.dFe_nM.value} nmol L<sup>-1</sup><BR>
   </#if>
-  <#if dFe?has_content>  
-  <b>Concentration iron-binding ligand: </b> ${feature.Lt.value} nEq M Fe<BR><BR>
+  <#if L?has_content>  
+  <b>Concentration iron-binding ligand: </b> ${feature.L_nM.value} nmol L<sup>-1</sup><BR><BR>
   </#if>
  
  </div>

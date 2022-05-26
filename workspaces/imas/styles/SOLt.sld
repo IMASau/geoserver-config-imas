@@ -14,7 +14,7 @@
           <Title>Concentration of dissolved iron</Title> 
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>999999</ogc:Literal>
 					   </ogc:PropertyIsEqualTo>
 					</ogc:Filter>           
@@ -35,7 +35,7 @@
           <Title>&lt;0.05 nmol L-1</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsLessThan>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>0.05</ogc:Literal>
 					   </ogc:PropertyIsLessThan>
 					</ogc:Filter>             
@@ -62,11 +62,11 @@
 					<ogc:Filter>
 						<ogc:And>					
 					   <ogc:PropertyIsLessThan>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>1</ogc:Literal>
 					   </ogc:PropertyIsLessThan>
 					   <ogc:PropertyIsGreaterThanOrEqualTo>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>0.5</ogc:Literal>
 					   </ogc:PropertyIsGreaterThanOrEqualTo>
 						</ogc:And>										   
@@ -94,11 +94,11 @@
 					<ogc:Filter>
 						<ogc:And>					
 					   <ogc:PropertyIsLessThan>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>1.5</ogc:Literal>
 					   </ogc:PropertyIsLessThan>
 					   <ogc:PropertyIsGreaterThanOrEqualTo>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>1</ogc:Literal>
 					   </ogc:PropertyIsGreaterThanOrEqualTo>
 						</ogc:And>										   
@@ -126,11 +126,11 @@
 					<ogc:Filter>
 						<ogc:And>					
 					   <ogc:PropertyIsLessThan>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>2.0</ogc:Literal>
 					   </ogc:PropertyIsLessThan>
 					   <ogc:PropertyIsGreaterThanOrEqualTo>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>1.5</ogc:Literal>
 					   </ogc:PropertyIsGreaterThanOrEqualTo>
 						</ogc:And>										   
@@ -157,7 +157,7 @@
           <Title>&#8805;2.0</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsGreaterThanOrEqualTo>
-					      <ogc:PropertyName>dFe</ogc:PropertyName>
+					      <ogc:PropertyName>dFe_nM</ogc:PropertyName>
 					      <ogc:Literal>2.0</ogc:Literal>
 					   </ogc:PropertyIsGreaterThanOrEqualTo>
 					</ogc:Filter>             
