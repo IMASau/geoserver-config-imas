@@ -43,7 +43,7 @@
 			</#if>
 		</TD>
 
-		<TD>
+		<TD style="padding:5px">
 			<#if startdate?has_content>
 				${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
 			<#else>
