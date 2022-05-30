@@ -3,22 +3,36 @@ feature-styles:
 - transform:
     name: vec:PointStacker
     params:
-    cellSize: 100
+        cellSize: 50
   rules:
+  - name: 'Example 1'
+    filter: ${StudyType_biota = 'Y'}
+    title: Example 1
+    symbolizers:
+    - point:
+        size: ${8*sqrt(count)}
+        symbols:
+        - mark:
+            shape: circle
+            fill-color: '#00cc00'  
+  rules:
+  - name: 'Example 1'
+    filter: ${StudyType_biota = 'Y'}
+    title: Biotic only    
   - symbolizers:
     - point:
         size: ${8*sqrt(count)}
         symbols:
         - mark:
             shape: circle
-            fill-color: '#EE0000'
+            fill-color: '#00cc00'
   - filter: count > 1
     symbolizers:
     - text:
           fill-color: '#FFFFFF'
-          font-family: Arial
+          font-family: Sans Serif
           font-size: 10
           font-weight: bold
           label: ${count}
           placement:
-              anchor: [0.5,0.75]
+              anchor: [0.1,0.1]
