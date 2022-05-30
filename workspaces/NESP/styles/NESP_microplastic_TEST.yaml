@@ -1,0 +1,24 @@
+title: pointstacker
+feature-styles:
+- transform:
+    name: vec:PointStacker
+    params:
+    cellSize: 100
+  rules:
+  - symbolizers:
+    - point:
+        size: ${8*sqrt(count)}
+        symbols:
+        - mark:
+            shape: circle
+            fill-color: '#EE0000'
+  - filter: count > 1
+    symbolizers:
+    - text:
+          fill-color: '#FFFFFF'
+          font-family: Arial
+          font-size: 10
+          font-weight: bold
+          label: ${count}
+          placement:
+              anchor: [0.5,0.75]

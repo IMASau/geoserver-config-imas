@@ -1,12 +1,12 @@
 <style>
-  <id>StyleInfoImpl--64fa71ba:1811303681d:-6f9a</id>
+  <id>StyleInfoImpl-8e8f33b:181152073df:-5a5d</id>
   <name>NESP_microplastic_TEST</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
-  <format>sld</format>
+  <format>ysld</format>
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>NESP_microplastic_TEST.sld</filename>
+  <filename>NESP_microplastic_TEST.yaml</filename>
 </style>
