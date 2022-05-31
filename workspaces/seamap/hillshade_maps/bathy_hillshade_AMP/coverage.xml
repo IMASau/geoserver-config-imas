@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Bathymetry hillshade of Australian Marine Parks (AMPs)</title>
+  <title>Hillshade of Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
   <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology and bathymetry maps.</abstract>
   <keywords>
@@ -53,8 +53,18 @@
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
   </metadata>

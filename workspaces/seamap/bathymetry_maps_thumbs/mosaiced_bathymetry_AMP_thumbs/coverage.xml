@@ -12,6 +12,7 @@
     <string>viewing</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
+    <string>OVERVIEWS</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
