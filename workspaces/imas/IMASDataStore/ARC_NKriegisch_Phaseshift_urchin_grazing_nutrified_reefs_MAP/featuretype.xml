@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP</title>
+  <title>Urchin grazing on nutrified reefs - GENERAL STUDY AREA ONLY</title>
   <keywords>
     <string>ARC_NKriegisch_Phaseshift_urchin_grazing_nutrified_reefs_MAP</string>
     <string>features</string>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=21245d18-7a4f-4e25-9b98-ae90ae92748b</content>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/21245d18-7a4f-4e25-9b98-ae90ae92748b</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -43,6 +43,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

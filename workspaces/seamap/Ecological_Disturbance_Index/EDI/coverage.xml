@@ -7,7 +7,9 @@
   </namespace>
   <title>Ecological Disturbance Index (GA)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Rehosted from Geoscience Australia for the purposes of the Seamap Australia project.</abstract>
+  <abstract>Seabed exposure and ecological disturbance on Australia&apos;s continental shelf - a dimensionless ecological disturbance index (ED). Visualisation created from Geoscience Australia data for the purposes of the Seamap Australia project.&#xd;
+&#xd;
+Hughes, M.G., Harris, P.T., Brooke, B.P. 2010. Seabed exposure and ecological disturbance on Australia&apos;s continental shelf: Potential surrogates for marine biodiversity. Record 2010/043. Geoscience Australia, Canberra. http://pid.geoscience.gov.au/dataset/ga/71210</abstract>
   <keywords>
     <string>WCS</string>
     <string>GeoTIFF</string>
@@ -17,7 +19,7 @@
     <metadataLink>
       <type>text/plain</type>
       <metadataType>19139</metadataType>
-      <content>https://ecat.ga.gov.au/geonetwork/srv/eng/search#!e3dd1af5-7afe-50fd-e044-00144fdd4fa6</content>
+      <content>http://pid.geoscience.gov.au/dataset/ga/71210</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -46,6 +48,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Ecological_Disturbance_Index_EDI</entry>
@@ -53,6 +56,7 @@
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--4677ad3c:15f5aaf01f0:3e12</id>
   </store>
+  <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -107,7 +111,7 @@
   <parameters>
     <entry>
       <string>InputTransparentColor</string>
-      <string></string>
+      <null/>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
