@@ -15,11 +15,11 @@
       <FeatureTypeStyle>
  		<Rule>
 		  <MinScaleDenominator>5000000</MinScaleDenominator>                             
-		  <MaxScaleDenominator>40000000</MaxScaleDenominator>                   
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
+                        <ogc:PropertyName>geom_res</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -29,42 +29,92 @@
            			<CssParameter name="font-family">sans-serif</CssParameter>
            			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>                      
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>                          
+           			</PointPlacement>
+         		   </LabelPlacement>  
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">-1</VendorOption>
                     <VendorOption name="group">true</VendorOption> 
-					<VendorOption name="conflictResolution">false</VendorOption>              
-                   <LabelPlacement>
-           			<PointPlacement>
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-           			</PointPlacement>
-         		   </LabelPlacement>                
-                    <VendorOption name="partials">true</VendorOption>
-                    <VendorOption name="group">yes</VendorOption>					
+					<VendorOption name="conflictResolution">false</VendorOption>                
 			</TextSymbolizer>                           
  		</Rule>
  		<Rule>
-		  <Title>Zone Type</Title>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                   
+		  <MinScaleDenominator>1000000</MinScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                             		  
 			<TextSymbolizer> 
-
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom_zone</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
            		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName> Reserve - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-           		  </Label>     
+           			<ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           		  </Label>
                   <Font>
-           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
-           			<CssParameter name="font-size">11</CssParameter>					
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
                    <LabelPlacement>
            			<PointPlacement>
-             			<AnchorPoint>
+             			<AnchorPoint>                      
               		 	<AnchorPointX>0.5</AnchorPointX>
                			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>
+             			</AnchorPoint>                          
            			</PointPlacement>
-         		   </LabelPlacement>               
+         		   </LabelPlacement>  
                     <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
+					<VendorOption name="spaceAround">-1</VendorOption>
+					<VendorOption name="conflictResolution">false</VendorOption>                
+			</TextSymbolizer>                           
+ 		</Rule>
+ 		<Rule>
+		  <MaxScaleDenominator>1000000</MaxScaleDenominator>                             
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom_zone</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName> - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           		  </Label>
+                  <Font>
+           			<CssParameter name="font-family">sans-serif</CssParameter>
+           			<CssParameter name="font-size">11</CssParameter>								
+          		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>                      
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>                          
+           			</PointPlacement>
+         		   </LabelPlacement>  
+                    <VendorOption name="partials">true</VendorOption>
+					<VendorOption name="spaceAround">-1</VendorOption>
+					<VendorOption name="conflictResolution">false</VendorOption>                
+			</TextSymbolizer>                           
+ 		</Rule>		
+ 		<Rule>
+		  <Title>Zone Type</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>		  
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>				  
+            </Fill>
+          </PolygonSymbolizer>		  
  		</Rule>          
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
@@ -75,7 +125,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -96,7 +146,7 @@
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -117,7 +167,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -138,7 +188,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -150,7 +200,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -176,7 +226,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -213,7 +263,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -234,7 +284,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -255,7 +305,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -267,7 +317,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -293,7 +343,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -305,7 +355,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -331,7 +381,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
@@ -343,7 +393,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -369,7 +419,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
+			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
