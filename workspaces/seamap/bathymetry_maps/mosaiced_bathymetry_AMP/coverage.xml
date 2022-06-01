@@ -54,6 +54,16 @@
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_maps_raw</entry>
   </metadata>
@@ -98,6 +108,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>-3.4028234663852886E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>

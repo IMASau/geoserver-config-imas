@@ -100,6 +100,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>-3.4028234663852886E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
