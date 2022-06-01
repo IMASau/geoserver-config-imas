@@ -44,7 +44,7 @@
 			</TextSymbolizer>                           
  		</Rule>
  		<Rule>
-		  <MinScaleDenominator>1000000</MinScaleDenominator>
+		  <Title>Zone Type</Title>
 		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                             		  
 			<TextSymbolizer> 
                   <Geometry>
@@ -70,51 +70,7 @@
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">-1</VendorOption>
 					<VendorOption name="conflictResolution">false</VendorOption>                
-			</TextSymbolizer>                           
- 		</Rule>
- 		<Rule>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>                             
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_zone</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName> - <ogc:PropertyName>ZONENAME</ogc:PropertyName>
-           		  </Label>
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">11</CssParameter>								
-          		  </Font>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>                      
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                          
-           			</PointPlacement>
-         		   </LabelPlacement>  
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">-1</VendorOption>
-					<VendorOption name="conflictResolution">false</VendorOption>                
-			</TextSymbolizer>                           
- 		</Rule>		
- 		<Rule>
-		  <Title>Zone Type</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
-              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>		  
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom_zone</ogc:PropertyName></Geometry>				  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
-          </PolygonSymbolizer>		  
+			</TextSymbolizer>	  
  		</Rule>          
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
