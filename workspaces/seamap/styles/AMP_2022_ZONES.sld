@@ -19,7 +19,7 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_RESERVE</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -30,7 +30,9 @@
            			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">true</VendorOption>
-                    <VendorOption name="group">true</VendorOption>              
+					<VendorOption name="spaceAround">-1</VendorOption>
+                    <VendorOption name="group">true</VendorOption> 
+					<VendorOption name="conflictResolution">false</VendorOption>              
                    <LabelPlacement>
            			<PointPlacement>
               		 	<AnchorPointX>0.5</AnchorPointX>
