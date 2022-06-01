@@ -1,13 +1,14 @@
 <#list features as feature>
+
+	<#assign depth_numeric=feature.GRAY_INDEX.value?number>
+
 	<#if (feature_index < 1) >
 	
 		<div class="feature">
-		<#if feature.GRAY_INDEX.rawValue?string("0") == '-340282346638528860000000000000000000000'>
-			<b>Depth:</b> N/A<BR><BR>
-		<#elseif feature.GRAY_INDEX.rawValue?string("0") == '-340282306073709650000000000000000000000'>
-			<b>Depth:</b> N/A<BR><BR>
-		<#elseif feature.GRAY_INDEX.rawValue?string("0") == '0'>
-			<b>Depth:</b> N/A<BR><BR>
+		<#if depth_numeric < -300000>
+			<b>Depth:</b> N/A<BR>
+		<#elseif depth_numeric = 0>
+			<b>Depth:</b> N/A<BR>
 		<#else>
 
 		<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?string("0")} m		
