@@ -53,7 +53,7 @@
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">hillshade_maps_bathy</entry>
