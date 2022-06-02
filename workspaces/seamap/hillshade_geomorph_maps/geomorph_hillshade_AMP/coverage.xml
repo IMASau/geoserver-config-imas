@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-733d3287:17eda00b620:-6d82</id>
-  <name>bathy_hillshade_AMP</name>
-  <nativeName>geomorph_AMP_hs</nativeName>
+  <id>CoverageInfoImpl-5ba9f273:18121c77677:-3a60</id>
+  <name>geomorph_hillshade_AMP</name>
+  <nativeName>geomorph_hillshade_AMP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade of Australian Marine Parks (AMPs)</title>
+  <title>Hillshade of Australian Marine Parks (AMPs) - subset</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology and bathymetry maps.</abstract>
+  <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology maps. Only AMPs with &gt;25% bathymetry coverage have been included.</abstract>
   <keywords>
-    <string>hillshade</string>
+    <string>geomorph</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -66,25 +66,25 @@
       </dimensionInfo>
     </entry>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">geomorphology_maps_hs_hillshade</entry>
+    <entry key="dirName">hillshade_geomorph_maps_geomorph</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:737c</id>
+    <id>CoverageStoreInfoImpl-5ba9f273:18121c77677:-5478</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>180977 447006</high>
+      <high>4129451 3181735</high>
     </range>
     <transform>
-      <scaleX>2.2595587423311594</scaleX>
-      <scaleY>-1.6609170868348444</scaleY>
+      <scaleX>2.0</scaleX>
+      <scaleY>-2.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>1362586.8154793712</translateX>
-      <translateY>-3705747.1470585433</translateY>
+      <translateX>-4707042.39714158</translateX>
+      <translateY>-885553.2519595157</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
@@ -100,7 +100,7 @@
     <string>bilinear</string>
     <string>bicubic</string>
   </interpolationMethods>
-  <defaultInterpolationMethod>bilinear</defaultInterpolationMethod>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
       <name>GRAY_INDEX</name>
@@ -185,5 +185,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>hillshade</nativeCoverageName>
+  <nativeCoverageName>geomorph</nativeCoverageName>
 </coverage>

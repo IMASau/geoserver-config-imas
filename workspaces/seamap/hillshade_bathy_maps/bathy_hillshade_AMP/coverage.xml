@@ -1,18 +1,17 @@
 <coverage>
-  <id>CoverageInfoImpl-2922ad46:180a80ba0ce:-3255</id>
-  <name>mosaiced_bathymetry_AMP_thumbs</name>
-  <nativeName>mosaiced_bathymetry_AMP_thumbs</nativeName>
+  <id>CoverageInfoImpl-5ba9f273:18121c77677:-638e</id>
+  <name>bathy_hillshade_AMP</name>
+  <nativeName>bathy_hillshade_AMP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>OVERVIEWS - mosaiced bathymetry of AMPs</title>
+  <title>Hillshade of Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Multibeam bathymetry data complied from various sources and mosaiced into a single Geotiff per Australian Marine Park (AMP). Resampled to 100m for viewing performance for use in zoom-based layer group.</abstract>
+  <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to bathymetry maps.</abstract>
   <keywords>
-    <string>viewing</string>
+    <string>bathy</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
-    <string>OVERVIEWS</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -39,43 +38,43 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-4707046.8838</minx>
-    <maxx>3554496.5998</maxx>
-    <miny>-7249040.1728</miny>
+    <minx>-4707043.39714158</minx>
+    <maxx>3551860.4149496453</maxx>
+    <miny>-7249023.774016198</miny>
     <maxy>-885552.2519595157</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.63372658842624</minx>
-    <maxx>178.0446369565578</maxx>
-    <miny>-62.249413840448355</miny>
-    <maxy>-1.1606692893892718</maxy>
+    <minx>-179.66514310651738</minx>
+    <maxx>178.01452747312229</maxx>
+    <miny>-62.24862669947749</miny>
+    <maxy>-1.1606782264974265</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">bathymetry_maps_thumbs_viewing</entry>
+    <entry key="dirName">hillshade_maps_bathy</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--4812677:17ff49a5b56:-7d51</id>
+    <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:737c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>82615 63634</high>
+      <high>4129451 3181735</high>
     </range>
     <transform>
-      <scaleX>100.0</scaleX>
-      <scaleY>-100.0</scaleY>
+      <scaleX>2.0</scaleX>
+      <scaleY>-2.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4706996.8838</translateX>
-      <translateY>-885602.2519595157</translateY>
+      <translateX>-4707042.39714158</translateX>
+      <translateY>-885553.2519595157</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
@@ -97,14 +96,14 @@
       <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>-inf</min>
-        <max>inf</max>
+        <min>0.0</min>
+        <max>255.0</max>
       </range>
       <nullValues>
-        <double>-3.4028234663852886E38</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
-        <name>REAL_32BITS</name>
+        <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -117,7 +116,7 @@
   <parameters>
     <entry>
       <string>BackgroundValues</string>
-      <null/>
+      <string>255</string>
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
@@ -176,5 +175,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>viewing</nativeCoverageName>
+  <nativeCoverageName>bathy</nativeCoverageName>
 </coverage>

@@ -9,7 +9,7 @@
   </workspace>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-733d3287:17eda00b620:-6d81</id>
+      <id>LayerInfoImpl-5ba9f273:18121c77677:-638d</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl-2922ad46:180a80ba0ce:-3681</id>
@@ -36,10 +36,10 @@
     </style>
   </styles>
   <bounds>
-    <minx>-2382330.2876621983</minx>
-    <maxx>2219274.762192049</maxx>
-    <miny>-5065635.719046252</miny>
-    <maxy>-1159032.4860540289</maxy>
+    <minx>-1.3388315414532201E7</minx>
+    <maxx>1.475525615607469E7</maxx>
+    <miny>-1.3497404728523815E7</miny>
+    <maxy>-257269.7924096115</maxy>
     <crs class="projected">EPSG:3112</crs>
   </bounds>
   <attribution>
