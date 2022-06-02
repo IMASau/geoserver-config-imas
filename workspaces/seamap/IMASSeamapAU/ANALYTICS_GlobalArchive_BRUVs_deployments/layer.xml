@@ -1,0 +1,15 @@
+<layer>
+  <name>ANALYTICS_GlobalArchive_BRUVs_deployments</name>
+  <id>LayerInfoImpl--6008cda0:18122cb20c0:6c52</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6008cda0:18122cb20c0:6c51</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
