@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_NSW_nearshore_features_2017</name>
+  <id>LayerInfoImpl-1926d766:1812959a57e:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6f2cc50d:180dc3e159a:-7fff</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1926d766:1812959a57e:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
