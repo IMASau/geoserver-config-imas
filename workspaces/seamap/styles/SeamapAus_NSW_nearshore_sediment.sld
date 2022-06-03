@@ -14,12 +14,12 @@
       <Name>Habitat polygons - NSW nearshore reef and sediment</Name>
       <FeatureTypeStyle>  
         <Rule>
-          <Title>Reef - barrens</Title>
+          <Title>Reef</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>reef - barrens</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
+              <ogc:Literal>reef%</ogc:Literal>
+            </ogc:PropertyIsLike>  
           </ogc:Filter>
           <PolygonSymbolizer>soft
             <Fill>
@@ -29,57 +29,12 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Reef - fringe</Title>
+          <Title>Sandy</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>reef - fringe</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#df9fbf</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>   
-        <Rule>
-          <Title>Reef - sandy</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>reeef - sand</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffad33</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>		
-          </PolygonSymbolizer>
-        </Rule>	
-        <Rule>
-          <Title>Reef - emergent</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>reef - emergent</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule> 		
-        <Rule>
-          <Title>Sandy barrens</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>sand - barrens</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 		
+              <ogc:Literal>sand%</ogc:Literal>
+            </ogc:PropertyIsLike>  
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -88,21 +43,7 @@
             </Fill>			
           </PolygonSymbolizer>
         </Rule>  	
-        <Rule>
-          <Title>Sand</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>sand - sand</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 		
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fff236</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>         
+
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
