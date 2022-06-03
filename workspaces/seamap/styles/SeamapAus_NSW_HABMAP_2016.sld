@@ -83,7 +83,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ffffbe</CssParameter>
+              <CssParameter name="fill">#d7c29e</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
