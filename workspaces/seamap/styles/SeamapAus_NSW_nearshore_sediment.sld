@@ -14,7 +14,7 @@
       <Name>Habitat polygons - NSW nearshore reef and sediment</Name>
       <FeatureTypeStyle>  
         <Rule>
-          <Title>Reef - barres</Title>
+          <Title>Reef - barrens</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
