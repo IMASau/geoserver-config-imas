@@ -262,7 +262,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff9900</CssParameter>
-              <CssParameter name="fill-opacity">0.15</CssParameter>					  
+              <CssParameter name="fill-opacity">0.1</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -273,10 +273,11 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#ff9900</CssParameter>
-                      <CssParameter name="stroke-width">1</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+           			  <CssParameter name="stroke-opacity">0.15</CssParameter>					                                              
                     </Stroke>
                   </Mark>
-                  <Size>5</Size>
+                  <Size>6</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
@@ -303,7 +304,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8000ff</CssParameter>
-              <CssParameter name="fill-opacity">0.15</CssParameter>					  
+              <CssParameter name="fill-opacity">0.1</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -314,10 +315,11 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#8000ff</CssParameter>
-                      <CssParameter name="stroke-width">1</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+           			  <CssParameter name="stroke-opacity">0.15</CssParameter>					                        
                     </Stroke>
                   </Mark>
-                  <Size>5</Size>
+                  <Size>6</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
