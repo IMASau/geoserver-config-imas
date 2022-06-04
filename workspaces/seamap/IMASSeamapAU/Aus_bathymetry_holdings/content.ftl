@@ -5,12 +5,12 @@
 
 <THEAD>
 	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff; border:1.5pt solid black'>
-		<th style="padding:5px">Collection name</th>
-		<th style="padding:5px">Date range</th>
-		<th style="padding:5px">Resolution</th>
-		<th style="padding:5px">Marine Park(s)</th>
-		<th style="padding:5px">Data availability</th>
-		<th style="padding:5px">Info</th>
+		<th style="padding:5px; white-space:nowrap">Collection name</th>
+		<th style="padding:5px; white-space:nowrap">Date range</th>
+		<th style="padding:5px; white-space:nowrap">Resolution</th>
+		<th style="padding:5px; white-space:nowrap">Marine Park(s)</th>
+		<th style="padding:5px; white-space:nowrap">Data availability</th>
+		<th style="padding:5px; white-space:nowrap">Info</th>
 	</TR>
 </THEAD>
 
