@@ -274,7 +274,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">avail_sort D, RES_ACTUAL D</VendorOption>		
+      <VendorOption name="sortBy">data_typ_sort A, avail_sort D, RES_ACTUAL D</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
