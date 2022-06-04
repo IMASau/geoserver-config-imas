@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-1926d766:1812959a57e:-795b</id>
-  <name>Aus_bathymetry_holdings_NEW</name>
+  <id>StyleInfoImpl-6e5efb92:17c004859d4:-783b</id>
+  <name>Aus_bathymetry_holdings_noDEM</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>Aus_bathymetry_holdings_NEW.sld</filename>
+  <filename>Aus_bathymetry_holdings_noDEM.sld</filename>
 </style>

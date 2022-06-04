@@ -14,7 +14,7 @@
       <Name>Survey extents styled by resolution and data availability</Name>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Surveyed bathymetry</Title>
+          <Title>Available surveyed bathymetry</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>objectid</ogc:PropertyName>
@@ -29,12 +29,12 @@
           </PolygonSymbolizer>
         </Rule>	 
         <Rule>
-            <Title>     &#8804; 2m resolution (ultra high)</Title>
+            <Title>   &#60; 5m resolution</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
@@ -50,18 +50,18 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#cc0029</CssParameter>
+              <CssParameter name="fill">#d12e41</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>     &#62; 2 to 10m (very high)</Title>
+            <Title>   5 to 10m</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
@@ -72,7 +72,7 @@
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>
-			</ogc:Not>                 
+			</ogc:Not>               
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -87,7 +87,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>     &#62; 10 to 20m (high)</Title>
+            <Title>   &#62;10 to 20m</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -103,7 +103,7 @@
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>
-			</ogc:Not>                  
+			</ogc:Not>                
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -113,18 +113,50 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fff242</CssParameter>
+              <CssParameter name="fill">#fdd568</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>     &#62; 20 to 50m (medium)</Title>
+            <Title>   &#62;20 to 30m</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>20</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>30</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:Literal>%DEM%</ogc:Literal>
+            </ogc:PropertyIsLike>
+			</ogc:Not>                 
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>data_dl</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fffc66</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+            <Title>   &#62;30 to 50m</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>30</ogc:Literal>
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
@@ -135,7 +167,7 @@
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>
-			</ogc:Not>                   
+			</ogc:Not>                 
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -149,9 +181,9 @@
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule>        
         <Rule>
-            <Title>     &#62; 50 to 100m (low)</Title>
+            <Title>   &#62;50 to 100m</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -167,7 +199,7 @@
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>
-			</ogc:Not>                   
+			</ogc:Not>                
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -177,14 +209,13 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#92d39a</CssParameter>
+              <CssParameter name="fill">#99d594</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>          
-			
+        </Rule>				
          <Rule>
-            <Title>     &#8805; 100m (very low)</Title>
+            <Title>   &#62; 100m resolution</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -196,7 +227,7 @@
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>
-			</ogc:Not>               
+			</ogc:Not>             
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -210,48 +241,7 @@
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	
-       
-        <Rule>
-          <Title>Modelled bathymetry grids</Title>
-	
-          <ogc:Filter>
-			<ogc:And>						  
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>					  
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>data_dl</ogc:PropertyName>
-              <ogc:Literal>yes%</ogc:Literal>
-            </ogc:PropertyIsLike>				
-			</ogc:And>				
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#8000ff</CssParameter>
-              <CssParameter name="fill-opacity">0.05</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#8000ff</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
-           			  <CssParameter name="stroke-opacity">0.1</CssParameter>					                        
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>	
-		
+        </Rule>	  		
         <Rule>
              <Title>No / unknown access to data</Title>
 			<ogc:Filter>
@@ -274,7 +264,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">data_typ_sort A, avail_sort D, RES_ACTUAL D</VendorOption>		
+      <VendorOption name="sortBy">avail_sort D, RES_ACTUAL D</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>

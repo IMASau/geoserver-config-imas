@@ -1,15 +1,17 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-50e6ef9f:17cace9100c:61c</id>
-  <name>Aus_bathymetry_holdings_DEM</name>
+  <id>FeatureTypeInfoImpl-2922ad46:18046e1a230:-4658</id>
+  <name>Aus_bathymetry_holdings_noDEM</name>
   <nativeName>Aus_bathy_extents_published</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Coverage of Australian bathymetry surveys DEMs by resolution and data accessibility</title>
-  <abstract>Extent and data availability status of Australian bathymetry surveys - coverage extracted primarily from AusSeabed layer &quot;bathymetry holdings&quot; with some minor additional coverage for more recent surveys (2021-present) and data held by IMAS that has not yet been published by AusSeabed. Coverage shows both surveys and Digital Elevation Models.</abstract>
+  <title>Coverage of Australian bathymetry surveys by resolution and data accessibility</title>
+  <abstract>Extent and data availability status of Australian bathymetry surveys - coverage extracted primarily from AusSeabed (GA) layer &quot;bathymetry holdings&quot; with some minor additional coverage for more recent surveys (2021-present) and data held by IMAS that has not yet been published by AusSeabed. Coverage shows surveys only (not Digital Elevation Models). Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
   <keywords>
-    <string>features</string>
-    <string>AusSeabed_bathy_extents_published</string>
+    <string>Aus_bathy_extents_published</string>
+    <string>MBES</string>
+    <string>multibeam</string>
+    <string>bathymetry</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -49,7 +51,7 @@
     <maxy>52.68578753064869</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>NONE</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
@@ -59,6 +61,7 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <cqlFilter>data_typ_sort &lt;&gt; &apos;modelled&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
