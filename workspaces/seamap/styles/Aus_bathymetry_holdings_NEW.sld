@@ -213,74 +213,14 @@
         </Rule>	
        
         <Rule>
-          <Title>Modelled bathymetry</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>intentionallyblank</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>     &#8804; 50m resolution</Title>
-          <ogc:Filter>
-			<ogc:And>					  
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>					  
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>data_dl</ogc:PropertyName>
-              <ogc:Literal>yes%</ogc:Literal>
-            </ogc:PropertyIsLike>	
-			</ogc:And>					
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ff9900</CssParameter>
-              <CssParameter name="fill-opacity">0.05</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#ff9900</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
-           			  <CssParameter name="stroke-opacity">0.1</CssParameter>					                                              
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>          
-        <Rule>
-            <Title>     &gt; 50m resolution</Title>		
+          <Title>Modelled bathymetry grids</Title>
+	
           <ogc:Filter>
 			<ogc:And>						  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>objectid</ogc:PropertyName>
               <ogc:Literal>%DEM%</ogc:Literal>
             </ogc:PropertyIsLike>					  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
