@@ -1,10 +1,12 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - NSW Subtidal Marine Habiats (HABMAP) 2005-2016</h5>
+	<h5>Habitat - NSW Subtidal Marine Habitats (HABMAP) 2005-2016</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<BR>
+		<b>Source:</b> ${feature.source.value}
 		<BR><BR>
 	</div>
 		<#else>
