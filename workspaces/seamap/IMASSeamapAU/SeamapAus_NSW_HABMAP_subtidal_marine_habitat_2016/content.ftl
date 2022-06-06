@@ -5,6 +5,8 @@
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<BR>
+		<b>Source:</b> ${feature.source.value}
 		<BR><BR>
 	</div>
 		<#else>
