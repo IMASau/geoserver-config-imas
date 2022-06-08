@@ -343,11 +343,11 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>		
         </sld:Rule>	 		 				
         <sld:Rule>		
-          <sld:Title>         Mangroves</sld:Title>		
+          <sld:Title>         Mangrove</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mangroves</ogc:Literal>		
+              <ogc:Literal>Mangrove</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <sld:PolygonSymbolizer>		
@@ -358,7 +358,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>		
         </sld:Rule>
         <sld:Rule>		
-          <sld:Title>          Saltmarsh</sld:Title>		
+          <sld:Title>         Saltmarsh</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -373,7 +373,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>		
         </sld:Rule> 		
         <sld:Rule>		
-          <sld:Title>          Mixed Wetland Vegetation</sld:Title>		
+          <sld:Title>         Mixed Wetland Vegetation</sld:Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
