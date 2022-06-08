@@ -1,5 +1,5 @@
 
-<TABLE bordercolorlight="#000000" cellpadding="4" border="2" >
+<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
 
 	<TR class="Table headers" ALIGN="LEFT" style='background-color:#b3d9ff' style="padding:10px">
 		<th style="padding:5px">Study</th>
