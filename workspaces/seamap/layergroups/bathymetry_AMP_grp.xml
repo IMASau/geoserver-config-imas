@@ -3,7 +3,9 @@
   <name>bathymetry_AMP_grp</name>
   <mode>SINGLE</mode>
   <title>Bathymetry of Australian Marine Parks (AMPs)</title>
-  <abstractTxt>Layer group for visualising bathymetry of Australian Marine Parks (AMPs). Group comprises of bathymetry mosaics overlaid on a hillshade layer, clipped to boundaries of Australian Marine Parks (2018).</abstractTxt>
+  <abstractTxt>Multibeam bathymetry data complied from various sources and compiled into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region and represents a multi-resolution mosaic.&#xd;
+&#xd;
+This layer group comprises of bathymetry mosaics overlaid on derived hillshade, clipped to the boundaries of Australian Marine Parks (2022).</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
