@@ -38,6 +38,11 @@
 							<CssParameter name="fill">#99e6ff</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#99e6ff</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>						
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -53,6 +58,11 @@
 							<CssParameter name="fill">#33ffcc</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#33ffcc</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>						
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -68,6 +78,11 @@
 							<CssParameter name="fill">#33ff33</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#33ff33</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>							
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -83,6 +98,11 @@
 							<CssParameter name="fill">#00994d</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#00994d</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>							
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -113,6 +133,11 @@
 							<CssParameter name="fill">#ff99e6</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#ff99e6</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>							
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -128,6 +153,11 @@
 							<CssParameter name="fill">#ff9933</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#ff9933</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>							
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -143,6 +173,11 @@
 							<CssParameter name="fill">#ff4000</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#ff4000</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>							
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -158,6 +193,11 @@
 							<CssParameter name="fill">#ac00e6</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#ac00e6</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>							
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -173,6 +213,12 @@
 							<CssParameter name="fill">#000000</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-width">0.01</CssParameter>
+							<CssParameter name="opacity">0.9</CssParameter>					  			  
+						</Stroke>	
+						
 					</PolygonSymbolizer>
 				</Rule>					
 		    </FeatureTypeStyle>
