@@ -4,11 +4,11 @@
 	<TR class="BRUV deployments" ALIGN="LEFT" style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th style="padding:5px">Project</th>
 		<th style="padding:5px">Location</th>
-		<th style="padding:5px">Method</th>
-		<th style="padding:5px">Date</th>
-		<th style="padding:5px">Time</th>
-		<th style="padding:5px">Depth (m)</th>
-		<th style="padding:5px">Availibility</th>
+		<th style="padding:5px; text-align:center">Method</th>
+		<th style="padding:5px; text-align:center">Date</th>
+		<th style="padding:5px; text-align:center">Time</th>
+		<th style="padding:5px; text-align:center">Depth (m)</th>
+		<th style="padding:5px; text-align:center">Availibility</th>
 	</TR>
 </THEAD>
 
@@ -34,20 +34,20 @@
 			${feature.location.value}
 		</TD>
 
-		<TD style="padding:5px">
+		<TD style="padding:5px; text-align:center">
 			<i>TBA</i>
 		</TD>
 
-		<TD style="padding:5px">
+		<TD style="padding:5px; text-align:center">
 			${feature.date.value}
 		</TD>
 
-		<TD style="padding:5px">
+		<TD style="padding:5px; text-align:center">
 			${feature.time.value}
 		</TD>
     
                  
-		<TD style="padding:5px">
+		<TD style="padding:5px; text-align:center">
 			<#if depth?has_content>
 				<#if depth <0 >
 					${(feature.depth.rawValue *-1)?string("0.0")}
@@ -59,7 +59,7 @@
 			</#if>
 		</TD>  
 
-		<TD style="padding:5px">
+		<TD style="padding:5px; text-align:center">
 			<#if feature.data_open.value == 'Y'>
 				<i>public</i>
 			<#else>
