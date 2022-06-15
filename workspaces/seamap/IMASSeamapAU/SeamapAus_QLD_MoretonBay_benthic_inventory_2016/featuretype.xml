@@ -1,13 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl-3f118783:17ebeec14b9:-7ecd</id>
-  <name>SeamapAus_QLD_MoretonBay_coralalgal</name>
-  <nativeName>SeamapAus_QLD_MoretonBay_coralalgal</nativeName>
+  <name>SeamapAus_QLD_MoretonBay_benthic_inventory_2016</name>
+  <nativeName>SeamapAus_QLD_MoretonBay_benthic_inventory_2016</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - Moreton Bay benthic inventory of reefal areas</title>
+  <title>Seamap Australia - QLD - Moreton Bay benthic inventory of reefal areas (2016)</title>
   <keywords>
-    <string>SeamapAus_QLD_MoretonBay_coralalgal</string>
     <string>Seamap Australia</string>
     <string>habitat mapping</string>
   </keywords>
