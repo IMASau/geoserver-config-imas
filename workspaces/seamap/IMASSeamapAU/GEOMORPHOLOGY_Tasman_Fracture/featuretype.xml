@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--771e51da:162dadc6eca:-4460</id>
-  <name>SeamapAus_TAS_TasFracture_geomorph</name>
-  <nativeName>SeamapAus_TAS_TasFracture_geomorph</nativeName>
+  <name>GEOMORPHOLOGY_Tasman_Fracture</name>
+  <nativeName>GEOMORPH_TasFracture</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - TAS - Tasman Fracture CMR geomorphology</title>
+  <title>Tasman Fracture CMR geomorphology</title>
   <keywords>
     <string>habitat mapping</string>
     <string>geomorphology</string>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -51,6 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

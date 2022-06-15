@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Depression</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>zone</ogc:PropertyName>
               <ogc:Literal>Depression</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -30,7 +30,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Ridge</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>zone</ogc:PropertyName>
               <ogc:Literal>Ridge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -45,7 +45,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Seamount</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>zone</ogc:PropertyName>
               <ogc:Literal>Seamount</ogc:Literal>              
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -60,7 +60,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Plain</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>zone</ogc:PropertyName>
               <ogc:Literal>Plain</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Unknown</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>zone</ogc:PropertyName>
               <ogc:Literal>Unclassified</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
