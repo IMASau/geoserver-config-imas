@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/CRI_popup.css">
+
 <div class="cri-popup">
 
 		<div id="cri-popup-main-header">Project Details</div>
