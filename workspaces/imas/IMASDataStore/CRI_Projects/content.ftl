@@ -1,4 +1,75 @@
-<link rel="stylesheet" href="https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/CRI_popup.css">
+<style>
+/* ---------- TEMP CSS START ---------- */
+body {
+	font-size: 1.0rem;	
+	font-family: "Open Sans", sans-serif;
+	}
+
+.cri-popup {
+	max-width: 600px;
+	}
+/* ---------- TEMP CSS END ---------- */
+
+#cri-popup-main-header  {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	color: #555555;
+	padding-bottom: 0.5em;
+	}
+
+.feature {
+	}
+
+.cri-popup-row {
+	display: flex;
+	padding: 0.5em 0em;
+	}
+
+.cri-popup-header  {
+	display: block;
+	width: 30%;
+	max-width: 180px;
+	font-weight:bold;
+	}
+
+.cri-popup-data  {
+	display: block;
+	width: 70%;
+	}
+
+#cri-popup-project-name {
+	font-size: 1.5rem;
+	}
+
+#cri-popup-project-name a {
+	text-decoration: none;
+	padding-bottom: 0.5em;
+	}
+
+#cri-popup-project-name a:hover, #cri-popup-project-name a:focus {
+	text-decoration: underline;
+	}
+
+#cri-popup-project-logo img {
+	max-width: 300px;
+	height: auto;
+	padding-top:1.0em;
+	}
+
+/* ---------- START MEDIA QUERY ---------- */
+
+@media screen and (max-width: 480px) {
+
+	.cri-popup-row {
+	flex-wrap: wrap;
+	}
+	
+	.cri-popup-header, .cri-popup-data  {
+	width: 100%;
+	}
+
+}
+</style>
 
 <div class="cri-popup">
 
