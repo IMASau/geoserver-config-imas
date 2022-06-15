@@ -7,7 +7,7 @@
 		<th style="padding:5px">Method</th>
 		<th style="padding:5px">Date</th>
 		<th style="padding:5px">Time</th>
-		<th style="padding:5px">Depth</th>
+		<th style="padding:5px">Depth (m)</th>
 		<th style="padding:5px">Availibility</th>
 	</TR>
 </THEAD>
@@ -16,7 +16,7 @@
 		<#if (feature_index < 10)> 
 
 		<#assign URL=feature.project_url.value>
-		<#assign depth=feature.depth.value>		
+		<#assign depth=feature.depth.value?number>		
 
 
 <TBODY>
@@ -49,7 +49,11 @@
                  
 		<TD style="padding:5px">
 			<#if depth?has_content>
-				${feature.depth.value} m
+				<#if depth <0 >
+					${(feature.depth.rawValue *-1)?string("0.0")}
+				<#else>
+					${feature.depth.rawValue?string("0.0")}
+				</#if>
 			<#else>
 				-
 			</#if>
