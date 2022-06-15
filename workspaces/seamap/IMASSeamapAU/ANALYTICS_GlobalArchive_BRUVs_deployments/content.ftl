@@ -77,5 +77,3 @@
 		</#if>
 	</#list>
 </TABLE>
-
-<br>
