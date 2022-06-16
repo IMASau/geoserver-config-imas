@@ -1,0 +1,32 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-643bec85:1816acfcdad:7ded</id>
+  <name>bathy_TESTING</name>
+  <mode>SINGLE</mode>
+  <title>Testing bathy layer group click issue</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-2922ad46:180a80ba0ce:-3254</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7a6c209c:1811e60aaec:-7729</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7a6c209c:1811e60aaec:-772c</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-1.3388315414527856E7</minx>
+    <maxx>1.4755250208697716E7</maxx>
+    <miny>-1.3497404728523815E7</miny>
+    <maxy>-257272.64572468452</maxy>
+    <crs class="projected">EPSG:3112</crs>
+  </bounds>
+</layerGroup>
