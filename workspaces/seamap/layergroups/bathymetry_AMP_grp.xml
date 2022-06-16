@@ -38,10 +38,10 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
     </style>
   </styles>
   <bounds>
-    <minx>-1.3390096821752394E7</minx>
-    <maxx>1.475525615607469E7</maxx>
+    <minx>-1.3388315414527856E7</minx>
+    <maxx>1.4755250208697716E7</maxx>
     <miny>-1.3497404728523815E7</miny>
-    <maxy>-257269.7924096115</maxy>
+    <maxy>-257272.64572468452</maxy>
     <crs class="projected">EPSG:3112</crs>
   </bounds>
   <attribution>

@@ -1,8 +1,7 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-643bec85:1816acfcdad:7ded</id>
-  <name>bathy_TESTING</name>
+  <id>LayerGroupInfoImpl-643bec85:1816e9bb7ad:-6461</id>
+  <name>bathy_testing</name>
   <mode>SINGLE</mode>
-  <title>Testing bathy layer group click issue</title>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -23,10 +22,10 @@
     </style>
   </styles>
   <bounds>
-    <minx>-1.3388315414527856E7</minx>
-    <maxx>1.4755250208697716E7</maxx>
+    <minx>-1.3390096821748048E7</minx>
+    <maxx>1.475430776067485E7</maxx>
     <miny>-1.3497404728523815E7</miny>
-    <maxy>-257272.64572468452</maxy>
+    <maxy>-257728.6267126637</maxy>
     <crs class="projected">EPSG:3112</crs>
   </bounds>
 </layerGroup>

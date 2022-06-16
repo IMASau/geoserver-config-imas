@@ -52,7 +52,7 @@
     <maxy>-1.1606692893892718</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
