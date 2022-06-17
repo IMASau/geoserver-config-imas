@@ -1,0 +1,15 @@
+<layer>
+  <name>bathy_hillshade_AMP_TEST</name>
+  <id>LayerInfoImpl-643bec85:1816e9bb7ad:-3e96</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-643bec85:1816e9bb7ad:-3e97</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
