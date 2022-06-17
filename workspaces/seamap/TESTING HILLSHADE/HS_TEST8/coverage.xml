@@ -1,15 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl-5ba9f273:18121c77677:-3a60</id>
-  <name>geomorph_hillshade_AMP</name>
-  <nativeName>geomorph_hillshade_AMP</nativeName>
+  <id>CoverageInfoImpl-643bec85:1816e9bb7ad:-4ec1</id>
+  <name>HS_TEST8</name>
+  <nativeName>HS_TEST</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade of Australian Marine Parks (AMPs) - subset</title>
+  <title>TEST</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology maps. Only AMPs with &gt;25% bathymetry coverage have been included.</abstract>
   <keywords>
-    <string>geomorph</string>
+    <string>TEST</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -24,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -36,64 +35,54 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:3857</srs>
   <nativeBoundingBox>
-    <minx>-4707043.39714158</minx>
-    <maxx>3551860.4149496453</maxx>
-    <miny>-7249023.774016198</miny>
-    <maxy>-885552.2519595157</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>1.8287867053718716E7</minx>
+    <maxx>1.9201254268639274E7</maxx>
+    <miny>-3951378.4262378826</miny>
+    <maxy>-2856740.6480968567</maxy>
+    <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.66514310651738</minx>
-    <maxx>178.01452747312229</maxx>
-    <miny>-62.24862669947749</miny>
-    <maxy>-1.1606782264974265</maxy>
+    <minx>164.28270488301365</minx>
+    <maxx>172.48780183783865</maxx>
+    <miny>-33.42144610469012</miny>
+    <maxy>-24.845181835460814</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>NONE</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">hillshade_geomorph_maps_geomorph</entry>
+    <entry key="dirName">TESTING HILLSHADE_TEST</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-5ba9f273:18121c77677:-5478</id>
+    <id>CoverageStoreInfoImpl-643bec85:1816e9bb7ad:-4ecc</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>4129451 3181735</high>
+      <high>2071626 1638539</high>
     </range>
     <transform>
       <scaleX>2.0</scaleX>
       <scaleY>-2.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4707042.39714158</translateX>
-      <translateY>-885553.2519595157</translateY>
+      <translateX>-2371733.982832059</translateX>
+      <translateY>-1205455.4730193317</translateY>
     </transform>
     <crs>EPSG:3112</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -106,8 +95,8 @@
       <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>0.0</min>
-        <max>255.0</max>
+        <min>-inf</min>
+        <max>inf</max>
       </range>
       <nullValues>
         <double>255.0</double>
@@ -126,7 +115,7 @@
   <parameters>
     <entry>
       <string>BackgroundValues</string>
-      <string>255</string>
+      <null/>
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
@@ -185,5 +174,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>geomorph</nativeCoverageName>
+  <nativeCoverageName>TEST</nativeCoverageName>
 </coverage>
