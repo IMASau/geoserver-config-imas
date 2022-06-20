@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_IMSA_seafloor_Swanbourne_2017</name>
+  <id>LayerInfoImpl-643bec85:18180e79520:-24eb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-643bec85:18180e79520:-23af</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-643bec85:18180e79520:-24ec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
