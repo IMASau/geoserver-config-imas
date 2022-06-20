@@ -33,7 +33,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Substrate*Unconsolidated*Seagrasses*Straplike leaves</ogc:Literal>
+              <ogc:Literal>Substrate*Unconsolidated*Seagrasses*Strap.like leaves</ogc:Literal>
             </ogc:PropertyIsLike>  
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -48,7 +48,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Substrate*Unconsolidated</ogc:Literal>
+              <ogc:Literal>Substrate*Unconsolidated*soft.</ogc:Literal>
             </ogc:PropertyIsLike>  
           </ogc:Filter>
           <PolygonSymbolizer>
