@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - WA - Very high resolution seafloor classification of Swanbourne 2019</h5>
+	<h5>Habitat - WA - Satellite-derived seafloor classification, Swanbourne 2019</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
