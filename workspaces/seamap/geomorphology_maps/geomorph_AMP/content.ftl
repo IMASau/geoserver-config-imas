@@ -7,25 +7,25 @@
 			Feature: <b>N/A (click is outside area of data coverage)<BR>
 		<#else>
 			<#if feature.GRAY_INDEX.rawValue?string("0") == '1'>
-				Feature: <b>Flat</b>
+				Feature: <b>Plane</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '2'>
-				Feature: <b>Peak</b> <i>(summit)</i>
+				Feature: <b>Peak</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '3'>
 				Feature: <b>Ridge</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '4'>
-				Feature: <b>Shoulder</b>
+				Feature: <b>Saddle</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '5'>
-				Feature: <b>Spur</b> <i>(convex)</i>
+				Feature: <b>Escarpment</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '6'>
 				Feature: <b>Slope</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '7'>
-				Feature: <b>Hollow</b> <i>(concave)</i>
+				Feature: <b>Trough</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '8'>
-				Feature: <b>Footslope</b>
+				Feature: <b>Apron</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '9'>
 				Feature: <b>Valley</b>
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '10'>
-				Feature: <b>Pit</b> <i>(depression)</i>
+				Feature: <b>Hole</b>
 			</#if>			
 		<BR>
 		</#if>
