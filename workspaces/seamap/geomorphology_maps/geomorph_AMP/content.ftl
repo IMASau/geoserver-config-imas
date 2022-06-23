@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 	
-	<h5>Geomorphic classification</h5><BR>
+	<h5>Geomorphic Features</h5><BR>
 		<div class="feature">
 		<#if feature.GRAY_INDEX.rawValue?string("0") == '-2147483647'>
 			Feature: <b>N/A (click is outside area of data coverage)<BR>
