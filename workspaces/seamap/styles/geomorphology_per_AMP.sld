@@ -10,16 +10,16 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#ffebbe" opacity="0.6" quantity="1" label=" Plane"/>
-              <ColorMapEntry color="#ff0000" opacity="0.6" quantity="2" label=" Peak"/>              
-              <ColorMapEntry color="#730000" opacity="0.6" quantity="3" label=" Ridge"/> 
-              <ColorMapEntry color="#a87000" opacity="0.6" quantity="4" label=" Saddle"/>
-              <ColorMapEntry color="#ffaa00" opacity="0.6" quantity="5" label=" Escarpment"/>              
-              <ColorMapEntry color="#737300" opacity="0.6" quantity="6" label=" Slope"/>   	
-              <ColorMapEntry color="#0070ff" opacity="0.6" quantity="7" label=" Trough"/>              
-              <ColorMapEntry color="#abcd66" opacity="0.6" quantity="8" label=" Apron"/>
-              <ColorMapEntry color="#002673" opacity="0.6" quantity="9" label=" Valley"/> 
-              <ColorMapEntry color="#00bbff" opacity="0.6" quantity="10" label=" Hole"/>  			    			  			  
+              <ColorMapEntry color="#ffebbe" opacity="0.5" quantity="1" label=" Plane"/>
+              <ColorMapEntry color="#ff0000" opacity="0.5" quantity="2" label=" Peak"/>              
+              <ColorMapEntry color="#730000" opacity="0.5" quantity="3" label=" Ridge"/> 
+              <ColorMapEntry color="#a87000" opacity="0.5" quantity="4" label=" Saddle"/>
+              <ColorMapEntry color="#ffaa00" opacity="0.5" quantity="5" label=" Escarpment"/>              
+              <ColorMapEntry color="#737300" opacity="0.5" quantity="6" label=" Slope"/>   	
+              <ColorMapEntry color="#0070ff" opacity="0.5" quantity="7" label=" Trough"/>              
+              <ColorMapEntry color="#abcd66" opacity="0.5" quantity="8" label=" Apron"/>
+              <ColorMapEntry color="#002673" opacity="0.5" quantity="9" label=" Valley"/> 
+              <ColorMapEntry color="#00bbff" opacity="0.5" quantity="10" label=" Hole"/>  			    			  			  
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
