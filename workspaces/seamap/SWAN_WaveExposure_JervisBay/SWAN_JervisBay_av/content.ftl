@@ -1,9 +1,9 @@
-<h6>Jervis Bay seabed exposure grid</h6><BR>
+<h6>Jervis Bay seabed exposure grid</h6>
 
 <#list features as feature>
 	<#if (feature_index < 1) >
   <div class="feature"> 
-  <b>Seabed Exposure Index: </b> ${feature.GRAY_INDEX.value}<BR><BR>
+  <b>Exposure Index: </b> ${feature.GRAY_INDEX.value}<BR>
 	
   </div>
   </#if>
