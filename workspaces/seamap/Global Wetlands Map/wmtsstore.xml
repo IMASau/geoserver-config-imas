@@ -11,7 +11,7 @@
     <entry key="useConnectionPooling">true</entry>
   </metadata>
   <__default>false</__default>
-  <capabilitiesURL>https://tiles.arcgis.com/tiles/P8Cok4qAP1sTVE59/arcgis/rest/services/World_WetlandV2_2016_CIFOR/MapServer/WMTS</capabilitiesURL>
+  <capabilitiesURL>https://tiles.arcgis.com/tiles/P8Cok4qAP1sTVE59/arcgis/rest/services/TROP_SUBTROP_WetlandV3_2016_CIFOR3b/MapServer/WMTS</capabilitiesURL>
   <maxConnections>6</maxConnections>
   <readTimeout>60</readTimeout>
   <connectTimeout>30</connectTimeout>
