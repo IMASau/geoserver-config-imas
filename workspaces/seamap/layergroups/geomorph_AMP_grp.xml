@@ -3,7 +3,7 @@
   <name>geomorph_AMP_grp</name>
   <mode>SINGLE</mode>
   <title>Geomorphology maps of Australian Marine Parks (AMPs)</title>
-  <abstractTxt>Layer group for visualising geomorphology of Australian Marine Parks (AMPs). Group comprises of geomorphic classification overlaid on a bathymetric hillshade. Only AMPs with at least 25% bathymetry coverage have been processed.</abstractTxt>
+  <abstractTxt>Layer group for visualising the seafloor features of Australian Marine Parks (AMPs). Group comprises of the Dove geomorphometry classification overlaid on a bathymetric hillshade. Only AMPs with at least 25% bathymetry coverage have been processed.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
