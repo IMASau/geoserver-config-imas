@@ -1,0 +1,15 @@
+<layer>
+  <name>Coastal_restoration_projects_database</name>
+  <id>LayerInfoImpl--227ee776:181a76e6c97:-706a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--227ee776:181a76e6c97:-706d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--227ee776:181a76e6c97:-706b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
