@@ -32,10 +32,10 @@
           <Rule>
           <Title>Beach renourishment</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Beach renourishment</ogc:Literal>
-					</ogc:PropertyIsEqualTo>              
+					    <ogc:Literal>%Beach%</ogc:Literal>
+					</ogc:PropertyIsLike>              
 			</ogc:Filter>        
           <PointSymbolizer>
             <Graphic>
@@ -59,10 +59,10 @@
         <Rule>
           <Title>Dune replanting or construction</Title>
 			<ogc:Filter>           
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Dune replanting or construction</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%Dune%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter>        
           <PointSymbolizer>
             <Graphic>
@@ -86,10 +86,10 @@
         <Rule>
           <Title>Mangroves</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Mangroves</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%angrove%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter> 
           <PointSymbolizer>
             <Graphic>
@@ -112,10 +112,10 @@
         <Rule>
           <Title>Saltmarshes</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Saltmarshes</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%altmarsh%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter> 
           <PointSymbolizer>
             <Graphic>
@@ -138,10 +138,10 @@
         <Rule>
           <Title>Seagrasses</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Seagrasses</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%eagrass%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter> 
           <PointSymbolizer>
             <Graphic>
@@ -164,10 +164,10 @@
         <Rule>
           <Title>Kelp forests</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Kelp forests</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%elp forest%</ogc:Literal>
+            </ogc:PropertyIsLike >
 			</ogc:Filter> 
           <PointSymbolizer>
             <Graphic>
@@ -190,10 +190,10 @@
         <Rule>
           <Title>Coral reefs</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Coral reefs</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%oral reef%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter>					
           <PointSymbolizer>
             <Graphic>
@@ -212,10 +212,10 @@
         <Rule>
           <Title>Shellfish reefs</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
 					<ogc:PropertyName>Approach</ogc:PropertyName>
-					    <ogc:Literal>Shellfish reefs</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+					    <ogc:Literal>%hellfish reef%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter>										
           <PointSymbolizer>
             <Graphic>
