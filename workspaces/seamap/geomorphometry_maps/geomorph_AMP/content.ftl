@@ -4,7 +4,7 @@
 
 	<#if (feature_index < 1) >
 
-	<#if geo_numeric < -10000 || geo_numeric = 0>
+	<#if geo_numeric < -10000 || geo_numeric = 0 || geo_numeric = 255>
 	<#else>
 
 	<h5>Geomorphic Features</h5><BR>
