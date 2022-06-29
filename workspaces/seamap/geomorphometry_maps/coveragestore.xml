@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:4115</id>
-  <name>geomorphology_maps</name>
-  <description>Geomorphology maps clipped to Aus Marine Park boundaries</description>
+  <name>geomorphometry_maps</name>
+  <description>Geomorphometry maps clipped to Aus Marine Park boundaries</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
   <workspace>
