@@ -1,35 +1,40 @@
 <#list features as feature>
+
+	<#assign geo_numeric=feature.GRAY_INDEX.value?number>
+
 	<#if (feature_index < 1) >
-	
+
+	<#if geo_numeric < -10000 || geo_numeric = 0>
+	<#else>
+
 	<h5>Geomorphic Features</h5><BR>
 		<div class="feature">
-		<#if feature.GRAY_INDEX.rawValue?string("0") == '-2147483647'>
-			Feature: <b>N/A (click is outside area of data coverage)<BR>
-		<#else>
 			<#if feature.GRAY_INDEX.rawValue?string("0") == '1'>
-				Feature: <b>Plane</b>
+				<b>Feature:</b> Plane
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '2'>
-				Feature: <b>Peak</b>
+				<b>Feature:</b> Peak
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '3'>
-				Feature: <b>Ridge</b>
+				<b>Feature:</b> Ridge
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '4'>
-				Feature: <b>Saddle</b>
+				<b>Feature:</b> Saddle
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '5'>
-				Feature: <b>Escarpment</b>
+				<b>Feature:</b> Escarpment
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '6'>
-				Feature: <b>Slope</b>
+				<b>Feature:</b> Slope
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '7'>
-				Feature: <b>Trough</b>
+				<b>Feature:</b> Trough
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '8'>
-				Feature: <b>Apron</b>
+				<b>Feature:</b> Apron
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '9'>
-				Feature: <b>Valley</b>
+				<b>Feature:</b> Valley
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '10'>
-				Feature: <b>Hole</b>
+				<b>Feature:</b> Hole
+			<#else>
+				<i>other</i>
 			</#if>			
 		<BR>
-		</#if>
-		<BR>		
 		</div>
+	</#if>
+	<BR>		
   </#if>
 </#list>
