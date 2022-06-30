@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--6008cda0:18122cb20c0:6c51</id>
   <name>ANALYTICS_GlobalArchive_BRUVs_deployments</name>
-  <nativeName>EXTRACT_GlobalArchive_BRUVs</nativeName>
+  <nativeName>EXTRACT_GLOBALARCHIVE_DEPLOYMENT_POINTS_static</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>

@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--4812677:17ff719b201:-2a6c</id>
   <name>ANALYTICS_SQUIDLE_deployments</name>
-  <nativeName>EXTRACT_SQUIDLE_deployments</nativeName>
+  <nativeName>EXTRACT_SQUIDLE_DEPLOYMENT_POINTS_static</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>

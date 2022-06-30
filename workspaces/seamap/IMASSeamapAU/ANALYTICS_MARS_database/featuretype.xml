@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-2922ad46:180209f27a8:-3350</id>
   <name>ANALYTICS_MARS_database</name>
-  <nativeName>EXTRACT_MARS</nativeName>
+  <nativeName>EXTRACT_MARS_static</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
