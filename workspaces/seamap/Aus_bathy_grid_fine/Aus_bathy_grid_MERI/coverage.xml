@@ -92,7 +92,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.402823E38</double>
+        <double>32767.0</double>
       </nullValues>
       <dimensionType>
         <name>SIGNED_16BITS</name>

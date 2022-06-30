@@ -1,12 +1,12 @@
 <layer>
   <name>Aus_bathy_grid_250m</name>
-  <id>LayerInfoImpl--4812677:17ffdf580a3:6b73</id>
+  <id>LayerInfoImpl--7b044d55:181b3380000:-36c5</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--4812677:17ffdf580a3:6b72</id>
+    <id>CoverageInfoImpl--7b044d55:181b3380000:-36c6</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
