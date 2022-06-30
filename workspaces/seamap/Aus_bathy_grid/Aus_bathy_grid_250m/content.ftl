@@ -1,17 +1,20 @@
 <#list features as feature>
-	<#if (feature_index < 1) >
-	
-	<h5>Australian Bathymetry Grid 250m</h5><BR>
-		<div class="feature">
-		<#if feature.GRAY_INDEX.rawValue?string("0") == '-340282306073709650000000000000000000000'>
-			<b>Depth:</b> N/A<BR><BR>
-		<#else>
 
-		<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?substring(1)} m		
-		<BR><BR>
-  </#if>
-  </div>		
-  </#if>
+	<#assign depth_numeric=feature.GRAY_INDEX.value?number>
+
+	<#if (feature_index < 1) >
+
+
+	<#if (depth_numeric > 0) >
+	<#else>
+
+	<div class="feature">
+			<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?substring(1)} m		
+			<BR><BR>
+	 </div>	
+ 	</#if>
+	
+  	</#if>
 </#list>
 
 
