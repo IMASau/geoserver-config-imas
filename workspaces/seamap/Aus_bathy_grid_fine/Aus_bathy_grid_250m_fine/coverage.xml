@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl--4812677:17ffdf580a3:6b72</id>
-  <name>Aus_bathy_grid_250m_raw</name>
+  <name>Aus_bathy_grid_250m_fine</name>
   <nativeName>Aus_bathy_grid_250m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -98,7 +98,7 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
         <double>32767.0</double>
       </nullValues>
       <dimensionType>
-        <name>REAL_32BITS</name>
+        <name>SIGNED_16BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>

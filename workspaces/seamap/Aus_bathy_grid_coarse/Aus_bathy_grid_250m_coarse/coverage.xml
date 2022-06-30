@@ -1,17 +1,13 @@
 <coverage>
   <id>CoverageInfoImpl--7b044d55:181b3380000:-36c6</id>
-  <name>Aus_bathy_grid_250m</name>
+  <name>Aus_bathy_grid_250m_coarse</name>
   <nativeName>Aus_bathy_grid_250m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian Bathymetry 2009 250 m (GA) - resampled to 1,000m</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>The 2009 bathymetric grid of Australia has been produced to include recently acquired datasets, and solutions to issues identified in the previous version. The revised grid has the same extents as its 2005 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
-&#xd;
-This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2009 product.&#xd;
-&#xd;
-RE-SAMPLED TO 1,000M RESOLUTION FOR VIEWING PERFORMANCE.</abstract>
+  <abstract>Resampled from 250m (raw) to 1,000m for performance reasons. For use in layer group.</abstract>
   <keywords>
     <string>Aus_bathy_grid</string>
     <string>WCS</string>
@@ -43,6 +39,7 @@ RE-SAMPLED TO 1,000M RESOLUTION FOR VIEWING PERFORMANCE.</abstract>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Aus_bathy_grid_coarse_Aus_bathy_grid</entry>
