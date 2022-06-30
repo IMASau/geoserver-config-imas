@@ -48,7 +48,7 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Aus_bathy_grid_Aus_bathy_grid</entry>
