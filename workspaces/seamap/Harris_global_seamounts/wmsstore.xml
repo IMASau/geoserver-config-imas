@@ -1,0 +1,18 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl-63f435f5:181b80f91dc:94b</id>
+  <name>Harris_global_seamounts</name>
+  <description>http://geo.abds.is/geonetwork/srv/api/records/5afb33aa-2b81-4260-adab-c53ebbc77211</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <capabilitiesURL>https://geo.abds.is/geoserver/ebsa/wms</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>
