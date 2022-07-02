@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-5ba9f273:18121c77677:-3a60</id>
-  <name>Hillshade</name>
+  <name>geomorph_hillshade_AMP</name>
   <nativeName>geomorph_hillshade_AMP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade of Australian Marine Parks (AMPs) - subset</title>
+  <title>Hillshade</title>
   <description>Generated from ImageMosaic</description>
   <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology maps. Only AMPs with &gt;25% bathymetry coverage have been included.</abstract>
   <keywords>
