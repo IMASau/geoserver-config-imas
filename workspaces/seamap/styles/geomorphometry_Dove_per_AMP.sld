@@ -5,7 +5,6 @@
   <NamedLayer>
     <Name>Geomorphology features</Name>
     <UserStyle>
-      <Title/>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
