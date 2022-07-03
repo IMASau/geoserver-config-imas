@@ -9,8 +9,9 @@
        <Rule>
          <RasterSymbolizer>  
            <ColorMap type="intervals">
-             <ColorMapEntry color="#ffffff" quantity="-6000" opacity="0.001" label=" MERI Natural Values depth zone"/>
-             <ColorMapEntry color="#1418ff" quantity="-4000" opacity="0.8" label=" abyss (&gt;4,000 m)"/>             
+             <ColorMapEntry color="#ffffff" quantity="-10000" opacity="0.001" label=" MERI Natural Values depth zone"/>
+             <ColorMapEntry color="#000000" quantity="-6000" opacity="0.8" label=" sub-abyss (&gt;6,000 m)"/>             
+             <ColorMapEntry color="#1418ff" quantity="-4000" opacity="0.8" label=" abyss (4,000-6,000m)"/>             
              <ColorMapEntry color="#3b8cff" quantity="-2000" opacity="0.8" label=" lower-slope (2,000-4,000 m)"/>
              <ColorMapEntry color="#21e9ff" quantity="-700" opacity="0.8" label=" mid-slope (700-2,000 m)"/>             
              <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="0.8" label=" upper-slope (200-700 m)"/>             
