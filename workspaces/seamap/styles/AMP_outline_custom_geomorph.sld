@@ -112,7 +112,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 				</ogc:PropertyIsEqualTo>
 				<ogc:PropertyIsEqualTo>
 						<ogc:PropertyName>RESNAME</ogc:PropertyName>
-					    <ogc:Literal>Gulf of Carpentaria	</ogc:Literal>
+					    <ogc:Literal>Gulf of Carpentaria</ogc:Literal>
 				</ogc:PropertyIsEqualTo>			
 				<ogc:PropertyIsEqualTo>
 						<ogc:PropertyName>RESNAME</ogc:PropertyName>
@@ -172,8 +172,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
              <PolygonSymbolizer> 
 			<Geometry> <ogc:PropertyName>geom_res</ogc:PropertyName></Geometry>	                      
 				<Fill>
-					<CssParameter name="fill">#ff0000</CssParameter>
-					<CssParameter name="fill-opacity">0.3</CssParameter>                          
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://backslash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ff0000</CssParameter>
+                      <CssParameter name="stroke-width">1.3</CssParameter>
+           			  <CssParameter name="stroke-opacity">0.4</CssParameter>					                        
+                    </Stroke>
+                  </Mark>
+                  <Size>6</Size>
+                </Graphic>
+              </GraphicFill>				
+                        
 				</Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
