@@ -70,6 +70,137 @@ INSUFFICIENT MAPPING
 			</TextSymbolizer>
  		</Rule>		
  		<Rule>
+		  <Title>insufficient mapping data</Title>          
+			<ogc:Filter>
+				<ogc:Or>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Ashmore Reef</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Flinders</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Argo-Rowley Terrace</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Cocos (Keeling) Islands</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Jurien</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Lord Howe</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Argo-Rowley Terrace</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Shark Bay</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Apollo</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Arafura</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Western Kangaroo Island</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Oceanic Shoals</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Kimberley</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Arafura</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Gulf of Carpentaria	</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Montebello</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>West Cape York</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Wessel</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Cartier Island</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Twilight</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Arnhem</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Eighty Mile Beach</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Joseph Bonaparte Gulf</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Limmen</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Dampier</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Roebuck</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Murat</ogc:Literal>
+				</ogc:PropertyIsEqualTo>			
+				<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>RESNAME</ogc:PropertyName>
+					    <ogc:Literal>Southern Kangaroo Island</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				</ogc:Or>				
+			</ogc:Filter>
+                    <PolygonSymbolizer> 
+			<Geometry> <ogc:PropertyName>geom_res</ogc:PropertyName></Geometry>	                      
+				<Fill>
+					<CssParameter name="fill">#ff0000</CssParameter>
+					<CssParameter name="fill-opacity">0.3</CssParameter>                          
+				</Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0</CssParameter>
+              <CssParameter name="opacity">0</CssParameter>					  			  
+            </Stroke>                      
+			</PolygonSymbolizer>
+		</Rule>				
+ 		<Rule>
 		  <Title>Australian Marine Park boundary</Title>          
                     <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_res</ogc:PropertyName></Geometry>				  
@@ -79,7 +210,9 @@ INSUFFICIENT MAPPING
               <CssParameter name="opacity">0.7</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
- 		</Rule>   
+ 		</Rule> 
+
+ 
 
       </FeatureTypeStyle>
     </UserStyle>
