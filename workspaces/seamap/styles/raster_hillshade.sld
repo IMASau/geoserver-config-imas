@@ -8,7 +8,6 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
 		<FeatureTypeStyle>
 	        <FeatureTypeName>Feature</FeatureTypeName>
 			<Rule>
-          <MaxScaleDenominator>20000000</MaxScaleDenominator>                                        		                      
 				<RasterSymbolizer>
 				    <Opacity>1.0</Opacity>
 				</RasterSymbolizer>
