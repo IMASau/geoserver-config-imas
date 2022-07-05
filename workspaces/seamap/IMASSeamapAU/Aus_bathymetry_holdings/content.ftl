@@ -1,3 +1,18 @@
+<style> 
+div.a {
+    white-space: normal; 
+    width: 500px; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+div.a:hover {
+    overflow: visible;
+}
+</style>
+<body>
+
+
 <#setting date_format="yyyy">
 
 
@@ -10,6 +25,7 @@
 		<th style="padding:5px; white-space:nowrap">Resolution</th>
 		<th style="padding:5px; white-space:nowrap">Marine Park(s)</th>
 		<th style="padding:5px; white-space:nowrap">Data availability</th>
+		<th style="padding:5px; white-space:nowrap">Point of contact</th>		
 		<th style="padding:5px; white-space:nowrap">Info</th>
 	</TR>
 </THEAD>
@@ -20,6 +36,7 @@
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
 		<#assign metadata=feature.METADATA.value>
+		<#assign POC=feature.pointofcontact.value>		
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
 
@@ -75,7 +92,16 @@
 			<#else>
 				not available
 			</#if>
-		</TD>   
+		</TD> 
+		
+
+		<TD style="padding:5px">
+			<#if POC?has_content>
+				${feature.pointofcontact.value}
+			<#else>
+				-
+			</#if> 
+		</TD>  		
 
 		<TD style="padding:5px">
 			<#if metadata?has_content>
@@ -94,3 +120,4 @@
 		</#if>
 	</#list>
 </TABLE>
+</body>
