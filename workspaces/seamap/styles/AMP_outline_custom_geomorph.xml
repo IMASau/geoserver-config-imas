@@ -9,4 +9,10 @@
     <version>1.0.0</version>
   </languageVersion>
   <filename>AMP_outline_custom_geomorph.sld</filename>
+  <legend>
+    <width>166</width>
+    <height>272</height>
+    <format>image/png</format>
+    <onlineResource>https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/legend-Aus_geomorph_composite.png</onlineResource>
+  </legend>
 </style>
