@@ -5,7 +5,7 @@
 	<#if (feature_index < 1) >
 
 	<#if geo_numeric < -10000 || geo_numeric = 0 || geo_numeric = 255>
-	<i>No data (click is outside mapped area)</i>
+	<br><i>No geomorphometry (click is outside mapped area)</i><br>
 	<#else>
 
 		<div class="feature">
