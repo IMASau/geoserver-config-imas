@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--5d921cd2:17bc397365e:-6215</id>
-  <name>Aus_bathy_MERI</name>
+  <name>Aus_bathy_grid_MERI</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,10 +8,11 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>Aus_bathy_MERI.sld</filename>
+  <filename>Aus_bathy_grid_MERI.sld</filename>
   <legend>
-    <width>0</width>
-    <height>0</height>
+    <width>231</width>
+    <height>208</height>
+    <format>image/png</format>
     <onlineResource>https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/legend-Aus_bathy_MERI.png</onlineResource>
   </legend>
 </style>
