@@ -8,7 +8,9 @@
 		<#if feature.GRAY_INDEX.rawValue?string("0") == '-340282306073709650000000000000000000000'>
 			<b>Depth:</b> N/A <i>(click is outside area of data coverage)</i><BR>
 		<#else>
-			<#if (MERI_depth_zone <= -4000)>
+			<#if (MERI_depth_zone <= -6000)>
+			<b>Zone:</b> sub-abyss <i>(${feature.GRAY_INDEX.rawValue?string("0")} m)</i>
+			<#elseif (MERI_depth_zone > -6000) && (MERI_depth_zone <= -4000)>
 			<b>Zone:</b> abyssal <i>(${feature.GRAY_INDEX.rawValue?string("0")} m)</i>
 			<#elseif (MERI_depth_zone > -4000) && (MERI_depth_zone <= -2000)>
 			<b>Zone:</b> lower-slope <i>(${feature.GRAY_INDEX.rawValue?string("0")} m)</i>
