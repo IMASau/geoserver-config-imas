@@ -1,3 +1,37 @@
+<head>
+<style>
+
+td, th {
+  text-align: center;
+  padding:5px;
+  white-space:nowrap
+}
+
+td div.left {
+  text-align:left;
+  padding:5px;
+  white-space:nowrap
+}
+
+details {
+     color:DarkBlue;
+
+}
+
+
+
+span {
+     cursor:pointer;
+     color:Darkblue;
+     text-decoration:underline;
+}
+
+.div-table {
+  color: black;
+}
+
+</style>
+</head>
 
 <body>
 
@@ -31,16 +65,17 @@
 		</THEAD>
 
 
+		<#list features?sort_by(["AREA_pct_total", "rawValue"])?reverse as feature_body>
 
 		<TR class="values" style='background-color: ${((feature_body_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-			<TD>a</td>
+			<TD>${feature_body.GEOMORPH.value}</TD>
 
-			<TD>b</TD>
+			<TD>${feature_body.AREA_km2.rawValue}</TD>
 
-			<TD>c</TD>
+			<TD>${feature_body.AREA_pct_mapped.value}</TD>
 
-			<TD>d</TD>
+			<TD>${feature_body.AREA_pct_total.value}</TD>
 		</TR>
 		</#list>
 
