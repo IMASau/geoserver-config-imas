@@ -20,7 +20,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        		  
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e0e0e0</CssParameter>
@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>plain</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        		  
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a8a800</CssParameter>
@@ -52,7 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>escarpment</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        		  
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		  
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0084a8</CssParameter>
@@ -70,7 +70,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MinScaleDenominator>220000</MinScaleDenominator>                                                  
+          <MinScaleDenominator>400000</MinScaleDenominator>                                                  
           <RasterSymbolizer>
             <ColorMap type="values">
               <ColorMapEntry color="#e0e0e0" opacity="0.8" quantity="1" label=" Slope"/>
