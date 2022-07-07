@@ -14,7 +14,7 @@ td div.left {
 }
 
 details {
-  color: blue;
+  color: DarkBlue;
 }
 
 .div-table {
