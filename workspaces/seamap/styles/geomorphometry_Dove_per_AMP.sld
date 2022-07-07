@@ -14,11 +14,11 @@
               <ColorMapEntry color="#730000" opacity="0.5" quantity="3" label=" Ridge"/> 
               <ColorMapEntry color="#a87000" opacity="0.5" quantity="4" label=" Saddle"/>
               <ColorMapEntry color="#ffaa00" opacity="0.5" quantity="5" label=" Escarpment"/>              
-              <ColorMapEntry color="#737300" opacity="0.5" quantity="6" label=" Slope"/>   	
+              <ColorMapEntry color="#737300" opacity="0.5" quantity="6" label=" Slope"/> 
               <ColorMapEntry color="#0070ff" opacity="0.5" quantity="7" label=" Trough"/>              
               <ColorMapEntry color="#abcd66" opacity="0.5" quantity="8" label=" Apron"/>
               <ColorMapEntry color="#002673" opacity="0.5" quantity="9" label=" Valley"/> 
-              <ColorMapEntry color="#00c5ff" opacity="0.5" quantity="10" label=" Hole"/>  			    			  			  
+              <ColorMapEntry color="#00c5ff" opacity="0.5" quantity="10" label=" Hole"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
