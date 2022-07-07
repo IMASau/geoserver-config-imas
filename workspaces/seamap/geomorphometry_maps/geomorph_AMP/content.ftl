@@ -13,6 +13,10 @@
 				<h5>Geomorphic feature: Plane</h5>
 				<br>
 				<i>A flat, or sub-horizontal surface.</i>
+			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '11'>
+				<h5>Geomorphic feature: Plane (on Seamount/Guyot)</h5>
+				<br>
+				<i>A flat, or sub-horizontal surface</i><b>on</b><i>A prominent feature rising more than 1000 m above the surrounding relief.</i>				
 			<#elseif feature.GRAY_INDEX.rawValue?string("0") == '2'>
 				<h5>Geomorphic feature: Peak</h5>
 				<br>
