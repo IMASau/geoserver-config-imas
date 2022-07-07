@@ -28,8 +28,7 @@ td div.left {
 	<#if area?has_content>
 
 		<#if (feature_index < 1)>
-			<h5>Park:${feature.PARK.value}</h5><br>
-
+			<h5>Park:${feature.PARK.value} (${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped)</h5><br>
 		<TABLE bordercolorlight="#000000" style='border:1.5pt solid black' border="1">
 
 		<THEAD>
@@ -44,7 +43,7 @@ td div.left {
 
 		<#list features?sort_by(["AREA_pct_total", "rawValue"])?reverse as feature_body>
 
-		<TR class="values">
+		<TR class="values" style='background-color: ${((feature_body_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
 			<TD>${feature_body.GEOMORPH.value}</TD>
 
