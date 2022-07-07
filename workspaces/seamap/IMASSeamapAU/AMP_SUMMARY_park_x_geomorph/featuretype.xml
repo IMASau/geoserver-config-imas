@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--53f2d2f7:181d5a2a1cb:-7df6</id>
-  <name>AMP_SUMMARY_park_geomorph</name>
+  <name>AMP_SUMMARY_park_x_geomorph</name>
   <nativeName>VW_AMP_SUMMARY_park_geomorph</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>AMP SUMMARIES - Geomorphometry</title>
+  <title>AMP SUMMARY OVERLAYS - Geomorphometry by AMP</title>
   <keywords>
     <string>features</string>
     <string>VW_AMP_SUMMARY_park_geomorph</string>

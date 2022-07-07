@@ -9,7 +9,7 @@
 	<#else>
 
 	<div class="feature">
-			<b>Depth2:</b> ${feature.GRAY_INDEX.rawValue?substring(2)} m		
+			<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?substring(1)} m		
 			<BR>
 	 </div>	
  	</#if>
