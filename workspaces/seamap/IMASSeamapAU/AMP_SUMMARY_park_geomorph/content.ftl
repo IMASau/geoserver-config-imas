@@ -37,12 +37,12 @@ td div.left {
 				<th>Geomorphic feature</th>
 				<th>Mapped area (km&sup2;)</th>
 				<th>% of mapped area</th>
-				<th>% of total area</th>
+				<th>% of total Park</th>
 			</TR>
 		</THEAD>
 
 
-		<#list features?sort_by(AREA_pct_total) as feature_body>
+		<#list features?sort_by(["AREA_pct_total", "rawValue"])?reverse as feature_body>
 
 		<TR class="values">
 
