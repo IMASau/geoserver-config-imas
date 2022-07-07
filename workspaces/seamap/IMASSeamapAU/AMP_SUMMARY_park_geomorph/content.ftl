@@ -42,7 +42,7 @@ td div.left {
 		</THEAD>
 
 
-		<#list features?sort_by(["AREA_pct_total", "rawValue"]) as feature_body>
+		<#list features?sort_by(AREA_pct_total) as feature_body>
 
 		<TR class="values">
 
