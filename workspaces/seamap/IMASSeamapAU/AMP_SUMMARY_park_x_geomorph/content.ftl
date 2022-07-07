@@ -14,9 +14,7 @@ td div.left {
 }
 
 details {
-     cursor:pointer;
      color:DarkBlue;
-     text-decoration:underline;
 
 }
 
@@ -24,13 +22,12 @@ details {
 
 span {
      cursor:pointer;
-     color:blue;
+     color:Darkblue;
      text-decoration:underline;
 }
 
 .div-table {
   color: black;
-     text-decoration:none;
 }
 
 </style>
@@ -52,7 +49,7 @@ span {
 
 
 <details>
-    <summary>More info</summary>
+    <summary><span>More info</span></summary>
 	
 	<div class="div-table">
 
