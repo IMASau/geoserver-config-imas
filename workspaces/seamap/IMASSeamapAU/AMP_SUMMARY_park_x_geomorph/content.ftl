@@ -14,11 +14,23 @@ td div.left {
 }
 
 details {
-  color: DarkBlue;
+     cursor:pointer;
+     color:DarkBlue;
+     text-decoration:underline;
+
+}
+
+
+
+span {
+     cursor:pointer;
+     color:blue;
+     text-decoration:underline;
 }
 
 .div-table {
   color: black;
+     text-decoration:none;
 }
 
 </style>
