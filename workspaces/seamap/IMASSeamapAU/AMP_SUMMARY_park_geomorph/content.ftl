@@ -8,7 +8,6 @@
 
 		<#if (feature_index < 1)>
 			<h6>Park:${feature.PARK.value}</h6>
-		</#if>
 
 
 		<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
@@ -25,7 +24,7 @@
 
 		<#list features as feature_body>
 
-		<TR class="values" ALIGN="CENTER" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+		<TR class="values" ALIGN="CENTER">
 
 			<TD ALIGN="LEFT" style="padding:5px">
 				${feature_body.GEOMORPH.value}
@@ -46,6 +45,8 @@
 		</#list>
 
 		</TABLE>
+
+		</#if>
 
 	</#if>
 </#list>
