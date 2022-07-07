@@ -20,7 +20,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>high ridges</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e60000</CssParameter>
@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>mid slope ridges</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff5500</CssParameter>
@@ -52,7 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>local ridges</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffaa00</CssParameter>
@@ -68,7 +68,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>upper slopes</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a3ff73</CssParameter>
@@ -84,7 +84,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>open slopes</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#70a800</CssParameter>
@@ -100,7 +100,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>plains</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffff73</CssParameter>
@@ -116,7 +116,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>slope apron</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0084a8</CssParameter>
@@ -132,7 +132,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>depression</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#00c5ff</CssParameter>
@@ -148,7 +148,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>valley</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#002673</CssParameter>
@@ -164,7 +164,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>channel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>220000</MaxScaleDenominator>                                        
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                                        
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bed2ff</CssParameter>

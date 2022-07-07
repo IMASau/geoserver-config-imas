@@ -7,7 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MinScaleDenominator>220000</MinScaleDenominator>                                                  
+          <MinScaleDenominator>400000</MinScaleDenominator>                                                  
           <RasterSymbolizer>
             <ColorMap type="values">
               <ColorMapEntry color="#e0e0e0" opacity="0.8" quantity="1" label=" Slope"/>
