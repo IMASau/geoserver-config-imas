@@ -13,6 +13,14 @@ td div.left {
   white-space:nowrap
 }
 
+details {
+  color: blue;
+}
+
+.div-table {
+  color: black;
+}
+
 </style>
 </head>
 
@@ -22,13 +30,20 @@ td div.left {
 
 <#list features as feature>
 
-	<#assign area=feature.AREA_km2.value>
+	<#assign contentcheck=feature.AREA_km2.value>
 
 
-	<#if area?has_content>
+	<#if contentcheck?has_content>
 
 		<#if (feature_index < 1)>
 			<h5>Park:${feature.PARK.value} (${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped)</h5><br>
+
+
+<details>
+    <summary>More info</summary>
+	
+	<div class="div-table">
+
 		<TABLE bordercolorlight="#000000" style='border:1.5pt solid black' border="1">
 
 		<THEAD>
@@ -57,9 +72,16 @@ td div.left {
 
 		</TABLE>
 
+	</div>
+
+</details>
 		</#if>
 
+
+
 	</#if>
+
 </#list>
+<br>
 
 </body>
