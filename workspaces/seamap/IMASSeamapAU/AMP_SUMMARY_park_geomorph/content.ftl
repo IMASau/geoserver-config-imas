@@ -7,7 +7,7 @@
 	<#if area?has_content>
 
 		<#if (feature_index < 1)>
-			<h6>Park:${feature.PARK.value}</h6>
+			<h5>Park:${feature.PARK.value}</h5><br>
 
 
 		<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
@@ -26,11 +26,11 @@
 
 		<TR class="values" ALIGN="CENTER">
 
-			<TD ALIGN="LEFT" style="padding:5px">
+			<TD align="center" style="padding:5px">
 				${feature_body.GEOMORPH.value}
 			</TD>
 
-			<TD style="padding:5px">
+			<TD ALIGN="CENTER" style="padding:5px">
 				${feature_body.AREA_km2.rawValue}
 			</TD>
 
