@@ -40,13 +40,6 @@ td div.left {
 	<#if contentcheck?has_content>
 
 		<#if (feature_index < 1)>
-			<h5>Park:${feature.PARK.value} (${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped)</h5><br>
-
-		<#if seamounts?has_content> 
-		<i>This Park contains <b>${feature_body.LARGESCALE.value}</b>.</i>
-		</#if>
-
-
 
 <details>
     <p><summary><span class="summary">More info</span></summary></p>
@@ -94,6 +87,10 @@ td div.left {
 			</#if>
 		</#if>
 
+
+	</#if>
+
+</details>
 
 	</#if>
 
