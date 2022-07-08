@@ -40,8 +40,8 @@
               <ColorMapEntry color="#00c5ff" opacity="0.5" quantity="20" label=" Seamount/Guyot (Hole) HIDDEN"/>
               <ColorMapEntry color="#00c5ff" opacity="0.5" quantity="30" label=" Pinnacle (Hole) HIDDEN"/>                                                        
               
-              <ColorMapEntry color="#ff7038" opacity="0.5" quantity="26" label=" Pinnacle (base)"/>               
-              <ColorMapEntry color="#cc0066" opacity="0.5" quantity="16" label=" Seamount/Guyot (base)"/>
+              <ColorMapEntry color="#001400" opacity="0.5" quantity="26" label=" Pinnacle (base)"/>               
+              <ColorMapEntry color="#1a4b00" opacity="0.5" quantity="16" label=" Seamount/Guyot (base)"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
