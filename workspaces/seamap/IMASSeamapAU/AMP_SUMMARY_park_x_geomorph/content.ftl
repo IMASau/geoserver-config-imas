@@ -4,13 +4,13 @@
 td, th {
   text-align: center;
   padding:5px;
-  white-space:nowrap
+  <!? white-space:nowrap ?> 
 }
 
 td div.left {
   text-align:left;
   padding:5px;
-  white-space:nowrap
+  <!? white-space:nowrap ?> 
 }
 
 
@@ -35,16 +35,19 @@ td div.left {
 <#list features as feature>
 
 	<#assign contentcheck=feature.AREA_km2.value>
-
+	<#assign seamounts=feature.LARGESCALE.value>
 
 	<#if contentcheck?has_content>
 
 		<#if (feature_index < 1)>
-			<h5>Park:${feature.PARK.value} (${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped)</h5><br>
-
 
 <details>
-    <summary><span class="summary">More info</span></summary>
+    <p><summary><span class="summary">More info</span></summary></p>
+
+
+
+			<h5>${feature.PARK.value} (${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped)</h5><br>
+
 	
 	<div class="div-table">
 
@@ -78,14 +81,19 @@ td div.left {
 
 	</div>
 
-</details>
+		<#if (feature_index < 1)>
+			<#if seamounts?has_content> 
+				<p><i>This Park contains <b>${feature.LARGESCALE.value}</b>.</i></p>
+			</#if>
 		</#if>
-
 
 
 	</#if>
 
+</details>
+
+	</#if>
+
 </#list>
-<br>
 
 </body>
