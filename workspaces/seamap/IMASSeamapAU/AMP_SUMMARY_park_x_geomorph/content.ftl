@@ -35,12 +35,17 @@ td div.left {
 <#list features as feature>
 
 	<#assign contentcheck=feature.AREA_km2.value>
-
+	<#assign seamounts=feature.LARGESCALE.value>
 
 	<#if contentcheck?has_content>
 
 		<#if (feature_index < 1)>
 			<h5>Park:${feature.PARK.value} (${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped)</h5><br>
+
+		<#if seamounts?has_content> 
+		<i>This Park contains <b>${feature_body.LARGESCALE.value}</b>.</i>
+		</#if>
+
 
 
 <details>
@@ -80,7 +85,6 @@ td div.left {
 
 </details>
 		</#if>
-
 
 
 	</#if>
