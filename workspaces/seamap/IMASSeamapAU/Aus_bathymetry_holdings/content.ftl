@@ -1,15 +1,30 @@
-<style> 
-div.a {
-    white-space: normal; 
-    width: 500px; 
-    overflow: hidden;
-    text-overflow:ellipsis;
+<head>
+<style>
+
+th {
+  text-align: left;
+  padding:5px;
+  white-space:nowrap
 }
 
-div.a:hover {
-    overflow: visible;
+td {
+  text-align:left;
+  padding:5px;
 }
+
+
+.specialcntr {
+  text-align:center;
+}
+
+
+.div-table {
+  color: black;
+}
+
 </style>
+</head>
+
 <body>
 
 
@@ -19,19 +34,18 @@ div.a:hover {
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
 
 <THEAD>
-	<TR class="AusSeabed bathymetry holdings headers" ALIGN="LEFT" style='background-color:#b3d9ff; border:1.5pt solid black'>
-		<th style="padding:5px; white-space:nowrap">Collection name</th>
-		<th style="padding:5px; white-space:nowrap">Date range</th>
-		<th style="padding:5px; white-space:nowrap">Resolution</th>
-		<th style="padding:5px; white-space:nowrap">Marine Park(s)</th>
-		<th style="padding:5px; white-space:nowrap">Data availability</th>
-		<th style="padding:5px; white-space:nowrap">Point of contact</th>		
-		<th style="padding:5px; white-space:nowrap">Info</th>
+	<TR class="AusSeabed bathymetry holdings headers" style='background-color:#b3d9ff; border:1.5pt solid black'>
+		<th>Collection name</th>
+		<th class="specialcntr">Date range</th>
+		<th class="specialcntr">Resolution</th>
+		<th>Marine Park(s)</th>
+		<th>Data availability</th>
+		<th>Point of contact</th>		
+		<th>Info</th>
 	</TR>
 </THEAD>
 
-	<#list features as feature>
-		<#if (feature_index < 10)> 
+	<#list features ?sort_by(["RES_ACTUAL", "rawValue"])?reverse as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
@@ -40,11 +54,13 @@ div.a:hover {
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
 
+		<#if (feature_index < 10)> 
+
 
 <TBODY>
 	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="padding:5px">
+		<TD >
 			<#if collection?has_content>
 				<#if feature.objectid.value?contains("DEM")>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -60,7 +76,7 @@ div.a:hover {
 			</#if>
 		</TD>
 
-		<TD style="padding:5px">
+		<TD class="specialcntr">
 			<#if startdate?has_content>
 				${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
 			<#else>
@@ -68,11 +84,11 @@ div.a:hover {
 			</#if>
 		</TD>
 
-		<TD style="padding:5px">
+		<TD class="specialcntr">
 			${feature.RESOLUTION.value}
 		</TD>     
                  
-		<TD style="padding:5px">
+		<TD >
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
@@ -82,7 +98,7 @@ div.a:hover {
 			</#if>
 		</TD>   
      
-		<TD style="padding:5px">
+		<TD >
 			<#if feature.data_dl.value == 'no'>
 				not available
 			<#elseif feature.data_dl.value == 'yes - other'>
@@ -95,7 +111,7 @@ div.a:hover {
 		</TD> 
 		
 
-		<TD style="padding:5px">
+		<TD >
 			<#if POC?has_content>
 				${feature.pointofcontact.value}
 			<#else>
@@ -103,7 +119,7 @@ div.a:hover {
 			</#if> 
 		</TD>  		
 
-		<TD style="padding:5px">
+		<TD >
 			<#if metadata?has_content>
 				<a rel="external" href="${feature.METADATA.value}" target="_blank">view metadata</a>
 			<#else>
@@ -114,10 +130,18 @@ div.a:hover {
 	</TR>
 </TBODY>
 
-		<#else>
-			<h3>More surveys exist at this location</h3><br>
-		<#break>
 		</#if>
 	</#list>
 </TABLE>
+
+
+<#list features as feature_counter>
+	<#if (feature_counter_index <3)> 
+		<#else>
+			<p><i>More than ten surveys exist at this location.</i></p>
+		<#break>
+
+	</#if>
+</#list>
+
 </body>
