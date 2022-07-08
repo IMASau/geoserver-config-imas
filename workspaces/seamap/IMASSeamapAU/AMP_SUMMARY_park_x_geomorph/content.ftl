@@ -20,7 +20,7 @@ details {
 
 
 
-span {
+.div-info {
      cursor:pointer;
      color:Darkblue;
      text-decoration:underline;
@@ -49,7 +49,7 @@ span {
 
 
 <details>
-    <summary><span>More info</span></summary>
+    <summary><div class="div-info">More info</div></summary>
 	
 	<div class="div-table">
 
