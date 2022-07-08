@@ -13,14 +13,9 @@ td div.left {
   white-space:nowrap
 }
 
-details {
-     color:DarkBlue;
-
-}
 
 
-
-.div-info {
+.summary {
      cursor:pointer;
      color:Darkblue;
      text-decoration:underline;
@@ -49,7 +44,7 @@ details {
 
 
 <details>
-    <summary><div class="div-info">More info</div></summary>
+    <summary><span class="summary">More info</span></summary>
 	
 	<div class="div-table">
 
