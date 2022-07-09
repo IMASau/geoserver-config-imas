@@ -34,14 +34,9 @@ td div.left {
 
 <#list features as feature>
 
-
-
 	<#assign contentcheck=feature.AREA_km2.value>
 	<#assign seamounts=feature.LARGESCALE.value>
 	<#assign parkname=feature.PARK.value>
-				
-${parkname}
-
 	
 <#if contentcheck?has_content>
 
@@ -52,8 +47,8 @@ ${parkname}
 			<details>
 				<p><summary><span class="summary">More info</span></summary></p>
 
-					<#if parkname?contains("incl.") == true>
-						<h5>${feature.PARK.value?replace(' (incl. DEMs)','')}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped (incl. DEMs)</h5><br>
+					<#if parkname?contains("inc.") == true>
+						<h5>${feature.PARK.value?replace(' (inc. DEMs)','')}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped (inc. DEMs)</h5><br>
 					<#else>
 						<h5>${feature.PARK.value}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped</h5><br>
 					</#if>					
