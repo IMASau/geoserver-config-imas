@@ -36,10 +36,10 @@
     </style>
   </styles>
   <bounds>
-    <minx>-1.3390096821748048E7</minx>
-    <maxx>1.475430776067485E7</maxx>
-    <miny>-1.349740472772982E7</miny>
-    <maxy>-257728.6267126637</maxy>
+    <minx>-1.4497157815829119E7</minx>
+    <maxx>1.6046131472547263E7</maxx>
+    <miny>-1.3543543198648129E7</miny>
+    <maxy>1076437.9983969678</maxy>
     <crs class="projected">EPSG:3112</crs>
   </bounds>
 </layerGroup>
