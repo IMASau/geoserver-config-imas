@@ -8,10 +8,10 @@
       <FeatureTypeStyle>
 	  
         <Rule>
-          <Title>Coastal restoration approach</Title>
+          <Title>Coastal restoration GLOBAL__Approach</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>intentionallyblank</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>        
@@ -33,7 +33,7 @@
           <Title>Beach renourishment</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%Beach%</ogc:Literal>
 					</ogc:PropertyIsLike>              
 			</ogc:Filter>        
@@ -60,7 +60,7 @@
           <Title>Dune replanting or construction</Title>
 			<ogc:Filter>           
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%Dune%</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>        
@@ -87,7 +87,7 @@
           <Title>Mangroves</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%angrove%</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
@@ -113,7 +113,7 @@
           <Title>Saltmarshes</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%altmarsh%</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
@@ -139,7 +139,7 @@
           <Title>Seagrasses</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%eagrass%</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
@@ -165,7 +165,7 @@
           <Title>Kelp forests</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%elp forest%</ogc:Literal>
             </ogc:PropertyIsLike >
 			</ogc:Filter> 
@@ -191,7 +191,7 @@
           <Title>Coral reefs</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%oral reef%</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>					
@@ -213,7 +213,7 @@
           <Title>Shellfish reefs</Title>
 			<ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-					<ogc:PropertyName>Approach</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>%hellfish reef%</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>										
@@ -229,7 +229,29 @@
               <Size>13</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>		
+        </Rule>	
+        
+        <Rule>
+          <Title>Other</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%ther%</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>										
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0000b3</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	        
 		
       </FeatureTypeStyle>
     </UserStyle>
