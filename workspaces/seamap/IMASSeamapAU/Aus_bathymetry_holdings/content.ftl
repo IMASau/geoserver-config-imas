@@ -1,25 +1,22 @@
 <head>
 <style>
 
-td, th {
-  text-align: center;
+th {
+  text-align: left;
   padding:5px;
-  <!? white-space:nowrap ?> 
+  white-space:nowrap
 }
 
-td div.left {
+td {
   text-align:left;
   padding:5px;
-  <!? white-space:nowrap ?> 
 }
 
 
-
-.summary {
-     cursor:pointer;
-     color:Darkblue;
-     text-decoration:underline;
+.specialcntr {
+  text-align:center;
 }
+
 
 .div-table {
   color: black;
@@ -30,80 +27,121 @@ td div.left {
 
 <body>
 
-<#setting number_format="#,###,###">
 
-<#list features as feature>
-
-	<#assign contentcheck=feature.AREA_km2.value>
-	<#assign seamounts=feature.LARGESCALE.value>
-	<#assign parkname=feature.PARK.value>
-	
-		<#if parkname?contains("excl.")>
-HELLO
-		</#if>
-			
+<#setting date_format="yyyy">
 
 
-	
-<#if contentcheck?has_content>
+<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
 
-	<#if parkname?contains("excl.") == false>
+<THEAD>
+	<TR class="AusSeabed bathymetry holdings headers" style='background-color:#b3d9ff; border:1.5pt solid black'>
+		<th>Collection name</th>
+		<th class="specialcntr">Date range</th>
+		<th class="specialcntr">Resolution</th>
+		<th>Marine Park(s)</th>
+		<th>Data availability</th>
+		<th>Point of contact</th>		
+		<th>Info</th>
+	</TR>
+</THEAD>
 
-		<#if (feature_index < 1)>
+	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
 
-			<details>
-				<p><summary><span class="summary">More info</span></summary></p>
+		<#assign collection=feature.TITLE_ASB.value>
+		<#assign reserve=feature.AMP_RES.value>		
+		<#assign metadata=feature.METADATA.value>
+		<#assign POC=feature.pointofcontact.value>		
+		<#assign startdate=feature.start_date.value>
+		<#assign enddate=feature.end_date.value>
 
-					<#if parkname?contains("incl.") == true>
-						<h5>${feature.PARK.value?replace(' (incl. DEMs)','')}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped (incl. DEMs) / </h5><br>
-					<#else>
-						<h5>${feature.PARK.value}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped</h5><br>
-					</#if>					
-
-						
-					<div class="div-table">
-
-					<TABLE bordercolorlight="#000000" style='border:1.5pt solid black' border="1">
-
-					<THEAD>
-						<TR class="Geomorphometry table headers" style='background-color:#b3d9ff; border:1.5pt solid black'>
-							<th>Geomorphic feature</th>
-							<th>Mapped area (km&sup2;)</th>
-							<th>% of mapped area</th>
-							<th>% of total Park</th>
-						</TR>
-					</THEAD>
+		<#if (feature_index < 10)> 
 
 
-					<#list features?sort_by(["AREA_pct_total", "rawValue"])?reverse as feature_body>
+<TBODY>
+	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-						<TR class="values" style='background-color: ${((feature_body_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
-							<TD>${feature_body.GEOMORPH.value}</TD>
-							<TD>${feature_body.AREA_km2.rawValue}</TD>
-							<TD>${feature_body.AREA_pct_mapped.value}</TD>
-						<TD>${feature_body.AREA_pct_total.value}</TD>
-						</TR>
-				
-					</#list>
-
-					</TABLE>
-
-					</div>
-
-			<#if (feature_index < 1)>
-				<#if seamounts?has_content> 
-					<p>&#x1F6C8; <i><b>${feature.LARGESCALE.value}</b> have been mapped in this Park.</i></p>
+		<TD >
+			<#if collection?has_content>
+				<#if feature.objectid.value?contains("DEM")>
+					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
+				<#else>
+					${feature.TITLE_ASB.value}</i>	
+				</#if>				
+			<#else>
+				<#if feature.objectid.value?contains("DEM")>
+					${feature.name.value} <b><i>[modelled]</i></b>
+				<#else>
+					${feature.name.value}</i>	
 				</#if>
 			</#if>
+		</TD>
+
+		<TD class="specialcntr">
+			<#if startdate?has_content>
+				${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
+			<#else>
+			-
+			</#if>
+		</TD>
+
+		<TD class="specialcntr">
+			${feature.RESOLUTION.value}
+		</TD>     
+                 
+		<TD >
+			<#if feature.AMP_RES.value == 'various'>
+				various
+			<#elseif reserve?has_content>
+				${feature.AMP_RES.value}
+			<#else>
+				-
+			</#if>
+		</TD>   
+     
+		<TD >
+			<#if feature.data_dl.value == 'no'>
+				not available
+			<#elseif feature.data_dl.value == 'yes - other'>
+				yes - other
+			<#elseif feature.data_dl.value == 'yes - ASB'>
+				yes - <a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
+			<#else>
+				not available
+			</#if>
+		</TD> 
+		
+
+		<TD >
+			<#if POC?has_content>
+				${feature.pointofcontact.value}
+			<#else>
+				-
+			</#if> 
+		</TD>  		
+
+		<TD >
+			<#if metadata?has_content>
+				<a rel="external" href="${feature.METADATA.value}" target="_blank">view metadata</a>
+			<#else>
+				-
+			</#if> 
+		</TD>    
+
+	</TR>
+</TBODY>
 
 		</#if>
-	
-	</#if>	
+	</#list>
+</TABLE>
 
-</details>
 
-</#if>
+<#list features as feature_counter>
+	<#if (feature_counter_index <3)> 
+		<#else>
+			<p><i>More than ten surveys exist at this location.</i></p>
+		<#break>
 
+	</#if>
 </#list>
 
 </body>
