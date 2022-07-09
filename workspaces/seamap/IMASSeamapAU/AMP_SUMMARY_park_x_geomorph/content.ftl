@@ -40,7 +40,6 @@ td div.left {
 	
 <#if contentcheck?has_content>
 
-	<#if parkname?contains("excl.") == false>
 
 		<#if (feature_index < 1)>
 
@@ -48,7 +47,7 @@ td div.left {
 				<p><summary><span class="summary">More info</span></summary></p>
 
 					<#if parkname?contains("inc.") == true>
-						<h5>${feature.PARK.value?replace(' (inc. DEMs)','')}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped (inc. DEMs)</h5><br>
+						<h5>${feature.PARK.value?replace(' (inc. DEM)','')}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped (inc. DEMs)</h5><br>
 					<#else>
 						<h5>${feature.PARK.value}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped</h5><br>
 					</#if>					
@@ -94,8 +93,6 @@ td div.left {
 	</#if>	
 
 </details>
-
-</#if>
 
 </#list>
 
