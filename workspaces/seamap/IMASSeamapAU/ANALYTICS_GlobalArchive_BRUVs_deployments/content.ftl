@@ -35,7 +35,7 @@
 		</TD>
 
 		<TD style="padding:5px; text-align:center">
-			<i>TBA</i>
+			<i>${feature.deployment_method.value}</i>
 		</TD>
 
 		<TD style="padding:5px; text-align:center">

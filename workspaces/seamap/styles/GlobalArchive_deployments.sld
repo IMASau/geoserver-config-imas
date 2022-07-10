@@ -12,18 +12,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	  
 
         <Rule>
-          <Title>Australian BRUV Synthesis - public</Title>
+          <Title>Data public</Title>
           <ogc:Filter>
-			<ogc:And>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>source</ogc:PropertyName>
-              <ogc:Literal>Australian BRUV synthesis</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>data_open</ogc:PropertyName>
               <ogc:Literal>Y</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-			</ogc:And>			
+            </ogc:PropertyIsEqualTo>					
           </ogc:Filter>  		  
           <PointSymbolizer>
             <Graphic>
@@ -31,32 +25,26 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>star</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#ff751a</CssParameter>  
-                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.65</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>15</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
  
  
         <Rule>
-          <Title>Australian BRUV Synthesis - private</Title>
+          <Title>Data private</Title>
           <ogc:Filter>
-			<ogc:And>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>source</ogc:PropertyName>
-              <ogc:Literal>Australian BRUV synthesis</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>data_open</ogc:PropertyName>
               <ogc:Literal>N</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
-			</ogc:And>			
           </ogc:Filter>  		  
           <PointSymbolizer>
             <Graphic>
@@ -64,7 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#1a75ff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.65</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
@@ -76,70 +64,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>
         
-        <Rule>
-          <Title>GlobalArchive other - public</Title>
-          <ogc:Filter>
-			<ogc:And>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>source</ogc:PropertyName>
-              <ogc:Literal>GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>data_open</ogc:PropertyName>
-              <ogc:Literal>Y</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-			</ogc:And>			
-          </ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>star</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ff751a</CssParameter>  
-                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
-                </Fill>               
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">2</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>15</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>
- 
- 
-        <Rule>
-          <Title>GlobalArchive other - private</Title>
-          <ogc:Filter>
-			<ogc:And>          
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>source</ogc:PropertyName>
-              <ogc:Literal>GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>data_open</ogc:PropertyName>
-              <ogc:Literal>N</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-			</ogc:And>			
-          </ogc:Filter>  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#1a75ff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
-                </Fill>               
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">2</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>         
  
 
         </FeatureTypeStyle>
