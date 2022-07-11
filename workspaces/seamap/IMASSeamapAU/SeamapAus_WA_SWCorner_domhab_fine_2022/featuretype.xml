@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--6a28fb08:181eb6f392f:5bf9</id>
-  <name>SeamapAus_WA_SWCorner_domhab_broad_2022</name>
-  <nativeName>SeamapAus_WA_SWCorner_domhab_broad_2022</nativeName>
+  <id>FeatureTypeInfoImpl--6a28fb08:181eb6f392f:5bfb</id>
+  <name>SeamapAus_WA_SWCorner_domhab_fine_2022</name>
+  <nativeName>SeamapAus_WA_SWCorner_domhab_fine_2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - South-west Corner dominant habitat broad-scale 2022 (NESP)</title>
+  <title>Seamap Australia - WA - South-west Corner dominant habitat fine-scale 2022 (NESP)</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_WA_SWCorner_domhab_broad_2022</string>
+    <string>SeamapAus_WA_SWCorner_domhab_fine_2022</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -42,17 +42,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>114.37813125756122</minx>
-    <maxx>115.13709576949822</maxx>
-    <miny>-34.302034227204814</miny>
-    <maxy>-33.52808821201867</maxy>
+    <minx>114.69212654783085</minx>
+    <maxx>114.96951241960936</maxx>
+    <miny>-34.162345057092345</miny>
+    <maxy>-33.9873583791938</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>114.37813125756122</minx>
-    <maxx>115.13709576949822</maxx>
-    <miny>-34.302034227204814</miny>
-    <maxy>-33.52808821201867</maxy>
+    <minx>114.69212654783085</minx>
+    <maxx>114.96951241960936</maxx>
+    <miny>-34.162345057092345</miny>
+    <maxy>-33.9873583791938</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
