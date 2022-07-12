@@ -39,19 +39,25 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  
  
         <Rule>
-          <Title>Annotations private</Title>
+          <Title>Annotated but private</Title>
           <ogc:Filter>
+			<ogc:And>    
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>total_annotation_count</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>              
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>public_annotation_count</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>	
+			</ogc:And>              
           </ogc:Filter>  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#86b300</CssParameter>  
+                  <CssParameter name="fill">#00e6b8</CssParameter>  
                   <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -64,7 +70,31 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>
         
- 
+        <Rule>
+          <Title>Not annotated</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>total_annotation_count</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
+            </ogc:PropertyIsEqualTo>           
+          </ogc:Filter>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#bfbfbf</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>9</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule> 
 
         </FeatureTypeStyle>
     </UserStyle>
