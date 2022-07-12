@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_WA_SWCorner_domhab_broad_2022</name>
-  <id>LayerInfoImpl--6a28fb08:181eb6f392f:5bfa</id>
+  <name>SeamapAus_WA_SWCorner_domhab_fine_2021</name>
+  <id>LayerInfoImpl--6a28fb08:181eb6f392f:5bfc</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--6a28fb08:181eb6f392f:5bf7</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--6a28fb08:181eb6f392f:5bf9</id>
+    <id>FeatureTypeInfoImpl--6a28fb08:181eb6f392f:5bfb</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

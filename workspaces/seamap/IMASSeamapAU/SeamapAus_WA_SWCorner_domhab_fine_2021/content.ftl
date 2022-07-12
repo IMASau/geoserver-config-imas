@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - South-west Corner fine-scale 2022</h5>
+	<h5>Habitat - South-west Corner fine-scale 2021</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
