@@ -1,0 +1,30 @@
+<dataStore>
+  <id>DataStoreInfoImpl-f5046af:181f14bdefc:-7a08</id>
+  <name>SQUIDLE</name>
+  <description>cascading squidle WFS for applying custom styling</description>
+  <type>Web Feature Server (NG)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="WFSDataStoreFactory:TRY_GZIP">true</entry>
+    <entry key="WFSDataStoreFactory:GML_COMPATIBLE_TYPENAMES">false</entry>
+    <entry key="WFSDataStoreFactory:LENIENT">false</entry>
+    <entry key="usedefaultsrs">false</entry>
+    <entry key="WFSDataStoreFactory:AXIS_ORDER">Compliant</entry>
+    <entry key="WFSDataStoreFactory:PROTOCOL">false</entry>
+    <entry key="WFSDataStoreFactory:GML_COMPLIANCE_LEVEL">0</entry>
+    <entry key="WFSDataStoreFactory:GET_CAPABILITIES_URL">https://squidle.org/geoserver/squidle/ows?service=WFS</entry>
+    <entry key="WFSDataStoreFactory:MAXFEATURES">0</entry>
+    <entry key="WFSDataStoreFactory:FILTER_COMPLIANCE">0</entry>
+    <entry key="WFSDataStoreFactory:TIMEOUT">3000</entry>
+    <entry key="WFSDataStoreFactory:BUFFER_SIZE">10</entry>
+    <entry key="namespace">seamap</entry>
+    <entry key="WFSDataStoreFactory:WFS_STRATEGY">auto</entry>
+    <entry key="WFSDataStoreFactory:AXIS_ORDER_FILTER">Compliant</entry>
+    <entry key="WFSDataStoreFactory:USE_HTTP_CONNECTION_POOLING">true</entry>
+    <entry key="WFSDataStoreFactory:ENCODING">UTF-8</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
