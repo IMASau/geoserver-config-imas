@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-3da50ec5:181f18a4ec7:-7ffa</id>
-  <name>SQUIDLE_deployment_dataavailability</name>
+  <name>SQUIDLE_dataavailability</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SQUIDLE_deployment_dataavailability.sld</filename>
+  <filename>SQUIDLE_dataavailability.sld</filename>
 </style>

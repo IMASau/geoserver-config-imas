@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>AUV Holt (IMOS)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>ACFR AUV Holt</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>   		  
@@ -39,7 +39,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>AUV Nimbus (IMOS)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>IMOS AUV Nimbus</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>   		  
@@ -64,7 +64,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>AUV Sirius (IMOS)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>IMOS AUV Sirius</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>   		  
@@ -90,7 +90,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Stereo-BRUVs (GlobalArchive)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>   		  
@@ -115,7 +115,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Towed Camera (NESP)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>NESP Towed Camera</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>   		  
@@ -140,7 +140,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Towed Stereo Camera (CSIRO)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>CSIRO O*A MRITC Towed Stereo Camera</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>   		  
@@ -165,7 +165,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Diver Photos (Reef Life Survey)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform.name</ogc:PropertyName>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
 					    <ogc:Literal>RLS DIVER Photos</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>   		  

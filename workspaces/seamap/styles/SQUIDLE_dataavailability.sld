@@ -43,7 +43,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>public_annotation_count</ogc:PropertyName>
-              <ogc:Literal>N</ogc:Literal>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>  		  
           <PointSymbolizer>

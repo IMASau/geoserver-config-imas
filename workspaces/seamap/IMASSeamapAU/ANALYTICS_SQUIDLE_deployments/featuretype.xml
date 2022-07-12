@@ -1,42 +1,55 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4812677:17ff719b201:-2a6c</id>
+  <id>FeatureTypeInfoImpl-3da50ec5:181f18a4ec7:-7f4a</id>
   <name>ANALYTICS_SQUIDLE_deployments</name>
   <nativeName>EXTRACT_SQUIDLE_DEPLOYMENT_POINTS_static</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Extract from Squidle+ - deployments of all platforms</title>
+  <title>SQUIDLE+ extract - static copy</title>
   <keywords>
     <string>features</string>
-    <string>EXTRACT_SQUIDLE_deployments</string>
+    <string>EXTRACT_SQUIDLE_DEPLOYMENT_POINTS_static</string>
   </keywords>
-  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
-  DATUM[&quot;World Geodetic System 1984&quot;, 
-    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-179.14000358279998</minx>
-    <maxx>177.18048204360957</maxx>
-    <miny>-67.59997885199954</miny>
-    <maxy>78.45002406900045</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-3.527051991723941E7</minx>
+    <maxx>2.321604107542439E7</maxx>
+    <miny>-1.319267965513457E7</miny>
+    <maxy>1.0441869872959463E7</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.14000358279998</minx>
-    <maxx>177.18048204360957</maxx>
-    <miny>-67.59997885199954</miny>
-    <maxy>78.45002406900045</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-82.99691674320901</miny>
+    <maxy>78.5214331132717</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
