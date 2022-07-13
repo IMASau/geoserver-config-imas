@@ -7,7 +7,7 @@
 			<#else>	
 	
 			<div class="feature">
-				<B>Pelagic cumulative impact:</b> ${feature.GRAY_INDEX.rawValue?string("0.0")}					
+				<br><B>Pelagic cumulative impact:</b> ${feature.GRAY_INDEX.rawValue?string("0.000")}<br><br>					
 	
 			</div>
 			</#if>

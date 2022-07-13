@@ -7,7 +7,7 @@
 			<#else>	
 	
 			<div class="feature">
-				<B>Benthic cumulative impact:</b> ${feature.GRAY_INDEX.rawValue?string("0.00")}					
+				<br><B>Benthic cumulative impact:</b> ${feature.GRAY_INDEX.rawValue?string("0.000")}<br><br>					
 	
 			</div>
 			</#if>
