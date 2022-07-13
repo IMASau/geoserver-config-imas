@@ -1,0 +1,12 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-3da50ec5:181f861c50c:-75ac</id>
+  <name>MERI_Pelagic_Cumulative_Impact</name>
+  <description>NESP SS2/D7/1.3 - MERI Pelagic Cumulative Impact</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///mnt/rdsi/attachments/1c3de56c-da70-40cb-b322-bd59715ed0d4/ecosystem_interaction_pelagic_all.tif</url>
+</coverageStore>

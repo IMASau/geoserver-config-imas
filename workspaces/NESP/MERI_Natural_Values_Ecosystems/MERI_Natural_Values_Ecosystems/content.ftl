@@ -8,7 +8,7 @@
 			<#else>	
 	
 			<div class="feature">
-				<h5>Ecosystem Class (MERI)</h5><BR>
+				<h5>Natural Values Ecosystems</h5><BR>
 					<#if ecosys==1>
 						<b>Shelf unvegetated sediments</b>
 						<br>

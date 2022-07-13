@@ -1,0 +1,16 @@
+<layer>
+  <name>MERI_Pelagic_Cumulative_Impact</name>
+  <id>LayerInfoImpl-3da50ec5:181f861c50c:-7435</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3da50ec5:181f861c50c:-6afa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-3da50ec5:181f861c50c:-7436</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

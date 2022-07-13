@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-19c3df12:180c6c8e7e2:-3306</id>
-  <name>NESP_MERI_Natural_Values_Ecosystems</name>
+  <id>StyleInfoImpl-3da50ec5:181f861c50c:-6e55</id>
+  <name>MERI_Benthic_CI</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>NESP_MERI_Natural_Values_Ecosystems.sld</filename>
+  <filename>MERI_Benthic_CI.sld</filename>
 </style>
