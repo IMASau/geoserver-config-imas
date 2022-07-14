@@ -1,5 +1,5 @@
 <layer>
-  <name>TEST_NESP_MaC_1_18_Microplastics</name>
+  <name>NESP_MaC_1_18_Microplastics_studies_SE_grp_clustered</name>
   <id>LayerInfoImpl--64fa71ba:1811303681d:-6f9c</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -8,6 +8,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--64fa71ba:1811303681d:-6f9d</id>
   </resource>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
