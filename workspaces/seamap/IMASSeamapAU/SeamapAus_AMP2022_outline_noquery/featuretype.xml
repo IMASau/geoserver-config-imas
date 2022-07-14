@@ -1,12 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl--7a6c209c:1811e60aaec:-772a</id>
-  <name>SeamapAus_AMP2022_outline</name>
+  <name>SeamapAus_AMP2022_outline_noquery</name>
   <nativeName>SeamapAus_BOUNDARIES_AMP2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Parks (AMPs) 2022 - outline</title>
-  <abstract>Catalogued as third-party layer for display in Seamap Australia (https://seamapaustralia.org/map)</abstract>
+  <title>Australian Marine Parks (AMPs) 2022</title>
+  <abstract>For specific use in layer groups that do not support querying of this layer. Not to be advertised.</abstract>
   <keywords>
     <string>features</string>
     <string>BOUNDARIES_AMP2022</string>
