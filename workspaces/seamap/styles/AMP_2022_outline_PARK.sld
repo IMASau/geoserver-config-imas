@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
+                        <ogc:PropertyName>geom_res</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -40,6 +40,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  		<Rule>
 		  <Title>Australian Marine Park boundary</Title>          
                     <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom_res</ogc:PropertyName></Geometry>		                      
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.8</CssParameter>

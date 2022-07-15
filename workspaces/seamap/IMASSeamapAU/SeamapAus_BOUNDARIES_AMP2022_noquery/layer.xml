@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_BOUNDARIES_AMP2022_PARK_old</name>
+  <name>SeamapAus_BOUNDARIES_AMP2022_noquery</name>
   <id>LayerInfoImpl--7a6c209c:1811e60aaec:-7729</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -8,7 +8,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--7a6c209c:1811e60aaec:-772a</id>
   </resource>
-  <queryable>true</queryable>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
