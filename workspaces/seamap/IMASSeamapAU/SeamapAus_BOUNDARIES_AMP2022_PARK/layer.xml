@@ -1,12 +1,12 @@
 <layer>
-  <name>SeamapAus_BOUNDARIES_AMP2022_test1</name>
-  <id>LayerInfoImpl--2109d5df:1820157902c:-687c</id>
+  <name>SeamapAus_BOUNDARIES_AMP2022_PARK</name>
+  <id>LayerInfoImpl--2109d5df:1820157902c:-682f</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--7a6c209c:1811e60aaec:-772c</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--2109d5df:1820157902c:-687d</id>
+    <id>FeatureTypeInfoImpl--2109d5df:1820157902c:-6830</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
