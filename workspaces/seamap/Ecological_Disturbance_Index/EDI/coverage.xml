@@ -48,7 +48,7 @@ Hughes, M.G., Harris, P.T., Brooke, B.P. 2010. Seabed exposure and ecological di
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Ecological_Disturbance_Index_EDI</entry>
