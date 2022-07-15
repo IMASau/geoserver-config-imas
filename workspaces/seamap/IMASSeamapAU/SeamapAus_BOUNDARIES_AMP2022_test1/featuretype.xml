@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2109d5df:1820157902c:-68a5</id>
+  <id>FeatureTypeInfoImpl--2109d5df:1820157902c:-687d</id>
   <name>SeamapAus_BOUNDARIES_AMP2022_test1</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2022</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2022_test1</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_BOUNDARIES_AMP2022</title>
+  <title>SeamapAus_BOUNDARIES_AMP2022_test1</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_BOUNDARIES_AMP2022</string>
+    <string>SeamapAus_BOUNDARIES_AMP2022_test1</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-4599473.142445154</minx>
-    <maxx>3447054.3328205952</maxx>
-    <miny>-7183627.73173886</miny>
-    <maxy>-1047062.6342105796</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>-175.97767685737986</minx>
+    <maxx>178.95984845317525</maxx>
+    <miny>-61.778661049023626</miny>
+    <maxy>-2.7195130364488196</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-4599473.142445154</minx>
-    <maxx>3447054.3328205952</maxx>
-    <miny>-7183627.73173886</miny>
-    <maxy>-1047062.6342105796</maxy>
+    <minx>-175.97767685737986</minx>
+    <maxx>178.95984845317525</maxx>
+    <miny>-61.778661049023626</miny>
+    <maxy>-2.7195130364488196</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
