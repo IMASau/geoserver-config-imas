@@ -17,7 +17,7 @@
           <Title>Surveyed bathymetry</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,7 +38,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Not>			
@@ -69,7 +69,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Not>                 
@@ -100,7 +100,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Not>                  
@@ -132,7 +132,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Not>                   
@@ -164,7 +164,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Not>                   
@@ -193,7 +193,7 @@
             </ogc:PropertyIsGreaterThan>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 			</ogc:Not>               
@@ -218,7 +218,7 @@
           <ogc:Filter>
 			<ogc:And>						  
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>DEM</ogc:Literal>
             </ogc:PropertyIsEqualTo>					  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
@@ -274,7 +274,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">type A, avail_sort D, RES_ACTUAL D</VendorOption>		
+      <VendorOption name="sortBy">dtype A, avail_sort D, RES_ACTUAL D</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
