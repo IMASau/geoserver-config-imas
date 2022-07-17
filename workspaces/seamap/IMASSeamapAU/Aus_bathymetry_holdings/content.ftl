@@ -136,7 +136,7 @@ td {
 
 
 <#list features as feature_counter>
-	<#if (feature_counter_index <3)> 
+	<#if (feature_counter_index <10)> 
 		<#else>
 			<p><i>More than ten surveys exist at this location.</i></p>
 		<#break>
