@@ -62,13 +62,13 @@ td {
 
 		<TD >
 			<#if collection?has_content>
-				<#if feature.objectid.value?contains("DEM")>
+				<#if feature.type.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
 				<#else>
 					${feature.TITLE_ASB.value}</i>	
 				</#if>				
 			<#else>
-				<#if feature.objectid.value?contains("DEM")>
+				<#if feature.type.value == 'DEM'>
 					${feature.name.value} <b><i>[modelled]</i></b>
 				<#else>
 					${feature.name.value}</i>	

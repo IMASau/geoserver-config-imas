@@ -17,7 +17,7 @@
           <Title>Surveyed bathymetry</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
+              <ogc:PropertyName>type</ogc:PropertyName>
               <ogc:Literal>intentionallyblank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -37,10 +37,10 @@
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 			</ogc:Not>			
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
@@ -68,10 +68,10 @@
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 			</ogc:Not>                 
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
@@ -99,10 +99,10 @@
               <ogc:Literal>20</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 			</ogc:Not>                  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
@@ -131,10 +131,10 @@
               <ogc:Literal>50</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 			</ogc:Not>                   
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
@@ -163,10 +163,10 @@
               <ogc:Literal>100</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 			</ogc:Not>                   
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
@@ -192,10 +192,10 @@
               <ogc:Literal>100</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
 			<ogc:Not>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
 			</ogc:Not>               
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
@@ -217,10 +217,10 @@
 	
           <ogc:Filter>
 			<ogc:And>						  
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>objectid</ogc:PropertyName>
-              <ogc:Literal>%DEM%</ogc:Literal>
-            </ogc:PropertyIsLike>					  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>type</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>					  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
               <ogc:PropertyName>data_dl</ogc:PropertyName>
               <ogc:Literal>yes%</ogc:Literal>
@@ -274,7 +274,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">data_typ_sort A, avail_sort D, RES_ACTUAL D</VendorOption>		
+      <VendorOption name="sortBy">type A, avail_sort D, RES_ACTUAL D</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
