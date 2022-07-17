@@ -45,7 +45,7 @@ td {
 	</TR>
 </THEAD>
 
-	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
+	<#list features?sort_by(["avail_sort", "rawValue"], ["RES_ACTUAL", "rawValue"]) as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
