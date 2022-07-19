@@ -89,7 +89,7 @@ td div.left {
 			</#if>
 
 		</#if>
-	
+
 	</#if>	
 
 </details>
