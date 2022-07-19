@@ -1,5 +1,4 @@
 <logging>
-  <!-- level>DEFAULT_LOGGING.properties</level-->
-  <level>VERBOSE_LOGGING.xml</level>
+  <level>DEFAULT_LOGGING.properties</level>
   <stdOutLogging>false</stdOutLogging>
 </logging>
