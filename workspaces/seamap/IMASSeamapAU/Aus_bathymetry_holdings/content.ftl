@@ -50,6 +50,8 @@ td {
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
 		<#assign metadata=feature.METADATA.value>
+		<#assign surveyID=feature.surveyID.value>
+		<#assign resolution=feature.RESOLUTION.value>				
 		<#assign POC=feature.pointofcontact.value>		
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
@@ -65,13 +67,15 @@ td {
 				<#if feature.dtype.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
 				<#else>
-					${feature.TITLE_ASB.value}</i>	
+					${feature.TITLE_ASB.value}	
 				</#if>				
 			<#else>
 				<#if feature.dtype.value == 'DEM'>
 					${feature.name.value} <b><i>[modelled]</i></b>
+				<#elseif surveyID?has_content>
+					${feature.name.value} <i>(${feature.surveyID.value})</i>
 				<#else>
-					${feature.name.value}</i>	
+					${feature.name.value}	
 				</#if>
 			</#if>
 		</TD>
@@ -85,7 +89,11 @@ td {
 		</TD>
 
 		<TD class="specialcntr">
-			${feature.RESOLUTION.value}
+			<#if resolution?has_content>
+				${feature.RESOLUTION.value}
+			<#else>
+				<i>unknown</i>
+			</#if>
 		</TD>     
                  
 		<TD >
