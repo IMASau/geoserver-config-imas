@@ -37,11 +37,13 @@ td {
 		<th>Deployment ID</th>		
 		<th class="specialcntr">date</th>
 		<th class="specialcntr">No. images</th>
-		<th class="specialcntr">No. annotations total (public)</th>	
+		<th class="specialcntr">No. annotations (public)</th>	
 	</TR>
 </THEAD>
 
 	<#list features as feature>
+
+		<#assign deploydate=feature.date.value>
 
 		<#if (feature_index < 10)> 
 
@@ -61,8 +63,8 @@ td {
 			<a rel="external" href="${feature.url.value}" target="_blank">${feature.name.value}</a>
 		</TD>		
 
-		<TD class="specialcntr">
-			${feature.date.value}	
+		<TD class="specialcntr" style='white-space:nowrap'>
+			${deploydate?date("mm/dd/yy")}	
 		</TD>
 		
 		<TD class="specialcntr">
