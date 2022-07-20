@@ -30,9 +30,6 @@ td div {
   white-space:nowrap
 }
 
-.div-table {
-  color: black;
-}
 
 </style>
 </head>
