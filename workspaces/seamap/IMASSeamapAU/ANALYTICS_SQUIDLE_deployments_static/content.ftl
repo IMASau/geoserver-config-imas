@@ -85,10 +85,10 @@ td {
 </#if>
 </#list>
 </TABLE>
+<br>
 
 <#list features as feature_counter>
 	<#if (feature_counter_index <5)> 
-		<br>
 		<#else>
 			<p><i>More than five deployments exist at this location.</i></p>
 		<#break>
