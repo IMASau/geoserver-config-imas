@@ -1,6 +1,10 @@
 <head>
 <style>
 
+table {
+  width: 100%;
+}
+
 th {
   text-align: left;
   padding-left:10px;
@@ -14,14 +18,19 @@ td {
   text-align:left;
   padding-left:10px;
   padding-right:10px;
+  width: 100px;
+  white-space:normal;
+}
+
+td div {
+  width: 100px;
+  white-space:normal
+}
+
+
+.date {
   white-space:nowrap
 }
-
-
-.specialcntr {
-  text-align:center;
-}
-
 
 .div-table {
   color: black;
@@ -58,18 +67,18 @@ td {
 			<b>${feature.campaign_name.value}</b>
 		</TD>
 
-		<TD width = "100">
-			${feature.platform_name.value}	
+		<TD>
+			<div>${feature.platform_name.value}</div>	
 		</TD>
 
-		<TD class="specialcntr">
+		<TD class="date">
 			${deploydate?date("mm/dd/yy")}	
 		</TD>
 		<TD >
 			<a rel="external" href="${feature.url.value}" target="_blank">${feature.name.value}</a>
 		</TD>
 		<TD>
-			<embed type="text/html" src="https://squidle.org/api/media?q=%7B%22filters%22:%5B%7B%22name%22:%22deployment_id%22,%22op%22:%22eq%22,%22val%22:%22${feature.ID.value}%22%7D%5D,%22order_by%22:%5B%7B%22random%22:true%7D%5D,%22limit%22:4%7D&template=models/media/list_thumbnails.html&include_link=true"  width="720" height="135">
+			<embed type="text/html" src="https://squidle.org/api/media?q=%7B%22filters%22:%5B%7B%22name%22:%22deployment_id%22,%22op%22:%22eq%22,%22val%22:%22${feature.ID.value}%22%7D%5D,%22order_by%22:%5B%7B%22random%22:true%7D%5D,%22limit%22:4%7D&template=models/media/list_thumbnails.html&include_link=true"  width="730" height="135">
 		</TD>
 	</TR>
 
