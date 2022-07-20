@@ -23,8 +23,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#e68a00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#41C03F</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
@@ -48,8 +48,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8080ff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#FFB600</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
@@ -73,8 +73,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#008000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#4F93B0</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
@@ -85,32 +85,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>      
         </Rule>	
-
-        <Rule>
-          <Title>Stereo-BRUVs (GlobalArchive)</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>platform_name</ogc:PropertyName>
-					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			</ogc:Filter>   		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>triangle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#1a1aff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>               
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>
         <Rule>
           <Title>Towed Camera (NESP)</Title>
 			<ogc:Filter>
@@ -122,17 +96,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>square</WellKnownName>
+                <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff80d5</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#FF44B8</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>9</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>			
@@ -147,20 +121,41 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>square</WellKnownName>
+                <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ac00e6</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                  <CssParameter name="fill">#9A4CE8</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>9</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
+        <Rule>
+          <Title>Stereo-BRUVs stills (GlobalArchive)</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>platform_name</ogc:PropertyName>
+					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+			</ogc:Filter>   		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>x</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#2a1cc6</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>        
         <Rule>
           <Title>Diver Photos (Reef Life Survey)</Title>
 			<ogc:Filter>
