@@ -1,95 +1,30 @@
 <head>
-<style>
-
-th {
-  text-align: left;
-  padding:5px;
-}
-
-td {
-  text-align:left;
-  padding:5px;
-}
-
-
-.specialcntr {
-  text-align:center;
-}
-
-
-.div-table {
-  color: black;
-}
-
-</style>
-</head>
 
 <body>
 
 <#setting date_format="dd-mm-yyyy">
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
-
-<THEAD>
-	<TR class="AusSeabed bathymetry holdings headers" style='background-color:#b3d9ff; border:1.5pt solid black'>
-		<th>Campaign</th>
-		<th>Platform</th>
-		<th>Deployment ID</th>		
-		<th class="specialcntr">date</th>
-		<th class="specialcntr">No. images</th>
-		<th class="specialcntr">No. annotations (public)</th>	
-	</TR>
-</THEAD>
 
 	<#list features as feature>
 
 		<#assign deploydate=feature.date.value>
 
-		<#if (feature_index < 10)> 
+		<#if (feature_index < 5)> 
 
 
-<TBODY>
-	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+&#8226; <b>${feature.campaign_name.value}</b> (${feature.platform_name.value}): deployed ${deploydate?date("dd/mm/yy")}<br>
 
-		<TD >
-			${feature.campaign_name.value}	
-		</TD>
+<embed type="text/html" src="https%3A%2F%2Fsquidle.org%2Fapi%2Fmedia%3Fq%3D%7B%22filters%22%3A%5B%7B%22name%22%3A%22deployment_id%22%2C%22op%22%3A%22eq%22%2C%22val%22%3A%223%22%7D%5D%2C%22order_by%22%3A%5B%7B%22random%22%3Atrue%7D%5D%2C%22limit%22%3A3%7D%26template%3Dmodels%2Fmedia%2Flist_thumbnails.html%26include_link%3Dtrue"  width="500" height="200">
 
-		<TD >
-			${feature.platform_name.value}	
-		</TD>
-		
-		<TD >
-			<a rel="external" href="${feature.url.value}" target="_blank">${feature.name.value}</a>
-		</TD>		
-
-		<TD class="specialcntr" style='white-space:nowrap'>
-			${deploydate?date("mm/dd/yy")}	
-		</TD>
-		
-		<TD class="specialcntr">
-			${feature.media_count.rawValue?string("0")}	
-		</TD>		
-
-		<TD class="specialcntr">
-			${feature.total_annotation_count.rawValue?string("0")} (${feature.public_annotation_count.rawValue?string("0")})
-		</TD>
-		
-	</TR>
-</TBODY>
-
-		</#if>
-	</#list>
-</TABLE>
+<br>
 
 
-<#list features as feature_counter>
-	<#if (feature_counter_index <10)> 
 		<#else>
-			<p><i>More than ten deployments exist at this location.</i></p>
+			<p><i>More than five deployments exist at this location.</i></p>
 		<#break>
 
 	</#if>
 </#list>
+
 
 </body>
