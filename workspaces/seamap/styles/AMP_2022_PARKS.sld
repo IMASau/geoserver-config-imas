@@ -15,7 +15,7 @@
       <FeatureTypeStyle> 
  		<Rule>
 		  <Title>Network</Title>
-		  <MinScaleDenominator>8000000</MinScaleDenominator>                                                 
+		  <MinScaleDenominator>10000000</MinScaleDenominator>                                                 
 		  <MaxScaleDenominator>50000000</MaxScaleDenominator>    
 			<TextSymbolizer> 
                   <Geometry>
@@ -31,12 +31,12 @@
            			<CssParameter name="font-family">SansSerif.bold</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>
-                    <VendorOption name="partials">true</VendorOption>
+                    <VendorOption name="partials">false</VendorOption>
 					<VendorOption name="conflictResolution">true</VendorOption>
 			</TextSymbolizer>              
  		</Rule>
  		<Rule>
-		  <MaxScaleDenominator>80000000</MaxScaleDenominator>                   
+		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
