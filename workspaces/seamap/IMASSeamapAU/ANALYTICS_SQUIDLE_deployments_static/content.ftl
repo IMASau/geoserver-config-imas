@@ -91,7 +91,6 @@ td {
 </#if>
 </#list>
 </TABLE>
-<br>
 
 <#list features as feature_counter>
 	<#if (feature_counter_index <5)> 
