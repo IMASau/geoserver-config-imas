@@ -9,13 +9,13 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>AustralianMarineParks - NETWORKS</Name>
+    <Name>AustralianMarineParks</Name>
     <UserStyle>
-      <Name>AustralianMarineParks - NETWORKS</Name>
+      <Name>AustralianMarineParks</Name>
       <FeatureTypeStyle> 
  		<Rule>
 		  <Title>Network</Title>
-		  <MinScaleDenominator>2000000</MinScaleDenominator>                                                 
+		  <MinScaleDenominator>8000000</MinScaleDenominator>                                                 
 		  <MaxScaleDenominator>50000000</MaxScaleDenominator>    
 			<TextSymbolizer> 
                   <Geometry>
@@ -31,11 +31,39 @@
            			<CssParameter name="font-family">SansSerif.bold</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>
-                    <VendorOption name="partials">false</VendorOption>
-					<VendorOption name="group">false</VendorOption>
+                    <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="conflictResolution">true</VendorOption>
 			</TextSymbolizer>              
- 		</Rule>         
+ 		</Rule>
+ 		<Rule>
+		  <MaxScaleDenominator>80000000</MaxScaleDenominator>                   
+			<TextSymbolizer> 
+                  <Geometry>
+                     <ogc:Function name="centroid">
+                        <ogc:PropertyName>geom_res</ogc:PropertyName>
+                     </ogc:Function>
+                  </Geometry>
+           		  <Label>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
+           		  </Label>                  
+                  <Font>
+           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>								
+          		  </Font>
+                   <LabelPlacement>
+           			<PointPlacement>
+             			<AnchorPoint>
+              		 	<AnchorPointX>0.5</AnchorPointX>
+               			<AnchorPointY>0</AnchorPointY>
+             			</AnchorPoint>
+           			</PointPlacement>
+         		   </LabelPlacement>                
+                    <VendorOption name="partials">true</VendorOption>
+					<VendorOption name="spaceAround">-1</VendorOption> 
+					<VendorOption name="group">yes</VendorOption>              
+			</TextSymbolizer>
+ 		</Rule>        
+        
         <Rule>
           <Title>Coral Sea</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -46,7 +74,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#ffc021</CssParameter>
@@ -68,7 +96,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#88dd88</CssParameter>
@@ -90,7 +118,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>   		  
             <Fill>
               <CssParameter name="fill">#ea5a68</CssParameter>
@@ -112,7 +140,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#b461dd</CssParameter>
@@ -134,7 +162,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>		  
             <Fill>
               <CssParameter name="fill">#0eb0ea</CssParameter>
@@ -156,7 +184,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#485ec1</CssParameter>
@@ -178,7 +206,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#24c295</CssParameter>
@@ -200,7 +228,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#808080</CssParameter>
