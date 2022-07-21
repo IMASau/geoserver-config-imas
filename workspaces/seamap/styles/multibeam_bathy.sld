@@ -10,7 +10,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-8000" label="Depth (m)"/>                                          
-              <ColorMapEntry color="#30123b" opacity="0.7" label="-6000" quantity="-6000"/>
+              <ColorMapEntry color="#30123b" opacity="0.7" label="-7000" quantity="-7000"/>
               <ColorMapEntry color="#3e3994" opacity="0.7" label="-5000" quantity="-5000"/>
               <ColorMapEntry color="#455ed3" opacity="0.7" label="-3000" quantity="-3000"/>
               <ColorMapEntry color="#4681f7" opacity="0.7" label="-2000" quantity="-2000"/>
