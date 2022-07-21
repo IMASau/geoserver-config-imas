@@ -7,13 +7,16 @@
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
+      <id>StyleInfoImpl--7a6c209c:1811cf85940:4507</id>
+    </style>
+    <style>
       <id>StyleInfoImpl--2109d5df:1821efef03b:-3e80</id>
     </style>
   </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-3da50ec5:181f96b066a:45ed</id>
   </resource>
-  <queryable>false</queryable>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

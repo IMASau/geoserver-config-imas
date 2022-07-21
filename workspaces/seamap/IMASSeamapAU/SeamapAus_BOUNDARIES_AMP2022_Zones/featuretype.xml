@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--7a6c209c:1811cf85940:4509</id>
-  <name>SeamapAus_AMP2022_zones</name>
+  <name>SeamapAus_BOUNDARIES_AMP2022_Zones</name>
   <nativeName>SeamapAus_BOUNDARIES_AMP2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -31,7 +31,7 @@ Data downloaded from http://www.environment.gov.au/fed/catalog/search/resource/d
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
