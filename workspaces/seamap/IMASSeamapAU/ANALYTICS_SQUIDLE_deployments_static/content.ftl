@@ -67,7 +67,7 @@ td {
 		</TD>
 
 		<TD>
-			<div class="td_date">${deploydate?date("mm/dd/yy")}</div>
+			<div class="td_date">${deploydate?date("dd/mm/yy")}</div>
 		</TD>
 		<TD >
 			<div class="td_main"><a rel="external" href="${feature.url.value}" target="_blank">${feature.name.value}</a></div>
