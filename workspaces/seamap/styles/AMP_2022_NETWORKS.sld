@@ -48,11 +48,11 @@
              <ogc:PropertyName>geom_net</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
-              <CssParameter name="fill">#42d742</CssParameter>
+              <CssParameter name="fill">#88dd88</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#42d742</CssParameter>
+              <CssParameter name="stroke">#88dd88</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>     
