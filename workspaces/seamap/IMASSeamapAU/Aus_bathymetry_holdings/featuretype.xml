@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Coverage of Australian bathymetry surveys and depth grids - by resolution and data accessibility</title>
-  <abstract>Extent and data availability status of Australian bathymetry surveys. Coverage extracted primarily from AusSeabed layers &quot;AusSeabed Bathymetry Holdings (by survey)&quot; and &quot;AusSeabed Bathymetry Holdings (compilations)&quot; with some minor additional coverage for more recent surveys (2021-present), and from data held by IMAS that has not yet been published by AusSeabed. Coverage shows both surveys and modelled bathymetry grids. Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
+  <abstract>Extent and data availability status of Australian bathymetry surveys. Coverage extracted primarily from AusSeabed layers &quot;AusSeabed Bathymetry Holdings (by survey)&quot; and &quot;AusSeabed Bathymetry Holdings (compilations)&quot; with some minor additional coverage for more recent surveys (2021-present), from data held by IMAS that has not yet been published by AusSeabed, and from AHO Hydroscheme 2020 &amp; 2021. Coverage shows both surveys and modelled bathymetry grids. Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
   <keywords>
     <string>features</string>
     <string>AusSeabed_bathy_extents_published</string>
@@ -51,7 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
