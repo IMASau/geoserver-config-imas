@@ -39,7 +39,8 @@ td {
 		<th class="specialcntr">Date range</th>
 		<th class="specialcntr">Resolution</th>
 		<th>Marine Park(s)</th>
-		<th>Data availability</th>
+		<th class="specialcntr">Data availability</th>
+		<th class="specialcntr">Collected by</th>
 		<th>Point of contact</th>		
 		<th>Info</th>
 	</TR>
@@ -51,7 +52,8 @@ td {
 		<#assign reserve=feature.AMP_RES.value>		
 		<#assign metadata=feature.METADATA.value>
 		<#assign surveyID=feature.surveyID.value>
-		<#assign resolution=feature.RESOLUTION.value>				
+		<#assign resolution=feature.RESOLUTION.value>
+		<#assign collectedby=feature.collecting_org.value>						
 		<#assign POC=feature.pointofcontact.value>		
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
@@ -106,7 +108,7 @@ td {
 			</#if>
 		</TD>   
      
-		<TD >
+		<TD class="specialcntr">
 			<#if feature.data_dl.value == 'no'>
 				not available
 			<#elseif feature.data_dl.value == 'yes - other'>
@@ -118,6 +120,14 @@ td {
 			</#if>
 		</TD> 
 		
+
+		<TD class="specialcntr">
+			<#if collectedby?has_content>
+				${feature.collecting_org.value}
+			<#else>
+				-
+			</#if> 
+		</TD> 
 
 		<TD >
 			<#if POC?has_content>
