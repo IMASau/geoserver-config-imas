@@ -10,7 +10,6 @@
 		<#elseif depth_numeric = 0>
 			<b>Depth:</b> N/A<BR>
 		<#else>
-
 		<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?string("0")} m		
 		<BR><BR>
   </#if>
