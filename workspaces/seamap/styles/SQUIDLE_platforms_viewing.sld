@@ -18,7 +18,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>ACFR AUV Holt</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter> 
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          			
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -29,7 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>9</Size>				
@@ -44,7 +44,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Nimbus</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -55,7 +55,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>9</Size>
@@ -70,7 +70,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Sirius</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -81,7 +81,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>9</Size>
@@ -96,7 +96,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>NESP Towed Camera</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -107,7 +107,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -122,7 +122,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>CSIRO O*A MRITC Towed Stereo Camera</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -133,7 +133,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -148,7 +148,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -170,7 +170,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>RLS DIVER Photos</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>600000</MinScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -193,8 +193,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>ACFR AUV Holt</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter> 
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          			
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -205,7 +205,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>				
@@ -220,8 +220,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Nimbus</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -232,7 +232,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -247,8 +247,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Sirius</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -259,7 +259,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -274,8 +274,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>NESP Towed Camera</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -286,7 +286,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>13</Size>
@@ -301,8 +301,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>CSIRO O*A MRITC Towed Stereo Camera</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -313,7 +313,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
               <Size>13</Size>			  
@@ -328,8 +328,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -351,8 +351,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>RLS DIVER Photos</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-		  <MaxScaleDenominator>400000</MaxScaleDenominator>                                        		            				          						
+          <MinScaleDenominator>100000</MinScaleDenominator>
+		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -374,7 +374,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>ACFR AUV Holt</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter> 
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          			
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -385,10 +385,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill> 
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>15</Size>				
+              <Size>14</Size>				
             </Graphic>
           </PointSymbolizer>      
         </Rule>			
@@ -400,7 +400,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Nimbus</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -411,10 +411,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>15</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -426,7 +426,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Sirius</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -437,10 +437,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>15</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>	
@@ -452,7 +452,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>NESP Towed Camera</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -463,10 +463,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>17</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>			
@@ -478,7 +478,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>CSIRO O*A MRITC Towed Stereo Camera</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -489,10 +489,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#ffffff</CssParameter>
-                   <CssParameter name="stroke-width">0.3</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>17</Size>			  
+              <Size>19</Size>			  
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -504,7 +504,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -526,7 +526,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>RLS DIVER Photos</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
