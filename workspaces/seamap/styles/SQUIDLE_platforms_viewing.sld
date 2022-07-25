@@ -176,7 +176,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b30000</CssParameter>  
+                  <CssParameter name="fill">#990000</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
@@ -193,7 +193,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>ACFR AUV Holt</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter> 
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
@@ -220,7 +220,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Nimbus</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
@@ -247,7 +247,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Sirius</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
@@ -274,7 +274,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>NESP Towed Camera</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
@@ -301,7 +301,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>CSIRO O*A MRITC Towed Stereo Camera</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
@@ -328,7 +328,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
@@ -351,14 +351,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>RLS DIVER Photos</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>
+          <MinScaleDenominator>50000</MinScaleDenominator>
 		  <MaxScaleDenominator>600000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b30000</CssParameter>  
+                  <CssParameter name="fill">#990000</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
@@ -374,7 +374,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>ACFR AUV Holt</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter> 
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          			
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -400,7 +400,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Nimbus</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -426,7 +426,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>IMOS AUV Sirius</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -452,7 +452,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>NESP Towed Camera</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -478,7 +478,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>CSIRO O*A MRITC Towed Stereo Camera</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -504,7 +504,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>GlobalArchive Stereo-BRUVs</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -526,13 +526,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					    <ogc:Literal>RLS DIVER Photos</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                                        		            				          						
+          <MaxScaleDenominator>50000</MaxScaleDenominator>                                        		            				          						
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b30000</CssParameter>  
+                  <CssParameter name="fill">#990000</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
