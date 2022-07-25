@@ -28,8 +28,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>9</Size>				
@@ -54,8 +54,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>9</Size>
@@ -80,8 +80,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>9</Size>
@@ -106,8 +106,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -132,8 +132,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -204,8 +204,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>				
@@ -231,8 +231,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -258,8 +258,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>11</Size>
@@ -285,8 +285,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
               <Size>13</Size>
@@ -312,13 +312,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
+              <Size>13</Size>			  
             </Graphic>
           </PointSymbolizer>      
-              <Size>13</Size>
         </Rule>
         <Rule>
           <Title>Stereo-BRUVs stills (GlobalArchive) - zoomed in</Title>
@@ -384,11 +384,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>				
+              <Size>15</Size>				
             </Graphic>
           </PointSymbolizer>      
         </Rule>			
@@ -410,11 +410,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -436,11 +436,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>	
@@ -462,11 +462,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>16</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>			
@@ -488,13 +488,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke">#ffffff</CssParameter>
+                   <CssParameter name="stroke-width">0.3</CssParameter>
                </Stroke>                
               </Mark>
+              <Size>17</Size>			  
             </Graphic>
           </PointSymbolizer>      
-              <Size>16</Size>
         </Rule>
         <Rule>
           <Title>Stereo-BRUVs stills (GlobalArchive) - ULTRA zoomed in</Title>
@@ -514,7 +514,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>                              
               </Mark>
-              <Size>16</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>        
@@ -536,7 +536,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
-              <Size>15</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>			
