@@ -1,0 +1,31 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-e387bae:1823bc3ff73:7b81</id>
+  <name>TEST</name>
+  <mode>SINGLE</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--227ee776:1818ba2a0a7:-798f</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--227ee776:1818c8f7268:4b24</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-7419801.625403221</minx>
+    <maxx>4471496.703736502</maxx>
+    <miny>-7966789.985821486</miny>
+    <maxy>-576104.4944169516</maxy>
+    <crs class="projected">EPSG:3112</crs>
+  </bounds>
+</layerGroup>

@@ -26,15 +26,15 @@
   <nativeBoundingBox>
     <minx>68.0619369896261</minx>
     <maxx>172.48757932056122</maxx>
-    <miny>-59.20013892273056</miny>
-    <maxy>-4.769886714664113</maxy>
+    <miny>-59.20013892273057</miny>
+    <maxy>-4.769894819596551</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>68.0619369896261</minx>
     <maxx>172.48757932056122</maxx>
-    <miny>-59.20013892273056</miny>
-    <maxy>-4.769886714664113</maxy>
+    <miny>-59.20013892273057</miny>
+    <maxy>-4.769894819596551</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -142,7 +142,7 @@
     </entry>
     <entry>
       <string>InputTransparentColor</string>
-      <null/>
+      <string>#FFFFFF</string>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
