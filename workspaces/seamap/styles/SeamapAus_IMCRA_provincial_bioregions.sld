@@ -14,7 +14,7 @@
 			<Title>Integrated Marine and Coastal Regionalisation of Australia (IMCRA) - Provincial Bioregions</Title>
 			<FeatureTypeStyle>
 				<Rule>
-				  <MaxScaleDenominator>20000000</MaxScaleDenominator>                 
+				  <MaxScaleDenominator>15000000</MaxScaleDenominator>                 
 					<TextSymbolizer> 
 					<Geometry>
 					 <ogc:Function name="centroid">
@@ -26,9 +26,9 @@
 					  </Label>                
 					<Font>
 						<CssParameter name="font-family">SansSerif.plain</CssParameter>
-						<CssParameter name="font-size">12</CssParameter>								
+						<CssParameter name="font-size">10</CssParameter>								
 					  </Font>            
-					<VendorOption name="partials">true</VendorOption>
+                    <VendorOption name="partials">false</VendorOption>
 					<VendorOption name="group">yes</VendorOption>							
 					</TextSymbolizer>             
 				</Rule>			
