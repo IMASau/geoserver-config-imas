@@ -2,7 +2,6 @@
   <id>LayerGroupInfoImpl-2922ad46:180a80ba0ce:-34c8</id>
   <name>bathymetry_AMP_grp</name>
   <mode>SINGLE</mode>
-  <queryDisabled>true</queryDisabled>
   <title>Bathymetry of Australian Marine Parks (AMPs)</title>
   <abstractTxt>Multibeam bathymetry data complied from various sources and compiled into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region and represents a multi-resolution mosaic.&#xd;
 &#xd;
@@ -39,11 +38,11 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
     </style>
   </styles>
   <bounds>
-    <minx>-175.97769536141647</minx>
-    <maxx>178.95983351478912</maxx>
-    <miny>-61.77865382458602</miny>
-    <maxy>-2.719523594200699</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-1.3091256695898265E7</minx>
+    <maxx>1.4653249642160192E7</maxx>
+    <miny>-1.349740339842502E7</miny>
+    <maxy>-423171.7843549479</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </bounds>
   <attribution>
     <logoWidth>0</logoWidth>
