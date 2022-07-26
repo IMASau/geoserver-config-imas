@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>OVERVIEWS - Bathymetry mosaics of Australian Marine Parks (AMPs)</title>
+  <title>Bathymetry composites of Australian Marine Parks (AMPs)</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>viewing</string>
@@ -38,7 +38,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_maps_thumbs_viewing</entry>
