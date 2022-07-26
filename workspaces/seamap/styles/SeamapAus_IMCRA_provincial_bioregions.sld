@@ -29,10 +29,7 @@
 						<CssParameter name="font-size">12</CssParameter>								
 					  </Font>            
 					<VendorOption name="partials">true</VendorOption>
-							<VendorOption name="spaceAround">-1</VendorOption>
-							<VendorOption name="group">yes</VendorOption>
-							<VendorOption name="conflictResolution">false</VendorOption>
-							
+					<VendorOption name="group">yes</VendorOption>							
 					</TextSymbolizer>             
 				</Rule>			
 				<Rule>
@@ -61,13 +58,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#c86357</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>				<Rule>
 					<Title>    Northwest Province</Title>
@@ -80,13 +72,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#a72041</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -100,13 +87,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#f0644c</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -120,13 +102,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#f58697</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>				
 				<Rule>
@@ -140,13 +117,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#a1151d</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>				
 				<Rule>
@@ -160,13 +132,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#a0495a</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -180,13 +147,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#eeb7b0</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -200,13 +162,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#a3777a</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -220,13 +177,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#e62d28</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -240,30 +192,11 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#f14168</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
-				<Rule>
-					<Title>     .....</Title>
-					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-					    <ogc:PropertyIsEqualTo>
-					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
-					     <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-					    </ogc:PropertyIsEqualTo>
-					</ogc:Filter>                    
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0</CssParameter>                     
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>					
+				
 				<Rule>
 					<Title>&#8226;&#8226; Subropical waters &#8226;&#8226;</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -290,13 +223,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ed5d22</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -310,30 +238,11 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#d97f02</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
-				<Rule>
-					<Title>     .....</Title>
-					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-					    <ogc:PropertyIsEqualTo>
-					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
-					     <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-					    </ogc:PropertyIsEqualTo>
-					</ogc:Filter>                    
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0</CssParameter>                     
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>					
+			
 				<Rule>
 					<Title>&#8226;&#8226; Transition &#8226;&#8226;</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -360,13 +269,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#d7d65d</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -380,13 +284,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#fec68b</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -400,13 +299,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#e5d6b5</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>					
 				<Rule>
@@ -420,13 +314,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#f8e3a9</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -440,13 +329,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#fde092</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -460,13 +344,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#e0dbbd</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -480,13 +359,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#dfdad4</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -500,13 +374,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#fdf27e</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -520,13 +389,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#e5d099</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -540,13 +404,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ebd1c0</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -560,13 +419,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#faf9af</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>						
 				<Rule>
@@ -580,13 +434,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#eec974</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -600,13 +449,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#feecd8</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -620,13 +464,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#fff3d0</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -640,13 +479,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#e4d987</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -660,13 +494,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ebd35c</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>										
 				<Rule>
@@ -680,30 +509,11 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#faf8a4</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
-				<Rule>
-					<Title>     .....</Title>
-					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-					    <ogc:PropertyIsEqualTo>
-					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
-					     <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-					    </ogc:PropertyIsEqualTo>
-					</ogc:Filter>                    
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0</CssParameter>                     
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>					
+				
 				<Rule>
 					<Title>&#8226;&#8226; Warm temperate waters &#8226;&#8226;</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -730,13 +540,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#cee849</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -750,13 +555,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ccf80d</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -770,13 +570,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#e6ecac</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -790,13 +585,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7da533</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -810,13 +600,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#d7f583</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -830,13 +615,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7db310</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -850,13 +630,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#92ab58</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -870,30 +645,10 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#a8b37a</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
-				</Rule>				
-				<Rule>
-					<Title>     .....</Title>
-					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-					    <ogc:PropertyIsEqualTo>
-					     <ogc:PropertyName>PB_NAME</ogc:PropertyName>
-					     <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-					    </ogc:PropertyIsEqualTo>
-					</ogc:Filter>                    
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0</CssParameter>                     
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>				
+				</Rule>							
 				<Rule>
 					<Title>&#8226;&#8226; Cold temperate waters &#8226;&#8226;</Title>
 					<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -920,13 +675,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#afbcf1</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -940,13 +690,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#2b22f9</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -960,13 +705,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6262c1</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>	
 				<Rule>
@@ -980,13 +720,8 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#2135be</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                     
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
+
 					</PolygonSymbolizer>
 				</Rule>
 
