@@ -19,7 +19,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-3da50ec5:181f96b066a:45ed</id>
   </resource>
-  <queryable>false</queryable>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

@@ -13,30 +13,9 @@
     <UserStyle>
       <Name>AustralianMarineParks</Name>
       <FeatureTypeStyle> 
+ 
  		<Rule>
-		  <Title>Network</Title>
-		  <MinScaleDenominator>10000000</MinScaleDenominator>                                                 
-		  <MaxScaleDenominator>50000000</MaxScaleDenominator>    
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_net</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>NETNAME</ogc:PropertyName>
-           		  </Label>
-              
-                  <Font>
-           			<CssParameter name="font-family">SansSerif.bold</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
-          		  </Font>
-                    <VendorOption name="partials">false</VendorOption>
-					<VendorOption name="conflictResolution">true</VendorOption>
-			</TextSymbolizer>              
- 		</Rule>
- 		<Rule>
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -48,7 +27,7 @@
            		  </Label>                  
                   <Font>
            			<CssParameter name="font-family">SansSerif.plain</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
+           			<CssParameter name="font-size">11</CssParameter>								
           		  </Font>
                    <LabelPlacement>
            			<PointPlacement>
