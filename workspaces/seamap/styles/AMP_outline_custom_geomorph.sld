@@ -60,10 +60,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 				</ogc:PropertyIsEqualTo>
 				<ogc:PropertyIsEqualTo>
 						<ogc:PropertyName>RESNAME</ogc:PropertyName>
-					    <ogc:Literal>Flinders</ogc:Literal>
-				</ogc:PropertyIsEqualTo>
-				<ogc:PropertyIsEqualTo>
-						<ogc:PropertyName>RESNAME</ogc:PropertyName>
 					    <ogc:Literal>Argo-Rowley Terrace</ogc:Literal>
 				</ogc:PropertyIsEqualTo>				
 				<ogc:PropertyIsEqualTo>
