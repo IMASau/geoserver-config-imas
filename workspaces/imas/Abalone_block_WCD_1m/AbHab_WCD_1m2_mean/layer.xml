@@ -1,12 +1,12 @@
 <layer>
   <name>AbHab_WCD_1m2_mean</name>
-  <id>LayerInfoImpl--1295cef3:17d5bf9e30e:1dbe</id>
+  <id>LayerInfoImpl-e387bae:1823cb946dc:38f</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--1295cef3:17d6d6a3d2b:54d0</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--1295cef3:17d5bf9e30e:1dbd</id>
+    <id>CoverageInfoImpl-e387bae:1823cb946dc:38e</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
