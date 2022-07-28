@@ -37,7 +37,7 @@ td {
 <body>
 
 <#setting date_format="dd-mm-yyyy">
-		
+<br>		
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black'>
 <THEAD>
 	<TR class="SQUIDLE deployments" style='background-color:#b3d9ff; border:1.5pt solid black'>
@@ -100,5 +100,5 @@ td {
 
 	</#if>
 </#list>
-
+<br>
 </body>
