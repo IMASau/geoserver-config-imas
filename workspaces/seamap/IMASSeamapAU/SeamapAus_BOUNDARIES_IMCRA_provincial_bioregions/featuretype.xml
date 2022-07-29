@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--4677ad3c:15f89a5f2ca:3dea</id>
   <name>SeamapAus_BOUNDARIES_IMCRA_provincial_bioregions</name>
-  <nativeName>SeamapAus_BOUNDARIES_IMCRA_FULL</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_IMCRA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Integrated Marine and Coastal Regionalisation (IMCRA) - Provincial Bioregions</title>
   <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Styling applied at the Provincial Bioregion level. Rehosted for the purposes of Seamap Australia.</abstract>
   <keywords>
-    <string>SeamapAus_BOUNDARIES_IMCRA_FULL</string>
+    <string>SeamapAus_BOUNDARIES_IMCRA</string>
     <string>features</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 

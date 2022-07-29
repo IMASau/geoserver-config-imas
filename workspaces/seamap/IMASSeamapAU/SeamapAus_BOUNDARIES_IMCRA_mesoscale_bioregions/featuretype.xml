@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--492f85e9:17fbabaeeb8:52e1</id>
   <name>SeamapAus_BOUNDARIES_IMCRA_mesoscale_bioregions</name>
-  <nativeName>SeamapAus_BOUNDARIES_IMCRA_FULL</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_IMCRA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -9,7 +9,7 @@
   <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Styling applied at the Meso-scale Bioregion level. Rehosted for the purposes of Seamap Australia.</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_BOUNDARIES_IMCRA_FULL</string>
+    <string>SeamapAus_BOUNDARIES_IMCRA</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
