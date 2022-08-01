@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-4e65983:15eeaae8f14:-3cb</id>
-  <name>SeamapAus_MEOW_full</name>
+  <name>SeamapAus_MEOW_REALM</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_MEOW_full.sld</filename>
+  <filename>SeamapAus_MEOW_REALM.sld</filename>
 </style>
