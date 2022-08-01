@@ -1,4 +1,6 @@
 <#list features as feature>
+<#if (feature_index < 1) >
+
 <h5>Marine Ecoregions of the World</h5>
 <br>
   <div class="feature"> 
@@ -7,4 +9,5 @@
   <b>Ecoregion:</b> <i>${feature.ECOREGION.value}</i>
   <br><br>
   </div>
+</#if>
 </#list>
