@@ -6,15 +6,30 @@ xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NamedLayer>
-    <Name>MEOW Ecoregions</Name>
-    <UserStyle>
+	<NamedLayer>
+		<Name>Generic Polyfill</Name>
+		<UserStyle>
+			<Title>Marine Ecosystems of the World - Ecoregions</Title>			
       <FeatureTypeStyle>
+ 
+				<Rule>
+					<Name>ECOREGION</Name>
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>ECOREGION</ogc:PropertyName>
+					      <ogc:Literal>intentionallyblank</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+							<CssParameter name="fill-opacity">0</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>	
         <Rule>
           <Name>Adriatic Sea</Name>
-          <Description>
-            <Title>Adriatic Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -30,9 +45,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Aegean Sea</Name>
-          <Description>
-            <Title>Aegean Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -48,9 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Agulhas Bank</Name>
-          <Description>
-            <Title>Agulhas Bank</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -66,9 +77,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Alboran Sea</Name>
-          <Description>
-            <Title>Alboran Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -84,9 +93,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Aleutian Islands</Name>
-          <Description>
-            <Title>Aleutian Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -102,9 +109,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Amazonia</Name>
-          <Description>
-            <Title>Amazonia</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -120,9 +125,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Amsterdam-St Paul</Name>
-          <Description>
-            <Title>Amsterdam-St Paul</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -138,9 +141,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Amundsen/Bellingshausen Sea</Name>
-          <Description>
-            <Title>Amundsen/Bellingshausen Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -156,9 +157,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Andaman and Nicobar Islands</Name>
-          <Description>
-            <Title>Andaman and Nicobar Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -174,9 +173,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Andaman Sea Coral Coast</Name>
-          <Description>
-            <Title>Andaman Sea Coral Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -192,9 +189,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Angolan</Name>
-          <Description>
-            <Title>Angolan</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -210,9 +205,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Antarctic Peninsula</Name>
-          <Description>
-            <Title>Antarctic Peninsula</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -228,9 +221,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Arabian (Persian) Gulf</Name>
-          <Description>
-            <Title>Arabian (Persian) Gulf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -246,9 +237,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Arafura Sea</Name>
-          <Description>
-            <Title>Arafura Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -264,9 +253,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Araucanian</Name>
-          <Description>
-            <Title>Araucanian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -282,9 +269,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Arnhem Coast to Gulf of Carpenteria</Name>
-          <Description>
-            <Title>Arnhem Coast to Gulf of Carpenteria</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -300,9 +285,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Auckland Island</Name>
-          <Description>
-            <Title>Auckland Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -318,9 +301,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Azores Canaries Madeira</Name>
-          <Description>
-            <Title>Azores Canaries Madeira</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -336,9 +317,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Baffin Bay - Davis Strait</Name>
-          <Description>
-            <Title>Baffin Bay - Davis Strait</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -354,9 +333,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bahamian</Name>
-          <Description>
-            <Title>Bahamian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -372,9 +349,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Baltic Sea</Name>
-          <Description>
-            <Title>Baltic Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -390,9 +365,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Banda Sea</Name>
-          <Description>
-            <Title>Banda Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -408,9 +381,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bassian</Name>
-          <Description>
-            <Title>Bassian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -426,9 +397,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Beaufort Sea - continental coast and shelf</Name>
-          <Description>
-            <Title>Beaufort Sea - continental coast and shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -444,9 +413,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Beaufort-Amundsen-Viscount Melville-Queen Maud</Name>
-          <Description>
-            <Title>Beaufort-Amundsen-Viscount Melville-Queen Maud</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -462,9 +429,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bermuda</Name>
-          <Description>
-            <Title>Bermuda</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -480,9 +445,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bight of Sofala/Swamp Coast</Name>
-          <Description>
-            <Title>Bight of Sofala/Swamp Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -498,9 +461,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bismarck Sea</Name>
-          <Description>
-            <Title>Bismarck Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -516,9 +477,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Black Sea</Name>
-          <Description>
-            <Title>Black Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -534,9 +493,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bonaparte Coast</Name>
-          <Description>
-            <Title>Bonaparte Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -552,9 +509,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bounty and Antipodes Islands</Name>
-          <Description>
-            <Title>Bounty and Antipodes Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -570,9 +525,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Bouvet Island</Name>
-          <Description>
-            <Title>Bouvet Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -588,9 +541,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Campbell Island</Name>
-          <Description>
-            <Title>Campbell Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -606,9 +557,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Cape Howe</Name>
-          <Description>
-            <Title>Cape Howe</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -624,9 +573,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Cape Verde</Name>
-          <Description>
-            <Title>Cape Verde</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -642,9 +589,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Cargados Carajos/Tromelin Island</Name>
-          <Description>
-            <Title>Cargados Carajos/Tromelin Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -660,9 +605,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Carolinian</Name>
-          <Description>
-            <Title>Carolinian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -678,9 +621,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Celtic Seas</Name>
-          <Description>
-            <Title>Celtic Seas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -696,9 +637,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Central and Southern Great Barrier Reef</Name>
-          <Description>
-            <Title>Central and Southern Great Barrier Reef</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -714,9 +653,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Central Chile</Name>
-          <Description>
-            <Title>Central Chile</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -732,9 +669,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Central Kuroshio Current</Name>
-          <Description>
-            <Title>Central Kuroshio Current</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -750,9 +685,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Central New Zealand</Name>
-          <Description>
-            <Title>Central New Zealand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -768,9 +701,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Central Peru</Name>
-          <Description>
-            <Title>Central Peru</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -786,9 +717,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Central Somali Coast</Name>
-          <Description>
-            <Title>Central Somali Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -804,9 +733,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Chagos</Name>
-          <Description>
-            <Title>Chagos</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -822,9 +749,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Channels and Fjords of Southern Chile</Name>
-          <Description>
-            <Title>Channels and Fjords of Southern Chile</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -840,9 +765,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Chatham Island</Name>
-          <Description>
-            <Title>Chatham Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -858,9 +781,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Chiapas-Nicaragua</Name>
-          <Description>
-            <Title>Chiapas-Nicaragua</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -876,9 +797,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Chiloense</Name>
-          <Description>
-            <Title>Chiloense</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -894,9 +813,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Chukchi Sea</Name>
-          <Description>
-            <Title>Chukchi Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -912,9 +829,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Clipperton</Name>
-          <Description>
-            <Title>Clipperton</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -930,9 +845,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Cocos Islands</Name>
-          <Description>
-            <Title>Cocos Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -948,9 +861,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Cocos-Keeling/Christmas Island</Name>
-          <Description>
-            <Title>Cocos-Keeling/Christmas Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -966,9 +877,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Coral Sea</Name>
-          <Description>
-            <Title>Coral Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -984,9 +893,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Cortezian</Name>
-          <Description>
-            <Title>Cortezian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1002,9 +909,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Crozet Islands</Name>
-          <Description>
-            <Title>Crozet Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1020,9 +925,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Delagoa</Name>
-          <Description>
-            <Title>Delagoa</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1038,9 +941,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East African Coral Coast</Name>
-          <Description>
-            <Title>East African Coral Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1056,9 +957,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East Antarctic Dronning Maud Land</Name>
-          <Description>
-            <Title>East Antarctic Dronning Maud Land</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1074,9 +973,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East Antarctic Enderby Land</Name>
-          <Description>
-            <Title>East Antarctic Enderby Land</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1092,9 +989,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East Antarctic Wilkes Land</Name>
-          <Description>
-            <Title>East Antarctic Wilkes Land</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1110,9 +1005,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East Caroline Islands</Name>
-          <Description>
-            <Title>East Caroline Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1128,9 +1021,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East China Sea</Name>
-          <Description>
-            <Title>East China Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1146,9 +1037,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East Greenland Shelf</Name>
-          <Description>
-            <Title>East Greenland Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1164,9 +1053,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>East Siberian Sea</Name>
-          <Description>
-            <Title>East Siberian Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1182,9 +1069,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Easter Island</Name>
-          <Description>
-            <Title>Easter Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1200,9 +1085,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Eastern Bering Sea</Name>
-          <Description>
-            <Title>Eastern Bering Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1218,9 +1101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Eastern Brazil</Name>
-          <Description>
-            <Title>Eastern Brazil</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1236,9 +1117,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Eastern Caribbean</Name>
-          <Description>
-            <Title>Eastern Caribbean</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1254,9 +1133,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Eastern Galapagos Islands</Name>
-          <Description>
-            <Title>Eastern Galapagos Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1272,9 +1149,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Eastern India</Name>
-          <Description>
-            <Title>Eastern India</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1290,9 +1165,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Eastern Philippines</Name>
-          <Description>
-            <Title>Eastern Philippines</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1308,9 +1181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Exmouth to Broome</Name>
-          <Description>
-            <Title>Exmouth to Broome</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1326,9 +1197,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Faroe Plateau</Name>
-          <Description>
-            <Title>Faroe Plateau</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1344,9 +1213,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Fernando de Naronha and Atoll das Rocas</Name>
-          <Description>
-            <Title>Fernando de Naronha and Atoll das Rocas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1362,9 +1229,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Fiji Islands</Name>
-          <Description>
-            <Title>Fiji Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1380,9 +1245,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Floridian</Name>
-          <Description>
-            <Title>Floridian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1398,9 +1261,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gilbert/Ellis Islands</Name>
-          <Description>
-            <Title>Gilbert/Ellis Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1416,9 +1277,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Great Australian Bight</Name>
-          <Description>
-            <Title>Great Australian Bight</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1434,9 +1293,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Greater Antilles</Name>
-          <Description>
-            <Title>Greater Antilles</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1452,9 +1309,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Guayaquil</Name>
-          <Description>
-            <Title>Guayaquil</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1470,9 +1325,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Guianan</Name>
-          <Description>
-            <Title>Guianan</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1488,9 +1341,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Aden</Name>
-          <Description>
-            <Title>Gulf of Aden</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1506,9 +1357,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Alaska</Name>
-          <Description>
-            <Title>Gulf of Alaska</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1524,9 +1373,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Guinea Central</Name>
-          <Description>
-            <Title>Gulf of Guinea Central</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1542,9 +1389,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Guinea Islands</Name>
-          <Description>
-            <Title>Gulf of Guinea Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1560,9 +1405,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Guinea South</Name>
-          <Description>
-            <Title>Gulf of Guinea South</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1578,9 +1421,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Guinea Upwelling</Name>
-          <Description>
-            <Title>Gulf of Guinea Upwelling</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1596,9 +1437,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Guinea West</Name>
-          <Description>
-            <Title>Gulf of Guinea West</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1614,9 +1453,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Maine/Bay of Fundy</Name>
-          <Description>
-            <Title>Gulf of Maine/Bay of Fundy</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1632,9 +1469,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Oman</Name>
-          <Description>
-            <Title>Gulf of Oman</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1650,9 +1485,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Papua</Name>
-          <Description>
-            <Title>Gulf of Papua</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1668,9 +1501,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of St. Lawrence - Eastern Scotian Shelf</Name>
-          <Description>
-            <Title>Gulf of St. Lawrence - Eastern Scotian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1686,9 +1517,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Thailand</Name>
-          <Description>
-            <Title>Gulf of Thailand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1704,9 +1533,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Gulf of Tonkin</Name>
-          <Description>
-            <Title>Gulf of Tonkin</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1722,9 +1549,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Halmahera</Name>
-          <Description>
-            <Title>Halmahera</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1740,9 +1565,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Hawaii</Name>
-          <Description>
-            <Title>Hawaii</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1758,9 +1581,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Heard and Macdonald Islands</Name>
-          <Description>
-            <Title>Heard and Macdonald Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1776,9 +1597,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>High Arctic Archipelago</Name>
-          <Description>
-            <Title>High Arctic Archipelago</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1794,9 +1613,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Houtman</Name>
-          <Description>
-            <Title>Houtman</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1812,9 +1629,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Hudson Complex</Name>
-          <Description>
-            <Title>Hudson Complex</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1830,9 +1645,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Humboldtian</Name>
-          <Description>
-            <Title>Humboldtian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1848,9 +1661,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Ionian Sea</Name>
-          <Description>
-            <Title>Ionian Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1866,9 +1677,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Juan Fernandez and Desventuradas</Name>
-          <Description>
-            <Title>Juan Fernandez and Desventuradas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1884,9 +1693,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Kamchatka Shelf and Coast</Name>
-          <Description>
-            <Title>Kamchatka Shelf and Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1902,9 +1709,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Kara Sea</Name>
-          <Description>
-            <Title>Kara Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1920,9 +1725,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Kerguelen Islands</Name>
-          <Description>
-            <Title>Kerguelen Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1938,9 +1741,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Kermadec Island</Name>
-          <Description>
-            <Title>Kermadec Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1956,9 +1757,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Lancaster Sound</Name>
-          <Description>
-            <Title>Lancaster Sound</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1974,9 +1773,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Laptev Sea</Name>
-          <Description>
-            <Title>Laptev Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -1992,9 +1789,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Leeuwin</Name>
-          <Description>
-            <Title>Leeuwin</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2010,9 +1805,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Lesser Sunda</Name>
-          <Description>
-            <Title>Lesser Sunda</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2028,9 +1821,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Levantine Sea</Name>
-          <Description>
-            <Title>Levantine Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2046,9 +1837,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Line Islands</Name>
-          <Description>
-            <Title>Line Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2064,9 +1853,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Lord Howe and Norfolk Islands</Name>
-          <Description>
-            <Title>Lord Howe and Norfolk Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2082,9 +1869,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Macquarie Island</Name>
-          <Description>
-            <Title>Macquarie Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2100,9 +1885,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Magdalena Transition</Name>
-          <Description>
-            <Title>Magdalena Transition</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2118,9 +1901,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Malacca Strait</Name>
-          <Description>
-            <Title>Malacca Strait</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2136,9 +1917,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Maldives</Name>
-          <Description>
-            <Title>Maldives</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2154,9 +1933,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Malvinas/Falklands</Name>
-          <Description>
-            <Title>Malvinas/Falklands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2172,9 +1949,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Manning-Hawkesbury</Name>
-          <Description>
-            <Title>Manning-Hawkesbury</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2190,9 +1965,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Mariana Islands</Name>
-          <Description>
-            <Title>Mariana Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2208,9 +1981,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Marquesas</Name>
-          <Description>
-            <Title>Marquesas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2226,9 +1997,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Marshall Islands</Name>
-          <Description>
-            <Title>Marshall Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2244,9 +2013,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Mascarene Islands</Name>
-          <Description>
-            <Title>Mascarene Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2262,9 +2029,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Mexican Tropical Pacific</Name>
-          <Description>
-            <Title>Mexican Tropical Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2280,9 +2045,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Namaqua</Name>
-          <Description>
-            <Title>Namaqua</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2298,9 +2061,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Namib</Name>
-          <Description>
-            <Title>Namib</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2316,9 +2077,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Natal</Name>
-          <Description>
-            <Title>Natal</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2334,9 +2093,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>New Caledonia</Name>
-          <Description>
-            <Title>New Caledonia</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2352,9 +2109,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Nicoya</Name>
-          <Description>
-            <Title>Nicoya</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2370,9 +2125,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Ningaloo</Name>
-          <Description>
-            <Title>Ningaloo</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2388,9 +2141,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>North American Pacific Fijordland</Name>
-          <Description>
-            <Title>North American Pacific Fijordland</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2406,9 +2157,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>North and East Barents Sea</Name>
-          <Description>
-            <Title>North and East Barents Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2424,9 +2173,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>North and East Iceland</Name>
-          <Description>
-            <Title>North and East Iceland</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2442,9 +2189,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>North Greenland</Name>
-          <Description>
-            <Title>North Greenland</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2460,9 +2205,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>North Patagonian Gulfs</Name>
-          <Description>
-            <Title>North Patagonian Gulfs</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2478,9 +2221,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>North Sea</Name>
-          <Description>
-            <Title>North Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2496,9 +2237,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northeast Sulawesi</Name>
-          <Description>
-            <Title>Northeast Sulawesi</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2514,9 +2253,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northeastern Brazil</Name>
-          <Description>
-            <Title>Northeastern Brazil</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2532,9 +2269,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northeastern Honshu</Name>
-          <Description>
-            <Title>Northeastern Honshu</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2550,9 +2285,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northeastern New Zealand</Name>
-          <Description>
-            <Title>Northeastern New Zealand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2568,9 +2301,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern and Central Red Sea</Name>
-          <Description>
-            <Title>Northern and Central Red Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2586,9 +2317,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Bay of Bengal</Name>
-          <Description>
-            <Title>Northern Bay of Bengal</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2604,9 +2333,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern California</Name>
-          <Description>
-            <Title>Northern California</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2622,9 +2349,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Galapagos Islands</Name>
-          <Description>
-            <Title>Northern Galapagos Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2640,9 +2365,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Grand Banks - Southern Labrador</Name>
-          <Description>
-            <Title>Northern Grand Banks - Southern Labrador</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2658,9 +2381,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Gulf of Mexico</Name>
-          <Description>
-            <Title>Northern Gulf of Mexico</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2676,9 +2397,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Labrador</Name>
-          <Description>
-            <Title>Northern Labrador</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2694,9 +2413,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Monsoon Current Coast</Name>
-          <Description>
-            <Title>Northern Monsoon Current Coast</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2712,9 +2429,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Northern Norway and Finnmark</Name>
-          <Description>
-            <Title>Northern Norway and Finnmark</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2730,9 +2445,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Ogasawara Islands</Name>
-          <Description>
-            <Title>Ogasawara Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2748,9 +2461,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Oregon, Washington, Vancouver Coast and Shelf</Name>
-          <Description>
-            <Title>Oregon, Washington, Vancouver Coast and Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2766,9 +2477,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Oyashio Current</Name>
-          <Description>
-            <Title>Oyashio Current</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2784,9 +2493,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Palawan/North Borneo</Name>
-          <Description>
-            <Title>Palawan/North Borneo</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2802,9 +2509,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Panama Bight</Name>
-          <Description>
-            <Title>Panama Bight</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2820,9 +2525,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Papua</Name>
-          <Description>
-            <Title>Papua</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2838,9 +2541,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Patagonian Shelf</Name>
-          <Description>
-            <Title>Patagonian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2856,9 +2557,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Peter the First Island</Name>
-          <Description>
-            <Title>Peter the First Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2874,9 +2573,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Phoenix/Tokelau/Northern Cook Islands</Name>
-          <Description>
-            <Title>Phoenix/Tokelau/Northern Cook Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2892,9 +2589,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Prince Edward Islands</Name>
-          <Description>
-            <Title>Prince Edward Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2910,9 +2605,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Puget Trough/Georgia Basin</Name>
-          <Description>
-            <Title>Puget Trough/Georgia Basin</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2928,9 +2621,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Rapa-Pitcairn</Name>
-          <Description>
-            <Title>Rapa-Pitcairn</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2946,9 +2637,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Revillagigedos</Name>
-          <Description>
-            <Title>Revillagigedos</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2964,9 +2653,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Rio de la Plata</Name>
-          <Description>
-            <Title>Rio de la Plata</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -2982,9 +2669,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Rio Grande</Name>
-          <Description>
-            <Title>Rio Grande</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3000,9 +2685,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Ross Sea</Name>
-          <Description>
-            <Title>Ross Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3018,9 +2701,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Saharan Upwelling</Name>
-          <Description>
-            <Title>Saharan Upwelling</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3036,9 +2717,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Sahelian Upwelling</Name>
-          <Description>
-            <Title>Sahelian Upwelling</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3054,9 +2733,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Samoa Islands</Name>
-          <Description>
-            <Title>Samoa Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3072,9 +2749,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Sao Pedro and Sao Paulo Islands</Name>
-          <Description>
-            <Title>Sao Pedro and Sao Paulo Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3090,9 +2765,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Scotian Shelf</Name>
-          <Description>
-            <Title>Scotian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3108,9 +2781,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Sea of Japan/East Sea</Name>
-          <Description>
-            <Title>Sea of Japan/East Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3126,9 +2797,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Sea of Okhotsk</Name>
-          <Description>
-            <Title>Sea of Okhotsk</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3144,9 +2813,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Seychelles</Name>
-          <Description>
-            <Title>Seychelles</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3162,9 +2829,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Shark Bay</Name>
-          <Description>
-            <Title>Shark Bay</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3180,9 +2845,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Snares Island</Name>
-          <Description>
-            <Title>Snares Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3198,9 +2861,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Society Islands</Name>
-          <Description>
-            <Title>Society Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3216,9 +2877,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Solomon Archipelago</Name>
-          <Description>
-            <Title>Solomon Archipelago</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3234,9 +2893,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Solomon Sea</Name>
-          <Description>
-            <Title>Solomon Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3252,9 +2909,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South and West Iceland</Name>
-          <Description>
-            <Title>South and West Iceland</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3270,9 +2925,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South Australian Gulfs</Name>
-          <Description>
-            <Title>South Australian Gulfs</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3288,9 +2941,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South China Sea Oceanic Islands</Name>
-          <Description>
-            <Title>South China Sea Oceanic Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3306,9 +2957,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South European Atlantic Shelf</Name>
-          <Description>
-            <Title>South European Atlantic Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3324,9 +2973,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South Georgia</Name>
-          <Description>
-            <Title>South Georgia</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3342,9 +2989,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South India and Sri Lanka</Name>
-          <Description>
-            <Title>South India and Sri Lanka</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3360,9 +3005,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South Kuroshio</Name>
-          <Description>
-            <Title>South Kuroshio</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3378,9 +3021,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South New Zealand</Name>
-          <Description>
-            <Title>South New Zealand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3396,9 +3037,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South Orkney Islands</Name>
-          <Description>
-            <Title>South Orkney Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3414,9 +3053,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South Sandwich Islands</Name>
-          <Description>
-            <Title>South Sandwich Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3432,9 +3069,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>South Shetland Islands</Name>
-          <Description>
-            <Title>South Shetland Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3450,9 +3085,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southeast Madagascar</Name>
-          <Description>
-            <Title>Southeast Madagascar</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3468,9 +3101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southeast Papua New Guinea</Name>
-          <Description>
-            <Title>Southeast Papua New Guinea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3486,9 +3117,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southeastern Brazil</Name>
-          <Description>
-            <Title>Southeastern Brazil</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3504,9 +3133,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern California Bight</Name>
-          <Description>
-            <Title>Southern California Bight</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3522,9 +3149,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Caribbean</Name>
-          <Description>
-            <Title>Southern Caribbean</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3540,9 +3165,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern China</Name>
-          <Description>
-            <Title>Southern China</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3558,9 +3181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Cook/Austral Islands</Name>
-          <Description>
-            <Title>Southern Cook/Austral Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3576,9 +3197,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Grand Banks - South Newfoundland</Name>
-          <Description>
-            <Title>Southern Grand Banks - South Newfoundland</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3594,9 +3213,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Gulf of Mexico</Name>
-          <Description>
-            <Title>Southern Gulf of Mexico</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3612,9 +3229,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Java</Name>
-          <Description>
-            <Title>Southern Java</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3630,9 +3245,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Norway</Name>
-          <Description>
-            <Title>Southern Norway</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3648,9 +3261,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Red Sea</Name>
-          <Description>
-            <Title>Southern Red Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3666,9 +3277,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southern Vietnam</Name>
-          <Description>
-            <Title>Southern Vietnam</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3684,9 +3293,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Southwestern Caribbean</Name>
-          <Description>
-            <Title>Southwestern Caribbean</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3702,9 +3309,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>St. Helena and Ascension Islands</Name>
-          <Description>
-            <Title>St. Helena and Ascension Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3720,9 +3325,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Sulawesi Sea/Makassar Strait</Name>
-          <Description>
-            <Title>Sulawesi Sea/Makassar Strait</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3738,9 +3341,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Sunda Shelf/Java Sea</Name>
-          <Description>
-            <Title>Sunda Shelf/Java Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3756,9 +3357,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Three Kings-North Cape</Name>
-          <Description>
-            <Title>Three Kings-North Cape</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3774,9 +3373,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Tonga Islands</Name>
-          <Description>
-            <Title>Tonga Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3792,9 +3389,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Torres Strait Northern Great Barrier Reef</Name>
-          <Description>
-            <Title>Torres Strait Northern Great Barrier Reef</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3810,9 +3405,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Trindade and Martin Vaz Islands</Name>
-          <Description>
-            <Title>Trindade and Martin Vaz Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3828,9 +3421,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Tristan Gough</Name>
-          <Description>
-            <Title>Tristan Gough</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3846,9 +3437,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Tuamotus</Name>
-          <Description>
-            <Title>Tuamotus</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3864,9 +3453,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Tunisian Plateau/Gulf of Sidra</Name>
-          <Description>
-            <Title>Tunisian Plateau/Gulf of Sidra</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3882,9 +3469,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Tweed-Moreton</Name>
-          <Description>
-            <Title>Tweed-Moreton</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3900,9 +3485,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Uruguay-Buenos Aires Shelf</Name>
-          <Description>
-            <Title>Uruguay-Buenos Aires Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3918,9 +3501,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Vanuatu</Name>
-          <Description>
-            <Title>Vanuatu</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3936,9 +3517,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Virginian</Name>
-          <Description>
-            <Title>Virginian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3954,9 +3533,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Weddell Sea</Name>
-          <Description>
-            <Title>Weddell Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3972,9 +3549,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>West Caroline Islands</Name>
-          <Description>
-            <Title>West Caroline Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -3990,9 +3565,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>West Greenland Shelf</Name>
-          <Description>
-            <Title>West Greenland Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4008,9 +3581,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western and Northern Madagascar</Name>
-          <Description>
-            <Title>Western and Northern Madagascar</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4026,9 +3597,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western Arabian Sea</Name>
-          <Description>
-            <Title>Western Arabian Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4044,9 +3613,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western Bassian</Name>
-          <Description>
-            <Title>Western Bassian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4062,9 +3629,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western Caribbean</Name>
-          <Description>
-            <Title>Western Caribbean</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4080,9 +3645,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western Galapagos Islands</Name>
-          <Description>
-            <Title>Western Galapagos Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4098,9 +3661,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western India</Name>
-          <Description>
-            <Title>Western India</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4116,9 +3677,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western Mediterranean</Name>
-          <Description>
-            <Title>Western Mediterranean</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4134,9 +3693,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Western Sumatra</Name>
-          <Description>
-            <Title>Western Sumatra</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4152,9 +3709,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>White Sea</Name>
-          <Description>
-            <Title>White Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>
@@ -4170,9 +3725,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <Name>Yellow Sea</Name>
-          <Description>
-            <Title>Yellow Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>ECOREGION</ogc:PropertyName>

@@ -8,28 +8,28 @@
 	<NamedLayer>
 		<Name>Generic Polyfill</Name>
 		<UserStyle>
-			<Title>Marine Ecosystems of the World - Provinces</Title>
-			<FeatureTypeStyle>
+			<Title>Marine Ecosystems of the World - Provinces</Title>			
+      <FeatureTypeStyle>
+ 
 				<Rule>
-					<Title>PROVINCE</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>PROVINCE</PropertyName>
-					      <Literal>intentionallyblank</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<Name>PROVINCE</Name>
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>PROVINCE</ogc:PropertyName>
+					      <ogc:Literal>intentionallyblank</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
 							<CssParameter name="fill-opacity">0</CssParameter>                          
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>	              
+				</Rule>	        
+        
         <Rule>
           <Name>Agulhas</Name>
-          <Description>
-            <Title>Agulhas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -48,9 +48,7 @@
         </Rule>
         <Rule>
           <Name>Amsterdam-St Paul</Name>
-          <Description>
-            <Title>Amsterdam-St Paul</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -69,9 +67,7 @@
         </Rule>
         <Rule>
           <Name>Andaman</Name>
-          <Description>
-            <Title>Andaman</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -90,9 +86,7 @@
         </Rule>
         <Rule>
           <Name>Arctic</Name>
-          <Description>
-            <Title>Arctic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -111,9 +105,7 @@
         </Rule>
         <Rule>
           <Name>Bay of Bengal</Name>
-          <Description>
-            <Title>Bay of Bengal</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -132,9 +124,7 @@
         </Rule>
         <Rule>
           <Name>Benguela</Name>
-          <Description>
-            <Title>Benguela</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -153,9 +143,7 @@
         </Rule>
         <Rule>
           <Name>Black Sea</Name>
-          <Description>
-            <Title>Black Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -174,9 +162,7 @@
         </Rule>
         <Rule>
           <Name>Central Indian Ocean Islands</Name>
-          <Description>
-            <Title>Central Indian Ocean Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -195,9 +181,7 @@
         </Rule>
         <Rule>
           <Name>Central Polynesia</Name>
-          <Description>
-            <Title>Central Polynesia</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -216,9 +200,7 @@
         </Rule>
         <Rule>
           <Name>Cold Temperate Northeast Pacific</Name>
-          <Description>
-            <Title>Cold Temperate Northeast Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -237,9 +219,7 @@
         </Rule>
         <Rule>
           <Name>Cold Temperate Northwest Atlantic</Name>
-          <Description>
-            <Title>Cold Temperate Northwest Atlantic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -258,9 +238,7 @@
         </Rule>
         <Rule>
           <Name>Cold Temperate Northwest Pacific</Name>
-          <Description>
-            <Title>Cold Temperate Northwest Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -279,9 +257,7 @@
         </Rule>
         <Rule>
           <Name>Continental High Antarctic</Name>
-          <Description>
-            <Title>Continental High Antarctic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -300,9 +276,7 @@
         </Rule>
         <Rule>
           <Name>East Central Australian Shelf</Name>
-          <Description>
-            <Title>East Central Australian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -321,9 +295,7 @@
         </Rule>
         <Rule>
           <Name>Easter Island</Name>
-          <Description>
-            <Title>Easter Island</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -342,9 +314,7 @@
         </Rule>
         <Rule>
           <Name>Eastern Coral Triangle</Name>
-          <Description>
-            <Title>Eastern Coral Triangle</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -363,9 +333,7 @@
         </Rule>
         <Rule>
           <Name>Galapagos</Name>
-          <Description>
-            <Title>Galapagos</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -384,9 +352,7 @@
         </Rule>
         <Rule>
           <Name>Gulf of Guinea</Name>
-          <Description>
-            <Title>Gulf of Guinea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -405,9 +371,7 @@
         </Rule>
         <Rule>
           <Name>Hawaii</Name>
-          <Description>
-            <Title>Hawaii</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -426,9 +390,7 @@
         </Rule>
         <Rule>
           <Name>Java Transitional</Name>
-          <Description>
-            <Title>Java Transitional</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -447,9 +409,7 @@
         </Rule>
         <Rule>
           <Name>Juan Fernandez and Desventuradas</Name>
-          <Description>
-            <Title>Juan Fernandez and Desventuradas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -468,9 +428,7 @@
         </Rule>
         <Rule>
           <Name>Lord Howe and Norfolk Islands</Name>
-          <Description>
-            <Title>Lord Howe and Norfolk Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -489,9 +447,7 @@
         </Rule>
         <Rule>
           <Name>Lusitanian</Name>
-          <Description>
-            <Title>Lusitanian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -510,9 +466,7 @@
         </Rule>
         <Rule>
           <Name>Magellanic</Name>
-          <Description>
-            <Title>Magellanic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -531,9 +485,7 @@
         </Rule>
         <Rule>
           <Name>Marquesas</Name>
-          <Description>
-            <Title>Marquesas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -552,9 +504,7 @@
         </Rule>
         <Rule>
           <Name>Marshall, Gilbert and Ellis Islands</Name>
-          <Description>
-            <Title>Marshall, Gilbert and Ellis Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -573,9 +523,7 @@
         </Rule>
         <Rule>
           <Name>Mediterranean Sea</Name>
-          <Description>
-            <Title>Mediterranean Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -594,9 +542,7 @@
         </Rule>
         <Rule>
           <Name>North Brazil Shelf</Name>
-          <Description>
-            <Title>North Brazil Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -615,9 +561,7 @@
         </Rule>
         <Rule>
           <Name>Northeast Australian Shelf</Name>
-          <Description>
-            <Title>Northeast Australian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -636,9 +580,7 @@
         </Rule>
         <Rule>
           <Name>Northern European Seas</Name>
-          <Description>
-            <Title>Northern European Seas</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -657,9 +599,7 @@
         </Rule>
         <Rule>
           <Name>Northern New Zealand</Name>
-          <Description>
-            <Title>Northern New Zealand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -678,9 +618,7 @@
         </Rule>
         <Rule>
           <Name>Northwest Australian Shelf</Name>
-          <Description>
-            <Title>Northwest Australian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -699,9 +637,7 @@
         </Rule>
         <Rule>
           <Name>Red Sea and Gulf of Aden</Name>
-          <Description>
-            <Title>Red Sea and Gulf of Aden</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -720,9 +656,7 @@
         </Rule>
         <Rule>
           <Name>Sahul Shelf</Name>
-          <Description>
-            <Title>Sahul Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -741,9 +675,7 @@
         </Rule>
         <Rule>
           <Name>Scotia Sea</Name>
-          <Description>
-            <Title>Scotia Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -762,9 +694,7 @@
         </Rule>
         <Rule>
           <Name>Somali/Arabian</Name>
-          <Description>
-            <Title>Somali/Arabian</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -783,9 +713,7 @@
         </Rule>
         <Rule>
           <Name>South China Sea</Name>
-          <Description>
-            <Title>South China Sea</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -804,9 +732,7 @@
         </Rule>
         <Rule>
           <Name>South Kuroshio</Name>
-          <Description>
-            <Title>South Kuroshio</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -825,9 +751,7 @@
         </Rule>
         <Rule>
           <Name>Southeast Australian Shelf</Name>
-          <Description>
-            <Title>Southeast Australian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -846,9 +770,7 @@
         </Rule>
         <Rule>
           <Name>Southeast Polynesia</Name>
-          <Description>
-            <Title>Southeast Polynesia</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -867,9 +789,7 @@
         </Rule>
         <Rule>
           <Name>Southern New Zealand</Name>
-          <Description>
-            <Title>Southern New Zealand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -888,9 +808,7 @@
         </Rule>
         <Rule>
           <Name>Southwest Australian Shelf</Name>
-          <Description>
-            <Title>Southwest Australian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -909,9 +827,7 @@
         </Rule>
         <Rule>
           <Name>St. Helena and Ascension Islands</Name>
-          <Description>
-            <Title>St. Helena and Ascension Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -930,9 +846,7 @@
         </Rule>
         <Rule>
           <Name>Subantarctic Islands</Name>
-          <Description>
-            <Title>Subantarctic Islands</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -951,9 +865,7 @@
         </Rule>
         <Rule>
           <Name>Subantarctic New Zealand</Name>
-          <Description>
-            <Title>Subantarctic New Zealand</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -972,9 +884,7 @@
         </Rule>
         <Rule>
           <Name>Sunda Shelf</Name>
-          <Description>
-            <Title>Sunda Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -993,9 +903,7 @@
         </Rule>
         <Rule>
           <Name>Tristan Gough</Name>
-          <Description>
-            <Title>Tristan Gough</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1014,9 +922,7 @@
         </Rule>
         <Rule>
           <Name>Tropical East Pacific</Name>
-          <Description>
-            <Title>Tropical East Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1035,9 +941,7 @@
         </Rule>
         <Rule>
           <Name>Tropical Northwestern Atlantic</Name>
-          <Description>
-            <Title>Tropical Northwestern Atlantic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1056,9 +960,7 @@
         </Rule>
         <Rule>
           <Name>Tropical Northwestern Pacific</Name>
-          <Description>
-            <Title>Tropical Northwestern Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1077,9 +979,7 @@
         </Rule>
         <Rule>
           <Name>Tropical Southwestern Atlantic</Name>
-          <Description>
-            <Title>Tropical Southwestern Atlantic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1098,9 +998,7 @@
         </Rule>
         <Rule>
           <Name>Tropical Southwestern Pacific</Name>
-          <Description>
-            <Title>Tropical Southwestern Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1119,9 +1017,7 @@
         </Rule>
         <Rule>
           <Name>Warm Temperate Northeast Pacific</Name>
-          <Description>
-            <Title>Warm Temperate Northeast Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1140,9 +1036,7 @@
         </Rule>
         <Rule>
           <Name>Warm Temperate Northwest Atlantic</Name>
-          <Description>
-            <Title>Warm Temperate Northwest Atlantic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1161,9 +1055,7 @@
         </Rule>
         <Rule>
           <Name>Warm Temperate Northwest Pacific</Name>
-          <Description>
-            <Title>Warm Temperate Northwest Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1182,9 +1074,7 @@
         </Rule>
         <Rule>
           <Name>Warm Temperate Southeastern Pacific</Name>
-          <Description>
-            <Title>Warm Temperate Southeastern Pacific</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1203,9 +1093,7 @@
         </Rule>
         <Rule>
           <Name>Warm Temperate Southwestern Atlantic</Name>
-          <Description>
-            <Title>Warm Temperate Southwestern Atlantic</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1224,9 +1112,7 @@
         </Rule>
         <Rule>
           <Name>West African Transition</Name>
-          <Description>
-            <Title>West African Transition</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1245,9 +1131,7 @@
         </Rule>
         <Rule>
           <Name>West and South Indian Shelf</Name>
-          <Description>
-            <Title>West and South Indian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1266,9 +1150,7 @@
         </Rule>
         <Rule>
           <Name>West Central Australian Shelf</Name>
-          <Description>
-            <Title>West Central Australian Shelf</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1287,9 +1169,7 @@
         </Rule>
         <Rule>
           <Name>Western Coral Triangle</Name>
-          <Description>
-            <Title>Western Coral Triangle</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
@@ -1308,9 +1188,7 @@
         </Rule>
         <Rule>
           <Name>Western Indian Ocean</Name>
-          <Description>
-            <Title>Western Indian Ocean</Title>
-          </Description>
+
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PROVINCE</ogc:PropertyName>
