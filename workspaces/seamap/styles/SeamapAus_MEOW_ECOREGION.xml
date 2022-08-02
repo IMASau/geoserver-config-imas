@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--328af523:18247a2b384:-7e3e</id>
-  <name>SeamapAus_MEOW_ECOREGIONS</name>
+  <name>SeamapAus_MEOW_ECOREGION</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_MEOW_ECOREGIONS.sld</filename>
+  <filename>SeamapAus_MEOW_ECOREGION.sld</filename>
 </style>
