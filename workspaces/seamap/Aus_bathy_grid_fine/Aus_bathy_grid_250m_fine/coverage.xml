@@ -33,23 +33,33 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>91.99374999999999</minx>
-    <maxx>172.00375</maxx>
-    <miny>-59.99874999999999</miny>
-    <maxy>-7.988749999999989</maxy>
+    <minx>91.9976220703125</minx>
+    <maxx>171.99762207031057</maxx>
+    <miny>-60.00243896484372</miny>
+    <maxy>-8.002438964844963</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>91.99374999999999</minx>
-    <maxx>172.00375</maxx>
-    <miny>-59.99874999999999</miny>
-    <maxy>-7.988749999999989</maxy>
+    <minx>91.9976220703125</minx>
+    <maxx>171.99762207031057</maxx>
+    <miny>-60.00243896484372</miny>
+    <maxy>-8.002438964844963</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Aus_bathy_grid_Aus_bathy_grid</entry>
   </metadata>
