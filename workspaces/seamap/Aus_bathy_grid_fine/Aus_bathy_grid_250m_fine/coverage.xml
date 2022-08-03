@@ -12,7 +12,6 @@
 This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2009 product.</abstract>
   <keywords>
     <string>Aus_bathy_grid</string>
-    <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
   <metadataLinks>
