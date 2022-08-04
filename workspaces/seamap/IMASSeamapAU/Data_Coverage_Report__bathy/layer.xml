@@ -1,10 +1,18 @@
 <layer>
-  <name>Aus_bathymetry_survey_extents_DATAPAGE</name>
+  <name>Data_Coverage_Report__bathy</name>
   <id>LayerInfoImpl--328af523:182683450b7:d9c</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--328af523:182683450b7:-748</id>
+    <id>StyleInfoImpl--328af523:182683450b7:325a</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--328af523:182683450b7:-748</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--328af523:182683450b7:325a</id>
+    </style>
+  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--328af523:182683450b7:d9b</id>
   </resource>

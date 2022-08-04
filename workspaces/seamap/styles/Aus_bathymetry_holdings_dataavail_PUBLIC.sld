@@ -24,34 +24,11 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0be7f4</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+              <CssParameter name="fill-opacity">0.8</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-        
-        <Rule>
-             <Title>Data private</Title>
-			<ogc:Filter>
-				<ogc:Or>			
-					<ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-						<ogc:PropertyName>data_dl</ogc:PropertyName>
-						<ogc:Literal>maybe%</ogc:Literal>
-					</ogc:PropertyIsLike>
-					<ogc:PropertyIsEqualTo>
-						<ogc:PropertyName>data_dl</ogc:PropertyName>
-						<ogc:Literal>no</ogc:Literal>
-					</ogc:PropertyIsEqualTo>				  
-				</ogc:Or>				
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#999999</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-      <VendorOption name="sortBy">data_dl A</VendorOption>		
-      </FeatureTypeStyle> 	  
+              </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
