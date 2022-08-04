@@ -74,10 +74,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>      
         </Rule>
+        
           <Rule>
           <Title>Sediment (MARS)</Title>
-          <ogc:And>                
           <ogc:Filter>
+          <ogc:And>               
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
@@ -85,9 +86,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsEqualTo>	            
               <ogc:PropertyName>data_open</ogc:PropertyName>
               <ogc:Literal>'Y'</ogc:Literal>
-            </ogc:PropertyIsEqualTo>     
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             			
           </ogc:Filter>	 
-          </ogc:And>             
           <PointSymbolizer>
             <Graphic>
               <Mark>
