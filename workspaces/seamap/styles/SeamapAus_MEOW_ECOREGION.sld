@@ -36,7 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2d7de6</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -51,7 +51,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f0ce0f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -66,7 +66,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#77cf3d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -81,7 +81,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d3e90e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -96,7 +96,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#52d764</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -111,7 +111,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e23fbf</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -126,7 +126,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a7d746</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -141,7 +141,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#318bda</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -156,7 +156,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5065d9</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -171,7 +171,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#16c1e8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -186,7 +186,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bb86e6</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -201,7 +201,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#45c0e6</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -216,7 +216,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ef32a0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -231,7 +231,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b51dd0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -246,7 +246,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8fea45</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -261,7 +261,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6e58cf</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -276,7 +276,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dee81f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -291,7 +291,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f02c5d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -306,7 +306,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bf6de3</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -321,7 +321,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7a25db</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -336,7 +336,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dabc34</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -351,7 +351,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#72a9e4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -366,7 +366,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d4ac61</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -381,7 +381,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#13d075</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -396,7 +396,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bcef30</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -411,7 +411,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#508fdc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -426,7 +426,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#48e1bb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -441,7 +441,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#1eeba7</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -456,7 +456,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2e7dcb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -471,7 +471,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d12e4f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -486,7 +486,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bccb5c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -501,7 +501,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d67981</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -516,7 +516,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e69345</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -531,7 +531,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b072d2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -546,7 +546,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4be839</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -561,7 +561,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d36a94</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -576,7 +576,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a727e2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -591,7 +591,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7ceb57</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -606,7 +606,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#73cb7a</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -621,7 +621,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ba7fe1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -636,7 +636,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e22e5e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -651,7 +651,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7a7ed0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -666,7 +666,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#42cf46</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -681,7 +681,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#82e9c1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -696,7 +696,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8a63ed</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -711,7 +711,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#85b8da</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -726,7 +726,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c84f4d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -741,7 +741,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#df9c37</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -756,7 +756,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4555e4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -771,7 +771,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#1de51d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -786,7 +786,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cc61e1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -801,7 +801,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d35cd5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -816,7 +816,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d111ae</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -831,7 +831,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#14ec67</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -846,7 +846,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e7c05d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -861,7 +861,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#85cb29</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -876,7 +876,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2cd8b3</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -891,7 +891,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e0558f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -906,7 +906,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e3bf51</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -921,7 +921,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6a62e1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -936,7 +936,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e5a778</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -951,7 +951,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#1e5ddb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -966,7 +966,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#aee66d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -981,7 +981,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a5c80c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -996,7 +996,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#3a99c9</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1011,7 +1011,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a4d142</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1026,7 +1026,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e4697b</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1041,7 +1041,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d56a1e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1056,7 +1056,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e67fed</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1071,7 +1071,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dd545d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1086,7 +1086,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d1dd4d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1101,7 +1101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d21dc6</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1116,7 +1116,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#3f98cb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1131,7 +1131,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5fc5ea</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1146,7 +1146,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dc115c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1161,7 +1161,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4de58c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1176,7 +1176,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9f5ce2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1191,7 +1191,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d59f21</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1206,7 +1206,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6853d3</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1221,7 +1221,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5a1fdb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1236,7 +1236,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#efef7a</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1251,7 +1251,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ed63c8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1266,7 +1266,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9b51d4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1281,7 +1281,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#42ee67</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1296,7 +1296,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ded860</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1311,7 +1311,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#95db1c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1326,7 +1326,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d21d80</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1341,7 +1341,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#af65c8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1356,7 +1356,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8ae8cc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1371,7 +1371,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dca582</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1386,7 +1386,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2a68db</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1401,7 +1401,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9352ee</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1416,7 +1416,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#49cd79</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1431,7 +1431,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e4214b</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1446,7 +1446,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8537ce</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1461,7 +1461,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7d72d5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1476,7 +1476,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b511e2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1491,7 +1491,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8ed866</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1506,7 +1506,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#de1f62</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1521,7 +1521,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e7ab5d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1536,7 +1536,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#1ed7ce</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1551,7 +1551,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ce4f0f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1566,7 +1566,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5f61e4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1581,7 +1581,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ca36a7</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1596,7 +1596,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0e65e7</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1611,7 +1611,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8394e8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1626,7 +1626,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#31e0cf</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1641,7 +1641,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#eed514</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1656,7 +1656,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#80e866</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1671,7 +1671,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#74cf79</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1686,7 +1686,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#80d597</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1701,7 +1701,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7e8be8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1716,7 +1716,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2bd50d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1731,7 +1731,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7acccb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1746,7 +1746,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#58a3e0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1761,7 +1761,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6e36d0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1776,7 +1776,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7f5be1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1791,7 +1791,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e73384</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1806,7 +1806,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#85db60</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1821,7 +1821,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#19cad7</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1836,7 +1836,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#52bdd3</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1851,7 +1851,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#365bcc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1866,7 +1866,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7c90d8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1881,7 +1881,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#46cbdf</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1896,7 +1896,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#49e13f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1911,7 +1911,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#14d150</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1926,7 +1926,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d67035</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1941,7 +1941,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#95cc3c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1956,7 +1956,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e66d35</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1971,7 +1971,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2c57ce</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1986,7 +1986,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bbe131</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2001,7 +2001,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cd887a</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2016,7 +2016,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#890fcf</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2031,7 +2031,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#39eba4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2046,7 +2046,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#1fda3e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2061,7 +2061,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5830e9</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2076,7 +2076,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7adcb0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2091,7 +2091,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5d66dc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2106,7 +2106,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5cd85a</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2121,7 +2121,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#eca025</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2136,7 +2136,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6f5de4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2151,7 +2151,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6e2aeb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2166,7 +2166,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e873de</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2181,7 +2181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e641a9</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2196,7 +2196,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dd943a</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2211,7 +2211,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ca4ece</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2226,7 +2226,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#76e85f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2241,7 +2241,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e44b50</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2256,7 +2256,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6dd981</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2271,7 +2271,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d37aa6</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2286,7 +2286,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e13d27</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2301,7 +2301,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#eae26b</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2316,7 +2316,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d6425b</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2331,7 +2331,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cc6b5c</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2346,7 +2346,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#70dcbd</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2361,7 +2361,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d45d52</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2376,7 +2376,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dd5321</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2391,7 +2391,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8ed32e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2406,7 +2406,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c9a71d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2421,7 +2421,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#adea88</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2436,7 +2436,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#66e8d4</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2451,7 +2451,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#efca52</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2466,7 +2466,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#36d949</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2481,7 +2481,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#48d699</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2496,7 +2496,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7fe915</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2511,7 +2511,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4dd792</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2526,7 +2526,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0cc961</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2541,7 +2541,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8880e2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2556,7 +2556,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ed8bce</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2571,7 +2571,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4a68e2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2586,7 +2586,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#60adcc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2601,7 +2601,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4e81d2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2616,7 +2616,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c479cc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2631,7 +2631,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#65de28</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2646,7 +2646,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f08ee0</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2661,7 +2661,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ad33cb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2676,7 +2676,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9ccb26</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2691,7 +2691,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d6cb68</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2706,7 +2706,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9eea64</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2721,7 +2721,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#badd48</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2736,7 +2736,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2e5fd2</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2751,7 +2751,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#de0f95</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2766,7 +2766,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cf6365</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2781,7 +2781,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#3fc97f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2796,7 +2796,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ec87ce</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2811,7 +2811,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6f0ee5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2826,7 +2826,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e0717e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2841,7 +2841,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d3b57a</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2856,7 +2856,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d42181</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2871,7 +2871,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b82aec</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2886,7 +2886,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#72ca20</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2901,7 +2901,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#bdd34d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2916,7 +2916,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c88e50</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2931,7 +2931,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7cd777</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2946,7 +2946,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4517dc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2961,7 +2961,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#18cee6</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2976,7 +2976,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#70a9d1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2991,7 +2991,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6ae3db</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3006,7 +3006,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ef5937</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3021,7 +3021,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#76b1cc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3036,7 +3036,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#74e4ce</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3051,7 +3051,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cd564e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3066,7 +3066,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#22d1bd</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3081,7 +3081,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#76ec51</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3096,7 +3096,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d272c5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3111,7 +3111,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e2e081</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3126,7 +3126,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7ac9df</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3141,7 +3141,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cfd35e</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3156,7 +3156,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4bd139</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3171,7 +3171,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#18e75d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3186,7 +3186,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4beaef</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3201,7 +3201,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#71cc86</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3216,7 +3216,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4f4ced</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3231,7 +3231,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#61dd30</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3246,7 +3246,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e06bdc</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3261,7 +3261,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c93665</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3276,7 +3276,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cf729f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3291,7 +3291,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#36eaab</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3306,7 +3306,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4beb78</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3321,7 +3321,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d73bc5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3336,7 +3336,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9156eb</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3351,7 +3351,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c864d5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3366,7 +3366,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e31855</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3381,7 +3381,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ec7959</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3396,7 +3396,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#49efef</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3411,7 +3411,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#58cbb8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3426,7 +3426,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e64640</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3441,7 +3441,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ea683d</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3456,7 +3456,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#3a35c8</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3471,7 +3471,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7cdce5</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3486,7 +3486,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e16ddf</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -3501,7 +3501,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e886c1</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>

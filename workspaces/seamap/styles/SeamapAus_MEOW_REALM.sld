@@ -22,7 +22,6 @@
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
 							<CssParameter name="fill-opacity">0</CssParameter>                          
-							<CssParameter name="fill-opacity">0.6</CssParameter>                          							 
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>	              
