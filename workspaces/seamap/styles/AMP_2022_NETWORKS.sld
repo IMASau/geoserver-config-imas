@@ -28,7 +28,7 @@
               
                   <Font>
            			<CssParameter name="font-family">SansSerif.bold</CssParameter>
-           			<CssParameter name="font-size">11</CssParameter>								
+           			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
                     <VendorOption name="partials">false</VendorOption>
 					<VendorOption name="group">false</VendorOption>
