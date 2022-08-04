@@ -17,7 +17,87 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>  		  
+          </ogc:Filter>  
+          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				          					  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#9422DD</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#9422DD</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>  
+        <Rule>
+          <Title>Imagery (SQUIDLE+)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>2_Squidle</ogc:Literal>
+            </ogc:PropertyIsEqualTo>					
+          </ogc:Filter>	 
+          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				          					  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#54B748</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#54B748</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>
+          <Rule>
+          <Title>Sediment (MARS)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>3_Sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>					
+          </ogc:Filter>	
+          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				          					  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#DD9422</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#DD9422</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule> 
+		
+       <Rule>
+          <Title>Video (GlobalArchive) - zoomed in</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>1_GlobalArchive</ogc:Literal>
+            </ogc:PropertyIsEqualTo>					
+          </ogc:Filter>  
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -35,16 +115,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>      
         </Rule>  
-
- 
         <Rule>
-          <Title>Imagery (SQUIDLE+)</Title>
+          <Title>Imagery (SQUIDLE+) - zoomed in</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>	  
+          </ogc:Filter>	 
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -63,13 +142,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>
           <Rule>
-          <Title>Sediment (MARS)</Title>
+          <Title>Sediment (MARS) - zoomed in</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>		  
+          </ogc:Filter>	
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -86,7 +166,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>7</Size>
             </Graphic>
           </PointSymbolizer>      
-        </Rule> 
+        </Rule> 		
             
  
       <VendorOption name="sortBy">DType D</VendorOption>		

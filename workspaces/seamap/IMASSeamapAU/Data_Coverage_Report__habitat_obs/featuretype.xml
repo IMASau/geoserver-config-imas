@@ -9,6 +9,7 @@
   <keywords>
     <string>features</string>
     <string>VW_DATAPG_HABITAT_OBS</string>
+    <string>datapage</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
