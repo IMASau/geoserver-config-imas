@@ -50,7 +50,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">davail_sort D</VendorOption>		
+      <VendorOption name="sortBy">data_dl A</VendorOption>		
       </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
