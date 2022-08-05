@@ -1,0 +1,15 @@
+<layer>
+  <name>AbHab_mapped_seafloor_extent</name>
+  <id>LayerInfoImpl--3e18cfeb:1826b6b13f9:1df7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1295cef3:17d4a68a13f:-315f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3e18cfeb:1826b6b13f9:1df6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -15,10 +15,10 @@
       <FeatureTypeStyle>    
         <Rule>		
           <Title>Megaclast</Title>
-		  <MaxScaleDenominator>3000000</MaxScaleDenominator>				          
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>substratum</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Megaclast</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -31,10 +31,10 @@
         </Rule>
         <Rule>		
           <Title>Mixed Hard Substrata</Title>
-		  <MaxScaleDenominator>3000000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>substratum</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Mixed Hard Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -47,10 +47,10 @@
         </Rule>
         <Rule>		
           <Title>Pavement</Title>
-		  <MaxScaleDenominator>3000000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>substratum</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Pavement</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -63,10 +63,10 @@
         </Rule>
         <Rule>		
           <Title>Sand</Title>
-		  <MaxScaleDenominator>3000000</MaxScaleDenominator>				                    
+		  <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>substratum</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Sand</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
