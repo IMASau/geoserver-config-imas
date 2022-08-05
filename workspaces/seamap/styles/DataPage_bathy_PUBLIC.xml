@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl--328af523:182683450b7:325a</id>
-  <name>Aus_bathymetry_holdings_dataavail_ALL</name>
+  <id>StyleInfoImpl--328af523:182683450b7:-748</id>
+  <name>DataPage_bathy_PUBLIC</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>Aus_bathymetry_holdings_dataavail_ALL.sld</filename>
+  <filename>DataPage_bathy_PUBLIC.sld</filename>
 </style>

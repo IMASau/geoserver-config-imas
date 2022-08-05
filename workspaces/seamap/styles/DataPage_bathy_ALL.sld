@@ -13,22 +13,16 @@
     <UserStyle>
       <Name>Styled by data published status</Name>
       <FeatureTypeStyle>
+        
         <Rule>
-             <Title>Data public</Title>
-			<ogc:Filter>			
-					<ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-						<ogc:PropertyName>data_dl</ogc:PropertyName>
-						<ogc:Literal>yes%</ogc:Literal>
-					</ogc:PropertyIsLike>				
-          </ogc:Filter>
+             <Title>Survey extent</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#0be7f4</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>					  
+              <CssParameter name="fill">#bfbfbf</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-              </FeatureTypeStyle> 	  
+      </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

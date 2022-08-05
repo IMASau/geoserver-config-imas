@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--328af523:182683450b7:d9b</id>
   <name>Data_Coverage_Report__bathy</name>
-  <nativeName>Aus_bathymetry_survey_extents_DATAPAGE</nativeName>
+  <nativeName>BOUNDARY_AMP_BATHYMETRY</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Aus_bathymetry_survey_extents_DATAPAGE</title>
+  <title>BOUNDARY_AMP_BATHYMETRY</title>
   <keywords>
     <string>features</string>
-    <string>Aus_bathymetry_survey_extents_DATAPAGE</string>
+    <string>BOUNDARY_AMP_BATHYMETRY</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 

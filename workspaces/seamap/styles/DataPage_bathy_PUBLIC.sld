@@ -13,17 +13,23 @@
     <UserStyle>
       <Name>Styled by data published status</Name>
       <FeatureTypeStyle>
-        
         <Rule>
-             <Title>Survey extent</Title>
+             <Title>Data public</Title>
+			<ogc:Filter>
+              		<ogc:Not>
+					<ogc:PropertyIsEqualTo>
+						<ogc:PropertyName>bathymetry_resolution</ogc:PropertyName>
+						<ogc:Literal>unknown</ogc:Literal>
+					</ogc:PropertyIsEqualTo>
+              		</ogc:Not>                      
+          </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#999999</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>					  
+              <CssParameter name="fill">#0be7f4</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 	  
+              </FeatureTypeStyle> 	  
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
