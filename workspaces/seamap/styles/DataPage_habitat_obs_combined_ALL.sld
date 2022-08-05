@@ -23,14 +23,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9422DD</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#861fc7</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.05</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>               
+               </Stroke>                
               </Mark>
               <Size>4</Size>
             </Graphic>
@@ -50,14 +50,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#54B748</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.05</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                
+               </Stroke>                 
               </Mark>
               <Size>4</Size>
             </Graphic>
@@ -77,14 +77,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#DD9422</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#df8020</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.05</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>               
+               </Stroke>                 
               </Mark>
               <Size>4</Size>
             </Graphic>
@@ -106,14 +106,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9422DD</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#861fc7</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.05</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>               
+               </Stroke>                
               </Mark>
               <Size>6</Size>
             </Graphic>
@@ -134,14 +134,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#54B748</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.05</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                
+               </Stroke>              
               </Mark>
               <Size>6</Size>
             </Graphic>
@@ -162,16 +162,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#DD9422</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#df8020</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.05</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>               
+               </Stroke>                 
               </Mark>
-              <Size>6</Size>
+              <Size>5</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 
@@ -190,8 +190,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9422DD</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#861fc7</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
@@ -217,14 +217,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#54B748</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                 
+               </Stroke>                    
               </Mark>
               <Size>8</Size>
             </Graphic>
@@ -244,16 +244,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#DD9422</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill">#df8020</CssParameter>  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                
+               </Stroke>                 
               </Mark>
-              <Size>8</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 		
