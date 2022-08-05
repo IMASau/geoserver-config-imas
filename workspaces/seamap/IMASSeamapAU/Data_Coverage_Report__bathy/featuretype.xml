@@ -5,10 +5,11 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>BOUNDARY_AMP_BATHYMETRY</title>
+  <title>AMP Data Coverage Report - bathymetry</title>
   <keywords>
     <string>features</string>
     <string>BOUNDARY_AMP_BATHYMETRY</string>
+    <string>datapage</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -50,6 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

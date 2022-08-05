@@ -25,7 +25,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#0be7f4</CssParameter>
+              <CssParameter name="fill">#00daff</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>

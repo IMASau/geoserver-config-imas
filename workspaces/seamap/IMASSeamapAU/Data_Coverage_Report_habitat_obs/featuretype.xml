@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--328af523:18268142a1c:-6b4c</id>
-  <name>Data_Coverage_Report__habitat_obs</name>
+  <name>Data_Coverage_Report_habitat_obs</name>
   <nativeName>VW_DATAPG_HABITAT_OBS</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SMA AMP Data Page - habitat observations combined</title>
+  <title>AMP Data Coverage Report - habitat observations combined</title>
   <keywords>
     <string>features</string>
     <string>VW_DATAPG_HABITAT_OBS</string>
