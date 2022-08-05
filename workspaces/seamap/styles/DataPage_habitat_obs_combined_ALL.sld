@@ -32,7 +32,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
                </Stroke>                
               </Mark>
-              <Size>4</Size>
+              <Size>5</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>  
@@ -59,7 +59,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
                </Stroke>                 
               </Mark>
-              <Size>4</Size>
+              <Size>5</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -86,7 +86,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
                </Stroke>                 
               </Mark>
-              <Size>4</Size>
+              <Size>5</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 
