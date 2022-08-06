@@ -12,10 +12,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Video (GlobalArchive) - zoomed out</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>  
           <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
@@ -39,10 +45,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Imagery (SQUIDLE+) - zoomed out</Title>
           <ogc:Filter>
+          <ogc:And>                                     
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>	 
           <MinScaleDenominator>4000000</MinScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
@@ -66,10 +78,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Rule>
           <Title>Sediment (MARS) - zoomed out</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>	
           <MinScaleDenominator>4000000</MinScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
@@ -94,10 +112,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>  
           <MinScaleDenominator>2000000</MinScaleDenominator>
           <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        		            				          					  		  		  
@@ -122,10 +146,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>	 
           <MinScaleDenominator>2000000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        		            				          					  		  		  		  
@@ -150,10 +180,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Rule>
           <Title>Sediment (MARS)</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>	
           <MinScaleDenominator>2000000</MinScaleDenominator>  
           <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        		            				          					  		  		  		  
@@ -179,10 +215,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
        <Rule>
           <Title>Video (GlobalArchive) - zoomed in</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>		
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>  
           <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
@@ -206,10 +248,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Imagery (SQUIDLE+) - zoomed in</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>	 
           <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
@@ -233,10 +281,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Rule>
           <Title>Sediment (MARS) - zoomed in</Title>
           <ogc:Filter>
+          <ogc:And>                         
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
           </ogc:Filter>	
           <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
