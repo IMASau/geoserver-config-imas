@@ -9,57 +9,60 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Name>Habitat observation styled by type</Name>
     <UserStyle>
       <FeatureTypeStyle>
+
         <Rule>
           <Title>Video (GlobalArchive) - zoomed out</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>  
-          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				          					  		  
+            </ogc:PropertyIsEqualTo>                     
+          </ogc:Filter> 
+          <MinScaleDenominator>4000000</MinScaleDenominator> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#861fc7</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#be4fe3</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.05</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>              
               </Mark>
-              <Size>5</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>  
+
+ 
         <Rule>
           <Title>Imagery (SQUIDLE+) - zoomed out</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>	 
-          <MinScaleDenominator>4000000</MinScaleDenominator>                                        		            				          					  		  
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>	
+          <MinScaleDenominator>4000000</MinScaleDenominator> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#00e673</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.05</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                 
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
               </Mark>
-              <Size>5</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -69,81 +72,83 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>            			
           </ogc:Filter>	
-          <MinScaleDenominator>4000000</MinScaleDenominator>                                        		            				          					  		  
+          <MinScaleDenominator>4000000</MinScaleDenominator> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#df8020</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#ff8c1a</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.05</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                 
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
               </Mark>
-              <Size>5</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 
-	
+	  
         <Rule>
           <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>  
-          <MinScaleDenominator>2000000</MinScaleDenominator>
-          <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        		            				          					  		  		  
+            </ogc:PropertyIsEqualTo>                        
+          </ogc:Filter> 
+          <MinScaleDenominator>2000000</MinScaleDenominator>  
+          <MaxScaleDenominator>4000000</MaxScaleDenominator> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#861fc7</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#be4fe3</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.05</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>6</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>  
+
+ 
         <Rule>
           <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>	 
-          <MinScaleDenominator>2000000</MinScaleDenominator> 
-          <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        		            				          					  		  		  		  
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>	
+          <MinScaleDenominator>2000000</MinScaleDenominator>  
+          <MaxScaleDenominator>4000000</MaxScaleDenominator> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#00e673</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.05</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>              
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>               
               </Mark>
-              <Size>6</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -153,53 +158,54 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>         			
           </ogc:Filter>	
           <MinScaleDenominator>2000000</MinScaleDenominator>  
-          <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        		            				          					  		  		  		  
+          <MaxScaleDenominator>4000000</MaxScaleDenominator> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#df8020</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#ff8c1a</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.05</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                 
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>               
               </Mark>
-              <Size>5</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 
 		
-       <Rule>
+		
+        <Rule>
           <Title>Video (GlobalArchive) - zoomed in</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>  
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
+            </ogc:PropertyIsEqualTo>                       
+          </ogc:Filter> 
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#861fc7</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#be4fe3</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>               
               </Mark>
-              <Size>8</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>  
@@ -209,24 +215,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
-          </ogc:Filter>	 
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>	
           <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#00e673</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                    
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>               
               </Mark>
-              <Size>8</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -236,7 +242,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>					
+            </ogc:PropertyIsEqualTo>            			
           </ogc:Filter>	
           <MaxScaleDenominator>2000000</MaxScaleDenominator>                                        		            				          					  		  
           <PointSymbolizer>
@@ -244,16 +250,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#df8020</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#ff8c1a</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
-               </Stroke>                 
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>              
               </Mark>
-              <Size>7</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 		
