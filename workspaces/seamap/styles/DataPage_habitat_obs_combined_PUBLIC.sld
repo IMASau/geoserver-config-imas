@@ -9,6 +9,109 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Name>Habitat observation styled by type</Name>
     <UserStyle>
       <FeatureTypeStyle>
+	  
+        <Rule>
+          <Title>Video (GlobalArchive) - ultra zoomed out</Title>
+          <ogc:Filter>
+          <ogc:And>                         
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>1_GlobalArchive</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
+          </ogc:Filter>  
+          <MinScaleDenominator>6000000</MinScaleDenominator>                                        		            				          					  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#861fc7</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
+               </Stroke>                
+              </Mark>
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>  
+        <Rule>
+          <Title>Imagery (SQUIDLE+) - ultra zoomed out</Title>
+          <ogc:Filter>
+          <ogc:And>                                     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>2_Squidle</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
+          </ogc:Filter>	 
+          <MinScaleDenominator>6000000</MinScaleDenominator>                                        		            				          					  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
+               </Stroke>                 
+              </Mark>
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>
+          <Rule>
+          <Title>Sediment (MARS) - ultra zoomed out</Title>
+          <ogc:Filter>
+          <ogc:And>                         
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>3_Sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>data_open</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+          </ogc:And>             
+          </ogc:Filter>	
+          <MinScaleDenominator>6000000</MinScaleDenominator>                                        		            				          					  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#df8020</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
+               </Stroke>                 
+              </Mark>
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule> 	  
+	  
+	  
+	  
         <Rule>
           <Title>Video (GlobalArchive) - zoomed out</Title>
           <ogc:Filter>
@@ -23,7 +126,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>  
           </ogc:And>             
           </ogc:Filter>  
-          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				          					  		  
+          <MinScaleDenominator>4000000</MinScaleDenominator> 
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>                                        		            				          					  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -56,7 +160,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>  
           </ogc:And>             
           </ogc:Filter>	 
-          <MinScaleDenominator>4000000</MinScaleDenominator>                                        		            				          					  		  
+          <MinScaleDenominator>4000000</MinScaleDenominator>           <MaxScaleDenominator>6000000</MaxScaleDenominator>                                        		            				          					  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -89,7 +193,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>  
           </ogc:And>             
           </ogc:Filter>	
-          <MinScaleDenominator>4000000</MinScaleDenominator>                                        		            				          					  		  
+          <MinScaleDenominator>4000000</MinScaleDenominator>  
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>                                        		            				          					  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -207,7 +312,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
                </Stroke>                 
               </Mark>
-              <Size>5</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 
@@ -307,7 +412,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.3</CssParameter>                       				   
                </Stroke>                 
               </Mark>
-              <Size>7</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule> 		

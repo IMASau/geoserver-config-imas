@@ -10,6 +10,89 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
 
+       <Rule>
+          <Title>Video (GlobalArchive) - ultra zoomed out</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>1_GlobalArchive</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                     
+          </ogc:Filter> 
+          <MinScaleDenominator>6000000</MinScaleDenominator> 
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#be4fe3</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>              
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>  
+        <Rule>
+          <Title>Imagery (SQUIDLE+) - ultra zoomed out</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>2_Squidle</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            
+          </ogc:Filter>	
+          <MinScaleDenominator>6000000</MinScaleDenominator> 
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#00e673</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>
+          <Rule>
+          <Title>Sediment (MARS) - ultra zoomed out</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:Literal>3_Sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>            			
+          </ogc:Filter>	
+          <MinScaleDenominator>6000000</MinScaleDenominator> 
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff8c1a</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#FFFFFF</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule> 
+	  
+
         <Rule>
           <Title>Video (GlobalArchive) - zoomed out</Title>
           <ogc:Filter>
@@ -18,7 +101,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>                     
           </ogc:Filter> 
-          <MinScaleDenominator>4000000</MinScaleDenominator> 
+          <MinScaleDenominator>4000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator> 		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -48,6 +132,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>	
           <MinScaleDenominator>4000000</MinScaleDenominator> 
+          <MaxScaleDenominator>6000000</MaxScaleDenominator> 		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -75,6 +160,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>            			
           </ogc:Filter>	
           <MinScaleDenominator>4000000</MinScaleDenominator> 
+          <MaxScaleDenominator>6000000</MaxScaleDenominator> 		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
