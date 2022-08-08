@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--6008cda0:18122cb20c0:6c51</id>
   <name>ANALYTICS_GlobalArchive_BRUVs_deployments</name>
-  <nativeName>EXTRACT_GLOBALARCHIVE_DEPLOYMENT_POINTS_static</nativeName>
+  <nativeName>TRANSFORM_GLOBALARCHIVE_DEPLOYMENT_POINTS</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -11,7 +11,7 @@
 View is not aggregated (presents data at the deployment level).</abstract>
   <keywords>
     <string>features</string>
-    <string>EXTRACT_GlobalArchive_BRUVs</string>
+    <string>TRANSFORM_GLOBALARCHIVE_DEPLOYMENT_POINTS</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
