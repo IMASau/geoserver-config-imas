@@ -64,7 +64,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>
         
- 
+      <VendorOption name="sortBy">data_open A</VendorOption>		 
 
         </FeatureTypeStyle>
     </UserStyle>
