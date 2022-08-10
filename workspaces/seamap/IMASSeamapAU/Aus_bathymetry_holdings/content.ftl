@@ -12,6 +12,9 @@ td {
   padding:5px;
 }
 
+.wrapping {
+  white-space:normal;
+}
 
 .specialcntr {
   text-align:center;
@@ -31,14 +34,14 @@ td {
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' border="1">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black" border="1">
 
 <THEAD>
 	<TR class="AusSeabed bathymetry holdings headers" style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th>Collection name</th>
 		<th class="specialcntr">Date range</th>
 		<th class="specialcntr">Resolution</th>
-		<th>Marine Park(s)</th>
+		<th class="wrapping">Marine Park(s)</th>
 		<th class="specialcntr">Data availability</th>
 		<th class="specialcntr">Collected by</th>
 		<th>Point of contact</th>		
@@ -98,7 +101,7 @@ td {
 			</#if>
 		</TD>     
                  
-		<TD >
+		<TD class="wrapping">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
