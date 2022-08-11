@@ -29,10 +29,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
@@ -56,10 +56,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>9</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>      
         </Rule>
