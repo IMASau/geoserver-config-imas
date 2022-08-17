@@ -1,0 +1,15 @@
+<layer>
+  <name>TEST</name>
+  <id>LayerInfoImpl--5d9f34c4:182a6bf0bff:-65f2</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--5d9f34c4:182a6bf0bff:-65f3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
