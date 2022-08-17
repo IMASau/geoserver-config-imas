@@ -49,7 +49,7 @@
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>1000000000</maxRequestMemory>
+  <maxRequestMemory>10000000</maxRequestMemory>
   <maxRenderingTime>300</maxRenderingTime>
   <maxRenderingErrors>10000</maxRenderingErrors>
   <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
