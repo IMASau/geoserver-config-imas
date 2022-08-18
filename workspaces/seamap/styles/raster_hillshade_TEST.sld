@@ -9,24 +9,12 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
 	        <FeatureTypeName>Feature</FeatureTypeName>
 			<Rule>
           <RasterSymbolizer>
-            <ChannelSelection>
-              <GrayChannel>
-                <SourceChannelName>1</SourceChannelName>
-                <ContrastEnhancement>
-                  <Normalize>
-                    <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-                    <VendorOption name="minValue">0</VendorOption>
-                    <VendorOption name="maxValue">254</VendorOption>
-                  </Normalize>
-                </ContrastEnhancement>
-              </GrayChannel>
-            </ChannelSelection>
-            <ColorMap>
-              <ColorMapEntry quantity="0" color="#000000"/>
-              <ColorMapEntry quantity="255" color="#ffffff"/>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#000000" quantity="0"/>
+              <ColorMapEntry color="#1a1a1a" quantity="100"/>
+              <ColorMapEntry color="#d9d9d9" quantity="200"/>              
+              <ColorMapEntry color="#ffffff" quantity="255"/>
             </ColorMap>
-            <VendorOption name="brightness">0.362745</VendorOption>
-            <VendorOption name="contrast">0.66</VendorOption>
           </RasterSymbolizer>
               
 			</Rule>
