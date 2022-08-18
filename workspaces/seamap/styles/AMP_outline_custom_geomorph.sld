@@ -84,10 +84,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 				</ogc:PropertyIsEqualTo>			
 				<ogc:PropertyIsEqualTo>
 						<ogc:PropertyName>RESNAME</ogc:PropertyName>
-					    <ogc:Literal>Apollo</ogc:Literal>
-				</ogc:PropertyIsEqualTo>
-				<ogc:PropertyIsEqualTo>
-						<ogc:PropertyName>RESNAME</ogc:PropertyName>
 					    <ogc:Literal>Arafura</ogc:Literal>
 				</ogc:PropertyIsEqualTo>				
 				<ogc:PropertyIsEqualTo>
