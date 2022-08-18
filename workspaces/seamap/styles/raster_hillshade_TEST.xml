@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl--2fe00f03:1818a26e238:-735b</id>
-  <name>raster_test</name>
+  <id>StyleInfoImpl--50c28d0e:182af177051:59a9</id>
+  <name>raster_hillshade_TEST</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_test.sld</filename>
+  <filename>raster_hillshade_TEST.sld</filename>
 </style>

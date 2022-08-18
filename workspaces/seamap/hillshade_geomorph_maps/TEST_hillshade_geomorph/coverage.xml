@@ -1,13 +1,12 @@
 <coverage>
-  <id>CoverageInfoImpl-5ba9f273:18121c77677:-3a60</id>
-  <name>geomorph_hillshade_AMP</name>
-  <nativeName>geomorph_hillshade_AMP</nativeName>
+  <id>CoverageInfoImpl--50c28d0e:182af177051:51f4</id>
+  <name>TEST_hillshade_geomorph</name>
+  <nativeName>TEST_hillshade_geomorph</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade</title>
+  <title>geomorph</title>
   <description>Generated from ImageMosaic</description>
-  <abstract>Hillshade (z-factor 5m) of bathymetry mosaics for Australian Marine Parks. To be used as a backdrop to geomorphology maps. Only AMPs with &gt;25% bathymetry coverage have been included.</abstract>
   <keywords>
     <string>geomorph</string>
     <string>WCS</string>
@@ -26,31 +25,20 @@
   <nativeBoundingBox>
     <minx>68.0619369896261</minx>
     <maxx>172.48757932056122</maxx>
-    <miny>-59.20013892273057</miny>
-    <maxy>-4.769894819596551</maxy>
+    <miny>-58.577337878231376</miny>
+    <maxy>-7.39045187413845</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>68.0619369896261</minx>
     <maxx>172.48757932056122</maxx>
-    <miny>-59.20013892273057</miny>
-    <maxy>-4.769894819596551</maxy>
+    <miny>-58.577337878231376</miny>
+    <maxy>-7.39045187413845</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">hillshade_geomorph_maps_geomorph</entry>
   </metadata>
@@ -62,17 +50,17 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>4129451 3181735</high>
+      <high>11143831 5462432</high>
     </range>
     <transform>
-      <scaleX>2.0</scaleX>
-      <scaleY>-2.0</scaleY>
+      <scaleX>9.370712594654267E-6</scaleX>
+      <scaleY>-9.370712594654267E-6</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4707042.39714158</translateX>
-      <translateY>-885553.2519595157</translateY>
+      <translateX>68.0619416749824</translateX>
+      <translateY>-7.390456559494748</translateY>
     </transform>
-    <crs>EPSG:3112</crs>
+    <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
@@ -92,11 +80,11 @@
       <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>0.0</min>
-        <max>255.0</max>
+        <min>-inf</min>
+        <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -104,15 +92,15 @@
     </coverageDimension>
   </dimensions>
   <requestSRS>
-    <string>EPSG:3112</string>
+    <string>EPSG:4326</string>
   </requestSRS>
   <responseSRS>
-    <string>EPSG:3112</string>
+    <string>EPSG:4326</string>
   </responseSRS>
   <parameters>
     <entry>
       <string>BackgroundValues</string>
-      <string>255</string>
+      <null/>
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
@@ -136,7 +124,7 @@
     </entry>
     <entry>
       <string>OutputTransparentColor</string>
-      <string>#FFFFFF</string>
+      <null/>
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
@@ -168,7 +156,7 @@
     </entry>
     <entry>
       <string>FootprintBehavior</string>
-      <null/>
+      <string>None</string>
     </entry>
   </parameters>
   <nativeCoverageName>geomorph</nativeCoverageName>

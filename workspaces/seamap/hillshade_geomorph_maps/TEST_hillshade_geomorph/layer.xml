@@ -1,0 +1,15 @@
+<layer>
+  <name>TEST_hillshade_geomorph</name>
+  <id>LayerInfoImpl--50c28d0e:182af177051:51f5</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--50c28d0e:182af177051:59a9</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--50c28d0e:182af177051:51f4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
