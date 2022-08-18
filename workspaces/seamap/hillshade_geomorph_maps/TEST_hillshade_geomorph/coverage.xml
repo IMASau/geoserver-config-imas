@@ -84,7 +84,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -124,7 +124,7 @@
     </entry>
     <entry>
       <string>OutputTransparentColor</string>
-      <null/>
+      <string>#000000</string>
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
@@ -140,7 +140,7 @@
     </entry>
     <entry>
       <string>InputTransparentColor</string>
-      <null/>
+      <string>#FFFFFF</string>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
