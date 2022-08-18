@@ -23,7 +23,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
            		  </Label>                  
                   <Font>
            			<CssParameter name="font-family">SansSerif.plain</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
+           			<CssParameter name="font-size">11</CssParameter>								
           		  </Font>
                    <LabelPlacement>
            			<PointPlacement>
