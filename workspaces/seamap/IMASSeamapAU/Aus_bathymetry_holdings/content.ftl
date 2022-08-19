@@ -90,7 +90,11 @@ td {
 
 		<TD class="specialcntr">
 			<#if startdate?has_content>
-${survey}
+				<#if today < status>
+					<i>in progress</i>
+				<#else>
+					${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
+				</#if>
 			<#else>
 			-
 			</#if>
