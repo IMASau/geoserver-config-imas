@@ -1,18 +1,28 @@
 <head>
+<style>
+</style>
 </head>
+
 <body>
 
-<#setting date_format="dd-mm-yyyy">
 
+<#setting date_format="yyyy">
 
 	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
 
-	<#if (feature_index <10)> 
+	<#assign today = .now?long >
+	<#assign survey = feature.end_date.rawValue?long>
 
+	<#if (feature_index <1)> 
 
-Current date: ${.now}
-survey date: ${feature.end_date.value}
+<#if today < survey>
+in progress
+<#else>
+complete
+</#if>
 
 </#if>
 </#list>
+
+
 </body>
