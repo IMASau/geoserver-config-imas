@@ -61,8 +61,6 @@ td {
 		<#assign startdate=feature.start_date.value>
 		<#assign enddate=feature.end_date.value>
 		<#assign today = .now?long >
-		<#assign status = feature.end_date.rawValue?long>
-
 
 		<#if (feature_index < 10)> 
 
@@ -90,7 +88,7 @@ td {
 
 		<TD class="specialcntr">
 			<#if startdate?has_content>
-				<#if today < status>
+				<#if today < feature.end_date.rawValue?long>
 					<i>in progress</i>
 				<#else>
 					${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
