@@ -4,7 +4,7 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
 <NamedLayer>
 	<Name>raster_layer</Name>
 	<UserStyle>
-		<Title>A custom raster style for hillshade to roughly approximate ArcGIS default stretching (0.5 percent clip)</Title>
+		<Title>A default raster style (for hillshade etc)</Title>
 		<FeatureTypeStyle>
 	        <FeatureTypeName>Feature</FeatureTypeName>
 			<Rule>
@@ -15,6 +15,8 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
               <ColorMapEntry color="#666666" quantity="150"/>                            
               <ColorMapEntry color="#bfbfbf" quantity="200"/>              
               <ColorMapEntry color="#ffffff" quantity="254"/>
+              <ColorMapEntry color="#ffffff" quantity="255" opacity="0"/>
+              
             </ColorMap>
           </RasterSymbolizer>
               
