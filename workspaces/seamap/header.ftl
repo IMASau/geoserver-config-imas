@@ -1,5 +1,5 @@
 <html>
-<style type="text/css">
+<style>
 a {
 	color: #000;
 }
@@ -19,17 +19,18 @@ table {
 th, td {
 	font-weight: normal;
 	text-align: left;
+	padding:5px;
 }
 
 th {
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 8px 0;
+	padding:5px;
 }
 
 td {
 	border-top: 1px solid #ededed;
-	padding: 8px 0;
+	padding:5px;
 }
 
 
