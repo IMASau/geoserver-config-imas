@@ -8,7 +8,6 @@
 		<th style="padding:5px">Location</th>
 		<th style="padding:5px; text-align:center">Method</th>
 		<th style="padding:5px; text-align:center">Date</th>
-		<th style="padding:5px; text-align:center">Time</th>
 		<th style="padding:5px; text-align:center">Depth (m)</th>
 		<th style="padding:5px; text-align:center">Availibility</th>
 	</TR>
@@ -42,10 +41,6 @@
 
 		<TD style="padding:5px; text-align:center">
 			${feature.deployment_date.value?date("dd/mm/yy")?date}
-		</TD>
-
-		<TD style="padding:5px; text-align:center">
-			${feature.deployment_time.value}
 		</TD>
     
                  

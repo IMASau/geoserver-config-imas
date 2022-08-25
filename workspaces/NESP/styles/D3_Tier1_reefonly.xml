@@ -1,6 +1,6 @@
 <style>
-  <id>StyleInfoImpl-19c3df12:180c6c8e7e2:-580a</id>
-  <name>D3_Tier1_reduced</name>
+  <id>StyleInfoImpl--4deef15:182d700e386:16b3</id>
+  <name>D3_Tier1_reefonly</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>D3_Tier1_reduced.sld</filename>
+  <filename>D3_Tier1_reefonly.sld</filename>
 </style>
