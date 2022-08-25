@@ -1,7 +1,7 @@
 <html>
 <style>
 a {
-	color: #000;
+	color: blue;
 }
 
 a:hover {

@@ -1,19 +1,9 @@
 <head>
 <style>
 
-th {
-  text-align: left;
-  padding:5px;
-  white-space:nowrap
-}
-
-td {
-  text-align:left;
-  padding:5px;
-}
-
 .wrapping {
-  white-space:normal;
+  word-wrap: break-word;
+  text-align:right;
 }
 
 .specialcntr {
@@ -21,9 +11,6 @@ td {
 }
 
 
-.div-table {
-  color: black;
-}
 
 </style>
 </head>
@@ -41,7 +28,7 @@ td {
 		<th>Collection name</th>
 		<th class="specialcntr">Date range</th>
 		<th class="specialcntr">Resolution</th>
-		<th class="wrapping">Marine Park(s)</th>
+		<th class="specialcntr">Marine Park(s)</th>
 		<th class="specialcntr">Data availability</th>
 		<th class="specialcntr">Collected by</th>
 		<th>Point of contact</th>		
