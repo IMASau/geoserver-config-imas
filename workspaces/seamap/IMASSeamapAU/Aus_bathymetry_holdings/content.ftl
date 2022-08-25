@@ -6,8 +6,8 @@
   text-align:right;
 }
 
-.specialcntr {
-  text-align:center;
+.table th.specialcntr {
+  text-align:right;
 }
 
 
@@ -23,8 +23,7 @@
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black" border="1">
 
-<THEAD>
-	<TR class="AusSeabed bathymetry holdings headers" style='background-color:#b3d9ff; border:1.5pt solid black'>
+	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th>Collection name</th>
 		<th class="specialcntr">Date range</th>
 		<th class="specialcntr">Resolution</th>
@@ -34,7 +33,6 @@
 		<th>Point of contact</th>		
 		<th>Info</th>
 	</TR>
-</THEAD>
 
 	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
 
@@ -52,8 +50,7 @@
 		<#if (feature_index < 10)> 
 
 
-<TBODY>
-	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
 		<TD >
 			<#if collection?has_content>
@@ -141,7 +138,6 @@
 		</TD>    
 
 	</TR>
-</TBODY>
 
 		</#if>
 	</#list>
