@@ -1,3 +1,5 @@
+<#setting date_format="dd-mm-yyyy">
+
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
 
 <THEAD>
@@ -39,7 +41,7 @@
 		</TD>
 
 		<TD style="padding:5px; text-align:center">
-			${feature.deployment_date.value}
+			${feature.deployment_date.value?date("dd/mm/yy")?date}
 		</TD>
 
 		<TD style="padding:5px; text-align:center">
@@ -70,10 +72,15 @@
      
 	</TR>
 </TBODY>
-
-		<#else>
-			<h3>More deployments exist at this location</h3><br>
-		<#break>
-		</#if>
+	</#if>
 	</#list>
 </TABLE>
+
+<#list features as feature_counter>
+	<#if (feature_counter_index <10)> 
+		<#else>
+			<p><i>More than ten deployments exist at this location.</i></p>
+		<#break>
+
+	</#if>
+</#list>
