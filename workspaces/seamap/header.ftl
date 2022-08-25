@@ -1,7 +1,7 @@
 <html>
 <style>
 a {
-	color: blue;
+	color: CornflowerBlue;
 }
 
 a:hover {

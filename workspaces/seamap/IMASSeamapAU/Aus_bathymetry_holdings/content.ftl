@@ -1,16 +1,17 @@
 <head>
 <style>
 
-.wrapping {
+td.wrapping {
   word-wrap: break-word;
-  text-align:right;
 }
 
-.table th.specialcntr {
-  text-align:right;
+th.specialcntr {
+  text-align:center;
 }
 
-
+td.specialcntr {
+  text-align:center;
+}
 
 </style>
 </head>
