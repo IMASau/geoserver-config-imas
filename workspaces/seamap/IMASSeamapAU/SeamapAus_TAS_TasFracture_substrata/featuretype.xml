@@ -1,15 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--771e51da:162dadc6eca:-4460</id>
-  <name>GEOMORPHOLOGY_Tasman_Fracture</name>
-  <nativeName>GEOMORPH_TasFracture</nativeName>
+  <id>FeatureTypeInfoImpl--4deef15:182d81168fe:5bb5</id>
+  <name>SeamapAus_TAS_TasFracture_substrata</name>
+  <nativeName>SeamapAus_TAS_TasFracture_substrata</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Tasman Fracture CMR geomorphology</title>
+  <title>Seamap Australia - TAS - Tasman Fracture AMP substrata from from multibeam bathymetry</title>
   <keywords>
-    <string>habitat mapping</string>
-    <string>geomorphology</string>
-    <string>Seamap Australia</string>
+    <string>features</string>
+    <string>SeamapAus_TAS_TasFracture_substrata</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,22 +35,21 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>143.7268973882112</minx>
-    <maxx>147.05116353512096</maxx>
-    <miny>-46.981008382366475</miny>
-    <maxy>-43.231253437207165</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>811610.386330561</minx>
+    <maxx>1047524.7121063842</maxx>
+    <miny>-5313234.125836129</miny>
+    <maxy>-4916376.2127892</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>143.7268973882112</minx>
-    <maxx>147.05116353512096</maxx>
-    <miny>-46.981008382366475</miny>
-    <maxy>-43.231253437207165</maxy>
+    <minx>811610.386330561</minx>
+    <maxx>1047524.7121063842</maxx>
+    <miny>-5313234.125836129</miny>
+    <maxy>-4916376.2127892</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

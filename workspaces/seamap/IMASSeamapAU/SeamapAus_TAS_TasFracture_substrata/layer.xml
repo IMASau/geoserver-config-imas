@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_TAS_TasFracture_substrata</name>
+  <id>LayerInfoImpl--4deef15:182d81168fe:5bb6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5bc17bf2:17eb7720de7:2608</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4deef15:182d81168fe:5bb5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
