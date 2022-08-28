@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - TAS - Huon AMP substrata</h5>
+	<h5>Habitat - TAS - Tasman Fracture AMP substrata</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
