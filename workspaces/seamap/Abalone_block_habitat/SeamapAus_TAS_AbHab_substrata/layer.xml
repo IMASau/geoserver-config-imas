@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_TAS_AbHab_substrata</name>
+  <id>LayerInfoImpl-6e3ee927:182e95da3aa:-7ffd</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6e3ee927:182e95da3aa:-7fff</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6e3ee927:182e95da3aa:-7ffe</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

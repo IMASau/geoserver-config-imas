@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--1295cef3:17d46d4a7c7:-7fe8</id>
-  <name>SeamapAus_TAS_AbHab</name>
+  <name>SeamapAus_TAS_AbHab_vector</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_TAS_AbHab.sld</filename>
+  <filename>SeamapAus_TAS_AbHab_vector.sld</filename>
 </style>

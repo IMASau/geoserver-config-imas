@@ -1,11 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1295cef3:17d4610413e:6a83</id>
-  <name>SeamapAus_TAS_AbHab_substrata</name>
+  <name>SeamapAus_TAS_AbHab_substrata_DATA</name>
   <nativeName>SeamapAus_TAS_AbHab_substrata</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - TAS - Abalone habitat finescale substratum (UTAS)</title>
+  <title>Seamap Australia - TAS - Abalone habitat finescale substratum DATA</title>
+  <abstract>NOT FOR MAPPING PUBLICATION - full vectorised version</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_TAS_AbHab_substrata</string>
