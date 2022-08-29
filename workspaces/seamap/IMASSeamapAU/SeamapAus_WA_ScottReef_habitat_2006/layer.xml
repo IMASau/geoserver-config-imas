@@ -1,0 +1,15 @@
+<layer>
+  <name>SeamapAus_WA_ScottReef_habitat_2006</name>
+  <id>LayerInfoImpl-6e3ee927:182ebbfc2b7:2d6a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--50c28d0e:182ac12b2e9:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6e3ee927:182ebbfc2b7:2d69</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
