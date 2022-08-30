@@ -5,13 +5,13 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1400px; table-layout: fixed;" border="1">
-	<col width="27%" />
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1350px; table-layout: fixed;" border="1">
+	<col width="26.5%" />
 	<col width="7%" />
 	<col width="7%" />
-  	<col width="18%" />
-	<col width="9%" />
-	<col width="10%" />
+  	<col width="20%" />
+	<col width="9.5%" />
+	<col width="8%" />
   	<col width="15%" />
 	<col width="7%" />
 
