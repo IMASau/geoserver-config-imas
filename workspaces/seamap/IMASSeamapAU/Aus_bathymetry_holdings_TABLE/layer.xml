@@ -1,0 +1,15 @@
+<layer>
+  <name>Aus_bathymetry_holdings_TABLE</name>
+  <id>LayerInfoImpl-6e3ee927:182ec3a5568:-5af5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1926d766:1812959a57e:-795b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6e3ee927:182ec3a5568:-5af6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
