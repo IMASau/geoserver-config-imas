@@ -5,7 +5,16 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; " border="1">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1400px; table-layout: fixed;" border="1">
+	<col width="27%" />
+	<col width="7%" />
+	<col width="7%" />
+  	<col width="18%" />
+	<col width="9%" />
+	<col width="10%" />
+  	<col width="15%" />
+	<col width="7%" />
+
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th>Collection name</th>
@@ -36,7 +45,7 @@
 
 	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD >
+		<TD style="white-space: normal">
 			<#if collection?has_content>
 				<#if feature.dtype.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -74,7 +83,7 @@
 			</#if>
 		</TD>     
                  
-		<TD style="word-wrap:break-word">
+		<TD style="white-space: normal">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
@@ -97,7 +106,7 @@
 		</TD> 
 		
 
-		<TD>
+		<TD style="white-space: normal">
 			<#if collectedby?has_content>
 				${feature.collecting_org.value}
 			<#else>
@@ -105,7 +114,7 @@
 			</#if> 
 		</TD> 
 
-		<TD >
+		<TD style="white-space: normal">
 			<#if POC?has_content>
 				${feature.pointofcontact.value}
 			<#else>
