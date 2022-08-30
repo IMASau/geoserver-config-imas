@@ -1,4 +1,4 @@
-<html>
+<head>
 <style>
 a {
 	color: CornflowerBlue;
@@ -101,3 +101,4 @@ i {
 	margin: 0 3px;
 }
 </style>
+</head>

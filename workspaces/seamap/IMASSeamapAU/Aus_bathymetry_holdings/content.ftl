@@ -1,20 +1,11 @@
-<head>
 <style>
 
 td.wrapping {
   word-wrap: break-word;
 }
 
-th.specialcntr {
-  text-align:center;
-}
-
-td.specialcntr {
-  text-align:center;
-}
 
 </style>
-</head>
 
 <body>
 
@@ -26,8 +17,8 @@ td.specialcntr {
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th>Collection name</th>
-		<th class="specialcntr">Date range</th>
-		<th class="specialcntr">Resolution</th>
+		<th style="text-align: center">Date range</th>
+		<th style="text-align: center">Resolution</th>
 		<th class="specialcntr">Marine Park(s)</th>
 		<th class="specialcntr">Data availability</th>
 		<th class="specialcntr">Collected by</th>
@@ -71,7 +62,7 @@ td.specialcntr {
 			</#if>
 		</TD>
 
-		<TD class="specialcntr">
+		<TD style="text-align: center">
 			<#if startdate?has_content>
 				<#if today < feature.end_date.rawValue?long>
 					<i>in progress</i>
@@ -83,7 +74,7 @@ td.specialcntr {
 			</#if>
 		</TD>
 
-		<TD class="specialcntr">
+		<TD style="text-align: center">
 			<#if resolution?has_content>
 				${feature.RESOLUTION.value}
 			<#else>
@@ -91,7 +82,7 @@ td.specialcntr {
 			</#if>
 		</TD>     
                  
-		<TD class="wrapping">
+		<TD style="width:110px; word-wrap: break-word">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
