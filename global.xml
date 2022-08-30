@@ -26,7 +26,7 @@
   </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
-    <recycling>true</recycling>
+    <recycling>false</recycling>
     <tilePriority>5</tilePriority>
     <tileThreads>7</tileThreads>
     <memoryCapacity>0.5</memoryCapacity>
@@ -70,7 +70,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>18588</updateSequence>
+  <updateSequence>18589</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
