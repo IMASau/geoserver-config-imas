@@ -1,11 +1,3 @@
-<style>
-
-td.wrapping {
-  word-wrap: break-word;
-}
-
-
-</style>
 
 <body>
 
@@ -13,15 +5,15 @@ td.wrapping {
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black" border="1">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; " border="1">
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th>Collection name</th>
 		<th style="text-align: center">Date range</th>
 		<th style="text-align: center">Resolution</th>
-		<th class="specialcntr">Marine Park(s)</th>
-		<th class="specialcntr">Data availability</th>
-		<th class="specialcntr">Collected by</th>
+		<th>Marine Park(s)</th>
+		<th>Data availability</th>
+		<th>Collected by</th>
 		<th>Point of contact</th>		
 		<th>Info</th>
 	</TR>
@@ -82,7 +74,7 @@ td.wrapping {
 			</#if>
 		</TD>     
                  
-		<TD style="width:110px; word-wrap: break-word">
+		<TD style="word-wrap:break-word">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
@@ -92,7 +84,7 @@ td.wrapping {
 			</#if>
 		</TD>   
      
-		<TD class="specialcntr">
+		<TD>
 			<#if feature.data_dl.value == 'no'>
 				not available
 			<#elseif feature.data_dl.value == 'yes - other'>
@@ -105,7 +97,7 @@ td.wrapping {
 		</TD> 
 		
 
-		<TD class="specialcntr">
+		<TD>
 			<#if collectedby?has_content>
 				${feature.collecting_org.value}
 			<#else>
