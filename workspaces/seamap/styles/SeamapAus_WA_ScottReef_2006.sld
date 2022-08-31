@@ -154,16 +154,16 @@
 	  
 	  
         <Rule>
-          <Title>Deep-water communities</Title>
+          <Title>Deep-water coral assemblage</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep Water Communities</ogc:Literal>
+              <ogc:Literal>Deep Water Coral Assemblage</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#4d79ff</CssParameter>
+              <CssParameter name="fill">#4da6ff</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
