@@ -123,7 +123,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef Flat</ogc:Literal>
+              <ogc:Literal>Reef flat</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <PolygonSymbolizer>

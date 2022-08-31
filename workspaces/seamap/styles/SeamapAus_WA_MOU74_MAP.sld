@@ -37,11 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sand (intertidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#E8C7AE</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -56,13 +52,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sand (subtidal)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
-              <CssParameter name="fill">#A68C73</CssParameter>
+              <CssParameter name="fill">#FFF9A5</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -75,13 +67,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sandy intermediate</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
-              <CssParameter name="fill">#acac53</CssParameter>
+              <CssParameter name="fill">#9b9b4b</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -94,17 +82,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Reef flat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-		  <MaxScaleDenominator>8000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
-              <CssParameter name="fill">#ff8000</CssParameter>
+              <CssParameter name="fill">#c6a953</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>			
         <Rule>
           <Title>Reef crest</Title>
           <ogc:Filter>
