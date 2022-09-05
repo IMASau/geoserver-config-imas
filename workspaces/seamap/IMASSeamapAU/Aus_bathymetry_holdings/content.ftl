@@ -5,14 +5,14 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1350px; table-layout: fixed;" border="1">
-	<col width="26.5%" />
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1250px; table-layout: fixed;" border="1">
+	<col width="28%" />
 	<col width="7%" />
 	<col width="7%" />
-  	<col width="20%" />
-	<col width="9.5%" />
-	<col width="8%" />
-  	<col width="15%" />
+  	<col width="18.5%" />
+	<col width="10%" />
+	<col width="8.5%" />
+  	<col width="14%" />
 	<col width="7%" />
 
 
@@ -83,7 +83,7 @@
 			</#if>
 		</TD>     
                  
-		<TD style="white-space: normal">
+		<TD style="white-space: normal; font-size:11px">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
@@ -93,7 +93,7 @@
 			</#if>
 		</TD>   
      
-		<TD>
+		<TD style="font-size:11px">
 			<#if feature.data_dl.value == 'no'>
 				not available
 			<#elseif feature.data_dl.value == 'yes - other'>
@@ -106,7 +106,7 @@
 		</TD> 
 		
 
-		<TD style="white-space: normal">
+		<TD style="white-space: normal; font-size:11px">
 			<#if collectedby?has_content>
 				${feature.collecting_org.value}
 			<#else>
@@ -114,7 +114,7 @@
 			</#if> 
 		</TD> 
 
-		<TD style="white-space: normal">
+		<TD style="white-space: normal; font-size:11px">
 			<#if POC?has_content>
 				${feature.pointofcontact.value}
 			<#else>
@@ -122,7 +122,7 @@
 			</#if> 
 		</TD>  		
 
-		<TD >
+		<TD style="font-size:11px">
 			<#if metadata?has_content>
 				<a rel="external" href="${feature.METADATA.value}" target="_blank">view metadata</a>
 			<#else>
