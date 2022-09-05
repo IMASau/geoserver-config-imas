@@ -206,7 +206,22 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
-        </sld:Rule>  		
+        </sld:Rule>
+        <sld:Rule>		
+          <sld:Title>      Mixed Invertebrate Community</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Invertebrate Community</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#9c2d86</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
+        </sld:Rule>	  		
         <sld:Rule>		
           <sld:Title>   Microbes</sld:Title>		
           <ogc:Filter>		
