@@ -1,11 +1,20 @@
 <#list features as feature>
+
+	<#assign depth_numeric=feature.GRAY_INDEX.value?number>
+
 	<#if (feature_index < 1) >
-		<div class="feature">
-		<#if feature.GRAY_INDEX.rawValue?string("0") == '-340282306073709650000000000000000000000'>
-			<i>Click is outside area of bathymetry data coverage</i><BR>
-		<#else>
-			<b>Depth:</b> ${feature.GRAY_INDEX.rawValue?string("0.0")} m<BR>		
-		</#if>
-		</div>
-  </#if>
+
+
+	<#if (depth_numeric > 0) || (depth_numeric < -10000) >
+	<#else>
+
+	<div class="feature">
+			<br><b>Depth:</b> ${feature.GRAY_INDEX.rawValue?substring(1)} m		
+			<BR><BR>
+	 </div>	
+ 	</#if>
+	
+  	</#if>
 </#list>
+
+
