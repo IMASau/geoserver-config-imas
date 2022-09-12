@@ -1,12 +1,12 @@
 <layer>
   <name>AbHab_bathy_50cm</name>
-  <id>LayerInfoImpl--1295cef3:17d3575c0f1:41a9</id>
+  <id>LayerInfoImpl-f91f708:1833105a0c4:-7fff</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--1295cef3:17d3575c0f1:45d7</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--1295cef3:17d3575c0f1:41a8</id>
+    <id>CoverageInfoImpl-f91f708:1833105a0c4:-8000</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

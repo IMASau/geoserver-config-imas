@@ -15,7 +15,7 @@
       <id>LayerInfoImpl--1295cef3:17d4c36cfbe:-2ea8</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--1295cef3:17d3575c0f1:41a9</id>
+      <id>LayerInfoImpl-f91f708:1833105a0c4:-7fff</id>
     </published>
   </publishables>
   <styles>
@@ -30,10 +30,10 @@
     </style>
   </styles>
   <bounds>
-    <minx>573142.75</minx>
-    <maxx>616443.75</maxx>
-    <miny>5213458.25</miny>
-    <maxy>5444677.25</maxy>
+    <minx>570780.804795553</minx>
+    <maxx>620328.5836135842</maxx>
+    <miny>5212854.123473871</miny>
+    <maxy>5445238.887374603</maxy>
     <crs class="projected">EPSG:32755</crs>
   </bounds>
 </layerGroup>

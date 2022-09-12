@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl--1295cef3:17d3575c0f1:41a8</id>
+  <id>CoverageInfoImpl-f91f708:1833105a0c4:-8000</id>
   <name>AbHab_bathy_50cm</name>
-  <nativeName>abalone_habitat_bathy_50cm</nativeName>
+  <nativeName>AbHab_bathy_50cm</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
@@ -9,7 +9,7 @@
   <description>Generated from ImageMosaic</description>
   <abstract>Abalone Habitat and Warming Reefs projects - 50cm resolution multibeam bathymetry split by fishing block (22, 23, 24, 27, 28, 29, 30).</abstract>
   <keywords>
-    <string>bathy_50cm</string>
+    <string>bathy</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -53,7 +53,7 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Abalone_block_bathy_50cm_bathy_50cm</entry>
+    <entry key="dirName">Abalone_block_bathy_50cm_bathy</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--1295cef3:17d3575c0f1:4193</id>
@@ -96,9 +96,6 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <nullValues>
-        <double>-3.4028230607370965E38</double>
-      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -172,5 +169,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>bathy_50cm</nativeCoverageName>
+  <nativeCoverageName>bathy</nativeCoverageName>
 </coverage>
