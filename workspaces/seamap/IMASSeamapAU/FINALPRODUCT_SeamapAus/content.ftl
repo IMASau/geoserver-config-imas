@@ -1,3 +1,5 @@
+<body>
+
 <style> 
 div.a {
     white-space: normal; 
@@ -10,7 +12,6 @@ div.a:hover {
     overflow: visible;
 }
 </style>
-<body>
 
 <#list features as feature>
 <#if (feature_index < 1) >
