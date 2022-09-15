@@ -16,7 +16,7 @@ div.a:hover {
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia - V2</h5>
+<h5>Seamap Australia 2017</h5>
 <BR>
   <div class="feature">
 
