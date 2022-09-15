@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-3f118783:17ebeec14b9:-7f0f</id>
-  <name>SeamapAus_QLD_MoretonBay_coralalgal</name>
+  <name>SeamapAus_QLD_MoretonBay_benthic_inventory_2016</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,5 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_QLD_MoretonBay_coralalgal.sld</filename>
+  <filename>SeamapAus_QLD_MoretonBay_benthic_inventory_2016.sld</filename>
 </style>
