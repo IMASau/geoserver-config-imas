@@ -356,6 +356,21 @@ xmlns:gml="http://www.opengis.net/gml">
               <sld:CssParameter name="fill-opacity">1.0</sld:CssParameter>		
             </sld:Fill>		
           </sld:PolygonSymbolizer>		
+        </sld:Rule>	
+        <sld:Rule>		
+          <sld:Title>      Mixed Vegetation</sld:Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Vegetation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <sld:PolygonSymbolizer>		
+            <sld:Fill>		
+              <sld:CssParameter name="fill">#7e8000</sld:CssParameter>		
+              <sld:CssParameter name="fill-opacity">1.0</sld:CssParameter>		
+            </sld:Fill>		
+          </sld:PolygonSymbolizer>		
         </sld:Rule>			
         <sld:Rule>		
           <sld:Title>      Wetland Vegetation</sld:Title>		
