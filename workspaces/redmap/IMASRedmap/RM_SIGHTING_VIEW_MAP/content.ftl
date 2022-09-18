@@ -14,7 +14,7 @@
 		<b>Redmap-listed species:</b> ${feature.SPECIES.value} (${feature.COMMON_NAME.value})<BR><BR>
 		<a href="${my.baseurlSpecies}${feature.MB_SPECIES_ID.value}" target="_blank">
 			<img class="spaced" style="max-width:200px!important" src="${my.baseRMImage}${feature.PICTURE_URL.value}" alt="no image available"></a><BR>
-		<h6>Image credit:</h6> ${feature.IMAGE_CREDIT.value}<BR><BR>		
+		<h6>Image credit: ${feature.IMAGE_CREDIT.value}</h6><BR>	
   </#if>	
   
  </div>

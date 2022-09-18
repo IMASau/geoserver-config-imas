@@ -28,17 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>143.749999</minx>
-    <maxx>149.000001</maxx>
-    <miny>-43.250001</miny>
-    <maxy>-38.999999</maxy>
+    <minx>105.49999789</minx>
+    <maxx>168.50000337</maxx>
+    <miny>-47.00000094</miny>
+    <maxy>-4.49999991</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>143.749999</minx>
-    <maxx>149.000001</maxx>
-    <miny>-43.250001</miny>
-    <maxy>-38.999999</maxy>
+    <minx>105.49999789</minx>
+    <maxx>168.50000337</maxx>
+    <miny>-47.00000094</miny>
+    <maxy>-4.49999991</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
@@ -62,6 +62,9 @@
     <id>DataStoreInfoImpl--49b8387a:13923c68d98:-7f4d</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <cqlFilter>(LONGITUDE&gt;90 AND LONGITUDE&lt;175)&#xd;
+AND &#xd;
+(LATITUDE&lt;0 AND LATITUDE&gt;-50)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
