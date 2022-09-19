@@ -9,6 +9,8 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl--227ee776:1818ba2a0a7:-798f</id>
@@ -25,7 +27,7 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
+      <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
     </style>
     <style>
       <id>StyleInfoImpl--1295cef3:17d21cb61bd:20dc</id>
@@ -48,4 +50,5 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2022-09-19 08:18:40.23 UTC</dateModified>
 </layerGroup>

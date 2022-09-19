@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"> 
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>seamap:mosaiced_bathymetry_AMP</Name>
+    <Name>Depth colour ramp</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>200000</MaxScaleDenominator>                                        		            
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-8000" label="Depth (m)"/>                                          
@@ -30,6 +29,7 @@
               <ColorMapEntry color="#c52603" opacity="0.7" label="-20" quantity="-20"/>
               <ColorMapEntry color="#a21201" opacity="0.7" label="-10" quantity="-10"/>
               <ColorMapEntry color="#7a0403" opacity="0.7" label="-1" quantity="-1"/>
+              <ColorMapEntry color="#000000" opacity="0.0" quantity="0"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
