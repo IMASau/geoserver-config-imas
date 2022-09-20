@@ -47,9 +47,9 @@
 		<TD style="padding:5px; text-align:center">
 			<#if depth?has_content>
 				<#if depth <0 >
-					${feature.depth.rawValue *-1?string("0.0")}
+					${(feature.depth.rawValue *-1)?string("0.0")}
 				<#else>
-					${feature.depth.rawValue}
+					${feature.depth.rawValue?string("0.0")}
 				</#if>
 			<#else>
 				-

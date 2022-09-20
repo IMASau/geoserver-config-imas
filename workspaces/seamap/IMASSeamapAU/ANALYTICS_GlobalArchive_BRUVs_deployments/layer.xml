@@ -1,16 +1,17 @@
 <layer>
   <name>ANALYTICS_GlobalArchive_BRUVs_deployments</name>
-  <id>LayerInfoImpl--6008cda0:18122cb20c0:6c52</id>
+  <id>LayerInfoImpl--6ccc1586:183588f7420:4408</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--6008cda0:18122cb20c0:6e6f</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--6008cda0:18122cb20c0:6c51</id>
+    <id>FeatureTypeInfoImpl--6ccc1586:183588f7420:4407</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2022-09-20 01:42:04.70 UTC</dateModified>
+  <dateCreated>2022-09-20 04:49:20.15 UTC</dateCreated>
+  <dateModified>2022-09-20 04:50:45.327 UTC</dateModified>
 </layer>
