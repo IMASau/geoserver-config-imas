@@ -50,7 +50,8 @@
               </Mark>
               <Size>6</Size>				
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>            
         </Rule>	
         <Rule>
           <Title>Dredge - zoomed out</Title>
@@ -77,7 +78,8 @@
               </Mark>
               <Size>6</Size>				
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>	
         <Rule>
           <Title>Grab - zoomed out</Title>
@@ -104,7 +106,8 @@
               </Mark>
               <Size>6</Size>				
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>   
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>		
         <Rule>
           <Title>Other - zoomed out</Title>
@@ -153,6 +156,7 @@
                  </Graphic>
                  <VendorOption name="inclusion">legendOnly</VendorOption>
               </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
            </Rule>		
         <Rule>
           <Title>Core</Title>
@@ -311,7 +315,8 @@
               </Mark>
               <Size>12</Size>				
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>     
+         <VendorOption name="inclusion">mapOnly</VendorOption>            		  
         </Rule>	
         <Rule>
           <Title>Dredge - zoomed in</Title>
@@ -338,7 +343,8 @@
               </Mark>
               <Size>12</Size>				
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>            		  
         </Rule>	
         <Rule>
           <Title>Grab - zoomed in</Title>
@@ -365,7 +371,8 @@
               </Mark>
               <Size>12</Size>				
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>            		  
         </Rule>		
         <Rule>
           <Title>Other - zoomed in</Title>
@@ -413,11 +420,9 @@
               <Size>12</Size>				
                  </Graphic>
               </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
            </Rule>	
 	
- 
- 
-
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
