@@ -1,17 +1,4 @@
-<style> 
-div.a {
-    white-space: normal; 
-    width: 500px; 
-    overflow: hidden;
-    text-overflow:ellipsis;
-}
-
-div.a:hover {
-    overflow: visible;
-}
-</style>
 <body>
-
 <#list features as feature>
 <#if (feature_index < 1) >
 
