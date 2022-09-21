@@ -1,0 +1,16 @@
+<layer>
+  <name>Aus_bathymetry_holdings_OLD</name>
+  <id>LayerInfoImpl-50e6ef9f:17cace9100c:61d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-50e6ef9f:17cace9100c:61c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateModified>2022-09-21 09:30:29.783 UTC</dateModified>
+</layer>

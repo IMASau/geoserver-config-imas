@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-50e6ef9f:17cace9100c:61c</id>
+  <id>FeatureTypeInfoImpl--46f7f65a:1835e95e5b6:-3a32</id>
   <name>Aus_bathymetry_holdings</name>
   <nativeName>Aus_bathymetry_survey_extents_PUBLISHED</nativeName>
   <namespace>
@@ -9,7 +9,7 @@
   <abstract>Extent and data availability status of Australian bathymetry surveys. Coverage extracted primarily from AusSeabed layers &quot;AusSeabed Bathymetry Holdings (by survey)&quot; and &quot;AusSeabed Bathymetry Holdings (compilations)&quot; with some minor additional coverage for more recent surveys (2021-present), from data held by IMAS that has not yet been published by AusSeabed, and from AHO Hydroscheme 2020 &amp; 2021. Coverage shows both surveys and modelled bathymetry grids. Survey extents have been styled according to effective (usable) gridded resolution of data.</abstract>
   <keywords>
     <string>features</string>
-    <string>AusSeabed_bathy_extents_published</string>
+    <string>Aus_bathymetry_survey_extents_PUBLISHED</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -37,8 +37,8 @@
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
     <minx>-1.200420291E7</minx>
-    <maxx>9888076.036699988</maxx>
-    <miny>-1.0479224152399998E7</miny>
+    <maxx>9888076.036700003</maxx>
+    <miny>-1.04792241524E7</miny>
     <maxy>6744209.831900001</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
@@ -49,9 +49,8 @@
     <maxy>52.6857875672711</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -59,6 +58,7 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
