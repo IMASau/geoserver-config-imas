@@ -42,7 +42,7 @@
                     <VendorOption name="group">true</VendorOption> 
 					<VendorOption name="conflictResolution">false</VendorOption>
 			</TextSymbolizer>    
-					<VendorOption name="inclusion">mapOnly</VendorOption>                        
+		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>
  		<Rule>
 		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                             		  
@@ -72,7 +72,7 @@
 					<VendorOption name="conflictResolution">false</VendorOption>   
 					<VendorOption name="inclusion">mapOnly</VendorOption>                            
 			</TextSymbolizer>	
-					<VendorOption name="inclusion">mapOnly</VendorOption>                        
+		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>          
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
