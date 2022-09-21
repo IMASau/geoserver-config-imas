@@ -1,41 +1,3 @@
-<head>
-<style>
-
-
-th {
-  text-align: left;
-  padding-left:10px;
-  padding-right:10px;
-  padding-top:5px;
-  padding-bottom:5px;
-  white-space:nowrap
-}
-
-td {
-  text-align:left;
-  padding-left:10px;
-  padding-right:10px;
-}
-
-.td_main {
-  width: 100px;
-  overflow-wrap: anywhere;
-}
-
-.td_platform {
-  width: 120px;
-  white-space:normal
-}
-
-.td_date {
-  white-space:nowrap
-}
-
-</style>
-</head>
-
-<body>
-
 <#setting date_format="dd-mm-yyyy">
 <br>		
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black'>
@@ -50,13 +12,13 @@ td {
 </THEAD>	
 
 
+<TBODY>
 	<#list features as feature>
 
 		<#assign deploydate=feature.date.value>
 
 		<#if (feature_index < 5)> 
 
-<TBODY>
 	<TR>
 		<TD>
 			<div class="td_main"><b>${feature.campaign_name.value}</b></div>
@@ -87,9 +49,9 @@ td {
 	
 
 
-</TBODY>
 </#if>
 </#list>
+</TBODY>
 </TABLE>
 
 <#list features as feature_counter>
@@ -101,4 +63,3 @@ td {
 	</#if>
 </#list>
 <br>
-</body>

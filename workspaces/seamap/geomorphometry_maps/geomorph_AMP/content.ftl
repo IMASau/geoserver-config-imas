@@ -1,4 +1,3 @@
-<body>
 <#list features as feature>
 
 	<#assign geo_numeric=feature.GRAY_INDEX.value?number>
@@ -159,4 +158,3 @@
 	<BR>		
   </#if>
 </#list>
-</body>
