@@ -33,7 +33,7 @@
 		<#assign reserve=feature.AMP_RES.value>		
 		<#assign metadata=feature.METADATA.value>
 		<#assign surveyID=feature.surveyID.value>
-		<#assign resolution=feature.RESOLUTION.value>
+		<#assign resolution=feature.RES_ACTUAL.value>
 		<#assign collectedby=feature.collecting_org.value>						
 		<#assign POC=feature.pointofcontact.value>		
 		<#assign startdate=feature.start_date.value>
@@ -77,7 +77,7 @@
 
 		<TD style="text-align: center">
 			<#if resolution?has_content>
-				${feature.RESOLUTION.value}
+				${feature.RES_ACTUAL.value}m
 			<#else>
 				<i>unknown</i>
 			</#if>
