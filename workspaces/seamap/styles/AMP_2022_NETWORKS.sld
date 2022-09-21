@@ -33,7 +33,8 @@
                     <VendorOption name="partials">false</VendorOption>
 					<VendorOption name="group">false</VendorOption>
 					<VendorOption name="conflictResolution">true</VendorOption>
-			</TextSymbolizer>              
+			</TextSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
  		</Rule>         
         <Rule>
           <Title>Coral Sea</Title>

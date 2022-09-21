@@ -36,6 +36,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">-1</VendorOption>             
 			</TextSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
  		</Rule>
  		<Rule>
 		  <Title>Australian Marine Park boundary</Title>          

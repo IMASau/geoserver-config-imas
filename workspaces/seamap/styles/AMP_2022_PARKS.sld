@@ -41,6 +41,7 @@
 					<VendorOption name="spaceAround">-1</VendorOption> 
 					<VendorOption name="group">yes</VendorOption>              
 			</TextSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
  		</Rule>        
         
         <Rule>
