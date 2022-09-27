@@ -1,3 +1,5 @@
+<body>
+
 <#list features as feature>
 	
 	<h5>Australian Marine Parks 2022</h5>
@@ -7,3 +9,4 @@
   </div>		
 </#list>
 
+</body>

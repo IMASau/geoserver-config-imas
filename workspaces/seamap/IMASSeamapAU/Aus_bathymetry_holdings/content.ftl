@@ -1,6 +1,4 @@
 
-<body>
-
 
 <#setting date_format="yyyy">
 
@@ -145,5 +143,3 @@
 
 	</#if>
 </#list>
-
-</body>
