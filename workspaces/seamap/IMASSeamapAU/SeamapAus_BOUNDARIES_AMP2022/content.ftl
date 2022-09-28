@@ -1,4 +1,3 @@
-<body>
 
 <#list features as feature>
 	
@@ -8,5 +7,3 @@
 		<BR><BR>
   </div>		
 </#list>
-
-</body>

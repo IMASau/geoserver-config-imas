@@ -1,5 +1,7 @@
 <html>
-<head>
+  <head>
+    <title>GeoServer GetFeatureInfo output</title>
+  </head>
 <style>
 a {
 	color: CornflowerBlue;
@@ -102,4 +104,4 @@ i {
 	margin: 0 3px;
 }
 </style>
-</head>
+<body>
