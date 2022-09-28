@@ -5,5 +5,5 @@
 		<div class="feature"><br>
 		<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} network</i>)		
 		<BR><BR>
-  </div>		
+ 		 </div>		
 </#list>
