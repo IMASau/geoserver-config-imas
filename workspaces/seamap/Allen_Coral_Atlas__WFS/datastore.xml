@@ -1,0 +1,31 @@
+<dataStore>
+  <id>DataStoreInfoImpl-3b5a07cc:18386287882:-7329</id>
+  <name>Allen_Coral_Atlas__WFS</name>
+  <type>Web Feature Server (NG)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="WFSDataStoreFactory:TRY_GZIP">true</entry>
+    <entry key="WFSDataStoreFactory:GML_COMPATIBLE_TYPENAMES">false</entry>
+    <entry key="WFSDataStoreFactory:LENIENT">false</entry>
+    <entry key="usedefaultsrs">false</entry>
+    <entry key="WFSDataStoreFactory:AXIS_ORDER">Compliant</entry>
+    <entry key="WFSDataStoreFactory:PROTOCOL">false</entry>
+    <entry key="WFSDataStoreFactory:GML_COMPLIANCE_LEVEL">0</entry>
+    <entry key="WFSDataStoreFactory:GET_CAPABILITIES_URL">https://allencoralatlas.org/geoserver/ows?service=wfs&amp;version=1.0.0&amp;request=GetCapabilities</entry>
+    <entry key="WFSDataStoreFactory:MAX_CONNECTION_POOL_SIZE">6</entry>
+    <entry key="WFSDataStoreFactory:MAXFEATURES">0</entry>
+    <entry key="WFSDataStoreFactory:FILTER_COMPLIANCE">0</entry>
+    <entry key="WFSDataStoreFactory:TIMEOUT">3000</entry>
+    <entry key="WFSDataStoreFactory:BUFFER_SIZE">10</entry>
+    <entry key="namespace">seamap</entry>
+    <entry key="WFSDataStoreFactory:WFS_STRATEGY">auto</entry>
+    <entry key="WFSDataStoreFactory:AXIS_ORDER_FILTER">Compliant</entry>
+    <entry key="WFSDataStoreFactory:USE_HTTP_CONNECTION_POOLING">true</entry>
+    <entry key="WFSDataStoreFactory:ENCODING">UTF-8</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2022-09-29 02:58:25.279 UTC</dateCreated>
+</dataStore>
