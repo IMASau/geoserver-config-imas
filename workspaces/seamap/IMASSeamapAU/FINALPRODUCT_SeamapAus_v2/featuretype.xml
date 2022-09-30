@@ -40,7 +40,7 @@
     <maxx>159.99679706874727</maxx>
     <miny>-44.07954606432863</miny>
     <maxy>-7.90255391538284</maxy>
-    <crs>EPSG:4326</crs>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>109.24269472278233</minx>
@@ -59,6 +59,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
