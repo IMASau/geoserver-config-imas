@@ -6,8 +6,10 @@
   <enabled>true</enabled>
   <name>WMS</name>
   <title>Seamap Australia Web Mapping Service (WMS)</title>
+  <internationalTitle/>
   <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
   <abstrct>Seamap Australia brings together all available benthic habitat data collected on the Australian continental shelf and hosts this for the benefit of the broader research community. The product is a single, uniformly classified, continental-scale benthic habitat dataset.</abstrct>
+  <internationalAbstract/>
   <versions>
     <org.geotools.util.Version>
       <version>1.1.1</version>
@@ -21,19 +23,23 @@
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <metadata>
+    <entry key="disableDatelineWrappingHeuristic">false</entry>
     <entry key="kmlSuperoverlayMode">auto</entry>
     <entry key="kmlReflectorMode">refresh</entry>
     <entry key="loopContinuously">false</entry>
     <entry key="kmlPlacemark">false</entry>
     <entry key="svgAntiAlias">false</entry>
+    <entry key="rootLayerInCapabilities">true</entry>
     <entry key="kmlKmscore">40</entry>
     <entry key="mapWrapping">true</entry>
     <entry key="pngCompression">25</entry>
     <entry key="jpegCompression">25</entry>
+    <entry key="advancedProjectionDensification">false</entry>
     <entry key="advancedProjectionHandling">true</entry>
     <entry key="maxAllowedFrames">2147483647</entry>
     <entry key="kmlAttr">true</entry>
     <entry key="disposalMethod">none</entry>
+    <entry key="MarkFactoryList"></entry>
     <entry key="scalehintMapunitsPixel">false</entry>
     <entry key="framesDelay">1000</entry>
   </metadata>
@@ -50,8 +56,10 @@
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
   <maxRequestMemory>100000000</maxRequestMemory>
-  <maxRenderingTime>600</maxRenderingTime>
+  <maxRenderingTime>900</maxRenderingTime>
   <maxRenderingErrors>10000</maxRenderingErrors>
+  <internationalRootLayerTitle/>
+  <internationalRootLayerAbstract/>
   <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
   <cacheConfiguration>
     <enabled>false</enabled>
