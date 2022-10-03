@@ -1,15 +1,117 @@
+<style>
+a {
+	color: CornflowerBlue;
+}
 
+a:hover {
+	color: #575757;
+}
+
+table {
+	border-bottom: 1px solid #ededed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0;
+	width:100%;
+}
+
+th, td {
+	font-weight: normal;
+	text-align: left;
+	padding:5px;
+}
+
+th {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding:5px;
+	font-size: 11.5px;
+}
+
+td {
+	border-top: 1px solid #ededed;
+	padding:5px;
+}
+
+
+dl {
+	margin: 0 20px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 20px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+h1 {
+	font-weight: 700;
+	line-height: 45px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: inherit;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 14px;
+	letter-spacing: inherit;
+	font-weight: 700;
+}
+
+h4 {
+	letter-spacing: 0px;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+h5 {
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+h6 {
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+i {
+	color: #9a9a9a;
+	margin: 0 3px;
+}
+</style>
 
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1250px; table-layout: fixed;" border="1">
-	<col width="28%" />
-	<col width="7%" />
-	<col width="7%" />
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1150px; table-layout: fixed;" border="1">
+	<col width="28.5%" />
+	<col width="7.5%" />
+	<col width="7.5%" />
   	<col width="18.5%" />
-	<col width="10%" />
-	<col width="8.5%" />
+	<col width="9.5%" />
+	<col width="7.5%" />
   	<col width="14%" />
 	<col width="7%" />
 
@@ -19,8 +121,8 @@
 		<th style="text-align: center">Date range</th>
 		<th style="text-align: center">Resolution</th>
 		<th>Marine Park(s)</th>
-		<th>Data availability</th>
-		<th>Collected by</th>
+		<th>Availability</th>
+		<th>Collector</th>
 		<th>Point of contact</th>		
 		<th>Info</th>
 	</TR>
@@ -43,7 +145,7 @@
 
 	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="white-space: normal">
+		<TD style="white-space: normal; font-size:11px">
 			<#if collection?has_content>
 				<#if feature.dtype.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -81,7 +183,7 @@
 			</#if>
 		</TD>     
                  
-		<TD style="white-space: normal; font-size:11px">
+		<TD style="white-space: normal>
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>

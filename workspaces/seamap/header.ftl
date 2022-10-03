@@ -1,9 +1,9 @@
 <html>
 
 <head>
-    <title>GeoServer GetFeatureInfo output test</title>
+    <title>GeoServer GetFeatureInfo output</title>
 
-<style>
+<style type="text/css">
 a {
 	color: CornflowerBlue;
 }
