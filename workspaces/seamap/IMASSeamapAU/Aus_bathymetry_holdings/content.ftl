@@ -106,13 +106,13 @@ i {
 
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1150px; table-layout: fixed;" border="1">
-	<col width="28.5%" />
+	<col width="28%" />
 	<col width="7.5%" />
 	<col width="7.5%" />
   	<col width="18.5%" />
-	<col width="9.5%" />
+	<col width="9%" />
 	<col width="7.5%" />
-  	<col width="14%" />
+  	<col width="15%" />
 	<col width="7%" />
 
 
@@ -145,7 +145,7 @@ i {
 
 	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="white-space: normal; font-size:11px">
+		<TD style="white-space: normal">
 			<#if collection?has_content>
 				<#if feature.dtype.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -183,7 +183,7 @@ i {
 			</#if>
 		</TD>     
                  
-		<TD style="white-space: normal>
+		<TD style="white-space: normal; font-size:11px">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>

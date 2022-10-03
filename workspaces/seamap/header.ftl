@@ -30,6 +30,7 @@ th {
 	font-weight: bold;
 	text-transform: uppercase;
 	padding:5px;
+	font-size: 11.5px;
 }
 
 td {
