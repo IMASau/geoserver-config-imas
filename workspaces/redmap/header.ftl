@@ -1,5 +1,9 @@
 <html>
-<style>
+
+<head>
+    <title>GeoServer GetFeatureInfo output</title>
+
+<style type="text/css">
 a {
 	color: CornflowerBlue;
 }
@@ -13,7 +17,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	margin: 0;
-	width: 100%;
+	width:100%;
 }
 
 th, td {
@@ -91,7 +95,7 @@ h5 {
 
 h6 {
 	letter-spacing: 1px;
-	font-size: 10px;
+	font-size: 13px;
 	font-weight: 400;
 	line-height: 20px;
 }
@@ -101,3 +105,6 @@ i {
 	margin: 0 3px;
 }
 </style>
+</head>
+
+<body>
