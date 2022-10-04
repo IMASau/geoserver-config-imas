@@ -1,5 +1,3 @@
-<body>
-
 <#list features as feature>
 <#if (feature_index < 1) >
 
@@ -33,4 +31,3 @@
   </div>
   </#if>
 </#list>
-</body>
