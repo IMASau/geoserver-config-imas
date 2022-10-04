@@ -5,6 +5,139 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+          <Title>Core - ultra zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>  
+          <MinScaleDenominator>6000000</MinScaleDenominator>
+			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006600</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#006600</CssParameter>
+                   <CssParameter name="stroke-width">0.01</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>4</Size>				
+            </Graphic>
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>            
+        </Rule>	
+        <Rule>
+          <Title>Dredge - ultra zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MinScaleDenominator>6000000</MinScaleDenominator>
+		  <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6699cc</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#6699cc</CssParameter>
+                   <CssParameter name="stroke-width">0.01</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>4</Size>				
+            </Graphic>
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+        </Rule>	
+        <Rule>
+          <Title>Grab - ultra zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MinScaleDenominator>6000000</MinScaleDenominator>
+		  <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff944d</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#ff944d</CssParameter>
+                   <CssParameter name="stroke-width">0.01</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>4</Size>				
+            </Graphic>
+          </PointSymbolizer>   
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+        </Rule>
+		
+        <Rule>
+          <Title>Other - ultra zoomed out</Title>
+
+			<ogc:Filter>
+			<ogc:And>
+			<ogc:Not>			
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>			
+					
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>								
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>
+			</ogc:And>			
+			</ogc:Filter>
+          <MinScaleDenominator>6000000</MinScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#808080</CssParameter>
+                   <CssParameter name="stroke-width">0.01</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   
+               </Stroke>                
+              </Mark>
+              <Size>4</Size>				
+                 </Graphic>
+                 <VendorOption name="inclusion">legendOnly</VendorOption>
+              </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
+        </Rule>		  
+        <Rule>
           <Title>Sampling Method</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -23,7 +156,8 @@
               </Mark>
             </Graphic>
           </PointSymbolizer>      
-        </Rule>	  
+        </Rule>	
+
         <Rule>
           <Title>Core - zoomed out</Title>
 			<ogc:Filter>
@@ -32,7 +166,8 @@
 					    <ogc:Literal>*core*</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>  
-          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            				  
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>                                        		            				  					  		  
 			
           <PointSymbolizer>
             <Graphic>
@@ -43,9 +178,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                   <CssParameter name="stroke">#006600</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
               <Size>6</Size>				
@@ -61,8 +196,8 @@
 					    <ogc:Literal>*dredge*</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>
-          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            						  			
-          <PointSymbolizer>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>            <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
@@ -71,9 +206,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                   <CssParameter name="stroke">#6699cc</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
               <Size>6</Size>				
@@ -89,8 +224,9 @@
 					    <ogc:Literal>*grab*</ogc:Literal>
 					</ogc:PropertyIsLike>
 			</ogc:Filter>
-          <MinScaleDenominator>2000000</MinScaleDenominator>                                        		            						  			
-          <PointSymbolizer>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator> 
+		  <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
@@ -99,16 +235,17 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                   <CssParameter name="stroke">#ff944d</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
               <Size>6</Size>				
             </Graphic>
           </PointSymbolizer>   
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
-        </Rule>		
+        </Rule>
+		
         <Rule>
           <Title>Other - zoomed out</Title>
 
@@ -135,9 +272,8 @@
 			</ogc:Not>
 			</ogc:And>			
 			</ogc:Filter>
-
           <MinScaleDenominator>2000000</MinScaleDenominator>
-		  
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -147,9 +283,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   
+                   <CssParameter name="stroke">#808080</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   
                </Stroke>                
               </Mark>
               <Size>6</Size>				
@@ -157,7 +293,145 @@
                  <VendorOption name="inclusion">legendOnly</VendorOption>
               </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>            			  
-           </Rule>		
+        </Rule>	
+		
+        <Rule>
+          <Title>Core - zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>  
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>                                        		            				  					  		  
+			
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006600</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#006600</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+            </Graphic>
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>            
+        </Rule>	
+        <Rule>
+          <Title>Dredge - zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>            <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6699cc</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#6699cc</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+            </Graphic>
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+        </Rule>	
+        <Rule>
+          <Title>Grab - zoomed out</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator> 
+		  <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff944d</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#ff944d</CssParameter>
+                   <CssParameter name="stroke-width">0.05</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+            </Graphic>
+          </PointSymbolizer>   
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+        </Rule>
+		
+        <Rule>
+          <Title>Other - zoomed out</Title>
+
+			<ogc:Filter>
+			<ogc:And>
+			<ogc:Not>			
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*core*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>			
+					
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*dredge*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>             
+			<ogc:Not>								
+				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
+					    <ogc:Literal>*grab*</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Not>
+			</ogc:And>			
+			</ogc:Filter>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.75</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#808080</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   
+               </Stroke>                
+              </Mark>
+              <Size>6</Size>				
+                 </Graphic>
+                 <VendorOption name="inclusion">legendOnly</VendorOption>
+              </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
+        </Rule>		
+		
         <Rule>
           <Title>Core</Title>
 			<ogc:Filter>
@@ -177,9 +451,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#006600</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   
 				   
                </Stroke>                
               </Mark>
@@ -206,9 +480,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#6699cc</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
               <Size>8</Size>				
@@ -234,9 +508,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#ff944d</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
               <Size>8</Size>				
@@ -279,9 +553,9 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#808080</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
               <Size>8</Size>				
@@ -308,12 +582,12 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#006600</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>12</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>     
          <VendorOption name="inclusion">mapOnly</VendorOption>            		  
@@ -336,12 +610,12 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#6699cc</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>12</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>            		  
@@ -364,12 +638,12 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#ff944d</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>12</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>            		  
@@ -386,7 +660,6 @@
 					</ogc:PropertyIsLike>
 			</ogc:Not>             
 			<ogc:Not>			
-					
 				<ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
 					<ogc:PropertyName>SAMPLING_METHOD</ogc:PropertyName>
 					    <ogc:Literal>*dredge*</ogc:Literal>
@@ -412,15 +685,15 @@
                   <CssParameter name="fill-opacity">0.75</CssParameter>                       
                 </Fill> 
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#808080</CssParameter>
                    <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                       				   
+                  <CssParameter name="stroke-opacity">1</CssParameter>                       				   
                </Stroke>                
               </Mark>
-              <Size>12</Size>				
+              <Size>11</Size>				
                  </Graphic>
               </PointSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
+			<VendorOption name="inclusion">mapOnly</VendorOption>            			  
            </Rule>	
 	
         </FeatureTypeStyle>
