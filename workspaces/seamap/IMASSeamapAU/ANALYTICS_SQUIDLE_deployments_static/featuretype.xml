@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-3da50ec5:181f18a4ec7:-7f4a</id>
   <name>ANALYTICS_SQUIDLE_deployments_static</name>
-  <nativeName>EXTRACT_SQUIDLE_DEPLOYMENT_POINTS_static</nativeName>
+  <nativeName>TRANSFORM_SQUIDLE_DEPLOYMENT_POINTS</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -50,6 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -57,6 +58,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
