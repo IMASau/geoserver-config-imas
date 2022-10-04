@@ -1,9 +1,9 @@
 <layer>
-  <name>SeamapAus_class_level</name>
+  <name>SeamapAus_NBHL_level_classification</name>
   <id>LayerInfoImpl--3ff61989:1794ba30494:2590</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+    <id>StyleInfoImpl--3ff61989:1794ba30494:3e10</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--3ff61989:1794ba30494:258f</id>
@@ -12,5 +12,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2022-10-04 04:58:34.313 UTC</dateModified>
+  <dateModified>2022-10-04 05:28:25.963 UTC</dateModified>
 </layer>

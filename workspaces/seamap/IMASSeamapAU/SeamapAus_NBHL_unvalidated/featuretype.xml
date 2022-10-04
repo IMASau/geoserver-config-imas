@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-6e3ee927:1830b1e8a92:1aa2</id>
-  <name>FINALPRODUCT_SeamapAus_unvalidated</name>
+  <name>SeamapAus_NBHL_unvalidated</name>
   <nativeName>FINALPRODUCT_SeamapAus_unvalidated</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -59,6 +59,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

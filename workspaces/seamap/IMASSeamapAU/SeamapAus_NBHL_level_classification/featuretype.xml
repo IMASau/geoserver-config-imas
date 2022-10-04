@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3ff61989:1794ba30494:258f</id>
-  <name>SeamapAus_class_level</name>
-  <nativeName>SeamapAus_class_level</nativeName>
+  <name>SeamapAus_NBHL_level_classification</name>
+  <nativeName>SeamapAus_NBHL_level_classification</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.24269472278233</minx>
-    <maxx>157.05866024679528</maxx>
-    <miny>-44.07851672123112</miny>
-    <maxy>-8.039812374995243</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-2079693.2026000023</minx>
+    <maxx>2186772.2694997787</maxx>
+    <miny>-4961545.257400036</miny>
+    <maxy>-1100731.935199976</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278233</minx>
-    <maxx>157.05866024679528</maxx>
-    <miny>-44.07851672123112</miny>
-    <maxy>-8.039812374995243</maxy>
+    <minx>-2079693.2026000023</minx>
+    <maxx>2186772.2694997787</maxx>
+    <miny>-4961545.257400036</miny>
+    <maxy>-1100731.935199976</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
