@@ -1,8 +1,29 @@
-<body>
+<style>
+
+a {
+	color: CornflowerBlue;
+}
+
+a:hover {
+	color: #575757;
+}
+
+h5 {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+</style>
+
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia 2017</h5>
+<h5>Seamap Australia v1.1 (2020)</h5>
 <BR>
   <div class="feature">
 
@@ -20,4 +41,3 @@
 	<#break>
   </#if>
 </#list>
-</body>
