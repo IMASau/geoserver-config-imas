@@ -12,27 +12,27 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Title>Resolution of biotic classification</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>intentionallyblank</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>intentionallyblank</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0</CssParameter>                          
+							<CssParameter name="fill">#FFFFFF</CssParameter>
+							<CssParameter name="fill-opacity">0.0001</CssParameter>                          
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>	              
 				<Rule>
 					<Title>Level 1 (coarse)</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>BC1</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>BC1</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#99e6ff</CssParameter>
@@ -47,12 +47,12 @@
 				</Rule>	
 				<Rule>
 					<Title>Level 2</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>BC2</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>BC2</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#33ffcc</CssParameter>
@@ -67,12 +67,12 @@
 				</Rule>
 				<Rule>
 					<Title>Level 3</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>BC3</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>BC3</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#33ff33</CssParameter>
@@ -87,12 +87,12 @@
 				</Rule>	
 				<Rule>
 					<Title>Level 4 (fine)</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>BC4</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>BC4</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#00994d</CssParameter>
@@ -107,27 +107,27 @@
 				</Rule>
 				<Rule>
 					<Title>Resolution of substrata classification (if no biotic available)</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>intentionallyblank</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>intentionallyblank</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0</CssParameter>                          
+							<CssParameter name="fill">#FFFFFF</CssParameter>
+							<CssParameter name="fill-opacity">0.0001</CssParameter>                          
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>	              
 				<Rule>
 					<Title>Level 1 (coarse)</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>SC1</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>SC1</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ff99e6</CssParameter>
@@ -142,12 +142,12 @@
 				</Rule>	
 				<Rule>
 					<Title>Level 2</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>SC2</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>SC2</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ff9933</CssParameter>
@@ -162,12 +162,12 @@
 				</Rule>
 				<Rule>
 					<Title>Level 3</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>SC3</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>SC3</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ff4000</CssParameter>
@@ -182,12 +182,12 @@
 				</Rule>	
 				<Rule>
 					<Title>Level 4 (fine)</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>SC4</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>SC4</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#ac00e6</CssParameter>
@@ -202,12 +202,12 @@
 				</Rule>
 				<Rule>
 					<Title>Unknown (biota or substrata)</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>LEVEL</PropertyName>
-					      <Literal>Unknown</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>                       
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>Unknown</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
