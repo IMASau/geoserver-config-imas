@@ -5,8 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Marine Ecosystems of the World (MEOW)</title>
-  <abstract>Marine Ecosystems of the World (MEOW) boundaries. Rehosted for the purposes of Seamap Australia.</abstract>
+  <title>Marine Ecoregions of the World (MEOW)</title>
+  <abstract>Marine Ecoregions of the World (MEOW) boundaries. Rehosted for the purposes of Seamap Australia.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_MEOW4326</string>
@@ -44,6 +44,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
