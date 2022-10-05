@@ -13,7 +13,7 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:Abstract>A style that renders habitats</sld:Abstract>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Title>Seagrass</sld:Title>
+          <sld:Title>Seagrass present</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -23,12 +23,12 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#02DC00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#000000</sld:CssParameter>
+              <sld:CssParameter name="stroke">#02DC00</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.1</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.05</sld:CssParameter>
             </sld:Stroke>	            
           </sld:PolygonSymbolizer>
         </sld:Rule>	
