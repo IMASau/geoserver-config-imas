@@ -16,6 +16,7 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
               
             </ColorMap>
           </RasterSymbolizer>
+		<VendorOption name="inclusion">mapOnly</VendorOption>              
               
 			</Rule>
  

@@ -18,6 +18,8 @@
               </CssParameter>
             </Fill>
           </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
+          
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>

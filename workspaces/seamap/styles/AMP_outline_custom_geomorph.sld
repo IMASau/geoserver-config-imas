@@ -35,7 +35,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">-1</VendorOption>             
-			</TextSymbolizer>
+			</TextSymbolizer>          
+           <VendorOption name="inclusion">mapOnly</VendorOption>            			  
  		</Rule>
 
  		<Rule>
@@ -48,6 +49,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="opacity">0.7</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
+          
  		</Rule> 
 	
  		<Rule>
@@ -184,7 +187,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke-width">0</CssParameter>
               <CssParameter name="opacity">0</CssParameter>					  			  
             </Stroke> 
-			</PolygonSymbolizer>				 			
+			</PolygonSymbolizer>	
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			  
+          
 		</Rule>				
 
  

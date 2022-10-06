@@ -33,6 +33,8 @@
               <ColorMapEntry color="#000000" opacity="0.0" quantity="0"/>              
             </ColorMap>
           </RasterSymbolizer>
+		<VendorOption name="inclusion">mapOnly</VendorOption>              
+          
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
