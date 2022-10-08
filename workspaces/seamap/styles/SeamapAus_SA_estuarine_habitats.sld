@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Cyanobacterial Mat</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Cyanobacterial Mat</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -30,7 +30,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Mangrove</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Mangrove</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -45,7 +45,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Saltmarsh/Samphire</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Saltmarsh/Samphire</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -60,7 +60,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Seagrass</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Seagrass</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Beach</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Beach</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -90,7 +90,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Channel</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Channel</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -105,7 +105,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal Flat</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Intertidal Flat</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -120,7 +120,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Shore Platform</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Shore Platform</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -135,7 +135,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Stranded Tidal Flat</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Stranded Tidal Flat</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
@@ -150,7 +150,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Supratidal Flat</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
               <ogc:Literal>Supratidal Flat</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
