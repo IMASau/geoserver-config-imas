@@ -9,10 +9,10 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#ff6161" opacity="0.9" quantity="15" label=" Coral/Algae"/>              
-              <ColorMapEntry color="#b19c3a" opacity="0.9" quantity="13" label=" Rock"/>
-              <ColorMapEntry color="#e0d05e" opacity="0.9" quantity="12" label=" Rubble"/>
-              <ColorMapEntry color="#ffffbe" opacity="0.9" quantity="11" label=" Sand"/>                      
+              <ColorMapEntry color="#ff6161" opacity="1" quantity="15" label=" Coral/Algae"/>              
+              <ColorMapEntry color="#b19c3a" opacity="1" quantity="13" label=" Rock"/>
+              <ColorMapEntry color="#e0d05e" opacity="1" quantity="12" label=" Rubble"/>
+              <ColorMapEntry color="#ffffbe" opacity="1" quantity="11" label=" Sand"/>                      
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
