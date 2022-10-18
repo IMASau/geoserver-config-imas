@@ -1,0 +1,16 @@
+<layer>
+  <name>HEATMAP_habitat_obs_SQUIDLE</name>
+  <id>LayerInfoImpl--48d25103:183e95a8765:-250b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--48d25103:183e95a8765:-250c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-18 07:22:17.331 UTC</dateCreated>
+</layer>
