@@ -1,7 +1,7 @@
 <GeoServerGWCConfig>
   <version>1.1.0</version>
   <directWMSIntegrationEnabled>true</directWMSIntegrationEnabled>
-  <requireTiledParameter>true</requireTiledParameter>
+  <requireTiledParameter>false</requireTiledParameter>
   <WMSCEnabled>true</WMSCEnabled>
   <TMSEnabled>true</TMSEnabled>
   <securityEnabled>false</securityEnabled>
