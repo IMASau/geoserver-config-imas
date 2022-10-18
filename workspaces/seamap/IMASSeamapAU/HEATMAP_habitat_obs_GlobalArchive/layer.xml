@@ -1,0 +1,17 @@
+<layer>
+  <name>HEATMAP_habitat_obs_GlobalArchive</name>
+  <id>LayerInfoImpl--48d25103:183ea0e5f1e:e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--48d25103:183ea0e5f1e:c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--48d25103:183ea0e5f1e:d</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-18 07:54:13.217 UTC</dateCreated>
+</layer>
