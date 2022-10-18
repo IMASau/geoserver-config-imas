@@ -1,0 +1,17 @@
+<layer>
+  <name>HEATMAP_squidle_obs_grid100m</name>
+  <id>LayerInfoImpl--4bda725:183ead710a3:3a41</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4bda725:183ead710a3:3a3f</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--4bda725:183ead710a3:3a40</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-18 11:44:22.642 UTC</dateCreated>
+</layer>
