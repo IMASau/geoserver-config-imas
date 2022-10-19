@@ -1,5 +1,5 @@
 <layer>
-  <name>HEATMAP_habObs_SQUIDLE</name>
+  <name>HEATMAP_habitat_obs_SQUIDLE</name>
   <id>LayerInfoImpl--48d25103:183e95a8765:-250b</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2022-10-18 07:22:17.331 UTC</dateCreated>
-  <dateModified>2022-10-19 03:52:44.979 UTC</dateModified>
+  <dateModified>2022-10-19 05:19:44.763 UTC</dateModified>
 </layer>
