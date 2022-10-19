@@ -23,7 +23,7 @@
                  <ogc:Literal>radiusPixels</ogc:Literal>
                  <ogc:Function name="env">
                    <ogc:Literal>radius</ogc:Literal>
-                   <ogc:Literal>25</ogc:Literal>
+                   <ogc:Literal>20</ogc:Literal>
                  </ogc:Function>
                </ogc:Function>
                <ogc:Function name="parameter">
