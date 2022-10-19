@@ -1,5 +1,5 @@
 <layer>
-  <name>HEATMAP_habitat_obs_sediment</name>
+  <name>HEATMAP_habObs_sediment</name>
   <id>LayerInfoImpl--4bda725:183ead710a3:3a45</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2022-10-18 12:07:26.670 UTC</dateCreated>
-  <dateModified>2022-10-19 01:04:57.706 UTC</dateModified>
+  <dateModified>2022-10-19 03:17:39.314 UTC</dateModified>
 </layer>

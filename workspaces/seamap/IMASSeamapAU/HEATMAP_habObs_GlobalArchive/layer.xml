@@ -1,5 +1,5 @@
 <layer>
-  <name>HEATMAP_habitat_obs_GlobalArchive</name>
+  <name>HEATMAP_habObs_GlobalArchive</name>
   <id>LayerInfoImpl--48d25103:183ea0e5f1e:e</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2022-10-18 07:54:13.217 UTC</dateCreated>
-  <dateModified>2022-10-19 01:56:31.331 UTC</dateModified>
+  <dateModified>2022-10-19 03:17:15.854 UTC</dateModified>
 </layer>
