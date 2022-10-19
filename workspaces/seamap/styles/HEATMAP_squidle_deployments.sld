@@ -8,7 +8,6 @@
      <NamedLayer>
        <Name>Squidle+ deployments - heatmap</Name>
        <UserStyle>
-         <Title>Heatmap</Title>
          <Abstract>A heatmap surface showing density of Squidle+ deployments</Abstract>
          <FeatureTypeStyle>
            <Transformation>
@@ -60,8 +59,8 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no deployments"
                   opacity="0"/>
-                <ColorMapEntry color="#33ddff" quantity="0.1" label="fewer deployments"/>
-                <ColorMapEntry color="#592e73" quantity="0.5" />
+                <ColorMapEntry color="#33ddff" quantity="0.01" label="fewer deployments"/>
+                <ColorMapEntry color="#623387" quantity="0.4" />
                 <ColorMapEntry color="#ff7040" quantity="1.0" label="more deployments" />
               </ColorMap>
             </RasterSymbolizer>

@@ -6,10 +6,9 @@
        xmlns:xlink="http://www.w3.org/1999/xlink"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      <NamedLayer>
-       <Name>Habitat Observations - heatmap</Name>
+       <Name>Habitat Observations - heatmap - land masked</Name>
        <UserStyle>
-         <Title>Heatmap</Title>
-         <Abstract>A heatmap surface showing density of habitat observations</Abstract>
+         <Abstract>A heatmap surface showing density of habitat observations masked by the Aus land mass</Abstract>
          <FeatureTypeStyle>
            <Transformation>
              <ogc:Function name="gs:Heatmap">
@@ -24,7 +23,7 @@
                  <ogc:Literal>radiusPixels</ogc:Literal>
                  <ogc:Function name="env">
                    <ogc:Literal>radius</ogc:Literal>
-                   <ogc:Literal>30</ogc:Literal>
+                   <ogc:Literal>25</ogc:Literal>
                  </ogc:Function>
                </ogc:Function>
                <ogc:Function name="parameter">
@@ -60,13 +59,28 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
-                <ColorMapEntry color="#28a9eb" quantity="0.1" label="fewer observations"/>
-                <ColorMapEntry color="#00ffd4" quantity="0.4" />
-                <ColorMapEntry color="#ffaa00" quantity="0.9" label="more observations" />
+                <ColorMapEntry color="#4444FF" quantity="0.01" label="fewer observations"/>
+                <ColorMapEntry color="#FF0000" quantity="0.5" />
+                <ColorMapEntry color="#FFFF00" quantity="1.0" label="more observations" />
               </ColorMap>
             </RasterSymbolizer>
-           </Rule>
-         </FeatureTypeStyle>
+        </Rule>
+        <VendorOption name="composite">multiply</VendorOption>
+        <VendorOption name="composite-base">true</VendorOption>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <PolygonSymbolizer>
+              <Geometry>
+                <ogc:PropertyName>geom_mask</ogc:PropertyName></Geometry>		  
+            <Fill>		
+              <CssParameter name="fill">#000000</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <VendorOption name="composite">destination-out</VendorOption>
+      </FeatureTypeStyle>	  
        </UserStyle>
      </NamedLayer>
     </StyledLayerDescriptor>

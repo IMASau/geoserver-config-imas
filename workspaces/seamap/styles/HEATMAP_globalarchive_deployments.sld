@@ -6,9 +6,9 @@
        xmlns:xlink="http://www.w3.org/1999/xlink"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      <NamedLayer>
-       <Name>Habitat Observations - heatmap</Name>
+       <Name>GlobalArchive deployments - heatmap</Name>
        <UserStyle>
-         <Abstract>A heatmap surface showing density of biological habitat observations</Abstract>
+         <Abstract>A heatmap surface showing density of GlobalArchive deployments</Abstract>
          <FeatureTypeStyle>
            <Transformation>
              <ogc:Function name="gs:Heatmap">
@@ -23,7 +23,7 @@
                  <ogc:Literal>radiusPixels</ogc:Literal>
                  <ogc:Function name="env">
                    <ogc:Literal>radius</ogc:Literal>
-                   <ogc:Literal>25</ogc:Literal>
+                   <ogc:Literal>30</ogc:Literal>
                  </ogc:Function>
                </ogc:Function>
                <ogc:Function name="parameter">
@@ -59,9 +59,9 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
-                <ColorMapEntry color="#4444FF" quantity="0.01" label="fewer observations"/>
-                <ColorMapEntry color="#FF0000" quantity="0.5" />
-                <ColorMapEntry color="#FFFF00" quantity="1.0" label="more observations" />
+                <ColorMapEntry color="#16a3e9" quantity="0.01" label="fewer observations"/>
+                <ColorMapEntry color="#00ffd4" quantity="0.5" />
+                <ColorMapEntry color="#ffaa00" quantity="0.9" label="more observations" />
               </ColorMap>
             </RasterSymbolizer>
            </Rule>

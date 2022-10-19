@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--48d25103:183ea17375d:556</id>
-  <name>HEATMAP_HabObs_sediment</name>
+  <name>HEATMAP_HabObs_physical</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>HEATMAP_HabObs_sediment.sld</filename>
+  <filename>HEATMAP_HabObs_physical.sld</filename>
   <dateCreated>2022-10-18 08:01:09.131 UTC</dateCreated>
-  <dateModified>2022-10-18 12:53:04.103 UTC</dateModified>
+  <dateModified>2022-10-19 20:48:00.763 UTC</dateModified>
 </style>

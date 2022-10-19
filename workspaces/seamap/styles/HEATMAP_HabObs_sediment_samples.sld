@@ -6,10 +6,9 @@
        xmlns:xlink="http://www.w3.org/1999/xlink"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      <NamedLayer>
-       <Name>Habitat Observations - heatmap</Name>
+       <Name>Sediment samples - heatmap</Name>
        <UserStyle>
-         <Title>Heatmap</Title>
-         <Abstract>A heatmap surface showing density of habitat observations</Abstract>
+         <Abstract>A heatmap surface showing density of sediment samples in MARS database</Abstract>
          <FeatureTypeStyle>
            <Transformation>
              <ogc:Function name="gs:Heatmap">
@@ -60,9 +59,9 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
-                <ColorMapEntry color="#284c66" quantity="0.1" label="fewer observations"/>
-                <ColorMapEntry color="#819e1d" quantity="0.5" />
-                <ColorMapEntry color="#f7ff00" quantity="1.0" label="more observations" />
+                <ColorMapEntry color="#FFEDA0" quantity="0.01" label="fewer observations"/>
+                <ColorMapEntry color="#FD8D3C" quantity="0.5" />
+                <ColorMapEntry color="#800026" quantity="0.9" label="more observations" />
               </ColorMap>
             </RasterSymbolizer>
            </Rule>

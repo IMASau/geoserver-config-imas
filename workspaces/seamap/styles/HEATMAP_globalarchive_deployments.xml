@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--48d25103:183ea0e5f1e:c</id>
-  <name>HEATMAP_HabObs_globalarchive</name>
+  <name>HEATMAP_globalarchive_deployments</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>HEATMAP_HabObs_globalarchive.sld</filename>
+  <filename>HEATMAP_globalarchive_deployments.sld</filename>
   <dateCreated>2022-10-18 07:52:11.537 UTC</dateCreated>
-  <dateModified>2022-10-18 12:37:57.301 UTC</dateModified>
+  <dateModified>2022-10-19 20:56:50.242 UTC</dateModified>
 </style>

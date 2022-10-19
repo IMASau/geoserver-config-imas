@@ -8,8 +8,7 @@
      <NamedLayer>
        <Name>Habitat Observations - heatmap</Name>
        <UserStyle>
-         <Title>Heatmap</Title>
-         <Abstract>A heatmap surface showing density of habitat observations</Abstract>
+         <Abstract>A heatmap surface showing density of physical habitat observations masked by the Aus land mass</Abstract>
          <FeatureTypeStyle>
            <Transformation>
              <ogc:Function name="gs:Heatmap">
@@ -60,16 +59,16 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
-                <ColorMapEntry color="#4444FF" quantity="0.1" label="fewer observations"/>
-                <ColorMapEntry color="#FF0000" quantity="0.6" />
-                <ColorMapEntry color="#FFFF00" quantity="1.0" label="more observations" />
+                <ColorMapEntry color="#284c66" quantity="0.01" label="fewer observations"/>
+                <ColorMapEntry color="#819e1d" quantity="0.5" />
+                <ColorMapEntry color="#f7ff00" quantity="0.9" label="more observations" />
               </ColorMap>
             </RasterSymbolizer>
-        </Rule>
+           </Rule>
         <VendorOption name="composite">multiply</VendorOption>
         <VendorOption name="composite-base">true</VendorOption>
       </FeatureTypeStyle>
-      <FeatureTypeStyle>
+     <FeatureTypeStyle>
         <Rule>
           <PolygonSymbolizer>
               <Geometry>
@@ -81,7 +80,7 @@
           </PolygonSymbolizer>
         </Rule>
         <VendorOption name="composite">destination-out</VendorOption>
-      </FeatureTypeStyle>	  
+      </FeatureTypeStyle>	           
        </UserStyle>
      </NamedLayer>
     </StyledLayerDescriptor>

@@ -8,7 +8,7 @@
      <NamedLayer>
        <Name>Habitat Observations - heatmap</Name>
        <UserStyle>
-         <Abstract>A heatmap surface showing density of biological habitat observations</Abstract>
+         <Abstract>A heatmap surface showing density of physical habitat observations</Abstract>
          <FeatureTypeStyle>
            <Transformation>
              <ogc:Function name="gs:Heatmap">
@@ -59,9 +59,9 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
-                <ColorMapEntry color="#4444FF" quantity="0.01" label="fewer observations"/>
-                <ColorMapEntry color="#FF0000" quantity="0.5" />
-                <ColorMapEntry color="#FFFF00" quantity="1.0" label="more observations" />
+                <ColorMapEntry color="#284c66" quantity="0.01" label="fewer observations"/>
+                <ColorMapEntry color="#819e1d" quantity="0.5" />
+                <ColorMapEntry color="#f7ff00" quantity="0.9" label="more observations" />
               </ColorMap>
             </RasterSymbolizer>
            </Rule>
