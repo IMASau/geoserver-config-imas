@@ -1,0 +1,26 @@
+<layer>
+  <name>HEATMAP_squidle_deployments</name>
+  <id>LayerInfoImpl--48d25103:183e95a8765:-250b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--34ead980:183f025f99a:-8000</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--48d25103:183e95a8765:-250a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--4bda725:183ef01bd71:1e83</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--48d25103:183e95a8765:-250c</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-18 07:22:17.331 UTC</dateCreated>
+  <dateModified>2022-10-19 12:12:02.1 UTC</dateModified>
+</layer>
