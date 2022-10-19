@@ -1,0 +1,26 @@
+<layer>
+  <name>HEATMAP_habitat_obs_BIOLOGICAL</name>
+  <id>LayerInfoImpl--4bda725:183efc25eee:1530</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4bda725:183ef01bd71:1e83</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--4bda725:183ef01bd71:1e83</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--48d25103:183e95a8765:-250a</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4bda725:183efc25eee:152f</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-19 10:44:12.422 UTC</dateCreated>
+  <dateModified>2022-10-19 10:44:29.977 UTC</dateModified>
+</layer>
