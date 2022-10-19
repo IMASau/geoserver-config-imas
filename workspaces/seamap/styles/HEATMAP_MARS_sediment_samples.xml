@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-25352392:183f1f2b694:4b03</id>
-  <name>HEATMAP_HabObs_sediment_samples</name>
+  <name>HEATMAP_MARS_sediment_samples</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>HEATMAP_HabObs_sediment_samples.sld</filename>
+  <filename>HEATMAP_MARS_sediment_samples.sld</filename>
   <dateCreated>2022-10-19 20:56:09.858 UTC</dateCreated>
-  <dateModified>2022-10-19 20:58:46.4 UTC</dateModified>
+  <dateModified>2022-10-19 21:02:27.423 UTC</dateModified>
 </style>

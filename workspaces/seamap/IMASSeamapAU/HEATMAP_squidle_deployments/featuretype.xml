@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--48d25103:183e95a8765:-250c</id>
   <name>HEATMAP_squidle_deployments</name>
-  <nativeName>VW_HEATMAP_SQUIDLE_DEPLOYMENTS</nativeName>
+  <nativeName>VW_HEATMAP_DENSITY_SQUIDLE_DEPLOYMENTS</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>

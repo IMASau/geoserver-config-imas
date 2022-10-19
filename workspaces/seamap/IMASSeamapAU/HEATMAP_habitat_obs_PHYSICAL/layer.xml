@@ -1,0 +1,25 @@
+<layer>
+  <name>HEATMAP_habitat_obs_PHYSICAL</name>
+  <id>LayerInfoImpl--3bf49229:183f220f294:-7fff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-25352392:183f1f2b694:4b04</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--48d25103:183ea17375d:556</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-25352392:183f1f2b694:4b04</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3bf49229:183f220f294:-8000</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-19 21:23:09.82 UTC</dateCreated>
+  <dateModified>2022-10-19 21:27:13.449 UTC</dateModified>
+</layer>

@@ -1,15 +1,22 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--48d25103:183ea0e5f1e:d</id>
-  <name>HEATMAP_globalarchive_deployments</name>
-  <nativeName>VW_HEATMAP_DENSITY_GLOBALARCHIVE_DEPLOYMENTS</nativeName>
+  <id>FeatureTypeInfoImpl--4bda725:183ead710a3:3a44</id>
+  <name>HEATMAP_sediment_samples</name>
+  <nativeName>VW_HEATMAP_DENSITY_SEDIMENT_SAMPLES</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>HEATMAP - density of GlobalArchive (video) observations</title>
-  <abstract>This layer represents a density heatmap of GlobalArchive deployments. Includes spatial replications (repeated timeseries sampling). No weighting has been applied.</abstract>
+  <title>HEATMAP - density of MARS (sediment) samples</title>
+  <abstract>This layer represents a density heatmap of sediment samples from the GA MARS (Marine Sediments) Database. Includes spatial replications (repeated timeseries sampling). No weighting has been applied.&#xd;
+&#xd;
+This layer represents a heatmap of spatial coverage of seafloor sampling, derived from the GA MARS (Marine Sediments Database) WFS.&#xd;
+&#xd;
+The following weightings have been applied to each sample:&#xd;
+(1) 2x weighting for sample &lt;3 years old; 1.5x for 3-5 years, 1x for &gt;5 years&#xd;
+(2) 2x weighting for samples that have been analysed with public data available&#xd;
+(4) deployment points within 5m of eachother have been aggregated and collapsed into a single point (ie no spatial dupliication)</abstract>
   <keywords>
     <string>features</string>
-    <string>VW_HEATMAP_HABITAT_OBS_GLOBALARCHIVE</string>
+    <string>VW_HEATMAP_HABITAT_OBS_SEDIMENT</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,17 +43,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-2.1289167770531975E7</minx>
-    <maxx>1.6648218115832997E7</maxx>
-    <miny>-1.3607217776049342E7</miny>
-    <maxy>2606851.609687646</maxy>
+    <minx>-4739729.0652685845</minx>
+    <maxx>4382247.903807877</maxx>
+    <miny>-1.0147406293007629E7</miny>
+    <maxy>-875805.2415536864</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-87.02348407610445</miny>
-    <maxy>59.78901477226885</maxy>
+    <miny>-79.3161462888582</miny>
+    <maxy>-0.9998404101978068</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

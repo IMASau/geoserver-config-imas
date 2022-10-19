@@ -1,20 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4bda725:183ead710a3:3a44</id>
-  <name>HEATMAP_habitat_obs_sediment</name>
-  <nativeName>VW_HEATMAP_HABITAT_OBS_SEDIMENT</nativeName>
+  <id>FeatureTypeInfoImpl--3bf49229:183f220f294:-8000</id>
+  <name>HEATMAP_habitat_obs_PHYSICAL</name>
+  <nativeName>VW_HEATMAP_HABITAT_OBS_PHYSICAL</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>HEATMAP - coverage and density of MARS (sediment) samples</title>
-  <abstract>This layer represents a heatmap of spatial coverage of seafloor sampling, derived from the GA MARS (Marine Sediments Database) WFS.&#xd;
+  <title>HEATMAP - weighted coverage and density of physical seafloor observations for habitat mapping validation</title>
+  <abstract>This layer represents a heatmap of spatial coverage of sediment samples derived from GA&apos;s Marine Sediments Database. Weightings have been applied to samples according to their suitability for validating seafloor habitat mapping:&#xd;
 &#xd;
-The following weightings have been applied to each sample:&#xd;
-(1) 2x weighting for sample &lt;3 years old; 1.5x for 3-5 years, 1x for &gt;5 years&#xd;
-(2) 2x weighting for samples that have been analysed with public data available&#xd;
-(4) deployment points within 5m of eachother have been aggregated and collapsed into a single point (ie no spatial dupliication)</abstract>
+(1) 2x weighting for observations &lt;3 years old; 1.5x for 3-5 years, 1x for &gt;5 years&#xd;
+(2) 2x weighting for analysed samples&#xd;
+(3) deployment points separated by less than 5m have been aggregated and collapsed into a single point (ie no spatial duplication)</abstract>
   <keywords>
     <string>features</string>
-    <string>VW_HEATMAP_HABITAT_OBS_SEDIMENT</string>
+    <string>VW_HEATMAP_HABITAT_OBS_PHYSICAL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -27,7 +26,7 @@ The following weightings have been applied to each sample:&#xd;
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -64,6 +63,8 @@ The following weightings have been applied to each sample:&#xd;
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

@@ -1,9 +1,9 @@
 <layer>
-  <name>HEATMAP_habitat_obs_sediment</name>
+  <name>HEATMAP_sediment_samples</name>
   <id>LayerInfoImpl--4bda725:183ead710a3:3a45</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--48d25103:183ea17375d:556</id>
+    <id>StyleInfoImpl-25352392:183f1f2b694:4b03</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--4bda725:183ead710a3:3a44</id>
@@ -14,5 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2022-10-18 12:07:26.670 UTC</dateCreated>
-  <dateModified>2022-10-19 05:55:20.132 UTC</dateModified>
+  <dateModified>2022-10-19 21:02:04.867 UTC</dateModified>
 </layer>
