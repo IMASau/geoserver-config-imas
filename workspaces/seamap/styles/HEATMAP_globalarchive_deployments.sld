@@ -60,8 +60,8 @@
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
                 <ColorMapEntry color="#16a3e9" quantity="0.01" label="fewer observations"/>
-                <ColorMapEntry color="#00ffd4" quantity="0.5" />
-                <ColorMapEntry color="#ffaa00" quantity="0.9" label="more observations" />
+                <ColorMapEntry color="#00ffd4" quantity="0.4" />
+                <ColorMapEntry color="#ffaa00" quantity="0.8" label="more observations" />
               </ColorMap>
             </RasterSymbolizer>
            </Rule>
