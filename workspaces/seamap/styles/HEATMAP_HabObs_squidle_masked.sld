@@ -73,7 +73,7 @@
         <Rule>
           <PolygonSymbolizer>
               <Geometry>
-                <ogc:PropertyName>geom_AMP</ogc:PropertyName></Geometry>		  
+                <ogc:PropertyName>geom_mask</ogc:PropertyName></Geometry>		  
             <Fill>		
               <CssParameter name="fill">#000000</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
