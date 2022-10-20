@@ -59,7 +59,7 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no observations"
                   opacity="0"/>
-                <ColorMapEntry color="#4444FF" quantity="0.05" label="fewer observations"/>
+                <ColorMapEntry color="#4444FF" quantity="0.03" label="fewer observations"/>
                 <ColorMapEntry color="#FF0000" quantity="0.5" />
                 <ColorMapEntry color="#FFFF00" quantity="1.0" label="more observations" />
               </ColorMap>
