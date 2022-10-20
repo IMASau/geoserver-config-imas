@@ -9,9 +9,6 @@
     <style>
       <id>StyleInfoImpl--4bda725:183ef01bd71:1e83</id>
     </style>
-    <style>
-      <id>StyleInfoImpl--48d25103:183e95a8765:-250a</id>
-    </style>
   </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--4bda725:183efc25eee:152f</id>
@@ -22,5 +19,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2022-10-19 10:44:12.422 UTC</dateCreated>
-  <dateModified>2022-10-19 23:57:56.807 UTC</dateModified>
+  <dateModified>2022-10-20 03:32:48.317 UTC</dateModified>
 </layer>
