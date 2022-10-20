@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>HEATMAP - coverage and density of biological observations (Squidle+ imagery and GlobalArchive video)</title>
+  <title>HEATMAP - weighted coverage of biological seafloor observations (Squidle+ imagery and GlobalArchive video)  for habitat mapping validation</title>
   <abstract>This layer represents a heatmap of spatial coverage of imagery and video deployments, derived from the Squidle+ and GlobalArchive &apos;deployment&apos; layers. Weightings have been applied to deployments specifically according to their suitability for validating seafloor habitat mapping:&#xd;
 &#xd;
 (1) 2x weighting for observations &lt;3 years old; 1.5x for 3-5 years, 1x for &gt;5 years&#xd;

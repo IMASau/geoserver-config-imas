@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--48d25103:183ea0e5f1e:c</id>
-  <name>HEATMAP_globalarchive_deployments</name>
+  <name>HEATMAP_globalarchive_deployments_masked</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>HEATMAP_globalarchive_deployments.sld</filename>
+  <filename>HEATMAP_globalarchive_deployments_masked.sld</filename>
   <dateCreated>2022-10-18 07:52:11.537 UTC</dateCreated>
-  <dateModified>2022-10-19 22:18:08.877 UTC</dateModified>
+  <dateModified>2022-10-19 23:38:51.446 UTC</dateModified>
 </style>

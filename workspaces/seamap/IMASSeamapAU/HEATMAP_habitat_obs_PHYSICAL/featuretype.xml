@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>HEATMAP - weighted coverage and density of physical seafloor observations for habitat mapping validation</title>
+  <title>HEATMAP - weighted coverage of physical seafloor observations for habitat mapping validation</title>
   <abstract>This layer represents a heatmap of spatial coverage of sediment samples derived from GA&apos;s Marine Sediments Database. Weightings have been applied to samples specifically according to their suitability for validating seafloor habitat mapping:&#xd;
 &#xd;
 (1) 2x weighting for observations &lt;3 years old; 1.5x for 3-5 years, 1x for &gt;5 years&#xd;

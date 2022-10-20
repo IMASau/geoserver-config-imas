@@ -6,9 +6,9 @@
        xmlns:xlink="http://www.w3.org/1999/xlink"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      <NamedLayer>
-       <Name>Squidle+ deployments - heatmap</Name>
+       <Name>GlobalArchive deployments - heatmap</Name>
        <UserStyle>
-         <Abstract>A heatmap surface showing density of Squidle+ deployments</Abstract>
+         <Abstract>A heatmap surface showing density of GlobalArchive deployments  masked by the Aus land mass</Abstract>
          <FeatureTypeStyle>
            <Transformation>
              <ogc:Function name="gs:Heatmap">
@@ -59,13 +59,28 @@
               <ColorMap type="ramp" >
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no deployments"
                   opacity="0"/>
-                <ColorMapEntry color="#33ddff" quantity="0.01" label="fewer deployments"/>
-                <ColorMapEntry color="#623387" quantity="0.4" />
-                <ColorMapEntry color="#ff7040" quantity="1.0" label="more deployments" />
+                <ColorMapEntry color="#16a3e9" quantity="0.01" label="fewer deployments"/>
+                <ColorMapEntry color="#00ffd4" quantity="0.4" />
+                <ColorMapEntry color="#ffaa00" quantity="0.8" label="more deployments" />
               </ColorMap>
             </RasterSymbolizer>
-           </Rule>
-         </FeatureTypeStyle>
+        </Rule>
+        <VendorOption name="composite">multiply</VendorOption>
+        <VendorOption name="composite-base">true</VendorOption>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <PolygonSymbolizer>
+              <Geometry>
+                <ogc:PropertyName>geom_mask</ogc:PropertyName></Geometry>		  
+            <Fill>		
+              <CssParameter name="fill">#000000</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <VendorOption name="composite">destination-out</VendorOption>
+      </FeatureTypeStyle>	  
        </UserStyle>
      </NamedLayer>
     </StyledLayerDescriptor>

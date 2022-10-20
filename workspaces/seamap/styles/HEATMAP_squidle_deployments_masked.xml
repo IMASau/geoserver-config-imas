@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--34ead980:183f025f99a:-8000</id>
-  <name>HEATMAP_squidle_deployments</name>
+  <name>HEATMAP_squidle_deployments_masked</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>HEATMAP_squidle_deployments.sld</filename>
+  <filename>HEATMAP_squidle_deployments_masked.sld</filename>
   <dateCreated>2022-10-19 12:09:24.121 UTC</dateCreated>
-  <dateModified>2022-10-19 20:47:37.21 UTC</dateModified>
+  <dateModified>2022-10-19 23:41:51.399 UTC</dateModified>
 </style>
