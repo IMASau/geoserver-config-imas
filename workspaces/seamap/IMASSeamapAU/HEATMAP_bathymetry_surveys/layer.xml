@@ -1,0 +1,18 @@
+<layer>
+  <name>HEATMAP_bathymetry_surveys</name>
+  <id>LayerInfoImpl-4f7df081:18407f0256c:-3bce</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4f7df081:18407f0256c:-3bab</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4f7df081:18407f0256c:-3bcf</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-10-24 03:06:34.634 UTC</dateCreated>
+  <dateModified>2022-10-24 04:56:09.752 UTC</dateModified>
+</layer>
