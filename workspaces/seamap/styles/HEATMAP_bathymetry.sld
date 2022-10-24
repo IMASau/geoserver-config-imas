@@ -23,7 +23,7 @@
                  <ogc:Literal>radiusPixels</ogc:Literal>
                  <ogc:Function name="env">
                    <ogc:Literal>radius</ogc:Literal>
-                   <ogc:Literal>30</ogc:Literal>
+                   <ogc:Literal>20</ogc:Literal>
                  </ogc:Function>
                </ogc:Function>
                <ogc:Function name="parameter">
@@ -60,11 +60,11 @@
                 <ColorMapEntry color="#FFFFFF" quantity="0" label="no bathymetry surveys"
                   opacity="0"/>
                 <ColorMapEntry color="#999999" quantity="0.01" label="low/unknown resolution"/>
-                <ColorMapEntry color="#3288bd" quantity="0.4" />
-                <ColorMapEntry color="#92d39a" quantity="0.4" />
-                <ColorMapEntry color="#d5ff80" quantity="0.4" />                
-                <ColorMapEntry color="#fff242" quantity="0.4" />
-                <ColorMapEntry color="#fb8650" quantity="0.4" />                
+                <ColorMapEntry color="#3288bd" quantity="0.20" />
+                <ColorMapEntry color="#92d39a" quantity="0.40" />
+                <ColorMapEntry color="#d5ff80" quantity="0.55" />                
+                <ColorMapEntry color="#fff242" quantity="0.70" />
+                <ColorMapEntry color="#fb8650" quantity="0.85" />                
                 <ColorMapEntry color="#cc0029" quantity="1.0" label="high resolution (2m or less)" />
               </ColorMap>
             </RasterSymbolizer>
