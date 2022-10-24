@@ -38,17 +38,17 @@ The holdings extent is current as at 6th October 2022.</abstract>
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-1.200420291E7</minx>
-    <maxx>9888076.036700003</maxx>
-    <miny>-1.04792241524E7</miny>
-    <maxy>6744209.831900001</maxy>
+    <minx>-1.2004202910000026E7</minx>
+    <maxx>9888076.036699772</maxx>
+    <miny>-1.047922415240001E7</miny>
+    <maxy>6744209.83190012</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
-    <miny>-80.27971396842858</miny>
-    <maxy>52.6857875672711</maxy>
+    <miny>-80.2797139684285</miny>
+    <maxy>52.685787567271454</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
