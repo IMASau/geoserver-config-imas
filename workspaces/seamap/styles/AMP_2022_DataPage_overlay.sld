@@ -23,7 +23,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#ffc021</CssParameter>
@@ -46,7 +46,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#88dd88</CssParameter>
@@ -69,7 +69,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>   		  
             <Fill>
               <CssParameter name="fill">#ea5a68</CssParameter>
@@ -92,7 +92,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#b461dd</CssParameter>
@@ -115,7 +115,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>		  
             <Fill>
               <CssParameter name="fill">#0eb0ea</CssParameter>
@@ -138,7 +138,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#485ec1</CssParameter>
@@ -161,7 +161,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom_res</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#24c295</CssParameter>
