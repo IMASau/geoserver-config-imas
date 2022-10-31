@@ -190,28 +190,6 @@
             </Stroke>
           </PolygonSymbolizer>         
         </Rule>        
-        <Rule>
-            <Title>Heard &amp; McDonald Islands</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
-              <ogc:Literal>HIMI</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>	
-          <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
-          </Geometry>  		  
-            <Fill>
-              <CssParameter name="fill">#808080</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>				  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#808080</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>         
-        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
