@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>	
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Invertebrates</Title>		
+          <Title>&#9480; Invertebrates</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -43,7 +43,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Non-Molluscan Filter Feeders</Title>		
+          <Title>&#9480;&#9480;&#9480; Non-Molluscan Filter Feeders</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -58,7 +58,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
 		<Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Ascidians</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Ascidians</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -73,7 +73,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Bioturbators</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Bioturbators</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -88,7 +88,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Bryozoans</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Bryozoans</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -103,7 +103,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Coral Biota</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Coral Biota</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -118,7 +118,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Sponges</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Sponges</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -133,7 +133,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Filter Feeder Community</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Filter Feeder Community</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -148,7 +148,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Shelled Biota</Title>		
+          <Title>&#9480;&#9480;&#9480; Shelled Biota</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -163,7 +163,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Screw Shell Biota</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Screw Shell Biota</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -178,7 +178,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Invertebrate Community</Title>		
+          <Title>&#9480;&#9480;&#9480; Mixed Invertebrate Community</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -193,7 +193,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>	  		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Microbes</Title>		
+          <Title>&#9480; Microbes</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -208,7 +208,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Bacterial Mat</Title>		
+          <Title>&#9480;&#9480;&#9480; Bacterial Mat</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -223,7 +223,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Urchin Barren</Title>		
+          <Title>&#9480; Urchin Barren</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -238,7 +238,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Vegetation</Title>		
+          <Title>&#9480; Vegetation</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -253,7 +253,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Macrophytes</Title>		
+          <Title>&#9480;&#9480;&#9480; Macrophytes</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -268,7 +268,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Macroalgae</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Macroalgae</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -283,7 +283,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Seagrass</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Seagrass</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -298,7 +298,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Macrophytes</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Macrophytes</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -313,7 +313,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>			
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Wetland Vegetation</Title>		
+          <Title>&#9480;&#9480;&#9480; Wetland Vegetation</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -328,7 +328,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>	 		 				
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mangrove</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mangrove</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -343,7 +343,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Saltmarsh</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Saltmarsh</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -358,7 +358,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Wetland Vegetation</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Wetland Vegetation</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -373,7 +373,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 
        <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Vegetation</Title>		
+          <Title>&#9480;&#9480;&#9480; Mixed Vegetation</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -388,7 +388,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>					
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Mixed Biota</Title>		
+          <Title>&#9480; Mixed Biota</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -418,7 +418,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>			
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;</Title>		
+          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -448,7 +448,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Consolidated Hard Substrata</Title>		
+          <Title>&#9480; Consolidated Hard Substrata</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -463,7 +463,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Megaclast</Title>		
+          <Title>&#9480;&#9480;&#9480; Megaclast</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -478,7 +478,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Pavement</Title>		
+          <Title>&#9480;&#9480;&#9480; Pavement</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -493,7 +493,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>  		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Unconsolidated Hard Substrata</Title>		
+          <Title>&#9480; Unconsolidated Hard Substrata</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -508,7 +508,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Cobble</Title>		
+          <Title>&#9480;&#9480;&#9480; Cobble</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -523,7 +523,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
       <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Mixed Hard Substrata</Title>		
+          <Title>&#9480; Mixed Hard Substrata</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -553,7 +553,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Coarse Sediment</Title>		
+          <Title>&#9480; Coarse Sediment</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -568,7 +568,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Pebble</Title>		
+          <Title>&#9480;&#9480;&#9480; Pebble</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -583,7 +583,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Sand</Title>		
+          <Title>&#9480;&#9480;&#9480; Sand</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -598,7 +598,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Coarse Sediments</Title>		
+          <Title>&#9480;&#9480;&#9480; Mixed Coarse Sediments</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -613,7 +613,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>					
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Fine Sediment</Title>		
+          <Title>&#9480; Fine Sediment</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -628,7 +628,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule> 		
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Silt</Title>		
+          <Title>&#9480;&#9480;&#9480; Silt</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -643,7 +643,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027; Mixed Fine Sediments</Title>		
+          <Title>&#9480;&#9480;&#9480; Mixed Fine Sediments</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -658,7 +658,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
 		<Rule>		
-          <Title>&#x2027;&#x2027;&#x2027; Mixed Soft Substrata</Title>		
+          <Title>&#9480; Mixed Soft Substrata</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
