@@ -11,12 +11,12 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#ffffb2" opacity="0.9" quantity="0.2" label="&#60;0.2 [dimensionless disturbance index]"/>
-              <ColorMapEntry color="#ffd76d" opacity="0.9" quantity="5.1" label="5.1"/>              
-              <ColorMapEntry color="#fea649" opacity="0.9" quantity="15.8" label="15.8"/>            
-              <ColorMapEntry color="#f86c30" opacity="0.9" quantity="40.1" label="40.1"/>
-              <ColorMapEntry color="#e62f21" opacity="0.9" quantity="80.3" label="80.3"/>             
-              <ColorMapEntry color="#bd0026" opacity="0.9" quantity="289" label="&#62;289"/>            
+              <ColorMapEntry color="#ffffb2" opacity="0.9" quantity="1" label=" &#60;1 [dimensionless]"/>
+              <ColorMapEntry color="#ffd76d" opacity="0.9" quantity="10" label=" 10"/>              
+              <ColorMapEntry color="#fea649" opacity="0.9" quantity="30" label=" 30"/>            
+              <ColorMapEntry color="#f86c30" opacity="0.9" quantity="60" label=" 60"/>
+              <ColorMapEntry color="#e62f21" opacity="0.9" quantity="150" label=" 150"/>             
+              <ColorMapEntry color="#bd0026" opacity="0.9" quantity="300" label=" &#62;300"/>            
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
