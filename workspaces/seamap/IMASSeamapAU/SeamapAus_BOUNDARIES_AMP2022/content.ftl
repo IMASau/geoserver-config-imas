@@ -4,7 +4,8 @@
 
 		<div class="feature">
 		<BR>
-			<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} network</i>)<BR>	
+			<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} network</i>)<BR>
+			   ${feature.ZONENAME.value} (<i>${feature.POLYGONID.value}</i>)<BR>	
 		<BR>
  		</div>		
 </#list>
