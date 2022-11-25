@@ -1,0 +1,38 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl--492a9490:183a16d3d08:-7f99</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:SeamapAus_NBHL_level_classification</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.2160841149425153E7</double>
+          <double>-5477760.383319358</double>
+          <double>1.781076197824739E7</double>
+          <double>-882510.8001260555</double>
+        </coords>
+      </extent>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:SeamapAus_class_level</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

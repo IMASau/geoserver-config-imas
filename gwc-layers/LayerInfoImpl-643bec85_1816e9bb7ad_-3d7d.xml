@@ -1,0 +1,38 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl-643bec85:1816e9bb7ad:-3d7d</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:SeamapAus_National_Benthic_Habitat_Layer</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.2122715262303997E7</double>
+          <double>-5675768.158882696</double>
+          <double>1.78506871136253E7</double>
+          <double>-882510.8001260442</double>
+        </coords>
+      </extent>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:SeamapAus_NBHL</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

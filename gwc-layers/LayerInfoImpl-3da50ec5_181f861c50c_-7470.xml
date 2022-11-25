@@ -1,0 +1,38 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl-3da50ec5:181f861c50c:-7470</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>NESP:MERI_Benthic_Cumulative_Impact</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.2144970034316387E7</double>
+          <double>-5991169.9058</double>
+          <double>1.9124980405781627E7</double>
+          <double>-946322.294762985</double>
+        </coords>
+      </extent>
+      <maxCachedLevel>10</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>NESP:MERI_Benthic_CI</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+</GeoServerTileLayer>

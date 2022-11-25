@@ -1,0 +1,32 @@
+<GeoServerTileLayer>
+  <id>LayerGroupInfoImpl-2ae9b1f8:180c2915d17:-6b93</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>NESP:NESP_D3_reef</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.2491797819391958E7</double>
+          <double>-5517437.028234604</double>
+          <double>1.774026916831288E7</double>
+          <double>-1006023.5991960263</double>
+        </coords>
+      </extent>
+      <minCachedLevel>3</minCachedLevel>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>0</gutter>
+</GeoServerTileLayer>

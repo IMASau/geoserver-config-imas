@@ -1,0 +1,38 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl--46f7f65a:1835e95e5b6:-3a31</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:Aus_bathymetry_holdings</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>-1.9278657701667715E7</double>
+          <double>-1.5720555333086107E7</double>
+          <double>1.933432122859547E7</double>
+          <double>6925087.304515585</double>
+        </coords>
+      </extent>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:Aus_bathymetry_holdings</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

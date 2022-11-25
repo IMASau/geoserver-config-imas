@@ -1,0 +1,32 @@
+<GeoServerTileLayer>
+  <id>LayerGroupInfoImpl-733d3287:17eda00b620:-6d7b</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:geomorph_AMP_grp</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>-1.966057687364391E7</double>
+          <double>-2.003750834E7</double>
+          <double>1.9767663492256697E7</double>
+          <double>4340853.825171745</double>
+        </coords>
+      </extent>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

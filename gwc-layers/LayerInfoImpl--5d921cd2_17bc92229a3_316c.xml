@@ -1,0 +1,39 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl--5d921cd2:17bc92229a3:316c</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:Aus_depth_contours_MERI</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>-1.960133024326387E7</double>
+          <double>-8975852.405790504</double>
+          <double>2.000132082955944E7</double>
+          <double>-220990.24179797684</double>
+        </coords>
+      </extent>
+      <maxCachedLevel>12</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:Aus_contours_MERI_coloured</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>
