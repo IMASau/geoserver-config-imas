@@ -4,7 +4,11 @@
 
 		<div class="feature">
 		<BR>
-			<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} network</i>)<BR>
+			<#if feature.RESNAME.value == 'Coral Sea'>
+				<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} Marine Park</i>)<BR>
+				<#else>
+				<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} Network</i>)<BR>
+			</#if>
 			   ${feature.ZONENAME.value} (<i>${feature.POLYGONID.value}</i>)<BR>	
 		<BR>
  		</div>		
