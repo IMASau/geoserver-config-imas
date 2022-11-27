@@ -418,7 +418,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>			
         <Rule>		
-          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;</Title>		
+          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
