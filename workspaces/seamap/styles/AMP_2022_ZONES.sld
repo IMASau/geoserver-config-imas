@@ -19,11 +19,11 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_res</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
+           			<ogc:PropertyName>PARK</ogc:PropertyName>
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_AMP2022_PARK</name>
+  <id>LayerInfoImpl--2605b0cf:184c88c0a03:-7f6f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2109d5df:1821efef03b:22ba</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2605b0cf:184c88c0a03:-7f70</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-11-30 13:30:30.210 UTC</dateCreated>
+</layer>
