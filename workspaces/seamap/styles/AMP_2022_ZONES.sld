@@ -53,7 +53,7 @@
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>ZONENAME</ogc:PropertyName>
+           			<ogc:PropertyName>NATLEGEND</ogc:PropertyName>
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
