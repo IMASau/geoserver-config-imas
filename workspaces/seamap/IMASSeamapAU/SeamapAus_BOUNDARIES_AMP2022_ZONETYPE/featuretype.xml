@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2605b0cf:184c88c0a03:-7da9</id>
+  <id>FeatureTypeInfoImpl--2605b0cf:184c88c0a03:-1157</id>
   <name>SeamapAus_BOUNDARIES_AMP2022_ZONETYPE</name>
   <nativeName>SeamapAus_BOUNDARIES_AMP2022_ZONETYPE</nativeName>
   <namespace>
@@ -34,7 +34,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-4599472.142522039</minx>
     <maxx>3447053.332833915</maxx>
@@ -43,10 +43,10 @@
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-175.97769536141647</minx>
-    <maxx>178.95983351478912</maxx>
-    <miny>-61.77865382458602</miny>
-    <maxy>-2.719523594200699</maxy>
+    <minx>-4599472.142522039</minx>
+    <maxx>3447053.332833915</maxx>
+    <miny>-7183626.73173895</miny>
+    <maxy>-1047063.6342078854</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>

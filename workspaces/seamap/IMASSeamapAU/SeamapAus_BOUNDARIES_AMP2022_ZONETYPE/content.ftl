@@ -4,12 +4,12 @@
 
 		<div class="feature">
 		<BR>
-			<#if feature.PARK.value == 'Coral Sea'>
-				<b>${feature.PARK.value}</b> (<i>${feature.NETWORK.value} Marine Park</i>)<BR>
+			<#if feature.RESNAME.value == 'Coral Sea'>
+				${feature.RESNAME.value} (<i>${feature.NETNAME.value} Marine Park</i>)<BR>
 				<#else>
-				<b>${feature.PARK.value}</b> (<i>${feature.NETWORK.value} Network</i>)<BR>
+				${feature.RESNAME.value} (<i>${feature.NETNAME.value} Network</i>)<BR>
 			</#if>
-			   <b>${feature.Legend.value}</b> zone<BR>	
+			   <b>${feature.ZONENAME.value}</b> (<i><i>${feature.POLYGONID.value}</i>)	
 		<BR>
  		</div>		
 </#list>

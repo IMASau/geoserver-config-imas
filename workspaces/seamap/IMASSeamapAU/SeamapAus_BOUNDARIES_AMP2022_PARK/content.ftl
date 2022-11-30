@@ -4,10 +4,10 @@
 
 		<div class="feature">
 		<BR>
-			<#if feature.PARK.value == 'Coral Sea'>
-				<b>${feature.PARK.value}</b> (<i>${feature.NETWORK.value} Marine Park</i>)<BR>
+			<#if feature.RESNAME.value == 'Coral Sea'>
+				<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} Marine Park</i>)<BR>
 				<#else>
-				<b>${feature.PARK.value}</b> (<i>${feature.NETWORK.value} Network</i>)<BR>
+				<b>${feature.RESNAME.value}</b> (<i>${feature.NETNAME.value} Network</i>)<BR>
 			</#if>
 		<BR>
  		</div>		

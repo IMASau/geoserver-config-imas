@@ -23,7 +23,7 @@
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>PARK</ogc:PropertyName>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
            		  </Label>                  
                   <Font>
            			<CssParameter name="font-family">SansSerif.plain</CssParameter>
@@ -48,7 +48,7 @@
           <Title>Coral Sea</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>Coral Sea</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -70,7 +70,7 @@
           <Title>Indian Ocean Territories</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>Indian Ocean Territories</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -92,7 +92,7 @@
             <Title>North</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>North</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -114,7 +114,7 @@
             <Title>North-west</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>North-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -136,7 +136,7 @@
             <Title>South-east</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>South-east</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -158,7 +158,7 @@
             <Title>South-west</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>South-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -180,7 +180,7 @@
             <Title>Temperate East</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETWORK</ogc:PropertyName>
+              <ogc:PropertyName>NETNAME</ogc:PropertyName>
               <ogc:Literal>Temperate East</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

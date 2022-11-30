@@ -23,7 +23,7 @@
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>PARK</ogc:PropertyName>
+           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
