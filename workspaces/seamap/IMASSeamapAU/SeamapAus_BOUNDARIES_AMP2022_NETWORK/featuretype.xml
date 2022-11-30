@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2605b0cf:184c88c0a03:-7fff</id>
+  <id>FeatureTypeInfoImpl--2605b0cf:184c88c0a03:-7fde</id>
   <name>SeamapAus_BOUNDARIES_AMP2022_NETWORK</name>
   <nativeName>SeamapAus_BOUNDARIES_AMP2022_NETWORK</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Parks (2022)</title>
+  <title>Australian Marine Parks (2022) - Networks</title>
   <abstract>Australian Marine Parks 2022 (includes Indian Ocean Territories) - styled by Network.</abstract>
   <keywords>
     <string>features</string>
@@ -36,17 +36,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-4599472.142522039</minx>
+    <maxx>3447053.332833915</maxx>
+    <miny>-7183626.73173895</miny>
+    <maxy>-1047063.6342078854</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>-4599472.142522039</minx>
+    <maxx>3447053.332833915</maxx>
+    <miny>-7183626.73173895</miny>
+    <maxy>-1047063.6342078854</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>

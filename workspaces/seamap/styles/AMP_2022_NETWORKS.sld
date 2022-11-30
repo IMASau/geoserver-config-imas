@@ -19,11 +19,11 @@
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_net</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>NETNAME</ogc:PropertyName>
+           			<ogc:PropertyName>NETWORK</ogc:PropertyName>
            		  </Label>
               
                   <Font>
@@ -40,13 +40,13 @@
           <Title>Coral Sea</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>Coral Sea</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#ffc021</CssParameter>
@@ -62,13 +62,13 @@
           <Title>Indian Ocean Territories</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>Indian Ocean Territories</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#88dd88</CssParameter>
@@ -84,13 +84,13 @@
             <Title>North</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>North</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>   		  
             <Fill>
               <CssParameter name="fill">#ea5a68</CssParameter>
@@ -106,13 +106,13 @@
             <Title>North-west</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>North-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#b461dd</CssParameter>
@@ -128,13 +128,13 @@
             <Title>South-east</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>South-east</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>		  
             <Fill>
               <CssParameter name="fill">#0eb0ea</CssParameter>
@@ -150,13 +150,13 @@
             <Title>South-west</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>South-west</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#485ec1</CssParameter>
@@ -172,13 +172,13 @@
             <Title>Temperate East</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NETNAME</ogc:PropertyName>
+              <ogc:PropertyName>NETWORK</ogc:PropertyName>
               <ogc:Literal>Temperate East</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>	
           <Geometry>
-             <ogc:PropertyName>geom_net</ogc:PropertyName>
+             <ogc:PropertyName>geom</ogc:PropertyName>
           </Geometry>  		  
             <Fill>
               <CssParameter name="fill">#24c295</CssParameter>
