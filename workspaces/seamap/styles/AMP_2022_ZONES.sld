@@ -53,7 +53,7 @@
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+           			<ogc:PropertyName>Legend</ogc:PropertyName>
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
@@ -78,7 +78,7 @@
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Sanctuary Zone (IUCN Ia)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -99,7 +99,7 @@
             <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>%Park Zone%II%</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
@@ -120,7 +120,7 @@
             <Title>Recreational Use Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Recreational Use Zone (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -141,7 +141,7 @@
             <Title>Habitat Protection Zone (Lord Howe) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (Lord Howe) (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -179,7 +179,7 @@
             <Title>Habitat Protection Zone (Reefs) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (Reefs) (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -216,7 +216,7 @@
             <Title>Habitat Protection Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Habitat Protection Zone (IUCN IV)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -237,7 +237,7 @@
             <Title>Multiple Use Zone (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Multiple Use Zone (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -258,7 +258,7 @@
             <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Norfolk) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -296,7 +296,7 @@
             <Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Mining Exclusion) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -334,7 +334,7 @@
             <Title>Special Purpose Zone (Trawl) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (Trawl) (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -372,7 +372,7 @@
             <Title>Special Purpose Zone (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>NATLEGEND</ogc:PropertyName>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
               <ogc:Literal>Special Purpose Zone (IUCN VI)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
