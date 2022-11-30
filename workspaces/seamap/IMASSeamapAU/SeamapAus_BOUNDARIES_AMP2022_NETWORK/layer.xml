@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_AMP2022_NETWORK</name>
+  <id>LayerInfoImpl--2605b0cf:184c88c0a03:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2109d5df:1821efef03b:-3e80</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2605b0cf:184c88c0a03:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-11-30 12:42:44.703 UTC</dateCreated>
+  <dateModified>2022-11-30 12:44:17.518 UTC</dateModified>
+</layer>
