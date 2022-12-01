@@ -39,7 +39,8 @@
          		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">-1</VendorOption> 
-					<VendorOption name="group">yes</VendorOption>              
+					<VendorOption name="group">yes</VendorOption> 
+					<VendorOption name="repeat">0</VendorOption>              
 			</TextSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
  		</Rule>        
