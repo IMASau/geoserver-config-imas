@@ -53,7 +53,7 @@
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>POLYGONID</ogc:PropertyName>
+           			Zone ID: <ogc:PropertyName>POLYGONID</ogc:PropertyName>
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
