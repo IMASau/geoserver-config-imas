@@ -9,7 +9,7 @@
 				<#else>
 				${feature.RESNAME.value} (<i>${feature.NETNAME.value} Network</i>)<BR>
 			</#if>
-			   <b>${feature.ZONENAME.value}</b> (<i><i>${feature.POLYGONID.value}</i>)	
+			   Zone <b>${feature.POLYGONID.value}</b> (<i>${feature.ZONENAME.value}</i>)	
 		<BR>
  		</div>		
 </#list>
