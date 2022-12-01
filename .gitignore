@@ -3,5 +3,6 @@ security/usergroup/default/users.xml
 *.iml
 Thumbs.db
 gwc/*
+security/masterpw.info
 
 logs/geoserver.log*
