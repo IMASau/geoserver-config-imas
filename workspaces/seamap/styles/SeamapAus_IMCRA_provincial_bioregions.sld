@@ -31,7 +31,8 @@
 							<CssParameter name="fill-opacity">0.6</CssParameter>								
 					  </Font>            
                     <VendorOption name="partials">false</VendorOption>
-					<VendorOption name="group">yes</VendorOption>							
+					<VendorOption name="group">yes</VendorOption>	
+      			   <VendorOption name="inclusion">mapOnly</VendorOption>                                            
 					</TextSymbolizer>             
 				</Rule>			
 				<Rule>

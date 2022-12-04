@@ -37,6 +37,7 @@
                     <VendorOption name="partials">false</VendorOption>
 					<VendorOption name="spaceAround">0</VendorOption>
 					<VendorOption name="group">false</VendorOption>
+      			   <VendorOption name="inclusion">mapOnly</VendorOption>                      
 			</TextSymbolizer>              
  		</Rule>              
 				<Rule>
@@ -831,7 +832,7 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#fefdef</CssParameter>
+							<CssParameter name="fill">#f4ea57</CssParameter>
 							<CssParameter name="fill-opacity">0.6</CssParameter>                          
 						</Fill>
 
