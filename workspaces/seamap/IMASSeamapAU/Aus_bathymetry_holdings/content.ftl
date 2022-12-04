@@ -1,7 +1,7 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1150px; table-layout: fixed;" border="1">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1050px; table-layout: fixed;" border="1">
 	<col width="28%" />
 	<col width="7.5%" />
 	<col width="7.5%" />
@@ -13,14 +13,14 @@
 
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
-		<th>Collection name</th>
-		<th style="text-align: center">Date range</th>
-		<th style="text-align: center">Resolution</th>
-		<th>Marine Park(s)</th>
-		<th>Availability</th>
-		<th>Collector</th>
-		<th>Point of contact</th>		
-		<th>Info</th>
+		<th style="font-size:11px">Collection name</th>
+		<th style="text-align: center; font-size:10px">Date range</th>
+		<th style="text-align: center; font-size:11px">Resolution</th>
+		<th style="font-size:11px">Marine Park(s)</th>
+		<th style="font-size:11px">Availability</th>
+		<th style="font-size:11px">Collector</th>
+		<th style="font-size:11px">Point of contact</th>		
+		<th style="font-size:11px">Info</th>
 	</TR>
 
 	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
@@ -41,7 +41,7 @@
 
 	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="white-space: normal">
+		<TD style="white-space: normal; font-size:11px">
 			<#if collection?has_content>
 				<#if feature.dtype.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -59,7 +59,7 @@
 			</#if>
 		</TD>
 
-		<TD style="text-align: center">
+		<TD style="text-align: center; font-size:11px">
 			<#if startdate?has_content>
 				<#if today < feature.end_date.rawValue?long>
 					<i>in progress</i>
@@ -71,7 +71,7 @@
 			</#if>
 		</TD>
 
-		<TD style="text-align: center">
+		<TD style="text-align: center; font-size:11px">
 			<#if resolution?has_content>
 				${feature.RES_ACTUAL.value}m
 			<#else>
