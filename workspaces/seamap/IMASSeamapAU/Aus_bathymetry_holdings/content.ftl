@@ -2,19 +2,19 @@
 
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1050px; table-layout: fixed;" border="1">
-	<col width="28%" />
-	<col width="7.5%" />
-	<col width="7.5%" />
-  	<col width="18.5%" />
+	<col width="29%" />
+	<col width="7.7%" />
+	<col width="7.8%" />
+  	<col width="18%" />
 	<col width="9%" />
 	<col width="7.5%" />
-  	<col width="15%" />
-	<col width="7%" />
+  	<col width="15.5%" />
+	<col width="5.5%" />
 
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
 		<th style="font-size:11px">Collection name</th>
-		<th style="text-align: center; font-size:10px">Date range</th>
+		<th style="text-align: center; font-size:11px">Date range</th>
 		<th style="text-align: center; font-size:11px">Resolution</th>
 		<th style="font-size:11px">Marine Park(s)</th>
 		<th style="font-size:11px">Availability</th>
@@ -120,7 +120,7 @@
 
 		<TD style="font-size:11px">
 			<#if metadata?has_content>
-				<a rel="external" href="${feature.METADATA.value}" target="_blank">view metadata</a>
+				<a rel="external" href="${feature.METADATA.value}" target="_blank">metadata</a>
 			<#else>
 				-
 			</#if> 
