@@ -9,6 +9,5 @@
 				<#else>
 				<b>${feature.NETNAME.value}</b> Network<BR>
 			</#if>
-		<BR>
  		</div>		
 </#list>
