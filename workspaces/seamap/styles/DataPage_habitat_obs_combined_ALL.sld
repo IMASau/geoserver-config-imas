@@ -35,7 +35,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>5</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                     
         </Rule>  
         <Rule>
           <Title>Imagery (SQUIDLE+) - ultra zoomed out</Title>
@@ -62,7 +63,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>5</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
           <Rule>
           <Title>Sediment (MARS) - ultra zoomed out</Title>
@@ -89,7 +91,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>5</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        
         </Rule> 
 	  
 
@@ -119,7 +122,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>  
 
  
@@ -149,7 +153,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
           <Rule>
           <Title>Sediment (MARS) - zoomed out</Title>
@@ -177,7 +182,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        
         </Rule> 
 	  
         <Rule>
@@ -206,7 +212,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>7</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>  
 
  
@@ -236,7 +243,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>7</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
           <Rule>
           <Title>Sediment (MARS)</Title>
@@ -264,7 +272,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        
         </Rule> 
 		
 		
