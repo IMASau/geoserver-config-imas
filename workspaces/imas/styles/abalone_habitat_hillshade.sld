@@ -16,9 +16,7 @@
               <ColorMapEntry color="#FFFFFF" opacity="0.0" quantity="255.0"/>              
             </ColorMap>
           </RasterSymbolizer>
-		<VendorOption name="inclusion">mapOnly</VendorOption>                        
         </Rule>
-        <VendorOption name="composite">multiply</VendorOption>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

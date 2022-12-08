@@ -59,6 +59,8 @@
     <id>CoverageStoreInfoImpl--1295cef3:17d4c36cfbe:-3650</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
@@ -113,7 +115,7 @@
   <parameters>
     <entry>
       <string>BackgroundValues</string>
-      <null/>
+      <string>255</string>
     </entry>
     <entry>
       <string>OVERVIEW_POLICY</string>
@@ -146,6 +148,10 @@
     <entry>
       <string>Bands</string>
       <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>Filter</string>
