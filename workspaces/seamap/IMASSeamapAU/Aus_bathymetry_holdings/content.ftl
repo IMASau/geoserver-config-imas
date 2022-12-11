@@ -110,7 +110,7 @@
 			</#if> 
 		</TD> 
 
-		<TD style="white-space: normal; font-size:11px">
+		<TD style="white-space: normal; font-size:10.5px">
 			<#if POC?has_content>
 				${feature.pointofcontact.value}
 			<#else>
