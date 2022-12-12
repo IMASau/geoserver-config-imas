@@ -16,7 +16,7 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>10</Size>
@@ -26,17 +26,33 @@
         </Rule>
         <Rule>
           <Title> Media observation</Title>
+          <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>18</Size>
+    			 	<Size>16</Size>
   			 </Graphic>
           </PointSymbolizer>
-        </Rule>        
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                          
+        </Rule>
+        <Rule>
+          <Title> Media observation</Title>
+          <MaxScaleDenominator>10000</MaxScaleDenominator>                    
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>         
+  		<VendorOption name="spaceAround">12</VendorOption>        
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

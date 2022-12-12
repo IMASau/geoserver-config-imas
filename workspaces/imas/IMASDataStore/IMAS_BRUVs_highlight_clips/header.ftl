@@ -12,6 +12,8 @@ a:hover {
 	color: #575757;
 }
 
+p { margin:0 }
+
 table {
 	border-bottom: 1px solid #ededed;
 	border-collapse: collapse;
