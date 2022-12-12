@@ -38,7 +38,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">bathymetry_maps_thumbs_viewing</entry>
@@ -47,6 +47,8 @@
     <id>CoverageStoreInfoImpl--4812677:17ff49a5b56:-7d51</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
@@ -134,6 +136,10 @@
     <entry>
       <string>Bands</string>
       <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>Filter</string>

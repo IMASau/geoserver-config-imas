@@ -5,6 +5,14 @@
   <defaultStyle>
     <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3abb6195:1850617f60a:155e</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl--227ee776:1818c8f7268:4b23</id>
   </resource>
@@ -13,4 +21,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2022-12-12 12:14:14.340 UTC</dateModified>
 </layer>
