@@ -11,19 +11,14 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Habitat imagery</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>image_name</ogc:PropertyName>
-              <ogc:Literal>%jpg</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>                        
+          <Title>Imagery observation</Title>
+          <MinScaleDenominator>1000000</MinScaleDenominator>          
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF5733</CssParameter>  
+                  <CssParameter name="fill">#9933ff</CssParameter>  
                   <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>
                 <Stroke>
@@ -31,18 +26,14 @@
                    <CssParameter name="stroke-width">0.5</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
         <Rule>
-          <Title>Representative video</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>image_name</ogc:PropertyName>
-              <ogc:Literal>%mp4</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>            
+          <Title>Imagery observation</Title>
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -58,7 +49,7 @@
               </Mark>
               <Size>8</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
         </Rule>        
         </FeatureTypeStyle>
     </UserStyle>

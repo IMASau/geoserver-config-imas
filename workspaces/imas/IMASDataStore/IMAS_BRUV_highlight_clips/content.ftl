@@ -1,32 +1,35 @@
-<h6>IMAS BRUV highlight imagery</h6><BR>
+<#setting date_format="dd MMM yyyy">
+
+<h5>IMAS BRUVs highlight imagery</h5><BR>
 
 <#list features as feature>
-<#assign imagetype=feature.image_name.value>	
+<#assign imagetype=feature.image_name.value>
+<#assign imagedate=feature.Date.value>		
 
 
-	<#if (feature_index < 10) >
+	<#if (feature_index < 5) >
 	
   <div class="feature">  
-  		<b>Location:</b> ${feature.Location.value}<BR>
-  		<b>Protection status:</b> ${feature.Status.value}<BR>
-  		<b>Date:</b> ${feature.Date.value} (${feature.Time.value})<BR>
+  		<b>Location:</b> ${feature.Location.value} (status: <b>${feature.Status.value}</b>)<BR>
+  		<b>Date:</b> ${imagedate?date("mm/dd/yy")?date} (${feature.Time.value})<BR>
   		<b>Depth:</b> ${feature.Depth.value} metres<BR>
 
 		<#if imagetype?contains("jpg")>		
 			<a href="${feature.image_URL.value}" target="_blank">
-			<img class="spaced" style="max-width:800px!important" src="${feature.image_URL.value}" alt="no image available"></a><BR>
+			<img class="spaced" style="max-width:400px!important" src="${feature.image_URL.value}" alt="no image available"></a>
  		<#else>
-			<video width="800" controls autoplay>
+			<video width="400" controls autoplay>
   				<source src="${feature.image_URL.value}" type="video/mp4">
 			</video>
 		</#if>
+		<br>
 		<h7><a href="${feature.image_URL.value}" target="_blank">View in new window</a></h7>
-		<b><br><b>
+		<br><br>
 
  
  </div>
 	<#else>
-	<h6>This preview has been limited to ten highlights. More exist at this point.</h6>
+	<i>This preview has been limited to five  highlights. More exist at this point.</i>
 		<#break>
   </#if>
 </#list>
