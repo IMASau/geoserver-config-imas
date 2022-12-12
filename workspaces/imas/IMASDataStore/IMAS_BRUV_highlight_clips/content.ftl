@@ -1,25 +1,21 @@
-<#import "config.ftl" as my>
-<h5>Species sighted at this point</h5><BR>
+<h6>IMAS BRUV highlight imagery</h6><BR>
 
 
 <#list features as feature>
 
-	<#if (feature_index < 5) >
+	<#if (feature_index < 10) >
 	
   <div class="feature">  
-  
-  <#if feature.SPECIES.value == "">
-		<b>Other species:</b> ${feature.OTHER_SPECIES.value}<BR><BR>
-  <#else>
-		<b>Redmap-listed species:</b> ${feature.SPECIES.value} (${feature.COMMON_NAME.value})<BR><BR>
-		<a href="${my.baseurlSpecies}${feature.MB_SPECIES_ID.value}" target="_blank">
-			<img class="spaced" style="max-width:200px!important" src="${my.baseRMImage}${feature.PICTURE_URL.value}" alt="no image available"></a><BR>
-		<h6>Image credit: ${feature.IMAGE_CREDIT.value}</h6><BR>	
-  </#if>	
+  		<b>Location:</b> ${feature.Location.value}<BR>
+  		<b>Protection status:</b> ${feature.Status.value}<BR>
+  		<b>Date:</b> ${feature.Date.value} (${feature.Time.value})<BR>
+  		<b>Depth:</b> ${feature.Depth.value} metres<BR>
+		<a href="${feature.image_URL.value}" target="_blank">
+			<img class="spaced" style="max-width:800px!important" src="${feature.image_URL.value}" alt="no image available"></a><BR>
   
  </div>
 	<#else>
-	<h6>This information has been limited to five results. There may be more sightings at this point. <BR>Zoom in for greater detail or proceed to step 3 to download data.</h6>
+	<h6>This preview has been limited to ten highlights. More exist at this point.</h6>
 		<#break>
   </#if>
 </#list>
