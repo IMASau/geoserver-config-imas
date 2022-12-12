@@ -16,7 +16,7 @@
 			<a href="${feature.image_URL.value}" target="_blank">
 			<img class="spaced" style="max-width:400px!important" src="${feature.image_URL.value}" alt="no image available"></a>
  		<#else>
-			<video width="400" controls autoplay>
+			<video width="400" controls autoplay muted>
   				<source src="${feature.image_URL.value}" type="video/mp4">
 			</video>
 		</#if>
