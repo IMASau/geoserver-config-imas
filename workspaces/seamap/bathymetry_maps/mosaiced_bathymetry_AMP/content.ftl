@@ -9,9 +9,9 @@
 		<div class="feature">
 			<BR>
 			<#if depth_numeric < -300000>
-				<b>Depth:</b> N/A
+				<i>Click is outside area of coverage</i>
 			<#elseif depth_numeric = 0>
-				<b>Depth:</b> N/A
+				<i>Click is outside area of coverage</i>
 			<#else>
 				<b>Depth:</b> ${feature.GRAY_INDEX.rawValue*-1}  m
  			</#if>
