@@ -1,33 +1,36 @@
 <#setting date_format="dd MMM yyyy">
+<#setting time_format="hh:mm">
+
 
 <#list features as feature>
 <#assign imagetype=feature.image_name.value>
-<#assign imagedate=feature.Date.value>		
+<#assign imagedate=feature.Date.value>
+<#assign imagetime=feature.Time.value>				
 
 
-	<#if (feature_index < 5) >
+	<#if (feature_index < 3) >
 	
   <div class="feature">  
-  		<b>Location:</b> ${feature.Location.value} (status: <b>${feature.Status.value}</b>)<BR>
-  		<b>Date:</b> ${imagedate?date("mm/dd/yy")?date} (${feature.Time.value})<BR>
+  		<b>Location:</b> ${feature.Location.value} (<i>status: <b>${feature.Status.value}</b></i>)<BR>
+  		<b>Date:</b> ${imagedate?date("mm/dd/yy")?date} (${imagetime?time})<BR>
   		<b>Depth:</b> ${feature.Depth.value} metres<BR>
 
 		<#if imagetype?contains("jpg")>		
-			<a href="${feature.image_URL.value}" target="_blank">
-			<img class="spaced" style="max-width:400px!important" src="${feature.image_URL.value}" alt="no image available"></a>
+			<a href="${feature.media_URL.value}" target="_blank">
+			<img class="spaced" style="max-width:400px!important" src="${feature.media_URL.value}" alt="no image available"></a>
  		<#else>
 			<video width="400" controls autoplay muted>
-  				<source src="${feature.image_URL.value}" type="video/mp4">
+  				<source src="${feature.media_URL.value}" type="video/mp4">
 			</video>
 		</#if>
 		<br>
-		<h7><a href="${feature.image_URL.value}" target="_blank">View in new window</a></h7>
+		<h7><a href="${feature.media_URL.value}" target="_blank">View in new window</a></h7>
 		<br><br>
 
  
  </div>
 	<#else>
-	<i>This preview has been limited to five  highlights. More exist at this point.</i>
+	<i>This preview has been limited to three highlights. More exist at this point.</i>
 		<#break>
   </#if>
 </#list>
