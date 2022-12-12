@@ -1,7 +1,5 @@
 <#setting date_format="dd MMM yyyy">
 
-<h5>IMAS BRUVs highlight imagery</h5><BR>
-
 <#list features as feature>
 <#assign imagetype=feature.image_name.value>
 <#assign imagedate=feature.Date.value>		
