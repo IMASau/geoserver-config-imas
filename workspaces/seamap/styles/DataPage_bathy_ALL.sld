@@ -17,7 +17,7 @@
              <Title>All survey extents</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#abaeba</CssParameter>
+              <CssParameter name="fill">#818498</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
