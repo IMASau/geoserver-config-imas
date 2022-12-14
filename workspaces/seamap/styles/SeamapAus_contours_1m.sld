@@ -14,7 +14,7 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:Title>1m depth contour</sld:Title>
-          <sld:MaxScaleDenominator>50000</sld:MaxScaleDenominator>
+          <sld:MaxScaleDenominator>100000</sld:MaxScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#336600</sld:CssParameter>
@@ -40,7 +40,7 @@ xmlns:gml="http://www.opengis.net/gml">
         </sld:Rule>
         <sld:Rule>
           <sld:Title>(zoom in for depth labels)</sld:Title>
-          <sld:MinScaleDenominator>50000</sld:MinScaleDenominator>
+          <sld:MinScaleDenominator>100000</sld:MinScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#336600</sld:CssParameter>
