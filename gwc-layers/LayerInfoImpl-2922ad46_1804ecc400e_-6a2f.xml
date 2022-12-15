@@ -30,7 +30,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>imas:abalone_fishing_blocks</defaultStyle>
+      <defaultStyle>invisible_polygon</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

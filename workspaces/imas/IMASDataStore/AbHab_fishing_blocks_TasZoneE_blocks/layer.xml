@@ -1,0 +1,18 @@
+<layer>
+  <name>AbHab_fishing_blocks_TasZoneE_blocks</name>
+  <id>LayerInfoImpl-2031eed7:18515a7a759:-7ffd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1295cef3:17d93dc3025:3305</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2031eed7:18515a7a759:-7ffe</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-12-15 12:05:06.256 UTC</dateCreated>
+  <dateModified>2022-12-15 12:11:00.178 UTC</dateModified>
+</layer>

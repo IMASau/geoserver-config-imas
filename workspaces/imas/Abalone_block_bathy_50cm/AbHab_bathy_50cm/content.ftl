@@ -5,7 +5,7 @@
 	<#if (feature_index < 1) >
 
 
-	<#if (depth_numeric > 0) || (depth_numeric < -10000) >
+	<#if (depth_numeric >= 0) || (depth_numeric < -10000) >
 	<#else>
 
 	<div class="feature">

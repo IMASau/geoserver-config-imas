@@ -3,14 +3,15 @@
   <id>LayerInfoImpl-2922ad46:1804ecc400e:-6a2f</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--1295cef3:17d93dc3025:3305</id>
+    <id>StyleInfoImpl-6951ca5b:181d68afa46:28c1</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-2922ad46:1804ecc400e:-6a30</id>
   </resource>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2022-12-15 11:55:22.658 UTC</dateModified>
+  <dateModified>2022-12-15 12:10:49.621 UTC</dateModified>
 </layer>
