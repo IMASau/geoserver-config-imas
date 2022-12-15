@@ -2,13 +2,21 @@
   <id>LayerInfoImpl-2922ad46:1804ecc400e:-6a2f</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>imas:AbHab_fishing_blocks_TasZoneE</name>
+  <name>imas:AbHab_fishing_blocks_TasZoneE_subBlocks</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.6423550561774066E7</double>
+          <double>-5350476.861610634</double>
+          <double>1.6578925148252033E7</double>
+          <double>-5008604.172024711</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -26,4 +34,5 @@
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
+  <cacheWarningSkips/>
 </GeoServerTileLayer>

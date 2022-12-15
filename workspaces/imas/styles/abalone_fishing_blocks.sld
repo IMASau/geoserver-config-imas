@@ -17,7 +17,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_block</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>
                      </ogc:Function>
                   </Geometry>
            		  <Label>
@@ -73,7 +73,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:Or>
           </ogc:Filter>			  
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			  		  
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  		  
             <Fill>
               <CssParameter name="fill">#d9d9d9</CssParameter>
               <CssParameter name="fill-opacity">0.3</CssParameter>					  
@@ -102,7 +102,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:Or>			
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom_block</ogc:PropertyName></Geometry>			
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			
             <Fill>
               <GraphicFill>
                 <Graphic>

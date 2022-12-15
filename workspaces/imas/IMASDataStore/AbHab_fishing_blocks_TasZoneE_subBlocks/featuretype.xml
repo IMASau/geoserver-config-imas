@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-2922ad46:1804ecc400e:-6a30</id>
-  <name>AbHab_fishing_blocks_TasZoneE</name>
-  <nativeName>Lucieer_AbHab_TasAbFishBlocks_ZoneE_MAP</nativeName>
+  <name>AbHab_fishing_blocks_TasZoneE_subBlocks</name>
+  <nativeName>Lucieer_AbHab_TasAbFishBlocks_ZoneE_subBlocks</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Tasmanian abalone fishery - commercial fishing blocks (Zone E)</title>
+  <title>Tasmanian abalone fishery - commercial fishing Sub-Blocks (Zone E)</title>
   <keywords>
     <string>features</string>
     <string>Lucieer_AbHab_TasAbFishBlocks_ZoneE_MAP</string>
@@ -56,6 +56,8 @@
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
