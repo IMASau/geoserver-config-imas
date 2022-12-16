@@ -11,10 +11,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Name>Abalone fishing blocks</Name>
       <FeatureTypeStyle>
+        <Rule>
+		  <MinScaleDenominator>500000</MinScaleDenominator>          
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">
+                <ogc:Literal>#000000</ogc:Literal>
+              </CssParameter>
+              <CssParameter name="fill-opacity">
+                <ogc:Literal>0</ogc:Literal>
+              </CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			                              
+        </Rule>           
  		<Rule>
-		  <Title>Abalone fishing blocks (East Coast Tas)</Title>
-		  <MinScaleDenominator>5000000</MinScaleDenominator>          
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+		  <Title>Sub-blocks (Zone E)</Title>
+		  <MaxScaleDenominator>500000</MaxScaleDenominator>
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -22,7 +35,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>blockno</ogc:PropertyName>
+           			<ogc:PropertyName>subblockno</ogc:PropertyName>
            		  </Label>                  
                   <Font>
            			<CssParameter name="font-family">SansSerif.plain</CssParameter>
@@ -37,10 +50,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
            			</PointPlacement>
          		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
+			</TextSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			                      
+          
  		</Rule>   
         <Rule>
-          <Title>Block boundary</Title>
+          <Title>Sub-block boundary</Title>
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
@@ -72,8 +87,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>30</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
 		  </ogc:Or>
-          </ogc:Filter>			
-		  <MinScaleDenominator>5000000</MinScaleDenominator>                              
+          </ogc:Filter>	
+		  <MaxScaleDenominator>500000</MaxScaleDenominator>                    
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  		  
             <Fill>
@@ -86,11 +101,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="opacity">0.8</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>
-
-		
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			                      
+    
+        </Rule>	
         <Rule>
-            <Title>unmapped blocks</Title>         
+            <Title>unmapped blocks</Title>
           <ogc:Filter>
 		  <ogc:Or>
             <ogc:PropertyIsEqualTo>
@@ -103,8 +118,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>
 		  </ogc:Or>			
           </ogc:Filter>
-		  <MinScaleDenominator>5000000</MinScaleDenominator>                    
-          
+		  <MaxScaleDenominator>500000</MaxScaleDenominator>                    
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			
             <Fill>
@@ -125,8 +139,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="opacity">0.8</CssParameter>					  			  
-            </Stroke>			
+            </Stroke>
           </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            			                                
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
