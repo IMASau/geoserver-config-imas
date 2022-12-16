@@ -7,6 +7,8 @@
   <workspace>
     <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl--1295cef3:17d3575c0f1:5c48</id>
@@ -15,7 +17,7 @@
       <id>LayerInfoImpl--1295cef3:17d4c36cfbe:-2ea8</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-f91f708:1833105a0c4:-7fff</id>
+      <id>LayerInfoImpl-2031eed7:18515a7a759:-5ed</id>
     </published>
   </publishables>
   <styles>
@@ -36,4 +38,5 @@
     <maxy>5445238.887374603</maxy>
     <crs class="projected">EPSG:32755</crs>
   </bounds>
+  <dateModified>2022-12-16 05:45:18.154 UTC</dateModified>
 </layerGroup>

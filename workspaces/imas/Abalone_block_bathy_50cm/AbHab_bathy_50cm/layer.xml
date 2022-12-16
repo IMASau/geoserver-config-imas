@@ -1,16 +1,17 @@
 <layer>
   <name>AbHab_bathy_50cm</name>
-  <id>LayerInfoImpl-f91f708:1833105a0c4:-7fff</id>
+  <id>LayerInfoImpl-2031eed7:18515a7a759:-5ed</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--1295cef3:17d3575c0f1:45d7</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-f91f708:1833105a0c4:-8000</id>
+    <id>CoverageInfoImpl-2031eed7:18515a7a759:-5ee</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2022-12-15 12:23:16.230 UTC</dateModified>
+  <dateCreated>2022-12-16 05:41:12.718 UTC</dateCreated>
+  <dateModified>2022-12-16 05:53:44.552 UTC</dateModified>
 </layer>

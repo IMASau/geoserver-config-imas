@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl-f91f708:1833105a0c4:-8000</id>
+  <id>CoverageInfoImpl-2031eed7:18515a7a759:-5ee</id>
   <name>AbHab_bathy_50cm</name>
-  <nativeName>AbHab_bathy_50cm</nativeName>
+  <nativeName>abhab</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
@@ -44,8 +44,8 @@
   <latLonBoundingBox>
     <minx>147.8716164748175</minx>
     <maxx>148.4337904203038</maxx>
-    <miny>-43.2281230046206</miny>
-    <maxy>-41.14086894616545</maxy>
+    <miny>-43.22812300462059</miny>
+    <maxy>-41.14086894616544</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -59,6 +59,7 @@
     <id>CoverageStoreInfoImpl--1295cef3:17d3575c0f1:4193</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
@@ -98,9 +99,6 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <nullValues>
-        <double>-3.4028234663852886E38</double>
-      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -139,7 +137,7 @@
     </entry>
     <entry>
       <string>OutputTransparentColor</string>
-      <string>#000000</string>
+      <null/>
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
@@ -151,7 +149,7 @@
     </entry>
     <entry>
       <string>RescalePixels</string>
-      <boolean>false</boolean>
+      <boolean>true</boolean>
     </entry>
     <entry>
       <string>Filter</string>
