@@ -33,7 +33,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>              
               </Mark>
-              <Size>5</Size>
+              <Size>4</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                     
@@ -61,7 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>5</Size>
+              <Size>4</Size>
             </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
@@ -89,15 +89,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">1</CssParameter>                       				   				   
                </Stroke>                
               </Mark>
-              <Size>5</Size>
+              <Size>4</Size>
             </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                        
-        </Rule> 
+        </Rule>	
 	  
 
         <Rule>
-          <Title>Video (GlobalArchive) - zoomed out</Title>
+          <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -123,12 +123,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>6</Size>
             </Graphic>
           </PointSymbolizer> 
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        		  
         </Rule>  
 
  
         <Rule>
-          <Title>Imagery (SQUIDLE+) - zoomed out</Title>
+          <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -154,10 +154,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>6</Size>
             </Graphic>
           </PointSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        		  
         </Rule>
           <Rule>
-          <Title>Sediment (MARS) - zoomed out</Title>
+          <Title>Sediment (MARS)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -183,11 +183,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>6</Size>
             </Graphic>
           </PointSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                        
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        		  
         </Rule> 
 	  
         <Rule>
-          <Title>Video (GlobalArchive)</Title>
+          <Title>Video (GlobalArchive) z1</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -218,7 +218,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
  
         <Rule>
-          <Title>Imagery (SQUIDLE+)</Title>
+          <Title>Imagery (SQUIDLE+) z2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -247,7 +247,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
           <Rule>
-          <Title>Sediment (MARS)</Title>
+          <Title>Sediment (MARS) z2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -278,7 +278,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		
 		
         <Rule>
-          <Title>Video (GlobalArchive) - zoomed in</Title>
+          <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -305,7 +305,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>  
         <Rule>
-          <Title>Imagery (SQUIDLE+) - zoomed in</Title>
+          <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
@@ -332,7 +332,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>
           <Rule>
-          <Title>Sediment (MARS) - zoomed in</Title>
+          <Title>Sediment (MARS)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DType</ogc:PropertyName>
