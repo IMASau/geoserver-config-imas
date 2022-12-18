@@ -64,7 +64,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill">#328132</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -170,7 +170,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill">#328132</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -276,7 +276,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill">#328132</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -327,7 +327,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule> 
 		
        <Rule>
-          <Title>Video (GlobalArchive) - zoomed in</Title>
+          <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
@@ -360,7 +360,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>  
         <Rule>
-          <Title>Imagery (SQUIDLE+) - zoomed in</Title>
+          <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
@@ -379,7 +379,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4aa540</CssParameter>  
+                  <CssParameter name="fill">#328132</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -393,7 +393,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>      
         </Rule>
           <Rule>
-          <Title>Sediment (MARS) - zoomed in</Title>
+          <Title>Sediment (MARS)</Title>
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
