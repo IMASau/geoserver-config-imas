@@ -67,7 +67,7 @@ td div.left {
 					</THEAD>
 
 
-					<#list features?sort_by(["AREA_pct_total", "rawValue"])?reverse as feature_body>
+					<#list features?sort_by(["AREA_pct_mapped", "rawValue"])?reverse as feature_body>
 
 						<TR class="values" style='background-color: ${((feature_body_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 							<TD>${feature_body.GEOMORPH.value}</TD>
