@@ -14,7 +14,7 @@
       <Name>Styled by data published status</Name>
       <FeatureTypeStyle>
         <Rule>
-             <Title>Data public</Title>
+             <Title>Survey extents with published data</Title>
 			<ogc:Filter>
               		<ogc:Not>
 					<ogc:PropertyIsEqualTo>
