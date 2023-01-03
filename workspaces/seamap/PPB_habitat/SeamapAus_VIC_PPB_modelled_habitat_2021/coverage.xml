@@ -50,6 +50,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">PPB_habitat_PPB_habitat_model_raster</entry>
   </metadata>
   <store class="coverageStore">
@@ -76,15 +77,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>MBTiles</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>GeoPackage (mosaic)</string>
-    <string>ArcGrid</string>
-    <string>ImageMosaic</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -101,10 +98,10 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.3999999521443642E38</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
-        <name>REAL_32BITS</name>
+        <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -121,7 +118,7 @@
     </entry>
     <entry>
       <string>InputTransparentColor</string>
-      <null/>
+      <string>#000000</string>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
