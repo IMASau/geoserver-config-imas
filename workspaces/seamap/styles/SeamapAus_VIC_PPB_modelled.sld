@@ -20,14 +20,14 @@
               <ColorMapEntry color="#FFF0DB" opacity="1" quantity="12" label=" Sublittoral Sand And Muddy Sand"/>                      
               <ColorMapEntry color="#F5CA7A" opacity="1" quantity="11" label=" Sublittoral Coarse Sediment"/>                      
               <ColorMapEntry color="#732600" opacity="1" quantity="10" label=" Tide-Swept Channels Of Circalittoral Rock"/>                      
-              <ColorMapEntry color="#897044" opacity="1" quantity="9" label=" Moderate Energy Infralittoral Rock"/> 
-              <ColorMapEntry color="#894465" opacity="1" quantity="8" label=" High Energy Littoral Rock"/>                      
-              <ColorMapEntry color="#A87000" opacity="1" quantity="7" label=" Mangrove"/>                      
+              <ColorMapEntry color="#897044" opacity="1" quantity="9" label=" Infralittoral Rock (Low energy)"/> 
+              <ColorMapEntry color="#894465" opacity="1" quantity="8" label=" Infralittoral Rock (Moderate energy)"/>                      
+              <ColorMapEntry color="#A87000" opacity="1" quantity="7" label=" Infralittoral Rock (High energy)"/>                      
               <ColorMapEntry color="#004DA8" opacity="1" quantity="6" label=" Saltmarsh and Reedbeds"/>                      
               <ColorMapEntry color="#D7D79E" opacity="1" quantity="5" label=" Littoral Mud"/>                      
               <ColorMapEntry color="#FFFF73" opacity="1" quantity="4" label=" Littoral Sand"/>                      
-              <ColorMapEntry color="#704489" opacity="1" quantity="3" label=" Low Energy Littoral Rock"/>                      
-              <ColorMapEntry color="#8400A8" opacity="1" quantity="2" label=" Moderate Energy Littoral Rock"/>                      		  
+              <ColorMapEntry color="#704489" opacity="1" quantity="3" label=" Littoral Rock (Low energy)"/>                      
+              <ColorMapEntry color="#8400A8" opacity="1" quantity="2" label=" Littoral Rock (Moderate energy)"/>                      		  
               <ColorMapEntry color="#FFFFFF" opacity="0" quantity="0"/>                      		  			  
             </ColorMap>
           </RasterSymbolizer>
