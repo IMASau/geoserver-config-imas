@@ -28,9 +28,16 @@
               <ColorMapEntry color="#FFFF73" opacity="1" quantity="4" label=" Littoral Sand"/>                      
               <ColorMapEntry color="#704489" opacity="1" quantity="3" label=" Littoral Rock (Low energy)"/>                      
               <ColorMapEntry color="#8400A8" opacity="1" quantity="2" label=" Littoral Rock (Moderate energy)"/>                      		  
+            </ColorMap>
+          </RasterSymbolizer>
+        </Rule>
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="values">  
               <ColorMapEntry color="#FFFFFF" opacity="0" quantity="0"/>                      		  			  
             </ColorMap>
           </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                      
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
