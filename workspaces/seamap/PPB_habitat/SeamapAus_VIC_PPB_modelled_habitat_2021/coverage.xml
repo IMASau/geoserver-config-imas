@@ -98,7 +98,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>

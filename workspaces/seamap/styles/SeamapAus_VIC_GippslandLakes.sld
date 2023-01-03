@@ -37,7 +37,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#E64C00</sld:CssParameter>
+              <sld:CssParameter name="fill">#004DA8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
@@ -67,7 +67,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#ffa31a</sld:CssParameter>
+              <sld:CssParameter name="fill">#dfcb80</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.8</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
