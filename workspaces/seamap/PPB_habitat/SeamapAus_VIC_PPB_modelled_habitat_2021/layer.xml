@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_VIC_PPB_modelled_habitat_2021</name>
+  <id>LayerInfoImpl--3cbb37b:18576e7860e:-1ed7</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--3cbb37b:18576e7860e:-1ed8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-01-03 11:58:12.38 UTC</dateCreated>
+</layer>

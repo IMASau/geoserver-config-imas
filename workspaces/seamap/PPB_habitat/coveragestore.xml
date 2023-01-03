@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--3cbb37b:18576e7860e:-1ed9</id>
+  <name>PPB_habitat</name>
+  <description>Port Phillip Bay Modelled Habitat Map 2021</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-01-03 11:54:18.799 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/PPB_habitat/PPB_habitat_model_raster.tif</url>
+</coverageStore>
