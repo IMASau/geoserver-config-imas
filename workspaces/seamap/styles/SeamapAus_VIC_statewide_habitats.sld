@@ -28,37 +28,7 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
-        </Rule> 
-        <Rule>
-          <Title>Coastal saltmarshes and saline reedbeds</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coastal saltmarshes and saline reedbeds</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#004DA8</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>	
-          </PolygonSymbolizer>
-        </Rule> 		
-        <Rule>
-          <Title>Mangroves</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mangroves</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#26734b</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>	
-          </PolygonSymbolizer>
-        </Rule> 		
+        </Rule> 				
         <Rule>
           <Title>Hole/canyon feature</Title>
           <ogc:Filter>
@@ -74,6 +44,10 @@
             </Fill>	
           </PolygonSymbolizer>
         </Rule>
+        
+        
+        
+        
         <Rule>
           <Title>Infralittoral rock (low energy)</Title>
           <ogc:Filter>
@@ -92,10 +66,16 @@
         <Rule>
           <Title>Infralittoral rock (moderate energy)</Title>
           <ogc:Filter>
+			<ogc:Or>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Moderate energy infralittoral rock</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Infralittoral rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
+		  </ogc:Or>                          
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -118,25 +98,133 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
-        </Rule>	
-        
-        
-        
+        </Rule>
         <Rule>
-          <Title>Sublittoral mud</Title>
+          <Title>Littoral rock (low energy)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sublittoral mud 2 - Port Phillip Bay</ogc:Literal>
+              <ogc:Literal>Low energy littoral rock</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#D7CCBD</CssParameter>
+              <CssParameter name="fill">#704489</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
-        </Rule>
+        </Rule> 
+        <Rule>
+          <Title>Littoral rock (moderate energy)</Title>
+          <ogc:Filter>
+			<ogc:Or>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Moderate energy Littoral rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Littoral rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
+		  </ogc:Or>                          
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#8400A8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Littoral seagrass beds</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Littoral seagrass beds</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#44cc00</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Littoral sediment</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Littoral sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#dfcb80</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>         
+        <Rule>
+          <Title>Mangrove</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mangrove</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#26734b</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>         
+        <Rule>
+          <Title>Open-coast circalittoral rock (high energy)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>High energy open-coast circalittoral rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#5e83ba</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>	           
+        <Rule>
+          <Title>Non-reef sediment epibenthos</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Non-reef sediment epibenthos</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#E0A17A</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>         
+        <Rule>
+          <Title>Saltmarsh and reedbeds</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Saltmarsh and reedbeds</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#004DA8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>         
         <Rule>
           <Title>Sublittoral biogenic reefs</Title>
           <ogc:Filter>
@@ -148,6 +236,51 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#CD7899</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>Sublittoral coarse sediment</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sublittoral coarse sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#F5CA7A</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Sublittoral mixed sediments</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sublittoral mixed sediments</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#D7C29E</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Sublittoral mud</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sublittoral mu*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#D7CCBD</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
@@ -172,7 +305,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sublittoral sand 2 - Port Phllip Bay</ogc:Literal>
+              <ogc:Literal>Sublittoral sand 2 - Port Phillip Bay</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
