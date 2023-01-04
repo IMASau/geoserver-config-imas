@@ -15,39 +15,20 @@
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Coastal - Other</Title>
+          <Title>Circalittoral sediment</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coastal - Other</ogc:Literal>
+              <ogc:Literal>Circalittoral sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#b99999</CssParameter>
+              <CssParameter name="fill">#94b8b8</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
-        </Rule> 				
-        <Rule>
-          <Title>Hole/canyon feature</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hole.canyon feature</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#000066</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>	
-          </PolygonSymbolizer>
-        </Rule>
-        
-        
-        
-        
+        </Rule> 				        
         <Rule>
           <Title>Infralittoral rock (low energy)</Title>
           <ogc:Filter>
@@ -100,6 +81,21 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Title>Littoral mud</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Littoral mud</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#D7D79E</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
           <Title>Littoral rock (low energy)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -134,7 +130,22 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
-        </Rule> 
+        </Rule>
+        <Rule>
+          <Title>Littoral sand</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Littoral sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFFF73</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>	
+          </PolygonSymbolizer>
+        </Rule>	        
         <Rule>
           <Title>Littoral seagrass beds</Title>
           <ogc:Filter>
