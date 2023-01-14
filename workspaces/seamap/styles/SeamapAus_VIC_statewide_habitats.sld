@@ -400,22 +400,7 @@
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>	
           </PolygonSymbolizer>
-        </Rule>	        
-        <Rule>
-          <Title>Undefined</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Undefined</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#999999</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>	
-          </PolygonSymbolizer>
-        </Rule>         
+        </Rule>	                
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
