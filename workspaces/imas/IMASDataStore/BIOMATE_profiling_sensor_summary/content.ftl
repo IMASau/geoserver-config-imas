@@ -36,6 +36,14 @@ td {
 	border-top: 1px solid #ededed;
 	padding:5px;
 }
+
+h5 {
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+
 </style>
 </head>
 
@@ -43,29 +51,27 @@ td {
 
 <#setting date_format="dd-mm-yyyy">
 
+<h5>Profiling sensor summary</h5>
+
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
-	<col width="30%" />
-	<col width="5%" />
+	<col width="20%" />
+	<col width="20%" />
 	<col width="15%" />
-	<col width="12%" />
-	<col width="12%" />
-  	<col width="12%" />
-  	<col width="12%" />
+	<col width="15%" />
+  	<col width="15%" />
+  	<col width="15%" />
 
 
 
-	<THEAD>
-		<TR class="BRUV deployments" ALIGN="LEFT" style='background-color:#b3d9ff; ; width: 500px; table-layout: fixed; border:1.5pt solid black'>
+		<TR class="BRUV deployments" ALIGN="LEFT" style="background-color:#b3d9ff; width: 500px; table-layout: fixed; border:1.5pt solid black">
 			<th>Ship</th>
-			<th style="text-align:center">Station no.</th>
 			<th style="text-align:center">Date</th>
-			<th style="text-align:center">Fluorescence</th>
+			<th style="text-align:center">Fluor-escence</th>
 			<th style="text-align:center">Optical backscatter</th>
 			<th style="text-align:center">Beam attenuation</th>
-			<th style="text-align:center">Transmissometer</th>
+			<th style="text-align:center">Transmiss-ometer</th>
 
 		</TR>
-	</THEAD>
 
 	<#list features as feature>
 
@@ -78,10 +84,6 @@ td {
 
 			<TD>
 				${feature.SHIP.value}
-			</TD>
-
-			<TD style="text-align:center">
-				${feature.STNNBR.value}
 			</TD>
 
 			<TD style="text-align:center">
@@ -130,7 +132,7 @@ td {
 <#list features as feature_counter>
 	<#if (feature_counter_index <10)> 
 		<#else>
-			<p><i>More than ten deployments exist at this location.</i></p>
+			<p><i>More than ten samples exist at this location.</i></p>
 		<#break>
 
 	</#if>
