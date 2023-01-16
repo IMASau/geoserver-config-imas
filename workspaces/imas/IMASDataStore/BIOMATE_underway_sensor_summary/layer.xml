@@ -1,0 +1,17 @@
+<layer>
+  <name>BIOMATE_underway_sensor_summary</name>
+  <id>LayerInfoImpl--32bee4d5:185b9405099:-695d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--32bee4d5:185b9405099:-6950</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--32bee4d5:185b9405099:-695e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-01-16 07:39:51.515 UTC</dateCreated>
+  <dateModified>2023-01-16 07:45:54.372 UTC</dateModified>
+</layer>

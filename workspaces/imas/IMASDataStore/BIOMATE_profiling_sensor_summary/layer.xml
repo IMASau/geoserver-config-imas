@@ -1,0 +1,17 @@
+<layer>
+  <name>BIOMATE_profiling_sensor_summary</name>
+  <id>LayerInfoImpl--32bee4d5:185b9405099:-695f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--32bee4d5:185b9405099:-6952</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--32bee4d5:185b9405099:-6960</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-01-16 07:35:58.860 UTC</dateCreated>
+  <dateModified>2023-01-16 07:45:32.907 UTC</dateModified>
+</layer>
