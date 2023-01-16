@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--6ccc1586:183588f7420:4407</id>
   <name>ANALYTICS_GlobalArchive_BRUVs_deployments</name>
-  <nativeName>TRANSFORM_GLOBALARCHIVE_DEPLOYMENT_POINTS</nativeName>
+  <nativeName>TRANSFORM_GLOBALARCHIVE_DEPLOYMENT_POINTS_APPENDED</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>

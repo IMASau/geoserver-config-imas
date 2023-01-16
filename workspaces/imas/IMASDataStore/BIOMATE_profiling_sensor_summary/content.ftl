@@ -1,12 +1,64 @@
-<#setting date_format="yyyy-mm-dd">
+<html>
+
+<head>
+
+<style type="text/css">
+a {
+	color: CornflowerBlue;
+}
+
+a:hover {
+	color: #575757;
+}
+
+table {
+	border-bottom: 1px solid #ededed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0;
+	width:100%;
+}
+
+th, td {
+	font-weight: normal;
+	text-align: left;
+	padding:5px;
+	font-size: 10px;
+}
+
+th {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding:5px;
+}
+
+td {
+	border-top: 1px solid #ededed;
+	padding:5px;
+}
+</style>
+</head>
+
+<body>
+
+<#setting date_format="dd-mm-yyyy">
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
+	<col width="30%" />
+	<col width="5%" />
+	<col width="15%" />
+	<col width="12%" />
+	<col width="12%" />
+  	<col width="12%" />
+  	<col width="12%" />
+
+
 
 	<THEAD>
-		<TR class="BRUV deployments" ALIGN="LEFT" style='background-color:#b3d9ff; border:1.5pt solid black'>
+		<TR class="BRUV deployments" ALIGN="LEFT" style='background-color:#b3d9ff; ; width: 500px; table-layout: fixed; border:1.5pt solid black'>
 			<th>Ship</th>
-			<th>Station no.</th>
-			<th>Date</th>
+			<th style="text-align:center">Station no.</th>
+			<th style="text-align:center">Date</th>
 			<th style="text-align:center">Fluorescence</th>
 			<th style="text-align:center">Optical backscatter</th>
 			<th style="text-align:center">Beam attenuation</th>
@@ -16,11 +68,6 @@
 	</THEAD>
 
 	<#list features as feature>
-
-		<#assign fluorescence=feature.FLUOR.value>
-		<#assign backscatter=feature.BBP.value>		
-		<#assign attenuation=feature.CP.value>
-		<#assign transmiss=feature.XMISS.value>
 
 	<#if (feature_index < 10)> 
 
@@ -33,30 +80,30 @@
 				${feature.SHIP.value}
 			</TD>
 
-			<TD>
+			<TD style="text-align:center">
 				${feature.STNNBR.value}
 			</TD>
 
-			<TD>
+			<TD style="text-align:center">
 				${feature.DATE.value?date("dd/mm/yy")?date}
 			</TD>
     
 			<TD style="text-align:center">
-				<#if feature.fluorescence.value == 'FALSE'>
+				<#if feature.FLUOR.value == 'FALSE'>
 					no
 				<#else>
 					yes
 				</#if>
 			</TD>
 			<TD style="text-align:center">
-				<#if feature.backscatter.value == 'FALSE'>
+				<#if feature.BBP.value == 'FALSE'>
 					no
 				<#else>
 					yes
 				</#if>
 			</TD>
 			<TD style="text-align:center">
-				<#if feature.attenuation.value == 'FALSE'>
+				<#if feature.CP.value == 'FALSE'>
 					no
 				<#else>
 					yes
@@ -64,7 +111,7 @@
 			</TD>
 
 			<TD style="text-align:center">
-				<#if feature.transmiss.value == 'FALSE'>
+				<#if feature.XMISS.value == 'FALSE'>
 					no
 				<#else>
 					yes
