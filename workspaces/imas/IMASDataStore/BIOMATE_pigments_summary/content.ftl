@@ -44,6 +44,7 @@ h5 {
 }
 
 
+
 </style>
 </head>
 
@@ -54,18 +55,28 @@ h5 {
 <h5>Pigments summary</h5>
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
-	<col width="25%" />
-	<col width="25%" />
-	<col width="25%" />
-	<col width="25%" />
+	<col width="20%" />
+	<col width="10%" />
+	<col width="10%" />
+	<col width="15%" />
+	<col width="15%" />
+	<col width="15%" />
+	<col width="15%" />
+
 
 
 
 		<TR class="BRUV deployments" ALIGN="LEFT" style="background-color:#b3d9ff; width: 500px; table-layout: fixed; border:1.5pt solid black">
-			<th>Date</th>
+			<th style="text-align:center">Date</th>
 			<th style="text-align:center">Time</th>
 			<th style="text-align:center">Depth</th>
-			<th style="text-align:center">Pigment source</th>
+			<th style="text-align:center">Source</th>
+			<th style="text-align:center">Chl a <i>fluorometric</i></th>
+			<th style="text-align:center">Phaeopigment <i>fluorometric</i></th>
+			<th style="text-align:center">Phaeophytin <i>fluorometric</i></th>
+
+
+
 
 		</TR>
 
@@ -109,6 +120,18 @@ h5 {
 					other
 				</#if>
 			</TD>
+			<TD style="text-align:center">
+				${feature.FCHLORA.value}
+			</TD>
+
+			<TD style="text-align:center">
+				${feature.FPHEO.value}
+			</TD>
+
+			<TD style="text-align:center">
+				${feature.FPHYTIN.value}
+			</TD>
+
  
      
 		</TR>
