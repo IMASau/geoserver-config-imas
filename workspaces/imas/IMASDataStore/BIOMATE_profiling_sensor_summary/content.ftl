@@ -51,7 +51,7 @@ h5 {
 
 <#setting date_format="dd-mm-yyyy">
 
-<h5>Profiling sensor summary</h5>
+<h5>Profiling sensor summary (preview of available information)</h5>
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
 	<col width="20%" />
