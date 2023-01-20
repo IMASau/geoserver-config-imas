@@ -13,8 +13,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
  		<Rule>
 		  <Title>Abalone fishing blocks (East Coast Tas)</Title>
-		  <MinScaleDenominator>5000000</MinScaleDenominator>          
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+          		  <MaxScaleDenominator>5000000</MaxScaleDenominator>          
+
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -37,7 +37,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
            			</PointPlacement>
          		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
-			</TextSymbolizer>              
+			</TextSymbolizer>
+          
  		</Rule>   
         <Rule>
           <Title>Block boundary</Title>
@@ -73,7 +74,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>			
 		  </ogc:Or>
           </ogc:Filter>			
-		  <MinScaleDenominator>5000000</MinScaleDenominator>                              
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  		  
             <Fill>
@@ -103,7 +103,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>
 		  </ogc:Or>			
           </ogc:Filter>
-		  <MinScaleDenominator>5000000</MinScaleDenominator>                    
           
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			
