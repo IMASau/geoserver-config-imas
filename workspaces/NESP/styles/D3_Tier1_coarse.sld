@@ -32,6 +32,7 @@
               <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>	          
           </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            		            
         </Rule>
         <Rule>
           <Title>Non-reef</Title>
@@ -53,6 +54,7 @@
               <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>	            
           </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>            		            
         </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
