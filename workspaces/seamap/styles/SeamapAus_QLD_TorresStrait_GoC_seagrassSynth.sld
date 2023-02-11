@@ -9,7 +9,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
     <Name>Seagrass styling</Name>
     <UserStyle>
-      <Title>GRBWHA seagrass</Title>
+      <Title>Seagrass synthesis</Title>
       <FeatureTypeStyle>  
         <Rule>
           <Title>Cymodocea rotundata</Title>
@@ -81,7 +81,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#47291f</CssParameter>
+              <CssParameter name="fill">#ffa900</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
