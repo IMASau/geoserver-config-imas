@@ -61,7 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
-              <CssParameter name="fill">#82837E</CssParameter>
+              <CssParameter name="fill">#93a659</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>

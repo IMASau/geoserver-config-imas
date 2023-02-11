@@ -141,7 +141,27 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#8ef28c</CssParameter>
+              <CssParameter name="fill">#74b3ff</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
+              <CssParameter name="stroke-width">0.01</CssParameter>
+            </Stroke>				
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Zostera - sparse</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Zostera - Sparse</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c1d2e5</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
             <Stroke>
@@ -181,7 +201,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ace600</CssParameter>
+              <CssParameter name="fill">#0085a8</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
             <Stroke>
@@ -201,7 +221,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#1acf17</CssParameter>
+              <CssParameter name="fill">#00e6a9</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
             <Stroke>
