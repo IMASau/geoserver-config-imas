@@ -1,14 +1,14 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - TAS - Tasman Fracture AMP geomorphology</h5>
+	<h5>Tasman Fracture geomorphology</h5>
 	<BR>
 	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<b>Feature:</b> ${feature.zone.value}
 		<BR><BR>
 	</div>
 		<#else>
-			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
+			<i>Multiple classifications exist at this point. Zoom in for higher precision.</i>
 			<BR><BR>
 		<#break>
 		
