@@ -127,7 +127,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>			  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#ecee5d</CssParameter>
+              <CssParameter name="fill">#a80000</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -142,7 +142,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>			  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#a5d742</CssParameter>
+              <CssParameter name="fill">#c96969</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
