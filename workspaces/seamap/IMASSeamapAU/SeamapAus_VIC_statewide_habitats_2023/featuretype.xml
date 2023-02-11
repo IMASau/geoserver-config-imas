@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3cbb37b:18576e7860e:2a06</id>
-  <name>SeamapAus_VIC_statewide_habitats_2021</name>
-  <nativeName>SeamapAus_VIC_statewide_habitats_2021</nativeName>
+  <id>FeatureTypeInfoImpl--603af1da:1863dd3c688:293c</id>
+  <name>SeamapAus_VIC_statewide_habitats_2023</name>
+  <nativeName>SeamapAus_VIC_statewide_habitats_2023</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - VIC - statewide marine habitats (2021)</title>
+  <title>Seamap Australia - VIC - statewide marine habitats 2023 (DELWP)</title>
   <keywords>
-    <string>features</string>
-    <string>SeamapAus_VIC_statewide_habitats_2021</string>
+    <string>benthic habitat</string>
+    <string>Seamap Australia</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>614736.1141000018</minx>
-    <maxx>1419597.321800001</maxx>
-    <miny>-4466764.4418</miny>
-    <maxy>-4293752.7226</maxy>
+    <minx>614823.1273700156</minx>
+    <maxx>1419563.0902250237</maxx>
+    <miny>-4462480.941505034</miny>
+    <maxy>-4292991.669882505</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>614736.1141000018</minx>
-    <maxx>1419597.321800001</maxx>
-    <miny>-4466764.4418</miny>
-    <maxy>-4293752.7226</maxy>
+    <minx>614823.1273700156</minx>
+    <maxx>1419563.0902250237</maxx>
+    <miny>-4462480.941505034</miny>
+    <maxy>-4292991.669882505</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
