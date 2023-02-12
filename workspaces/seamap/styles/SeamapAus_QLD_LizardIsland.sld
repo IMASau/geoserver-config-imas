@@ -176,22 +176,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
-        </Rule>	
-       <Rule>
-          <Title>Deep water</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>DeepWater</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#16389c</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>         
+        </Rule>	        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
