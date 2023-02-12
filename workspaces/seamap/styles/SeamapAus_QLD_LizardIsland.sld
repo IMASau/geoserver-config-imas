@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Title>Flinders Reef Ecological Assessment</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Sand, Rubble, Coral/Algae</Title>
+          <Title>Sand + Rubble + Coral/Algae</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
        <Rule>
-          <Title>Coral, Reef Matrix</Title>
+          <Title>Coral + Reef matrix</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -41,112 +41,97 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Rock, Coral</Title>
+        </Rule> 
+       <Rule>
+          <Title>Deep water</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rock+Coral</ogc:Literal>
+              <ogc:Literal>DeepWater</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#16389c</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule> 
+       <Rule>
+          <Title>Reef matrix</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Reef Matrix</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#640000</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule>                        
+        <Rule>
+          <Title>Reef matrix + Coral</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Reef Matrix Coral </ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#a64dff</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Rock, Coral, Algae</Title>
+          <Title>Rubble</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rock+Coral+Algae</ogc:Literal>
+              <ogc:Literal>Rubble</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#9999ff</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill">#e0d05e</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Rock (exposed)</Title>
+          <Title>Rubble + Coral</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Exposed Rock</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#663300</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Rock (intertidal)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rock Intertidal</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#e69900</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>	
-        <Rule>
-          <Title>Rock (other 3D structure)</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rocky 3D structure</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#808080</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>			
-        <Rule>
-          <Title>Rubble, Boulders</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rubble+Boulders</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#c2c2a3</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Rubble, Boulders, Coral</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rubble+Boulders+Coral</ogc:Literal>
+              <ogc:Literal>Rubble Coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#75a3a3</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+          <Title>Rubble + Reef matrix</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Rubble Reef Matrix</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#c2c2a3</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule>	
         <Rule>
           <Title>Sand</Title>
           <ogc:Filter>
