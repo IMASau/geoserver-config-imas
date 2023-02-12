@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - QLD - Four decades of seagrass data from Torres Strait and Gulf of Carpentaria</h5>
+	<h5>Habitat - NT/QLD - Four decade seagrass synthesis</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
