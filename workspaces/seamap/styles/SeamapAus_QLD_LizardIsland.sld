@@ -12,21 +12,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Title>Flinders Reef Ecological Assessment</Title>
       <FeatureTypeStyle>
-        <Rule>
-          <Title>Sand + Rubble + Coral/Algae</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand Rubble Coral/Algae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#8fac39</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>
        <Rule>
           <Title>Coral + Reef matrix</Title>
           <ogc:Filter>
@@ -38,21 +23,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#ff8000</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule> 
-       <Rule>
-          <Title>Deep water</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>DeepWater</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#16389c</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
@@ -71,13 +41,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
-        </Rule>                        
+        </Rule>        
         <Rule>
           <Title>Reef matrix + Coral</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef Matrix Coral </ogc:Literal>
+              <ogc:Literal>Reef Matrix Coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
@@ -86,7 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>         
         <Rule>
           <Title>Rubble</Title>
           <ogc:Filter>
@@ -148,36 +118,80 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sand, Boulders</Title>
+          <Title>Sand + Rubble + Coral/Algae</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand+Boulders</ogc:Literal>
+              <ogc:Literal>Sand Rubble Coral/Algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#ffcc00</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill">#a2b622</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Seagrass - high density</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Seagrass High</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#038400</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Sand, Boulders, Coral</Title>
+          <Title>Seagrass - moderate density</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand+Boulders+Coral</ogc:Literal>
+              <ogc:Literal>Seagrass Moderate</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#b32d00</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill">#02DC00</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
-        </Rule>			
-
+        </Rule>	        
+        <Rule>
+          <Title>Seagrass - low density</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Seagrass Low</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#d1ff73</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule>	
+       <Rule>
+          <Title>Deep water</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>DeepWater</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#16389c</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
