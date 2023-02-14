@@ -1,3 +1,4 @@
+
 <#list features as feature>
 
 	<#if (feature_index < 1) >
@@ -7,7 +8,7 @@
 				<i>No data</i><BR>
 			<#else>	
 	
-			<div class="feature">
+			<div class="feature" >
 				<h5>Natural Values Ecosystems</h5><BR>
 					<#if ecosys==1>
 						<b>Shelf unvegetated sediments</b>
