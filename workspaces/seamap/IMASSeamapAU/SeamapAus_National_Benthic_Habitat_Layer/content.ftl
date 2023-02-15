@@ -23,7 +23,7 @@ h5 {
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia v2.1 (2023)</h5>
+<h5>Seamap Australia v2.0 (2022)</h5>
 <BR>
   <div class="feature">
 
@@ -32,7 +32,7 @@ h5 {
 	<b>Source (biota):</b> ${feature.Data_BC.value} <#if feature.Data_BC.value == 'NA'><#else><i>(${feature.Date_BC.value})</i></#if><br>
 	<b>Source (substrata):</b> ${feature.Data_SC.value} <#if feature.Data_SC.value == 'NA'><#else><i>(${feature.Date_SC.value})</i></#if><br>
 	<BR>
-	<b>Aquatic Setting:</b> <i>${feature.AS_System.value}, ${feature.AS_SubSys.value}, ${feature.AS_TidalZ.value}, <#if feature.AS_BDepth.value == 'Unknown (Sublittoral)'>Sublittoral<#else>${feature.AS_BDepth.value}</#if></i><br>
+	<b>Aquatic Setting:</b> <i>${feature.AS_System.value} - ${feature.AS_SubSys.value}. ${feature.AS_TidalZ.value} (<#if feature.AS_BDepth.value == 'Unknown (Sublittoral)'>Sublittoral<#else>${feature.AS_BDepth.value}</#if> zone)</i><br>
 	<BR>  
   </div>
 	<#else>
