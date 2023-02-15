@@ -23,7 +23,7 @@ h5 {
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia v2.0 (2022)</h5>
+<h5>Seamap Australia v2.1 (2023)</h5>
 <BR>
   <div class="feature">
 
