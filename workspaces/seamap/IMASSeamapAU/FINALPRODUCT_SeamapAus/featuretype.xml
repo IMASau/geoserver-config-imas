@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer [V1.1]: live</title>
+  <title>Seamap Australia National Benthic Habitat Layer [V1.1]: 2020 archive</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country. Through compiling all of these data sets, we established a controlled vocabulary, reviewed by ANDS and external independent assessors, to produce a national classification of marine habitats.&#xd;
 &#xd;
 This layer represents Version 1.1 of the data and was snapshotted in 2020. Any future changes to the dataset will be released as Version 2 of Seamap Australia.</abstract>
@@ -16,6 +16,8 @@ This layer represents Version 1.1 of the data and was snapshotted in 2020. Any f
     <string>biota</string>
     <string>benthic habitat</string>
     <string>substrata</string>
+    <string>NBHL</string>
+    <string>National Benthic Habitat Layer</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -64,6 +66,7 @@ This layer represents Version 1.1 of the data and was snapshotted in 2020. Any f
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="elevation">
       <dimensionInfo>
