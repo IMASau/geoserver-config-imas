@@ -1,17 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-643bec85:1816e9bb7ad:-3d7e</id>
-  <name>SeamapAus_National_Benthic_Habitat_Layer</name>
-  <nativeName>FINALPRODUCT_SeamapAus_v2</nativeName>
+  <id>FeatureTypeInfoImpl--603af1da:18652b2ab74:2f8</id>
+  <name>SeamapAus_National_Benthic_Habitat_Layer_PRIVATE</name>
+  <nativeName>FINALPRODUCT_SeamapAus_v2_1</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer [V2.0]: beta</title>
+  <title>Seamap Australia National Benthic Habitat Layer [V2.1]: beta</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country. Through compiling all of these data sets, we established a controlled vocabulary, reviewed by ANDS and external independent assessors, to produce a national classification of marine habitats.&#xd;
 &#xd;
-This layer is a beta Version 2.0 of the data. The data should be seen as a live product and may continue to be updated with minor corrections or amendments.</abstract>
+This layer is a beta Version 2.1 of the data. The data should be seen as a live product and may continue to be updated with minor corrections or amendments.</abstract>
   <keywords>
     <string>FINALPRODUCT</string>
     <string>NBHL</string>
+    <string>National Benthic Habitat Layer</string>
+    <string>benthic habitat</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -38,22 +40,22 @@ This layer is a beta Version 2.0 of the data. The data should be seen as a live 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.24269472278233</minx>
-    <maxx>159.99679706874727</maxx>
-    <miny>-44.07954606432863</miny>
-    <maxy>-7.90255391538284</maxy>
+    <minx>-2079693.2026000023</minx>
+    <maxx>2186772.2694997787</maxx>
+    <miny>-4961545.257400036</miny>
+    <maxy>-1100731.935199976</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278233</minx>
-    <maxx>159.99679706874727</maxx>
-    <miny>-44.07954606432863</miny>
-    <maxy>-7.90255391538284</maxy>
+    <minx>-2079693.2026000023</minx>
+    <maxx>2186772.2694997787</maxx>
+    <miny>-4961545.257400036</miny>
+    <maxy>-1100731.935199976</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -61,6 +63,7 @@ This layer is a beta Version 2.0 of the data. The data should be seen as a live 
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
