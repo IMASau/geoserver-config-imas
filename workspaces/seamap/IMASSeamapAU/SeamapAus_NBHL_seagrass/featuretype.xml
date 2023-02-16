@@ -53,7 +53,7 @@ This layer represents the SEAGRASS extent derived from the beta Version 2.1 of t
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

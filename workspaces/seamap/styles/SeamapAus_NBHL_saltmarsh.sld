@@ -13,22 +13,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>  
 
         <Rule>		
-          <Title>Mangrove extent</Title>		
+          <Title>Saltmarsh extent</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mangrove</ogc:Literal>		
+              <ogc:Literal>Saltmarsh</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#26734b</CssParameter>		
+              <CssParameter name="fill">#E64C00</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Mixed Wetland Vegetation (Mangrove present)</Title>		
+          <Title>Mixed Wetland Vegetation (Saltmarsh present)</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		

@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NBHL_saltmarsh</name>
+  <id>LayerInfoImpl--2816f738:186570cfa43:-3c75</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2816f738:186570cfa43:-3c78</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2816f738:186570cfa43:-3c76</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-16 05:58:32.927 UTC</dateCreated>
+</layer>

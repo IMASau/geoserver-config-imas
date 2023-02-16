@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2816f738:186570cfa43:-4373</id>
-  <name>SeamapAus_NBHL_mangrove</name>
+  <id>FeatureTypeInfoImpl--2816f738:186570cfa43:-3c76</id>
+  <name>SeamapAus_NBHL_saltmarsh</name>
   <nativeName>FINALPRODUCT_SeamapAus_v2_1</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer - mangrove extent</title>
+  <title>Seamap Australia National Benthic Habitat Layer - saltmarsh extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the MANGROVE extent derived from the beta Version 2.1 of the data, released in 2023. This includes mixed vegetation classes in which mangrove has been positively identified (e.g. saltmarsh/mangrove).</abstract>
+This layer represents the SALTMARSH extent derived from the beta Version 2.1 of the data, released in 2023. This includes mixed vegetation classes in which saltmarsh has been positively identified (e.g. saltmarsh/mangrove).</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_v2_1</string>
@@ -64,7 +64,7 @@ This layer represents the MANGROVE extent derived from the beta Version 2.1 of t
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Mangrove&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%angrove%&apos;)</cqlFilter>
+  <cqlFilter>NAT_HAB_CL = &apos;Saltmarsh&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%altmarsh%&apos;)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
