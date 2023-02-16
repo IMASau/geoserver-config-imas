@@ -98,7 +98,6 @@ h6 {
 
 i {
 	color: #9a9a9a;
-	margin: 0 3px;
 }
 </style>
 </head>
