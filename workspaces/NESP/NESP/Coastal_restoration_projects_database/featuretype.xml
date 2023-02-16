@@ -9,6 +9,7 @@
   <keywords>
     <string>features</string>
     <string>VW_NESP_MaC_1_10_Restoration_projects_database</string>
+    <string>Living Shorelines</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -43,6 +44,8 @@
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <cqlFilter>GLOBAL__Project &lt;&gt; &apos;Pitt Water-Orielton Lagoon, TAS&apos; AND GLOBAL__Project &lt;&gt; &apos;North-West Bay, TAS&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
