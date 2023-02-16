@@ -553,11 +553,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#9480; Coarse Sediment</Title>		
+          <Title>&#9480; Coarse Sediments</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Coarse Sediment</ogc:Literal>		
+              <ogc:Literal>Coarse Sediments</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>		
@@ -613,11 +613,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>					
         <Rule>		
-          <Title>&#9480; Fine Sediment</Title>		
+          <Title>&#9480; Fine Sediments</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Fine Sediment</ogc:Literal>		
+              <ogc:Literal>Fine Sediments</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>		
