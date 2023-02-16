@@ -23,7 +23,7 @@ h5 {
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia seagrass extent</h5>
+<h5>Seamap Australia saltmarsh extent</h5>
 <BR>
   <div class="feature">
 
