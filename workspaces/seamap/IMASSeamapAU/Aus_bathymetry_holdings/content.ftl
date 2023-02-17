@@ -97,7 +97,7 @@
 			<#elseif feature.data_dl.value == 'yes - ASB'>
 				yes - <a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
 			<#else>
-				not available
+				in progress
 			</#if>
 		</TD> 
 		
