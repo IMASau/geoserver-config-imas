@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--68c28a1c:1581812343e:-5693</id>
-  <name>SeamapAus_SA</name>
+  <name>SeamapAus_SA_statewide</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_SA.sld</filename>
+  <filename>SeamapAus_SA_statewide.sld</filename>
+  <dateModified>2023-02-20 16:33:56.651 UTC</dateModified>
 </style>
