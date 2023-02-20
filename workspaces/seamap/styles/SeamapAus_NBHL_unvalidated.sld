@@ -15,22 +15,7 @@
       <Abstract>A style that renders habitats of Seamap Australia unvalidated habitat datasets</Abstract>
       <FeatureTypeStyle>	
         <Rule>		
-          <Title>Mixed Biota</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#1aa3ff</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>	        
-        <Rule>		
-          <Title>Coral Biota</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Coral Biota</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -45,7 +30,23 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Mixed Invertebrate Community</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Filter Feeder Community</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Filter Feeder Community</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#ff99e6</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>
+
+        <Rule>		
+          <Title>&#9480;&#9480;&#9480; Mixed Invertebrate Community</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -60,7 +61,22 @@
           </PolygonSymbolizer>		
         </Rule>	  		
         <Rule>		
-          <Title>Seagrass</Title>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Macroalgae</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Macroalgae</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#2d9624</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>
+        <Rule>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Seagrass</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -73,7 +89,52 @@
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>						 		
+        </Rule>
+        <Rule>		
+          <Title>&#9480; Mixed Biota</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Biota</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#1aa3ff</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>	
+        <Rule>		
+          <Title>Biota Absent</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Biota Absent</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#404040</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>			
+        <Rule>		
+          <Title>&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;&#x2027;</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#ffffff</CssParameter>		
+              <CssParameter name="fill-opacity">0.000001</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>		
         <Rule>		
           <Title>Hard Substrata</Title>		
           <ogc:Filter>		
@@ -90,22 +151,7 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Mixed Hard Substrata</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Hard Substrata</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#c68c53</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>		
-        <Rule>		
-          <Title>Consolidated Hard Substrata</Title>		
+          <Title>&#9480; Consolidated Hard Substrata</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -120,7 +166,7 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Megaclast</Title>		
+          <Title>&#9480;&#9480;&#9480; Megaclast</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -133,9 +179,9 @@
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>		
+        </Rule> 		
         <Rule>		
-          <Title>Pavement</Title>		
+          <Title>&#9480;&#9480;&#9480; Pavement</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -148,7 +194,22 @@
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>		
+        </Rule>  		
+      <Rule>		
+          <Title>&#9480; Mixed Hard Substrata</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mixed Hard Substrata</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#c68c53</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>  			
         <Rule>		
           <Title>Soft Substrata</Title>		
           <ogc:Filter>		
@@ -164,8 +225,9 @@
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
-       <Rule>		
-          <Title>Sand</Title>		
+
+        <Rule>		
+          <Title>&#9480;&#9480;&#9480; Sand</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -193,7 +255,7 @@
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>		 		    		
+        </Rule>	 		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
