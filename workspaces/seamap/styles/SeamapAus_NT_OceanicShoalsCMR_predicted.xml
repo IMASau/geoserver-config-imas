@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--15997c55:1866e8158f3:-368</id>
-  <name>SeamapAus_NT_OceanicShoals_predicted</name>
+  <name>SeamapAus_NT_OceanicShoalsCMR_predicted</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_NT_OceanicShoals_predicted.sld</filename>
+  <filename>SeamapAus_NT_OceanicShoalsCMR_predicted.sld</filename>
   <dateCreated>2023-02-20 15:06:52.683 UTC</dateCreated>
+  <dateModified>2023-02-20 20:13:57.22 UTC</dateModified>
 </style>
