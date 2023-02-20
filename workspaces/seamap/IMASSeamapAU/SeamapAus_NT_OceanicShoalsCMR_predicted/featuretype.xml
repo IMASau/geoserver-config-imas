@@ -1,15 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:b14</id>
-  <name>GEOMORPHOLOGY_OceanicShoals</name>
-  <nativeName>GEOMORPH_OceanicShoals</nativeName>
+  <id>FeatureTypeInfoImpl--49f7fa1a:1866f5f4010:-7ec9</id>
+  <name>SeamapAus_NT_OceanicShoalsCMR_predicted</name>
+  <nativeName>SeamapAus_NT_OceanicShoalsCMR_predicted</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT/WA - Oceanic Shoals interpreted geomorphic map</title>
+  <title>Seamap Australia - NT/WA - Oceanic Shoals CMR benthic habitt model</title>
   <keywords>
-    <string>habitat mapping</string>
+    <string>benthic habitat</string>
     <string>Seamap Australia</string>
-    <string>Geoscience Australia (GA)</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-793515.3203125</minx>
-    <maxx>-725232.487999998</maxx>
-    <miny>-1446290.4794999994</miny>
-    <maxy>-1345765.7018</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>125.9887155316342</minx>
+    <maxx>131.21672335155841</maxx>
+    <miny>-12.914063808153115</miny>
+    <maxy>-9.527161609629502</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-793515.3203125</minx>
-    <maxx>-725232.487999998</maxx>
-    <miny>-1446290.4794999994</miny>
-    <maxy>-1345765.7018</maxy>
+    <minx>125.9887155316342</minx>
+    <maxx>131.21672335155841</maxx>
+    <miny>-12.914063808153115</miny>
+    <maxy>-9.527161609629502</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -58,6 +57,7 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>

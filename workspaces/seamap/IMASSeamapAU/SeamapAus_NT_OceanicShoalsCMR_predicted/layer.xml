@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NT_OceanicShoalsCMR_predicted</name>
+  <id>LayerInfoImpl--49f7fa1a:1866f5f4010:-7ec8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--15997c55:1866e8158f3:-368</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f7fa1a:1866f5f4010:-7ec9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-20 20:34:59.164 UTC</dateCreated>
+</layer>
