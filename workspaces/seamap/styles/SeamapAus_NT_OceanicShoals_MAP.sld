@@ -6,143 +6,41 @@ xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
   <NamedLayer>
-    <Name>habitat_polygon</Name>
+    <Name>Habitat</Name>
     <UserStyle>
-      <Title>Habitat Polygon</Title>
-      <Abstract>A style that renders habitats</Abstract>
-      <FeatureTypeStyle>
+      <Title>Habitat</Title>
+      <FeatureTypeStyle>  
         <Rule>
-          <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>5000000</MinScaleDenominator>				
-          <PointSymbolizer>
-			<Geometry>
-			<ogc:PropertyName>sitegeom</ogc:PropertyName>
-			</Geometry>			  
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 <Size>20</Size>
-  			 </Graphic>
-          </PointSymbolizer>
-        </Rule>	
-        <Rule>
-          <Title>Depression</Title>
+          <Title>Cymodocea rotundata</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Depression</ogc:Literal>
+              <ogc:Literal>Cymodocea rotundata</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
+          <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
+              <CssParameter name="fill">#ecec13</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>		
+          </PolygonSymbolizer>
+        </Rule>	  
+        <Rule>
+          <Title>Cymodocea serrulata</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Cymodocea serrulata</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff904d</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>			
           </PolygonSymbolizer>
         </Rule>
-        <Rule>
-          <Title>Bank</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bank</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>		
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
-            <Fill>
-              <CssParameter name="fill">#44a1b5</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Mound</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mound</ogc:Literal>              
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
-            <Fill>
-              <CssParameter name="fill">#b52829</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Plain</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Plain</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
-            <Fill>
-              <CssParameter name="fill">#FFF9A5</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>		
-        <Rule>
-          <Title>Scarp</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Scarp</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
-            <Fill>
-              <CssParameter name="fill">#a13f6d</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Terrace</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Terrace</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
-            <Fill>
-              <CssParameter name="fill">#FFAD00</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
