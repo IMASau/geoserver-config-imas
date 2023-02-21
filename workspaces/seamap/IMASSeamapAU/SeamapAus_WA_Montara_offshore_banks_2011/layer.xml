@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_WA_Montara_offshore_banks_2011</name>
+  <id>LayerInfoImpl--49f7fa1a:1866f5f4010:5fdd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49f7fa1a:1866f5f4010:5fe5</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f7fa1a:1866f5f4010:5fdc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-21 19:31:40.0 UTC</dateCreated>
+  <dateModified>2023-02-21 19:47:56.888 UTC</dateModified>
+</layer>
