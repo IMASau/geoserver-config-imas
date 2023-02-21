@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_QLD_MidgePoint_seagrass_2017</name>
+  <id>LayerInfoImpl--49f7fa1a:1866f5f4010:4c3b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49f7fa1a:1866f5f4010:4ab0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f7fa1a:1866f5f4010:4c3a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-21 03:55:21.145 UTC</dateCreated>
+</layer>
