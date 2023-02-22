@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NT_DarwinHarbour_habitat_2022</name>
+  <id>LayerInfoImpl--49f7fa1a:18676068552:-6b3b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49f7fa1a:18676068552:-6c0f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f7fa1a:18676068552:-6b3c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-22 10:50:27.932 UTC</dateCreated>
+</layer>
