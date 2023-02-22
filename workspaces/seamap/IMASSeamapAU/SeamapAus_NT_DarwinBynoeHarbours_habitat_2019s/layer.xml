@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NT_DarwinBynoeHarbours_habitat_2019s</name>
+  <id>LayerInfoImpl--49f7fa1a:18676068552:-6be7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49f7fa1a:18676068552:-6c42</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49f7fa1a:18676068552:-6be8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-22 08:06:16.520 UTC</dateCreated>
+</layer>

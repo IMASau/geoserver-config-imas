@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare ground</ogc:Literal>
+              <ogc:Literal>Bare seafloor</ogc:Literal>
             </ogc:PropertyIsEqualTo>
            </ogc:Filter>	
           <PolygonSymbolizer>
