@@ -146,7 +146,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	         
         <Rule>
-          <Title>Halophila decipiens, Halophila spinulosa</Title>
+          <Title>Halophila decipiens, H. spinulosa</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -176,7 +176,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halophila ovalis, Halophila spinulosa</Title>
+          <Title>Halophila ovalis, H. spinulosa</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -236,7 +236,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Cymodocea serrulata, Halophila ovalis, Zostera</Title>
+          <Title>Cymodocea serrulata, Halophila ovalis, Zostera sp.</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -251,7 +251,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Halodule uninervis, Halophila ovalis, Zostera</Title>
+          <Title>Halodule uninervis, Halophila ovalis, Zostera sp.</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -266,7 +266,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Halophila decipiens, Halophila ovalis, Halophila spinulosa</Title>
+          <Title>Halophila decipiens, H. ovalis, H. spinulosa</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -281,7 +281,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Halophila decipiens, Halophila ovalis, Zostera</Title>
+          <Title>Halophila decipiens, H. ovalis, Zostera sp.</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -296,7 +296,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Halophila ovalis, Halophila spinulos, Zostera</Title>
+          <Title>Halophila ovalis, H. spinulos, Zostera sp.</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -311,7 +311,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	  
         <Rule>
-          <Title>Halodule uninervis, Halophila ovalis, Halophila spinulosa, Zostera</Title>
+          <Title>Halodule uninervis, Halophila ovalis, H. spinulosa, Zostera sp.</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -326,7 +326,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>  
         <Rule>
-          <Title>Halodule uninervis, Halophila decipiens, Halophila spinulosa, Halophila ovalis, Zostera</Title>
+          <Title>Halodule uninervis, Halophila decipiens, H. spinulosa, H. ovalis, Zostera sp.</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
