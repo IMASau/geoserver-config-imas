@@ -251,21 +251,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>AAAAA</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>AAAAA</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#f000a0</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>	
-        <Rule>
           <Title>Halodule uninervis, Halophila ovalis, Zostera</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -275,41 +260,86 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#f000a0</CssParameter>
+              <CssParameter name="fill">#990099</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>AAAAA</Title>
+          <Title>Halophila decipiens, Halophila ovalis, Halophila spinulosa</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>AAAAA</ogc:Literal>
+              <ogc:Literal>Halophila decipiens, Halophila ovalis, Halophila spinulosa</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#f000a0</CssParameter>
+              <CssParameter name="fill">#6f94dc</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>AAAAA</Title>
+          <Title>Halophila decipiens, Halophila ovalis, Zostera</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>AAAAA</ogc:Literal>
+              <ogc:Literal>Halophila decipiens, Halophila ovalis, Zostera</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#f000a0</CssParameter>
+              <CssParameter name="fill">#2d8659</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	        
+        </Rule>	
+        <Rule>
+          <Title>Halophila ovalis, Halophila spinulos, Zostera</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis, Halophila spinulos, Zostera</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#73e600</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	  
+        <Rule>
+          <Title>Halodule uninervis, Halophila ovalis, Halophila spinulosa, Zostera</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis, Halophila ovalis, Halophila spinulosa, Zostera</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#996633</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>  
+        <Rule>
+          <Title>Halodule uninervis, Halophila decipiens, Halophila spinulosa, Halophila ovalis, Zostera</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halodule uninervis, Halophila decipiens, Halophila spinulosa, Halophila ovalis, Zostera</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#b32d00</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
