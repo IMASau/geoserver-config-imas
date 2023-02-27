@@ -106,11 +106,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Zostera muelleri / Halophila uninervis</Title>
+          <Title>Zostera muelleri / Halodule uninervis</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Zostera muelleri.Halophila uninervis</ogc:Literal>
+              <ogc:Literal>Zostera muelleri.Halodule uninervis</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
 		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
