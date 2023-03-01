@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-2cc461cd:1869c902dc4:-4002</id>
+  <name>WA_ICoAST _mangroves</name>
+  <description>Mangroves of North-Western WA (ICoAST)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-03-01 10:08:33.717 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/3b33e731-58e1-4041-9411-cc269cd1cfa3/WA_Mangroves.tif</url>
+</coverageStore>
