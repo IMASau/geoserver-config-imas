@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-2cc461cd:1869c902dc4:-4001</id>
+  <id>CoverageInfoImpl-2cc461cd:1869c902dc4:-abe</id>
   <name>SeamapAus_WA_ICoAST_mangroves_2022</name>
   <nativeName>SeamapAus_WA_ICoAST_mangroves_2022</nativeName>
   <namespace>
@@ -8,33 +8,46 @@
   <title>Seamap Australia - WA - Mangroves of North-western Australia mapped with multi-dimensional space–time remote sensing 2022 (ICoAST - UWA)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>benthic habitat</string>
     <string>Seamap Australia</string>
-    <string>mangroves</string>
-    <string>wetland</string>
+    <string>benthic habitat</string>
+    <string>wetlands</string>
   </keywords>
-  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
-  DATUM[&quot;World Geodetic System 1984&quot;, 
-    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>106.75848917883869</minx>
-    <maxx>130.20996918860843</maxx>
-    <miny>-30.672249742028413</miny>
-    <maxy>-9.937526973410167</maxy>
+    <minx>106.75848917883872</minx>
+    <maxx>130.2099826600113</maxx>
+    <miny>-30.67239427808332</miny>
+    <maxy>-9.937526974727367</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>106.75848917883869</minx>
-    <maxx>130.20996918860843</maxx>
-    <miny>-30.672249742028413</miny>
-    <maxy>-9.937526973410167</maxy>
+    <minx>106.75848917883872</minx>
+    <maxx>130.2099826600113</maxx>
+    <miny>-30.67239427808332</miny>
+    <maxy>-9.937526974727367</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -54,15 +67,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>79131 69964</high>
+      <high>69117 64629</high>
     </range>
     <transform>
-      <scaleX>2.963627403896039E-4</scaleX>
-      <scaleY>-2.963627403896039E-4</scaleY>
+      <scaleX>31.854556983823304</scaleX>
+      <scaleY>-31.854556983823304</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>106.75863736020888</translateX>
-      <translateY>-9.937675154780361</translateY>
+      <translateX>-2623102.073246098</translateX>
+      <translateY>-1411796.2229720652</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
@@ -96,12 +109,16 @@
     </coverageDimension>
   </dimensions>
   <requestSRS>
-    <string>EPSG:4326</string>
+    <string>EPSG:3112</string>
   </requestSRS>
   <responseSRS>
-    <string>EPSG:4326</string>
+    <string>EPSG:3112</string>
   </responseSRS>
   <parameters>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
     <entry>
       <string>InputTransparentColor</string>
       <null/>
@@ -109,10 +126,6 @@
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
-    </entry>
-    <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
     </entry>
   </parameters>
   <nativeCoverageName>WA_Mangroves</nativeCoverageName>
