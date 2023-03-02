@@ -6,52 +6,123 @@
         <Rule>
           <Title>pre-1980</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+       			<ogc:PropertyIsLessThan>
               <ogc:PropertyName>YEAR</ogc:PropertyName>
-              <ogc:Literal>Coral communities</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>1980</ogc:Literal>
+            </ogc:PropertyIsLessThan>
           </ogc:Filter>
-          <PolygonSymbolizer>	  
-            <Stroke>
-              <CssParameter name="stroke">#dd3c8c</CssParameter>
-              <CssParameter name="stroke-opacity">0.9</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>		
-        </Rule>	  
-	<Rule>
-		<Title>Animal tracks</Title>
           <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#ac39ac</CssParameter>
-            <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">1.5</CssParameter>
-          </Stroke>
+            <Stroke>
+              <CssParameter name="stroke">#00619b</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>
         </LineSymbolizer>
-	</Rule>
-	<Rule>
- 	 <Title>Animal tracks (coloured by unique track ID)</Title>
-		<MaxScaleDenominator>2000000</MaxScaleDenominator>
-        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-            <CssParameter name="stroke-opacity">1</CssParameter>
-            <CssParameter name="stroke-width">1.5</CssParameter>
-          </Stroke>
+        </Rule>	  
+        <Rule>
+          <Title>1980-1989</Title>
+          <ogc:Filter>
+          <ogc:And>            
+   			 <ogc:PropertyGreaterThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>1979</ogc:Literal>
+   			 </ogc:PropertyGreaterThan>
+   			 <ogc:PropertyLessThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>1989</ogc:Literal>
+   			 </ogc:PropertyLessThan> 
+          </ogc:And>                        
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#50a7da</CssParameter>
+              <CssParameter name="stroke-width">0.75</CssParameter>
+            </Stroke>
         </LineSymbolizer>
-<LineSymbolizer>
-</LineSymbolizer>
-<LineSymbolizer>
-</LineSymbolizer>
-</Rule>
+        </Rule>	
+        <Rule>
+          <Title>1990-1999</Title>
+          <ogc:Filter>
+          <ogc:And>            
+   			 <ogc:PropertyGreaterThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>1989</ogc:Literal>
+   			 </ogc:PropertyGreaterThan>
+   			 <ogc:PropertyLessThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>1999</ogc:Literal>
+   			 </ogc:PropertyLessThan> 
+          </ogc:And>                        
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8ec4e6</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>2000-2009</Title>
+          <ogc:Filter>
+          <ogc:And>            
+   			 <ogc:PropertyGreaterThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>1999</ogc:Literal>
+   			 </ogc:PropertyGreaterThan>
+   			 <ogc:PropertyLessThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>2009</ogc:Literal>
+   			 </ogc:PropertyLessThan> 
+          </ogc:And>                        
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#fbb1a8</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        </Rule>	   
+        <Rule>
+          <Title>2010-2019</Title>
+          <ogc:Filter>
+          <ogc:And>            
+   			 <ogc:PropertyGreaterThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>2009</ogc:Literal>
+   			 </ogc:PropertyGreaterThan>
+   			 <ogc:PropertyLessThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>2019</ogc:Literal>
+   			 </ogc:PropertyLessThan> 
+          </ogc:And>                        
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#f07062</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        </Rule>
+          <Rule>
+          <Title>2020-present</Title>
+          <ogc:Filter>
+   			 <ogc:PropertyGreaterThan>
+              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:Literal>2019</ogc:Literal>
+   			 </ogc:PropertyGreaterThan>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#a8281e</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
+            </Stroke>
+        </LineSymbolizer>
+        </Rule>	  
+  
 <Rule>
-	<MaxScaleDenominator>4500000</MaxScaleDenominator>
+	<MaxScaleDenominator>10000000</MaxScaleDenominator>
   	<TextSymbolizer>
-  		<Label>
-            <ogc:Function name="Concatenate">
-              <ogc:Literal>Track ID: </ogc:Literal>         
-			<ogc:PropertyName>track_id</ogc:PropertyName>
-            </ogc:Function>              
+  		<Label>       
+			<ogc:PropertyName>CYC_NAME</ogc:PropertyName>
 		</Label>
 		<Font>
 			<CssParameter name="font-family">Verdana</CssParameter>
