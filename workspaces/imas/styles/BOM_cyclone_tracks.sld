@@ -7,7 +7,7 @@
           <Title>pre-1980</Title>
           <ogc:Filter>
        			<ogc:PropertyIsLessThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1980</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
@@ -15,6 +15,7 @@
             <Stroke>
               <CssParameter name="stroke">#00619b</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.9</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  
@@ -22,20 +23,21 @@
           <Title>1980-1989</Title>
           <ogc:Filter>
           <ogc:And>            
-   			 <ogc:PropertyGreaterThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1979</ogc:Literal>
-   			 </ogc:PropertyGreaterThan>
-   			 <ogc:PropertyLessThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 </ogc:PropertyIsGreaterThan>
+   			 <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1989</ogc:Literal>
-   			 </ogc:PropertyLessThan> 
+   			 </ogc:PropertyIsLessThan> 
           </ogc:And>                        
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#50a7da</CssParameter>
               <CssParameter name="stroke-width">0.75</CssParameter>
+			  <CssParameter name="stroke-opacity">0.9</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	
@@ -43,20 +45,21 @@
           <Title>1990-1999</Title>
           <ogc:Filter>
           <ogc:And>            
-   			 <ogc:PropertyGreaterThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1989</ogc:Literal>
-   			 </ogc:PropertyGreaterThan>
-   			 <ogc:PropertyLessThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 </ogc:PropertyIsGreaterThan>
+   			 <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1999</ogc:Literal>
-   			 </ogc:PropertyLessThan> 
+   			 </ogc:PropertyIsLessThan> 
           </ogc:And>                        
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#8ec4e6</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
+			  <CssParameter name="stroke-opacity">0.9</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
@@ -64,20 +67,21 @@
           <Title>2000-2009</Title>
           <ogc:Filter>
           <ogc:And>            
-   			 <ogc:PropertyGreaterThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1999</ogc:Literal>
-   			 </ogc:PropertyGreaterThan>
-   			 <ogc:PropertyLessThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 </ogc:PropertyIsGreaterThan>
+   			 <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>2009</ogc:Literal>
-   			 </ogc:PropertyLessThan> 
+   			 </ogc:PropertyIsLessThan> 
           </ogc:And>                        
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#fbb1a8</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.9</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	   
@@ -85,35 +89,37 @@
           <Title>2010-2019</Title>
           <ogc:Filter>
           <ogc:And>            
-   			 <ogc:PropertyGreaterThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>2009</ogc:Literal>
-   			 </ogc:PropertyGreaterThan>
-   			 <ogc:PropertyLessThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 </ogc:PropertyIsGreaterThan>
+   			 <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>2019</ogc:Literal>
-   			 </ogc:PropertyLessThan> 
+   			 </ogc:PropertyIsLessThan> 
           </ogc:And>                        
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f07062</CssParameter>
               <CssParameter name="stroke-width">2</CssParameter>
+			  <CssParameter name="stroke-opacity">0.9</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
           <Rule>
           <Title>2020-present</Title>
           <ogc:Filter>
-   			 <ogc:PropertyGreaterThan>
-              <ogc:PropertyName>YEAR</ogc:PropertyName>
+   			 <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>2019</ogc:Literal>
-   			 </ogc:PropertyGreaterThan>
+   			 </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a8281e</CssParameter>
               <CssParameter name="stroke-width">3</CssParameter>
+			  <CssParameter name="stroke-opacity">0.9</CssParameter>			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  
@@ -121,8 +127,11 @@
 <Rule>
 	<MaxScaleDenominator>10000000</MaxScaleDenominator>
   	<TextSymbolizer>
-  		<Label>       
+  		<Label>  
+            <ogc:Function name="Concatenate">
 			<ogc:PropertyName>CYC_NAME</ogc:PropertyName>
+			<ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
+            </ogc:Function>    		
 		</Label>
 		<Font>
 			<CssParameter name="font-family">Verdana</CssParameter>
