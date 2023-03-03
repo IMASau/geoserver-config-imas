@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NSW_Shellharbour_landforms_2022</name>
+  <id>LayerInfoImpl-2cc461cd:186a5765716:645b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2cc461cd:186a5765716:623e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2cc461cd:186a5765716:645a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-03-03 12:23:13.740 UTC</dateCreated>
+</layer>
