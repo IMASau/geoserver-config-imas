@@ -194,7 +194,22 @@
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>  		
+        </Rule> 
+        <Rule>		
+          <Title>&#9480; Unconsolidated Hard Substrata</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Unconsolidated Hard Substrata</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#000000</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>	        
       <Rule>		
           <Title>&#9480; Mixed Hard Substrata</Title>		
           <ogc:Filter>		
