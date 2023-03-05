@@ -2,63 +2,19 @@
 <NamedLayer>
 <Name>BOM cyclone tracks</Name>
 <UserStyle>
-<FeatureTypeStyle>
+<FeatureTypeStyle> 
         <Rule>
-          <Title>pre-1980</Title>
-          <ogc:Filter>
-       			<ogc:PropertyIsLessThan>
-              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>1980</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:Filter>
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#00619b</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
-            </Stroke>
-        </LineSymbolizer>
-        </Rule>	  
-        <Rule>
-          <Title>1980-1989</Title>
-          <ogc:Filter>
-          <ogc:And>            
-   			 <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>1979</ogc:Literal>
-   			 </ogc:PropertyIsGreaterThan>
-   			 <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>1989</ogc:Literal>
-   			 </ogc:PropertyIsLessThan> 
-          </ogc:And>                        
-          </ogc:Filter>
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#50a7da</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
-            </Stroke>
-        </LineSymbolizer>
-        </Rule>	
-        <Rule>
-          <Title>1990-1999</Title>
-          <ogc:Filter>
-          <ogc:And>            
-   			 <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>1989</ogc:Literal>
-   			 </ogc:PropertyIsGreaterThan>
+          <Title>pre-2000</Title>
+          <ogc:Filter>>
    			 <ogc:PropertyIsLessThan>
               <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
               <ogc:Literal>1999</ogc:Literal>
    			 </ogc:PropertyIsLessThan> 
-          </ogc:And>                        
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#8ec4e6</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke">#00619b</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
 			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
@@ -79,9 +35,9 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#fbb1a8</CssParameter>
-              <CssParameter name="stroke-width">0.75</CssParameter>
-			  <CssParameter name="stroke-opacity">0.4</CssParameter>			  			  
+              <CssParameter name="stroke">#8080ff</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.3</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	   
@@ -101,9 +57,9 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#f07062</CssParameter>
+              <CssParameter name="stroke">#f28073</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
-			  <CssParameter name="stroke-opacity">0.6</CssParameter>			  			  
+			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
@@ -119,7 +75,7 @@
             <Stroke>
               <CssParameter name="stroke">#a8281e</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.6</CssParameter>			  
+			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  
@@ -131,7 +87,7 @@
          <ogc:Literal>2009</ogc:Literal>
    		</ogc:PropertyIsGreaterThan>                      
           </ogc:Filter>  
-	<MaxScaleDenominator>5000000</MaxScaleDenominator>  
+	<MaxScaleDenominator>2000000</MaxScaleDenominator>  
   	<TextSymbolizer>
   		<Label>  
             <ogc:Function name="Concatenate">
