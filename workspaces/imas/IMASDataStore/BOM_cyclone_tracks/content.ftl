@@ -9,16 +9,12 @@
 			<th>Type</th>
 			<th style="text-align:center">Start date</th>
 			<th style="text-align:center">End date</th>
-			<th style="text-align:center">Max wind speed (kts)</th>
-			<th style="text-align:center">Max gust speed (kts)</th>
 		</TR>
 	</THEAD>
 
 	<#list features as feature>
 
 	<#assign cyctype=feature.CYC_TYPE.value>
-	<#assign wind=feature.MAX_WIND_SPD.value>
-	<#assign gust=feature.MAX_WIND_GUST.value>
 
 	<#if (feature_index < 5)> 
 
@@ -55,22 +51,6 @@
 
 			<TD style="text-align:center">
 				${feature.end_time.value?date("dd/mm/yy")?date}
-			</TD>
-
- 			<TD style="text-align:center"
-				<#if wind?has_content>
-					${feature.MAX_WIND_SPD.value}
-				<#else>
-					<i>unknown</i>			
-				</#if>
-			</TD>
-
- 			<TD style="text-align:center"
-				<#if gust?has_content>
-					${feature.MAX_WIND_GUST.value}
-				<#else>
-					<i>-</i>			
-				</#if>
 			</TD>
 
  

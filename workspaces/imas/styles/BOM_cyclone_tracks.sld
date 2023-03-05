@@ -15,7 +15,7 @@
             <Stroke>
               <CssParameter name="stroke">#00619b</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
+			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  
@@ -36,8 +36,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#50a7da</CssParameter>
-              <CssParameter name="stroke-width">0.75</CssParameter>
-			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
+              <CssParameter name="stroke-width">0.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.4</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	
@@ -58,7 +58,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#8ec4e6</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">0.75</CssParameter>
 			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
@@ -80,7 +80,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#fbb1a8</CssParameter>
-              <CssParameter name="stroke-width">1.25</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
 			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
@@ -102,8 +102,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f07062</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
-			  <CssParameter name="stroke-opacity">0.8</CssParameter>			  			  
+              <CssParameter name="stroke-width">1.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.85</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
@@ -118,8 +118,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a8281e</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>
-			  <CssParameter name="stroke-opacity">0.8</CssParameter>			  
+              <CssParameter name="stroke-width">2.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.85</CssParameter>			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  

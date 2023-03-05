@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>BOM tropical cyclone tracks (lines): to 2023</title>
+  <title>BOM tropical cyclone tracks (lines): 1907 to 2023</title>
   <keywords>
     <string>features</string>
     <string>BOM_cyclone_tracks_lines</string>
@@ -19,7 +19,7 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:900913</srs>
   <nativeBoundingBox>
     <minx>-178.1</minx>
     <maxx>180.0</maxx>
@@ -28,10 +28,10 @@
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-178.1</minx>
-    <maxx>180.0</maxx>
-    <miny>-48.6</miny>
-    <maxy>-2.8</maxy>
+    <minx>-0.0015998995210169</minx>
+    <maxx>0.0016169675114151</maxx>
+    <miny>-4.365812280799E-4</miny>
+    <maxy>-2.51528279522E-5</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
