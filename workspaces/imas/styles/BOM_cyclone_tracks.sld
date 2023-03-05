@@ -80,8 +80,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#fbb1a8</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.8</CssParameter>			  			  
+              <CssParameter name="stroke-width">1.25</CssParameter>
+			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	   
