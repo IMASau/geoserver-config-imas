@@ -19,19 +19,19 @@
   AXIS[&quot;Geodetic longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
-  <srs>EPSG:900913</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-178.1</minx>
-    <maxx>180.0</maxx>
-    <miny>-48.6</miny>
-    <maxy>-2.8</maxy>
+    <minx>38.1</minx>
+    <maxx>177.0</maxx>
+    <miny>-42.2</miny>
+    <maxy>-6.2</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-0.0015998995210169</minx>
-    <maxx>0.0016169675114151</maxx>
-    <miny>-4.365812280799E-4</miny>
-    <maxy>-2.51528279522E-5</maxy>
+    <minx>38.1</minx>
+    <maxx>177.0</maxx>
+    <miny>-42.2</miny>
+    <maxy>-6.2</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

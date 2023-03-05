@@ -37,7 +37,7 @@
             <Stroke>
               <CssParameter name="stroke">#50a7da</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.4</CssParameter>			  			  
+			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	
@@ -58,8 +58,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#8ec4e6</CssParameter>
-              <CssParameter name="stroke-width">0.75</CssParameter>
-			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
+              <CssParameter name="stroke-width">0.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
@@ -80,8 +80,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#fbb1a8</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
+              <CssParameter name="stroke-width">0.75</CssParameter>
+			  <CssParameter name="stroke-opacity">0.4</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	   
@@ -102,8 +102,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f07062</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.85</CssParameter>			  			  
+              <CssParameter name="stroke-width">1</CssParameter>
+			  <CssParameter name="stroke-opacity">0.6</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
@@ -118,14 +118,20 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a8281e</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.85</CssParameter>			  
+              <CssParameter name="stroke-width">1.5</CssParameter>
+			  <CssParameter name="stroke-opacity">0.6</CssParameter>			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  
   
 <Rule>
-	<MaxScaleDenominator>5000000</MaxScaleDenominator>
+     <ogc:Filter>
+   		<ogc:PropertyIsGreaterThan>
+        <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
+         <ogc:Literal>2009</ogc:Literal>
+   		</ogc:PropertyIsGreaterThan>                      
+          </ogc:Filter>  
+	<MaxScaleDenominator>5000000</MaxScaleDenominator>  
   	<TextSymbolizer>
   		<Label>  
             <ogc:Function name="Concatenate">
