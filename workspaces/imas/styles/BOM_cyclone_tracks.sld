@@ -4,43 +4,21 @@
 <UserStyle>
 <FeatureTypeStyle> 
         <Rule>
-          <Title>pre-2000</Title>
+          <Title>pre-2010</Title>
           <ogc:Filter>>
    			 <ogc:PropertyIsLessThan>
               <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>1999</ogc:Literal>
+              <ogc:Literal>2009</ogc:Literal>
    			 </ogc:PropertyIsLessThan> 
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00619b</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
 			  <CssParameter name="stroke-opacity">0.2</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>2000-2009</Title>
-          <ogc:Filter>
-          <ogc:And>            
-   			 <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>1999</ogc:Literal>
-   			 </ogc:PropertyIsGreaterThan>
-   			 <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>CYC_YEAR</ogc:PropertyName>
-              <ogc:Literal>2009</ogc:Literal>
-   			 </ogc:PropertyIsLessThan> 
-          </ogc:And>                        
-          </ogc:Filter>
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#8080ff</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.3</CssParameter>			  			  
-            </Stroke>
-        </LineSymbolizer>
-        </Rule>	   
+        </Rule>   
         <Rule>
           <Title>2010-2019</Title>
           <ogc:Filter>
@@ -58,8 +36,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f28073</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  			  
+              <CssParameter name="stroke-width">0.7</CssParameter>
+			  <CssParameter name="stroke-opacity">0.4</CssParameter>			  			  
             </Stroke>
         </LineSymbolizer>
         </Rule>
@@ -74,8 +52,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a8281e</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-			  <CssParameter name="stroke-opacity">0.5</CssParameter>			  
+              <CssParameter name="stroke-width">1.4</CssParameter>
+			  <CssParameter name="stroke-opacity">0.4</CssParameter>			  
             </Stroke>
         </LineSymbolizer>
         </Rule>	  
