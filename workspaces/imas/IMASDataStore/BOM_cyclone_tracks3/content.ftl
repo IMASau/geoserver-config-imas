@@ -30,11 +30,11 @@
 				<#if cyctype?has_content>
 					<#if feature.CYC_TYPE.value == 'T'>
 						Tropical Cyclone
-					<#elseif feature.TYPE.value == 'E'>
+					<#elseif feature.CYC_TYPE.value == 'E'>
 						Extra-tropical Cyclone or East Coast Low
-					<#elseif feature.TYPE.value == 'E'>
+					<#elseif feature.CYC_TYPE.value == 'E'>
 						Tropical low failed to attain TC strength
-					<#elseif feature.TYPE.value == 'E'>
+					<#elseif feature.CYC_TYPE.value == 'E'>
 						Other type of system
 					<#else>
 						<i>unspecified</i>			
