@@ -1,0 +1,17 @@
+<layer>
+  <name>GEOMORPH_Davis</name>
+  <id>LayerInfoImpl--6da6cc33:186bfde7437:-4a63</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6da6cc33:186bfde7437:-4a5c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6da6cc33:186bfde7437:-4a64</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-03-08 21:42:59.334 UTC</dateCreated>
+  <dateModified>2023-03-08 21:56:15.299 UTC</dateModified>
+</layer>
