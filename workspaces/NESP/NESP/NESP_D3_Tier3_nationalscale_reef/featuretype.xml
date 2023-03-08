@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Tier 3 (national scale surveys)</title>
+  <title>Tier 3 (reef features from AHO S57 maps)</title>
   <abstract>This layer describes likely locations of rocky reef on the Australian Continental Shelf.&#xd;
 &#xd;
 The NESP Marine Biodiversity Hub Project D3 collated all known mapping data from government and industry (including data acquired during CERF and NERP Hubs) to provide an updated map of reef habitat around Australia [current as at 2016]. Reef locations are described by 4 tiers of decreasing level of certainty/resolution/validation.&#xd;
@@ -56,6 +56,8 @@ This data layer describes TIER 3 reef mapping. Tier 3 are national scale surveys
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

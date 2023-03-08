@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl-19c3df12:180c6c8e7e2:-5343</id>
   <name>NESP_D3_Tier1_localscale_reef</name>
   <mode>SINGLE</mode>
-  <title>Tier 1 (local scale surveys)</title>
+  <title>Tier 1 (validated reef extents)</title>
   <abstractTxt>This layer describes likely locations of rocky reef on the Australian Continental Shelf.&#xd;
 &#xd;
 The NESP Marine Biodiversity Hub Project D3 collated all known mapping data from government and industry (including data acquired during CERF and NERP Hubs) to provide an updated map of reef habitat around Australia [current as at 2016]. Reef locations are described by 4 tiers of decreasing level of certainty/resolution/validation.&#xd;
@@ -11,6 +11,8 @@ This data layer describes TIER 1 reef mapping. Tier 1 are high resolution multib
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl-19c3df12:180c6c8e7e2:-57fd</id>
@@ -41,4 +43,5 @@ This data layer describes TIER 1 reef mapping. Tier 1 are high resolution multib
     <maxy>-10.283541340860154</maxy>
     <crs>EPSG:4283</crs>
   </bounds>
+  <dateModified>2023-03-08 03:42:01.472 UTC</dateModified>
 </layerGroup>
