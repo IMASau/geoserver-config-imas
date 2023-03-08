@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:b16</id>
-  <name>SeamapAus_NT_PetrelBasin_geomorphology</name>
-  <nativeName>SeamapAus_NT_PetrelBasin_geomorphology</nativeName>
+  <name>SeamapAus_NT_PetrelBasin_geomorphic_2012</name>
+  <nativeName>SeamapAus_NT_PetrelBasin_geomorphic_2012</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT - Petrel Sub-Basin geomorphology (GA)</title>
+  <title>Seamap Australia - NT - Petrel Sub-Basin geomorphic features 2012 (GA)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -58,6 +58,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - NT - Petrel Basin geomorphology</h5>
+	<h5>Habitat - NT - Petrel Basin geomorphic habitat</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
