@@ -1,16 +1,16 @@
 <layer>
-  <name>GEOMORPHOLOGY_OceanicShoals</name>
-  <id>LayerInfoImpl--3ea8dad8:157d6d08d00:b15</id>
+  <name>SeamapAus_NT_OceanicShoals_geomorphic_2012</name>
+  <id>LayerInfoImpl--6da6cc33:186bfde7437:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3ea8dad8:157f40ad9c7:56bb</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3ea8dad8:157d6d08d00:b14</id>
+    <id>FeatureTypeInfoImpl--6da6cc33:186bfde7437:-7fff</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2023-02-20 20:33:16.180 UTC</dateModified>
+  <dateCreated>2023-03-08 06:17:54.257 UTC</dateCreated>
 </layer>
