@@ -23,7 +23,7 @@ h5 {
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia v1.0 (2017 archive)</h5>
+<h5>Seamap Australia National Benthic Habitat (2017 archive)</h5>
 <BR>
   <div class="feature">
 
