@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_QLD_Halimeda_bioherms_2016</name>
+  <id>LayerInfoImpl--12ca5fe1:186e8e7ea3d:1134</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--12ca5fe1:186e8e7ea3d:112b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--12ca5fe1:186e8e7ea3d:1133</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-03-16 05:57:40.167 UTC</dateCreated>
+</layer>
