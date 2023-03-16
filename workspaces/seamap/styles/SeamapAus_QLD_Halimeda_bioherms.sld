@@ -17,7 +17,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
-              <ogc:Literal>Halimeda biherm</ogc:Literal>		
+              <ogc:Literal>Halimeda bioherm</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>		
