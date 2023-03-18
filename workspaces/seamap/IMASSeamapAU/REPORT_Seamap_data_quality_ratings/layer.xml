@@ -1,0 +1,16 @@
+<layer>
+  <name>REPORT_Seamap_data_quality_ratings</name>
+  <id>LayerInfoImpl--12ca5fe1:186f1f9bb05:1e8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--12ca5fe1:186f1f9bb05:1e7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-03-18 09:47:13.582 UTC</dateCreated>
+</layer>

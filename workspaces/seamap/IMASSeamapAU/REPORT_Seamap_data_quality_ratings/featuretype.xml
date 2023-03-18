@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-2cc461cd:186a4839d1e:b13</id>
-  <name>REPORT_Seamap_layer_catalogue</name>
-  <nativeName>REPORT_Seamap_layer_catalogue</nativeName>
+  <id>FeatureTypeInfoImpl--12ca5fe1:186f1f9bb05:1e7</id>
+  <name>REPORT_Seamap_data_quality_ratings</name>
+  <nativeName>REPORT_Seamap_data_quality_ratings</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia layers catalogue [downloadable report]</title>
+  <title>Seamap Australia data quality reports for State-of-Knowledge [downloadable report]</title>
   <keywords>
     <string>features</string>
-    <string>REPORT_Seamap_layer_catalogue</string>
+    <string>REPORT_Seamap_data_quality_ratings</string>
   </keywords>
   <srs>EPSG:404000</srs>
   <nativeBoundingBox>
@@ -26,7 +26,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
