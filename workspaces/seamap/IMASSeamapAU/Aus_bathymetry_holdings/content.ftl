@@ -1,15 +1,15 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1050px; table-layout: fixed;" border="1">
-	<col width="29%" />
-	<col width="7.7%" />
-	<col width="7.8%" />
-  	<col width="18%" />
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1100px; table-layout: fixed;" border="1">
+	<col width="28%" />
+	<col width="7.5%" />
+	<col width="7.5%" />
+  	<col width="17%" />
 	<col width="9%" />
 	<col width="7.5%" />
-  	<col width="15.5%" />
-	<col width="5.5%" />
+  	<col width="17.5%" />
+	<col width="5.3%" />
 
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
