@@ -37,7 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#ff0e48</CssParameter>		
+              <CssParameter name="fill">#db7089</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
@@ -127,7 +127,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#FCFAE2</CssParameter>		
+              <CssParameter name="fill">#fceae2</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
@@ -412,7 +412,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#404040</CssParameter>		
+              <CssParameter name="fill">#b0b0cf</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
@@ -502,7 +502,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#000000</CssParameter>		
+              <CssParameter name="fill">#caa09b</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
