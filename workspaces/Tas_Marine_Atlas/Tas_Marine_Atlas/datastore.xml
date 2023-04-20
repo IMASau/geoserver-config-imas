@@ -12,7 +12,7 @@
     <entry key="Force spatial index usage via hints">false</entry>
     <entry key="Integrated Security">false</entry>
     <entry key="fetch size">1000</entry>
-    <entry key="jndiReferenceName">java:comp/env/jdbc/tasmarineatlas</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/tasmarineatlas-dev</entry>
     <entry key="Expose primary keys">false</entry>
     <entry key="dbtype">sqlserver</entry>
     <entry key="namespace">Tas_Marine_Atlas</entry>
@@ -20,5 +20,5 @@
     <entry key="Use native geometry serialization">true</entry>
   </connectionParameters>
   <__default>false</__default>
-  <dateModified>2023-04-20 04:53:14.611 UTC</dateModified>
+  <dateModified>2023-04-20 05:38:03.651 UTC</dateModified>
 </dataStore>
