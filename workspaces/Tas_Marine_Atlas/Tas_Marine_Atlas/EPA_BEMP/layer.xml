@@ -1,0 +1,17 @@
+<layer>
+  <name>EPA_BEMP</name>
+  <id>LayerInfoImpl--6009d0d8:1879d1f1043:-7d20</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6009d0d8:1879d1f1043:-7d1e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6009d0d8:1879d1f1043:-7d21</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-04-20 06:00:21.925 UTC</dateCreated>
+  <dateModified>2023-04-20 06:02:27.920 UTC</dateModified>
+</layer>
