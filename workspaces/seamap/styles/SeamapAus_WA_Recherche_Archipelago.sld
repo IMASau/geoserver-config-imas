@@ -22,7 +22,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#1e2ae3</CssParameter>
+              <CssParameter name="fill">#974749</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>		  
@@ -37,7 +37,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#008a90</CssParameter>
+              <CssParameter name="fill">#A1967A</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>		  
@@ -67,7 +67,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#cf635a</CssParameter>
+              <CssParameter name="fill">#fd6e67</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>		  
