@@ -67,7 +67,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#d7191c</sld:CssParameter>
+              <sld:CssParameter name="fill">#fd6e67</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
             </sld:Fill>	
           </sld:PolygonSymbolizer>
@@ -88,7 +88,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule> 
         <sld:Rule>
-          <sld:Title>Infralittoral rock (moderate energy)\n + Amphibolis antarctica</sld:Title>
+          <sld:Title>Infralittoral rock (moderate energy) + Amphibolis antarctica</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -103,7 +103,7 @@ xmlns:gml="http://www.opengis.net/gml">
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>Infralittoral rock (moderate energy)\n + Amphibolis antarctica/Zostera nigricaulis</sld:Title>
+          <sld:Title>Infralittoral rock (moderate energy) + Amphibolis antarctica/Zostera nigricaulis</sld:Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
