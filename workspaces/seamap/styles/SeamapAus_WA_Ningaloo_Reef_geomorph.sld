@@ -13,110 +13,185 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Title>Ningaloo Reef geomorphology</Title>
       <FeatureTypeStyle>  
         <Rule>            
-          <Title>Lagoon (shallow)</Title>
+          <Title>Complex dunes</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Shallow lagoon</ogc:Literal>
+              <ogc:Literal>Complex Dunes</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#dbadeb</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#ff8056</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>            
-          <Title>Lagoon (deep)</Title>
+          <Title>Large to very large dunes</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep lagoon</ogc:Literal>
+              <ogc:Literal>Large to Very Large Dunes</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#8529a3</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#bb2d66</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>      
         <Rule>
-          <Title>Other deep areas</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep areas</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#16389c</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>	         
-        <Rule>
-          <Title>Reef crest</Title>
+          <Title>Ribbon dunes and scours</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef crest</ogc:Literal>
+              <ogc:Literal>Ribbon Dunes and Scours</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  	
             <Fill>
-              <CssParameter name="fill">#ff9999</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#ddcc00</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Reef slope</Title>
+          <Title>Gravel mounds and pockmarks</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef slope</ogc:Literal>
+              <ogc:Literal>Gravel Mounds and Pockmarks</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#bd4b28</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#ffccff</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Reef flat (inner)</Title>
+          <Title>Hardground and mixed sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef flat inner</ogc:Literal>
+              <ogc:Literal>Hardground and Mixed Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#fcf769</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#ff9b8f</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Reef flat (outer)</Title>
+          <Title>Mound</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Reef flat outer</ogc:Literal>
+              <ogc:Literal>Mound</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#ff8000</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill">#c44dff</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>Ridge</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Ridge</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#a97070</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	
+        <Rule>
+          <Title>Irregular reef</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Irregular Reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#c68c53</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Relict reef platform</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Relict Reef Platform</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#663300</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Sandy depression</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sandy Depression</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#d9d98c</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Sand flat</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sand Flat</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#ffff80</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Submarine fan</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Submarine Fan</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#0033cc</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
