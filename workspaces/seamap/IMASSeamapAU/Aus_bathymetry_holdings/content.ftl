@@ -92,6 +92,8 @@
 		<TD style="font-size:11px">
 			<#if feature.data_dl.value == 'no'>
 				not available
+			<#elseif feature.data_dl.value == 'maybe - other'>
+				not available
 			<#elseif feature.data_dl.value == 'yes - other'>
 				yes - other
 			<#elseif feature.data_dl.value == 'yes - ASB'>
