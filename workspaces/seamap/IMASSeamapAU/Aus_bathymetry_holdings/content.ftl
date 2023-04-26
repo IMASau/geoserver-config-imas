@@ -98,8 +98,10 @@
 				yes - other
 			<#elseif feature.data_dl.value == 'yes - ASB'>
 				yes - <a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
+			<#elseif feature.data_dl.value == 'yes - WA SLIP'>
+				yes - <a rel="external" href="https://maps.slip.wa.gov.au/Marine/app/" target="_blank">WA SLIP</a>
 			<#else>
-				in progress
+				not available
 			</#if>
 		</TD> 
 		
