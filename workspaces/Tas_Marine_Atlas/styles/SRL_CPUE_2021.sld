@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0">
   <NamedLayer>
-    <se:Name>SRL CPUE 2020 (kg/pot lift)</se:Name>
+    <se:Name>SRL CPUE 2021 (kg/pot lift)</se:Name>
     <UserStyle>
-      <se:Name>SRL CPUE 2020 (kg/pot lift)</se:Name>
+      <se:Name>SRL CPUE 2021 (kg/pot lift)</se:Name>
       <se:FeatureTypeStyle>
        <se:Rule>
           <se:Name>CPUE (kg/pot lift)</se:Name>
@@ -19,17 +19,17 @@
               <se:SvgParameter name="fill-opacity">0</se:SvgParameter>              
             </se:Fill>
           </se:PolygonSymbolizer>
-        </se:Rule> 	  
+        </se:Rule>	  
         <se:Rule>
-          <se:Name>0.08 - 1.5</se:Name>
+          <se:Name>0.02 - 1.5</se:Name>
           <se:Description>
-            <se:Title>0.08 - 1.5</se:Title>
+            <se:Title>0.02 - 1.5</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
-                <ogc:Literal>0.08</ogc:Literal>
+                <ogc:Literal>0.02</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
@@ -102,9 +102,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>4.5 - 5.7</se:Name>
+          <se:Name>4.5 - 6</se:Name>
           <se:Description>
-            <se:Title>4.5 - 5.7</se:Title>
+            <se:Title>4.5 - 6</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
@@ -114,13 +114,67 @@
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
-                <ogc:Literal>5.70000000000000018</ogc:Literal>
+                <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#65bbc6</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>6 - 7.5</se:Name>
+          <se:Description>
+            <se:Title>6 - 7.5</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
+                <ogc:Literal>6</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
+                <ogc:Literal>7.5</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#3796c4</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>7.5 - 7.7</se:Name>
+          <se:Description>
+            <se:Title>7.5 - 7.7</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
+                <ogc:Literal>7.5</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
+                <ogc:Literal>7.67999999999999972</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#0868ac</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#232323</se:SvgParameter>

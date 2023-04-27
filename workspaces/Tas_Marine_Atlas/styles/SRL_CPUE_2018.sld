@@ -10,7 +10,7 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>SRL_CPUE_2</ogc:PropertyName>
-                <ogc:Literal>intentionallyblank</ogc:Literal>
+                <ogc:Literal>999999</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PolygonSymbolizer>
