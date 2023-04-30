@@ -42,36 +42,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>		
           </PolygonSymbolizer>		
         </Rule> 
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480; Non-Molluscan Filter Feeders</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Non-Molluscan Filter Feeders</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#cc99ff</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>
-		<Rule>		
-          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Ascidians</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Ascidians</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#9999ff</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>
+       
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Bioturbators</Title>		
           <ogc:Filter>		
@@ -86,22 +57,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule> 		
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Bryozoans</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Bryozoans</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#00ffff</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule> 		
+        </Rule> 				
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Coral Biota</Title>		
           <ogc:Filter>		
@@ -143,36 +99,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ff99e6</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480; Shelled Biota</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Shelled Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#adad85</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>		
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Screw Shell Biota</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Screw Shell Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#A68C73</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
@@ -222,21 +148,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>		
           </PolygonSymbolizer>		
         </Rule> 		
-        <Rule>		
-          <Title>&#9480; Urchin Barren</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Urchin Barren</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#4b0066</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>
         <Rule>		
           <Title>&#9480; Vegetation</Title>		
           <ogc:Filter>		
@@ -311,22 +222,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>			
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480; Wetland Vegetation</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Wetland Vegetation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#86b300</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>	 		 				
+        </Rule>			 		 				
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mangrove</Title>		
           <ogc:Filter>		
