@@ -1,17 +1,17 @@
 <featureType>
   <id>FeatureTypeInfoImpl--2816f738:186570cfa43:-4373</id>
   <name>SeamapAus_NBHL_mangrove</name>
-  <nativeName>FINALPRODUCT_SeamapAus_v2_1</nativeName>
+  <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia National Benthic Habitat Layer - mangrove extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the MANGROVE extent derived from the beta Version 2.1 of the data, released in 2023. This includes mixed vegetation classes in which mangrove has been positively identified (e.g. saltmarsh/mangrove).</abstract>
+This layer represents the MANGROVE extent derived from the beta 2023 version the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which mangrove has been positively identified (e.g. saltmarsh/mangrove).</abstract>
   <keywords>
     <string>features</string>
-    <string>FINALPRODUCT_SeamapAus_v2_1</string>
+    <string>FINALPRODUCT_SeamapAus_current</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
