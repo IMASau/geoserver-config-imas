@@ -8,7 +8,7 @@
   <title>Seamap Australia National Benthic Habitat Layer - seagrass extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the SEAGRASS extent derived from the beta 2023 version of the Seamap Australia National Benthic Habitat Layer.</abstract>
+This layer represents the SEAGRASS extent derived from the beta 2023 version of the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which seagrass has been positively identified (e.g. seagrass/algae).</abstract>
   <keywords>
     <string>Seamap Australia National Benthic Habitat Layer</string>
     <string>seagrass</string>
@@ -64,7 +64,7 @@ This layer represents the SEAGRASS extent derived from the beta 2023 version of 
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Seagrass&apos;</cqlFilter>
+  <cqlFilter>NAT_HAB_CL = &apos;Seagrass&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
