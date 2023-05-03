@@ -18,8 +18,8 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:MaxScaleDenominator>500000</sld:MaxScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#0000ff</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.6</sld:CssParameter>                 
+              <sld:CssParameter name="stroke">#006699</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>                 
             </sld:Stroke>
           </sld:LineSymbolizer>
           <sld:TextSymbolizer>
@@ -44,10 +44,11 @@ xmlns:gml="http://www.opengis.net/gml">
           <sld:MinScaleDenominator>500000</sld:MinScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#0000ff</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>   
+              <sld:CssParameter name="stroke">#006699</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.05</sld:CssParameter>   
             </sld:Stroke>
           </sld:LineSymbolizer>
+         <sld:VendorOption name="inclusion">mapOnly</sld:VendorOption>                                
         </sld:Rule>
       </sld:FeatureTypeStyle>
     </sld:UserStyle>

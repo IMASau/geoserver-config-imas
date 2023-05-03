@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian Depth Contours (1m)</title>
-  <abstract>1m depth contours derived from the Australian Bathymetric and Topography Grid, June 2009 (GA) by the Australian Hydrographic Service for use on Seamap Australia website. Clipped to the Aus shelf extent.</abstract>
+  <abstract>1m depth contours derived from the Australian Bathymetric and Topography Grid, June 2009 (GA) by the Australian Hydrographic Service for use on Seamap Australia website. Clipped to the Australian continental shelf and Lord Howe Island shelf extent.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_CONTOURS_1m</string>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -58,6 +58,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
