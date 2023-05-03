@@ -1,1 +1,0 @@
-<#assign baseRLSpqs = "http://data.imas.utas.edu.au/static/imgviewer.html?survey_id=" >
