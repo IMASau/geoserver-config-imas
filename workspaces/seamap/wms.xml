@@ -1,14 +1,14 @@
 <wms>
-  <id>WMSInfoImpl--182e70b4:167ba155ed4:3375</id>
+  <id>WMSInfoImpl--21071077:14b33c29d5b:-7ff7</id>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
   <enabled>true</enabled>
   <name>WMS</name>
-  <title>Seamap Australia Web Mapping Service (WMS)</title>
+  <title>IMAS Web Mapping Service (WMS)</title>
   <internationalTitle/>
   <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
-  <abstrct>Seamap Australia brings together all available benthic habitat data collected on the Australian continental shelf and hosts this for the benefit of the broader research community. The product is a single, uniformly classified, continental-scale benthic habitat dataset.</abstrct>
+  <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver catalogues IMAS geospatial data, and hosts a number of other data layers from its collaborators.</abstrct>
   <internationalAbstract/>
   <versions>
     <org.geotools.util.Version>
@@ -19,7 +19,6 @@
     </org.geotools.util.Version>
   </versions>
   <citeCompliant>false</citeCompliant>
-  <onlineResource>https://seamapaustralia.org</onlineResource>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <metadata>
@@ -27,8 +26,8 @@
     <entry key="kmlSuperoverlayMode">auto</entry>
     <entry key="kmlReflectorMode">refresh</entry>
     <entry key="loopContinuously">false</entry>
-    <entry key="kmlPlacemark">false</entry>
     <entry key="svgAntiAlias">false</entry>
+    <entry key="kmlPlacemark">false</entry>
     <entry key="rootLayerInCapabilities">true</entry>
     <entry key="kmlKmscore">40</entry>
     <entry key="mapWrapping">true</entry>
@@ -43,24 +42,22 @@
     <entry key="scalehintMapunitsPixel">false</entry>
     <entry key="framesDelay">1000</entry>
   </metadata>
-  <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>
     <enabled>false</enabled>
     <position>BOT_RIGHT</position>
     <transparency>100</transparency>
   </watermark>
-  <interpolation>Bilinear</interpolation>
+  <interpolation>Nearest</interpolation>
   <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
   <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>100000000</maxRequestMemory>
+  <maxRequestMemory>32768</maxRequestMemory>
   <maxRenderingTime>180</maxRenderingTime>
-  <maxRenderingErrors>10000</maxRenderingErrors>
+  <maxRenderingErrors>100</maxRenderingErrors>
   <internationalRootLayerTitle/>
   <internationalRootLayerAbstract/>
-  <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
   <cacheConfiguration>
     <enabled>false</enabled>
     <maxEntries>1000</maxEntries>
