@@ -96,7 +96,8 @@
               </Mark>
               <Size>11</Size>				
             </Graphic>
-          </PointSymbolizer>       
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                        
         </Rule>
 
         
@@ -167,7 +168,8 @@
               </Mark>
               <Size>10</Size>				
             </Graphic>
-          </PointSymbolizer>       
+          </PointSymbolizer>  
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>    
 
     
@@ -238,7 +240,8 @@
               </Mark>
               <Size>10</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer> 
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>		
 		
         <Rule>
@@ -306,6 +309,7 @@
               <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
 		
         <Rule>
