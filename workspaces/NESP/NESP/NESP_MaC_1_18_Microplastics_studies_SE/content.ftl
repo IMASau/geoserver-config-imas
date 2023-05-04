@@ -6,25 +6,26 @@
 		<th style="padding:5px">Spatial coverage</th>
 		<th style="padding:5px">Environment</th>
 		<th style="padding:5px">Sampling type</th>
-		<th style="padding:5px">Data source</th>
-
+		<th style="padding:5px">Species of interest</th>
 	</TR>
 
 	<#list features as feature>
 	<#assign URL=feature.Reference_DOI.value>
+	<#assign species=feature.Biota_type.value>
+
 
 	<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
 	<TD style="padding:5px">				
 		<#if URL?has_content>
 				<#if URL?contains("http")>
-					<a rel="external" href="${feature.Reference_DOI.value}" target="_blank">${feature.Study_Citation_OR_NGO_source.value}</a>
+					<a rel="external" href="${feature.Reference_DOI.value}" target="_blank">${feature.Study_citationvalue}</a>
 				<#else>
-					<a rel="external" href="http://dx.doi.org/${feature.Reference_DOI.value}" target="_blank">${feature.Study_Citation_OR_NGO_source.value}</a>
+					<a rel="external" href="http://dx.doi.org/${feature.Reference_DOI.value}" target="_blank">${feature.Study_citation.value}</a>
 
 				</#if>			
 		<#else>
-			${feature.Study_Citation_OR_NGO_source.value}
+			${feature.Study_citation.value}
 		</#if>			
 	</TD>
 
@@ -41,7 +42,7 @@
 		<#if feature.StudyType_water.value == 'Y'>
 			<#if feature.StudyType_sediment.value == 'Y'>
 				<#if feature.StudyType_biota.value == 'Y'>
-					<#if feature.StudyType_survey.value == 'Y'>
+					<#if feature.StudyType_beachSurvey.value == 'Y'>
 						water, sediment, biota, beach survey
 					<#else>	
 						water, sediment, biota
@@ -55,7 +56,7 @@
 
 		<#elseif feature.StudyType_sediment.value == 'Y'>		
 			<#if feature.StudyType_biota.value == 'Y'>
-				<#if feature.StudyType_survey.value == 'Y'>
+				<#if feature.StudyType_beachSurvey.value == 'Y'>
 					sediment, biota, beach survey
 				<#else>	
 					sediment, biota
@@ -65,22 +66,28 @@
 			</#if>			
 			
 		<#elseif feature.StudyType_biota.value == 'Y'>
-			<#if feature.StudyType_survey.value == 'Y'>
+			<#if feature.StudyType_beachSurvey.value == 'Y'>
 				biota, beach survey
 			<#else>	
 				biota
 			</#if>
 
-		<#elseif feature.StudyType_survey.value == 'Y'>
+		<#elseif feature.StudyType_beachSurvey.value == 'Y'>
 			beach survey
 		<#else>
 			-
 		</#if>
 	</TD> 
  
- 	<TD style="padding:5px">
-		<i>${feature.Data_Source.value}</i>
-	</TD>      
+	<TD style="padding:5px">				
+		<#if species?has_content>
+			${feature.Biota_type.value}
+		
+		<#else>
+			-
+		</#if>			
+	</TD>
+    
 
 	</#list>
 	</TR>
