@@ -31,19 +31,11 @@
 		
         <Rule>
           <Title>Water</Title>
-			<ogc:Filter>
-			<ogc:And>              
+			<ogc:Filter>           
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_water</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not>               
-			</ogc:And>                            
+					</ogc:PropertyIsEqualTo>                           
 			</ogc:Filter>        
           <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          
           <PointSymbolizer>
@@ -66,19 +58,11 @@
 		
           <Rule>
           <Title>Water - zoomed out</Title>
-			<ogc:Filter>
-			<ogc:And>              
+			<ogc:Filter>         
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_water</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not>               
-			</ogc:And>                            
+					</ogc:PropertyIsEqualTo>                         
 			</ogc:Filter>        
           <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				          
           <PointSymbolizer>
@@ -104,18 +88,10 @@
         <Rule>
           <Title>Sediment</Title>
 			<ogc:Filter>
-			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-			</ogc:And>                            
+					</ogc:PropertyIsEqualTo>         
 			</ogc:Filter>        
           <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				                  
           <PointSymbolizer>
@@ -136,21 +112,13 @@
           </PointSymbolizer>       
         </Rule>
         
-        <Rule>
+         <Rule>
           <Title>Sediment - zoomed out</Title>
-			<ogc:Filter>
-			<ogc:And>              
+			<ogc:Filter>            
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-			</ogc:And>                            
 			</ogc:Filter>        
           <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				                  
           <PointSymbolizer>
@@ -170,24 +138,16 @@
             </Graphic>
           </PointSymbolizer>  
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
-        </Rule>    
+        </Rule>   
 
     
         <Rule>
           <Title>Biota</Title>
 			<ogc:Filter>
-			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-			</ogc:And>                            
+					</ogc:PropertyIsEqualTo>                            
 			</ogc:Filter> 
           <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          			
           <PointSymbolizer>
@@ -210,19 +170,11 @@
 
         <Rule>
           <Title>Biota - zoomed out</Title>
-			<ogc:Filter>
-			<ogc:And>              
+			<ogc:Filter>           
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-			</ogc:And>                            
 			</ogc:Filter> 
           <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				          			
           <PointSymbolizer>
@@ -247,19 +199,10 @@
         <Rule>
           <Title>Beach survey</Title>
 			<ogc:Filter>
-			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_survey</ogc:PropertyName>
+					<ogc:PropertyName>StudyType_beachSurvey</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-              			</ogc:And>              
-
 			</ogc:Filter>
            <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          
          
@@ -281,19 +224,10 @@
         <Rule>
           <Title>Beach survey - zoomed out</Title>
 			<ogc:Filter>
-			<ogc:And>              
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_survey</ogc:PropertyName>
+					<ogc:PropertyName>StudyType_beachSurvey</ogc:PropertyName>
 					    <ogc:Literal>Y</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
-              			<ogc:Not>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>nil</ogc:Literal>
-					</ogc:PropertyIsEqualTo> 
-			</ogc:Not> 
-              			</ogc:And>              
-
 			</ogc:Filter>
            <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				          
          
@@ -311,35 +245,7 @@
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
-		
-        <Rule>
-          <Title>---general study area---</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>geomtype</ogc:PropertyName>
-					    <ogc:Literal>range</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			</ogc:Filter>  
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">
-                <ogc:Literal>#999999</ogc:Literal>
-              </CssParameter>
-              <CssParameter name="fill-opacity">
-                <ogc:Literal>0.1</ogc:Literal>
-              </CssParameter>
-            </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-              <CssParameter name="stroke-opacity">
-                <ogc:Literal>0.3</ogc:Literal>
-              </CssParameter>                  
-               </Stroke>               
-          </PolygonSymbolizer>
-        </Rule>
 
-      <VendorOption name="sortBy">geomtype D</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

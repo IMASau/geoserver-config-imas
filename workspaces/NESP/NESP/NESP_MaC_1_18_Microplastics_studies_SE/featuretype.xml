@@ -43,7 +43,8 @@
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
-  <cqlFilter>State &lt;&gt; &apos;QLD&apos; AND State &lt;&gt; &apos;TAS&apos; AND State &lt;&gt; &apos;WA&apos; AND State &lt;&gt; &apos;NT&apos;</cqlFilter>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
