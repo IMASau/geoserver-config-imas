@@ -35,4 +35,5 @@
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
+  <cacheWarningSkips/>
 </GeoServerTileLayer>

@@ -1,5 +1,5 @@
 <wms>
-  <id>WMSInfoImpl--21071077:14b33c29d5b:-7ff7</id>
+  <id>WMSInfoImpl--3ccb6809:187e9fdaa21:-7fde</id>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -42,12 +42,13 @@
     <entry key="scalehintMapunitsPixel">false</entry>
     <entry key="framesDelay">1000</entry>
   </metadata>
+  <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>
     <enabled>false</enabled>
     <position>BOT_RIGHT</position>
     <transparency>100</transparency>
   </watermark>
-  <interpolation>Nearest</interpolation>
+  <interpolation>Bilinear</interpolation>
   <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
   <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
@@ -58,9 +59,13 @@
   <maxRenderingErrors>100</maxRenderingErrors>
   <internationalRootLayerTitle/>
   <internationalRootLayerAbstract/>
+  <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
   <cacheConfiguration>
     <enabled>false</enabled>
     <maxEntries>1000</maxEntries>
     <maxEntrySize>51200</maxEntrySize>
   </cacheConfiguration>
+  <remoteStyleMaxRequestTime>60000</remoteStyleMaxRequestTime>
+  <remoteStyleTimeout>30000</remoteStyleTimeout>
+  <defaultGroupStyleEnabled>true</defaultGroupStyleEnabled>
 </wms>
