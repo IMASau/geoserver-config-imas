@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>sample_date</name>
-        <type>date</type>
-        <label>Sample date</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>site</name>
         <type>string</type>
         <label>Site</label>
@@ -22,6 +15,13 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
+        <name>authority</name>
+        <type>string</type>
+        <label>Authority</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>treatment</name>
         <type>string</type>
         <label>Treatment</label>
@@ -29,9 +29,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>GEOM</name>
-        <type>geometrypropertytype</type>
-        <label>GEOM</label>
+        <name>indicator</name>
+        <type>string</type>
+        <label>Indicator</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

@@ -9,8 +9,5 @@
 
  
  </div>
-	<#else>
-	<i><BR>Download the full dataset to see sampling information available at this site.</i>
-		<#break>
   </#if>
 </#list>
