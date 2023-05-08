@@ -1,0 +1,16 @@
+<layer>
+  <name>NESP_NationalOutfallDatabase</name>
+  <id>LayerInfoImpl--a0a04fb:1626f1088c0:-1c82</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--39fd01fb:15ce4ab4f64:-232b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a0a04fb:1626f1088c0:-1c83</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateModified>2023-05-08 06:11:59.797 UTC</dateModified>
+</layer>
