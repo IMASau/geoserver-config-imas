@@ -21,7 +21,7 @@
 								<WellKnownName>circle</WellKnownName>
 								<Fill>
 									<CssParameter name="fill">#000000</CssParameter>
-									<CssParameter name="opacity">0.0001</CssParameter>
+									<CssParameter name="opacity">0.0</CssParameter>
                               </Fill>
 							</Mark>
 							<Size>6</Size>

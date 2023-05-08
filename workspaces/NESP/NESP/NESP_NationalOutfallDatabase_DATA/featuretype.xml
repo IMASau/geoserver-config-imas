@@ -5,10 +5,10 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>National Outfall Database (Clean Ocean Foundation)</title>
+  <title>National Outfall Database (Clean Ocean Foundation) - FULL DATA (not for WMS)</title>
   <abstract>The National Outfall Database (NOD) maps the marine impacts of wastewater disposal to ocean and estuarine waters in Australia. The database currently tracks 29 indicators across 178 monitoring sites.&#xd;
 &#xd;
-This data was last updated 30/06/20 from https://www.outfalls.info/</abstract>
+This data was last updated 30/06/21 from https://www.outfalls.info/</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_NationalOutfallDatabase_DATA</string>
@@ -46,6 +46,7 @@ This data was last updated 30/06/20 from https://www.outfalls.info/</abstract>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
