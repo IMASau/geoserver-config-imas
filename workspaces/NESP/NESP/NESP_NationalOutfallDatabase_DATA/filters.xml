@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>sample_date</name>
-        <type>datetime</type>
-        <label>Sample date</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>site</name>
         <type>string</type>
         <label>2_Site</label>
