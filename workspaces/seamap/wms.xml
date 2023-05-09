@@ -64,7 +64,7 @@
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
   <maxRequestMemory>32768</maxRequestMemory>
-  <maxRenderingTime>180</maxRenderingTime>
+  <maxRenderingTime>300</maxRenderingTime>
   <maxRenderingErrors>100</maxRenderingErrors>
   <internationalRootLayerTitle/>
   <internationalRootLayerAbstract/>
