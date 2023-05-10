@@ -1,0 +1,17 @@
+<layer>
+  <name>ebsa_seamounts_yesson</name>
+  <id>LayerInfoImpl--3ccb6809:18803e0cf47:-56b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ccb6809:18803e0cf47:-571</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ccb6809:18803e0cf47:-56c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-05-10 06:29:38.208 UTC</dateCreated>
+  <dateModified>2023-05-10 06:29:55.842 UTC</dateModified>
+</layer>
