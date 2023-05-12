@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4c6c56bd:187e6045907:-3eca</id>
   <name>Aus_seamounts_raised_features</name>
-  <nativeName>GEOMORPH_seamounts</nativeName>
+  <nativeName>GEOMORPH_seamounts_Flukes</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamounts and raised seabed features of Australia 2023</title>
-  <abstract>Seamount features were extracted from Heap, A.D., Harris, P.T. 2008. Geomorphology of the Australian Margin and Adjacent Seafloor. Geoscience Australia, Canberra. http://dx.doi.org/10.1080/08120090801888669&#xd;
+  <abstract>Seamount features extracted from a range of data sources for the area surrounding the Australian continental margin.&#xd;
 &#xd;
-Minor edits (redigitisation of feature boundaries) were made for features in SE Australia based on newer bathymetry coverage.</abstract>
+See https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/dc4c761f-eb4d-4fe4-b071-e110bbe7c8f3 for methodology and data inputs.</abstract>
   <keywords>
     <string>features</string>
     <string>GEOMORPH_seamounts</string>

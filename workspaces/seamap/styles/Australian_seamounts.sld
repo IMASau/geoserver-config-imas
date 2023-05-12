@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Pinnacle</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>feature_type</ogc:PropertyName>
               <ogc:Literal>pinnacle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -29,7 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Seamount/guyot</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>feature_type</ogc:PropertyName>
               <ogc:Literal>seamount/guyot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,10 +41,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>		
         <Rule>
-          <Title>Unknown type</Title>
+          <Title>Other/unknown feature</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FEATURE</ogc:PropertyName>
+              <ogc:PropertyName>feature_type</ogc:PropertyName>
               <ogc:Literal>unknown</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
