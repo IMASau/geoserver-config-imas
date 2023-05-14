@@ -10,6 +10,9 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
+      <id>LayerInfoImpl--2cd94726:188179ecce7:614</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl--2cd94726:188179ecce7:182</id>
     </published>
     <published type="layer">
@@ -17,6 +20,9 @@
     </published>
   </publishables>
   <styles>
+    <style>
+      <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
+    </style>
     <style>
       <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
     </style>
@@ -30,5 +36,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-05-14 00:23:50.39 UTC</dateCreated>
-  <dateModified>2023-05-14 00:24:34.507 UTC</dateModified>
+  <dateModified>2023-05-14 02:23:10.229 UTC</dateModified>
 </layerGroup>
