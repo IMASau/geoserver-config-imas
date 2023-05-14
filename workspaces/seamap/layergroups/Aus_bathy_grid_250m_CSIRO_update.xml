@@ -1,0 +1,34 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--2cd94726:188179ecce7:1cb</id>
+  <name>Aus_bathy_grid_250m_CSIRO_update</name>
+  <mode>SINGLE</mode>
+  <title>Australian Bathymetry 250 m (CSIRO 2021 update of GA 2009 product)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--2cd94726:188179ecce7:182</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2cd94726:188179c2a1a:-6c26</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
+    </style>
+    <style/>
+  </styles>
+  <bounds>
+    <minx>91.99762207</minx>
+    <maxx>171.99762207</maxx>
+    <miny>-60.002438964999996</miny>
+    <maxy>-8.002438964999996</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-05-14 00:23:50.39 UTC</dateCreated>
+  <dateModified>2023-05-14 00:24:34.507 UTC</dateModified>
+</layerGroup>

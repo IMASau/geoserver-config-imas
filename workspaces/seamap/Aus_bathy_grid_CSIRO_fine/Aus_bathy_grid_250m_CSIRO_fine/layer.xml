@@ -1,0 +1,16 @@
+<layer>
+  <name>Aus_bathy_grid_250m_CSIRO_fine</name>
+  <id>LayerInfoImpl--2cd94726:188179ecce7:182</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--2cd94726:188179ecce7:181</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-05-14 00:22:13.290 UTC</dateCreated>
+</layer>

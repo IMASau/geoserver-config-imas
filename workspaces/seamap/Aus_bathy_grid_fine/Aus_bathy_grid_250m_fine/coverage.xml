@@ -66,8 +66,6 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <id>CoverageStoreInfoImpl--5d921cd2:17bc397365e:-626a</id>
   </store>
   <serviceConfiguration>true</serviceConfiguration>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
