@@ -9,7 +9,15 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:900913</gridSetName>
-      <maxCachedLevel>10</maxCachedLevel>
+      <extent>
+        <coords>
+          <double>1.0241128443024427E7</double>
+          <double>-8400280.918521218</double>
+          <double>1.914668770648631E7</double>
+          <double>-893737.9244033267</double>
+        </coords>
+      </extent>
+      <maxCachedLevel>16</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

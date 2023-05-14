@@ -4,12 +4,12 @@
 
 	<#if (feature_index < 1) >
 
+	<#if  (depth_numeric > 0) || (depth_numeric < -10000) >
 
-	<#if (depth_numeric > 0) || (depth_numeric < -10000) >
 	<#else>
 
 	<div class="feature">
-			<br><b>Depth:</b> ${feature.GRAY_INDEX.rawValue?substring(1)} m		
+			<br><b>Depth:</b> ${(-1*feature.GRAY_INDEX.rawValue)?string("0")} m		
 			<BR><BR>
 	 </div>	
  	</#if>
