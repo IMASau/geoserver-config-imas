@@ -1,18 +1,20 @@
 <#list features as feature>
-<#if (feature_index < 3) >
+
+	<#assign iron=feature.Total_pFe_nM.value?number>
+
+
+<#if (feature_index < 5) >
 	
   <div class="feature">
 
-  ${feature.First_Author.value} (${feature.Year.value}) <i>${feature.Title.value}</i>. ${feature.Journal.value}.<BR><BR>
-  <b>Ecosystem/Region/Habitat:</b> ${feature.Ecosystem.value} / ${feature.Region.value} / ${feature.Subregion_habitat.value}<BR>
-  <b>Study years:</b> ${feature.Start.value} - ${feature.Finish.value}<BR>
-  <b>Focus of study:</b> <i>${feature.Focus_of_Study.value}</i><BR>
-  <b>Overall effect: </b> <i>${feature.Overall_effect.value}</i><BR><BR>
+ Station no. ${feature.Station.value}<BR>
+ Depth: ${feature.Depth.value} m<BR>
+ <b>Total pFe: <#if iron?has_content>${iron?string("0.##")} nM<#else>0</#if></b><BR>
 ---------------<BR><BR>
    
  </div>
 	<#else>
-	<i>This information has been limited to 3 studies. Download the full collection to see all studies available at this location.</i>
+	<i>This information has been limited to 5 samples. Download the full dataset to see all samples from this location.</i>
 		<#break>
   </#if>
 </#list>
