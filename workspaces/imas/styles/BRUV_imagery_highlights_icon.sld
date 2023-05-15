@@ -16,7 +16,7 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>10</Size>
@@ -31,7 +31,7 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>16</Size>
@@ -45,7 +45,7 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>20</Size>
