@@ -19,7 +19,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_still_green.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>16</Size>
+    			 	<Size>18</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -34,7 +34,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_still_green.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>24</Size>
+    			 	<Size>23</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          

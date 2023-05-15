@@ -14,7 +14,7 @@
 	<p style="text-align:left;">  
   		<b>Location:</b> ${feature.Location.value} (<i>status: <b>${feature.Status.value}</b></i>)<BR>
   		<b>Date:</b> ${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time})<BR>
-  		<b>Depth:</b> ${feature.Depth.value} metres
+  		<b>Depth:</b> ${feature.Depth.rawValue} metres
 		<span style="float:right; font-size:11px">
 		<a href="${feature.media_URL.value}" target="_blank">View in new window</a>
 		</span>
