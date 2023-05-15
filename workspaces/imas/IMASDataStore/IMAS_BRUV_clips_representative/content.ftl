@@ -1,5 +1,5 @@
 <#setting date_format="dd MMM yyyy">
-<#setting time_format="hh:mm a">
+<#setting time_format="h:mm a">
 
 
 <#list features as feature>

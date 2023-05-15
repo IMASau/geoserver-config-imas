@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3abb6195:184f8f928f0:76e7</id>
-  <name>IMAS_BRUVs_highlight_clips</name>
-  <nativeName>IMAS_BRUV_highlight_clips</nativeName>
+  <name>IMAS_BRUV_clips_representative</name>
+  <nativeName>IMAS_BRUV_clips_representative</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>IMAS Baited Remote Underwater Video (BRUV) highlights - clips and images</title>
+  <title>IMAS Baited Remote Underwater Video (BRUV) clips - representative footage and imagery</title>
   <keywords>
     <string>IMAS_BRUV_highlight_clips</string>
     <string>features</string>
