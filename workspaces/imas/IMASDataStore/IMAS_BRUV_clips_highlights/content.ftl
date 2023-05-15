@@ -19,7 +19,7 @@
 		<a href="${feature.media_URL.value}" target="_blank">View in new window</a>
 		</span>
 	</p>
-		<#if imagetype?contains("jpg") || imagetype?contains("png")>		
+		<#if imagetype?contains("jpg") || imagetype?contains("png")>	
 			<a href="${feature.media_URL.value}" target="_blank">
 			<img class="spaced" style="max-width:400px!important" src="${feature.media_URL.value}" alt="no image available"></a>
  		<#else>
