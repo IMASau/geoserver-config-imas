@@ -40,7 +40,7 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
         </Rule>
         <Rule>
-          <Title> Media observation</Title>
+          <Title> Media observation: highlight</Title>
           <MaxScaleDenominator>10000</MaxScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>
