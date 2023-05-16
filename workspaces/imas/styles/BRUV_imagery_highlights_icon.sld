@@ -40,7 +40,7 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
         </Rule>
         <Rule>
-          <Title> Media: highlight clips</Title>
+          <Title> Media: fish highlights (video)</Title>
           <MaxScaleDenominator>10000</MaxScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>

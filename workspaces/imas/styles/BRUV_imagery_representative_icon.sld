@@ -40,7 +40,7 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
         </Rule>
         <Rule>
-          <Title> Media: representative clips</Title>
+          <Title> Media: seafloor habitat (video)</Title>
           <MaxScaleDenominator>10000</MaxScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>

@@ -40,7 +40,7 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
         </Rule>
         <Rule>
-          <Title> Media: habitat stills</Title>
+          <Title> Media: seafloor habitat (stills)</Title>
           <MaxScaleDenominator>10000</MaxScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>
