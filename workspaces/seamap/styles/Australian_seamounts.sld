@@ -9,13 +9,43 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Name>Seamounts of Australia</Name>
     <UserStyle>
       <Title>Seamounts of Australia</Title>
-      <FeatureTypeStyle> 
+      <FeatureTypeStyle>
         <Rule>
-          <Title>Pinnacle</Title>
+          <Title>Hummock</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>feature_type</ogc:PropertyName>
-              <ogc:Literal>pinnacle</ogc:Literal>
+              <ogc:Literal>hummock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#99ff33</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Hill</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>feature_type</ogc:PropertyName>
+              <ogc:Literal>hill</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#00b3b3</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Cone/knoll/pinnacle</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>feature_type</ogc:PropertyName>
+              <ogc:Literal>cone/knoll/pinnacle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>		  
@@ -41,7 +71,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>		
         <Rule>
-          <Title>Other/unknown feature</Title>
+          <Title>Other/unknown raised feature</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>feature_type</ogc:PropertyName>
@@ -50,7 +80,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#a960e6</CssParameter>
+              <CssParameter name="fill">#a682c9</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_CarnarvonShelfReef_2008</name>
+  <id>LayerInfoImpl--75d57a6b:188ffafa659:2d4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--75d57a6b:188ffafa659:-64b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--75d57a6b:188ffafa659:2d3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-28 11:05:22.690 UTC</dateCreated>
+</layer>

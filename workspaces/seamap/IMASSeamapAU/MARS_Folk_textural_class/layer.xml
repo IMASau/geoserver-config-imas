@@ -1,0 +1,17 @@
+<layer>
+  <name>MARS_Folk_textural_class</name>
+  <id>LayerInfoImpl--5f0f557:1885f90730c:6bad</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5f0f557:1885f90730c:6b9f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5f0f557:1885f90730c:6bac</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-05-28 14:33:53.705 UTC</dateCreated>
+  <dateModified>2023-05-29 04:11:56.87 UTC</dateModified>
+</layer>

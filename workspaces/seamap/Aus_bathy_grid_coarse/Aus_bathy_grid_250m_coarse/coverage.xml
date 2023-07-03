@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Bathymetry 2009 250 m (GA) - resampled to 1,000m</title>
+  <title>Australian Bathymetry 250m (GA 2009) - resampled to 1,000m</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Resampled from 250m (raw) to 1,000m for performance reasons. For use in layer group.</abstract>
   <keywords>
@@ -48,6 +48,8 @@
     <id>CoverageStoreInfoImpl--7b044d55:181b3380000:-36c7</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -86,7 +88,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.402823E38</double>
+        <double>-3.4028230607370965E38</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -100,6 +102,10 @@
     <string>EPSG:4326</string>
   </responseSRS>
   <parameters>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
+    </entry>
     <entry>
       <string>InputTransparentColor</string>
       <null/>

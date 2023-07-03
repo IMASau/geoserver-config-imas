@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Bathymetry 2009 250 m (GA)</title>
+  <title>Australian Bathymetry 250m (GA 2009)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>The 2009 bathymetric grid of Australia has been produced to include recently acquired datasets, and solutions to issues identified in the previous version. The revised grid has the same extents as its 2005 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
 &#xd;
@@ -109,7 +109,7 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
         <double>32767.0</double>
       </nullValues>
       <dimensionType>
-        <name>SIGNED_16BITS</name>
+        <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>

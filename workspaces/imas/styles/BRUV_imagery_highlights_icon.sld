@@ -16,7 +16,7 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>10</Size>
@@ -31,7 +31,7 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>16</Size>
@@ -40,12 +40,12 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
         </Rule>
         <Rule>
-          <Title> Media observation</Title>
+          <Title> Media: fish highlights (video)</Title>
           <MaxScaleDenominator>10000</MaxScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>20</Size>

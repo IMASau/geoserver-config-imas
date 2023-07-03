@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NT_JosephBonaparteGulf_geomorphic_2009</name>
+  <id>LayerInfoImpl--75d57a6b:188fc8aab01:2328</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--75d57a6b:188fc8aab01:2322</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--75d57a6b:188fc8aab01:2327</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-27 14:32:14.585 UTC</dateCreated>
+</layer>

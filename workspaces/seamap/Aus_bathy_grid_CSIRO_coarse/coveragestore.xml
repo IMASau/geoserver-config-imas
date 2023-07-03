@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--26afe352:18836510f06:-16a2</id>
+  <name>Aus_bathy_grid_CSIRO_coarse</name>
+  <description>GA bathymetry data (CSIRO 2021 updates) - re-gridded to 1,000m for display</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-05-20 00:04:33.191 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth_CSIRO_updates/coarse/Aus_bathy_grid_CSIRO.tif</url>
+</coverageStore>

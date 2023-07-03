@@ -1,0 +1,117 @@
+<coverage>
+  <id>CoverageInfoImpl--26afe352:18836510f06:-5494</id>
+  <name>Aus_bathy_grid_250m_HILLSHADE</name>
+  <nativeName>Aus_bathy_grid_250m_HILLSHADE</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Hillshade for GA Australian Bathymetry Grid 250m 2009</title>
+  <description>Generated from GeoTIFF</description>
+  <abstract>Z-factor 5m hillshade - for use in layer group</abstract>
+  <keywords>
+    <string>Aus_Bathy_Grid_hs5</string>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>91.9951220703125</minx>
+    <maxx>171.99762207031057</maxx>
+    <miny>-60.002438964843705</miny>
+    <maxy>-8.002438964844956</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>91.9951220703125</minx>
+    <maxx>171.99762207031057</maxx>
+    <miny>-60.002438964843705</miny>
+    <maxy>-8.002438964844956</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">Aus_bathy_grid_HILLSHADE_Aus_Bathy_Grid_hs5</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--26afe352:18836510f06:-5788</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>32000 20800</high>
+    </range>
+    <transform>
+      <scaleX>0.0024999999999999393</scaleX>
+      <scaleY>-0.0024999999999999393</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>91.9988720703125</translateX>
+      <translateY>-8.003688964844963</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GEOTIFF</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>bilinear</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:4326</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:4326</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>Aus_Bathy_Grid_hs5</nativeCoverageName>
+</coverage>

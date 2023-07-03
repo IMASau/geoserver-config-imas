@@ -21,7 +21,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill">#0c40a6</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>

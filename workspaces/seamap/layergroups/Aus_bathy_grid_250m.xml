@@ -9,7 +9,12 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--26afe352:18836510f06:-5493</id>
+    </published>
     <published type="layer">
       <id>LayerInfoImpl--4812677:17ffdf580a3:6b73</id>
     </published>
@@ -18,6 +23,9 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     </published>
   </publishables>
   <styles>
+    <style>
+      <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
+    </style>
     <style>
       <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
     </style>
@@ -34,4 +42,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2023-05-19 23:40:50.700 UTC</dateModified>
 </layerGroup>

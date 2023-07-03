@@ -1,12 +1,13 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--7b044d55:181b3380000:-36c7</id>
   <name>Aus_bathy_grid_coarse</name>
-  <description>GA bathymetry data re-gridded to 1,000m for display</description>
+  <description>GA bathymetry 250m grid - re-gridded to 1,000m for display</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
   <__default>false</__default>
-  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_gridded_depth/coarse/Aus_bathy_grid.tif</url>
+  <dateModified>2023-05-19 23:29:54.732 UTC</dateModified>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth/coarse/Aus_bathy_grid.tif</url>
 </coverageStore>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_BrowseShelfReef_2014</name>
+  <id>LayerInfoImpl--75d57a6b:188ffafa659:d83</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--75d57a6b:188ffafa659:d80</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--75d57a6b:188ffafa659:d82</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-28 13:31:01.611 UTC</dateCreated>
+</layer>

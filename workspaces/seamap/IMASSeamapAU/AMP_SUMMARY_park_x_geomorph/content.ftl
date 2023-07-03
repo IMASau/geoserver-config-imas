@@ -49,7 +49,7 @@ td div.left {
 					<#if parkname?contains("inc.") == true>
 						<h5>${feature.PARK.value?replace(' (inc. DEM)','')}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% mapped (inc. DEMs)</h5><br>
 					<#else>
-						<h5>${feature.PARK.value}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% bathymetry mapped</h5><br>
+						<h5>${feature.PARK.value}: ${feature.TOTAL_MAPPED_pct.rawValue?string("0")}% geomorphometry mapped</h5><br>
 					</#if>					
 
 						

@@ -15,7 +15,7 @@
 	<b>Site: </b> ${feature.Site.value}<BR>
 	<b>Transect no: </b> ${feature.Transect_Number.value}<BR>
 	<#if Area?has_content>  
-		<b>Area searched: </b> ${feature.Swath_Area_m2.value} m&#178;<BR>
+		<b>Area searched: </b> ${feature.Swath_Area_m2.rawValue?string("0")} m&#178;<BR>
 	</#if>   
   
   <#if Fish_Obs?has_content>

@@ -2,7 +2,7 @@
 
 <head>
     <title>GeoServer GetFeatureInfo output</title>
-
+</head>
 <style type="text/css">
 a {
 	color: CornflowerBlue;
@@ -23,18 +23,17 @@ table {
 th, td {
 	font-weight: normal;
 	text-align: left;
-	padding:5px;
 }
 
 th {
 	font-weight: bold;
 	text-transform: uppercase;
-	padding:5px;
+	padding:6px;
 }
 
 td {
 	border-top: 1px solid #ededed;
-	padding:5px;
+	padding:6px;
 }
 
 
@@ -104,6 +103,5 @@ i {
 	color: #9a9a9a;
 }
 </style>
-</head>
 
 <body>

@@ -12,21 +12,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Valley</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Valley</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
           <Title>Bank</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -85,7 +70,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule>	
+        <Rule>
+          <Title>Valley</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Valley</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#0c40a6</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

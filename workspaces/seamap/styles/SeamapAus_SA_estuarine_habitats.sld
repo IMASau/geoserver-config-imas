@@ -56,6 +56,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
+         <Rule>		
+          <Title>Algal</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
+              <ogc:Literal>Algal</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#77773c</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>  
         <Rule>		
           <Title>Seagrass</Title>		
           <ogc:Filter>		
@@ -70,7 +85,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>                
+        </Rule>
+        <Rule>		
+          <Title>Seagrass/Algal</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
+              <ogc:Literal>Seagrass/Algal</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#86b300</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>           
         <Rule>		
           <Title>Beach</Title>		
           <ogc:Filter>		
@@ -85,7 +115,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>        
+        </Rule>            
         <Rule>		
           <Title>Channel</Title>		
           <ogc:Filter>		
@@ -97,6 +127,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#006666</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>  
+        <Rule>		
+          <Title>Central Basin</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
+              <ogc:Literal>Central Basin</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#000080</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
@@ -115,7 +160,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>        
+        </Rule> 
+        <Rule>		
+          <Title>Sand</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
+              <ogc:Literal>Sand</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#FFF9A5</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>          
         <Rule>		
           <Title>Shore Platform</Title>		
           <ogc:Filter>		
@@ -160,7 +220,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>		 		 				
+        </Rule>	
+        <Rule>		
+          <Title>Vegetated Central Basin</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>		
+              <ogc:Literal>Vegetated Central Basin</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#9999be</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>        
  
       </FeatureTypeStyle>
     </UserStyle>

@@ -1,0 +1,25 @@
+<layer>
+  <name>GlobalArchive_deployments_extract</name>
+  <id>LayerInfoImpl--6ccc1586:183588f7420:4408</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2f6d4f29:1890c5ec9f3:-db3</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--2f6d4f29:1890c5ec9f3:-db3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6008cda0:18122cb20c0:6e6f</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6ccc1586:183588f7420:4407</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-09-20 04:49:20.15 UTC</dateCreated>
+  <dateModified>2023-07-02 22:46:34.95 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NSW_JervisBayReef_2016</name>
+  <id>LayerInfoImpl--75d57a6b:188ffafa659:2ed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--75d57a6b:188ffafa659:-7a1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--75d57a6b:188ffafa659:2ec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-28 11:32:45.787 UTC</dateCreated>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SR3_2018_Particulate_Iron_samples</name>
+  <id>LayerInfoImpl--26afe352:18836510f06:6025</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5ac42412:14d16f9d089:-7ff3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--26afe352:18836510f06:6024</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-05-20 01:23:19.793 UTC</dateCreated>
+</layer>

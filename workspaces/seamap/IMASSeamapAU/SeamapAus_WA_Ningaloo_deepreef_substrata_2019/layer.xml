@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_WA_Ningaloo_deepreef_substrata_2019</name>
+  <id>LayerInfoImpl--5f0f557:18875d1b17c:-218c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5f0f557:18875d1b17c:-19d6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5f0f557:18875d1b17c:-218d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-01 10:59:47.346 UTC</dateCreated>
+  <dateModified>2023-06-01 11:25:03.152 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_VlamingShelfReef_2012</name>
+  <id>LayerInfoImpl--75d57a6b:188ffafa659:d7a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--75d57a6b:188ffafa659:d75</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--75d57a6b:188ffafa659:d79</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-28 13:13:45.576 UTC</dateCreated>
+</layer>

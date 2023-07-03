@@ -4,11 +4,11 @@
 	<h5>Habitat - NT - Petrel Basin geomorphic habitat</h5>
 	<BR>
 	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<b>Geomorphic feature:</b> ${feature.SM_HAB_CLS.value}
 		<BR><BR>
 	</div>
 		<#else>
-			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
+			<i>Multiple features exist at this point. Zoom in for higher precision.</i>
 			<BR><BR>
 		<#break>
 		
