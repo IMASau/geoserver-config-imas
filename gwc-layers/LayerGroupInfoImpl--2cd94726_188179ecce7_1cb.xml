@@ -1,0 +1,32 @@
+<GeoServerTileLayer>
+  <id>LayerGroupInfoImpl--2cd94726:188179ecce7:1cb</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:Aus_bathy_grid_250m_CSIRO_update</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.0241128443024427E7</double>
+          <double>-8400280.918521218</double>
+          <double>1.914668770648631E7</double>
+          <double>-893737.9244033267</double>
+        </coords>
+      </extent>
+      <maxCachedLevel>16</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

@@ -1,13 +1,13 @@
 <coverage>
-  <id>CoverageInfoImpl--26afe352:18836510f06:-5494</id>
+  <id>CoverageInfoImpl--2cd94726:188179ecce7:738</id>
   <name>Aus_bathy_grid_250m_HILLSHADE</name>
   <nativeName>Aus_bathy_grid_250m_HILLSHADE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade for GA Australian Bathymetry Grid 250m 2009</title>
+  <title>Australian Bathymetry 2009 250m hillshade (GA)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Z-factor 5m hillshade - for use in layer group</abstract>
+  <abstract>Hillshade (z-factor 5m) of the GA Australian 250m bathymetry grid. To be used as a backdrop to 250m bathymetry grid.</abstract>
   <keywords>
     <string>Aus_Bathy_Grid_hs5</string>
     <string>WCS</string>
@@ -24,17 +24,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>91.9951220703125</minx>
+    <minx>91.9976220703125</minx>
     <maxx>171.99762207031057</maxx>
-    <miny>-60.002438964843705</miny>
-    <maxy>-8.002438964844956</maxy>
+    <miny>-60.0024389648437</miny>
+    <maxy>-8.002438964844963</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>91.9951220703125</minx>
+    <minx>91.9976220703125</minx>
     <maxx>171.99762207031057</maxx>
-    <miny>-60.002438964843705</miny>
-    <maxy>-8.002438964844956</maxy>
+    <miny>-60.0024389648437</miny>
+    <maxy>-8.002438964844963</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -45,7 +45,7 @@
     <entry key="dirName">Aus_bathy_grid_HILLSHADE_Aus_Bathy_Grid_hs5</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--26afe352:18836510f06:-5788</id>
+    <id>CoverageStoreInfoImpl--2cd94726:188179ecce7:737</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -88,6 +88,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>255.0</double>
+      </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -101,16 +104,16 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
     </entry>
   </parameters>
   <nativeCoverageName>Aus_Bathy_Grid_hs5</nativeCoverageName>

@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--26afe352:18836510f06:-1378</id>
+  <id>CoverageInfoImpl--2cd94726:188179c2a1a:-6c27</id>
   <name>Aus_bathy_grid_250m_CSIRO_coarse</name>
   <nativeName>Aus_bathy_grid_250m_CSIRO_coarse</nativeName>
   <namespace>
@@ -44,7 +44,7 @@
     <entry key="dirName">Aus_bathy_grid_CSIRO_coarse_Aus_bathy_grid_CSIRO</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--26afe352:18836510f06:-16a2</id>
+    <id>CoverageStoreInfoImpl--2cd94726:188178a3a33:3f86</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -102,6 +102,10 @@
     <string>EPSG:4326</string>
   </responseSRS>
   <parameters>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
     <entry>
       <string>InputTransparentColor</string>
       <null/>

@@ -9,7 +9,7 @@
 	<#else>
 
 	<div class="feature">
-			<br><b>Depth:</b> ${(-1 * feature.GRAY_INDEX.rawValue)?string("0")} m		
+			<br><b>Depth:</b> ${(-1*feature.GRAY_INDEX.rawValue)?string("0")} m		
 			<BR><BR>
 	 </div>	
  	</#if>

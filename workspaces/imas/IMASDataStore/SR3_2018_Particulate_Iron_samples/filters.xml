@@ -14,11 +14,4 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
-    <filter>
-        <name>Method</name>
-        <type>string</type>
-        <label>Method</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
 </filters>

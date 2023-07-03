@@ -1,12 +1,13 @@
 <coverage>
-  <id>CoverageInfoImpl--26afe352:18836510f06:-19a9</id>
+  <id>CoverageInfoImpl--2cd94726:188179ecce7:181</id>
   <name>Aus_bathy_grid_250m_CSIRO_fine</name>
   <nativeName>Aus_bathy_grid_250m_CSIRO_fine</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Bathymetry 250m (CSIRO 2021 updates of 2009 GA grid)</title>
+  <title>Australian Bathymetry 2009 250 m (CSIRO 2021 updates of original GA product)</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>CSIRO&apos;s 2021 update of the original Geoscience Australia 250m bathymetry and topography grid 2009. All values &gt;= 0 have been clipped to retain only subsurface values.</abstract>
   <keywords>
     <string>Aus_bathy_grid_CSIRO</string>
     <string>WCS</string>
@@ -44,7 +45,7 @@
     <entry key="dirName">Aus_bathy_grid_CSIRO_fine_Aus_bathy_grid_CSIRO</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--26afe352:18836510f06:-1f6d</id>
+    <id>CoverageStoreInfoImpl--2cd94726:188179ecce7:17e</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -85,7 +86,7 @@
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
-        <max>1.0</max>
+        <max>inf</max>
       </range>
       <nullValues>
         <double>3.3999999521443642E38</double>

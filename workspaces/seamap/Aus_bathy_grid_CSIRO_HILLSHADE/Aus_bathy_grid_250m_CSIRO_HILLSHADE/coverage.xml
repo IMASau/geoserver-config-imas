@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--26afe352:18836510f06:-2363</id>
+  <id>CoverageInfoImpl--2cd94726:188179ecce7:613</id>
   <name>Aus_bathy_grid_250m_CSIRO_HILLSHADE</name>
   <nativeName>Aus_bathy_grid_250m_CSIRO_HILLSHADE</nativeName>
   <namespace>
@@ -7,7 +7,7 @@
   </namespace>
   <title>Australian Bathymetry 2009 250m hillshade (CSIRO 2021 update)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Z-factor 5m hillshade - for use in layer group</abstract>
+  <abstract>Hillshade (z-factor 5m) of CSIRO&apos;s 2021 update to the GA Australian 250m bathymetry grid. To be used as a backdrop to 250m bathymetry grid.</abstract>
   <keywords>
     <string>Aus_bathy_grid_CSIRO_hs5</string>
     <string>WCS</string>
@@ -45,7 +45,7 @@
     <entry key="dirName">Aus_bathy_grid_CSIRO_HILLSHADE_Aus_bathy_grid_CSIRO_hs5</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--26afe352:18836510f06:-2702</id>
+    <id>CoverageStoreInfoImpl--2cd94726:188179ecce7:612</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>

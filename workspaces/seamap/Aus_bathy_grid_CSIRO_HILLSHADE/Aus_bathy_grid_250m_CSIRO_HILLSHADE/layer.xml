@@ -1,17 +1,18 @@
 <layer>
   <name>Aus_bathy_grid_250m_CSIRO_HILLSHADE</name>
-  <id>LayerInfoImpl--26afe352:18836510f06:-2362</id>
+  <id>LayerInfoImpl--2cd94726:188179ecce7:614</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--26afe352:18836510f06:-2363</id>
+    <id>CoverageInfoImpl--2cd94726:188179ecce7:613</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-05-19 23:59:35.876 UTC</dateCreated>
+  <dateCreated>2023-05-14 02:20:25.352 UTC</dateCreated>
+  <dateModified>2023-05-14 02:22:22.372 UTC</dateModified>
 </layer>
