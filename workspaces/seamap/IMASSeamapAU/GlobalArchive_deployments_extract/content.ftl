@@ -5,13 +5,12 @@
 
 	<THEAD>
 		<TR class="BRUV deployments" ALIGN="LEFT" style='background-color:#b3d9ff; border:1.5pt solid black'>
-			<th style="font-size:11px">Project name</th>
-			<th style="font-size:11px">Site</th>
-			<th style="font-size:11px; text-align:center">Method</th>
-			<th style="font-size:11px; text-align:center">Date</th>
-			<th style="font-size:11px; text-align:center">Time</th>
-			<th style="font-size:11px; text-align:center">Depth (m)</th>
-			<th style="font-size:11px; text-align:center">Access</th>
+			<th>Project</th>
+			<th>Campaign</th>
+			<th>Method</th>
+			<th style="text-align:center">Date</th>
+			<th style="text-align:center">Depth (m)</th>
+			<th style="text-align:center">Access</th>
 		</TR>
 	</THEAD>
 
@@ -20,39 +19,46 @@
 
 	<#if (feature_index < 10)> 
 
-	<#assign URL=feature.project_url.value>
-	<#assign depth=feature.depth.value?number>		
+	<#assign projectURL=feature.project_url.value>
+	<#assign campaignURL=feature.campaign_url.value>
+	<#assign depth=feature.depth.value?number>
+
+	<#assign project_url_parts = feature.project_url.value?split("/")>
+	<#assign project_id = project_url_parts[project_url_parts?size - 1]>
+	<#assign campaign_url_parts = feature.campaign_url.value?split("/")>
+	<#assign campaign_id = campaign_url_parts[campaign_url_parts?size - 1]>
+		
+
 
 
 	<TBODY>
 		<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-			<TD style="font-size:11px">
-				<#if URL?has_content>
-					<a rel="external" href="${feature.project_url.value}" target="_blank">${feature.project_name.value}</a>
+			<td class="fixed-width-ellipsis">
+				<#if projectURL?has_content>
+					<a rel="external" href="https://globalarchive.org/geodata/explore/?filters={%22campaign_project_list%22:[${project_id}]}" target="_blank">${feature.project_name.value}</a>
 				<#else>
 					<i>unknown</i>			
 				</#if>
 			</TD>
 
-			<TD style="font-size:11px">
-				${feature.location.value}
+			<TD class="fixed-width-ellipsis">
+				<#if campaignURL?has_content>
+					<a rel="external" href="https://globalarchive.org/geodata/explore/?filters={%22deployment_campaign_list%22:[${campaign_id}]}" target="_blank">${feature.campaign_name.value}</a>
+				<#else>
+					<i>unknown</i>			
+				</#if>
 			</TD>
 
-			<TD style="font-size:11px">
+			<TD>
 				<i>${feature.method_name.value}</i>
 			</TD >
 
-			<TD style="text-align:center; font-size:11px">
+			<TD style="text-align:center">
 				${feature.deployment_date.value?date("dd/mm/yy")?date}
 			</TD>
-
-			<TD style="text-align:center; font-size:11px">
-				${feature.deployment_time.value?time?string("H:mm")}
-			</TD>
-    
                  
-			<TD style="text-align:center; font-size:11px">
+			<TD style="text-align:center">
 				<#if depth?has_content>
 					<#if depth <0 >
 						${depth?substring(1)?string("0.0")}

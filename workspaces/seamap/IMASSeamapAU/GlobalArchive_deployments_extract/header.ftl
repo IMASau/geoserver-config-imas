@@ -1,9 +1,25 @@
 <html>
 
-<head>
-    <title>GeoServer GetFeatureInfo output</title>
-</head>
+	<head>
+  	  <title>GeoServer GetFeatureInfo output</title>
+	</head>
+
 <style type="text/css">
+
+.fixed-width-ellipsis {
+    max-width: 150px; /* ensures that the width doesn't exceed the set limit */
+    width: auto; /* allows the width to be flexible */
+    white-space: nowrap; /* prevents the contents of the cell from wrapping */
+    overflow: hidden; /* hides content that is larger than the cell's width */
+    text-overflow: ellipsis; /* adds an ellipsis when the content is too large */
+}
+
+.max-width-column {
+    max-width: 150px; /* replace 200px with your desired maximum width */
+    width: auto; /* allows the width to be flexible */
+    word-wrap: break-word; /* wrap long words onto the next line */
+    }
+
 a {
 	color: CornflowerBlue;
 }
@@ -23,6 +39,8 @@ table {
 th, td {
 	font-weight: normal;
 	text-align: left;
+   	font-size: 11px;
+
 }
 
 th {
@@ -47,10 +65,6 @@ dt {
 
 dd {
 	margin: 0 0 20px;
-}
-
-ul {
-	list-style-type: square;
 }
 
 h1, h2, h3, h4, h5 {
