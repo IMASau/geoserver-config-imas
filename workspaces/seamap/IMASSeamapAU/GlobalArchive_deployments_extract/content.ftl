@@ -9,6 +9,7 @@
 			<th>Campaign</th>
 			<th>Method</th>
 			<th style="text-align:center">Date</th>
+			<th style="text-align:center">Time</th>
 			<th style="text-align:center">Depth (m)</th>
 			<th style="text-align:center">Access</th>
 		</TR>
@@ -57,17 +58,26 @@
 			<TD style="text-align:center">
 				${feature.deployment_date.value?date("dd/mm/yy")?date}
 			</TD>
+
+			<TD style="text-align:center">
+				${feature.deployment_time.value?time?string("H:mm")}
+			</TD>
                  
 			<TD style="text-align:center">
-				<#if depth?has_content>
-					<#if depth <0 >
-						${depth?substring(1)?string("0.0")}
-					<#else>
-						${depth?string("0.0")}
-					</#if>
+			   <#if depth?has_content>
+ 			   <#assign absDepth=depth?abs>
+  			  	<#if absDepth?is_number>
+  			      		<#if absDepth == absDepth?floor>
+   			        		${absDepth?string("0")}
+   			     		<#else>
+   			         	${absDepth?string("0.0")}
+   			     		</#if>
+  			  	<#else>
+   			   	-
+   			 	</#if>
 				<#else>
-					-
-				</#if>
+ 			  	-
+			   </#if>
 			</TD>  
 
 			<TD style="text-align:center; font-size:11px">
