@@ -20,6 +20,16 @@
     word-wrap: break-word; /* wrap long words onto the next line */
     }
 
+.table-header-center {
+    border-bottom: 1.5pt solid black;
+    text-align: center;
+}
+
+.table-header-left {
+    border-bottom: 1.5pt solid black;
+    text-align: left;
+}
+
 a {
 	color: CornflowerBlue;
 }
@@ -29,7 +39,7 @@ a:hover {
 }
 
 table {
-	border-bottom: 1px solid #ededed;
+	border: 1.5pt solid black;
 	border-collapse: collapse;
 	border-spacing: 0;
 	margin: 0;
@@ -47,11 +57,12 @@ th {
 	font-weight: bold;
 	text-transform: uppercase;
 	padding:6px;
+	border-right: 1px solid black;
 }
 
 td {
-	border-top: 1px solid #ededed;
 	padding:6px;
+	border-right: 1px solid black; /* Add a right border to table data */
 }
 
 
@@ -67,51 +78,6 @@ dd {
 	margin: 0 0 20px;
 }
 
-h1, h2, h3, h4, h5 {
-	text-transform: uppercase;
-	margin: 0;
-	padding: 0;
-	color: #000;
-}
-
-h1 {
-	font-weight: 700;
-	line-height: 45px;
-}
-
-h2 {
-	font-size: 24px;
-	font-weight: 400;
-	letter-spacing: inherit;
-	line-height: 30px;
-}
-
-h3 {
-	font-size: 14px;
-	letter-spacing: inherit;
-	font-weight: 700;
-}
-
-h4 {
-	letter-spacing: 0px;
-	font-weight: 400;
-	text-transform: none;
-	font-size: 16px;
-	line-height: 26px;
-}
-
-h5 {
-	letter-spacing: 2px;
-	font-weight: 600;
-	font-size: 11px;
-}
-
-h6 {
-	letter-spacing: 1px;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 20px;
-}
 
 i {
 	color: #9a9a9a;
