@@ -13,14 +13,14 @@
 
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
-		<th style="font-size:11px">Collection name</th>
-		<th style="text-align: center; font-size:11px">Date range</th>
-		<th style="text-align: center; font-size:11px">Resolution</th>
-		<th style="font-size:11px">Marine Park(s)</th>
-		<th style="font-size:11px">Availability</th>
-		<th style="font-size:11px">Collector</th>
-		<th style="font-size:11px">Point of contact</th>		
-		<th style="font-size:11px">Info</th>
+		<th class="table-header-left">Collection name</th>
+		<th class="table-header-center">Date range</th>
+		<th class="table-header-center">Resolution</th>
+		<th class="table-header-left">Marine Park(s)</th>
+		<th class="table-header-left">Availability</th>
+		<th class="table-header-left">Collector</th>
+		<th class="table-header-left">Point of contact</th>		
+		<th class="table-header-left">Info</th>
 	</TR>
 
 	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
@@ -135,7 +135,7 @@
 		</#if>
 	</#list>
 </TABLE>
-
+<br>
 
 <#list features as feature_counter>
 	<#if (feature_counter_index <10)> 

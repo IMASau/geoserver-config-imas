@@ -1,17 +1,17 @@
 
 <#setting date_format="dd-mm-yyyy">
 
-<TABLE>
+<table style="border: 1.5pt solid black; border-collapse: collapse; border-spacing: 0; margin: 0; width: 100%;">
 
 	<THEAD>
-		<TR class="BRUV deployments" ALIGN="LEFT" style='background-color:#b3d9ff'>
-			<th class="table-header-left">Project</th>
-			<th class="table-header-left">Campaign</th>
-			<th class="table-header-left">Method</th>
-			<th class="table-header-center">Date</th>
-			<th class="table-header-center">Time</th>
-			<th class="table-header-center">Depth (m)</th>
-			<th class="table-header-center">Access</th>
+		<TR class="BRUV deployments" style='background-color:#b3d9ff'>
+			<th style="border-bottom: 1.5pt solid black; text-align: left;">Project</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: left;">Campaign</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: left;">Method</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center;">Date</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center;">Time</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center;">Depth (m)</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center;">Access</th>
 		</TR>
 	</THEAD>
 
@@ -33,7 +33,7 @@
 
 
 	<TBODY>
-		<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+		<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
 			<td class="fixed-width-ellipsis">
 				<#if projectURL?has_content>
