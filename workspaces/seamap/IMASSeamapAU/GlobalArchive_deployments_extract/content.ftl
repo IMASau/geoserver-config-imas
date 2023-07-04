@@ -5,13 +5,13 @@
 
 	<THEAD>
 		<TR class="BRUV deployments" style='background-color:#b3d9ff'>
-			<th style="border-bottom: 1.5pt solid black; text-align: left;">Project</th>
-			<th style="border-bottom: 1.5pt solid black; text-align: left;">Campaign</th>
-			<th style="border-bottom: 1.5pt solid black; text-align: left;">Method</th>
-			<th style="border-bottom: 1.5pt solid black; text-align: center;">Date</th>
-			<th style="border-bottom: 1.5pt solid black; text-align: center;">Time</th>
-			<th style="border-bottom: 1.5pt solid black; text-align: center;">Depth (m)</th>
-			<th style="border-bottom: 1.5pt solid black; text-align: center;">Access</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 11px; border-right: 1px solid black;">Project</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 11px; border-right: 1px solid black;">Campaign</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 11px; border-right: 1px solid black;">Method</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center; font-size: 11px; border-right: 1px solid black;">Date</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center; font-size: 11px; border-right: 1px solid black;">Time</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center; font-size: 11px; border-right: 1px solid black;">Depth (m)</th>
+			<th style="border-bottom: 1.5pt solid black; text-align: center; font-size: 11px; border-right: 1px solid black;">Access</th>
 		</TR>
 	</THEAD>
 
@@ -35,7 +35,7 @@
 	<TBODY>
 		<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-			<td class="fixed-width-ellipsis">
+			<TD class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:left">
 				<#if projectURL?has_content>
 					<a rel="external" href="https://globalarchive.org/geodata/explore/?filters={%22campaign_project_list%22:[${project_id}]}" target="_blank">${feature.project_name.value}</a>
 				<#else>
@@ -43,7 +43,7 @@
 				</#if>
 			</TD>
 
-			<TD class="fixed-width-ellipsis">
+			<TD class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:left">
 				<#if campaignURL?has_content>
 					<a rel="external" href="https://globalarchive.org/geodata/explore/?filters={%22deployment_campaign_list%22:[${campaign_id}]}" target="_blank">${feature.campaign_name.value}</a>
 				<#else>
@@ -51,19 +51,19 @@
 				</#if>
 			</TD>
 
-			<TD>
+			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px;">
 				<i>${feature.method_name.value}</i>
 			</TD >
 
-			<TD style="text-align:center">
+			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
 				${feature.deployment_date.value?date("dd/mm/yy")?date}
 			</TD>
 
-			<TD style="text-align:center">
+			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
 				${feature.deployment_time.value?time?string("H:mm")}
 			</TD>
                  
-			<TD style="text-align:center">
+			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
 			   <#if depth?has_content>
  			   <#assign absDepth=depth?abs>
   			  	<#if absDepth?is_number>
@@ -80,7 +80,7 @@
 			   </#if>
 			</TD>  
 
-			<TD style="text-align:center; font-size:11px">
+			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
 				<#if feature.data_open.value == 'Y'>
 					<i>public</i>
 				<#else>

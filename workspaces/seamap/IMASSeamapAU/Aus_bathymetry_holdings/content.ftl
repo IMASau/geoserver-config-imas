@@ -1,7 +1,7 @@
 <#setting date_format="yyyy">
 
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1100px; table-layout: fixed;" border="1">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1100px; table-layout: fixed;">
 	<col width="28%" />
 	<col width="7.5%" />
 	<col width="7.5%" />
@@ -13,14 +13,14 @@
 
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
-		<th class="table-header-left">Collection name</th>
-		<th class="table-header-center">Date range</th>
-		<th class="table-header-center">Resolution</th>
-		<th class="table-header-left">Marine Park(s)</th>
-		<th class="table-header-left">Availability</th>
-		<th class="table-header-left">Collector</th>
-		<th class="table-header-left">Point of contact</th>		
-		<th class="table-header-left">Info</th>
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Collection name</th>
+		<th class="table-header-center" style="text-align: center; font-size: 11px; border-right: 1px solid black;">Date range</th>
+		<th class="table-header-center" style="text-align: center; font-size: 11px; border-right: 1px solid black;">Resolution</th>
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Marine Park(s)</th>
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Availability</th>
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Collector</th>
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Point of contact</th>		
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Info</th>
 	</TR>
 
 	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
@@ -41,7 +41,7 @@
 
 	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="white-space: normal; font-size:11px">
+		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
 			<#if collection?has_content>
 				<#if feature.dtype.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
@@ -59,7 +59,7 @@
 			</#if>
 		</TD>
 
-		<TD style="text-align: center; font-size:11px">
+		<TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
 			<#if startdate?has_content>
 				<#if today < feature.end_date.rawValue?long>
 					<i>in progress</i>
@@ -71,7 +71,7 @@
 			</#if>
 		</TD>
 
-		<TD style="text-align: center; font-size:11px">
+		<TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
 			<#if resolution?has_content>
 				${feature.RES_ACTUAL.value}m
 			<#else>
@@ -79,7 +79,7 @@
 			</#if>
 		</TD>     
                  
-		<TD style="white-space: normal; font-size:11px">
+		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
 			<#if feature.AMP_RES.value == 'various'>
 				various
 			<#elseif reserve?has_content>
@@ -89,7 +89,7 @@
 			</#if>
 		</TD>   
      
-		<TD style="font-size:11px">
+		<TD style="font-size:11px; border-right: 1px solid black;">
 			<#if feature.data_dl.value == 'no'>
 				not available
 			<#elseif feature.data_dl.value == 'maybe - other'>
@@ -106,7 +106,7 @@
 		</TD> 
 		
 
-		<TD style="white-space: normal; font-size:11px">
+		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
 			<#if collectedby?has_content>
 				${feature.collecting_org.value}
 			<#else>
@@ -114,7 +114,7 @@
 			</#if> 
 		</TD> 
 
-		<TD style="white-space: normal; font-size:10.5px">
+		<TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black;">
 			<#if POC?has_content>
 				${feature.pointofcontact.value}
 			<#else>
@@ -122,7 +122,7 @@
 			</#if> 
 		</TD>  		
 
-		<TD style="font-size:11px">
+		<TD style="font-size:11px; border-right: 1px solid black;">
 			<#if metadata?has_content>
 				<a rel="external" href="${feature.METADATA.value}" target="_blank">metadata</a>
 			<#else>

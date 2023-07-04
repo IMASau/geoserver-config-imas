@@ -64,23 +64,20 @@ table {
 	width:100%;
 }
 
-th, td {
-	font-weight: normal;
-	text-align: left;
-   	font-size: 11px;
-
-}
-
 th {
 	font-weight: bold;
 	text-transform: uppercase;
 	padding:6px;
 	border-right: 1px solid black;
+	text-align: left;
+   	font-size: 11px;
+
 }
 
 td {
 	padding:6px;
 	border-right: 1px solid black; /* Add a right border to table data */
+	text-align: left;
    	font-size: 11px;
 }
 
