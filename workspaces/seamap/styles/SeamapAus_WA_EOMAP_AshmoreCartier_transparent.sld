@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="0.7" encoding="ISO-8859-1"?>
 <StyledLayerDescriptor
-  version="1.0.0"
+  version="0.7.0"
   xmlns="http://www.opengis.net/sld"
   xmlns:ogc="http://www.opengis.net/ogc"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld
-    http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    http://schemas.opengis.net/sld/0.7.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
     <Name>EOMAP habitat</Name>
     <UserStyle>
@@ -24,7 +24,7 @@
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ccff66</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
+              <CssParameter name="fill-opacity">0.7</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
@@ -39,7 +39,7 @@
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#038400</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
+              <CssParameter name="fill-opacity">0.7</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>        
@@ -54,7 +54,7 @@
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#cc6699</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
+              <CssParameter name="fill-opacity">0.7</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
@@ -69,7 +69,7 @@
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#75a3a3</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
+              <CssParameter name="fill-opacity">0.7</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
@@ -84,7 +84,7 @@
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#538cc6</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
+              <CssParameter name="fill-opacity">0.7</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>   		
@@ -99,7 +99,7 @@
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#b8b894</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
+              <CssParameter name="fill-opacity">0.7</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>			

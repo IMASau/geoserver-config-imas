@@ -1,0 +1,22 @@
+<layer>
+  <name>SeamapAus_WA_EOMAP_AshmoreCartier_2022</name>
+  <id>LayerInfoImpl--2f6d4f29:189247b1152:-5c07</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2f6d4f29:189247b1152:-5c11</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--2f6d4f29:189247b1152:-5c11</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2f6d4f29:189247b1152:-5c08</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-05 15:33:17.707 UTC</dateCreated>
+  <dateModified>2023-07-05 15:56:18.717 UTC</dateModified>
+</layer>
