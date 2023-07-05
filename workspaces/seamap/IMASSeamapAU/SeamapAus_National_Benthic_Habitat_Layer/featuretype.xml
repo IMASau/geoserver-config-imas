@@ -40,17 +40,17 @@ This layer is a beta Version 2.1 of the data, released in 2023. The data should 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>109.10535256774222</minx>
+    <maxx>162.08317435095265</maxx>
+    <miny>-44.211944459503826</miny>
+    <maxy>-7.628132838362767</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>109.10535256774222</minx>
+    <maxx>162.08317435095265</maxx>
+    <miny>-44.211944459503826</miny>
+    <maxy>-7.628132838362767</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
