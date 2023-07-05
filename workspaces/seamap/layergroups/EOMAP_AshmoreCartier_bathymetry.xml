@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--2f6d4f29:189247b1152:-55b9</id>
+  <name>EOMAP_AshmoreCartier_bathymetry</name>
+  <mode>SINGLE</mode>
+  <title>Satellite-derived bathymetry mapping of Ashmore Reef and Cartier Island 2022 (EOMAP, Parks Australia) - hillshaded</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--2f6d4f29:189247b1152:-5c19</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2f6d4f29:189247b1152:-55df</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--2f6d4f29:189247b1152:-55ba</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>122.87588994753366</minx>
+    <maxx>123.61777698166955</maxx>
+    <miny>-12.609355368841928</miny>
+    <maxy>-12.102944602263733</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-05 22:26:02.233 UTC</dateCreated>
+</layerGroup>

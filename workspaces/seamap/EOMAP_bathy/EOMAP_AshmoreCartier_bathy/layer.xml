@@ -1,0 +1,17 @@
+<layer>
+  <name>EOMAP_AshmoreCartier_bathy</name>
+  <id>LayerInfoImpl--2f6d4f29:189247b1152:-55df</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2f6d4f29:189247b1152:-55ba</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--2f6d4f29:189247b1152:-55e0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-05 22:11:21.202 UTC</dateCreated>
+  <dateModified>2023-07-05 22:24:51.780 UTC</dateModified>
+</layer>
