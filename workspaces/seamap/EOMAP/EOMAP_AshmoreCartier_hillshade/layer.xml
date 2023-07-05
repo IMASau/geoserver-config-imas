@@ -1,0 +1,17 @@
+<layer>
+  <name>EOMAP_AshmoreCartier_hillshade</name>
+  <id>LayerInfoImpl--2f6d4f29:189247b1152:-5c19</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--2f6d4f29:189247b1152:-5c1a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-05 15:13:38.486 UTC</dateCreated>
+  <dateModified>2023-07-05 15:14:14.828 UTC</dateModified>
+</layer>

@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--2f6d4f29:189247b1152:-5c1c</id>
+  <name>EOMAP</name>
+  <description>Hillshade from bathymetry - to use as backdrop for habitat maps</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-07-05 15:12:32.415 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/EOMAP/EOMAP_AshmoreCartier_hillshade.tif</url>
+</coverageStore>
