@@ -9,17 +9,20 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#2222c3" opacity="0.0" quantity="-40" label="Depth (m)"/>
-              <ColorMapEntry color="#0000e6" opacity="0.7" quantity="-30" label="-30"/>                                                        
-              <ColorMapEntry color="#455ed3" opacity="0.7" label="-20" quantity="-20"/>
-              <ColorMapEntry color="#3aa3fc" opacity="0.7" label="-15" quantity="-15"/>
-              <ColorMapEntry color="#18dec0" opacity="0.7" label="-10" quantity="-10"/>
-              <ColorMapEntry color="#90ff48" opacity="0.7" label="-7" quantity="-7"/>
-              <ColorMapEntry color="#d7e535" opacity="0.7" label="-5" quantity="-5"/>
-              <ColorMapEntry color="#f0cc3a" opacity="0.7" label="-3" quantity="-3"/>
-              <ColorMapEntry color="#fc8825" opacity="0.7" label="-1" quantity="-1"/>
-              <ColorMapEntry color="#7a0403" opacity="0.7" label="+1" quantity="1"/>              
-              <ColorMapEntry color="#800080" opacity="0.7" label="+3" quantity="3"/>
+              <ColorMapEntry color="#2222c3" opacity="0.0" quantity="-40" label="Depth (m)"/>                                                       
+              <ColorMapEntry color="#d016c0" opacity="0.7" quantity="-31" label="&lt;-30"/>                                                        
+              <ColorMapEntry color="#c823c8" opacity="0.7" quantity="-30" label="-30"/>                                                        
+              <ColorMapEntry color="#8223c8" opacity="0.7" quantity="-20" label="-20"/>                                                        
+              <ColorMapEntry color="#5a23c8" opacity="0.7" quantity="-15" label="-15"/>                                                                      
+              <ColorMapEntry color="#2823c8" opacity="0.7" label="-12" quantity="-12"/>
+              <ColorMapEntry color="#2332c8" opacity="0.7" label="-10" quantity="-10"/>
+              <ColorMapEntry color="#2364c8" opacity="0.7" label="-8" quantity="-8"/>
+              <ColorMapEntry color="#2396c8" opacity="0.7" label="-6" quantity="-6"/>
+              <ColorMapEntry color="#23c8be" opacity="0.7" label="-4" quantity="-4"/>
+              <ColorMapEntry color="#23c88c" opacity="0.7" label="-2" quantity="-2"/>
+              <ColorMapEntry color="#eaea74" opacity="0.7" label="-1" quantity="-1"/>
+              <ColorMapEntry color="#ba7b33" opacity="0.7" label="-0.5" quantity="-0.5"/>              
+              <ColorMapEntry color="#705634" opacity="0.7" label="&gt;0" quantity="0"/>
               <ColorMapEntry color="#000000" opacity="0.0" quantity="5"/>              
             </ColorMap>
           </RasterSymbolizer>
