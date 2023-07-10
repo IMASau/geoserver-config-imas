@@ -33,7 +33,7 @@
  </div>
 	<#else>
 	<i>Preview has been limited to three clips. More exist at this location.</i>
-		<#break>
+	<#break>
   </#if>
 </#list>
 
