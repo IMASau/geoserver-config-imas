@@ -14,22 +14,16 @@
 	
   <div class="feature">
 	<p style="text-align:left;">
-  
-  		${feature.Location.value}
-		<#if type?has_content>
-			(<i>status: <b>${feature.Status.value}</b></i>)<BR>
-		<#else>
-		</#if>
-
+		<div>  
+  		<span>${feature.Location.value} (<i>status: <b>${feature.Status.value}</b></i>)<span>
+		</div>
+		<div>
 		<#if imagedate?has_content>
-  			${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time})<BR>
+  			<span>${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres</span>
 		<#else>
 		</#if>
-
-  		<b>Depth:</b> ${feature.Depth.rawValue} metres
-		<span style="float:right; font-size:11px">
-		<a href="${feature.media_URL.value}" target="_blank">View in new window</a>
-		</span>
+		<span style="float:right; font-size:11px"><a href="${feature.media_URL.value}" target="_blank">View in new window</a></span>
+		</div>
 	</p>
 		<#if imagetype?contains("jpg") || imagetype?contains("png")>	
 			<a href="${feature.media_URL.value}" target="_blank">
