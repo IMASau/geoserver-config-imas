@@ -27,6 +27,9 @@
   				<source src="${feature.media_URL.value}" type="video/mp4">
 			</video>
 		</#if>
+		<span style="float:right; font-size:10.5px">
+		Credit: ${feature.Source.value}
+		</span>
 		<br><br>
 
  
