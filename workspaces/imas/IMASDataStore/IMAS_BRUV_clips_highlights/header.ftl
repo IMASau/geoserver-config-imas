@@ -14,25 +14,6 @@ a:hover {
 
 p { margin:0 }
 
-table {
-	border-bottom: 1px solid #ededed;
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin: 0;
-	width:100%;
-}
-
-th, td {
-	font-weight: normal;
-	text-align: left;
-	padding:5px;
-}
-
-th {
-	font-weight: bold;
-	text-transform: uppercase;
-	padding:5px;
-}
 
 td {
 	border-top: 1px solid #ededed;
