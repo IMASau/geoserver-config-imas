@@ -16,16 +16,16 @@
 </#list>
 
 <#if found3DModel==false>
-<#assign numMainThumbnails = 3>
-<#assign numAdditionalThumbnails = 9>
 
-<#list features as feature>
+    <#list features as feature>
+
     <#assign imagetype=feature.media_name.value>
     <#assign imagedate=feature.Date.value>
     <#assign imagetime=feature.Time.value>
     <#assign type=feature.Status.value>
+   
 
-    <#if (feature_index < numMainThumbnails) >   
+    <#if (feature_index < 3) >
 
         <div class="feature">
 
@@ -56,33 +56,26 @@
             </span>
             <br><br>
         </div>
-    <#elseif (feature_index == numMainThumbnails)>
+
+    <#elseif (feature_index == 3)>
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 400px;">
             <!-- Create a grid item for the remaining items -->
             <div style="width:133px;">
                 <a href="${feature.media_URL.value}" target="_blank">
-                    <#if imagetype?contains("jpg") || imagetype?contains("png")>
-                        <img class="thumbnail" style="max-width:133px!important" src="${feature.media_URL.value}" alt="no image available">
-                    <#else>
-                        <!-- Maybe you want to use a placeholder image for videos -->
-                        <img class="thumbnail" style="max-width:133px!important" src="path/to/your/placeholder/image.jpg" alt="video">
-                    </#if>
-                </a>
+			<video class="thumbnail" style="max-width:133px!important" controls>
+                    	<source src="${feature.media_URL.value}" type="video/mp4">
+                         </video>
+		</a>
             </div>
     <#else>
         <div style="width:133px;">
             <a href="${feature.media_URL.value}" target="_blank">
-                <#if imagetype?contains("jpg") || imagetype?contains("png")>
-                    <img class="thumbnail" style="max-width:133px!important" src="${feature.media_URL.value}" alt="no image available">
-                <#else>
-                    <!-- Maybe you want to use a placeholder image for videos -->
                     <img class="thumbnail" style="max-width:133px!important" src="path/to/your/placeholder/image.jpg" alt="video">
-                </#if>
             </a>
         </div>
     </#if>
     </#list>
 
-<#if features?length > (numMainThumbnails + numAdditionalThumbnails)>
-    <p>More clips exist at this location</p>
-</#if>    </#if>
+	<p><i>More imagery exists at this location.</i></p>
+
+    </#if>
