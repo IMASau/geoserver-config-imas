@@ -26,33 +26,38 @@
     <#assign type=feature.Status.value>
    
 
+    <#if (feature_index < 3) >
 
-<#if (feature_index < 3)>
-    <!-- Your code for main larger media items goes here -->
-    <div style="position: relative; display: block; margin-bottom: 20px; margin-top: 50px;">
-        <div style="position: relative; width: 400px; margin-top: 20px;">
-            <div style="font-size:11px; position: absolute; top: -17px; right: 0;">
-                <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
-            </div>
-            <video width="400" controls autoplay muted>
-                <source src="${feature.media_URL.value}" type="video/mp4">
-            </video>
-            <div style="font-size:10px; position: absolute; top: 0; right: 0; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
-                Credit: ${feature.Source.value}
-            </div>
-        <!-- ... rest of your code ... -->
-        </div>
+<div style="position: relative; display: block; margin-bottom: 20px;">
+    <video width="400" controls autoplay muted>
+        <source src="${feature.media_URL.value}" type="video/mp4">
+    </video>
+    <div style="font-size:10px; position: absolute; top: 10px; left: 10px; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
+        Credit: ${feature.Source.value}
     </div>
-<#elseif (feature_index < 6)>
-    <!-- Your code for smaller thumbnails goes here -->
-    <div style="position: relative; display: inline-block; width: 133px; margin-top: 20px;">
-        <!-- Thumbnail feature elements here -->
+    <#if feature.imagedate?has_content>
+    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+        ${feature.Location.value} 
+        <#if feature.type?has_content>
+            <i>(status: <b>${feature.Status.value}</b>)</i>
+        </#if>
+        <br>${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres
     </div>
-<#else>
-    <!-- Message indicating that more media is available -->
-    <p><i>More media is available at this location.</i></p>
-</#if>
+    <#else>
+    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+        ${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres
+    </div>
+    </#if>
+    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+        <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
+    </div>
+</div>
 
+
+	<#else>
+	<p><i>Preview has been limited to three clips. More exist at this location.</i></p>
+	<#break>
+  </#if>
 
 </#list>
 </#if>
