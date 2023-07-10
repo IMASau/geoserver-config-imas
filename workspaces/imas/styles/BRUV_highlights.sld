@@ -11,11 +11,11 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <ogc:Filter>		
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 		  
           <PointSymbolizer>
@@ -30,36 +30,17 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
         </Rule>
         <Rule>
-          <ogc:Filter>		
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>representative</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 		  
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_blue.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 	<Size>10</Size>
-  			 </Graphic>
-          </PointSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                                
-        </Rule>	
-        <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>3D model</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 		  
-          <PointSymbolizer>
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/terrain_aqua.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
     			 	<Size>10</Size>
@@ -85,16 +66,35 @@
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
-        </Rule>		
-		
-		
+        </Rule>	        
         <Rule>
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>highlight</ogc:Literal>		
+              <ogc:Literal>3D model</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>	
+          </ogc:Filter>		
+          <MinScaleDenominator>150000</MinScaleDenominator> 		  
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/terrain_aqua.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>10</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
+        </Rule>		
+		
+		
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>highlight</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		  			
+          </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>           
           <PointSymbolizer>
@@ -109,12 +109,12 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
         </Rule>
         <Rule>
-          <ogc:Filter>		
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>representative</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>	
+            </ogc:PropertyIsEqualTo>		  			
+          </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>           
           <PointSymbolizer>
@@ -127,7 +127,27 @@
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
-        </Rule>	
+        </Rule>
+        <Rule>
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>compilation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>	
+          <MinScaleDenominator>10000</MinScaleDenominator>                              
+          <MaxScaleDenominator>150000</MaxScaleDenominator>           
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>20</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                          
+        </Rule>	        
         <Rule>
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
@@ -147,35 +167,15 @@
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
-        </Rule>				
-        <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>	
-          <MinScaleDenominator>10000</MinScaleDenominator>                              
-          <MaxScaleDenominator>150000</MaxScaleDenominator>           
-          <PointSymbolizer>
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 	<Size>20</Size>
-  			 </Graphic>
-          </PointSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                                          
-        </Rule>			
+        </Rule>						
 		
         <Rule>
-          <Title> highlight video</Title>
-          <ogc:Filter>		
+          <Title> highlight</Title>
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>	  			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
           <PointSymbolizer>
@@ -187,14 +187,14 @@
     			 	<Size>20</Size>
   			 </Graphic>
           </PointSymbolizer>
-        </Rule> 
+        </Rule>
         <Rule>
           <Title> representative habitat</Title>
-          <ogc:Filter>		
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>representative</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>	  			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
           <PointSymbolizer>
@@ -206,7 +206,26 @@
     			 	<Size>20</Size>
   			 </Graphic>
           </PointSymbolizer>
-        </Rule> 
+        </Rule>
+        <Rule>
+          <Title> compilation highlight</Title>
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>compilation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>	          
+          <MaxScaleDenominator>10000</MaxScaleDenominator>			  
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>28</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+        </Rule>         
         <Rule>
           <Title> 3D benthic model</Title>
           <ogc:Filter>		
@@ -225,27 +244,8 @@
     			 	<Size>22</Size>
   			 </Graphic>
           </PointSymbolizer>
-        </Rule> 		
-        <Rule>
-          <Title> compilation video</Title>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>	          
-          <MaxScaleDenominator>10000</MaxScaleDenominator>			  
-          <PointSymbolizer>
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 	<Size>28</Size>
-  			 </Graphic>
-          </PointSymbolizer>
-        </Rule> 		
-		
+        </Rule> 				
+      <VendorOption name="sortBy">dtype A</VendorOption>						
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

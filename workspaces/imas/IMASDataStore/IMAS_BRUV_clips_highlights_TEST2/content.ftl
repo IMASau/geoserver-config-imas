@@ -3,7 +3,7 @@
 
 
 <#list features as feature>
-<#assign imagetype=feature.image_name.value>
+<#assign imagetype=feature.media_name.value>
 <#assign imagedate=feature.Date.value>
 <#assign imagetime=feature.Time.value>
 <#assign type=feature.Status.value>				
