@@ -39,26 +39,23 @@
                         <br>
                         <span>${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres</span>
                     </#if>
-                    <span style="float:right; font-size:11px"><a href="${feature.media_URL.value}" target="_blank">View in new window</a></span>
                 </div>
             </p>
-            <#if imagetype?contains("jpg") || imagetype?contains("png")>
-                <a href="${feature.media_URL.value}" target="_blank">
-                    <img class="spaced" style="max-width:400px!important" src="${feature.media_URL.value}" alt="no image available">
-                </a>
-            <#else>
-                <video width="400" controls autoplay muted>
-                    <source src="${feature.media_URL.value}" type="video/mp4">
-                </video>
-            </#if>
-            <span style="float:right; font-size:10px">
-                Credit: ${feature.Source.value}
-            </span>
-            <br><br>
-        </div>
 
+
+<div style="position: relative; display: inline-block;">
+    <video width="400" controls autoplay muted>
+        <source src="${feature.media_URL.value}" type="video/mp4">
+    </video>
+    <div style="font-size:10px; position: absolute; top: 0; right: 0; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
+        Credit: ${feature.Source.value}
+    </div>
+    <div style="font-size:11px; position: absolute; top: -20; right: 0; ">
+        <a href="${feature.media_URL.value}" target="_blank">View in new window</a>
+    </div>
+</div>
 	<#else>
-	<i>Preview has been limited to three clips. More exist at this location.</i>
+	<p><i>Preview has been limited to three clips. More exist at this location.</i></p>
 	<#break>
   </#if>
 </#list>
