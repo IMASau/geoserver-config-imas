@@ -2,7 +2,6 @@
 <#setting time_format="h:mm a">
 
 <#assign found3DModel=false>
-<#assign otherMedia=[]>
 
 <#list features as feature>
     <#assign imagetype=feature.media_name.value>
@@ -22,7 +21,8 @@
     <#assign imagetype=feature.media_name.value>
     <#assign imagedate=feature.Date.value>
     <#assign imagetime=feature.Time.value>
-    <#assign type=feature.Status.value>   
+    <#assign type=feature.Status.value>
+   
 
     <#if (feature_index < 3) >
 
