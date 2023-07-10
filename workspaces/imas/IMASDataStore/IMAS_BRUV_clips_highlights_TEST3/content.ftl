@@ -1,3 +1,4 @@
+
 <#setting date_format="d MMM yyyy">
 <#setting time_format="h:mm a">
 
@@ -27,9 +28,9 @@
 
     <#if (feature_index < 3) >
 
-        <div class="feature">
+        <div class="feature" align=left>
 
-            <p style="text-align:left;">
+            <p style="text-align:left; padding-top:10px">
                 <div>
                     <span>${feature.Location.value} 
                     <#if type?has_content>
@@ -44,16 +45,21 @@
 
 
 <div style="position: relative; display: inline-block;">
-    <video width="400" controls autoplay muted>
-        <source src="${feature.media_URL.value}" type="video/mp4">
-    </video>
-    <div style="font-size:10px; position: absolute; top: 0; right: 0; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
-        Credit: ${feature.Source.value}
+    <div style="position: relative;">
+        <video width="400" controls autoplay muted>
+            <source src="${feature.media_URL.value}" type="video/mp4">
+        </video>
+        <div style="font-size:10px; position: absolute; top: 0; right: 0; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
+            Credit: ${feature.Source.value}
+        </div>
     </div>
-    <div style="font-size:11px; position: absolute; top: -20; right: 0; ">
-        <a href="${feature.media_URL.value}" target="_blank">View in new window</a>
+    <div style="font-size:11px; position: absolute; top: -17px; right: 0;">
+        <a color: CornflowerBlue; href="${feature.media_URL.value}" target="_blank">View in new window</a>
     </div>
 </div>
+
+
+
 	<#else>
 	<p><i>Preview has been limited to three clips. More exist at this location.</i></p>
 	<#break>
