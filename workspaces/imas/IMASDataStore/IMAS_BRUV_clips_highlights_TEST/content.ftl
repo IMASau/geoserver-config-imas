@@ -15,7 +15,7 @@
   <div class="feature">
 	<p style="text-align:left;">
 		<div>  
-  		<span>${feature.Location.value} (<i>status: <b>${feature.Status.value}</b></i>)<span>
+  		<span>${feature.Location.value} <#if type?has_content>(<i>status: <b>${feature.Status.value}</b></i>)</#if><span>
 		</div>
 		<div>
 		<#if imagedate?has_content>
