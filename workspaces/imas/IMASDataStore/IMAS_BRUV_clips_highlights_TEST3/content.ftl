@@ -28,36 +28,32 @@
 
     <#if (feature_index < 3) >
 
-        <div class="feature" align=left>
-
-            <p style="text-align:left; padding-top:10px">
-                <div>
-                    <span>${feature.Location.value} 
-                    <#if type?has_content>
-                        <i>(status: <b>${feature.Status.value}</b>)</i>
-                    </#if>
-                    <#if imagedate?has_content>
-                        <br>
-                        <span>${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres</span>
-                    </#if>
-                </div>
-            </p>
 
 
-<div style="position: relative; display: inline-block;">
-    <div style="position: relative;">
-        <video width="400" controls autoplay muted>
-            <source src="${feature.media_URL.value}" type="video/mp4">
-        </video>
-        <div style="font-size:10px; position: absolute; top: 0; right: 0; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
-            Credit: ${feature.Source.value}
-        </div>
+<div style="position: relative; display: block; margin-bottom: 20px;">
+    <video width="400" controls autoplay muted>
+        <source src="${feature.media_URL.value}" type="video/mp4">
+    </video>
+    <div style="font-size:10px; position: absolute; top: 10px; left: 10px; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
+        Credit: ${feature.Source.value}
     </div>
-    <div style="font-size:11px; position: absolute; top: -17px; right: 0;">
-        <a color: CornflowerBlue; href="${feature.media_URL.value}" target="_blank">View in new window</a>
+    <#if feature.imagedate?has_content>
+    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+        ${feature.Location.value} 
+        <#if feature.type?has_content>
+            <i>(status: <b>${feature.Status.value}</b>)</i>
+        </#if>
+        <br>${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres
+    </div>
+    <#else>
+    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+        ${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres
+    </div>
+    </#if>
+    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+        <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
     </div>
 </div>
-
 
 
 	<#else>
