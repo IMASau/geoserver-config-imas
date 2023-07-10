@@ -57,25 +57,9 @@
             <br><br>
         </div>
 
-    <#elseif (feature_index == 3)>
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 400px;">
-            <!-- Create a grid item for the remaining items -->
-            <div style="width:133px;">
-                <a href="${feature.media_URL.value}" target="_blank">
-			<video class="thumbnail" style="max-width:133px!important" controls>
-                    	<source src="${feature.media_URL.value}" type="video/mp4">
-                         </video>
-		</a>
-            </div>
-    <#else>
-        <div style="width:133px;">
-            <a href="${feature.media_URL.value}" target="_blank">
-                    <img class="thumbnail" style="max-width:133px!important" src="path/to/your/placeholder/image.jpg" alt="video">
-            </a>
-        </div>
-    </#if>
-    </#list>
-
-	<p><i>More imagery exists at this location.</i></p>
-
-    </#if>
+	<#else>
+	<i>Preview has been limited to three clips. More exist at this location.</i>
+	<#break>
+  </#if>
+</#list>
+</#if>

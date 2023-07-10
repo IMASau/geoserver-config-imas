@@ -10,6 +10,7 @@
     <Name>BRUV highlights</Name>    
     <UserStyle>
       <FeatureTypeStyle>
+        
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
