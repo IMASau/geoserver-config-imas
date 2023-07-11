@@ -29,7 +29,7 @@
                 </div>
             </#if>
             <div style="position: relative; width: 400px;">
-                <video width="400" controls autoplay muted>
+                <video width="400" controls autoplay muted loop>
                     <source src="${feature.media_URL.value!}" type="video/mp4">
                 </video>
                 <div style="font-size:10px; position: absolute; top: 0px; right: 0px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
