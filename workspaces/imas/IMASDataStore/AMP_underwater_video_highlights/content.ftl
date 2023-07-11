@@ -1,3 +1,6 @@
+<div style="display: flex; justify-content: center;">
+    <div style="width: 400px;">
+
 <#setting date_format="d MMM yyyy">
 <#setting time_format="h:mm a">
 
@@ -60,3 +63,6 @@
         </details>
     </#if>
 </#list>
+
+    </div>
+</div>
