@@ -26,33 +26,32 @@
 
 
 
-<div style="position: relative; display: block; margin-bottom: 5px; margin-top: 45px">
-    <video width="400" controls autoplay muted>
-        <source src="${feature.media_URL.value!}" type="video/mp4">
-    </video>
-    <div style="font-size:10px; position: absolute; top: 0px; right: 0px; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
-        Credit: ${feature.Source.value!"Unknown"}
-    </div>
-    <div style="font-size:11px; position: absolute; top: -17px; right: 0px;">
-        <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
-    </div>
-<br>
+<div style="position: relative; display: block; padding-bottom: 20px;">
     <#if imagedate?has_content>
-    <div style="font-size:12px; position: absolute; top: -39px; left: 0px; margin-top: 5px">
+    <div style="font-size:12px; padding-bottom: 10px;">
         ${feature.Location.value!"Unknown"} 
-        <#if tpye?has_content>
+        <#if type?has_content>
             <i>(status: <b>${feature.Status.value}</b>)</i>
         </#if>
         <br>${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
     </div>
     <#else>
-    <div style="font-size:12px; position: absolute; top: -17px; left: 0px;">
+    <div style="font-size:12px; padding-bottom: 10px;">
         ${feature.Location.value!"Unknown"} 
         <#if type?has_content>
             <i>(status: <b>${feature.Status.value}</b>)</i>
         </#if>
     </div>
     </#if>
+    <video width="400" controls autoplay muted>
+        <source src="${feature.media_URL.value!}" type="video/mp4">
+    </video>
+    <div style="font-size:10px; position: absolute; background-color: rgba(255, 255, 255, 0.6); padding: 2px;">
+        Credit: ${feature.Source.value!"Unknown"}
+    </div>
+    <div style="font-size:11px; position: absolute; top: -5px; right: 0px;">
+        <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
+    </div>
 </div>
 
 
