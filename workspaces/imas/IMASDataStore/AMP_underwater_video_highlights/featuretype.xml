@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--a145589:1893dfa7d37:-c64</id>
-  <name>IMAS_BRUV_clips_highlights_TEST3</name>
+  <name>AMP_underwater_video_highlights</name>
   <nativeName>IMAS_BRUV_highlight_clips</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>IMAS_BRUV_clips_highlights</title>
+  <title>IMAS &amp; UWA underwater video highlight clips (BRUV, BOSS)</title>
   <keywords>
     <string>features</string>
     <string>IMAS_BRUV_clips_highlights</string>
