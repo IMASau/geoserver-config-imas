@@ -13,7 +13,7 @@ a:hover {
 }
 
     .thumbnail {
-        filter: grayscale(100%);
+        filter: grayscale(100%) blur(2px);
         opacity: 0.8;
         transition: filter 0.3s ease;
     }
