@@ -26,7 +26,7 @@
 
 
 
-<div style="position: relative; display: block; margin-bottom: 5px; margin-top: 20px">
+<div style="position: relative; display: block; margin-bottom: 5px; margin-top: 45px">
     <video width="400" controls autoplay muted>
         <source src="${feature.media_URL.value!}" type="video/mp4">
     </video>
@@ -36,19 +36,19 @@
     <div style="font-size:11px; position: absolute; top: -17px; right: 0px;">
         <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
     </div>
-
-    <#if feature.imagedate?has_content>
-    <div style="font-size:11px; position: absolute; top: -50px; left: 0px;">
+<br>
+    <#if imagedate?has_content>
+    <div style="font-size:12px; position: absolute; top: -39px; left: 0px; margin-top: 5px">
         ${feature.Location.value!"Unknown"} 
-        <#if feature.Status?has_content>
+        <#if tpye?has_content>
             <i>(status: <b>${feature.Status.value}</b>)</i>
         </#if>
-        <br>${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
+        <br>${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
     </div>
     <#else>
-    <div style="font-size:11px; position: absolute; top: -17px; left: 0px;">
+    <div style="font-size:12px; position: absolute; top: -17px; left: 0px;">
         ${feature.Location.value!"Unknown"} 
-        <#if feature.Status?has_content>
+        <#if type?has_content>
             <i>(status: <b>${feature.Status.value}</b>)</i>
         </#if>
     </div>
