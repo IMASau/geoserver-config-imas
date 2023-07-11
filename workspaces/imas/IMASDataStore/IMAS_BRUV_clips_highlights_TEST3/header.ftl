@@ -12,6 +12,16 @@ a:hover {
 	color: #575757;
 }
 
+    .thumbnail {
+        filter: grayscale(100%);
+        opacity: 0.8;
+        transition: filter 0.3s ease;
+    }
+
+    .thumbnail:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
 p { margin:0 }
 
 
