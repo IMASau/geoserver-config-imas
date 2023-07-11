@@ -1,14 +1,10 @@
-
 <#setting date_format="d MMM yyyy">
 <#setting time_format="h:mm a">
 
 <#assign found3DModel=false>
 
 <#list features as feature>
-    <#assign imagetype=feature.media_name.value>
-    <#assign imagedate=feature.Date.value>
-    <#assign imagetime=feature.Time.value>
-    <#assign type=feature.Status.value>   
+    <#assign imagetype=feature.media_name.value> 
 
     <#if feature.dtype.value == "3D model" && !found3DModel>
         <#assign found3DModel=true>
@@ -28,36 +24,42 @@
 
     <#if (feature_index < 3) >
 
-<div style="position: relative; display: block; margin-bottom: 20px;">
+
+
+<div style="position: relative; display: block; margin-bottom: 5px; margin-top: 20px">
     <video width="400" controls autoplay muted>
-        <source src="${feature.media_URL.value}" type="video/mp4">
+        <source src="${feature.media_URL.value!}" type="video/mp4">
     </video>
-    <div style="font-size:10px; position: absolute; top: 10px; left: 10px; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
-        Credit: ${feature.Source.value}
+    <div style="font-size:10px; position: absolute; top: 0px; right: 0px; background-color: rgba(255, 255, 255, 0.2); padding: 2px;">
+        Credit: ${feature.Source.value!"Unknown"}
     </div>
-    <#if feature.imagedate?has_content>
-    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
-        ${feature.Location.value} 
-        <#if feature.type?has_content>
-            <i>(status: <b>${feature.Status.value}</b>)</i>
-        </#if>
-        <br>${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres
-    </div>
-    <#else>
-    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
-        ${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue} metres
-    </div>
-    </#if>
-    <div style="font-size:11px; position: absolute; top: 10px; right: 10px;">
+    <div style="font-size:11px; position: absolute; top: -17px; right: 0px;">
         <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
     </div>
+
+    <#if feature.imagedate?has_content>
+    <div style="font-size:11px; position: absolute; top: -50px; left: 0px;">
+        ${feature.Location.value!"Unknown"} 
+        <#if feature.Status?has_content>
+            <i>(status: <b>${feature.Status.value}</b>)</i>
+        </#if>
+        <br>${feature.imagedate?date("mm/dd/yy")?date} (${feature.imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
+    </div>
+    <#else>
+    <div style="font-size:11px; position: absolute; top: -17px; left: 0px;">
+        ${feature.Location.value!"Unknown"} 
+        <#if feature.Status?has_content>
+            <i>(status: <b>${feature.Status.value}</b>)</i>
+        </#if>
+    </div>
+    </#if>
 </div>
+
 
 
 	<#else>
 	<p><i>Preview has been limited to three clips. More exist at this location.</i></p>
 	<#break>
   </#if>
-
 </#list>
 </#if>
