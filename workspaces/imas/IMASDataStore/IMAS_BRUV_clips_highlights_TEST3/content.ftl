@@ -41,19 +41,19 @@
     <#elseif (feature_index == 3 && features?size > 3)>
         <details>
             <summary><span class="summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
-            <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-                <#list features[3..] as thumbnail>
-                    <#if (thumbnail_index < 12)>
-                        <div style="width: 128px;">
-                            <a href="${thumbnail.media_URL.value}" target="_blank">
-                                <video width="128" height="70">
-                                    <source src="${thumbnail.media_URL.value!}" type="video/mp4">
-                                </video>
-                            </a>
-                        </div>
-                    </#if>
-                </#list>
+<div style="display: flex; flex-wrap: wrap; width: 400px;">
+    <#list features[3..] as thumbnail>
+        <#if (thumbnail_index < 12)>
+            <div style="width: 131px; margin-right: ${(thumbnail_index % 3 != 2)?string('3px', '0px')}; margin-bottom: 1px;">
+                <a href="${thumbnail.media_URL.value}" target="_blank">
+                    <video style="width: 100%;">
+                        <source src="${thumbnail.media_URL.value!}" type="video/mp4">
+                    </video>
+                </a>
             </div>
+        </#if>
+    </#list>
+</div>
             <#if (features?size > 15)>
                 <p><i>Zoom in for even <b>more</b> videos at this location!</i></p>
             </#if>
