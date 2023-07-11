@@ -38,19 +38,20 @@
             </div>
         </div>
     <#elseif (feature_index == 3 && features?size > 3)>
-        <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-            <#list features[3..] as thumbnail>
-                <div style="width: 128px;">
-                    <a href="${feature.media_URL.value}" target="_blank">
-                    <video width="128" height="90" controls>
-                        <source src="${thumbnail.media_URL.value!}" type="video/mp4">
-                    </video>
-		    </a>
-                </div>
-            </#list>
-        </div>
-        <#if (features?size > 6)>
-            <p><i>More videos are available at this location.</i></p>
-        </#if>
+        <details>
+
+            <p><summary><span class="summary">View all videos available at this location</span></summary></p>
+            <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+                <#list features[3..] as thumbnail>
+                    <div style="width: 128px;">
+                        <a href="${thumbnail.media_URL.value}" target="_blank">
+                            <video width="128" height="80">
+                                <source src="${thumbnail.media_URL.value!}" type="video/mp4">
+                            </video>
+                        </a>
+                    </div>
+                </#list>
+            </div>
+        </details>
     </#if>
 </#list>
