@@ -6,7 +6,7 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Point-based imagery sampling deployments coloured by platform name</Name>
+    <Name>Point-based video sampling deployments coloured by data availability</Name>
     <UserStyle>
       <FeatureTypeStyle>
 	  
