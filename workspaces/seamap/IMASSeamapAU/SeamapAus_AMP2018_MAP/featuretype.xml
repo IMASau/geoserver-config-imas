@@ -1,15 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--a145589:1894fd50237:16da</id>
   <name>SeamapAus_AMP2018_MAP</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2022_ZONEID</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2022_ZONE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_BOUNDARIES_AMP2022_ZONEID</title>
-  <keywords>
-    <string>features</string>
-    <string>SeamapAus_BOUNDARIES_AMP2022_ZONEID</string>
-  </keywords>
+  <title>Australian Marine Park boundaries 2018</title>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
     DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
