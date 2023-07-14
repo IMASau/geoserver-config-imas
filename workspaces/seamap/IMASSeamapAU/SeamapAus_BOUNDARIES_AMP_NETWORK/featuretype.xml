@@ -1,11 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--a145589:1894fd50237:16da</id>
-  <name>SeamapAus_AMP2018_MAP</name>
-  <nativeName>SeamapAus_AMP2018_MAP</nativeName>
+  <id>FeatureTypeInfoImpl--a145589:18952165369:3391</id>
+  <name>SeamapAus_BOUNDARIES_AMP_NETWORK</name>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2023_NETWORK</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>SeamapAus_BOUNDARIES_AMP2022_ZONEID</title>
+  <title>Australian Marine Parks (2023) - Networks</title>
+  <abstract>Australian Marine Parks 2023 (includes newly-extended Macquarie Island park) - styled by Network.</abstract>
+  <keywords>
+    <string>features</string>
+    <string>SeamapAus_BOUNDARIES_AMP2023_NETWORK</string>
+  </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
     DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -34,19 +39,18 @@
     <minx>-177.54069081619474</minx>
     <maxx>177.88932480565927</maxx>
     <miny>-59.65179912619934</miny>
-    <maxy>-3.069847528471672</maxy>
+    <maxy>-3.06984752847171</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-177.54069081619474</minx>
     <maxx>177.88932480565927</maxx>
     <miny>-59.65179912619934</miny>
-    <maxy>-3.069847528471672</maxy>
+    <maxy>-3.06984752847171</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

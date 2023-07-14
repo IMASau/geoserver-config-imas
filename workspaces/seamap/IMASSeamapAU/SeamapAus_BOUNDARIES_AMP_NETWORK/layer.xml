@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_AMP_NETWORK</name>
+  <id>LayerInfoImpl--a145589:18952165369:3392</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2109d5df:1821efef03b:-3e80</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a145589:18952165369:3391</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-14 03:46:36.582 UTC</dateCreated>
+  <dateModified>2023-07-14 03:49:25.364 UTC</dateModified>
+</layer>
