@@ -23,7 +23,6 @@
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Info</th>
 	</TR>
 
-	<#list features?sort_by(["avail_sort", "rawValue"]) as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RES.value>		
@@ -114,7 +113,7 @@
 			</#if> 
 		</TD> 
 
-		<TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black;">
+		<TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black; overflow-wrap: break-word; word-break: break-word; hyphens: auto;">
 			<#if POC?has_content>
 				${feature.pointofcontact.value}
 			<#else>
