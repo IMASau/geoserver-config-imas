@@ -89,17 +89,13 @@
 			</#if>
 		</TD>   
      
-		<TD style="font-size:11px; border-right: 1px solid black;">
-			<#if feature.data_dl.value == 'no'>
-				not available
-			<#elseif feature.data_dl.value == 'maybe - other'>
-				not available
-			<#elseif feature.data_dl.value == 'yes - other'>
+		<TD style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:10.5px; border-right: 1px solid black;">
+			<#if feature.data_dl.value == 'yes - other'>
 				yes - other
 			<#elseif feature.data_dl.value == 'yes - ASB'>
 				yes - <a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
-			<#elseif feature.data_dl.value == 'yes - WA SLIP'>
-				yes - <a rel="external" href="https://maps.slip.wa.gov.au/Marine/app/" target="_blank">WA SLIP</a>
+			<#elseif feature.data_dl.value == 'yes - WA bathymetry portal'>
+				yes - <a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
 			<#else>
 				not available
 			</#if>
