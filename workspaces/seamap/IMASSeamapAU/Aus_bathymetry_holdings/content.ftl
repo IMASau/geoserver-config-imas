@@ -2,11 +2,11 @@
 
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1100px; table-layout: fixed;">
-	<col width="28%" />
+	<col width="29%" />
 	<col width="7.5%" />
-	<col width="7.5%" />
+	<col width="7.7%" />
   	<col width="17%" />
-	<col width="9%" />
+	<col width="8.5%" />
 	<col width="7.5%" />
   	<col width="17.5%" />
 	<col width="5.3%" />
@@ -93,9 +93,9 @@
 			<#if feature.data_dl.value == 'yes - other'>
 				yes - other
 			<#elseif feature.data_dl.value == 'yes - ASB'>
-				yes - <a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
+				<a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
 			<#elseif feature.data_dl.value == 'yes - WA bathymetry portal'>
-				yes - <a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
+				<a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
 			<#else>
 				not available
 			</#if>
@@ -104,7 +104,11 @@
 
 		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
 			<#if collectedby?has_content>
-				${feature.collecting_org.value}
+				<#if feature.collecting_org.value == 'WA Department of Transport (DoT)'>
+					WA DoT
+				<#else>
+					${feature.collecting_org.value}
+				</#if> 
 			<#else>
 				-
 			</#if> 
