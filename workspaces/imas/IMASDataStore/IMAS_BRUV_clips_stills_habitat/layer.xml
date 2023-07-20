@@ -1,0 +1,17 @@
+<layer>
+  <name>IMAS_BRUV_clips_stills_habitat</name>
+  <id>LayerInfoImpl--2c8ed3d8:18973a17c8d:-6325</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2c8ed3d8:18973a17c8d:-6328</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2c8ed3d8:18973a17c8d:-6326</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-20 21:57:13.837 UTC</dateCreated>
+  <dateModified>2023-07-20 21:59:03.434 UTC</dateModified>
+</layer>
