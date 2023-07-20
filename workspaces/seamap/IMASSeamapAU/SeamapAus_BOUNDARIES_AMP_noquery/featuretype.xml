@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--7a6c209c:1811e60aaec:-772a</id>
-  <name>SeamapAus_BOUNDARIES_AMP2022_noquery</name>
+  <name>SeamapAus_BOUNDARIES_AMP_noquery</name>
   <nativeName>SeamapAus_BOUNDARIES_AMP2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Parks (AMPs) 2022</title>
+  <title>Australian Marine Parks (AMPs) 2023</title>
   <abstract>For specific use in layer groups that do not support querying of this layer. Not to be advertised.</abstract>
   <keywords>
     <string>features</string>
@@ -59,6 +59,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

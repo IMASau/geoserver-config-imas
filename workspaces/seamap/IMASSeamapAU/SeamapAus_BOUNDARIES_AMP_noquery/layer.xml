@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_BOUNDARIES_AMP2022_noquery</name>
+  <name>SeamapAus_BOUNDARIES_AMP_noquery</name>
   <id>LayerInfoImpl--7a6c209c:1811e60aaec:-7729</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2023-07-20 05:17:36.794 UTC</dateModified>
 </layer>
