@@ -1,0 +1,17 @@
+<layer>
+  <name>Palmer_TasTideMonitoring_aggregated_MAP</name>
+  <id>LayerInfoImpl-4b5bfca8:18976aafd43:6438</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-513dc49c:155d7c918cd:-4933</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4b5bfca8:18976aafd43:642c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-21 04:18:26.7 UTC</dateCreated>
+  <dateModified>2023-07-21 04:18:41.662 UTC</dateModified>
+</layer>
