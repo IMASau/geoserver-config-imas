@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>DateTime_AEST</name>
+        <type>datetime</type>
+        <label>Date</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Estuary</name>
+        <type>string</type>
+        <label>Estuary</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Site</name>
+        <type>string</type>
+        <label>Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GEOM</name>
+        <type>geometrypropertytype</type>
+        <label>GEOM</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
