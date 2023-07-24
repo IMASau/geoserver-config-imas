@@ -1,7 +1,7 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-4b5bfca8:18986aa523e:58a3</id>
-  <name>SeamapAus_boundaries_CAPAD</name>
-  <nativeName>SeamapAus_boundaries_CAPAD2022_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-4b5bfca8:1898793f311:-1ae</id>
+  <name>SeamapAus_BOUNDARIES_CAPAD</name>
+  <nativeName>SeamapAus_BOUNDARIES_CAPAD2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -9,7 +9,7 @@
   <abstract>Collaborative Australian Protected Areas Database (Marine) 2022. Hosted for the purposes of Seamap Australia.</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_boundaries_CAPAD2022_MAP</string>
+    <string>SeamapAus_BOUNDARIES_CAPAD2022</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 

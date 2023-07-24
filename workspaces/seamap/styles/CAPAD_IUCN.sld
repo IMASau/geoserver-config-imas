@@ -20,7 +20,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>			  
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#ffffff</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>					  
@@ -48,7 +47,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:And>		  		  
           </ogc:Filter>			  
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>					  
@@ -88,7 +86,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:And>		  
           </ogc:Filter>			  
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#8c8c8c</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>					  
@@ -136,7 +133,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:And>		  		  
           </ogc:Filter>			  
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#a4d194</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>					  
@@ -177,7 +173,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		  </ogc:And>		  
           </ogc:Filter>			  
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#b3b3b3</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>					  
