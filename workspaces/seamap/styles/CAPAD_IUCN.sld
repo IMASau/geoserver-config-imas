@@ -71,7 +71,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -111,7 +111,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -159,7 +159,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
 		  <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -200,7 +200,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#808080</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>

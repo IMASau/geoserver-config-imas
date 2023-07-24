@@ -1,34 +1,31 @@
 <#list features as feature>
     <#if feature_index == 0>
-        <b>Estuary:</b> ${feature.Estuary.value}<br>
-        <b>Site:</b> ${feature.Site.value}<br>
-<br>
-        <p><i>This table displays the midday water level at this monitoring station. The full dataset contains data sampled at higher frequency.</i></p>
-
-       <table style="border: 1px solid black; border-collapse: collapse; text-align: center;">
-            <tr style="background-color: #d3d3d3; border: 1px solid black;">
-                <th style="padding: 5px; font-size: 0.8em; text-align: center;">Date</th>
-                <th style="padding: 5px; font-size: 0.8em;">Water level (m)</th>
-                <th style="padding: 5px;  font-size: 0.8em;">Predicted</th>
-                <th style="padding: 5px;  font-size: 0.8em;">Residual</th>
+       <table style="border:1.5pt solid black; border-collapse: collapse; text-align: center;">
+            <tr style="background-color: #d3d3d3; border:1.5pt solid black;">
+                <th style="padding: 5px;">Area name</th>
+                <th style="padding: 5px;">Area type</th>
+                <th style="padding: 5px;">Jurisdiction</th>
+                <th style="padding: 5px;">Zone type</th>
             </tr>
     </#if>
-    <#if (feature_index < 15)> 
-        <tr>
-            <td style="padding-left: 5px; padding-right: 5px;">${feature.DateTime_AEST.value?datetime('dd/MM/yyyy hh:mm:ss a')?string["dd-MM-yyyy"]}</td>
+    <#if (feature_index < 5)> 
+        <tr style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
             <td style="padding-left: 5px; padding-right: 5px;">
-        	<#if (feature.Predicted.value == 'NaN')>-<#else>${feature.WL_AHD.value?number?string["0.00"]}</#if>
+        	${feature.NAME.value}
             </td>
             <td style="padding-left: 5px; padding-right: 5px;">
-        	<#if (feature.Predicted.value == 'NaN')>-<#else>${feature.Predicted.value?number?string["0.00"]}</#if>
+        	${feature.TYPE.value}
             </td>
             <td style="padding-left: 5px; padding-right: 5px;">
-        	<#if (feature.Predicted.value == 'NaN')>-<#else>${feature.Residual.value?number?string["0.00"]}</#if>
+        	<#if feature.STATE.value == 'COM'>Commonwealth<#else>${feature.STATE.value}</#if? (<i>${feature.AUTHORITY.value}</i>)
+            </td>
+            <td style="padding-left: 5px; padding-right: 5px;">
+        	${feature.ZONE_TYPE.value}
             </td>
         </tr>
     </#if>
-    <#if feature_index == 14>
+    <#if feature_index == 4>
         </table>
-<br><i>More data exists at this location. Proceed to download the full dataset for more.</i>
+<br><i>Additional regions exist at this location. Zoom in for more detail.</i>
     </#if>
 </#list>
