@@ -1,44 +1,27 @@
-    <canvas id="myChart"></canvas>
-
-    <script>
-    var ctx = document.getElementById('myChart').getContext('2d');
-    
-    // Prepare the datasets
-    var datasets = [];
-    <#list features as feature>
-    {
-        datasets.push({
-            label: '${feature.Site.value}',
-            data: [
-                {
-                    x: new Date('${feature.DateTime_AEST.value}'),
-                    y: ${feature.WL_AHD.value}
-                }
-                // ... more data points for this site ...
-            ],
-            fill: false,
-            borderColor: 'rgba(75, 192, 192, 0.2)',  // Change for different datasets
-            tension: 0.1
-        });
-    </#list>
-    
-    var myChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            datasets: datasets
-        },
-        options: {
-            scales: {
-                x: {
-                    type: 'time',
-                    time: {
-                        unit: 'day'
-                    }
-                },
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-    </script>
+<#list features as feature>
+    <#if feature_index == 0>
+        <b>Estuary:</b> ${feature.Estuary.value}<br>
+        <b>Site:</b> ${feature.Site.value}<br>
+<br>
+        <p><i>This table displays the midday water level at this monitoring station. Download the full dataset for data sampled at higher frequency.</i></p>
+<br> 
+       <table style="padding-left: 10px; padding-right: 10px;">
+            <tr>
+                <th style="font-size: 0.8em;">Date</th>
+                <th style="font-size: 0.8em;">Water level (m)</th>
+                <th style="font-size: 0.8em;">Predicted</th>
+                <th style="font-size: 0.8em;">Residual</th>
+            </tr>
+    </#if>
+    <#if (feature_index < 10)> 
+        <tr>
+            <td>${feature.DateTime_AEST.value?datetime('dd/MM/yyyy hh:mm:ss a')?string["dd-MM-yyyy"]}</td>
+            <td>${feature.WL_AHD.value}</td>
+            <td>${feature.Predicted.value}</td>
+            <td>${feature.Residual.value}</td>
+        </tr>
+    </#if>
+    <#if feature_index == 9>
+        </table>
+    </#if>
+</#list>
