@@ -12,33 +12,25 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Name>CAPAD</Name>
       <FeatureTypeStyle> 	
         <Rule>
-          <Title>IUCN Protected Area Category</Title>
+          <Title>IUCN protected area category</Title>
           <ogc:Filter>	
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IUCN</ogc:PropertyName>
-              <ogc:Literal>I</ogc:Literal>
+              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>			  
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
-              <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>					  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.7</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>No-take area (IUCN IA, II)</Title>
+          <Title>   No-take area (IUCN IA, II)</Title>
           <ogc:Filter>	
 		  <ogc:Or>		  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>IUCN</ogc:PropertyName>
-              <ogc:Literal>I</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IUCN</ogc:PropertyName>
               <ogc:Literal>IA</ogc:Literal>
@@ -53,7 +45,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.8</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -62,7 +54,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Multiple use area (IUCN III, IV, V, VI)</Title>
+            <Title>   Multiple use area (IUCN III, IV, V, VI)</Title>
           <ogc:Filter>	
 		  <ogc:Or>		  
             <ogc:PropertyIsEqualTo>
@@ -87,7 +79,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
             <Fill>
               <CssParameter name="fill">#8c8c8c</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+              <CssParameter name="fill-opacity">0.8</CssParameter>					  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -112,20 +104,32 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>QLD waters</Title>
+          <Title>Management juridiction</Title>
+          <ogc:Filter>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>IUCN</ogc:PropertyName>
+              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+          </ogc:Filter>			  
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>   QLD waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>QLD</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#ffc021</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -133,20 +137,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>NT waters</Title>
+            <Title>   NT waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>NT</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#ea5a68</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -154,20 +154,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>WA waters</Title>
+            <Title>   WA waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>WA</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>	
-			  </Fill>
             <Stroke>
               <CssParameter name="stroke">#b461dd</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -175,20 +171,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>SA waters</Title>
+            <Title>   SA waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>SA</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#ff9999</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -196,20 +188,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-            <Title>TAS waters</Title>
+            <Title>   TAS waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>TAS</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#485ec1</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -217,20 +205,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>VIC waters</Title>
+            <Title>   VIC waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>VIC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#0eb0ea</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -238,20 +222,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>NSW waters</Title>
+            <Title>   NSW waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>NSW</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#24c295</CssParameter>
               <CssParameter name="stroke-width">2.5</CssParameter>
@@ -259,23 +239,19 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Commonwealth waters</Title>
+          <Title>   Commonwealth waters</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>COM</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>400000</MinScaleDenominator> 			  
+
           <PolygonSymbolizer>	
 			<Geometry> <ogc:PropertyName>geom_REGION</ogc:PropertyName></Geometry>				            		  
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>				  
-            </Fill>
             <Stroke>
               <CssParameter name="stroke">#e6e6e6</CssParameter>
-              <CssParameter name="stroke-width">3.5</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>		

@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-42684b0e:16b1ed8b108:423d</id>
-  <name>CAPAD_IUCN_MAP</name>
+  <name>CAPAD_IUCN_jurisdictions</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,6 +8,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CAPAD_IUCN_MAP.sld</filename>
-  <dateModified>2023-07-24 10:29:36.896 UTC</dateModified>
+  <filename>CAPAD_IUCN_jurisdictions.sld</filename>
+  <dateModified>2023-07-24 10:46:43.944 UTC</dateModified>
 </style>

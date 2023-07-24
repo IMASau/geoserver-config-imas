@@ -14,7 +14,7 @@
       <Name>CAPAD</Name>
       <FeatureTypeStyle> 							
         <Rule>
-          <Title>No-take area (IUCN I, IA, II)</Title>
+          <Title>No-take area (IUCN IA, II)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">	
 		  <ogc:Or>		  
             <ogc:PropertyIsEqualTo>
