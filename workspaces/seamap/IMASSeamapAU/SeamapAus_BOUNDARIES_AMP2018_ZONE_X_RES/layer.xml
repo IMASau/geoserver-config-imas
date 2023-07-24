@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_AMP2018_ZONE_X_RES</name>
+  <id>LayerInfoImpl-4b5bfca8:189850a8885:-5664</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a145589:18952165369:367e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4b5bfca8:189850a8885:-5665</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-23 23:59:14.699 UTC</dateCreated>
+</layer>
