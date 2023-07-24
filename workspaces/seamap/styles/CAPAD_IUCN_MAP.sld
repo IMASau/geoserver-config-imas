@@ -1,21 +1,39 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor
-  version="1.0.0"
-  xmlns="http://www.opengis.net/sld"
-  xmlns:ogc="http://www.opengis.net/ogc"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:gml="http://www.opengis.net/gml"
-  xsi:schemaLocation="http://www.opengis.net/sld
-    http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+<StyledLayerDescriptor version="1.0.0"
+
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
     <Name>CAPAD</Name>
     <UserStyle>
       <Name>CAPAD</Name>
-      <FeatureTypeStyle> 							
+      <FeatureTypeStyle> 	
+        <Rule>
+          <Title>IUCN Protected Area Category</Title>
+          <ogc:Filter>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>IUCN</ogc:PropertyName>
+              <ogc:Literal>I</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+          </ogc:Filter>			  
+          <PolygonSymbolizer>
+			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
+            <Fill>
+              <CssParameter name="fill">#7bbc63</CssParameter>
+              <CssParameter name="fill-opacity">0.75</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">0.7</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>        
         <Rule>
           <Title>No-take area (IUCN IA, II)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">	
+          <ogc:Filter>	
 		  <ogc:Or>		  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IUCN</ogc:PropertyName>
@@ -45,7 +63,7 @@
         </Rule>
         <Rule>
             <Title>Multiple use area (IUCN III, IV, V, VI)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">	
+          <ogc:Filter>	
 		  <ogc:Or>		  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>IUCN</ogc:PropertyName>
@@ -95,7 +113,7 @@
         </Rule>
         <Rule>
           <Title>QLD waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>QLD</ogc:Literal>
@@ -116,7 +134,7 @@
         </Rule>
         <Rule>
             <Title>NT waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>NT</ogc:Literal>
@@ -137,7 +155,7 @@
         </Rule>
         <Rule>
             <Title>WA waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>WA</ogc:Literal>
@@ -158,7 +176,7 @@
         </Rule>
         <Rule>
             <Title>SA waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>SA</ogc:Literal>
@@ -179,7 +197,7 @@
         </Rule>         
         <Rule>
             <Title>TAS waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>TAS</ogc:Literal>
@@ -200,7 +218,7 @@
         </Rule>
         <Rule>
             <Title>VIC waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>VIC</ogc:Literal>
@@ -221,7 +239,7 @@
         </Rule>
         <Rule>
             <Title>NSW waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>NSW</ogc:Literal>
@@ -242,7 +260,7 @@
         </Rule>        
         <Rule>
           <Title>Commonwealth waters</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>STATE</ogc:PropertyName>
               <ogc:Literal>COM</ogc:Literal>

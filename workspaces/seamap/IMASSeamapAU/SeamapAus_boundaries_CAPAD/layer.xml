@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_boundaries_CAPAD</name>
+  <id>LayerInfoImpl-4b5bfca8:18986aa523e:58a4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-42684b0e:16b1ed8b108:423d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4b5bfca8:18986aa523e:58a3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-24 10:27:04.469 UTC</dateCreated>
+</layer>
