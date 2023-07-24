@@ -26,23 +26,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule> 
-        <Rule>
-          <Title>(Cth: dark, State: pale)</Title>
-          <ogc:Filter>	
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>IUCN</ogc:PropertyName>
-              <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>
-            </ogc:PropertyIsEqualTo>			
-          </ogc:Filter>			  
-          <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>			  
-            <Fill>
-              <CssParameter name="fill">#ffffff</CssParameter>
-              <CssParameter name="fill-opacity">0</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>		
+        </Rule> 	
         <Rule>
           <Title>   No-take area (IUCN IA, II)</Title>
           <ogc:Filter>	

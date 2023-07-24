@@ -17,7 +17,7 @@
         	${feature.TYPE.value}
             </td>
             <td style="padding-left: 5px; padding-right: 5px;">
-        	<#if feature.STATE.value == 'COM'>Commonwealth<#else>${feature.STATE.value}</#if? (<i>${feature.AUTHORITY.value}</i>)
+        	<#if feature.STATE.value == 'COM'>Commonwealth<#else>${feature.STATE.value}</#if> (<i>${feature.AUTHORITY.value}</i>)
             </td>
             <td style="padding-left: 5px; padding-right: 5px;">
         	${feature.ZONE_TYPE.value}
