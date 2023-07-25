@@ -4,8 +4,8 @@
     <#if (feature_index < 1) >
        <table cellpadding="2" style="border:1.5pt solid black; border-collapse: collapse; text-align: center; table-layout: fixed; width: 550px;">
 	<col width="21%" />
-	<col width="26%" />
-	<col width="20%" />
+	<col width="24%" />
+	<col width="22%" />
   	<col width="20%" />
   	<col width="13%" />
 
