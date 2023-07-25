@@ -1,4 +1,4 @@
-<h5 style="padding-top:10px; padding-bottom:10px">Beagle AMP fine-scale geomorphology</h5>
+<h5 style="padding-top:10px; padding-bottom:10px">Beagle AMP broad-scale geomorphology</h5>
 
 <#list features as feature>
     <#if (feature_index < 1) >
