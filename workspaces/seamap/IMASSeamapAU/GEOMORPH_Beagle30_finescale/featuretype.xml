@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seabed geomorphology of Beagle AMP - fines-cale bathymetric high and low features (GA)</title>
+  <title>Seabed geomorphology of Beagle AMP - fines-scale bathymetric high and low features (GA)</title>
   <abstract>Fine-scale bathymetric high and low morphology and geomorphology features of the Beagle Marine Park, derived from a 30 m spatial resolution bathymetry grid.</abstract>
   <keywords>
     <string>features</string>
@@ -37,6 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
