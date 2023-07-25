@@ -2,12 +2,12 @@
 
 	<#list features?sort_by(["dataSource", "rawValue"])?reverse as feature>
     <#if (feature_index < 1) >
-       <table cellpadding="2" style="border:1.5pt solid black; border-collapse: collapse; text-align: center; table-layout: fixed; width: 550px;">
-	<col width="21%" />
+       <table cellpadding="2" style="border:1.5pt solid black; border-collapse: collapse; text-align: center; table-layout: fixed; width: 530px;">
+	<col width="20%" />
 	<col width="24%" />
 	<col width="22%" />
   	<col width="20%" />
-  	<col width="13%" />
+  	<col width="14%" />
 
             <tr style="background-color: #e8e9ed; border:1.5pt solid black;">
                 <th style="text-align: center; font-size:11px; ">Morphology</th>
