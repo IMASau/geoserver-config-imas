@@ -67,7 +67,7 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#2466a8</CssParameter>		
+                  <CssParameter name="fill">#538cc6</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -87,8 +87,8 @@
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>
-
       <VendorOption name="sortBy">dataSource A</VendorOption>		          
+
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>
