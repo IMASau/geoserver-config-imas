@@ -1,4 +1,4 @@
-<h5 style="padding-top:10px; padding-bottom:10px">Medium-scale Classification</h5>
+<h5 style="padding-top:10px; padding-bottom:10px">Medium-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span></h5>
 
 <#list features as feature>
 
@@ -19,16 +19,16 @@
             </tr>
 
             <tr>
-                <td style="text-align: center; white-space: normal; font-size:11px; ">
+                <td style="text-align: center; white-space: normal; background-color: #b0bee2; font-size:11px; ">
                     <#if (feature.Morphology_feature.value != 'NA' && feature.Morphology_feature.value != 'unknown')>${feature.Morphology_feature.value?lower_case}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; background-color: #b0bee2; font-size:11px; "> <!-- changed the background color to a pale blue -->
                     <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')>${feature.Basic_Geom_Unit.value}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; font-size:11px; "> 
                     <#if (feature.BGU_T.value != 'NA' && feature.BGU_T.value != 'unknown')>${feature.BGU_T.value}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; font-size:11px; "> 
                     <#if (feature.BGU_sT.value != 'NA' && feature.BGU_sT.value != 'unknown')>${feature.BGU_sT.value}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; font-size:11px; ">

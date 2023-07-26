@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Fine-scale Geomorphic Unit</Title>		
+             <Title>LVL4: FINE-scale Geomorphic Units</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		

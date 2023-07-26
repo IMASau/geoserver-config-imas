@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Medium-fine-scale Morphology</Title>		
+             <Title>LVL3: MEDIUM-FINE-scale Morphology</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
