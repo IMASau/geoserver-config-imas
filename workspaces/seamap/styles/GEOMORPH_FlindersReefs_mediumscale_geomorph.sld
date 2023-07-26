@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphic Unit</Title>		
+             <Title>Medium-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		

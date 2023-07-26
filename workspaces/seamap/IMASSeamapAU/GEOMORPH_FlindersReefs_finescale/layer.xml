@@ -1,0 +1,24 @@
+<layer>
+  <name>GEOMORPH_FlindersReefs_finescale</name>
+  <id>LayerInfoImpl-4b5bfca8:18990267323:-67f9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4b5bfca8:18990267323:-68c4</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-4b5bfca8:18990267323:-68c4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4b5bfca8:1898bfe3a4b:58e3</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4b5bfca8:18990267323:-67fa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-26 03:27:45.136 UTC</dateCreated>
+</layer>

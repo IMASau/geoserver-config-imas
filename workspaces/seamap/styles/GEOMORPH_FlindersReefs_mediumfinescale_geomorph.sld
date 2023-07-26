@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphic Unit</Title>		
+             <Title>Medium-fine-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
@@ -28,6 +28,51 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
+             <Title>Bedform</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>bedform</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#33994d</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule> 
+          <Rule>		
+             <Title>Bedrock outcrop</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>bedrock outcrop (undefined)</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#862d59</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule> 
+          <Rule>		
+             <Title>Current-induced channel</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>current-induced channel</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#75d7d7</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>           
+          <Rule>		
              <Title>Debris apron</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
@@ -41,18 +86,18 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>  
+          </Rule>             
           <Rule>		
-             <Title>Lateral scarp</Title>		
+             <Title>Marine barform</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
-                  <ogc:Literal>lateral scarp</ogc:Literal>		
+                  <ogc:Literal>marine barform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#cb6d4d</CssParameter>		
+                  <CssParameter name="fill">#b7d55d</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -88,6 +133,21 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
+             <Title>Fore-reef</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>fore-reef</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#c76b82</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>           
+          <Rule>		
              <Title>Submarine canyon</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
@@ -97,7 +157,7 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#b96546</CssParameter>		
+                  <CssParameter name="fill">#808080</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -112,7 +172,7 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#b96546</CssParameter>		
+                  <CssParameter name="fill">#8f8fbc</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -127,13 +187,11 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#b96546</CssParameter>		
+                  <CssParameter name="fill">#52577a</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>           
-      <VendorOption name="sortBy">dataSource A</VendorOption>		          
-
+          </Rule>           	          
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>

@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Broad-scale Geomorphic Unit</Title>		
+             <Title>Fine-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
@@ -28,21 +28,36 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>Volcano (island or submarine)</Title>		
+             <Title>Bedform</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
-                  <ogc:Literal>volcano (island or submarine)</ogc:Literal>		
+                  <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#d2802d</CssParameter>		
+                  <CssParameter name="fill">#33994d</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>  
-         </FeatureTypeStyle>
+          </Rule> 
+          <Rule>		
+             <Title>Reef lagoon</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>reef lagoon</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#66b3cc</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>          
+        </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

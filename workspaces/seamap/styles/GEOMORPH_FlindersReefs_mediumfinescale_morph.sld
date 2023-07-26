@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Morphological surface</Title>		
+             <Title>Medium-fine-scale morphological surface</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
