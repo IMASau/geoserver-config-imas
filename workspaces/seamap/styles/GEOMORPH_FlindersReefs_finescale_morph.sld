@@ -26,52 +26,7 @@
                   <CssParameter name="fill-opacity">0</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>
-          <Rule>		
-             <Title>Canyon</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Canyon</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#8c8c90</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule> 
-          <Rule>		
-             <Title>Channel</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Channel</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#39ac73</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule> 
-          <Rule>		
-             <Title>Cone</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Cone</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#bf4040</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>           
+          </Rule>          
           <Rule>		
              <Title>Depression</Title>		
              <ogc:Filter>		
@@ -82,37 +37,7 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#002673</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>
-          <Rule>		
-             <Title>Gully</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Gully</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#70c2c2</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>           
-          <Rule>		
-             <Title>Hummock</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Hummock</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#e09a6c</CssParameter>		
+                  <CssParameter name="fill">#538cc6</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -127,37 +52,22 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#538cc6</CssParameter>		
+                  <CssParameter name="fill">#85adad</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>          
           <Rule>		
-             <Title>Mound</Title>		
+             <Title>Valley</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Mound</ogc:Literal>		
+                  <ogc:Literal>Valley</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#ffea00</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>	
-          <Rule>		
-             <Title>Ridge</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Ridge</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#730000</CssParameter>		
+                  <CssParameter name="fill">#002b80</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
