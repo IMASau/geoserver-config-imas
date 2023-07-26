@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphic Unit (BGU)</Title>		
+             <Title>Basic Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
@@ -28,35 +28,20 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>    Volcano (Knoll)</Title>		
+             <Title>Volcano (island or submarine)</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Knoll - volcano (island or submarine)</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>volcano (island or submarine)</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#df5020</CssParameter>		
+                  <CssParameter name="fill">#d2802d</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>  
-          <Rule>		
-             <Title>    Volcano (Seamount)</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Seamount - volcano (island or submarine)</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#b38eb4</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>           
          </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>
