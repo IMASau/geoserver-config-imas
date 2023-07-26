@@ -38,7 +38,7 @@
           <MaxScaleDenominator>900000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#99cc00</CssParameter>		
+                  <CssParameter name="fill">#66cc00</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -118,7 +118,7 @@
           <MaxScaleDenominator>900000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#70c2c2</CssParameter>		
+                  <CssParameter name="fill">#0070ff</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		

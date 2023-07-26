@@ -1,7 +1,14 @@
-<h5 style="padding-top:10px; padding-bottom:10px">Cairns Seamount multi-scale geomorphology</h5>
+<#list features as feature>
 
-	<#list features?sort_by(["dataSource", "rawValue"])?reverse as feature>
     <#if (feature_index < 1) >
+
+<h5 style="padding-top:10px; padding-bottom:10px">
+	<#if feature.dataSource.value?matches('.*broadscale.*')>
+	Broad-scale Classification</h5>
+	<#else>
+	Medium-fine scale Classification</h5>
+	</#if>
+
        <table cellpadding="2" style="border:1.5pt solid black; border-collapse: collapse; text-align: center; table-layout: fixed; width: 530px;">
 	<col width="20%" />
 	<col width="24%" />
@@ -22,7 +29,7 @@
                     <#if (feature.Morphology_feature.value != 'NA' && feature.Morphology_feature.value != 'unknown')>${feature.Morphology_feature.value?lower_case}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; "> <!-- changed the background color to a pale blue -->
-                    <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')><b>${feature.Basic_Geom_Unit.value}<b><#else><i>NA</i></#if>
+                    <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')>${feature.Basic_Geom_Unit.value}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->
                     <#if (feature.BGU_T.value != 'NA' && feature.BGU_T.value != 'unknown')>${feature.BGU_T.value}<#else><i>NA</i></#if>
@@ -35,6 +42,5 @@
                 </td>
             </tr>
         </table>
-<br>
     </#if>
 </#list>
