@@ -132,7 +132,7 @@ h4 {
 }
 
 h5 {
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	font-weight: 600;
 	font-size: 11px;
 }

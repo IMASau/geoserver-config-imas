@@ -2,9 +2,9 @@
     <#if feature_index == 0> <!-- Always process the first feature -->
         <h5 style="padding-top:10px; padding-bottom:10px">
         <#if feature.dataSource.value?matches('.*_BH.*')>
-            Medium-scale Classification: Bathymetric <u>High</u>
+            Medium-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span>
         <#else>
-            Medium-scale Classification: Bathymetric <u>Low</u>
+            Medium-scale Classification: Bathymetric <span style="text-decoration: underline; color: #0077b3;">LOW</span>
         </#if>
         </h5>
 
@@ -23,10 +23,10 @@
                 <th style="text-align: center; font-size:11px; ">Age</th>
 
             <tr>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; ">
+                <td style="text-align: center; white-space: normal; background-color: #afd1e9; font-size:11px; ">
                     <#if (feature.Morphology_feature.value != 'NA' && feature.Morphology_feature.value != 'unknown')>${feature.Morphology_feature.value?lower_case}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; background-color: #afd1e9; font-size:11px; "> <!-- changed the background color to a pale blue -->
                     <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')>${feature.Basic_Geom_Unit.value}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->
@@ -47,9 +47,9 @@
         <#if feature.dataSource.value != features[0].dataSource.value>
         <h5 style="padding-top:10px; padding-bottom:10px">
         <#if feature.dataSource.value?matches('.*_BH.*')>
-            Medium-scale Classification: Bathymetric <u>High</u>
+            Medium-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span>
         <#else>
-            Medium-scale Classification: Bathymetric <u>Low</u>
+            Medium-scale Classification: Bathymetric <span style="text-decoration: underline; color: #0077b3;">LOW</span>
         </#if>
         </h5>
        <table cellpadding="2" style="border:1.5pt solid black; border-collapse: collapse; text-align: center; table-layout: fixed; width: 530px;">
@@ -67,10 +67,10 @@
                 <th style="text-align: center; font-size:11px; ">Age</th>
 
             <tr>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; ">
+                <td style="text-align: center; white-space: normal; background-color: #afd1e9; font-size:11px; ">
                     <#if (feature.Morphology_feature.value != 'NA' && feature.Morphology_feature.value != 'unknown')>${feature.Morphology_feature.value?lower_case}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; background-color: #afd1e9; font-size:11px; "> <!-- changed the background color to a pale blue -->
                     <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')>${feature.Basic_Geom_Unit.value}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->
