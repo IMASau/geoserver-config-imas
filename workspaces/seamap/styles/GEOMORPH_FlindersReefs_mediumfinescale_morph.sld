@@ -28,6 +28,21 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
+             <Title>Bank</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
+                  <ogc:Literal>Bank</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#99cc00</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>           
+          <Rule>		
              <Title>Canyon</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
@@ -112,7 +127,7 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#cccc00</CssParameter>		
+                  <CssParameter name="fill">#e09a6c</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -142,7 +157,7 @@
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#ffbf00</CssParameter>		
+                  <CssParameter name="fill">#ffea00</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
@@ -161,7 +176,22 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>			
+          </Rule>	
+          <Rule>		
+             <Title>Terrace</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
+                  <ogc:Literal>Terrace</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#FFAD00</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>          
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>
