@@ -62,13 +62,13 @@
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
-                  <ogc:Literal>Reef</ogc:Literal>		
+                  <ogc:Literal>reef</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#998066</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                  <CssParameter name="fill-opacity">1</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>
