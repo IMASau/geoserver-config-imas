@@ -30,7 +30,7 @@
               <ColorMapEntry color="#c52603" opacity="0.7" label="-50" quantity="-50"/>
               <ColorMapEntry color="#a21201" opacity="0.7" label="-40" quantity="-40"/>
               <ColorMapEntry color="#7a0403" opacity="0.7" label="-1" quantity="-1"/>
-              <ColorMapEntry color="#000000" opacity="0.0" quantity="5"/>              
+              <ColorMapEntry color="#000000" opacity="0.0" quantity="0"/>              
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
