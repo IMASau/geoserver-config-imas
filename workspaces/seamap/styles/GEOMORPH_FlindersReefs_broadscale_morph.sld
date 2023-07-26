@@ -13,10 +13,10 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Broad-scale morphological surface</Title>		
+             <Title>Broad-scale Morphology</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
                   <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		

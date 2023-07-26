@@ -16,7 +16,7 @@
              <Title>Broad-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		

@@ -13,10 +13,10 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Fine-scale morphological surface</Title>		
+             <Title>Fine-scale Morphology</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
                   <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
@@ -35,6 +35,7 @@
                   <ogc:Literal>Depression</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#538cc6</CssParameter>		
@@ -50,6 +51,7 @@
                   <ogc:Literal>Moat</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#85adad</CssParameter>		
@@ -65,6 +67,7 @@
                   <ogc:Literal>Valley</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#002b80</CssParameter>		

@@ -13,10 +13,10 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Medium-scale morphological surface</Title>		
+             <Title>Medium-scale Morphology</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
                   <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
@@ -35,6 +35,7 @@
                   <ogc:Literal>Apron</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#b8b87a</CssParameter>		
@@ -50,6 +51,7 @@
                   <ogc:Literal>Escarpment</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#bd8775</CssParameter>		
@@ -65,6 +67,7 @@
                   <ogc:Literal>Depression</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#538cc6</CssParameter>		
@@ -80,6 +83,7 @@
                   <ogc:Literal>Platform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#669999</CssParameter>		
@@ -87,7 +91,6 @@
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>
-      <VendorOption name="sortBy">dataSource A</VendorOption>		          
 
         </FeatureTypeStyle>
      </UserStyle>
