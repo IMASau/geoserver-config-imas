@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Broad-scale Geomorphic Unit</Title>		
+             <Title>Medium-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
@@ -34,7 +34,8 @@
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>	
+          <MaxScaleDenominator>1100000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#33994d</CssParameter>		
@@ -43,6 +44,22 @@
              </PolygonSymbolizer>		
           </Rule> 
           <Rule>		
+             <Title>Barform</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>barform</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+          <MaxScaleDenominator>1100000</MaxScaleDenominator>                        
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#ac969c</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>           
+          <Rule>		
              <Title>Marine barform</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
@@ -50,6 +67,7 @@
                   <ogc:Literal>marine barform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>1100000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#c2eb47</CssParameter>		

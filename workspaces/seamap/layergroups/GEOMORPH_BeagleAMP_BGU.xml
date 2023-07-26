@@ -1,0 +1,43 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-4b5bfca8:18990267323:-5456</id>
+  <name>GEOMORPH_BeagleAMP_BGU</name>
+  <mode>SINGLE</mode>
+  <title>Seabed geomorphology of the Beagle AMP - multi-scale resolution</title>
+  <abstractTxt>Bathymetric high and low geomorphology of the Beagle Australian Marine Park (AMP).  This layer group comprises Basic Geomorphic Units (BGU) visualised across three levels of scale: broadscale, medium-scale, and finescale. Layers are arranged hierarchically, with broadscale BGU serving as the background layer and finescale positioned as the top layer. Zoom-based styling progressively switches on more detailed layers as zoom level increases.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-4b5bfca8:1898bfe3a4b:-36f5</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-4b5bfca8:1898bfe3a4b:-397c</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-4b5bfca8:1898bfe3a4b:-3b04</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-4b5bfca8:1898bfe3a4b:-36f8</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4b5bfca8:1898bfe3a4b:-3985</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4b5bfca8:1898bfe3a4b:-3bc1</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>146.4799010736757</minx>
+    <maxx>147.46684285900005</maxx>
+    <miny>-39.60012003241354</miny>
+    <maxy>-39.09985424399997</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-07-26 04:49:14.97 UTC</dateCreated>
+  <dateModified>2023-07-26 04:56:43.824 UTC</dateModified>
+</layerGroup>

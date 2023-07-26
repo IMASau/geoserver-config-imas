@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphic Unit (BGU)</Title>		
+             <Title>Fine-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
@@ -26,125 +26,103 @@
                   <CssParameter name="fill-opacity">0</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>	 	  
-           <Rule>		
-             <Title>    Barform (Mound)</Title>		
-             <ogc:Filter>
-             <ogc:Or>               
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Mound - barform</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Mound - marine barform</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>   
-             </ogc:Or>                              
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#b7d55d</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
           </Rule>
-          
           <Rule>		
-             <Title>    Bedform (Mound)</Title>		
+             <Title>Bedform</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Mound - bedform</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#e0c285</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>
-           <Rule>		
-             <Title>    Barform (Ridge)</Title>		
-             <ogc:Filter>
-             <ogc:Or>               
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Ridge - barform</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Ridge - marine barform</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>   
-             </ogc:Or>                              
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#ac969c</CssParameter>		
+                  <CssParameter name="fill">#33994d</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>          
           <Rule>		
-             <Title>    Bedform (Ridge)</Title>		
+             <Title>Knickpoint</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Ridge - bedform</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>knickpoint</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#e0859c</CssParameter>		
+                  <CssParameter name="fill">#0066cc</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>		
+          </Rule>
           <Rule>		
-             <Title>Morphology (where BGU unknown)</Title>		
+             <Title>Reef</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>reef</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#ffffff</CssParameter>		
-                  <CssParameter name="fill-opacity">0</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>		
-          <Rule>		
-             <Title>    Mound</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Mound</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#ffbf00</CssParameter>		
+                  <CssParameter name="fill">#998066</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>	
+          </Rule>          
           <Rule>		
-             <Title>    Ridge</Title>		
+             <Title>Submarine channel</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>LEGEND</ogc:PropertyName>		
-                  <ogc:Literal>Ridge</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>submarine channel</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>	
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#730000</CssParameter>		
+                  <CssParameter name="fill">#8f8fbc</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>			
+          </Rule> 
+          <Rule>		
+             <Title>Swale</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>swale</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#79d2a6</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>    		
+          <Rule>		
+             <Title>Tectonic depression</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>tectonic depression</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#75a3a7</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>					
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>
