@@ -1,4 +1,4 @@
-<h5 style="padding-top:10px; padding-bottom:10px">Medium-scale Classification</h5>
+<h5 style="padding-top:10px; padding-bottom:10px">Medium-fine-scale Classification</h5>
 
 <#list features as feature>
 

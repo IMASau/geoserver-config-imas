@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Fine-scale Geomorphic Unit</Title>		
+             <Title>Broad-scale Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
@@ -26,7 +26,7 @@
                   <CssParameter name="fill-opacity">0</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>
+          </Rule>	 	  
           <Rule>		
              <Title>Bedform</Title>		
              <ogc:Filter>		
@@ -34,8 +34,8 @@
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>	
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                    
+             </ogc:Filter>		
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#33994d</CssParameter>		
@@ -44,21 +44,21 @@
              </PolygonSymbolizer>		
           </Rule> 
           <Rule>		
-             <Title>Reef lagoon</Title>		
+             <Title>Marine barform</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
-                  <ogc:Literal>reef lagoon</ogc:Literal>		
+                  <ogc:Literal>marine barform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#66b3cc</CssParameter>		
+                  <CssParameter name="fill">#c2eb47</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>          
+          </Rule>                     
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>

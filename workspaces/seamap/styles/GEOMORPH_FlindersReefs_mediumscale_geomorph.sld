@@ -60,22 +60,6 @@
              </PolygonSymbolizer>		
           </Rule>           
           <Rule>		
-             <Title>Reef lagoon</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
-                  <ogc:Literal>reef lagoon</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>	
-          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#66b3cc</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>
-          <Rule>		
              <Title>Reef</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
@@ -91,8 +75,22 @@
                 </Fill>		
              </PolygonSymbolizer>		
           </Rule>
-      <VendorOption name="sortBy">dataSource A</VendorOption>		          
-
+          <Rule>		
+             <Title>Reef lagoon</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>reef lagoon</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>	
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#66b3cc</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>          
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>

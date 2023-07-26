@@ -19,7 +19,7 @@
                   <ogc:PropertyName>LEGEND</ogc:PropertyName>		
                   <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>	
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#ffffff</CssParameter>		
@@ -35,6 +35,7 @@
                   <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#33994d</CssParameter>		
@@ -50,6 +51,7 @@
                   <ogc:Literal>bedrock outcrop (undefined)</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#862d59</CssParameter>		
@@ -65,6 +67,7 @@
                   <ogc:Literal>current-induced channel</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#75d7d7</CssParameter>		
@@ -80,6 +83,7 @@
                   <ogc:Literal>debris apron</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#c6c653</CssParameter>		
@@ -95,6 +99,7 @@
                   <ogc:Literal>marine barform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#c2eb47</CssParameter>		
@@ -110,6 +115,7 @@
                   <ogc:Literal>reef</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#998066</CssParameter>		
@@ -125,6 +131,7 @@
                   <ogc:Literal>reef crest</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#b96546</CssParameter>		
@@ -140,6 +147,7 @@
                   <ogc:Literal>fore-reef</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#c76b82</CssParameter>		
@@ -155,6 +163,7 @@
                   <ogc:Literal>submarine canyon</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#808080</CssParameter>		
@@ -170,6 +179,7 @@
                   <ogc:Literal>submarine channel</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#8f8fbc</CssParameter>		
@@ -185,6 +195,7 @@
                   <ogc:Literal>submarine gully</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
+          <MaxScaleDenominator>900000</MaxScaleDenominator>            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#52577a</CssParameter>		
