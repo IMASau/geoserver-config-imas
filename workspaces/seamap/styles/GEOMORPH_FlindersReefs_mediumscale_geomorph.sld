@@ -34,7 +34,8 @@
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>debris apron</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			            
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#c6c653</CssParameter>		
@@ -49,7 +50,8 @@
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>lateral scarp</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>	
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#cb6d4d</CssParameter>		
@@ -64,7 +66,8 @@
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>reef lagoon</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>	
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#66b3cc</CssParameter>		
@@ -79,7 +82,8 @@
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
                   <ogc:Literal>reef</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
+             </ogc:Filter>	
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>			                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#998066</CssParameter>		
