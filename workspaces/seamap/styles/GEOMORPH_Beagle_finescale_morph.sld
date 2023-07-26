@@ -35,7 +35,7 @@
                   <ogc:Literal>Depression</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
-          <MaxScaleDenominator>1100000</MaxScaleDenominator>                                     
+          <MaxScaleDenominator>900000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#538cc6</CssParameter>		
@@ -51,7 +51,7 @@
                   <ogc:Literal>Mound</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>
-          <MaxScaleDenominator>1100000</MaxScaleDenominator>                                     
+          <MaxScaleDenominator>900000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#ffea00</CssParameter>		
@@ -60,17 +60,17 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>Platform</Title>		
+             <Title>Ridge</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Platform</ogc:Literal>		
+                  <ogc:Literal>Ridge</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>
-          <MaxScaleDenominator>1100000</MaxScaleDenominator>                                    
+          <MaxScaleDenominator>900000</MaxScaleDenominator>                        
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#669999</CssParameter>		
+                  <CssParameter name="fill">#730000</CssParameter>		
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		

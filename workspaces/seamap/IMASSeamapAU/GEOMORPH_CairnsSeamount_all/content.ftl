@@ -2,9 +2,11 @@
     <#if feature_index == 0> <!-- Always process the first feature -->
         <h5 style="padding-top:10px; padding-bottom:10px">
         <#if feature.dataSource.value?matches('.*broadscale.*')>
-            Broad-scale Classification
-        <#else>
-            Medium-fine scale Classification
+            Broad-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span>
+        <#elseif feature.dataSource.value?matches('.*_BH.*')>
+            Medium-fine-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span>
+	<#else>
+            Medium-fine-scale Classification: Bathymetric <span style="text-decoration: underline; color: #0077b3;">LOW</span>
         </#if>
         </h5>
 
@@ -47,9 +49,11 @@
         <#if feature.dataSource.value != features[0].dataSource.value>
         <h5 style="padding-top:10px; padding-bottom:10px">
         <#if feature.dataSource.value?matches('.*broadscale.*')>
-            Broad-scale Classification
-        <#else>
-            Medium-fine scale Classification
+            Broad-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span>
+        <#elseif feature.dataSource.value?matches('.*_BH.*')>
+            Medium-fine-scale Classification: Bathymetric <span style="text-decoration: underline; color: #cc0000;">HIGH</span>
+	<#else>
+            Medium-fine-scale Classification: Bathymetric <span style="text-decoration: underline; color: #0077b3;">LOW</span>
         </#if>
         </h5>
 
