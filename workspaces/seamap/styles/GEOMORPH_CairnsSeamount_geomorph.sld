@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Geomorphic Units - all scales</Title>		
+             <Title>LVL1: BROAD-scale Geomorphic Units</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
@@ -26,7 +26,37 @@
                   <CssParameter name="fill-opacity">0</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>	 	  
+          </Rule>
+          <Rule>		
+             <Title>Reef</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>reef</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#998066</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule> 
+          <Rule>		
+             <Title>LVL2: MEDIUM-FINE-scale Geomorphic Units</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Basic_Geom_Unit</ogc:PropertyName>		
+                  <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#ffffff</CssParameter>		
+                  <CssParameter name="fill-opacity">0</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>          
           <Rule>		
              <Title>Bedform</Title>		
              <ogc:Filter>		

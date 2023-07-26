@@ -26,10 +26,10 @@
             </tr>
 
             <tr>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; ">
+                <td style="text-align: center; white-space: normal; background-color: #d7e8f4; font-size:11px; ">
                     <#if (feature.Morphology_feature.value != 'NA' && feature.Morphology_feature.value != 'unknown')>${feature.Morphology_feature.value?lower_case}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; background-color: #d7e8f4; font-size:11px; "> <!-- changed the background color to a pale blue -->
                     <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')>${feature.Basic_Geom_Unit.value}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->
@@ -74,10 +74,10 @@
             </tr>
 
             <tr>
-                <td style="text-align: center; white-space: normal; font-size:11px; ">
+                <td style="text-align: center; white-space: normal; background-color: #d7e8f4; font-size:11px; ">
                     <#if (feature.Morphology_feature.value != 'NA' && feature.Morphology_feature.value != 'unknown')>${feature.Morphology_feature.value?lower_case}<#else><i>NA</i></#if>
                 </td>
-                <td style="text-align: center; white-space: normal; background-color: #b3d9ff; font-size:11px; "> <!-- changed the background color to a pale blue -->
+                <td style="text-align: center; white-space: normal; background-color: #d7e8f4; font-size:11px; "> <!-- changed the background color to a pale blue -->
                     <#if (feature.Basic_Geom_Unit.value != 'NA' && feature.Basic_Geom_Unit.value != 'unknown')>${feature.Basic_Geom_Unit.value}<#else><i>NA</i></#if>
                 </td>
                 <td style="text-align: center; white-space: normal; font-size:11px; "> <!-- changed the background color to a pale blue -->

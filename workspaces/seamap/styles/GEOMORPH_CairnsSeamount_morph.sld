@@ -13,7 +13,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Morphology - all scales</Title>		
+             <Title>LVL1: BROAD-scale Morphology</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
@@ -26,7 +26,37 @@
                   <CssParameter name="fill-opacity">0</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>	 	            
+          </Rule>
+          <Rule>		
+             <Title>Platform</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
+                  <ogc:Literal>Platform</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#669999</CssParameter>		
+                  <CssParameter name="fill-opacity">0.9</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule> 
+          <Rule>		
+             <Title>LVL2: MEDIUM-FINE-scale Morphology</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
+                  <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#ffffff</CssParameter>		
+                  <CssParameter name="fill-opacity">0</CssParameter>		
+                </Fill>		
+             </PolygonSymbolizer>		
+          </Rule>          
           <Rule>		
              <Title>Depression</Title>		
              <ogc:Filter>		
@@ -116,22 +146,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>		
                 </Fill>		
              </PolygonSymbolizer>		
-          </Rule>	
-          <Rule>		
-             <Title>Platform</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology_feature</ogc:PropertyName>		
-                  <ogc:Literal>Platform</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#669999</CssParameter>		
-                  <CssParameter name="fill-opacity">0.9</CssParameter>		
-                </Fill>		
-             </PolygonSymbolizer>		
-          </Rule>          
+          </Rule>	         
       <VendorOption name="sortBy">dataSource A</VendorOption>		          
         </FeatureTypeStyle>
      </UserStyle>
