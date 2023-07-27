@@ -35,7 +35,7 @@
                   <ogc:Literal>Depression</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+          <MaxScaleDenominator>900000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#538cc6</CssParameter>		
@@ -51,7 +51,7 @@
                   <ogc:Literal>Moat</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+          <MaxScaleDenominator>900000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#85adad</CssParameter>		
@@ -67,7 +67,7 @@
                   <ogc:Literal>Valley</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+          <MaxScaleDenominator>900000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#002b80</CssParameter>		

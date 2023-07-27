@@ -35,7 +35,7 @@
                   <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>	
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                    
+          <MaxScaleDenominator>900000</MaxScaleDenominator>			                                    
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#33994d</CssParameter>		
@@ -51,7 +51,7 @@
                   <ogc:Literal>reef lagoon</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
-          <MaxScaleDenominator>300000</MaxScaleDenominator>			                                                
+          <MaxScaleDenominator>900000</MaxScaleDenominator>			                                                
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#66b3cc</CssParameter>		
