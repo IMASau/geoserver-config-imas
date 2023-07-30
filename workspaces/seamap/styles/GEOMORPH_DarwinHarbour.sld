@@ -43,7 +43,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Slope</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Geomorph</ogc:PropertyName>
+              <ogc:PropertyName>Surface</ogc:PropertyName>
               <ogc:Literal>Slope</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
