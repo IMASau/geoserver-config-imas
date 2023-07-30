@@ -1,0 +1,16 @@
+<layer>
+  <name>MARS_sediment_interpolated_MUD</name>
+  <id>LayerInfoImpl-4b5bfca8:189a383cec5:132</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5f0f557:18888648944:35f1</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-4b5bfca8:189a383cec5:131</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-30 09:07:40.461 UTC</dateCreated>
+</layer>

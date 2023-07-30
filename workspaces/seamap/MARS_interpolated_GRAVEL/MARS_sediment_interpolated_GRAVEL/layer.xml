@@ -1,0 +1,17 @@
+<layer>
+  <name>MARS_sediment_interpolated_GRAVEL</name>
+  <id>LayerInfoImpl-4b5bfca8:189a383cec5:138</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4b5bfca8:189a383cec5:415</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-4b5bfca8:189a383cec5:137</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-07-30 09:12:33.830 UTC</dateCreated>
+  <dateModified>2023-07-30 09:23:55.475 UTC</dateModified>
+</layer>

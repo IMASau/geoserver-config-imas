@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-4b5bfca8:189a383cec5:130</id>
+  <name>MARS_interpolated_MUD</name>
+  <description>MARS interpolated sediment map for Aus - MUD</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-07-30 09:06:51.318 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/MARS_interpolated_sediment/seabedMUD_AusEEZ_2011.tif</url>
+</coverageStore>
