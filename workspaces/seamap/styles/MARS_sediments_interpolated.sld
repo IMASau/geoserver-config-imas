@@ -8,7 +8,6 @@
   <NamedLayer>
     <Name>Three color gradient</Name>
     <UserStyle>
-      <Title>SLD Cook Book: Three color gradient</Title>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
