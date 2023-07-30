@@ -42,22 +42,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Other deep areas</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Deep areas</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>            
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#16389c</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>	         
+        </Rule>         
         <Rule>
           <Title>Reef crest</Title>
           <ogc:Filter>
