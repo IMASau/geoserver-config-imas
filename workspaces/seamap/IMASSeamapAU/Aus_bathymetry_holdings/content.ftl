@@ -23,7 +23,7 @@
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Info</th>
 	</TR>
 
-	<#list features?sort_by(["data_dl", "rawValue"])?reverse as feature>
+	<#list features?sort_by(["DATA_DL", "rawValue"])?reverse as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RESERVE.value>		
@@ -43,13 +43,13 @@
 
 		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
 			<#if collection?has_content>
-				<#if feature.dtype.value == 'DEM'>
+				<#if feature.DTYPE.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
 				<#else>
 					${feature.TITLE_ASB.value}	
 				</#if>				
 			<#else>
-				<#if feature.dtype.value == 'DEM'>
+				<#if feature.DTYPE.value == 'DEM'>
 					${feature.NAME.value} <b><i>[modelled]</i></b>
 				<#elseif surveyID?has_content>
 					${feature.NAME.value} <i>(${feature.SURVEYID.value})</i>
