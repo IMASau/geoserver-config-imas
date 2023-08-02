@@ -26,14 +26,14 @@
 	<#list features?sort_by(["data_dl", "rawValue"])?reverse as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
-		<#assign reserve=feature.AMP_RES.value>		
-		<#assign metadata=feature.METADATA.value>
-		<#assign surveyID=feature.surveyID.value>
+		<#assign reserve=feature.AMP_RESERVE.value>		
+		<#assign metadata=feature.METADATA_URL.value>
+		<#assign surveyID=feature.SURVEYID.value>
 		<#assign resolution=feature.RES_ACTUAL.value>
-		<#assign collectedby=feature.collecting_org.value>						
-		<#assign POC=feature.pointofcontact.value>		
-		<#assign startdate=feature.start_date.value>
-		<#assign enddate=feature.end_date.value>
+		<#assign collectedby=feature.COLLECTING_ORG.value>						
+		<#assign POC=feature.POINTOFCONTACT.value>		
+		<#assign startdate=feature.START_DATE.value>
+		<#assign enddate=feature.END_DATE.value>
 		<#assign today = .now?long >
 
 		<#if (feature_index < 10)> 
@@ -50,18 +50,18 @@
 				</#if>				
 			<#else>
 				<#if feature.dtype.value == 'DEM'>
-					${feature.name.value} <b><i>[modelled]</i></b>
+					${feature.NAME.value} <b><i>[modelled]</i></b>
 				<#elseif surveyID?has_content>
-					${feature.name.value} <i>(${feature.surveyID.value})</i>
+					${feature.NAME.value} <i>(${feature.SURVEYID.value})</i>
 				<#else>
-					${feature.name.value}	
+					${feature.NAME.value}	
 				</#if>
 			</#if>
 		</TD>
 
 		<TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
 			<#if startdate?has_content>
-				<#if today < feature.end_date.rawValue?long>
+				<#if today < feature.END_DATE.rawValue?long>
 					<i>in progress</i>
 				<#else>
 					${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
@@ -80,21 +80,21 @@
 		</TD>     
                  
 		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
-			<#if feature.AMP_RES.value == 'various'>
+			<#if feature.AMP_RESERVE.value == 'various'>
 				various
 			<#elseif reserve?has_content>
-				${feature.AMP_RES.value}
+				${feature.AMP_RESERVE.value}
 			<#else>
 				-
 			</#if>
 		</TD>   
      
 		<TD style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:10.5px; border-right: 1px solid black;">
-			<#if feature.data_dl.value == 'yes - other'>
+			<#if feature.DATA_DL.value == 'yes - other'>
 				yes - other
-			<#elseif feature.data_dl.value == 'yes - ASB'>
+			<#elseif feature.DATA_DL.value == 'yes - ASB'>
 				<a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
-			<#elseif feature.data_dl.value == 'yes - WA bathymetry portal'>
+			<#elseif feature.DATA_DL.value == 'yes - WA bathymetry portal'>
 				<a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
 			<#else>
 				not available
@@ -104,10 +104,10 @@
 
 		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
 			<#if collectedby?has_content>
-				<#if feature.collecting_org.value == 'WA Department of Transport (DoT)'>
+				<#if feature.COLLECTING_ORG.value == 'WA Department of Transport (DoT)'>
 					WA DoT
 				<#else>
-					${feature.collecting_org.value}
+					${feature.COLLECTING_ORG.value}
 				</#if> 
 			<#else>
 				-
@@ -116,7 +116,7 @@
 
 		<TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black; overflow-wrap: break-word; word-break: break-word; hyphens: auto;">
 			<#if POC?has_content>
-				${feature.pointofcontact.value}
+				${feature.POINTOFCONTACT.value}
 			<#else>
 				-
 			</#if> 
@@ -124,7 +124,7 @@
 
 		<TD style="font-size:11px; border-right: 1px solid black;">
 			<#if metadata?has_content>
-				<a rel="external" href="${feature.METADATA.value}" target="_blank">metadata</a>
+				<a rel="external" href="${feature.METADATA_URL.value}" target="_blank">metadata</a>
 			<#else>
 				-
 			</#if> 

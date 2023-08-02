@@ -6,9 +6,9 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Coverage of Australian bathymetry holdings - by survey resolution and data accessibility</title>
-  <abstract>Extent and data availability status of Australian bathymetry holdings,. Coverage was extracted primarily from AusSeabed layers &quot;AusSeabed Bathymetry Holdings (by survey)&quot; and &quot;AusSeabed Bathymetry Holdings (compilations)&quot;. Some minor additional coverage has been added for (1) more recent surveys (2021-present) from data held by IMAS not yet published by AusSeabed, and from (2) AHO Hydroscheme 2020, 2021, 2022. Coverage shows both surveys and modelled bathymetry grids. Survey extents have been styled according to effective (usable) gridded resolution of data.&#xd;
+  <abstract>Extent and data availability status of Australian bathymetry holdings,. Coverage was extracted primarily from AusSeabed layers &quot;Bathymetry Acquisitions Coverage (Dynamic)&quot; and &quot;Bathymetry Compilations Coverage (Dynamic)&quot;. Some minor additional coverage has been added from other publicly available bathymetry holdings. Coverage shows both surveys and modelled bathymetry grids. Survey extents have been styled according to effective (usable) gridded resolution of data.&#xd;
 &#xd;
-The holdings extent is current as at 3rd June 2023.</abstract>
+The holdings extent is current as at 2nd August 2023.</abstract>
   <keywords>
     <string>features</string>
     <string>Aus_bathymetry_survey_extents_PUBLISHED</string>
