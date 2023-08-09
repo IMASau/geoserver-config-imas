@@ -12,12 +12,12 @@
       <FeatureTypeStyle>
         <Rule>
           <Title>Urchin barren</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>barrens</PropertyName>
-					      <Literal>1</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>             
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>barrens</ogc:PropertyName>
+					      <ogc:Literal>1</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>             
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -37,12 +37,12 @@
         </Rule>
         <Rule>
           <Title>No urchin barren</Title>
-					<Filter>
-					   <PropertyIsEqualTo>
-					      <PropertyName>barrens</PropertyName>
-					      <Literal>0</Literal>
-					   </PropertyIsEqualTo>
-					</Filter>             
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>barrens</ogc:PropertyName>
+					      <ogc:Literal>0</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>             
           <PointSymbolizer>
             <Graphic>
               <Mark>
