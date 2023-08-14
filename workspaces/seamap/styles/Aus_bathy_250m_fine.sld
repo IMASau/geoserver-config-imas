@@ -34,7 +34,37 @@
               <ColorMapEntry color="#000000" opacity="0.0" quantity="100"/>                                                        
             </ColorMap>
           </RasterSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#ffffff" opacity="0.0" quantity="0.0" label="Depth (m)"/>                                          
+              <ColorMapEntry color="#7a0403" opacity="0.7" label=" 1" quantity="-1"/>
+              <ColorMapEntry color="#a21201" opacity="0.7" label=" 10" quantity="-10"/>              
+              <ColorMapEntry color="#c52603" opacity="0.7" label=" 30" quantity="-30"/>              
+              <ColorMapEntry color="#e04008" opacity="0.7" label=" 50" quantity="-50"/>              
+              <ColorMapEntry color="#f26014" opacity="0.7" label=" 100" quantity="-100"/>              
+              <ColorMapEntry color="#fc8825" opacity="0.7" label=" 150" quantity="-150"/>              
+              <ColorMapEntry color="#fdae35" opacity="0.7" label=" 200" quantity="-200"/>              
+              <ColorMapEntry color="#f0cc3a" opacity="0.7" label=" 300" quantity="-300"/>              
+              <ColorMapEntry color="#d7e535" opacity="0.7" label=" 400" quantity="-400"/>              
+              <ColorMapEntry color="#b6f735" opacity="0.7" label=" 500" quantity="-500"/>              
+              <ColorMapEntry color="#90ff48" opacity="0.7" label=" 600" quantity="-600"/>              
+              <ColorMapEntry color="#5cfc70" opacity="0.7" label=" 700" quantity="-700"/>              
+              <ColorMapEntry color="#2df09d" opacity="0.7" label=" 800" quantity="-800"/>              
+              <ColorMapEntry color="#18dec0" opacity="0.7" label=" 1000" quantity="-1000"/>              
+              <ColorMapEntry color="#23c4e3" opacity="0.7" label=" 1500" quantity="-1500"/>              
+              <ColorMapEntry color="#3aa3fc" opacity="0.7" label=" 2000" quantity="-2000"/>              
+              <ColorMapEntry color="#4681f7" opacity="0.7" label=" 3000" quantity="-3000"/>              
+              <ColorMapEntry color="#455ed3" opacity="0.7" label=" 4000" quantity="-4000"/>              
+              <ColorMapEntry color="#3e3994" opacity="0.7" label=" 5000" quantity="-5000"/>              
+              <ColorMapEntry color="#30123b" opacity="0.7" label=" 6000" quantity="-6000"/>              
+              <ColorMapEntry color="#000000" opacity="0.0" quantity="-8000"/>                                                        
+            </ColorMap>
+          </RasterSymbolizer>
+ 		<VendorOption name="inclusion">legendOnly</VendorOption>                                                     
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

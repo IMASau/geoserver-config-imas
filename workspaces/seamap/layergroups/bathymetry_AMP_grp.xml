@@ -36,7 +36,7 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
       <id>StyleInfoImpl--4812677:17ff27cf010:-6252</id>
     </style>
     <style>
-      <id>StyleInfoImpl--7a6c209c:1811e60aaec:-772c</id>
+      <id>StyleInfoImpl-262a8ff:189f2ad1ec4:-457b</id>
     </style>
   </styles>
   <bounds>
@@ -50,5 +50,5 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2023-01-19 12:06:56.217 UTC</dateModified>
+  <dateModified>2023-08-14 09:10:19.507 UTC</dateModified>
 </layerGroup>
