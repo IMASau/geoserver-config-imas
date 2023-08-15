@@ -1,16 +1,17 @@
 <layer>
   <name>SeamapAus_BOUNDARIES_state_coastal_waters</name>
-  <id>LayerInfoImpl-1dab5d87:189fb37881f:-2f32</id>
+  <id>LayerInfoImpl-1dab5d87:189fb37881f:-2eb2</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl-1dab5d87:189fb37881f:-2d7e</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-1dab5d87:189fb37881f:-2f33</id>
+    <id>FeatureTypeInfoImpl-1dab5d87:189fb37881f:-2eb3</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-08-15 22:48:13.884 UTC</dateCreated>
+  <dateCreated>2023-08-15 23:06:53.635 UTC</dateCreated>
+  <dateModified>2023-08-15 23:20:03.304 UTC</dateModified>
 </layer>

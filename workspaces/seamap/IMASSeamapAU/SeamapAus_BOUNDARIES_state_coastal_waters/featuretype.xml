@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1dab5d87:189fb37881f:-2f33</id>
+  <id>FeatureTypeInfoImpl-1dab5d87:189fb37881f:-2eb3</id>
   <name>SeamapAus_BOUNDARIES_state_coastal_waters</name>
   <nativeName>SeamapAus_BOUNDARIES_state_coastal_waters</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Australian state coastal waters</title>
+  <abstract>State marine jurisdiction (land masked)</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_state_coastal_waters</string>
@@ -35,21 +36,24 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>105.07480325726682</minx>
-    <maxx>166.55789011657498</maxx>
-    <miny>-56.53711460168297</miny>
-    <maxy>-7.763807343472033</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-2088682.3115959142</minx>
+    <maxx>2362427.3293470717</maxx>
+    <miny>-6467534.72673235</miny>
+    <maxy>-1112515.7205843946</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>105.07480325726682</minx>
-    <maxx>166.55789011657498</maxx>
-    <miny>-56.53711460168297</miny>
-    <maxy>-7.763807343472033</maxy>
+    <minx>-2088682.3115959142</minx>
+    <maxx>2362427.3293470717</maxx>
+    <miny>-6467534.72673235</miny>
+    <maxy>-1112515.7205843946</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
