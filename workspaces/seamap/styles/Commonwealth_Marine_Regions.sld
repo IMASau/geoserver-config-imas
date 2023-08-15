@@ -11,6 +11,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle> 
  		<Rule>
+          <ogc:Filter>              
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>ENVIRON</ogc:PropertyName>
+              <ogc:Literal>Marine</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+          </ogc:Filter>  
+          
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
@@ -25,8 +32,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
            			<CssParameter name="font-family">SansSerif</CssParameter>
            			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
-                    <VendorOption name="partials">false</VendorOption>
-					<VendorOption name="group">false</VendorOption>
+					<VendorOption name="group">true</VendorOption>
 					<VendorOption name="conflictResolution">true</VendorOption>
 			</TextSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
