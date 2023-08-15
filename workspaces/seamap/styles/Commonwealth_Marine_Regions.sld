@@ -34,6 +34,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           		  </Font>
 					<VendorOption name="group">true</VendorOption>
 					<VendorOption name="conflictResolution">true</VendorOption>
+<VendorOption name="goodnessOfFit">0.3</VendorOption>              
 			</TextSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
  		</Rule>         
