@@ -1,11 +1,8 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-		<h5>Collaborative Australian Protected Areas Database (Marine) 2016 [DRAFT]</h5><br>
 		<div class="feature"> 
-			<b>State:</b> ${feature.STATE.value} <i>(${feature.EPBC.value} managed)</i><br>  
-			<b>Area name:</b> ${feature.NAME.value}<br>    
-			<b>Type:</b> ${feature.TYPE.value}<br>
-			<b>Zone:</b> ${feature.ZONE_TYPE.value} 
+			<b>${feature.REGION.value}</b> <i>(${feature.ENVIRON.value})</i><br>    
+			<a href="${feature.URL_LINK.value}" target="_blank">Bioregional plan</a>
 			<BR>
 		</div>
 	</#if>  
