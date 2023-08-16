@@ -60,11 +60,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#b5d6f2</CssParameter>
+              <CssParameter name="fill">#99994d</CssParameter>
               <CssParameter name="fill-opacity">0.2</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#b5d6f2</CssParameter>
+              <CssParameter name="stroke">#99994d</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
               <CssParameter name="stroke-opacity">0.9</CssParameter>				  			  			  
             </Stroke>
