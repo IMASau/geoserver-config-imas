@@ -11,66 +11,39 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
  		<Rule>
-		  <MinScaleDenominator>1000000</MinScaleDenominator>                             
-		  <MaxScaleDenominator>10000000</MaxScaleDenominator>                   
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom_res</ogc:PropertyName>
+                        <ogc:PropertyName>geom</ogc:PropertyName>                       
                      </ogc:Function>
                   </Geometry>
            		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
+           			<ogc:PropertyName>Legend</ogc:PropertyName>
            		  </Label>                  
                   <Font>
            			<CssParameter name="font-family">SansSerif.plain</CssParameter>
-           			<CssParameter name="font-size">12</CssParameter>								
+           			<CssParameter name="font-size">10</CssParameter>	
+                    <CssParameter name="font-style">italic</CssParameter>  <!-- Add this line for italic text -->                    
           		  </Font>
                    <LabelPlacement>
            			<PointPlacement>
              			<AnchorPoint>
               		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
+               			<AnchorPointY>0.5</AnchorPointY>
              			</AnchorPoint>
            			</PointPlacement>
          		   </LabelPlacement>                
                     <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">-1</VendorOption>             
+					<VendorOption name="spaceAround">-1</VendorOption>   
+				<VendorOption name="autoWrap">120</VendorOption>              
 			</TextSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
- 		</Rule>
- 		<Rule>
-		  <MaxScaleDenominator>1000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>NATLEGEND</ogc:PropertyName>
-           		  </Label>                  
-                  <Font>
-           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
-           			<CssParameter name="font-size">10</CssParameter>								
-          		  </Font>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>
-           			</PointPlacement>
-         		   </LabelPlacement>                
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">-1</VendorOption>             
-			</TextSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+         <VendorOption name="inclusion">mapOnly</VendorOption>  
+         <VendorOption name="goodnessOfFit">0.5</VendorOption>          
  		</Rule>        
  		<Rule>
 		  <Title>Australian Marine Park zone boundaries</Title>          
                     <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		                      
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.8</CssParameter>

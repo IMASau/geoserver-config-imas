@@ -22,7 +22,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
            			<ogc:PropertyName>RESNAME</ogc:PropertyName>
            		  </Label>                  
                   <Font>
-           			<CssParameter name="font-family">SansSerif.plain</CssParameter>
+           			<CssParameter name="font-family">Calibri Light Italic</CssParameter>
            			<CssParameter name="font-size">12</CssParameter>								
           		  </Font>
                    <LabelPlacement>
