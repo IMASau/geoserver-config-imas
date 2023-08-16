@@ -1,6 +1,6 @@
 <GeoServerTileLayer>
   <id>LayerInfoImpl--a145589:18952165369:33c0</id>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
   <name>seamap:SeamapAus_BOUNDARIES_AMP_ZONE</name>
   <mimeFormats>
