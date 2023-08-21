@@ -9,10 +9,8 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>SeamapAus_National</Name>
+    <Name>Tasman Fracture substrata classification</Name>
     <UserStyle>
-      <Title>Seamap Australia</Title>
-      <Abstract>A style that renders habitats of Seamap Australia polygon data</Abstract>
       <FeatureTypeStyle>
         <Rule>		
           <Title>Hard Substrata</Title>		

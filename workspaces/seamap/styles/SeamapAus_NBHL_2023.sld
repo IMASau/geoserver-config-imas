@@ -19,7 +19,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Biota Present</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ccff99</CssParameter>		
@@ -34,7 +35,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Invertebrates</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#db7089</CssParameter>		
@@ -50,7 +52,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Bioturbators</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#538cc6</CssParameter>		
@@ -65,7 +68,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Coral Biota</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#f166ff</CssParameter>		
@@ -80,7 +84,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Sponges</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#fceae2</CssParameter>		
@@ -95,7 +100,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Filter Feeder Community</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ff99e6</CssParameter>		
@@ -110,7 +116,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Invertebrate Community</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#9c2d86</CssParameter>		
@@ -125,7 +132,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Microbes</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#996699</CssParameter>		
@@ -140,7 +148,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Bacterial Mat</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#336699</CssParameter>		
@@ -155,7 +164,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Vegetation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#016300</CssParameter>		
@@ -170,7 +180,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Macrophytes</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#80ffd4</CssParameter>		
@@ -185,7 +196,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Macroalgae</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#2d9624</CssParameter>		
@@ -200,7 +212,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Seagrass</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#02DC00</CssParameter>		
@@ -215,7 +228,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Macrophytes</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#d8f263</CssParameter>		
@@ -230,7 +244,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mangrove</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#26734b</CssParameter>		
@@ -245,7 +260,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Saltmarsh</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#E64C00</CssParameter>		
@@ -260,7 +276,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Wetland Vegetation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#40bf80</CssParameter>		
@@ -275,7 +292,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Vegetation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#7e8000</CssParameter>		
@@ -290,7 +308,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Biota</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#1aa3ff</CssParameter>		
@@ -305,7 +324,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Biota Absent</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#c0c0d8</CssParameter>		
@@ -320,7 +340,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ffffff</CssParameter>		
@@ -335,7 +356,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Hard Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#8a5c5c</CssParameter>		
@@ -350,7 +372,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Consolidated Hard Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#640000</CssParameter>		
@@ -365,7 +388,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Megaclast</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#a3a375</CssParameter>		
@@ -380,7 +404,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Pavement</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#cccc00</CssParameter>		
@@ -395,7 +420,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Unconsolidated Hard Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#caa09b</CssParameter>		
@@ -410,7 +436,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Cobble</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#85adad</CssParameter>		
@@ -425,7 +452,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Hard Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#c68c53</CssParameter>		
@@ -440,7 +468,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Soft Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ffd480</CssParameter>		
@@ -455,7 +484,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Coarse Sediments</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#ff8c66</CssParameter>		
@@ -470,7 +500,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Pebble</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#a9c8d6</CssParameter>		
@@ -485,7 +516,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Sand</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#FFF9A5</CssParameter>		
@@ -500,7 +532,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Coarse Sediments</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#a84524</CssParameter>		
@@ -515,7 +548,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Fine Sediments</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#f9f075</CssParameter>		
@@ -530,7 +564,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Silt</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#E5D6ED</CssParameter>		
@@ -545,7 +580,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Fine Sediments</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#c8ae1e</CssParameter>		
@@ -560,7 +596,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Soft Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#b1a37e</CssParameter>		
@@ -575,7 +612,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
               <ogc:Literal>Mixed Hard/Soft Substrata</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
+          </ogc:Filter>
+          <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
               <CssParameter name="fill">#cc6600</CssParameter>		
