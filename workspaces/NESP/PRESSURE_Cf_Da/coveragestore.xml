@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a2803ac4e:-4563</id>
+  <name>PRESSURE_Cf_Da</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressures - Danish Seine</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-25 00:10:28.601 UTC</dateCreated>
+  <dateModified>2023-08-25 00:16:43.660 UTC</dateModified>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Commercial_fishing/Danish_seine/SPS/Danish_Seine_SPS.tif</url>
+</coverageStore>
