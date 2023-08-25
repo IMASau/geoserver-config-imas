@@ -1,4 +1,4 @@
-<h3>Summary of Australian Coastal Restoration Network projects at this point</h3><BR>
+<h5>Coastal restoration projects at this point</h5><BR>
 
 <#list features as feature>
 
@@ -15,10 +15,9 @@
   <b>Restoration method:</b> ${feature.Restoration_Method.value}<BR>
   <b>Location:</b> ${feature.Location.value} (${feature.Country.value})<BR>
   <b>Project start date:</b> ${feature.Project_Work_Start.value}<BR><BR>
-
 </div>
 	<#else>
-	<h6>This information has been limited to 3 projects.<BR>More projects exist at this point.</h6>
+	<i>This information has been limited to 3 projects. More projects exist at this point.</i>
 		<#break>
 </#if>
 </#list>
