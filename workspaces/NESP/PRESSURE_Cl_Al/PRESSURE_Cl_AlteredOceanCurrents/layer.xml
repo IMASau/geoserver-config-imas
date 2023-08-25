@@ -1,0 +1,17 @@
+<layer>
+  <name>PRESSURE_Cl_AlteredOceanCurrents</name>
+  <id>LayerInfoImpl-79e79d96:18a2b3bbdc4:6c22</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-79e79d96:18a245ea74b:7c55</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-79e79d96:18a2b3bbdc4:6c21</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-25 14:10:14.18 UTC</dateCreated>
+  <dateModified>2023-08-25 14:29:32.237 UTC</dateModified>
+</layer>

@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a2b3bbdc4:6c1a</id>
+  <name>PRESSURE_Cl_Se</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Climate Change - Sea level rise</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-25 14:07:44.325 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Climate_change/Sea_level_rise/SPS/Sea_level_rise_SPS.tif</url>
+</coverageStore>

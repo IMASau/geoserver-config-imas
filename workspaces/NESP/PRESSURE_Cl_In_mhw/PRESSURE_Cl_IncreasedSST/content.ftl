@@ -1,0 +1,20 @@
+<#list features as feature>
+    <#if (feature_index < 1) >
+
+    <h5>Climate Change - increased SST</h5>
+    <BR>
+    <div class="feature"> 
+        <b>Standardised Pressure Sum:</b> 
+        <#if (feature.GRAY_INDEX.rawValue < 0.005)>
+            ${feature.GRAY_INDEX.rawValue?string("0")} <i>(no recorded pressure from this sub-activity)</i>
+        <#elseif (feature.GRAY_INDEX.rawValue > 0.995)>
+	    ${feature.GRAY_INDEX.rawValue?string("0")} <i>(maximum pressure from this sub-activity)</i>
+	<#else>
+            ${feature.GRAY_INDEX.rawValue?string("0.00")}
+        </#if>
+        <BR><BR>
+    </div>
+        <#break>
+        
+    </#if>
+</#list>
