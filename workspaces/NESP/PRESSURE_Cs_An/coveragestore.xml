@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a2b3bbdc4:587b</id>
+  <name>PRESSURE_Cs_An</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Commercial Shipping - anchoring</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-25 12:34:03.544 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Commercial_shipping/Anchoring/SPS/Anchoring_SPS.tif</url>
+</coverageStore>

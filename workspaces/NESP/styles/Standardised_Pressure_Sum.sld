@@ -10,7 +10,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-1" label="Standardised Pressure Sum"/>                                                       
-              <ColorMapEntry color="#61b2c3" opacity="0.45" label="0.0 (low/no pressure)" quantity="0"/>
+              <ColorMapEntry color="#61b2c3" opacity="0.5" label="0.0 (low/no pressure)" quantity="0"/>
               <ColorMapEntry color="#71b8c5" opacity="1" label="0.1" quantity="0.1"/>
               <ColorMapEntry color="#8bbece" opacity="1" label="0.2" quantity="0.2"/>
               <ColorMapEntry color="#a7c8b7" opacity="1" label="0.3" quantity="0.3"/>

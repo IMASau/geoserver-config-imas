@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a2b3bbdc4:587c</id>
+  <name>PRESSURE_Cs_Ve</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Commercial Shipping - vessel transiting</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-25 12:34:07.824 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Commercial_shipping/Vessel_transiting/SPS/CS_Vessel_transiting_SPS.tif</url>
+</coverageStore>
