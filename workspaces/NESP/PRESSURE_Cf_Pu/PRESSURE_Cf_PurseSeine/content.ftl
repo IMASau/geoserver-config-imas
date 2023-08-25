@@ -1,18 +1,24 @@
 <#list features as feature>
-    <#if (feature_index < 1) >
+    <#if (feature.GRAY_INDEX.rawValue > -1)>
+        <#if (feature_index < 1) >
 
-    <h5>Commercial Fishing - Purse Seine</h5>
-    <BR>
-    <div class="feature"> 
-        <b>Standardised Pressure Sum:</b> 
-        <#if feature.GRAY_INDEX.rawValue == 0>
-            ${feature.GRAY_INDEX.rawValue?string("0")} <i>(no recorded pressure for this sub-activity)</i>
-        <#else>
-            ${feature.GRAY_INDEX.rawValue?string("0.00")}
+        <h5>Commercial Fishing - Purse seine</h5>
+        <BR>
+        <div class="feature"> 
+            <b>Standardised Pressure Sum:</b> 
+            <#if (feature.GRAY_INDEX.rawValue < 0.005)>
+                ${feature.GRAY_INDEX.rawValue?string("0")} <i>(no recorded pressure from this sub-activity)</i>
+            <#elseif (feature.GRAY_INDEX.rawValue > 0.995)>
+	        ${feature.GRAY_INDEX.rawValue?string("0")} <i>(maximum pressure from this sub-activity)</i>
+	    <#else>
+                ${feature.GRAY_INDEX.rawValue?string("0.00")}
+            </#if>
+            <BR><BR>
+        </div>
+            <#break>
+            
         </#if>
-        <BR><BR>
-    </div>
-        <#break>
-        
+    <#else>
+    <i>no data</i>
     </#if>
 </#list>
