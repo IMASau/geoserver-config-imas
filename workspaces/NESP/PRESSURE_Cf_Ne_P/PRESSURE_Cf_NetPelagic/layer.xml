@@ -1,16 +1,16 @@
 <layer>
-  <name>PRESSURE_CommercialFishing_DanishSeine</name>
-  <id>LayerInfoImpl-79e79d96:18a2803ac4e:-4561</id>
+  <name>PRESSURE_Cf_NetPelagic</name>
+  <id>LayerInfoImpl-79e79d96:18a2803ac4e:-1047</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-79e79d96:18a245ea74b:7c55</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-79e79d96:18a2803ac4e:-4562</id>
+    <id>CoverageInfoImpl-79e79d96:18a2803ac4e:-1048</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-08-25 00:15:10.687 UTC</dateCreated>
+  <dateCreated>2023-08-25 00:52:53.836 UTC</dateCreated>
 </layer>

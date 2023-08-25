@@ -1,0 +1,16 @@
+<layer>
+  <name>PRESSURE_Cf_HandCollection</name>
+  <id>LayerInfoImpl-79e79d96:18a2803ac4e:-103d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-79e79d96:18a245ea74b:7c55</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-79e79d96:18a2803ac4e:-103e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-25 00:53:42.343 UTC</dateCreated>
+</layer>

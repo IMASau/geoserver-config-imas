@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a2803ac4e:-13ff</id>
+  <name>PRESSURE_Cf_Ll</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Commercial Fishing - Longline pelagic</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-25 00:46:08.558 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Commercial_fishing/Longline_Pelagic/SPS/Longline_Pelagic_SPS.tif</url>
+</coverageStore>
