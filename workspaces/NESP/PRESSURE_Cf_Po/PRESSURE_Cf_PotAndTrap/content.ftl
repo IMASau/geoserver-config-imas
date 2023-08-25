@@ -1,5 +1,5 @@
 <#list features as feature>
-    <#if (feature.GRAY_INDEX.rawValue > -1)>
+    <#if (feature.GRAY_INDEX.rawValue >= 0 && feature.GRAY_INDEX.rawValue <= 1)>
         <#if (feature_index < 1) >
 
         <h5>Commercial Fishing - Pot and trap</h5>
@@ -19,6 +19,5 @@
             
         </#if>
     <#else>
-    <i>no data</i>
     </#if>
 </#list>

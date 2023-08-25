@@ -3,19 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Benthic Cumulative Impact (NESP/MERI)</Name>
+    <Name>Benthic Cumulative Impact (CI)</Name>
     <UserStyle>
      <FeatureTypeStyle>
        <Rule>
-          <RasterSymbolizer>
-            <ChannelSelection>
-              <GrayChannel>
-                <SourceChannelName>1</SourceChannelName>
-              </GrayChannel>
-            </ChannelSelection>            
+          <RasterSymbolizer>           
             <ColorMap type="ramp">
               <ColorMapEntry quantity="0" label="Cumulative Impact" color="#ffffff" opacity="0.0001"/>              
-              <ColorMapEntry quantity="0" color="#3b9ab2" label="0.0000"/>
+              <ColorMapEntry quantity="0" color="#3b9ab2" label="0"/>
               <ColorMapEntry quantity="0.00215036370281033" color="#5ea497" label="0.0022"/>
               <ColorMapEntry quantity="0.00224931849267417" color="#81ae7c" label="0.0022"/>
               <ColorMapEntry quantity="0.0023330494687128" color="#a5b860" label="0.0023"/>

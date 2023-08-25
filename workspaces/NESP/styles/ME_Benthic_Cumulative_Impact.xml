@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-3da50ec5:181f861c50c:-6e55</id>
-  <name>MERI_Benthic_CI</name>
+  <name>ME_Benthic_Cumulative_Impact</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -8,5 +8,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>MERI_Benthic_CI.sld</filename>
+  <filename>ME_Benthic_Cumulative_Impact.sld</filename>
+  <dateModified>2023-08-25 22:53:24.97 UTC</dateModified>
 </style>
