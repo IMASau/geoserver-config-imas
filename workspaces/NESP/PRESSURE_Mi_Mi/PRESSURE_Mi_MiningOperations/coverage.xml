@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-79e79d96:18a33bbdb75:77be</id>
+  <id>CoverageInfoImpl-79e79d96:18a33bbdb75:77c4</id>
   <name>PRESSURE_Mi_MiningOperations</name>
   <nativeName>PRESSURE_Mi_MiningOperations</nativeName>
   <namespace>
@@ -8,7 +8,7 @@
   <title>Standardised Pressure Sum (SPS) of Pressure: Mining - mining operations including exploration</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>Mining_operations_including_explorations_SPS</string>
+    <string>Mining_operations_including_exploration_SPS</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -40,7 +40,7 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">PRESSURE_Mi_Mi_Mining_operations_including_explorations_SPS</entry>
+    <entry key="dirName">PRESSURE_Mi_Mi_Mining_operations_including_exploration_SPS</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-79e79d96:18a33bbdb75:77b9</id>
@@ -102,10 +102,6 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
@@ -113,6 +109,10 @@
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
     </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
   </parameters>
-  <nativeCoverageName>Mining_operations_including_explorations_SPS</nativeCoverageName>
+  <nativeCoverageName>Mining_operations_including_exploration_SPS</nativeCoverageName>
 </coverage>

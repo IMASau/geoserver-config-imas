@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl-79e79d96:18a33bbdb75:77c2</id>
+  <id>CoverageInfoImpl-79e79d96:18a33bbdb75:7ccd</id>
   <name>PRESSURE_Mi_VesselTransiting</name>
-  <nativeName>PRESSURE_Mi_VesselTransiting</nativeName>
+  <nativeName>PRESSURE_Mi_VesselTransiting2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
@@ -24,15 +24,15 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>109.19999999999999</minx>
-    <maxx>171.8</maxx>
-    <miny>-47.2</miny>
+    <maxx>171.79999999999998</maxx>
+    <miny>-47.199999999999996</miny>
     <maxy>-8.899999999999999</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>109.19999999999999</minx>
-    <maxx>171.8</maxx>
-    <miny>-47.2</miny>
+    <maxx>171.79999999999998</maxx>
+    <miny>-47.199999999999996</miny>
     <maxy>-8.899999999999999</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -56,8 +56,8 @@
       <high>626 383</high>
     </range>
     <transform>
-      <scaleX>0.10000000000000003</scaleX>
-      <scaleY>-0.1</scaleY>
+      <scaleX>0.09999999999999999</scaleX>
+      <scaleY>-0.09999999999999999</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
       <translateX>109.24999999999999</translateX>
@@ -87,7 +87,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.3999999521443642E38</double>
+        <double>3.3999999521443642E38</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -102,16 +102,16 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
     </entry>
   </parameters>
   <nativeCoverageName>Mi_Vessel_transiting_SPS</nativeCoverageName>
