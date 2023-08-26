@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a33bbdb75:77b8</id>
+  <name>PRESSURE_Mi_Co</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Mining - Construction &amp; operation of pipelines</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-26 22:54:03.9 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Mining/Construction_and_operation_of_pipelines/SPS/Construction_and_operation_of_pipelines_SPS.tif</url>
+</coverageStore>
