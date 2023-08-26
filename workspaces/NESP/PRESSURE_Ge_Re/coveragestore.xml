@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a322e6612:5a61</id>
+  <name>PRESSURE_Ge_Re</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: General Use - Recreational boating use</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-26 14:24:12.792 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/General_use_access_and_waste_management/Recreational_use_boating_including_transiting/SPS/Recreational_use_boating_including_vessel_transiting_SPS.tif</url>
+</coverageStore>

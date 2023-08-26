@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-79e79d96:18a2f277786:-5372</id>
   <name>PRESSURE_Ge_Ba</name>
-  <description>Standardised Pressure Sum (SPS) of NESP pressure: Commercial Fishing - Ballast water discharge and exchange</description>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: General Use - Ballast water discharge and exchange</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
@@ -9,5 +9,6 @@
   </workspace>
   <__default>false</__default>
   <dateCreated>2023-08-26 00:47:55.458 UTC</dateCreated>
+  <dateModified>2023-08-26 14:23:30.837 UTC</dateModified>
   <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/General_use_access_and_waste_management/Ballast_water_discharge_and_exchange/SPS/Ballast_water_discharge_and_exchange_SPS.tif</url>
 </coverageStore>
