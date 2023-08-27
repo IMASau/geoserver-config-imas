@@ -11,14 +11,95 @@
     <UserStyle>
       <FeatureTypeStyle>
         
-        <Rule>
+ 
+ 
+         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 		  
+          <MinScaleDenominator>4000000</MinScaleDenominator> 		  
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>8</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
+        </Rule>
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>representative</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		  			
+          </ogc:Filter>		
+          <MinScaleDenominator>4000000</MinScaleDenominator> 		  
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_blue.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>7</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
+        </Rule>	
+        <Rule>
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>compilation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <MinScaleDenominator>4000000</MinScaleDenominator> 		  
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>13</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
+        </Rule>	        
+        <Rule>
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>3D model</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <MinScaleDenominator>4000000</MinScaleDenominator> 		  
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/terrain_aqua.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>11</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
+        </Rule>	
+ 
+ 
+       <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>highlight</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		  			
+          </ogc:Filter>		
+          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -37,7 +118,8 @@
               <ogc:Literal>representative</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 		  
+          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -56,7 +138,8 @@
               <ogc:Literal>compilation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 		  
+          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -75,7 +158,8 @@
               <ogc:Literal>3D model</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 		  
+          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
