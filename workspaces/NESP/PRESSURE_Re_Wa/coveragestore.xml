@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a34271c9f:-3d79</id>
+  <name>PRESSURE_Re_Wa</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Renewable Energy - Wave tidal and wind</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-26 23:48:33.261 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Renewable_energy/Wave_tidal_and_wind/SPS/Wave_tidal_and_wind_SPS.tif</url>
+</coverageStore>

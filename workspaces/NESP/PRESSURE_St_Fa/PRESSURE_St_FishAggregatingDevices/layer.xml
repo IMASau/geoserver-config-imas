@@ -1,0 +1,16 @@
+<layer>
+  <name>PRESSURE_St_FishAggregatingDevices</name>
+  <id>LayerInfoImpl-79e79d96:18a34271c9f:-3d6c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-79e79d96:18a245ea74b:7c55</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-79e79d96:18a34271c9f:-3d6d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-26 23:53:19.623 UTC</dateCreated>
+</layer>

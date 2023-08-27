@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a34271c9f:-3d76</id>
+  <name>PRESSURE_St_Mo</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Structures &amp; Works - Moorings</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-26 23:49:17.543 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Structures_and_works/Moorings/SPS/Moorings_SPS.tif</url>
+</coverageStore>

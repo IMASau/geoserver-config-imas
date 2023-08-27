@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-79e79d96:18a34271c9f:-3d78</id>
+  <name>PRESSURE_St_Ex</name>
+  <description>Standardised Pressure Sum (SPS) of NESP pressure: Structures &amp; Works - Excavation other than dredging</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-08-26 23:48:42.432 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/NESP_pressures/DATA/Structures_and_works/Excavation_other_than_dredging_erection_and_maintenance_of_structures_and_works_including_cables_trenching_and_boring/SPS/Structures_and_works_SPS.tif</url>
+</coverageStore>
