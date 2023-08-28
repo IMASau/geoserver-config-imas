@@ -17,14 +17,25 @@
     <#-- Check for YouTube video -->
 
 <#assign foundYouTube=false>
+
 <#list features as feature>
     <#assign imagetype=feature.media_name.value> 
 
     <#if feature.dtype.value == "youtube" && !foundYouTube>
         <#assign foundYouTube=true>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen></iframe>
+    	<div style="width: 560px; text-align: left;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <!-- Display the location text immediately below the video and left aligned -->
+        <div style="padding-top: 5px; font-size: 12px;">
+            ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
+        <#if feature.metadata.value?has_content>
+                <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline;">More Info</a>
+        </#if>
+        </div>
+        <!-- Display the "more info" hyperlink immediately below the location text if feature.metadata.value exists -->
     </#if>
 </#list>
+
 <#if foundYouTube==false>
 
 <div style="display: flex; justify-content: center;">
