@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--a145589:1893dfa7d37:-c64</id>
-  <name>AMP_underwater_video_highlights</name>
+  <name>AMP_UW_video_highlights</name>
   <nativeName>IMAS_BRUV_highlight_clips</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -21,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>113.05379593892404</minx>
-    <maxx>148.6198329723966</maxx>
+    <minx>110.9299977814</minx>
+    <maxx>159.4100031882</maxx>
     <miny>-44.02120472042407</miny>
-    <maxy>-20.150996416980064</maxy>
+    <maxy>-10.319999793600001</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>113.05379593892404</minx>
-    <maxx>148.6198329723966</maxx>
+    <minx>110.9299977814</minx>
+    <maxx>159.4100031882</maxx>
     <miny>-44.02120472042407</miny>
-    <maxy>-20.150996416980064</maxy>
+    <maxy>-10.319999793600001</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

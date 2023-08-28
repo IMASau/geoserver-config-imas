@@ -14,10 +14,24 @@
 
 <#if found3DModel==false>
 
+    <#-- Check for YouTube video -->
+
+<#assign foundYouTube=false>
+<#list features as feature>
+    <#assign imagetype=feature.media_name.value> 
+
+    <#if feature.dtype.value == "youtube" && !foundYouTube>
+        <#assign foundYouTube=true>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen></iframe>
+    </#if>
+</#list>
+<#if foundYouTube==false>
+
 <div style="display: flex; justify-content: center;">
     <div style="width: 400px;">
 
 <#list features as feature>
+
     <#assign imagetype=feature.media_name.value>
     <#assign imagedate=feature.Date.value>
     <#assign imagetime=feature.Time.value>
@@ -79,4 +93,6 @@
 
     </div>
 </div>
-        </#if>
+</#if>
+</#if>
+

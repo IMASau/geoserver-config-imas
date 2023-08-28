@@ -53,10 +53,16 @@
         </Rule>	
         <Rule>
           <ogc:Filter>		
+			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>youtube</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>			
+			</ogc:Or>			
           </ogc:Filter>		
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
           <PointSymbolizer>
@@ -133,10 +139,16 @@
         </Rule>	
         <Rule>
           <ogc:Filter>		
+			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>youtube</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>			
+			</ogc:Or>			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
@@ -215,10 +227,16 @@
         </Rule>
         <Rule>
           <ogc:Filter>		
+			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>youtube</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>			
+			</ogc:Or>			
           </ogc:Filter>	
           <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>           
@@ -293,12 +311,18 @@
           </PointSymbolizer>
         </Rule>
         <Rule>
-          <Title> compilation highlight</Title>
-          <ogc:Filter>		
+          <Title> regional compilation video</Title>
+          <ogc:Filter>
+			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>youtube</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>			
+			</ogc:Or>			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
           <PointSymbolizer>
