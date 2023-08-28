@@ -24,7 +24,7 @@
     <#if feature.dtype.value == "youtube" && !foundYouTube>
         <#assign foundYouTube=true>
     	<div style="width: 560px; text-align: left;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
         <!-- Display the location text immediately below the video and left aligned -->
         <div style="padding-top: 5px; font-size: 12px;">
             ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
