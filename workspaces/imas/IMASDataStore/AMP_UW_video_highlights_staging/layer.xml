@@ -1,5 +1,5 @@
 <layer>
-  <name>AMP_UW_video_highlights</name>
+  <name>AMP_UW_video_highlights_staging</name>
   <id>LayerInfoImpl--a145589:1893dfa7d37:-c63</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-07-10 09:15:32.686 UTC</dateCreated>
-  <dateModified>2023-08-28 01:00:01.515 UTC</dateModified>
+  <dateModified>2023-08-28 02:05:28.212 UTC</dateModified>
 </layer>
