@@ -1,0 +1,16 @@
+<layer>
+  <name>PRESSURE_Cl_IncreasedFrequencySevereWeather</name>
+  <id>LayerInfoImpl-79e79d96:18a3e6100b4:-3423</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-79e79d96:18a245ea74b:7c55</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-79e79d96:18a3e6100b4:-3424</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-29 01:05:35.927 UTC</dateCreated>
+</layer>
