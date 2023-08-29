@@ -191,20 +191,80 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halophila spinulosa</Title>
+          <Title>Halophila ovalis / Halodule uninervis (narrow form)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila spinulosa</ogc:Literal>
+              <ogc:Literal>Halophila ovalis / Halodule uninervis (narrow form)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#b299ff</CssParameter>
+              <CssParameter name="fill">#86b300</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+          <Title>Halophila ovalis / Halodule uninervis with mixed species</Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis / Halodule uninervis with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff73de</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Halophila ovalis with Halodule uninervis (narrow form)</Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis with Halodule uninervis (narrow form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff01c4</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Halophila ovalis with Halodule uninervis (wide form)</Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis with Halodule uninervis (wide form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#a70084</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Halophila ovalis with mixed species</Title>
+          <ogc:Filter>	  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila ovalis with mixed species</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+		  </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ef597e</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>				
+          </PolygonSymbolizer>
+        </Rule>         
         <Rule>
           <Title>Unknown seagrass spp.</Title>
           <ogc:Filter>	  
