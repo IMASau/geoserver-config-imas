@@ -7,8 +7,8 @@
   <name>WMS</name>
   <title>NESP Marine Biodiversity Hub &amp; Marine and Coastal Hub Web Mapping Service (WMS)</title>
   <internationalTitle/>
-  <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
-  <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver catalogues IMAS geospatial data, and hosts a number of other data layers from its collaborators.</abstrct>
+  <maintainer>NESP Marine and Coastal Hub Data Manager (Southern node)</maintainer>
+  <abstrct>The National Environmental Science Program (NESP) is a long-term commitment by the Australian Government to fund environment and climate research. The University of Tasmania was the host of the Marine Biodiversity Hub (2015-2020), and more recently co-host of the Marine and Coastal Hub (2021-2027). This Web Mapping Service catalogues a selection of MBH and MaC Hub mapping layers from a range of collaborating partner organisations.</abstrct>
   <internationalAbstract/>
   <versions>
     <org.geotools.util.Version>
@@ -42,6 +42,15 @@
     <entry key="scalehintMapunitsPixel">false</entry>
     <entry key="framesDelay">1000</entry>
   </metadata>
+  <srs>
+    <string>4326</string>
+    <string>900913</string>
+    <string>3857</string>
+    <string>3112</string>
+    <string>4283</string>
+    <string>4938</string>
+    <string>7844</string>
+  </srs>
   <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>
     <enabled>false</enabled>
