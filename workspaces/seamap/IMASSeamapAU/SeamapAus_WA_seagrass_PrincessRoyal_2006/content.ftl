@@ -1,10 +1,10 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - WA - Oyster Harbour seagrass 2006</h5>
+	<h5>Habitat - WA - Princess Royal seagrass 2006</h5>
 	<BR>
 	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<b>Seagrass:</b> ${feature.SM_HAB_CLS.value}
 		<BR><BR>
 	</div>
 		<#else>
