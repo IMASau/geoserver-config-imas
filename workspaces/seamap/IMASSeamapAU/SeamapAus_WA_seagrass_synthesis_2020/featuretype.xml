@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4e65983:15eeaae8f14:-6363</id>
-  <name>SeamapAus_WA_Seagrass_Synthesis_2013</name>
-  <nativeName>SeamapAus_WA_Seagrass_Synthesis_2013</nativeName>
+  <name>SeamapAus_WA_seagrass_synthesis_2020</name>
+  <nativeName>SeamapAus_WA_Seagrass_Synthesis_2020</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Seagrass Synthesis 2013 (TERN ACEF)</title>
+  <title>Seamap Australia - WA - Seagrass Synthesis 2020 (WA Government DOWER)</title>
   <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government.</abstract>
   <keywords>
     <string>Seamap Australia</string>
@@ -23,7 +23,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -50,7 +50,7 @@
     <maxy>-3726866.513785675</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
@@ -59,6 +59,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

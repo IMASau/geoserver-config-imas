@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_WA_Seagrass_Synthesis_2013</name>
+  <name>SeamapAus_WA_seagrass_synthesis_2020</name>
   <id>LayerInfoImpl-4e65983:15eeaae8f14:-6362</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -12,4 +12,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2023-09-15 19:14:57.961 UTC</dateModified>
 </layer>
