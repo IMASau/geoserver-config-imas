@@ -13,22 +13,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Abstract>A style that renders habitats</Abstract>
       <FeatureTypeStyle>	  
         <Rule>
-          <Title>0&#37;</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>0.</ogc:Literal>
-            </ogc:PropertyIsLike>		
-          </ogc:Filter>
-		  <MaxScaleDenominator>1250000</MaxScaleDenominator>			  
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#d6c29d</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>	  
-        <Rule>
           <Title>1-10&#37;</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
