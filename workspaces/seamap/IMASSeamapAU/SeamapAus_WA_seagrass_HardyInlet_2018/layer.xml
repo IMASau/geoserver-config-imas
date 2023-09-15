@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_WA_seagrass_HardyInlet_2018</name>
+  <id>LayerInfoImpl-18af209b:18a98261a24:7b30</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-18af209b:18a98261a24:7b37</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-18af209b:18a98261a24:7b2f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-15 12:00:57.677 UTC</dateCreated>
+  <dateModified>2023-09-15 12:07:50.557 UTC</dateModified>
+</layer>

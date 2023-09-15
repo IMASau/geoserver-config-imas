@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - WA - Hardy Inlet seagrass 2008</h5>
+	<h5>Habitat - WA - Hardy Inlet seagrass 2020</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Seagrass:</b> ${feature.SM_HAB_CLS.value}
