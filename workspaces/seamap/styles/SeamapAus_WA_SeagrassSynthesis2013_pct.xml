@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--1f3a3d34:15b8ed35374:5d31</id>
-  <name>SeamapAus_WA_SeagrassSynthesis_pct</name>
+  <name>SeamapAus_WA_SeagrassSynthesis2013_pct</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,5 +8,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_WA_SeagrassSynthesis_pct.sld</filename>
+  <filename>SeamapAus_WA_SeagrassSynthesis2013_pct.sld</filename>
+  <dateModified>2023-09-15 11:40:27.114 UTC</dateModified>
 </style>

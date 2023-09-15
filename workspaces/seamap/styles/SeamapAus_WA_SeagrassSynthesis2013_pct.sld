@@ -11,23 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Title>Habitat Polygon</Title>
       <Abstract>A style that renders habitats</Abstract>
-      <FeatureTypeStyle>
-        <Rule>
-          <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>1250000</MinScaleDenominator>				
-          <PointSymbolizer>
-			<Geometry>
-			<ogc:PropertyName>sitegeom</ogc:PropertyName>
-			</Geometry>			  
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="http://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 <Size>20</Size>
-  			 </Graphic>
-          </PointSymbolizer>
-        </Rule>		  
+      <FeatureTypeStyle>	  
         <Rule>
           <Title>0&#37;</Title>
           <ogc:Filter>
