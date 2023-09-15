@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_seagrass_Leschenault_2020</name>
+  <id>LayerInfoImpl-18af209b:18a98e91032:-7d1b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-18af209b:18a98261a24:7b37</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-18af209b:18a98e91032:-7d1c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-15 16:36:32.798 UTC</dateCreated>
+</layer>
