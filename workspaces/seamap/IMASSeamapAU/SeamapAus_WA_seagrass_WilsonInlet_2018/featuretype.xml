@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:15803a125f7:-1fef</id>
-  <name>SeamapAus_WA_seagrass_WilsonInlet_2008</name>
-  <nativeName>SeamapAus_WA_seagrass_WilsonInlet_2007-08</nativeName>
+  <id>FeatureTypeInfoImpl-18af209b:18a98e91032:31a6</id>
+  <name>SeamapAus_WA_seagrass_WilsonInlet_2018</name>
+  <nativeName>SeamapAus_WA_seagrass_WilsonInlet_2017-19</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - seagrass Wilson Inlet 2008 (WA Goverment DoW)</title>
+  <title>Seamap Australia - WA - seagrass Wilson Inlet 2018 (WA Government DoWER)</title>
   <keywords>
-    <string>habitat mapping</string>
-    <string>seagrass</string>
+    <string>benthic habitat</string>
     <string>Seamap Australia</string>
+    <string>seagrass</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,17 +36,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-1513052.23046875</minx>
-    <maxx>-1499795.0775960216</maxx>
-    <miny>-4041351.86328125</miny>
-    <maxy>-4035018.6281017605</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>117.32532890160333</minx>
+    <maxx>117.48420216698833</maxx>
+    <miny>-35.03822412489734</miny>
+    <maxy>-34.95391668867876</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-1513052.23046875</minx>
-    <maxx>-1499795.0775960216</maxx>
-    <miny>-4041351.86328125</miny>
-    <maxy>-4035018.6281017605</maxy>
+    <minx>117.32532890160333</minx>
+    <maxx>117.48420216698833</maxx>
+    <miny>-35.03822412489734</miny>
+    <maxy>-34.95391668867876</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -59,9 +59,10 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Year=&apos;2008&apos;</cqlFilter>
+  <cqlFilter>Year=&apos;2018&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

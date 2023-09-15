@@ -4,7 +4,7 @@
 	<h5>Habitat - WA - Wilson Inlet seagrass 2008</h5>
 	<BR>
 	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+		<b>Seagrass:</b> ${feature.SM_HAB_CLS.value}
 		<BR><BR>
 	</div>
 		<#else>
