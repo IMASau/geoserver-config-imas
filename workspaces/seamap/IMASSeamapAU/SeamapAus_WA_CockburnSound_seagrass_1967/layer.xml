@@ -1,16 +1,16 @@
 <layer>
-  <name>SeamapAus_WA_CockburnSound_seagrass_1999</name>
-  <id>LayerInfoImpl--a189114:158b2dab1a2:3f96</id>
+  <name>SeamapAus_WA_CockburnSound_seagrass_1967</name>
+  <id>LayerInfoImpl--66f52ec1:18a9bbca852:-7fa1</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--3a9062c2:158de65ce09:-7efc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--a189114:158b2dab1a2:3f95</id>
+    <id>FeatureTypeInfoImpl--66f52ec1:18a9bbca852:-7fa2</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2023-09-16 02:17:27.292 UTC</dateModified>
+  <dateCreated>2023-09-16 02:12:30.792 UTC</dateCreated>
 </layer>
