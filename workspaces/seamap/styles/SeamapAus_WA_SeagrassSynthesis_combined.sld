@@ -87,7 +87,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>15-45.</ogc:Literal>
-            </ogc:PropertyIsLike>            
+            </ogc:PropertyIsLike>      
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>25 - 50.</ogc:Literal>
+            </ogc:PropertyIsLike>              
           </Or>            
           </ogc:Filter> 
           <PolygonSymbolizer>
@@ -108,7 +112,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>45-75.</ogc:Literal>
-            </ogc:PropertyIsLike>            
+            </ogc:PropertyIsLike>     
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>50 - 75.</ogc:Literal>
+            </ogc:PropertyIsLike>              
           </Or>               
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -129,7 +137,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>.75.</ogc:Literal>
-            </ogc:PropertyIsLike>            
+            </ogc:PropertyIsLike>   
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>75 - 90.</ogc:Literal>
+            </ogc:PropertyIsLike> 
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>90 - 100.</ogc:Literal>
+            </ogc:PropertyIsLike>              
           </Or>             
           </ogc:Filter> 
           <PolygonSymbolizer>
