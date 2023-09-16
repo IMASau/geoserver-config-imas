@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d6c29d</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	  
@@ -40,6 +40,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>1-10.</ogc:Literal>
             </ogc:PropertyIsLike>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>0 - 10.</ogc:Literal>
+            </ogc:PropertyIsLike>            
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>.15.</ogc:Literal>
