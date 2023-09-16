@@ -1,12 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--59080c5d:15ee166c11e:-72c0</id>
+  <id>FeatureTypeInfoImpl--59080c5d:15ee166c11e:-72ba</id>
   <name>SeamapAus_WA_NWShelf_ecosystems</name>
   <nativeName>SeamapAus_WA_NWShelf_ecosystems</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - ecosystem characterisation of the NW shelf (GA) [MAP VIEW]</title>
-  <abstract>Reduced view for mapping purposes.</abstract>
+  <title>Seamap Australia - WA - ecosystem characterisation of the NW shelf (GA)</title>
   <keywords>
     <string>Seamap Australia</string>
     <string>habitat mapping</string>
@@ -22,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -36,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-2074028.6869647913</minx>
-    <maxx>-1455275.3935527117</maxx>
-    <miny>-2796011.855612889</miny>
-    <maxy>-2235124.3825230263</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>113.47431513739136</minx>
+    <maxx>120.37897433592622</maxx>
+    <miny>-23.84157730003392</miny>
+    <maxy>-18.002927608159787</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-2074028.6869647913</minx>
-    <maxx>-1455275.3935527117</maxx>
-    <miny>-2796011.855612889</miny>
-    <maxy>-2235124.3825230263</maxy>
+    <minx>113.47431513739136</minx>
+    <maxx>120.37897433592622</maxx>
+    <miny>-23.84157730003392</miny>
+    <maxy>-18.002927608159787</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -58,6 +57,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

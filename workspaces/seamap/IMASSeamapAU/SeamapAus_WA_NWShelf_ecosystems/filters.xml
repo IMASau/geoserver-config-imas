@@ -7,11 +7,4 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
-    <filter>
-        <name>SM_HAB_CLS</name>
-        <type>string</type>
-        <label>Benthic Habitat</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
 </filters>

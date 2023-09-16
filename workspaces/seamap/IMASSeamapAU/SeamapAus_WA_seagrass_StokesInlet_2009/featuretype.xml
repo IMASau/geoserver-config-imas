@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - seagrass Stokes Inlet 2009 (TERN ACEF)</title>
+  <title>Seamap Australia - WA - seagrass Stokes Inlet 2009 (WA Government DoW)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>seagrass</string>
@@ -51,6 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
