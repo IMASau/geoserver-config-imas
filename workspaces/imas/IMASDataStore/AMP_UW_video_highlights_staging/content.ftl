@@ -23,23 +23,27 @@
 
     <#if feature.dtype.value == "youtube" && !foundYouTube>
         <#assign foundYouTube=true>
-    	<div style="width: 560px; text-align: left;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-        <!-- Display the location text immediately below the video and left aligned -->
-        <div style="padding-top: 5px; font-size: 12px;">
-            ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
-        <!-- Display the "description" field if feature.description.value exists -->
-	</div>
+        <div style="width: 100%; max-width: 560px; text-align: left;"> <!-- Shared container -->
 
-<div style="max-width: 100%; overflow: auto; word-wrap: break-word; box-sizing: border-box;">
-    <#if feature.description.value?has_content>
-        <i>${feature.description.value}</i>
-    </#if>
-</div>
-        <!-- Display the "more info" hyperlink immediately below the location text if feature.metadata.value exists -->
-        <#if feature.metadata.value?has_content>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+            
+            <!-- Display the location text immediately below the video and left aligned -->
+            <div style="padding-top: 5px; font-size: 12px;">
+                ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
+            </div>
+
+            <!-- Display the "description" field if feature.description.value exists -->
+            <div style="word-wrap: break-word; box-sizing: border-box; overflow-wrap: break-word;">
+                <#if feature.description.value?has_content>
+                    <i>${feature.description.value}</i>
+                </#if>
+            </div>
+
+            <!-- Display the "more info" hyperlink immediately below the location text if feature.metadata.value exists -->
+            <#if feature.metadata.value?has_content>
                 <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline;">More Info</a>
-        </#if>
+            </#if>
+
         </div>
     </#if>
 </#list>
