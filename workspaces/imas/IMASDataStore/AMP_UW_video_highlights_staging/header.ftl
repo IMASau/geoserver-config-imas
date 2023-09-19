@@ -12,6 +12,11 @@ a:hover {
 	color: #575757;
 }
 
+.wrapper {
+    max-width: 100%;
+    overflow: auto; 
+}
+
     .thumbnail {
         filter: grayscale(100%) blur(2px);
         opacity: 0.8;
