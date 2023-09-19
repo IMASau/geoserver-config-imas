@@ -29,10 +29,14 @@
         <div style="padding-top: 5px; font-size: 12px;">
             ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
         <!-- Display the "description" field if feature.description.value exists -->
+	</div>
+
+<div style="max-width: 100%; overflow: auto; word-wrap: break-word; box-sizing: border-box;">
     <#if feature.description.value?has_content>
         <i>${feature.description.value}</i>
     </#if>
-</div>        <!-- Display the "more info" hyperlink immediately below the location text if feature.metadata.value exists -->
+</div>
+        <!-- Display the "more info" hyperlink immediately below the location text if feature.metadata.value exists -->
         <#if feature.metadata.value?has_content>
                 <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline;">More Info</a>
         </#if>
