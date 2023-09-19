@@ -23,7 +23,7 @@
 
     <#if feature.dtype.value == "youtube" && !foundYouTube>
         <#assign foundYouTube=true>
-        <div style="width: 100%; max-width: 560px; text-align: left;"> <!-- Shared container -->
+        <div style="width: 100%; width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word;"> <!-- Shared container -->
 
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
             
@@ -33,16 +33,16 @@
             </div>
 
             <!-- Display the "description" field if feature.description.value exists -->
-            <div style="word-wrap: break-word; box-sizing: border-box; overflow-wrap: break-word;">
+            <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; ">
                 <#if feature.description.value?has_content>
-                    <i>${feature.description.value}</i>
+                    <i style="white-space: normal;">${feature.description.value}</i>
                 </#if>
-            </div>
-
-            <!-- Display the "more info" hyperlink immediately below the location text if feature.metadata.value exists -->
+            <!-- Display the "more info" hyperlink immediately next to the description, or below the location text if feature.metadata.value exists -->
             <#if feature.metadata.value?has_content>
                 <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline;">More Info</a>
             </#if>
+
+            </div>
 
         </div>
     </#if>
