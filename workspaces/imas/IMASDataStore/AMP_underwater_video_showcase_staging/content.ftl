@@ -16,14 +16,14 @@
 
     <#-- Check for YouTube video -->
 
-<#assign foundYouTube=false>
+<#assign foundYouTube=0>
 
 <#list features as feature>
     <#assign imagetype=feature.media_name.value> 
 
-    <#if feature.dtype.value == "A_youtube" && !foundYouTube>
-        <#assign foundYouTube=true>
-        <div style="width: 100%; width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word;"> <!-- Shared container -->
+    <#if feature.dtype.value == "A_youtube" && foundYouTube < 2> <!-- Check if less than 2 videos are found -->
+        <#assign foundYouTube=foundYouTube+1> <!-- Increase the counter -->
+        <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word;"> <!-- Shared container -->
 
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
             
@@ -43,12 +43,12 @@
             </#if>
 
             </div>
-
+<br>
         </div>
     </#if>
 </#list>
 
-<#if foundYouTube==false>
+<#if foundYouTube == 0>
 
 <div style="display: flex; justify-content: center;">
     <div style="width: 400px;">
