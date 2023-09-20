@@ -87,7 +87,7 @@
                     <source src="${feature.media_URL.value!}" type="video/mp4">
                 </video>
 		<#if feature.dtype.value == "compilation">
-		<div style="font-size:11px; position: absolute; top: 3px; right: 3px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
+		<div style="font-size:11px; position: absolute; bottom: 3px; right: 0px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 3px;">
         		Video location is approximate
    		</div> 
 		<#else>
@@ -128,4 +128,4 @@
 </div>
 </#if>
 </#if>
-
+</body>
