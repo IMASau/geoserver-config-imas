@@ -23,10 +23,14 @@
 
     <#if feature.dtype.value == "A_youtube" && foundYouTube < 2> <!-- Check if less than 2 videos are found -->
         <#assign foundYouTube=foundYouTube+1> <!-- Increase the counter -->
-        <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word;"> <!-- Shared container -->
+        <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;"> <!-- Shared container -->
 
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-            
+
+	<div style="font-size:11px; position: absolute; top: 3px; right: 3px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
+        	Video location is approximate
+   	 </div> 
+           
             <!-- Display the location text immediately below the video and left aligned -->
             <div style="padding-top: 5px; font-size: 12px;">
                 ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
@@ -82,9 +86,15 @@
                 <video width="400" controls autoplay muted loop>
                     <source src="${feature.media_URL.value!}" type="video/mp4">
                 </video>
-                <div style="font-size:10px; position: absolute; top: 0px; right: 0px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
+		<#if feature.dtype.value == "compilation">
+		<div style="font-size:11px; position: absolute; top: 3px; right: 3px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
+        		Video location is approximate
+   		</div> 
+		<#else>
+                <div style="font-size:10px; position: absolute; top: 3px; right: 3px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
                     Credit: ${feature.Source.value!"Unknown"}
                 </div>
+		</#if>
                 <div style="font-size:11px; position: absolute; top: -17px; right: 0px;">
                     <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
                 </div>
