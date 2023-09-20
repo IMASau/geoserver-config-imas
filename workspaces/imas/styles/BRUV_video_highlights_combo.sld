@@ -60,7 +60,7 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>youtube</ogc:Literal>		
+              <ogc:Literal>A_youtube</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
 			</ogc:Or>			
           </ogc:Filter>		
@@ -146,7 +146,7 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>youtube</ogc:Literal>		
+              <ogc:Literal>A_youtube</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
 			</ogc:Or>			
           </ogc:Filter>		
@@ -234,7 +234,7 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>youtube</ogc:Literal>		
+              <ogc:Literal>A_youtube</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
 			</ogc:Or>			
           </ogc:Filter>	
@@ -320,7 +320,7 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>youtube</ogc:Literal>		
+              <ogc:Literal>A_youtube</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
 			</ogc:Or>			
           </ogc:Filter>	          

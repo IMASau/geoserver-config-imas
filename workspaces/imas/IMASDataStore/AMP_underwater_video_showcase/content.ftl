@@ -21,7 +21,7 @@
 <#list features as feature>
     <#assign imagetype=feature.media_name.value> 
 
-    <#if feature.dtype.value == "youtube" && !foundYouTube>
+    <#if feature.dtype.value == "A_youtube" && !foundYouTube>
         <#assign foundYouTube=true>
         <div style="width: 100%; width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word;"> <!-- Shared container -->
 
