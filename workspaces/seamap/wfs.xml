@@ -6,8 +6,10 @@
   <enabled>true</enabled>
   <name>WFS</name>
   <title>Seamap Australia Data Catalogue (WFS)</title>
+  <internationalTitle/>
   <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
   <abstrct>Seamap Australia brings together all available benthic habitat data collected on the Australian continental shelf and hosts this for the benefit of the broader research community. The product is a single, uniformly classified, continental-scale benthic habitat dataset.</abstrct>
+  <internationalAbstract/>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>
@@ -29,13 +31,6 @@
   </metadata>
   <gml>
     <entry>
-      <version>V_10</version>
-      <gml>
-        <srsNameStyle>URL</srsNameStyle>
-        <overrideGMLAttributes>false</overrideGMLAttributes>
-      </gml>
-    </entry>
-    <entry>
       <version>V_20</version>
       <gml>
         <srsNameStyle>URN2</srsNameStyle>
@@ -49,6 +44,13 @@
         <overrideGMLAttributes>false</overrideGMLAttributes>
       </gml>
     </entry>
+    <entry>
+      <version>V_10</version>
+      <gml>
+        <srsNameStyle>URL</srsNameStyle>
+        <overrideGMLAttributes>false</overrideGMLAttributes>
+      </gml>
+    </entry>
   </gml>
   <serviceLevel>COMPLETE</serviceLevel>
   <maxFeatures>200000000</maxFeatures>
@@ -56,4 +58,5 @@
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
   <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
+  <includeWFSRequestDumpFile>false</includeWFSRequestDumpFile>
 </wfs>

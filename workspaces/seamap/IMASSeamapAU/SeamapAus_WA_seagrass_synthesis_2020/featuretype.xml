@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Seagrass Synthesis 2020 (WA Government DOWER)</title>
+  <title>Seamap Australia - WA - Seagrass Synthesis 2020 (WA Government DWER)</title>
   <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government.</abstract>
   <keywords>
     <string>Seamap Australia</string>
@@ -50,8 +50,9 @@
     <maxy>-31.922462064785506</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
