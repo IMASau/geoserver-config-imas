@@ -16,9 +16,9 @@
               <ColorMapEntry color="#D5FF80" opacity="0.9" label="    32m [640-1,280]" quantity="-640"/>
               <ColorMapEntry color="#FFF242" opacity="0.9" label="    16m [320-640]" quantity="-320"/>
               <ColorMapEntry color="#FB8650" opacity="0.9" label="    8m [160-320]" quantity="-160"/>
-              <ColorMapEntry color="#FB8650" opacity="0.9" label="    4m [80-160]" quantity="-80"/>
+              <ColorMapEntry color="#ff7500" opacity="0.9" label="    4m [80-160]" quantity="-80"/>
               <ColorMapEntry color="#CC0029" opacity="0.9" label="    2m [40-80]" quantity="-40"/>
-              <ColorMapEntry color="#CC0029" opacity="0.9" label="    1m [20-40]" quantity="-20"/>
+              <ColorMapEntry color="#c20056" opacity="0.9" label="    1m [20-40]" quantity="-20"/>
               <ColorMapEntry color="#C80490" opacity="0.9" label="    0.5m [&lt;20]" quantity="-0"/>
             </ColorMap>
           </RasterSymbolizer>
@@ -29,9 +29,9 @@
            <ColorMap type="intervals">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-12000" label="  Recommended grid size [actual depth]"/>                                          
               <ColorMapEntry color="#C80490" opacity="0.9" label="    0.5m [&lt;20m]" quantity="-0"/>
-              <ColorMapEntry color="#CC0029" opacity="0.9" label="    1m [20-40m]" quantity="-20"/>             
+              <ColorMapEntry color="#c20056" opacity="0.9" label="    1m [20-40m]" quantity="-20"/>             
               <ColorMapEntry color="#CC0029" opacity="0.9" label="    2m [40-80m]" quantity="-40"/>             
-              <ColorMapEntry color="#FB8650" opacity="0.9" label="    4m [80-160m]" quantity="-80"/>             
+              <ColorMapEntry color="#ff7500" opacity="0.9" label="    4m [80-160m]" quantity="-80"/>             
               <ColorMapEntry color="#FB8650" opacity="0.9" label="    8m [160-320m]" quantity="-160"/>             
               <ColorMapEntry color="#FFF242" opacity="0.9" label="    16m [320-640m]" quantity="-320"/>             
               <ColorMapEntry color="#D5FF80" opacity="0.9" label="    32m [640-1,280m]" quantity="-640"/>             
