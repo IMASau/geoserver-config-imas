@@ -1,5 +1,5 @@
 <layer>
-  <name>Aus_bathy_grid_250m_fine</name>
+  <name>Aus_bathy_grid_250m_2009_fine</name>
   <id>LayerInfoImpl--4812677:17ffdf580a3:6b73</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,5 +13,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2023-05-22 12:38:58.207 UTC</dateModified>
+  <dateModified>2023-10-10 06:28:53.684 UTC</dateModified>
 </layer>

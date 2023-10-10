@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--2cd94726:188179ecce7:738</id>
-  <name>Aus_bathy_grid_250m_HILLSHADE</name>
-  <nativeName>Aus_bathy_grid_250m_HILLSHADE</nativeName>
+  <id>CoverageInfoImpl--7b044d55:181b3380000:-36c6</id>
+  <name>Aus_bathy_grid_250m_2009_coarse</name>
+  <nativeName>Aus_bathy_grid_250m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Bathymetry 2009 250m hillshade (GA)</title>
+  <title>Australian Bathymetry 250m (GA 2009) - resampled to 1,000m</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Hillshade (z-factor 5m) of the GA Australian 250m bathymetry grid. To be used as a backdrop to 250m bathymetry grid.</abstract>
+  <abstract>Resampled from 250m (raw) to 1,000m for performance reasons. For use in layer group.</abstract>
   <keywords>
-    <string>Aus_Bathy_Grid_hs5</string>
+    <string>Aus_bathy_grid</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -24,17 +24,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>91.9976220703125</minx>
-    <maxx>171.99762207031057</maxx>
-    <miny>-60.0024389648437</miny>
-    <maxy>-8.002438964844963</maxy>
+    <minx>91.99374999999999</minx>
+    <maxx>172.00375</maxx>
+    <miny>-59.99874999999999</miny>
+    <maxy>-7.988749999999989</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>91.9976220703125</minx>
-    <maxx>171.99762207031057</maxx>
-    <miny>-60.0024389648437</miny>
-    <maxy>-8.002438964844963</maxy>
+    <minx>91.99374999999999</minx>
+    <maxx>172.00375</maxx>
+    <miny>-59.99874999999999</miny>
+    <maxy>-7.988749999999989</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -42,35 +42,36 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Aus_bathy_grid_HILLSHADE_Aus_Bathy_Grid_hs5</entry>
+    <entry key="dirName">Aus_bathy_grid_coarse_Aus_bathy_grid</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--2cd94726:188179ecce7:737</id>
+    <id>CoverageStoreInfoImpl--7b044d55:181b3380000:-36c7</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
-  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>32000 20800</high>
+      <high>8001 5201</high>
     </range>
     <transform>
-      <scaleX>0.0024999999999999393</scaleX>
-      <scaleY>-0.0024999999999999393</scaleY>
+      <scaleX>0.01</scaleX>
+      <scaleY>-0.01</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>91.9988720703125</translateX>
-      <translateY>-8.003688964844963</translateY>
+      <translateX>91.99874999999999</translateX>
+      <translateY>-7.993749999999989</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -87,10 +88,10 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>-3.4028230607370965E38</double>
       </nullValues>
       <dimensionType>
-        <name>UNSIGNED_8BITS</name>
+        <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -103,7 +104,7 @@
   <parameters>
     <entry>
       <string>RescalePixels</string>
-      <boolean>true</boolean>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
@@ -114,5 +115,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_Bathy_Grid_hs5</nativeCoverageName>
+  <nativeCoverageName>Aus_bathy_grid</nativeCoverageName>
 </coverage>

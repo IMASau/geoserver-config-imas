@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--5d921cd2:17bc397365e:-626a</id>
+  <name>Aus_bathy_grid_2009_fine</name>
+  <description>GA bathymetry grid 2009</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateModified>2023-10-10 06:17:45.402 UTC</dateModified>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth_2009/fine/Aus_bathy_grid.tif</url>
+</coverageStore>

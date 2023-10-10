@@ -1,26 +1,18 @@
 <coverage>
-  <id>CoverageInfoImpl--4812677:17ffdf580a3:6b72</id>
-  <name>Aus_bathy_grid_250m_fine</name>
-  <nativeName>Aus_bathy_grid_250m</nativeName>
+  <id>CoverageInfoImpl--2cd94726:188179ecce7:738</id>
+  <name>Aus_bathy_grid_250m_2009_HILLSHADE</name>
+  <nativeName>Aus_bathy_grid_250m_HILLSHADE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Bathymetry 250m (GA 2009)</title>
+  <title>Australian Bathymetry 250m hillshade (GA 2009)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>The 2009 bathymetric grid of Australia has been produced to include recently acquired datasets, and solutions to issues identified in the previous version. The revised grid has the same extents as its 2005 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
-&#xd;
-This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2009 product.</abstract>
+  <abstract>Hillshade (z-factor 5m) of the GA Australian 250m bathymetry grid. To be used as a backdrop to 250m bathymetry grid.</abstract>
   <keywords>
-    <string>Aus_bathy_grid</string>
+    <string>Aus_Bathy_Grid_hs5</string>
+    <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>http://pid.geoscience.gov.au/dataset/ga/67703</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -34,14 +26,14 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <nativeBoundingBox>
     <minx>91.9976220703125</minx>
     <maxx>171.99762207031057</maxx>
-    <miny>-60.00243896484372</miny>
+    <miny>-60.0024389648437</miny>
     <maxy>-8.002438964844963</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>91.9976220703125</minx>
     <maxx>171.99762207031057</maxx>
-    <miny>-60.00243896484372</miny>
+    <miny>-60.0024389648437</miny>
     <maxy>-8.002438964844963</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -49,52 +41,45 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Aus_bathy_grid_Aus_bathy_grid</entry>
+    <entry key="dirName">Aus_bathy_grid_HILLSHADE_Aus_Bathy_Grid_hs5</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--5d921cd2:17bc397365e:-626a</id>
+    <id>CoverageStoreInfoImpl--2cd94726:188179ecce7:737</id>
   </store>
-  <serviceConfiguration>true</serviceConfiguration>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>8001 5201</high>
+      <high>32000 20800</high>
     </range>
     <transform>
-      <scaleX>0.01</scaleX>
-      <scaleY>-0.01</scaleY>
+      <scaleX>0.0024999999999999393</scaleX>
+      <scaleY>-0.0024999999999999393</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>91.99874999999999</translateX>
-      <translateY>-7.993749999999989</translateY>
+      <translateX>91.9988720703125</translateX>
+      <translateY>-8.003688964844963</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
     <string>bilinear</string>
     <string>bicubic</string>
   </interpolationMethods>
-  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <defaultInterpolationMethod>bilinear</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
       <name>GRAY_INDEX</name>
@@ -104,10 +89,10 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
         <max>inf</max>
       </range>
       <nullValues>
-        <double>32767.0</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
-        <name>REAL_32BITS</name>
+        <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -120,7 +105,7 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <parameters>
     <entry>
       <string>RescalePixels</string>
-      <boolean>false</boolean>
+      <boolean>true</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
@@ -131,5 +116,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_bathy_grid</nativeCoverageName>
+  <nativeCoverageName>Aus_Bathy_Grid_hs5</nativeCoverageName>
 </coverage>
