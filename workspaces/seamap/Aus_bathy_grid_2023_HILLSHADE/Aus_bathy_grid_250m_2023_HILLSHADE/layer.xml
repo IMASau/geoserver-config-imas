@@ -1,18 +1,18 @@
 <layer>
-  <name>Aus_bathy_grid_250m_2009_HILLSHADE</name>
-  <id>LayerInfoImpl--2cd94726:188179ecce7:739</id>
+  <name>Aus_bathy_grid_250m_2023_HILLSHADE</name>
+  <id>LayerInfoImpl--2cf458b2:18b188b6aef:6f81</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--2cd94726:188179ecce7:738</id>
+    <id>CoverageInfoImpl--2cf458b2:18b188b6aef:6f80</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-05-14 02:26:58.151 UTC</dateCreated>
-  <dateModified>2023-10-10 09:27:14.175 UTC</dateModified>
+  <dateCreated>2023-10-10 09:27:27.344 UTC</dateCreated>
+  <dateModified>2023-10-10 09:27:50.43 UTC</dateModified>
 </layer>
