@@ -1,22 +1,14 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl--7b044d55:181b39e8c4b:-569c</id>
+  <id>LayerGroupInfoImpl--2cf458b2:18b188b6aef:77de</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_grid_250m_2009</name>
+  <name>seamap:Aus_bathy_grid_250m</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:900913</gridSetName>
-      <extent>
-        <coords>
-          <double>1.024069740616371E7</double>
-          <double>-8399459.596349323</double>
-          <double>1.9147369864533525E7</double>
-          <double>-892199.1166777431</double>
-        </coords>
-      </extent>
       <maxCachedLevel>14</maxCachedLevel>
     </gridSubset>
   </gridSubsets>

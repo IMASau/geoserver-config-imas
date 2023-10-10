@@ -1,11 +1,13 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--7b044d55:181b39e8c4b:-569c</id>
+  <id>LayerGroupInfoImpl--2cf458b2:18b188b6aef:77de</id>
   <name>Aus_bathy_grid_250m</name>
   <mode>SINGLE</mode>
-  <title>Australian Bathymetry 2009 250 m (GA)</title>
-  <abstractTxt>The 2009 bathymetric grid of Australia has been produced to include recently acquired datasets, and solutions to issues identified in the previous version. The revised grid has the same extents as its 2005 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
+  <title>Australian Bathymetry 2023 250 m (GA)</title>
+  <abstractTxt>The 2023 bathymetric grid of Australia is the result of a collaborative partnership between Geoscience Australia, the Australian Hydrographic Office, James Cook University, and the University of Sydney. It was compiled using 1582 unique data sources from multibeam echosounders, single-beam echosounders, LiDAR, 3D seismic first returns, Electronic Navigation Charts and satellite derived bathymetry alongside higher-resolution regional compilations. All source bathymetry data were extensively edited as 3D point clouds to remove noise, given a consistent WGS84 horizontal datum, and where possible, an approximate MSL vertical datum. &#xd;
 &#xd;
-This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2009 product.</abstractTxt>
+The revised grid has the same extents as its 2009 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
+&#xd;
+This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2023 product.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -13,13 +15,13 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--2cd94726:188179ecce7:739</id>
+      <id>LayerInfoImpl--2cf458b2:18b188b6aef:6f81</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--4812677:17ffdf580a3:6b73</id>
+      <id>LayerInfoImpl--2cf458b2:18b188b6aef:77dc</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--7b044d55:181b3380000:-36c5</id>
+      <id>LayerInfoImpl--2cf458b2:18b188b6aef:758b</id>
     </published>
   </publishables>
   <styles>
@@ -32,15 +34,19 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <style/>
   </styles>
   <bounds>
-    <minx>91.99374999999999</minx>
-    <maxx>172.00375</maxx>
-    <miny>-59.99874999999999</miny>
-    <maxy>-7.988749999999989</maxy>
+    <minx>92.0</minx>
+    <maxx>172.0</maxx>
+    <miny>-60.0</miny>
+    <maxy>-8.0</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2023-07-06 07:00:19.755 UTC</dateModified>
+  <dateCreated>2023-10-10 09:53:32.894 UTC</dateCreated>
+  <dateModified>2023-10-10 09:56:09.205 UTC</dateModified>
 </layerGroup>

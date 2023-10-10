@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--2cf458b2:18b188b6aef:74c1</id>
+  <name>Aus_bathy_grid_2023_coarse</name>
+  <description>GA 250m bathymetry grid 2023 - re-gridded to 1,000m for display</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-10-10 09:37:35.742 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth_2023/coarse/Aus_bathy_grid.tif</url>
+</coverageStore>

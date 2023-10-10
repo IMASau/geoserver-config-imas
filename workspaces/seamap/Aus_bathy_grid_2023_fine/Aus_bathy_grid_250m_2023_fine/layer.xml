@@ -1,0 +1,16 @@
+<layer>
+  <name>Aus_bathy_grid_250m_2023_fine</name>
+  <id>LayerInfoImpl--2cf458b2:18b188b6aef:77dc</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--2cf458b2:18b188b6aef:77db</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-10 09:49:42.920 UTC</dateCreated>
+</layer>
