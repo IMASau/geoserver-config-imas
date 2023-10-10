@@ -1,17 +1,16 @@
 <layer>
   <name>Aus_bathy_250m_recommended_grid_resolution</name>
-  <id>LayerInfoImpl-7a1c5a8f:18ad6808429:-2996</id>
+  <id>LayerInfoImpl--2cf458b2:18b1910f46a:-79a6</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-7a1c5a8f:18ad6808429:-3ff7</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7a1c5a8f:18ad6808429:-2997</id>
+    <id>CoverageInfoImpl--2cf458b2:18b1910f46a:-79a7</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-09-27 23:20:52.75 UTC</dateCreated>
-  <dateModified>2023-09-28 00:16:40.620 UTC</dateModified>
+  <dateCreated>2023-10-10 10:17:52.535 UTC</dateCreated>
 </layer>

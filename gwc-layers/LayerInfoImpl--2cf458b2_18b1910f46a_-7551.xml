@@ -1,5 +1,5 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--5d921cd2:17bc397365e:-622b</id>
+  <id>LayerInfoImpl--2cf458b2:18b1910f46a:-7551</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
   <name>seamap:Aus_bathy_grid_MERI</name>
@@ -9,15 +9,7 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:900913</gridSetName>
-      <extent>
-        <coords>
-          <double>1.024069740616371E7</double>
-          <double>-8399459.596349323</double>
-          <double>1.9147369864533525E7</double>
-          <double>-892199.1166777431</double>
-        </coords>
-      </extent>
-      <maxCachedLevel>18</maxCachedLevel>
+      <maxCachedLevel>10</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -31,7 +23,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>seamap:Aus_bathy_MERI</defaultStyle>
+      <defaultStyle>seamap:Aus_bathy_grid_MERI</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
