@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--2cf458b2:18b188b6aef:6f80</id>
+  <id>CoverageInfoImpl--2cf458b2:18b1910f46a:-54b6</id>
   <name>Aus_bathy_grid_250m_2023_HILLSHADE</name>
   <nativeName>Aus_bathy_grid_250m_2023_HILLSHADE</nativeName>
   <namespace>
@@ -24,17 +24,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.9999942284864</minx>
-    <maxx>179.99943102102662</maxx>
-    <miny>-63.39399133097761</miny>
-    <maxy>-1.5615945537168845</maxy>
+    <minx>92.00013888887796</minx>
+    <maxx>172.0001388888053</maxx>
+    <miny>-59.999860839874</miny>
+    <maxy>-7.999860839921226</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.9999942284864</minx>
-    <maxx>179.99943102102662</maxx>
-    <miny>-63.39399133097761</miny>
-    <maxy>-1.5615945537168845</maxy>
+    <minx>92.00013888887796</minx>
+    <maxx>172.0001388888053</maxx>
+    <miny>-59.999860839874</miny>
+    <maxy>-7.999860839921226</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -55,15 +55,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>63258 10865</high>
+      <high>32000 20800</high>
     </range>
     <transform>
-      <scaleX>0.005690970711206693</scaleX>
-      <scaleY>-0.005690970711206693</scaleY>
+      <scaleX>0.0024999999999977297</scaleX>
+      <scaleY>-0.0024999999999977297</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-179.9971487431308</translateX>
-      <translateY>-1.5644400390724877</translateY>
+      <translateX>92.00138888887795</translateX>
+      <translateY>-8.001110839921225</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
