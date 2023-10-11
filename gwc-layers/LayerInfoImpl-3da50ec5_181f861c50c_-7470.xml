@@ -17,7 +17,7 @@
           <double>-946322.294762985</double>
         </coords>
       </extent>
-      <maxCachedLevel>10</maxCachedLevel>
+      <maxCachedLevel>12</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -31,7 +31,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>NESP:MERI_Benthic_CI</defaultStyle>
+      <defaultStyle>NESP:ME_Benthic_Cumulative_Impact</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
