@@ -1,0 +1,17 @@
+<layer>
+  <name>Oyster_Sensors_Network</name>
+  <id>LayerInfoImpl--2cf458b2:18b3686627d:809</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2cf458b2:18b3686627d:806</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2cf458b2:18b3686627d:808</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-16 06:14:35.339 UTC</dateCreated>
+  <dateModified>2023-10-16 06:15:25.115 UTC</dateModified>
+</layer>
