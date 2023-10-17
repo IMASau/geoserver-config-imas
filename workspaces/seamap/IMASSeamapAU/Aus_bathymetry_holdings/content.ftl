@@ -34,6 +34,7 @@
 		<#assign POC=feature.POINTOFCONTACT.value>		
 		<#assign startdate=feature.START_DATE.value>
 		<#assign enddate=feature.END_DATE.value>
+		<#assign view_map=feature.VIEW_MAP.value>
 		<#assign today = .now?long >
 
 		<#if (feature_index < 10)> 
@@ -89,17 +90,21 @@
 			</#if>
 		</TD>   
      
-		<TD style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:10.5px; border-right: 1px solid black;">
-			<#if feature.DATA_DL.value == 'yes - other'>
-				yes - other
-			<#elseif feature.DATA_DL.value == 'yes - ASB'>
-				<a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
-			<#elseif feature.DATA_DL.value == 'yes - WA bathymetry portal'>
-				<a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
-			<#else>
-				not available
-			</#if>
-		</TD> 
+<TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black;">
+	<#if feature.DATA_DL.value == 'yes - other'>
+		yes - other
+	<#elseif feature.DATA_DL.value == 'yes - ASB'>
+		<#if view_map?has_content>
+			<a rel="external" href="${feature.VIEW_MAP.value}" target="_blank">view in AusSeabed</a>
+		<#else>
+			<a rel="external" href="https://portal.ga.gov.au/persona/marine" target="_blank">AusSeabed</a>
+		</#if>
+	<#elseif feature.DATA_DL.value == 'yes - WA bathymetry portal'>
+		<a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
+	<#else>
+		<i>not available</i>
+	</#if>
+</TD> 
 		
 
 		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
