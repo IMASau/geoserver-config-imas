@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--59bf08f7:18b4103875b:-60be</id>
+  <name>SWC_predicted_macroalgae_Q3</name>
+  <description>Habitat predictions for South-west Corner marine park - macroalgae - 0.2</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-10-18 04:39:09.841 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/macroalgae/pred_macroalgae_q3.tif</url>
+</coverageStore>
