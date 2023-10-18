@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Predicted habitat (South-west Corner marine park) - macroalgae - Q1 (0.000001)</title>
+  <title>Predicted habitat (South-west Corner marine park) - macroalgae - quantile 0.000001</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Not to be published singly - for display in Seamap Australia portal</abstract>
   <keywords>
@@ -39,7 +39,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SWC_predicted_macroalgae_Q1_pred_macroalgae_q1</entry>

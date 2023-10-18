@@ -77,7 +77,7 @@
     <entry key="logHeadersEnabled">false</entry>
     <entry key="logBodiesEnabled">true</entry>
   </metadata>
-  <updateSequence>24470</updateSequence>
+  <updateSequence>24496</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <useHeadersProxyURL>true</useHeadersProxyURL>
