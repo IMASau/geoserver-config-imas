@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--59bf08f7:18b42301c24:63fe</id>
-  <name>SWC_pred_sessile_inverts_q11</name>
-  <nativeName>SWC_pred_sessile_inverts_q11</nativeName>
+  <id>CoverageInfoImpl--59bf08f7:18b42301c24:6587</id>
+  <name>SWC_pred_consolidated_q4</name>
+  <nativeName>SWC_pred_consolidated_q4</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Predicted habitat (South-west Corner marine park) - sessile invertebrates - quantile 0.999999</title>
+  <title>Predicted habitat (South-west Corner marine park) - consolidated - quantile 0.3</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Not to be published singly - for display in Seamap Australia portal</abstract>
   <keywords>
-    <string>pred_sessile_inverts_q11</string>
+    <string>pred_consolidated_q4</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -42,10 +42,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_sessile_inverts_Q11_pred_sessile_inverts_q11</entry>
+    <entry key="dirName">SWC_predicted_consolidated_Q4_pred_consolidated_q4</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--59bf08f7:18b42301c24:554d</id>
+    <id>CoverageStoreInfoImpl--59bf08f7:18b42301c24:656e</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -113,5 +113,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>pred_sessile_inverts_q11</nativeCoverageName>
+  <nativeCoverageName>pred_consolidated_q4</nativeCoverageName>
 </coverage>
