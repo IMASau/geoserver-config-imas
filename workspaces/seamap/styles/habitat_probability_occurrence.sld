@@ -8,8 +8,7 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap>
-              
+            <ColorMap type="ramp">              
               <ColorMapEntry color="#4d7799" opacity="0.95" quantity="0"/>
               <ColorMapEntry color="#7fa4c4" opacity="0.95" quantity="0.2"/>              
               <ColorMapEntry color="#98bbd9" opacity="0.95" quantity="0.4"/>            
@@ -23,8 +22,7 @@
         </Rule>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap>
-              
+            <ColorMap type="ramp">              
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-200" label="Probability of occurrence"/>
               <ColorMapEntry color="#b5515b" opacity="0.95" quantity="1" label=" 1.0"/>
               <ColorMapEntry color="#d48e95" opacity="0.95" quantity="0.8" label=" 0.8"/>              
