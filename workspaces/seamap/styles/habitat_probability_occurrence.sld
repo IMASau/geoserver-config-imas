@@ -23,16 +23,16 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-200" label="Probability of occurrence"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of occurrence"/>
               <ColorMapEntry color="#b5515b" opacity="0.95" quantity="1" label=" 1.0"/>
               <ColorMapEntry color="#d48e95" opacity="0.95" quantity="0.8" label=" 0.8"/>              
               <ColorMapEntry color="#c5c8d4" opacity="0.95" quantity="0.6" label=" 0.6"/>            
               <ColorMapEntry color="#98bbd9" opacity="0.95" quantity="0.4" label=" 0.4"/>
               <ColorMapEntry color="#7fa4c4" opacity="0.95" quantity="0.2" label=" 0.2"/>
               <ColorMapEntry color="#4d7799" opacity="0.95" quantity="0" label=" 0.0"/>    
- 		<VendorOption name="inclusion">legendOnly</VendorOption>                                                         
           
             </ColorMap>
+ 		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>
         </Rule>        
       </FeatureTypeStyle>
