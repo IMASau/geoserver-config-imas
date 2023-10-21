@@ -29,7 +29,9 @@
     <styleParameterFilter>
       <key>STYLES</key>
       <defaultValue></defaultValue>
-      <availableStyles class="sorted-set"/>
+      <availableStyles class="sorted-set">
+        <string>seamap:Aus_bathymetry_holdings_SOPzones</string>
+      </availableStyles>
       <defaultStyle>seamap:Aus_bathymetry_holdings</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
