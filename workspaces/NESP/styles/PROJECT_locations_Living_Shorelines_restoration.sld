@@ -8,10 +8,10 @@
       <FeatureTypeStyle>
 	  
         <Rule>
-          <Title>Study sampling type</Title>
+          <Title>---Coastal Restoration Approach---</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Study_ID</ogc:PropertyName>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
 					    <ogc:Literal>intentionallyblank</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
 			</ogc:Filter>        
@@ -27,23 +27,22 @@
               </Mark>
             </Graphic>
           </PointSymbolizer>      
-        </Rule>
+        </Rule>		
 		
-        <Rule>
-          <Title>Water</Title>
-			<ogc:Filter>           
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_water</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>                           
+          <Rule>
+          <Title>Beach renourishment</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%Beach%</ogc:Literal>
+					</ogc:PropertyIsLike>              
 			</ogc:Filter>        
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#1a1aff</CssParameter>  
+                  <CssParameter name="fill">#ffff00</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill> 
                 <Stroke>
@@ -53,24 +52,24 @@
               </Mark>
               <Size>14</Size>				
             </Graphic>
-          </PointSymbolizer>		  
-        </Rule>	
-		
-          <Rule>
-          <Title>Water - zoomed out</Title>
-			<ogc:Filter>         
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_water</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>                         
+          </PointSymbolizer>       
+        </Rule>
+
+       
+        <Rule>
+          <Title>Dune replanting or construction</Title>
+			<ogc:Filter>           
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%Dune%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter>        
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				          
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#1a1aff</CssParameter>  
+                  <CssParameter name="fill">#ff9966</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill> 
                 <Stroke>
@@ -78,84 +77,26 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>11</Size>				
-            </Graphic>
-          </PointSymbolizer> 
-         <VendorOption name="inclusion">mapOnly</VendorOption>                        
-        </Rule>
-
-        
-        <Rule>
-          <Title>Sediment</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>         
-			</ogc:Filter>        
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				                  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>square</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#e68a00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill> 
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>13</Size>				
+              <Size>14</Size>				
             </Graphic>
           </PointSymbolizer>       
-        </Rule>
-        
-         <Rule>
-          <Title>Sediment - zoomed out</Title>
-			<ogc:Filter>            
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_sediment</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			</ogc:Filter>        
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				                  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>square</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#e68a00</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill> 
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
-               </Stroke>                
-              </Mark>
-              <Size>10</Size>				
-            </Graphic>
-          </PointSymbolizer>  
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
-        </Rule>   
+        </Rule>    
 
-    
+
         <Rule>
-          <Title>Biota</Title>
+          <Title>Mangroves</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>                            
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%angrove%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00cc00</CssParameter>  
+                  <CssParameter name="fill">#663300</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -169,20 +110,19 @@
         </Rule>
 
         <Rule>
-          <Title>Biota - zoomed out</Title>
-			<ogc:Filter>           
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_biota</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
+          <Title>Saltmarshes</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%altmarsh%</ogc:Literal>
+					</ogc:PropertyIsLike>
 			</ogc:Filter> 
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				          			
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00cc00</CssParameter>  
+                  <CssParameter name="fill">#cc3300</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -190,62 +130,129 @@
                    <CssParameter name="stroke-width">0.1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10</Size>
+              <Size>13</Size>
             </Graphic>
-          </PointSymbolizer> 
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
-        </Rule>		
-		
+          </PointSymbolizer>      
+        </Rule>	
+
         <Rule>
-          <Title>Beach survey</Title>
+          <Title>Seagrasses</Title>
 			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_beachSurvey</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			</ogc:Filter>
-           <MaxScaleDenominator>5000000</MaxScaleDenominator>                                        		            				          
-         
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%eagrass%</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter> 
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>cross</WellKnownName>
+                <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b30000</CssParameter>  
+                  <CssParameter name="fill">#40ff00</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>                              
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
               </Mark>
-              <Size>12</Size>
+              <Size>13</Size>
             </Graphic>
-          </PointSymbolizer>
-        </Rule>
-		  
-                 
-        <Rule>
-          <Title>Beach survey - zoomed out</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>StudyType_beachSurvey</ogc:PropertyName>
-					    <ogc:Literal>Y</ogc:Literal>
-					</ogc:PropertyIsEqualTo>
-			</ogc:Filter>
-           <MinScaleDenominator>5000000</MinScaleDenominator>                                        		            				          
-         
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>cross</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#b30000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
-                </Fill>                              
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-         <VendorOption name="inclusion">mapOnly</VendorOption>                      
+          </PointSymbolizer>      
         </Rule>
 
+        <Rule>
+          <Title>Kelp forests</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%elp forest%</ogc:Literal>
+            </ogc:PropertyIsLike >
+			</ogc:Filter> 
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006666</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>      
+        </Rule>			
+                 
+        <Rule>
+          <Title>Coral reefs</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%oral reef%</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>					
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		
+        <Rule>
+          <Title>Shellfish reefs</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%hellfish reef%</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>										
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6666ff</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+        
+        <Rule>
+          <Title>Other</Title>
+			<ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+					<ogc:PropertyName>GLOBAL__Approach</ogc:PropertyName>
+					    <ogc:Literal>%ther%</ogc:Literal>
+					</ogc:PropertyIsLike>
+			</ogc:Filter>										
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0000b3</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	        
+		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

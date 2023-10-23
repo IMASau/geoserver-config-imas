@@ -1,5 +1,5 @@
 <#list features as feature>
-	<#if (feature_index < 1) >
+	<#if (feature_index < 3) >
 
 	<h5>${feature.GLOBAL__Project.value}</h5>
 	<BR>
@@ -13,7 +13,7 @@
 		<BR><BR>
 	</div>
 		<#else>
-			<i>Multiple projects exist at this point. Zoom in for more info.</i>
+			<i>More than three projects exist at this point. Zoom in for more info.</i>
 			<BR><BR>
 		<#break>
 		

@@ -11,7 +11,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>		
-          <Title>Restored Habitat Type</Title>		
+          <Title>---Restored Habitat Type---</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>Habitat_type</ogc:PropertyName>		
