@@ -9,10 +9,5 @@
     <version>1.0.0</version>
   </languageVersion>
   <filename>Aus_bathy_grid_MERI.sld</filename>
-  <legend>
-    <width>231</width>
-    <height>208</height>
-    <format>image/png</format>
-    <onlineResource>https://data.imas.utas.edu.au/attachments/geoserver_legends_custom/legend-Aus_bathy_MERI.png</onlineResource>
-  </legend>
+  <dateModified>2023-10-23 20:22:50.498 UTC</dateModified>
 </style>
