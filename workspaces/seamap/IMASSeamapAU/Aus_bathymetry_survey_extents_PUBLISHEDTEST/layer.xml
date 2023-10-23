@@ -1,0 +1,17 @@
+<layer>
+  <name>Aus_bathymetry_survey_extents_PUBLISHEDTEST</name>
+  <id>LayerInfoImpl-2116d68a:18b5a054c7f:430c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1926d766:1812959a57e:-795b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2116d68a:18b5a054c7f:430b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-23 03:12:06.680 UTC</dateCreated>
+  <dateModified>2023-10-23 03:30:00.655 UTC</dateModified>
+</layer>
