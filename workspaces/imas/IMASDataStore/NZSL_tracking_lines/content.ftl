@@ -1,10 +1,8 @@
 <#list features as feature>
-
     <#assign startDateTime = feature.start_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
     <#assign endDateTime = feature.end_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
-
-    <#assign tripLengthHrs = feature.trip_length_hrs.value?number>
-    <#assign tripLengthDisplay = (tripLengthHrs < 24)?then(tripLengthHrs?round + " hours", (tripLengthHrs / 24)?round + " days")>
+    <#assign tripLengthDays = feature.trip_length_days.value?number>
+<#assign tripLengthDisplay = (tripLengthDays < 1)?then((tripLengthDays * 24)?round + " hours", (tripLengthDays + 0.5)?int + " days")>
 
     <#if feature_index lt 5>
         <div class="feature" style="display: flex; margin-bottom: 20px;">

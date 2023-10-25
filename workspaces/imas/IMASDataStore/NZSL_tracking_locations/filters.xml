@@ -36,9 +36,9 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>trip_length_hrs</name>
-        <type>int</type>
-        <label>Trip length (hrs)</label>
+        <name>trip_length_days</name>
+        <type>decimal</type>
+        <label>Trip length (days)</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
