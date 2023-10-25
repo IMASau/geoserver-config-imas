@@ -20,8 +20,8 @@
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-            <CssParameter name="stroke-opacity">0.7</CssParameter>
-            <CssParameter name="stroke-width">1.7</CssParameter>            
+            <CssParameter name="stroke-opacity">0.3</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>            
           </Stroke>
         </LineSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
