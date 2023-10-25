@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:-6bc1</id>
-  <name>NZSL_tracks_MAP</name>
-  <nativeName>MALea_NZSL_tracks_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:-6aaf</id>
+  <name>NZSL_tracking_locations</name>
+  <nativeName>MALea_NZSL_locations</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>New Zealand Sea Lion tracks, Campbell Island (mapping view)</title>
+  <title>New Zealand Sea Lion tracking locations, Campbell Island</title>
   <keywords>
     <string>features</string>
-    <string>MALea_NZSL_tracks_MAP</string>
+    <string>MALea_NZSL_locations</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
@@ -28,22 +28,21 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>168.3941215</minx>
-    <maxx>172.711618</maxx>
-    <miny>-54.58687161</miny>
-    <maxy>-51.32878539</maxy>
+    <minx>168.39411813211757</minx>
+    <maxx>172.71162145423236</maxx>
+    <miny>-54.586872701737434</miny>
+    <maxy>-51.32878436342429</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>168.3941215</minx>
-    <maxx>172.711618</maxx>
-    <miny>-54.58687161</miny>
-    <maxy>-51.32878539</maxy>
+    <minx>168.39411813211757</minx>
+    <maxx>172.71162145423236</maxx>
+    <miny>-54.586872701737434</miny>
+    <maxy>-51.32878436342429</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

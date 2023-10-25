@@ -1,0 +1,17 @@
+<layer>
+  <name>NZSL_tracking_locations</name>
+  <id>LayerInfoImpl-2116d68a:18b658f8f46:-6aae</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2116d68a:18b658f8f46:-6ab8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:-6aaf</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-25 10:17:46.10 UTC</dateCreated>
+  <dateModified>2023-10-25 10:18:50.430 UTC</dateModified>
+</layer>
