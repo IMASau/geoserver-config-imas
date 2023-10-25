@@ -1,0 +1,32 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-2116d68a:18b658f8f46:-6a2f</id>
+  <name>imas:NZSL_tracks</name>
+  <mode>SINGLE</mode>
+  <title>New Zealand Sea Lion tracking locations, Campbell Island</title>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-2116d68a:18b658f8f46:-6bc0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2116d68a:18b658f8f46:-6aae</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-2116d68a:18b658f8f46:-6b50</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2116d68a:18b658f8f46:-6ab8</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>168.39411813211757</minx>
+    <maxx>172.71162145423236</maxx>
+    <miny>-54.586872701737434</miny>
+    <maxy>-51.32878436342429</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-10-25 12:15:56.885 UTC</dateCreated>
+</layerGroup>

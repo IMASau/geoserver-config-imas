@@ -30,7 +30,8 @@
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                  
         </Rule>
      <Rule>
-       <Title>Sea Lion tracking location</Title>       
+       <Title>Sea Lion tracking location</Title>  
+	<MaxScaleDenominator>500000</MaxScaleDenominator>              
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -39,10 +40,10 @@
                   <CssParameter name="fill">
                     <ogc:PropertyName>colour</ogc:PropertyName>
                   </CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>              
               </Mark>
-              <Size>6</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>  
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                  

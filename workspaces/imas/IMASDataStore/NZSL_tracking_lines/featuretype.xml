@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:-6bc1</id>
-  <name>NZSL_tracks_MAP</name>
+  <name>NZSL_tracking_lines</name>
   <nativeName>MALea_NZSL_tracks_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -43,7 +43,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

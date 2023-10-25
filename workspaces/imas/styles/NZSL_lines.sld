@@ -5,6 +5,7 @@
 <FeatureTypeStyle>
 <Rule>
   <Title>Sea lion tracks (coloured by individual)</Title>
+	<MinScaleDenominator>500000</MinScaleDenominator>      
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
@@ -12,11 +13,19 @@
             <CssParameter name="stroke-width">1.5</CssParameter>            
           </Stroke>
         </LineSymbolizer>
-<LineSymbolizer>
-</LineSymbolizer>
-<LineSymbolizer>
-</LineSymbolizer>
 </Rule>
+<Rule>
+  <Title>Sea lion tracks (coloured by individual)</Title>
+	<MaxScaleDenominator>500000</MaxScaleDenominator>    
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
+            <CssParameter name="stroke-opacity">0.4</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>            
+          </Stroke>
+        </LineSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
+</Rule>  
 <Rule>
 	<MaxScaleDenominator>1500000</MaxScaleDenominator>
   	<TextSymbolizer>

@@ -3,14 +3,7 @@
     <filter>
         <name>name</name>
         <type>string</type>
-        <label>Individual name</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>sex</name>
-        <type>string</type>
-        <label>Sex</label>
+        <label>Name</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
@@ -18,6 +11,13 @@
         <name>age_class</name>
         <type>string</type>
         <label>Age class</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>sex</name>
+        <type>string</type>
+        <label>Sex</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

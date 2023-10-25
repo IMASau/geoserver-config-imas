@@ -1,14 +1,13 @@
 <#list features as feature>
-
-        <#assign startDateTime = feature.start_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
-        <#assign endDateTime = feature.end_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
+    <#assign startDateTime = feature.start_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
+    <#assign endDateTime = feature.end_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
 
     <#if feature_index lt 5>
     <div class="feature"> 
-        <b><i>${feature.name.value}</i></b> 
-        <#if feature.age_class.value == 'sub.adult'>(sub-adult
-        <#elseif feature.age_class.value == 'juv'>(juvenile
-        <#elseif feature.age_class.value == 'adult'>(adult
+        <b><span style="color: ${feature.colour.value}; font-size: 115%; display: inline-block; padding-bottom: 3px;"><i>${feature.name.value}</i></span></b> 
+        <#if feature.age_class.value == 'sub.adult'> (sub-adult
+        <#elseif feature.age_class.value == 'juv'> (juvenile
+        <#elseif feature.age_class.value == 'adult'> (adult
         </#if> 
         <#if feature.sex.value == 'M'>male<#elseif feature.sex.value == 'F'>female</#if>)
         <br>
