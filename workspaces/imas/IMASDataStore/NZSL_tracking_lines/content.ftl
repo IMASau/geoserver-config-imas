@@ -1,6 +1,10 @@
 <#list features as feature>
+
     <#assign startDateTime = feature.start_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
     <#assign endDateTime = feature.end_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
+
+    <#assign tripLengthHrs = feature.trip_length_hrs.value?number>
+    <#assign tripLengthDisplay = (tripLengthHrs < 24)?then(tripLengthHrs?round + " hours", (tripLengthHrs / 24)?round + " days")>
 
     <#if feature_index lt 5>
         <div class="feature" style="display: flex; margin-bottom: 20px;">
@@ -13,13 +17,12 @@
                     <#elseif feature.age_class.value == 'adult'> (adult
                     </#if> 
                     <#if feature.sex.value == 'M'>male<#elseif feature.sex.value == 'F'>female</#if>)
-                </p>
                 <p style="margin: 0;">
                     <b><span style="font-size: 115%;">Trip #${feature.trip.value}:</span> </b>
                     <#if startDateTime?string("yyyy-MM-dd") == endDateTime?string("yyyy-MM-dd")>
-                        ${startDateTime?string("HH:mm")} - ${endDateTime?string("HH:mm d MMM yyyy")}
+                        ${startDateTime?string("HH:mm")} - ${endDateTime?string("HH:mm d MMM yyyy")}  <b>(${tripLengthDisplay})</b>
                     <#else>
-                        ${startDateTime?string("d MMM yyyy")} - ${endDateTime?string("d MMM yyyy")}
+                        ${startDateTime?string("d MMM yyyy")} - ${endDateTime?string("d MMM yyyy")}  <b>(${tripLengthDisplay})</b>
                     </#if>
                 </p>
             </div>
