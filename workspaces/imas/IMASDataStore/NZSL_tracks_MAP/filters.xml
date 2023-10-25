@@ -1,24 +1,3 @@
 <?xml version="1.0"?>
 <filters>
-    <filter>
-        <name>age.class</name>
-        <type>string</type>
-        <label>Age.class</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>sex</name>
-        <type>string</type>
-        <label>Sex</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
-        <name>name</name>
-        <type>string</type>
-        <label>Individual name</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
 </filters>

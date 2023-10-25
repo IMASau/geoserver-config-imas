@@ -22,7 +22,7 @@
   	<TextSymbolizer>
   		<Label>
             <ogc:Function name="Concatenate">
-			<ogc:PropertyName>age.class</ogc:PropertyName><ogc:Literal> (</ogc:Literal><ogc:PropertyName>sex</ogc:PropertyName><ogc:Literal>) - trip #</ogc:Literal><ogc:PropertyName>trip</ogc:PropertyName>  
+			<ogc:PropertyName>age_class</ogc:PropertyName><ogc:Literal> (</ogc:Literal><ogc:PropertyName>sex</ogc:PropertyName><ogc:Literal>) - trip #</ogc:Literal><ogc:PropertyName>trip</ogc:PropertyName>  
             </ogc:Function>
               </Label>
 		<Font>
