@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
+        <name>gmt</name>
+        <type>datetime</type>
+        <label>Gmt</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>name</name>
         <type>string</type>
         <label>Individual name</label>

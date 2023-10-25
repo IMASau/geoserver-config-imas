@@ -17,10 +17,13 @@
                     <#elseif feature.age_class.value == 'adult'> (adult
                     </#if> 
                     <#if feature.sex.value == 'M'>male<#elseif feature.sex.value == 'F'>female</#if>)
+                </p>
                 <p style="margin: 0;">
                     <b><span style="font-size: 115%;">Trip #${feature.trip.value}:</span> </b>
                     <#if startDateTime?string("yyyy-MM-dd") == endDateTime?string("yyyy-MM-dd")>
                         ${startDateTime?string("HH:mm")} - ${endDateTime?string("HH:mm d MMM yyyy")}  <b>(${tripLengthDisplay})</b>
+                    <#elseif startDateTime?string("yyyy") == endDateTime?string("yyyy")>
+                        ${startDateTime?string("d MMM")} - ${endDateTime?string("d MMM yyyy")}  <b>(${tripLengthDisplay})</b>
                     <#else>
                         ${startDateTime?string("d MMM yyyy")} - ${endDateTime?string("d MMM yyyy")}  <b>(${tripLengthDisplay})</b>
                     </#if>
