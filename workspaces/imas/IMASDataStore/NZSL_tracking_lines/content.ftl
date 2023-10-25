@@ -4,7 +4,7 @@
 
     <#if feature_index lt 5>
     <div class="feature"> 
-        <b><span style="color: ${feature.colour.value}; font-size: 115%; display: inline-block; padding-bottom: 3px;"><i>${feature.name.value}</i></span></b> 
+<span class="sea-lion-name" style="font-size: 115%; display: inline-block; padding-bottom: 3px;"><i>${feature.name.value}</i></span>
         <#if feature.age_class.value == 'sub.adult'> (sub-adult
         <#elseif feature.age_class.value == 'juv'> (juvenile
         <#elseif feature.age_class.value == 'adult'> (adult

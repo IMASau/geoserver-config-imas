@@ -37,7 +37,7 @@
 		<Font>
 			<CssParameter name="font-family">Verdana</CssParameter>
 			<CssParameter name="font-style">Normal</CssParameter>
-			<CssParameter name="font-size">10</CssParameter>
+			<CssParameter name="font-size">11</CssParameter>
 		</Font>
 		<sld:LabelPlacement>
 			<sld:PointPlacement>
@@ -52,6 +52,7 @@
 			<CssParameter name="fill-opacity">1</CssParameter>
 		</Fill>
 		<VendorOption name="followLine">true</VendorOption>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                                          
 	</TextSymbolizer>
 </Rule>
 </FeatureTypeStyle>

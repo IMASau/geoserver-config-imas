@@ -20,8 +20,8 @@
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-            <CssParameter name="stroke-opacity">0.3</CssParameter>
-            <CssParameter name="stroke-width">2</CssParameter>            
+            <CssParameter name="stroke-opacity">0.5</CssParameter>
+            <CssParameter name="stroke-width">1.8</CssParameter>            
           </Stroke>
         </LineSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
@@ -37,7 +37,7 @@
 		<Font>
 			<CssParameter name="font-family">Verdana</CssParameter>
 			<CssParameter name="font-style">Normal</CssParameter>
-			<CssParameter name="font-size">10</CssParameter>
+			<CssParameter name="font-size">11</CssParameter>
 		</Font>
 		<sld:LabelPlacement>
 			<sld:PointPlacement>
