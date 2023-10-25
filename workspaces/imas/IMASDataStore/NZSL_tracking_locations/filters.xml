@@ -28,4 +28,11 @@
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
+    <filter>
+        <name>trip_length_hrs</name>
+        <type>int</type>
+        <label>Trip length (hrs)</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
 </filters>

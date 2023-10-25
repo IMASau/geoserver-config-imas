@@ -1,8 +1,11 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-2116d68a:18b658f8f46:-6a2f</id>
-  <name>imas:NZSL_tracks</name>
+  <name>NZSL_tracks_grp</name>
   <mode>SINGLE</mode>
   <title>New Zealand Sea Lion tracking locations, Campbell Island</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
   <internationalTitle/>
   <internationalAbstract/>
   <publishables>
@@ -29,5 +32,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-10-25 12:15:56.885 UTC</dateCreated>
-  <dateModified>2023-10-25 12:38:42.824 UTC</dateModified>
+  <dateModified>2023-10-25 21:34:20.60 UTC</dateModified>
 </layerGroup>
