@@ -1,9 +1,9 @@
 <layer>
-  <name>MALea_NZSL_tracks_MAP</name>
+  <name>NZSL_tracks_MAP</name>
   <id>LayerInfoImpl-2116d68a:18b658f8f46:-6bc0</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffc</id>
+    <id>StyleInfoImpl-2116d68a:18b658f8f46:-6b50</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:-6bc1</id>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-10-25 07:59:50.585 UTC</dateCreated>
+  <dateModified>2023-10-25 08:29:02.16 UTC</dateModified>
 </layer>
