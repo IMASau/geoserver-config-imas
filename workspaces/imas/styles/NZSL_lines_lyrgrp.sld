@@ -27,7 +27,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule>  
 <Rule>
-	<MaxScaleDenominator>1500000</MaxScaleDenominator>
+	<MaxScaleDenominator>600000</MaxScaleDenominator>
   	<TextSymbolizer>
   		<Label>
             <ogc:Function name="Concatenate">
@@ -37,7 +37,7 @@
 		<Font>
 			<CssParameter name="font-family">Verdana</CssParameter>
 			<CssParameter name="font-style">Normal</CssParameter>
-			<CssParameter name="font-size">11</CssParameter>
+			<CssParameter name="font-size">12</CssParameter>
 		</Font>
 		<sld:LabelPlacement>
 			<sld:PointPlacement>

@@ -100,9 +100,6 @@ h6 {
 	line-height: 20px;
 }
 
-i {
-	color: #9a9a9a;
-}
 </style>
 </head>
 
