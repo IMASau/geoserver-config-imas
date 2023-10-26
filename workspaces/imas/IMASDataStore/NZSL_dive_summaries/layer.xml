@@ -1,0 +1,17 @@
+<layer>
+  <name>NZSL_dive_summaries</name>
+  <id>LayerInfoImpl-2116d68a:18b658f8f46:109e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2116d68a:18b658f8f46:10a0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:109d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-25 23:30:52.107 UTC</dateCreated>
+  <dateModified>2023-10-25 23:41:29.642 UTC</dateModified>
+</layer>
