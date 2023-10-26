@@ -1,10 +1,12 @@
 <#list features as feature>
-
   <#if feature_index lt 5>
 
-          <#assign gmtDate = feature.gmt.value?datetime("yyyy-MM-dd HH:mm:ss.SSS")>
-          <#assign startPeriod = gmtDate - 6*60*60*1000> <!-- Subtracting 6 hours in milliseconds -->
+<#assign bin_start = feature.time_bin_start.value?datetime("dd/MM/yyyy hh:mm:ss a")!>
+<#assign bin_end = feature.time_bin_end.value?datetime("dd/MM/yyyy hh:mm:ss a")!>
+    <#assign sameDay = (bin_start?string("yyyy-MM-dd") == bin_end?string("yyyy-MM-dd"))>
 
+
+    
     <div class="feature" style="display: flex; margin-bottom: 20px;">
       <div style="min-height: 38px; width: 10px; background-color: ${feature.colour.value}; margin-right: 10px;"></div>
       <div style="flex-grow: 1;">
@@ -16,10 +18,17 @@
           </#if> 
           <#if feature.sex.value == 'M'>male<#elseif feature.sex.value == 'F'>female</#if>)
         </p>
-        <p style="margin: 0; padding-bottom: 5px;">
-          <b>Time period:</b> ${startPeriod?string("d MMM yyyy HH:mm")} - ${gmtDate?string("d MMM yyyy HH:mm")}
-        </p>
-        <p style="margin: 0;">
+
+        <p style="margin: 0">
+          <b>Summary period:</b> 
+
+          <#if sameDay>
+            ${bin_start?string("HH:mm")} - ${bin_end?string("HH:mm d MMM yyyy")}
+          <#else>
+            ${bin_start?string("HH:mm d MMM")} - ${bin_end?string("HH:mm d MMM yyyy")}
+          </#if>
+
+          <br>
           <b>Dive depth:</b> ${feature.mean_depth.value?number?round}m (mean), ${feature.max_depth.value?number?round}m (max)
           <br>
           <b>Dive duration:</b> ${feature.mean_dur.value?number?round} mins (mean), ${feature.max_dur.value?number?round} mins (max)
