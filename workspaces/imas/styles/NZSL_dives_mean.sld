@@ -13,19 +13,89 @@
                                 <WellKnownName>circle</WellKnownName>
                                 <Fill>
                                     <CssParameter name="fill">#ffffff</CssParameter>  
-                                    <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                                    <CssParameter name="fill-opacity">0.000001</CssParameter>                       
+                                </Fill>             
+                            </Mark>
+                            <Size>9</Size>
+                        </Graphic>
+                        <VendorOption name="inclusion">legendOnly</VendorOption>                                                                                      
+                    </PointSymbolizer>      
+                </Rule> 
+                <Rule>
+                    <Title>   short dive (mean duration)</Title>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#ffffff</CssParameter>  
+                                    <CssParameter name="fill-opacity">0.000001</CssParameter>                       
                                 </Fill>
                                 <Stroke>
                                     <CssParameter name="stroke">#000000</CssParameter>
                                     <CssParameter name="stroke-width">0.1</CssParameter>
                                 </Stroke>                
                             </Mark>
-                            <Size>9</Size>
+                            <Size>6</Size>
                         </Graphic>
                         <VendorOption name="inclusion">legendOnly</VendorOption>                                                                                      
                     </PointSymbolizer>      
-                </Rule>              
+                </Rule>
                 <Rule>
+                    <Title>   long dive</Title>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#ffffff</CssParameter>  
+                                    <CssParameter name="fill-opacity">0.000001</CssParameter>                       
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">0.1</CssParameter>
+                                </Stroke>                
+                            </Mark>
+                            <Size>12</Size>
+                        </Graphic>
+                        <VendorOption name="inclusion">legendOnly</VendorOption>                                                                                      
+                    </PointSymbolizer>      
+                </Rule>
+              
+                <Rule>
+                    <Title>   shallow dive (mean depth)</Title>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#add8e6</CssParameter>  
+                                    <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                                </Fill>             
+                            </Mark>
+                            <Size>10</Size>
+                        </Graphic>
+                        <VendorOption name="inclusion">legendOnly</VendorOption>                                                                                      
+                    </PointSymbolizer>      
+                </Rule>
+                 <Rule>
+                    <Title>   deep dive</Title>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#8B0000</CssParameter>  
+                                    <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                                </Fill>             
+                            </Mark>
+                            <Size>10</Size>
+                        </Graphic>
+                        <VendorOption name="inclusion">legendOnly</VendorOption>                                                                                      
+                    </PointSymbolizer>      
+                </Rule>             
+              
+              <Rule>
                     <PointSymbolizer>
                         <Graphic>
                             <Mark>
@@ -64,10 +134,11 @@
             <ogc:Literal>#8B0000</ogc:Literal>
             
             <!-- Define the method of interpolation -->
-            <ogc:Literal>color-map-type</ogc:Literal>
-            <ogc:Literal>linear</ogc:Literal>
-        </ogc:Function>
+            <ogc:Literal>color</ogc:Literal>
+         </ogc:Function>
     </CssParameter>
+      <CssParameter name="fill-opacity">0.8</CssParameter>
+
 </Fill>
 
 

@@ -1,0 +1,17 @@
+<layer>
+  <name>NZSL_tracking_lines_NOQUERY</name>
+  <id>LayerInfoImpl-2116d68a:18b658f8f46:11a1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2116d68a:18b658f8f46:-6a27</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2116d68a:18b658f8f46:11a0</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-10-26 00:24:07.87 UTC</dateCreated>
+</layer>

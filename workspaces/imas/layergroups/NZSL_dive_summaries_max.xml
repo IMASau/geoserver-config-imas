@@ -1,0 +1,34 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-2116d68a:18b658f8f46:119e</id>
+  <name>NZSL_dive_summaries_max</name>
+  <mode>SINGLE</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-2116d68a:18b658f8f46:-6bc0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2116d68a:18b658f8f46:109e</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-2116d68a:18b658f8f46:-6a27</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2116d68a:18b658f8f46:119b</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>168.3941215</minx>
+    <maxx>172.711618</maxx>
+    <miny>-54.58687161</miny>
+    <maxy>-51.32878539</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-10-26 00:21:50.21 UTC</dateCreated>
+</layerGroup>
