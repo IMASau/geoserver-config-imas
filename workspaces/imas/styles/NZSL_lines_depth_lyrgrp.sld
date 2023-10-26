@@ -5,7 +5,6 @@
 <FeatureTypeStyle>
 <Rule>
   <Title>Sea lion tracks (coloured by individual)</Title>
-	<MinScaleDenominator>500000</MinScaleDenominator>      
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
