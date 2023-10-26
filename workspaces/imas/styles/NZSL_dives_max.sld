@@ -110,27 +110,27 @@
             <ogc:Literal>#add8e6</ogc:Literal>
             
             <!-- Color stop 2: Medium Blue -->
-            <ogc:Literal>55</ogc:Literal>
+            <ogc:Literal>70</ogc:Literal>
             <ogc:Literal>#4169e1</ogc:Literal>
             
             <!-- Color stop 3: Dark Blue -->
-            <ogc:Literal>110</ogc:Literal>
+            <ogc:Literal>130</ogc:Literal>
             <ogc:Literal>#000080</ogc:Literal>
             
             <!-- Color stop 4: Dark Purple -->
-            <ogc:Literal>160</ogc:Literal>
+            <ogc:Literal>180</ogc:Literal>
             <ogc:Literal>#800080</ogc:Literal>
             
             <!-- Color stop 5: Red-Purple -->
-            <ogc:Literal>220</ogc:Literal>
+            <ogc:Literal>250</ogc:Literal>
             <ogc:Literal>#8B008B</ogc:Literal>
             
             <!-- Color stop 6: Red -->
-            <ogc:Literal>280</ogc:Literal>
+            <ogc:Literal>320</ogc:Literal>
             <ogc:Literal>#FF0000</ogc:Literal>
             
             <!-- Color stop 7: Dark Red at mean_depth = 350 -->
-            <ogc:Literal>350</ogc:Literal>
+            <ogc:Literal>370</ogc:Literal>
             <ogc:Literal>#8B0000</ogc:Literal>
             
             <!-- Define the method of interpolation -->
