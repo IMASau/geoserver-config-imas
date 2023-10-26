@@ -163,7 +163,7 @@
         
         <!-- Second control point: If max_dur is 850, the size will be 30 -->
         <ogc:Literal>1000</ogc:Literal>
-        <ogc:Literal>30</ogc:Literal>
+        <ogc:Literal>25</ogc:Literal>
         
         <!-- Specifying that the interpolation is numeric -->
         <ogc:Literal>numeric</ogc:Literal>
