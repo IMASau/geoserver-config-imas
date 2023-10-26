@@ -9,7 +9,7 @@
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-            <CssParameter name="stroke-opacity">0.5</CssParameter>
+            <CssParameter name="stroke-opacity">0.3</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>            
           </Stroke>
         </LineSymbolizer>
@@ -20,7 +20,7 @@
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke"><ogc:PropertyName>colour</ogc:PropertyName></CssParameter>
-            <CssParameter name="stroke-opacity">0.4</CssParameter>
+            <CssParameter name="stroke-opacity">0.3</CssParameter>
             <CssParameter name="stroke-width">1.5</CssParameter>            
           </Stroke>
         </LineSymbolizer>

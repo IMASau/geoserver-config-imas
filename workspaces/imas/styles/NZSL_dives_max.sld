@@ -158,11 +158,11 @@
         <ogc:PropertyName>max_dur</ogc:PropertyName>
         
         <!-- First control point: If max_dur is 90, the size will be 4 -->
-        <ogc:Literal>90</ogc:Literal>
-        <ogc:Literal>4</ogc:Literal>
+        <ogc:Literal>100</ogc:Literal>
+        <ogc:Literal>3</ogc:Literal>
         
         <!-- Second control point: If max_dur is 850, the size will be 30 -->
-        <ogc:Literal>850</ogc:Literal>
+        <ogc:Literal>1000</ogc:Literal>
         <ogc:Literal>30</ogc:Literal>
         
         <!-- Specifying that the interpolation is numeric -->
