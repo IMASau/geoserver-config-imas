@@ -19,7 +19,7 @@
           <#if feature.sex.value == 'M'>male<#elseif feature.sex.value == 'F'>female</#if>)
         </p>
 
-        <p style="margin: 0">
+        <p style="margin: 0; padding-bottom: 4px;">
           <b>Summary period:</b> 
 
           <#if sameDay>
@@ -27,11 +27,12 @@
           <#else>
             ${bin_start?string("HH:mm d MMM")} - ${bin_end?string("HH:mm d MMM yyyy")}
           </#if>
-
-          <br>
-          <b>Dive depth:</b> ${feature.mean_depth.value?number?round}m (mean), ${feature.max_depth.value?number?round}m (max)
-          <br>
-          <b>Dive duration:</b> ${feature.mean_dur.value?number?round} mins (mean), ${feature.max_dur.value?number?round} mins (max)
+	</p>
+        <p style="margin: 0; padding-bottom: 2px;">
+          <b>Dive depth:</b> ${feature.mean_depth.value?number?round} m (mean), ${feature.max_depth.value?number?round} m (max)
+</p>
+<p style="margin: 0">
+  <b>Dive duration:</b> ${(feature.mean_dur.value?number / 60)?round} mins (mean), ${(feature.max_dur.value?number / 60)?round} mins (max)
         </p>
       </div>
     </div>
