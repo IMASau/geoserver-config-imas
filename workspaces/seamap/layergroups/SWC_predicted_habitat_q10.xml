@@ -1,8 +1,9 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--5c6743c7:18b7a771352:-4042</id>
-  <name>SWC_predicted_habitat</name>
+  <id>LayerGroupInfoImpl--5c6743c7:18b7a771352:-4028</id>
+  <name>SWC_predicted_habitat_q10</name>
   <mode>SINGLE</mode>
-  <title>Predicted habitat (South-west Corner marine park) - all classes</title>
+  <title>Predicted habitat (South-west Corner marine park) - all classes - quantile 0.9</title>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -10,19 +11,19 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:65a0</id>
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:65aa</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:658a</id>
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:6594</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:63f3</id>
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:63fd</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b4103875b:-5ede</id>
+      <id>LayerInfoImpl--59bf08f7:18b4103875b:-5ed4</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:4d6f</id>
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:4d79</id>
     </published>
   </publishables>
   <styles>
@@ -49,5 +50,5 @@
     <maxy>-33.49993897</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2023-10-29 12:56:18.320 UTC</dateCreated>
+  <dateCreated>2023-10-29 13:29:32.447 UTC</dateCreated>
 </layerGroup>

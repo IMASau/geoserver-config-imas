@@ -1,0 +1,54 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--5c6743c7:18b7a771352:-4034</id>
+  <name>SWC_predicted_habitat_q2</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) - all classes - quantile 0.2</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:659a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:6584</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:63ec</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b4103875b:-5ee7</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:4d69</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff0</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4f6b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff3</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.50012207</minx>
+    <maxx>115.25012207</maxx>
+    <miny>-34.24993897</miny>
+    <maxy>-33.49993897</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-10-29 13:04:59.423 UTC</dateCreated>
+</layerGroup>
