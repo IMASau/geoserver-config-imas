@@ -7,41 +7,41 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>SRL catch (t)</Name>
+    <Name>SRL CPUE (kg/pot lift)</Name>
     <UserStyle>
-      <FeatureTypeStyle> 
+      <FeatureTypeStyle>
        <Rule>
-          <Title>SRL catch (t)</Title>
+          <Title>CPUE (kg/pot lift)</Title>
           <ogc:Filter>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>99999999</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>999999</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FFFFFF</CssParameter>
-              <CssParameter name="fill-opacity">0.000000001</CssParameter>              
+              <CssParameter name="fill-opacity">0.00000001</CssParameter>              
             </Fill>
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>   
         <Rule>
-          <Title>0.01 - 25</Title>
+          <Title>0.01 - 1.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
                 <ogc:Literal>0.01</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>1.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#edf8fb</CssParameter>
+              <CssParameter name="fill">#f0f9e8</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -50,22 +50,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>25 - 50</Title>
+          <Title>1.5 - 3</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>1.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>50</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bfd6e8</CssParameter>
+              <CssParameter name="fill">#bae4bc</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -74,22 +74,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>50 - 75</Title>
+          <Title>3 - 4.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>50</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>75</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>4.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9cacd2</CssParameter>
+              <CssParameter name="fill">#7bccc4</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -98,22 +98,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>75 - 100</Title>
+          <Title>4.5 - 6</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>75</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>4.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#8a7cba</CssParameter>
+              <CssParameter name="fill">#43a2ca</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -122,40 +122,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>100 - 150</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>150</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#87489e</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>> 150</Title>
+          <Title>> 6</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SRL_Catch</ogc:PropertyName>
-                <ogc:Literal>150</ogc:Literal>
+                <ogc:PropertyName>SRL_CPUE</ogc:PropertyName>
+                <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#810f7c</CssParameter>
+              <CssParameter name="fill">#0868ac</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
