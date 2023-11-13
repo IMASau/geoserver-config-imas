@@ -7,32 +7,194 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Green Point - CIRCLE</Name>
+    <Name>BEMP_Compiled_updatedv3</Name>
     <UserStyle>
-      <Title>A simple default style</Title>
+      <Title>BEMP_Compiled_updatedv3</Title>
       <FeatureTypeStyle>
+
+        <!-- Rule: Deep reef -->
         <Rule>
-          <Name>Rule 1</Name>
-          <Title>Monitoring site</Title>
-          <Abstract>A green fill with a 9 pixel size</Abstract>
+          <Title>Deep reef</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Deep reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#28A526</CssParameter>  
-                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
+                  <CssParameter name="fill">#e8b86a</CssParameter>
                 </Fill>
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.5</CssParameter>
-               </Stroke>                
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
               </Mark>
-              <Size>9</Size>
+              <Size>8</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>
         </Rule>
-        </FeatureTypeStyle>
+
+        <!-- Rule: Inshore reef -->
+        <Rule>
+          <Title>Inshore reef</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Inshore reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#e68b29</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <!-- Rule: Seagrass -->
+        <Rule>
+          <Title>Seagrass</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Seagrass</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#2acf5e</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <!-- Rule: Sediment -->
+        <Rule>
+          <Title>Sediment</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#de5fde</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <!-- Rule: Water quality -->
+        <Rule>
+          <Title>Water quality</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Water quality</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#4fd1eb</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <!-- Rule: Water quality, deep reef -->
+        <Rule>
+          <Title>Water quality, deep reef</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Water quality, deep reef</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#427beb</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <!-- Rule: Water quality, sediment -->
+        <Rule>
+          <Title>Water quality, sediment</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>Water quality, sediment</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#7fbad2</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#232323</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+      </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
