@@ -1,0 +1,17 @@
+<layer>
+  <name>Giant_kelp_trial</name>
+  <id>LayerInfoImpl--5c6743c7:18bc85bd064:-5458</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5c6743c7:18bc85bd064:-545b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5c6743c7:18bc85bd064:-5459</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-13 21:57:14.417 UTC</dateCreated>
+  <dateModified>2023-11-13 21:59:49.615 UTC</dateModified>
+</layer>
