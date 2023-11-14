@@ -11,6 +11,28 @@
     <UserStyle>
       <Title>BEMP_Compiled_updatedv3</Title>
       <FeatureTypeStyle>
+        
+        <Rule>
+          <Title>---Monitoring type---</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Monitoring_type</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ffffff</CssParameter>
+                  <CssParameter name="fill-opacity">0.000001</CssParameter>                  
+                </Fill>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>        
 
         <!-- Rule: Deep reef -->
         <Rule>
