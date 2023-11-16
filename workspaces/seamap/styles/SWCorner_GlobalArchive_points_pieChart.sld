@@ -21,21 +21,13 @@
             </Geometry>
             <Graphic>
               <ExternalGraphic>
-<OnlineResource xlink:href="http://chart?cht=p&amp;chd=t:${100 * broad_macroalgae / broad_total_points_annotated},${100 * broad_seagrasses / broad_total_points_annotated},${100 * summed_sessile_inverts / broad_total_points_annotated},${100 * broad_consolidated / broad_total_points_annotated},${100 * broad_unconsolidated / broad_total_points_annotated}&amp;chs=200x200&amp;chl=Macroalgae|Seagrasses|Unconsolidated|Consolidated|Inverts&amp;chco=%23267300,%232d5986,%23ff0e48,%2386592d,%234d7799" />
+<OnlineResource xlink:href="http://chart?cht=p&amp;chd=t:${100 * broad_macroalgae / broad_total_points_annotated},${100 * broad_seagrasses / broad_total_points_annotated},${100 * summed_sessile_inverts / broad_total_points_annotated},${100 * broad_consolidated / broad_total_points_annotated},${100 * broad_unconsolidated / broad_total_points_annotated}&amp;chf=bg,s,FFFFFF00&amp;chs=200x200&amp;chco=267300,2d5986,ff0e48,86592d,e2cf17" />
 
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Add>
-                  <ogc:Literal>20</ogc:Literal>
-        <ogc:Mul>                  
-                    <ogc:Div>
-                      <ogc:PropertyName>broad_total_points_annotated</ogc:PropertyName>
-                      <ogc:Literal>10</ogc:Literal>
-                    </ogc:Div>
-                              <ogc:Literal>5</ogc:Literal>
-        </ogc:Mul>
-                </ogc:Add>
+                <ogc:Literal>20</ogc:Literal>
+
               </Size>
             </Graphic>
           </PointSymbolizer>
