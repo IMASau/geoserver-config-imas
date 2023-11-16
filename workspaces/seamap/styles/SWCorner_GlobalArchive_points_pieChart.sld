@@ -13,6 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>       
  <Rule>
+             <MinScaleDenominator>20000</MinScaleDenominator>			
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -31,7 +32,28 @@
               </Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>       
+        </Rule>
+ <Rule>
+             <MaxScaleDenominator>20000</MaxScaleDenominator>			
+          <PointSymbolizer>
+            <Geometry>
+              <ogc:Function name="centroid">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </Geometry>
+            <Graphic>
+              <ExternalGraphic>
+<OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * broad_macroalgae / broad_total_points_annotated},${100 * broad_seagrasses / broad_total_points_annotated},${100 * summed_sessile_inverts / broad_total_points_annotated},${100 * broad_consolidated / broad_total_points_annotated},${100 * broad_unconsolidated / broad_total_points_annotated}&amp;chco=267300,2d5986,ff0e48,86592d,e2cf17&amp;chf=bg,s,FFFFFF00" />
+
+                <Format>application/chart</Format>
+              </ExternalGraphic>
+              <Size>
+                <ogc:Literal>35</ogc:Literal>
+
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>               
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
