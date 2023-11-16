@@ -21,12 +21,12 @@
             </Geometry>
             <Graphic>
               <ExternalGraphic>
-<OnlineResource xlink:href="http://chart?cht=p&amp;chd=t:${100 * broad_macroalgae / broad_total_points_annotated},${100 * broad_seagrasses / broad_total_points_annotated},${100 * summed_sessile_inverts / broad_total_points_annotated},${100 * broad_consolidated / broad_total_points_annotated},${100 * broad_unconsolidated / broad_total_points_annotated}&amp;chf=bg,s,FFFFFF00&amp;chs=200x200&amp;chco=267300,2d5986,ff0e48,86592d,e2cf17" />
+<OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * broad_macroalgae / broad_total_points_annotated},${100 * broad_seagrasses / broad_total_points_annotated},${100 * summed_sessile_inverts / broad_total_points_annotated},${100 * broad_consolidated / broad_total_points_annotated},${100 * broad_unconsolidated / broad_total_points_annotated}&amp;chco=267300,2d5986,ff0e48,86592d,e2cf17&amp;chf=bg,s,FFFFFF00" />
 
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>20</ogc:Literal>
+                <ogc:Literal>25</ogc:Literal>
 
               </Size>
             </Graphic>
