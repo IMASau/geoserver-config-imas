@@ -11,7 +11,27 @@
   <NamedLayer>
     <Name>Benthic annotations from seafloor video still grabs</Name>
     <UserStyle>
-      <FeatureTypeStyle>       
+      <FeatureTypeStyle> 
+                <Rule>
+                    <Title>Observation pie chart by habitat class</Title>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>circle</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#ffffff</CssParameter>  
+                                    <CssParameter name="fill-opacity">0.000001</CssParameter>                       
+                                </Fill> 
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.7</CssParameter>
+               </Stroke>                                  
+                            </Mark>
+                            <Size>10</Size>
+                        </Graphic>
+                        <VendorOption name="inclusion">legendOnly</VendorOption>                                                                                      
+                    </PointSymbolizer>      
+                </Rule>         
  <Rule>
              <MinScaleDenominator>20000</MinScaleDenominator>			
           <PointSymbolizer>
@@ -31,9 +51,10 @@
 
               </Size>
             </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>                                                                                                  
           </PointSymbolizer>
-        </Rule>
- <Rule>
+		</Rule>
+         <Rule>
              <MaxScaleDenominator>20000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Geometry>
@@ -52,6 +73,7 @@
 
               </Size>
             </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>                                                                                                              
           </PointSymbolizer>
         </Rule>               
       </FeatureTypeStyle>
