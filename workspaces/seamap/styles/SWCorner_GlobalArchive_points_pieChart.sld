@@ -28,10 +28,13 @@
               <Size>
                 <ogc:Add>
                   <ogc:Literal>20</ogc:Literal>
+        <ogc:Mul>                  
                     <ogc:Div>
                       <ogc:PropertyName>broad_total_points_annotated</ogc:PropertyName>
                       <ogc:Literal>10</ogc:Literal>
                     </ogc:Div>
+                              <ogc:Literal>5</ogc:Literal>
+        </ogc:Mul>
                 </ogc:Add>
               </Size>
             </Graphic>
