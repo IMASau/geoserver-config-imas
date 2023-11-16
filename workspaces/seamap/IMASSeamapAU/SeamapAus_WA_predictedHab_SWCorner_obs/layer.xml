@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_WA_predictedHab_SWCorner_obs</name>
+  <id>LayerInfoImpl--5c6743c7:18bd5912ff0:4a03</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5c6743c7:18bd5912ff0:4a04</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5c6743c7:18bd5912ff0:4a02</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-16 02:34:06.271 UTC</dateCreated>
+  <dateModified>2023-11-16 02:53:00.643 UTC</dateModified>
+</layer>
