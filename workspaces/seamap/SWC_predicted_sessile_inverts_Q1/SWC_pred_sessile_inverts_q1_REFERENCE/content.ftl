@@ -1,10 +1,20 @@
 <#list features as feature>
-    <div class="feature" style="display: flex; align-items: center;"> 
-        <div style="width: 10px; height: 10px; background-color: #ff0e48;"></div>
-        <span style="margin-left: 8px;">Probability of <i>sessile invertebrates</i>: <b>${(feature.GRAY_INDEX.value?number)?string("0.###")}</b>
-	<br>
-	<i>All other habitat classes are conditional on <b>sessile invertebrates</b></i>
-	</span>
-	<br>
+    <#assign maxBarWidth = 90>
+
+    <#-- Convert GRAY_INDEX value to number -->
+    <#assign grayIndexValue = (feature.GRAY_INDEX.value)?number>
+
+    <div class="feature"> 
+        <div>
+            <i>Habitat probabilities conditional on <b>sessile invertebrates</b></i>
+        </div>
+        <div style="display: flex; align-items: center;"> 
+            <!-- Calculate bar width in pixels based on the percentage -->
+            <#assign barWidth = (maxBarWidth * grayIndexValue)>
+            <div style="display: flex; align-items: center"> 
+                <div style="width: ${barWidth}px; height: 10px; background-color: #ff0e48;"></div> <!-- Assuming a color for demonstration -->
+                <span style="margin-left: 8px;">Probability of <i>sessile invertebrates</i>: <b>${grayIndexValue?string("0.###")}</b></span>
+            </div>
+        </div>
     </div>
 </#list>
