@@ -20,7 +20,7 @@
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
-          <MinScaleDenominator>1000000</MinScaleDenominator>                     
+          <MinScaleDenominator>300000</MinScaleDenominator>                     
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#640000</CssParameter>
@@ -42,7 +42,7 @@
               <ogc:Literal>Other</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>
-          <MinScaleDenominator>1000000</MinScaleDenominator>                               
+          <MinScaleDenominator>300000</MinScaleDenominator>                               
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#53c6a9</CssParameter>
