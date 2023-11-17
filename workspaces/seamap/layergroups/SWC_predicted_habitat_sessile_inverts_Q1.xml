@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-6103f2ee:18bda937b5a:-3e28</id>
-  <name>SWC_predicted_habitat_sessile_inverts_q1</name>
+  <name>SWC_predicted_habitat_sessile_inverts_Q1</name>
   <mode>SINGLE</mode>
   <title>Predicted habitat (South-west Corner marine park) - sessile invertebrates - quantile 0.000001</title>
   <advertised>true</advertised>
@@ -51,5 +51,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-17 02:27:04.147 UTC</dateCreated>
-  <dateModified>2023-11-17 02:51:04.560 UTC</dateModified>
+  <dateModified>2023-11-17 22:23:20.684 UTC</dateModified>
 </layerGroup>
