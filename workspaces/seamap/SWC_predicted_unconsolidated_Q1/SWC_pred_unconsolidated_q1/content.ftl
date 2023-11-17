@@ -10,7 +10,7 @@
             <#assign barWidth = (maxBarWidth * grayIndexValue)>
             <div style="display: flex; align-items: center"> 
                 <div style="width: ${barWidth}px; height: 10px; background-color: #e2cf17;"></div> <!-- Assuming a color for demonstration -->
-                <span style="margin-left: 8px;">Probability of <i>sessile invertebrates</i>: <b>${grayIndexValue?string("0.###")}</b></span>
+                <span style="margin-left: 8px;">Unconsolidated substrata: <b>${grayIndexValue?string("0.###")}</b></span>
             </div>
         </div>
     </div>
