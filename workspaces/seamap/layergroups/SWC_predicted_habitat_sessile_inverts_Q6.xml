@@ -3,7 +3,7 @@
   <name>SWC_predicted_habitat_sessile_inverts_Q6</name>
   <mode>SINGLE</mode>
   <title>Predicted habitat (South-west Corner marine park) - sessile invertebrates - quantile 0.5</title>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -57,5 +57,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-17 03:39:57.612 UTC</dateCreated>
-  <dateModified>2023-11-17 22:54:06.132 UTC</dateModified>
+  <dateModified>2023-11-17 23:24:54.903 UTC</dateModified>
 </layerGroup>
