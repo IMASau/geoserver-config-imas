@@ -10,7 +10,7 @@
             <#assign barWidth = (maxBarWidth * grayIndexValue)>
             <div style="display: flex; align-items: center"> 
                 <div style="width: ${barWidth}px; height: 10px; background-color: #2d5986;"></div> <!-- Assuming a color for demonstration -->
-                <span style="margin-left: 8px;">Unconsolidated substrata: <b>${grayIndexValue?string("0.###")}</b></span>
+                <span style="margin-left: 8px;">Seagrass: <b>${grayIndexValue?string("0.###")}</b></span>
             </div>
         </div>
     </div>
