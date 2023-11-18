@@ -11,7 +11,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-667b</id>
+      <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-666c</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-66ea</id>
@@ -34,19 +34,19 @@
       <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
     </style>
     <style>
-      <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
     </style>
     <style>
-      <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
     </style>
     <style>
-      <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
     </style>
     <style>
-      <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4f6b</id>
     </style>
     <style>
-      <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
     </style>
   </styles>
   <bounds>
@@ -57,4 +57,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-18 10:24:29.182 UTC</dateCreated>
+  <dateModified>2023-11-18 10:52:23.508 UTC</dateModified>
 </layerGroup>

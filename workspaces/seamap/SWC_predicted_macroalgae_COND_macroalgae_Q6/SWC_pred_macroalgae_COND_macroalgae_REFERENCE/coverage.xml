@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--7299ab69:18bdf9fdbbb:-667c</id>
+  <id>CoverageInfoImpl--7299ab69:18bdf9fdbbb:-666d</id>
   <name>SWC_pred_macroalgae_COND_macroalgae_REFERENCE</name>
   <nativeName>SWC_pred_macroalgae_COND_macroalgae_REFERENCE</nativeName>
   <namespace>
@@ -9,7 +9,7 @@
   <description>Generated from GeoTIFF</description>
   <abstract>This layer is published exclusively to contribute to layer group GetFeatureInfo. Not to be published singly.</abstract>
   <keywords>
-    <string>pred_macroalgae_q5</string>
+    <string>pred_macroalgae_q6</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -42,10 +42,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_macroalgae_COND_macroalgae_Q5_pred_macroalgae_q5</entry>
+    <entry key="dirName">SWC_predicted_macroalgae_COND_macroalgae_Q6_pred_macroalgae_q6</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--7299ab69:18bdf9fdbbb:-6699</id>
+    <id>CoverageStoreInfoImpl--7299ab69:18bdf9fdbbb:-6698</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -101,10 +101,6 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
@@ -112,6 +108,10 @@
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
     </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
   </parameters>
-  <nativeCoverageName>pred_macroalgae_q5</nativeCoverageName>
+  <nativeCoverageName>pred_macroalgae_q6</nativeCoverageName>
 </coverage>
