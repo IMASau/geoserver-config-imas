@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_unconsolidated_COND_macroalgae_Q2</name>
+  <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-66f0</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7299ab69:18bdf9fdbbb:-66f1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-18 08:34:36.649 UTC</dateCreated>
+</layer>
