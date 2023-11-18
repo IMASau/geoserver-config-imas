@@ -1,0 +1,17 @@
+<layer>
+  <name>SWC_pred_habitat_COND_sessile_inverts</name>
+  <id>LayerInfoImpl--7299ab69:18be410a5d7:-2feb</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7299ab69:18be4137576:-39cc</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7299ab69:18be410a5d7:-2fec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-18 20:15:28.100 UTC</dateCreated>
+  <dateModified>2023-11-18 20:24:03.676 UTC</dateModified>
+</layer>
