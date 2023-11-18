@@ -9,10 +9,10 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>location</ogc:PropertyName>
-              <ogc:Literal>pred_sessile_inverts*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>          
+                <ogc:PropertyName>location</ogc:PropertyName>
+                <ogc:Literal>pred_sessile_inverts*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>        
           <RasterSymbolizer>
             <ChannelSelection>
                <GrayChannel>

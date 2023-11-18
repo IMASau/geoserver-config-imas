@@ -39,7 +39,18 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SWC_predicted_habitat_COND_sessile_inverts_COND_sessile_invertebrates</entry>
   </metadata>
