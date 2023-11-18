@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7299ab69:18be4159bc1:7e22</id>
+  <name>SWC_predicted_macroalgae_COND_seagrass_Q5</name>
+  <description>Habitat predictions for South-west Corner marine park - macroalgae (conditional class: seagrass) - 0.4</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-11-18 21:14:55.43 UTC</dateCreated>
+  <dateModified>2023-11-18 21:23:53.634 UTC</dateModified>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/COND_seagrass/pred_macroalgae_q5.tif</url>
+</coverageStore>
