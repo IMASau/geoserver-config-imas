@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-6103f2ee:18bda937b5a:-24a0</id>
-  <name>SWC_pred_sessile_inverts_COND_sessile_inverts_REFERENCE</name>
-  <nativeName>SWC_pred_sessile_inverts_q6_REFERENCE</nativeName>
+  <id>CoverageInfoImpl--7299ab69:18bdf9fdbbb:-6690</id>
+  <name>SWC_pred_macroalgae_COND_macroalgae_Q2</name>
+  <nativeName>SWC_pred_macroalgae_COND_macroalgae_Q2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Habitat probabilities conditional on sessile invertebrates - for layer group display only</title>
+  <title>Predicted habitat (South-west Corner marine park) - macroalgae (conditional class: macroalgae) - quantile 0.1</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>This layer is published exclusively to contribute to layer group GetFeatureInfo. Not to be published singly.</abstract>
+  <abstract>Not to be published singly - for display in Seamap Australia portal</abstract>
   <keywords>
-    <string>pred_sessile_inverts_q6</string>
+    <string>pred_macroalgae_q2</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -42,10 +42,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_sessile_inverts_Q6_pred_sessile_inverts_q6</entry>
+    <entry key="dirName">SWC_predicted_macroalgae_COND_macroalgae_Q2_pred_macroalgae_q2</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--59bf08f7:18b42301c24:6395</id>
+    <id>CoverageStoreInfoImpl--7299ab69:18bdf9fdbbb:-669c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -68,11 +68,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -113,5 +113,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>pred_sessile_inverts_q6</nativeCoverageName>
+  <nativeCoverageName>pred_macroalgae_q2</nativeCoverageName>
 </coverage>
