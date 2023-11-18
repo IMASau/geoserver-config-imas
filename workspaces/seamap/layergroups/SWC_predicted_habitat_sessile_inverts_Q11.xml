@@ -14,19 +14,19 @@
       <id>LayerInfoImpl-6103f2ee:18bda937b5a:-249f</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b4103875b:-5ea2</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:4d7b</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:63ff</id>
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:65ac</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--59bf08f7:18b42301c24:6596</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:65ac</id>
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:63ff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b4103875b:-5ea2</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:4d7b</id>
     </published>
   </publishables>
   <styles>
@@ -57,5 +57,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-17 23:25:04.525 UTC</dateCreated>
-  <dateModified>2023-11-17 23:33:56.541 UTC</dateModified>
+  <dateModified>2023-11-18 06:57:07.236 UTC</dateModified>
 </layerGroup>
