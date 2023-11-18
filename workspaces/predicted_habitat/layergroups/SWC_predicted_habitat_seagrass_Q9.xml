@@ -1,0 +1,61 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--7299ab69:18be4159bc1:7e69</id>
+  <name>SWC_predicted_habitat_seagrass_Q9</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) - seagrass - quantile 0.8</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be4159bc1:7e60</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be28577d4:19aa</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:297c</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be285d85c:14f8</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be4159bc1:7e39</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be4159bc1:7e5a</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff3</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.50012207</minx>
+    <maxx>115.25012207</maxx>
+    <miny>-34.24993897</miny>
+    <maxy>-33.49993897</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-11-18 21:54:19.443 UTC</dateCreated>
+  <dateModified>2023-11-18 22:25:34.614 UTC</dateModified>
+</layerGroup>

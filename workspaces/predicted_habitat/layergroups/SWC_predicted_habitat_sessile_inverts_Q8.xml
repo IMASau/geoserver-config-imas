@@ -1,0 +1,61 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-21bcc36e:18bdd053cf4:235f</id>
+  <name>SWC_predicted_habitat_sessile_inverts_Q8</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) - sessile invertebrates - quantile 0.7</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-6103f2ee:18bda937b5a:-249f</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:6590</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:65a6</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:63f9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b4103875b:-5ed8</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--59bf08f7:18b42301c24:4d75</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff0</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.50012207</minx>
+    <maxx>115.25012207</maxx>
+    <miny>-34.24993897</miny>
+    <maxy>-33.49993897</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-11-17 23:24:58.464 UTC</dateCreated>
+  <dateModified>2023-11-18 22:26:49.252 UTC</dateModified>
+</layerGroup>

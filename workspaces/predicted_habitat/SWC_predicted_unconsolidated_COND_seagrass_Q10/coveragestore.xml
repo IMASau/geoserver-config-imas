@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7299ab69:18bdf9fdbbb:298a</id>
+  <name>SWC_predicted_unconsolidated_COND_seagrass_Q10</name>
+  <description>Habitat predictions for South-west Corner marine park - unconsolidated (conditional class: seagrass) - 0.9</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-11-18 12:57:24.22 UTC</dateCreated>
+  <dateModified>2023-11-18 22:21:48.897 UTC</dateModified>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/COND_seagrass/pred_unconsolidated_q10.tif</url>
+</coverageStore>
