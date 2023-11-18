@@ -20,7 +20,7 @@
       <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-6713</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--59bf08f7:18b42301c24:6584</id>
+      <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-66b0</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--7299ab69:18bdf9fdbbb:-668f</id>
@@ -57,5 +57,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-18 10:24:24.482 UTC</dateCreated>
-  <dateModified>2023-11-18 10:52:29.795 UTC</dateModified>
+  <dateModified>2023-11-18 11:08:24.508 UTC</dateModified>
 </layerGroup>
