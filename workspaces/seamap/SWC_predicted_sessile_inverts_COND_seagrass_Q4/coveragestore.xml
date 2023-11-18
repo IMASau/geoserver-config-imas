@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7299ab69:18be285d85c:-59f7</id>
+  <name>SWC_predicted_sessile_inverts_COND_seagrass_Q4</name>
+  <description>Habitat predictions for South-west Corner marine park - sessile invertebrates (conditional class: seagrass) - 0.3</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-11-18 13:08:29.171 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/COND_seagrass/pred_sessile_inverts_q4.tif</url>
+</coverageStore>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_unconsolidated_COND_seagrass_Q10</name>
+  <id>LayerInfoImpl--7299ab69:18be285d85c:-7c0f</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7299ab69:18be285d85c:-7c10</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-18 13:01:45.258 UTC</dateCreated>
+</layer>
