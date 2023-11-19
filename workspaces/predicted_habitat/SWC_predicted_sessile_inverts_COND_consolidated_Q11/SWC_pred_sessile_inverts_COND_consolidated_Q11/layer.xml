@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_sessile_inverts_COND_consolidated_Q11</name>
+  <id>LayerInfoImpl--7299ab69:18be47e5fe6:5365</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--59bf08f7:18b4103875b:-5f20</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7299ab69:18be47e5fe6:5364</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-19 02:45:25.434 UTC</dateCreated>
+</layer>

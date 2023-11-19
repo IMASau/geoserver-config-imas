@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7299ab69:18be47e5fe6:530e</id>
+  <name>SWC_predicted_sessile_inverts_COND_consolidated_Q4</name>
+  <description>Habitat predictions for South-west Corner marine park - sessile invertebrates (conditional class: consolidated) - 0.3</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-11-19 02:31:59.539 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/COND_consolidated/pred_sessile_inverts_q4.tif</url>
+</coverageStore>
