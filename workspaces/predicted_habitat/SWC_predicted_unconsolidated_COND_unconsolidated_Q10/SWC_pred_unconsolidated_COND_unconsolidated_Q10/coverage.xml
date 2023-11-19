@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--7299ab69:18be47e5fe6:52ce</id>
-  <name>SWC_pred_consolidated_COND_consolidated_REFERENCE</name>
-  <nativeName>SWC_pred_consolidated_COND_consolidated_REFERENCE</nativeName>
+  <id>CoverageInfoImpl--7299ab69:18be5acabd2:-eb9</id>
+  <name>SWC_pred_unconsolidated_COND_unconsolidated_Q10</name>
+  <nativeName>SWC_pred_unconsolidated_COND_unconsolidated_Q10</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Habitat probabilities conditional on consolidated - for layer group display only</title>
+  <title>Predicted habitat (South-west Corner marine park) - unconsolidated (conditional class: unconsolidated) - quantile 0.9</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>This layer is published exclusively to contribute to layer group GetFeatureInfo. Not to be published singly.</abstract>
+  <abstract>Not to be published singly - for display in Seamap Australia portal</abstract>
   <keywords>
-    <string>pred_consolidated_q6</string>
+    <string>pred_unconsolidated_q10</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -42,10 +42,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_consolidated_COND_consolidated_Q6_pred_consolidated_q6</entry>
+    <entry key="dirName">SWC_predicted_unconsolidated_COND_unconsolidated_Q10_pred_unconsolidated_q10</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--7299ab69:18be47e5fe6:52b2</id>
+    <id>CoverageStoreInfoImpl--7299ab69:18be5acabd2:-ed1</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -101,6 +101,10 @@
   </responseSRS>
   <parameters>
     <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
@@ -108,10 +112,6 @@
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
     </entry>
-    <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
-    </entry>
   </parameters>
-  <nativeCoverageName>pred_consolidated_q6</nativeCoverageName>
+  <nativeCoverageName>pred_unconsolidated_q10</nativeCoverageName>
 </coverage>

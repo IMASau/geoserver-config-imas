@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_unconsolidated_COND_unconsolidated_REFERENCE</name>
+  <id>LayerInfoImpl--7299ab69:18be5acabd2:-eb4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7299ab69:18be5acabd2:-eb5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-19 05:50:34.235 UTC</dateCreated>
+</layer>

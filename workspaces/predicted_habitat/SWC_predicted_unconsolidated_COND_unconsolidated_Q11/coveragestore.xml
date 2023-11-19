@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7299ab69:18be5acabd2:-ed0</id>
+  <name>SWC_predicted_unconsolidated_COND_unconsolidated_Q11</name>
+  <description>Habitat predictions for South-west Corner marine park - unconsolidated (conditional class: unconsolidated) - 0.999999</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-11-19 05:45:07.216 UTC</dateCreated>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/COND_unconsolidated/pred_unconsolidated_q11.tif</url>
+</coverageStore>
