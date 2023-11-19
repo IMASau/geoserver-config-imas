@@ -1,0 +1,66 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--7299ab69:18be5acabd2:-2b6</id>
+  <name>SWC_predicted_habitat_unconsolidated_Q5</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) - unconsolidated substrata - quantile 0.4</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be5acabd2:-eb4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be5acabd2:-ec2</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be5acabd2:-416</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be5acabd2:-39d</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be5acabd2:-2df</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be5acabd2:-2c9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be47e5fe6:-52dc</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--59bf08f7:18b4318df1d:4ff2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6103f2ee:18bda937b5a:-2e77</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.50012207</minx>
+    <maxx>115.25012207</maxx>
+    <miny>-34.24993897</miny>
+    <maxy>-33.49993897</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-11-19 10:27:32.668 UTC</dateCreated>
+</layerGroup>
