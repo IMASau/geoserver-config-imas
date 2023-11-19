@@ -7,5 +7,8 @@
         <div style="padding-top: 5px; padding-bottom: 5px;">
             <i>Habitat probabilities conditional on <b>sessile invertebrates</b></i>
         </div>
+        <div style="padding-top: 5px; padding-bottom: 5px;">
+            <i>Habitat probabilities conditional on <b>sessile invertebrates</b></i>
+        </div>
     </#if>
 </#list>
