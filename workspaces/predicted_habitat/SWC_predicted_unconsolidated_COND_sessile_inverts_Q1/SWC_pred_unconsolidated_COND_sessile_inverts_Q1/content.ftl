@@ -1,6 +1,8 @@
 <#list features as feature>
     <#assign maxBarWidth = 90>
 
+	<#if feature.GRAY_INDEX.value!='NaN'>
+
     <#-- Convert GRAY_INDEX value to number -->
     <#assign grayIndexValue = (feature.GRAY_INDEX.value)?number>
 
@@ -23,4 +25,5 @@
             </#if>
         </div>
     </div>
+</#if>
 </#list>
