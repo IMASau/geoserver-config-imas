@@ -4,7 +4,7 @@
 
     <#-- Check if grayIndexValue is greater than or equal to 0 -->
     <#if (grayIndexValue >= 0)>
-        <div style="padding-top: 5px;">
+        <div style="padding-top: 10px;">
             <h5>Habitat probabilities<br>conditional on <b>seagrass</b></h5>
         </div>
         <div style="padding-top: 5px; padding-bottom: 5px;">
