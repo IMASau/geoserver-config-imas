@@ -13,14 +13,14 @@
                 <!-- Display prohibited symbol for zero value -->
                 <div style="display: flex; align-items: center;"> 
                     <span style="color: red; font-size: 10px;">&#128711;</span>
-                    <span style="margin-left: 3px;">Consolidated substrata: <b><0.001</b></span>
+                    <span style="margin-left: 3px;">Bare consolidated substrata: <b><0.001</b></span>
                 </div>
             <#else>
                 <!-- Calculate bar width in pixels based on the percentage -->
                 <#assign barWidth = (maxBarWidth * grayIndexValue)>
                 <div style="display: flex; align-items: center;"> 
                     <div style="width: ${barWidth}px; height: 10px; background-color: #86592d;"></div>
-                    <span style="margin-left: 8px;">Consolidated substrata: <b>${grayIndexValue?string("0.###")}</b></span>
+                    <span style="margin-left: 8px;">Bare consolidated substrata: <b>${grayIndexValue?string("0.###")}</b></span>
                 </div>
             </#if>
         </div>
