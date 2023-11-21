@@ -77,7 +77,7 @@
           </ogc:Filter>                        
         <LineSymbolizer>
           <Stroke>
-              <CssParameter name="stroke">#b7d5d7</CssParameter>            
+              <CssParameter name="stroke">#87c0c5</CssParameter>            
             <CssParameter name="stroke-opacity">0.9</CssParameter>
             <CssParameter name="stroke-width">3</CssParameter>
           </Stroke>
@@ -93,7 +93,7 @@
           </ogc:Filter>                        
         <LineSymbolizer>
           <Stroke>
-              <CssParameter name="stroke">#70b6ba</CssParameter>            
+              <CssParameter name="stroke">#53a8ac</CssParameter>            
             <CssParameter name="stroke-opacity">0.9</CssParameter>
             <CssParameter name="stroke-width">3</CssParameter>
           </Stroke>
