@@ -5,7 +5,7 @@
     <#-- Check if grayIndexValue is greater than or equal to 0 -->
     <#if (grayIndexValue >= 0)>
         <div style="padding-top: 10px;">
-            <h5>Habitat probabilities<br>conditional on <b>unconsolidated substrata</b></h5>
+            <h5>Habitat probabilities conditional<br>on <b>bare unconsolidated substrata</b></h5>
         </div>
         <div style="padding-top: 5px; padding-bottom: 5px;">
             <i>Values are probability of occurrence</i>
