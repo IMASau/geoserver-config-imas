@@ -46,11 +46,11 @@
 			</TD>
 
 			<TD style="text-align:center">
-				${feature.begin_time.value?date("dd/mm/yy")?date}
+				${feature.begin_time.value?datetime?string("dd/MM/yyyy")}
 			</TD>
 
 			<TD style="text-align:center">
-				${feature.end_time.value?date("dd/mm/yy")?date}
+				${feature.end_time.value?datetime?string("dd/MM/yyyy")}
 			</TD>
 
  
