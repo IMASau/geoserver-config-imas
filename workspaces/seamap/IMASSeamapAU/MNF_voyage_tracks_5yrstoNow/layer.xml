@@ -1,0 +1,17 @@
+<layer>
+  <name>MNF_voyage_tracks_5yrstoNow</name>
+  <id>LayerInfoImpl--2d65e09f:18bf0a98f70:-72cf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2d65e09f:18bf0a98f70:-7362</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2d65e09f:18bf0a98f70:-72d0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-21 09:15:48.858 UTC</dateCreated>
+  <dateModified>2023-11-21 09:29:49.329 UTC</dateModified>
+</layer>

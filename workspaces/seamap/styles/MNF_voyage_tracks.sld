@@ -100,7 +100,7 @@
         </LineSymbolizer>
 </Rule>  
 <Rule>
-	<MaxScaleDenominator>4500000</MaxScaleDenominator>
+	<MaxScaleDenominator>30000000</MaxScaleDenominator>
   	<TextSymbolizer>
   		<Label>
 			<ogc:PropertyName>VOYAGENAME</ogc:PropertyName>
@@ -108,7 +108,7 @@
 		<Font>
 			<CssParameter name="font-family">Verdana</CssParameter>
 			<CssParameter name="font-style">Normal</CssParameter>
-			<CssParameter name="font-size">10</CssParameter>
+			<CssParameter name="font-size">12</CssParameter>
 		</Font>
 		<sld:LabelPlacement>
 			<sld:PointPlacement>
