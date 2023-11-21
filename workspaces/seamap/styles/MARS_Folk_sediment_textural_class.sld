@@ -25,7 +25,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>	
 
         <Rule>
@@ -48,7 +49,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
         
         <Rule>
@@ -71,7 +73,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -94,7 +97,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
         
         <Rule>
@@ -117,7 +121,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -140,7 +145,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>     
         
         <Rule>
@@ -163,7 +169,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>       
         
         <Rule>
@@ -186,7 +193,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
 
         <Rule>
@@ -209,7 +217,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -232,7 +241,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
         
         <Rule>
@@ -255,7 +265,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
         
         <Rule>
@@ -278,7 +289,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>          
         
         <Rule>
@@ -301,7 +313,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>    
         
         <Rule>
@@ -324,7 +337,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>   
         
         <Rule>
@@ -347,7 +361,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -370,7 +385,8 @@
               </Mark>
               <Size>4</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
 
         <Rule>
@@ -393,7 +409,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>	
 
         <Rule>
@@ -416,7 +433,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
         
         <Rule>
@@ -439,7 +457,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -462,7 +481,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
         
         <Rule>
@@ -485,7 +505,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -508,7 +529,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>     
         
         <Rule>
@@ -531,7 +553,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>       
         
         <Rule>
@@ -554,7 +577,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
 
         <Rule>
@@ -577,7 +601,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -600,7 +625,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
         
         <Rule>
@@ -623,7 +649,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
         
         <Rule>
@@ -646,7 +673,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>          
         
         <Rule>
@@ -669,7 +697,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>    
         
         <Rule>
@@ -692,7 +721,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>   
         
         <Rule>
@@ -715,7 +745,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -738,7 +769,8 @@
               </Mark>
               <Size>5</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
 
          <Rule>
@@ -761,7 +793,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+           <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>	
 
         <Rule>
@@ -784,7 +817,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
         
         <Rule>
@@ -807,7 +841,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -830,7 +865,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
         
         <Rule>
@@ -853,7 +889,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -876,7 +913,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>     
         
         <Rule>
@@ -899,7 +937,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>       
         
         <Rule>
@@ -922,7 +961,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
 
         <Rule>
@@ -945,7 +985,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         
         <Rule>
@@ -968,7 +1009,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>
         
         <Rule>
@@ -991,7 +1033,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>  
         
         <Rule>
@@ -1014,7 +1057,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>          
         
         <Rule>
@@ -1037,7 +1081,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>    
         
         <Rule>
@@ -1060,7 +1105,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule>   
         
         <Rule>
@@ -1083,7 +1129,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 		
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 		
         </Rule> 
         
         <Rule>
@@ -1106,7 +1153,8 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>unknown<VendorOption name="inclusion">mapOnly</VendorOption>                 
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                 
         </Rule> 
         <Rule>
           <Title>slightly gravelly Mud</Title>
