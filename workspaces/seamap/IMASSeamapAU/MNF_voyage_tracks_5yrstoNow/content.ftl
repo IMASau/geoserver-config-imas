@@ -5,8 +5,9 @@
 		<BR>
 	</div>
 		<#else>
+			<BR>
 			<i>More than five surveys exist at this point.</i>
-			<BR><BR>
+			<BR>
 		<#break>
 		
   </#if>
