@@ -42,7 +42,7 @@
 
 	<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
+		<TD style="white-space: normal; font-size:11px; border-right: 1px solid black; overflow-wrap: break-word; word-break: break-word; hyphens: auto;">
 			<#if collection?has_content>
 				<#if feature.DTYPE.value == 'DEM'>
 					${feature.TITLE_ASB.value} <b><i>[modelled]</i></b>
