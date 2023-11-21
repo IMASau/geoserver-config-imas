@@ -16,6 +16,13 @@
     <metadata>
       <map>
         <entry>
+          <string>CogSettings.Key</string>
+          <cogSettings>
+            <useCachingStream>false</useCachingStream>
+            <rangeReaderSettings>HTTP</rangeReaderSettings>
+          </cogSettings>
+        </entry>
+        <entry>
           <string>quietOnNotFound</string>
           <boolean>false</boolean>
         </entry>
@@ -24,6 +31,7 @@
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
     <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
     <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+    <useHeadersProxyURL>true</useHeadersProxyURL>
   </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
@@ -80,7 +88,6 @@
   <updateSequence>27034</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
-  <useHeadersProxyURL>true</useHeadersProxyURL>
   <xmlPostRequestLogBufferSize>100</xmlPostRequestLogBufferSize>
   <xmlExternalEntitiesEnabled>false</xmlExternalEntitiesEnabled>
   <webUIMode>DEFAULT</webUIMode>
