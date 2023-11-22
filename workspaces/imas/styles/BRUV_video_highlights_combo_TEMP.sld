@@ -84,7 +84,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#009933</CssParameter>  
+                  <CssParameter name="fill">#00e64d</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -92,7 +92,7 @@
                    <CssParameter name="stroke-width">1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -110,15 +110,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#cc9900</CssParameter>  
+                  <CssParameter name="fill">#ff9933</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.2</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>10</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>  
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -199,7 +199,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#009933</CssParameter>  
+                  <CssParameter name="fill">#00e64d</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -207,7 +207,7 @@
                    <CssParameter name="stroke-width">1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>12</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -226,15 +226,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#cc9900</CssParameter>  
+                  <CssParameter name="fill">#ff9933</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.2</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>12</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer>  
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -315,7 +315,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#009933</CssParameter>  
+                  <CssParameter name="fill">#00e64d</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -323,7 +323,7 @@
                    <CssParameter name="stroke-width">1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
@@ -342,15 +342,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#cc9900</CssParameter>  
+                  <CssParameter name="fill">#ff9933</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.2</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>  
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
@@ -428,7 +428,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#009933</CssParameter>  
+                  <CssParameter name="fill">#00e64d</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
@@ -436,7 +436,7 @@
                    <CssParameter name="stroke-width">1</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>16</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer> 
         </Rule>         
@@ -454,15 +454,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#cc9900</CssParameter>  
+                  <CssParameter name="fill">#ff9933</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.1</CssParameter>
+                   <CssParameter name="stroke-width">0.2</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>16</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>    
         </Rule> 				
