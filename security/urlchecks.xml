@@ -1,0 +1,9 @@
+<checks>
+  <regex>
+    <name>Style icons</name>
+    <description>Internally stored legends, style icons etc</description>
+    <enabled>true</enabled>
+    <regex>^https://geoserver.imas.utas.edu.au\?.*$</regex>
+  </regex>
+  <enabled>false</enabled>
+</checks>
