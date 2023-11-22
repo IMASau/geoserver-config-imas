@@ -1,10 +1,18 @@
 <layer>
-  <name>AMP_underwater_video_showcase_staging</name>
+  <name>AMP_underwater_video_showcase_staging3</name>
   <id>LayerInfoImpl--a145589:1893dfa7d37:-c63</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--a145589:1893dfa7d37:16fe</id>
+    <id>StyleInfoImpl-6ba5e4c7:18bf446822f:-7a96</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--a145589:1893dfa7d37:16fe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6ba5e4c7:18bf446822f:-7a96</id>
+    </style>
+  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--a145589:1893dfa7d37:-c64</id>
   </resource>
@@ -13,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-07-10 09:15:32.686 UTC</dateCreated>
-  <dateModified>2023-09-20 04:41:56.256 UTC</dateModified>
+  <dateModified>2023-11-21 23:55:28.486 UTC</dateModified>
 </layer>
