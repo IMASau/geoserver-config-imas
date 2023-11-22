@@ -92,7 +92,12 @@
      
 <TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black;">
 	<#if feature.DATA_DL.value == 'yes - other'>
-		yes - other
+		<#if view_map?has_content>
+			<a rel="external" href="${feature.VIEW_MAP.value}" target="_blank">access data</a>
+		<#else>
+			yes - other
+		</#if>
+
 	<#elseif feature.DATA_DL.value == 'yes - ASB'>
 		<#if view_map?has_content>
 			<a rel="external" href="${feature.VIEW_MAP.value}" target="_blank">view in AusSeabed</a>
