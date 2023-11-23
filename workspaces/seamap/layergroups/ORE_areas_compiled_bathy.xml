@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-6ba5e4c7:18bfc67e93f:-7d43</id>
-  <name>ORE_areas_hillshaded_bathy</name>
+  <name>ORE_areas_compiled_bathy</name>
   <mode>SINGLE</mode>
   <title>Hillshaded bathymetry compilation for proposed and declared Offshore Renewable Energy areas</title>
   <workspace>
@@ -38,5 +38,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-23 13:39:42.178 UTC</dateCreated>
-  <dateModified>2023-11-23 13:59:45.825 UTC</dateModified>
+  <dateModified>2023-11-23 20:45:30.871 UTC</dateModified>
 </layerGroup>

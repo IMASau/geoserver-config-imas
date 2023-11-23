@@ -37,7 +37,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-               <ColorMapEntry color="#ffffff" opacity="0.0" quantity=" 0" label="Depth (m)"/>  
+               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity=" 0" label="Depth (m)"/>  
               <ColorMapEntry color="#7a0403" opacity="0.7" label=" 1" quantity="-1"/>
               <ColorMapEntry color="#a21201" opacity="0.7" label=" 40" quantity="-40"/>
               <ColorMapEntry color="#c52603" opacity="0.7" label=" 50" quantity="-50"/>
@@ -57,7 +57,7 @@
               <ColorMapEntry color="#455ed3" opacity="0.7" label=" 500" quantity="-500"/>
               <ColorMapEntry color="#3e3994" opacity="0.7" label=" 2000" quantity="-2000"/>
               <ColorMapEntry color="#30123b" opacity="0.7" label=" 7000" quantity="-7000"/>
-              <ColorMapEntry color="#000000" opacity="0.0" quantity=" 8000"/>              
+              <ColorMapEntry color="#000000" opacity="0.000000001" quantity=" 8000"/>              
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                           
