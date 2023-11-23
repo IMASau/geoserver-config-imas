@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-6ba5e4c7:18bfc1a048f:4fe2</id>
+  <name>ORE_bathy</name>
+  <description>Bathymetry mosaics for Offshore Renewable Energy declaration areas</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2023-11-23 13:26:53.619 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/offshore_renewable_energy/bathy</url>
+</coverageStore>
