@@ -1,0 +1,17 @@
+<layer>
+  <name>ORE_areas_bathymetry_hillshade</name>
+  <id>LayerInfoImpl-6ba5e4c7:18bfc1a048f:6051</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6ba5e4c7:18bfc1a048f:6050</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-23 13:33:10.860 UTC</dateCreated>
+  <dateModified>2023-11-23 13:57:59.947 UTC</dateModified>
+</layer>

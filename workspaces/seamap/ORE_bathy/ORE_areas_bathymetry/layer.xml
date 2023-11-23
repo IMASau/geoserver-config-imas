@@ -1,0 +1,17 @@
+<layer>
+  <name>ORE_areas_bathymetry</name>
+  <id>LayerInfoImpl-6ba5e4c7:18bfc1a048f:5f43</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6ba5e4c7:18bfc1a048f:5e7b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6ba5e4c7:18bfc1a048f:5f42</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-23 13:32:58.171 UTC</dateCreated>
+  <dateModified>2023-11-23 13:34:16.515 UTC</dateModified>
+</layer>
