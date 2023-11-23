@@ -1,12 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-54bbc89c:18bfddcd00e:-7a50</id>
-  <name>SeamapAus_BOUNDARIES_offshore_renewables_NOQUERY</name>
+  <id>FeatureTypeInfoImpl-6ba5e4c7:18bfb63edd7:-5a78</id>
+  <name>SeamapAus_BOUNDARIES_offshore_renewables</name>
   <nativeName>SeamapAus_BOUNDARIES_offshore_renewables</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Offshore renewable energy (ORE) areas - Australia - non-queryable version</title>
-  <abstract>For specific use in layer groups that do not support querying of this layer. Not to be advertised.</abstract>
+  <title>Offshore renewable energy (ORE) areas - Australia</title>
+  <abstract>Queryable version of layer. Not to be advertised (non-authoritative source).</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_offshore_renewables</string>
