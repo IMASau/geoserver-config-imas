@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_BOUNDARIES_offshore_renewables_NOQUERY</name>
+  <id>LayerInfoImpl-6ba5e4c7:18bfb63edd7:-5a77</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6ba5e4c7:18bfb63edd7:-5a7a</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6ba5e4c7:18bfb63edd7:-5a78</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-23 09:32:37.561 UTC</dateCreated>
+  <dateModified>2023-11-23 09:32:49.356 UTC</dateModified>
+</layer>
