@@ -25,6 +25,8 @@
     <internationalContactPerson class="org.geotools.util.GrowableInternationalString"/>
     <internationalContactPosition class="org.geotools.util.GrowableInternationalString"/>
     <internationalContactVoice class="org.geotools.util.GrowableInternationalString"/>
+    <internationalOnlineResource class="org.geotools.util.GrowableInternationalString"/>
+    <internationalWelcome class="org.geotools.util.GrowableInternationalString"/>
   </contact>
   <charset>UTF-8</charset>
   <numDecimals>4</numDecimals>
@@ -34,6 +36,13 @@
   <metadata>
     <map>
       <entry>
+        <string>CogSettings.Key</string>
+        <cogSettings>
+          <useCachingStream>false</useCachingStream>
+          <rangeReaderSettings>HTTP</rangeReaderSettings>
+        </cogSettings>
+      </entry>
+      <entry>
         <string>quietOnNotFound</string>
         <boolean>false</boolean>
       </entry>
@@ -42,4 +51,5 @@
   <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
   <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
   <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+  <useHeadersProxyURL>false</useHeadersProxyURL>
 </settings>
