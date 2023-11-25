@@ -24,8 +24,54 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </Mark>
               <Size>7</Size>
             </Graphic>
-          </PointSymbolizer>      
-        </Rule>        
+          </PointSymbolizer>  
+        </Rule> 
+        <Rule>
+          <Title>Data public</Title>     
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+       			 <Fill>
+        		  <CssParameter name="fill">
+					<ogc:PropertyName>colour</ogc:PropertyName>                    
+					</CssParameter>
+             		 <CssParameter name="fill-opacity">0.95</CssParameter>                   
+       			 </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">1</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>  
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                		                      
+        </Rule>
+        <Rule>
+          <Title>Data private</Title>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+       			 <Fill>
+        		  <CssParameter name="fill">
+					<ogc:PropertyName>colour</ogc:PropertyName>                    
+					</CssParameter>
+             		 <CssParameter name="fill-opacity">0.7</CssParameter>                   
+       			 </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+               </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>   
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                		                      
+        </Rule>		        
+        
+        
         <Rule>
           <Title>Data public</Title>     
           <ogc:Filter>
@@ -47,13 +93,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
        			 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.5</CssParameter>
-             		 <CssParameter name="stroke-opacity">0.6</CssParameter>
+                   <CssParameter name="stroke-width">0.6</CssParameter>
+             		 <CssParameter name="stroke-opacity">0.7</CssParameter>
                </Stroke>                
               </Mark>
               <Size>7</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>  
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                		            
         </Rule>
         <Rule>
           <Title>Data private</Title>  
@@ -72,17 +119,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         		  <CssParameter name="fill">
 					<ogc:PropertyName>colour</ogc:PropertyName>                    
 					</CssParameter>
-             		 <CssParameter name="fill-opacity">0.6</CssParameter>                   
+             		 <CssParameter name="fill-opacity">0.7</CssParameter>                   
        			 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.01</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
              		 <CssParameter name="stroke-opacity">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>3</Size>
+              <Size>4</Size>
             </Graphic>
-          </PointSymbolizer>      
+          </PointSymbolizer>   
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                		                      
         </Rule>		
 		
         <Rule>
@@ -113,7 +161,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>
             </Graphic>
           </PointSymbolizer> 
-         <VendorOption name="inclusion">mapOnly</VendorOption>                                		  
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                		                      
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -132,15 +180,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         		  <CssParameter name="fill">
 					<ogc:PropertyName>colour</ogc:PropertyName>                    
 					</CssParameter>
-             		 <CssParameter name="fill-opacity">0.6</CssParameter>                   
+             		 <CssParameter name="fill-opacity">0.7</CssParameter>                   
        			 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.01</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
              		 <CssParameter name="stroke-opacity">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>4</Size>
+              <Size>5</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                                		  
@@ -193,15 +241,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         		  <CssParameter name="fill">
 					<ogc:PropertyName>colour</ogc:PropertyName>                    
 					</CssParameter>
-             		 <CssParameter name="fill-opacity">0.6</CssParameter>                   
+             		 <CssParameter name="fill-opacity">0.7</CssParameter>                   
        			 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.01</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
              		 <CssParameter name="stroke-opacity">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>5</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -252,15 +300,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         		  <CssParameter name="fill">
 					<ogc:PropertyName>colour</ogc:PropertyName>                    
 					</CssParameter>
-             		 <CssParameter name="fill-opacity">0.6</CssParameter>                   
+             		 <CssParameter name="fill-opacity">0.7</CssParameter>                   
        			 </Fill>
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.01</CssParameter>
+                   <CssParameter name="stroke-width">0.1</CssParameter>
              		 <CssParameter name="stroke-opacity">0.3</CssParameter>
                </Stroke>                
               </Mark>
-              <Size>6</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer> 
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
