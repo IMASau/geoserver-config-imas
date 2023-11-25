@@ -9,6 +9,14 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:900913</gridSetName>
+      <extent>
+        <coords>
+          <double>1.6024410395617625E7</double>
+          <double>-4671130.35217407</double>
+          <double>1.6195969813226024E7</double>
+          <double>-4505140.177861828</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
