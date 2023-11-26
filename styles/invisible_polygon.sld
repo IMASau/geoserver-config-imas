@@ -8,6 +8,7 @@
     <Title>invisible polygon</Title>
       <FeatureTypeStyle>
         <Rule>
+                    <MinScaleDenominator>1</MinScaleDenominator>			
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">

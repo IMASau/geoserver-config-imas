@@ -28,6 +28,7 @@
   
   
 <Rule>
+	<MaxScaleDenominator>1000000</MaxScaleDenominator>  
   <Title>Olive Island (adult female) O1</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -54,6 +55,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule>  
 <Rule>
+	<MaxScaleDenominator>1500000</MaxScaleDenominator>  
   <Title>Olive Island (adult female) O2</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -80,6 +82,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule> 
 <Rule>
+	<MaxScaleDenominator>1500000</MaxScaleDenominator>  
   <Title>Olive Island (adult female) O3</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -106,6 +109,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule> 
 <Rule>
+  	<MaxScaleDenominator>1500000</MaxScaleDenominator>
   <Title>Olive Island (adult female) O4</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -132,6 +136,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule> 
 <Rule>
+  	<MaxScaleDenominator>1500000</MaxScaleDenominator>
   <Title>Seal Bay (adult female) SB1</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -158,6 +163,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule> 
 <Rule>
+  	<MaxScaleDenominator>1500000</MaxScaleDenominator>
   <Title>Seal Bay (adult female) SB2</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -184,6 +190,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule> 
 <Rule>
+	<MaxScaleDenominator>1500000</MaxScaleDenominator>
   <Title>Seal Bay (adult female) SB3</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -210,6 +217,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
 </Rule> 
 <Rule>
+  	<MaxScaleDenominator>1500000</MaxScaleDenominator>
   <Title>Seal Bay (adult female) SB4</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>

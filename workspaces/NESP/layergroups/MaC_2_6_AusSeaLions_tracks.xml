@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--16faa076:18c0b9ec0b2:7264</id>
+  <name>MaC_2_6_AusSeaLions_tracks</name>
+  <mode>SINGLE</mode>
+  <title>NESP Marine and Coastal Project 2.6 - Australian Sea Lions GPS tracks</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--16faa076:18c09dd805b:-62f0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--16faa076:18c09dd805b:-5e15</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c09dd805b:-5a7f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c0b9ec0b2:5e4f</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>133.65633592887335</minx>
+    <maxx>138.2845328526906</maxx>
+    <miny>-36.88062492861246</miny>
+    <maxy>-32.501447670970975</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-11-26 20:30:30.732 UTC</dateCreated>
+</layerGroup>
