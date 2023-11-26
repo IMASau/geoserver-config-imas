@@ -6,13 +6,22 @@
   
 <Rule>
   <Title>Aus Sea Lion trackpoints (coloured by individual)</Title>
-        <LineSymbolizer>
-          <Stroke>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+            <CssParameter name="fill">#ffffff</CssParameter>
+            <CssParameter name="fill-opacity">0</CssParameter>
+                </Fill>
+                <Stroke>
             <CssParameter name="stroke">#000000</CssParameter>
-            <CssParameter name="stroke-opacity">0.8</CssParameter>
-            <CssParameter name="stroke-width">1.4</CssParameter>            
-          </Stroke>
-        </LineSymbolizer>
+            <CssParameter name="stroke-width">0.5</CssParameter>            
+                </Stroke>                  
+              </Mark>
+              <Size>8</Size>				
+            </Graphic>
+          </PointSymbolizer> 
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                      
 </Rule>
  
