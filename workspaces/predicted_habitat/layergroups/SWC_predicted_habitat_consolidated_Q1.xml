@@ -3,7 +3,7 @@
   <name>SWC_predicted_habitat_consolidated_Q1</name>
   <mode>SINGLE</mode>
   <title>Predicted habitat (South-west Corner marine park) - consolidated - quantile 0.000001</title>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -63,5 +63,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-19 02:58:15.96 UTC</dateCreated>
-  <dateModified>2023-11-26 04:28:37.785 UTC</dateModified>
+  <dateModified>2023-11-26 04:38:20.210 UTC</dateModified>
 </layerGroup>

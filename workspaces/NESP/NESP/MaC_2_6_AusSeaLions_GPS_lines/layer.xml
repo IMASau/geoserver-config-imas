@@ -1,0 +1,18 @@
+<layer>
+  <name>MaC_2_6_AusSeaLions_GPS_lines</name>
+  <id>LayerInfoImpl--16faa076:18c09dd805b:-62f0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16faa076:18c09dd805b:-5a7f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--16faa076:18c09dd805b:-62f1</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-26 04:40:27.594 UTC</dateCreated>
+  <dateModified>2023-11-26 04:56:44.748 UTC</dateModified>
+</layer>

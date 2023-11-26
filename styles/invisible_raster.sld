@@ -7,7 +7,6 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
 		<Title>An invisible raster style</Title>
 		<FeatureTypeStyle>
 			<Rule>
-          <MaxScaleDenominator>1</MaxScaleDenominator>			
               
 				<RasterSymbolizer>
 				    <Opacity>0.0</Opacity>
