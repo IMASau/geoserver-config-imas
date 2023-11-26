@@ -1,6 +1,6 @@
 <#list features as feature>
-    <#assign startDateTime = feature.start_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
-    <#assign endDateTime = feature.end_time.value?datetime("yyyy-MM-dd HH:mm:ss")>
+<#assign startDateTime = feature.start_time.value?datetime("d MMM yyyy, hh:mm:ss a")!>
+<#assign endDateTime = feature.end_time.value?datetime("d MMM yyyy, hh:mm:ss a")!>
     <#assign tripLengthDays = feature.trip_length_days.value?number>
 <#assign tripLengthDisplay = (tripLengthDays < 1)?then((tripLengthDays * 24)?round + " hours", (tripLengthDays + 0.5)?int + " days")>
 

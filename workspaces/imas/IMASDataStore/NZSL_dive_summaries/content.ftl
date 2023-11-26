@@ -1,8 +1,10 @@
+
 <#list features as feature>
   <#if feature_index lt 5>
 
-<#assign bin_start = feature.time_bin_start.value?datetime("dd/MM/yyyy hh:mm:ss a")!>
-<#assign bin_end = feature.time_bin_end.value?datetime("dd/MM/yyyy hh:mm:ss a")!>
+<#assign bin_start = feature.time_bin_start.value?datetime("d MMM yyyy, h:mm:ss a")!>
+<#assign bin_end = feature.time_bin_end.value?datetime("d MMM yyyy, h:mm:ss a")!>
+
     <#assign sameDay = (bin_start?string("yyyy-MM-dd") == bin_end?string("yyyy-MM-dd"))>
 
 

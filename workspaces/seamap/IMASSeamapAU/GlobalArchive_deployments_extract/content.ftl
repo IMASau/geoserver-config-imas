@@ -35,7 +35,7 @@
 	<TBODY>
 		<TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-			<TD class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:left">
+			<TD class="fixed-width-ellipsis" style="padding-top: 8px; padding-bottom: 8px; border-right: 1px solid black; font-size: 11px; text-align:left">
 				<#if projectURL?has_content>
 					<a rel="external" href="https://globalarchive.org/geodata/explore/?filters={%22campaign_project_list%22:[${project_id}]}" target="_blank">${feature.project_name.value}</a>
 				<#else>
@@ -60,7 +60,7 @@
 			</TD>
 
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
-				${feature.deployment_time.value?time?string("H:mm")}
+				${feature.deployment_time.value?time?string("HH:mm")}
 			</TD>
                  
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
@@ -100,9 +100,8 @@
 <#list features as feature_counter>
 	<#if (feature_counter_index <10)>
 		<#else>
-			<p><i>More than ten deployments exist at this location.</i></p>
+			<p style="padding-bottom:5px;"><i>More than ten deployments exist at this location.</i></p>
 		<#break>
 
 	</#if>
 </#list>
-<br>
