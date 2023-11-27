@@ -1,7 +1,7 @@
 <#list features as feature>
   <#if feature_index lt 1>
     <#-- Extract and format the date and time -->
-    <#assign TrackDate = feature.DateTime.value?datetime("d MMM yyyy, h:mm:ss a")!>
+    <#assign TrackDate = feature.DateTimeLocal.value?datetime("d MMM yyyy, h:mm:ss a")!>
     
     <div class="feature">
         <p style="margin: 0; padding-bottom: 2px;">

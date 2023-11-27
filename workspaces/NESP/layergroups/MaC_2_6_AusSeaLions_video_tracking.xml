@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--16faa076:18c0b9ec0b2:7264</id>
-  <name>MaC_2_6_AusSeaLions_tracks</name>
+  <name>MaC_2_6_AusSeaLions_video_tracking</name>
   <mode>SINGLE</mode>
   <title>NESP Marine and Coastal Project 2.6 - Australian Sea Lions GPS tracks</title>
   <workspace>
@@ -32,4 +32,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-26 20:30:30.732 UTC</dateCreated>
+  <dateModified>2023-11-27 13:04:56.895 UTC</dateModified>
 </layerGroup>

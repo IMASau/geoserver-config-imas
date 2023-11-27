@@ -68,11 +68,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-            <CssParameter name="fill">#9900cc</CssParameter>
+            <CssParameter name="fill">#ff4d4d</CssParameter>
             <CssParameter name="fill-opacity">0.6</CssParameter>
                 </Fill>
                 <Stroke>
-            <CssParameter name="stroke">#9900cc</CssParameter>
+            <CssParameter name="stroke">#ff4d4d</CssParameter>
             <CssParameter name="stroke-width">0.5</CssParameter>            
                 </Stroke>                  
               </Mark>
