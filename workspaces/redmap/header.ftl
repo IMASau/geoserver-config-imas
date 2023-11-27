@@ -95,14 +95,13 @@ h5 {
 
 h6 {
 	letter-spacing: 1px;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 10px;
 }
 
 i {
 	color: #9a9a9a;
-	margin: 0 3px;
 }
 </style>
 </head>
