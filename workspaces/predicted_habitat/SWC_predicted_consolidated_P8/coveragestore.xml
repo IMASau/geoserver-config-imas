@@ -5,8 +5,9 @@
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
+  <connectionParameters/>
   <metadata>
     <entry key="CogSettings.Key">
       <cogSettings>
@@ -17,6 +18,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2023-11-28 20:11:52.118 UTC</dateCreated>
+  <dateModified>2023-11-28 22:34:25.13 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/byProbabilityOccurrence/pred_consolidated_uncert_p8.tif</url>
 </coverageStore>

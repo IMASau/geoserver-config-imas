@@ -41,6 +41,7 @@
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SWC_predicted_consolidated_P7_pred_consolidated_uncert_p7</entry>
   </metadata>
   <store class="coverageStore">
@@ -67,15 +68,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>GeoPackage (mosaic)</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>MBTiles</string>
-    <string>ArcGrid</string>
-    <string>ImageMosaic</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
