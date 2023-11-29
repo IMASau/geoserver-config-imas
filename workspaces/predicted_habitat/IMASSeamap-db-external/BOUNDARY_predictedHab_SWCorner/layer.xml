@@ -1,0 +1,17 @@
+<layer>
+  <name>BOUNDARY_predictedHab_SWCorner</name>
+  <id>LayerInfoImpl--16faa076:18c1774941e:6473</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--16faa076:18c1774941e:6472</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-29 00:15:22.203 UTC</dateCreated>
+</layer>
