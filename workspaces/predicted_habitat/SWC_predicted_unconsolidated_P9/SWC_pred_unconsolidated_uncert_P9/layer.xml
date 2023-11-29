@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_unconsolidated_uncert_P9</name>
+  <id>LayerInfoImpl--16faa076:18c188d2cb3:181a</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16faa076:18c188d2cb3:15e7</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--16faa076:18c188d2cb3:1819</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-29 01:34:19.427 UTC</dateCreated>
+</layer>
