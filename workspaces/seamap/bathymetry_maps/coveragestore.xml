@@ -8,6 +8,7 @@
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
   <__default>false</__default>
-  <dateModified>2023-11-16 22:53:26.394 UTC</dateModified>
+  <dateModified>2023-11-29 13:04:46.447 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/AMP_bathymetry_derivatives/bathy/raw</url>
 </coverageStore>
