@@ -3,6 +3,10 @@
 
     <#if feature.GRAY_INDEX.value != 'NaN'>
 
+        <div style="padding-top: 8px; padding-bottom:8px;">
+            <h5>Modelled probability of occurrence <br>bare consolidated substrata</b></h5>
+        </div>
+
         <#-- Convert GRAY_INDEX value to number -->
         <#assign grayIndexValue = (feature.GRAY_INDEX.value)?number>
 

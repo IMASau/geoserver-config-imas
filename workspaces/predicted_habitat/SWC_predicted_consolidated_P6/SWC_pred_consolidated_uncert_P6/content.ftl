@@ -3,6 +3,10 @@
 
     <#if feature.GRAY_INDEX.value != 'NaN'>
 
+        <div style="padding-top: 8px; padding-bottom:8px;">
+            <h5>Modelled probability of occurrence <br>bare consolidated substrata</b></h5>
+        </div>
+
         <#-- Convert GRAY_INDEX value to number -->
         <#assign grayIndexValue = (feature.GRAY_INDEX.value)?number>
 
@@ -13,7 +17,7 @@
                     <!-- Display prohibited symbol for zero value -->
                     <div style="display: flex; align-items: center;"> 
                         <span style="color: red; font-size: 28px; padding-right: 8px;">&#128711;</span>
-                        <span style="margin-left: 3px;"><i>No model simulations have forecast </i><b>bare consolidated substrata</b><br><i> to have an </i><b>0.5 or greater</b><i> probability of occurrence for this area.</i></span>
+                        <span style="margin-left: 3px;"><i>No model simulations have predicted </i><b>bare consolidated substrata</b><br><i> to have an </i><b>0.5 or greater</b><i> probability of occurrence for this area.</i></span>
                     </div>
                 <#else>
 
