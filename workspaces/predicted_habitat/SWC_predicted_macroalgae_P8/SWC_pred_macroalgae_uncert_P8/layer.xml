@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_macroalgae_uncert_P8</name>
+  <id>LayerInfoImpl--16faa076:18c188d2cb3:6a52</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16faa076:18c188d2cb3:6a1a</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--16faa076:18c188d2cb3:6a51</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-29 02:27:58.446 UTC</dateCreated>
+</layer>
