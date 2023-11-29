@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_sessile_inverts_uncert_P4</name>
+  <id>LayerInfoImpl--16faa076:18c188d2cb3:6e34</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16faa076:18c188d2cb3:6ddf</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--16faa076:18c188d2cb3:6e33</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-11-29 02:58:43.761 UTC</dateCreated>
+</layer>

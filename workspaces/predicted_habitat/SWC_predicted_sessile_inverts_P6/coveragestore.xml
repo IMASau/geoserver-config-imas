@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--16faa076:18c188d2cb3:6e21</id>
+  <name>SWC_predicted_sessile_inverts_P6</name>
+  <description>Habitat predictions for South-west Corner - sessile invertebrates prob &gt;0.5</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2023-11-29 02:55:47.593 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/byProbabilityOccurrence/pred_sessile_inverts_uncert_p6.tif</url>
+</coverageStore>
