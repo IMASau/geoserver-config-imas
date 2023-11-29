@@ -1,8 +1,8 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--16faa076:18c1774941e:78cb</id>
-  <name>SWC_predArea_consolidated_uncert_P1</name>
+  <id>LayerGroupInfoImpl--16faa076:18c1878f5ba:-422c</id>
+  <name>SWC_predArea_consolidated_uncert_P8</name>
   <mode>SINGLE</mode>
-  <title>Predicted habitat (South-west Corner marine park) - consolidated - probability of occurrence &gt;0</title>
+  <title>Predicted habitat (South-west Corner marine park) - consolidated - probability of occurrence &gt;0.7</title>
   <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
@@ -11,7 +11,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--16faa076:18c1774941e:571b</id>
+      <id>LayerInfoImpl--16faa076:18c1774941e:5729</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--16faa076:18c1774941e:6473</id>
@@ -22,7 +22,7 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl--16faa076:18c1774941e:56e8</id>
+      <id>StyleInfoImpl--16faa076:18c1774941e:5801</id>
     </style>
     <style>
       <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
@@ -38,6 +38,5 @@
     <maxy>-33.40581884620012</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2023-11-29 00:20:53.73 UTC</dateCreated>
-  <dateModified>2023-11-29 00:40:54.513 UTC</dateModified>
+  <dateCreated>2023-11-29 00:30:24.415 UTC</dateCreated>
 </layerGroup>
