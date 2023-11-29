@@ -13,7 +13,7 @@
                     <!-- Display prohibited symbol for zero value -->
                     <div style="display: flex; align-items: center;"> 
                         <span style="color: red; font-size: 28px; padding-right: 8px;">&#128711;</span>
-                        <span style="margin-left: 3px;"><i>No model simulations have forecast </i><b>bare consolidated substrata</b><br><i> to have an </i><b>0.1 or greater</b><i> probability of occurrence for this area.</i></span>
+                        <span style="margin-left: 3px;"><i>No model simulations have forecast </i><b>bare consolidated substrata</b><br><i> to have an </i><b>0.2 or greater</b><i> probability of occurrence for this area.</i></span>
                     </div>
                 <#else>
 
@@ -21,7 +21,7 @@
                     <#assign barWidth = (maxBarWidth * grayIndexValue)>
                     <div style="display: flex; align-items: center;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: #86592d;"></div>
-                        <span style="margin-left: 8px;"><i>The model certainty of </i><b>bare consolidated substrata</b> <br><i>having an </i><b>0.1 or greater</b><i> probability of occurrence is </i><b>${(grayIndexValue * 100)?string("0.###")}%</b></i></span>
+                        <span style="margin-left: 8px;"><i>The model certainty of </i><b>bare consolidated substrata</b> <br><i>having an </i><b>0.2 or greater</b><i> probability of occurrence is </i><b>${(grayIndexValue * 100)?string("0.###")}%</b></i></span>
                     </div>
                 </#if>
             </div>
