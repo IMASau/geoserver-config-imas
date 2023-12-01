@@ -22,7 +22,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>O1</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -39,7 +39,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>O2</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -56,7 +56,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>O3</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -73,7 +73,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>O4</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -90,7 +90,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>SB1</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -107,7 +107,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>SB2</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -124,7 +124,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>SB3</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -141,7 +141,7 @@
   <Title>Sea lion tracks (coloured by individual)</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>Animal</ogc:PropertyName>
+					<ogc:PropertyName>animal</ogc:PropertyName>
 					<ogc:Literal>SB4</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>    
@@ -164,7 +164,7 @@
   	<TextSymbolizer>
   		<Label>
             <ogc:Function name="Concatenate">
-			<ogc:Literal>Individual #</ogc:Literal><ogc:PropertyName>Animal</ogc:PropertyName>
+			<ogc:Literal>Individual #</ogc:Literal><ogc:PropertyName>animal</ogc:PropertyName>
             </ogc:Function>
               </Label>
 		<Font>
