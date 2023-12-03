@@ -11,6 +11,8 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+	<MaxScaleDenominator>500000</MaxScaleDenominator>  
+         
           <Title>Dive video clip (exact GPS fix)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -39,6 +41,8 @@
           
         </Rule>        
         <Rule>
+	<MaxScaleDenominator>500000</MaxScaleDenominator>  
+          
           <Title>Dive video clip (&#8804;5 mins from GPS fix - approx. location)</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -83,7 +87,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#ff00ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#6600ff</CssParameter>
@@ -98,6 +102,8 @@
         </Rule>
         
         <Rule>
+	<MaxScaleDenominator>500000</MaxScaleDenominator>  
+          
           <Title>Dive video clip (>5 mins from GPS fix - approx. location)</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
@@ -117,7 +123,7 @@
                   <CssParameter name="stroke-opacity">0.2</CssParameter>                  
                 </Stroke>  
               </Mark>
-              <Size>12</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>
 
@@ -132,7 +138,7 @@
                   <CssParameter name="stroke-opacity">0.4</CssParameter>                  
                 </Stroke>  
               </Mark>
-              <Size>10</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
 
@@ -143,7 +149,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#0099ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#336699</CssParameter>
@@ -151,15 +157,17 @@
                   <CssParameter name="stroke-opacity">0.7</CssParameter>                  
                 </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>
           
         </Rule>        
-      <VendorOption name="sortBy">matchTyp A, matchTimeDiff D</VendorOption>		        
+      <VendorOption name="sortBy">matchTyp A, matchTimeDiff A</VendorOption>		        
       </FeatureTypeStyle>
       <FeatureTypeStyle>
         <Rule>
+	<MaxScaleDenominator>500000</MaxScaleDenominator>  
+          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
