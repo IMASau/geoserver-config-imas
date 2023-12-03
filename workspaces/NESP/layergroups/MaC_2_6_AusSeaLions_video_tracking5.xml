@@ -3,7 +3,7 @@
   <name>MaC_2_6_AusSeaLions_video_tracking5</name>
   <mode>SINGLE</mode>
   <title>NESP Marine and Coastal Project 2.6 - Australian Sea Lions GPS tracks</title>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -16,6 +16,9 @@
     <published type="layer">
       <id>LayerInfoImpl--16faa076:18c09dd805b:-5e15</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c2f47baf3:3880</id>
+    </published>
   </publishables>
   <styles>
     <style>
@@ -23,6 +26,9 @@
     </style>
     <style>
       <id>StyleInfoImpl--16faa076:18c0b9ec0b2:5e4f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c2f47baf3:3877</id>
     </style>
   </styles>
   <bounds>
@@ -33,5 +39,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-26 20:30:30.732 UTC</dateCreated>
-  <dateModified>2023-12-03 10:32:06.938 UTC</dateModified>
+  <dateModified>2023-12-03 22:16:52.574 UTC</dateModified>
 </layerGroup>
