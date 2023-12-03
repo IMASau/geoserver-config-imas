@@ -9,11 +9,27 @@
   <NamedLayer>
     <Name>Fuzzy border imagery location</Name>
     <UserStyle>
+
+    <FeatureTypeStyle>
+      <Rule>
+  <Title>Aus Sea Lion tracks (coloured by individual)</Title>
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#000000</CssParameter>
+            <CssParameter name="stroke-opacity">0.8</CssParameter>
+            <CssParameter name="stroke-width">1.4</CssParameter>            
+          </Stroke>
+        </LineSymbolizer>
+ 		<VendorOption name="inclusion">legendOnly</VendorOption>                                                      
+</Rule>
+    </FeatureTypeStyle>
+      
+      
       <FeatureTypeStyle>
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
          
-          <Title>Dive video clip (exact GPS fix)</Title>
+          <Title>Dive video (exact GPS fix)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
@@ -43,7 +59,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
           
-          <Title>Dive video clip (&#8804;5 mins from GPS fix - approx. location)</Title>
+          <Title>Dive video (&#8804;5 mins from GPS fix - approx. location)</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
@@ -104,7 +120,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
           
-          <Title>Dive video clip (>5 mins from GPS fix - approx. location)</Title>
+          <Title>Dive video (>5 mins from GPS fix - approx. location)</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
