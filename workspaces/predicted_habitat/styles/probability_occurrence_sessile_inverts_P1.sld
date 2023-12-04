@@ -9,7 +9,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#dcffcc" opacity="0.0001" quantity="0"/>
+              <ColorMapEntry color="#f4d7ee" opacity="0.0001" quantity="0"/>
               <ColorMapEntry color="#f4d7ee" opacity="0.2" quantity="0.2"/>              
               <ColorMapEntry color="#f4d7ee" opacity="0.4" quantity="0.4"/>            
               <ColorMapEntry color="#f4d7ee" opacity="0.6" quantity="0.6"/>
