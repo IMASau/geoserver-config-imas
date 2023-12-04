@@ -29,7 +29,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
          
-          <Title>Dive video (exact GPS fix)</Title>
+          <Title>Video (exact GPS fix)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
@@ -59,7 +59,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
           
-          <Title>Dive video (&#8804;5 mins from GPS fix - approx. location)</Title>
+          <Title>Video &#8804;5 mins from GPS fix \n(approx. location)</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
@@ -120,7 +120,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
           
-          <Title>Dive video (>5 mins from GPS fix - approx. location)</Title>
+          <Title>Video >5 mins from GPS fix \n(approx. location)</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>

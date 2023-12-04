@@ -24,7 +24,7 @@
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * grayIndexValue)>
                     <div style="display: flex; align-items: center;"> 
-                        <div style="width: ${barWidth}px; height: 10px; background-color: #41cc00;"></div>
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #84ce7e;"></div>
                         <span style="margin-left: 8px;"><i>The model certainty of </i><b>macroalgae</b> <br><i>having an </i><b>0.2 or greater</b><i> probability of occurrence is </i><b>${(grayIndexValue * 100)?string("0.###")}%</b></i></span>
                     </div>
                 </#if>
