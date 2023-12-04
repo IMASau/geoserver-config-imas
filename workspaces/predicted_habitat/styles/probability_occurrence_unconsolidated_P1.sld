@@ -9,12 +9,12 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#fffccc" opacity="0.0001" quantity="0"/>
-              <ColorMapEntry color="#fffccc" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#fffccc" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#fffccc" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#fffccc" opacity="0.8" quantity="0.8"/>
-              <ColorMapEntry color="#fffccc" opacity="1" quantity="1"/>           
+              <ColorMapEntry color="#fffbc2" opacity="0.0001" quantity="0"/>
+              <ColorMapEntry color="#fffbc2" opacity="0.2" quantity="0.2"/>              
+              <ColorMapEntry color="#fffbc2" opacity="0.4" quantity="0.4"/>            
+              <ColorMapEntry color="#fffbc2" opacity="0.6" quantity="0.6"/>
+              <ColorMapEntry color="#fffbc2" opacity="0.8" quantity="0.8"/>
+              <ColorMapEntry color="#fffbc2" opacity="1" quantity="1"/>           
           
             </ColorMap>
           </RasterSymbolizer>
@@ -24,12 +24,12 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">              
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Model certainty"/>
-              <ColorMapEntry color="#fffccc" opacity="1" quantity="1" label=" 1.0"/>
-              <ColorMapEntry color="#fffccc" opacity="0.8" quantity="0.8" label=" 0.8"/>              
-              <ColorMapEntry color="#fffccc" opacity="0.6" quantity="0.6" label=" 0.6"/>            
-              <ColorMapEntry color="#fffccc" opacity="0.4" quantity="0.4" label=" 0.4"/>
-              <ColorMapEntry color="#fffccc" opacity="0.2" quantity="0.2" label=" 0.2"/>
-              <ColorMapEntry color="#fffccc" opacity="0.0001" quantity="0" label=" 0.0"/>    
+              <ColorMapEntry color="#fffbc2" opacity="1" quantity="1" label=" 1.0"/>
+              <ColorMapEntry color="#fffbc2" opacity="0.8" quantity="0.8" label=" 0.8"/>              
+              <ColorMapEntry color="#fffbc2" opacity="0.6" quantity="0.6" label=" 0.6"/>            
+              <ColorMapEntry color="#fffbc2" opacity="0.4" quantity="0.4" label=" 0.4"/>
+              <ColorMapEntry color="#fffbc2" opacity="0.2" quantity="0.2" label=" 0.2"/>
+              <ColorMapEntry color="#fffbc2" opacity="0.0001" quantity="0" label=" 0.0"/>    
           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
