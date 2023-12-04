@@ -19,7 +19,7 @@
                 <!-- Calculate bar width in pixels based on the percentage -->
                 <#assign barWidth = (maxBarWidth * grayIndexValue)>
                 <div style="display: flex; align-items: center;"> 
-                    <div style="width: ${barWidth}px; height: 10px; background-color: #2d5986;"></div>
+                    <div style="width: ${barWidth}px; height: 10px; background-color: #02de70;"></div>
                     <span style="margin-left: 8px;">Seagrass: <b>${grayIndexValue?string("0.###")}</b></span>
                 </div>
             </#if>

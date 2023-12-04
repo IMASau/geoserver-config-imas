@@ -19,7 +19,7 @@
                 <!-- Calculate bar width in pixels based on the percentage -->
                 <#assign barWidth = (maxBarWidth * grayIndexValue)>
                 <div style="display: flex; align-items: center;"> 
-                    <div style="width: ${barWidth}px; height: 10px; background-color: #e2cf17;"></div>
+                    <div style="width: ${barWidth}px; height: 10px; background-color: #ffee00;"></div>
                     <span style="margin-left: 8px;">Bare unconsolidated substrata: <b>${grayIndexValue?string("0.###")}</b></span>
                 </div>
             </#if>
