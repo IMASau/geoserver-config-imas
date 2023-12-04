@@ -8,7 +8,7 @@
         <#assign habitats = [
             {"name": "Macroalgae", "value": (feature.broad_macroalgae.value)?number!0, "color": "#2d9624"},
             {"name": "Seagrass", "value": (feature.broad_seagrasses.value)?number!0, "color": "#02de70"},
-            {"name": "Sessile invertebrates", "value": (feature.summed_sessile_inverts.value)?number!0, "color": "#9e2e88"},
+            {"name": "Sessile invertebrates", "value": (feature.summed_sessile_inverts.value)?number!0, "color": "#c639aa"},
             {"name": "Bare consolidated substrata", "value": (feature.broad_consolidated.value)?number!0, "color": "#663300"},
             {"name": "Bare unconsolidated substrata", "value": (feature.broad_unconsolidated.value)?number!0, "color": "#fff780"}
         ]>

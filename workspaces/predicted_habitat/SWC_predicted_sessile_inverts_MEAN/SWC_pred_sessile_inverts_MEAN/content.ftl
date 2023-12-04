@@ -13,14 +13,14 @@
                     <!-- Display prohibited symbol for zero value -->
                 <div style="display: flex; align-items: center; padding-bottom:3px;"> 
                     <span style="color: red; font-size: 10px;">&#128711;</span>
-                    <span style="margin-left: 3px;">Sessile invertebrates: <b>0.0%</b></span>
+                    <span style="margin-left: 3px;">Sessile invertebrates: <b>0%</b></span>
                 </div>
             <#else>
                 <!-- Calculate bar width in pixels based on the percentage -->
                 <#assign barWidth = (maxBarWidth * grayIndexValue)>
                 <div style="display: flex; align-items: center; padding-bottom:3px;"> 
                     <div style="width: ${barWidth}px; height: 10px; background-color: #c639aa;"></div>
-                    <span style="margin-left: 8px;">Sessile invertebrates: <b>${(grayIndexValue * 100)?string("0.##")}%</b></span>
+                    <span style="margin-left: 8px;">Sessile invertebrates: <b>${(grayIndexValue * 100)?string("0")}%</b></span>
                 </div>
             </#if>
 
