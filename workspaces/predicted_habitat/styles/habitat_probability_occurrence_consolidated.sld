@@ -3,18 +3,18 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Probability of habitat occurrence (consolidated substrata)</Name>
+    <Name>Probability of habitat occurrence (bare consolidated substrata)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#86592d" opacity="0.0001" quantity="0"/>
-              <ColorMapEntry color="#86592d" opacity="0.3" quantity="0.2"/>              
-              <ColorMapEntry color="#86592d" opacity="0.5" quantity="0.4"/>            
-              <ColorMapEntry color="#86592d" opacity="0.7" quantity="0.6"/>
-              <ColorMapEntry color="#86592d" opacity="0.9" quantity="0.8"/>
-              <ColorMapEntry color="#86592d" opacity="1" quantity="1"/>           
+              <ColorMapEntry color="#663300" opacity="0.0001" quantity="0"/>
+              <ColorMapEntry color="#663300" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#663300" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#663300" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#663300" opacity="0.9" quantity="0.8"/>
+              <ColorMapEntry color="#663300" opacity="1" quantity="1"/>           
           
             </ColorMap>
           </RasterSymbolizer>
@@ -23,13 +23,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of consolidated"/>
-              <ColorMapEntry color="#86592d" opacity="1" quantity="1" label=" 1.0"/>
-              <ColorMapEntry color="#86592d" opacity="0.9" quantity="0.8" label=" 0.8"/>              
-              <ColorMapEntry color="#86592d" opacity="0.7" quantity="0.6" label=" 0.6"/>            
-              <ColorMapEntry color="#86592d" opacity="0.5" quantity="0.4" label=" 0.4"/>
-              <ColorMapEntry color="#86592d" opacity="0.3" quantity="0.2" label=" 0.2"/>
-              <ColorMapEntry color="#86592d" opacity="0.0001" quantity="0" label=" 0.0"/>    
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of bare consolidated"/>
+              <ColorMapEntry color="#663300" opacity="1" quantity="1" label=" 1.0"/>
+              <ColorMapEntry color="#663300" opacity="0.9" quantity="0.8" label=" 0.8"/>              
+              <ColorMapEntry color="#663300" opacity="0.7" quantity="0.6" label=" 0.6"/>            
+              <ColorMapEntry color="#663300" opacity="0.5" quantity="0.4" label=" 0.4"/>
+              <ColorMapEntry color="#663300" opacity="0.3" quantity="0.2" label=" 0.2"/>
+              <ColorMapEntry color="#663300" opacity="0.0001" quantity="0" label=" 0.0"/>    
           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
