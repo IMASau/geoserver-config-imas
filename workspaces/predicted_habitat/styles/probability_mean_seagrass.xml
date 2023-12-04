@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7f</id>
-  <name>confidence_prob_mean_seagrass</name>
+  <name>probability_mean_seagrass</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>confidence_prob_mean_seagrass.sld</filename>
+  <filename>probability_mean_seagrass.sld</filename>
   <dateCreated>2023-12-04 11:53:21.895 UTC</dateCreated>
-  <dateModified>2023-12-04 13:53:58.145 UTC</dateModified>
+  <dateModified>2023-12-04 23:22:18.682 UTC</dateModified>
 </style>

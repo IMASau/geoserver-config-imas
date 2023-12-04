@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7d</id>
-  <name>confidence_prob_mean_unconsolidated</name>
+  <name>probability_mean_unconsolidated</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>confidence_prob_mean_unconsolidated.sld</filename>
+  <filename>probability_mean_unconsolidated.sld</filename>
   <dateCreated>2023-12-04 11:56:03.490 UTC</dateCreated>
-  <dateModified>2023-12-04 13:19:52.865 UTC</dateModified>
+  <dateModified>2023-12-04 23:20:18.918 UTC</dateModified>
 </style>
