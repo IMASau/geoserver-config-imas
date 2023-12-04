@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-307e6a7c:18c33acb417:-721e</id>
+  <name>SWC_predArea_seagrass_uncert_P1</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) - seagrass - probability of occurrence &gt;0</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c3346fd6d:-ab9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--16faa076:18c1774941e:6473</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be47e5fe6:-52dc</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c3296d879:6090</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.36236156798526</minx>
+    <maxx>115.27644515563193</maxx>
+    <miny>-34.32999735269439</miny>
+    <maxy>-33.40581884620012</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-12-04 07:17:18.566 UTC</dateCreated>
+</layerGroup>

@@ -6,11 +6,11 @@
         <#assign totalPoints = (feature.broad_total_points_annotated.value)?number!1>
         
         <#assign habitats = [
-            {"name": "Macroalgae", "value": (feature.broad_macroalgae.value)?number!0, "color": "#267300"},
-            {"name": "Seagrass", "value": (feature.broad_seagrasses.value)?number!0, "color": "#2d5986"},
-            {"name": "Sessile invertebrates", "value": (feature.summed_sessile_inverts.value)?number!0, "color": "#ff0e48"},
-            {"name": "Bare consolidated substrata", "value": (feature.broad_consolidated.value)?number!0, "color": "#86592d"},
-            {"name": "Bare unconsolidated substrata", "value": (feature.broad_unconsolidated.value)?number!0, "color": "#e2cf17"}
+            {"name": "Macroalgae", "value": (feature.broad_macroalgae.value)?number!0, "color": "#2d9624"},
+            {"name": "Seagrass", "value": (feature.broad_seagrasses.value)?number!0, "color": "#02dc54"},
+            {"name": "Sessile invertebrates", "value": (feature.summed_sessile_inverts.value)?number!0, "color": "#9e2e88"},
+            {"name": "Bare consolidated substrata", "value": (feature.broad_consolidated.value)?number!0, "color": "#663300"},
+            {"name": "Bare unconsolidated substrata", "value": (feature.broad_unconsolidated.value)?number!0, "color": "#fff780"}
         ]>
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>

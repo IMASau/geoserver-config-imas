@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_seagrass_uncert_P5</name>
+  <id>LayerInfoImpl-307e6a7c:18c3346fd6d:-7f4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-307e6a7c:18c3296d879:608c</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-307e6a7c:18c3346fd6d:-7f5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-04 07:00:09.102 UTC</dateCreated>
+</layer>
