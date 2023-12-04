@@ -14,27 +14,6 @@
     <UserStyle>
       <FeatureTypeStyle>
         
-        <!-- Rule for constructing a dummy legend (ExternalGraphic using the charts extension no longer supports a legend)-->
-        <Rule>
-          <Title>Observation pie chart by habitat class</Title>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ffffff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.000001</CssParameter>                       
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.7</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-            <VendorOption name="inclusion">legendOnly</VendorOption>
-          </PointSymbolizer>      
-        </Rule>
 
         <!-- Rule for Pie Chart at scales above 20000 -->
         <Rule>

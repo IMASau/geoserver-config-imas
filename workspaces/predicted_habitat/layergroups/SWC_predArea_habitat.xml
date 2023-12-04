@@ -1,0 +1,66 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-307e6a7c:18c33acb417:-1c17</id>
+  <name>SWC_predArea_habitat</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) - mean probability of occurrence</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--16faa076:18c1774941e:6473</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d7b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d81</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d77</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d75</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d79</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7299ab69:18be47e5fe6:-52dc</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d83</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d80</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.50012207</minx>
+    <maxx>115.25012207</maxx>
+    <miny>-34.24993897</miny>
+    <maxy>-33.49993897</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2023-12-04 12:25:44.341 UTC</dateCreated>
+</layerGroup>

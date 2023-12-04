@@ -5,7 +5,6 @@
   <NamedLayer>
     <Name>invisible polygon</Name>
     <UserStyle>
-    <Title>invisible polygon</Title>
       <FeatureTypeStyle>
         <Rule>
                     <MinScaleDenominator>1</MinScaleDenominator>			
