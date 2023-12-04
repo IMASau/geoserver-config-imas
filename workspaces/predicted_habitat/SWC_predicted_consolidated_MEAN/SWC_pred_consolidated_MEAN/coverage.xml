@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--16faa076:18c188d2cb3:6a9e</id>
-  <name>SWC_pred_macroalgae_uncert_P10</name>
-  <nativeName>SWC_pred_macroalgae_uncert_P10</nativeName>
+  <id>CoverageInfoImpl-307e6a7c:18c33acb417:-1d82</id>
+  <name>SWC_pred_consolidated_MEAN</name>
+  <nativeName>SWC_pred_consolidated_MEAN</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Predicted habitat (South-west Corner marine park) - macroalgae - certainty &gt;0.9</title>
+  <title>Predicted habitat (South-west Corner marine park) - consolidated - mean</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Not to be published singly - for display in Seamap Australia portal</abstract>
   <keywords>
-    <string>pred_macroalgae_uncert_p10</string>
+    <string>pred_consolidated_mean</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -42,10 +42,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_macroalgae_P10_pred_macroalgae_uncert_p10</entry>
+    <entry key="dirName">SWC_predicted_consolidated_MEAN_pred_consolidated_mean</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--16faa076:18c188d2cb3:6a2a</id>
+    <id>CoverageStoreInfoImpl-307e6a7c:18c33acb417:-1f34</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -68,11 +68,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -117,5 +117,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>pred_macroalgae_uncert_p10</nativeCoverageName>
+  <nativeCoverageName>pred_consolidated_mean</nativeCoverageName>
 </coverage>

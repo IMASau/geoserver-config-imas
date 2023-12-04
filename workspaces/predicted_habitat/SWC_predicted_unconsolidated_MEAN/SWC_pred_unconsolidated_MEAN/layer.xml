@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_unconsolidated_MEAN</name>
+  <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d7b</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7d</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-307e6a7c:18c33acb417:-1d7c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-04 11:56:16.513 UTC</dateCreated>
+</layer>
