@@ -11,7 +11,7 @@
         <#assign grayIndexValue = (feature.GRAY_INDEX.value)?number>
 
         <div class="feature"> 
-		<div style = "padding-bottom:5px"><i>Model likelihood of exceeding the mean probability of habitat occurrence:</i></div>
+		<div style = "padding-bottom:5px"><i>Model likelihood of <b>exceeding the mean probability</b> of habitat occurrence:</i></div>
             <div style="display: flex; align-items: center;"> 
                 <!-- Check if grayIndexValue is 0 -->
                 <#if grayIndexValue < 0.001>
