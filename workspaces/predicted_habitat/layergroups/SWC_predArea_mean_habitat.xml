@@ -17,6 +17,9 @@
       <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d7b</id>
     </published>
     <published type="layer">
+      <id>LayerInfoImpl-307e6a7c:18c36a59770:-6c78</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d81</id>
     </published>
     <published type="layer">
@@ -38,6 +41,9 @@
     </style>
     <style>
       <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6951ca5b:181d68afa46:28c1</id>
     </style>
     <style>
       <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d83</id>
@@ -63,5 +69,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-12-04 12:40:40.861 UTC</dateCreated>
-  <dateModified>2023-12-05 04:27:45.126 UTC</dateModified>
+  <dateModified>2023-12-05 04:50:19.321 UTC</dateModified>
 </layerGroup>
