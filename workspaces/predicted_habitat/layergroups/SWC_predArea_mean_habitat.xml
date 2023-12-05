@@ -2,8 +2,8 @@
   <id>LayerGroupInfoImpl-307e6a7c:18c33acb417:-1c17</id>
   <name>SWC_predArea_mean_habitat</name>
   <mode>SINGLE</mode>
-  <title>Predicted habitat (South-west Corner marine park) - mean probability of occurrence</title>
-  <advertised>false</advertised>
+  <title>Predicted habitat (South-west Corner marine park) - mean +- 95% confidence interval probability of occurrence</title>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -14,19 +14,19 @@
       <id>LayerInfoImpl--16faa076:18c1774941e:6473</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d7b</id>
+      <id>LayerInfoImpl-307e6a7c:18c3893e71d:7e1f</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d81</id>
+      <id>LayerInfoImpl-307e6a7c:18c3893e71d:7e21</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d77</id>
+      <id>LayerInfoImpl-307e6a7c:18c3893e71d:7e1d</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d75</id>
+      <id>LayerInfoImpl-307e6a7c:18c36a59770:-907</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-307e6a7c:18c33acb417:-1d79</id>
+      <id>LayerInfoImpl-307e6a7c:18c36a59770:-90a</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--7299ab69:18be47e5fe6:-52dc</id>
@@ -37,19 +37,19 @@
       <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7d</id>
+      <id>StyleInfoImpl-307e6a7c:18c3893e71d:7de6</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d83</id>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fc</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d80</id>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fd</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7e</id>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-906</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c33acb417:-1d7f</id>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fe</id>
     </style>
     <style>
       <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
@@ -63,5 +63,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-12-04 12:40:40.861 UTC</dateCreated>
-  <dateModified>2023-12-05 05:53:55.862 UTC</dateModified>
+  <dateModified>2023-12-05 06:22:52.785 UTC</dateModified>
 </layerGroup>

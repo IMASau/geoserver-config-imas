@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-307e6a7c:18c36a59770:-90b</id>
-  <name>SWC_predicted_seagrass_RANGE</name>
-  <nativeName>SWC_predicted_seagrass_RANGE</nativeName>
+  <id>CoverageInfoImpl-307e6a7c:18c3893e71d:7e1e</id>
+  <name>SWC_predicted_unconsolidated_RANGE</name>
+  <nativeName>SWC_predicted_unconsolidated_RANGE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of seagrass in South-west Corner</title>
+  <title>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of bare unconsolidated substrata in South-west Corner</title>
   <description>Generated from GeoTIFF</description>
   <abstract>To be used for layer group only.</abstract>
   <keywords>
-    <string>seagrass_range_multi</string>
+    <string>unconsolidated_range_multi</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
     <string>multiband</string>
@@ -43,10 +43,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_seagrass_RANGE_seagrass_range_multi</entry>
+    <entry key="dirName">SWC_predicted_unconsolidated_RANGE_unconsolidated_range_multi</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-307e6a7c:18c36a59770:-937</id>
+    <id>CoverageStoreInfoImpl-307e6a7c:18c3893e71d:7de9</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -124,14 +124,6 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
@@ -139,6 +131,14 @@
       <string>RescalePixels</string>
       <boolean>true</boolean>
     </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
   </parameters>
-  <nativeCoverageName>seagrass_range_multi</nativeCoverageName>
+  <nativeCoverageName>unconsolidated_range_multi</nativeCoverageName>
 </coverage>

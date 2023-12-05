@@ -12,6 +12,7 @@
     <string>macroalgae_range_multi</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
+    <string>multiband</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -39,6 +40,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SWC_predicted_macroalgae_RANGE_macroalgae_range_multi</entry>

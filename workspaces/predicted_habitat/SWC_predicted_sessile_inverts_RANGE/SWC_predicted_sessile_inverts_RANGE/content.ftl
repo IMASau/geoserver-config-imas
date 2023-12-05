@@ -15,15 +15,15 @@
                     <!-- Display prohibited symbol for zero value -->
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
-                        <span style="margin-left: 3px;">Seagrass: <b><0.001</b></span>
+                        <span style="margin-left: 3px;">Sessile invertebrates: <b><0.001</b></span>
                     </div>
                 <#else>
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * meanValue)>
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
-                        <div style="width: ${barWidth}px; height: 10px; background-color: #02de70;"></div>
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #c639aa;"></div>
                         <span style="margin-left: 8px;">
-                            Seagrass: <b>${meanValue?string("0.##")}</b>
+                            Sessile invertebrates: <b>${meanValue?string("0.##")}</b>
                             (<i>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</i>)
                         </span>
                     </div>

@@ -1,22 +1,15 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-307e6a7c:18c36a59770:-909</id>
   <name>SWC_predicted_macroalgae_RANGE</name>
-  <description>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of macroalgae in South-west Corner</description>
+  <description>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of macroalgae occurrence in South-west Corner</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2023-12-05 05:38:50.790 UTC</dateCreated>
+  <dateModified>2023-12-05 06:05:40.499 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/byProbabilityOccurrence/means/combined/macroalgae_range_multi.tif</url>
 </coverageStore>

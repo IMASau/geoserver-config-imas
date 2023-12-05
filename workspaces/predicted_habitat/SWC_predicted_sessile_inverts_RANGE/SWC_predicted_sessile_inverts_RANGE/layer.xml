@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_predicted_sessile_inverts_RANGE</name>
+  <id>LayerInfoImpl-307e6a7c:18c3893e71d:7e1d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-307e6a7c:18c3893e71d:7e1c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-05 06:13:34.482 UTC</dateCreated>
+</layer>

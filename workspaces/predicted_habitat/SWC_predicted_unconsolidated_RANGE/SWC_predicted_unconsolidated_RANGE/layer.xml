@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_predicted_unconsolidated_RANGE</name>
+  <id>LayerInfoImpl-307e6a7c:18c3893e71d:7e1f</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-307e6a7c:18c3893e71d:7de6</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-307e6a7c:18c3893e71d:7e1e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-05 06:14:45.532 UTC</dateCreated>
+</layer>
