@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-307e6a7c:18c33acb417:-1c17</id>
-  <name>SWC_predArea_habitat</name>
+  <name>SWC_predArea_mean_habitat</name>
   <mode>SINGLE</mode>
   <title>Predicted habitat (South-west Corner marine park) - mean probability of occurrence</title>
   <advertised>false</advertised>
@@ -63,4 +63,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-12-04 12:40:40.861 UTC</dateCreated>
+  <dateModified>2023-12-05 04:27:45.126 UTC</dateModified>
 </layerGroup>
