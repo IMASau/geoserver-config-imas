@@ -1,17 +1,17 @@
 <layer>
   <name>SWC_predicted_macroalgae_RANGE</name>
-  <id>LayerInfoImpl-307e6a7c:18c36a59770:-935</id>
+  <id>LayerInfoImpl-307e6a7c:18c36a59770:-907</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl-307e6a7c:18c36a59770:-906</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-307e6a7c:18c36a59770:-936</id>
+    <id>CoverageInfoImpl-307e6a7c:18c36a59770:-908</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-12-05 05:09:45.450 UTC</dateCreated>
-  <dateModified>2023-12-05 05:16:46.403 UTC</dateModified>
+  <dateCreated>2023-12-05 05:39:57.395 UTC</dateCreated>
+  <dateModified>2023-12-05 05:46:40.934 UTC</dateModified>
 </layer>

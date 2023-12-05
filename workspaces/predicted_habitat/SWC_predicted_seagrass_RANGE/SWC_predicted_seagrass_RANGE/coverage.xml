@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-307e6a7c:18c36a59770:-6c81</id>
-  <name>SWC_pred_seagrass_LOWER_RANGE</name>
-  <nativeName>SWC_pred_seagrass_LOWER_RANGE</nativeName>
+  <id>CoverageInfoImpl-307e6a7c:18c36a59770:-90b</id>
+  <name>SWC_predicted_seagrass_RANGE</name>
+  <nativeName>SWC_predicted_seagrass_RANGE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Predicted habitat (South-west Corner marine park) - seagrass -  LOWER 95th credible interval (2.5%)</title>
+  <title>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of seagrass in South-west Corner</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Not to be published singly - for display in Seamap Australia portal</abstract>
+  <abstract>To be used for layer group only.</abstract>
   <keywords>
-    <string>pred_seagrass_lwr_range</string>
+    <string>seagrass_range_multi</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -39,13 +39,11 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SWC_predicted_seagrass_LWR_RANGE_pred_seagrass_lwr_range</entry>
+    <entry key="dirName">SWC_predicted_seagrass_RANGE_seagrass_range_multi</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-307e6a7c:18c36a59770:-6d08</id>
+    <id>CoverageStoreInfoImpl-307e6a7c:18c36a59770:-937</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -68,7 +66,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
+    <string>GeoPackage (mosaic)</string>
+    <string>ImageMosaic</string>
     <string>GEOTIFF</string>
+    <string>ArcGrid</string>
+    <string>MBTiles</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
@@ -82,7 +84,29 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>GRAY_INDEX</name>
+      <name>LOWER</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>MEAN</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>UPPER</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -101,14 +125,6 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>Bands</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>RescalePixels</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
@@ -116,6 +132,14 @@
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
     </entry>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
   </parameters>
-  <nativeCoverageName>pred_seagrass_lwr_range</nativeCoverageName>
+  <nativeCoverageName>seagrass_range_multi</nativeCoverageName>
 </coverage>

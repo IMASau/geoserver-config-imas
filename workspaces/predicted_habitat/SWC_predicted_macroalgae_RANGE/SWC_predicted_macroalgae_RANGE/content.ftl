@@ -21,10 +21,10 @@
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * meanValue)>
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
-                        <div style="width: ${barWidth}px; height: 10px; background-color: #ffee00;"></div>
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #2d9624;"></div>
                         <span style="margin-left: 8px;">
                             Macroalgae: <b>${meanValue?string("0.##")}</b>
-                            (<b>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</b>)
+                            (<i>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</i>)
                         </span>
                     </div>
                 </#if>
