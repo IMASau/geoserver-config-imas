@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_pred_consolidated_LOWER_RANGE</name>
+  <id>LayerInfoImpl-307e6a7c:18c36a59770:-6c7c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6951ca5b:181d68afa46:28c1</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-307e6a7c:18c36a59770:-6c7d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-04 23:30:25.599 UTC</dateCreated>
+</layer>
