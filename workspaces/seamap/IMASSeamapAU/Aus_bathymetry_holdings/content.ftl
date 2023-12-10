@@ -1,5 +1,24 @@
 <#setting date_format="yyyy">
 
+<#-- Initialize a map to store the lowest res_actual feature for each title_asb -->
+<#assign groupedFeatures = {}>
+<#list features as feature>
+    <#if feature.TITLE_ASB?has_content>
+        <#-- Retrieve the existing feature for this title_asb, if any -->
+        <#assign existingFeature = groupedFeatures[feature.TITLE_ASB.value]??>
+        <#-- Check if the feature for this title_asb already exists and is a hash -->
+        <#if existingFeature?is_hash>
+            <#-- Compare res_actual values and keep the lower one -->
+            <#if feature.RES_ACTUAL.value < existingFeature.RES_ACTUAL.value>
+                <#-- Update the map with the new feature having a lower res_actual -->
+                <#assign groupedFeatures = groupedFeatures + {feature.TITLE_ASB.value : feature}/>
+            </#if>
+        <#else>
+            <#-- This title_asb is not in the map yet, so add this feature -->
+            <#assign groupedFeatures = groupedFeatures + {feature.TITLE_ASB.value : feature}/>
+        </#if>
+    </#if>
+</#list>
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1100px; table-layout: fixed;">
 	<col width="29%" />
@@ -23,7 +42,9 @@
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Info</th>
 	</TR>
 
-	<#list features?sort_by(["DATA_DL", "rawValue"])?reverse as feature>
+
+<#assign featureList = groupedFeatures?values>
+<#list featureList?sort_by(["DATA_DL", "rawValue"])?reverse as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
 		<#assign reserve=feature.AMP_RESERVE.value>		
@@ -144,6 +165,7 @@
 
 		</#if>
 	</#list>
+
 </TABLE>
 <br>
 
