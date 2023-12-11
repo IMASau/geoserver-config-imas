@@ -5,5 +5,11 @@
     <enabled>true</enabled>
     <regex>^https://geoserver.imas.utas.edu.au\?.*$</regex>
   </regex>
+  <regex>
+    <name>IMAS geoserver</name>
+    <description>allow all from IMAS geoserver</description>
+    <enabled>true</enabled>
+    <regex>^https://geoserver\.imas\.utas\.edu\.au/.*$</regex>
+  </regex>
   <enabled>false</enabled>
 </checks>
