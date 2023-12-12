@@ -49,6 +49,9 @@ Carbon prices per tCO2 presented are $35, $50, $60, $80 (cp35_tCO2... cp80_tCO2)
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>

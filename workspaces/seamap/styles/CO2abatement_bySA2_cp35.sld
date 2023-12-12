@@ -7,11 +7,11 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Annual average abatement (tCO2) \n@ $35 per tCO2</Title>
+          <Title>Annual average abatement (tCO2) \nPrice: $35 per tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
-             <ogc:Literal>intentionallyblank</ogc:Literal>
+             <ogc:Literal>999999999999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -22,34 +22,34 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>&#8804; 900 tCO2</Title>
+          <Title>    &#8804; 900 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
-             <ogc:Literal>900</ogc:Literal>
+             <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
                 <CssParameter name="fill">#FFFFCC</CssParameter>
-                <CssParameter name="fill-opacity">0.9</CssParameter>
+                <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
                 <CssParameter name="stroke-opaticty">0.5</CssParameter>               
-                <CssParameter name="stroke-width">0.1</CssParameter>               
+                <CssParameter name="stroke-width">0.01</CssParameter>               
              </Stroke>     
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>900 - 3,900</Title>
+          <Title>    300 - 3,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>900</ogc:Literal>
+                <ogc:Literal>300</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>3900</ogc:Literal>
+                <ogc:Literal>3500</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -57,94 +57,108 @@
              <Fill>
                 <!-- CssParameters allowed are fill (the color) and fill-opacity -->
                 <CssParameter name="fill">#D9F0A3</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
+                <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>    
              <Stroke>
                 <CssParameter name="stroke-opaticty">0.5</CssParameter>               
-                <CssParameter name="stroke-width">0.1</CssParameter>               
+                <CssParameter name="stroke-width">0.01</CssParameter>               
              </Stroke>     
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>3,900 - 14,300</Title>
+          <Title>    3,500 - 14,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>3900</ogc:Literal>
+                <ogc:Literal>3500</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>14300</ogc:Literal>
+                <ogc:Literal>14000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
                 <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#FF4D4D</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-             </Fill>     
+                <CssParameter name="fill">#ADDD8E</CssParameter>
+                <CssParameter name="fill-opacity">0.95</CssParameter>
+             </Fill>  
+             <Stroke>
+                <CssParameter name="stroke-opaticty">0.5</CssParameter>               
+                <CssParameter name="stroke-width">0.01</CssParameter>               
+             </Stroke>               
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>14,300 - 33,400</Title>
+          <Title>    14,000 - 33,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>14300</ogc:Literal>
+                <ogc:Literal>14000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>33400</ogc:Literal>
+                <ogc:Literal>33000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
                 <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#FF4D4D</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-             </Fill>     
+                <CssParameter name="fill">#78C679</CssParameter>
+                <CssParameter name="fill-opacity">0.95</CssParameter>
+             </Fill>  
+             <Stroke>
+                <CssParameter name="stroke-opaticty">0.5</CssParameter>               
+                <CssParameter name="stroke-width">0.01</CssParameter>               
+             </Stroke>               
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>33,400 - 86,000</Title>
+          <Title>    33,000 - 85,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>33400</ogc:Literal>
+                <ogc:Literal>33000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>88500</ogc:Literal>
+                <ogc:Literal>85000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
                 <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#FF4D4D</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-             </Fill>     
+                <CssParameter name="fill">#31A354</CssParameter>
+                <CssParameter name="fill-opacity">0.95</CssParameter>
+             </Fill>
+             <Stroke>
+                <CssParameter name="stroke-opaticty">0.5</CssParameter>               
+                <CssParameter name="stroke-width">0.01</CssParameter>               
+             </Stroke>            
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>&gt; 86,000 tCO2</Title>
-          <!-- like a linesymbolizer but with a fill too -->
+          <Title>    &gt; 85,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
-             <ogc:Literal>86000000</ogc:Literal>
+             <ogc:Literal>85000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#4D4DFF</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-             </Fill>     
+                <CssParameter name="fill">#006837</CssParameter>
+                <CssParameter name="fill-opacity">0.95</CssParameter>
+             </Fill>  
+             <Stroke>
+                <CssParameter name="stroke-opaticty">0.5</CssParameter>               
+                <CssParameter name="stroke-width">0.01</CssParameter>               
+             </Stroke>             
           </PolygonSymbolizer>
-        </Rule>
+        </Rule> 
      </FeatureTypeStyle>
     </UserStyle>
     </NamedLayer>
