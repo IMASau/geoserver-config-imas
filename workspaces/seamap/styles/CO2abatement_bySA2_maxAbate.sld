@@ -7,10 +7,10 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>25-year annual average C abatement \nPrice: $80 per tCO2</Title>
+          <Title>25-year annual average C abatement: \nMaximum possible abatement (tCO2)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-             <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>max_abate</ogc:PropertyName>
              <ogc:Literal>999999999999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,7 +25,7 @@
           <Title>    &#8804; 900 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
-             <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>max_abate</ogc:PropertyName>
              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
@@ -44,7 +44,7 @@
           <Title>    300 - 3,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>300</ogc:Literal>
               </ogc:LowerBoundary>
@@ -69,7 +69,7 @@
           <Title>    3,500 - 14,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>3500</ogc:Literal>
               </ogc:LowerBoundary>
@@ -94,7 +94,7 @@
           <Title>    14,000 - 33,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>14000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -119,7 +119,7 @@
           <Title>    33,000 - 85,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>33000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -144,7 +144,7 @@
           <Title>    &gt; 85,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-             <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>max_abate</ogc:PropertyName>
              <ogc:Literal>85000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
@@ -158,7 +158,7 @@
                 <CssParameter name="stroke-width">0.01</CssParameter>               
              </Stroke>             
           </PolygonSymbolizer>
-        </Rule>
+        </Rule> 
      </FeatureTypeStyle>
     </UserStyle>
     </NamedLayer>
