@@ -24,16 +24,16 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>68.06175622306104</minx>
-    <maxx>172.54014819193662</maxx>
-    <miny>-59.201066166018634</miny>
-    <maxy>-4.769858184887101</maxy>
+    <maxx>170.72406080213756</maxx>
+    <miny>-59.130588283111344</miny>
+    <maxy>-7.390297367096937</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>68.06175622306104</minx>
-    <maxx>172.54014819193662</maxx>
-    <miny>-59.201066166018634</miny>
-    <maxy>-4.769858184887101</maxy>
+    <maxx>170.72406080213756</maxx>
+    <miny>-59.130588283111344</miny>
+    <maxy>-7.390297367096937</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -57,6 +57,8 @@
     <id>CoverageStoreInfoImpl-2922ad46:18099e13b80:-21ac</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
