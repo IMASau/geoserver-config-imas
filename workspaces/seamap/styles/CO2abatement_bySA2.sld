@@ -31,9 +31,13 @@
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#4DFF4D</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-             </Fill>     
+                <CssParameter name="fill">#FFFFCC</CssParameter>
+                <CssParameter name="fill-opacity">0.9</CssParameter>
+             </Fill>  
+             <Stroke>
+                <CssParameter name="stroke-opaticty">0.5</CssParameter>               
+                <CssParameter name="stroke-width">0.1</CssParameter>               
+             </Stroke>     
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -52,9 +56,13 @@
           <PolygonSymbolizer>
              <Fill>
                 <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#FF4D4D</CssParameter>
+                <CssParameter name="fill">#D9F0A3</CssParameter>
                 <CssParameter name="fill-opacity">0.7</CssParameter>
-             </Fill>     
+             </Fill>    
+             <Stroke>
+                <CssParameter name="stroke-opaticty">0.5</CssParameter>               
+                <CssParameter name="stroke-width">0.1</CssParameter>               
+             </Stroke>     
           </PolygonSymbolizer>
         </Rule>
         <Rule>
