@@ -7,7 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>25-year annual average area of C abatement: \nMaximum possible area of abatement (ha)</Title>
+          <Title>25y annual average area of C abatement: \nMax. possible area of abatement (ha)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
              <ogc:PropertyName>max_area</ogc:PropertyName>
@@ -22,7 +22,7 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &#8804; 350 hectares</Title>
+          <Title>    &lt; 350 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>max_area</ogc:PropertyName>

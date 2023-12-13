@@ -7,7 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>25-year annual average C abatement: \nMaximum possible abatement (tCO2)</Title>
+          <Title>25y annual average C abatement: \nMaximum possible abatement (tCO2)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
              <ogc:PropertyName>max_abate</ogc:PropertyName>
@@ -22,7 +22,7 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &#8804; 900 tCO2</Title>
+          <Title>    &lt; 300 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>max_abate</ogc:PropertyName>

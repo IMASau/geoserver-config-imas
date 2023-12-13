@@ -22,7 +22,7 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &#8804; 900 tCO2</Title>
+          <Title>    &lt; 300 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
