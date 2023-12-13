@@ -3,11 +3,11 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Economically feasible abatement for $35 per tCO2</Name>
+    <Name>CO2 abatement: $35 per tCO2</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Annual average abatement (tCO2) \nPrice: $35 per tCO2</Title>
+          <Title>Annual average C abatement (tCO2) \nPrice: $35 per tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>

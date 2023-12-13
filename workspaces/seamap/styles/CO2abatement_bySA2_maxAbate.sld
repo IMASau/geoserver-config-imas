@@ -3,7 +3,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Economically feasible abatement for $35 per tCO2</Name>
+    <Name>CO2 abatement: maximum abatement</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>

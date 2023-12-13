@@ -3,11 +3,11 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Economically feasible abatement for $35 per tCO2</Name>
+    <Name>Area of CO2 abatement: maximum possible area</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>25y annual average area of C abatement: \nMax. possible area of abatement (ha)</Title>
+          <Title>Area of C abatement (ha): \nMax. possible area</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
              <ogc:PropertyName>max_area</ogc:PropertyName>
