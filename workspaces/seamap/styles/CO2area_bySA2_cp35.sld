@@ -22,11 +22,11 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &lt; 350 hectares</Title>
+          <Title>    &lt; 200 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>cp35_ha</ogc:PropertyName>
-             <ogc:Literal>350</ogc:Literal>
+             <ogc:Literal>200</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -41,15 +41,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    350 - 1,500</Title>
+          <Title>    200 - 1,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>350</ogc:Literal>
+                <ogc:Literal>200</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>1500</ogc:Literal>
+                <ogc:Literal>1000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -65,15 +65,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    1,500 - 3,200</Title>
+          <Title>    1,000 - 2,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>1500</ogc:Literal>
+                <ogc:Literal>1000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>3200</ogc:Literal>
+                <ogc:Literal>2500</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -89,15 +89,15 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    3,200 - 7,000</Title>
+          <Title>    2,500 - 6,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>3200</ogc:Literal>
+                <ogc:Literal>2500</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>7000</ogc:Literal>
+                <ogc:Literal>6500</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -113,12 +113,12 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    7,000 - 10,000</Title>
+          <Title>    6,500 - 10,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp35_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>7000</ogc:Literal>
+                <ogc:Literal>6500</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
                 <ogc:Literal>10000</ogc:Literal>
