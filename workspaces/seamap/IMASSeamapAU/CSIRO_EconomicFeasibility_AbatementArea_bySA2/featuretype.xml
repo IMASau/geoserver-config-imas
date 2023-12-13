@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-113599b8:18c5d4b9026:2b61</id>
-  <name>CSIRO_EconomicFeasibility_CarbonAbatement_bySA2</name>
+  <id>FeatureTypeInfoImpl-113599b8:18c6505f559:-7eb3</id>
+  <name>CSIRO_EconomicFeasibility_AbatementArea_bySA2</name>
   <nativeName>CSIRO_BlueCarbon_EconomicFeasibility_bySA2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Economic feasibility of 25-year annual average CO2 abatements, by carbon price (per tCO2), aggregated by Statistical Area 2 (CSIRO/BHP)</title>
+  <title>Economic feasibility of 25-year annual average CO2 abatements, by Statistical Area 2 (CSIRO/BHP)</title>
   <abstract>Modelled economically feasible 25-year annual average carbon abatement (tCO2) and areas of carbon abatement (ha) for four carbon prices ($), aggregated by Statistical Area 2 (2011) for agricultural land. SA2 is clipped to 100km inland from coastline. Includes modelled maximum potential abatement and area.&#xd;
 &#xd;
 The following scenario settings have been used:&#xd;
@@ -49,7 +49,6 @@ Carbon prices per tCO2 presented are $35, $50, $60, $80 (cp35_tCO2... cp80_tCO2)
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
