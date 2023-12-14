@@ -7,7 +7,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>25y annual average C abatement \nPrice: $80 per tCO2</Title>
+          <Title>CO2 abatement (tonnes)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
              <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>

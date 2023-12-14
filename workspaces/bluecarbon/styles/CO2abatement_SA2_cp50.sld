@@ -3,14 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>CO2 abatement: $35 per tCO2</Name>
+    <Name>CO2 abatement: $50 per tCO2</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Annual average C abatement (tCO2) \nPrice: $35 per tCO2</Title>
+          <Title>CO2 abatement (tonnes)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-             <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
              <ogc:Literal>999999999999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,7 +25,7 @@
           <Title>    &lt; 300 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
-             <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
@@ -44,7 +44,7 @@
           <Title>    300 - 3,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>300</ogc:Literal>
               </ogc:LowerBoundary>
@@ -69,7 +69,7 @@
           <Title>    3,500 - 14,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>3500</ogc:Literal>
               </ogc:LowerBoundary>
@@ -94,7 +94,7 @@
           <Title>    14,000 - 33,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>14000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -119,7 +119,7 @@
           <Title>    33,000 - 85,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>33000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -144,7 +144,7 @@
           <Title>    &gt; 85,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-             <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
              <ogc:Literal>85000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
@@ -158,7 +158,7 @@
                 <CssParameter name="stroke-width">0.01</CssParameter>               
              </Stroke>             
           </PolygonSymbolizer>
-        </Rule> 
+        </Rule>
      </FeatureTypeStyle>
     </UserStyle>
     </NamedLayer>

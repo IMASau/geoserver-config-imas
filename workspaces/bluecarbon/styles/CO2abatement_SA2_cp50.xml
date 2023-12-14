@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-113599b8:18c5e713099:-1185</id>
-  <name>CO2abatement_bySA2_cp50</name>
+  <name>CO2abatement_SA2_cp50</name>
   <workspace>
     <id>WorkspaceInfoImpl-113599b8:18c66091da3:-453c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CO2abatement_bySA2_cp50.sld</filename>
+  <filename>CO2abatement_SA2_cp50.sld</filename>
   <dateCreated>2023-12-12 20:11:01.482 UTC</dateCreated>
-  <dateModified>2023-12-14 02:05:48.266 UTC</dateModified>
+  <dateModified>2023-12-14 06:37:57.394 UTC</dateModified>
 </style>

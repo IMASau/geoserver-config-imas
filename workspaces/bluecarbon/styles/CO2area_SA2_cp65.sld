@@ -3,14 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Area of CO2 abatement: maximum possible area</Name>
+    <Name>Area of CO2 abatement: $65 per tCO2</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Area of C abatement (ha): \nMax. possible area</Title>
+          <Title>Area of C abatement (ha)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:PropertyName>cp65_ha</ogc:PropertyName>
              <ogc:Literal>999999999999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,7 +25,7 @@
           <Title>    &lt; 200 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
-             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:PropertyName>cp65_ha</ogc:PropertyName>
              <ogc:Literal>200</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
@@ -44,7 +44,7 @@
           <Title>    200 - 1,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp65_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>200</ogc:Literal>
               </ogc:LowerBoundary>
@@ -68,7 +68,7 @@
           <Title>    1,000 - 2,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp65_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>1000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -92,7 +92,7 @@
           <Title>    2,500 - 6,500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp65_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>2500</ogc:Literal>
               </ogc:LowerBoundary>
@@ -116,7 +116,7 @@
           <Title>    6,500 - 10,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp65_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>6500</ogc:Literal>
               </ogc:LowerBoundary>
@@ -140,7 +140,7 @@
           <Title>    &gt; 10,000 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:PropertyName>cp65_ha</ogc:PropertyName>
              <ogc:Literal>10000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>

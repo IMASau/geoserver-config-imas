@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-113599b8:18c6505f559:-7ef1</id>
-  <name>CO2area_bySA2_cp65</name>
+  <name>CO2area_SA2_cp65</name>
   <workspace>
     <id>WorkspaceInfoImpl-113599b8:18c66091da3:-453c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CO2area_bySA2_cp65.sld</filename>
+  <filename>CO2area_SA2_cp65.sld</filename>
   <dateCreated>2023-12-13 21:58:32.747 UTC</dateCreated>
-  <dateModified>2023-12-14 02:06:22.289 UTC</dateModified>
+  <dateModified>2023-12-14 06:38:30.613 UTC</dateModified>
 </style>

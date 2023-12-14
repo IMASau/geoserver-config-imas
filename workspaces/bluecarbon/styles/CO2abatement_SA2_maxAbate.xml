@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-113599b8:18c5e713099:1fa</id>
-  <name>CO2abatement_bySA2_maxAbate</name>
+  <name>CO2abatement_SA2_maxAbate</name>
   <workspace>
     <id>WorkspaceInfoImpl-113599b8:18c66091da3:-453c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CO2abatement_bySA2_maxAbate.sld</filename>
+  <filename>CO2abatement_SA2_maxAbate.sld</filename>
   <dateCreated>2023-12-12 22:13:26.230 UTC</dateCreated>
-  <dateModified>2023-12-14 02:06:03.821 UTC</dateModified>
+  <dateModified>2023-12-14 06:38:11.331 UTC</dateModified>
 </style>
