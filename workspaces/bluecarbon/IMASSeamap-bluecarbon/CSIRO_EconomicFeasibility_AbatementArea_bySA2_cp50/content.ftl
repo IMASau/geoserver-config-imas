@@ -1,0 +1,13 @@
+<#list features as feature>
+	<#if (feature_index < 1) >
+
+	<h5>Blue carbon economic feasibility modelling</h5>
+	<BR>
+	<div class="feature" style="padding-bottom:5px; line-height: 1.6;"> 
+		Potential area of CO&#8322; abatement: <b>${feature.cp50_ha.value} hectares</b>
+		<br><i>Carbon price scenario <b>$50 per tonne CO&#8322;</b></i>
+		<br><i>Statistical area ${feature.sa2int.value} (${feature.STE_NAME11.value})</i>
+		<BR>
+	</div>		
+  </#if>
+</#list>

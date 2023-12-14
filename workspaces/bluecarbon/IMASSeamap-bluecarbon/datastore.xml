@@ -1,0 +1,25 @@
+<dataStore>
+  <id>DataStoreInfoImpl-113599b8:18c66091da3:-453a</id>
+  <name>IMASSeamap-bluecarbon</name>
+  <description>Seamap SQL Storage Database</description>
+  <type>Microsoft SQL Server (JTDS Driver) (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-113599b8:18c66091da3:-453c</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">bluecarbon</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2023-12-14 02:08:45.631 UTC</dateCreated>
+  <dateModified>2023-12-14 02:09:10.672 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>
