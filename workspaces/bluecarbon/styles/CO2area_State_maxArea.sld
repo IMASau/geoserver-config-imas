@@ -22,11 +22,11 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &lt; 1,800 hectares</Title>
+          <Title>    &lt; 200 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>max_area</ogc:PropertyName>
-             <ogc:Literal>1800</ogc:Literal>
+             <ogc:Literal>200</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -41,15 +41,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    1,800 - 14,000</Title>
+          <Title>    200 - 2,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>1800</ogc:Literal>
+                <ogc:Literal>200</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>14000</ogc:Literal>
+                <ogc:Literal>2000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -65,15 +65,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    14,000 - 50,000</Title>
+          <Title>    2,000 - 6,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>14000</ogc:Literal>
+                <ogc:Literal>2000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>50000</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -89,15 +89,15 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    50,000 - 90,000</Title>
+          <Title>    6,000 - 15,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>50000</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>90000</ogc:Literal>
+                <ogc:Literal>15000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -113,15 +113,15 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    90,000 - 260,000</Title>
+          <Title>    15,000 - 38,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>90000</ogc:Literal>
+                <ogc:Literal>15000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>260000</ogc:Literal>
+                <ogc:Literal>38000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -137,11 +137,11 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 260,000 hectares</Title>
+          <Title>    &gt; 38,000 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>max_area</ogc:PropertyName>
-             <ogc:Literal>260000</ogc:Literal>
+             <ogc:Literal>38000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
