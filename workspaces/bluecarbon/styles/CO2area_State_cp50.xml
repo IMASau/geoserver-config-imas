@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-113599b8:18c6672d209:1be1</id>
-  <name>CO2area_byState_cp50</name>
+  <name>CO2area_State_cp50</name>
   <workspace>
     <id>WorkspaceInfoImpl-113599b8:18c66091da3:-453c</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CO2area_byState_cp50.sld</filename>
+  <filename>CO2area_State_cp50.sld</filename>
   <dateCreated>2023-12-14 11:11:33.900 UTC</dateCreated>
+  <dateModified>2023-12-14 19:58:42.886 UTC</dateModified>
 </style>

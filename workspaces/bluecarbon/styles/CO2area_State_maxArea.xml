@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-113599b8:18c6672d209:1bdd</id>
-  <name>CO2area_byState_maxArea</name>
+  <name>CO2area_State_maxArea</name>
   <workspace>
     <id>WorkspaceInfoImpl-113599b8:18c66091da3:-453c</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>CO2area_byState_maxArea.sld</filename>
+  <filename>CO2area_State_maxArea.sld</filename>
   <dateCreated>2023-12-14 11:08:26.531 UTC</dateCreated>
+  <dateModified>2023-12-14 19:58:24.951 UTC</dateModified>
 </style>

@@ -1,0 +1,16 @@
+<layer>
+  <name>CSIRO_EconomicFeasibility_AbatementArea_byState_maxArea</name>
+  <id>LayerInfoImpl-113599b8:18c69125ee5:1b8d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-113599b8:18c6672d209:1bdd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-113599b8:18c69125ee5:1b8c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-14 19:55:50.236 UTC</dateCreated>
+</layer>
