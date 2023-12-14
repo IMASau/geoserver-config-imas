@@ -3,10 +3,10 @@
 
 	<h5>Blue carbon economic feasibility modelling</h5>
 	<BR>
-	<div class="feature"> 
+	<div class="feature" style="padding-bottom:5px"> 
 		Potential area of CO&#8322; abatement: <b>${feature.cp35_ha.value} hectares</b>
 		<br>
-		for statistical area ${feature.sa2int.value} (<i>${feature.STE_NAME11.value}</i>)
+		<i>Statistical area ${feature.sa2int.value} (${feature.STE_NAME11.value})</i>
 		<BR>
 	</div>		
   </#if>
