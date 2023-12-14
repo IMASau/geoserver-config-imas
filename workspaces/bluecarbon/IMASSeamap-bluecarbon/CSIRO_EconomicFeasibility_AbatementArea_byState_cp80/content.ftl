@@ -1,4 +1,4 @@
-<#setting number_format="#,###.#">
+<#setting number_format="#,###">
 
 <#list features as feature>
     <#assign hectares=feature.cp80_ha.value?number>
