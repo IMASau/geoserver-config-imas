@@ -1,0 +1,17 @@
+<layer>
+  <name>CSIRO_EconomicFeasibility_CarbonAbatement_bySA2_cp80</name>
+  <id>LayerInfoImpl-113599b8:18c66091da3:-4028</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-113599b8:18c5e713099:-117f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-113599b8:18c66091da3:-4029</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-14 03:22:11.956 UTC</dateCreated>
+  <dateModified>2023-12-14 03:25:58.582 UTC</dateModified>
+</layer>
