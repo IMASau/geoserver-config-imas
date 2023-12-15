@@ -91,7 +91,7 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    25,000 - 80,000</Title>
+          <Title>    25,000 - 95,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp65_tCO2</ogc:PropertyName>
@@ -99,7 +99,7 @@
                 <ogc:Literal>25000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>80000</ogc:Literal>
+                <ogc:Literal>95000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -116,15 +116,15 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    80,000 - 280,000</Title>
+          <Title>    95,000 - 240,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp65_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>80000</ogc:Literal>
+                <ogc:Literal>95000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>280000</ogc:Literal>
+                <ogc:Literal>240000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -141,11 +141,11 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 280,000 tCO2</Title>
+          <Title>    &gt; 240,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>cp65_tCO2</ogc:PropertyName>
-             <ogc:Literal>280000</ogc:Literal>
+             <ogc:Literal>240000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
