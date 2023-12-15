@@ -9,14 +9,14 @@
        <Rule>
          <RasterSymbolizer>  
            <ColorMap type="intervals">
-             <ColorMapEntry color="#000000" quantity="-6000" opacity="0.8" label=" hadal (&gt;6,000 m)"/>             
-             <ColorMapEntry color="#1418ff" quantity="-4000" opacity="0.8" label=" abyss (4,000-6,000m)"/>             
-             <ColorMapEntry color="#3b8cff" quantity="-2000" opacity="0.8" label=" lower-slope (2,000-4,000 m)"/>
-             <ColorMapEntry color="#21e9ff" quantity="-700" opacity="0.8" label=" mid-slope (700-2,000 m)"/>             
-             <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="0.8" label=" upper-slope (200-700 m)"/>             
-             <ColorMapEntry color="#ffff0d" quantity="-70" opacity="0.8" label=" rariphotic (70-200 m)"/>                       
-             <ColorMapEntry color="#ffcc00" quantity="-30" opacity="0.8" label=" mesophotic (30-70 m)" />
-             <ColorMapEntry color="#ff2600" quantity="-0" opacity="0.8" label=" shallow (&lt;30 m)"/>             
+             <ColorMapEntry color="#000000" quantity="-6000" opacity="1" label=" hadal (&gt;6,000 m)"/>             
+             <ColorMapEntry color="#1418ff" quantity="-4000" opacity="1" label=" abyss (4,000-6,000m)"/>             
+             <ColorMapEntry color="#3b8cff" quantity="-2000" opacity="1" label=" lower-slope (2,000-4,000 m)"/>
+             <ColorMapEntry color="#21e9ff" quantity="-700" opacity="1" label=" mid-slope (700-2,000 m)"/>             
+             <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="1" label=" upper-slope (200-700 m)"/>             
+             <ColorMapEntry color="#ffff0d" quantity="-70" opacity="1" label=" rariphotic (70-200 m)"/>                       
+             <ColorMapEntry color="#ffcc00" quantity="-30" opacity="1" label=" mesophotic (30-70 m)" />
+             <ColorMapEntry color="#ff2600" quantity="-0" opacity="1" label=" shallow (&lt;30 m)"/>             
            </ColorMap>
          </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
@@ -25,14 +25,14 @@
          <RasterSymbolizer>  
            <ColorMap type="intervals">
              <ColorMapEntry color="#ffffff" quantity="-10000" opacity="0.001" label=" MERI Natural Values depth zone"/>
-             <ColorMapEntry color="#ff2600" quantity="-0" opacity="0.8" label=" shallow (&lt;30 m)"/>
-             <ColorMapEntry color="#ffcc00" quantity="-30" opacity="0.8" label=" mesophotic (30-70 m)" />
-             <ColorMapEntry color="#ffff0d" quantity="-70" opacity="0.8" label=" rariphotic (70-200 m)"/>
-             <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="0.8" label=" upper-slope (200-700 m)"/>
-             <ColorMapEntry color="#21e9ff" quantity="-700" opacity="0.8" label=" mid-slope (700-2,000 m)"/>
-             <ColorMapEntry color="#3b8cff" quantity="-2000" opacity="0.8" label=" lower-slope (2,000-4,000 m)"/>             
-             <ColorMapEntry color="#1418ff" quantity="-4000" opacity="0.8" label=" abyss (4,000-6,000m)"/>             
-             <ColorMapEntry color="#000000" quantity="-6000" opacity="0.8" label=" hadal (&gt;6,000 m)"/>                 
+             <ColorMapEntry color="#ff2600" quantity="-0" opacity="1" label=" shallow (&lt;30 m)"/>
+             <ColorMapEntry color="#ffcc00" quantity="-30" opacity="1" label=" mesophotic (30-70 m)" />
+             <ColorMapEntry color="#ffff0d" quantity="-70" opacity="1" label=" rariphotic (70-200 m)"/>
+             <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="1" label=" upper-slope (200-700 m)"/>
+             <ColorMapEntry color="#21e9ff" quantity="-700" opacity="1" label=" mid-slope (700-2,000 m)"/>
+             <ColorMapEntry color="#3b8cff" quantity="-2000" opacity="1" label=" lower-slope (2,000-4,000 m)"/>             
+             <ColorMapEntry color="#1418ff" quantity="-4000" opacity="1" label=" abyss (4,000-6,000m)"/>             
+             <ColorMapEntry color="#000000" quantity="-6000" opacity="1" label=" hadal (&gt;6,000 m)"/>                 
            </ColorMap>
          </RasterSymbolizer>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                    
