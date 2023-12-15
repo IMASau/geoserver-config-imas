@@ -49,7 +49,7 @@
                 <ogc:Literal>200</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>2000</ogc:Literal>
+                <ogc:Literal>2400</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -65,12 +65,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    2,000 - 6,000</Title>
+          <Title>    2,400 - 6,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp65_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>2000</ogc:Literal>
+                <ogc:Literal>2400</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
                 <ogc:Literal>6000</ogc:Literal>
@@ -79,7 +79,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#8C96C6</CssParameter>
+                <CssParameter name="fill">#98a1cd</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -103,7 +103,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#8C96C6</CssParameter>
+                <CssParameter name="fill">#807ab8</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
