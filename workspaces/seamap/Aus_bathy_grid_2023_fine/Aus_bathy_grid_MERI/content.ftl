@@ -1,10 +1,11 @@
+<#setting number_format="#,###">
+
 <#list features as feature>
 	<#if (feature_index < 1) >
 
 	<#assign MERI_depth_zone=feature.GRAY_INDEX.value?number>	
 	
-	<h5>MERI depth zone [250m bathymetry grid]</h5><BR>
-		<div class="feature">
+		<div class="feature" style="padding-top:5px; padding-bottom:5px">
 		<#if feature.GRAY_INDEX.rawValue?string("0") == '-340282306073709650000000000000000000000'>
 			<b>Depth:</b> N/A <i>(click is outside area of data coverage)</i><BR>
 		<#else>
@@ -25,9 +26,7 @@
 			<#elseif (MERI_depth_zone > -30)>
 			<b>Zone:</b> shallow <i>(${feature.GRAY_INDEX.rawValue?substring(1)} m))</i>
 			</#if>			
-		<BR>
-		</#if>
-		<BR>		
+		</#if>		
 		</div>
   </#if>
 </#list>

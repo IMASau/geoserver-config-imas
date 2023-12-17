@@ -110,7 +110,7 @@ i {
 	<#if (feature_index < 1) >
 
 	<#if geo_numeric < -10000 || geo_numeric = 0 || geo_numeric = 255>
-	<br><i>No geomorphic data available (click is outside mapped area)</i><br>
+	<br><i>Click is outside mapped area</i><br>
 	<#else>
 
 		<div class="feature">
