@@ -1,0 +1,17 @@
+<layer>
+  <name>CSIRO_WaterLevels_MSL</name>
+  <id>LayerInfoImpl-49c87b55:18c7bca424e:-6eae</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-111fe3a:15bf5948b19:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-49c87b55:18c7bca424e:-6eaf</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-18 08:06:30.734 UTC</dateCreated>
+  <dateModified>2023-12-18 08:15:28.959 UTC</dateModified>
+</layer>

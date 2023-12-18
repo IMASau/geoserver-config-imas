@@ -6,7 +6,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink" 
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Mean Sea Level (MSL)</Name>
+    <Name>Highest Astronomical Tide (HAT)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
@@ -46,13 +46,15 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity=" 0" label="Mean Sea Level above AVHD (m)"/>  
-              <ColorMapEntry color="#e8d51d" label=" 1.0" quantity="1"/>
-              <ColorMapEntry color="#8ad547" label=" 0.8" quantity="0.8"/>
-              <ColorMapEntry color="#23a983" label=" 0.6" quantity="0.6"/>
-              <ColorMapEntry color="#2b758e" label=" 0.4" quantity="0.4"/>
-              <ColorMapEntry color="#433c84" label=" 0.2" quantity="0.2"/>
-              <ColorMapEntry color="#450056" label=" 0.0" quantity="0"/>
+               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity=" 0" label="Highest Astronomical Tide (m)"/>  
+              <ColorMapEntry color="#e8d51d" label=" 7" quantity="7"/>              
+              <ColorMapEntry color="#c4e021" label=" 6" quantity="6"/>
+              <ColorMapEntry color="#5bc863" label=" 5" quantity="5"/>
+              <ColorMapEntry color="#20a386" label=" 4" quantity="4"/>
+              <ColorMapEntry color="#297b8e" label=" 3" quantity="3"/>
+              <ColorMapEntry color="#297b8e" label=" 2" quantity="2"/>
+              <ColorMapEntry color="#481e6f" label=" 1" quantity="1"/>
+              <ColorMapEntry color="#450056" label=" 0" quantity="0"/>              
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                           
