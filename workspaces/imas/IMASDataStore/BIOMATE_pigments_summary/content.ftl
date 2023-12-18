@@ -51,6 +51,7 @@ h5 {
 <body>
 
 <#setting date_format="dd-mm-yyyy">
+<#setting time_format="HH:mm">
 
 <h5>Pigments summary (preview of available information)</h5>
 
@@ -70,7 +71,7 @@ h5 {
 			<th style="text-align:center">Date</th>
 			<th style="text-align:center">Time</th>
 			<th style="text-align:center">Depth</th>
-			<th style="text-align:center">Source</th>
+			<th style="text-align:center">Access</th>
 			<th style="text-align:center">Chl a <i>fluorometric</i></th>
 			<th style="text-align:center">Phaeopigment <i>fluorometric</i></th>
 			<th style="text-align:center">Phaeophytin <i>fluorometric</i></th>
@@ -90,11 +91,18 @@ h5 {
 
 
 			<TD style="text-align:center">
-				${feature.DATE.value?date("yyyy-mm-dd")?date}
+			    <#if feature.DATE.value?has_content>
+			        ${feature.DATE.value?date("dd/mm/yy")?date}
+			    <#else>
+			        N/A
+			    </#if>
 			</TD>
-
 			<TD style="text-align:center">
-				${feature.TIME_s.value}
+			    <#if feature.TIME_s.value?has_content>
+			        ${feature.TIME_s.value?time}
+			    <#else>
+			        N/A
+			    </#if>
 			</TD>
     
 			<TD style="text-align:center">
@@ -103,19 +111,19 @@ h5 {
 
 			<TD style="text-align:center">
 				<#if feature.PIG_SOURCE.value == 'BCO-DMO(https://www.bco-dmo.org/data)'>
-					<a rel="external" href="https://www.bco-dmo.org/data" target="_blank">BCO-DMO</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">BCO-DMO</a>
 				<#elseif feature.PIG_SOURCE.value == 'PANGEAE(https://www.pangaea.de/)'>
-					<a rel="external" href="https://www.pangaea.de/" target="_blank">PANGEAE</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">PANGEAE</a>
 				<#elseif feature.PIG_SOURCE.value == 'GLODAP(https://www.glodap.info/)'>
-					<a rel="external" href="https://www.glodap.info/" target="_blank">GLODAP</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">GLODAP</a>
 				<#elseif feature.PIG_SOURCE.value == 'IMOS(https://imos.org.au/data)'>
-					<a rel="external" href="https://imos.org.au/data" target="_blank">IMOS</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">IMOS</a>
 				<#elseif feature.PIG_SOURCE.value == 'SeaBASS(https://seabass.gsfc.nasa.gov/)'>
-					<a rel="external" href="https://seabass.gsfc.nasa.gov/" target="_blank">SeaBASS</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">SeaBASS</a>
 				<#elseif feature.PIG_SOURCE.value == 'AADC(https://data.aad.gov.au/)'>
-					<a rel="external" href="https://data.aad.gov.au/" target="_blank">AADC</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">AADC</a>
 				<#elseif feature.PIG_SOURCE.value == 'Palmer LTER(https://pal.lternet.edu/data)'>
-					<a rel="external" href="https://pal.lternet.edu/data" target="_blank">Palmer LTER</a>
+					<a rel="external" href="${feature.PIG_URL.value}" target="_blank">Palmer LTER</a>
 				<#else>
 					other
 				</#if>
