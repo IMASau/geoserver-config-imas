@@ -11,6 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+          <MinScaleDenominator>1500000</MinScaleDenominator>			          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -51,6 +52,134 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                           
         </Rule>
+        <Rule>
+          <MinScaleDenominator>500000</MinScaleDenominator>	          
+          <MaxScaleDenominator>1500000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">
+                    <ogc:Function name="Interpolate">
+                      <ogc:PropertyName>MSL</ogc:PropertyName>
+                      
+                      <ogc:Literal>0.0</ogc:Literal>
+                      <ogc:Literal>#450056</ogc:Literal> <!-- Deep Purple -->
+                      
+                      <ogc:Literal>0.2</ogc:Literal>
+                      <ogc:Literal>#433c84</ogc:Literal> <!-- Blue-Purple -->
+                      
+                      <ogc:Literal>0.4</ogc:Literal>
+                      <ogc:Literal>#2b758e</ogc:Literal> <!-- Blue -->
+                      
+                      <ogc:Literal>0.6</ogc:Literal>
+                      <ogc:Literal>#23a983</ogc:Literal> <!-- Greeny-Blue -->
+                      
+                      <ogc:Literal>0.8</ogc:Literal>
+                      <ogc:Literal>#8ad547</ogc:Literal> <!-- Greeny-Yellow -->
+                      
+                      <ogc:Literal>1.0</ogc:Literal>
+                      <ogc:Literal>#e8d51d</ogc:Literal> <!-- Yellow -->
+                      
+         <!-- Interpolation method -->
+         <ogc:Literal>color</ogc:Literal>
+
+         <!-- Interpolation mode - defaults to linear -->
+       </ogc:Function>
+                  </CssParameter>
+                </Fill>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                           
+        </Rule>         
+        <Rule>
+          <MinScaleDenominator>100000</MinScaleDenominator>	          
+          <MaxScaleDenominator>500000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">
+                    <ogc:Function name="Interpolate">
+                      <ogc:PropertyName>MSL</ogc:PropertyName>
+                      
+                      <ogc:Literal>0.0</ogc:Literal>
+                      <ogc:Literal>#450056</ogc:Literal> <!-- Deep Purple -->
+                      
+                      <ogc:Literal>0.2</ogc:Literal>
+                      <ogc:Literal>#433c84</ogc:Literal> <!-- Blue-Purple -->
+                      
+                      <ogc:Literal>0.4</ogc:Literal>
+                      <ogc:Literal>#2b758e</ogc:Literal> <!-- Blue -->
+                      
+                      <ogc:Literal>0.6</ogc:Literal>
+                      <ogc:Literal>#23a983</ogc:Literal> <!-- Greeny-Blue -->
+                      
+                      <ogc:Literal>0.8</ogc:Literal>
+                      <ogc:Literal>#8ad547</ogc:Literal> <!-- Greeny-Yellow -->
+                      
+                      <ogc:Literal>1.0</ogc:Literal>
+                      <ogc:Literal>#e8d51d</ogc:Literal> <!-- Yellow -->
+                      
+         <!-- Interpolation method -->
+         <ogc:Literal>color</ogc:Literal>
+
+         <!-- Interpolation mode - defaults to linear -->
+       </ogc:Function>
+                  </CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                           
+        </Rule> 
+        <Rule>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">
+                    <ogc:Function name="Interpolate">
+                      <ogc:PropertyName>MSL</ogc:PropertyName>
+                      
+                      <ogc:Literal>0.0</ogc:Literal>
+                      <ogc:Literal>#450056</ogc:Literal> <!-- Deep Purple -->
+                      
+                      <ogc:Literal>0.2</ogc:Literal>
+                      <ogc:Literal>#433c84</ogc:Literal> <!-- Blue-Purple -->
+                      
+                      <ogc:Literal>0.4</ogc:Literal>
+                      <ogc:Literal>#2b758e</ogc:Literal> <!-- Blue -->
+                      
+                      <ogc:Literal>0.6</ogc:Literal>
+                      <ogc:Literal>#23a983</ogc:Literal> <!-- Greeny-Blue -->
+                      
+                      <ogc:Literal>0.8</ogc:Literal>
+                      <ogc:Literal>#8ad547</ogc:Literal> <!-- Greeny-Yellow -->
+                      
+                      <ogc:Literal>1.0</ogc:Literal>
+                      <ogc:Literal>#e8d51d</ogc:Literal> <!-- Yellow -->
+                      
+         <!-- Interpolation method -->
+         <ogc:Literal>color</ogc:Literal>
+
+         <!-- Interpolation mode - defaults to linear -->
+       </ogc:Function>
+                  </CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                           
+        </Rule>                
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
