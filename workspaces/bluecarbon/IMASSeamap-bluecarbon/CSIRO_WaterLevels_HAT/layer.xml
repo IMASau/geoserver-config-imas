@@ -1,0 +1,16 @@
+<layer>
+  <name>CSIRO_WaterLevels_HAT</name>
+  <id>LayerInfoImpl-49c87b55:18c7bca424e:-52f6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-49c87b55:18c7bca424e:-6e93</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-49c87b55:18c7bca424e:-52f7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-18 09:59:39.73 UTC</dateCreated>
+</layer>

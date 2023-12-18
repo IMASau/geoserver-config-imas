@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-49c87b55:18c7bca424e:-6e8f</id>
-  <name>CSIRO_WaterLevels_MSL</name>
+  <id>FeatureTypeInfoImpl-49c87b55:18c7bca424e:-52f7</id>
+  <name>CSIRO_WaterLevels_HAT</name>
   <nativeName>CSIRO_WaterLevels</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-113599b8:18c66091da3:-453b</id>
   </namespace>
-  <title>Australian Mean Sea Level (MSL) relative to AVHD (CSIRO/BHP)</title>
+  <title>Australian Highest Astronomical Tide (HAT) relative to Mean Sea Level (CSIRO/BHP)</title>
   <keywords>
     <string>features</string>
     <string>CSIRO_WaterLevels</string>
@@ -51,16 +51,6 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
@@ -68,8 +58,8 @@
   </store>
   <serviceConfiguration>true</serviceConfiguration>
   <disabledServices>
-    <string>WFS</string>
     <string>WPS</string>
+    <string>WFS</string>
   </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>

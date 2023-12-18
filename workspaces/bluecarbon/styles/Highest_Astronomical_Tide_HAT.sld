@@ -18,32 +18,38 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <Fill>
                   <CssParameter name="fill">
                     <ogc:Function name="Interpolate">
-                      <ogc:PropertyName>MSL</ogc:PropertyName>
+                      <ogc:PropertyName>HAT</ogc:PropertyName>
                       
                       <ogc:Literal>0.0</ogc:Literal>
-                      <ogc:Literal>#450056</ogc:Literal> <!-- Deep Purple -->
+                      <ogc:Literal>#450056</ogc:Literal>
                       
-                      <ogc:Literal>0.2</ogc:Literal>
-                      <ogc:Literal>#433c84</ogc:Literal> <!-- Blue-Purple -->
+                      <ogc:Literal>1</ogc:Literal>
+                      <ogc:Literal>#481e6f</ogc:Literal>
                       
-                      <ogc:Literal>0.4</ogc:Literal>
-                      <ogc:Literal>#2b758e</ogc:Literal> <!-- Blue -->
+                      <ogc:Literal>2</ogc:Literal>
+                      <ogc:Literal>#297b8e</ogc:Literal>
+
+                      <ogc:Literal>3</ogc:Literal>
+                      <ogc:Literal>#297b8e</ogc:Literal>
                       
-                      <ogc:Literal>0.6</ogc:Literal>
-                      <ogc:Literal>#23a983</ogc:Literal> <!-- Greeny-Blue -->
+                      <ogc:Literal>4</ogc:Literal>
+                      <ogc:Literal>#20a386</ogc:Literal>
+                                           
+                      <ogc:Literal>5</ogc:Literal>
+                      <ogc:Literal>#5bc863</ogc:Literal>
                       
-                      <ogc:Literal>0.8</ogc:Literal>
-                      <ogc:Literal>#8ad547</ogc:Literal> <!-- Greeny-Yellow -->
+                      <ogc:Literal>6</ogc:Literal>
+                      <ogc:Literal>#c4e021</ogc:Literal>  
+
+                      <ogc:Literal>7</ogc:Literal>
+                      <ogc:Literal>#e8d51d</ogc:Literal>                        
                       
-                      <ogc:Literal>1.0</ogc:Literal>
-                      <ogc:Literal>#e8d51d</ogc:Literal> <!-- Yellow -->
-                      <ogc:Function name="env">
+                      
          <!-- Interpolation method -->
          <ogc:Literal>color</ogc:Literal>
 
          <!-- Interpolation mode - defaults to linear -->
        </ogc:Function>
-                    </ogc:Function>
                   </CssParameter>
                 </Fill>
               </Mark>
@@ -55,7 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity=" 0" label="Highest Astronomical Tide (m)"/>  
+               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity="100" label="Highest Astronomical Tide (m)"/>  
               <ColorMapEntry color="#e8d51d" label=" 7" quantity="7"/>              
               <ColorMapEntry color="#c4e021" label=" 6" quantity="6"/>
               <ColorMapEntry color="#5bc863" label=" 5" quantity="5"/>

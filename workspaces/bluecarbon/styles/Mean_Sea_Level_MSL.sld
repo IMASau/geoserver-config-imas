@@ -54,7 +54,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity=" 0" label="Mean Sea Level above AVHD (m)"/>  
+               <ColorMapEntry color="#ffffff" opacity="0.00000000001" quantity="100" label="Mean Sea Level (m)"/>  
               <ColorMapEntry color="#e8d51d" label=" 1.0" quantity="1"/>
               <ColorMapEntry color="#8ad547" label=" 0.8" quantity="0.8"/>
               <ColorMapEntry color="#23a983" label=" 0.6" quantity="0.6"/>
