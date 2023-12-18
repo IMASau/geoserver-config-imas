@@ -1,0 +1,17 @@
+<layer>
+  <name>BIOMATE_POC_summary</name>
+  <id>LayerInfoImpl-49c87b55:18c7ab4df30:271f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-49c87b55:18c7ab4df30:271d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-49c87b55:18c7ab4df30:271e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-18 02:16:47.604 UTC</dateCreated>
+  <dateModified>2023-12-18 02:21:30.16 UTC</dateModified>
+</layer>

@@ -8,16 +8,16 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>SHIP</name>
+        <name>DATE</name>
         <type>string</type>
-        <label>Ship</label>
+        <label>DATE</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>DATE</name>
-        <type>date</type>
-        <label>Date</label>
+        <name>DEPTH</name>
+        <type>double</type>
+        <label>Depth</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>

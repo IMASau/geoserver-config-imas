@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
-        <name>DATE</name>
-        <type>string</type>
-        <label>DATE</label>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>geom</name>
-        <type>geometrypropertytype</type>
-        <label>Geom</label>
+        <name>DATE</name>
+        <type>string</type>
+        <label>DATE</label>
         <visualised>true</visualised>
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
