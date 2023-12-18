@@ -50,28 +50,29 @@ h5 {
 <body>
 
 <#setting date_format="dd-mm-yyyy">
+<#setting time_format="HH:mm">
 
-<h5>Profiling sensor summary (preview of available information)</h5>
+<h5>POC summary (preview of available information)</h5>
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style='border:1.5pt solid black' >
 	<col width="15%" />
 	<col width="10%" />
 	<col width="15%" />
-	<col width="15%" />
-	<col width="15%" />
-  	<col width="15%" />
-  	<col width="15%" />
+	<col width="10%" />
+	<col width="17%" />
+  	<col width="17%" />
+  	<col width="17%" />
 
 
 
 		<TR class="BRUV deployments" ALIGN="LEFT" style="background-color:#b3d9ff; width: 500px; table-layout: fixed; border:1.5pt solid black">
-			<th>Ship</th>
-			<th style="text-align:center">Access</th>
 			<th style="text-align:center">Date</th>
-			<th style="text-align:center">Fluor-escence</th>
-			<th style="text-align:center">Optical backscatter</th>
-			<th style="text-align:center">Beam attenuation</th>
-			<th style="text-align:center">Transmiss-ometer</th>
+			<th style="text-align:center">Time</th>
+			<th style="text-align:center">Depth (m)</th>
+			<th style="text-align:center">Access</th>
+			<th style="text-align:center">Particulate Organic Carbon (ug/L)</th>
+			<th style="text-align:center">Particulate Organic Nitrogen (ug/L)</th>
+			<th style="text-align:center">Total Particulate Phosporus (ug/L)</th>
 
 		</TR>
 
@@ -84,45 +85,48 @@ h5 {
 		<TR class="values" ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
 
-			<TD>
-				${feature.SHIP.value}
+			<TD style="text-align:center">
+			    <#if feature.DATE_analyser.value?has_content>
+			        ${feature.DATE_analyser.value?date("dd/mm/yy")?date}
+			    <#else>
+			        N/A
+			    </#if>
+			</TD>
+			<TD style="text-align:center">
+			    <#if feature.TIME_s.value?has_content>
+			        ${feature.TIME_s.value?time}
+			    <#else>
+			        N/A
+			    </#if>
 			</TD>
 
 			<TD style="text-align:center">
-				<a href="${feature.PROF_URL.value}" target="_blank">DOI</a>
+				${feature.DEPTH.value}
 			</TD>
 
 			<TD style="text-align:center">
-				${feature.DATE.value?date("dd/mm/yy")?date}
+				<a href="${feature.POC_URL.value}" target="_blank">DOI</a>
 			</TD>
     
 			<TD style="text-align:center">
-				<#if feature.FLUOR.value == 'FALSE'>
-					no
+				<#if feature.POC.value == 'NA'>
+					NA
 				<#else>
-					yes
+					${feature.POC.value}
 				</#if>
 			</TD>
 			<TD style="text-align:center">
-				<#if feature.BBP.value == 'FALSE'>
-					no
+				<#if feature.PON.value == 'NA'>
+					NA
 				<#else>
-					yes
+					${feature.PON.value}
 				</#if>
 			</TD>
 			<TD style="text-align:center">
-				<#if feature.CP.value == 'FALSE'>
-					no
+				<#if feature.TPP.value == 'NA'>
+					NA
 				<#else>
-					yes
-				</#if>
-			</TD>
-
-			<TD style="text-align:center">
-				<#if feature.XMISS.value == 'FALSE'>
-					no
-				<#else>
-					yes
+					${feature.TPP.value}
 				</#if>
 			</TD>
 

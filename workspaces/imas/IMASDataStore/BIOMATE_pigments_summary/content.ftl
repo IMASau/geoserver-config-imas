@@ -70,7 +70,7 @@ h5 {
 		<TR class="BRUV deployments" ALIGN="LEFT" style="background-color:#b3d9ff; width: 500px; table-layout: fixed; border:1.5pt solid black">
 			<th style="text-align:center">Date</th>
 			<th style="text-align:center">Time</th>
-			<th style="text-align:center">Depth</th>
+			<th style="text-align:center">Depth (m)</th>
 			<th style="text-align:center">Access</th>
 			<th style="text-align:center">Chl a <i>fluorometric</i></th>
 			<th style="text-align:center">Phaeopigment <i>fluorometric</i></th>
@@ -106,7 +106,7 @@ h5 {
 			</TD>
     
 			<TD style="text-align:center">
-				${feature.DEPTH.value} m
+				${feature.DEPTH.value}
 			</TD>
 
 			<TD style="text-align:center">
