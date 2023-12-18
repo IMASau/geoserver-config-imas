@@ -9,6 +9,11 @@
     <version>1.0.0</version>
   </languageVersion>
   <filename>Highest_Astronomical_Tide_HAT.sld</filename>
+  <legend>
+    <width>215</width>
+    <height>277</height>
+    <onlineResource>legend-HAT.png</onlineResource>
+  </legend>
   <dateCreated>2023-12-18 08:22:24.343 UTC</dateCreated>
-  <dateModified>2023-12-18 10:52:31.143 UTC</dateModified>
+  <dateModified>2023-12-18 11:06:58.140 UTC</dateModified>
 </style>

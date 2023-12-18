@@ -9,6 +9,11 @@
     <version>1.0.0</version>
   </languageVersion>
   <filename>Mean_Sea_Level_MSL.sld</filename>
+  <legend>
+    <width>147</width>
+    <height>215</height>
+    <onlineResource>legend-MSL.png</onlineResource>
+  </legend>
   <dateCreated>2023-12-18 07:55:08.553 UTC</dateCreated>
-  <dateModified>2023-12-18 10:27:06.905 UTC</dateModified>
+  <dateModified>2023-12-18 11:09:11.425 UTC</dateModified>
 </style>
