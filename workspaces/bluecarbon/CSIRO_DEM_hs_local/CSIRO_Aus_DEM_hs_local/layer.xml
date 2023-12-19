@@ -1,0 +1,17 @@
+<layer>
+  <name>CSIRO_Aus_DEM_hs_local</name>
+  <id>LayerInfoImpl-7281d3e3:18c80b19191:-7c95</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7281d3e3:18c80b19191:-7c9b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7281d3e3:18c80b19191:-7c96</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-19 06:36:42.726 UTC</dateCreated>
+  <dateModified>2023-12-19 06:56:23.13 UTC</dateModified>
+</layer>
