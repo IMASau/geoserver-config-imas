@@ -7,6 +7,7 @@
   <workspace>
     <id>WorkspaceInfoImpl--37cf091d:18c8a819ed6:3c23</id>
   </workspace>
+  <connectionParameters/>
   <metadata>
     <entry key="CogSettings.Key">
       <cogSettings>
@@ -17,7 +18,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2023-12-21 04:58:59.831 UTC</dateCreated>
-  <dateModified>2023-12-21 08:14:56.190 UTC</dateModified>
+  <dateModified>2023-12-21 08:59:01.415 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/2a7e2279-07c8-4c56-a469-91788f99d595/Indigenous_interest_2023_v2.0.tif</url>
 </coverageStore>
