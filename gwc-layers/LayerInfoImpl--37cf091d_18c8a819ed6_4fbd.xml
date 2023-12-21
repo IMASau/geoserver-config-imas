@@ -1,23 +1,12 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--37cf091d:18c8a819ed6:4d14</id>
+  <id>LayerInfoImpl--37cf091d:18c8a819ed6:4fbd</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>ICIN:Indigenous_carbon_interests2</name>
+  <name>ICIN:Indigenous_carbon_interests</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
-    <gridSubset>
-      <gridSetName>EPSG:4326</gridSetName>
-      <extent>
-        <coords>
-          <double>109.49719666122203</double>
-          <double>-44.368293743092316</double>
-          <double>157.23002848769855</double>
-          <double>-8.170851571470049</double>
-        </coords>
-      </extent>
-    </gridSubset>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
       <extent>
@@ -28,7 +17,8 @@
           <double>-912673.8266824032</double>
         </coords>
       </extent>
-      <maxCachedLevel>6</maxCachedLevel>
+      <minCachedLevel>3</minCachedLevel>
+      <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

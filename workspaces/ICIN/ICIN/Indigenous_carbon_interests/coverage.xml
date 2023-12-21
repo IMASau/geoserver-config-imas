@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl--37cf091d:18c8a819ed6:4d13</id>
-  <name>Indigenous_carbon_interests2</name>
-  <nativeName>Indigenous_carbon_interests2</nativeName>
+  <id>CoverageInfoImpl--37cf091d:18c8a819ed6:4fbc</id>
+  <name>Indigenous_carbon_interests</name>
+  <nativeName>Indigenous_carbon_interests3</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--37cf091d:18c8a819ed6:3c24</id>
   </namespace>
@@ -52,12 +52,13 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">ICIN_Indigenous_interest_2023_v2.0</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--37cf091d:18c8a819ed6:4d12</id>
+    <id>CoverageStoreInfoImpl--37cf091d:18c8a819ed6:4fbb</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
