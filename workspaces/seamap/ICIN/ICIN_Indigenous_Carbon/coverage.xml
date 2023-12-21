@@ -53,6 +53,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">ICIN_Indigenous_interest_2023_v2.0</entry>
   </metadata>
   <store class="coverageStore">
@@ -79,15 +80,11 @@
     <crs>EPSG:3577</crs>
   </grid>
   <supportedFormats>
-    <string>MBTiles</string>
-    <string>ArcGrid</string>
-    <string>GeoPackage (mosaic)</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>ImageMosaic</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
