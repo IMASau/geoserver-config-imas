@@ -41,12 +41,13 @@
   </metadata>
   <srs>
     <string>4326</string>
-    <string>900913</string>
     <string>3857</string>
     <string>3112</string>
     <string>4283</string>
     <string>4938</string>
     <string>7844</string>
+    <string>9473</string>
+    <string>3577</string>
   </srs>
   <watermark>
     <enabled>false</enabled>
@@ -69,6 +70,7 @@
     <maxEntries>1000</maxEntries>
     <maxEntrySize>51200</maxEntrySize>
   </cacheConfiguration>
+  <defaultGroupStyleEnabled>false</defaultGroupStyleEnabled>
   <transformFeatureInfoDisabled>false</transformFeatureInfoDisabled>
   <autoEscapeTemplateValues>false</autoEscapeTemplateValues>
 </wms>
