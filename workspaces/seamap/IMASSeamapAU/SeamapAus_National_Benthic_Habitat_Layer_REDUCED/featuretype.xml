@@ -8,7 +8,7 @@
   <title>ADMIN USE ONLY - reduced (5,000m) version of current NBHL</title>
   <abstract>This layer is created from an SQL Server view of the NBHL - a product of SELECT geom.Reduce(5000)&#xd;
 &#xd;
-This layer exists exclusively for seeding problematic zoom levels too avoid GC overhead limit issues and Geoserver crashing. Currently, it is not used in a zoom-based layer group, but could be incorporated at levels 8 or less.</abstract>
+This layer exists exclusively for seeding problematic zoom levels too avoid GC overhead limit issues and Geoserver crashing. Currently, it is NOT used in a zoom-based layer group, but feasibly could be incorporated at levels 8 or higher.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_current_reduce5000</string>
@@ -24,7 +24,7 @@ This layer exists exclusively for seeding problematic zoom levels too avoid GC o
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -62,6 +62,8 @@ This layer exists exclusively for seeding problematic zoom levels too avoid GC o
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
