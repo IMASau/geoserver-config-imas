@@ -1,0 +1,17 @@
+<layer>
+  <name>Indigenous_carbon_interests2</name>
+  <id>LayerInfoImpl--37cf091d:18c8a819ed6:4d14</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--37cf091d:18c8a819ed6:36fd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--37cf091d:18c8a819ed6:4d13</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-12-21 11:43:02.994 UTC</dateCreated>
+  <dateModified>2023-12-21 11:51:12.588 UTC</dateModified>
+</layer>
