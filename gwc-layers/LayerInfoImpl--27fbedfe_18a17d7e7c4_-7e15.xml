@@ -28,7 +28,11 @@
           <double>-851679.6259549084</double>
         </coords>
       </extent>
-      <maxCachedLevel>14</maxCachedLevel>
+    </gridSubset>
+    <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <minCachedLevel>2</minCachedLevel>
+      <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
