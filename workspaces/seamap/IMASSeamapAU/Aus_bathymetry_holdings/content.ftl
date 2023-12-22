@@ -127,6 +127,8 @@
 		</#if>
 	<#elseif feature.DATA_DL.value == 'yes - WA bathymetry portal'>
 		<a rel="external" href="https://dot-wa.maps.arcgis.com/apps/webappviewer/index.html?id=d58dd77d85654783b5fc8c775953c69b" target="_blank">WA bathymetry portal</a>
+	<#elseif feature.DATA_DL.value == 'yes - WA SLIP'>
+		<a rel="external" href="https://maps.slip.wa.gov.au/Marine/app/" target="_blank">WA SLIP</a>
 	<#else>
 		<i>not available</i>
 	</#if>
