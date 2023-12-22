@@ -19,6 +19,10 @@
       </extent>
     </gridSubset>
     <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+    <gridSubset>
       <gridSetName>EPSG:4326</gridSetName>
       <extent>
         <coords>
