@@ -6,6 +6,8 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl--3e18cfeb:1826b6b13f9:1df7</id>
@@ -29,4 +31,5 @@
     <maxy>-4695681.534063778</maxy>
     <crs class="projected">EPSG:3112</crs>
   </bounds>
+  <dateModified>2024-01-02 04:31:23.926 UTC</dateModified>
 </layerGroup>
