@@ -6,6 +6,8 @@
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl-e91977e:17862eefac5:385b</id>
@@ -33,4 +35,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2024-01-02 06:43:13.457 UTC</dateModified>
 </layerGroup>
