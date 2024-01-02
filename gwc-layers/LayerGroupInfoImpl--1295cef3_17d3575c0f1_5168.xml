@@ -19,15 +19,7 @@
       </extent>
     </gridSubset>
     <gridSubset>
-      <gridSetName>EPSG:900913</gridSetName>
-      <extent>
-        <coords>
-          <double>1.6460993048754927E7</double>
-          <double>-5346759.205752587</double>
-          <double>1.6523573966103707E7</double>
-          <double>-5033142.057981515</double>
-        </coords>
-      </extent>
+      <gridSetName>WebMercatorQuad</gridSetName>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
