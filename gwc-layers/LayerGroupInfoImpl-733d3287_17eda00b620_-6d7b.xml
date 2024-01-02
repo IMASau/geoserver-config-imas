@@ -8,15 +8,7 @@
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
-      <gridSetName>EPSG:900913</gridSetName>
-      <extent>
-        <coords>
-          <double>-1.966057687364391E7</double>
-          <double>-2.003750834E7</double>
-          <double>1.9767663492256697E7</double>
-          <double>4340853.825171745</double>
-        </coords>
-      </extent>
+      <gridSetName>WebMercatorQuad</gridSetName>
       <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
