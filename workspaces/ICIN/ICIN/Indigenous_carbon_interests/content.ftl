@@ -31,31 +31,31 @@
                 <#elseif mapvalue == 123>
                     <b style="color:#905a02">Class 1 - Legal Right</b>: Other Indigenous held land or land held by government for Indigenous purposes <i>(ILSC 2000)</i>
                 <#elseif mapvalue == 200>
-                    <b>Class 2 - EIH Consent</b>
+                    <b style="color:#229c01">Class 2 - EIH Consent</b>
                 <#elseif mapvalue == 201>
-                    <b>Class 2 - EIH Consent</b>: Native Title (Non-exclusive possession) <i>(NNTT Oct 2023)</i>
+                    <b style="color:#229c01">Class 2 - EIH Consent</b>: Native Title (Non-exclusive possession) <i>(NNTT Oct 2023)</i>
                 <#elseif mapvalue == 300>
-                    <b>Class 3 - EIH or Agreement</b>
+                    <b style="color:#98e269">Class 3 - EIH or Agreement</b>
                 <#elseif mapvalue == 310>
-                    <b>Class 3 - EIH or Agreement</b>: Indigenous co-managed <i>(ABARES 2020)</i>
+                    <b style="color:#98e269">Class 3 - EIH or Agreement</b>: Indigenous co-managed <i>(ABARES 2020)</i>
                 <#elseif mapvalue == 311>
-                    <b>Class 3 - EIH or Agreement</b>: Indigenous co-managed and other special rights <i>(ABARES 2020)</i>
+                    <b style="color:#98e269">Class 3 - EIH or Agreement</b>: Indigenous co-managed and other special rights <i>(ABARES 2020)</i>
                 <#elseif mapvalue == 320>
-                    <b>Class 3 - EIH or Agreement</b>: Jointly managed Parks <i>(CAPAD 2022 Terrestrial)</i>
+                    <b style="color:#98e269">Class 3 - EIH or Agreement</b>: Jointly managed Parks <i>(CAPAD 2022 Terrestrial)</i>
                 <#elseif mapvalue == 321>
-                    <b>Class 3 - EIH or Agreement</b>: Jointly managed Parks <i>(CAPAD 2022 Marine)</i>
+                    <b style="color:#98e269">Class 3 - EIH or Agreement</b>: Jointly managed Parks <i>(CAPAD 2022 Marine)</i>
                 <#elseif mapvalue == 400>
-                    <b>Class 4 - Management Responsibility</b>
+                    <b style="color:#0f90ec">Class 4 - Management Responsibility</b>
                 <#elseif mapvalue == 401>
-                    <b>Class 4 - Management Responsibility</b>: Community Managed Parks (Indigenous Protected Areas) <i>(CAPAD 2022 Marine)</i>
+                    <b style="color:#0f90ec">Class 4 - Management Responsibility</b>: Community Managed Parks (Indigenous Protected Areas) <i>(CAPAD 2022 Marine)</i>
                 <#elseif mapvalue == 500>
-                    <b>Class 5 - Determined (no native title)</b>
+                    <b style="color:#b3b3b3">Class 5 - Determined (no native title)</b>
                 <#elseif mapvalue == 501>
-                    <b>Class 5 - Determined (no native title)</b>: Native Title (Determined to be extinguished or does not exist) <i>(NNTT Oct 2023)</i>
+                    <b style="color:#b3b3b3">Class 5 - Determined (no native title)</b>: Native Title (Determined to be extinguished or does not exist) <i>(NNTT Oct 2023)</i>
                 <#elseif mapvalue == 600>
-                    <b>Class 6 - Pending Native Title</b>
+                    <b style="color:#ffc933">Class 6 - Pending Native Title</b>
                 <#elseif mapvalue == 601>
-                    <b>Class 6 - Pending Native Title</b>: Native Title (Pending - claim accepted for registration) <i>(NNTT Oct 2023)</i>
+                    <b style="color:#ffc933">Class 6 - Pending Native Title</b>: Native Title (Pending - claim accepted for registration) <i>(NNTT Oct 2023)</i>
                 <#elseif mapvalue == 700>
                     <b>Class 7 - Other</b>
                 <#elseif mapvalue == 701>
