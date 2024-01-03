@@ -18,6 +18,23 @@
           </Stroke>
         </LineSymbolizer>
    <VendorOption name="inclusion">legendOnly</VendorOption>  
+</Rule> 
+<Rule>
+	<MinScaleDenominator>9000000</MinScaleDenominator>
+  <Title>2024</Title>
+          <ogc:Filter>  
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>VOYAGENAME</ogc:PropertyName>
+              <ogc:Literal>%2024%</ogc:Literal>
+            </ogc:PropertyIsLike>              
+          </ogc:Filter>                        
+        <LineSymbolizer>
+          <Stroke>
+              <CssParameter name="stroke">#b01c1c</CssParameter>            
+            <CssParameter name="stroke-opacity">0.9</CssParameter>
+            <CssParameter name="stroke-width">3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
 </Rule>  
 <Rule>
 	<MinScaleDenominator>9000000</MinScaleDenominator>
@@ -107,6 +124,25 @@
 <Rule>
 	<MinScaleDenominator>1000000</MinScaleDenominator>
 	<MaxScaleDenominator>9000000</MaxScaleDenominator>	
+  <Title>2024</Title>
+          <ogc:Filter>  
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>VOYAGENAME</ogc:PropertyName>
+              <ogc:Literal>%2024%</ogc:Literal>
+            </ogc:PropertyIsLike>              
+          </ogc:Filter>                        
+        <LineSymbolizer>
+          <Stroke>
+              <CssParameter name="stroke">#b01c1c</CssParameter>            
+            <CssParameter name="stroke-opacity">0.9</CssParameter>
+            <CssParameter name="stroke-width">4.5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+   <VendorOption name="inclusion">mapOnly</VendorOption>  		  		  		
+</Rule>  
+<Rule>
+	<MinScaleDenominator>1000000</MinScaleDenominator>
+	<MaxScaleDenominator>9000000</MaxScaleDenominator>	
   <Title>2023</Title>
           <ogc:Filter>  
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
@@ -198,7 +234,25 @@
           </Stroke>
         </LineSymbolizer>
    <VendorOption name="inclusion">mapOnly</VendorOption>  		  		  		
-</Rule>   
+</Rule>  
+<Rule>
+	<MaxScaleDenominator>1000000</MaxScaleDenominator>	
+  <Title>2024</Title>
+          <ogc:Filter>  
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>VOYAGENAME</ogc:PropertyName>
+              <ogc:Literal>%2024%</ogc:Literal>
+            </ogc:PropertyIsLike>              
+          </ogc:Filter>                        
+        <LineSymbolizer>
+          <Stroke>
+              <CssParameter name="stroke">#b01c1c</CssParameter>            
+            <CssParameter name="stroke-opacity">0.9</CssParameter>
+            <CssParameter name="stroke-width">6</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+   <VendorOption name="inclusion">mapOnly</VendorOption>  		  		  		
+</Rule>  
 <Rule>
 	<MaxScaleDenominator>1000000</MaxScaleDenominator>	
   <Title>2023</Title>
