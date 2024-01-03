@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--247336bc:18ccc440649:432a</id>
+  <id>FeatureTypeInfoImpl--247336bc:18ccc440649:434c</id>
   <name>SeamapAus_NBHL_macroalgae</name>
   <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
@@ -53,6 +53,10 @@ This layer represents the MACROALGAE extent derived from the most current versio
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
@@ -60,7 +64,7 @@ This layer represents the MACROALGAE extent derived from the most current versio
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Macrophytes&apos;) AND BC_Species LIKE &apos;%acroal%&apos;)</cqlFilter>
+  <cqlFilter>NAT_HAB_CL = &apos;Macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Biota&apos;) AND ((BC_Species LIKE &apos;%alga%&apos; OR BC_Co_Occ LIKE &apos;%alga%&apos;) AND (BC_Species NOT LIKE &apos;%coral%&apos; OR BC_Co_Occ NOT LIKE &apos;%coral%&apos;)))</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

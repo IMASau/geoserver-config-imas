@@ -1,16 +1,17 @@
 <layer>
   <name>SeamapAus_NBHL_macroalgae</name>
-  <id>LayerInfoImpl--247336bc:18ccc440649:432b</id>
+  <id>LayerInfoImpl--247336bc:18ccc440649:434d</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl--3ccb6809:18803e0cf47:-571</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--247336bc:18ccc440649:432a</id>
+    <id>FeatureTypeInfoImpl--247336bc:18ccc440649:434c</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-01-03 02:53:55.849 UTC</dateCreated>
+  <dateCreated>2024-01-03 03:21:45.26 UTC</dateCreated>
+  <dateModified>2024-01-03 03:29:26.38 UTC</dateModified>
 </layer>
