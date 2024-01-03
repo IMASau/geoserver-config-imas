@@ -1,17 +1,17 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2816f738:186570cfa43:-3c76</id>
-  <name>SeamapAus_NBHL_saltmarsh</name>
+  <id>FeatureTypeInfoImpl--247336bc:18ccc440649:432a</id>
+  <name>SeamapAus_NBHL_macroalgae</name>
   <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer - saltmarsh extent</title>
+  <title>Seamap Australia National Benthic Habitat Layer - macroalgae extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the SALTMARSH extent derived from the most current version of the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which saltmarsh has been positively identified (e.g. saltmarsh/mangrove).</abstract>
+This layer represents the MACROALGAE extent derived from the most current version of the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which macroalgae has been positively identified (e.g. seagrass/macroalgae).</abstract>
   <keywords>
     <string>features</string>
-    <string>FINALPRODUCT_SeamapAus_v2_1</string>
+    <string>FINALPRODUCT_SeamapAus_current</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -38,25 +38,21 @@ This layer represents the SALTMARSH extent derived from the most current version
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>109.10535256774192</minx>
+    <maxx>162.08317435095188</maxx>
+    <miny>-44.21194445950467</miny>
+    <maxy>-7.6281328383632</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>109.10535256774192</minx>
+    <maxx>162.08317435095188</maxx>
+    <miny>-44.21194445950467</miny>
+    <maxy>-7.6281328383632</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
@@ -64,7 +60,7 @@ This layer represents the SALTMARSH extent derived from the most current version
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Saltmarsh&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%altmarsh%&apos;)</cqlFilter>
+  <cqlFilter>NAT_HAB_CL = &apos;macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Macrophytes&apos;) AND BC_Species LIKE &apos;%acroal%&apos;)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
