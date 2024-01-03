@@ -52,7 +52,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">ICIN_Indigenous_interest_2023_v2.0</entry>
@@ -60,7 +60,11 @@
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--37cf091d:18c8a819ed6:4fbb</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WPS</string>
+    <string>WCS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
@@ -117,20 +121,20 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
     </entry>
   </parameters>
   <nativeCoverageName>Indigenous_interest_2023_v2.0</nativeCoverageName>
