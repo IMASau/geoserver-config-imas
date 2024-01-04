@@ -48,7 +48,7 @@
     <maxy>-7.873013041944758</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="elevation">
