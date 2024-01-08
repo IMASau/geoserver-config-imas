@@ -11,7 +11,7 @@
     </contact>
     <charset>UTF-8</charset>
     <numDecimals>4</numDecimals>
-    <verbose>true</verbose>
+    <verbose>false</verbose>
     <verboseExceptions>false</verboseExceptions>
     <metadata>
       <map>
@@ -85,7 +85,7 @@
     <entry key="logHeadersEnabled">false</entry>
     <entry key="logBodiesEnabled">true</entry>
   </metadata>
-  <updateSequence>29814</updateSequence>
+  <updateSequence>29816</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>100</xmlPostRequestLogBufferSize>
