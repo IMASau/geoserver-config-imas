@@ -25,22 +25,112 @@
 						<CssParameter name="fill-opacity">0</CssParameter>
             </Fill>
 					</PolygonSymbolizer>
-				</Rule>	               
+				</Rule>
 				<Rule>
-					<Title>Southern NZ</Title>
+					<Title>Arctic</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
 					      <PropertyName>REALM</PropertyName>
-					      <Literal>Southern New Zealand</Literal>
+					      <Literal>Arctic</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#c1e6c9</CssParameter>
-							<CssParameter name="fill-opacity">0.35</CssParameter>                          
+							<CssParameter name="fill">#32b8a6</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>				
+				</Rule>	
+				<Rule>
+					<Title>Central Indo-Pacific</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>Central Indo-Pacific</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#f5cb11</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>	 
+				<Rule>
+					<Title>Eastern Indo-Pacific</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>Eastern Indo-Pacific</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#eb7200</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>	               
+				<Rule>
+					<Title>Southern Ocean</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>Southern Ocean</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#c461eb</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>	
+				<Rule>
+					<Title>Temperate Australasia</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>Temperate Australasia</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#6c7000</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Title>Temperate Northern Atlantic</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>Temperate Northern Atlantic</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#bf2e2e</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Title>Temperate Northern Pacific</Title>
+					<Filter>
+					   <PropertyIsEqualTo>
+					      <PropertyName>REALM</PropertyName>
+					      <Literal>Temperate Northern Pacific</Literal>
+					   </PropertyIsEqualTo>
+					</Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#46e39c</CssParameter>
+							<CssParameter name="fill-opacity">0.6</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>              
 		    </FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>
