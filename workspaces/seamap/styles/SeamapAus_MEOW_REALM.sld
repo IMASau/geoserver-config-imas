@@ -11,26 +11,26 @@
 			<Title>Marine Ecosystems of the World - Realms</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Title>Commonwealth Marine Reserve (CMR)</Title>
+					<Name>REALM</Name>
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>REALM</ogc:PropertyName>
+					      <ogc:Literal>intentionallyblank</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#4d0026</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.6</CssParameter>
-						</Stroke>
+							<CssParameter name="fill">#000000</CssParameter>
+							<CssParameter name="fill-opacity">0</CssParameter>                          
+						<CssParameter name="fill-opacity">0</CssParameter>
+            </Fill>
 					</PolygonSymbolizer>
-				</Rule>
-						    </FeatureTypeStyle>
-									    <FeatureTypeStyle>
+				</Rule>	               
 				<Rule>
 					<Title>Southern NZ</Title>
 					<Filter>
 					   <PropertyIsEqualTo>
-					      <PropertyName>REGION</PropertyName>
+					      <PropertyName>REALM</PropertyName>
 					      <Literal>Southern New Zealand</Literal>
 					   </PropertyIsEqualTo>
 					</Filter>                       
@@ -39,11 +39,6 @@
 							<CssParameter name="fill">#c1e6c9</CssParameter>
 							<CssParameter name="fill-opacity">0.35</CssParameter>                          
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-opacity">0.8</CssParameter>
-							<CssParameter name="stroke-width">0.3</CssParameter>
-						</Stroke>
 					</PolygonSymbolizer>
 				</Rule>				
 		    </FeatureTypeStyle>

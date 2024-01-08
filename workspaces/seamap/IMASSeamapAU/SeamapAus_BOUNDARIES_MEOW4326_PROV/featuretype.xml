@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>MEOW Province Boundaries</title>
-  <abstract>Marine Ecosystems of the World (MEOW) PROVINCE boundaries only.</abstract>
+  <abstract>Marine Ecosystems of the World (MEOW), aggregated by PROVINCE. For display in Seamap Australia only. See layer &apos;Marine Ecoregions of the World (MEOW)&apos; for full dataset.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_MEOW4326_PROV</string>
@@ -37,6 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -44,6 +45,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
