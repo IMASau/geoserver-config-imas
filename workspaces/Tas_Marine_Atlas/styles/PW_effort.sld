@@ -7,14 +7,14 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Bluethroat Wrasse CPUE (kg/d)</Name>
+    <Name>Purple Wrasse Effort (d)</Name>
     <UserStyle>
       <FeatureTypeStyle> 
        <Rule>
-          <Title>CPUE (kg/d)</Title>
+          <Title>Effort (d)</Title>
           <ogc:Filter>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>99999999</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -26,22 +26,70 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>1 - 100</Title>
+          <Title>1 - 25</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:Literal>25</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffd4</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>25 - 50</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:Literal>25</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:Literal>50</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fed98e</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>50 - 75</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:Literal>75</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f0f9e8</CssParameter>
+              <CssParameter name="fill">#fe9929</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -50,88 +98,40 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>100 - 200</Title>
+          <Title>75 - 100</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:Literal>75</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:Literal>100</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#d95f0e</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>> 100</Title>
+          <ogc:Filter>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>200</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bae4bc</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>200 - 300</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>200</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>300</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#7bccc4</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>300 - 400</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>300</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>400</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#43a2ca</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>> 400</Title>
-          <ogc:Filter>
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>400</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#0868ac</CssParameter>
+              <CssParameter name="fill">#993404</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>

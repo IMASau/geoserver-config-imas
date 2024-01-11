@@ -7,7 +7,7 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Bluethroat Wrasse CPUE (kg/d)</Name>
+    <Name>Purple Wrasse CPUE (kg/d)</Name>
     <UserStyle>
       <FeatureTypeStyle> 
        <Rule>
@@ -26,16 +26,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>1 - 100</Title>
+          <Title>0.1 - 15</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>1</ogc:Literal>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -50,16 +50,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>100 - 200</Title>
+          <Title>15 - 30</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>200</ogc:Literal>
+                <ogc:Literal>30</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -74,16 +74,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>200 - 300</Title>
+          <Title>30 - 45</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>200</ogc:Literal>
+                <ogc:Literal>30</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>300</ogc:Literal>
+                <ogc:Literal>45</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -98,16 +98,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>300 - 400</Title>
+          <Title>45 - 60</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>300</ogc:Literal>
+                <ogc:Literal>45</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>400</ogc:Literal>
+                <ogc:Literal>60</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -122,11 +122,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>> 400</Title>
+          <Title>> 60</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>400</ogc:Literal>
+                <ogc:Literal>60</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>

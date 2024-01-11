@@ -7,14 +7,14 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Bluethroat Wrasse CPUE (kg/d)</Name>
+    <Name>Purple Wrasse Catch (t)</Name>
     <UserStyle>
       <FeatureTypeStyle> 
        <Rule>
-          <Title>CPUE (kg/d)</Title>
+          <Title>Catch (t)</Title>
           <ogc:Filter>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
                 <ogc:Literal>99999999</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -26,22 +26,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>1 - 100</Title>
+          <Title>0.001 - 1</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>1</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>0.001</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f0f9e8</CssParameter>
+              <CssParameter name="fill">#edf8fb</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -50,22 +50,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>100 - 200</Title>
+          <Title>1 - 2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>200</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bae4bc</CssParameter>
+              <CssParameter name="fill">#b3cde3</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -74,22 +74,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>200 - 300</Title>
+          <Title>2 - 3</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>200</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>300</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#7bccc4</CssParameter>
+              <CssParameter name="fill">#8c96c6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -98,22 +98,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>300 - 400</Title>
+          <Title>3 - 4</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>300</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>400</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#43a2ca</CssParameter>
+              <CssParameter name="fill">#8856a7</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -122,16 +122,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>> 400</Title>
+          <Title>> 4</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>400</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#0868ac</CssParameter>
+              <CssParameter name="fill">#810f7c</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
