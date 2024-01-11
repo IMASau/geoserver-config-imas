@@ -1,6 +1,6 @@
 <layer>
   <name>BTW_2018_2019</name>
-  <id>LayerInfoImpl--247336bc:18cf6bf1da7:254a</id>
+  <id>LayerInfoImpl--247336bc:18cf77d1d64:61b4</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--247336bc:18cf6bf1da7:5ab2</id>
@@ -17,11 +17,12 @@
     </style>
   </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--247336bc:18cf6bf1da7:2549</id>
+    <id>FeatureTypeInfoImpl--247336bc:18cf77d1d64:61b3</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-01-11 05:46:33.445 UTC</dateCreated>
+  <dateCreated>2024-01-11 07:48:03.772 UTC</dateCreated>
+  <dateModified>2024-01-11 07:49:30.487 UTC</dateModified>
 </layer>
