@@ -1,0 +1,27 @@
+<layer>
+  <name>Snook_2019_2020</name>
+  <id>LayerInfoImpl--247336bc:18cf6bf1da7:5e34</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--247336bc:18cf6bf1da7:5df9</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--247336bc:18cf6bf1da7:5df9</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--247336bc:18cf6bf1da7:5dfb</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--247336bc:18cf6bf1da7:5dfc</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--247336bc:18cf6bf1da7:5e33</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-01-11 07:24:03.773 UTC</dateCreated>
+</layer>
