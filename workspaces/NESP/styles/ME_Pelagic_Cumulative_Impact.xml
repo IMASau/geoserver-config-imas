@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-3da50ec5:181f861c50c:-6afa</id>
-  <name>MERI_Pelagic_CI</name>
+  <name>ME_Pelagic_Cumulative_Impact</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -8,5 +8,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>MERI_Pelagic_CI.sld</filename>
+  <filename>ME_Pelagic_Cumulative_Impact.sld</filename>
+  <dateModified>2024-01-12 03:29:02.254 UTC</dateModified>
 </style>
