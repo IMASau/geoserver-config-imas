@@ -8,8 +8,7 @@
 				<i>No data</i><BR>
 			<#else>	
 	
-			<div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px;'>
-				<h5>Natural Values Ecosystems</h5><BR>
+			<div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom:10px;'>
 					<#if ecosys==1>
 						<b>Shelf unvegetated sediments</b>
 						<br>
