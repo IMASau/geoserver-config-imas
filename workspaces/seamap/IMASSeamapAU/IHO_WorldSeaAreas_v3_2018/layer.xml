@@ -1,16 +1,17 @@
 <layer>
   <name>IHO_WorldSeaAreas_v3_2018</name>
-  <id>LayerInfoImpl--247336bc:18d0aec0bb0:7298</id>
+  <id>LayerInfoImpl--247336bc:18d0bb4b9ab:-7fbc</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl--247336bc:18d0bb4b9ab:-7fbf</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--247336bc:18d0aec0bb0:7297</id>
+    <id>FeatureTypeInfoImpl--247336bc:18d0bb4b9ab:-7fbd</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-01-15 04:11:54.378 UTC</dateCreated>
+  <dateCreated>2024-01-15 06:09:26.56 UTC</dateCreated>
+  <dateModified>2024-01-15 06:29:49.661 UTC</dateModified>
 </layer>
