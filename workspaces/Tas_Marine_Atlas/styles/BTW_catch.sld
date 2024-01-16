@@ -26,12 +26,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>0.02 - 2</Title>
+          <Title>0.001 - 2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>0.02</ogc:Literal>
+                <ogc:Literal>0.001</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
