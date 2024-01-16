@@ -10,7 +10,7 @@
 	<div class="feature" style="padding-bottom:7px"> 
 		<b>Fishing block:</b> ${feature.BLOCK.value} (<i>sub-block ${feature.SUBBLOCK.value}</i>)<br>
 			<#if Catch?has_content>
-				<b>Catch:</b> ${Catch?string("0.00")} tonnes<br>
+				<b>Catch:</b> ${Catch?string("0.000")} tonnes<br>
 			<#else>
 				<b>Catch:</b> not reported<br>
 			</#if>
