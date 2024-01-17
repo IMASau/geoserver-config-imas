@@ -1,6 +1,6 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-  <div class="feature"> 
+  <div class="feature" style="padding-top:10px; padding-bottom:10px;"> 
 
 <#assign Zone=feature.mpZone.value>
 	<#if Zone?has_content>	
