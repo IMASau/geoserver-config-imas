@@ -5,10 +5,9 @@
 		<#assign ecosys=feature.GRAY_INDEX.value?number>
 
 			<#if (ecosys < 1)>
-				<i>No data</i><BR>
 			<#else>	
 	
-			<div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom:10px;'>
+			<div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom:7px; padding-top:7px'>
 					<#if ecosys==1>
 						<b>Shelf unvegetated sediments</b>
 						<br>
@@ -95,7 +94,6 @@
 					</#if>						
 					
 		
-			<BR>
 			</div>
 			</#if>
 	</#if>
