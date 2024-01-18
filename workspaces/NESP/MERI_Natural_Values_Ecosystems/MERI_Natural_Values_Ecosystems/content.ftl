@@ -63,25 +63,25 @@
 						<br>
 						<i>Sediment habitats occurring on seamounts.</i>
 <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
-    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a different location).</div>
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a seamount feature at a different location).</div>
     
     <div style="display: flex; flex-wrap: wrap;">
         <!-- First YouTube video thumbnail -->
         <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
             <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
-                <img src="http://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
             </a>
         </div>
         <!-- Second YouTube video thumbnail -->
         <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
             <a href="https://www.youtube.com/watch?v=mSZ6H5E6nTw" target="_blank">
-                <img src="http://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
             </a>
         </div>
         <!-- Third YouTube video thumbnail -->
         <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
             <a href="https://www.youtube.com/watch?v=6fKCeFl4b_w" target="_blank">
-                <img src="http://img.youtube.com/vi/6fKCeFl4b_w/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/6fKCeFl4b_w/2.jpg" style="width: 100%;">
             </a>
         </div>
     </div>
@@ -90,7 +90,32 @@
 					<#elseif ecosys==7>
 						<b>Shelf incising canyons</b>
 						<br>
-						<i>Steep sided valleys in the seabed that extend onto the continental shelf at least 500 m shoreward of the shelf break.</i>							
+						<i>Steep sided valleys in the seabed that extend onto the continental shelf at least 500 m shoreward of the shelf break.</i>	
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on canyon ecosystems (note: videos may be from a canyon feature at a different location).</div>
+    
+    <div style="display: flex; flex-wrap: wrap;">
+        <!-- First YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=wL6Z6QvM1Tc" target="_blank">
+                <img src="https://img.youtube.com/vi/wL6Z6QvM1Tc/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+        <!-- Second YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px;margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=AgbuMT2QIRg" target="_blank">
+                <img src="https://img.youtube.com/vi/AgbuMT2QIRg/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+        <!-- Third YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px;  margin-bottom: 5px;">
+            <a href="https://www.youtube.com/watch?v=BO-Ed2EPZZ4" target="_blank">
+                <img src="https://img.youtube.com/vi/BO-Ed2EPZZ4/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+    </div>
+</div>
+						
 					<#elseif ecosys==8>
 						<b>Oceanic shallow coral reefs</b>
 						<br>
@@ -148,7 +173,7 @@
     <div style="display: flex; flex-wrap: wrap;">
         <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
             <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
-                <img src="http://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
             </a>
         </div>
     <!-- Second video thumbnail -->
@@ -258,25 +283,25 @@
 						<br>
 						<i>Rocky and deep-sea cold-water coral formations occurring on seamounts.</i>
 <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
-    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a different location).</div>
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a seamount feature at a different location).</div>
     
     <div style="display: flex; flex-wrap: wrap;">
         <!-- First YouTube video thumbnail -->
         <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
             <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
-                <img src="http://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
             </a>
         </div>
         <!-- Second YouTube video thumbnail -->
         <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
             <a href="https://www.youtube.com/watch?v=mSZ6H5E6nTw" target="_blank">
-                <img src="http://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
             </a>
         </div>
         <!-- Third YouTube video thumbnail -->
         <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
             <a href="https://www.youtube.com/watch?v=6fKCeFl4b_w" target="_blank">
-                <img src="http://img.youtube.com/vi/6fKCeFl4b_w/0.jpg" style="width: 100%;">
+                <img src="https://img.youtube.com/vi/6fKCeFl4b_w/0.jpg" style="width: 100%;">
             </a>
         </div>
     </div>
