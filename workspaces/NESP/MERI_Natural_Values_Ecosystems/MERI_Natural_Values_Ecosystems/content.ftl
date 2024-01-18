@@ -61,7 +61,9 @@
 						<br>
 						<i>Rocky reef formations on temperate continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis.  The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i>
 <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
     <!-- First video thumbnail -->
+    <div style="display: flex; flex-wrap: wrap;">
     <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
         <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" target="_blank">
             <video style="width: 100%;">
@@ -79,13 +81,15 @@
     </div>
     <!-- Third video thumbnail -->
     <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_6_1_1260_1261_1260_3_4.30min_draughboards_scaber.mp4" target="_blank">
+        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" target="_blank">
             <video style="width: 100%;">
-                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_6_1_1260_1261_1260_3_4.30min_draughboards_scaber.mp4" type="video/mp4">
+                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" type="video/mp4">
             </video>
         </a>
     </div>
 </div>
+</div>
+
 							
 					<#elseif ecosys==14>
 						<b>Oceanic mesophotic coral reefs</b>
@@ -95,6 +99,37 @@
 						<b>Rariphotic shelf reefs</b>
 						<br>
 						<i>Rocky reef formations found on the continental shelf below the mesophotic zone where light is so scarce it is not enough to support photosynthesis. Nominally rariphotic shelf reefs occur between 70 m and 200 m (the nominal depth of the shelf break).</i>						
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+    <!-- First video thumbnail -->
+    <div style="display: flex; flex-wrap: wrap;">
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Second video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Third video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4">
+            <video style="width: 100%;">
+                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4">
+            </video>
+        </a>
+    </div>
+</div>
+</div>
+
+
 					<#elseif ecosys==16>
 						<b>Upper slope reefs</b>
 						<br>
