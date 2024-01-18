@@ -43,7 +43,7 @@
 					<#elseif ecosys==9>
 						<b>Shelf vegetated sediments</b>
 						<br>
-						<i>Sediment habitats on the continental shelf that support marine macroalgae or seagrass. <Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.</i>							
+						<i>Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.</i>							
 					<#elseif ecosys==10>
 						<b>Shallow coral reefs</b>
 						<br>
