@@ -12,6 +12,36 @@
 						<b>Shelf unvegetated sediments</b>
 						<br>
 						<i>Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.</i>
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+    <!-- First video thumbnail -->
+    <div style="display: flex; flex-wrap: wrap;">
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Second video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Third video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+        <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4">
+            <video style="width: 100%;">
+                <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4">
+            </video>
+        </a>
+    </div>
+</div>
+</div>
+
 					<#elseif ecosys==2>
 						<b>Upper slope sediments</b>
 						<br>
@@ -31,7 +61,32 @@
 					<#elseif ecosys==6>
 						<b>Seamount sediments</b>
 						<br>
-						<i>Sediment habitats occurring on seamounts.</i>						
+						<i>Sediment habitats occurring on seamounts.</i>
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a different location).</div>
+    
+    <div style="display: flex; flex-wrap: wrap;">
+        <!-- First YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
+                <img src="http://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+        <!-- Second YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=mSZ6H5E6nTw" target="_blank">
+                <img src="http://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+        <!-- Third YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
+            <a href="https://www.youtube.com/watch?v=6fKCeFl4b_w" target="_blank">
+                <img src="http://img.youtube.com/vi/6fKCeFl4b_w/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+    </div>
+</div>
+						
 					<#elseif ecosys==7>
 						<b>Shelf incising canyons</b>
 						<br>
@@ -44,6 +99,37 @@
 						<b>Shelf vegetated sediments</b>
 						<br>
 						<i>Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.</i>							
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+    <!-- First video thumbnail -->
+    <div style="display: flex; flex-wrap: wrap;">
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Second video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Third video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+        <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4">
+            <video style="width: 100%;">
+                <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4">
+            </video>
+        </a>
+    </div>
+</div>
+</div>
+
+
 					<#elseif ecosys==10>
 						<b>Shallow coral reefs</b>
 						<br>
@@ -56,6 +142,35 @@
 						<b>Mesophotic coral reefs</b>
 						<br>
 						<i>Coral reef formations on tropical continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis.  The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i>							
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+    <!-- First video thumbnail -->
+    <div style="display: flex; flex-wrap: wrap;">
+        <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
+                <img src="http://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+    <!-- Second video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+        <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4" target="_blank">
+            <video style="width: 100%;">
+                <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+    <!-- Third video thumbnail -->
+    <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+        <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4">
+            <video style="width: 100%;">
+                <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4">
+            </video>
+        </a>
+    </div>
+</div>
+</div>
+
+
 					<#elseif ecosys==13>
 						<b>Mesophotic rocky reefs</b>
 						<br>
@@ -141,7 +256,33 @@
 					<#elseif ecosys==18>
 						<b>Seamount reefs</b>
 						<br>
-						<i>Rocky and deep-sea cold-water coral formations occurring on seamounts.</i>						
+						<i>Rocky and deep-sea cold-water coral formations occurring on seamounts.</i>
+<div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom:3px; margin-top:10px;">
+    <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a different location).</div>
+    
+    <div style="display: flex; flex-wrap: wrap;">
+        <!-- First YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
+                <img src="http://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+        <!-- Second YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+            <a href="https://www.youtube.com/watch?v=mSZ6H5E6nTw" target="_blank">
+                <img src="http://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+        <!-- Third YouTube video thumbnail -->
+        <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
+            <a href="https://www.youtube.com/watch?v=6fKCeFl4b_w" target="_blank">
+                <img src="http://img.youtube.com/vi/6fKCeFl4b_w/0.jpg" style="width: 100%;">
+            </a>
+        </div>
+    </div>
+</div>
+
+						
 					<#elseif ecosys==20>
 						<b>Bathypelagic &amp; Abyssopelagic</b>
 					<#elseif ecosys==21>
