@@ -8,6 +8,19 @@
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>-1.9278657701667864E7</double>
+          <double>-1.5720555333086064E7</double>
+          <double>1.9334321228595283E7</double>
+          <double>6925087.30451565</double>
+        </coords>
+      </extent>
+      <minCachedLevel>2</minCachedLevel>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+    <gridSubset>
       <gridSetName>EPSG:4326</gridSetName>
       <extent>
         <coords>
@@ -18,11 +31,6 @@
         </coords>
       </extent>
       <maxCachedLevel>10</maxCachedLevel>
-    </gridSubset>
-    <gridSubset>
-      <gridSetName>WebMercatorQuad</gridSetName>
-      <minCachedLevel>2</minCachedLevel>
-      <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -37,7 +45,6 @@
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set">
         <string>seamap:Aus_bathymetry_holdings_SOPzones</string>
-        <string>seamap:Aus_bathymetry_holdings_new</string>
       </availableStyles>
       <defaultStyle>seamap:Aus_bathymetry_holdings</defaultStyle>
     </styleParameterFilter>
