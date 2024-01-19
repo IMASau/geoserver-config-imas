@@ -29,13 +29,13 @@
           </PolygonSymbolizer>
         </Rule>	 
         <Rule>
-            <Title>     &#8804; 1m resolution (extremely high)</Title>
+            <Title>    &#8804;  2m resolution (extremely high)</Title>
           <ogc:Filter>
 			<ogc:And>
-            <ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLessThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsLessThan>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DTYPE</ogc:PropertyName>
@@ -50,44 +50,13 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ac26d9</CssParameter>
-              <CssParameter name="fill-opacity">0.95</CssParameter>					  
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-            <Title>     &#62; 1-2m (very high)</Title>
-          <ogc:Filter>
-			<ogc:And>
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>			
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-			<ogc:Not>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DTYPE</ogc:PropertyName>
-              <ogc:Literal>DEM</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-			</ogc:Not>                 
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
-              <ogc:PropertyName>DATA_DL</ogc:PropertyName>
-              <ogc:Literal>yes%</ogc:Literal>
-            </ogc:PropertyIsLike>				
-			</ogc:And>			
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
               <CssParameter name="fill">#cc0029</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>     &#62; 2 to 5m (high)</Title>
+            <Title>    &#62; 2 to 5m (very high)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -119,7 +88,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>     &#62; 5 to 10m (medium-high)</Title>
+            <Title>    &#62; 5 to 10m (high)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -151,7 +120,7 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-            <Title>     &#62; 10 to 32m (medium)</Title>
+            <Title>    &#62; 10 to 32m (medium-high)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -183,7 +152,7 @@
           </PolygonSymbolizer>
         </Rule>		
         <Rule>
-            <Title>     &#62; 32 to 64m (medium-low)</Title>
+            <Title>    &#62; 32 to 64m (medium-low)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -216,7 +185,7 @@
         </Rule> 
         
         <Rule>
-            <Title>     &#62; 64 to 128m (low)</Title>
+            <Title>    &#62; 64 to 128m (low)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -249,17 +218,17 @@
         </Rule>        
 			
          <Rule>
-            <Title>     &#62; 128 to 210m (very low)</Title>
+            <Title>    &#62; 128 to 210m (very low)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>128</ogc:Literal>
             </ogc:PropertyIsGreaterThan>			
-            <ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLessThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>210</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:PropertyIsLessThan>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DTYPE</ogc:PropertyName>
@@ -282,13 +251,13 @@
         </Rule>              
            
          <Rule>
-            <Title>     > 210m (extremely low)</Title>
+            <Title>    &#8805; 210m (extremely low)</Title>
           <ogc:Filter>
 			<ogc:And>
-            <ogc:PropertyIsGreaterThan>
+            <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>210</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
+            </ogc:PropertyIsGreaterThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>DTYPE</ogc:PropertyName>

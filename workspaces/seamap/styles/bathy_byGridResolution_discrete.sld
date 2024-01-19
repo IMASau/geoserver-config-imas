@@ -35,7 +35,7 @@
               <ColorMapEntry color="#92d39a" opacity="0.95" label="    32m [640-1,280m]" quantity="-640"/>             
               <ColorMapEntry color="#3288bd" opacity="0.95" label="    64m [1,280-2,560m]" quantity="-1280"/>             
               <ColorMapEntry color="#42548a" opacity="0.95" label="    128m [2,560-5,120m]" quantity="-2560"/>             
-              <ColorMapEntry color="#000080" opacity="0.95" label="    >210m [>5,120m]" quantity="-5120"/>
+              <ColorMapEntry color="#000080" opacity="0.95" label="    &#8805;210m [&#8805;5,120m]" quantity="-5120"/>
              
             </ColorMap>
           </RasterSymbolizer>
