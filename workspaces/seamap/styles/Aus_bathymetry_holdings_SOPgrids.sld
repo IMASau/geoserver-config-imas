@@ -28,10 +28,15 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>	 
+      
         <Rule>
             <Title>    &#8804;  2m resolution (extremely high)</Title>
           <ogc:Filter>
 			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>              
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
@@ -50,13 +55,13 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#cc0029</CssParameter>
+              <CssParameter name="fill">#c226d9</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>    &#62; 2 to 5m (very high)</Title>
+            <Title>    &#62; 2 to 4m (very high)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -65,7 +70,7 @@
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>5</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
@@ -82,22 +87,22 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fb8650</CssParameter>
+              <CssParameter name="fill">#cc0033</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>    &#62; 5 to 10m (high)</Title>
+            <Title>    &#62; 4 to 8m (high)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>5</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
+              <ogc:Literal>8</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
 			<ogc:Not>
             <ogc:PropertyIsEqualTo>
@@ -114,18 +119,50 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ffe842</CssParameter>
+              <CssParameter name="fill">#fb6837</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-            <Title>    &#62; 10 to 32m (medium-high)</Title>
+            <Title>    &#62; 8 to 16m (medium-high)</Title>
           <ogc:Filter>
 			<ogc:And>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
+              <ogc:Literal>8</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>			
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>16</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+			<ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DTYPE</ogc:PropertyName>
+              <ogc:Literal>DEM</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+			</ogc:Not>                   
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>DATA_DL</ogc:PropertyName>
+              <ogc:Literal>yes%</ogc:Literal>
+            </ogc:PropertyIsLike>				
+			</ogc:And>			
+          </ogc:Filter>
+
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffb600</CssParameter>
+              <CssParameter name="fill-opacity">0.95</CssParameter>					  
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>		
+        <Rule>
+            <Title>    &#62; 16 to 32m (medium)</Title>
+          <ogc:Filter>
+			<ogc:And>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
+              <ogc:Literal>16</ogc:Literal>
             </ogc:PropertyIsGreaterThan>			
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>RES_ACTUAL</ogc:PropertyName>
@@ -146,11 +183,11 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d5ff80</CssParameter>
+              <CssParameter name="fill">#ffe842</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule> 
         <Rule>
             <Title>    &#62; 32 to 64m (medium-low)</Title>
           <ogc:Filter>
@@ -178,11 +215,11 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#92d39a</CssParameter>
+              <CssParameter name="fill">#c4ff4d</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>
-        </Rule> 
+        </Rule>         
         
         <Rule>
             <Title>    &#62; 64 to 128m (low)</Title>
@@ -211,7 +248,7 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#3288bd</CssParameter>
+              <CssParameter name="fill">#32a6bd</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>

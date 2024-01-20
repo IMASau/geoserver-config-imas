@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--247336bc:18d1efbf78c:6622</id>
-  <name>Aus_bathymetry_holdings_new</name>
+  <name>Aus_bathymetry_holdings_SOPgrids</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>Aus_bathymetry_holdings_new.sld</filename>
+  <filename>Aus_bathymetry_holdings_SOPgrids.sld</filename>
   <dateCreated>2024-01-19 09:00:50.946 UTC</dateCreated>
-  <dateModified>2024-01-19 20:54:48.245 UTC</dateModified>
+  <dateModified>2024-01-20 22:17:18.658 UTC</dateModified>
 </style>
