@@ -215,7 +215,7 @@
 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#c4ff4d</CssParameter>
+              <CssParameter name="fill">#d5ff80</CssParameter>
               <CssParameter name="fill-opacity">0.95</CssParameter>					  
             </Fill>
           </PolygonSymbolizer>

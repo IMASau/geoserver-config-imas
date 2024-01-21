@@ -13,7 +13,7 @@
               <ColorMapEntry color="#000080" opacity="0.95" quantity="-5120"/>
               <ColorMapEntry color="#42548a" opacity="0.95" quantity="-2560"/>
               <ColorMapEntry color="#32a6bd" opacity="0.95" quantity="-1280"/>
-              <ColorMapEntry color="#c4ff4d" opacity="0.95" quantity="-640"/>
+              <ColorMapEntry color="#d5ff80" opacity="0.95" quantity="-640"/>
               <ColorMapEntry color="#ffe842" opacity="0.95" quantity="-320"/>
               <ColorMapEntry color="#ffb600" opacity="0.95" quantity="-160"/>
               <ColorMapEntry color="#fb6837" opacity="0.95" quantity="-80"/>
@@ -34,7 +34,7 @@
               <ColorMapEntry color="#fb6837" opacity="0.95" label="    4m [80-160m]" quantity="-80"/>             
               <ColorMapEntry color="#ffb600" opacity="0.95" label="    8m [160-320m]" quantity="-160"/>             
               <ColorMapEntry color="#ffe842" opacity="0.95" label="    16m [320-640m]" quantity="-320"/>             
-              <ColorMapEntry color="#c4ff4d" opacity="0.95" label="    32m [640-1,280m]" quantity="-640"/>             
+              <ColorMapEntry color="#d5ff80" opacity="0.95" label="    32m [640-1,280m]" quantity="-640"/>             
               <ColorMapEntry color="#32a6bd" opacity="0.95" label="    64m [1,280-2,560m]" quantity="-1280"/>             
               <ColorMapEntry color="#42548a" opacity="0.95" label="    128m [2,560-5,120m]" quantity="-2560"/>             
               <ColorMapEntry color="#000080" opacity="0.95" label="    &#8805;210m [&#8805;5,120m]" quantity="-5120"/>
