@@ -27,8 +27,8 @@
         <Rule>
           <RasterSymbolizer>
            <ColorMap type="intervals">
-              <ColorMapEntry color="#ffffff" opacity="0.0000001" quantity="-12000" label="  Recommended resolution [depth range]"/>                                          
-              <ColorMapEntry color="#7300e6" opacity="0.95" label="    &lt;1m [&lt;20m]" quantity="-0"/>
+              <ColorMapEntry color="#ffffff" opacity="0.0000001" quantity="-12000" label="  Recommended gridding resolution"/>                                          
+              <ColorMapEntry color="#7300e6" opacity="0.95" label="    &lt;1m [&lt;20m depth]" quantity="-0"/>
               <ColorMapEntry color="#c226d9" opacity="0.95" label="    1m [20-40m]" quantity="-20"/>
               <ColorMapEntry color="#cc0033" opacity="0.95" label="    2m [40-80m]" quantity="-40"/>                          
               <ColorMapEntry color="#fb6837" opacity="0.95" label="    4m [80-160m]" quantity="-80"/>             
