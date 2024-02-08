@@ -43,7 +43,13 @@
     <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <disabledServices>
+    <string>WPS</string>
+    <string>WFS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
