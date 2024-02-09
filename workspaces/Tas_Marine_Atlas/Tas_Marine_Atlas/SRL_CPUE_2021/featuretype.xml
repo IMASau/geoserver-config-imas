@@ -35,8 +35,8 @@
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
-  <enabled>true</enabled>
-  <advertised>true</advertised>
+  <enabled>false</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
