@@ -1,9 +1,8 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-307e6a7c:18c33acb417:-1c17</id>
+  <id>LayerGroupInfoImpl--63c24095:18d97ca1b8f:6cfd</id>
   <name>SWC_predArea_mean_habitat</name>
   <mode>SINGLE</mode>
   <title>Predicted habitat (South-west Corner marine park) - mean +- 95% confidence interval probability of occurrence</title>
-  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -46,7 +45,7 @@
       <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fd</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c36a59770:-906</id>
+      <id>StyleInfoImpl--63c24095:18d97ca1b8f:6bcc</id>
     </style>
     <style>
       <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fe</id>
@@ -56,12 +55,11 @@
     </style>
   </styles>
   <bounds>
-    <minx>114.50012207</minx>
-    <maxx>115.25012207</maxx>
-    <miny>-34.24993897</miny>
-    <maxy>-33.49993897</maxy>
+    <minx>114.36236156798526</minx>
+    <maxx>115.27644515563193</maxx>
+    <miny>-34.32999735269439</miny>
+    <maxy>-33.40581884620012</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2023-12-04 12:40:40.861 UTC</dateCreated>
-  <dateModified>2023-12-05 06:22:52.785 UTC</dateModified>
+  <dateCreated>2024-02-12 01:21:51.847 UTC</dateCreated>
 </layerGroup>
