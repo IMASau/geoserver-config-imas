@@ -50,6 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Abalone_block_habitat_habitat</entry>
@@ -58,6 +59,8 @@
     <id>CoverageStoreInfoImpl-6e3ee927:182e95da3aa:-8000</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
@@ -145,6 +148,10 @@
     <entry>
       <string>Bands</string>
       <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>Filter</string>

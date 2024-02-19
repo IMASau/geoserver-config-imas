@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - TAS - Abalone habitat finescale substratum DATA</title>
-  <abstract>NOT FOR MAPPING PUBLICATION - full vectorised version</abstract>
+  <abstract>NOT FOR USE AS WEB MAPPING SERVICE - full vectorised version of original raster dataset. Please use the composite layer group &apos;SeamapAus_TAS_AbHab_substrata_grp&apos; for any web mapping purposes.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_TAS_AbHab_substrata</string>
@@ -51,14 +51,19 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WMS</string>
+  </disabledServices>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
