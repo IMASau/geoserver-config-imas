@@ -1,0 +1,16 @@
+<layer>
+  <name>TEST_CSIRO_EconomicFeasibility_CarbonAbatement_bySA2_cp35</name>
+  <id>LayerInfoImpl--63c24095:18dca3093ca:12a0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-113599b8:18c5d4b9026:2bdd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--63c24095:18dca3093ca:129f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-21 12:51:31.7 UTC</dateCreated>
+</layer>

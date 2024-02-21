@@ -1,0 +1,16 @@
+<layer>
+  <name>TEST_CSIRO_EconomicFeasibility_AbatementArea_bySA2_cp65</name>
+  <id>LayerInfoImpl--63c24095:18dca3093ca:122f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-113599b8:18c6505f559:-7ef1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--63c24095:18dca3093ca:122e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-21 12:39:13.790 UTC</dateCreated>
+</layer>
