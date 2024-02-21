@@ -5,7 +5,9 @@
   <title>Bathymetry of Australian Marine Parks (AMPs)</title>
   <abstractTxt>Multibeam bathymetry data complied from various sources and compiled into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region and represents a multi-resolution mosaic.&#xd;
 &#xd;
-This layer group comprises of bathymetry mosaics overlaid on derived hillshade, clipped to the boundaries of Australian Marine Parks (2022).</abstractTxt>
+This layer group comprises of bathymetry mosaics overlaid on derived hillshade, clipped to the boundaries of Australian Marine Parks (2022).&#xd;
+&#xd;
+The bathymetry data is current as of 2024.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -50,5 +52,5 @@ This layer group comprises of bathymetry mosaics overlaid on derived hillshade, 
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2023-12-22 03:24:20.929 UTC</dateModified>
+  <dateModified>2024-02-21 05:59:09.790 UTC</dateModified>
 </layerGroup>
