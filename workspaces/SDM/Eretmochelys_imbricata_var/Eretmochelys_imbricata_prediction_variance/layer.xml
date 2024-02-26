@@ -1,0 +1,16 @@
+<layer>
+  <name>Eretmochelys_imbricata_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18de4890c06:4375</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de4890c06:4373</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de4890c06:4374</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-26 21:29:47.951 UTC</dateCreated>
+</layer>

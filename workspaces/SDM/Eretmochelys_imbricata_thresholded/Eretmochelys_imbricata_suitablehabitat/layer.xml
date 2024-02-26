@@ -1,0 +1,16 @@
+<layer>
+  <name>Eretmochelys_imbricata_suitablehabitat</name>
+  <id>LayerInfoImpl--63c24095:18de4890c06:4377</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de4890c06:3db8</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de4890c06:4376</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-26 21:30:00.211 UTC</dateCreated>
+</layer>
