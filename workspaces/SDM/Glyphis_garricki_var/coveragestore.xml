@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--63c24095:18de3b3b44f:502f</id>
+  <name>Glyphis_garricki_var</name>
+  <description>Model variance for Glyphis garricki (Northern River Shark) continuous habitat suitability</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--63c24095:18de3b3b44f:-7b04</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-02-26 05:55:38.944 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/47042e1d-8940-4186-8644-e6f5402574f4/NESP_MBH_A12_outputs/GIS outputs/Elasmobranchs/River Sharks/Glyphis garricki/Glyphis_garricki_prediction_variance.tif</url>
+</coverageStore>

@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--63c24095:18de3b3b44f:4fd1</id>
+  <name>Dugong_dugon_var</name>
+  <description>Model variance for Dugong dugon (Dugong) continuous habitat suitability</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--63c24095:18de3b3b44f:-7b04</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-02-26 05:40:21.421 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/47042e1d-8940-4186-8644-e6f5402574f4/NESP_MBH_A12_outputs/GIS outputs/Marine Mammals/Dugong dugon/Dugong_dugon_prediction_variance.tif</url>
+</coverageStore>
