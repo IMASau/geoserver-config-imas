@@ -10,7 +10,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#000000" opacity="0" quantity="0.0"/>              
+              <ColorMapEntry color="#000000" opacity="0.000001" quantity="0.0"/>              
               <ColorMapEntry color="#f0f921" opacity="1" quantity="0.08" label="less probable habitat"/>
               <ColorMapEntry color="#f89541" opacity="1" quantity="0.20"/>              
               <ColorMapEntry color="#cb4778" opacity="1" quantity="0.32"/>            
