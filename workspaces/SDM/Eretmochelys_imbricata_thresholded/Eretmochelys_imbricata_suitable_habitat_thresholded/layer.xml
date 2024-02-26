@@ -1,5 +1,5 @@
 <layer>
-  <name>Eretmochelys_imbricata_suitablehabitat</name>
+  <name>Eretmochelys_imbricata_suitable_habitat_thresholded</name>
   <id>LayerInfoImpl--63c24095:18de4890c06:4377</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-02-26 21:30:00.211 UTC</dateCreated>
+  <dateModified>2024-02-26 21:31:34.812 UTC</dateModified>
 </layer>
