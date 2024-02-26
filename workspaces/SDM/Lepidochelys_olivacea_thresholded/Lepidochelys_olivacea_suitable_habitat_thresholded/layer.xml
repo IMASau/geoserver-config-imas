@@ -1,0 +1,16 @@
+<layer>
+  <name>Lepidochelys_olivacea_suitable_habitat_thresholded</name>
+  <id>LayerInfoImpl--63c24095:18de4890c06:3da9</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de4890c06:3da8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-26 20:44:56.96 UTC</dateCreated>
+</layer>

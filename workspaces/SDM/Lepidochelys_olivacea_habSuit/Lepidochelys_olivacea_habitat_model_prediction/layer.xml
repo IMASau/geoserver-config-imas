@@ -1,0 +1,16 @@
+<layer>
+  <name>Lepidochelys_olivacea_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18de4890c06:3d70</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de4890c06:3d6f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-26 20:31:12.671 UTC</dateCreated>
+</layer>

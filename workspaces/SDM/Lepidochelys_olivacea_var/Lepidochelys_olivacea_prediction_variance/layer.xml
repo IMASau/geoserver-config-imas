@@ -1,0 +1,17 @@
+<layer>
+  <name>Lepidochelys_olivacea_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18de4890c06:3da7</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de4890c06:3db0</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de4890c06:3da6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-26 20:44:50.444 UTC</dateCreated>
+  <dateModified>2024-02-26 20:54:56.844 UTC</dateModified>
+</layer>
