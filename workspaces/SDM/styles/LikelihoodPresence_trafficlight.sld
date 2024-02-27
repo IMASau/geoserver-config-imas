@@ -8,11 +8,11 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap type="values">              
-              <ColorMapEntry color="#ffffff" opacity="0.00000001" quantity="0" label=" Likelihood of Presence"/>
-              <ColorMapEntry color="#006400" opacity="1" quantity="0.25" label="  Low (0.26-0.5)"/>                         
-              <ColorMapEntry color="#daa520" opacity="1" quantity="0.5" label="  Medium (0.51-0.75)"/>                         
-              <ColorMapEntry color="#b22222" opacity="1" quantity="0.76" label="  High (>0.75)"/>                                       
+            <ColorMap type="intervals">              
+              <ColorMapEntry color="#ffffff" opacity="0.00000001" quantity="0.25" label=" Likelihood of Presence"/>
+              <ColorMapEntry color="#006400" opacity="1" quantity="0.5" label="  Low (0.26-0.5)"/>                         
+              <ColorMapEntry color="#daa520" opacity="1" quantity="0.75" label="  Medium (0.51-0.75)"/>                         
+              <ColorMapEntry color="#b22222" opacity="1" quantity="1" label="  High (>0.75)"/>                                       
             </ColorMap>
           </RasterSymbolizer>
         </Rule>

@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--63c24095:18de3b3b44f:5fef</id>
   <name>Pristis_zijsron_var</name>
-  <description>Model variance for Pristis zijsron (Longcomb Sawfish) continuous habitat suitability</description>
+  <description>Model variance for Pristis zijsron (Longcomb Sawfish) habitat suitability</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
   <workspace>
@@ -9,6 +9,7 @@
   </workspace>
   <__default>false</__default>
   <dateCreated>2024-02-26 06:25:51.856 UTC</dateCreated>
+  <dateModified>2024-02-27 08:18:08.124 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/47042e1d-8940-4186-8644-e6f5402574f4/NESP_MBH_A12_outputs/GIS outputs/Elasmobranchs/Sawfish/Pristis zijsron/Pristis_zijsron_prediction_variance</url>
 </coverageStore>
