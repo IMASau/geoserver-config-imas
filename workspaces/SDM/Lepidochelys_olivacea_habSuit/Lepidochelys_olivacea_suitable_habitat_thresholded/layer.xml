@@ -1,18 +1,17 @@
 <layer>
   <name>Lepidochelys_olivacea_suitable_habitat_thresholded</name>
-  <id>LayerInfoImpl--63c24095:18de4890c06:3da9</id>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-4af9</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--63c24095:18de4890c06:3db8</id>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-7d82</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--63c24095:18de4890c06:3da8</id>
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-4afa</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
-  <dateCreated>2024-02-26 20:44:56.96 UTC</dateCreated>
-  <dateModified>2024-02-27 07:21:20.514 UTC</dateModified>
+  <dateCreated>2024-02-27 11:29:14.481 UTC</dateCreated>
 </layer>

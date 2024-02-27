@@ -1,5 +1,5 @@
 <layer>
-  <name>Glyphis_garricki_suitable_habitat_thresholded</name>
+  <name>Glyphis_garricki_suitable_habitat_thresholdedd</name>
   <id>LayerInfoImpl--63c24095:18de9372c64:-7d7e</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2024-02-27 07:07:45.136 UTC</dateCreated>
-  <dateModified>2024-02-27 07:22:00.436 UTC</dateModified>
+  <dateModified>2024-02-27 11:21:25.932 UTC</dateModified>
 </layer>
