@@ -1,0 +1,17 @@
+<layer>
+  <name>Pristis_clavata_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-41cd</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-41cf</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-41ce</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-27 13:01:45.447 UTC</dateCreated>
+  <dateModified>2024-02-27 13:02:05.696 UTC</dateModified>
+</layer>

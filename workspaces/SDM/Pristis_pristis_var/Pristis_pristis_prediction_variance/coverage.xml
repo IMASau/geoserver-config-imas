@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--63c24095:18de9372c64:-41d1</id>
-  <name>Pristis_clavata_model_prediction</name>
-  <nativeName>Pristis_clavata_model_prediction</nativeName>
+  <id>CoverageInfoImpl--63c24095:18de9372c64:-3e73</id>
+  <name>Pristis_pristis_prediction_variance</name>
+  <nativeName>Pristis_pristis_prediction_variance</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--63c24095:18de3b3b44f:-7b03</id>
   </namespace>
-  <title>Thresholded suitable habitat for Pristis clavata (Dwarf Sawfish)</title>
+  <title>Model variance for Pristis pristis (Giant Sawfish) habitat suitability</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>Pristis_clavata_model_prediction</string>
+    <string>Pristis_pristis_prediction_variance</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -40,10 +40,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Pristis_clavata_habSuit_Pristis_clavata_model_prediction</entry>
+    <entry key="dirName">Pristis_pristis_var_Pristis_pristis_prediction_variance</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--63c24095:18de3b3b44f:5fda</id>
+    <id>CoverageStoreInfoImpl--63c24095:18de3b3b44f:5fe6</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -166,5 +166,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Pristis_clavata_model_prediction</nativeCoverageName>
+  <nativeCoverageName>Pristis_pristis_prediction_variance</nativeCoverageName>
 </coverage>

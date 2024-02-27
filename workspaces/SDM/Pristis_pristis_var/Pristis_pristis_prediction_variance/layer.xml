@@ -1,0 +1,16 @@
+<layer>
+  <name>Pristis_pristis_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-3e72</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-41cf</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-3e73</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-27 13:17:49.198 UTC</dateCreated>
+</layer>

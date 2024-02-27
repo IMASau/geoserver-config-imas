@@ -1,0 +1,16 @@
+<layer>
+  <name>Pristis_pristis_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-3e76</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-3e77</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-27 13:16:43.282 UTC</dateCreated>
+</layer>
