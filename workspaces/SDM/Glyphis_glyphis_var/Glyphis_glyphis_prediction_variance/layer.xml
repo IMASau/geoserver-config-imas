@@ -1,0 +1,16 @@
+<layer>
+  <name>Glyphis_glyphis_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-6481</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-6488</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-6482</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-27 07:49:05.351 UTC</dateCreated>
+</layer>

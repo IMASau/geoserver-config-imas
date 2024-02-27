@@ -3,8 +3,16 @@
   <id>LayerInfoImpl--63c24095:18de9372c64:-7d85</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-7d82</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--63c24095:18de9372c64:-7d82</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl--63c24095:18de9372c64:-7d86</id>
   </resource>
@@ -13,4 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-02-27 07:01:31.22 UTC</dateCreated>
+  <dateModified>2024-02-27 07:59:45.855 UTC</dateModified>
 </layer>
