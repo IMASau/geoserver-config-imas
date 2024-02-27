@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--63c24095:18de3b3b44f:5026</id>
   <name>Glyphis_glyphis_thresholded</name>
-  <description>Thresholded suitable habitat for Glyphis glyphis (Sawtooth Shark)</description>
+  <description>Thresholded suitable habitat for Glyphis glyphis (Speartooth Shark)</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
@@ -17,6 +17,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2024-02-26 05:54:15.305 UTC</dateCreated>
+  <dateModified>2024-02-27 06:57:40.18 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/47042e1d-8940-4186-8644-e6f5402574f4/NESP_MBH_A12_outputs/GIS outputs/Elasmobranchs/River Sharks/Glyphis glyphis/Glyphis_glyphis_suitablehabitat.tif</url>
 </coverageStore>
