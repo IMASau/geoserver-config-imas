@@ -9,20 +9,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">              
-              <ColorMapEntry color="#b22222" opacity="1" quantity="1" label="  Suitable habitat"/>                         
+              <ColorMapEntry color="#ffffff" opacity="0.00000001" quantity="0" label=" Likelihood of Presence"/>
+              <ColorMapEntry color="#006400" opacity="1" quantity="0.25" label="  Low (0.26-0.5)"/>                         
+              <ColorMapEntry color="#daa520" opacity="1" quantity="0.5" label="  Medium (0.51-0.75)"/>                         
+              <ColorMapEntry color="#b22222" opacity="1" quantity="0.76" label="  High (>0.75)"/>                                       
             </ColorMap>
           </RasterSymbolizer>
-          <VendorOption name="inclusion">legendOnly</VendorOption>                           
         </Rule>
-        <Rule>
-          <RasterSymbolizer>
-            <ColorMap type="values">  
-              <ColorMapEntry color="#ffffff" opacity="0.0000000001" quantity="0"/>                                       
-              <ColorMapEntry color="#b22222" opacity="1" quantity="1"/>                         
-            </ColorMap>
-          </RasterSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                           
-        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

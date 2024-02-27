@@ -1,0 +1,16 @@
+<layer>
+  <name>Glyphis_garricki_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-7d83</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-7d84</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-27 07:01:43.989 UTC</dateCreated>
+</layer>
