@@ -1,0 +1,73 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--63c24095:18de859d9ec:45d9</id>
+  <name>BECRC_BassStrait_BE_zone</name>
+  <nativeName>SeamapAus_BOUNDARIES_BECRC_BassStrait_BE_zone</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Blue Economy CRC: Bass Strait Blue Economy zone (proposed)</title>
+  <keywords>
+    <string>features</string>
+    <string>SeamapAus_BOUNDARIES_BECRC_BassStrait_BE_zone</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;GDA2020 / Australian Albers&quot;, 
+  GEOGCS[&quot;GDA2020&quot;, 
+    DATUM[&quot;Geocentric_Datum_of_Australia_2020&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;7844&quot;]], 
+  PROJECTION[&quot;Albers_Conic_Equal_Area&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, 132.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
+  <srs>EPSG:9473</srs>
+  <nativeBoundingBox>
+    <minx>1192851.7445</minx>
+    <maxx>1195896.9743000008</maxx>
+    <miny>-4548590.406300001</miny>
+    <maxy>-4540252.2513999995</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>145.91058071303476</minx>
+    <maxx>145.95639193529522</maxx>
+    <miny>-41.00334972571748</miny>
+    <maxy>-40.924153045511936</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+  </store>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WPS</string>
+    <string>WFS</string>
+  </disabledServices>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
