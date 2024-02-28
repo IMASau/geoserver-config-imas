@@ -1,0 +1,16 @@
+<layer>
+  <name>Calidris_canutus_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-654c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-654d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 01:29:36.130 UTC</dateCreated>
+</layer>

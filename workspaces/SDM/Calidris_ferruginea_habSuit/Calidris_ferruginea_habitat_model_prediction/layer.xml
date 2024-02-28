@@ -1,0 +1,16 @@
+<layer>
+  <name>Calidris_ferruginea_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-654a</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-654b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 01:29:54.20 UTC</dateCreated>
+</layer>
