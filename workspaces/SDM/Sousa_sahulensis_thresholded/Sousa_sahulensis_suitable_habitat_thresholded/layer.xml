@@ -1,0 +1,17 @@
+<layer>
+  <name>Sousa_sahulensis_suitable_habitat_thresholded</name>
+  <id>LayerInfoImpl--63c24095:18def3c7ae9:-58dc</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18def3c7ae9:-58f1</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18def3c7ae9:-58dd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-02-28 12:22:43.155 UTC</dateCreated>
+</layer>

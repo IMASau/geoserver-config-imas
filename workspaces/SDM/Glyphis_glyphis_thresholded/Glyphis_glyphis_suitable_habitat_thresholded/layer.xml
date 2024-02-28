@@ -1,0 +1,17 @@
+<layer>
+  <name>Glyphis_glyphis_suitable_habitat_thresholded</name>
+  <id>LayerInfoImpl--63c24095:18def3c7ae9:-58cb</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de4890c06:3db8</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18def3c7ae9:-58cc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-02-28 12:27:01.978 UTC</dateCreated>
+</layer>

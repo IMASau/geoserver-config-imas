@@ -8,7 +8,7 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap type="intervals">              
+            <ColorMap type="values">              
               <ColorMapEntry color="#b22222" opacity="1" quantity="1" label="  Suitable habitat"/>                         
             </ColorMap>
           </RasterSymbolizer>
@@ -16,8 +16,8 @@
         </Rule>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap type="values">  
-              <ColorMapEntry color="#ffffff" opacity="0" quantity="1"/>                                       
+            <ColorMap type="intervals">  
+              <ColorMapEntry color="#ffffff" opacity="0" quantity="2"/>                                       
               <ColorMapEntry color="#b22222" opacity="1" quantity="5"/>                         
             </ColorMap>
           </RasterSymbolizer>
