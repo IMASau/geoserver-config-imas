@@ -1,0 +1,16 @@
+<layer>
+  <name>Orcaella_heinsohni_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-7789</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-6488</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-778a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 00:27:54.78 UTC</dateCreated>
+</layer>

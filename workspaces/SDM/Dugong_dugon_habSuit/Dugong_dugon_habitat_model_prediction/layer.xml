@@ -1,0 +1,16 @@
+<layer>
+  <name>Dugong_dugon_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-7816</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-7817</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 00:22:56.453 UTC</dateCreated>
+</layer>

@@ -3,13 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Model variance range 0-0.12</Name>
+    <Name>Model variance range 0-0.6</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#f2f8fd" opacity="0.7" quantity="0.0"/>
+              <ColorMapEntry color="#ffffff" opacity="0" quantity="0.00"/>              
+              <ColorMapEntry color="#f2f8fd" opacity="0.7" quantity="0.01"/>
               <ColorMapEntry color="#d7e6f5" opacity="0.7" quantity="0.1"/>
               <ColorMapEntry color="#b1d2e8" opacity="0.7" quantity="0.2"/>
               <ColorMapEntry color="#78b5d9" opacity="0.7" quantity="0.3"/>

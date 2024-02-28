@@ -9,7 +9,8 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#f2f8fd" opacity="0.7" quantity="0.00"/>
+              <ColorMapEntry color="#ffffff" opacity="0" quantity="0.00"/>              
+              <ColorMapEntry color="#f2f8fd" opacity="0.7" quantity="0.01"/>
               <ColorMapEntry color="#d7e6f5" opacity="0.7" quantity="0.02"/>
               <ColorMapEntry color="#b1d2e8" opacity="0.7" quantity="0.04"/>
               <ColorMapEntry color="#78b5d9" opacity="0.7" quantity="0.06"/>
