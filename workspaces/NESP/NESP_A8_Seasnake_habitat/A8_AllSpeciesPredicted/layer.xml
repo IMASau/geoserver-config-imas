@@ -8,11 +8,11 @@
   <resource class="coverage">
     <id>CoverageInfoImpl--771e51da:162fade6940:f1</id>
   </resource>
-  <queryable>false</queryable>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
-  <dateModified>2023-12-18 11:03:30.640 UTC</dateModified>
+  <dateModified>2024-02-27 23:55:57.870 UTC</dateModified>
 </layer>

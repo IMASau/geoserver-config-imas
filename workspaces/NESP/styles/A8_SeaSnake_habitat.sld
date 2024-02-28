@@ -10,15 +10,29 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#000000" opacity="0.000001" quantity="0.0"/>              
-              <ColorMapEntry color="#f0f921" opacity="1" quantity="0.08" label="less probable habitat"/>
+              <ColorMapEntry color="#ffffff" opacity="0" quantity="0.0"/>/>              
+              <ColorMapEntry color="#f0f921" opacity="1" quantity="0.08"/>
               <ColorMapEntry color="#f89541" opacity="1" quantity="0.20"/>              
               <ColorMapEntry color="#cb4778" opacity="1" quantity="0.32"/>            
               <ColorMapEntry color="#7e03a8" opacity="1" quantity="0.42"/>            
-              <ColorMapEntry color="#0d0887" opacity="1" quantity="0.6" label="more probable habitat"/>            
+              <ColorMapEntry color="#0d0887" opacity="1" quantity="0.6"/>            
             </ColorMap>
           </RasterSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                                                         
         </Rule>
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="0.0" label="Habitat suitability"/>/>  
+              <ColorMapEntry color="#0d0887" opacity="1" quantity="0.6" label="  more suitable"/> 
+              <ColorMapEntry color="#7e03a8" opacity="1" quantity="0.42"/>            
+              <ColorMapEntry color="#cb4778" opacity="1" quantity="0.32"/>            
+              <ColorMapEntry color="#f89541" opacity="1" quantity="0.20"/>                         
+              <ColorMapEntry color="#f0f921" opacity="1" quantity="0.08" label="  less suitable"/>
+            </ColorMap>
+          </RasterSymbolizer>
+ 		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                         
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
