@@ -1,0 +1,17 @@
+<layer>
+  <name>Pristis_zijsron_suitable_habitat_thresholded</name>
+  <id>LayerInfoImpl--63c24095:18def3c7ae9:5232</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de4890c06:3db8</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18def3c7ae9:5231</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-02-28 23:29:46.237 UTC</dateCreated>
+</layer>
