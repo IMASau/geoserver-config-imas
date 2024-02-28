@@ -1,0 +1,16 @@
+<layer>
+  <name>Calidris_canutus_prediction_variance</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-388d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-38d2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-388e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 02:06:00.325 UTC</dateCreated>
+</layer>
