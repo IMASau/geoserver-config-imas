@@ -1,0 +1,18 @@
+<layer>
+  <name>Dugong_dugon_likelihood_occurrence</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-7810</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-7d82</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-7811</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-02-28 00:23:30.610 UTC</dateCreated>
+  <dateModified>2024-02-28 11:37:25.884 UTC</dateModified>
+</layer>

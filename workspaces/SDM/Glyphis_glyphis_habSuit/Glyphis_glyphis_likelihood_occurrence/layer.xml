@@ -1,0 +1,18 @@
+<layer>
+  <name>Glyphis_glyphis_likelihood_occurrence</name>
+  <id>LayerInfoImpl--63c24095:18de9372c64:-4b05</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-7d82</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18de9372c64:-4b06</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-02-27 11:22:26.212 UTC</dateCreated>
+  <dateModified>2024-02-28 11:38:41.671 UTC</dateModified>
+</layer>

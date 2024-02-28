@@ -1,0 +1,18 @@
+<layer>
+  <name>Calidris_ferruginea_likelihood_presence</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-64b0</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de9372c64:-7d82</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-64b1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-02-28 01:34:54.230 UTC</dateCreated>
+  <dateModified>2024-02-28 11:35:25.62 UTC</dateModified>
+</layer>
