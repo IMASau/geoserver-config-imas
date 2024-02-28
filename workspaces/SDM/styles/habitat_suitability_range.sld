@@ -9,13 +9,12 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#ffffff" opacity="0" quantity="0.0" label="  0.0"/>              
-              <ColorMapEntry color="#440356" opacity="0.4" quantity="0.001" label="  0.091"/>
-              <ColorMapEntry color="#414588" opacity="0.8" quantity="0.2" label="  0.2"/>
-              <ColorMapEntry color="#2a798e" opacity="1" quantity="0.4" label="  0.4"/>
-              <ColorMapEntry color="#22a584" opacity="1" quantity="0.6" label="  0.6"/>
-              <ColorMapEntry color="#79d152" opacity="1" quantity="0.8" label="  0.8"/>
-              <ColorMapEntry color="#f3e528" opacity="1" quantity="1.0" label="  1.0"/>              
+              <ColorMapEntry color="#f3e528" opacity="0.05" quantity="0.0"/>
+              <ColorMapEntry color="#79d152" opacity="0.8" quantity="0.2"/>
+              <ColorMapEntry color="#22a584" opacity="1" quantity="0.4"/>
+              <ColorMapEntry color="#2a798e" opacity="1" quantity="0.6"/>
+              <ColorMapEntry color="#414588" opacity="1" quantity="0.8"/>
+              <ColorMapEntry color="#440356" opacity="1" quantity="1.0"/>              
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                               
@@ -24,12 +23,12 @@
           <RasterSymbolizer>
             <ColorMap>
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="0.0" label="Habitat suitability"/>   
-              <ColorMapEntry color="#f3e528" opacity="1" quantity="1.0" label="  1.0 (highly suitable)"/>  
-              <ColorMapEntry color="#79d152" opacity="1" quantity="0.8" label="  0.8"/>              
-              <ColorMapEntry color="#22a584" opacity="1" quantity="0.6" label="  0.6"/>   
-              <ColorMapEntry color="#2a798e" opacity="1" quantity="0.4" label="  0.4"/> 
-              <ColorMapEntry color="#414588" opacity="1" quantity="0.2" label="  0.2"/>              
-              <ColorMapEntry color="#440356" opacity="1" quantity="0.0" label="  0.0 (unsuitable)"/>
+              <ColorMapEntry color="#440356" opacity="1" quantity="1.0" label="  1.0 (highly suitable)"/>  
+              <ColorMapEntry color="#414588" opacity="1" quantity="0.8" label="  0.8"/>              
+              <ColorMapEntry color="#2a798e" opacity="1" quantity="0.6" label="  0.6"/>   
+              <ColorMapEntry color="#22a584" opacity="1" quantity="0.4" label="  0.4"/> 
+              <ColorMapEntry color="#79d152" opacity="1" quantity="0.2" label="  0.2"/>              
+              <ColorMapEntry color="#f3e528" opacity="1" quantity="0.0" label="  0.0 (unsuitable)"/>
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                               
