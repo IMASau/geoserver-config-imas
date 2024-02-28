@@ -1,0 +1,16 @@
+<layer>
+  <name>Pristis_clavata_suitablehabitat</name>
+  <id>LayerInfoImpl--63c24095:18def3c7ae9:-5ede</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de4890c06:3db8</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18def3c7ae9:-5edf</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 10:59:33.345 UTC</dateCreated>
+</layer>
