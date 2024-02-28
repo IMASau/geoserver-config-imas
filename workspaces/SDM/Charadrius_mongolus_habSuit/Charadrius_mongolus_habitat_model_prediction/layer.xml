@@ -1,0 +1,16 @@
+<layer>
+  <name>Charadrius_mongolus_habitat_model_prediction</name>
+  <id>LayerInfoImpl--63c24095:18ded060767:-6532</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18de43a703e:-7d8b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18ded060767:-6533</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-02-28 01:31:09.968 UTC</dateCreated>
+</layer>
