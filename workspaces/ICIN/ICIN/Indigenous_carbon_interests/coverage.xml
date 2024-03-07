@@ -10,9 +10,15 @@
   <abstract>The ICIN (2023) Indigenous Rights and Interests (Carbon and Nature Repair) Dataset is a continental wide spatial dataset that identifies the legally recognised Indigenous rights and interests that give rise to rights under the Australian Governments ACCU Scheme (and future Nature Repair Market) (land and sea). The dataset developed was based primarily on publicly available spatial datasets, complemented by numerous private information sources. The analysis was undertaken at the continental scale, using a systematic, objective process to define the Indigenous estate. It is acknowledged that there may be some errors, and that Indigenous land and sea interests are broader than what is presented in the maps/dataset.</abstract>
   <keywords>
     <string>Indigenous_interest_2023_v2.0</string>
-    <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>ISO19115:2003</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/2a7e2279-07c8-4c56-a469-91788f99d595</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
     DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
