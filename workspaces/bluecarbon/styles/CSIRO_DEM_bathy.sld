@@ -25,7 +25,8 @@
               <ColorMapEntry color="#fc8825" opacity="0.7" quantity="-250" label="-250"/>
               <ColorMapEntry color="#fc6625" opacity="0.7" quantity="-125" label="-125"/>
               <ColorMapEntry color="#fc4425" opacity="0.7" quantity="-1" label="-1"/>
-              <ColorMapEntry color="#fc4425" opacity="0.7" quantity="0" label="0"/>  
+              <ColorMapEntry color="#fc4425" opacity="0.7" quantity="0" label="0"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="0.00000001"/>                
             </ColorMap>
           </RasterSymbolizer>
         </Rule>      
