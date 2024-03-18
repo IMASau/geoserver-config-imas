@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-7281d3e3:18c80b19191:-7c9a</id>
-  <name>CSIRO_DEM_hs_local</name>
-  <description>10x10m tiled continuous DEM surface (from raw tiles) - hillshade z-factor 1</description>
+  <name>CSIRO_DEM_hs</name>
+  <description>10x10m tiled continuous DEM surface - hillshade z-factor 1</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
   <workspace>
@@ -9,7 +9,7 @@
   </workspace>
   <__default>false</__default>
   <dateCreated>2023-12-19 06:34:21.977 UTC</dateCreated>
-  <dateModified>2024-03-12 00:12:16.86 UTC</dateModified>
+  <dateModified>2024-03-18 15:26:30.92 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/CSIRO_DEM_tiles/hillshade/hs</url>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/CSIRO_DEM_tiles/hillshade</url>
 </coverageStore>
