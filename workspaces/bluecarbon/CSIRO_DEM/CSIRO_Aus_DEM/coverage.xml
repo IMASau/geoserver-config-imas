@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--63c24095:18e5359a4ea:-4028</id>
-  <name>CSIRO_Aus_DEM_hs</name>
-  <nativeName>CSIRO_Aus_DEM_hs</nativeName>
+  <id>CoverageInfoImpl--63c24095:18e5359a4ea:-35aa</id>
+  <name>CSIRO_Aus_DEM</name>
+  <nativeName>CSIRO_Aus_DEM</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-113599b8:18c66091da3:-453b</id>
   </namespace>
-  <title>Hillshade for 10x10m Digital Elevation Model composite (CSIRO/BHP)</title>
+  <title>Australian 10x10m Digital Elevation Model composite (CSIRO/BHP)</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>hillshade</string>
+    <string>dem</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -52,10 +52,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">CSIRO_DEM_hs_hillshade</entry>
+    <entry key="dirName">CSIRO_DEM_dem</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7281d3e3:18c80b19191:-7c9a</id>
+    <id>CoverageStoreInfoImpl--63c24095:18e5359a4ea:-3858</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -65,15 +65,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>38400 28800</high>
+      <high>412800 393600</high>
     </range>
     <transform>
       <scaleX>10.0</scaleX>
       <scaleY>-10.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-191995.0</translateX>
-      <translateY>-3360005.0</translateY>
+      <translateX>-1919995.0</translateX>
+      <translateY>-960005.0</translateY>
     </transform>
     <crs>EPSG:9473</crs>
   </grid>
@@ -98,11 +98,8 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <nullValues>
-        <double>0.0</double>
-      </nullValues>
       <dimensionType>
-        <name>UNSIGNED_8BITS</name>
+        <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -178,5 +175,5 @@
       <string>Cut</string>
     </entry>
   </parameters>
-  <nativeCoverageName>hillshade</nativeCoverageName>
+  <nativeCoverageName>dem</nativeCoverageName>
 </coverage>

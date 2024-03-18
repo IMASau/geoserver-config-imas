@@ -1,0 +1,28 @@
+<layer>
+  <name>CSIRO_Aus_DEM</name>
+  <id>LayerInfoImpl--63c24095:18e5359a4ea:-35a9</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7281d3e3:18c80b19191:-7c9c</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7281d3e3:18c80b19191:-7c9e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7281d3e3:18c80b19191:-7c9d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7281d3e3:18c80b19191:-7c9c</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--63c24095:18e5359a4ea:-35aa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-18 21:39:27.92 UTC</dateCreated>
+  <dateModified>2024-03-18 21:55:53.481 UTC</dateModified>
+</layer>

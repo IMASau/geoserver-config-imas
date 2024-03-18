@@ -14,7 +14,7 @@
               <ColorMapEntry color="#3e3994" opacity="0.7" quantity="-4000" label="  -4,000"/>
               <ColorMapEntry color="#455ed3" opacity="0.7" quantity="-2500" label="  -2,500"/>
               <ColorMapEntry color="#4681f7" opacity="0.7" quantity="-1500" label="  -1,500"/>
-              <ColorMapEntry color="#3aa3fc" opacity="0.7" quantity="-100" label="  -1,000"/>
+              <ColorMapEntry color="#3aa3fc" opacity="0.7" quantity="-1000" label="  -1,000"/>
               <ColorMapEntry color="#23c4e3" opacity="0.7" quantity="-800" label="  -800"/>
               <ColorMapEntry color="#18dec0" opacity="0.7" quantity="-600" label="  -600"/>
               <ColorMapEntry color="#2df09d" opacity="0.7" quantity="-400" label="  -400"/>
