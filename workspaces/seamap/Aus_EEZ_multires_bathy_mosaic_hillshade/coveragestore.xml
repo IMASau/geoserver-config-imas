@@ -1,6 +1,6 @@
 <coverageStore>
-  <id>CoverageStoreInfoImpl-1691f5b0:18e6fee13d7:461</id>
-  <name>Aus_EEZ_multires_bathy_mosaic</name>
+  <id>CoverageStoreInfoImpl-1691f5b0:18e6efa13e2:-b41</id>
+  <name>Aus_EEZ_multires_bathy_mosaic_hillshade</name>
   <description>Multi-resolution mosaic of continuous bathymetry surfaces for the Aus EEZ</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>
@@ -8,7 +8,8 @@
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
   <__default>false</__default>
-  <dateCreated>2024-03-24 13:15:20.71 UTC</dateCreated>
+  <dateCreated>2024-03-24 07:45:06.613 UTC</dateCreated>
+  <dateModified>2024-03-24 13:15:10.977 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/69e9ac91-babe-47ed-8c37-0ef08f29338a/bathymetry</url>
+  <url>file:///mnt/rdsi/attachments/69e9ac91-babe-47ed-8c37-0ef08f29338a/derivatives/hillshade</url>
 </coverageStore>
