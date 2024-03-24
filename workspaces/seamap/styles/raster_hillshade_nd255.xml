@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
-  <name>raster_hillshade</name>
+  <name>raster_hillshade_nd255</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,6 +8,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_hillshade.sld</filename>
-  <dateModified>2022-10-06 09:35:23.684 UTC</dateModified>
+  <filename>raster_hillshade_nd255.sld</filename>
+  <dateModified>2024-03-24 06:23:29.625 UTC</dateModified>
 </style>
