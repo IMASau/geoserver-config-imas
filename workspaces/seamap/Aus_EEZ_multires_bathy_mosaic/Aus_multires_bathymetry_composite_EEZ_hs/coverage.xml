@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-1691f5b0:18e6efa13e2:-b3b</id>
-  <name>Aus_multiresolution_bathymetry_mosaic_hs</name>
+  <name>Aus_multires_bathymetry_composite_EEZ_hs</name>
   <nativeName>Multiresolution_bathymetry_mosaic_AusEEZ</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Multi-resolution bathymetry composite surface for Australian waters</title>
+  <title>Multi-resolution composite bathymetry surface for Australian waters</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>hillshade</string>

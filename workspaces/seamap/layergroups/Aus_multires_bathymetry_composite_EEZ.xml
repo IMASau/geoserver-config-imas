@@ -1,0 +1,29 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-1691f5b0:18e6fee13d7:411</id>
+  <name>Aus_multires_bathymetry_composite_EEZ</name>
+  <mode>SINGLE</mode>
+  <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-b3a</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-4333776.65588629</minx>
+    <maxx>4465467.602282695</maxx>
+    <miny>-6691900.35982885</miny>
+    <maxy>-884350.3598288503</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </bounds>
+  <dateCreated>2024-03-24 11:22:09.485 UTC</dateCreated>
+</layerGroup>

@@ -1,5 +1,5 @@
 <layer>
-  <name>Aus_multiresolution_bathymetry_mosaic_hs</name>
+  <name>Aus_multires_bathymetry_composite_EEZ_hs</name>
   <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-b3a</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-03-24 07:46:06.48 UTC</dateCreated>
-  <dateModified>2024-03-24 07:52:27.610 UTC</dateModified>
+  <dateModified>2024-03-24 11:20:52.3 UTC</dateModified>
 </layer>
