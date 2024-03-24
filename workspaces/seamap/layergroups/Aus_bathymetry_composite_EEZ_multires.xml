@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-1691f5b0:18e6fee13d7:411</id>
-  <name>Aus_multires_bathymetry_composite_EEZ</name>
+  <name>Aus_bathymetry_composite_EEZ_multires</name>
   <mode>SINGLE</mode>
   <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ</title>
   <workspace>
@@ -26,4 +26,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-03-24 11:22:09.485 UTC</dateCreated>
+  <dateModified>2024-03-24 12:00:12.468 UTC</dateModified>
 </layerGroup>
