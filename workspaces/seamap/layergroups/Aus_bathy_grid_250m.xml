@@ -15,21 +15,33 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-12d8</id>
+      <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-e24</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2cf458b2:18b188b6aef:758b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4812677:17ffdf580a3:6b73</id>
     </published>
   </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl-2922ad46:180a1f66ab3:3fd2</id>
     </style>
+    <style>
+      <id>StyleInfoImpl--7b044d55:181b39e8c4b:-569b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--4812677:17ffdf580a3:6b74</id>
+    </style>
   </styles>
   <bounds>
-    <minx>91.9951220703125</minx>
-    <maxx>171.99762207031057</maxx>
-    <miny>-60.002438964843705</miny>
-    <maxy>-8.002438964844956</maxy>
-    <crs class="projected">EPSG:9473</crs>
+    <minx>91.9976220703125</minx>
+    <maxx>172.00013888887796</maxx>
+    <miny>-60.00243896484372</miny>
+    <maxy>-7.999860839921227</maxy>
+    <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-03-24 07:07:45.231 UTC</dateCreated>
-  <dateModified>2024-03-24 07:28:53.897 UTC</dateModified>
+  <dateModified>2024-03-24 07:34:06.465 UTC</dateModified>
 </layerGroup>

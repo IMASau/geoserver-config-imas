@@ -1,0 +1,18 @@
+<layer>
+  <name>Aus_multiresolution_bathymetry_mosaic_hs</name>
+  <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-b3a</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e6efa13e2:-b3b</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-24 07:46:06.48 UTC</dateCreated>
+  <dateModified>2024-03-24 07:52:27.610 UTC</dateModified>
+</layer>
