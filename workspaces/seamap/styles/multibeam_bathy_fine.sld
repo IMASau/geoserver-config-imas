@@ -52,12 +52,12 @@
               <ColorMapEntry color="#5cfc70" opacity="0.7" label=" 400" quantity="-400"/>              
               <ColorMapEntry color="#2df09d" opacity="0.7" label=" 600" quantity="-600"/>              
               <ColorMapEntry color="#18dec0" opacity="0.7" label=" 800" quantity="-800"/>              
-              <ColorMapEntry color="#23c4e3" opacity="0.7" label=" 1000" quantity="-1000"/>              
-              <ColorMapEntry color="#3aa3fc" opacity="0.7" label=" 1500" quantity="-1500"/>              
-              <ColorMapEntry color="#4681f7" opacity="0.7" label=" 2000" quantity="-2000"/>              
-              <ColorMapEntry color="#455ed3" opacity="0.7" label=" 3000" quantity="-3000"/>              
-              <ColorMapEntry color="#3e3994" opacity="0.7" label=" 5000" quantity="-5000"/>              
-              <ColorMapEntry color="#30123b" opacity="0.7" label=" 7000" quantity="-7000"/>              
+              <ColorMapEntry color="#23c4e3" opacity="0.7" label=" 1,000" quantity="-1000"/>              
+              <ColorMapEntry color="#3aa3fc" opacity="0.7" label=" 1,500" quantity="-1500"/>              
+              <ColorMapEntry color="#4681f7" opacity="0.7" label=" 2,000" quantity="-2000"/>              
+              <ColorMapEntry color="#455ed3" opacity="0.7" label=" 3,000" quantity="-3000"/>              
+              <ColorMapEntry color="#3e3994" opacity="0.7" label=" 5,000" quantity="-5000"/>              
+              <ColorMapEntry color="#30123b" opacity="0.7" label=" 7,000" quantity="-7000"/>              
               <ColorMapEntry color="#000000" opacity="0.0" quantity="-8000"/>              
             </ColorMap>
           </RasterSymbolizer>
