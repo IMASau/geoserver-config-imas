@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-1691f5b0:18e73330b45:-4118</id>
+  <name>SWC_finescale_predicted_allclasses</name>
+  <description>Mean prediction of habitat occurrence in South-west Corner from finescale multibeam</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <connectionParameters/>
+  <__default>false</__default>
+  <dateCreated>2024-03-25 03:45:02.780 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner_finescale/ProbabilityOfOccurrence/multiband/multibeam_model_sw_all_classes_proj.tif</url>
+</coverageStore>
