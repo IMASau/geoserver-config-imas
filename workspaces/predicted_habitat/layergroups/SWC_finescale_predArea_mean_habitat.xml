@@ -1,0 +1,59 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-1691f5b0:18e73cd15cc:4a15</id>
+  <name>SWC_finescale_predArea_mean_habitat</name>
+  <mode>SINGLE</mode>
+  <title>Predicted habitat (South-west Corner marine park) from finescale multibeam data - mean probability of occurrence</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e73cd15cc:49c8</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e73330b45:-10ef</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e73330b45:-10ed</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e73330b45:-10f4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e73330b45:-10d9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e73330b45:-10db</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e73330b45:-4a4a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e73330b45:-4a4b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e73330b45:-498c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e73330b45:-4738</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e73330b45:-4857</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>114.71178505</minx>
+    <maxx>114.94997335</maxx>
+    <miny>-34.13905753</miny>
+    <maxy>-34.01302389</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-03-25 05:36:11.730 UTC</dateCreated>
+</layerGroup>

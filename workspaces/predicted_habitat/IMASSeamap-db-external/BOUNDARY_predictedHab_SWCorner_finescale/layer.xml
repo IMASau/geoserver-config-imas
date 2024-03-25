@@ -1,0 +1,18 @@
+<layer>
+  <name>BOUNDARY_predictedHab_SWCorner_finescale</name>
+  <id>LayerInfoImpl-1691f5b0:18e73cd15cc:49c8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:49c7</id>
+  </resource>
+  <queryable>true</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-25 05:33:41.757 UTC</dateCreated>
+  <dateModified>2024-03-25 05:41:34.236 UTC</dateModified>
+</layer>
