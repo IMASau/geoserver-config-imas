@@ -1,12 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:75bc</id>
-  <name>SWCorner_benthic_video_annotations_obs_MBESsubset</name>
+  <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:7619</id>
+  <name>SeamapAus_WA_predictedHab_SWCorner_obsTEST2</name>
   <nativeName>SeamapAus_WA_predictedHab_SWCorner_obs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Benthic annotations from video observations in SW Corner (WA) - extract from GlobalArchive for</title>
-  <abstract>This dataset is an extract from GlobalArchive (https://globalarchive.org/) of publicly available benthic habitat annotations from stereo-BRUV drops in the SW Corner area of Western Australia for the region covered by high-resolution multibeam bathymetry data. These validation points were used as inputs to predicted benthic habitat mapping for this region. This layer has been created for use in a layer package in combination with habitat models. GlobalArchive should be used for download access, and to view more data for the region.</abstract>
+  <title>SeamapAus_WA_predictedHab_SWCorner_obs</title>
   <keywords>
     <string>SeamapAus_WA_predictedHab_SWCorner_obs</string>
     <string>features</string>
@@ -47,6 +46,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>BBOX(geom, 114.71178505, -34.13905753, 114.94997335, -34.01302389)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
