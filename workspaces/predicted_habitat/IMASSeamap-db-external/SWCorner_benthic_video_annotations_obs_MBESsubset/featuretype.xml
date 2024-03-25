@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:75bc</id>
+  <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:7685</id>
   <name>SWCorner_benthic_video_annotations_obs_MBESsubset</name>
   <nativeName>SeamapAus_WA_predictedHab_SWCorner_obs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Benthic annotations from video observations in SW Corner (WA) - extract from GlobalArchive for</title>
+  <title>Benthic annotations from video observations in SW Corner (WA) - extract from GlobalArchive for area covered by multibeam bathymetry</title>
   <abstract>This dataset is an extract from GlobalArchive (https://globalarchive.org/) of publicly available benthic habitat annotations from stereo-BRUV drops in the SW Corner area of Western Australia for the region covered by high-resolution multibeam bathymetry data. These validation points were used as inputs to predicted benthic habitat mapping for this region. This layer has been created for use in a layer package in combination with habitat models. GlobalArchive should be used for download access, and to view more data for the region.</abstract>
   <keywords>
     <string>SeamapAus_WA_predictedHab_SWCorner_obs</string>
@@ -25,18 +25,19 @@
     <minx>114.59136980817256</minx>
     <maxx>114.96509429930184</maxx>
     <miny>-34.14118965282378</miny>
-    <maxy>-33.66368829672622</maxy>
+    <maxy>-34.0</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>114.59136980817256</minx>
     <maxx>114.96509429930184</maxx>
     <miny>-34.14118965282378</miny>
-    <maxy>-33.66368829672622</maxy>
+    <maxy>-34.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -47,6 +48,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>BBOX(geom, 114.71178505, -34.13905753, 114.94997335, -34.01302389)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

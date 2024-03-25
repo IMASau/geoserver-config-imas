@@ -1,17 +1,25 @@
 <layer>
   <name>SWCorner_benthic_video_annotations_obs_MBESsubset</name>
-  <id>LayerInfoImpl-1691f5b0:18e73cd15cc:75bd</id>
+  <id>LayerInfoImpl-1691f5b0:18e73cd15cc:7686</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--5c6743c7:18bd5912ff0:4a04</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5c6743c7:18bd5912ff0:4a04</id>
+    </style>
+  </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:75bc</id>
+    <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:7685</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-03-25 05:53:58.385 UTC</dateCreated>
-  <dateModified>2024-03-25 06:17:46.149 UTC</dateModified>
+  <dateCreated>2024-03-25 06:41:30.306 UTC</dateCreated>
+  <dateModified>2024-03-25 06:49:21.873 UTC</dateModified>
 </layer>
