@@ -32,12 +32,12 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sessile invertebrates</ogc:Literal>
+              <ogc:Literal>Mixed Invertebrate Community</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ff0e48</CssParameter>
+              <CssParameter name="fill">#9c2d86</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
