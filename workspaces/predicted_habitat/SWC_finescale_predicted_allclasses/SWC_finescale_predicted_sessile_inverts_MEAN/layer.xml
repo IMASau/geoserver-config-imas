@@ -1,0 +1,17 @@
+<layer>
+  <name>SWC_finescale_predicted_sessile_inverts_MEAN</name>
+  <id>LayerInfoImpl-1691f5b0:18e73330b45:-10f4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e73330b45:-498c</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e73330b45:-10f5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-25 04:02:48.444 UTC</dateCreated>
+  <dateModified>2024-03-25 04:06:08.106 UTC</dateModified>
+</layer>

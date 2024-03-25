@@ -1,0 +1,16 @@
+<layer>
+  <name>SWC_finescale_predicted_macroalgae_MEAN</name>
+  <id>LayerInfoImpl-1691f5b0:18e73330b45:-10d9</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e73330b45:-4738</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e73330b45:-10da</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-25 04:07:45.151 UTC</dateCreated>
+</layer>

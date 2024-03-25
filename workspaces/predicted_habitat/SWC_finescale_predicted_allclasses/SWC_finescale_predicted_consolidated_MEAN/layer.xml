@@ -1,0 +1,17 @@
+<layer>
+  <name>SWC_finescale_predicted_consolidated_MEAN</name>
+  <id>LayerInfoImpl-1691f5b0:18e73330b45:-10ed</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e73330b45:-4a4b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e73330b45:-10ee</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-25 04:06:40.880 UTC</dateCreated>
+  <dateModified>2024-03-25 04:23:49.307 UTC</dateModified>
+</layer>
