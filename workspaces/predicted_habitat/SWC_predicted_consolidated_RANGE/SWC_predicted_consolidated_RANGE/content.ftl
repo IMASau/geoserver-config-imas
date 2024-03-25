@@ -23,7 +23,7 @@
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: #663300;"></div>
                         <span style="margin-left: 8px;">
-                            Bare consolidated substrata: <b>${meanValue?string("0.##")}</b>
+                            Bare consolidated substrata: <b>${meanValue?string("0.00")}</b>
                             (<i>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</i>)
                         </span>
                     </div>

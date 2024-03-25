@@ -1,5 +1,5 @@
         <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of habitat occurrence</h5>
+            <h5>Modelled mean probability of habitat occurrence [finescale]</h5>
         </div>
 
         <div class="feature"> 

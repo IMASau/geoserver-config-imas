@@ -23,7 +23,7 @@
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: #02de70;"></div>
                         <span style="margin-left: 8px;">
-                            Seagrass: <b>${meanValue?string("0.##")}</b>
+                            Seagrass: <b>${meanValue?string("0.00")}</b>
                             (<i>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</i>)
                         </span>
                     </div>
