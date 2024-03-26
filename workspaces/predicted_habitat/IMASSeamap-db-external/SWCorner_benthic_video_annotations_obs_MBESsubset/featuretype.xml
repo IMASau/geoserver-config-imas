@@ -48,7 +48,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BBOX(geom, 114.71178505, -34.13905753, 114.94997335, -34.014)</cqlFilter>
+  <cqlFilter>BBOX(geom, 114.71178505, -34.139, 114.94997335, -34.014)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
