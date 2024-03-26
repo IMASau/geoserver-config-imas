@@ -25,14 +25,14 @@
     <minx>114.59136980817256</minx>
     <maxx>114.96509429930184</maxx>
     <miny>-34.14118965282378</miny>
-    <maxy>-34.0</maxy>
+    <maxy>-34.01</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>114.59136980817256</minx>
     <maxx>114.96509429930184</maxx>
     <miny>-34.14118965282378</miny>
-    <maxy>-34.0</maxy>
+    <maxy>-34.01</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
@@ -48,7 +48,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BBOX(geom, 114.71178505, -34.13905753, 114.94997335, -34.01302389)</cqlFilter>
+  <cqlFilter>BBOX(geom, 114.71178505, -34.13905753, 114.94997335, -34.014)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
