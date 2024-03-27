@@ -7,17 +7,18 @@
 
     <#if meanValue?is_number>
 
-        <div class="feature"> 
-            <div style="display: flex; align-items: center;"> 
-                <!-- Check if meanValue is 0 -->
-                <#if meanValue < 0.0001>
-                    <!-- Display prohibited symbol for zero value -->
-                    <div style="display: flex; align-items: center; padding-bottom:1px;"> 
+        <div class="feature" style="align-left"> 
+            <div> 
+                <!-- Check if meanValue is within the specific range -->
+                <#if (meanValue < 0.0001) && (meanValue > 0)>
+                    <!-- Display message for low but non-zero value -->
+                    <div style="padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
-                        <span style="margin-left: 3px;">Reef likelihood: <b><0.0001</b></span>
+                        <span style="margin-left: 3px;">Reef likelihood: <b>&lt;0.0001</b></span>
                     </div>
                 <#else>
-                    <div style="display: flex; align-items: center; padding-bottom:1px;"> 
+                    <!-- Display the meanValue and confidence interval -->
+                    <div style="padding-bottom:1px;"> 
                         <span style="margin-left: 8px;">
                             Reef likelihood: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
