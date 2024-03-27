@@ -36,9 +36,10 @@
           </PointSymbolizer>      
         </Rule>
 
-        <!-- Rule for Pie Chart at scales above 20000 -->
+        <!-- Rule for Pie Chart at scales above 20000 but below 100000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>		
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">

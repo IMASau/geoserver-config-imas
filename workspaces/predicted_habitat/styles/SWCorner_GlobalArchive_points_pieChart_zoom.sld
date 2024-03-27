@@ -15,7 +15,7 @@
       <FeatureTypeStyle>
         
 
-        <!-- Rule for Pie Chart at scales above 20000 -->
+        <!-- Rule for Pie Chart at scale above 20000 but less than 100000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
           <MaxScaleDenominator>100000</MaxScaleDenominator>			                    
