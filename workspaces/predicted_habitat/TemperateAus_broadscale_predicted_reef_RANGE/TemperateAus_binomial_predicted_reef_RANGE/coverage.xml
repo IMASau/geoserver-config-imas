@@ -89,7 +89,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>NaN</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -103,7 +103,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>NaN</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -117,7 +117,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>NaN</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>

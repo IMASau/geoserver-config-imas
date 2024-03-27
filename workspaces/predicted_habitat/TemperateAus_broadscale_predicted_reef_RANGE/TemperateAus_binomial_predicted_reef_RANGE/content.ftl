@@ -1,12 +1,3 @@
-        <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of reef occurrence</h5>
-        </div>
-
-        <div class="feature"> 
-		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of reef occurring at this point.
-		<br>50th credible intervals for prediction shown as (lower 25% - upper 75%)</i></div>
-
-
 <#list features as feature>
 
     <!-- Extract values from the respective bands -->
@@ -15,6 +6,16 @@
     <#assign upperInterval = feature["UPPER"].value?number>
 
     <#if (meanValue?is_number) && (meanValue>0)>
+
+        <div style="padding-top: 8px; padding-bottom:10px;">
+            <h5>Modelled mean probability of reef occurrence</h5>
+        </div>
+
+        <div class="feature"> 
+		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of reef occurring at this point.
+		<br>50th credible intervals for prediction shown as (lower 25% - upper 75%)</i>
+	</div>
+
 
         <div class="feature" style="align-left"> 
             <div> 
