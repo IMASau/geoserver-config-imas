@@ -7,7 +7,10 @@
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
-  <connectionParameters/>
+  <connectionParameters>
+    <entry key="password">crypt1:6NyMsCTPPMqhPHxTMXIxKrDmGycUWon7</entry>
+    <entry key="user">admin</entry>
+  </connectionParameters>
   <metadata>
     <entry key="CogSettings.Key">
       <cogSettings>
@@ -18,7 +21,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2024-03-27 00:43:42.44 UTC</dateCreated>
-  <dateModified>2024-03-27 11:56:40.40 UTC</dateModified>
+  <dateModified>2024-03-27 12:18:13.970 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/reef_binomial/ProbabilityOfOccurrence/means/combined/binomial_preds_reef_range_multi.tif</url>
 </coverageStore>
