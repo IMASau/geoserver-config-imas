@@ -1,0 +1,25 @@
+<layer>
+  <name>TemperateAus_binomial_predicted_reef_RANGE1</name>
+  <id>LayerInfoImpl-1691f5b0:18e7d242f16:-438f</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e7d242f16:-42be</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:-43c5</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:-42be</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e7d242f16:-4390</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-27 00:53:23.106 UTC</dateCreated>
+  <dateModified>2024-03-27 01:25:57.834 UTC</dateModified>
+</layer>

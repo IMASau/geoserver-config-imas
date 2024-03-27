@@ -13,14 +13,14 @@
                 <SourceChannelName>2</SourceChannelName> <!-- Band 2 is the MEAN band -->
               </GrayChannel>
             </ChannelSelection>            
-            <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0" quantity="0"/> <!-- Need to retain this to deal with NaN noData values -->              
-              <ColorMapEntry color="#ffffff" opacity="0.0000000001" quantity="0.0000001"/>
-              <ColorMapEntry color="#734d26" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#734d26" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#734d26" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#734d26" opacity="0.8" quantity="0.8"/>
-              <ColorMapEntry color="#734d26" opacity="1" quantity="1"/>           
+            <ColorMap type="ramp">  
+              <ColorMapEntry color="#ffffff" opacity="0" quantity="0"/> <!-- Need to retain this to deal with NaN noData values -->             
+              <ColorMapEntry color="#00807d" quantity="0.0000001"/>
+              <ColorMapEntry color="#00bab5" quantity="0.2"/>              
+              <ColorMapEntry color="#56d6d4" quantity="0.4"/>            
+              <ColorMapEntry color="#fcb990" quantity="0.6"/>
+              <ColorMapEntry color="#f89960" quantity="0.8"/>
+              <ColorMapEntry color="#b35116" quantity="1"/>           
           
             </ColorMap>
           </RasterSymbolizer>
@@ -33,12 +33,12 @@
               </GrayChannel>
             </ChannelSelection>            <ColorMap type="ramp">              
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of reef"/>
-              <ColorMapEntry color="#734d26" opacity="1" quantity="1" label=" 1.0"/>
-              <ColorMapEntry color="#734d26" opacity="0.8" quantity="0.8" label=" 0.8"/>              
-              <ColorMapEntry color="#734d26" opacity="0.6" quantity="0.6" label=" 0.6"/>            
-              <ColorMapEntry color="#734d26" opacity="0.4" quantity="0.4" label=" 0.4"/>
-              <ColorMapEntry color="#734d26" opacity="0.2" quantity="0.2" label=" 0.2"/>
-              <ColorMapEntry color="#734d26" opacity="0.0001" quantity="0" label=" 0.0"/>    
+              <ColorMapEntry color="#b35116" quantity="1" label=" 1.0"/>
+              <ColorMapEntry color="#f89960" quantity="0.8" label=" 0.8"/>              
+              <ColorMapEntry color="#fcb990" quantity="0.6" label=" 0.6"/>            
+              <ColorMapEntry color="#56d6d4" quantity="0.4" label=" 0.4"/>
+              <ColorMapEntry color="#00bab5" quantity="0.2" label=" 0.2"/>
+              <ColorMapEntry color="#00807d" quantity="0" label=" 0.0"/>    
           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     

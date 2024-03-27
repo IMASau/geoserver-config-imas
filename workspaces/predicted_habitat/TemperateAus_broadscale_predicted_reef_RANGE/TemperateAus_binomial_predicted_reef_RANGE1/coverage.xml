@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl-1691f5b0:18e7d242f16:-4390</id>
-  <name>TemperateAus_binomial_predicted_reef_RANGE</name>
+  <name>TemperateAus_binomial_predicted_reef_RANGE1</name>
   <nativeName>TemperateAus_binomial_predicted_reef_RANGE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
@@ -81,37 +81,34 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>RED_BAND</name>
+      <name>LOWER</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>GREEN_BAND</name>
+      <name>MEAN</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>BLUE_BAND</name>
+      <name>UPPER</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
         <max>inf</max>
       </range>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
