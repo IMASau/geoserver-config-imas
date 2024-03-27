@@ -22,9 +22,9 @@
               <ColorMapEntry color="#eed3ba" quantity="0.4"/> 
               <ColorMapEntry color="#e7be97" quantity="0.5"/>              
               <ColorMapEntry color="#daa272" quantity="0.6"/>
-              <ColorMapEntry color="#ac6d39" quantity="0.7"/>                            
-              <ColorMapEntry color="#7e5435" quantity="0.8"/>              
-              <ColorMapEntry color="#6d5346" quantity="0.9"/>
+              <ColorMapEntry color="#bf7940" quantity="0.7"/>                            
+              <ColorMapEntry color="#9b6641" quantity="0.8"/>              
+              <ColorMapEntry color="#845f4d" quantity="0.9"/>
               <ColorMapEntry color="#4e3c32" quantity="1"/>           
           
             </ColorMap>
@@ -39,9 +39,9 @@
             </ChannelSelection>            <ColorMap type="ramp">              
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of reef"/>
               <ColorMapEntry color="#4e3c32" quantity="1" label=" 1.0"/>
-              <ColorMapEntry color="#6d5346" quantity="0.9" label=" 0.9"/>            
-              <ColorMapEntry color="#7e5435" quantity="0.8" label=" 0.8"/>  
-              <ColorMapEntry color="#ac6d39" quantity="0.7" label=" 0.7"/>                          
+              <ColorMapEntry color="#845f4d" quantity="0.9" label=" 0.9"/>            
+              <ColorMapEntry color="#9b6641" quantity="0.8" label=" 0.8"/>  
+              <ColorMapEntry color="#bf7940" quantity="0.7" label=" 0.7"/>                          
               <ColorMapEntry color="#daa272" quantity="0.6" label=" 0.6"/> 
               <ColorMapEntry color="#e7be97" quantity="0.5" label=" 0.5"/>            
               <ColorMapEntry color="#eed3ba" quantity="0.4" label=" 0.4"/>

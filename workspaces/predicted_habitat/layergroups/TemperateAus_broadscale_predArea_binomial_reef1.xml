@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-1691f5b0:18e7d242f16:6445</id>
+  <name>TemperateAus_broadscale_predArea_binomial_reef1</name>
+  <mode>SINGLE</mode>
+  <title>Predicted binomial probability of reef occurrence (temperate Australia) from broadscale multibeam data</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e7d242f16:-438f</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e7d242f16:637b</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:-42be</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>112.2151388888596</minx>
+    <maxx>150.0001388888253</maxx>
+    <miny>-44.13236083988841</miny>
+    <maxy>-23.99986083990669</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-03-27 04:24:39.337 UTC</dateCreated>
+  <dateModified>2024-03-27 04:26:51.189 UTC</dateModified>
+</layerGroup>

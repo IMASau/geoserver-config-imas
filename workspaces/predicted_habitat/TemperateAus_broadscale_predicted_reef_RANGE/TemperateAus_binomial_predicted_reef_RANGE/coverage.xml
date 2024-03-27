@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl-1691f5b0:18e7d242f16:-4390</id>
-  <name>TemperateAus_binomial_predicted_reef_RANGE7</name>
+  <name>TemperateAus_binomial_predicted_reef_RANGE</name>
   <nativeName>TemperateAus_binomial_predicted_reef_RANGE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
@@ -39,6 +39,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TemperateAus_broadscale_predicted_reef_RANGE_binomial_preds_reef_range_multi</entry>
