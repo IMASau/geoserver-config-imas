@@ -14,13 +14,13 @@
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">
-              <ColorMapEntry color="#734d26" opacity="0.0000000001" quantity="0"/>
+              <ColorMapEntry color="#ffffff" quantity="0" opacity="0"/> <!-- Retain this to deal with NaN nodata -->                      
+              <ColorMapEntry color="#734d26" opacity="0.0000000001" quantity="0.00000000001"/> 
               <ColorMapEntry color="#734d26" opacity="0.2" quantity="0.2"/>              
               <ColorMapEntry color="#734d26" opacity="0.4" quantity="0.4"/>            
               <ColorMapEntry color="#734d26" opacity="0.6" quantity="0.6"/>
               <ColorMapEntry color="#734d26" opacity="0.8" quantity="0.8"/>
               <ColorMapEntry color="#734d26" opacity="1" quantity="1"/>           
-          
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     

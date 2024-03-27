@@ -13,8 +13,9 @@
                 <SourceChannelName>2</SourceChannelName> <!-- Band 2 is the MEAN band -->
               </GrayChannel>
             </ChannelSelection>            
-            <ColorMap type="ramp">  
-              <ColorMapEntry color="#00807d" quantity="0"/>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#ffffff" quantity="0" opacity="0"/> <!-- Retain this to deal with NaN nodata -->        
+              <ColorMapEntry color="#00807d" quantity="0.0000000001"/>
               <ColorMapEntry color="#00bab5" quantity="0.2"/>              
               <ColorMapEntry color="#56d6d4" quantity="0.4"/>            
               <ColorMapEntry color="#fcb990" quantity="0.6"/>

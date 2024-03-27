@@ -20,7 +20,7 @@
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <span style="margin-left: 8px;">
                             Reef likelihood: <b>${meanValue?string("0.000")}</b>
-                            (<i>${lowerInterval?string("0.###")} - ${upperInterval?string("0.###")}</i>)
+                            (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>
                 </#if>
