@@ -40,6 +40,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TemperateAus_broadscale_predicted_reef_ERROR_binomial_preds_reef_error</entry>
   </metadata>
   <store class="coverageStore">
@@ -66,10 +67,6 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>ImageMosaic</string>
-    <string>GeoPackage (mosaic)</string>
-    <string>ArcGrid</string>
-    <string>MBTiles</string>
     <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
