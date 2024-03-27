@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-1691f5b0:18e7d242f16:-4390</id>
-  <name>TemperateAus_binomial_predicted_reef_RANGE</name>
-  <nativeName>TemperateAus_binomial_predicted_reef_RANGE</nativeName>
+  <id>CoverageInfoImpl-1691f5b0:18e7d242f16:7a44</id>
+  <name>TemperateAus_binomial_predicted_reef_ERROR</name>
+  <nativeName>TemperateAus_binomial_predicted_reef_ERROR</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Mean prediction of reef occurrence in temperate Australian waters</title>
+  <title>Interquartile range (IQR) of mean predictions of reef occurrence in temperate Australian waters</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>This multiband raster contains the mean posterior prediction of reef occurrence in temperate Australian waters (band 2), with 25% lower credible interval (band 1) and 75% upper credible interval (band 3) included for display in popups.</abstract>
+  <abstract>This raster contains the interquartile range (25-75%) of mean predictions of reef occurrence in temperate Australian waters.</abstract>
   <keywords>
-    <string>binomial_preds_reef_range_multi</string>
+    <string>binomial_preds_reef_error</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -39,13 +39,11 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">TemperateAus_broadscale_predicted_reef_RANGE_binomial_preds_reef_range_multi</entry>
+    <entry key="dirName">TemperateAus_broadscale_predicted_reef_ERROR_binomial_preds_reef_error</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-1691f5b0:18e7d242f16:-43c6</id>
+    <id>CoverageStoreInfoImpl-1691f5b0:18e7d242f16:7a43</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -68,6 +66,10 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
+    <string>ImageMosaic</string>
+    <string>GeoPackage (mosaic)</string>
+    <string>ArcGrid</string>
+    <string>MBTiles</string>
     <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
@@ -82,35 +84,7 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>LOWER</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>NaN</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
-      <name>MEAN</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>NaN</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
-      <name>UPPER</name>
+      <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -148,5 +122,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>binomial_preds_reef_range_multi</nativeCoverageName>
+  <nativeCoverageName>binomial_preds_reef_error</nativeCoverageName>
 </coverage>

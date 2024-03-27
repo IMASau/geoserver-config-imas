@@ -1,3 +1,12 @@
+        <div style="padding-top: 8px; padding-bottom:10px;">
+            <h5>Modelled mean probability of reef occurrence</h5>
+        </div>
+
+        <div class="feature"> 
+		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of reef occurring at this point.
+		<br>50th credible intervals for prediction shown as (lower 25% - upper 75%)</i></div>
+
+
 <#list features as feature>
 
     <!-- Extract values from the respective bands -->
@@ -20,7 +29,7 @@
                 <#else>
                     <!-- Display the meanValue and confidence interval -->
                     <div style="padding-bottom:1px;"> 
-                        <span>
+                        <span >
                             Reef likelihood: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
