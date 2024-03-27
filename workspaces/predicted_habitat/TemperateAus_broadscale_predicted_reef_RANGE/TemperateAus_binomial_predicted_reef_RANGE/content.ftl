@@ -8,11 +8,11 @@
     <#if (meanValue?is_number) && (meanValue>0)>
 
         <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of reef occurrence</h5>
+            <h5>Modelled mean probability of functional reef occurrence</h5>
         </div>
 
         <div class="feature"> 
-		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of reef occurring at this point.
+		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of functional reef occurring at this point.
 		<br>50th credible intervals for prediction shown as (lower 25% - upper 75%)</i>
 	</div>
 
@@ -25,13 +25,13 @@
                     <!-- Display message for low but non-zero value -->
                     <div style="padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
-                        <span style="margin-left: 3px;">Reef likelihood: <b>&lt;0.0001</b></span>
+                        <span style="margin-left: 3px;">Likelihood of <b>functional reef</b>: <b>&lt;0.0001</b></span>
                     </div>
                 <#else>
                     <!-- Display the meanValue and confidence interval -->
                     <div style="padding-bottom:1px;"> 
                         <span >
-                            Reef likelihood: <b>${meanValue?string("0.000")}</b>
+                            Likelihood of <b>functional reef</b>: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>

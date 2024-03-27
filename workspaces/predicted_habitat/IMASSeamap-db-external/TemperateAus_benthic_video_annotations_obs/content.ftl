@@ -6,13 +6,13 @@
         <#assign totalPoints = (feature.broad_binomial_points_annotated.value)?number!1>
         
         <#assign habitats = [
-            {"name": "Reef", "value": (feature.binomial_reef.value)?number!0, "color": "#815d4b"},
-            {"name": "Non-reef", "value": (feature.binomial_nonreef.value)?number!0, "color": "#ffd480"}
+            {"name": "Reef (functional)", "value": (feature.binomial_reef.value)?number!0, "color": "#815d4b"},
+            {"name": "Non-reef (shelf unvegetated sediment)", "value": (feature.binomial_nonreef.value)?number!0, "color": "#ffd480"}
         ]>
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
 
-        <h5 style="padding-top:20px; padding-bottom:10px;">Reef/non-reef observations<br>(annotated video)</h5>
+        <h5 style="padding-top:20px; padding-bottom:10px;">Obervations of functional reef<br>(annotated video)</h5>
 
         <div class="feature">
             <#list sortedHabitats as habitat>
