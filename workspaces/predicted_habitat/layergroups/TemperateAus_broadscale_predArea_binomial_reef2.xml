@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-1691f5b0:18e7d242f16:6445</id>
-  <name>TemperateAus_broadscale_predArea_binomial_reef</name>
+  <name>TemperateAus_broadscale_predArea_binomial_reef2</name>
   <mode>SINGLE</mode>
   <title>Predicted binomial probability of reef occurrence (temperate Australia) from broadscale multibeam data</title>
   <workspace>
@@ -38,5 +38,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-03-27 04:24:39.337 UTC</dateCreated>
-  <dateModified>2024-03-27 08:33:26.947 UTC</dateModified>
+  <dateModified>2024-03-27 10:00:48.774 UTC</dateModified>
 </layerGroup>
