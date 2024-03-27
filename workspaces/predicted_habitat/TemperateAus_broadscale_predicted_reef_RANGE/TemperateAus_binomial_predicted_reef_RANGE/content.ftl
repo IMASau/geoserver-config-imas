@@ -5,12 +5,13 @@
     <#assign meanValue = feature["MEAN"].value?number>
     <#assign upperInterval = feature["UPPER"].value?number>
 
-    <#if meanValue?is_number>
+    <#if (meanValue?is_number) && (meanValue>0)>
 
         <div class="feature" style="align-left"> 
             <div> 
+
                 <!-- Check if meanValue is within the specific range -->
-                <#if (meanValue < 0.0001) && (meanValue > 0)>
+                <#if meanValue < 0.0001>
                     <!-- Display message for low but non-zero value -->
                     <div style="padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
