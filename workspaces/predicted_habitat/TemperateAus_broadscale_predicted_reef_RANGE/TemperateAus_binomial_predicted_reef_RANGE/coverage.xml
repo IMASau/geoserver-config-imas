@@ -88,6 +88,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -99,6 +102,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -110,6 +116,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
