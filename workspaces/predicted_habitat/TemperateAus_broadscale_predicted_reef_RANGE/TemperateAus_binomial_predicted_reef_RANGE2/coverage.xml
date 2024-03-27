@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl-1691f5b0:18e7d242f16:-4390</id>
-  <name>TemperateAus_binomial_predicted_reef_RANGE1</name>
+  <name>TemperateAus_binomial_predicted_reef_RANGE2</name>
   <nativeName>TemperateAus_binomial_predicted_reef_RANGE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
@@ -87,6 +87,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -98,6 +101,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
@@ -109,6 +115,9 @@
         <min>-inf</min>
         <max>inf</max>
       </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
