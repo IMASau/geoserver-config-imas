@@ -14,8 +14,8 @@
               <ColorMapEntry color="#50a7da" quantity="0.001"/>                            
               <ColorMapEntry color="#8ec4e6" quantity="0.01"/> 
               <ColorMapEntry color="#fbb1a8" quantity="0.05"/>
-              <ColorMapEntry color="#f07062" quantity="0.15"/>              
-              <ColorMapEntry color="#a8281e" quantity="0.151"/>           
+              <ColorMapEntry color="#f07062" quantity="0.1"/>              
+              <ColorMapEntry color="#a8281e" quantity="0.2"/>           
           
             </ColorMap>
           </RasterSymbolizer>
@@ -25,8 +25,8 @@
           <RasterSymbolizer>
           <ColorMap type="ramp">              
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Error (interquartile range)"/>
-              <ColorMapEntry color="#a8281e" quantity="0.3" label=" >0.150"/>
-              <ColorMapEntry color="#f07062" quantity="0.1" label="   0.150"/>  
+              <ColorMapEntry color="#a8281e" quantity="0.3" label=" >0.200"/>
+              <ColorMapEntry color="#f07062" quantity="0.1" label="   0.100"/>  
               <ColorMapEntry color="#fbb1a8" quantity="0.05" label="   0.050"/> 
               <ColorMapEntry color="#8ec4e6" quantity="0.02" label="   0.010"/>
               <ColorMapEntry color="#50a7da" quantity="0.01" label="   0.001"/>
