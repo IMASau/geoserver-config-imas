@@ -34,36 +34,12 @@
             </Graphic>
             <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
-        </Rule>
+        </Rule>     
 
         <!-- Rule for Pie Chart at scale above 20000 but less than 500000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <ExternalGraphic>
-                <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * binomial_reef / broad_binomial_points_annotated},${100 * binomial_nonreef / broad_binomial_points_annotated}&amp;chco=815d4b,ffd480&amp;chf=bg,s,FFFFFF00" />
-                <Format>application/chart</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>23</ogc:Literal>
-              </Size>
-            </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
-        </Rule>        
-
-        <!-- Rule for Pie Chart at scale above 20000 but less than 500000 -->
-        <Rule>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		
+          <MaxScaleDenominator>450000</MaxScaleDenominator>		
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
