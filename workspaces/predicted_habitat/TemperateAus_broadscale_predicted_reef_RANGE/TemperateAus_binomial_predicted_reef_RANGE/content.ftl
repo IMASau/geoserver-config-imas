@@ -25,13 +25,13 @@
                     <!-- Display message for low but non-zero value -->
                     <div style="padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
-                        <span style="margin-left: 3px;">Likelihood of <b>functional reef</b>: <b>&lt;0.0001</b></span>
+                        <span style="margin-left: 3px;">Likelihood of functional reef: <b>&lt;0.0001</b></span>
                     </div>
                 <#else>
                     <!-- Display the meanValue and confidence interval -->
                     <div style="padding-bottom:1px;"> 
                         <span >
-                            Likelihood of <b>functional reef</b>: <b>${meanValue?string("0.000")}</b>
+                            Likelihood of functional reef: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>
