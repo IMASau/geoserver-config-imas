@@ -19,7 +19,7 @@
                 <#else>
                     <!-- Display the meanValue and confidence interval -->
                     <div style="padding-bottom:1px;"> 
-                        <span style="margin-left: 8px;">
+                        <span>
                             Reef likelihood: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
