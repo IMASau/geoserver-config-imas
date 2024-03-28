@@ -1,0 +1,16 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_habitat_RANGE</name>
+  <id>LayerInfoImpl-1691f5b0:18e82ada7ed:2f04</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e82ada7ed:2f03</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-28 06:20:43.279 UTC</dateCreated>
+</layer>
