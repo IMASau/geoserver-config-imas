@@ -1,0 +1,34 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_habitat_ERROR</name>
+  <id>LayerInfoImpl-1691f5b0:18e82ada7ed:-1f60</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e82ada7ed:-fb2</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2aa1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2a9f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2b08</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2aa0</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e82ada7ed:-fb2</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1691f5b0:18e82ada7ed:-1f61</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-03-28 04:35:13.669 UTC</dateCreated>
+  <dateModified>2024-03-28 04:57:28.58 UTC</dateModified>
+</layer>

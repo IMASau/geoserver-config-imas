@@ -3,11 +3,16 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Error in prediction (reef)</Name>
+    <Name>Error in prediction (sessile invertebrates)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <RasterSymbolizer>          
+          <RasterSymbolizer>
+            <ChannelSelection>
+              <GrayChannel>
+                <SourceChannelName>5</SourceChannelName> <!-- Band 5 is SESSILE INVERTEBRATES habitat -->
+              </GrayChannel>
+            </ChannelSelection>             
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0"/>   <!-- retain to deal with NaN -->           
               <ColorMapEntry color="#00619b" opacity="0.7" quantity="0.000000001"/>
@@ -22,7 +27,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>
         <Rule>
-          <RasterSymbolizer>
+          <RasterSymbolizer>            
           <ColorMap type="ramp">              
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Error (interquartile range)"/>
               <ColorMapEntry color="#a8281e" quantity="0.3" label=" >0.200"/>
@@ -40,3 +45,4 @@
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
+pr
