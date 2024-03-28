@@ -50,7 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Aus_EEZ_multires_bathy_mosaic_hillshade</entry>
@@ -172,7 +172,7 @@
     </entry>
     <entry>
       <string>SORTING</string>
-      <null/>
+      <string>location A</string>
     </entry>
     <entry>
       <string>FootprintBehavior</string>
