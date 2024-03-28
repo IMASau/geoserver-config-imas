@@ -12,8 +12,7 @@
         </div>
 
         <div class="feature"> 
-		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of functional reef occurring at this point.
-		<br>50th credible intervals for prediction shown as (lower 25% - upper 75%)</i>
+		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of functional reef occurring at this point.</i>
 	</div>
 
 
@@ -32,7 +31,6 @@
                     <div style="padding-bottom:1px;"> 
                         <span >
                             Likelihood of functional reef: <b>${meanValue?string("0.000")}</b>
-                            (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>
                 </#if>

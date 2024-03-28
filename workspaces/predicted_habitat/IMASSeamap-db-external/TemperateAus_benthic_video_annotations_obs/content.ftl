@@ -7,7 +7,7 @@
         
         <#assign habitats = [
             {"name": "Reef (functional)", "value": (feature.binomial_reef.value)?number!0, "color": "#815d4b"},
-            {"name": "Non-reef (shelf unvegetated sediments)", "value": (feature.binomial_nonreef.value)?number!0, "color": "#ffd480"}
+            {"name": "Non-reef (shelf sediments)", "value": (feature.binomial_nonreef.value)?number!0, "color": "#ffd480"}
         ]>
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
