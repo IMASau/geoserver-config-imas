@@ -41,7 +41,7 @@ This layer to be used in a layer group including predictions of the other 4 broa
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TemperateAus_broadscale_predicted_seagrass_RANGE_multinomial_preds_seagrass_range_multi</entry>

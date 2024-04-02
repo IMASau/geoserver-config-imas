@@ -1,0 +1,75 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-66607dc3:18e9d6d3359:352</id>
+  <name>TemperateAus_broadscale_predArea_multinomial_habitat</name>
+  <mode>SINGLE</mode>
+  <title>Predicted multinomial probability of habitat occurrence (temperate Australia) from broadscale multibeam data</title>
+  <abstractTxt>This layer group shows the prediction of 5 broad habitat classes (consolidated, unconsolidated, macroalgae, seagrass, sessile invertebrates) in temperate Australian waters. Band 2 contains the mean posterior prediction, with 25% lower credible interval (band 1) and 75% upper credible interval (band 3) included for display in popups.&#xd;
+&#xd;
+This layer to be used in a layer group including predictions of the other 4 broad habitat classes (consolidated, unconsolidated, seagrass, sessile invertebrates).</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e7d242f16:637b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-66607dc3:18e9d6d3359:340</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-66607dc3:18e9d6d3359:349</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-66607dc3:18e9d6d3359:34f</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-66607dc3:18e9d6d3359:34d</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-66607dc3:18e9d6d3359:34b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e7d242f16:681e</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c3893e71d:7de6</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--63c24095:18d97ca1b8f:6bcc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:6832</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>112.2151388888596</minx>
+    <maxx>150.0001388888253</maxx>
+    <miny>-44.13236083988841</miny>
+    <maxy>-23.99986083990669</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-02 21:35:04.433 UTC</dateCreated>
+</layerGroup>
