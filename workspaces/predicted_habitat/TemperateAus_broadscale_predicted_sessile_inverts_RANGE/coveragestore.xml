@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-66607dc3:18e9d6d3359:347</id>
+  <name>TemperateAus_broadscale_predicted_sessile_inverts_RANGE</name>
+  <description>Range (25% lower, mean, 75% upper credible intervals) prediction of sessile invertebrates occurrence in temperate Australia from a multinomial model</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-04-02 21:04:43.196 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/habitat5class_multinomial/ProbabilityOfOccurrence/means/byHabClass/multinomial_preds_sessile_inverts_range_multi.tif</url>
+</coverageStore>

@@ -1,0 +1,16 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_macroalgae_RANGE</name>
+  <id>LayerInfoImpl-66607dc3:18e9d6d3359:34d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--63c24095:18d97ca1b8f:6bcc</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-66607dc3:18e9d6d3359:34c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-02 21:10:02.201 UTC</dateCreated>
+</layer>

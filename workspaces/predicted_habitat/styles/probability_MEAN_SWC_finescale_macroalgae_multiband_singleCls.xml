@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-1691f5b0:18e73330b45:-4738</id>
-  <name>probability_MEAN_SWC_finescale_macroalgae_multiband</name>
+  <name>probability_MEAN_SWC_finescale_macroalgae_multiband_singleCls</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>probability_MEAN_SWC_finescale_macroalgae_multiband.sld</filename>
+  <filename>probability_MEAN_SWC_finescale_macroalgae_multiband_singleCls.sld</filename>
   <dateCreated>2024-03-25 03:39:27.938 UTC</dateCreated>
+  <dateModified>2024-04-02 21:12:13.837 UTC</dateModified>
 </style>

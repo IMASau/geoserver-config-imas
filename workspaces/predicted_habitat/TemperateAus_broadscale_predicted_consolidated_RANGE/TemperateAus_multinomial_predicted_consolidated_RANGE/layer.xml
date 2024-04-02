@@ -1,0 +1,16 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_consolidated_RANGE</name>
+  <id>LayerInfoImpl-66607dc3:18e9d6d3359:349</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fc</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-66607dc3:18e9d6d3359:348</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-02 21:09:57.401 UTC</dateCreated>
+</layer>
