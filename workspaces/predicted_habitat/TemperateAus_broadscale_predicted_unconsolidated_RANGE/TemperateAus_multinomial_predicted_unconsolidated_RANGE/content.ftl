@@ -6,7 +6,7 @@
     <#assign meanValue = feature["MEAN"].value?number>
     <#assign upperInterval = feature["UPPER"].value?number>
 
-    <#if (meanValue?is_number) && (meanValue>0)>
+    <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
         <div style="padding-top: 8px; padding-bottom:10px;">
             <h5>Modelled mean probability of habitat occurrence - temperate Aus</h5>
@@ -19,11 +19,11 @@
 
             <div style="display: flex; align-items: center;"> 
                 <!-- Check if meanValue is within the specific range -->
-                <#if meanValue < 0.0001>
+                <#if meanValue < 0.001>
                     <!-- Display message for low but non-zero value -->
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
-                        <span style="margin-left: 3px;">Bare unconsolidated substrata: <b>&lt;0.0001</b></span>
+                        <span style="margin-left: 3px;">Bare unconsolidated substrata: <b>&lt;0.001</b></span>
                     </div>
                 <#else>
                     <!-- Calculate bar width in pixels based on the percentage -->
