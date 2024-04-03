@@ -3,7 +3,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Probability of occurrence (reef)</Name>
+    <Name>Probability of occurrence (functional reef)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
@@ -37,7 +37,7 @@
               <GrayChannel>
               </GrayChannel>
             </ChannelSelection>            <ColorMap type="ramp">              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of reef"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability of functional reef"/>
               <ColorMapEntry color="#4e3c32" quantity="1" label=" 1.0"/>
               <ColorMapEntry color="#845f4d" quantity="0.9" label=" 0.9"/>            
               <ColorMapEntry color="#9b6641" quantity="0.8" label=" 0.8"/>  
