@@ -1,9 +1,9 @@
 <layer>
-  <name>TemperateAus_multinomial_predicted_habitat_ERROR</name>
+  <name>TemperateAus_multinomial_predicted_unconsolidated_ERROR</name>
   <id>LayerInfoImpl-1691f5b0:18e82ada7ed:-1f60</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl-1691f5b0:18e82ada7ed:-fb2</id>
+    <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2aa0</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
@@ -30,5 +30,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-03-28 04:35:13.669 UTC</dateCreated>
-  <dateModified>2024-04-02 23:32:56.352 UTC</dateModified>
+  <dateModified>2024-04-03 01:59:57.475 UTC</dateModified>
 </layer>

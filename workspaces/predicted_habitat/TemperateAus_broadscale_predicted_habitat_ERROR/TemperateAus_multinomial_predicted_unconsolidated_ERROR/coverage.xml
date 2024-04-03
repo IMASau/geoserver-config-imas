@@ -1,13 +1,15 @@
 <coverage>
   <id>CoverageInfoImpl-1691f5b0:18e82ada7ed:-1f61</id>
-  <name>TemperateAus_multinomial_predicted_habitat_ERROR</name>
+  <name>TemperateAus_multinomial_predicted_unconsolidated_ERROR</name>
   <nativeName>multinomial_preds_5class_standard_error</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Interquartile range (IQR) of mean predictions of habitat class occurrence in temperate Australian waters</title>
+  <title>Interquartile range (IQR) of mean predictions of bare unconsolidated substrata occurrence in temperate Australian waters</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>This raster contains 5 bands, each describing the interquartile range (25-75%) of error in the mean predictions of the occurrence of 5 habitat classes (bare consolidated, bare unconsolidated, seagrass, macroalgae, sessile invertebrates) in temperate Australian waters.</abstract>
+  <abstract>This raster contains 5 bands, each describing the interquartile range (25-75%) of error in the mean predictions of the occurrence of 5 habitat classes (bare consolidated, bare unconsolidated, seagrass, macroalgae, sessile invertebrates) in temperate Australian waters.&#xd;
+&#xd;
+This layer is styled according to the error for the BARE UNCONSOLIDATED SUBSTRATA class. See other layers for errors pertaining to other habitat classes.</abstract>
   <keywords>
     <string>multinomial_preds_5class_standard_error</string>
     <string>WCS</string>
