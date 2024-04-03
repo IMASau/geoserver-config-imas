@@ -1,20 +1,25 @@
-        <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Error in broad habitat prediction</h5>
+        <div style="padding-top: 5px; padding-bottom:10px;">
+            <h5>Error in prediction of bare unconsolidated substrata </h5>
         </div>
 
         <div class="feature"> 
-		<div style = "padding-bottom:10px"><i>Interquartile range (25-75%) of predictions of broad habitat occurring at this point.</i></div>
-
 
 <#list features as feature>
-    <#assign numeric=feature.GRAY_INDEX.value?number>
+
+    <!-- Extract values from the respective bands -->
+    <#assign consolidated = feature["CONSOLIDATED"].value?number>
+    <#assign macroalgae = feature["MACROALGAE"].value?number>
+    <#assign seagrass = feature["SEAGRASS"].value?number>
+    <#assign sessile_inverts = feature["SESSILE_INVERTS"].value?number>
+    <#assign unconsolidated = feature["UNCONSOLIDATED"].value?number>
 
 
-    <#if (numeric?is_number) && (numeric>0)>
+
+    <#if (unconsolidated?is_number) && (unconsolidated>0) && (!unconsolidated?is_nan)>
 
         <div class="feature" style="align-left" padding-bottom:1px"> 
                         <span >
-                            Interquartile range: <b>${numeric?string("0.000")}</b>
+                            Interquartile range (25-75% of predictions): <b>${unconsolidated?string("0.000")}</b>
                         </span>
 
         </div>
