@@ -9,7 +9,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Binary reef/non-reef scoring from downward-facing seafloor video</Name>
+    <Name>Binary scoring of functional reef/non-reef from downward-facing seafloor video</Name>
     
     <UserStyle>
       <FeatureTypeStyle>

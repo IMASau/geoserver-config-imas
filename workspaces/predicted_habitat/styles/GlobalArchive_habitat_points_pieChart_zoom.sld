@@ -15,10 +15,10 @@
       <FeatureTypeStyle>
         
 
-        <!-- Rule for Pie Chart at scale above 20000 but less than 100000 -->
+        <!-- Rule for Pie Chart at scale above 20000 but less than 550000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>			                    
+          <MaxScaleDenominator>550000</MaxScaleDenominator>				                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -32,7 +32,7 @@
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>22</ogc:Literal>
               </Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>

@@ -1,0 +1,25 @@
+<layer>
+  <name>TemperateAus_benthic_video_habitat_annotations_obs</name>
+  <id>LayerInfoImpl-66607dc3:18ea12b078c:4a79</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e7d242f16:682c</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:682c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-66607dc3:18ea12b078c:4a78</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-03 00:08:01.833 UTC</dateCreated>
+  <dateModified>2024-04-03 00:23:15.637 UTC</dateModified>
+</layer>

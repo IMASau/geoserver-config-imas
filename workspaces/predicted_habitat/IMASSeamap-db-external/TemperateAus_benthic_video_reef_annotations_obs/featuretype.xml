@@ -1,12 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl-1691f5b0:18e7d242f16:681d</id>
-  <name>TemperateAus_benthic_video_annotations_obs</name>
+  <name>TemperateAus_benthic_video_reef_annotations_obs</name>
   <nativeName>SeamapAus_NAT_predictedHab_temperateAus_obs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Benthic annotations from video observations in temperate Australia - extract from GlobalArchive</title>
-  <abstract>This dataset is an extract from GlobalArchive (https://globalarchive.org/) of publicly available benthic habitat annotations from stereo-BRUV drops in temperate Australia. These validation points were used as inputs to predicted benthic habitat mapping for this region. This layer has been created for use in a layer package in combination with habitat models. GlobalArchive should be used for download access, and to view more data for the region.</abstract>
+  <title>Benthic annotations of functional reef from video observations in temperate Australia - extract from GlobalArchive</title>
+  <abstract>This dataset is an extract from GlobalArchive (https://globalarchive.org/) of publicly available benthic habitat annotations from stereo-BRUV drops in temperate Australia. This layer is styled according to functional reef / non-reef only. These validation points were used as inputs to predicted benthic habitat mapping for this region. This layer has been created for use in a layer package in combination with habitat models. GlobalArchive should be used for download access, and to view more data for the region.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_NAT_predictedHab_temperateAus_obs</string>
@@ -37,6 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

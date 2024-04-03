@@ -1,5 +1,5 @@
 <layer>
-  <name>TemperateAus_benthic_video_annotations_obs</name>
+  <name>TemperateAus_benthic_video_reef_annotations_obs</name>
   <id>LayerInfoImpl-1691f5b0:18e7d242f16:681e</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -8,6 +8,9 @@
   <styles class="linked-hash-set">
     <style>
       <id>StyleInfoImpl-1691f5b0:18e7d242f16:682e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:6832</id>
     </style>
   </styles>
   <resource class="featureType">
@@ -18,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-03-27 05:17:08.564 UTC</dateCreated>
-  <dateModified>2024-03-27 05:31:54.706 UTC</dateModified>
+  <dateModified>2024-04-03 00:05:43.684 UTC</dateModified>
 </layer>
