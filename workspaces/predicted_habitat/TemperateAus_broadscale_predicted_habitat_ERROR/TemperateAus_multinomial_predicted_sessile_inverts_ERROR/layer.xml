@@ -1,0 +1,16 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_sessile_inverts_ERROR</name>
+  <id>LayerInfoImpl-66607dc3:18ea17a19b8:5f96</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2b08</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-66607dc3:18ea17a19b8:5f95</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-03 02:33:00.943 UTC</dateCreated>
+</layer>

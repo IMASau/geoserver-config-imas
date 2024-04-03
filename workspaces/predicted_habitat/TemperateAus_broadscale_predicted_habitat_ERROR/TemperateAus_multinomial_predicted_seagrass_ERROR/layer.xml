@@ -1,0 +1,16 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_seagrass_ERROR</name>
+  <id>LayerInfoImpl-66607dc3:18ea17a19b8:5f94</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2a9f</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-66607dc3:18ea17a19b8:5f93</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-03 02:32:47.838 UTC</dateCreated>
+</layer>

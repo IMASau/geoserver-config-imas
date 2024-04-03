@@ -1,0 +1,16 @@
+<layer>
+  <name>TemperateAus_multinomial_predicted_consolidated_ERROR</name>
+  <id>LayerInfoImpl-66607dc3:18ea17a19b8:5f90</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e82ada7ed:2aa1</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-66607dc3:18ea17a19b8:5f8f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-03 02:32:01.712 UTC</dateCreated>
+</layer>
