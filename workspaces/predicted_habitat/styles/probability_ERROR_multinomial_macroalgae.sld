@@ -3,14 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Error in prediction (consolidated)</Name>
+    <Name>Error in prediction (macroalgae)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>4</SourceChannelName> <!-- Band 4 is CONSOLIDATED habitat -->
+                <SourceChannelName>1</SourceChannelName> <!-- Band 4 is MACROALGAE habitat -->
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">
