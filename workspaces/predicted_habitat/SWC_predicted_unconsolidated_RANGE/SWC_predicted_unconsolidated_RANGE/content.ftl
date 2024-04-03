@@ -9,7 +9,7 @@
     <#if meanValue?is_number>
 
         <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of habitat occurrence [broadscale]</h5>
+            <h5>Modelled mean probability of habitat occurrence [SWC broadscale]</h5>
         </div>
 
         <div class="feature"> 
@@ -30,8 +30,8 @@
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: #ffee00;"></div>
                         <span style="margin-left: 8px;">
-                            Bare unconsolidated substrata: <b>${meanValue?string("0.00")}</b>
-                            (<i>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</i>)
+                            Bare unconsolidated substrata: <b>${meanValue?string("0.000")}</b>
+                            (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>
                 </#if>

@@ -23,8 +23,8 @@
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: #2d9624;"></div>
                         <span style="margin-left: 8px;">
-                            Macroalgae: <b>${meanValue?string("0.00")}</b>
-                            (<i>${lowerInterval?string("0.##")} - ${upperInterval?string("0.##")}</i>)
+                            Macroalgae: <b>${meanValue?string("0.000")}</b>
+                            (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>
                 </#if>
