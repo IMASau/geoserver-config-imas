@@ -39,6 +39,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TemperateAus_broadscale_predicted_habitat_ERROR_multinomial_preds_5class_standard_error</entry>
