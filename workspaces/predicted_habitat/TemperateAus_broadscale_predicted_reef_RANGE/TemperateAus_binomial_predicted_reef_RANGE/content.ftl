@@ -8,7 +8,7 @@
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
         <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of functional reef occurrence - temperate Aus</h5>
+            <h5>Modelled mean probability of functional reef occurrence [Temperate Aus]</h5>
         </div>
 
         <div class="feature"> 
