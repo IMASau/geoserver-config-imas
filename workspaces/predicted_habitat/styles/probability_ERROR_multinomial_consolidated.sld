@@ -14,8 +14,7 @@
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">
-              <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0"/>   <!-- retain to deal with NaN -->           
-              <ColorMapEntry color="#00619b" opacity="0.7" quantity="0.000000001"/>
+              <ColorMapEntry color="#00619b" opacity="0.7" quantity="0"/>
               <ColorMapEntry color="#50a7da" opacity="0.8" quantity="0.001"/>                            
               <ColorMapEntry color="#8ec4e6" opacity="0.9" quantity="0.01"/> 
               <ColorMapEntry color="#fbb1a8" quantity="0.05"/>
