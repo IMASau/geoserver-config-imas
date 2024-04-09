@@ -1,17 +1,17 @@
 <layer>
   <name>CSIRO_EconomicFeasibility_CarbonAbatement_byState_cp65</name>
-  <id>LayerInfoImpl-113599b8:18c6b58b372:-240d</id>
+  <id>LayerInfoImpl-5e9bd345:18ec15dcc23:648d</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-113599b8:18c69125ee5:391c</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-113599b8:18c6b58b372:-240e</id>
+    <id>FeatureTypeInfoImpl-5e9bd345:18ec15dcc23:648c</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-12-15 05:31:29.474 UTC</dateCreated>
-  <dateModified>2024-02-21 12:57:28.374 UTC</dateModified>
+  <dateCreated>2024-04-09 13:56:16.795 UTC</dateCreated>
+  <dateModified>2024-04-09 13:59:59.346 UTC</dateModified>
 </layer>

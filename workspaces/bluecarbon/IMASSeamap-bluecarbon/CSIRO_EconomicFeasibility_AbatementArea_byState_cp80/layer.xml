@@ -1,17 +1,17 @@
 <layer>
   <name>CSIRO_EconomicFeasibility_AbatementArea_byState_cp80</name>
-  <id>LayerInfoImpl-113599b8:18c69125ee5:1b9a</id>
+  <id>LayerInfoImpl-5e9bd345:18ec15dcc23:645e</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-113599b8:18c6672d209:1be4</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-113599b8:18c69125ee5:1b99</id>
+    <id>FeatureTypeInfoImpl-5e9bd345:18ec15dcc23:645d</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-12-14 19:57:15.292 UTC</dateCreated>
-  <dateModified>2023-12-14 20:22:37.711 UTC</dateModified>
+  <dateCreated>2024-04-09 13:40:20.944 UTC</dateCreated>
+  <dateModified>2024-04-09 13:49:29.735 UTC</dateModified>
 </layer>
