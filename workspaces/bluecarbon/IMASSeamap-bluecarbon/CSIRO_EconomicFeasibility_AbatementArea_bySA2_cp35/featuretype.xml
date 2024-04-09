@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-113599b8:18c66091da3:-4533</id>
+  <id>FeatureTypeInfoImpl-5e9bd345:18ec15dcc23:63f3</id>
   <name>CSIRO_EconomicFeasibility_AbatementArea_bySA2_cp35</name>
   <nativeName>CSIRO_BlueCarbon_EconomicFeasibility_bySA2</nativeName>
   <namespace>
@@ -22,33 +22,46 @@ This layer shows the potential area of carbon abatement under a $35 per tonne CO
     <string>features</string>
     <string>CSIRO_BlueCarbon_EconomicFeasibility_bySA2</string>
   </keywords>
-  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
-  DATUM[&quot;World Geodetic System 1984&quot;, 
-    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-  UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Geodetic longitude&quot;, EAST], 
-  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Albers_Conic_Equal_Area&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9822&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 132.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3577&quot;]]</nativeCRS>
+  <srs>EPSG:3577</srs>
   <nativeBoundingBox>
-    <minx>112.92111395199998</minx>
-    <maxx>153.638727008</maxx>
-    <miny>-43.598215002999964</miny>
-    <maxy>-10.998523271500014</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-1887432.303366708</minx>
+    <maxx>2121654.14225212</maxx>
+    <miny>-4836157.7218734445</miny>
+    <maxy>-1203221.5008201194</maxy>
+    <crs class="projected">EPSG:3577</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.92111395199998</minx>
-    <maxx>153.638727008</maxx>
-    <miny>-43.598215002999964</miny>
-    <maxy>-10.998523271500014</maxy>
+    <minx>109.52102869361006</minx>
+    <maxx>157.20052899990716</maxx>
+    <miny>-44.26723230934873</miny>
+    <maxy>-9.980541536924337</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -59,6 +72,7 @@ This layer shows the potential area of carbon abatement under a $35 per tonne CO
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>dr=4 AND ec=1000 AND ac=100</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

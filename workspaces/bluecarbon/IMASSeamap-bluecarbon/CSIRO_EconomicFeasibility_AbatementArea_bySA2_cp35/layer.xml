@@ -1,17 +1,17 @@
 <layer>
   <name>CSIRO_EconomicFeasibility_AbatementArea_bySA2_cp35</name>
-  <id>LayerInfoImpl-113599b8:18c66091da3:-4532</id>
+  <id>LayerInfoImpl-5e9bd345:18ec15dcc23:63f4</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+    <id>StyleInfoImpl-113599b8:18c6505f559:-7ef6</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-113599b8:18c66091da3:-4533</id>
+    <id>FeatureTypeInfoImpl-5e9bd345:18ec15dcc23:63f3</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-12-14 02:17:12.624 UTC</dateCreated>
-  <dateModified>2024-04-09 11:59:23.206 UTC</dateModified>
+  <dateCreated>2024-04-09 12:07:27.365 UTC</dateCreated>
+  <dateModified>2024-04-09 12:24:42.103 UTC</dateModified>
 </layer>

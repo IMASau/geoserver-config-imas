@@ -8,7 +8,7 @@
 	<BR>
 	<div class="feature" style="padding-bottom:5px; line-height: 1.6;"> 
 		Maximum potential area of CO&#8322; abatement: <b>${hectares} hectares</b>
-		<br><i>Statistical area ${feature.sa2int.value} (${feature.STE_NAME11.value})</i>
+		<br><i>Statistical area ${feature.sa2int.value?c} (${feature.STE_NAME11.value})</i>
 		<BR>
 	</div>		
   </#if>

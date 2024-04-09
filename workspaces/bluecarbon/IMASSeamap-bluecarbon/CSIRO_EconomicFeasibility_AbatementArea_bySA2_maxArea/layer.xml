@@ -1,16 +1,17 @@
 <layer>
   <name>CSIRO_EconomicFeasibility_AbatementArea_bySA2_maxArea</name>
-  <id>LayerInfoImpl-113599b8:18c66091da3:-4526</id>
+  <id>LayerInfoImpl-5e9bd345:18ec15dcc23:6400</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-113599b8:18c61410f37:-e41</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-113599b8:18c66091da3:-4527</id>
+    <id>FeatureTypeInfoImpl-5e9bd345:18ec15dcc23:63ff</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-12-14 02:17:45.129 UTC</dateCreated>
+  <dateCreated>2024-04-09 12:16:47.750 UTC</dateCreated>
+  <dateModified>2024-04-09 12:27:51.85 UTC</dateModified>
 </layer>
