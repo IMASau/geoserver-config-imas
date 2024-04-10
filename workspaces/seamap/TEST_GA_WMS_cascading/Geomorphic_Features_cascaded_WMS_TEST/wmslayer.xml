@@ -1,0 +1,50 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl-5e9bd345:18ec66108eb:6d8f</id>
+  <name>Geomorphic_Features_cascaded_WMS_TEST</name>
+  <nativeName>Geomorphic_Features</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Geomorphic Features</title>
+  <description>The Geomorphic Features of Australia’s Marine Jurisdiction web service brings together various datasets produced by Geoscience Australia that describe the distribution and types of geomorphic features found on the seabed of Australia’s marine jurisdiction. This jurisdiction covers Australia’s Exclusive Economic Zone, including offshore islands and territories. Geomorphic features have been identified using the best available bathymetric data with features generally mapped at a scale of 1:5 000 000.</description>
+  <abstract>The Geomorphic Features of Australia’s Marine Jurisdiction web service brings together various datasets produced by Geoscience Australia that describe the distribution and types of geomorphic features found on the seabed of Australia’s marine jurisdiction. This jurisdiction covers Australia’s Exclusive Economic Zone, including offshore islands and territories. Geomorphic features have been identified using the best available bathymetric data with features generally mapped at a scale of 1:5 000 000.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>93.412315</minx>
+    <maxx>171.801102</maxx>
+    <miny>-60.923248</miny>
+    <maxy>-8.472063</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>93.412315</minx>
+    <maxx>171.801102</maxx>
+    <miny>-60.923248</miny>
+    <maxy>-8.472063</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="OTHER_SRS">EPSG:4283,EPSG:4326,CRS:84,EPSG:3857,EPSG:28348,EPSG:28349,EPSG:28350,EPSG:28351,EPSG:28352,EPSG:28353,EPSG:28354,EPSG:28355,EPSG:28356,EPSG:28357,EPSG:28358,EPSG:32748,EPSG:32749,EPSG:32750,EPSG:32751,EPSG:32752,EPSG:32753,EPSG:32754,EPSG:32755,EPSG:32756,EPSG:32757,EPSG:32758,EPSG:3031,EPSG:3032,EPSG:102100</entry>
+  </metadata>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl-5e9bd345:18ec66108eb:5e87</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <forcedRemoteStyle></forcedRemoteStyle>
+  <preferredFormat>image/png</preferredFormat>
+  <metadataBBoxRespected>false</metadataBBoxRespected>
+</wmsLayer>

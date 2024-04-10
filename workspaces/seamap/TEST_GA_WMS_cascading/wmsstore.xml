@@ -1,0 +1,21 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl-5e9bd345:18ec66108eb:5e87</id>
+  <name>TEST_GA_WMS_cascading</name>
+  <description>Testing the cascading WMS capabilities of ESRI MapServer endpoint</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-04-10 06:24:20.251 UTC</dateCreated>
+  <dateModified>2024-04-10 06:25:07.35 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <capabilitiesURL>https://services.ga.gov.au/gis/services/Marine_Geomorphic_Features/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>
