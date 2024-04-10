@@ -34,8 +34,10 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="OTHER_SRS">EPSG:4283,EPSG:4326,CRS:84,EPSG:3857,EPSG:28348,EPSG:28349,EPSG:28350,EPSG:28351,EPSG:28352,EPSG:28353,EPSG:28354,EPSG:28355,EPSG:28356,EPSG:28357,EPSG:28358,EPSG:32748,EPSG:32749,EPSG:32750,EPSG:32751,EPSG:32752,EPSG:32753,EPSG:32754,EPSG:32755,EPSG:32756,EPSG:32757,EPSG:32758,EPSG:3031,EPSG:3032,EPSG:102100</entry>
+    <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="wmsStore">
     <id>WMSStoreInfoImpl-5e9bd345:18ec66108eb:5e87</id>
@@ -47,4 +49,22 @@
   <forcedRemoteStyle></forcedRemoteStyle>
   <preferredFormat>image/png</preferredFormat>
   <metadataBBoxRespected>false</metadataBBoxRespected>
+  <allAvailableRemoteStyles>
+    <style>
+      <name>default</name>
+      <format>sld</format>
+      <languageVersion>
+        <version>1.0.0</version>
+      </languageVersion>
+      <legend>
+        <width>20</width>
+        <height>20</height>
+        <format>image/png</format>
+        <onlineResource>https://getcaps.gis.ga.gov.au/Marine_Geomorphic_Features/Marine_Geomorphic_Features_legend.png</onlineResource>
+      </legend>
+      <metadata>
+        <entry key="isRemote">true</entry>
+      </metadata>
+    </style>
+  </allAvailableRemoteStyles>
 </wmsLayer>
