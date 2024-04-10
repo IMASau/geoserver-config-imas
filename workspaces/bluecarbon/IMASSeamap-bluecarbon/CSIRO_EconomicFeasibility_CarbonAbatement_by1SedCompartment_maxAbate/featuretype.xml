@@ -75,6 +75,7 @@ This layer shows the maximum potential annual tonnage of carbon abatement.</abst
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>dr=4 AND ec=1000 AND ac=100</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

@@ -75,6 +75,7 @@ This layer shows the annual tonnage of carbon abatement under a $50 per tonne CO
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>dr=4 AND ec=1000 AND ac=100</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
