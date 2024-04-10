@@ -8,9 +8,9 @@
   <title>Economically feasible area of carbon abatement by SA2: carbon price $65/tCO2 (CSIRO/BHP)</title>
   <abstract>Modelled economically feasible 25-year annual average carbon abatement (tCO2) and areas of carbon abatement (ha) for four carbon prices ($), aggregated by Statistical Area 2 (2011) for agricultural land. SA2 is clipped to 100km inland from coastline. Includes modelled maximum potential abatement and area.&#xd;
 &#xd;
-Data is reported for three different scenario variables, each with 2-4 settings:&#xd;
+Data is reported for three different scenario variables, each with 2-5 settings:&#xd;
  • discount rate for net present value (4%, 7%)&#xd;
- • establishment costs per hectare ($1000, $2000, $4000, $6000)&#xd;
+ • establishment costs per hectare ($1000, $2000, $4000, $6000, $8000, $10000)&#xd;
  • 5-yearly costs per hectare ($100, $200, $300)&#xd;
 &#xd;
 CQL filters have been used to restrict the presented data to the following scenario settings: discount rate (dr) = 4%, establishment cost (ec) = $1000, cost per hectare (ac) = $100.&#xd;
@@ -68,7 +68,11 @@ This layer shows the potential area of carbon abatement under a $65 per tonne CO
   <store class="dataStore">
     <id>DataStoreInfoImpl-113599b8:18c66091da3:-453a</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WPS</string>
+    <string>WFS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
