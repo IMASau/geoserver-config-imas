@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-5e9bd345:18ec6b1d4e2:-6884</id>
-  <name>CSIRO_EconomicFeasibility_AbatementArea_by1SedCompartment_cp65</name>
+  <id>FeatureTypeInfoImpl-5e9bd345:18ec6b1d4e2:-65ee</id>
+  <name>CSIRO_EconomicFeasibility_CarbonAbatement_by1SedCompartment_cp80</name>
   <nativeName>CSIRO_BlueCarbon_EconomicFeasibility_byPrimaryCompartment</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-113599b8:18c66091da3:-453b</id>
   </namespace>
-  <title>Economically feasible area of carbon abatement by Primary Coastal Sediment Compartment: carbon price $65/tCO2 (CSIRO/BHP)</title>
+  <title>Economically feasible annual carbon abatement by Primary Coastal Sediment Compartment: carbon price $80/tCO2 (CSIRO/BHP)</title>
   <abstract>Modelled economically feasible 25-year annual average carbon abatement (tCO2) and areas of carbon abatement (ha) for four carbon prices ($), aggregated by Primary Coastal Sediment Compartment. Includes modelled maximum potential abatement and area.&#xd;
 &#xd;
 Data is reported for three different scenario variables, each with 2-5 settings:&#xd;
@@ -17,7 +17,7 @@ CQL filters have been used to restrict the presented data to the following scena
 &#xd;
 Carbon prices per tCO2 presented are $35, $50, $60, $80 (cp35_tCO2... cp80_tCO2), with corresponding potential area of abatement per CO2 price scenario (cp35_ha.... cp80_ha). Maximum potential 25-year annual average abatement (max_abate) and maximum potential abatement area (max_area) also shown.&#xd;
 &#xd;
-This layer shows the potential area of carbon abatement under a $65 per tonne CO2 scenario.</abstract>
+This layer shows the annual tonnage of carbon abatement under a $80 per tonne CO2 scenario.</abstract>
   <keywords>
     <string>features</string>
     <string>CSIRO_BlueCarbon_EconomicFeasibility_byPrimaryCompartment</string>
@@ -61,7 +61,6 @@ This layer shows the potential area of carbon abatement under a $65 per tonne CO
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -76,7 +75,6 @@ This layer shows the potential area of carbon abatement under a $65 per tonne CO
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>dr=4 AND ec=1000 AND ac=100</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
