@@ -22,11 +22,11 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &lt; 300 tCO2</Title>
+          <Title>    &lt; 40,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
-             <ogc:Literal>300</ogc:Literal>
+             <ogc:Literal>40000</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -41,15 +41,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    300 - 3,500</Title>
+          <Title>    40,00 - 150,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>300</ogc:Literal>
+                <ogc:Literal>40000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>3500</ogc:Literal>
+                <ogc:Literal>150000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -66,15 +66,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    3,500 - 14,000</Title>
+          <Title>    150,000 - 300,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>3500</ogc:Literal>
+                <ogc:Literal>150000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>14000</ogc:Literal>
+                <ogc:Literal>600000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -91,15 +91,15 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    14,000 - 33,000</Title>
+          <Title>    300,000 - 600,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>14000</ogc:Literal>
+                <ogc:Literal>300000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>33000</ogc:Literal>
+                <ogc:Literal>600000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -116,15 +116,15 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    33,000 - 85,000</Title>
+          <Title>    600,000 - 1,900,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>33000</ogc:Literal>
+                <ogc:Literal>600000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>85000</ogc:Literal>
+                <ogc:Literal>1900000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -141,11 +141,11 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 85,000 tCO2</Title>
+          <Title>    &gt; 1,900,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>cp50_tCO2</ogc:PropertyName>
-             <ogc:Literal>85000</ogc:Literal>
+             <ogc:Literal>1900000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -158,7 +158,7 @@
                 <CssParameter name="stroke-width">0.01</CssParameter>               
              </Stroke>             
           </PolygonSymbolizer>
-        </Rule>
+        </Rule> 
      </FeatureTypeStyle>
     </UserStyle>
     </NamedLayer>
