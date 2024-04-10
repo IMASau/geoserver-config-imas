@@ -41,7 +41,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    100 - 3,000</Title>
+          <Title>    100 - 500</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_abate</ogc:PropertyName>
@@ -49,7 +49,7 @@
                 <ogc:Literal>100</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>3000</ogc:Literal>
+                <ogc:Literal>500</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -66,15 +66,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    3,000 - 24,000</Title>
+          <Title>    500 - 6,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>3000</ogc:Literal>
+                <ogc:Literal>500</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>24000</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -91,15 +91,15 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    24,000 - 600,000</Title>
+          <Title>    6,000 - 120,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>24000</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>600000</ogc:Literal>
+                <ogc:Literal>120000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -116,15 +116,15 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    600,000 - 3,000,000</Title>
+          <Title>    120,000 - 1,500,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>600000</ogc:Literal>
+                <ogc:Literal>120000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>3000000</ogc:Literal>
+                <ogc:Literal>1500000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -141,11 +141,11 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 3,000,000 tCO2</Title>
+          <Title>    &gt; 1,500,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>max_abate</ogc:PropertyName>
-             <ogc:Literal>4000000</ogc:Literal>
+             <ogc:Literal>1500000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
