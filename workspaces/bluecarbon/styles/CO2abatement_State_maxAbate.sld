@@ -91,7 +91,7 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    2,000,000 - 12,000,000</Title>
+          <Title>    2,000,000 - 6,000,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_abate</ogc:PropertyName>
@@ -99,7 +99,7 @@
                 <ogc:Literal>2000000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>12000000</ogc:Literal>
+                <ogc:Literal>6000000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -116,15 +116,15 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    12,000,000 - 20,000,000</Title>
+          <Title>    6,000,000 - 14,000,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>max_abate</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>12000000</ogc:Literal>
+                <ogc:Literal>6000000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>20000000</ogc:Literal>
+                <ogc:Literal>14000000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -141,11 +141,11 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 20,000,000 tCO2</Title>
+          <Title>    &gt; 14,000,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>max_abate</ogc:PropertyName>
-             <ogc:Literal>20000000</ogc:Literal>
+             <ogc:Literal>14000000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
