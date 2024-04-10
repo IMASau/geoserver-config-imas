@@ -1,0 +1,17 @@
+<layer>
+  <name>CSIRO_EconomicFeasibility_AbatementArea_by1SedCompartment_cp50</name>
+  <id>LayerInfoImpl-5e9bd345:18ec6b1d4e2:-6885</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5e9bd345:18ec6b1d4e2:-6863</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5e9bd345:18ec6b1d4e2:-6886</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-10 11:33:40.721 UTC</dateCreated>
+  <dateModified>2024-04-10 11:53:54.450 UTC</dateModified>
+</layer>
