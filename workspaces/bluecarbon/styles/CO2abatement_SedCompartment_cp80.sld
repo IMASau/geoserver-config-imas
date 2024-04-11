@@ -66,7 +66,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    2,000 - 20,000</Title>
+          <Title>    2,000 - 50,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
@@ -74,7 +74,7 @@
                 <ogc:Literal>2000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>20000</ogc:Literal>
+                <ogc:Literal>50000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -91,15 +91,15 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    20,000 - 300,000</Title>
+          <Title>    50,000 - 500,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>20000</ogc:Literal>
+                <ogc:Literal>50000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>300000</ogc:Literal>
+                <ogc:Literal>500000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -116,12 +116,12 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    300,000 - 3,000,000</Title>
+          <Title>    500,000 - 3M</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>300000</ogc:Literal>
+                <ogc:Literal>500000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
                 <ogc:Literal>3000000</ogc:Literal>
@@ -141,7 +141,7 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 3,000,000 tCO2</Title>
+          <Title>    &gt; 3M tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>cp80_tCO2</ogc:PropertyName>
