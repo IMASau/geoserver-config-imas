@@ -1,8 +1,8 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-1691f5b0:18e6fee13d7:411</id>
-  <name>Aus_bathymetry_composite_EEZ_multires</name>
+  <id>LayerGroupInfoImpl-5e9bd345:18ed09f5c55:-73d0</id>
+  <name>Aus_bathymetry_composite_EEZ_multires_shallow</name>
   <mode>NAMED</mode>
-  <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ</title>
+  <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ - style optimised for shelf (shallow) waters</title>
   <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
@@ -22,7 +22,7 @@
       <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
     </style>
     <style>
-      <id>StyleInfoImpl--227ee776:1818c8f7268:4e9a</id>
+      <id>StyleInfoImpl-5e9bd345:18ecf40bfab:2ede</id>
     </style>
   </styles>
   <bounds>
@@ -32,6 +32,6 @@
     <maxy>-884350.3598288503</maxy>
     <crs class="projected">EPSG:9473</crs>
   </bounds>
-  <dateCreated>2024-03-24 11:22:09.485 UTC</dateCreated>
-  <dateModified>2024-04-12 04:57:37.538 UTC</dateModified>
+  <dateCreated>2024-04-12 04:53:43.761 UTC</dateCreated>
+  <dateModified>2024-04-12 04:57:42.725 UTC</dateModified>
 </layerGroup>
