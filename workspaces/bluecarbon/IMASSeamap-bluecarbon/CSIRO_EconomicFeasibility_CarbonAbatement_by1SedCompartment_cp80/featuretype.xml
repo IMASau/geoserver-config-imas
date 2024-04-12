@@ -61,6 +61,7 @@ This layer shows the annual tonnage of carbon abatement under a $80 per tonne CO
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

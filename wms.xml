@@ -60,7 +60,7 @@
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>1000000000</maxRequestMemory>
+  <maxRequestMemory>1000000</maxRequestMemory>
   <maxRenderingTime>180</maxRenderingTime>
   <maxRenderingErrors>100</maxRenderingErrors>
   <internationalRootLayerTitle/>
