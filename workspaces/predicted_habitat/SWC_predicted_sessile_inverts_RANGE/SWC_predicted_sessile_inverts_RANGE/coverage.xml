@@ -7,6 +7,7 @@
   </namespace>
   <title>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of sessile invertebrates in South-west Corner</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>To be used for layer group only.</abstract>
   <keywords>
     <string>sessile_inverts_range_multi</string>
     <string>WCS</string>
@@ -39,7 +40,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SWC_predicted_sessile_inverts_RANGE_sessile_inverts_range_multi</entry>

@@ -40,7 +40,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SWC_predicted_seagrass_RANGE_seagrass_range_multi</entry>
@@ -124,20 +124,20 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
     </entry>
   </parameters>
   <nativeCoverageName>seagrass_range_multi</nativeCoverageName>
