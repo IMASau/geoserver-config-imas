@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
   <title>Outer boundary of area in which predicted habitat has been modelled for South-west Corner marine park from broad-scale 250m bathymetry grid</title>
-  <abstract>For use in layer group only - not to be published</abstract>
+  <abstract>For use in layer group only.</abstract>
   <keywords>
     <string>features</string>
     <string>BOUNDARY_predictedHab_SWCorner</string>
@@ -51,7 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
