@@ -1,5 +1,5 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--63c24095:18d97ca1b8f:7376</id>
+  <id>LayerGroupInfoImpl-5e9bd345:18ed7dc64e3:-2b21</id>
   <name>SWC_predArea_consolidated_uncert_P2</name>
   <mode>SINGLE</mode>
   <title>Predicted habitat (South-west Corner marine park) - consolidated - probability of occurrence &gt;0.1</title>
@@ -38,5 +38,5 @@
     <maxy>-33.40581884620012</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2024-02-12 01:26:46.162 UTC</dateCreated>
+  <dateCreated>2024-04-13 21:47:20.593 UTC</dateCreated>
 </layerGroup>
