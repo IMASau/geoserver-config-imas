@@ -42,7 +42,7 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
-  <enabled>true</enabled>
+  <enabled>false</enabled>
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>

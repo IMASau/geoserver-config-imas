@@ -1,5 +1,5 @@
 <layer>
-  <name>Aus_bathy_grid_250m_2023_HILLSHADE_N</name>
+  <name>Aus_bathy_grid_250m_2023_HILLSHADE</name>
   <id>LayerInfoImpl-5e9bd345:18ed7dc64e3:-f4a</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -14,4 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-04-14 10:56:58.999 UTC</dateCreated>
+  <dateModified>2024-04-14 11:16:37.366 UTC</dateModified>
 </layer>

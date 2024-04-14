@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
-  <name>raster_hillshade_noND</name>
+  <name>raster_hillshade</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_hillshade_noND.sld</filename>
+  <filename>raster_hillshade.sld</filename>
   <dateCreated>2024-03-24 06:25:14.242 UTC</dateCreated>
-  <dateModified>2024-03-24 13:25:48.805 UTC</dateModified>
+  <dateModified>2024-04-14 11:00:20.492 UTC</dateModified>
 </style>

@@ -1,15 +1,15 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--2cf458b2:18b1910f46a:-7551</id>
-  <enabled>true</enabled>
+  <id>LayerGroupInfoImpl-1691f5b0:18e6efa13e2:-12be</id>
+  <enabled>false</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_grid_MERI</name>
+  <name>seamap:Aus_bathy_grid_250m</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <maxCachedLevel>10</maxCachedLevel>
+      <maxCachedLevel>16</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -18,14 +18,7 @@
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
-  <parameterFilters>
-    <styleParameterFilter>
-      <key>STYLES</key>
-      <defaultValue></defaultValue>
-      <availableStyles class="sorted-set"/>
-      <defaultStyle>seamap:Aus_bathy_grid_MERI</defaultStyle>
-    </styleParameterFilter>
-  </parameterFilters>
+  <parameterFilters/>
   <gutter>0</gutter>
   <cacheWarningSkips/>
 </GeoServerTileLayer>

@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f4b</id>
-  <name>Aus_bathy_grid_250m_2023_HILLSHADE_N</name>
-  <nativeName>Aus_bathy_grid_250m_2023_HILLSHADE_N</nativeName>
+  <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-b3c</id>
+  <name>Aus_bathy_grid_MERI</name>
+  <nativeName>Aus_bathy_grid_MERI</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade for Australian Bathymetry Grid 250m (GA 2023)</title>
+  <title>Australian 250m Bathymetry Grid 2023 (MERI depth zones)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>No vertical exaggeration (z-factor 1m), azimuth 315, altitude 45.</abstract>
+  <abstract>The Australian Bathymetry and Topography Grid, 2023 (Geoscience Australia) classified according to MERI depth zones. Grid is 9 arc second (0.0025° or ~250m at the equator). Style colouring is based on 30, 70, 200, 700, 2000, 4000 and 6000m depths corresponding with the Parks Australia common language Ecosystem depth zones for MERI reporting, for use on the Seamap Australia website.</abstract>
   <keywords>
-    <string>Aus_bathy_grid_hs1m</string>
+    <string>Aus_bathy_grid</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -43,20 +43,20 @@
     <crs class="projected">EPSG:9473</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-65.34645101623397</miny>
-    <maxy>-1.52911290493532</maxy>
+    <minx>92.0</minx>
+    <maxx>172.0</maxx>
+    <miny>-60.0</miny>
+    <maxy>-8.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Aus_bathy_grid_2023_HILLSHADE_Aus_bathy_grid_hs1m</entry>
+    <entry key="dirName">Aus_bathy_grid_2023_Aus_bathy_grid</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-5e9bd345:18ed7dc64e3:-f4d</id>
+    <id>CoverageStoreInfoImpl-5e9bd345:18ed7dc64e3:-f3b</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -100,10 +100,10 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>3.3999999521443642E38</double>
       </nullValues>
       <dimensionType>
-        <name>UNSIGNED_8BITS</name>
+        <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -131,5 +131,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_bathy_grid_hs1m</nativeCoverageName>
+  <nativeCoverageName>Aus_bathy_grid</nativeCoverageName>
 </coverage>
