@@ -7,14 +7,12 @@
 	<#if (depth_numeric > 10) || (depth_numeric < -10000) || (depth_numeric = 0)>
 	<#else>
 
-        <div class="feature">
-            <BR>
+        <div class="feature" style="padding-top:5px; padding-bottom:5px">
             <#if depth_numeric < 0>
                 <b>Depth:</b> ${-depth_numeric} m
             <#else>
                 <b>Depth:</b> +${depth_numeric} m <i>(above surface)</i>
             </#if>
-            <BR><BR>
         </div>
 	    </#if>
     </#if>
