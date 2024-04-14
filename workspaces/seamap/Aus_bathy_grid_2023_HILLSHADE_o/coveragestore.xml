@@ -1,6 +1,6 @@
 <coverageStore>
-  <id>CoverageStoreInfoImpl-5e9bd345:18ed7dc64e3:-f4d</id>
-  <name>Aus_bathy_grid_2023_HILLSHADE</name>
+  <id>CoverageStoreInfoImpl--2cf458b2:18b188b6aef:6f7e</id>
+  <name>Aus_bathy_grid_2023_HILLSHADE_o</name>
   <description>Hillshade for Aus bathy 250m grid (2023 GA)</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
@@ -16,7 +16,8 @@
     </entry>
   </metadata>
   <__default>false</__default>
-  <dateCreated>2024-04-14 10:55:18.921 UTC</dateCreated>
+  <dateCreated>2023-10-10 09:24:52.266 UTC</dateCreated>
+  <dateModified>2024-04-14 10:55:16.714 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth_2023/Aus_bathy_grid_hs1m.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth_2023/fine/Aus_bathy_grid_hs5.tif</url>
 </coverageStore>

@@ -1,0 +1,17 @@
+<layer>
+  <name>Aus_bathy_grid_250m_2023_HILLSHADE_N</name>
+  <id>LayerInfoImpl-5e9bd345:18ed7dc64e3:-f4a</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f4b</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-14 10:56:58.999 UTC</dateCreated>
+</layer>
