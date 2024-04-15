@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Sampled bathymetry, resolution at/better than target</Title>
+          <Title>Sampled bathymetry, resolution meets target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -34,7 +34,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sampled bathymetry, resolution lower/worse than target</Title>
+          <Title>Sampled bathymetry, resolution does not meet target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -55,7 +55,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>DEM, resolution at/better than target</Title>
+          <Title>DEM, resolution meets target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -87,7 +87,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>DEM, resolution lower/worse than target</Title>
+          <Title>DEM, resolution does not meet target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
