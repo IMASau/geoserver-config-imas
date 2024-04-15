@@ -118,7 +118,7 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>    
-      <VendorOption name="sortBy">dType A, resFlag A</VendorOption>		        
+      <VendorOption name="sortBy">dType A, resFlag A, sortOrd D</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
