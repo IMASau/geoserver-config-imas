@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Sampled bathymetry, resolution &#8804; target</Title>
+          <Title>Sampled bathymetry, resolution at/better than target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -28,17 +28,13 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f7c0d8</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill">#53ff1a</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>				  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sampled bathymetry, resolution > target (lower res)</Title>
+          <Title>Sampled bathymetry, resolution lower/worse than target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -53,17 +49,13 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f7c0d8</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill">#990099</CssParameter>
+              <CssParameter name="fill-opacity">0.7</CssParameter>				  
             </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
-            </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>DEM, resolution &#8804; target</Title>
+          <Title>DEM, resolution at/better than target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -75,17 +67,7 @@
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             </ogc:And>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-		  <Fill>
-              <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#686868</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>          
+          </ogc:Filter>        
           <PolygonSymbolizer>
 		  <Fill>
               <GraphicFill>
@@ -93,22 +75,19 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#686868</CssParameter>
-                      <CssParameter name="stroke-width">2</CssParameter>
+                      <CssParameter name="stroke">#0039e6</CssParameter>
+                      <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+                      <CssParameter name="stroke-width">3.5</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>9</Size>
+                  <Size>10</Size>
                 </Graphic>
-              </GraphicFill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
-            </Stroke>            
+              </GraphicFill>           
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>DEM, resolution > target (lower res)</Title>
+          <Title>DEM, resolution lower/worse than target</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -123,31 +102,22 @@
           </ogc:Filter>
           <PolygonSymbolizer>
 		  <Fill>
-              <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#686868</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>          
-          <PolygonSymbolizer>
-		  <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#686868</CssParameter>
-                      <CssParameter name="stroke-width">2</CssParameter>
+                      <CssParameter name="stroke">#666666</CssParameter>
+                      <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+                      <CssParameter name="stroke-width">3.5</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>9</Size>
-                </Graphic>               
-              </GraphicFill>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
             </Fill>
           </PolygonSymbolizer>
-        </Rule>       
+        </Rule>    
       <VendorOption name="sortBy">dType A, resFlag A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
