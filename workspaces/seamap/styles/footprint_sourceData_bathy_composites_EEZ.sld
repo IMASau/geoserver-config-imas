@@ -75,8 +75,8 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#e60000</CssParameter>
-                      <CssParameter name="stroke-opacity">0.4</CssParameter>                      
+                      <CssParameter name="stroke">#1a1aff</CssParameter>
+                      <CssParameter name="stroke-opacity">0.45</CssParameter>                      
                       <CssParameter name="stroke-width">3</CssParameter>
                     </Stroke>
                   </Mark>
