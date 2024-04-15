@@ -1,14 +1,11 @@
 <#list features as feature>
     <#if feature_index == 0>
-        <#assign filename = feature["filename"].value>
-        <#assign resolution = feature["resolution"].value>
-        <#assign targetR = feature["targetR"].value>
-        <#assign resFlag = feature["resFlag"].value?number>  <!-- Convert to number -->
+        <#assign filename = feature.filename.value>
+        <#assign resolution = feature.resolution.value>
+        <#assign targetR = feature.targetR.value>
+        <#assign resFlag = feature.resFlag.value>
 
-        <#if resFlag == 1>
-            ${filename} (resolution (${resolution}) matches target (${targetR}))
-        <#else>
-            ${filename} (resolution (${resolution}) is lower than target (${targetR}))
-        </#if>
+        <!-- Directly output resFlag for debugging -->
+        Filename: ${filename}, Resolution: ${resolution}, TargetR: ${targetR}, ResFlag: '${resFlag}'
     </#if>
 </#list>
