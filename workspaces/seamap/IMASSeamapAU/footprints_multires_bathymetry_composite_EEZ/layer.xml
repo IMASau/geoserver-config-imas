@@ -1,0 +1,16 @@
+<layer>
+  <name>footprints_multires_bathymetry_composite_EEZ</name>
+  <id>LayerInfoImpl-5e9bd345:18ee030263b:-3ecf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5e9bd345:18ed7dc64e3:294b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5e9bd345:18ee030263b:-3ed0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-15 06:42:54.208 UTC</dateCreated>
+</layer>
