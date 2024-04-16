@@ -3,7 +3,7 @@
     <#list features?sort_by(["sortOrd", "rawValue"]) as feature>
         <#-- Only process the first feature after sorting, which should have the lowest sortOrd if sorting is ascending -->
         <#if feature_index == 0>
-            <#assign displayname= feature.displayname.value>
+            <#assign displayname= feature.dispname.value>
             <#assign dType= feature.dType.value>
             <#assign targetR = feature.targetR.value>
             <#assign resFlag = feature.resFlag.value>
