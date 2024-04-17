@@ -5,11 +5,11 @@
   <type>ImageMosaic</type>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
   <__default>false</__default>
   <dateCreated>2024-03-24 07:45:06.613 UTC</dateCreated>
-  <dateModified>2024-04-14 21:30:19.647 UTC</dateModified>
+  <dateModified>2024-04-17 22:56:59.111 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/69e9ac91-babe-47ed-8c37-0ef08f29338a/derivatives/hillshade</url>
 </coverageStore>
