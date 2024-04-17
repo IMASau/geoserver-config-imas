@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl-1691f5b0:18e6efa13e2:-12be</id>
-  <enabled>false</enabled>
+  <id>LayerInfoImpl-5e9bd345:18ed7dc64e3:-f39</id>
+  <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_grid_250m</name>
+  <name>seamap:Aus_bathy_grid_250m_2023</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
@@ -18,7 +18,14 @@
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
-  <parameterFilters/>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:multibeam_bathy</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
   <gutter>0</gutter>
   <cacheWarningSkips/>
 </GeoServerTileLayer>
