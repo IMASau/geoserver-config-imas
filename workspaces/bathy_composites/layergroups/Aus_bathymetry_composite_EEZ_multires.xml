@@ -3,9 +3,10 @@
   <name>Aus_bathymetry_composite_EEZ_multires</name>
   <mode>NAMED</mode>
   <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ</title>
-  <advertised>false</advertised>
+  <abstractTxt>A multi-resolution depth-stratified continuous bathymetry surface for the Aus EEZ.</abstractTxt>
+  <advertised>true</advertised>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
   <internationalTitle/>
   <internationalAbstract/>
@@ -19,10 +20,10 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+      <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3ab4</id>
     </style>
     <style>
-      <id>StyleInfoImpl--227ee776:1818c8f7268:4e9a</id>
+      <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3a4b</id>
     </style>
   </styles>
   <bounds>
@@ -33,5 +34,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-03-24 11:22:09.485 UTC</dateCreated>
-  <dateModified>2024-04-12 04:57:37.538 UTC</dateModified>
+  <dateModified>2024-04-17 23:29:18.621 UTC</dateModified>
 </layerGroup>

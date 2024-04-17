@@ -5,7 +5,7 @@
   <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ - style optimised for shelf (shallow) waters</title>
   <advertised>false</advertised>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
   <internationalTitle/>
   <internationalAbstract/>
@@ -19,10 +19,10 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+      <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3ab4</id>
     </style>
     <style>
-      <id>StyleInfoImpl-5e9bd345:18ecf40bfab:2ede</id>
+      <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3a4c</id>
     </style>
   </styles>
   <bounds>
@@ -33,5 +33,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-04-12 04:53:43.761 UTC</dateCreated>
-  <dateModified>2024-04-12 04:57:42.725 UTC</dateModified>
+  <dateModified>2024-04-17 23:01:20.705 UTC</dateModified>
 </layerGroup>

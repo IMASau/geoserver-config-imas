@@ -5,7 +5,7 @@
   </workspace>
   <enabled>true</enabled>
   <name>WMS</name>
-  <title>IMAS Web Mapping Service (WMS)</title>
+  <title>Multi-resolution bathymetry composite surfaces for Aus EEZ</title>
   <internationalTitle/>
   <maintainer>Seamap Australia</maintainer>
   <abstrct>This Web Mapping Service displays multi-resolution bathymetry composites and associated bathymetry derivatives for the Australian Exclusive Economic Zone (EEZ). Each surface consists of eight mosaics corresponding to depth zones outlined in the Parks Australia Management Effectiveness framework: shallow (0-30m), mesophotic (30-70m), rariphotic (70-200m), upper-slope (200-700m), mid-slope (700-2,000m), lower-slope (2,000-4,000m), abyss (4,000-6,000m), hadal (&gt;6,000m). Each mosaic is a composite of all publicly available bathymetry data as at February 2024 and is gridded at a resolution guided by the AusSeabed Multibeam Guidelines (2020). The result is suite of depth-stratified bathymetry mosaics and associated derivatives that this WMS combines into a single seamless layer to provide full coverage of Australia&apos;s marine estate.&#xd;
