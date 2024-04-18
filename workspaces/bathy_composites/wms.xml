@@ -73,7 +73,7 @@ See the full data product description at https://metadata.imas.utas.edu.au/geone
     <position>BOT_RIGHT</position>
     <transparency>100</transparency>
   </watermark>
-  <interpolation>Nearest</interpolation>
+  <interpolation>Bilinear</interpolation>
   <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
   <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
