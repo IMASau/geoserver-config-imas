@@ -13,14 +13,14 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
               <ColorMapEntry color="#000000" quantity="1"/>            
               <ColorMapEntry color="#404040" quantity="90"/>
               <ColorMapEntry color="#666666" quantity="150"/>                            
-              <ColorMapEntry color="#bfbfbf" quantity="200"/>              
+              <ColorMapEntry color="#bfbfbf" quantity="220"/>              
               <ColorMapEntry color="#ffffff" quantity="255"/>
               
             </ColorMap>
           </RasterSymbolizer>
 		<VendorOption name="inclusion">mapOnly</VendorOption>              
 			</Rule>
- 
+        <VendorOption name="composite">multiply</VendorOption>
 		</FeatureTypeStyle>
 	</UserStyle>
 </NamedLayer>
