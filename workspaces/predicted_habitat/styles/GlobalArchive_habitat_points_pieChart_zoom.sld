@@ -13,6 +13,29 @@
     
     <UserStyle>
       <FeatureTypeStyle>
+                <!-- Rule for Pie Chart at scale above 550000 but less than 8000000 -->
+        <Rule>
+          <MinScaleDenominator>550000</MinScaleDenominator>
+          <MaxScaleDenominator>8000000</MaxScaleDenominator>	
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#4d4d4d</CssParameter>
+                  <CssParameter name="fill-opacity">0.15</CssParameter>                  
+                </Fill>
+                <Stroke>
+                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke-width">0.01</CssParameter>
+                   <CssParameter name="stroke-opacity">1</CssParameter>                  
+               </Stroke>                
+              </Mark>
+              <Size>4</Size>
+            </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+          </PointSymbolizer>
+        </Rule>      
         
 
         <!-- Rule for Pie Chart at scale above 20000 but less than 550000 -->

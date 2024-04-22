@@ -51,7 +51,7 @@
                 <Stroke>
                    <CssParameter name="stroke">#000000</CssParameter>
                    <CssParameter name="stroke-width">0.01</CssParameter>
-                   <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                   <CssParameter name="stroke-opacity">1</CssParameter>                  
                </Stroke>                
               </Mark>
               <Size>4</Size>
