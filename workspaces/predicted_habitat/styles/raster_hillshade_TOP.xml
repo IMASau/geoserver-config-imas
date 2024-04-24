@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
-  <name>raster_hillshade_topdisplay</name>
+  <name>raster_hillshade_TOP</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_hillshade_topdisplay.sld</filename>
+  <filename>raster_hillshade_TOP.sld</filename>
   <dateCreated>2024-04-24 10:02:09.615 UTC</dateCreated>
-  <dateModified>2024-04-24 10:02:51.513 UTC</dateModified>
+  <dateModified>2024-04-24 12:28:03.557 UTC</dateModified>
 </style>

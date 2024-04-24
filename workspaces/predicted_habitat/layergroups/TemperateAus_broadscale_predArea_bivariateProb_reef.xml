@@ -18,6 +18,9 @@
     <published type="layer">
       <id>LayerInfoImpl-1691f5b0:18e7d242f16:681e</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl-257b21bb:18f0f04bb8b:-6c73</id>
+    </published>
   </publishables>
   <styles>
     <style>
@@ -27,7 +30,10 @@
       <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
     </style>
     <style>
-      <id>StyleInfoImpl-1691f5b0:18e7d242f16:682e</id>
+      <id>StyleInfoImpl-1691f5b0:18e7d242f16:6832</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
     </style>
   </styles>
   <bounds>
@@ -38,4 +44,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-04-24 09:46:34.932 UTC</dateCreated>
+  <dateModified>2024-04-24 12:21:29.944 UTC</dateModified>
 </layerGroup>

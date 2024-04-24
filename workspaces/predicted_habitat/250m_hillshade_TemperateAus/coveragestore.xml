@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-257b21bb:18f0f04bb8b:-6cb1</id>
+  <name>250m_hillshade_TemperateAus</name>
+  <description>Hillshade (z-factor 5m) derived from 250m bathymetry grid for area covered by Temperate Australia reef modelling</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-04-24 12:14:14.240 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/hillshade/hillshade_GA250m_TemperateAus_modelling.tif</url>
+</coverageStore>

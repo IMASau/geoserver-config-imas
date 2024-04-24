@@ -1,0 +1,18 @@
+<layer>
+  <name>hillshade_250m_TemperateAus_predArea_modelling</name>
+  <id>LayerInfoImpl-257b21bb:18f0f04bb8b:-6c73</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-257b21bb:18f0f04bb8b:-6c74</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-24 12:20:24.883 UTC</dateCreated>
+  <dateModified>2024-04-24 12:24:05.120 UTC</dateModified>
+</layer>
