@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-257b21bb:18f0e641e5a:2efa</id>
-  <name>bivariate_2dimension_uncertainty</name>
+  <name>bivariate_2dimension_uncertainty_meanXerrY</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>bivariate_2dimension_uncertainty.sld</filename>
+  <filename>bivariate_2dimension_uncertainty_meanXerrY.sld</filename>
   <dateCreated>2024-04-24 05:30:37.317 UTC</dateCreated>
-  <dateModified>2024-04-24 07:06:58.196 UTC</dateModified>
+  <dateModified>2024-04-24 09:09:48.613 UTC</dateModified>
 </style>
