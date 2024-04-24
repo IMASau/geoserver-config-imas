@@ -13,28 +13,7 @@
     
     <UserStyle>
       <FeatureTypeStyle>
-        
-        <!-- Rule for constructing a dummy legend (ExternalGraphic using the charts extension no longer supports a legend)-->
-        <Rule>
-          <Title>Observation chart by reef/non-reef</Title>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ffffff</CssParameter>  
-                  <CssParameter name="fill-opacity">0.000001</CssParameter>                       
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.7</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-            <VendorOption name="inclusion">legendOnly</VendorOption>
-          </PointSymbolizer>      
-        </Rule>     
+   
 
         <!-- Rule for Pie Chart at scale above 550000 but less than 8000000 -->
         <Rule>

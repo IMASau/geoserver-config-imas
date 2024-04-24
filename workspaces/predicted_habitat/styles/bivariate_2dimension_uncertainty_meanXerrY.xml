@@ -9,6 +9,11 @@
     <version>1.0.0</version>
   </languageVersion>
   <filename>bivariate_2dimension_uncertainty_meanXerrY.sld</filename>
+  <legend>
+    <width>0</width>
+    <height>0</height>
+    <onlineResource>bivariate_legend_sm.0.png</onlineResource>
+  </legend>
   <dateCreated>2024-04-24 09:24:18.695 UTC</dateCreated>
-  <dateModified>2024-04-24 09:36:05.657 UTC</dateModified>
+  <dateModified>2024-04-24 22:59:26.983 UTC</dateModified>
 </style>
