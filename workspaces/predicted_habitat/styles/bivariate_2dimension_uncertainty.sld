@@ -13,15 +13,15 @@
               <ColorMapEntry quantity="0" label="Bivariate uncertainty" color="#ffffff" opacity="0.00001"/>
               <ColorMapEntry quantity="1" label="   Value 1" color="#E8F4F3"/>
               <ColorMapEntry quantity="2" label="   Value 2" color="#E8F4F3"/>
-              <ColorMapEntry quantity="3" label="   Value 3" color="#EAF3E6"/>
-              <ColorMapEntry quantity="4" label="   Value 4" color="#ECF3DA"/>
-              <ColorMapEntry quantity="5" label="   Value 5" color="#EFF3CF"/>
-              <ColorMapEntry quantity="6" label="   Value 6" color="#F1F3C3"/>
-              <ColorMapEntry quantity="7" label="   Value 7" color="#F4F2B7"/>
-              <ColorMapEntry quantity="8" label="   Value 8" color="#F6F2AB"/>
-              <ColorMapEntry quantity="9" label="   Value 9" color="#F9F29F"/>
-              <ColorMapEntry quantity="10" label="   Value 10" color="#FBF293"/>
-              <ColorMapEntry quantity="11" label="   Value 11" color="#FEF287"/>
+              <ColorMapEntry quantity="3" label="   Value 3" color="#DFE5E9"/>
+              <ColorMapEntry quantity="4" label="   Value 4" color="#D6D7E0"/>
+              <ColorMapEntry quantity="5" label="   Value 5" color="#CDC9D7"/>
+              <ColorMapEntry quantity="6" label="   Value 6" color="#C4BBCE"/>
+              <ColorMapEntry quantity="7" label="   Value 7" color="#BBACC5"/>
+              <ColorMapEntry quantity="8" label="   Value 8" color="#B29EBC"/>
+              <ColorMapEntry quantity="9" label="   Value 9" color="#A990B3"/>
+              <ColorMapEntry quantity="10" label="   Value 10" color="#A082AA"/>
+              <ColorMapEntry quantity="11" label="   Value 11" color="#9874A1"/>
               <ColorMapEntry quantity="12" label="   Value 12" color="#E8F4F3"/>
               <ColorMapEntry quantity="13" label="   Value 13" color="#E8F4F3"/>
               <ColorMapEntry quantity="14" label="   Value 14" color="#EAF3E6"/>
@@ -134,9 +134,9 @@
               <ColorMapEntry quantity="121" label="   Value 121" color="#21908D"/>
 
 
+
             </ColorMap>
           </RasterSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                           
 
         </Rule>
       </FeatureTypeStyle>
