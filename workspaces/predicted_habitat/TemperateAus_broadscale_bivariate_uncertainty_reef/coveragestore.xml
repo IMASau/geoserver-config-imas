@@ -7,16 +7,9 @@
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2024-04-24 05:25:16.4 UTC</dateCreated>
+  <dateModified>2024-04-24 05:41:31.873 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/reef_binomial/bivariate/uncertainty_colour_rasters_binomial_reef.tif</url>
 </coverageStore>
