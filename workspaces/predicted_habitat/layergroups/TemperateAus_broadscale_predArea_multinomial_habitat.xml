@@ -33,6 +33,9 @@ This layer to be used in a layer group including predictions of the other 4 broa
     <published type="layer">
       <id>LayerInfoImpl-66607dc3:18ea12b078c:4a79</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl-257b21bb:18f0f04bb8b:-6c73</id>
+    </published>
   </publishables>
   <styles>
     <style>
@@ -56,6 +59,9 @@ This layer to be used in a layer group including predictions of the other 4 broa
     <style>
       <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
     </style>
+    <style>
+      <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
+    </style>
   </styles>
   <bounds>
     <minx>112.2151388888596</minx>
@@ -72,5 +78,5 @@ This layer to be used in a layer group including predictions of the other 4 broa
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-04-02 21:35:04.433 UTC</dateCreated>
-  <dateModified>2024-04-22 03:57:33.511 UTC</dateModified>
+  <dateModified>2024-04-24 13:17:27.191 UTC</dateModified>
 </layerGroup>

@@ -11,7 +11,7 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000002" quantity="0"/>
               <ColorMapEntry color="#000000" opacity="0.5" quantity="1"/>                        
-              <ColorMapEntry color="#ffffff" opacity="0.3" quantity="256"/>
+              <ColorMapEntry color="#ffffff" opacity="0.25" quantity="256"/>
               
             </ColorMap>
           </RasterSymbolizer>
