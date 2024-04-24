@@ -5,6 +5,14 @@
   <defaultStyle>
     <id>StyleInfoImpl-257b21bb:18f0e641e5a:2efa</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-72b9</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-257b21bb:18f0e641e5a:2efa</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl-257b21bb:18f0e641e5a:2efc</id>
   </resource>
@@ -14,5 +22,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2024-04-24 05:30:52.799 UTC</dateCreated>
-  <dateModified>2024-04-24 05:46:33.540 UTC</dateModified>
+  <dateModified>2024-04-24 09:40:18.572 UTC</dateModified>
 </layer>
