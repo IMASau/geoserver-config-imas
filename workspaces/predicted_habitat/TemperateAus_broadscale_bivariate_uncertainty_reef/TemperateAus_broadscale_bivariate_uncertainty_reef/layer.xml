@@ -3,16 +3,8 @@
   <id>LayerInfoImpl-257b21bb:18f0e641e5a:2efd</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl-257b21bb:18f0e641e5a:2efa</id>
+    <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-72b9</id>
   </defaultStyle>
-  <styles class="linked-hash-set">
-    <style>
-      <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-72b9</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-257b21bb:18f0e641e5a:2efa</id>
-    </style>
-  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl-257b21bb:18f0e641e5a:2efc</id>
   </resource>
@@ -22,5 +14,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2024-04-24 05:30:52.799 UTC</dateCreated>
-  <dateModified>2024-04-24 12:23:22.299 UTC</dateModified>
+  <dateModified>2024-04-27 12:26:03.999 UTC</dateModified>
 </layer>
