@@ -1,0 +1,17 @@
+<layer>
+  <name>TemperateAus_broadscale_bivariate_uncertainty_consolidated</name>
+  <id>LayerInfoImpl-6a14d715:18f1f7815cd:-4add</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-72b9</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6a14d715:18f1f7815cd:-4ade</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2024-04-27 13:51:08.36 UTC</dateCreated>
+</layer>

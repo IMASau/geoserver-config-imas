@@ -1,8 +1,8 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-257b21bb:18f0f04bb8b:-71e6</id>
-  <name>TemperateAus_broadscale_predArea_bivariateProb_reef</name>
+  <id>LayerGroupInfoImpl-6a14d715:18f1f7815cd:-4ad6</id>
+  <name>TemperateAus_broadscale_predArea_bivariateProb_unconsolidated</name>
   <mode>SINGLE</mode>
-  <title>Bivariate uncertainty (mean vs error) of functional reef occurrence in temperate Australia</title>
+  <title>Bivariate uncertainty (mean vs error) of bare unconsolidated substrata occurrence in temperate Australia</title>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -10,7 +10,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-257b21bb:18f0e641e5a:2efd</id>
+      <id>LayerInfoImpl-6a14d715:18f1f7815cd:-4adb</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl-257b21bb:18f0f04bb8b:-6c73</id>
@@ -19,7 +19,7 @@
       <id>LayerInfoImpl-1691f5b0:18e7d242f16:637b</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-1691f5b0:18e7d242f16:681e</id>
+      <id>LayerInfoImpl-66607dc3:18ea12b078c:4a79</id>
     </published>
   </publishables>
   <styles>
@@ -33,7 +33,7 @@
       <id>StyleInfoImpl--16faa076:18c1774941e:646a</id>
     </style>
     <style>
-      <id>StyleInfoImpl-1691f5b0:18e7d242f16:6832</id>
+      <id>StyleInfoImpl--7299ab69:18be47e5fe6:-4e93</id>
     </style>
   </styles>
   <bounds>
@@ -43,6 +43,5 @@
     <maxy>-23.99986083990669</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2024-04-24 09:46:34.932 UTC</dateCreated>
-  <dateModified>2024-04-27 13:54:19.22 UTC</dateModified>
+  <dateCreated>2024-04-27 13:56:37.159 UTC</dateCreated>
 </layerGroup>

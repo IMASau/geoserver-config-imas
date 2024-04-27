@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-6a14d715:18f1f7815cd:-4ae6</id>
+  <name>TemperateAus_broadscale_bivariate_uncertainty_consolidated</name>
+  <description>Bivariate uncertainty (mean vs error) of bare consolidated substrata occurrence in temperate Australia</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-04-27 13:47:18.159 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/habitat5class_multinomial/bivariate/uncertainty_colour_rasters_multinomial_consolidated.tif</url>
+</coverageStore>
