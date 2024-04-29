@@ -10,14 +10,16 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.00000001" quantity="-100"/>                                          
-              <ColorMapEntry color="#b35a00" opacity="0.7" quantity="0"/>
-              <ColorMapEntry color="#ce922e" opacity="0.7" quantity="10"/>
-              <ColorMapEntry color="#dcad45" opacity="0.7" quantity="20"/>
-              <ColorMapEntry color="#e9c95c" opacity="0.7" quantity="30"/>
-              <ColorMapEntry color="#c09ef2" opacity="0.7" quantity="40"/>
-              <ColorMapEntry color="#a069ee" opacity="0.7" quantity="50"/>
-              <ColorMapEntry color="#8035ea" opacity="0.7" quantity="60"/>
-              <ColorMapEntry color="#6000e6" opacity="0.7" quantity="70"/>            
+              <ColorMapEntry color="#47DDFF" opacity="0.7" quantity="0"/>
+              <ColorMapEntry color="#58C2FA" opacity="0.7" quantity="5"/>
+              <ColorMapEntry color="#69A7F6" opacity="0.7" quantity="10"/>
+              <ColorMapEntry color="#7A8CF2" opacity="0.7" quantity="15"/>
+              <ColorMapEntry color="#8B72EE" opacity="0.7" quantity="20"/>
+              <ColorMapEntry color="#9F5EEA" opacity="0.7" quantity="25"/>
+              <ColorMapEntry color="#B34BE7" opacity="0.7" quantity="30"/>
+              <ColorMapEntry color="#C737E3" opacity="0.7" quantity="35"/>
+              <ColorMapEntry color="#DB24E0" opacity="0.7" quantity="40"/>
+              <ColorMapEntry color="#F011DD" opacity="0.7" quantity="45"/>
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -26,14 +28,16 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.00000001" quantity="-100" label="Slope (degrees)"/>                                          
-              <ColorMapEntry color="#6000e6" opacity="0.7" quantity="70" label="  70"/>
-              <ColorMapEntry color="#8035ea" opacity="0.7" quantity="60" label="  60"/>              
-              <ColorMapEntry color="#a069ee" opacity="0.7" quantity="50" label="  50"/>              
-              <ColorMapEntry color="#c09ef2" opacity="0.7" quantity="40" label="  40"/>              
-              <ColorMapEntry color="#e9c95c" opacity="0.7" quantity="30" label="  30"/>              
-              <ColorMapEntry color="#dcad45" opacity="0.7" quantity="20" label="  20"/>              
-              <ColorMapEntry color="#ce922e" opacity="0.7" quantity="10" label="  10"/>              
-              <ColorMapEntry color="#b35a00" opacity="0.7" quantity="0" label="  0"/>
+              <ColorMapEntry color="#F011DD" opacity="0.7" quantity="45" label="  45"/>              
+              <ColorMapEntry color="#DB24E0" opacity="0.7" quantity="40" label="  40"/>              
+              <ColorMapEntry color="#C737E3" opacity="0.7" quantity="35" label="  35"/> 
+              <ColorMapEntry color="#B34BE7" opacity="0.7" quantity="30" label="  30"/>              
+              <ColorMapEntry color="#9F5EEA" opacity="0.7" quantity="25" label="  25"/>              
+              <ColorMapEntry color="#8B72EE" opacity="0.7" quantity="20" label="  20"/>              
+              <ColorMapEntry color="#7A8CF2" opacity="0.7" quantity="15" label="  15"/>              
+              <ColorMapEntry color="#69A7F6" opacity="0.7" quantity="10" label="  10"/>                            
+              <ColorMapEntry color="#58C2FA" opacity="0.7" quantity="5" label="  5"/>              
+              <ColorMapEntry color="#47DDFF" opacity="0.7" quantity="0" label="  0"/>
               
             </ColorMap>
           </RasterSymbolizer>
