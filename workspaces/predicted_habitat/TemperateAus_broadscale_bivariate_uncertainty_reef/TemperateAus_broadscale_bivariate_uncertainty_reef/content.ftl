@@ -70,7 +70,6 @@
 
 
          </#if>
-<br><i>Raster value: ${raster_value}</i><br>
 </p>
         </#if>
     </#list>
