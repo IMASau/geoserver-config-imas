@@ -28,7 +28,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.00000001" quantity="-100" label="Slope (degrees)"/>                                          
-              <ColorMapEntry color="#F011DD" opacity="0.7" quantity="45" label="  45"/>              
+              <ColorMapEntry color="#F011DD" opacity="0.7" quantity="45" label="  &#x2265;45"/>              
               <ColorMapEntry color="#DB24E0" opacity="0.7" quantity="40" label="  40"/>              
               <ColorMapEntry color="#C737E3" opacity="0.7" quantity="35" label="  35"/> 
               <ColorMapEntry color="#B34BE7" opacity="0.7" quantity="30" label="  30"/>              
