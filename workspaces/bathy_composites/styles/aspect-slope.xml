@@ -9,5 +9,12 @@
     <version>1.0.0</version>
   </languageVersion>
   <filename>aspect-slope.sld</filename>
+  <legend>
+    <width>352</width>
+    <height>378</height>
+    <format>image/png</format>
+    <onlineResource>aspect-slope_sm.png</onlineResource>
+  </legend>
   <dateCreated>2024-05-01 12:01:19.601 UTC</dateCreated>
+  <dateModified>2024-05-01 12:31:06.456 UTC</dateModified>
 </style>
