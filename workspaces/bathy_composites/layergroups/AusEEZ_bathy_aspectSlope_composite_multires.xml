@@ -2,6 +2,7 @@
   <id>LayerGroupInfoImpl-6a14d715:18f36582d6e:-1990</id>
   <name>AusEEZ_bathy_aspectSlope_composite_multires</name>
   <mode>SINGLE</mode>
+  <queryDisabled>true</queryDisabled>
   <title>Hillshaded multi-resolution aspect-slope composite for the Aus EEZ</title>
   <abstractTxt>A multi-resolution depth-stratified aspect-slope map from a continuous bathymetry surface for the Aus EEZ.</abstractTxt>
   <workspace>
@@ -32,5 +33,13 @@
     <maxy>-884350.3598288503</maxy>
     <crs class="projected">EPSG:9473</crs>
   </bounds>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
   <dateCreated>2024-05-01 23:38:42.434 UTC</dateCreated>
+  <dateModified>2024-05-02 02:16:00.892 UTC</dateModified>
 </layerGroup>
