@@ -1,0 +1,17 @@
+<layer>
+  <name>Aus_multires_bathymetry_composite_EEZ_aspectSlope</name>
+  <id>LayerInfoImpl-6a14d715:18f36582d6e:-19a3</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f3287a7ad:-37f</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6a14d715:18f36582d6e:-19a4</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-01 23:30:09.364 UTC</dateCreated>
+</layer>
