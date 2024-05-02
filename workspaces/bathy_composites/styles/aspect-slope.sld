@@ -10,8 +10,8 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
              <ColorMapEntry quantity="0" color="#ffffff" opacity="0"/>
-             <ColorMapEntry quantity="11" color="#A1A1A1" opacity="0.7" label="N, flat/gentle Slope"/>
-             <ColorMapEntry quantity="19" color="#A1A1A1" opacity="0.7" label="N, flat/gentle Slope"/>
+             <ColorMapEntry quantity="11" color="#a1a1a7" opacity="0.7" label="N, flat/gentle Slope"/>
+             <ColorMapEntry quantity="19" color="#a1a1a7" opacity="0.7" label="N, flat/gentle Slope"/>
              <ColorMapEntry quantity="21" color="#98B581" opacity="0.7" label="N, moderate Slope"/>
              <ColorMapEntry quantity="22" color="#72A890" opacity="0.7" label="NE, moderate Slope"/>
              <ColorMapEntry quantity="23" color="#7C8EAD" opacity="0.7" label="E, moderate Slope"/>
