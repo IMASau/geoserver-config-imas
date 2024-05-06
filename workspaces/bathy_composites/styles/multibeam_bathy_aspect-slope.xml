@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-6a14d715:18f3287a7ad:-37f</id>
-  <name>aspect-slope</name>
+  <name>multibeam_bathy_aspect-slope</name>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>aspect-slope.sld</filename>
+  <filename>multibeam_bathy_aspect-slope.sld</filename>
   <legend>
     <width>352</width>
     <height>378</height>
@@ -16,5 +16,5 @@
     <onlineResource>aspect-slope_sm.png</onlineResource>
   </legend>
   <dateCreated>2024-05-01 12:01:19.601 UTC</dateCreated>
-  <dateModified>2024-05-02 02:43:33.822 UTC</dateModified>
+  <dateModified>2024-05-06 06:05:59.445 UTC</dateModified>
 </style>
