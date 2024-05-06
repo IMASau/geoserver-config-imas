@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl-6a14d715:18f2adcd626:-5e7f</id>
-  <name>Aus_multires_bathymetry_composite_EEZ_slope</name>
-  <nativeName>Aus_multires_bathymetry_composite_EEZ_slope</nativeName>
+  <id>CoverageInfoImpl-6a14d715:18f4c20d1c3:-53f</id>
+  <name>Aus_multires_bathymetry_composite_EEZ_aspect</name>
+  <nativeName>Aus_multires_bathymetry_composite_EEZ_aspect</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--7bc16a82:18eeb2ae0ff:39f7</id>
   </namespace>
-  <title>Multi-resolution composite bathymetric slope derivative of Aus EEZ</title>
+  <title>Multi-resolution composite bathymetric aspect derivative of Aus EEZ</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>slope</string>
+    <string>aspect</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -53,10 +53,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Aus_EEZ_multires_bathy_mosaic_slope_slope</entry>
+    <entry key="dirName">Aus_EEZ_multires_bathy_mosaic_aspect_aspect</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-6a14d715:18f2adcd626:-5e85</id>
+    <id>CoverageStoreInfoImpl-6a14d715:18f4c20d1c3:-140b</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -179,5 +179,5 @@
       <string>None</string>
     </entry>
   </parameters>
-  <nativeCoverageName>slope</nativeCoverageName>
+  <nativeCoverageName>aspect</nativeCoverageName>
 </coverage>

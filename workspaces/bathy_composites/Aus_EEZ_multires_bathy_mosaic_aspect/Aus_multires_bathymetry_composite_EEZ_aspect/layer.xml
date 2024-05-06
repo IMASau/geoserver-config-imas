@@ -1,0 +1,16 @@
+<layer>
+  <name>Aus_multires_bathymetry_composite_EEZ_aspect</name>
+  <id>LayerInfoImpl-6a14d715:18f4c20d1c3:-53e</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f3417a70b:36f8</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6a14d715:18f4c20d1c3:-53f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-06 06:41:16.27 UTC</dateCreated>
+</layer>

@@ -1,10 +1,9 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-6a14d715:18f2adcd626:-5e7d</id>
-  <name>AusEEZ_bathy_slope_composite_multires</name>
+  <id>LayerGroupInfoImpl-6a14d715:18f4c20d1c3:e48</id>
+  <name>AusEEZ_bathy_aspect_composite_multires</name>
   <mode>SINGLE</mode>
-  <title>Hillshaded multi-resolution bathymetric slope composite for the Aus EEZ</title>
-  <abstractTxt>A multi-resolution depth-stratified slope derivative from a continuous bathymetry surface for the Aus EEZ.  This layer group displays slope draped over hillshade.</abstractTxt>
-  <advertised>true</advertised>
+  <title>Hillshaded multi-resolution bathymetric aspect composite for the Aus EEZ</title>
+  <abstractTxt>A multi-resolution depth-stratified aspect derivative from a continuous bathymetry surface for the Aus EEZ. This layer group displays aspect draped over hillshade.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -15,7 +14,7 @@
       <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-b3a</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-6a14d715:18f2adcd626:-5e7e</id>
+      <id>LayerInfoImpl-6a14d715:18f4c20d1c3:-53e</id>
     </published>
   </publishables>
   <styles>
@@ -23,7 +22,7 @@
       <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3ab4</id>
     </style>
     <style>
-      <id>StyleInfoImpl-257b21bb:18f0da898c5:-1b1f</id>
+      <id>StyleInfoImpl-6a14d715:18f3417a70b:36f8</id>
     </style>
   </styles>
   <bounds>
@@ -33,6 +32,5 @@
     <maxy>-833922.7738895584</maxy>
     <crs class="projected">EPSG:9473</crs>
   </bounds>
-  <dateCreated>2024-04-29 21:31:56.226 UTC</dateCreated>
-  <dateModified>2024-05-06 06:42:51.190 UTC</dateModified>
+  <dateCreated>2024-05-06 06:43:13.801 UTC</dateCreated>
 </layerGroup>
