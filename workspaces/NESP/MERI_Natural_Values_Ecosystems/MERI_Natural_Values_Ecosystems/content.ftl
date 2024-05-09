@@ -1,14 +1,4 @@
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            if (window.innerWidth < 768) {
-                // Adjust video settings or content for mobile
-                const videos = document.querySelectorAll('.thumbnail video');
-                videos.forEach(video => {
-                    video.setAttribute('controls', 'controls'); // Add controls to videos for mobile devices
-                });
-            }
-        });
-    </script>
+
 <#list features as feature>
 
 	<#if (feature_index < 1) >
