@@ -16,30 +16,27 @@
     <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
     <!-- First video thumbnail -->
     <div style="display: flex; flex-wrap: wrap;">
-    <div class="thumbnail" style="position: relative; width: 160px; margin-right: 3px; margin-bottom: 1px;">
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
         <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4" target="_blank">
             <video style="width: 100%;">
                 <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4" type="video/mp4">
             </video>
-            <div class="play-button"></div> <!-- Play button SVG for mobile -->
         </a>
     </div>
     <!-- Second video thumbnail -->
-    <div class="thumbnail" style="position: relative; width: 160px; margin-right: 3px; margin-bottom: 1px;">
+    <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
         <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" target="_blank">
             <video style="width: 100%;">
                 <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" type="video/mp4">
             </video>
-            <div class="play-button"></div> <!-- Play button SVG for mobile -->
         </a>
     </div>
     <!-- Third video thumbnail -->
-    <div class="thumbnail" style="position: relative; width: 160px; margin-bottom: 1px;">
+    <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
         <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4">
             <video style="width: 100%;">
                 <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4">
             </video>
-            <div class="play-button"></div> <!-- Play button SVG for mobile -->
         </a>
     </div>
 </div>
