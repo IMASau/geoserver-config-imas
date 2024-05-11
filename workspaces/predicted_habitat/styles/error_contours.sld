@@ -13,6 +13,25 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
+        <TextSymbolizer>
+          <Label>
+            <ogc:PropertyName>label</ogc:PropertyName>
+          </Label>
+          <Font>
+            <CssParameter name="font-family">SansSerif</CssParameter>
+            <CssParameter name="font-size">12</CssParameter>
+          </Font>
+          <Fill>
+            <CssParameter name="fill">#000000</CssParameter>
+          </Fill>
+          <VendorOption name="followLine">true</VendorOption>
+          <VendorOption name="maxAngleDelta">90</VendorOption>
+          <VendorOption name="maxDisplacement">400</VendorOption>
+          <VendorOption name="repeat">200</VendorOption>
+        </TextSymbolizer> 
+        </Rule>        
+        <Rule>
           <Title>&lt; 0.1</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -23,26 +42,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0400f4</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter> 
+              <CssParameter name="stroke-width">0.2</CssParameter> 
               <CssParameter name="stroke-opacity">0.3</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>        
         <Rule>
           <Title>0.15</Title>
@@ -55,26 +58,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#6d00dc</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter> 
+              <CssParameter name="stroke-width">0.4</CssParameter> 
               <CssParameter name="stroke-opacity">0.3</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>
         <Rule>
           <Title>0.20</Title>
@@ -91,22 +78,6 @@
               <CssParameter name="stroke-opacity">0.4</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>
         <Rule>
           <Title>0.25</Title>
@@ -119,26 +90,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a500a5</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter> 
+              <CssParameter name="stroke-width">0.6</CssParameter> 
               <CssParameter name="stroke-opacity">0.4</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>
         <Rule>
           <Title>0.30</Title>
@@ -151,26 +106,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#b40094</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter> 
+              <CssParameter name="stroke-width">0.7</CssParameter> 
               <CssParameter name="stroke-opacity">0.5</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>
         <Rule>
           <Title>0.35</Title>
@@ -183,26 +122,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#c20086</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter> 
+              <CssParameter name="stroke-width">0.8</CssParameter> 
               <CssParameter name="stroke-opacity">0.5</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>
         <Rule>
           <Title>0.40</Title>
@@ -215,26 +138,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ce0079</CssParameter>
-              <CssParameter name="stroke-width">0.7</CssParameter> 
+              <CssParameter name="stroke-width">0.9</CssParameter> 
               <CssParameter name="stroke-opacity">0.6</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>	
         <Rule>
           <Title>0.45</Title>
@@ -247,26 +154,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#da006d</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter> 
+              <CssParameter name="stroke-width">1</CssParameter> 
               <CssParameter name="stroke-opacity">0.6</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>
         <Rule>
           <Title>0.5</Title>
@@ -279,26 +170,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#e6005e</CssParameter>
-              <CssParameter name="stroke-width">0.9</CssParameter> 
+              <CssParameter name="stroke-width">1.1</CssParameter> 
               <CssParameter name="stroke-opacity">0.7</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>	
         <Rule>
           <Title>&gt;0.5</Title>
@@ -311,26 +186,10 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f5003b</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter> 
+              <CssParameter name="stroke-width">1.2</CssParameter> 
               <CssParameter name="stroke-opacity">0.8</CssParameter>                               
             </Stroke>
           </LineSymbolizer>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>label</ogc:PropertyName>
-            </Label>
-                  <Font>
-           			<CssParameter name="font-family">SansSerif</CssParameter>
-           			<CssParameter name="font-size">14</CssParameter>								
-          		  </Font>             
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">90</VendorOption>
-            <VendorOption name="maxDisplacement">400</VendorOption>
-            <VendorOption name="repeat">200</VendorOption>
-          </TextSymbolizer>
         </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
