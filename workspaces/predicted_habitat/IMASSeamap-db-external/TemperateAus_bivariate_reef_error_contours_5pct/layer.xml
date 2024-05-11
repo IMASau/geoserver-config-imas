@@ -1,0 +1,17 @@
+<layer>
+  <name>TemperateAus_bivariate_reef_error_contours_5pct</name>
+  <id>LayerInfoImpl-6a14d715:18f681d758a:-66e6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f681d758a:-66ec</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6a14d715:18f681d758a:-66e7</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-11 15:28:42.36 UTC</dateCreated>
+</layer>
