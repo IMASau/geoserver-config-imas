@@ -8,11 +8,11 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-1691f5b0:18e73cd15cc:49c7</id>
   </resource>
-  <queryable>true</queryable>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-03-25 05:33:41.757 UTC</dateCreated>
-  <dateModified>2024-03-25 05:41:34.236 UTC</dateModified>
+  <dateModified>2024-05-14 13:46:18.816 UTC</dateModified>
 </layer>
