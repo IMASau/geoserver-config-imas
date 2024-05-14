@@ -1,6 +1,6 @@
 <coverageStore>
-  <id>CoverageStoreInfoImpl-6a14d715:18f74889f57:-3053</id>
-  <name>TemperateAus_broadscale_predicted_reef_ERROR</name>
+  <id>CoverageStoreInfoImpl-1691f5b0:18e7d242f16:7a43</id>
+  <name>TemperateAus_broadscale_predicted_reef_ERROR_demo</name>
   <description>Interquartile range (IQR) (25-75%) prediction of reef occurrence in temperate Australia</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
@@ -16,7 +16,8 @@
     </entry>
   </metadata>
   <__default>false</__default>
-  <dateCreated>2024-05-14 04:20:41.695 UTC</dateCreated>
+  <dateCreated>2024-03-27 07:14:34.448 UTC</dateCreated>
+  <dateModified>2024-05-14 04:15:24.814 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/reef_binomial/ProbabilityOfOccurrence/error/binomial_preds_reef_error_IQR.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/reef_binomial/ProbabilityOfOccurrence/error/binomial_preds_reef_error_IQR_demo.tif</url>
 </coverageStore>
