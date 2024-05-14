@@ -5,7 +5,7 @@
     <#if raster_value?is_number && (!raster_value?is_nan) && (raster_value > 0)>
 
 
-<p style="padding-top:5px; padding-bottom:5px">
+<p style="padding-bottom:5px">
 
 	<#if (raster_value >= 68) && (raster_value <= 70) || (raster_value >= 78) && (raster_value <= 80) || (raster_value >= 88) && (raster_value <= 90) || (raster_value >= 98) && (raster_value <= 100)>
              <p>The probability of macroalgae is <span style="color: #00b33c; font-weight: bold;">high</span> at this point,

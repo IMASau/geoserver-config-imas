@@ -48,8 +48,6 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -175,5 +173,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>multibeam_model_sw_all_classes_proj</nativeCoverageName>
+  <nativeCoverageName>multibeam_5m_SWC_all_classes</nativeCoverageName>
 </coverage>
