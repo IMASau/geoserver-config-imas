@@ -11,5 +11,5 @@
   <dateCreated>2024-03-27 07:14:34.448 UTC</dateCreated>
   <dateModified>2024-04-06 11:44:01.847 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/reef_binomial/ProbabilityOfOccurrence/error/binomial_preds_reef_standard_error.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/reef_binomial/ProbabilityOfOccurrence/error/binomial_preds_reef_error_IQR.tif</url>
 </coverageStore>

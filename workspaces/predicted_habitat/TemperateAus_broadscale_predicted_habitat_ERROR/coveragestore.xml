@@ -19,5 +19,5 @@
   <dateCreated>2024-03-28 04:32:17.598 UTC</dateCreated>
   <dateModified>2024-04-06 12:18:27.427 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/habitat5class_multinomial/ProbabilityOfOccurrence/error/multinomial_preds_5class_standard_error.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/temperate_aus/habitat5class_multinomial/ProbabilityOfOccurrence/error/multinomial_preds_5class_error_IQR.tif</url>
 </coverageStore>
