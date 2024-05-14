@@ -31,6 +31,7 @@
                     <div style="padding-bottom:1px;"> 
                         <span >
                             Likelihood of functional reef: <b>${meanValue?string("0.000")}</b>
+                            (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
                         </span>
                     </div>
                 </#if>
