@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Interquartile range (IQR) of mean predictions of functional reef occurrence in temperate Australian waters</title>
+  <title>Error of mean prediction (interquartile range; IQR) of functional reef occurrence in temperate Australian waters</title>
   <description>Generated from GeoTIFF</description>
   <abstract>This raster contains the interquartile range (25-75%) of mean predictions of functional reef occurrence in temperate Australian waters.</abstract>
   <keywords>
@@ -39,7 +39,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TemperateAus_broadscale_predicted_reef_ERROR_binomial_preds_reef_standard_error</entry>
@@ -120,5 +120,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>binomial_preds_reef_standard_error</nativeCoverageName>
+  <nativeCoverageName>binomial_preds_reef_error_IQR</nativeCoverageName>
 </coverage>

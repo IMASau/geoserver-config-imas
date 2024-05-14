@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--7299ab69:18be4159bc1:7e6d</id>
   </namespace>
-  <title>Interquartile range (IQR) of mean predictions of macroalgae occurrence in temperate Australian waters</title>
+  <title>Error of mean prediction (interquartile range; IQR) of macroalgae occurrence in temperate Australian waters</title>
   <description>Generated from GeoTIFF</description>
   <abstract>This raster contains 5 bands, each describing the interquartile range (25-75%) of error in the mean predictions of the occurrence of 5 habitat classes (bare consolidated, bare unconsolidated, seagrass, macroalgae, sessile invertebrates) in temperate Australian waters.&#xd;
 &#xd;
@@ -41,7 +41,7 @@ This layer is styled according to the error for the MACROALGAE class. See other 
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TemperateAus_broadscale_predicted_habitat_ERROR_multinomial_preds_5class_standard_error</entry>
@@ -178,5 +178,5 @@ This layer is styled according to the error for the MACROALGAE class. See other 
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>multinomial_preds_5class_standard_error</nativeCoverageName>
+  <nativeCoverageName>multinomial_preds_5class_error_IQR</nativeCoverageName>
 </coverage>
