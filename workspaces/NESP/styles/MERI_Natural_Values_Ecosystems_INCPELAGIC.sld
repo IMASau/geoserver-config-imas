@@ -31,7 +31,12 @@
               <ColorMapEntry quantity="18" label="  Seamount reefs" color="#9eed7c"/>
               
               <ColorMapEntry quantity="7" label="  Shelf incising canyons" color="#848484"/>
-
+              
+              <ColorMapEntry quantity="26" label="--- Pelagic Ecosystems ---" color="#ffffff" opacity="0.0001"/>              
+              <ColorMapEntry quantity="20" label="  Bathypelagic &amp; Abyssopelagic" color="#cb57f1"/>
+              <ColorMapEntry quantity="21" label="  Mesopelagic" color="#248653"/>
+              <ColorMapEntry quantity="23" label="  On shelf (neritic) epipelagic" color="#b5ab5d"/>              
+              <ColorMapEntry quantity="22" label="  Off-shelf (oceanic) epipelagic" color="#ae7ce1"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
