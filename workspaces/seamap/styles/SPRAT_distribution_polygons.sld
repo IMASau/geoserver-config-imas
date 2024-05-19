@@ -27,7 +27,8 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#8000ff</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>
@@ -55,6 +56,11 @@
                 </Graphic>
               </GraphicFill>           
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#8000ff</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>              
           </PolygonSymbolizer>
         </Rule>
       <VendorOption name="sortBy">PRESENCE_RANK D</VendorOption>		        
