@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_birds</name>
+  <id>LayerInfoImpl-6a14d715:18f90229368:7011</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6a14d715:18f90229368:7010</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-19 11:16:04.810 UTC</dateCreated>
+</layer>
