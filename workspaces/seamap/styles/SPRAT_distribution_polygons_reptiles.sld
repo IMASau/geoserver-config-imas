@@ -91,11 +91,11 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#8000ff</CssParameter>
+              <CssParameter name="fill">#e600e6</CssParameter>
               <CssParameter name="fill-opacity">0.15</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#8000ff</CssParameter>
+              <CssParameter name="stroke">#e600e6</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
@@ -122,7 +122,7 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#8000ff</CssParameter>
+                      <CssParameter name="stroke">#e600e6</CssParameter>
                       <CssParameter name="stroke-opacity">0.2</CssParameter>                      
                       <CssParameter name="stroke-width">3</CssParameter>
                     </Stroke>
@@ -132,7 +132,7 @@
               </GraphicFill>           
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#8000ff</CssParameter>
+              <CssParameter name="stroke">#e600e6</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>              
