@@ -48,7 +48,7 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#8000ff</CssParameter>
-                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-opacity">0.25</CssParameter>                      
                       <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
                   </Mark>

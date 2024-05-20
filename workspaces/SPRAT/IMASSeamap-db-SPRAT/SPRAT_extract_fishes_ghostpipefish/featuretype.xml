@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6a14d715:18f949db0fe:fad</id>
-  <name>SPRAT_extract_birds_overflying</name>
+  <id>FeatureTypeInfoImpl-6a14d715:18f95ad014a:3fab</id>
+  <name>SPRAT_extract_fishes_ghostpipefish</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - birds overflying marine areas</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - fishes: ghost pipefish</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -36,14 +36,18 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl-6a14d715:18f95ad014a:3c7c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;birds&apos; AND MARINE &lt;&gt; &apos;Listed&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;fishes&apos; AND TAXON_FAMILY = &apos;Solenostomidae&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

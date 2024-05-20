@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Australian sea lions likely to occur</Title>
+          <Title>Australian sea lions likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -76,7 +76,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Dugong likely to occur</Title>
+          <Title>Dugong likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -139,7 +139,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Elephant seals likely to occur</Title>
+          <Title>Elephant seals likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -202,7 +202,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Fur seal species likely to occur</Title>
+          <Title>Fur seal species likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>

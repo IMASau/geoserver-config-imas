@@ -1,17 +1,16 @@
 <layer>
   <name>SPRAT_extract_mammals</name>
-  <id>LayerInfoImpl-6a14d715:18f90229368:700f</id>
+  <id>LayerInfoImpl-6a14d715:18f95ad014a:3c84</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-6a14d715:18f9414e692:6797</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-6a14d715:18f90229368:700e</id>
+    <id>FeatureTypeInfoImpl-6a14d715:18f95ad014a:3c83</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-05-19 11:15:55.952 UTC</dateCreated>
-  <dateModified>2024-05-20 04:16:21.744 UTC</dateModified>
+  <dateCreated>2024-05-20 23:01:50.747 UTC</dateCreated>
 </layer>

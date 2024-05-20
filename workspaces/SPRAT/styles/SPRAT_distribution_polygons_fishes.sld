@@ -167,7 +167,7 @@
           </PolygonSymbolizer>           
         </Rule>
         <Rule>
-          <Title>Seahorse species likely to occur</Title>
+          <Title>Seahorse species likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>

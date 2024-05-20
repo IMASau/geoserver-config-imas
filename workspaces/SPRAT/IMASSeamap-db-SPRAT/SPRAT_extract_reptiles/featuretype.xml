@@ -1,9 +1,9 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6a14d715:18f90229368:700a</id>
+  <id>FeatureTypeInfoImpl-6a14d715:18f95ad014a:3c86</id>
   <name>SPRAT_extract_reptiles</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
   <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - reptiles</title>
   <keywords>
@@ -40,7 +40,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl-6a14d715:18f95ad014a:3c7c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
