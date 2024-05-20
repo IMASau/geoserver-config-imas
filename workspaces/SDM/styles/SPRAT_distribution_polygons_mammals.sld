@@ -13,12 +13,12 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Australian sea lions known to occur</Title>
+          <Title>Australian sea lions likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
@@ -39,12 +39,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Australian sea lions likely to occur</Title>
+          <Title>Australian sea lions may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
@@ -76,12 +76,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Dugong known to occur</Title>
+          <Title>Dugong likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -102,12 +102,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Dugong likely to occur</Title>
+          <Title>Dugong may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -139,12 +139,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Elephant seals known to occur</Title>
+          <Title>Elephant seals likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
@@ -165,12 +165,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Elephant seals likely to occur</Title>
+          <Title>Elephant seals may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
@@ -202,12 +202,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Fur seal species known to occur</Title>
+          <Title>Fur seal species likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
@@ -228,12 +228,12 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Fur seal species likely to occur</Title>
+          <Title>Fur seal species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
@@ -264,7 +264,7 @@
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>            
-      <VendorOption name="sortBy">PRESENCE_RANK D</VendorOption>		        
+      <VendorOption name="sortBy">PRESENCE_RANK A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

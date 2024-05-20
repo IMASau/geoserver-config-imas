@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Ghost pipefish species known to occur</Title>
+          <Title>Ghost pipefish species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -27,19 +27,30 @@
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#993366</CssParameter>
-              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#993366</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#993366</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
+            </Stroke>              
+          </PolygonSymbolizer>          
         </Rule>
         <Rule>
-          <Title>Pipefish species known to occur</Title>
+          <Title>Pipefish species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -53,19 +64,30 @@
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#008080</CssParameter>
-              <CssParameter name="fill-opacity">0.15</CssParameter>				  
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#008080</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#008080</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
+            </Stroke>              
+          </PolygonSymbolizer>             
         </Rule>
         <Rule>
-          <Title>Pipehorse species known to occur</Title>
+          <Title>Pipehorse species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -79,19 +101,30 @@
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ff4d4d</CssParameter>
-              <CssParameter name="fill-opacity">0.15</CssParameter>				  
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ff4d4d</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ff4d4d</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
+            </Stroke>              
+          </PolygonSymbolizer>             
         </Rule>
         <Rule>
-          <Title>Seadragon species known to occur</Title>
+          <Title>Seadragon species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -111,24 +144,35 @@
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#e600e6</CssParameter>
-              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#e600e6</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#e600e6</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
+            </Stroke>              
+          </PolygonSymbolizer>           
         </Rule>
         <Rule>
-          <Title>Seahorse species known to occur</Title>
+          <Title>Seahorse species likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
@@ -149,12 +193,12 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Seahorse species likely to occur</Title>
+          <Title>Seahorse species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -185,7 +229,7 @@
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>        
-      <VendorOption name="sortBy">PRESENCE_RANK D</VendorOption>		        
+      <VendorOption name="sortBy">PRESENCE_RANK A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

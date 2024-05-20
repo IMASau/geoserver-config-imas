@@ -13,11 +13,11 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Species known to occur</Title>
+          <Title>Species likely to occur</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -33,11 +33,11 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Species likely to occur</Title>
+          <Title>Species may occur</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>        
           <PolygonSymbolizer>
@@ -63,7 +63,7 @@
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>
-      <VendorOption name="sortBy">PRESENCE_RANK D</VendorOption>		        
+      <VendorOption name="sortBy">PRESENCE_RANK A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

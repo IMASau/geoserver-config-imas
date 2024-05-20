@@ -13,12 +13,12 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Crocodile species known to occur</Title>
+          <Title>Crocodile species likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -39,12 +39,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Crocodile species likely to occur</Title>
+          <Title>Crocodile species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -76,12 +76,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sea snake species known to occur</Title>
+          <Title>Sea snake species likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -102,12 +102,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sea snake species likely to occur</Title>
+          <Title>Sea snake species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -139,12 +139,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Turtle species known to occur</Title>
+          <Title>Turtle species likely to occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -165,12 +165,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Turtle species likely to occur</Title>
+          <Title>Turtle species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
@@ -201,7 +201,7 @@
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>        
-      <VendorOption name="sortBy">PRESENCE_RANK D</VendorOption>		        
+      <VendorOption name="sortBy">PRESENCE_RANK A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
