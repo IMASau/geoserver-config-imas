@@ -1,3 +1,5 @@
+<div style="padding: 5px 0;">
+
 <#setting date_format="yyyy">
 
 <#-- Initialize a map to store the lowest res_actual feature for each title_asb -->
@@ -169,12 +171,13 @@
 	</#list>
 
 </TABLE>
-<br>
+
+</div>
 
 <#list features as feature_counter>
 	<#if (feature_counter_index <10)> 
 		<#else>
-			<p><i>More than ten surveys exist at this location.</i></p>
+			<p style="font-size:10px"><i>More than ten surveys exist at this location.</i></p>
 		<#break>
 
 	</#if>
