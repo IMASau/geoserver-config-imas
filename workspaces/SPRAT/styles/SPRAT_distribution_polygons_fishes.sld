@@ -35,7 +35,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#993366</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
@@ -72,7 +72,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#008080</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
@@ -109,7 +109,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#ff4d4d</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
@@ -152,7 +152,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#e600e6</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
@@ -215,7 +215,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#cccc00</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>

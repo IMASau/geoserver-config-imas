@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_birds_overflying</name>
+  <id>LayerInfoImpl-6a14d715:18f95ad014a:3c7e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6a14d715:18f95ad014a:3c7d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-20 22:59:54.492 UTC</dateCreated>
+</layer>
