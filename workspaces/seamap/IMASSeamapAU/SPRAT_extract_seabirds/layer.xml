@@ -1,5 +1,5 @@
 <layer>
-  <name>SPRAT_extract_birds</name>
+  <name>SPRAT_extract_seabirds</name>
   <id>LayerInfoImpl-6a14d715:18f90229368:7011</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-19 11:16:04.810 UTC</dateCreated>
-  <dateModified>2024-05-19 11:35:16.565 UTC</dateModified>
+  <dateModified>2024-05-20 07:12:05.496 UTC</dateModified>
 </layer>
