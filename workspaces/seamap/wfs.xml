@@ -31,6 +31,13 @@
   </metadata>
   <gml>
     <entry>
+      <version>V_10</version>
+      <gml>
+        <srsNameStyle>URL</srsNameStyle>
+        <overrideGMLAttributes>false</overrideGMLAttributes>
+      </gml>
+    </entry>
+    <entry>
       <version>V_20</version>
       <gml>
         <srsNameStyle>URN2</srsNameStyle>
@@ -44,19 +51,13 @@
         <overrideGMLAttributes>false</overrideGMLAttributes>
       </gml>
     </entry>
-    <entry>
-      <version>V_10</version>
-      <gml>
-        <srsNameStyle>URL</srsNameStyle>
-        <overrideGMLAttributes>false</overrideGMLAttributes>
-      </gml>
-    </entry>
   </gml>
   <serviceLevel>COMPLETE</serviceLevel>
-  <maxFeatures>200000000</maxFeatures>
+  <maxFeatures>10000000</maxFeatures>
   <featureBounding>false</featureBounding>
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
   <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
   <includeWFSRequestDumpFile>false</includeWFSRequestDumpFile>
+  <getFeatureOutputTypeCheckingEnabled>false</getFeatureOutputTypeCheckingEnabled>
 </wfs>
