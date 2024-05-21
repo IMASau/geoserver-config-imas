@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_reptiles_seasnake</name>
+  <id>LayerInfoImpl-6a14d715:18f9a0181bd:6372</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6a14d715:18f9a0181bd:6371</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-21 10:58:25.663 UTC</dateCreated>
+</layer>
