@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_mammals_aussealion</name>
+  <id>LayerInfoImpl-6a14d715:18f9964b2fa:1a02</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6a14d715:18f9964b2fa:1a01</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-21 05:25:12.127 UTC</dateCreated>
+</layer>
