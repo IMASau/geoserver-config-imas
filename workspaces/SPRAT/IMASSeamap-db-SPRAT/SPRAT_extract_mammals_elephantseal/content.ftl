@@ -31,7 +31,7 @@
 		<#if (feature_index < 20)> 
 
             <tr align="left" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
-                <td class="fixed-width-ellipsis" style="padding-top: 8px; padding-bottom: 8px; border-right: 1px solid black; font-size: 10px; text-align:left">
+                <td class="fixed-width-ellipsis" style="padding-top: 8px; padding-bottom: 8px; border-right: 1px solid black; font-size: 10px; text-align:left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
                     ${feature.VERNACULAR_NAME.value}
                 </td>
                 <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left">
