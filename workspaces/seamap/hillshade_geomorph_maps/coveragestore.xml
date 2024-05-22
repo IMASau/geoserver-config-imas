@@ -8,6 +8,7 @@
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
   <__default>false</__default>
-  <dateModified>2023-08-25 02:17:15.945 UTC</dateModified>
+  <dateModified>2024-05-22 03:57:44.793 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/AMP_bathymetry_derivatives/hillshade/geomorph</url>
 </coverageStore>
