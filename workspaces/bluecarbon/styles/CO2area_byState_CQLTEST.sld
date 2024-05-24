@@ -3,14 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>CO2 abatement: $35 per tCO2</Name>
+    <Name>Area of CO2 abatement: maximum possible area</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>CO2 abatement (tonnes)</Title>
+          <Title>Area of C abatement (ha)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-             <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+             <ogc:PropertyName>max_area</ogc:PropertyName>
              <ogc:Literal>999999999999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -22,16 +22,16 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &lt; 100,000 tCO2</Title>
+          <Title>    &lt; 200 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
-             <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
-             <ogc:Literal>100000</ogc:Literal>
+             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:Literal>200</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#FFFFCC</CssParameter>
+                <CssParameter name="fill">#EDF8FB</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -41,22 +41,21 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    100,000 - 300,000</Title>
+          <Title>    200 - 2,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>100000</ogc:Literal>
+                <ogc:Literal>200</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>300000</ogc:Literal>
+                <ogc:Literal>2000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#D9F0A3</CssParameter>
+                <CssParameter name="fill">#B3CDE3</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>    
              <Stroke>
@@ -66,22 +65,21 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    300,000 - 2,000,000</Title>
+          <Title>    2,000 - 6,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>300000</ogc:Literal>
+                <ogc:Literal>2000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>2000000</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#ADDD8E</CssParameter>
+                <CssParameter name="fill">#8C96C6</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -91,22 +89,21 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    2,000,000 - 6,000,000</Title>
+          <Title>    6,000 - 15,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>2000000</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>6000000</ogc:Literal>
+                <ogc:Literal>15000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#78C679</CssParameter>
+                <CssParameter name="fill">#8C96C6</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -116,22 +113,21 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    6,000,000 - 14,000,000</Title>
+          <Title>    15,000 - 38,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
+              <ogc:PropertyName>max_area</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>6000000</ogc:Literal>
+                <ogc:Literal>15000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>14000000</ogc:Literal>
+                <ogc:Literal>38000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <!-- CssParameters allowed are fill (the color) and fill-opacity -->
-                <CssParameter name="fill">#31A354</CssParameter>
+                <CssParameter name="fill">#8856A7</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>
              <Stroke>
@@ -141,16 +137,16 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 14,000,000 tCO2</Title>
+          <Title>    &gt; 38,000 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-             <ogc:PropertyName>cp35_tCO2</ogc:PropertyName>
-             <ogc:Literal>14000000</ogc:Literal>
+             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:Literal>38000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#006837</CssParameter>
+                <CssParameter name="fill">#810F7C</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -158,7 +154,7 @@
                 <CssParameter name="stroke-width">0.01</CssParameter>               
              </Stroke>             
           </PolygonSymbolizer>
-        </Rule> 
+        </Rule>
      </FeatureTypeStyle>
     </UserStyle>
     </NamedLayer>

@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-6a14d715:18fa83bb5b9:-9ee</id>
-  <name>CSIRO_BlueCarbon_EconomicFeasibility_byState_FORCQL_TEST</name>
+  <name>CSIRO_BlueCarbon_EconomicFeasibility_byState_CQL_TESTING</name>
   <nativeName>CSIRO_BlueCarbon_EconomicFeasibility_byState</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-113599b8:18c66091da3:-453b</id>
   </namespace>
-  <title>CSIRO_BlueCarbon_EconomicFeasibility_byState</title>
+  <title>CSIRO Blue Carbon data aggregated by state - global layer to use for CQL filter testing</title>
   <keywords>
     <string>features</string>
     <string>CSIRO_BlueCarbon_EconomicFeasibility_byState</string>
@@ -49,6 +49,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
