@@ -1,0 +1,17 @@
+<layer>
+  <name>CSIRO_BlueCarbon_EconomicFeasibility_byState_FORCQL_TEST</name>
+  <id>LayerInfoImpl-6a14d715:18fa83bb5b9:-9ed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18fa83bb5b9:-901</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6a14d715:18fa83bb5b9:-9ee</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-24 02:16:01.417 UTC</dateCreated>
+  <dateModified>2024-05-24 02:17:27.925 UTC</dateModified>
+</layer>
