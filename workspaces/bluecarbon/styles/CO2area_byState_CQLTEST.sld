@@ -3,14 +3,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Area of CO2 abatement: maximum possible area</Name>
+    <Name>Area of CO2 abatement: carbon price $50/tCO2</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
           <Title>Area of C abatement (ha)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:PropertyName>cp50_ha</ogc:PropertyName>
              <ogc:Literal>999999999999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,7 +25,7 @@
           <Title>    &lt; 200 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
-             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:PropertyName>cp50_ha</ogc:PropertyName>
              <ogc:Literal>200</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
@@ -41,15 +41,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    200 - 2,000</Title>
+          <Title>    200 - 2,400</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp50_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>200</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>2000</ogc:Literal>
+                <ogc:Literal>2400</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -65,12 +65,12 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    2,000 - 6,000</Title>
+          <Title>    2,400 - 6,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp50_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>2000</ogc:Literal>
+                <ogc:Literal>2400</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
                 <ogc:Literal>6000</ogc:Literal>
@@ -79,7 +79,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#8C96C6</CssParameter>
+                <CssParameter name="fill">#98a1cd</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -92,7 +92,7 @@
           <Title>    6,000 - 15,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp50_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>6000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -103,7 +103,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
              <Fill>
-                <CssParameter name="fill">#8C96C6</CssParameter>
+                <CssParameter name="fill">#807ab8</CssParameter>
                 <CssParameter name="fill-opacity">0.95</CssParameter>
              </Fill>  
              <Stroke>
@@ -116,7 +116,7 @@
           <Title>    15,000 - 38,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>max_area</ogc:PropertyName>
+              <ogc:PropertyName>cp50_ha</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>15000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -140,7 +140,7 @@
           <Title>    &gt; 38,000 hectares</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-             <ogc:PropertyName>max_area</ogc:PropertyName>
+             <ogc:PropertyName>cp50_ha</ogc:PropertyName>
              <ogc:Literal>38000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>

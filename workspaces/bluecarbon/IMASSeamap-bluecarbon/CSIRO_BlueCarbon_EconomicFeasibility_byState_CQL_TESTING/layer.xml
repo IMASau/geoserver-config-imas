@@ -5,6 +5,14 @@
   <defaultStyle>
     <id>StyleInfoImpl-6a14d715:18fa83bb5b9:-901</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-6a14d715:18fa875f8d7:1a9c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6a14d715:18fa83bb5b9:-901</id>
+    </style>
+  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-6a14d715:18fa83bb5b9:-9ee</id>
   </resource>
@@ -13,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-24 02:16:01.417 UTC</dateCreated>
-  <dateModified>2024-05-24 02:57:15.299 UTC</dateModified>
+  <dateModified>2024-05-24 03:02:40.355 UTC</dateModified>
 </layer>
