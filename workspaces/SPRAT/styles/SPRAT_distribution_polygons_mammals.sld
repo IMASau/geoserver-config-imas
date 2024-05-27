@@ -90,7 +90,7 @@
             </ogc:PropertyIsLike>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Kogiidae</ogc:Literal>
+              <ogc:Literal>Neobalaenidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>              
             </ogc:Or>              
             </ogc:And>   
@@ -122,7 +122,7 @@
             </ogc:PropertyIsLike>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Kogiidae</ogc:Literal>
+              <ogc:Literal>Neobalaenidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>              
             </ogc:Or>              
             </ogc:And>   
@@ -165,15 +165,15 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Neobalaenidae</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
               <ogc:Literal>Phocoenidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
               <ogc:Literal>Physeteridae</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Kogiidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>               
             </ogc:Or>              
             </ogc:And>   
@@ -202,10 +202,6 @@
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
               <ogc:Literal>Delphinidae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Neobalaenidae</ogc:Literal>
             </ogc:PropertyIsEqualTo> 
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
@@ -214,6 +210,10 @@
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
               <ogc:Literal>Physeteridae</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Kogiidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>               
             </ogc:Or> 
             </ogc:And>   
