@@ -1,13 +1,13 @@
 <div style="padding: 5px 0;">
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 800px; table-layout: fixed;">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 850px; table-layout: fixed;">
     <colgroup>
         <col width="35%" />
         <col width="20%" />
-        <col width="10%" />
-        <col width="10%" />
-        <col width="15%" />
-        <col width="10%" />
+        <col width="12.5%" />
+        <col width="9%" />
+        <col width="14.5%" />
+        <col width="9%" />
     </colgroup>
 
     <thead>
