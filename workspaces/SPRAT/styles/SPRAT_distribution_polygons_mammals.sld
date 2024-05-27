@@ -158,10 +158,24 @@
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+            <ogc:Or>              
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
               <ogc:Literal>Delphinidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Neobalaenidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Phocoenidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Physeteridae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>               
+            </ogc:Or>              
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -184,10 +198,24 @@
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+            <ogc:Or>              
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
               <ogc:Literal>Delphinidae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Neobalaenidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Phocoenidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Physeteridae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>               
+            </ogc:Or> 
             </ogc:And>   
           </ogc:Filter>        
           <PolygonSymbolizer>
