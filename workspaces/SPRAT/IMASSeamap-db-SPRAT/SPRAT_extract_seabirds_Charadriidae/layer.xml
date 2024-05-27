@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_seabirds_Charadriidae</name>
+  <id>LayerInfoImpl--80fb345:18fb7be4bda:5d90</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--80fb345:18fb7be4bda:5d8f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-27 03:37:34.605 UTC</dateCreated>
+</layer>
