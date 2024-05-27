@@ -1,16 +1,16 @@
 <layer>
-  <name>SPRAT_extract_birds_overflying</name>
-  <id>LayerInfoImpl-6a14d715:18f95ad014a:3c7e</id>
+  <name>SPRAT_extract_mammals_whales_toothed</name>
+  <id>LayerInfoImpl--3b907bf8:18fba1b47a9:-7ccd</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-6a14d715:18f95ad014a:3c7d</id>
+    <id>FeatureTypeInfoImpl--3b907bf8:18fba1b47a9:-7cce</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-05-20 22:59:54.492 UTC</dateCreated>
+  <dateCreated>2024-05-27 13:26:08.960 UTC</dateCreated>
 </layer>
