@@ -1,0 +1,17 @@
+<layer>
+  <name>SPRAT_extract_mammals_whales_humpback</name>
+  <id>LayerInfoImpl--3b907bf8:18fbc6f0792:225b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3b907bf8:18fbc6f0792:225a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-28 00:52:22.184 UTC</dateCreated>
+  <dateModified>2024-05-28 00:55:52.747 UTC</dateModified>
+</layer>
