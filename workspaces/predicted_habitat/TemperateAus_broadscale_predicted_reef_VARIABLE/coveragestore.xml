@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--3b907bf8:18fbecaaf9f:-6ff5</id>
+  <name>TemperateAus_broadscale_predicted_reef_VARIABLE</name>
+  <description>For presenting reef predictions with user-configurable reef likelihood and confidence levels in Seamap Australia</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-05-28 10:46:00.296 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/b349c610-32c5-4574-ae8e-43cbf204e8bc/binomial_preds_reef_meanError.tif</url>
+</coverageStore>
