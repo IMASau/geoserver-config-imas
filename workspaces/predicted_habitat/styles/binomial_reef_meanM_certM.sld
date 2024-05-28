@@ -6,27 +6,26 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Transformation>
-<ogc:Function name="ras:Jiffle">
-  <ogc:Function name="parameter">
-    <ogc:Literal>coverage</ogc:Literal>
-  </ogc:Function>
-  <ogc:Function name="parameter">
-    <ogc:Literal>script</ogc:Literal>
-    <ogc:Literal><![CDATA[
-      b1 = src[0];
-      b2 = src[1];
-      dest = (b1 >= 0.8 && b2 <= 0.001) ? 1 : 0;
-    ]]></ogc:Literal>
-  </ogc:Function>
-</ogc:Function>
-
+          <ogc:Function name="ras:Jiffle">
+            <ogc:Function name="parameter">
+              <ogc:Literal>coverage</ogc:Literal>
+            </ogc:Function>
+            <ogc:Function name="parameter">
+              <ogc:Literal>script</ogc:Literal>
+              <ogc:Literal><![CDATA[
+                b1 = src[0];
+                b2 = src[1];
+                dest = (b1 >= 0.6 && b2 <= 0.15) ? 1 : 0;
+              ]]></ogc:Literal>
+            </ogc:Function>
+          </ogc:Function>
         </Transformation>
         <Rule>
           <RasterSymbolizer>
             <Opacity>1.0</Opacity>
             <ColorMap>
               <ColorMapEntry color="#000000" quantity="0" opacity="0"/> <!-- Transparent where condition is not met -->
-              <ColorMapEntry color="#a52a2a" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
+              <ColorMapEntry color="#845f4d" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
