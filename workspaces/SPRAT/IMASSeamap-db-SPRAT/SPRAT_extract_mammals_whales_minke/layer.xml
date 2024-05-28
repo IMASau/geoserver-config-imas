@@ -1,5 +1,5 @@
 <layer>
-  <name>SPRAT_extract_mammals_whales_toothed</name>
+  <name>SPRAT_extract_mammals_whales_minke</name>
   <id>LayerInfoImpl--3b907bf8:18fba1b47a9:-7ccd</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-27 13:26:08.960 UTC</dateCreated>
+  <dateModified>2024-05-27 23:51:05.860 UTC</dateModified>
 </layer>
