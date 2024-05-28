@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--80fb345:18fb7be4bda:5999</id>
-  <name>SPRAT_extract_seabirds_Laridae_skua</name>
+  <id>FeatureTypeInfoImpl--3b907bf8:18fbdcefb77:-246d</id>
+  <name>SPRAT_extract_seabirds_Procellariiformes_otherpetrel</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - seabirds: skua</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - seabirds: other petrel species</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -21,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>62.340000030097094</minx>
-    <maxx>164.72000000669993</maxx>
-    <miny>-64.47999999872215</miny>
-    <maxy>-25.999999990683374</maxy>
+    <minx>39.68000001681134</minx>
+    <maxx>173.399999993901</maxx>
+    <miny>-69.8200000047296</miny>
+    <maxy>-9.69000001290665</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>62.340000030097094</minx>
-    <maxx>164.72000000669993</maxx>
-    <miny>-64.47999999872215</miny>
-    <maxy>-25.999999990683374</maxy>
+    <minx>39.68000001681134</minx>
+    <maxx>173.399999993901</maxx>
+    <miny>-69.8200000047296</miny>
+    <maxy>-9.69000001290665</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;birds&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Laridae&apos; AND VERNACULAR_NAME LIKE &apos;%Skua%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;birds&apos; AND MARINE = &apos;Listed&apos; AND TAXON_ORDER = &apos;Procellariiformes&apos; AND VERNACULAR_NAME LIKE &apos;%Petrel%&apos; AND VERNACULAR_NAME NOT LIKE &apos;%Storm-Petrel%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
