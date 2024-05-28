@@ -826,10 +826,14 @@
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*Petrel*</ogc:Literal>
-            </ogc:PropertyIsLike>              
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
+              <ogc:Literal>Procellariiformes</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Diomedeidae</ogc:Literal>
+            </ogc:PropertyIsNotEqualTo>               
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -850,12 +854,16 @@
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*Petrel*</ogc:Literal>
-            </ogc:PropertyIsLike>              
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
+              <ogc:Literal>Procellariiformes</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Diomedeidae</ogc:Literal>
+            </ogc:PropertyIsNotEqualTo>               
             </ogc:And>   
           </ogc:Filter>        
           <PolygonSymbolizer>
@@ -944,133 +952,7 @@
             </Stroke>              
           </PolygonSymbolizer>
         </Rule>
-        <Rule>
-          <Title>Prion species likely</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*Prion*</ogc:Literal>
-            </ogc:PropertyIsLike>              
-            </ogc:And>   
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#b346ee</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>				  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#b346ee</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Prion species may occur</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*Prion*</ogc:Literal>
-            </ogc:PropertyIsLike>              
-            </ogc:And>   
-          </ogc:Filter>        
-          <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#b346ee</CssParameter>
-                      <CssParameter name="stroke-opacity">0.5</CssParameter>                      
-                      <CssParameter name="stroke-width">4</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#b346ee</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>              
-          </PolygonSymbolizer>
-        </Rule>    
-        <Rule>
-          <Title>Shearwater species likely</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*Shearwater*</ogc:Literal>
-            </ogc:PropertyIsLike>              
-            </ogc:And>   
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#eadc48</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>				  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#eadc48</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Shearwater species may occur</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*Shearwater*</ogc:Literal>
-            </ogc:PropertyIsLike>              
-            </ogc:And>   
-          </ogc:Filter>        
-          <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#eadc48</CssParameter>
-                      <CssParameter name="stroke-opacity">0.5</CssParameter>                      
-                      <CssParameter name="stroke-width">4</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#eadc48</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>              
-          </PolygonSymbolizer>
-        </Rule>            
-        <Rule>
+		<Rule>
           <Title>Tropicbird species likely</Title>
           <ogc:Filter>
             <ogc:And>            
