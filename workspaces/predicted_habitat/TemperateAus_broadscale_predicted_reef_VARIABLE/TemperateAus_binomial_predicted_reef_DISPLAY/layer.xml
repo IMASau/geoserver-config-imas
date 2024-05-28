@@ -1,16 +1,16 @@
 <layer>
   <name>TemperateAus_binomial_predicted_reef_DISPLAY</name>
-  <id>LayerInfoImpl--3b907bf8:18fbecaaf9f:-5e1f</id>
+  <id>LayerInfoImpl--3b907bf8:18fbecaaf9f:-3740</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl--3b907bf8:18fbecaaf9f:-3dc3</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--3b907bf8:18fbecaaf9f:-5e20</id>
+    <id>CoverageInfoImpl--3b907bf8:18fbecaaf9f:-3741</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-05-28 10:54:26.195 UTC</dateCreated>
+  <dateCreated>2024-05-28 11:22:30.28 UTC</dateCreated>
 </layer>
