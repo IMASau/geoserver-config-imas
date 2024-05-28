@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_seabirds_Sulidae_gannet</name>
+  <id>LayerInfoImpl--3b907bf8:18fbdcefb77:-2d7f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3b907bf8:18fbdcefb77:-2d80</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-28 06:29:41.783 UTC</dateCreated>
+</layer>

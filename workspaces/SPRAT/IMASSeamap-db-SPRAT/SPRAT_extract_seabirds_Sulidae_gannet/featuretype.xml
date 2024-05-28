@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--80fb345:18fb7be4bda:34b8</id>
-  <name>SPRAT_extract_seabirds_Sulidae</name>
+  <id>FeatureTypeInfoImpl--3b907bf8:18fbdcefb77:-2d80</id>
+  <name>SPRAT_extract_seabirds_Sulidae_gannet</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - seabirds: booby/gannet</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - seabirds: gannet</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -21,16 +21,16 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>39.68000001681111</minx>
+    <minx>39.6800000168108</minx>
     <maxx>173.39999999390122</maxx>
-    <miny>-69.82000000472962</miny>
+    <miny>-69.8200000047297</miny>
     <maxy>-8.000000008282683</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>39.68000001681111</minx>
+    <minx>39.6800000168108</minx>
     <maxx>173.39999999390122</maxx>
-    <miny>-69.82000000472962</miny>
+    <miny>-69.8200000047297</miny>
     <maxy>-8.000000008282683</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;birds&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Sulidae&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;birds&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Sulidae&apos; AND VERNACULAR_NAME LIKE &apos;%Gannet%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
