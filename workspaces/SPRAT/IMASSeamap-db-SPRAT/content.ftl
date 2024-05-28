@@ -55,7 +55,7 @@
                     <#if OCCURRENCE == 1>
                         <i>Species may occur</i>
                     <#else>
-                        <i>Species <b><u>likely</u></b> to occur</i>
+                        <i>Species <span style="font-weight: bold; color: #931f1f;">likely</span> to occur</i>
                     </#if>
                 </td>
                 <td style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left">

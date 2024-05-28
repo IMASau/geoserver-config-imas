@@ -76,7 +76,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Baleen whales likely</Title>
+          <Title>Baleen whale species likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -108,7 +108,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Baleen whales may occur</Title>
+          <Title>Baleen whale species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
