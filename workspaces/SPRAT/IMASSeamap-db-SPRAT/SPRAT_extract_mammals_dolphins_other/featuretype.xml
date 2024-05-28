@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3b907bf8:18fbc6f0792:236d</id>
-  <name>SPRAT_extract_mammals_whales_other baleen</name>
+  <id>FeatureTypeInfoImpl--3b907bf8:18fbc6f0792:4989</id>
+  <name>SPRAT_extract_mammals_dolphins_other</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: other baleen whales</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: other dolphin species</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Balaenopteridae&apos; AND VERNACULAR_NAME NOT LIKE &apos;%Minke%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Delphinidae&apos; AND VERNACULAR_NAME LIKE &apos;%Dolphin%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

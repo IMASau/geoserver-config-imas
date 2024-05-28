@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3b907bf8:18fbc6f0792:2400</id>
-  <name>SPRAT_extract_mammals_whales_pilot</name>
+  <id>FeatureTypeInfoImpl--3b907bf8:18fbc6f0792:225a</id>
+  <name>SPRAT_extract_mammals_whales_baleen_humpback</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: pilot whales</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: humpback whale</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Delphinidae&apos; AND SCIENTIFIC_NAME LIKE &apos;Globicephala macrorhynchus%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND SCIENTIFIC_NAME = &apos;Megaptera novaeangliae&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
