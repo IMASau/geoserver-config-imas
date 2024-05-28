@@ -28,7 +28,16 @@
               <ColorMapEntry color="#845f4d" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
             </ColorMap>
           </RasterSymbolizer>
+ 		 <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule>
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="values">              
+              <ColorMapEntry color="#845f4d" quantity="1" label="  Predicted reef" />           
+            </ColorMap>
+ 		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
+          </RasterSymbolizer>
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
