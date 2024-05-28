@@ -2,7 +2,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Conditional band display</Name>
+    <Name>Reef likelihood (high), model certainty (moderate)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Transformation>
@@ -15,7 +15,7 @@
               <ogc:Literal><![CDATA[
                 b1 = src[0];
                 b2 = src[1];
-                dest = (b1 >= 0.6 && b2 <= 0.15) ? 1 : 0;
+                dest = (b1 >= 0.8 && b2 <= 0.15) ? 1 : 0;
               ]]></ogc:Literal>
             </ogc:Function>
           </ogc:Function>
@@ -33,7 +33,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">              
-              <ColorMapEntry color="#845f4d" quantity="1" label="  Predicted reef" />           
+              <ColorMapEntry color="#845f4d" quantity="1" label="  Reef/sediment prediction" />           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>

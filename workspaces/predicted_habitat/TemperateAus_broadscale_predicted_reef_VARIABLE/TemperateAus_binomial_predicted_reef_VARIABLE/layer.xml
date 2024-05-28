@@ -1,5 +1,5 @@
 <layer>
-  <name>TemperateAus_binomial_predicted_reef_DISPLAY</name>
+  <name>TemperateAus_binomial_predicted_reef_VARIABLE</name>
   <id>LayerInfoImpl--3b907bf8:18fbecaaf9f:-3740</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-28 11:22:30.28 UTC</dateCreated>
+  <dateModified>2024-05-28 13:10:46.641 UTC</dateModified>
 </layer>
