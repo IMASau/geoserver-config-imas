@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3b907bf8:18fbc6f0792:4989</id>
-  <name>SPRAT_extract_mammals_dolphins_other</name>
+  <id>FeatureTypeInfoImpl--3b907bf8:18fbd1381b5:296f</id>
+  <name>SPRAT_extract_mammals_dolphins_bottlenose</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: other dolphin species</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: bottlenose dolphin</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Delphinidae&apos; AND SCIENTIFIC_NAME &lt;&gt; &apos;Orcaella heinsohni&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Globicephala%&apos; AND TAXON_FAMILY &lt;&gt; &apos;Phocoenidae&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Tursiops%&apos; AND  SCIENTIFIC_NAME NOT LIKE &apos;Sousa%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND SCIENTIFIC_NAME LIKE &apos;Tursiops%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_mammals_dolphins_humpback</name>
+  <id>LayerInfoImpl--3b907bf8:18fbd1381b5:2972</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3b907bf8:18fbd1381b5:2971</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-28 03:18:59.381 UTC</dateCreated>
+</layer>
