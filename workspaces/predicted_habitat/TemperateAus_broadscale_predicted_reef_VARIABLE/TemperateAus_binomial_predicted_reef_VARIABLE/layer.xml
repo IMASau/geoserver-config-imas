@@ -3,15 +3,16 @@
   <id>LayerInfoImpl--3b907bf8:18fbecaaf9f:-3740</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--3b907bf8:18fbecaaf9f:-3dc3</id>
+    <id>StyleInfoImpl--3b907bf8:18fbecaaf9f:-188b</id>
   </defaultStyle>
   <resource class="coverage">
     <id>CoverageInfoImpl--3b907bf8:18fbecaaf9f:-3741</id>
   </resource>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-28 11:22:30.28 UTC</dateCreated>
-  <dateModified>2024-05-28 13:10:46.641 UTC</dateModified>
+  <dateModified>2024-05-29 07:03:49.202 UTC</dateModified>
 </layer>
