@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-7a1c5a8f:18ad6808429:-3ff7</id>
-  <name>bathy_byGridResolution_discrete</name>
+  <name>bathy_bySOPGriddingResolution_discrete</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>bathy_byGridResolution_discrete.sld</filename>
+  <filename>bathy_bySOPGriddingResolution_discrete.sld</filename>
   <dateCreated>2023-09-27 13:58:28.344 UTC</dateCreated>
-  <dateModified>2024-01-21 23:36:37.181 UTC</dateModified>
+  <dateModified>2024-05-30 22:17:09.166 UTC</dateModified>
 </style>
