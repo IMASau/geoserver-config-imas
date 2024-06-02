@@ -5,6 +5,11 @@
   <defaultStyle>
     <id>StyleInfoImpl--523025d8:18fd8369767:16f0</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--523025d8:18fd9223ce8:-d1c</id>
+    </style>
+  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--523025d8:18fd8369767:50eb</id>
   </resource>
@@ -13,4 +18,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-06-02 12:02:26.901 UTC</dateCreated>
+  <dateModified>2024-06-02 21:49:59.128 UTC</dateModified>
 </layer>

@@ -16,7 +16,7 @@
             </ogc:Function>
             <ogc:Function name="parameter">
               <ogc:Literal>cellSize</ogc:Literal>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>50</ogc:Literal>
             </ogc:Function>
             <ogc:Function name="parameter">
               <ogc:Literal>outputBBOX</ogc:Literal>
@@ -40,16 +40,36 @@
         </Transformation>
         <Rule>
           <Title>Single observation</Title>
-          <!-- Removed MinScaleDenominator to ensure visibility at all scales -->
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#3333cc</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <!-- Inner Circle (Least Transparent) -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff0000</CssParameter>
+                  <CssParameter name="fill">#8000ff</CssParameter>
+                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#3333cc</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
               </Mark>
-              <Size>6</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -61,16 +81,49 @@
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
-          <!-- Removed MaxScaleDenominator to ensure visibility at all scales -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#008080</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>23</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#008080</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>21</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <!-- Inner Circle (Least Transparent) -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff0000</CssParameter>
+                  <CssParameter name="fill">#00b359</CssParameter>
+                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#008080</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
               </Mark>
-              <Size>22</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>
           <TextSymbolizer>
@@ -79,8 +132,8 @@
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif.plain</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
-              <CssParameter name="font-weight">bold</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>              
             </Font>
             <LabelPlacement>
               <PointPlacement>
@@ -91,14 +144,14 @@
               </PointPlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>2</Radius>
+              <Radius>1</Radius>
               <Fill>
-                <CssParameter name="fill">#ff0000</CssParameter>
+                <CssParameter name="fill">#ffffff</CssParameter>
                 <CssParameter name="fill-opacity">0.9</CssParameter>
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#FFFFFF</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </TextSymbolizer>
