@@ -85,7 +85,7 @@
     <entry key="logHeadersEnabled">false</entry>
     <entry key="logBodiesEnabled">true</entry>
   </metadata>
-  <updateSequence>34008</updateSequence>
+  <updateSequence>34010</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>100</xmlPostRequestLogBufferSize>
