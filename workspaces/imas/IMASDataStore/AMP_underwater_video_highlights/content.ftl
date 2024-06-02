@@ -32,7 +32,7 @@
    	 </div> 
            
             <!-- Display the location text immediately below the video and left aligned -->
-            <div style="padding-top: 5px; font-size: 12px;">
+            <div style="padding-top: 10px; padding-bottom: 10px; font-size: 12px;">
                 ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
             </div>
 
