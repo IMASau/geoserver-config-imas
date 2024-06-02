@@ -62,9 +62,9 @@
         </Rule>        
 
         <Rule>
+        <Title> Shipwreck</Title>          
         <MaxScaleDenominator>2000000</MaxScaleDenominator>            
           <!-- Outermost Circle (Most Transparent) -->
-          <Title> Shipwreck</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>
