@@ -1,0 +1,16 @@
+<layer>
+  <name>AUCHD_wrecks_ships</name>
+  <id>LayerInfoImpl--523025d8:18fd8369767:50ec</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--523025d8:18fd8369767:16f0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--523025d8:18fd8369767:50eb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-02 12:02:26.901 UTC</dateCreated>
+</layer>

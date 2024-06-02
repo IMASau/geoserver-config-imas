@@ -11,9 +11,60 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
+        <MinScaleDenominator>2000000</MinScaleDenominator>            
+          <!-- Outermost Circle (Most Transparent) -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#008080</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#008080</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <!-- Inner Circle (Least Transparent) -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#00b359</CssParameter>
+                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#008080</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                                                
+        </Rule>        
+
+        <Rule>
+        <MaxScaleDenominator>2000000</MaxScaleDenominator>            
           <!-- Outermost Circle (Most Transparent) -->
           <Title> Shipwreck</Title>
-          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -27,7 +78,6 @@
               <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
-
           <!-- Middle Circle -->
           <PointSymbolizer>
             <Graphic>
@@ -42,7 +92,6 @@
               <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
-
           <!-- Inner Circle (Least Transparent) -->
           <PointSymbolizer>
             <Graphic>
@@ -61,9 +110,7 @@
               <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
-          
-        </Rule>        
-
+        </Rule>         
 
         </FeatureTypeStyle>
     </UserStyle>
