@@ -39,7 +39,7 @@
           </ogc:Function>
         </Transformation>
         <Rule>
-          <Title>Single observation</Title>
+          <Title>Single wreck</Title>
           <!-- Middle Circle -->
           <PointSymbolizer>
             <Graphic>
@@ -74,7 +74,7 @@
           </PointSymbolizer>
         </Rule>
         <Rule>
-          <Title>Clustered observation</Title>
+          <Title>Cluster of multiple wrecks</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>count</ogc:PropertyName>
@@ -87,11 +87,11 @@
                 <WellKnownName>circle</WellKnownName>
                 <Stroke>
                   <CssParameter name="stroke">#008080</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-width">1.5</CssParameter>
                   <CssParameter name="stroke-opacity">0.2</CssParameter>                  
                 </Stroke>  
               </Mark>
-              <Size>23</Size>
+              <Size>26</Size>
             </Graphic>
           </PointSymbolizer>
           <!-- Middle Circle -->
@@ -101,11 +101,11 @@
                 <WellKnownName>circle</WellKnownName>
                 <Stroke>
                   <CssParameter name="stroke">#008080</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                  <CssParameter name="stroke-width">1.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>                  
                 </Stroke>  
               </Mark>
-              <Size>21</Size>
+              <Size>25</Size>
             </Graphic>
           </PointSymbolizer>
           <!-- Inner Circle (Least Transparent) -->
@@ -123,7 +123,7 @@
                   <CssParameter name="stroke-opacity">0.7</CssParameter>                  
                 </Stroke>                
               </Mark>
-              <Size>19</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
           <TextSymbolizer>
@@ -131,23 +131,22 @@
               <ogc:PropertyName>count</ogc:PropertyName>
             </Label>
             <Font>
-              <CssParameter name="font-family">SansSerif.plain</CssParameter>
-              <CssParameter name="font-size">11</CssParameter>
-              <CssParameter name="font-weight">bold</CssParameter>              
+              <CssParameter name="font-family">DejaVu Sans Condensed Bold</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
                 <AnchorPoint>
                   <AnchorPointX>0.5</AnchorPointX>
-                  <AnchorPointY>0.8</AnchorPointY>
+                  <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>1</Radius>
+              <Radius>1.5</Radius>
               <Fill>
                 <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.9</CssParameter>
+                <CssParameter name="fill-opacity">0.7</CssParameter>
               </Fill>
             </Halo>
             <Fill>

@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--523025d8:18fd8369767:50eb</id>
-  <name>AUCHD_wrecks_ships</name>
+  <id>FeatureTypeInfoImpl--523025d8:18fd9223ce8:e74</id>
+  <name>AUCHD_wrecks_ships_clustered</name>
   <nativeName>HOSTED_AUCHD_wrecks_ships</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australasian Underwater Cultural Heritage Database - underwater shipwrecks</title>
+  <title>Australasian Underwater Cultural Heritage Database - underwater shipwrecks with a clustered styling</title>
   <keywords>
     <string>features</string>
     <string>HOSTED_AUCHD_wrecks_ships</string>
@@ -36,6 +36,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

@@ -20,11 +20,11 @@
 							<Mark>
 								<WellKnownName>circle</WellKnownName>
 								<Fill>
-									<CssParameter name="fill">#000000</CssParameter>
-									<CssParameter name="opacity">0.0</CssParameter>
+									<CssParameter name="fill">#ffffff</CssParameter>
+									<CssParameter name="opacity">0.01</CssParameter>
                               </Fill>
 							</Mark>
-							<Size>6</Size>
+							<Size>10</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

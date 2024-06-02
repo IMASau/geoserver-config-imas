@@ -1,0 +1,18 @@
+<layer>
+  <name>AUCHD_wrecks_aircraft_clustered</name>
+  <id>LayerInfoImpl--523025d8:18fd9223ce8:e72</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--523025d8:18fd9223ce8:-d1c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--523025d8:18fd9223ce8:e71</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-02 22:10:21.733 UTC</dateCreated>
+  <dateModified>2024-06-02 22:15:03.498 UTC</dateModified>
+</layer>

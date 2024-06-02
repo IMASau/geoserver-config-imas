@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--523025d8:18fd9223ce8:e77</id>
+  <name>AUCHD_wrecks_ships</name>
+  <mode>SINGLE</mode>
+  <title>Australasian Underwater Cultural Heritage Database - shipwrecks</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--523025d8:18fd9223ce8:e75</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--523025d8:18fd8369767:50ec</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--523025d8:18fd9223ce8:-d1c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3da50ec5:181f96b066a:2434</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-177.95200355904</minx>
+    <maxx>178.5600035712</maxx>
+    <miny>-55.2100011042</miny>
+    <maxy>49.98300099966</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-06-02 22:14:20.281 UTC</dateCreated>
+</layerGroup>

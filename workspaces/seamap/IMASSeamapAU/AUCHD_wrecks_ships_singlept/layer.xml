@@ -1,5 +1,5 @@
 <layer>
-  <name>AUCHD_wrecks_ships</name>
+  <name>AUCHD_wrecks_ships_singlept</name>
   <id>LayerInfoImpl--523025d8:18fd8369767:50ec</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,10 +13,13 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--523025d8:18fd8369767:50eb</id>
   </resource>
+  <metadata>
+    <entry key="buffer">50</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-06-02 12:02:26.901 UTC</dateCreated>
-  <dateModified>2024-06-02 21:49:59.128 UTC</dateModified>
+  <dateModified>2024-06-02 22:25:11.800 UTC</dateModified>
 </layer>

@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--523025d8:18fd8369767:50f3</id>
-  <name>AUCHD_wrecks_aircraft</name>
+  <id>FeatureTypeInfoImpl--523025d8:18fd9223ce8:e71</id>
+  <name>AUCHD_wrecks_aircraft_clustered</name>
   <nativeName>HOSTED_AUCHD_wrecks_aircraft</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australasian Underwater Cultural Heritage Database - underwater aircraft wrecks</title>
+  <title>Australasian Underwater Cultural Heritage Database - underwater aircraft wrecks with a clustered styling</title>
+  <abstract>For use in layer group only (does not support GetFeatureInfo)</abstract>
   <keywords>
     <string>features</string>
     <string>HOSTED_AUCHD_wrecks_aircraft</string>
@@ -36,6 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
