@@ -6,9 +6,9 @@
 	<div style="flex-grow: 1; padding-right: 10px;">
 		<h5>${feature.NAME.value}</h5>
 		<p style="line-height: 1.5;">
-			Aircraft type: ${feature.Type.value}<br>
+			Ship type: ${feature.Type.value}<br>
 			Year wrecked: ${feature.Year.value}<br>
-			<span style="font-size: 0.9em;"><a href="${feature.DESCRIP.value}" target="_blank">More about the Aircraft</a></span>
+			<span style="font-size: 0.9em;"><a href="${feature.DESCRIP.value}" target="_blank">More about the Shipwreck</a></span>
 		</p>
 	</div>
 
