@@ -16,7 +16,7 @@
             </ogc:Function>
             <ogc:Function name="parameter">
               <ogc:Literal>cellSize</ogc:Literal>
-              <ogc:Literal>50</ogc:Literal>
+              <ogc:Literal>30</ogc:Literal>
             </ogc:Function>
             <ogc:Function name="parameter">
               <ogc:Literal>outputBBOX</ogc:Literal>

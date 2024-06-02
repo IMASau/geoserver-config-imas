@@ -24,7 +24,7 @@
 									<CssParameter name="opacity">0.01</CssParameter>
                               </Fill>
 							</Mark>
-							<Size>10</Size>
+							<Size>40</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
