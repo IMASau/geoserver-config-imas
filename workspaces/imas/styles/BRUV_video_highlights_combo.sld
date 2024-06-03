@@ -62,7 +62,11 @@
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_youtube</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
-			</ogc:Or>			
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_vimeo</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>			
+			</ogc:Or>            
           </ogc:Filter>		
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
           <PointSymbolizer>
@@ -147,7 +151,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_vimeo</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>              
 			</ogc:Or>			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 
@@ -235,7 +243,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_vimeo</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>              
 			</ogc:Or>			
           </ogc:Filter>	
           <MinScaleDenominator>10000</MinScaleDenominator>                              
@@ -321,7 +333,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_vimeo</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>              
 			</ogc:Or>			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
