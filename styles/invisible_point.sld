@@ -7,29 +7,19 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		<!-- a named layer is the basic building block of an sld document -->
 
-	<NamedLayer>
-		<Name>Invisible Point</Name>
-		<UserStyle>
-
-			<FeatureTypeStyle>
-				<Rule>
-					<Name>Rule 1</Name>
-					<Title> </Title>
-                  <PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>circle</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#ffffff</CssParameter>
-									<CssParameter name="opacity">0.01</CssParameter>
-                              </Fill>
-							</Mark>
-							<Size>40</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-
-		    </FeatureTypeStyle>
-		</UserStyle>
-	</NamedLayer>
+ <NamedLayer>
+    <Name>InvisibleStyle</Name>
+    <UserStyle>
+      <Title>Invisible Style</Title>
+      <Abstract>Style that makes features invisible</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Invisible</Name>
+          <Title>Invisible</Title>
+          <Abstract>Invisible rule</Abstract>
+          <!-- No Symbolizer means the features are not drawn -->
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
 </StyledLayerDescriptor>
