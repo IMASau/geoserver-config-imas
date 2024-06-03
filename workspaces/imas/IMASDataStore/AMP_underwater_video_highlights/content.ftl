@@ -36,7 +36,7 @@
                
                 <!-- Display the location text immediately below the video and left aligned -->
                 <div style="padding-top: 10px; padding-bottom: 10px; font-size: 12px;">
-                    ${feature.Location.value!"Unknown"} <i>(${feature.Source.value!"Unknown"})</i><br>
+                    ${feature.Location.value!"Unknown"} <span style="font-size: 0.95em;"><i>(${feature.Source.value!"Unknown"})</i></span><br>
                 </div>
 
                 <!-- Display the "description" field if feature.description.value exists -->
