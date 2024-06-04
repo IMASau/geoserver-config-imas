@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--523025d8:18fd9223ce8:e76</id>
-  <name>AUCHD_wrecks_aircraft</name>
+  <name>AUCHD_wrecks_map_aircraft</name>
   <mode>SINGLE</mode>
   <title>Australasian Underwater Cultural Heritage Database - submerged aircraft wrecks</title>
   <advertised>false</advertised>
@@ -33,5 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-06-02 22:14:12.43 UTC</dateCreated>
-  <dateModified>2024-06-03 22:17:02.992 UTC</dateModified>
+  <dateModified>2024-06-04 04:45:05.872 UTC</dateModified>
 </layerGroup>
