@@ -17,7 +17,7 @@
 
     <#assign foundMedia=0>
 
-    <#list features as feature>
+<#list features as feature>
         <#assign imagetype=feature.media_name.value> 
 
         <#if (feature.dtype.value == "A_youtube" || feature.dtype.value == "A_vimeo") && foundMedia < 2> <!-- Check if less than 2 videos are found -->
@@ -57,49 +57,55 @@
     <#if foundMedia == 0>
         <div style="display: flex; justify-content: center;">
             <div style="width: 400px;">
-                <#list features as feature>
+	<#list features?sort_by(["dtype", "rawValue"]) as feature>
                     <#assign imagetype=feature.media_name.value>
                     <#assign imagedate=feature.Date.value>
                     <#assign imagetime=feature.Time.value>
                     <#assign type=feature.Status.value>
 
-                    <#if (feature_index < 3)>
-                        <div style="position: relative; display: block; padding-bottom: 10px;">
-                            <#if imagedate?has_content>
-                                <div style="font-size:12px; padding-bottom: 2px;">
-                                    ${feature.Location.value!"Unknown"}
-                                    <#if type?has_content>
-                                        <i>(status: <b>${feature.Status.value}</b>)</i>
-                                    </#if>
-                                    <br>${imagedate?date("mm/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
-                                </div>
-                            <#else>
-                                <div style="font-size:12px; padding-bottom: 2px;">
-                                    ${feature.Location.value!"Unknown"}
-                                    <#if type?has_content>
-                                        <i>(status: <b>${feature.Status.value}</b>)</i>
-                                    </#if>
-                                </div>
-                            </#if>
-                            <div style="position: relative; width: 400px;">
-                                <video width="400" controls autoplay muted loop>
-                                    <source src="${feature.media_URL.value!}" type="video/mp4">
-                                </video>
-                                <#if feature.dtype.value == "compilation">
-                                    <div style="font-size:11px; position: absolute; bottom: 3px; right: 0px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 3px;">
-                                        Video location is approximate
-                                    </div> 
-                                <#else>
-                                    <div style="font-size:10px; position: absolute; top: 3px; right: 3px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
-                                        Credit: ${feature.Source.value!"Unknown"}
-                                    </div>
-                                </#if>
-                                <div style="font-size:11px; position: absolute; top: -17px; right: 0px;">
-                                    <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
-                                </div>
-                            </div>
-                        </div>
+<#if (feature_index < 3)>
+    <div style="position: relative; display: block; padding-bottom: 10px;">
+        <#if imagedate?has_content>
+            <div style="font-size:12px; padding-bottom: 2px;">
+                ${feature.Location.value!"Unknown"}
+                <#if type?has_content>
+                    <i>(status: <b>${feature.Status.value}</b>)</i>
+                </#if>
+                <br>${imagedate?date("MM/dd/yy")?date} (${imagetime?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
+            </div>
+        <#else>
+            <div style="font-size:12px; padding-bottom: 4px;">
+                ${feature.Location.value!"Unknown"}
+                <#if type?has_content>
+                    <i>(status: <b>${feature.Status.value}</b>)</i>
+                </#if>
+            </div>
+        </#if>
 
+        <!-- Conditionally assign the style for compilation videos -->
+        <#assign videoStyle = "position: relative; width: 400px;">
+        <#if feature.dtype.value == "compilation">
+            <#assign videoStyle = videoStyle + "box-shadow: 0 0 13px 4px rgba(0, 153, 255, 0.5);">
+        </#if>
+
+        <div style="${videoStyle}">
+            <video width="400" controls autoplay muted loop>
+                <source src="${feature.media_URL.value!}" type="video/mp4">
+            </video>
+            <#if feature.dtype.value == "compilation">
+                <div style="font-size:11px; position: absolute; bottom: 3px; right: 0px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 3px;">
+                    Video location is approximate
+                </div> 
+            <#else>
+                <div style="font-size:10px; position: absolute; top: 3px; right: 3px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
+                    Credit: ${feature.Source.value!"Unknown"}
+                </div>
+            </#if>
+            <div style="font-size:11px; position: absolute; top: -20px; right: 0px;">
+                <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
+            </div>
+        </div>
+    </div>
                     <#elseif (feature_index == 3 && features?size > 3)>
                         <details>
                             <summary><span class="summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
