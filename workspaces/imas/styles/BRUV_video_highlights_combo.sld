@@ -12,6 +12,60 @@
       <FeatureTypeStyle>
         
  
+         <Rule>
+          <Title> highlight</Title>      
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>19</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                          		  
+        </Rule>
+        <Rule>
+          <Title> representative habitat</Title>       
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/camera_video_play_blue.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>18</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                          		  
+        </Rule>
+        <Rule>
+          <Title> regional compilation video</Title>         
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>24</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                          		  
+        </Rule>         
+        <Rule>
+          <Title> 3D benthic model</Title>          
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/terrain_aqua.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>25</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                          		  
+        </Rule> 
+ 
+ 
  
          <Rule>
           <ogc:Filter>
@@ -75,7 +129,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>13</Size>
+    			 	<Size>16</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -166,7 +220,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>15</Size>
+    			 	<Size>20</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -258,7 +312,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>21</Size>
+    			 	<Size>27</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
@@ -302,6 +356,7 @@
     			 	<Size>20</Size>
   			 </Graphic>
           </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
         </Rule>
         <Rule>
           <Title> representative habitat</Title>
@@ -321,6 +376,7 @@
     			 	<Size>18</Size>
   			 </Graphic>
           </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
         </Rule>
         <Rule>
           <Title> regional compilation video</Title>
@@ -347,9 +403,10 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/video_library_pink.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>29</Size>
+    			 	<Size>35</Size>
   			 </Graphic>
           </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
         </Rule>         
         <Rule>
           <Title> 3D benthic model</Title>
@@ -369,6 +426,7 @@
     			 	<Size>24</Size>
   			 </Graphic>
           </PointSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
         </Rule> 				
       <VendorOption name="sortBy">dtype D</VendorOption>						
         </FeatureTypeStyle>
