@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3ab4</id>
-  <name>raster_hillshade</name>
+  <name>raster_hillshade_EEZ</name>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_hillshade.sld</filename>
+  <filename>raster_hillshade_EEZ.sld</filename>
   <dateCreated>2024-04-17 23:00:24.650 UTC</dateCreated>
-  <dateModified>2024-04-21 22:08:54.683 UTC</dateModified>
+  <dateModified>2024-06-11 12:34:48.666 UTC</dateModified>
 </style>
