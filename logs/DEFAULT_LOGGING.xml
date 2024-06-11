@@ -11,9 +11,9 @@
             <filePattern>logs/geoserver-%i.log</filePattern>
             <PatternLayout pattern="%date{dd mmm HH:mm:ss} %-6level [%logger{2}] - %msg%n%throwable{filters(org.junit,org.apache.maven,sun.reflect,java.lang.reflect)}"/>
             <Policies>
-                <SizeBasedTriggeringPolicy size="20 MB" />
+                <SizeBasedTriggeringPolicy size="50 MB" />
             </Policies>
-            <DefaultRolloverStrategy max="3" fileIndex="min"/>
+            <DefaultRolloverStrategy max="7" fileIndex="min"/>
         </RollingFile>
     </Appenders>
     <Loggers>
