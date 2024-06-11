@@ -7,3 +7,5 @@ security/masterpw.info
 
 logs/geoserver.log*
 logs/geoserver-*
+
+cluster/
