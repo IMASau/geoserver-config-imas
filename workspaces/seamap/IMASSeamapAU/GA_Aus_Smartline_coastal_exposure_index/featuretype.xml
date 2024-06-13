@@ -1,16 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--6d173b33:15e76440c15:536e</id>
-  <name>SeamapAus_NAT_CoastalGeomorph_Smartline100K</name>
+  <id>FeatureTypeInfoImpl-29ca4eb0:1900fd4e45a:55d4</id>
+  <name>GA_Aus_Smartline_coastal_exposure_index</name>
   <nativeName>SeamapAus_NAT_CoastalGeomorph_Smartline100K</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NATIONAL - Coastal geomorphology updates: Smartline 100K (GA) [MAP VIEW]</title>
-  <abstract>Reduced view for mapping purposes.</abstract>
+  <title>Geoscience Australia - Australian Smartline coastal relative exposure index</title>
   <keywords>
-    <string>Seamap Australia</string>
-    <string>habitat mapping</string>
-    <string>Smartline</string>
+    <string>features</string>
+    <string>SeamapAus_NAT_CoastalGeomorph_Smartline100K</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -37,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-2083192.394100003</minx>
-    <maxx>1923908.3271000013</maxx>
-    <miny>-4991821.1622</miny>
-    <maxy>-1116044.0643000007</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>109.13170595097762</minx>
+    <maxx>157.0107118194919</maxx>
+    <miny>-44.34110528186943</miny>
+    <maxy>-8.16698369982981</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-2083192.394100003</minx>
-    <maxx>1923908.3271000013</maxx>
-    <miny>-4991821.1622</miny>
-    <maxy>-1116044.0643000007</maxy>
+    <minx>109.13170595097762</minx>
+    <maxx>157.0107118194919</maxx>
+    <miny>-44.34110528186943</miny>
+    <maxy>-8.16698369982981</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -59,6 +57,7 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>

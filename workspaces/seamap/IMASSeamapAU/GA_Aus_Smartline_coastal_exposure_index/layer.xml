@@ -1,0 +1,16 @@
+<layer>
+  <name>GA_Aus_Smartline_coastal_exposure_index</name>
+  <id>LayerInfoImpl-29ca4eb0:1900fd4e45a:55d5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-29ca4eb0:1900fd4e45a:5598</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-29ca4eb0:1900fd4e45a:55d4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-13 04:45:22.522 UTC</dateCreated>
+</layer>
