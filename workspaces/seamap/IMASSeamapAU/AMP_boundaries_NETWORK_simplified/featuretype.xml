@@ -1,15 +1,15 @@
 <featureType>
   <id>FeatureTypeInfoImpl-6cd6062a:1900652c23b:3842</id>
   <name>AMP_boundaries_NETWORK_simplified</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2023_NETWORK_simp15000m</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2023_NETWORK_simp5000m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Park (2023) NETWORK boundaries - simplified 3000m for querying</title>
-  <abstract>This layer represents the Australian Marine Park boundaries (aggregated by NETWORK), with a simplification algorithm (preserve critical points) of 15,000m applied. This layer is intended to be used for subsetting Squidle+ queries and is not designed to be published.</abstract>
+  <title>Australian Marine Park (2023) NETWORK boundaries - simplified 5000m for querying</title>
+  <abstract>This layer represents the Australian Marine Park boundaries (aggregated by NETWORK), with a simplification algorithm (preserve critical points) of 5,000m applied. This layer is intended to be used for subsetting Squidle+ queries and is not designed to be published.</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_BOUNDARIES_AMP2023_NETWORK_simp15000m</string>
+    <string>SeamapAus_BOUNDARIES_AMP2023_NETWORK_simp5000m</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 

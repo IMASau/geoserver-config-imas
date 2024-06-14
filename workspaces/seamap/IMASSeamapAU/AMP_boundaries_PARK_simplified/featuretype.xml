@@ -37,7 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -49,7 +49,7 @@
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
-  <numDecimals>0</numDecimals>
+  <numDecimals>3</numDecimals>
   <padWithZeros>false</padWithZeros>
   <forcedDecimal>false</forcedDecimal>
   <overridingServiceSRS>false</overridingServiceSRS>
