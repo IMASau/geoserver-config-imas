@@ -144,7 +144,7 @@
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
-      <boolean>false</boolean>
+      <boolean>true</boolean>
     </entry>
     <entry>
       <string>Bands</string>
