@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_fishes_sharkray_hammerhead</name>
+  <id>LayerInfoImpl--558f69ae:1902524b0b2:77dd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--558f69ae:1902524b0b2:77dc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-17 13:40:55.621 UTC</dateCreated>
+</layer>

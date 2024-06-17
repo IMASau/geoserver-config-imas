@@ -1,0 +1,58 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--558f69ae:1902524b0b2:77ec</id>
+  <name>SPRAT_extract_fishes_sharkray_maugeanskate</name>
+  <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
+  </namespace>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - sharks &amp; rays: Maugean skate</title>
+  <keywords>
+    <string>features</string>
+    <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>145.200000004537</minx>
+    <maxx>146.240000004875</maxx>
+    <miny>-43.4199999941043</miny>
+    <maxy>-42.1399999945467</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>145.200000004537</minx>
+    <maxx>146.240000004875</maxx>
+    <miny>-43.4199999941043</miny>
+    <maxy>-42.1399999945467</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-6a14d715:18f95ad014a:3c7c</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <cqlFilter>TAXON_GROUP = &apos;fishes&apos; AND MARINE = &apos;Listed&apos; AND TAXON_CLASS = &apos;Chondrichthyes&apos; AND TAXON_FAMILY = &apos;Rajidae&apos;</cqlFilter>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
