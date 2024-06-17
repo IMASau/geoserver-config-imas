@@ -46,7 +46,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;fishes&apos; AND MARINE = &apos;Listed&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;fishes&apos; AND MARINE = &apos;Listed&apos; AND TAXON_CLASS &lt;&gt; &apos;Chondrichthyes&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
