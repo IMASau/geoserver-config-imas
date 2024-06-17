@@ -77,6 +77,69 @@
           </PolygonSymbolizer>             
         </Rule>
         <Rule>
+          <Title>Gulper shark species likely</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Centrophoridae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#006666</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#006666</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>Gulper shark species may occur</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Centrophoridae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>             
+            </ogc:And>   
+          </ogc:Filter>        
+          <PolygonSymbolizer>
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#006666</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">4</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#006666</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>              
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
           <Title>Hammerhead shark species likely</Title>
           <ogc:Filter>
             <ogc:And>            
@@ -139,73 +202,10 @@
             </Stroke>              
           </PolygonSymbolizer>
         </Rule> 
-        <Rule>
-          <Title>Gulper shark species likely</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Centrophoridae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>              
-            </ogc:And>   
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#008080</CssParameter>
-              <CssParameter name="fill-opacity">0.25</CssParameter>				  
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#008080</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Gulper shark species may occur</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Centrophoridae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>             
-            </ogc:And>   
-          </ogc:Filter>        
-          <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#008080</CssParameter>
-                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">4</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#008080</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>              
-          </PolygonSymbolizer>
-        </Rule> 
         
         
         <Rule>
-          <Title>Oceanic whitetip species likely</Title>
+          <Title>Oceanic whitetip shark species likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -231,7 +231,7 @@
           </PolygonSymbolizer>          
         </Rule>        
         <Rule>
-          <Title>Oceanic whitetip species may occur</Title>
+          <Title>Oceanic whitetip shark species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
