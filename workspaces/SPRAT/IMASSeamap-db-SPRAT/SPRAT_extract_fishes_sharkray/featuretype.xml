@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6a14d715:18f95ad014a:3c80</id>
-  <name>SPRAT_extract_fishes</name>
+  <id>FeatureTypeInfoImpl--558f69ae:1902524b0b2:6d7b</id>
+  <name>SPRAT_extract_fishes_sharkray</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - fishes</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - fishes: sharks &amp; rays</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -21,21 +21,22 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>70.36000003008027</minx>
-    <maxx>173.34999999390706</maxx>
-    <miny>-60.5599999879292</miny>
-    <maxy>-8.469999992923587</maxy>
+    <minx>67.05000003010224</minx>
+    <maxx>173.349999993907</maxx>
+    <miny>-58.4499999888221</miny>
+    <maxy>-8.469999992923437</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>70.36000003008027</minx>
-    <maxx>173.34999999390706</maxx>
-    <miny>-60.5599999879292</miny>
-    <maxy>-8.469999992923587</maxy>
+    <minx>67.05000003010224</minx>
+    <maxx>173.349999993907</maxx>
+    <miny>-58.4499999888221</miny>
+    <maxy>-8.469999992923437</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -46,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;fishes&apos; AND MARINE = &apos;Listed&apos; AND TAXON_CLASS &lt;&gt; &apos;Chondrichthyes&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;fishes&apos; AND MARINE = &apos;Listed&apos; AND TAXON_CLASS = &apos;Chondrichthyes&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
