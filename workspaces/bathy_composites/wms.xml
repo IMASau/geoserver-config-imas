@@ -73,13 +73,13 @@ See the full data product description at https://metadata.imas.utas.edu.au/geone
     <position>BOT_RIGHT</position>
     <transparency>100</transparency>
   </watermark>
-  <interpolation>Bilinear</interpolation>
+  <interpolation>Nearest</interpolation>
   <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
   <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>1000000</maxRequestMemory>
+  <maxRequestMemory>100000</maxRequestMemory>
   <maxRenderingTime>180</maxRenderingTime>
   <maxRenderingErrors>100</maxRenderingErrors>
   <internationalRootLayerTitle/>
