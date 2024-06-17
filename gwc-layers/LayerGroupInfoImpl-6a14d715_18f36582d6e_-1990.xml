@@ -1,6 +1,6 @@
 <GeoServerTileLayer>
   <id>LayerGroupInfoImpl-6a14d715:18f36582d6e:-1990</id>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
   <name>bathy_composites:AusEEZ_bathy_aspectSlope_composite_multires</name>
   <mimeFormats>

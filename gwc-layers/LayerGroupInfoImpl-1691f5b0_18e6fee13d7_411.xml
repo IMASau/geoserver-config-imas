@@ -1,6 +1,6 @@
 <GeoServerTileLayer>
   <id>LayerGroupInfoImpl-1691f5b0:18e6fee13d7:411</id>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
   <name>bathy_composites:AusEEZ_bathy_composite_multires</name>
   <mimeFormats>
