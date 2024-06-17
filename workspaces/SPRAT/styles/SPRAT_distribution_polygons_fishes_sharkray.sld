@@ -11,46 +11,36 @@
   <NamedLayer>
     <Name>Species of National Environmental Significance (distributions)</Name>
     <UserStyle>
-      <FeatureTypeStyle>         
+      <FeatureTypeStyle>
         <Rule>
-          <Title>Ghost pipefish species may occur</Title>
+          <Title>Grey nurse shark likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
-              <ogc:Literal>Solenostomidae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>              
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
+              <ogc:Literal>Grey Nurse*</ogc:Literal>
+            </ogc:PropertyIsLike>              
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#993366</CssParameter>
-                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">4</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
+            <Fill>
+              <CssParameter name="fill">#00b3b3</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#993366</CssParameter>
+              <CssParameter name="stroke">#00b3b3</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>              
+            </Stroke>                
           </PolygonSymbolizer>          
-        </Rule>
+        </Rule>        
+        
         <Rule>
-          <Title>Pipefish species may occur</Title>
+          <Title>Grey nurse shark may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -59,7 +49,7 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*ipefish*</ogc:Literal>
+              <ogc:Literal>Grey Nurse*</ogc:Literal>
             </ogc:PropertyIsLike>              
             </ogc:And>   
           </ogc:Filter>
@@ -70,7 +60,7 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#008080</CssParameter>
+                      <CssParameter name="stroke">#00b3b3</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
                       <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
@@ -80,94 +70,14 @@
               </GraphicFill>           
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#008080</CssParameter>
+              <CssParameter name="stroke">#00b3b3</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>              
           </PolygonSymbolizer>             
         </Rule>
         <Rule>
-          <Title>Pipehorse species may occur</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
-              <ogc:Literal>*ipehorse*</ogc:Literal>
-            </ogc:PropertyIsLike>              
-            </ogc:And>   
-          </ogc:Filter>
-          <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#ff4d4d</CssParameter>
-                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">4</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#ff4d4d</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>              
-          </PolygonSymbolizer>             
-        </Rule>
-        <Rule>
-          <Title>Seadragon species may occur</Title>
-          <ogc:Filter>
-            <ogc:And>            
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-				<ogc:Or>            
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
-              <ogc:Literal>Phycodurus*</ogc:Literal>
-            </ogc:PropertyIsLike>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
-              <ogc:Literal>Phyllopteryx*</ogc:Literal>
-            </ogc:PropertyIsLike>                  
-				</ogc:Or>                              
-            </ogc:And>   
-          </ogc:Filter>
-          <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#e600e6</CssParameter>
-                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
-                      <CssParameter name="stroke-width">4</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#e600e6</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
-              <CssParameter name="stroke-width">0.4</CssParameter>
-            </Stroke>              
-          </PolygonSymbolizer>           
-        </Rule>
-        <Rule>
-          <Title>Seahorse species likely</Title>
+          <Title>Hammerhead shark species likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -182,18 +92,18 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#cccc00</CssParameter>
+              <CssParameter name="fill">#ff0000</CssParameter>
               <CssParameter name="fill-opacity">0.25</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#cccc00</CssParameter>
+              <CssParameter name="stroke">#ff0000</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Seahorse species may occur</Title>
+          <Title>Hammerhead shark species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -213,7 +123,7 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#cccc00</CssParameter>
+                      <CssParameter name="stroke">#ff0000</CssParameter>
                       <CssParameter name="stroke-opacity">0.3</CssParameter>                      
                       <CssParameter name="stroke-width">4</CssParameter>
                     </Stroke>
@@ -223,12 +133,201 @@
               </GraphicFill>           
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#cccc00</CssParameter>
+              <CssParameter name="stroke">#ff0000</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>              
           </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Oceanic whitetip species likely</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
+              <ogc:Literal>Oceanic Whitetip*</ogc:Literal>
+            </ogc:PropertyIsLike>              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0000cc</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0000cc</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>                
+          </PolygonSymbolizer>          
         </Rule>        
+        <Rule>
+          <Title>Oceanic whitetip species may occur</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
+              <ogc:Literal>Oceanic Whitetip*</ogc:Literal>
+            </ogc:PropertyIsLike>              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#0000cc</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">4</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0000cc</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>              
+          </PolygonSymbolizer>          
+        </Rule>        
+        <Rule>
+          <Title>River shark species likely</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
+              <ogc:Literal>Glyphis*</ogc:Literal>
+            </ogc:PropertyIsLike>              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#775a44</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#775a44</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>                
+          </PolygonSymbolizer>          
+        </Rule>         
+        <Rule>
+          <Title>River shark species may occur</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
+              <ogc:Literal>Glyphis*</ogc:Literal>
+            </ogc:PropertyIsLike>              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#775a44</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">4</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#775a44</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>              
+          </PolygonSymbolizer>             
+        </Rule>
+        <Rule>
+          <Title>School shark species likely</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsEqualTo>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Triakidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                                              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ac39ac</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ac39ac</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>                
+          </PolygonSymbolizer>              
+        </Rule>        
+        <Rule>
+          <Title>School shark species may occur</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsEqualTo>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Triakidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                                              
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ac39ac</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">4</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ac39ac</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>              
+          </PolygonSymbolizer>           
+        </Rule>     
       <VendorOption name="sortBy">PRESENCE_RANK A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
