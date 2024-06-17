@@ -84,10 +84,10 @@
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>SCIENTIFIC_NAME</ogc:PropertyName>
-              <ogc:Literal>Hippocampus*</ogc:Literal>
-            </ogc:PropertyIsLike>              
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Sphyrnidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
             </ogc:And>   
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -111,9 +111,9 @@
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TAXON_ORDER</ogc:PropertyName>
-              <ogc:Literal>Testudines</ogc:Literal>
-            </ogc:PropertyIsEqualTo>              
+              <ogc:PropertyName>TAXON_FAMILY</ogc:PropertyName>
+              <ogc:Literal>Sphyrnidae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>             
             </ogc:And>   
           </ogc:Filter>        
           <PolygonSymbolizer>
@@ -327,7 +327,70 @@
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>              
           </PolygonSymbolizer>           
-        </Rule>     
+        </Rule>
+        <Rule>
+          <Title>White sharks likely</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsEqualTo>          
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
+              <ogc:Literal>White Shark*</ogc:Literal>
+            </ogc:PropertyIsLike>                                                
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#408000</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#408000</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>                
+          </PolygonSymbolizer>              
+        </Rule>        
+        <Rule>
+          <Title>White sharks may occur</Title>
+          <ogc:Filter>
+            <ogc:And>            
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
+            </ogc:PropertyIsEqualTo>          
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>VERNACULAR_NAME</ogc:PropertyName>
+              <ogc:Literal>White Shark*</ogc:Literal>
+            </ogc:PropertyIsLike>                                             
+            </ogc:And>   
+          </ogc:Filter>
+          <PolygonSymbolizer>
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#408000</CssParameter>
+                      <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+                      <CssParameter name="stroke-width">4</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#408000</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>              
+          </PolygonSymbolizer>           
+        </Rule>          
       <VendorOption name="sortBy">PRESENCE_RANK A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
