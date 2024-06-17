@@ -1,10 +1,10 @@
 <div style="padding: 5px 0;">
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 850px; table-layout: fixed;">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 860px; table-layout: fixed;">
     <colgroup>
-        <col width="35%" />
+        <col width="33.5%" />
         <col width="20%" />
-        <col width="12.5%" />
+        <col width="14%" />
         <col width="9%" />
         <col width="14.5%" />
         <col width="9%" />
@@ -28,29 +28,29 @@
             <#assign THREATENED = feature.THREATENED_STATUS.value>
             <#assign MIGRATORY = feature.MIGRATORY_STATUS.value>
 
-		<#if (feature_index < 20)> 
+        <#if (feature_index < 20)> 
 
             <tr align="left" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
                 <td class="fixed-width-ellipsis" style="padding-top: 8px; padding-bottom: 8px; border-right: 1px solid black; font-size: 10px; text-align:left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
                     ${feature.VERNACULAR_NAME.value}
                 </td>
-                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left">
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
                     <i>${feature.SCIENTIFIC_NAME.value}</i>
                 </td>
                 <td style="padding: 6px; border-right: 1px solid black; font-size: 10px;">
                     <#if THREATENED?has_content>
-                    	${feature.THREATENED_STATUS.value}
+                        ${feature.THREATENED_STATUS.value}
                     <#else>
-			-
-                    </#if>		
+            -
+                    </#if>       
                 </td>
                 <td style="padding: 6px; border-right: 1px solid black; font-size: 10px;">
                     <#if MIGRATORY?has_content>
-                    	${feature.MIGRATORY_STATUS.value}
+                        ${feature.MIGRATORY_STATUS.value}
                     <#else>
-			<i>no</i>
+            <i>no</i>
                     </#if>
-	         </td>
+             </td>
                 <td style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left">
                     <#if OCCURRENCE == 1>
                         <i>Species may occur</i>
@@ -75,7 +75,7 @@
 </table>
 
 <#list features as feature_counter>
-	<#if (feature_counter_index >20)> 
+    <#if (feature_counter_index >20)> 
         <p style="font-size: 10px"><i>More than 20 species distributions occur at this location. Users are recommended to <a href="https://fed.dcceew.gov.au/datasets/erin::species-of-national-environmental-significance-and-selected-marine-and-cetacean-species/about" target="_blank">download</a> the full dataset.</i></p>
         <#break>
     </#if>
