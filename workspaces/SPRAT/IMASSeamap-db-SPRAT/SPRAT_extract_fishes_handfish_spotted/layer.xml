@@ -1,0 +1,17 @@
+<layer>
+  <name>SPRAT_extract_fishes_handfish_spotted</name>
+  <id>LayerInfoImpl--558f69ae:19027b1e0fb:62d1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6a14d715:18f90229368:7015</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--558f69ae:19027b1e0fb:62d0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-18 01:41:54.222 UTC</dateCreated>
+  <dateModified>2024-06-18 01:42:48.894 UTC</dateModified>
+</layer>
