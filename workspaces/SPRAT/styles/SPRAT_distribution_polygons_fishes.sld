@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <Title>---Syngnathids---</Title>
+          <Title>---Syngnathiformes---</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_RANK</ogc:PropertyName>
