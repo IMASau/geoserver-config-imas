@@ -8,12 +8,12 @@
   <resource class="coverage">
     <id>CoverageInfoImpl-6a14d715:18f36582d6e:-19a4</id>
   </resource>
-  <queryable>false</queryable>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2024-05-01 23:30:09.364 UTC</dateCreated>
-  <dateModified>2024-06-17 07:14:21.35 UTC</dateModified>
+  <dateModified>2024-06-19 00:44:51.178 UTC</dateModified>
 </layer>
