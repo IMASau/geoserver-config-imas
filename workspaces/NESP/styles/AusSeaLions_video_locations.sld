@@ -59,7 +59,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
           
-          <Title>Video &#8804;5 mins from GPS fix \n(approx. location)</Title>
+          <Title>Video &#8804;5 mins from GPS fix \n(location is approx.)</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
@@ -120,7 +120,7 @@
         <Rule>
 	<MaxScaleDenominator>500000</MaxScaleDenominator>  
           
-          <Title>Video >5 mins from GPS fix \n(approx. location)</Title>
+          <Title>Video >5 mins from GPS fix \n(location is approx.)</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
