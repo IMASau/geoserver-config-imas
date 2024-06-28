@@ -4,7 +4,7 @@
     <#assign TrackDate = feature.DateTimeLocal.value?datetime("d MMM yyyy, h:mm:ss a")!>
     
     <div class="feature">
-        <p style="margin: 0; padding-bottom: 2px;">
+        <p style="margin: 0; padding-top: 2px; padding-bottom: 6px;">
             <i>Adult female ${feature.Animal.value}</i><br> 
             Tracked at <b>${TrackDate?string("h:mm a")}</b> on ${TrackDate?string("dd MMM yyyy")}
         </p>
