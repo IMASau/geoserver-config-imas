@@ -15,7 +15,7 @@
 <#list features as feature>
     <#if !primaryVideoFound>
         <#-- Display the primary video -->
-        <div style="text-align: center;">
+        <div id="primary-video" style="text-align: center;">
             <video width="640" controls autoplay muted>
                 <source src="${feature.Filepath.value}" type="video/mp4">
             </video>
@@ -26,13 +26,13 @@
 
 <#-- Check if there are additional videos for thumbnails -->
 <#if (videoCount > 1)>
-    <div style="text-align: center; padding-top: 20px;">
+    <div id="additional-videos" style="text-align: center; padding-top: 20px;">
         <details>
-            <summary><span class="summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
-            <div style="display: flex; flex-wrap: wrap; width: 640px; margin-bottom:2px; margin-top:4px;">
+            <summary><span class="video-summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
+            <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 640px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
                     <#if (thumbnail_index < 10)>
-                        <div class="thumbnail" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
+                        <div class="video-thumbnail" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
                                 <video style="width: 100%; filter: grayscale(100%) blur(2px); transition: filter 0.3s;">
                                     <source src="${thumbnail.Filepath.value}" type="video/mp4">
@@ -51,7 +51,7 @@
 
 <#-- Add custom styles for hover effect -->
 <style>
-.thumbnail video:hover {
+#thumbnail-container .video-thumbnail video:hover {
     filter: grayscale(0%) blur(0px);
 }
 </style>
