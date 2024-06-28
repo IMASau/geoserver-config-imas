@@ -29,12 +29,12 @@
     <div style="text-align: center; padding-top: 20px;">
         <details>
             <summary><span class="summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
-            <div style="display: flex; flex-wrap: wrap; width: 660px; margin-bottom:2px; margin-top:4px;">
+            <div style="display: flex; flex-wrap: wrap; width: 640px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
-                    <#if (thumbnail_index < 20)>
+                    <#if (thumbnail_index < 10)>
                         <div class="thumbnail" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
-                                <video style="width: 100%;">
+                                <video style="width: 100%; filter: grayscale(100%) blur(2px); transition: filter 0.3s;">
                                     <source src="${thumbnail.Filepath.value}" type="video/mp4">
                                 </video>
                             </a>
@@ -42,9 +42,16 @@
                     </#if>
                 </#list>
             </div>
-            <#if (videoCount > 20)>
+            <#if (videoCount > 10)>
                 <p><i>Zoom in for <b>even more</b> videos at this location!</i></p>
             </#if>
         </details>
     </div>
 </#if>
+
+<#-- Add custom styles for hover effect -->
+<style>
+.thumbnail video:hover {
+    filter: grayscale(0%) blur(0px);
+}
+</style>

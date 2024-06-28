@@ -27,7 +27,7 @@
       
       <FeatureTypeStyle>
         <Rule>
-	<MaxScaleDenominator>1000000</MaxScaleDenominator>  
+	<MaxScaleDenominator>10000000</MaxScaleDenominator>  
          
           <Title>Video (exact GPS fix)</Title>
           <ogc:Filter>
@@ -57,7 +57,7 @@
           
         </Rule>        
         <Rule>
-	<MaxScaleDenominator>1000000</MaxScaleDenominator>  
+	<MaxScaleDenominator>10000000</MaxScaleDenominator>  
           
           <Title>Video &#8804;5 mins from GPS fix \n(location is approx.)</Title>
           <ogc:Filter>
@@ -118,7 +118,7 @@
         </Rule>
         
         <Rule>
-	<MaxScaleDenominator>1000000</MaxScaleDenominator>  
+	<MaxScaleDenominator>10000000</MaxScaleDenominator>  
           
           <Title>Video >5 mins from GPS fix \n(location is approx.)</Title>
           <ogc:Filter>
@@ -182,7 +182,7 @@
       </FeatureTypeStyle>
       <FeatureTypeStyle>
         <Rule>
-	<MaxScaleDenominator>1000000</MaxScaleDenominator>  
+	<MaxScaleDenominator>10000000</MaxScaleDenominator>  
           
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
