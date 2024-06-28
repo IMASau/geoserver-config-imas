@@ -32,9 +32,9 @@
             <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 640px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
                     <#if (thumbnail_index < 10)>
-                        <div class="video-thumbnail" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
+                        <div class="thumbnail" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
-                                <video style="width: 100%; filter: grayscale(100%) blur(2px); transition: filter 0.3s;">
+                                <video class="thumbnail" style="width: 100%">
                                     <source src="${thumbnail.Filepath.value}" type="video/mp4">
                                 </video>
                             </a>
@@ -48,10 +48,3 @@
         </details>
     </div>
 </#if>
-
-<#-- Add custom styles for hover effect -->
-<style>
-#thumbnail-container .video-thumbnail video:hover {
-    filter: grayscale(0%) blur(0px);
-}
-</style>

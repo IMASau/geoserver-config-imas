@@ -8,7 +8,7 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--16faa076:18c09dd805b:-5e16</id>
   </resource>
-  <queryable>true</queryable>
+  <queryable>false</queryable>
   <metadata>
     <entry key="buffer">1</entry>
   </metadata>
@@ -17,5 +17,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-11-26 04:41:11.550 UTC</dateCreated>
-  <dateModified>2024-06-28 22:58:09.347 UTC</dateModified>
+  <dateModified>2024-06-28 23:29:44.328 UTC</dateModified>
 </layer>
