@@ -15,11 +15,11 @@
 <#list features as feature>
     <#if !primaryVideoFound>
         <#-- Display the primary video -->
-        <div id="primary-video" style="text-align: center; position: relative;">
-            <video width="640" controls autoplay muted>
+        <div id="primary-video" style="text-align: center; position: relative; padding-top:8px">
+            <video width="740" controls autoplay muted>
                 <source src="${feature.Filepath.value}" type="video/mp4">
             </video>
-            <div style="font-size:11px; position: absolute; top: -16px; right: 0px;">
+            <div style="font-size:11px; position: absolute; top: -10px; right: 0px;">
                 <a style="color: CornflowerBlue;" href="${feature.Filepath.value}" target="_blank">Play video in new window</a>
             </div>
         </div>
@@ -29,13 +29,13 @@
 
 <#-- Check if there are additional videos for thumbnails -->
 <#if (videoCount > 1)>
-    <div id="additional-videos" style="text-align: center; padding-top: 20px;">
+    <div id="additional-videos" style="text-align: center; padding-top: 10px;">
         <details>
             <summary><span class="video-summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
-            <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 640px; margin-bottom:2px; margin-top:4px;">
+            <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 740px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
-                    <#if (thumbnail_index < 10)>
-                        <div class="thumbnail-container" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
+                    <#if (thumbnail_index < 12)>
+                        <div class="thumbnail-container" style="width: calc(16.66% - 8px); margin-right: ${(thumbnail_index % 6 != 5)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
                                 <video class="thumbnail" style="width: 100%;">
                                     <source src="${thumbnail.Filepath.value}" type="video/mp4">
@@ -45,7 +45,7 @@
                     </#if>
                 </#list>
             </div>
-            <#if (videoCount > 10)>
+            <#if (videoCount > 12)>
                 <p><i>Zoom in for <b>even more</b> videos at this location!</i></p>
             </#if>
         </details>

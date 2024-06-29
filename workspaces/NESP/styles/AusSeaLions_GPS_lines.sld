@@ -164,7 +164,7 @@
   	<TextSymbolizer>
   		<Label>
             <ogc:Function name="Concatenate">
-			<ogc:Literal>Individual #</ogc:Literal><ogc:PropertyName>animal</ogc:PropertyName>
+			<ogc:Literal>Sea Lion #</ogc:Literal><ogc:PropertyName>animal</ogc:PropertyName>
             </ogc:Function>
               </Label>
 		<Font>
