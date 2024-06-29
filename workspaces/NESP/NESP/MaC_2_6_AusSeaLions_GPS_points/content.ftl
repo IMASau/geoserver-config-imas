@@ -15,7 +15,7 @@
         </#if>
     </#list>
     <#if features?size gt 999>
-        <div style="color: CornflowerBlue; font-style: italic;">
+        <div style="color: CornflowerBlue; font-style: italic; padding-top:5px; padding-bottom:2px">
             Too much sea lion activity here! Please zoom in and try again.
         </div>
     </#if>
