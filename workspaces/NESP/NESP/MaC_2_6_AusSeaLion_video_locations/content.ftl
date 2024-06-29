@@ -15,11 +15,19 @@
 <#list features as feature>
     <#if !primaryVideoFound>
         <#-- Display the primary video -->
-        <div id="primary-video" style="text-align: center; position: relative; padding-top:8px">
+        <div id="primary-video" style="text-align: center; position: relative; padding-top:40px;">
+            <#-- Display the metadata above the video -->
+            <div style="position: absolute; top: -2px; left: 0px; text-align: left;">
+                <#assign TrackDate = feature.DateTimeLocal.value?datetime("d MMM yyyy, h:mm:ss a")!>
+                <p style="margin: 0; padding: 0;">
+                    <i>Adult female ${feature.Animal.value}</i><br> 
+                    Tracked at <b>${TrackDate?string("h:mm a")}</b> on ${TrackDate?string("dd MMM yyyy")} <span style="color: darkgreen; font-style: italic;">(video timestamp)</span>
+                </p>
+            </div>
             <video width="740" controls autoplay muted>
                 <source src="${feature.Filepath.value}" type="video/mp4">
             </video>
-            <div style="font-size:11px; position: absolute; top: -10px; right: 0px;">
+            <div style="font-size:11px; position: absolute; top: 18px; right: 0px;">
                 <a style="color: CornflowerBlue;" href="${feature.Filepath.value}" target="_blank">Play video in new window</a>
             </div>
         </div>
@@ -29,7 +37,7 @@
 
 <#-- Check if there are additional videos for thumbnails -->
 <#if (videoCount > 1)>
-    <div id="additional-videos" style="text-align: center; padding-top: 10px;">
+    <div id="additional-videos" style="text-align: left; padding-top: 10px;">
         <details>
             <summary><span class="video-summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
             <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 740px; margin-bottom:2px; margin-top:4px;">

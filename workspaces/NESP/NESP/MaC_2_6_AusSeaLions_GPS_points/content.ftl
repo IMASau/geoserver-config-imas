@@ -1,14 +1,16 @@
 <div id="metadata-container">
     <#assign processedFeatures=0>
     <#list features as feature>
-        <#if processedFeatures < 1>
+        <#-- Check if hasvideomatch is 0 -->
+        <#if feature.HasVideoMatch.value?number == 0 && processedFeatures < 1>
             <#-- Extract and format the date and time -->
             <#assign TrackDate = feature.DateTimeLocal.value?datetime("d MMM yyyy, h:mm:ss a")!>
 
             <div class="metadata-feature">
-                <p style="margin: 0; padding-top: 2px; padding-bottom: 2px;">
+                <p style="margin: 0; padding-top: 10px; padding-bottom: 10px;">
                     <i>Adult female ${feature.Animal.value}</i><br> 
                     Tracked at <b>${TrackDate?string("h:mm a")}</b> on ${TrackDate?string("dd MMM yyyy")}
+		    <br><span style="color: darkred; font-style: italic;">(GPS timestamp - tracks may overlap)</span>
                 </p>
             </div>
             <#assign processedFeatures = processedFeatures + 1>
