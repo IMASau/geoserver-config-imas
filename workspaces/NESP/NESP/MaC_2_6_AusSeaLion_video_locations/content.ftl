@@ -15,10 +15,13 @@
 <#list features as feature>
     <#if !primaryVideoFound>
         <#-- Display the primary video -->
-        <div id="primary-video" style="text-align: center;">
+        <div id="primary-video" style="text-align: center; position: relative;">
             <video width="640" controls autoplay muted>
                 <source src="${feature.Filepath.value}" type="video/mp4">
             </video>
+            <div style="font-size:11px; position: absolute; top: -16px; right: 0px;">
+                <a style="color: CornflowerBlue;" href="${feature.Filepath.value}" target="_blank">Play video in new window</a>
+            </div>
         </div>
         <#assign primaryVideoFound=true>
     </#if>
@@ -32,9 +35,9 @@
             <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 640px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
                     <#if (thumbnail_index < 10)>
-                        <div class="thumbnail" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
+                        <div class="thumbnail-container" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
-                                <video class="thumbnail" style="width: 100%">
+                                <video class="thumbnail" style="width: 100%;">
                                     <source src="${thumbnail.Filepath.value}" type="video/mp4">
                                 </video>
                             </a>
@@ -48,3 +51,17 @@
         </details>
     </div>
 </#if>
+
+<#-- Add custom styles for hover effect -->
+<style>
+    .thumbnail {
+        filter: grayscale(100%) blur(2px);
+        opacity: 0.8;
+        transition: filter 0.3s ease;
+    }
+
+    .thumbnail:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+</style>
