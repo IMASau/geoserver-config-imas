@@ -34,16 +34,22 @@
             <summary><span class="video-summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
             <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 740px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
-                    <#if (thumbnail_index < 12)>
-                        <div class="thumbnail-container" style="width: calc(16.66% - 8px); margin-right: ${(thumbnail_index % 6 != 5)?string('8px', '0px')}; margin-bottom: 8px;">
+                    <#if (thumbnail_index < 10)>
+                        <#-- Extract the filename from the Filepath -->
+                        <#assign filepath = thumbnail.Filepath.value>
+                        <#assign filename = filepath?substring(filepath?last_index_of("/") + 1)>
+                        <#assign thumbPath = "https://data.imas.utas.edu.au/attachments/84cb1709-a669-4f2c-b97b-5eceb7929349/processed/thumbs/" + filename?replace(".mp4", ".jpg")>
+                        <div class="thumbnail-container" style="width: calc(20% - 8px); margin-right: ${(thumbnail_index % 5 != 4)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
-                                <img class="thumbnail" src="https://data.imas.utas.edu.au/attachments/84cb1709-a669-4f2c-b97b-5eceb7929349/processed/thumbs/${thumbnail.Filepath.value?string?replace(".mp4", ".jpg")}" alt="Thumbnail" style="width: 100%;">
+                                <video class="thumbnail" style="width: 100%;" poster="${thumbPath}">
+                                    <source src="${thumbnail.Filepath.value}" type="video/mp4">
+                                </video>
                             </a>
                         </div>
                     </#if>
                 </#list>
             </div>
-            <#if (videoCount > 12)>
+            <#if (videoCount > 10)>
                 <p><i>Zoom in for <b>even more</b> videos at this location!</i></p>
             </#if>
         </details>
