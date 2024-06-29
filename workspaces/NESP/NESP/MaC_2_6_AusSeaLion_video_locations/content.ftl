@@ -37,9 +37,7 @@
                     <#if (thumbnail_index < 12)>
                         <div class="thumbnail-container" style="width: calc(16.66% - 8px); margin-right: ${(thumbnail_index % 6 != 5)?string('8px', '0px')}; margin-bottom: 8px;">
                             <a href="${thumbnail.Filepath.value}" target="_blank">
-                                <video class="thumbnail" style="width: 100%;">
-                                    <source src="${thumbnail.Filepath.value}" type="video/mp4">
-                                </video>
+                                <img class="thumbnail" src="https://data.imas.utas.edu.au/attachments/84cb1709-a669-4f2c-b97b-5eceb7929349/processed/thumbs/${thumbnail.Filepath.value?string?replace(".mp4", ".jpg")}" alt="Thumbnail" style="width: 100%;">
                             </a>
                         </div>
                     </#if>
