@@ -37,12 +37,12 @@
 
 <#-- Check if there are additional videos for thumbnails -->
 <#if (videoCount > 1)>
-    <div id="additional-videos" style="text-align: left; padding-top: 10px;">
+    <div id="additional-videos" style="text-align: center; padding-top: 10px;">
         <details>
             <summary><span class="video-summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
             <div id="thumbnail-container" style="display: flex; flex-wrap: wrap; width: 740px; margin-bottom:2px; margin-top:4px;">
                 <#list features[1..] as thumbnail>
-                    <#if (thumbnail_index < 10)>
+                    <#if (thumbnail_index < 15)>
                         <#-- Extract the filename from the Filepath -->
                         <#assign filepath = thumbnail.Filepath.value>
                         <#assign filename = filepath?substring(filepath?last_index_of("/") + 1)>
@@ -57,7 +57,7 @@
                     </#if>
                 </#list>
             </div>
-            <#if (videoCount > 10)>
+            <#if (videoCount > 15)>
                 <p><i>Zoom in for <b>even more</b> videos at this location!</i></p>
             </#if>
         </details>

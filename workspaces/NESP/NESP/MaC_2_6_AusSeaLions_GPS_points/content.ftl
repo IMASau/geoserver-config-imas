@@ -9,8 +9,7 @@
             <div class="metadata-feature">
                 <p style="margin: 0; padding-top: 10px; padding-bottom: 10px;">
                     <i>Adult female ${feature.Animal.value}</i><br> 
-                    Tracked at <b>${TrackDate?string("h:mm a")}</b> on ${TrackDate?string("dd MMM yyyy")}
-		    <br><span style="color: darkred; font-style: italic;">(GPS timestamp - tracks may overlap)</span>
+                    Tracked at <b>${TrackDate?string("h:mm a")}</b> on ${TrackDate?string("dd MMM yyyy")} <span style="color: darkred; font-style: italic;">(GPS tracks may overlap)</span>
                 </p>
             </div>
             <#assign processedFeatures = processedFeatures + 1>
