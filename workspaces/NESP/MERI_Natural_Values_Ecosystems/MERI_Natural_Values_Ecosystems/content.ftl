@@ -45,6 +45,35 @@
                     <b>Upper slope sediments</b>
                     <br>
                     <i>Sediment habitats on the upper continental slope (200 m -700 m).</i>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
+                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                        <div style="display: flex; flex-wrap: wrap;">
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Second video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/248.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/248.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Third video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 <#elseif ecosys == 3>
                     <b>Mid slope sediments</b>
                     <br>
@@ -185,6 +214,36 @@
                     <b>Shallow coral reefs</b>
                     <br>
                     <i>Coral reefs occurring in continental shelf areas shallower than 30 m.</i>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
+                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                        <!-- First video thumbnail -->
+                        <div style="display: flex; flex-wrap: wrap;">
+                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Second video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Third video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4">
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 <#elseif ecosys == 11>
                     <b>Shallow rocky reefs</b>
                     <br>
@@ -198,8 +257,10 @@
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4" type="video/mp4">
+                                    </video>
                                 </a>
                             </div>
                             <!-- Second video thumbnail -->
