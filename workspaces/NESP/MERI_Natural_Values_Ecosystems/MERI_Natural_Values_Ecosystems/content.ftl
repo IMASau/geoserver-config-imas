@@ -32,7 +32,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" type="video/mp4">
                                     </video>
@@ -57,15 +57,15 @@
                             </div>
                             <!-- Second video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/248.mp4" target="_blank">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/248.mp4" type="video/mp4">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4" type="video/mp4">
                                     </video>
@@ -167,7 +167,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" type="video/mp4">
                                     </video>
@@ -201,7 +201,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4">
                                     </video>
@@ -235,7 +235,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4">
                                     </video>
@@ -248,6 +248,36 @@
                     <b>Shallow rocky reefs</b>
                     <br>
                     <i>Rocky reefs occurring in continental shelf areas shallower than 30 m.</i>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
+                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                        <!-- First video thumbnail -->
+                        <div style="display: flex; flex-wrap: wrap;">
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Second video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Third video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 <#elseif ecosys == 12>
                     <b>Mesophotic coral reefs</b>
                     <br>
@@ -273,7 +303,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4">
+                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4">
                                     </video>
@@ -341,7 +371,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" type="video/mp4">
                                     </video>
@@ -375,7 +405,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" type="video/mp4">
                                     </video>

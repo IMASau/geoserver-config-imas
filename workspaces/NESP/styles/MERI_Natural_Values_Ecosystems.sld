@@ -22,10 +22,10 @@
               <ColorMapEntry quantity="8" label="  Oceanic shallow coral reefs &#8227;" color="#eea6f1"/>              
               <ColorMapEntry quantity="12" label="  Mesophotic coral reefs &#8227;" color="#e0a800"/>
           
-              <ColorMapEntry quantity="11" label="  Shallow rocky reefs" color="#c15e7d"/>              
+              <ColorMapEntry quantity="11" label="  Shallow rocky reefs &#8227;" color="#c15e7d"/>              
               <ColorMapEntry quantity="13" label="  Mesophotic rocky reefs &#8227;" color="#f427e3"/>
               <ColorMapEntry quantity="14" label="  Oceanic mesophotic coral reefs &#8227;" color="#e7689f"/>
-              <ColorMapEntry quantity="15" label="  Rariphotic Shelf Reefs &#8227;" color="#df0003"/>
+              <ColorMapEntry quantity="15" label="  Rariphotic shelf reefs &#8227;" color="#df0003"/>
               <ColorMapEntry quantity="16" label="  Upper slope reefs" color="#ffe400"/>
               <ColorMapEntry quantity="17" label="  Mid slope reef" color="#b1c706"/>
               <ColorMapEntry quantity="18" label="  Seamount reefs &#8227;" color="#9eed7c"/>
