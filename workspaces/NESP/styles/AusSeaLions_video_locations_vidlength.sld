@@ -93,7 +93,7 @@
             </ogc:PropertyIsGreaterThanOrEqualTo>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>60</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:And>
         </ogc:Filter>
@@ -116,7 +116,7 @@
         </PointSymbolizer>
       </Rule>
       <Rule>
-        <Title>Exact GPS fix and VidLength 30-120 seconds</Title>
+        <Title>Exact GPS fix and VidLength 60-300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -125,11 +125,11 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>60</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>120</ogc:Literal>
+              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:And>
         </ogc:Filter>
@@ -153,7 +153,7 @@
         <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		
       </Rule>
       <Rule>
-        <Title>Exact GPS fix and VidLength &gt; 120 seconds</Title>
+        <Title>Exact GPS fix and VidLength &gt; 300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -162,7 +162,7 @@
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>120</ogc:Literal>
+              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
           </ogc:And>
         </ogc:Filter>
@@ -264,7 +264,7 @@
             </ogc:PropertyIsGreaterThanOrEqualTo>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>60</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:And>
         </ogc:Filter>
@@ -317,7 +317,7 @@
           </PointSymbolizer>
       </Rule>
       <Rule>
-        <Title>&#8804;5 mins from GPS fix and VidLength 30-120 seconds</Title>
+        <Title>&#8804;5 mins from GPS fix and VidLength 60-300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -326,11 +326,11 @@
             </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>60</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>120</ogc:Literal>
+              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:And>
         </ogc:Filter>
@@ -384,7 +384,7 @@
         <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
       </Rule>
       <Rule>
-        <Title>&#8804;5 mins from GPS fix and VidLength &gt; 120 seconds</Title>
+        <Title>&#8804;5 mins from GPS fix and VidLength &gt; 300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -393,7 +393,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>120</ogc:Literal>
+              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
           </ogc:And>
         </ogc:Filter>
@@ -526,7 +526,7 @@
             </ogc:PropertyIsGreaterThanOrEqualTo>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>60</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:And>
         </ogc:Filter>
@@ -580,7 +580,7 @@
           </PointSymbolizer>
       </Rule>
       <Rule>
-        <Title>>5 mins from GPS fix and VidLength 30-120 seconds</Title>
+        <Title>>5 mins from GPS fix and VidLength 60-300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -589,11 +589,11 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>30</ogc:Literal>
+              <ogc:Literal>60</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>120</ogc:Literal>
+              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:And>
         </ogc:Filter>
@@ -648,7 +648,7 @@
         <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
       </Rule>
       <Rule>
-        <Title>>5 mins from GPS fix and VidLength &gt; 120 seconds</Title>
+        <Title>>5 mins from GPS fix and VidLength &gt; 300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -657,7 +657,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>120</ogc:Literal>
+              <ogc:Literal>300</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
           </ogc:And>
         </ogc:Filter>
