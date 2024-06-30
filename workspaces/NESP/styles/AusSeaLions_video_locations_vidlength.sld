@@ -12,7 +12,7 @@
 
     <FeatureTypeStyle>
       <Rule>
-        <Title>Aus Sea Lion tracks (coloured by individual)</Title>
+        <Title> Aus Sea Lion tracks (coloured by individual)</Title>
         <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#000000</CssParameter>
@@ -23,7 +23,7 @@
         <VendorOption name="inclusion">legendOnly</VendorOption>                                                      
       </Rule>
       <Rule>         
-        <Title>Video length (larger point = longer video)</Title>
+        <Title> Video length (larger point = longer video)</Title>
         <PointSymbolizer>
           <Graphic>
             <Mark>
@@ -45,415 +45,8 @@
     </FeatureTypeStyle>
       
     <FeatureTypeStyle>
-      <!-- Combination of matchTimeDiff = 0 and VidLength categories -->
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>Exact GPS fix and VidLength 	&lt; 10 seconds</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:And>
-        </ogc:Filter>
-        <PointSymbolizer>
-          <Graphic>
-            <Mark>
-              <WellKnownName>circle</WellKnownName>
-              <Fill>
-                <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
-              </Fill>
-              <Stroke>
-                <CssParameter name="stroke">#e62e00</CssParameter>
-                <CssParameter name="stroke-width">2.5</CssParameter>
-                <CssParameter name="stroke-opacity">0.8</CssParameter>                  
-              </Stroke>                
-            </Mark>
-            <Size>8</Size>
-          </Graphic>
-        </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		
-      </Rule>
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>Exact GPS fix and VidLength 10-180 seconds</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
-            </ogc:PropertyIsGreaterThanOrEqualTo>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>180</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:And>
-        </ogc:Filter>
-        <PointSymbolizer>
-          <Graphic>
-            <Mark>
-              <WellKnownName>circle</WellKnownName>
-              <Fill>
-                <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
-              </Fill>
-              <Stroke>
-                <CssParameter name="stroke">#e62e00</CssParameter>
-                <CssParameter name="stroke-width">3</CssParameter>
-                <CssParameter name="stroke-opacity">0.8</CssParameter>                  
-              </Stroke>                
-            </Mark>
-            <Size>10</Size>
-          </Graphic>
-        </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      				
-      </Rule>
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  	  
-        <Title>Exact GPS fix</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>180</ogc:Literal>
-            </ogc:PropertyIsGreaterThanOrEqualTo>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:And>
-        </ogc:Filter>
-        <PointSymbolizer>
-          <Graphic>
-            <Mark>
-              <WellKnownName>circle</WellKnownName>
-              <Fill>
-                <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
-              </Fill>
-              <Stroke>
-                <CssParameter name="stroke">#e62e00</CssParameter>
-                <CssParameter name="stroke-width">3</CssParameter>
-                <CssParameter name="stroke-opacity">0.8</CssParameter>                  
-              </Stroke>                
-            </Mark>
-            <Size>12</Size>
-          </Graphic>
-        </PointSymbolizer>
-      </Rule>
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>Exact GPS fix and VidLength &gt; 300 seconds</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsGreaterThanOrEqualTo>
-          </ogc:And>
-        </ogc:Filter>
-        <PointSymbolizer>
-          <Graphic>
-            <Mark>
-              <WellKnownName>circle</WellKnownName>
-              <Fill>
-                <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
-              </Fill>
-              <Stroke>
-                <CssParameter name="stroke">#e62e00</CssParameter>
-                <CssParameter name="stroke-width">3</CssParameter>
-                <CssParameter name="stroke-opacity">0.8</CssParameter>                  
-              </Stroke>                
-            </Mark>
-            <Size>14</Size>
-          </Graphic>
-        </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		
-      </Rule>
-      
-      <!-- Combination of matchTimeDiff <= 300 and VidLength categories -->
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>&#8804;5 mins from GPS fix and VidLength &lt; 10 seconds</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:And>
-        </ogc:Filter>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>11</Size>
-            </Graphic>
-          </PointSymbolizer>
 
-          <!-- Middle Circle -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
 
-          <!-- Inner Circle (Least Transparent) -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ff00ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
-                </Stroke>                
-              </Mark>
-              <Size>7</Size>
-            </Graphic>
-          </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
-      </Rule>
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>&#8804;5 mins from GPS fix and VidLength 10-180 seconds</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
-            </ogc:PropertyIsGreaterThanOrEqualTo>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>180</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:And>
-        </ogc:Filter>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>13</Size>
-            </Graphic>
-          </PointSymbolizer>
-
-          <!-- Middle Circle -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>11</Size>
-            </Graphic>
-          </PointSymbolizer>
-
-          <!-- Inner Circle (Least Transparent) -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ff00ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
-                </Stroke>                
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      				  
-      </Rule>
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>&#8804;5 mins from GPS fix (approx. location)</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>180</ogc:Literal>
-            </ogc:PropertyIsGreaterThanOrEqualTo>
-            <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsLessThan>
-          </ogc:And>
-        </ogc:Filter>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>15</Size>
-            </Graphic>
-          </PointSymbolizer>
-
-          <!-- Middle Circle -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>13</Size>
-            </Graphic>
-          </PointSymbolizer>
-
-          <!-- Inner Circle (Least Transparent) -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ff00ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2</CssParameter>
-                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
-                </Stroke>                
-              </Mark>
-              <Size>11</Size>
-            </Graphic>
-          </PointSymbolizer>
-      </Rule>
-      <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>&#8804;5 mins from GPS fix and VidLength &gt; 300 seconds</Title>
-        <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyName>VidLength</ogc:PropertyName>
-              <ogc:Literal>300</ogc:Literal>
-            </ogc:PropertyIsGreaterThanOrEqualTo>
-          </ogc:And>
-        </ogc:Filter>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>18</Size>
-            </Graphic>
-          </PointSymbolizer>
-
-          <!-- Middle Circle -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
-                </Stroke>  
-              </Mark>
-              <Size>16</Size>
-            </Graphic>
-          </PointSymbolizer>
-
-          <!-- Inner Circle (Least Transparent) -->
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ff00ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#6600ff</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
-                </Stroke>                
-              </Mark>
-              <Size>14</Size>
-            </Graphic>
-          </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
-      </Rule>
       
       <!-- Combination of matchTimeDiff > 300 and VidLength categories -->
       <Rule>
@@ -508,7 +101,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#0099ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.3</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#336699</CssParameter>
@@ -577,7 +170,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#0099ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.3</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#336699</CssParameter>
@@ -592,7 +185,7 @@
       </Rule>
       <Rule>
 	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
-        <Title>>5 mins from GPS fix  (approx. location)</Title>
+        <Title> Recorded >5 mins from GPS fix (approx. location)</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsGreaterThan>
@@ -646,7 +239,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#0099ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.3</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#336699</CssParameter>
@@ -710,7 +303,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#0099ff</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.3</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#336699</CssParameter>
@@ -723,11 +316,278 @@
           </PointSymbolizer>
         <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
       </Rule>
-	  
-	  
-	  
+	
+
+
       <Rule>
 	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+        <Title>&#8804;5 mins from GPS fix and VidLength &lt; 10 seconds</Title>
+        <ogc:Filter>
+          <ogc:And>
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
+              <ogc:Literal>300</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>VidLength</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+          </ogc:And>
+        </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>9</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Inner Circle (Least Transparent) -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                  
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
+              </Mark>
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
+      </Rule>
+      <Rule>
+	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+        <Title>&#8804;5 mins from GPS fix and VidLength 10-180 seconds</Title>
+        <ogc:Filter>
+          <ogc:And>
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
+              <ogc:Literal>300</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyName>VidLength</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsGreaterThanOrEqualTo>
+            <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>VidLength</ogc:PropertyName>
+              <ogc:Literal>180</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+          </ogc:And>
+        </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Inner Circle (Least Transparent) -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                  
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
+              </Mark>
+              <Size>9</Size>
+            </Graphic>
+          </PointSymbolizer>
+        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      				  
+      </Rule>
+      <Rule>
+	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+        <Title> Recorded &#8804;5 mins from GPS fix (approx. location)</Title>
+        <ogc:Filter>
+          <ogc:And>
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
+              <ogc:Literal>300</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyName>VidLength</ogc:PropertyName>
+              <ogc:Literal>180</ogc:Literal>
+            </ogc:PropertyIsGreaterThanOrEqualTo>
+            <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>VidLength</ogc:PropertyName>
+              <ogc:Literal>300</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+          </ogc:And>
+        </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>15</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Inner Circle (Least Transparent) -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                  
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+      </Rule>
+      <Rule>
+	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+        <Title>&#8804;5 mins from GPS fix and VidLength &gt; 300 seconds</Title>
+        <ogc:Filter>
+          <ogc:And>
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>matchTimeDiff</ogc:PropertyName>
+              <ogc:Literal>300</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+            <ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyName>VidLength</ogc:PropertyName>
+              <ogc:Literal>300</ogc:Literal>
+            </ogc:PropertyIsGreaterThanOrEqualTo>
+          </ogc:And>
+        </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.2</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>18</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Middle Circle -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.4</CssParameter>                  
+                </Stroke>  
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <!-- Inner Circle (Least Transparent) -->
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                  
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
+                  <CssParameter name="stroke-width">2.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.7</CssParameter>                  
+                </Stroke>                
+              </Mark>
+              <Size>14</Size>
+            </Graphic>
+          </PointSymbolizer>
+        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		  
+      </Rule>
+
+	
+	  
+     <Rule>
+	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+        <Title>Exact GPS fix and VidLength 	&lt; 10 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -746,7 +606,7 @@
               <WellKnownName>circle</WellKnownName>
               <Fill>
                 <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
+                <CssParameter name="fill-opacity">0.9</CssParameter>                                    
               </Fill>
               <Stroke>
                 <CssParameter name="stroke">#e62e00</CssParameter>
@@ -760,7 +620,8 @@
         <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		
       </Rule>
       <Rule>
-	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  	  
+        <Title>Exact GPS fix and VidLength 10-180 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -783,7 +644,7 @@
               <WellKnownName>circle</WellKnownName>
               <Fill>
                 <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
+                <CssParameter name="fill-opacity">0.9</CssParameter>                                    
               </Fill>
               <Stroke>
                 <CssParameter name="stroke">#e62e00</CssParameter>
@@ -798,6 +659,7 @@
       </Rule>
       <Rule>
 	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  	  
+        <Title> Exact GPS fix</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -820,7 +682,7 @@
               <WellKnownName>circle</WellKnownName>
               <Fill>
                 <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
+                <CssParameter name="fill-opacity">0.9</CssParameter>                                    
               </Fill>
               <Stroke>
                 <CssParameter name="stroke">#e62e00</CssParameter>
@@ -831,10 +693,10 @@
             <Size>12</Size>
           </Graphic>
         </PointSymbolizer>
-        <VendorOption name="inclusion">mapOnly</VendorOption>                                                      				
       </Rule>
       <Rule>
 	<MaxScaleDenominator>1100000</MaxScaleDenominator>  	  
+        <Title>Exact GPS fix and VidLength &gt; 300 seconds</Title>
         <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -853,7 +715,7 @@
               <WellKnownName>circle</WellKnownName>
               <Fill>
                 <CssParameter name="fill">#ffcc00</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                                    
+                <CssParameter name="fill-opacity">0.9</CssParameter>                                    
               </Fill>
               <Stroke>
                 <CssParameter name="stroke">#e62e00</CssParameter>
@@ -866,6 +728,8 @@
         </PointSymbolizer>
         <VendorOption name="inclusion">mapOnly</VendorOption>                                                      		
       </Rule>	  
+
+
 	  
 	  
       
