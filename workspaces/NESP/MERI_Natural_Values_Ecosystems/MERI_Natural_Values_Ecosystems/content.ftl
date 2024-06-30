@@ -117,6 +117,36 @@
                     <b>Oceanic shallow coral reefs</b>
                     <br>
                     <i>Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.</i>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
+                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                        <!-- First video thumbnail -->
+                        <div style="display: flex; flex-wrap: wrap;">
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Second video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Third video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4">
+                                    <video style="width: 100%;">
+                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 <#elseif ecosys == 9>
                     <b>Shelf vegetated sediments</b>
                     <br>
@@ -229,6 +259,36 @@
                     <b>Oceanic mesophotic coral reefs</b>
                     <br>
                     <i>Coral reefs occurring seaward of the continental shelf break in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
+                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                        <!-- First video thumbnail -->
+                        <div style="display: flex; flex-wrap: wrap;">
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Second video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" target="_blank">
+                                    <video style="width: 100%;">
+                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                            <!-- Third video thumbnail -->
+                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
+                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4">
+                                    <video style="width: 100%;">
+                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 <#elseif ecosys == 15>
                     <b>Rariphotic shelf reefs</b>
                     <br>
