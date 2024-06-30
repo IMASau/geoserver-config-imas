@@ -10,18 +10,7 @@
     <Name>Fuzzy border video location</Name>
     <UserStyle>
       <FeatureTypeStyle>
-        <!-- Style for tracks -->
-        <Rule>
-          <Title>Aus Sea Lion tracks (coloured by individual)</Title>
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>
-              <CssParameter name="stroke-width">1.4</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-          <VendorOption name="inclusion">legendOnly</VendorOption>
-        </Rule>
+
         <Rule>
           <Title>Video length (larger point = longer video)</Title>
           <PointSymbolizer>
@@ -176,7 +165,7 @@
         
         <Rule>
           <MaxScaleDenominator>1100000</MaxScaleDenominator>
-          <Title>Recorded >5 mins from GPS fix (vague. location)</Title>
+          <Title>Recorded >5 mins from GPS fix</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -434,7 +423,7 @@
         
         <Rule>
           <MaxScaleDenominator>1100000</MaxScaleDenominator>
-          <Title>Recorded &#8804;5 mins from GPS fix (approx. location)</Title>
+          <Title>Recorded &#8804;5 mins from GPS fix</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsLessThanOrEqualTo>
