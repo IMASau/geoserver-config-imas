@@ -1,8 +1,8 @@
-    <#assign processedFeatures=0>
-    <#list features as feature>
-        <#-- Only return values where HasVideoMatch = 0 (1 is nearby, 2 is exact match) -->
-        <#if feature.HasVideoMatch.value?number == 0 && processedFeatures < 1>
-<div id="metadata-container">
+<#assign processedFeatures=0>
+<#list features as feature>
+    <#-- Only return values where HasVideoMatch = 0 (1 is nearby, 2 is exact match) -->
+    <#if feature.HasVideoMatch.value?number == 0 && processedFeatures < 1>
+        <div id="metadata-container">
             <#-- Extract and format the date and time -->
             <#assign TrackDate = feature.DateTimeLocal.value?datetime("d MMM yyyy, h:mm:ss a")!>
 
@@ -13,12 +13,12 @@
                 </p>
             </div>
             <#assign processedFeatures = processedFeatures + 1>
-        </#if>
-    <#if features?size gt 999>
-        <div style="color: CornflowerBlue; font-style: italic; padding-top:5px; padding-bottom:2px">
-            Too much sea lion activity here! Please zoom in and try again.
         </div>
     </#if>
-</div>
-    </#list>
+</#list>
 
+<#if features?size gt 999>
+    <div style="color: CornflowerBlue; font-style: italic; padding-top:5px; padding-bottom:2px">
+        Too much sea lion activity here! Please zoom in and try again.
+    </div>
+</#if>
