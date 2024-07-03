@@ -13,46 +13,46 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>        
         <Rule>        
-          <Title>Rhodoliths</Title>
+          <Title>Crustose coralline algae</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rhodoliths</ogc:Literal>
+              <ogc:Literal>Crustose coralline algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fd6e67</CssParameter>
+              <CssParameter name="fill">#e68a00</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sessile invertebrates (SI)</Title>
+          <Title>Macroalgae</Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sessile invertebrates .SI.</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Algae</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>	  
           <PolygonSymbolizer>			  
             <Fill>
-              <CssParameter name="fill">#ab7bea</CssParameter>
+              <CssParameter name="fill">#2d9624</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Kelp</Title>
+          <Title>Rhodoliths</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Kelp</ogc:Literal>
+              <ogc:Literal>Rhodolith</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#006600</CssParameter>
+              <CssParameter name="fill">#fd6e67</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -73,121 +73,211 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Other algae</Title>
+          <Title>Macroalgae / Seagrass</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Other algae</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Seagrass . algae</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>	  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#84e1e1</CssParameter>
+              <CssParameter name="fill">#cab433</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Mixed vegetation</Title>
+          <Title>Coral communities</Title>
           <ogc:Filter>		  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed vegetation</ogc:Literal>
+              <ogc:Literal>Coral communities</ogc:Literal>
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>	  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#009999</CssParameter>
+              <CssParameter name="fill">#dd3c8c</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>          
         <Rule>        
-          <Title>Mixed kelp and SI</Title>
+          <Title>Encrusting coral</Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed kelp and sessile invertebrates .SI.</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Encrusting coral</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
           </ogc:Filter>	  
           <PolygonSymbolizer>			  
             <Fill>
-              <CssParameter name="fill">#77b300</CssParameter>
+              <CssParameter name="fill">#b30086</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>         
         <Rule>        
-          <Title>Mixed other algae and SI</Title>
+          <Title>Coral / Macroalgae</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed other algae and sessile invertebrates .SI.</ogc:Literal>
+              <ogc:Literal>Coral . macroalgae</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>		  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#cc0066</CssParameter>
+              <CssParameter name="fill">#ffad61</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Mixed vegetation and SI</Title>
+          <Title>Rocky outcrops with coral</Title>
           <ogc:Filter>          
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Mixed vegetation and sessile invertebrates .SI.</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>Rocky outcrops with coral</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>		  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#ff8533</CssParameter>
+              <CssParameter name="fill">#993366</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>        
-          <Title>Hard coral and all mixes</Title>
+          <Title>Coral rubble</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hard coral and all mixes</ogc:Literal>
+              <ogc:Literal>Coral rubble</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	  
           <PolygonSymbolizer>			  
             <Fill>
-              <CssParameter name="fill">#b33c00</CssParameter>
+              <CssParameter name="fill">#75a3a3</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Transition</Title>
+          <Title>Coral rubble with Macroalgae</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Transition</ogc:Literal>
+              <ogc:Literal>Coral rubble with macroalgae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	  
           <PolygonSymbolizer>	  
             <Fill>
-              <CssParameter name="fill">#0000cc</CssParameter>
+              <CssParameter name="fill">#73c8ba</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	        
         <Rule>
-          <Title>None modelled with certainty</Title>
+          <Title>Coral rubble with Rhodoliths</Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>None modelled with certainty</ogc:Literal>
+              <ogc:Literal>Coral rubble with rhodoliths</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#c0c1c8</CssParameter>
+              <CssParameter name="fill">#a366ff</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>        
+          <Title>Coral rubble / Sand</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Coral rubble . sand</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>		  
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#E8C7AE</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule> 
+        <Rule>
+          <Title>Reef pavement with algal turf</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Reef pavement with algal turf</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#ccd300</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	 
+        <Rule>
+          <Title>Coralline sand with living coral</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Coralline sand with living coral</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#ff9999</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	 
+        <Rule>
+          <Title>Mangroves</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mangroves</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#26734b</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Lagoon</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Lagoon</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#a082d9</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>Sand</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#FFF9A5</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
