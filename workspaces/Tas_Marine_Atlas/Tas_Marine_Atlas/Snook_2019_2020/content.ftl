@@ -5,7 +5,7 @@
 	<#assign Effort=feature.Effort.value?number>
 	<#assign CPUE=feature.CPUE.value?number>
 
-	<h5>Snook catch information 2017-18</h5>
+	<h5>Snook catch information 2019-20</h5>
 	<BR>
 	<div class="feature" style="padding-bottom:7px"> 
 		<b>Fishing block:</b> ${feature.BLOCK.value} (<i>sub-block ${feature.SUBBLOCK.value}</i>)<br>
