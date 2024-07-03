@@ -133,11 +133,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Rocky outcrops with coral</Title>
+          <Title>Rocky outcrops with corals</Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rocky outcrops with coral</ogc:Literal>
+              <ogc:Literal>Rocky outcrops with corals</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>		  
           <PolygonSymbolizer>		  
@@ -167,7 +167,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral rubble with macroalgae</ogc:Literal>
+              <ogc:Literal>Coral rubble and macroalgae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	  
           <PolygonSymbolizer>	  
@@ -180,10 +180,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>Coral rubble with Rhodoliths</Title>
           <ogc:Filter>          
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral rubble with rhodoliths</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Coral rubble . Rhodolith</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>  
           <PolygonSymbolizer>		  
             <Fill>
