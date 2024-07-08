@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_JurienBay_benthic_habitat_2017</name>
+  <id>LayerInfoImpl--694527c:1908f99ac50:6114</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--694527c:1908f99ac50:5a5c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--694527c:1908f99ac50:6113</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-08 01:19:32.861 UTC</dateCreated>
+</layer>
