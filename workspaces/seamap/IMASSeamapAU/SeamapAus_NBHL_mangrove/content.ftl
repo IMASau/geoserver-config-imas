@@ -23,9 +23,9 @@ h5 {
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia mangrove extent</h5>
+<h5 style="padding-top:8px">Seamap Australia mangrove extent</h5>
 
-        <div class="feature" style="padding-bottom: 5px; width: 550px; white-space: normal; overflow-wrap: break-word;"> 
+        <div class="feature" style="padding-bottom: 8px; width: 550px; white-space: normal; overflow-wrap: break-word;"> 
 	<br>
 	<a href="https://seamapaustralia.org/wp-content/uploads/2017/11/Classification_Hierarchy_20170907.pdf" target="_blank"><b>Seamap Australia benthic habitat</a>:</b> ${feature.NAT_HAB_CL.value}<br><br>
 	<b>Original classification(s):</b> <i>${feature.Hab_ORIG.value}</i><br>
@@ -34,7 +34,7 @@ h5 {
 	<#else>
 	<BR>
 		<i>Multiple polygons exist at this point. Zoom in for higher precision.</i>
-	<BR>
+	<BR><BR>
 	<#break>
   </#if>
 </#list>
