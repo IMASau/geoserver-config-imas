@@ -76,6 +76,21 @@
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mangrove</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Mangrove</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#26734b</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>        
+        <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Seagrass</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
