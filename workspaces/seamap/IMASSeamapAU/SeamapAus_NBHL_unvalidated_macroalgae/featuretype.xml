@@ -1,14 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6e3ee927:1830b1e8a92:1aa2</id>
-  <name>SeamapAus_NBHL_unvalidated</name>
+  <id>FeatureTypeInfoImpl--694527c:1909261d612:-5580</id>
+  <name>SeamapAus_NBHL_unvalidated_macroalgae</name>
   <nativeName>FINALPRODUCT_SeamapAus_unvalidated</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia UNVALIDATED habitat data</title>
-  <abstract>The Seamap Australia UNVALIDATED National Benthic Habitat Layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer, but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
+  <title>Seamap Australia UNVALIDATED habitat data - macroalgae extent</title>
+  <abstract>The Seamap Australia UNVALIDATED habitat layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer (NBHL), but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
 &#xd;
-Note that this is an ancillary product to the Seamap Australia National Benthic Habitat Layer (NBHL) and DOES NOT meet the current standards required for inclusion in the NBHL.</abstract>
+This layer represents the MACROALGAE extent derived from the Seamap Australia UNVALIDATED collection. This includes mixed vegetation classes in which macroalgae has been positively identified (e.g. seagrass/macroalgae).&#xd;
+&#xd;
+Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT meet the current standards required for inclusion in the NBHL.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_unvalidated</string>
@@ -38,22 +40,22 @@ Note that this is an ancillary product to the Seamap Australia National Benthic 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>85.58345018100374</minx>
-    <maxx>163.3507834602408</maxx>
-    <miny>-47.085313725802315</miny>
-    <maxy>-4.1060445634876155</maxy>
+    <minx>126.11707882272742</minx>
+    <maxx>130.09217928103027</maxx>
+    <miny>-12.81025038923733</miny>
+    <maxy>-10.21217537649447</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>85.58345018100374</minx>
-    <maxx>163.3507834602408</maxx>
-    <miny>-47.085313725802315</miny>
-    <maxy>-4.1060445634876155</maxy>
+    <minx>126.11707882272742</minx>
+    <maxx>130.09217928103027</maxx>
+    <miny>-12.81025038923733</miny>
+    <maxy>-10.21217537649447</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -61,8 +63,10 @@ Note that this is an ancillary product to the Seamap Australia National Benthic 
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>NAT_HAB_CL = &apos;Macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Biota&apos;) AND ((BC_Species LIKE &apos;%alga%&apos; OR BC_Co_Occ LIKE &apos;%alga%&apos;) AND (BC_Species NOT LIKE &apos;%coral%&apos; AND BC_Co_Occ NOT LIKE &apos;%coral%&apos;)))</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

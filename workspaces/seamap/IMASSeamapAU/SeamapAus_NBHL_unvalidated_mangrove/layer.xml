@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NBHL_unvalidated_mangrove</name>
+  <id>LayerInfoImpl--694527c:1909261d612:-5415</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2816f738:186570cfa43:-4375</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--694527c:1909261d612:-5416</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-08 13:20:07.10 UTC</dateCreated>
+</layer>

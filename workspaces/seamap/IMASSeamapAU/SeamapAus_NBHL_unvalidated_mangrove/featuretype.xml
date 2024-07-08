@@ -1,14 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6e3ee927:1830b1e8a92:1aa2</id>
-  <name>SeamapAus_NBHL_unvalidated</name>
+  <id>FeatureTypeInfoImpl--694527c:1909261d612:-5416</id>
+  <name>SeamapAus_NBHL_unvalidated_mangrove</name>
   <nativeName>FINALPRODUCT_SeamapAus_unvalidated</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia UNVALIDATED habitat data</title>
-  <abstract>The Seamap Australia UNVALIDATED National Benthic Habitat Layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer, but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
+  <title>Seamap Australia UNVALIDATED habitat data - mangrove extent</title>
+  <abstract>The Seamap Australia UNVALIDATED habitat layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer (NBHL), but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
 &#xd;
-Note that this is an ancillary product to the Seamap Australia National Benthic Habitat Layer (NBHL) and DOES NOT meet the current standards required for inclusion in the NBHL.</abstract>
+This layer represents the MANGROVE extent derived from the Seamap Australia UNVALIDATED collection. This includes mixed vegetation classes in which mangrove has been positively identified (e.g. saltmarsh/mangrove).&#xd;
+&#xd;
+Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT meet the current standards required for inclusion in the NBHL.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_unvalidated</string>
@@ -38,22 +40,22 @@ Note that this is an ancillary product to the Seamap Australia National Benthic 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>85.58345018100374</minx>
-    <maxx>163.3507834602408</maxx>
-    <miny>-47.085313725802315</miny>
-    <maxy>-4.1060445634876155</maxy>
+    <minx>110.80432140695864</minx>
+    <maxx>155.7242089280097</maxx>
+    <miny>-39.331034468385155</miny>
+    <maxy>-9.317588839189968</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>85.58345018100374</minx>
-    <maxx>163.3507834602408</maxx>
-    <miny>-47.085313725802315</miny>
-    <maxy>-4.1060445634876155</maxy>
+    <minx>110.80432140695864</minx>
+    <maxx>155.7242089280097</maxx>
+    <miny>-39.331034468385155</miny>
+    <maxy>-9.317588839189968</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -61,8 +63,10 @@ Note that this is an ancillary product to the Seamap Australia National Benthic 
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>NAT_HAB_CL = &apos;Mangrove&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%angrove%&apos;)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

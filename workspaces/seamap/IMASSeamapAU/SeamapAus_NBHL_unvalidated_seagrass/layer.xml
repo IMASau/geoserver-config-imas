@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NBHL_unvalidated_seagrass</name>
+  <id>LayerInfoImpl--694527c:1909261d612:-55de</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2816f738:186570cfa43:-59ab</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--694527c:1909261d612:-55df</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-08 13:12:15.210 UTC</dateCreated>
+</layer>
