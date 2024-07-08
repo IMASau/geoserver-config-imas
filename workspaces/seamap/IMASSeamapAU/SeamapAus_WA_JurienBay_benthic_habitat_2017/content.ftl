@@ -6,7 +6,7 @@
         </div>
     <#else>
         <i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
-        <br><br>
+        <br>
         <#break>
     </#if>
 </#list>
