@@ -88,7 +88,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>               
         <Rule>
-          <Title>Platform reef with macroalgae, filter feeders \n(corals and sponges) and ephemeral seagrass (Halophila spp.)</Title>
+          <Title>Platform reef with macroalgae, filter feeders \n(corals and sponges) and ephemeral \nseagrass (Halophila spp.)</Title>
           <ogc:Filter>          
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -118,7 +118,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Sand inundated platform reef with macroalgae and mixed \nperennial seagrass (Posidonia spp. and Amphibolis spp.)</Title>
+          <Title>Sand inundated platform reef with macroalgae \nand mixed perennial seagrass \n(Posidonia spp. and Amphibolis spp.)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
