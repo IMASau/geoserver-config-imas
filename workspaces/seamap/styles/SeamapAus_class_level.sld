@@ -106,7 +106,22 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Title>Resolution of substrata classification (if no biotic available)</Title>
+					<Title>----------</Title>
+					<ogc:Filter>
+					   <ogc:PropertyIsEqualTo>
+					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
+					      <ogc:Literal>intentionallyblank</ogc:Literal>
+					   </ogc:PropertyIsEqualTo>
+					</ogc:Filter>                       
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#FFFFFF</CssParameter>
+							<CssParameter name="fill-opacity">0.0001</CssParameter>                          
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>	              
+				<Rule>
+					<Title>Resolution of substrata classification \n(if no biotic available)</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
 					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
@@ -198,27 +213,6 @@
 							<CssParameter name="stroke-width">0.01</CssParameter>
 							<CssParameter name="opacity">0.9</CssParameter>					  			  
 						</Stroke>							
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Title>Unknown (biota or substrata)</Title>
-					<ogc:Filter>
-					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
-					      <ogc:Literal>Unknown</ogc:Literal>
-					   </ogc:PropertyIsEqualTo>
-					</ogc:Filter>                       
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.9</CssParameter>                          
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">0.01</CssParameter>
-							<CssParameter name="opacity">0.9</CssParameter>					  			  
-						</Stroke>	
-						
 					</PolygonSymbolizer>
 				</Rule>					
 		    </FeatureTypeStyle>
