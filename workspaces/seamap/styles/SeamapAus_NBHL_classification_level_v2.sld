@@ -35,11 +35,11 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#99e6ff</CssParameter>
+							<CssParameter name="fill">#a3e0f5</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
 						<Stroke>
-							<CssParameter name="stroke">#99e6ff</CssParameter>
+							<CssParameter name="stroke">#a3e0f5</CssParameter>
 							<CssParameter name="stroke-width">0.01</CssParameter>
 							<CssParameter name="opacity">0.9</CssParameter>					  			  
 						</Stroke>						
@@ -55,11 +55,11 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#33ffcc</CssParameter>
+							<CssParameter name="fill">#00ffe5</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
 						<Stroke>
-							<CssParameter name="stroke">#33ffcc</CssParameter>
+							<CssParameter name="stroke">#00ffe5</CssParameter>
 							<CssParameter name="stroke-width">0.01</CssParameter>
 							<CssParameter name="opacity">0.9</CssParameter>					  			  
 						</Stroke>						
@@ -75,11 +75,11 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#33ff33</CssParameter>
+							<CssParameter name="fill">#00e600</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
 						<Stroke>
-							<CssParameter name="stroke">#33ff33</CssParameter>
+							<CssParameter name="stroke">#00e600</CssParameter>
 							<CssParameter name="stroke-width">0.01</CssParameter>
 							<CssParameter name="opacity">0.9</CssParameter>					  			  
 						</Stroke>							
@@ -95,11 +95,11 @@
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#00994d</CssParameter>
+							<CssParameter name="fill">#00a24d</CssParameter>
 							<CssParameter name="fill-opacity">0.9</CssParameter>                          
 						</Fill>
 						<Stroke>
-							<CssParameter name="stroke">#00994d</CssParameter>
+							<CssParameter name="stroke">#00a24d</CssParameter>
 							<CssParameter name="stroke-width">0.01</CssParameter>
 							<CssParameter name="opacity">0.9</CssParameter>					  			  
 						</Stroke>							
