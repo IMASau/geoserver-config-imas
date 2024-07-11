@@ -26,7 +26,7 @@
 					</PolygonSymbolizer>
 				</Rule>	              
 				<Rule>
-					<Title>Level 1 (coarse)</Title>
+					<Title>Level 1 (present/absent)</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
 					      <ogc:PropertyName>BC_level</ogc:PropertyName>
@@ -49,8 +49,8 @@
 					<Title>Level 2</Title>
 					<ogc:Filter>
 					   <ogc:PropertyIsEqualTo>
-					      <ogc:PropertyName>LEVEL</ogc:PropertyName>
-					      <ogc:Literal>BC_level</ogc:Literal>
+					      <ogc:PropertyName>BC_level</ogc:PropertyName>
+					      <ogc:Literal>BC2</ogc:Literal>
 					   </ogc:PropertyIsEqualTo>
 					</ogc:Filter>                       
 					<PolygonSymbolizer>
@@ -152,8 +152,8 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#ff99e6</CssParameter>
-                      <CssParameter name="stroke-opacity">0.8</CssParameter>                      
+                      <CssParameter name="stroke">#f792df</CssParameter>
+                      <CssParameter name="stroke-opacity">0.9</CssParameter>                      
                       <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
@@ -178,8 +178,8 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#ff9933</CssParameter>
-                      <CssParameter name="stroke-opacity">0.8</CssParameter>                      
+                      <CssParameter name="stroke">#c957e1</CssParameter>
+                      <CssParameter name="stroke-opacity">0.9</CssParameter>                      
                       <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
@@ -204,8 +204,8 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#ff4000</CssParameter>
-                      <CssParameter name="stroke-opacity">0.8</CssParameter>                      
+                      <CssParameter name="stroke">#7119c8</CssParameter>
+                      <CssParameter name="stroke-opacity">0.9</CssParameter>                      
                       <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
@@ -230,9 +230,9 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#ac00e6</CssParameter>
-                      <CssParameter name="stroke-opacity">0.8</CssParameter>                      
-                      <CssParameter name="stroke-width">2</CssParameter>
+                      <CssParameter name="stroke">#bc0139</CssParameter>
+                      <CssParameter name="stroke-opacity">0.9</CssParameter>                      
+                      <CssParameter name="stroke-width">2.5</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
