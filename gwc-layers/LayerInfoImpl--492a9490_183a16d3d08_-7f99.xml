@@ -31,8 +31,10 @@
     <styleParameterFilter>
       <key>STYLES</key>
       <defaultValue></defaultValue>
-      <availableStyles class="sorted-set"/>
-      <defaultStyle>seamap:SeamapAus_class_level</defaultStyle>
+      <availableStyles class="sorted-set">
+        <string>seamap:SeamapAus_NBHL_classificaiton_level_v2</string>
+      </availableStyles>
+      <defaultStyle>seamap:SeamapAus_NBHL_classification_level</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

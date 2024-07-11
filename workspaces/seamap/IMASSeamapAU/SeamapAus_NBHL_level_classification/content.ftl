@@ -1,9 +1,9 @@
 <#list features as feature>
 <#if (feature_index < 1) >
 
-<h5>Seamap Australia - <i>resolved level of classification</i></h5>
+<h5 style="padding-top:5px">Seamap Australia - <i>resolved level of classification</i></h5>
 <BR>
-  <div class="feature">
+  <div class="feature" style="padding-bottom:8px">
   	<#if feature.BC_level.value?substring(2,3) == "1">
 			&#9733;&#9734;&#9734;&#9734; <b>Biota:</b> Level 1 <i>(of 4)</i><br>
   		<#elseif feature.BC_level.value?substring(2,3) == "2">
@@ -27,7 +27,6 @@
 			&#9734;&#9734;&#9734;&#9734; <b>Substratum:</b> not classified <i>(level 0)</i><br>
 	</#if>
 
-	<BR>  
   </div>
   </#if>
 </#list>
