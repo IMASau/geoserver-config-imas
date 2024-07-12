@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--3b907bf8:18fbecaaf9f:-14cb</id>
-  <name>binomial_reef_meanXLo_certLo</name>
+  <name>binomial_reef_meanXLo_certLo_opt1</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>binomial_reef_meanXLo_certLo.sld</filename>
+  <filename>binomial_reef_meanXLo_certLo_opt1.sld</filename>
   <dateCreated>2024-05-28 14:04:14.568 UTC</dateCreated>
-  <dateModified>2024-05-28 14:47:51.704 UTC</dateModified>
+  <dateModified>2024-07-12 08:06:24.550 UTC</dateModified>
 </style>

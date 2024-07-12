@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--3b907bf8:18fbecaaf9f:-cdf</id>
-  <name>binomial_reef_meanMed_certLo</name>
+  <name>binomial_reef_meanMed_certLo_opt1</name>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>binomial_reef_meanMed_certLo.sld</filename>
+  <filename>binomial_reef_meanMed_certLo_opt1.sld</filename>
   <dateCreated>2024-05-28 14:08:39.810 UTC</dateCreated>
-  <dateModified>2024-05-28 14:47:41.186 UTC</dateModified>
+  <dateModified>2024-07-12 08:06:02.396 UTC</dateModified>
 </style>
