@@ -2,7 +2,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Reef likelihood (low), model certainty (low)</Name>
+    <Name>Reef likelihood (high), model certainty (low)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Transformation>
@@ -15,7 +15,7 @@
               <ogc:Literal><![CDATA[
                 b1 = src[0];
                 b2 = src[1];
-                dest = (b1 >= 0.2 && b2 <=1) ? 1 : 0;
+                dest = (b1 >= 0.6 && b2 <=1) ? 1 : 0;
               ]]></ogc:Literal>
             </ogc:Function>
           </ogc:Function>
@@ -25,7 +25,7 @@
             <Opacity>1.0</Opacity>
             <ColorMap>
               <ColorMapEntry color="#000000" quantity="0" opacity="0"/> <!-- Transparent where condition is not met -->
-              <ColorMapEntry color="#eadbcc" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
+              <ColorMapEntry color="#bf7940" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
             </ColorMap>
           </RasterSymbolizer>
  		 <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
@@ -33,7 +33,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">              
-              <ColorMapEntry color="#eadbcc" quantity="1" label="  Reef/sediment prediction" />           
+              <ColorMapEntry color="#bf7940" quantity="1" label="  Reef/sediment prediction" />           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>
