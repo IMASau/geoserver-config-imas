@@ -15,7 +15,7 @@
               <ogc:Literal><![CDATA[
                 b1 = src[0];
                 b2 = src[1];
-                dest = (b1 >= 0.0 && b2 <= 0.08) ? 1 : 0;
+                dest = (b1 >= 0.0 && b2 <= 0.06) ? 1 : 0;
               ]]></ogc:Literal>
             </ogc:Function>
           </ogc:Function>
