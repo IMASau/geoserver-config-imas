@@ -3,6 +3,7 @@
   <name>MaC_2_6_AusSeaLions_video_tracking</name>
   <mode>SINGLE</mode>
   <title>NESP Marine and Coastal Project 2.6 - Australian Sea Lions GPS tracks</title>
+  <abstractTxt>This map shows foraging trip summaries of eight adult female Australian Sea Lions tagged with GPS loggers and animal-borne cameras at Olive Island and Seal Bay, South Australia. Coloured lines show the foraging tracks of different individuals, traced between pings from satellite-linked GPS loggers that collected locations when the animals surfaced. Point size indicates the duration of high-definition video captured from forward-facing cameras glued to the animals&apos; midline (larger points = longer video), while point colours show the likely degree of spatial approximation based on matching the video timestamps to the nearest recorded GPS location.</abstractTxt>
   <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
@@ -31,6 +32,13 @@
       <id>StyleInfoImpl--694527c:1906358112d:45f</id>
     </style>
   </styles>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>ISO19115-3:2018</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/84cb1709-a669-4f2c-b97b-5eceb7929349</content>
+    </metadataLink>
+  </metadataLinks>
   <bounds>
     <minx>133.65633592887335</minx>
     <maxx>138.2845328526906</maxx>
@@ -39,5 +47,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-26 20:30:30.732 UTC</dateCreated>
-  <dateModified>2024-06-30 12:03:22.771 UTC</dateModified>
+  <dateModified>2024-07-15 22:52:59.384 UTC</dateModified>
 </layerGroup>
