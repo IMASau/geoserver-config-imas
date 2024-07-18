@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>IMAS Baited Remote Underwater Video (BRUV) clips - habitat stills</title>
+  <abstract>Stills from video clips showing benthic habitat, derived from the quantitative sampling of the abundance, body size and diversity of demersal fishes baited remote underwater stereo video (stereo BRUV) in and around Australian Marine Parks (AMPs) in the South-east Network. The dataset allows examination of changes in fish communities over time as part of ongoing monitoring of these AMPs. There are plans for ongoing surveys as part of Parks Australia&apos;s management of the AMPs. The methods and key findings of the work are described in detail in Monk et al. (2016) and Perkins et al. (2022).</abstract>
   <keywords>
     <string>features</string>
     <string>IMAS_BRUV_clips_habitat_stills</string>
@@ -36,6 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
