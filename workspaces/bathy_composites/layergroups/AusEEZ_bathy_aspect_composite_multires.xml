@@ -4,7 +4,7 @@
   <mode>SINGLE</mode>
   <title>Hillshaded multi-resolution bathymetric aspect composite for the Aus EEZ</title>
   <abstractTxt>A multi-resolution depth-stratified aspect derivative from a continuous bathymetry surface for the Aus EEZ. This layer group displays aspect draped over hillshade.</abstractTxt>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -34,5 +34,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-05-06 06:43:13.801 UTC</dateCreated>
-  <dateModified>2024-06-17 03:11:43.255 UTC</dateModified>
+  <dateModified>2024-07-19 06:05:59.195 UTC</dateModified>
 </layerGroup>

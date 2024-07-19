@@ -4,7 +4,7 @@
   <mode>SINGLE</mode>
   <title>Hillshaded multi-resolution bathymetric slope composite for the Aus EEZ</title>
   <abstractTxt>A multi-resolution depth-stratified slope derivative from a continuous bathymetry surface for the Aus EEZ.  This layer group displays slope draped over hillshade.</abstractTxt>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -34,5 +34,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-04-29 21:31:56.226 UTC</dateCreated>
-  <dateModified>2024-06-17 03:11:19.25 UTC</dateModified>
+  <dateModified>2024-07-19 06:06:09.656 UTC</dateModified>
 </layerGroup>

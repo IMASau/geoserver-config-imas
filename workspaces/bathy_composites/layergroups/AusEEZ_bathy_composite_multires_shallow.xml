@@ -3,7 +3,7 @@
   <name>AusEEZ_bathy_composite_multires_shallow</name>
   <mode>NAMED</mode>
   <title>Hillshaded multi-resolution bathymetry composite for the Aus EEZ - style optimised for shelf (shallow) waters</title>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -33,5 +33,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-04-12 04:53:43.761 UTC</dateCreated>
-  <dateModified>2024-06-17 03:11:04.533 UTC</dateModified>
+  <dateModified>2024-07-19 06:06:05.846 UTC</dateModified>
 </layerGroup>

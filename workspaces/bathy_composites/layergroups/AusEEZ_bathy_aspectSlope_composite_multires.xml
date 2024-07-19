@@ -4,7 +4,7 @@
   <mode>SINGLE</mode>
   <title>Hillshaded multi-resolution aspect-slope composite for the Aus EEZ</title>
   <abstractTxt>A multi-resolution depth-stratified aspect-slope map from a continuous bathymetry surface for the Aus EEZ.</abstractTxt>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -41,5 +41,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-01 23:38:42.434 UTC</dateCreated>
-  <dateModified>2024-06-19 00:45:21.10 UTC</dateModified>
+  <dateModified>2024-07-19 06:06:13.233 UTC</dateModified>
 </layerGroup>
