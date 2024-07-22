@@ -21,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>50.000000026783596</minx>
+    <minx>50.00000002678371</minx>
     <maxx>173.39999999390108</maxx>
-    <miny>-69.82000000472945</miny>
-    <maxy>-8.469999992923437</maxy>
+    <miny>-69.81000000471414</miny>
+    <maxy>-8.469999992923505</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>50.000000026783596</minx>
+    <minx>50.00000002678371</minx>
     <maxx>173.39999999390108</maxx>
-    <miny>-69.82000000472945</miny>
-    <maxy>-8.469999992923437</maxy>
+    <miny>-69.81000000471414</miny>
+    <maxy>-8.469999992923505</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_ORDER = &apos;Cetacea&apos; AND TAXON_FAMILY = &apos;Balaenopteridae&apos; AND VERNACULAR_NAME NOT LIKE &apos;%Minke%&apos; AND SCIENTIFIC_NAME &lt;&gt; &apos;Megaptera novaeangliae&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_ORDER = &apos;Cetacea&apos; AND TAXON_FAMILY = &apos;Balaenopteridae&apos; AND (VERNACULAR_NAME NOT LIKE &apos;%Minke%&apos; AND SCIENTIFIC_NAME &lt;&gt; &apos;Megaptera novaeangliae&apos; AND SCIENTIFIC_NAME &lt;&gt; &apos;Balaenoptera musculus&apos;)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

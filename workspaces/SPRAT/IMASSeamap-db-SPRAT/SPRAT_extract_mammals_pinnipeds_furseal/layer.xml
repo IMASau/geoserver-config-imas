@@ -1,5 +1,5 @@
 <layer>
-  <name>SPRAT_extract_mammals_furseal</name>
+  <name>SPRAT_extract_mammals_pinnipeds_furseal</name>
   <id>LayerInfoImpl-6a14d715:18f9964b2fa:1a3c</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-05-21 05:25:43.457 UTC</dateCreated>
+  <dateModified>2024-07-22 02:15:08.478 UTC</dateModified>
 </layer>

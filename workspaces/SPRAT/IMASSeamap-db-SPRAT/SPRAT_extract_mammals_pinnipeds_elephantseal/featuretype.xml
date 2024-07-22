@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-6a14d715:18f9964b2fa:1a3b</id>
-  <name>SPRAT_extract_mammals_furseal</name>
+  <id>FeatureTypeInfoImpl-6a14d715:18f9964b2fa:1a03</id>
+  <name>SPRAT_extract_mammals_pinnipeds_elephantseal</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: fur seals</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: elephant seal</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND SCIENTIFIC_NAME LIKE &apos;Arctocephalus%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND TAXON_ORDER = &apos;Pinnipedia&apos; AND TAXON_FAMILY = &apos;Phocidae&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

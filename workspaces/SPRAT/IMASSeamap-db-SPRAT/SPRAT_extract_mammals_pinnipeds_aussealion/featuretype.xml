@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-6a14d715:18f9964b2fa:1a01</id>
-  <name>SPRAT_extract_mammals_aussealion</name>
+  <name>SPRAT_extract_mammals_pinnipeds_aussealion</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND SCIENTIFIC_NAME LIKE &apos;Neophoca%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND TAXON_ORDER = &apos;Pinnipedia&apos; AND SCIENTIFIC_NAME LIKE &apos;Neophoca%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
