@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Delphinidae&apos; AND SCIENTIFIC_NAME &lt;&gt; &apos;Orcaella heinsohni&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Globicephala%&apos; AND TAXON_FAMILY &lt;&gt; &apos;Phocoenidae&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Tursiops%&apos; AND  SCIENTIFIC_NAME NOT LIKE &apos;Sousa%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_ORDER = &apos;Cetacea&apos; AND TAXON_FAMILY = &apos;Delphinidae&apos; AND (SCIENTIFIC_NAME &lt;&gt; &apos;Orcaella heinsohni&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Globicephala%&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Tursiops%&apos; AND SCIENTIFIC_NAME NOT LIKE &apos;Sousa%&apos;)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

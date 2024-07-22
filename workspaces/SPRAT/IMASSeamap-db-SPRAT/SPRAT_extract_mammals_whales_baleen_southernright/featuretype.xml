@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3b907bf8:18fba1b47a9:-7dfa</id>
-  <name>SPRAT_extract_mammals_whales_baleen_right</name>
+  <name>SPRAT_extract_mammals_whales_baleen_southernright</name>
   <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
   </namespace>
-  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: right whales</title>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - mammals: southern right whales</title>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND (TAXON_FAMILY = &apos;Balaenidae&apos; OR TAXON_FAMILY = &apos;Neobalaenidae&apos;)</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_ORDER = &apos;Cetacea&apos; AND TAXON_FAMILY = &apos;Balaenidae&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

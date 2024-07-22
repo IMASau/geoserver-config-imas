@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Balaenopteridae&apos; AND VERNACULAR_NAME LIKE &apos;%Minke%&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;mammals&apos; AND MARINE = &apos;Listed&apos; AND TAXON_ORDER = &apos;Cetacea&apos; AND TAXON_FAMILY = &apos;Balaenopteridae&apos; AND VERNACULAR_NAME LIKE &apos;%Minke%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
