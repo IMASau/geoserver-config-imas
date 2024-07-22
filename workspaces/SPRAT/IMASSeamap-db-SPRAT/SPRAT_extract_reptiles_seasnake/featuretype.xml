@@ -21,16 +21,16 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>39.68000001681111</minx>
-    <maxx>173.39999999390122</maxx>
-    <miny>-69.82000000472962</miny>
+    <minx>111.990000006624</minx>
+    <maxx>155.95999999027094</maxx>
+    <miny>-34.0000000013961</miny>
     <maxy>-8.000000008282683</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>39.68000001681111</minx>
-    <maxx>173.39999999390122</maxx>
-    <miny>-69.82000000472962</miny>
+    <minx>111.990000006624</minx>
+    <maxx>155.95999999027094</maxx>
+    <miny>-34.0000000013961</miny>
     <maxy>-8.000000008282683</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;reptiles&apos; AND TAXON_ORDER = &apos;Squamata&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;reptiles&apos; AND MARINE=&apos;Listed&apos; AND TAXON_ORDER = &apos;Squamata&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

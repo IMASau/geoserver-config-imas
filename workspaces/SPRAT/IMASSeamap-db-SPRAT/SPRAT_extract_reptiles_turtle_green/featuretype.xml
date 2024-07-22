@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_GROUP = &apos;reptiles&apos; AND SCIENTIFIC_NAME=&apos;Chelonia mydas&apos;</cqlFilter>
+  <cqlFilter>TAXON_GROUP = &apos;reptiles&apos;  AND MARINE = &apos;Listed&apos; AND SCIENTIFIC_NAME=&apos;Chelonia mydas&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
