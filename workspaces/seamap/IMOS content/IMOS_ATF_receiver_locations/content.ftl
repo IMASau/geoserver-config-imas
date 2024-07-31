@@ -32,9 +32,12 @@
                 <!-- Dates Active Information -->
                 <#if start?has_content>
                     <#if end?has_content>
-                        <p style="margin: 0; padding-bottom: 2px; line-height: 1.4;"><b>Dates active:</b> ${start[0..9]} - ${end[0..9]}</p>
+                        <#assign startDate = start?date>
+                        <#assign endDate = end?date>
+                        <p style="margin: 0; padding-bottom: 2px; line-height: 1.4;"><b>Dates active:</b> ${startDate?string("d MMMM yyyy")} - ${endDate?string("d MMMM yyyy")}</p>
                     <#else>
-                        <p style="margin: 0; padding-bottom: 2px; line-height: 1.4;"><b>Dates active:</b> ${start[0..9]} - <i>ongoing</i></p>
+                        <#assign startDate = start?date>
+                        <p style="margin: 0; padding-bottom: 2px; line-height: 1.4;"><b>Dates active:</b> ${startDate?string("d MMMM yyyy")} - <i>ongoing</i></p>
                     </#if>
                 </#if>
             </div>
