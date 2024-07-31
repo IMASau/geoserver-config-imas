@@ -1,5 +1,5 @@
 <!-- Title for the Receiver Locations Section -->
-<h5>Animal Tracking Facility Acoustic Receiver locations</h5>
+<h5 style="padding-top:3px">Animal Tracking Facility Acoustic Receiver locations</h5>
 <br>
 
 <!-- Looping through the features (each receiver is a feature) -->
@@ -13,11 +13,11 @@
         <#assign name=feature.receiver_name.value>
         
         <!-- Determining the color of the band based on the IMOS_B value -->
-        <#assign bandColor = (feature.imos_b.value?lower_case == 'true')?then('#820000', '#166e9e')>
+        <#assign bandColor = (feature.active.value?lower_case == 'active')?then('#166e9e', '#820000')>
 
         <!-- Outer container for each feature, creating a horizontal layout with some space below each block -->
         <div class="feature" style="display: flex; margin-bottom: 20px;">
-            <!-- Colored band representing the status based on IMOS_B value -->
+            <!-- Colored band representing the status based on 'active' value -->
             <div style="width: 10px; background-color: ${bandColor}; margin-right: 10px;"></div>
             <!-- Container for the text information of the receiver -->
             <div style="flex-grow: 1;">
@@ -45,7 +45,7 @@
     <!-- Else part for displaying message if more than 5 features are present -->
     <#else>
         <i>This information has been limited to 5 receivers. Zoom in for higher precision.</i>
-        <br><br>
+        <br>
         <#break> <!-- Breaking the loop after the message is displayed -->
     </#if>
 </#list>

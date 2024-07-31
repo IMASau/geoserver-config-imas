@@ -6,13 +6,31 @@
     <UserStyle>
       <Title>Acoustic telemetry installations</Title>
       <FeatureTypeStyle>
- 
+
 <Rule>   
- <Title>IMOS ATF installations</Title>  
+ <Title> Receiver active</Title> 
   <ogc:Filter>
       <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>imos_b</ogc:PropertyName>
-         <ogc:Literal>TRUE</ogc:Literal>
+         <ogc:PropertyName>active</ogc:PropertyName>
+         <ogc:Literal>Active</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+  </ogc:Filter>   
+<PointSymbolizer>
+   <Graphic>
+     <ExternalGraphic>
+        <OnlineResource xlink:type="simple" xlink:href="https://raw.githubusercontent.com/aodn/geoserver-config/master/workspaces/imos/styles/atf_independentreceiver.png" />
+        <Format>image/png</Format>
+     </ExternalGraphic>
+   </Graphic>
+</PointSymbolizer>
+</Rule>         
+        
+<Rule>   
+ <Title> Receiver inactive</Title>  
+  <ogc:Filter>
+      <ogc:PropertyIsEqualTo>
+         <ogc:PropertyName>active</ogc:PropertyName>
+         <ogc:Literal>Inactive</ogc:Literal>
       </ogc:PropertyIsEqualTo>
   </ogc:Filter>   
 <PointSymbolizer>
@@ -24,24 +42,8 @@
    </Graphic>
 </PointSymbolizer>
         </Rule>        
+      <VendorOption name="sortBy">active D</VendorOption>		
                    
-<Rule>   
- <Title>Independent installations</Title> 
-  <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-         <ogc:PropertyName>imos_b</ogc:PropertyName>
-         <ogc:Literal>FALSE</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-  </ogc:Filter>   
-<PointSymbolizer>
-   <Graphic>
-     <ExternalGraphic>
-        <OnlineResource xlink:type="simple" xlink:href="https://raw.githubusercontent.com/aodn/geoserver-config/master/workspaces/imos/styles/atf_independentreceiver.png" />
-        <Format>image/png</Format>
-     </ExternalGraphic>
-   </Graphic>
-</PointSymbolizer>
-</Rule> 
         
       </FeatureTypeStyle>
     </UserStyle>
