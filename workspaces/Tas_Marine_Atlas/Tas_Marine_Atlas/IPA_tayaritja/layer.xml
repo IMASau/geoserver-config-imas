@@ -1,17 +1,16 @@
 <layer>
   <name>IPA_tayaritja</name>
-  <id>LayerInfoImpl--63c24095:18dbe60f509:-225d</id>
+  <id>LayerInfoImpl-42255a2a:1910b432f7b:-1d1f</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--63c24095:18dbe60f509:-2226</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--63c24095:18dbe60f509:-225e</id>
+    <id>FeatureTypeInfoImpl-42255a2a:1910b432f7b:-1d20</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-02-18 23:19:26.711 UTC</dateCreated>
-  <dateModified>2024-04-05 02:05:43.904 UTC</dateModified>
+  <dateCreated>2024-08-01 01:39:58.704 UTC</dateCreated>
 </layer>

@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5c6743c7:18bc85bd064:-5459</id>
+  <id>FeatureTypeInfoImpl-42255a2a:1910b432f7b:-1d0f</id>
   <name>Giant_kelp_trial</name>
   <nativeName>Giant_kelp_trial</nativeName>
   <namespace>
@@ -43,10 +43,6 @@
     <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
-  <disabledServices>
-    <string>WPS</string>
-    <string>WFS</string>
-  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>

@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--63c24095:18dbe60f509:-225e</id>
+  <id>FeatureTypeInfoImpl-42255a2a:1910b432f7b:-1d20</id>
   <name>IPA_tayaritja</name>
   <nativeName>IPA_tayaritja</nativeName>
   <namespace>
@@ -43,11 +43,7 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
   </store>
-  <serviceConfiguration>true</serviceConfiguration>
-  <disabledServices>
-    <string>WPS</string>
-    <string>WFS</string>
-  </disabledServices>
+  <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
