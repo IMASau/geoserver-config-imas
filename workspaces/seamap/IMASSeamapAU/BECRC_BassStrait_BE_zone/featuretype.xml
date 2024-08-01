@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--63c24095:18de859d9ec:45d9</id>
+  <id>FeatureTypeInfoImpl-42255a2a:1910b432f7b:-1d77</id>
   <name>BECRC_BassStrait_BE_zone</name>
   <nativeName>SeamapAus_BOUNDARIES_BECRC_BassStrait_BE_zone</nativeName>
   <namespace>
@@ -48,18 +48,13 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
-  <serviceConfiguration>true</serviceConfiguration>
-  <disabledServices>
-    <string>WPS</string>
-    <string>WFS</string>
-  </disabledServices>
+  <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
