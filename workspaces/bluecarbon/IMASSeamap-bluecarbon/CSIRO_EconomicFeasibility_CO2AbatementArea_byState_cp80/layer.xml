@@ -1,0 +1,16 @@
+<layer>
+  <name>CSIRO_EconomicFeasibility_CO2AbatementArea_byState_cp80</name>
+  <id>LayerInfoImpl-42255a2a:1912060c2c4:efb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-42255a2a:1912060c2c4:66b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-42255a2a:1912060c2c4:efa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-05 03:41:25.703 UTC</dateCreated>
+</layer>
