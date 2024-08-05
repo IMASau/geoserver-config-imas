@@ -3,9 +3,9 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>CSIRO_EconomicFeasibility_CO2Abatement_bySA2</Name>              
+    <Name>CSIRO_EconomicFeasibility_CO2Abatement_byState</Name>                  
     <UserStyle>
-    <Title>CO2 abatement tonnage by Statistical Area 2 (SA2)</Title>      
+    <Title>CO2 abatement tonnage by State</Title>      
       <FeatureTypeStyle>
         <Rule>
           <Title>CO2 abatement (tonnes)</Title>
@@ -23,11 +23,11 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>    &lt; 40,000 tCO2</Title>
+          <Title>    &lt; 100,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
              <ogc:PropertyName>tCO2</ogc:PropertyName>
-             <ogc:Literal>40000</ogc:Literal>
+             <ogc:Literal>100000</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -42,15 +42,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    40,00 - 150,000</Title>
+          <Title>    100,000 - 300,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>40000</ogc:Literal>
+                <ogc:Literal>100000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>150000</ogc:Literal>
+                <ogc:Literal>300000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -67,15 +67,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>    150,000 - 300,000</Title>
+          <Title>    300,000 - 2,000,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>150000</ogc:Literal>
+                <ogc:Literal>300000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>600000</ogc:Literal>
+                <ogc:Literal>2000000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -92,15 +92,15 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>    300,000 - 600,000</Title>
+          <Title>    2,000,000 - 6,000,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>300000</ogc:Literal>
+                <ogc:Literal>2000000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>600000</ogc:Literal>
+                <ogc:Literal>6000000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -117,15 +117,15 @@
           </PolygonSymbolizer>
         </Rule>   
         <Rule>
-          <Title>    600,000 - 1,900,000</Title>
+          <Title>    6,000,000 - 14,000,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>tCO2</ogc:PropertyName>
               <ogc:LowerBoundary>
-                <ogc:Literal>600000</ogc:Literal>
+                <ogc:Literal>6000000</ogc:Literal>
               </ogc:LowerBoundary>
               <ogc:UpperBoundary>
-                <ogc:Literal>1900000</ogc:Literal>
+                <ogc:Literal>14000000</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
@@ -142,11 +142,11 @@
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>    &gt; 1,900,000 tCO2</Title>
+          <Title>    &gt; 14,000,000 tCO2</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
              <ogc:PropertyName>tCO2</ogc:PropertyName>
-             <ogc:Literal>1900000</ogc:Literal>
+             <ogc:Literal>14000000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
