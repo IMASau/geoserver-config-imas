@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-113599b8:18c66091da3:-453b</id>
   </namespace>
-  <title>Maximum 25y annual average C abatement by STATE (CSIRO/BHP)</title>
+  <title>Maximum potential 25y annual average C abatement by STATE (CSIRO/BHP)</title>
   <abstract>Modelled economically feasible 25-year annual average carbon abatement (tCO2) and areas of carbon abatement (ha) for four carbon prices ($). Reporting is by state, with the Statistical Area 2 (2011) boundaries clipped to 100km inland from coastline and then dissolved by state. Includes modelled maximum potential abatement and area.&#xd;
 &#xd;
 Data is reported for three different scenario variables, each with 2-5 settings:&#xd;
@@ -19,6 +19,7 @@ This layer shows the maximum potential area of carbon abatement.</abstract>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_CSIRO_BlueCarbonAbatement_byState</string>
+    <string>CQL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA94&quot;, 

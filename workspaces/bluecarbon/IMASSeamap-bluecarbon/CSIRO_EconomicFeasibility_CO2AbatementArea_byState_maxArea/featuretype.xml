@@ -19,6 +19,7 @@ This layer shows the maximum potential area of carbon abatement.</abstract>
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_CSIRO_BlueCarbonAbatement_byState</string>
+    <string>CQL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA94&quot;, 

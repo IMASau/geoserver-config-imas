@@ -19,6 +19,7 @@ This layer shows the potential area of carbon abatement under a $50 per tonne CO
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_CSIRO_BlueCarbonAbatement_byState</string>
+    <string>CQL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA94&quot;, 

@@ -1,0 +1,17 @@
+<layer>
+  <name>CSIRO_EconomicFeasibility_CO2AbatementArea_bySA2_cp65</name>
+  <id>LayerInfoImpl-42255a2a:1912602e621:-753c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-42255a2a:1912060c2c4:612</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-42255a2a:1912602e621:-753d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-06 04:49:09.729 UTC</dateCreated>
+  <dateModified>2024-08-06 04:56:16.942 UTC</dateModified>
+</layer>
