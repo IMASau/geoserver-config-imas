@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-113599b8:18c66091da3:-453b</id>
   </namespace>
-  <title>Economically feasible area of carbon abatement by Primary Coastal Sediment Compartment: carbon price $65/tCO2 (CSIRO/BHP)</title>
+  <title>Economically feasible area of C abatement by PRIMARY SEDIMENT COMPARTMENT: carbon price $80/tCO2 (CSIRO/BHP)</title>
   <abstract>Modelled economically feasible 25-year annual average carbon abatement (tCO2) and areas of carbon abatement (ha) for four carbon prices ($), aggregated by Primary Coastal Sediment Compartment. Includes modelled maximum potential abatement and area.&#xd;
 &#xd;
 Data is reported for three different scenario variables, each with 2-5 settings:&#xd;
@@ -19,7 +19,7 @@ This layer shows the potential area of carbon abatement under a $80 per tonne CO
   <keywords>
     <string>features</string>
     <string>VW_HOSTED_CSIRO_BlueCarbonAbatement_byPrimaryCompartment</string>
-    <string>CPUE</string>
+    <string>CQL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
