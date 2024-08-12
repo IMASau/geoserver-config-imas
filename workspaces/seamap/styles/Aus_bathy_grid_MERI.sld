@@ -9,6 +9,7 @@
        <Rule>
          <RasterSymbolizer>  
            <ColorMap type="intervals">
+             <ColorMapEntry color="#ffffff" quantity="-100000" opacity="0" label=" NODATA"/>               
              <ColorMapEntry color="#000000" quantity="-6000" opacity="1" label=" hadal (&gt;6,000 m)"/>             
              <ColorMapEntry color="#1418ff" quantity="-4000" opacity="1" label=" abyss (4,000-6,000m)"/>             
              <ColorMapEntry color="#3b8cff" quantity="-2000" opacity="1" label=" lower-slope (2,000-4,000 m)"/>
@@ -16,7 +17,7 @@
              <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="1" label=" upper-slope (200-700 m)"/>             
              <ColorMapEntry color="#ffff0d" quantity="-70" opacity="1" label=" rariphotic (70-200 m)"/>                       
              <ColorMapEntry color="#ffcc00" quantity="-30" opacity="1" label=" mesophotic (30-70 m)" />
-             <ColorMapEntry color="#ff2600" quantity="-0" opacity="1" label=" shallow (&lt;30 m)"/>             
+             <ColorMapEntry color="#ff2600" quantity="-0" opacity="1" label=" shallow (&lt;30 m)"/>
            </ColorMap>
          </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
