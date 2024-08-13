@@ -151,7 +151,7 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Toothed whale/dolphin species likely</Title>
+          <Title>Toothed whale species likely</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
@@ -191,7 +191,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Toothed whale/dolphin species may occur</Title>
+          <Title>Toothed whale species may occur</Title>
           <ogc:Filter>
             <ogc:And>            
             <ogc:PropertyIsEqualTo>
