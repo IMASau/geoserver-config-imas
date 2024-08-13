@@ -1,0 +1,16 @@
+<layer>
+  <name>SPRAT_extract_fishes_sharkray_manta</name>
+  <id>LayerInfoImpl-42255a2a:1914a0b7bf2:365f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-42255a2a:1914a0b7bf2:365e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-13 05:25:55.923 UTC</dateCreated>
+</layer>
