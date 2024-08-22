@@ -35,7 +35,7 @@
                 <div style="padding-top: 10px; padding-bottom: 8px; font-size: 12px;">
                     ${feature.Location.value!"Unknown"} <span style="font-size: 0.95em;"><i>(${feature.Source.value!"Unknown"})</i></span>
                 </div>
-                <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; padding-bottom:15px">
+                <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; padding-bottom:18px">
                     <#if feature.description.value?has_content>
                         <i style="white-space: normal; font-size: 0.95em;">${feature.description.value}</i>
                     </#if>
