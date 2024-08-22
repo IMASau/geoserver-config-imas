@@ -67,13 +67,19 @@
  
  
  
-         <Rule>
+        <Rule>
           <ogc:Filter>
+			<ogc:Or>					  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		  			
-          </ogc:Filter>		
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_highlight</ogc:Literal>		
+            </ogc:PropertyIsEqualTo> 
+			</ogc:Or>			
+          </ogc:Filter>	
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
           <PointSymbolizer>
   			 <Graphic>
@@ -119,7 +125,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_comp</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>   			
 			</ogc:Or>            
           </ogc:Filter>		
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
@@ -155,13 +165,19 @@
         </Rule>	
  
  
-       <Rule>
+        <Rule>
           <ogc:Filter>
+			<ogc:Or>					  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		  			
-          </ogc:Filter>		
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_highlight</ogc:Literal>		
+            </ogc:PropertyIsEqualTo> 
+			</ogc:Or>			
+          </ogc:Filter>	
           <MinScaleDenominator>150000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
@@ -209,7 +225,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>              
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_comp</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>   			
 			</ogc:Or>			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 
@@ -249,10 +269,16 @@
 		
         <Rule>
           <ogc:Filter>
+			<ogc:Or>					  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		  			
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_highlight</ogc:Literal>		
+            </ogc:PropertyIsEqualTo> 
+			</ogc:Or>			
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>           
@@ -301,7 +327,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>              
+            </ogc:PropertyIsEqualTo>  
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_comp</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>             
 			</ogc:Or>			
           </ogc:Filter>	
           <MinScaleDenominator>10000</MinScaleDenominator>                              
@@ -341,10 +371,16 @@
         <Rule>
           <Title> highlight</Title>
           <ogc:Filter>
+			<ogc:Or>		  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>	  			
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_highlight</ogc:Literal>		
+            </ogc:PropertyIsEqualTo> 
+			</ogc:Or>						
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
           <PointSymbolizer>
@@ -393,7 +429,11 @@
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>              
+            </ogc:PropertyIsEqualTo> 
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>dtype</ogc:PropertyName>		
+              <ogc:Literal>A_BC_comp</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>   			
 			</ogc:Or>			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  

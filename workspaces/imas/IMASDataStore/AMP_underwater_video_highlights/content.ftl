@@ -13,9 +13,9 @@
 </#list>
 
 <#if !found3DModel>
-    <!-- Check for YouTube or Vimeo video -->
+    <!-- Check for YouTube, Vimeo, or BathurstChannel video -->
     <#list features as feature>
-        <#if (feature.dtype.value == "A_youtube" || feature.dtype.value == "A_vimeo") && foundMedia < 2>
+        <#if (feature.dtype.value == "A_youtube" || feature.dtype.value == "A_vimeo" || feature.dtype.value == "A_BC_comp" || feature.dtype.value == "A_BC_highlight") && foundMedia < 2>
             <#assign foundMedia=foundMedia+1>
             <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
                 <#if feature.dtype.value == "A_youtube">
@@ -23,14 +23,19 @@
                 </#if>
                 <#if feature.dtype.value == "A_vimeo">
                     <iframe width="100%" height="315" src="https://player.vimeo.com/video/${feature.media_name.value}?autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-                </#if>  
+                </#if>
+                <#if feature.dtype.value == "A_BC_comp" || feature.dtype.value == "A_BC_highlight">
+                    <video width="560" controls autoplay muted loop>
+                        <source src="${feature.media_URL.value!}" type="video/mp4">
+                    </video>
+                </#if>
                 <div style="font-size:11px; position: absolute; top: 3px; right: 3px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
                     Video location is approximate
-                </div> 
-                <div style="padding-top: 10px; padding-bottom: 10px; font-size: 12px;">
-                    ${feature.Location.value!"Unknown"} <span style="font-size: 0.95em;"><i>(${feature.Source.value!"Unknown"})</i></span><br>
                 </div>
-                <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word;">
+                <div style="padding-top: 10px; padding-bottom: 8px; font-size: 12px;">
+                    ${feature.Location.value!"Unknown"} <span style="font-size: 0.95em;"><i>(${feature.Source.value!"Unknown"})</i></span>
+                </div>
+                <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; padding-bottom:15px">
                     <#if feature.description.value?has_content>
                         <i style="white-space: normal; font-size: 0.95em;">${feature.description.value}</i>
                     </#if>
@@ -38,12 +43,11 @@
                         <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>
                     </#if>
                 </div>
-                <br>
             </div>
         </#if>
     </#list>
 
-    <!-- Fallback for other media if no YouTube or Vimeo found -->
+    <!-- Fallback for other media if no YouTube, Vimeo, or Bathurst Channel found -->
     <#if foundMedia == 0>
         <div style="display: flex; justify-content: center;">
             <div style="width: 400px;">
@@ -62,9 +66,6 @@
                             <#if !feature.Date.value?has_content>
                                 <div style="font-size:12px; padding-bottom: 6px;">
                                     ${feature.Location.value!"Unknown"}
-                                    <#if feature.media_URL.value?contains("BathurstChannel")>
-                                        <br> <!-- Add a line break if 'BathurstChannel' is in the media_url -->
-                                    </#if>
                                     <#if feature.Status.value?has_content>
                                         <i>(status: <b>${feature.Status.value}</b>)</i>
                                     </#if>
@@ -90,7 +91,7 @@
                                         Credit: ${feature.Source.value!"Unknown"}
                                     </div>
                                 </#if>
-                                <div style="font-size:11px; position: absolute; top: -20px; right: 0px;">
+                                <div style="font-size:11px; position: absolute; top: -22px; right: 0px;">
                                     <a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
                                 </div>
                             </div>
