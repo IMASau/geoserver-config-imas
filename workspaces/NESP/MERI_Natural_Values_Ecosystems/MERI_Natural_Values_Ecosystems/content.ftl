@@ -24,17 +24,17 @@
                             </div>
                             <!-- Second video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
@@ -151,25 +151,25 @@
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Second video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
@@ -321,25 +321,25 @@
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Second video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
@@ -355,25 +355,25 @@
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Second video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
@@ -389,25 +389,25 @@
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Second video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/BRUV_highlights/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
