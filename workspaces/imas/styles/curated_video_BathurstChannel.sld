@@ -44,7 +44,7 @@
           <ogc:Filter>			  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>highlight</ogc:Literal>		
+              <ogc:Literal>virtual tour</ogc:Literal>		
             </ogc:PropertyIsEqualTo>				
           </ogc:Filter>	
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
@@ -54,7 +54,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/tourbus1.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>9</Size>
+    			 	<Size>10</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -63,7 +63,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>representative</ogc:Literal>		
+              <ogc:Literal>overview</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
@@ -73,7 +73,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/allseeingeye.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>9</Size>
+    			 	<Size>22</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -83,7 +83,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>highlight</ogc:Literal>		
+              <ogc:Literal>virtual tour</ogc:Literal>		
             </ogc:PropertyIsEqualTo>	
           </ogc:Filter>	
           <MinScaleDenominator>150000</MinScaleDenominator> 
@@ -94,7 +94,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/tourbus1.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>11</Size>
+    			 	<Size>19</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -103,7 +103,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>representative</ogc:Literal>		
+              <ogc:Literal>overview</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 
@@ -114,7 +114,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/allseeingeye.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>11</Size>
+    			 	<Size>34</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
@@ -124,7 +124,7 @@
           <ogc:Filter>				  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>highlight</ogc:Literal>		
+              <ogc:Literal>virtual tour</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
@@ -135,7 +135,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/tourbus1.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>16</Size>
+    			 	<Size>27</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
@@ -144,7 +144,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>representative</ogc:Literal>		
+              <ogc:Literal>overview</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
@@ -155,7 +155,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/allseeingeye.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>16</Size>
+    			 	<Size>46</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          
@@ -165,7 +165,7 @@
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>highlight</ogc:Literal>		
+              <ogc:Literal>virtual tour</ogc:Literal>		
             </ogc:PropertyIsEqualTo>						
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
@@ -175,7 +175,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/tourbus1.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>20</Size>
+    			 	<Size>28</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
@@ -184,7 +184,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>representative</ogc:Literal>		
+              <ogc:Literal>overview</ogc:Literal>		
             </ogc:PropertyIsEqualTo>	  			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
@@ -194,7 +194,7 @@
       				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/allseeingeye.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>20</Size>
+    			 	<Size>55</Size>
   			 </Graphic>
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
