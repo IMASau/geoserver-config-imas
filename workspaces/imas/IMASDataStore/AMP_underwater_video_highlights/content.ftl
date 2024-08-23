@@ -54,19 +54,19 @@
                 <#list features?sort_by(["dtype", "rawValue"]) as feature>
                     <#if feature_index < 3>
                         <div style="position: relative; display: block; padding-bottom: 15px;">
-                            <#if feature.Date.value?has_content>
+                            <#if feature.Date?? && feature.Date.value?has_content>
                                 <div style="font-size:12px; padding-bottom: 2px;">
                                     ${feature.Location.value!"Unknown"}
-                                    <#if feature.Status.value?has_content>
+                                    <#if feature.Status?? && feature.Status.value?has_content>
                                         <i>(status: <b>${feature.Status.value}</b>)</i>
                                     </#if>
-                                    <br>${feature.Date.value?date("MM/dd/yy")?date} (${feature.Time.value?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
+                                    <br>${feature.Date.value?date("MM/dd/yy")?date} (${feature.Time?? && feature.Time.value?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
                                 </div>
                             </#if>
-                            <#if !feature.Date.value?has_content>
+                            <#if !feature.Date?? || !feature.Date.value?has_content>
                                 <div style="font-size:12px; padding-bottom: 6px;">
                                     ${feature.Location.value!"Unknown"}
-                                    <#if feature.Status.value?has_content>
+                                    <#if feature.Status?? && feature.Status.value?has_content>
                                         <i>(status: <b>${feature.Status.value}</b>)</i>
                                     </#if>
                                 </div>
