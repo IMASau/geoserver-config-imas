@@ -33,7 +33,7 @@
                     Video location is approximate
                 </div>
                 <div style="padding-top: 10px; padding-bottom: 8px; font-size: 12px;">
-                    ${feature.Location.value!"Unknown"} <span style="font-size: 0.95em;"><i>(${feature.Source.value!"Unknown"})</i></span>
+                    ${feature.location.value!"Unknown"} <span style="font-size: 0.95em;"><i>(${feature.source.value!"Unknown"})</i></span>
                 </div>
                 <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; padding-bottom:18px">
                     <#if feature.description.value?has_content>
@@ -56,18 +56,18 @@
                         <div style="position: relative; display: block; padding-bottom: 15px;">
                             <#if feature.Date?? && feature.Date.value?has_content>
                                 <div style="font-size:12px; padding-bottom: 2px;">
-                                    ${feature.Location.value!"Unknown"}
-                                    <#if feature.Status?? && feature.Status.value?has_content>
-                                        <i>(status: <b>${feature.Status.value}</b>)</i>
+                                    ${feature.location.value!"Unknown"}
+                                    <#if feature.Status?? && feature.status.value?has_content>
+                                        <i>(status: <b>${feature.status.value}</b>)</i>
                                     </#if>
                                     <br>${feature.Date.value?date("MM/dd/yy")?date} (${feature.Time?? && feature.Time.value?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
                                 </div>
                             </#if>
                             <#if !feature.Date?? || !feature.Date.value?has_content>
                                 <div style="font-size:12px; padding-bottom: 6px;">
-                                    ${feature.Location.value!"Unknown"}
-                                    <#if feature.Status?? && feature.Status.value?has_content>
-                                        <i>(status: <b>${feature.Status.value}</b>)</i>
+                                    ${feature.location.value!"Unknown"}
+                                    <#if feature.Status?? && feature.status.value?has_content>
+                                        <i>(status: <b>${feature.status.value}</b>)</i>
                                     </#if>
                                 </div>
                             </#if>
@@ -88,7 +88,7 @@
                                 </#if>
                                 <#if feature.dtype.value != "compilation">
                                     <div style="font-size:10px; position: absolute; top: 3px; right: 3px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
-                                        Credit: ${feature.Source.value!"Unknown"}
+                                        Credit: ${feature.source.value!"Unknown"}
                                     </div>
                                 </#if>
                                 <div style="font-size:11px; position: absolute; top: -22px; right: 0px;">
