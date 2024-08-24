@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--41762a34:19181b5b84e:-61ea</id>
-  <name>SeamapAus_PortDavey</name>
+  <name>SeamapAus_IMCRA_Davey_bioregion</name>
   <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -50,7 +50,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -61,7 +61,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BS_IMCRA_B LIKE &apos;%Davey%&apos;</cqlFilter>
+  <cqlFilter>BS_IMCRA_B LIKE &apos;%Davey%&apos; AND Source_SC NOT LIKE &apos;%NESP%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
