@@ -3,7 +3,7 @@
 
 <#list features as feature>
     <div style="width: 650px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
-        <video width="650" controls autoplay muted loop>
+        <video width="650" controls autoplay loop>
             <source src="${feature.media_URL.value!}" type="video/mp4">
         </video>
 
