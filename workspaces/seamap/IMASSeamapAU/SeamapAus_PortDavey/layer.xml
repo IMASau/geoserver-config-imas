@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_PortDavey</name>
+  <id>LayerInfoImpl--41762a34:19181b5b84e:-61e9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--694527c:1909113da2a:-3750</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--41762a34:19181b5b84e:-61ea</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-24 02:13:15.816 UTC</dateCreated>
+  <dateModified>2024-08-24 02:28:29.421 UTC</dateModified>
+</layer>
