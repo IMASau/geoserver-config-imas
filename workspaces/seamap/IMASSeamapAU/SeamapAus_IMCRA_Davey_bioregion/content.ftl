@@ -4,7 +4,7 @@
 	<h5 style="padding-top:5px">Seamap Australia benthic habitat</h5>
 	<BR>
 	<div class="feature" style="padding-bottom:5px"> 
-		<b>Benthic habitat:</b> ${feature.NAT_HAB_CL.value} <i>(${feature.Hab_ORIG.value})</i>
+		<b>${feature.NAT_HAB_CL.value}</b> <i>(${feature.Hab_ORIG.value})</i>
 	</div>
 		<#break>
 		
