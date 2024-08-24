@@ -1,0 +1,17 @@
+<layer>
+  <name>contours_PortDavey_TAS_5m</name>
+  <id>LayerInfoImpl--41762a34:19181b5b84e:-503b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2cde9246:132a9900d8b:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--41762a34:19181b5b84e:-503c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-24 04:44:08.913 UTC</dateCreated>
+  <dateModified>2024-08-24 04:56:03.709 UTC</dateModified>
+</layer>

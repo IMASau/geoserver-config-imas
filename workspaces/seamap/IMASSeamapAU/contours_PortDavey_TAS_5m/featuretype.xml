@@ -1,0 +1,70 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--41762a34:19181b5b84e:-503c</id>
+  <name>contours_PortDavey_TAS_5m</name>
+  <nativeName>SeamapTAS_contours_5m_PortDavey_subset</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>5m depth contours clipped to Bathurst Channel (Port Davey) region</title>
+  <abstract>Depth contours derived from the Seamap Tasmania project (2006) clipped to the Port Davey Marine Reserve region.</abstract>
+  <keywords>
+    <string>features</string>
+    <string>SeamapTAS_contours_5m_PortDavey_subset</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 72 / UTM zone 55N&quot;, 
+  GEOGCS[&quot;WGS 72&quot;, 
+    DATUM[&quot;World Geodetic System 1972&quot;, 
+      SPHEROID[&quot;WGS 72&quot;, 6378135.0, 298.26, AUTHORITY[&quot;EPSG&quot;,&quot;7043&quot;]], 
+      TOWGS84[0.0, 0.0, 4.5, 0.0, 0.0, 0.554, 0.219], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6322&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32255&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>145.98385583292608</minx>
+    <maxx>146.13593325825167</maxx>
+    <miny>-43.356231707087645</miny>
+    <maxy>-43.31105765621313</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>145.98385583292608</minx>
+    <maxx>146.13593325825167</maxx>
+    <miny>-43.356231707087645</miny>
+    <maxy>-43.31105765621313</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
