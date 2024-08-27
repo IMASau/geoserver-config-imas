@@ -26,10 +26,10 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#006699</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke">#a31aff</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
-          </LineSymbolizer>
+          </LineSymbolizer>        
         </Rule>
 
         <!-- Rule for drawing 80m contour -->
@@ -43,8 +43,8 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#990000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke">#009900</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -60,28 +60,113 @@
           </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke">#003cb3</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
+		
+        <!-- Rule for text labelling contours when zoomed out -->
+<Rule> 
+  <MinScaleDenominator>1000000</MinScaleDenominator>     
+  <MaxScaleDenominator>8000000</MaxScaleDenominator>                    
+  <TextSymbolizer>
+    <Label>
+      <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+    </Label>
+    <Font>
+      <CssParameter name="font-family">SansSerif</CssParameter>
+      <CssParameter name="font-size">12</CssParameter>
+    </Font>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+    <VendorOption name="followLine">true</VendorOption>
+    <VendorOption name="maxAngleDelta">90</VendorOption>
+    <VendorOption name="maxDisplacement">300</VendorOption> <!-- Maximum displacement of labels from the line -->
+  </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+</Rule>
 
-        <!-- Rule for labeling contours only when zoomed out -->
+        <!-- Rule for zoom-based labeling 40m contour -->
         <Rule>
-          <MinScaleDenominator>1000000</MinScaleDenominator>
+          <Title>Mid-deglaciation (-40m)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+              <ogc:Literal>40</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>          
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+              <ogc:Literal>Mid-deglaciation (-40m)</ogc:Literal>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">12</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
             </Font>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
             </Fill>
             <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="maxAngleDelta">90</VendorOption>
           </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+        </Rule>
+
+        <!-- Rule for zoom-based labeling 80m contour -->
+        <Rule>
+          <Title>First peopling (-80m)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+              <ogc:Literal>80</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>          
+          <TextSymbolizer>
+            <Label>
+              <ogc:Literal>First peopling (-80m)</ogc:Literal>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">SansSerif</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
+            </Font>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>
+            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="maxAngleDelta">90</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+        </Rule>
+
+        <!-- Rule for zoom-based labeling 120m contour -->
+        <Rule>          
+          <Title>Last Glacial Maximum (-120m)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+              <ogc:Literal>120</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>          
+          <TextSymbolizer>
+            <Label>
+              <ogc:Literal>Last Glacial Maximum (-120m)</ogc:Literal>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">SansSerif</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
+            </Font>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>
+            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="maxAngleDelta">90</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
 
       </FeatureTypeStyle>

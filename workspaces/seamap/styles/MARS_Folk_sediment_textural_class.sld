@@ -397,7 +397,8 @@
 					<ogc:Literal>(g)M</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -421,7 +422,8 @@
 					<ogc:Literal>(g)sM</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -445,7 +447,8 @@
 					<ogc:Literal>sM</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -469,7 +472,8 @@
 					<ogc:Literal>M</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -493,7 +497,8 @@
 					<ogc:Literal>gM</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -517,7 +522,8 @@
 					<ogc:Literal>(g)S</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -541,7 +547,8 @@
 					<ogc:Literal>mS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -565,7 +572,8 @@
 					<ogc:Literal>(g)mS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -589,7 +597,8 @@
 					<ogc:Literal>S</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -613,7 +622,8 @@
 					<ogc:Literal>gS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -637,7 +647,8 @@
 					<ogc:Literal>gmS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -661,7 +672,8 @@
 					<ogc:Literal>G</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -685,7 +697,8 @@
 					<ogc:Literal>mG</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -709,7 +722,8 @@
 					<ogc:Literal>msG</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -733,7 +747,8 @@
 					<ogc:Literal>sG</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -757,7 +772,8 @@
 					<ogc:Literal>unknown</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>unknown<MaxScaleDenominator>6000000</MaxScaleDenominator>			
+          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>			
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -781,7 +797,8 @@
 					<ogc:Literal>(g)M</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+           <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -805,7 +822,8 @@
 					<ogc:Literal>(g)sM</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -829,7 +847,8 @@
 					<ogc:Literal>sM</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -853,7 +872,8 @@
 					<ogc:Literal>M</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -877,7 +897,8 @@
 					<ogc:Literal>gM</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -901,7 +922,8 @@
 					<ogc:Literal>(g)S</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -925,7 +947,8 @@
 					<ogc:Literal>mS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -949,7 +972,8 @@
 					<ogc:Literal>(g)mS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -973,7 +997,8 @@
 					<ogc:Literal>S</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -997,7 +1022,8 @@
 					<ogc:Literal>gS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1021,7 +1047,8 @@
 					<ogc:Literal>gmS</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1045,7 +1072,8 @@
 					<ogc:Literal>G</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1069,7 +1097,8 @@
 					<ogc:Literal>mG</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1093,7 +1122,8 @@
 					<ogc:Literal>msG</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1117,7 +1147,8 @@
 					<ogc:Literal>sG</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1141,7 +1172,8 @@
 					<ogc:Literal>unknown</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>400000</MinScaleDenominator>unknown<MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
