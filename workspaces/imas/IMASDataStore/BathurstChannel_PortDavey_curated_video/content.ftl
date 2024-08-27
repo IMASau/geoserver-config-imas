@@ -25,10 +25,12 @@
         <div style="padding-bottom: 2px; font-size: 12px;">
             <#if feature.description.value?has_content>
                 <p style="white-space: normal; color: #9a9a9a; font-size: 0.96em;"><i>${feature.context.value}</i></p>
-                <p style="white-space: normal; font-size: 1em;">${feature.description.value?no_esc}</p>
-            </#if>
+                <p style="white-space: normal; font-size: 1em;">
+			${feature.description.value?no_esc}
             <#if feature.metadata.value?has_content>
-                <a href="${feature.info.value}" target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>
+                <b>&#x1F6C8;&nbsp;</b><a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline;">More Info</a>
+            </#if>
+		</p>
             </#if>
         </div>
     </div>
