@@ -60,7 +60,14 @@
                                     <#if feature.Status?? && feature.status.value?has_content>
                                         <i>(status: <b>${feature.status.value}</b>)</i>
                                     </#if>
-                                    <br>${feature.Date.value?date("MM/dd/yy")?date} (${feature.Time?? && feature.Time.value?time("hh:mm:ss a")?time}) @ ${feature.Depth.rawValue!"Unknown"} metres
+                                    <br>
+				${feature.Date.value?date("MM/dd/yy")?date}
+					<#if feature.Time?? && feature.Time.value?has_content>
+   						(${feature.Time.value?time("hh:mm:ss a")})
+					</#if>
+    					<#if feature.Depth??>
+    					    @ ${feature.Depth.rawValue!"Unknown"} metres
+    					</#if>
                                 </div>
                             </#if>
                             <#if !feature.Date?? || !feature.Date.value?has_content>

@@ -28,7 +28,7 @@
                 <p style="white-space: normal; font-size: 1em;">${feature.description.value?no_esc}</p>
             </#if>
             <#if feature.metadata.value?has_content>
-                <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>
+                <a href="${feature.info.value}" target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>
             </#if>
         </div>
     </div>
