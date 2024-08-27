@@ -1,55 +1,57 @@
-<sld:StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
-xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>contour_line</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Contour Line</sld:Title>
-      <sld:Abstract>A style that renders contours</sld:Abstract>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>
-          <sld:Title>5m depth contours</sld:Title>
-          <sld:MaxScaleDenominator>500000</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#006699</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>                 
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:TextSymbolizer>
-            <sld:Label>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor
+  version="1.0.0"
+  xmlns="http://www.opengis.net/sld"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gml="http://www.opengis.net/gml"
+  xsi:schemaLocation="http://www.opengis.net/sld
+    http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <Name>contour_line</Name>
+    <UserStyle>
+      <Name>Contour Line</Name>
+      <Abstract>A style that renders contours</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>5m depth contours</Title>
+          <MaxScaleDenominator>500000</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#006699</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>                 
+            </Stroke>
+          </LineSymbolizer>
+          <TextSymbolizer>
+            <Label>
               <ogc:PropertyName>CONTOUR</ogc:PropertyName>
-            </sld:Label>
-                  <sld:Font>
-           			<sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-           			<sld:CssParameter name="font-size">12</sld:CssParameter>								
-          		  </sld:Font>             
-            <sld:Fill>
-              <sld:CssParameter name="fill">#000000</sld:CssParameter>
-            </sld:Fill>
-            <sld:VendorOption name="followLine">true</sld:VendorOption>
-            <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
-            <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
-            <sld:VendorOption name="repeat">150</sld:VendorOption>
-          </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>(zoom in for depth labels)</sld:Title>
-          <sld:MinScaleDenominator>500000</sld:MinScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#006699</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.05</sld:CssParameter>   
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-         <sld:VendorOption name="inclusion">mapOnly</sld:VendorOption>                                
-        </sld:Rule>
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+            </Label>
+                  <Font>
+           			<CssParameter name="font-family">SansSerif</CssParameter>
+           			<CssParameter name="font-size">12</CssParameter>								
+          		  </Font>             
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>
+            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="maxAngleDelta">90</VendorOption>
+            <VendorOption name="maxDisplacement">400</VendorOption>
+            <VendorOption name="repeat">150</VendorOption>
+          </TextSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>(zoom in for depth labels)</Title>
+          <MinScaleDenominator>500000</MinScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#006699</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>   
+            </Stroke>
+          </LineSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
