@@ -24,12 +24,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Fill>		
               <CssParameter name="fill">#006600</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-opacity">1</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
-            </Stroke>				
+            </Fill>			
           </PolygonSymbolizer>		
         </Rule>	       	  				
         <Rule>		
@@ -46,7 +41,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>	
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke">#4d4d4d</CssParameter>
               <CssParameter name="stroke-opacity">1</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>				
