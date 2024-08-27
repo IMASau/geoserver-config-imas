@@ -14,7 +14,6 @@ xmlns:gml="http://www.opengis.net/gml">
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:Title>5m depth contours</sld:Title>
-          <sld:Abstract>A coloured line for a contour</sld:Abstract>
           <sld:MaxScaleDenominator>500000</sld:MaxScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
