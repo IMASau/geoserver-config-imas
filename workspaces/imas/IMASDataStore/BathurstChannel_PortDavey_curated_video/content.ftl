@@ -3,14 +3,14 @@
 
 <#list features as feature>
 <#if feature_index < 1>
-    <div style="width: 650px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
-        <video width="650" controls autoplay loop>
+    <div style="width: 680px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
+        <video width="680" controls autoplay loop>
             <source src="${feature.media_URL.value!}" type="video/mp4">
         </video>
 
         <!-- Container for left-hand text and "View in new window" link -->
-        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 10px;">
-            <div style="font-size: 13px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 10px; margin-bottom: 2px;">
+            <div style="font-size: 14px;">
                 <b>${feature.location.value!"Unknown"}</b> <span style="color: #9a9a9a; font-size: 0.85em;"><i>(${feature.source.value!"Unknown"})</i></span>
             </div>
             <div style="font-size:11px;">
@@ -22,10 +22,10 @@
             Video location is approximate
         </div>
 
-        <div style="padding-bottom: 5px; font-size: 12px;">
+        <div style="padding-bottom: 2px; font-size: 12px;">
             <#if feature.description.value?has_content>
-                <p style="white-space: normal; color: #9a9a9a; font-size: 0.95em;"><i>${feature.context.value}</i></p>
-                <p style="white-space: normal; font-size: 0.99em;">${feature.description.value?no_esc}</p>
+                <p style="white-space: normal; color: #9a9a9a; font-size: 0.96em;"><i>${feature.context.value}</i></p>
+                <p style="white-space: normal; font-size: 1em;">${feature.description.value?no_esc}</p>
             </#if>
             <#if feature.metadata.value?has_content>
                 <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>

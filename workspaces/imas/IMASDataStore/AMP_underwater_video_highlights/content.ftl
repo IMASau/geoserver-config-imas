@@ -37,7 +37,7 @@
                 </div>
                 <div style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word; padding-bottom:18px">
                     <#if feature.description.value?has_content>
-                        <i style="white-space: normal; font-size: 0.95em;">${feature.description.value}</i>
+                        <i style="white-space: normal; font-size: 0.95em;">${feature.description.value?no_esc}</i>
                     </#if>
                     <#if feature.metadata.value?has_content>
                         <a href="${feature.metadata.value}" target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>
