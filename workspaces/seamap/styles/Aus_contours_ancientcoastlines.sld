@@ -71,16 +71,27 @@
   <MinScaleDenominator>1000000</MinScaleDenominator>     
   <MaxScaleDenominator>8000000</MaxScaleDenominator>                    
   <TextSymbolizer>
-    <Label>
-      <ogc:PropertyName>CONTOUR</ogc:PropertyName>
-    </Label>
+<Label>
+  <ogc:Function name="Concatenate">
+    <ogc:Literal>&#160;&#160;&#160;&#160;&#160;&#160;</ogc:Literal>
+    <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+  </ogc:Function>
+</Label>
+
     <Font>
       <CssParameter name="font-family">SansSerif</CssParameter>
       <CssParameter name="font-size">12</CssParameter>
-    </Font>
+    </Font> 
+      <Halo>
+    <Radius>4</Radius> <!-- Increase this value to create more space -->
+    <Fill>
+      <CssParameter name="fill">#FFFFFF</CssParameter>
+              <CssParameter name="fill-opacity">0.2</CssParameter>				        
+    </Fill>
+  </Halo>
     <Fill>
       <CssParameter name="fill">#000000</CssParameter>
-    </Fill>   
+    </Fill>    
     <VendorOption name="followLine">true</VendorOption>
   </TextSymbolizer>
   <VendorOption name="inclusion">mapOnly</VendorOption>                             
@@ -101,16 +112,25 @@
             <Label>
               <ogc:Literal>Mid-deglaciation (-40m)</ogc:Literal>
             </Label>
+            
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
               <CssParameter name="font-size">13</CssParameter>
             </Font>
+              <Halo>
+    <Radius>4</Radius> <!-- Increase this value to create more space -->
+    <Fill>
+      <CssParameter name="fill">#FFFFFF</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				              
+      
+    </Fill>
+  </Halo>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
             </Fill>
+            
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
-    <VendorOption name="maxDisplacement">50</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
@@ -133,12 +153,19 @@
               <CssParameter name="font-family">SansSerif</CssParameter>
               <CssParameter name="font-size">13</CssParameter>
             </Font>
+              <Halo>
+    <Radius>4</Radius> <!-- Increase this value to create more space -->
+    <Fill>
+      <CssParameter name="fill">#FFFFFF</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				              
+      
+    </Fill>
+  </Halo>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
+            </Fill>         
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
-    <VendorOption name="maxDisplacement">50</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
@@ -161,12 +188,18 @@
               <CssParameter name="font-family">SansSerif</CssParameter>
               <CssParameter name="font-size">13</CssParameter>
             </Font>
+              <Halo>
+    <Radius>4</Radius> <!-- Increase this value to create more space -->
+    <Fill>
+      <CssParameter name="fill">#FFFFFF</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>				              
+    </Fill>
+  </Halo>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
+            </Fill>          
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
-    <VendorOption name="maxDisplacement">50</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
