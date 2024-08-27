@@ -1,0 +1,16 @@
+<layer>
+  <name>AncientCoastlines_LGM</name>
+  <id>LayerInfoImpl--41762a34:1919342a454:1505</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--41762a34:1919342a454:12d0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--41762a34:1919342a454:1504</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-27 11:54:16.956 UTC</dateCreated>
+</layer>
