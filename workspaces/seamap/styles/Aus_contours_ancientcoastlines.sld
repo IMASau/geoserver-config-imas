@@ -80,13 +80,12 @@
     </Font>
     <Fill>
       <CssParameter name="fill">#000000</CssParameter>
-    </Fill>
+    </Fill>   
     <VendorOption name="followLine">true</VendorOption>
-    <VendorOption name="maxAngleDelta">90</VendorOption>
-    <VendorOption name="maxDisplacement">300</VendorOption> <!-- Maximum displacement of labels from the line -->
   </TextSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+  <VendorOption name="inclusion">mapOnly</VendorOption>                             
 </Rule>
+
 
         <!-- Rule for zoom-based labeling 40m contour -->
         <Rule>
@@ -111,6 +110,7 @@
             </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
+    <VendorOption name="maxDisplacement">50</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
@@ -138,6 +138,7 @@
             </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
+    <VendorOption name="maxDisplacement">50</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
@@ -165,6 +166,7 @@
             </Fill>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">90</VendorOption>
+    <VendorOption name="maxDisplacement">50</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
