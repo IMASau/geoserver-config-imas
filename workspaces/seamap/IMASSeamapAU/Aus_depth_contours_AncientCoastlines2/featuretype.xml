@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--41762a34:1919475a614:7bcc</id>
-  <name>Aus_depth_contours_AncientCoastlines</name>
+  <name>Aus_depth_contours_AncientCoastlines2</name>
   <nativeName>SeamapAus_CONTOURS_5m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -60,7 +60,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>CONTOUR IN (40, 80, 120)</cqlFilter>
+  <cqlFilter>CONTOUR IN (40, 80, 100, 120)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
