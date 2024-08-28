@@ -1,0 +1,16 @@
+<layer>
+  <name>AncientCoastlines_timeline_10ka</name>
+  <id>LayerInfoImpl--41762a34:19196d05a18:-4252</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--41762a34:1919342a454:12d0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--41762a34:19196d05a18:-4253</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-28 03:33:03.954 UTC</dateCreated>
+</layer>
