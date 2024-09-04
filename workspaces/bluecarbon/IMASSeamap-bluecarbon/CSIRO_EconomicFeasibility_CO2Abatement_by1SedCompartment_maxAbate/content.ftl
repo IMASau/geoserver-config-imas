@@ -1,7 +1,7 @@
 <#setting number_format="#,###">
 
 <#list features as feature>
-    <#assign tonnes=feature.CO2area.value?number>
+    <#assign tonnes=feature.tCO2.value?number>
 	<#if (feature_index < 1) >
 
 	<h5><div style="padding-top: 8px; padding-bottom:8px">Blue carbon economic feasibility modelling</div></h5>
