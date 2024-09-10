@@ -1,0 +1,56 @@
+<settings>
+  <id>SettingsInfoImpl-659f94d4:191da8c3f93:-7cac</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-659f94d4:191da8c3f93:-7fab</id>
+    <name>fishing</name>
+    <isolated>true</isolated>
+    <dateCreated>2024-09-10 06:11:13.240 UTC</dateCreated>
+    <dateModified>2024-09-10 06:12:35.440 UTC</dateModified>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <addressCountry>Australia</addressCountry>
+    <addressState>Tasmania</addressState>
+    <contactEmail>IMAS.DataManager@utas.edu.au</contactEmail>
+    <contactOrganization>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</contactOrganization>
+    <contactPerson>Data Manager</contactPerson>
+    <internationalAddress class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressCity class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressCountry class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressDeliveryPoint class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressPostalCode class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressState class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressType class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactEmail class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactFacsimile class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactOrganization class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactPerson class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactPosition class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactVoice class="org.geotools.util.GrowableInternationalString"/>
+    <internationalOnlineResource class="org.geotools.util.GrowableInternationalString"/>
+    <internationalWelcome class="org.geotools.util.GrowableInternationalString"/>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>4</numDecimals>
+  <verbose>false</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>CogSettings.Key</string>
+        <cogSettings>
+          <useCachingStream>false</useCachingStream>
+          <rangeReaderSettings>HTTP</rangeReaderSettings>
+        </cogSettings>
+      </entry>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+  <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
+  <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+  <useHeadersProxyURL>true</useHeadersProxyURL>
+</settings>

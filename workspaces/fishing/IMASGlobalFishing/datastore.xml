@@ -5,22 +5,23 @@
   <type>Microsoft SQL Server (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+    <id>WorkspaceInfoImpl-659f94d4:191da8c3f93:-7fab</id>
   </workspace>
   <connectionParameters>
     <entry key="schema">dbo</entry>
     <entry key="Force spatial index usage via hints">false</entry>
-    <entry key="fetch size">1000</entry>
-    <entry key="Expose primary keys">true</entry>
-    <entry key="Use native geometry serialization">false</entry>
     <entry key="Batch insert size">1</entry>
     <entry key="Integrated Security">false</entry>
+    <entry key="fetch size">1000</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/datastore</entry>
+    <entry key="Expose primary keys">true</entry>
     <entry key="dbtype">sqlserver</entry>
-    <entry key="namespace">imas</entry>
+    <entry key="namespace">fishing</entry>
     <entry key="Use Native Paging">true</entry>
+    <entry key="Use native geometry serialization">false</entry>
   </connectionParameters>
   <__default>false</__default>
   <dateCreated>2024-09-10 05:51:16.106 UTC</dateCreated>
+  <dateModified>2024-09-10 06:13:04.711 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>

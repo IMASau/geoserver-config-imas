@@ -1,0 +1,17 @@
+<layer>
+  <name>Global_Fishing_Effort</name>
+  <id>LayerInfoImpl-659f94d4:191da8c3f93:-7ca7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-659f94d4:191da8c3f93:-7ca8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-10 06:14:23.736 UTC</dateCreated>
+  <dateModified>2024-09-10 06:15:39.827 UTC</dateModified>
+</layer>
