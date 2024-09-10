@@ -1,7 +1,7 @@
 <dataStore>
-  <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
-  <name>IMASDataStore</name>
-  <description>IMAS SQL Storage Databases</description>
+  <id>DataStoreInfoImpl--786f97fc:191da66795b:-48f3</id>
+  <name>IMASGlobalFishing</name>
+  <description>Global Fishing data SQL Server storage</description>
   <type>Microsoft SQL Server (JNDI)</type>
   <enabled>true</enabled>
   <workspace>
@@ -10,16 +10,17 @@
   <connectionParameters>
     <entry key="schema">dbo</entry>
     <entry key="Force spatial index usage via hints">false</entry>
-    <entry key="Integrated Security">false</entry>
     <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Use native geometry serialization">false</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="Integrated Security">false</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/datastore</entry>
-    <entry key="Expose primary keys">false</entry>
     <entry key="dbtype">sqlserver</entry>
     <entry key="namespace">imas</entry>
     <entry key="Use Native Paging">true</entry>
-    <entry key="Use native geometry serialization">false</entry>
   </connectionParameters>
   <__default>false</__default>
-  <dateModified>2024-09-10 05:51:12.652 UTC</dateModified>
+  <dateCreated>2024-09-10 05:51:16.106 UTC</dateCreated>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>
