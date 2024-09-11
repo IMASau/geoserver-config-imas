@@ -13,13 +13,13 @@
     <entry key="Integrated Security">false</entry>
     <entry key="fetch size">1000</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/datastore</entry>
-    <entry key="Expose primary keys">false</entry>
+    <entry key="Expose primary keys">true</entry>
     <entry key="dbtype">sqlserver</entry>
     <entry key="namespace">imas</entry>
     <entry key="Use Native Paging">true</entry>
     <entry key="Use native geometry serialization">false</entry>
   </connectionParameters>
   <__default>false</__default>
-  <dateModified>2024-09-10 05:51:12.652 UTC</dateModified>
+  <dateModified>2024-09-11 02:55:51.924 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>

@@ -12,7 +12,7 @@
     <entry key="Force spatial index usage via hints">true</entry>
     <entry key="Batch insert size">1</entry>
     <entry key="Integrated Security">false</entry>
-    <entry key="fetch size">100</entry>
+    <entry key="fetch size">500</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/datastore</entry>
     <entry key="Expose primary keys">true</entry>
     <entry key="dbtype">sqlserver</entry>
@@ -22,6 +22,6 @@
   </connectionParameters>
   <__default>false</__default>
   <dateCreated>2024-09-10 05:51:16.106 UTC</dateCreated>
-  <dateModified>2024-09-10 08:56:39.476 UTC</dateModified>
+  <dateModified>2024-09-11 02:57:03.762 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>
