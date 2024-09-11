@@ -60,10 +60,5 @@
   <includeWFSRequestDumpFile>false</includeWFSRequestDumpFile>
   <allowGlobalQueries>true</allowGlobalQueries>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <getFeatureOutputTypeCheckingEnabled>true</getFeatureOutputTypeCheckingEnabled>
-  <getFeatureOutputTypes>
-    <string>csv</string>
-    <string>json</string>
-    <string>gml32</string>
-  </getFeatureOutputTypes>
+  <getFeatureOutputTypeCheckingEnabled>false</getFeatureOutputTypeCheckingEnabled>
 </wfs>
