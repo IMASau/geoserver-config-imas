@@ -34,7 +34,7 @@
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
                                 <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" target="_blank">
                                     <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" type="video/mp4">
+                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4" type="video/mp4">
                                     </video>
                                 </a>
                             </div>
