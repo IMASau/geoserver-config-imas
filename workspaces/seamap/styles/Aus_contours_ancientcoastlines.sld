@@ -27,7 +27,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
  7           <CssParameter name="stroke-dasharray">5 3</CssParameter>              
               <CssParameter name="stroke-opacity">0.7</CssParameter>                            
             </Stroke>
