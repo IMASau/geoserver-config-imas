@@ -15,6 +15,25 @@
       <Abstract>A style that renders contours</Abstract>
       <FeatureTypeStyle>
 
+        <!-- Rule for drawing 0m contour -->
+        <Rule>
+          <Title>Present day coastline (0m)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>CONTOUR</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>          
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+ 7           <CssParameter name="stroke-dasharray">5 3</CssParameter>              
+              <CssParameter name="stroke-opacity">0.7</CssParameter>                            
+            </Stroke>
+          </LineSymbolizer>        
+        </Rule>        
+
         <!-- Rule for drawing 40m contour -->
         <Rule>
           <Title>Mid-deglaciation (-40m)</Title>
