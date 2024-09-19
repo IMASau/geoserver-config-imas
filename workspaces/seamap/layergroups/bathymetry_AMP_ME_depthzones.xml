@@ -3,7 +3,7 @@
   <name>bathymetry_AMP_ME_depthzones</name>
   <mode>SINGLE</mode>
   <title>Bathymetry of Australian Marine Parks (AMPs) - styled by Parks Australia ME depth zone</title>
-  <abstractTxt>Multibeam bathymetry data complied from various sources and compiled into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region and represents a multi-resolution mosaic. Styling is according to the depth zones of the Parks Australia Management Effectiveness (ME) language.&#xd;
+  <abstractTxt>Multibeam bathymetry data complied from various sources and compiled into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region and represents a multi-resolution mosaic. Styling is according to the depth zones of the Parks Australia Management Effectiveness (ME) language. [NVCL, MERI]&#xd;
 &#xd;
 This layer group comprises of bathymetry mosaics overlaid on derived hillshade, clipped to the boundaries of Australian Marine Parks (2023).&#xd;
 &#xd;
@@ -30,7 +30,7 @@ The bathymetry data is current as of 2024.</abstractTxt>
       <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
     </style>
     <style>
-      <id>StyleInfoImpl--5d921cd2:17bc397365e:-6215</id>
+      <id>StyleInfoImpl--7779204c:19208cd55cf:7811</id>
     </style>
     <style>
       <id>StyleInfoImpl-262a8ff:189f2ad1ec4:-457b</id>
@@ -44,4 +44,5 @@ The bathymetry data is current as of 2024.</abstractTxt>
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-09-19 07:28:32.865 UTC</dateCreated>
+  <dateModified>2024-09-19 07:42:06.146 UTC</dateModified>
 </layerGroup>
