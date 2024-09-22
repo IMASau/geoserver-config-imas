@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--7779204c:19208cd55cf:7811</id>
-  <name>AMP_bathy_MERI</name>
+  <name>AMP_bathy_MERI_fine</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>AMP_bathy_MERI.sld</filename>
+  <filename>AMP_bathy_MERI_fine.sld</filename>
   <dateCreated>2024-09-19 07:34:41.354 UTC</dateCreated>
+  <dateModified>2024-09-22 09:21:47.422 UTC</dateModified>
 </style>

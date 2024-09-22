@@ -7,6 +7,7 @@
     <UserStyle>
      <FeatureTypeStyle>
        <Rule>
+          <MinScaleDenominator>200000</MinScaleDenominator>                                        		                               
          <RasterSymbolizer>  
            <ColorMap type="intervals">
              <ColorMapEntry color="#ffffff" quantity="-100000" opacity="0" label=" NODATA"/>               
