@@ -1,0 +1,52 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-ac1146b:1922b8d1c34:-733d</id>
+  <name>NESP_MaC_3_21_ORE_prioritySpp_data_inventory</name>
+  <nativeName>NESP_MaC_3_21_ORE_prioritySpp_data_inventory</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>NESP Marine and Coastal Project 3.21 - data inventory of priority species for Gippsland Offshore Renewable Energy area</title>
+  <keywords>
+    <string>features</string>
+    <string>NESP_MaC_3_21_ORE_prioritySpp_data_inventory</string>
+    <string>wind</string>
+    <string>ORE</string>
+  </keywords>
+  <srs>EPSG:404000</srs>
+  <nativeBoundingBox>
+    <minx>-1.0</minx>
+    <maxx>0.0</maxx>
+    <miny>-1.0</miny>
+    <maxy>0.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.0</minx>
+    <maxx>0.0</maxx>
+    <miny>-1.0</miny>
+    <maxy>0.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
+  </store>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WPS</string>
+    <string>WMS</string>
+  </disabledServices>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

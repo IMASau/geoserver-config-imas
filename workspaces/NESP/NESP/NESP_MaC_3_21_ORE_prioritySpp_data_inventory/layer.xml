@@ -1,0 +1,18 @@
+<layer>
+  <name>NESP_MaC_3_21_ORE_prioritySpp_data_inventory</name>
+  <id>LayerInfoImpl-ac1146b:1922b8d1c34:-733c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-111fe3a:15bf5948b19:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-ac1146b:1922b8d1c34:-733d</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-26 00:26:14.400 UTC</dateCreated>
+  <dateModified>2024-09-26 00:27:37.884 UTC</dateModified>
+</layer>
