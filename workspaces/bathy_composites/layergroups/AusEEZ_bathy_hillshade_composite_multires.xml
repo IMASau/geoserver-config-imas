@@ -1,0 +1,32 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-912f010:19230e68e96:22cc</id>
+  <name>AusEEZ_bathy_hillshade_composite_multires</name>
+  <mode>SINGLE</mode>
+  <queryDisabled>true</queryDisabled>
+  <title>Multi-resolution bathymetric hillshade composite for the Aus EEZ</title>
+  <abstractTxt>A multi-resolution depth-stratified hillshade (z-factor 1m) derivative from a continuous bathymetry surface for the Aus EEZ.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-b3a</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3ab4</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-4333776.65588629</minx>
+    <maxx>4465467.602282695</maxx>
+    <miny>-6691900.35982885</miny>
+    <maxy>-884350.3598288503</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </bounds>
+  <dateCreated>2024-09-27 01:39:32.187 UTC</dateCreated>
+  <dateModified>2024-09-27 01:41:33.446 UTC</dateModified>
+</layerGroup>
