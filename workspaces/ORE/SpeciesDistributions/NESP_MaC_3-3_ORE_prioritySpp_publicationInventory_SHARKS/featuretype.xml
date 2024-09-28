@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3f0178af:1923a6f2a09:-53bc</id>
+  <name>NESP_MaC_3-3_ORE_prioritySpp_publicationInventory_SHARKS</name>
+  <nativeName>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3f0178af:1923a6f2a09:-546b</id>
+  </namespace>
+  <title>NESP MaC Project 3.21 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: shark species</title>
+  <abstract>NESP Marine and Coastal Hub Project 3.21. This dataset shows the spatial coverage and associated metadata of a publication inventory of priority species of relevance to Offshore Renewable Energy (ORE) developments in Australia, especially in the Gippsland region.&#xd;
+&#xd;
+This layer shows a subset of the publication inventory for shark species. See layer &apos;NESP_MaC_3-3_ORE_prioritySpp_publicationInventory_ALL&apos; for the complete publication inventory.</abstract>
+  <keywords>
+    <string>features</string>
+    <string>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>109.23348000032746</minx>
+    <maxx>158.12532499722437</maxx>
+    <miny>-46.949702988573996</miny>
+    <maxy>-10.100791066407927</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>109.23348000032746</minx>
+    <maxx>158.12532499722437</maxx>
+    <miny>-46.949702988573996</miny>
+    <maxy>-10.100791066407927</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <cqlFilter>FaunaGroup = &apos;Sharks&apos;</cqlFilter>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
