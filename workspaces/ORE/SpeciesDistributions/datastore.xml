@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
+  <name>SpeciesDistributions</name>
+  <description>IMAS SQL Storage Database</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3f0178af:1923a6f2a09:-546c</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/datastore</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">ORE</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2024-09-28 22:52:32.836 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>
