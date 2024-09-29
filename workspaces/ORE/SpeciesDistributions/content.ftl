@@ -3,14 +3,14 @@
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1300px; table-layout: fixed;">
 
     <colgroup>
-        <col width="7%" />
+        <col width="8%" />
         <col width="7%" />
         <col width="9%" />
         <col width="7%" />
         <col width="7%" />
         <col width="14%" />
         <col width="9%" />
-        <col width="13%" />
+        <col width="12%" />
         <col width="12%" />
         <col width="15%" />
     </colgroup>
@@ -51,7 +51,7 @@
                 <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
                     <i>${feature.ScientificName.value}</i>
                 </td>
-                <td style="padding: 6px; border-right: 1px solid black; font-size: 10px;">
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
                     <#if CONSERVATION?has_content>
 			<#if CONSERVATION?contains("--")>
 			-
