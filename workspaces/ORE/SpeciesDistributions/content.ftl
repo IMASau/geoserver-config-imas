@@ -1,17 +1,17 @@
-<div style="padding: 5px 0;">
+<div style="padding: 3px;">
 
-<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1200px; table-layout: fixed;">
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1300px; table-layout: fixed;">
 
     <colgroup>
         <col width="7%" />
-        <col width="8%" />
-        <col width="8%" />
-        <col width="7%" />
         <col width="7%" />
         <col width="9%" />
+        <col width="7%" />
+        <col width="7%" />
+        <col width="14%" />
         <col width="9%" />
-        <col width="15%" />
-        <col width="15%" />
+        <col width="13%" />
+        <col width="12%" />
         <col width="15%" />
     </colgroup>
 
@@ -30,7 +30,7 @@
         </tr>
     </thead>
     <tbody>
-<#list features?sort_by([CommonGroup.rawValue?default(""), Species.rawValue?default("")]) as feature>
+        <#list features?sort_by(["Species", "rawValue"])?sort_by(["CommonGroup", "rawValue"]) as feature>
 
             <#assign CONSERVATION = feature.EPBC_ConservationStatus.value>
             <#assign MIGRATORY = feature.EPBC_MigratoryStatus.value>
@@ -119,8 +119,8 @@
 </table>
 
 <#list features as feature_counter>
-    <#if (feature_counter_index >20)> 
-        <p style="font-size: 10px"><i>More than 20 study areas overlap this location. Try zooming in or switching off some layers.</i></p>
+    <#if (feature_counter_index >15)> 
+        <p style="font-size: 10px"><i>More than 15 study areas overlap this location. Try zooming in or filtering the layer.</i></p>
         <#break>
     </#if>
 </#list>
