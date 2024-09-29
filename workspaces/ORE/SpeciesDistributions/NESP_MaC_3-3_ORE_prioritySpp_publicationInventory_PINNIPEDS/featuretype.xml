@@ -45,7 +45,7 @@ This layer shows a subset of the publication inventory for pinniped (seal/sea li
   <store class="dataStore">
     <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
   </store>
-  <serviceConfiguration>true</serviceConfiguration>
+  <serviceConfiguration>false</serviceConfiguration>
   <disabledServices>
     <string>WFS</string>
   </disabledServices>

@@ -46,9 +46,6 @@ This layer shows a subset of the publication inventory for cetacean (whale/dolph
     <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
   </store>
   <serviceConfiguration>true</serviceConfiguration>
-  <disabledServices>
-    <string>WFS</string>
-  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
