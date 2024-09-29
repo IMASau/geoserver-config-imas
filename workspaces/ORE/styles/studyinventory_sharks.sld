@@ -16,11 +16,11 @@
           <Title>Study location (sharks)</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#29a3a3</CssParameter>
+              <CssParameter name="fill">#5c00e6</CssParameter>
               <CssParameter name="fill-opacity">0.3</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#29a3a3</CssParameter>
+              <CssParameter name="stroke">#5c00e6</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
