@@ -1,39 +1,128 @@
 <div style="padding: 5px 0;">
 
-<#list features as feature>
+<TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1200px; table-layout: fixed;">
 
-    <!-- Check if ConservationStatus and MigratoryStatus exist and assign values -->
-    <#assign CONSERVATION = (feature.ConservationStatus??) ? feature.ConservationStatus.value : ''>
-    <#assign MIGRATORY = (feature.MigratoryStatus??) ? feature.MigratoryStatus.value : ''>
+    <colgroup>
+        <col width="7%" />
+        <col width="8%" />
+        <col width="8%" />
+        <col width="7%" />
+        <col width="7%" />
+        <col width="9%" />
+        <col width="9%" />
+        <col width="15%" />
+        <col width="15%" />
+        <col width="15%" />
+    </colgroup>
 
-    <!-- ConservationStatus Logic -->
-    <div>
-        Conservation Status:
-        <#if CONSERVATION?has_content>
-            <#if CONSERVATION?contains("--")>
-                -
-            <#else>
-                ${CONSERVATION}
-            </#if>
-        <#else>
+    <thead>
+        <tr class="OREstudies" style='background-color:#b3d9ff'>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Species group</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Common name</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Taxonomic name</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Conservation Status</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Migratory Status</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">ORE interaction type</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Study</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Study subject</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">Study methods</th>
+            <th style="border-bottom: 1.5pt solid black; text-align: left; font-size: 10px; border-right: 1px solid black; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">ORE area overlap</th>
+        </tr>
+    </thead>
+    <tbody>
+<#list features?sort_by([CommonGroup.rawValue?default(""), Species.rawValue?default("")]) as feature>
+
+            <#assign CONSERVATION = feature.EPBC_ConservationStatus.value>
+            <#assign MIGRATORY = feature.EPBC_MigratoryStatus.value>
+            <#assign CITATION = feature.Study.value>
+            <#assign TOPIC = feature.StudySubject.value>
+            <#assign METHODS = feature.StudyMethods.value>
+
+
+        <#if (feature_index < 20)> 
+
+            <tr align="left" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+                <td class="fixed-width-ellipsis" style="padding-top: 8px; padding-bottom: 8px; border-right: 1px solid black; font-size: 10px; text-align:left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                    ${feature.CommonGroup.value}
+                </td>
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                    ${feature.Species.value}
+                </td>
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                    <i>${feature.ScientificName.value}</i>
+                </td>
+                <td style="padding: 6px; border-right: 1px solid black; font-size: 10px;">
+                    <#if CONSERVATION?has_content>
+			<#if CONSERVATION?contains("--")>
+			-
+			<#else>
+                        	${feature.EPBC_ConservationStatus.value}
+			</#if>
+                    <#else>
+          		-
+                    </#if>       
+                </td>
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                    <#if MIGRATORY?has_content>
+			<#if MIGRATORY?contains("--")>
+			-
+			<#else>
+                        	${feature.EPBC_MigratoryStatus.value}
+			</#if>
+                    <#else>
+            		<i>no</i>
+                    </#if>       
+                </td>
+
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                        ${feature.Interaction_with_ORE.value}
+                </td>
+
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                    <#if CITATION?has_content>
+                        ${feature.Study.value}
+                    <#else>
             -
-        </#if>
-    </div>
+                    </#if>       
+                </td>
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                    <#if TOPIC?has_content>
+                        ${feature.StudySubject.value}
+                    <#else>
+            -
+                    </#if>       
+                </td>
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+                    <#if METHODS?has_content>
+                        ${feature.StudyMethods.value}
+                    <#else>
+            -
+                    </#if>       
+                </td>
+                <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
+		    <#if feature.ORE_areas_overlapped.value == "n/a">
+		        <i>no overlap</i>
+		    <#else>
+		        ${feature.ORE_areas_overlapped.value}
+		    </#if>
+		</td>
 
-    <!-- MigratoryStatus Logic -->
-    <div>
-        Migratory Status:
-        <#if MIGRATORY?has_content>
-            <#if MIGRATORY?contains("--")>
-                -
-            <#else>
-                ${MIGRATORY}
-            </#if>
-        <#else>
-            <i>no</i>
-        </#if>
-    </div>
 
+
+            </tr>
+</#if>
+
+        </#list>
+
+    </tbody>
+
+</table>
+
+<#list features as feature_counter>
+    <#if (feature_counter_index >20)> 
+        <p style="font-size: 10px"><i>More than 20 study areas overlap this location. Try zooming in or switching off some layers.</i></p>
+        <#break>
+    </#if>
 </#list>
 
 </div>
