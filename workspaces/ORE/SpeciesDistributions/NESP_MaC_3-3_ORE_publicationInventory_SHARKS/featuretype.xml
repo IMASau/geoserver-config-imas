@@ -8,7 +8,7 @@
   <title>NESP MaC Project 3.21 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: shark species</title>
   <abstract>NESP Marine and Coastal Hub Project 3.21. This dataset shows the spatial coverage and associated metadata of a publication inventory of priority species of relevance to Offshore Renewable Energy (ORE) developments in Australia, especially in the Gippsland region.&#xd;
 &#xd;
-This layer shows a subset of the publication inventory for shark species. See layer &apos;NESP_MaC_3-3_ORE_prioritySpp_publicationInventory_ALL&apos; for the complete publication inventory.</abstract>
+This layer shows a subset of the publication inventory for shark species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</string>
