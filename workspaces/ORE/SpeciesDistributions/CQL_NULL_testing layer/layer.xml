@@ -1,0 +1,16 @@
+<layer>
+  <name>CQL_NULL_testing layer</name>
+  <id>LayerInfoImpl-3f0178af:19240cfdf45:-6143</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b89</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3f0178af:19240cfdf45:-6144</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-30 03:42:53.245 UTC</dateCreated>
+</layer>
