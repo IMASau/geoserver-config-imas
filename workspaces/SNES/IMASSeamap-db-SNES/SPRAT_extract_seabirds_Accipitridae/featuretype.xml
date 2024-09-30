@@ -1,0 +1,56 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--80fb345:18fb7be4bda:34b6</id>
+  <name>SPRAT_extract_seabirds_Accipitridae</name>
+  <nativeName>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
+  </namespace>
+  <title>Distribution of Species of National Environmental Significance (SPRAT database extract 01/05/2024) - seabirds: birds of prey (marine)</title>
+  <keywords>
+    <string>features</string>
+    <string>VW_HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>39.68000001681111</minx>
+    <maxx>173.39999999390122</maxx>
+    <miny>-69.82000000472962</miny>
+    <maxy>-8.000000008282683</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>39.68000001681111</minx>
+    <maxx>173.39999999390122</maxx>
+    <miny>-69.82000000472962</miny>
+    <maxy>-8.000000008282683</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-6a14d715:18f95ad014a:3c7c</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <cqlFilter>TAXON_GROUP = &apos;birds&apos; AND MARINE = &apos;Listed&apos; AND TAXON_FAMILY = &apos;Accipitridae&apos;</cqlFilter>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
