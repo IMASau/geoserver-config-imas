@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3f0178af:192422977eb:15e9</id>
+  <name>SNES_marine_fishes</name>
+  <nativeName>HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
+  </namespace>
+  <title>Distribution of Species of National Environmental Significance (database extract 01/05/2024) - marine fishes</title>
+  <keywords>
+    <string>features</string>
+    <string>HOSTED_SpeciesOfNationalEnvironmentalSignificance_EIA</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>70.36000003008027</minx>
+    <maxx>173.34999999390706</maxx>
+    <miny>-60.5599999879292</miny>
+    <maxy>-8.469999992923587</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>70.36000003008027</minx>
+    <maxx>173.34999999390706</maxx>
+    <miny>-60.5599999879292</miny>
+    <maxy>-8.469999992923587</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-6a14d715:18f95ad014a:3c7c</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <cqlFilter>(TAXON_FAMILY IN (&apos;Scombridae&apos;, &apos;Laridae&apos;, &apos;Serranidae&apos;, &apos;Centrolophidae&apos;, &apos;Gempylidae&apos;, &apos;Charadriidae&apos;) OR TAXON_ORDER IN (&apos;Beryciformes&apos;, &apos;Carcharhiniformes&apos;, &apos;Chimaeiformes&apos;, &apos;Lamniformes&apos;, &apos;Lophiiformes&apos;, &apos;Myliobatiformes&apos;, &apos;Orectolobiformes&apos;, &apos;Pelecaniformes&apos;, &apos;Procellariiformes&apos;, &apos;Rajiformes&apos;, &apos;Sqaliformes&apos;, &apos;Syngnathiformes&apos;)) AND TAXON_GROUP = &apos;Fishes&apos; AND TAXON_CLASS = &apos;Actinopterygii&apos;</cqlFilter>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
