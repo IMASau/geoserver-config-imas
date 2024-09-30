@@ -46,7 +46,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>TAXON_FAMILY IN (&apos;Elapidae&apos;, &apos;Hydrophiidae&apos;, &apos;Cheloniidae&apos;, &apos;Dermochelyidae&apos;) AND TAXON_GROUP = &apos;Reptiles&apos;</cqlFilter>
+  <cqlFilter>(TAXON_FAMILY IN (&apos;Hydrophiidae&apos;, &apos;Cheloniidae&apos;, &apos;Dermochelyidae&apos;) OR (TAXON_FAMILY = &apos;Elapidae&apos; AND VERNACULAR_NAME ILIKE &apos;sea snake&apos;)) AND TAXON_GROUP = &apos;Reptiles&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
