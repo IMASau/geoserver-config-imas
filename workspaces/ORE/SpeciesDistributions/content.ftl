@@ -53,24 +53,16 @@
                 </td>
                 <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
                     <#if CONSERVATION?has_content>
-			<#if CONSERVATION?contains("--")>
-			-
-			<#else>
                         	${feature.EPBC_ConservationStatus.value}
-			</#if>
-                    <#else>
-          		-
-                    </#if>       
+					<#else>
+							-
+					</#if>
                 </td>
                 <td class="fixed-width-ellipsis" style="padding: 6px; border-right: 1px solid black; font-size: 10px; text-align:left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden;">
                     <#if MIGRATORY?has_content>
-			<#if MIGRATORY?contains("--")>
-			-
-			<#else>
                         	${feature.EPBC_MigratoryStatus.value}
-			</#if>
-                    <#else>
-            		<i>no</i>
+					<#else>
+							<i>no</i>
                     </#if>       
                 </td>
 
