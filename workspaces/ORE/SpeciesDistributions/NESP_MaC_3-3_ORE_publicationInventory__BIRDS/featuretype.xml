@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3f0178af:1923a6f2a09:-53c1</id>
-  <name>NESP_MaC_3-3_ORE_publicationInventory_PINNIPEDS</name>
+  <id>FeatureTypeInfoImpl-3f0178af:19240cfdf45:-65d6</id>
+  <name>NESP_MaC_3-3_ORE_publicationInventory__BIRDS</name>
   <nativeName>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-3f0178af:1923a6f2a09:-546b</id>
   </namespace>
-  <title>NESP MaC Project 3.21 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: pinniped species</title>
+  <title>NESP_MaC_3_3_ORE_prioritySNESP MaC Project 3.21 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: bird speciespp_publishedstudies_inventory</title>
   <abstract>NESP Marine and Coastal Hub Project 3.21. This dataset shows the spatial coverage and associated metadata of a publication inventory of priority species of relevance to Offshore Renewable Energy (ORE) developments in Australia, especially in the Gippsland region.&#xd;
 &#xd;
-This layer shows a subset of the publication inventory for pinniped (seal/sea lion) species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
+This layer shows a subset of the publication inventory for bird species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</string>
@@ -24,17 +24,17 @@ This layer shows a subset of the publication inventory for pinniped (seal/sea li
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>112.91270762686622</minx>
-    <maxx>153.8902919064049</maxx>
-    <miny>-45.846164420890254</miny>
-    <maxy>-27.393023744325173</maxy>
+    <minx>105.35379301787643</minx>
+    <maxx>163.1920850001661</maxx>
+    <miny>-47.34817266616141</miny>
+    <maxy>-8.883332999791904</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.91270762686622</minx>
-    <maxx>153.8902919064049</maxx>
-    <miny>-45.846164420890254</miny>
-    <maxy>-27.393023744325173</maxy>
+    <minx>105.35379301787643</minx>
+    <maxx>163.1920850001661</maxx>
+    <miny>-47.34817266616141</miny>
+    <maxy>-8.883332999791904</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
@@ -46,13 +46,10 @@ This layer shows a subset of the publication inventory for pinniped (seal/sea li
     <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
-  <disabledServices>
-    <string>WFS</string>
-  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>FaunaGroup = &apos;Pinnipeds&apos;</cqlFilter>
+  <cqlFilter>FaunaGroup = &apos;Birds&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
