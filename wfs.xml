@@ -3,8 +3,10 @@
   <enabled>true</enabled>
   <name>WFS</name>
   <title>IMAS Data Catalogue (WFS)</title>
+  <internationalTitle/>
   <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
   <abstrct>The Institute for Marine and Antarctic Studies (IMAS) pursues multidisciplinary and interdisciplinary work to advance understanding of temperate marine, Southern Ocean, and Antarctic environments. The IMAS Geoserver catalogues IMAS geospatial data, and hosts a number of other data layers from its collaborators.</abstrct>
+  <internationalAbstract/>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>
@@ -52,4 +54,7 @@
   <canonicalSchemaLocation>false</canonicalSchemaLocation>
   <encodeFeatureMember>false</encodeFeatureMember>
   <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
+  <includeWFSRequestDumpFile>false</includeWFSRequestDumpFile>
+  <allowGlobalQueries>true</allowGlobalQueries>
+  <getFeatureOutputTypeCheckingEnabled>false</getFeatureOutputTypeCheckingEnabled>
 </wfs>
