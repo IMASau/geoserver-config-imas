@@ -28,10 +28,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
        <Rule>
           <Title>No catch recorded</Title>
           <ogc:Filter>
-              <ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsNull>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>NA</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
+              </ogc:PropertyIsNull>
           </ogc:Filter>
           <PolygonSymbolizer>
 		  <Fill>
