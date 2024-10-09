@@ -40,7 +40,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.6</CssParameter>                      
+                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
                       <CssParameter name="stroke-width">3</CssParameter>
                     </Stroke>
                   </Mark>
