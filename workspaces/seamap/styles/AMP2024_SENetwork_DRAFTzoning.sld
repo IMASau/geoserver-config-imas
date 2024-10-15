@@ -41,6 +41,9 @@
 					<VendorOption name="spaceAround">5</VendorOption>
                     <VendorOption name="group">true</VendorOption> 
 					<VendorOption name="conflictResolution">true</VendorOption>
+                  <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
+                  <VendorOption name="duplicateRule">first</VendorOption>  <!-- Only shows one instance -->
+                 
 			</TextSymbolizer>    
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>
