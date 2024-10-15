@@ -40,7 +40,7 @@
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">5</VendorOption>
                     <VendorOption name="group">true</VendorOption> 
-					<VendorOption name="conflictResolution">false</VendorOption>
+					<VendorOption name="conflictResolution">true</VendorOption>
 			</TextSymbolizer>    
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>
@@ -69,7 +69,7 @@
          		   </LabelPlacement>  
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">5</VendorOption>
-					<VendorOption name="conflictResolution">false</VendorOption>   
+					<VendorOption name="conflictResolution">true</VendorOption>   
 					<VendorOption name="inclusion">mapOnly</VendorOption>                            
 			</TextSymbolizer>	
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
@@ -221,7 +221,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>         

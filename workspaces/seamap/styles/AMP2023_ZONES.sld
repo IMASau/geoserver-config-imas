@@ -14,7 +14,7 @@
       <Name>AustralianMarineParks</Name>
       <FeatureTypeStyle>
  		<Rule>
-		  <MinScaleDenominator>4000000</MinScaleDenominator>                             
+		  <MinScaleDenominator>5000000</MinScaleDenominator>                             
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
 			<TextSymbolizer> 
                   <Geometry>
@@ -45,7 +45,7 @@
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>
  		<Rule>
-		  <MaxScaleDenominator>4000000</MaxScaleDenominator>                             		  
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                             		  
 			<TextSymbolizer> 
                   <Geometry>
                      <ogc:Function name="centroid">

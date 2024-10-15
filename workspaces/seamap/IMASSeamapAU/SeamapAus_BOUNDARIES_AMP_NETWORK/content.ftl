@@ -1,8 +1,8 @@
 <#list features as feature>
 	
-	<h5>Australian Marine Parks 2023</h5>
+	<h5 style="padding-top:6px">Australian Marine Parks 2023</h5>
 
-		<div class="feature">
+		<div class="feature" style="padding-bottom: 6px;">
 		<BR>
 			<#if feature.NETNAME.value == 'Coral Sea'>
 				<b>${feature.NETNAME.value}</b> Marine Park<BR>
