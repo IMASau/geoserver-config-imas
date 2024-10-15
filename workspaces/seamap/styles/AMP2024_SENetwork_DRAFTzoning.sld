@@ -42,7 +42,7 @@
                     <VendorOption name="group">true</VendorOption> 
 					<VendorOption name="conflictResolution">true</VendorOption>
                   <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
-                  <VendorOption name="duplicateRule">first</VendorOption>  <!-- Only shows one instance -->
+                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only shows one instance -->
                  
 			</TextSymbolizer>    
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
@@ -67,12 +67,13 @@
              			<AnchorPoint>                      
               		 	<AnchorPointX>0.5</AnchorPointX>
                			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                          
-           			</PointPlacement>
+             			</AnchorPoint>                      
+           			</PointPlacement>                    
          		   </LabelPlacement>  
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">5</VendorOption>
-					<VendorOption name="conflictResolution">true</VendorOption>   
+					<VendorOption name="conflictResolution">true</VendorOption>
+              <VendorOption name="maxDisplacement">30</VendorOption>              
 					<VendorOption name="inclusion">mapOnly</VendorOption>                            
 			</TextSymbolizer>	
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
