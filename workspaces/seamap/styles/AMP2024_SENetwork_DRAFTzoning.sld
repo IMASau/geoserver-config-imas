@@ -73,7 +73,7 @@
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">5</VendorOption>
 					<VendorOption name="conflictResolution">true</VendorOption>
-              <VendorOption name="maxDisplacement">30</VendorOption>              
+              <VendorOption name="maxDisplacement">25</VendorOption>              
 					<VendorOption name="inclusion">mapOnly</VendorOption>                            
 			</TextSymbolizer>	
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
