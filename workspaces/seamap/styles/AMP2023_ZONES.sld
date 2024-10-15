@@ -42,7 +42,7 @@
                     <VendorOption name="group">true</VendorOption> 
 					<VendorOption name="conflictResolution">true</VendorOption>
                   <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
-                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only shows one instance -->
+                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only largest one instance -->
 			</TextSymbolizer>    
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>
