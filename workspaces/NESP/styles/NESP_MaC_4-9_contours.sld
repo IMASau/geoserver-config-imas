@@ -10,6 +10,76 @@
       <Title>Contours Styling</Title>
       <FeatureTypeStyle>
         
+        <Rule>
+          <Title>100m, 200m isobaths</Title>
+          <ogc:Filter>
+              <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>contour</ogc:PropertyName>
+                <ogc:Literal>-100</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>contour</ogc:PropertyName>
+                <ogc:Literal>-200</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              </ogc:Or>                
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ffffff</CssParameter> <!-- Dashed white line -->
+              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>                            
+              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+        </Rule> 
+        
+        <!-- Rule for text labelling contours when zoomed out -->
+        <Rule> 
+          <MaxScaleDenominator>2000000</MaxScaleDenominator> 
+          <ogc:Filter>
+              <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>contour</ogc:PropertyName>
+                <ogc:Literal>-100</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>contour</ogc:PropertyName>
+                <ogc:Literal>-200</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              </ogc:Or>                
+          </ogc:Filter>          
+          <TextSymbolizer>
+    <Label>
+      <ogc:Function name="numberFormat">
+        <!-- Apply absolute value to the contour field -->
+        <ogc:Function name="abs">
+          <ogc:PropertyName>contour</ogc:PropertyName>
+        </ogc:Function>
+        <ogc:Literal>0</ogc:Literal>  <!-- Format without decimals -->
+      </ogc:Function>
+    </Label>
+            <Font>
+              <CssParameter name="font-family">SansSerif</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+            </Font> 
+            <Halo>
+              <Radius>2</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.4</CssParameter>				        
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>    
+            <VendorOption name="followLine">true</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+        </Rule>        
+        
+        
         <!-- Rule for contours at other 100-meter intervals (dashed line) -->
         <Rule>
           <Title>100m isobaths</Title>
@@ -18,12 +88,20 @@
               <ogc:Or>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>contour</ogc:PropertyName>
-                <ogc:Literal>-500</ogc:Literal>
+                <ogc:Literal>-100</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>contour</ogc:PropertyName>
-                <ogc:Literal>-500</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                
+                <ogc:Literal>-200</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>contour</ogc:PropertyName>
+                <ogc:Literal>-300</ogc:Literal>
+              </ogc:PropertyIsEqualTo> 
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>contour</ogc:PropertyName>
+                <ogc:Literal>-400</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>contour</ogc:PropertyName>
                 <ogc:Literal>-500</ogc:Literal>
