@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--61d22a37:19293ca7ccc:-1bb4</id>
-  <name>PygmyBlueWhale_foraging</name>
-  <nativeName>PygmyBlueWhale_foraging</nativeName>
+  <id>CoverageInfoImpl--61d22a37:19293ca7ccc:-1b42</id>
+  <name>NESP_MaC_4_9_BIA_PygmyBlueWhale_foraging</name>
+  <nativeName>PygmyBlueWhale_foraging_continuous</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>PygmyBlueWhale_foraging</title>
+  <title>NESP MaC Project 4.9 - indicative area of Pygmy Blue Whale foraging</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>PygmyBlueWhale_foraging</string>
+    <string>PygmyBlueWhale_foraging_continuous</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -38,9 +38,10 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">MaC_4-9_PygmyBlueWhale_foraging_PygmyBlueWhale_foraging</entry>
+    <entry key="dirName">MaC_4-9_PygmyBlueWhale_foraging_PygmyBlueWhale_foraging_continuous</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--61d22a37:19293ca7ccc:-1bb5</id>
@@ -87,10 +88,10 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>3.3999999521443642E38</double>
       </nullValues>
       <dimensionType>
-        <name>UNSIGNED_8BITS</name>
+        <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -118,5 +119,5 @@
       <boolean>true</boolean>
     </entry>
   </parameters>
-  <nativeCoverageName>PygmyBlueWhale_foraging</nativeCoverageName>
+  <nativeCoverageName>PygmyBlueWhale_foraging_continuous</nativeCoverageName>
 </coverage>

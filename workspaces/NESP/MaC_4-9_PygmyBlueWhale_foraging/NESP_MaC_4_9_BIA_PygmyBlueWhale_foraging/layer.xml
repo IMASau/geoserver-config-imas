@@ -1,0 +1,18 @@
+<layer>
+  <name>NESP_MaC_4_9_BIA_PygmyBlueWhale_foraging</name>
+  <id>LayerInfoImpl--61d22a37:19293ca7ccc:-1b41</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--61d22a37:19293ca7ccc:-1bba</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--61d22a37:19293ca7ccc:-1b42</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-16 10:33:43.838 UTC</dateCreated>
+  <dateModified>2024-10-16 10:40:17.946 UTC</dateModified>
+</layer>

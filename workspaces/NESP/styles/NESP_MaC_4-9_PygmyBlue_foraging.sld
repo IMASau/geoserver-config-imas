@@ -6,48 +6,26 @@
     xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Buffered Polygon Gradient</Name>
+    <Name>Gradient Raster</Name>
     <UserStyle>
-      <Title>Gradient Style for Polygons</Title>
+      <Title>Gradient Effect for Raster</Title>
       <FeatureTypeStyle>
-
-        <!-- Rule with Interpolate function for color gradient -->
         <Rule>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">
-                <ogc:Function name="Interpolate">
-                  <!-- Use the lvl attribute to drive the gradient -->
-                  <ogc:PropertyName>lvl</ogc:PropertyName>
+          <RasterSymbolizer>
 
-                  <!-- Ensure correct value-color mapping -->
-                  <ogc:Literal>1</ogc:Literal> <!-- Outermost layer -->
-                  <ogc:Literal>#3300cc</ogc:Literal> <!-- Deep blue/purple -->
+            <Opacity>1</Opacity> <!-- Optional: Adjust for smooth blending -->
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#4f00fa" quantity="0" opacity="0.1" label="Outer" />
+              <ColorMapEntry color="#9c00d2" quantity="200" opacity="0.4" />
+              <ColorMapEntry color="#c000af" quantity="400" opacity="0.5" />
+              <ColorMapEntry color="#d90097" quantity="600" opacity="0.6" />
+              <ColorMapEntry color="#f00082" quantity="800" opacity="0.7" />
+              <ColorMapEntry color="#ff006b" quantity="1000" opacity="0.8" label="Center" />
+              <ColorMapEntry color="#ffffff" quantity="5000" opacity="0.000001" label="nodata" />              
+            </ColorMap>
 
-                  <ogc:Literal>5</ogc:Literal> <!-- Innermost layer -->
-                  <ogc:Literal>#ff0066</ogc:Literal> <!-- Deep pink/red -->
-
-                  <!-- Interpolation Mode: Colors -->
-                  <ogc:Literal>color</ogc:Literal> 
-
-                  <!-- Interpolation Method: Cosine -->
-                  <ogc:Literal>cubic</ogc:Literal>               
-
-                  
-                </ogc:Function>
-              </CssParameter>
-
-              <CssParameter name="fill-opacity">
-                <ogc:Function name="Interpolate">
-                  <ogc:PropertyName>lvl</ogc:PropertyName>
-                  <ogc:Literal>1</ogc:Literal> <ogc:Literal>0.1</ogc:Literal> <!-- Outermost: Transparent -->
-                  <ogc:Literal>5</ogc:Literal> <ogc:Literal>0.5</ogc:Literal> <!-- Innermost: Opaque -->
-                </ogc:Function>
-              </CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
+          </RasterSymbolizer>
         </Rule>
-
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
