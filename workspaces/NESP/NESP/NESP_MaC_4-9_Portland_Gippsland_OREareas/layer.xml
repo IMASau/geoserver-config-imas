@@ -1,0 +1,17 @@
+<layer>
+  <name>NESP_MaC_4-9_Portland_Gippsland_OREareas</name>
+  <id>LayerInfoImpl--61d22a37:19293ca7ccc:44fc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--61d22a37:19293ca7ccc:42a3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--61d22a37:19293ca7ccc:44fb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-16 13:41:42.497 UTC</dateCreated>
+  <dateModified>2024-10-16 13:44:09.372 UTC</dateModified>
+</layer>
