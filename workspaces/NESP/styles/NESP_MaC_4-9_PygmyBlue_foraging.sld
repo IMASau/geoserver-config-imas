@@ -27,10 +27,11 @@
                   <ogc:Literal>5</ogc:Literal> <!-- Innermost layer -->
                   <ogc:Literal>#ff0066</ogc:Literal> <!-- Deep pink/red -->
 
-                  <!-- Interpolation method -->
-                  <ogc:Literal>color</ogc:Literal>  
+                  <!-- Interpolation Mode: Colors -->
+                  <ogc:Literal>color</ogc:Literal> 
 
-                   <ogc:Literal>cosine</ogc:Literal>                  
+                  <!-- Interpolation Method: Cosine -->
+                  <ogc:Literal>cubic</ogc:Literal>               
 
                   
                 </ogc:Function>
@@ -39,8 +40,8 @@
               <CssParameter name="fill-opacity">
                 <ogc:Function name="Interpolate">
                   <ogc:PropertyName>lvl</ogc:PropertyName>
-                  <ogc:Literal>1</ogc:Literal> <ogc:Literal>0.2</ogc:Literal> <!-- Outermost: Transparent -->
-                  <ogc:Literal>5</ogc:Literal> <ogc:Literal>0.8</ogc:Literal> <!-- Innermost: Opaque -->
+                  <ogc:Literal>1</ogc:Literal> <ogc:Literal>0.1</ogc:Literal> <!-- Outermost: Transparent -->
+                  <ogc:Literal>5</ogc:Literal> <ogc:Literal>0.5</ogc:Literal> <!-- Innermost: Opaque -->
                 </ogc:Function>
               </CssParameter>
             </Fill>
