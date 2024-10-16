@@ -12,6 +12,7 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
+
             <Opacity>0.8</Opacity> <!-- Optional: Adjust for smooth blending -->
             <ColorMap type="ramp">
               <ColorMapEntry color="#4f00fa" quantity="1" opacity="0.2" label="Outer" />
@@ -22,6 +23,7 @@
               <ColorMapEntry color="#ff006b" quantity="6" opacity="0.8" label="Center" />
               <ColorMapEntry color="#ffffff" quantity="10" opacity="0.000001" label="nodata" />              
             </ColorMap>
+
           </RasterSymbolizer>
         </Rule>
       </FeatureTypeStyle>
