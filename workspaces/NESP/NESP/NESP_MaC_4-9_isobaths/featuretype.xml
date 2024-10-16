@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--61d22a37:19293ca7ccc:-2640</id>
-  <name>NESP_MaC_4-9_contours</name>
+  <name>NESP_MaC_4-9_isobaths</name>
   <nativeName>NESP_MaC_4_9_contours</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MaC Project 4.9 - Contours</title>
+  <title>NESP MaC Project 4.9 - Aus isobaths</title>
   <keywords>
     <string>features</string>
     <string>NESP_MaC_4_9_contours</string>
