@@ -1,92 +1,48 @@
 <StyledLayerDescriptor version="1.0.0"
-    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
-    xmlns="http://www.opengis.net/sld" 
-    xmlns:gml="http://www.opengis.net/gml"
+    xmlns="http://www.opengis.net/sld"
     xmlns:ogc="http://www.opengis.net/ogc"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+
   <NamedLayer>
-    <Name>shapeburst_approximation</Name>
+    <Name>Buffered Polygon Gradient</Name>
     <UserStyle>
-      <Title>Shapeburst Fill Approximation</Title>
+      <Title>Gradient Style for Polygons</Title>
       <FeatureTypeStyle>
-        
-        <!-- Outermost layer (most transparent) -->
-        <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>lvl</ogc:PropertyName>		
-              <ogc:Literal>5</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>          
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#7100e0</CssParameter> <!-- Light outer color -->
-              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Lowest opacity -->
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>        
 
-        <!-- Slightly inner layer -->
+        <!-- Rule with Interpolate function for color gradient -->
         <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>lvl</ogc:PropertyName>		
-              <ogc:Literal>4</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>          
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ae00bb</CssParameter> <!-- Next color -->
-              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Slightly higher opacity -->
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
+              <CssParameter name="fill">
+                <ogc:Function name="Interpolate">
+                  <!-- Use the lvl attribute to drive the gradient -->
+                  <ogc:PropertyName>lvl</ogc:PropertyName>
 
-        <!-- Middle layer -->
-        <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>lvl</ogc:PropertyName>		
-              <ogc:Literal>3</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>          
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#d0009b</CssParameter> <!-- Middle color -->
-              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Slightly stronger opacity -->
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>        
-        
-        <!-- Inner layer -->
-        <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>lvl</ogc:PropertyName>		
-              <ogc:Literal>2</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>          
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ec0082</CssParameter> <!-- More intense color -->
-              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Higher opacity -->
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>        
-        
-        <!-- Core layer -->
-        <Rule>
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>lvl</ogc:PropertyName>		
-              <ogc:Literal>1</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>          
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ff0066</CssParameter> <!-- Bright core color -->
-              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Highest opacity -->
+                  <!-- Ensure correct value-color mapping -->
+                  <ogc:Literal>1</ogc:Literal> <!-- Outermost layer -->
+                  <ogc:Literal>#3300cc</ogc:Literal> <!-- Deep blue/purple -->
+
+                  <ogc:Literal>5</ogc:Literal> <!-- Innermost layer -->
+                  <ogc:Literal>#ff0066</ogc:Literal> <!-- Deep pink/red -->
+
+                  <!-- Interpolation method -->
+                  <ogc:Literal>color</ogc:Literal>  
+
+                   <ogc:Literal>cosine</ogc:Literal>                  
+
+                  
+                </ogc:Function>
+              </CssParameter>
+
+              <CssParameter name="fill-opacity">
+                <ogc:Function name="Interpolate">
+                  <ogc:PropertyName>lvl</ogc:PropertyName>
+                  <ogc:Literal>1</ogc:Literal> <ogc:Literal>0.2</ogc:Literal> <!-- Outermost: Transparent -->
+                  <ogc:Literal>5</ogc:Literal> <ogc:Literal>0.8</ogc:Literal> <!-- Innermost: Opaque -->
+                </ogc:Function>
+              </CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>

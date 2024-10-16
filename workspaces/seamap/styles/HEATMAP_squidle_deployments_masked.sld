@@ -57,11 +57,11 @@
                 <ogc:PropertyName>geom</ogc:PropertyName></Geometry>
               <Opacity>0.75</Opacity>
               <ColorMap type="ramp" >
-                <ColorMapEntry color="#FFFFFF" quantity="0" label="no deployments"
-                  opacity="0"/>
-                <ColorMapEntry color="#33ddff" quantity="0.01" label="fewer deployments"/>
+                <ColorMapEntry color="#FFFFFF" quantity="0"
+                  opacity="0.00001"/>
+                <ColorMapEntry color="#33ddff" quantity="0.01" label="  fewer deployments"/>
                 <ColorMapEntry color="#623387" quantity="0.4" />
-                <ColorMapEntry color="#ff7040" quantity="1.0" label="more deployments" />
+                <ColorMapEntry color="#ff7040" quantity="1.0" label="  more deployments" />
               </ColorMap>
             </RasterSymbolizer>
            </Rule>
