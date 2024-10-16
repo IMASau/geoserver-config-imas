@@ -38,7 +38,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ae00bb</CssParameter> <!-- Next color -->
-              <CssParameter name="fill-opacity">0.15</CssParameter> <!-- Slightly higher opacity -->
+              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Slightly higher opacity -->
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -54,7 +54,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d0009b</CssParameter> <!-- Middle color -->
-              <CssParameter name="fill-opacity">0.2</CssParameter> <!-- Slightly stronger opacity -->
+              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Slightly stronger opacity -->
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
@@ -70,7 +70,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ec0082</CssParameter> <!-- More intense color -->
-              <CssParameter name="fill-opacity">0.25</CssParameter> <!-- Higher opacity -->
+              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Higher opacity -->
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
@@ -86,7 +86,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff0066</CssParameter> <!-- Bright core color -->
-              <CssParameter name="fill-opacity">0.3</CssParameter> <!-- Highest opacity -->
+              <CssParameter name="fill-opacity">0.1</CssParameter> <!-- Highest opacity -->
             </Fill>
           </PolygonSymbolizer>
         </Rule>
