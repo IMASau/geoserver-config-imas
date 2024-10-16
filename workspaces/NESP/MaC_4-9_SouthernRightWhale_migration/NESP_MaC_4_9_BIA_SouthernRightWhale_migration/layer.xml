@@ -1,0 +1,17 @@
+<layer>
+  <name>NESP_MaC_4_9_BIA_SouthernRightWhale_migration</name>
+  <id>LayerInfoImpl--61d22a37:19293ca7ccc:2ff3</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--61d22a37:19293ca7ccc:1d5e</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--61d22a37:19293ca7ccc:2ff2</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-16 13:21:05.840 UTC</dateCreated>
+</layer>

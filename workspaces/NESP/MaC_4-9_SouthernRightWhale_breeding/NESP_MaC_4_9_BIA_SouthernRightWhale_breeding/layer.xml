@@ -1,0 +1,17 @@
+<layer>
+  <name>NESP_MaC_4_9_BIA_SouthernRightWhale_breeding</name>
+  <id>LayerInfoImpl--61d22a37:19293ca7ccc:2f0d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--61d22a37:19293ca7ccc:1d57</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--61d22a37:19293ca7ccc:2f0c</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-16 13:15:02.691 UTC</dateCreated>
+</layer>
