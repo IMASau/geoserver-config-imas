@@ -14,9 +14,10 @@
           <RasterSymbolizer>
             <ColorMap>
               <ColorMapEntry color="#ff66be" quantity="-5" label="  Breeding" opacity="0.1" />
-              <ColorMapEntry color="#ff66be" quantity="1" label="  Breeding" opacity="0.5" /> 
-              <ColorMapEntry color="#ff66be" quantity="3" label="  Breeding" opacity="0.9" />                            
-              <ColorMapEntry color="#ff006b" quantity="250" label="  Breeding" opacity="1" />
+              <ColorMapEntry color="#ff66be" quantity="1" label="  Breeding" opacity="0.3" />
+              <ColorMapEntry color="#ff66be" quantity="2" label="  Breeding" opacity="0.4" />               
+              <ColorMapEntry color="#ff66be" quantity="3" label="  Breeding" opacity="0.8" />                            
+              <ColorMapEntry color="#ff006b" quantity="250" label="  Breeding" opacity="0.9" />
               <ColorMapEntry color="#ffffff" quantity="10000" label="  Breeding" opacity="0" />              
               
             </ColorMap>
