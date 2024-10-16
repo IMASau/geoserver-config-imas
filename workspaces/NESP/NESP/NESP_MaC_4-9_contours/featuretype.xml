@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP_MaC_4_9_contours</title>
+  <title>NESP MaC Project 4.9 - Contours</title>
   <keywords>
     <string>features</string>
     <string>NESP_MaC_4_9_contours</string>
@@ -36,6 +36,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
