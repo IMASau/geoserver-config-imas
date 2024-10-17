@@ -48,7 +48,7 @@
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#ff0101</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>				  
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>   
           <VendorOption name="inclusion">legendOnly</VendorOption>                                     
@@ -68,7 +68,7 @@
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#f96621</CssParameter>
-              <CssParameter name="fill-opacity">0.5</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>  
           <VendorOption name="inclusion">legendOnly</VendorOption>                                     
@@ -88,7 +88,7 @@
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#fdbf6f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>				  
+              <CssParameter name="fill-opacity">0.5</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>  
           <VendorOption name="inclusion">legendOnly</VendorOption>                                     
@@ -128,7 +128,7 @@
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#ff0101</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>				  
+              <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>   
           <VendorOption name="inclusion">mapOnly</VendorOption>                                     
@@ -148,7 +148,7 @@
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#f96621</CssParameter>
-              <CssParameter name="fill-opacity">0.5</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                     
@@ -168,7 +168,7 @@
           </Geometry>     		  
             <Fill>
               <CssParameter name="fill">#fdbf6f</CssParameter>
-              <CssParameter name="fill-opacity">0.4</CssParameter>				  
+              <CssParameter name="fill-opacity">0.5</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                     
