@@ -6,10 +6,18 @@
     xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Single Color Raster</Name>
+    <Name>Low gradient raster</Name>
     <UserStyle>
-      <Title>Solid Color Raster</Title>
+      <Title>Low gradient raster</Title>
       <FeatureTypeStyle>
+       <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="values">
+              <ColorMapEntry quantity="0" label="  Breeding area" color="#ff006b" opacity="0.9"/>
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                          
+        </Rule>          
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
@@ -22,6 +30,8 @@
               
             </ColorMap>
           </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+          
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
