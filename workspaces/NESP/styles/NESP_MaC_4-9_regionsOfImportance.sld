@@ -10,10 +10,10 @@
         http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Select Victorian Marine Assets</Name>
+    <Name>Marine regions of importance</Name>
 
     <UserStyle>
-      <Name>Victorian Marine Assets - Southern Right Whales</Name>
+      <Name>Marine regions of importance</Name>
 
       <FeatureTypeStyle>
 
@@ -74,9 +74,91 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
+        <!-- Rule for legend title -->
+        <Rule>
+          <Title>National Key Ecological Features</Title>
+
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>LABEL</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <!-- Background Fill -->
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0.00000001</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+
+        </Rule>          
+        
         <!-- Rule for Breeding Grounds -->
         <Rule>
-          <Title>Breeding grounds (Southern Right Whale)</Title>
+          <Title>   Bonney Coast upwelling</Title>
+
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+              <ogc:PropertyName>LABEL</ogc:PropertyName>
+              <ogc:Literal>%Bonney%</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+
+          <!-- Background Fill -->
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffc001</CssParameter>
+              <CssParameter name="fill-opacity">0.2</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+
+          <!-- Forward Slash Pattern -->
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#f9e006</CssParameter>
+                      <CssParameter name="stroke-width">1.5</CssParameter>
+                      <CssParameter name="stroke-opacity">0.8</CssParameter>                      
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        
+        
+        <!-- Rule for legend title -->
+        <Rule>
+          <Title>Victorian Marine Assets</Title>
+
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>LABEL</ogc:PropertyName>
+              <ogc:Literal>intentionallyblank</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <!-- Background Fill -->
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0.00000001</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+
+        </Rule>          
+        
+        <!-- Rule for Breeding Grounds -->
+        <Rule>
+          <Title>   Breeding grounds (SRW)</Title>
 
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
@@ -132,7 +214,7 @@
 
         <!-- Rule for Connectivity Habitat -->
         <Rule>
-          <Title>Connectivity habitat (Southern Right Whale)</Title>
+          <Title>   Connectivity habitat (SRW)</Title>
 
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>

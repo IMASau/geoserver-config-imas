@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--61d22a37:19297174422:16d8</id>
-  <name>NESP_MaC_4-9_VicMarineAssets_select</name>
-  <nativeName>NESP_MaC_4_9_VicMarineAssets</nativeName>
+  <name>NESP_MaC_4-9_regionsOfImportance</name>
+  <nativeName>NESP_MaC_4_9_regionsOfImportance</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MaC Project 4.9 - select Victorian Marine Assets of relevance to Southern Right Whales</title>
+  <title>NESP MaC Project 4.9 - marine regions of importance to Southern Right Whales &amp; Pygmy Blue Whales (Vic Marine Assets, national Key Ecological Features)</title>
   <keywords>
     <string>features</string>
     <string>NESP_MaC_4_9_VicMarineAssets</string>
