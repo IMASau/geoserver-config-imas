@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl--61d22a37:19293ca7ccc:-1b42</id>
+  <id>CoverageInfoImpl--61d22a37:19299b52ce0:-7235</id>
   <name>NESP_MaC_4_9_BIA_PygmyBlueWhale_foraging</name>
-  <nativeName>PygmyBlueWhale_foraging_continuous</nativeName>
+  <nativeName>NESP_MaC_4_9_BIA_PygmyBlueWhale_foraging</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
@@ -23,17 +23,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>139.029800251</minx>
-    <maxx>150.422800251</maxx>
-    <miny>-44.205201849</miny>
-    <maxy>-36.814201849</maxy>
+    <minx>111.80712542719675</minx>
+    <maxx>150.42212542719676</maxx>
+    <miny>-44.204785998275156</miny>
+    <maxy>-13.429785998275154</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>139.029800251</minx>
-    <maxx>150.422800251</maxx>
-    <miny>-44.205201849</miny>
-    <maxy>-36.814201849</maxy>
+    <minx>111.80712542719675</minx>
+    <maxx>150.42212542719676</maxx>
+    <miny>-44.204785998275156</miny>
+    <maxy>-13.429785998275154</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -54,15 +54,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>11393 7391</high>
+      <high>38615 30775</high>
     </range>
     <transform>
-      <scaleX>0.001</scaleX>
-      <scaleY>-9.999999999999998E-4</scaleY>
+      <scaleX>0.0010000000000000002</scaleX>
+      <scaleY>-0.001</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>139.030300251</translateX>
-      <translateY>-36.814701849</translateY>
+      <translateX>111.80762542719675</translateX>
+      <translateY>-13.430285998275155</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
