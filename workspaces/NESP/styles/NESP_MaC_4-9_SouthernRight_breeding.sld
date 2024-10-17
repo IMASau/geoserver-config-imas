@@ -12,8 +12,8 @@
       <FeatureTypeStyle>
        <Rule>
           <RasterSymbolizer>
-            <ColorMap type="values">
-              <ColorMapEntry quantity="0" label="  Breeding area" color="#ff006b" opacity="0.9"/>
+            <ColorMap>
+              <ColorMapEntry color="#ff006b" quantity="0" label="  Breeding area" opacity="0.9" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                          

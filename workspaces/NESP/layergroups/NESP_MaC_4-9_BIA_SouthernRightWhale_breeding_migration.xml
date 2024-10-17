@@ -1,0 +1,37 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--61d22a37:192990fb797:2520</id>
+  <name>NESP_MaC_4-9_BIA_SouthernRightWhale_breeding_migration</name>
+  <mode>SINGLE</mode>
+  <title>NESP MaC Project 4.9 - indicative areas of Southern Right Whale migration &amp; breeding</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--61d22a37:19293ca7ccc:2ff3</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--61d22a37:19293ca7ccc:2f0d</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--61d22a37:19293ca7ccc:1d5e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--61d22a37:19293ca7ccc:1d57</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>67.05000000000007</minx>
+    <maxx>164.70000000000007</maxx>
+    <miny>-60.559999999999945</miny>
+    <maxy>-21.469999999999942</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-10-17 07:38:21.29 UTC</dateCreated>
+  <dateModified>2024-10-17 07:41:08.865 UTC</dateModified>
+</layerGroup>

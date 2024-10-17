@@ -10,10 +10,23 @@
     <UserStyle>
       <Title>Gradient Effect for Raster</Title>
       <FeatureTypeStyle>
+
         <Rule>
           <RasterSymbolizer>
 
-            <Opacity>1</Opacity> <!-- Optional: Adjust for smooth blending -->
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#4f00fa" quantity="0" opacity="0.2" label="  Indicative foraging area" />
+              <ColorMapEntry color="#ff006b" quantity="1" opacity="0.7" />
+             
+            </ColorMap>
+
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                           
+        </Rule>         
+        
+        <Rule>
+          <RasterSymbolizer>
+
             <ColorMap type="ramp">
               <ColorMapEntry color="#4f00fa" quantity="0" opacity="0.1" label="Outer" />
               <ColorMapEntry color="#9c00d2" quantity="200" opacity="0.4" />
@@ -25,6 +38,7 @@
             </ColorMap>
 
           </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                     
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
