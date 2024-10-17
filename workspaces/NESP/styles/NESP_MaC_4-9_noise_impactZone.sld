@@ -32,7 +32,6 @@
               <Size>13</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">legendOnly</VendorOption>                           
         </Rule>
         <Rule>
           <Title>2 km buffer</Title>
@@ -51,7 +50,6 @@
               <CssParameter name="fill-opacity">0.8</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>   
-          <VendorOption name="inclusion">legendOnly</VendorOption>                                     
         </Rule>	
         
         <Rule>
@@ -71,7 +69,6 @@
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>  
-          <VendorOption name="inclusion">legendOnly</VendorOption>                                     
         </Rule>	
         
         <Rule>
@@ -91,88 +88,9 @@
               <CssParameter name="fill-opacity">0.5</CssParameter>				  
             </Fill>
           </PolygonSymbolizer>  
-          <VendorOption name="inclusion">legendOnly</VendorOption>                                     
         </Rule>	
         
-        <Rule>
-          <Title>Impact location (theoretical drilling)</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>buffdist</ogc:PropertyName>
-            </ogc:PropertyIsNull>
-          </ogc:Filter>
-          <PointSymbolizer>         
-            <Graphic>
-              <Mark>
-                <WellKnownName>cross</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#821010</CssParameter>
-                </Fill>
-              </Mark>
-              <Size>13</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                           
-        </Rule>
-        <Rule>
-          <Title>2 km buffer</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>buffdist</ogc:PropertyName>
-              <ogc:Literal>2km</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>	
-          <Geometry>
-             <ogc:PropertyName>geom</ogc:PropertyName>
-          </Geometry>     		  
-            <Fill>
-              <CssParameter name="fill">#ff0101</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>				  
-            </Fill>
-          </PolygonSymbolizer>   
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                     
-        </Rule>	
-        
-        <Rule>
-          <Title>5 km buffer</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>buffdist</ogc:PropertyName>
-              <ogc:Literal>5km</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>	
-          <Geometry>
-             <ogc:PropertyName>geom</ogc:PropertyName>
-          </Geometry>     		  
-            <Fill>
-              <CssParameter name="fill">#f96621</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
-            </Fill>
-          </PolygonSymbolizer>  
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                     
-        </Rule>	
-        
-        <Rule>
-          <Title>10 km buffer</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>buffdist</ogc:PropertyName>
-              <ogc:Literal>10km</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>	
-          <Geometry>
-             <ogc:PropertyName>geom</ogc:PropertyName>
-          </Geometry>     		  
-            <Fill>
-              <CssParameter name="fill">#fdbf6f</CssParameter>
-              <CssParameter name="fill-opacity">0.5</CssParameter>				  
-            </Fill>
-          </PolygonSymbolizer>  
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                     
-        </Rule>	        
+       <VendorOption name="sortBy">sort D</VendorOption>		
         
       </FeatureTypeStyle>
     </UserStyle>
