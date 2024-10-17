@@ -11,7 +11,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--61d22a37:19293ca7ccc:2ff3</id>
+      <id>LayerInfoImpl--61d22a37:19299b52ce0:-70da</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--61d22a37:19293ca7ccc:2f0d</id>
@@ -26,12 +26,12 @@
     </style>
   </styles>
   <bounds>
-    <minx>67.05000000000007</minx>
-    <maxx>164.70000000000007</maxx>
-    <miny>-60.559999999999945</miny>
-    <maxy>-21.469999999999942</maxy>
+    <minx>111.80268733405332</minx>
+    <maxx>153.7166873340533</maxx>
+    <miny>-50.88755002164919</miny>
+    <maxy>-21.739549982999986</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-10-17 07:38:21.29 UTC</dateCreated>
-  <dateModified>2024-10-17 07:41:08.865 UTC</dateModified>
+  <dateModified>2024-10-17 11:03:10.144 UTC</dateModified>
 </layerGroup>
