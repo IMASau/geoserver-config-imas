@@ -11,27 +11,47 @@
   <NamedLayer>
     <Name>Priority species for Offshore Renewable Energy areas: pinnipeds</Name>
     <UserStyle>
-      <FeatureTypeStyle>         
+      <FeatureTypeStyle>  
         <Rule>
-          <Title>Study location (pinnipeds)</Title>
+          <Title>Pinniped studies intersecting wind energy zones</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FaunaGroup</ogc:PropertyName>
-              <ogc:Literal>Pinnipeds</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>intersectFlag</ogc:PropertyName>
+            </ogc:PropertyIsNull>
           </ogc:Filter>           
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#4d4d4d</CssParameter>
-              <CssParameter name="fill-opacity">0.3</CssParameter>				  
+              <CssParameter name="fill">#808080</CssParameter>
+              <CssParameter name="fill-opacity">0.1</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-opacity">0.6</CssParameter>				                
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-opacity">0.2</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+          <Title>Region of direct overlap with wind energy zone</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:Not>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>intersectFlag</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+            </ogc:Not>              
+          </ogc:Filter>           
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#cc0044</CssParameter>
+              <CssParameter name="fill-opacity">0.4</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#cc0044</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

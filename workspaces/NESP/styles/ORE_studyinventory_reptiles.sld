@@ -11,19 +11,39 @@
   <NamedLayer>
     <Name>Priority species for Offshore Renewable Energy areas: reptiles (turtles)</Name>
     <UserStyle>
-      <FeatureTypeStyle>         
+      <FeatureTypeStyle> 
         <Rule>
-          <Title>Study location (turtles)</Title>
+          <Title>Turtle studies intersecting wind energy zones</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FaunaGroup</ogc:PropertyName>
-              <ogc:Literal>Reptiles</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>intersectFlag</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>           
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#808080</CssParameter>
+              <CssParameter name="fill-opacity">0.1</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-opacity">0.2</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Region of direct overlap with wind energy zone</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:Not>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>intersectFlag</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+            </ogc:Not>              
           </ogc:Filter>           
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2d8659</CssParameter>
-              <CssParameter name="fill-opacity">0.3</CssParameter>				  
+              <CssParameter name="fill-opacity">0.4</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#2d8659</CssParameter>
@@ -31,7 +51,7 @@
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>General study location (birds)</Title>
+          <Title>Bird studies intersecting wind energy zones</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsNull>
               <ogc:PropertyName>intersectFlag</ogc:PropertyName>
@@ -26,13 +26,13 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-opacity">0.1</CssParameter>				                
+              <CssParameter name="stroke-opacity">0.2</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Bird study intersection with wind zones</Title>
+          <Title>Region of direct overlap with wind energy zone</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:Not>
             <ogc:PropertyIsNull>
@@ -43,7 +43,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff8000</CssParameter>
-              <CssParameter name="fill-opacity">0.5</CssParameter>				  
+              <CssParameter name="fill-opacity">0.4</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#ff8000</CssParameter>

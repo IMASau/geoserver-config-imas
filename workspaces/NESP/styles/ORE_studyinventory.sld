@@ -102,11 +102,11 @@
           </ogc:Filter>          
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#4d4d4d</CssParameter>
+              <CssParameter name="fill">#cc0044</CssParameter>
               <CssParameter name="fill-opacity">0.3</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#4d4d4d</CssParameter>
+              <CssParameter name="stroke">#cc0044</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
