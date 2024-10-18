@@ -11,19 +11,39 @@
   <NamedLayer>
     <Name>Priority species for Offshore Renewable Energy areas: cetaceans</Name>
     <UserStyle>
-      <FeatureTypeStyle>         
+      <FeatureTypeStyle>  
         <Rule>
-          <Title>Study location (cetaceans)</Title>
+          <Title>General study location (cetaceans)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>FaunaGroup</ogc:PropertyName>
-              <ogc:Literal>Cetaceans</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>intersectFlag</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>           
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#808080</CssParameter>
+              <CssParameter name="fill-opacity">0.05</CssParameter>				  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-opacity">0.1</CssParameter>				                
+              <CssParameter name="stroke-width">0.4</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Cetacean study intersection with wind zones</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:Not>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>intersectFlag</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+            </ogc:Not>              
           </ogc:Filter>           
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#000066</CssParameter>
-              <CssParameter name="fill-opacity">0.3</CssParameter>				  
+              <CssParameter name="fill-opacity">0.5</CssParameter>				  
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000066</CssParameter>
