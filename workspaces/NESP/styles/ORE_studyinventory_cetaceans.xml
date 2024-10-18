@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b97</id>
-  <name>studyinventory_cetaceans</name>
+  <name>ORE_studyinventory_cetaceans</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>studyinventory_cetaceans.sld</filename>
+  <filename>ORE_studyinventory_cetaceans.sld</filename>
   <dateCreated>2024-09-29 00:45:59.367 UTC</dateCreated>
-  <dateModified>2024-10-18 20:59:38.775 UTC</dateModified>
+  <dateModified>2024-10-18 21:02:42.986 UTC</dateModified>
 </style>

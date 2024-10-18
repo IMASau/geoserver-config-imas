@@ -1,17 +1,17 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3f0178af:1923a6f2a09:-53c4</id>
-  <name>NESP_MaC_3-3_ORE_publicationInventory__CETACEANS</name>
-  <nativeName>NESP_MaC_3_3_ORE_prioritySpp_studyInventory</nativeName>
+  <id>FeatureTypeInfoImpl--61d22a37:192a17fc8d4:-1bc9</id>
+  <name>NESP_MaC_3-3_ORE_publicationInventory_MACROALGAE</name>
+  <nativeName>NESP_MaC_3_3_ORE_prioritySpp_studyInventory_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-3f0178af:1923a6f2a09:-546b</id>
   </namespace>
-  <title>NESP MaC Project 3.23 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: cetacean species</title>
-  <abstract>NESP Marine and Coastal Hub Project 3.21. This dataset shows the spatial coverage and associated metadata of a publication inventory of priority species of relevance to Offshore Renewable Energy (ORE) developments in Australia, especially in the Gippsland region.&#xd;
+  <title>NESP MaC Project 3.3 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: macroalgae species</title>
+  <abstract>NESP Marine and Coastal Hub Project 3.3. This dataset shows the spatial coverage and associated metadata of a publication inventory of priority species of relevance to Offshore Renewable Energy (ORE) developments in Australia, especially in the Gippsland region.&#xd;
 &#xd;
-This layer shows a subset of the publication inventory for cetacean (whale/dolphin) species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
+This layer shows a subset of the publication inventory for macroalgae (seaweed) species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
   <keywords>
     <string>features</string>
-    <string>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</string>
+    <string>NESP_MaC_3_3_ORE_prioritySpp_studyInventory_MAP</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -24,32 +24,33 @@ This layer shows a subset of the publication inventory for cetacean (whale/dolph
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.23348000014884</minx>
-    <maxx>162.92864486190302</maxx>
-    <miny>-47.19364100050291</miny>
-    <maxy>-8.883333000726326</maxy>
+    <minx>134.6290111651891</minx>
+    <maxx>150.56256091833978</maxx>
+    <miny>-44.41002781059271</miny>
+    <maxy>-34.11961026191065</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.23348000014884</minx>
-    <maxx>162.92864486190302</maxx>
-    <miny>-47.19364100050291</miny>
-    <maxy>-8.883333000726326</maxy>
+    <minx>134.6290111651891</minx>
+    <maxx>150.56256091833978</maxx>
+    <miny>-44.41002781059271</miny>
+    <maxy>-34.11961026191065</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
   </store>
-  <serviceConfiguration>true</serviceConfiguration>
+  <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>FaunaGroup = &apos;Cetaceans&apos;</cqlFilter>
+  <cqlFilter>FaunaGroup = &apos;Macroalgae&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

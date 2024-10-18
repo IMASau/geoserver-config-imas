@@ -1,17 +1,17 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3f0178af:1923a6f2a09:-53bf</id>
-  <name>NESP_MaC_3-3_ORE_publicationInventory__MACROALGAE</name>
-  <nativeName>NESP_MaC_3_3_ORE_prioritySpp_studyInventory</nativeName>
+  <id>FeatureTypeInfoImpl--61d22a37:192a17cd5ed:18d5</id>
+  <name>NESP_MaC_3-3_ORE_publicationInventory_PINNIPEDS</name>
+  <nativeName>NESP_MaC_3_3_ORE_prioritySpp_studyInventory_MAP</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-3f0178af:1923a6f2a09:-546b</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MaC Project 3.3 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: macroalgae species</title>
+  <title>NESP MaC Project 3.3 - spatial coverage of study areas from a publication inventory of ORE-relevant priority species: pinniped species</title>
   <abstract>NESP Marine and Coastal Hub Project 3.21. This dataset shows the spatial coverage and associated metadata of a publication inventory of priority species of relevance to Offshore Renewable Energy (ORE) developments in Australia, especially in the Gippsland region.&#xd;
 &#xd;
-This layer shows a subset of the publication inventory for macroalgae (seaweed) species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
+This layer shows a subset of the publication inventory for pinniped (seal/sea lion) species. See layer &apos;NESP:NESP_MaC_3-3_ORE_publicationInventory_prioritySpp&apos; for the complete publication inventory.</abstract>
   <keywords>
     <string>features</string>
-    <string>NESP_MaC_3_3_ORE_prioritySpp_publishedstudies_inventory</string>
+    <string>NESP_MaC_3_3_ORE_prioritySpp_studyInventory_MAP</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -24,35 +24,30 @@ This layer shows a subset of the publication inventory for macroalgae (seaweed) 
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>134.6290111651891</minx>
-    <maxx>150.56256091833978</maxx>
-    <miny>-44.41002781059271</miny>
-    <maxy>-34.11961026191065</maxy>
+    <minx>105.35379301787643</minx>
+    <maxx>163.1920850001661</maxx>
+    <miny>-47.34817266616141</miny>
+    <maxy>-6.636981361783436</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>134.6290111651891</minx>
-    <maxx>150.56256091833978</maxx>
-    <miny>-44.41002781059271</miny>
-    <maxy>-34.11961026191065</maxy>
+    <minx>105.35379301787643</minx>
+    <maxx>163.1920850001661</maxx>
+    <miny>-47.34817266616141</miny>
+    <maxy>-6.636981361783436</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
+  <advertised>false</advertised>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-3f0178af:1923a6f2a09:-5466</id>
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
-  <disabledServices>
-    <string>WFS</string>
-  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>FaunaGroup = &apos;Macroalgae&apos;</cqlFilter>
+  <cqlFilter>FaunaGroup = &apos;Pinnipeds&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

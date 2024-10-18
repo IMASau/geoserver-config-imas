@@ -9,18 +9,24 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Priority species for Offshore Renewable Energy areas: birds</Name>
+    <Name>Priority species for Offshore Renewable Energy areas: cetaceans</Name>
     <UserStyle>
       <FeatureTypeStyle>         
         <Rule>
-          <Title>Study location (birds)</Title>
+          <Title>Study location (cetaceans)</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>FaunaGroup</ogc:PropertyName>
+              <ogc:Literal>Cetaceans</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>           
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ff8000</CssParameter>
+              <CssParameter name="fill">#000066</CssParameter>
               <CssParameter name="fill-opacity">0.3</CssParameter>				  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#ff8000</CssParameter>
+              <CssParameter name="stroke">#000066</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>				                
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>            
