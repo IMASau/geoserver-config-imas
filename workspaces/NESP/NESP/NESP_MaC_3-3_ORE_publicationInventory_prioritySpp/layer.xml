@@ -5,6 +5,26 @@
   <defaultStyle>
     <id>StyleInfoImpl-3f0178af:1923f6a130b:25a1</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b8c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b93</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b90</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b89</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b97</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3f0178af:1923a6f2a09:-2b9a</id>
+    </style>
+  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-3f0178af:1923a6f2a09:-54ad</id>
   </resource>
@@ -13,5 +33,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-09-28 21:45:48.640 UTC</dateCreated>
-  <dateModified>2024-09-30 04:02:23.892 UTC</dateModified>
+  <dateModified>2024-10-18 20:58:43.44 UTC</dateModified>
 </layer>
