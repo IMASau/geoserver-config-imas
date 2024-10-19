@@ -7,7 +7,7 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Stripey Trumpeter fishing effort (d)</Name>
+    <Name>Scalefish fishing effort (d)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>

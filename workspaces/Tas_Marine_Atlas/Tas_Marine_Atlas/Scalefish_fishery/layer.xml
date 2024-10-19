@@ -1,0 +1,16 @@
+<layer>
+  <name>Scalefish_fishery</name>
+  <id>LayerInfoImpl--61d22a37:192a5c446da:2791</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-318c5527:192658f26a3:6fec</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--61d22a37:192a5c446da:2790</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-19 22:47:03.395 UTC</dateCreated>
+</layer>
