@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle>  
         <Rule>
-          <Title>Cetacean studies intersecting wind energy zones</Title>
+          <Title>Cetacean studies intersecting ORE zones</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsNull>
               <ogc:PropertyName>intersectFlag</ogc:PropertyName>
@@ -21,7 +21,7 @@
           </ogc:Filter>           
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#808080</CssParameter>
+              <CssParameter name="fill">#cc0044</CssParameter>
               <CssParameter name="fill-opacity">0.08</CssParameter>				  
             </Fill>
             <Stroke>
@@ -32,7 +32,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Region of direct overlap with wind energy zone</Title>
+          <Title>Region of direct overlap with ORE zone</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:Not>
             <ogc:PropertyIsNull>

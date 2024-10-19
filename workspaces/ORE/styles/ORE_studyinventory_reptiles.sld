@@ -13,7 +13,7 @@
     <UserStyle>
       <FeatureTypeStyle> 
         <Rule>
-          <Title>Turtle studies intersecting wind energy zones</Title>
+          <Title>Turtle studies intersecting ORE zones</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsNull>
               <ogc:PropertyName>intersectFlag</ogc:PropertyName>
@@ -32,7 +32,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Region of direct overlap with wind energy zone</Title>
+          <Title>Region of direct overlap with ORE zone</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:Not>
             <ogc:PropertyIsNull>
