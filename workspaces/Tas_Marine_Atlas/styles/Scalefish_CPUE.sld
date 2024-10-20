@@ -89,7 +89,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>No catch recorded</Title>
           <ogc:Filter>
               <ogc:PropertyIsNull>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:PropertyName>CPUE</ogc:PropertyName>
               </ogc:PropertyIsNull>
           </ogc:Filter>
           <PolygonSymbolizer>
