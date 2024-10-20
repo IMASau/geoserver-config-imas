@@ -4,6 +4,7 @@
     <!-- Assign Catch and Effort with conditional checks for null -->
     <#assign Catch = feature.Catch.value?has_content?then(feature.Catch.value?number, 0)>
     <#assign Effort = feature.Effort.value?has_content?then(feature.Effort.value?number, 0)>
+    <#assign CPUE = feature.CPUE.value?has_content?then(feature.CPUE.value?number, 0)>
 
     <!-- Calculate next year for displayyear range -->
     <#assign year_start = feature.displayyear.value?number>
@@ -25,6 +26,15 @@
         <#if Effort?? && Effort != 0>
             <b>Effort:</b> ${Effort?string("0")} days<br>
         </#if>
+
+        <!-- Check if CPUE is not zero or null -->
+        <#if CPUE?? && CPUE != 0>
+            <b>CPUE:</b> ${CPUE?string("0.0")} kg/day<br>
+        <#else>
+            <i>No CPUE reported</i><br>
+        </#if>
+
+
     </div>
     <#else>
         <i>Multiple fishing blocks exist at this point. Zoom in for higher precision.</i>
