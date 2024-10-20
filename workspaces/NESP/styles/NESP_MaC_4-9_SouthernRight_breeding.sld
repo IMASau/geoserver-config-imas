@@ -13,7 +13,7 @@
        <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#ff006b" quantity="0" label="  Breeding area" opacity="0.9" />
+              <ColorMapEntry color="#a64dff" quantity="0" label="  Breeding area" opacity="0.9" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                          
@@ -21,11 +21,11 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#ff66be" quantity="-5" label="  Breeding" opacity="0.1" />
-              <ColorMapEntry color="#ff66be" quantity="1" label="  Breeding" opacity="0.3" />
-              <ColorMapEntry color="#ff66be" quantity="2" label="  Breeding" opacity="0.4" />               
-              <ColorMapEntry color="#ff66be" quantity="3" label="  Breeding" opacity="0.8" />                            
-              <ColorMapEntry color="#ff006b" quantity="250" label="  Breeding" opacity="0.9" />
+              <ColorMapEntry color="#a64dff" quantity="-5" label="  Breeding" opacity="0.1" />
+              <ColorMapEntry color="#a64dff" quantity="1" label="  Breeding" opacity="0.3" />
+              <ColorMapEntry color="#a64dff" quantity="2" label="  Breeding" opacity="0.4" />               
+              <ColorMapEntry color="#a64dff" quantity="3" label="  Breeding" opacity="0.8" />                            
+              <ColorMapEntry color="#a64dff" quantity="250" label="  Breeding" opacity="0.9" />
               <ColorMapEntry color="#ffffff" quantity="10000" label="  Breeding" opacity="0" />              
               
             </ColorMap>
