@@ -13,7 +13,7 @@
     <h5>${feature.Species.value}: ${year_start?c}-${year_end?c}</h5>
 
     <div class="feature" style="padding-bottom:7px"> 
-        <p><i>Fishing block <b>${feature.Block.value}</b></i></p>
+        <p style="margin-bottom: 6px;"><i>Fishing block <b>${feature.Block.value}</b></i></p>
 
         <!-- Check if Catch is not zero or null -->
         <#if Catch?? && Catch != 0>
