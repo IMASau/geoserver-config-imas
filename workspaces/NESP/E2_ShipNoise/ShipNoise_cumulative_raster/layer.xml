@@ -1,16 +1,17 @@
 <layer>
   <name>ShipNoise_cumulative_raster</name>
-  <id>LayerInfoImpl--6f2cc50d:180fab0394e:eb3</id>
+  <id>LayerInfoImpl--61d22a37:192a9727646:774e</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-19fc1e69:17835d7bbbd:317a</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--6f2cc50d:180fab0394e:eb2</id>
+    <id>CoverageInfoImpl--61d22a37:192a9727646:774d</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2024-10-20 12:16:38.977 UTC</dateModified>
+  <dateCreated>2024-10-20 13:35:35.518 UTC</dateCreated>
+  <dateModified>2024-10-20 13:43:52.772 UTC</dateModified>
 </layer>

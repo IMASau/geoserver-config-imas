@@ -6,6 +6,16 @@
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
   <__default>false</__default>
+  <dateModified>2024-10-20 13:34:30.781 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/480847b4-b692-4112-89ff-0dcef75e3b84/ShipNoise.tif</url>
 </coverageStore>
