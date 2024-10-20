@@ -115,16 +115,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>0.001 - 3.8</Title>
+          <Title>0.001 - 0.03</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>0.001</ogc:Literal>
-              </ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>3.8</ogc:Literal>
+                <ogc:Literal>0.03</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -139,16 +139,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>3.81 - 7.5</Title>
+          <Title>0.03 - 0.1</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>3.81</ogc:Literal>
+                <ogc:Literal>0.03</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>7.5</ogc:Literal>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -163,16 +163,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>7.51 - 11.3</Title>
+          <Title>0.1 - 0.4</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>7.51</ogc:Literal>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>11.3</ogc:Literal>
+                <ogc:Literal>0.4</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -187,16 +187,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>11.31 - 15.1</Title>
+          <Title>0.4 - 1.2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>11.31</ogc:Literal>
+                <ogc:Literal>0.4</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>15.1</ogc:Literal>
+                <ogc:Literal>1.2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -211,11 +211,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>> 15.1</Title>
+          <Title>> 1.2</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>15.1</ogc:Literal>
+                <ogc:Literal>1.2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
