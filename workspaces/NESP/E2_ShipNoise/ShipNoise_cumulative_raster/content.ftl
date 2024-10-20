@@ -4,7 +4,7 @@
 	<h5>Cumulative sound exposure from shipping</h5>
 	<br>
 		<div class="feature"> 
-		<b>${feature.GRAY_INDEX.rawValue?string("0.0")} SEL</b> <i>Shipping noise (dB re 1&#181;Pa&#178;s) for all vessel size classes</i>
+		<b>${feature.GRAY_INDEX.rawValue?string("0.0")} SEL</b> <i>(all vessel size classes in dB re 1&#181;Pa&#178;s)</i>
 			<BR>    
 		</div>
         </#if>

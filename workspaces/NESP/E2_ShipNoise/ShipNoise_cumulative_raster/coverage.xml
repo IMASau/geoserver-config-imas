@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>MAP - Cumulative sound exposure from shipping in Aus EEZ (raster product)</title>
+  <title>Cumulative sound exposure from wind in Aus EEZ (raster product)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>NESP MBH Project E2 - Cumulative 6 month sound exposure from shipping in Aus EEZ (raster product)</abstract>
   <keywords>
@@ -68,6 +68,8 @@
     <id>CoverageStoreInfoImpl-19fc1e69:1783f2e8dff:245</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -120,6 +122,10 @@
     <string>EPSG:3112</string>
   </responseSRS>
   <parameters>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
+    </entry>
     <entry>
       <string>InputTransparentColor</string>
       <null/>
