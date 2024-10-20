@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--61d22a37:192a9727646:6fc4</id>
+  <name>NESP_MaC_4-9_Noise_ImpactZone</name>
+  <mode>SINGLE</mode>
+  <title>NESP MaC Project 4.9 - theoretical noise Impact Zone from pile drilling in Gippsland &amp; Southern Ocean ORE areas</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--61d22a37:19293ca7ccc:44fc</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--61d22a37:19297174422:2920</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--61d22a37:19293ca7ccc:42a3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--61d22a37:19297174422:2917</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>141.9532591590884</minx>
+    <maxx>152.86448333300007</maxx>
+    <miny>-40.050002777999964</miny>
+    <maxy>-32.701227777999975</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-10-20 11:51:48.930 UTC</dateCreated>
+  <dateModified>2024-10-20 11:55:12.938 UTC</dateModified>
+</layerGroup>

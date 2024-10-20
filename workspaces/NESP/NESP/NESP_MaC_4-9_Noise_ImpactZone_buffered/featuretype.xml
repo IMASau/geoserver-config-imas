@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--61d22a37:19297174422:291f</id>
-  <name>NESP_MaC_4-9_Noise_ImpactZone</name>
+  <name>NESP_MaC_4-9_Noise_ImpactZone_buffered</name>
   <nativeName>NESP_MaC_4_9_Noise_ImpactZone</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
@@ -36,6 +36,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

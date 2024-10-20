@@ -30,7 +30,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#3bdb13</CssParameter>
-              <CssParameter name="fill-opacity">0.9</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
              
             </Fill>	
             <Stroke>
