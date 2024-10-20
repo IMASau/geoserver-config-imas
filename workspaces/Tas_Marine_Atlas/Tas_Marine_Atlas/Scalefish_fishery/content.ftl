@@ -11,9 +11,9 @@
     <#assign year_end = year_start + 1>
 
     <h5>${feature.Species.value}: ${year_start?c}-${year_end?c}</h5>
-    <br>
+
     <div class="feature" style="padding-bottom:7px"> 
-        <b>Fishing block:</b> ${feature.Block.value}<br>
+        <p><i>Fishing block <b>${feature.Block.value}</b></i></p>
 
         <!-- Check if Catch is not zero or null -->
         <#if Catch?? && Catch != 0>
@@ -30,8 +30,6 @@
         <!-- Check if CPUE is not zero or null -->
         <#if CPUE?? && CPUE != 0>
             <b>CPUE:</b> ${CPUE?string("0.0")} kg/day<br>
-        <#else>
-            <i>No CPUE reported</i><br>
         </#if>
 
 

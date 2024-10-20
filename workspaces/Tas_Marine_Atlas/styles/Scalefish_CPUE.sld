@@ -115,7 +115,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>&#8804; 29.2</Title>
+          <Title>0.001 - 20.9</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -124,7 +124,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>29.2</ogc:Literal>
+                <ogc:Literal>20.9</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -139,16 +139,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>29.3 - 258.4</Title>
+          <Title>> 20.9 - 53.7</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>29.2</ogc:Literal>
+                <ogc:Literal>20.9</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>258.4</ogc:Literal>
+                <ogc:Literal>53.9</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -163,16 +163,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>258.5 - 387.6</Title>
+          <Title>> 53.9 - 144.8</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>2584</ogc:Literal>
+                <ogc:Literal>53.9</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>387.6</ogc:Literal>
+                <ogc:Literal>144.8</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -187,16 +187,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>387.7 - 516.8</Title>
+          <Title>> 144.8 - 304</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>387.6</ogc:Literal>
+                <ogc:Literal>144.8</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>516.8</ogc:Literal>
+                <ogc:Literal>304</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -211,11 +211,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>> 518.8</Title>
+          <Title>> 304</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>CPUE</ogc:PropertyName>
-                <ogc:Literal>516.8</ogc:Literal>
+                <ogc:Literal>304</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>

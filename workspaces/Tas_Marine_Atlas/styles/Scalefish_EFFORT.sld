@@ -115,7 +115,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>1 - 49</Title>
+          <Title>1 - 18</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -124,7 +124,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>49</ogc:Literal>
+                <ogc:Literal>18</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -139,16 +139,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>50 - 97</Title>
+          <Title>19 - 52</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>50</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+                <ogc:Literal>19</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>97</ogc:Literal>
+                <ogc:Literal>52</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -163,16 +163,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>98 - 144</Title>
+          <Title>53 - 99</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>98</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+                <ogc:Literal>53</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>144</ogc:Literal>
+                <ogc:Literal>99</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -187,16 +187,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>145 - 192</Title>
+          <Title>100 - 162</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>145</ogc:Literal>
+                <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>192</ogc:Literal>
+                <ogc:Literal>162</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -211,11 +211,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&#8805; 193</Title>
+          <Title>&gt; 162</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>193</ogc:Literal>
+                <ogc:Literal>162</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
