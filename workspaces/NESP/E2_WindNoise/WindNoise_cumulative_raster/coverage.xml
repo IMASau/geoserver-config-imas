@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--6f2cc50d:180fab0394e:d7c</id>
+  <id>CoverageInfoImpl--61d22a37:192aa84e966:-21e6</id>
   <name>WindNoise_cumulative_raster</name>
   <nativeName>WindNoise_cumulative_raster</nativeName>
   <namespace>
@@ -13,54 +13,43 @@
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/0d3c7edc-463a-4fa0-8039-4d5a779035c3</content>
-    </metadataLink>
-  </metadataLinks>
-  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
-  GEOGCS[&quot;GDA94&quot;, 
-    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
-      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
-      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
-      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 53N&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
     PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
     UNIT[&quot;degree&quot;, 0.017453292519943295], 
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
-  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 135.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
-  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
   PARAMETER[&quot;false_northing&quot;, 0.0], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
   UNIT[&quot;m&quot;, 1.0], 
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
+  AUTHORITY[&quot;EPSG&quot;,&quot;32653&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>101.6328916036118</minx>
-    <maxx>169.7635534778573</maxx>
-    <miny>-47.97299415103989</miny>
-    <maxy>-6.258385825713738</maxy>
+    <minx>102.40361372863917</minx>
+    <maxx>168.89567357526295</maxx>
+    <miny>-47.96752660198655</miny>
+    <maxy>-8.006696157173478</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>101.6328916036118</minx>
-    <maxx>169.7635534778573</maxx>
-    <miny>-47.97299415103989</miny>
-    <maxy>-6.258385825713738</maxy>
+    <minx>102.40361372863917</minx>
+    <maxx>168.89567357526295</maxx>
+    <miny>-47.96752660198655</miny>
+    <maxy>-8.006696157173478</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">E2_WindNoise_WindNoise</entry>
@@ -69,30 +58,31 @@
     <id>CoverageStoreInfoImpl--30c0f569:1785c768c28:-7d1c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>5540 4379</high>
+      <high>54495 43407</high>
     </range>
     <transform>
-      <scaleX>1000.0</scaleX>
-      <scaleY>-1000.0</scaleY>
+      <scaleX>100.0</scaleX>
+      <scaleY>-100.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-2624424.141861235</translateX>
-      <translateY>-1037517.88645293</translateY>
+      <translateX>-2160400.0</translateX>
+      <translateY>-972400.0</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -117,16 +107,12 @@
     </coverageDimension>
   </dimensions>
   <requestSRS>
-    <string>EPSG:3112</string>
+    <string>EPSG:32653</string>
   </requestSRS>
   <responseSRS>
-    <string>EPSG:3112</string>
+    <string>EPSG:32653</string>
   </responseSRS>
   <parameters>
-    <entry>
-      <string>RescalePixels</string>
-      <boolean>false</boolean>
-    </entry>
     <entry>
       <string>InputTransparentColor</string>
       <null/>
@@ -134,6 +120,14 @@
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
+    </entry>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
     </entry>
   </parameters>
   <nativeCoverageName>WindNoise</nativeCoverageName>

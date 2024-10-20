@@ -6,6 +6,16 @@
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
   <__default>false</__default>
+  <dateModified>2024-10-20 20:22:19.884 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/0d3c7edc-463a-4fa0-8039-4d5a779035c3/WindNoise.tif</url>
 </coverageStore>
