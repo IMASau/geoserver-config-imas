@@ -8,7 +8,7 @@
   <title>NESP MaC Project 4.9 - marine regions of importance to Southern Right Whales &amp; Pygmy Blue Whales (Vic Marine Assets, national Key Ecological Features)</title>
   <keywords>
     <string>features</string>
-    <string>NESP_MaC_4_9_VicMarineAssets</string>
+    <string>NESP_MaC_4_9_regionsOfImportance</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -21,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>142.2199009362732</minx>
+    <minx>138.87506103515625</minx>
     <maxx>144.03151138602308</maxx>
     <miny>-38.77232500758037</miny>
-    <maxy>-38.349417593605274</maxy>
+    <maxy>-35.93021119419433</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>142.2199009362732</minx>
+    <minx>138.87506103515625</minx>
     <maxx>144.03151138602308</maxx>
     <miny>-38.77232500758037</miny>
-    <maxy>-38.349417593605274</maxy>
+    <maxy>-35.93021119419433</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

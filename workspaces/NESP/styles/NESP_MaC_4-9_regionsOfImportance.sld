@@ -66,8 +66,6 @@
             <!-- Vendor options to manage label behavior -->
             <VendorOption name="partials">true</VendorOption>
             <VendorOption name="spaceAround">5</VendorOption>
-            <VendorOption name="group">true</VendorOption>
-            <VendorOption name="conflictResolution">true</VendorOption>
           </TextSymbolizer>
 
           <!-- Rule for rendering only on the map -->
@@ -110,7 +108,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffc001</CssParameter>
-              <CssParameter name="fill-opacity">0.2</CssParameter>
+              <CssParameter name="fill-opacity">0.15</CssParameter>
             </Fill>
           </PolygonSymbolizer>
 
@@ -124,7 +122,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#f9e006</CssParameter>
                       <CssParameter name="stroke-width">1.5</CssParameter>
-                      <CssParameter name="stroke-opacity">0.8</CssParameter>                      
+                      <CssParameter name="stroke-opacity">0.6</CssParameter>                      
                     </Stroke>
                   </Mark>
                   <Size>8</Size>
@@ -171,7 +169,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffc001</CssParameter>
-              <CssParameter name="fill-opacity">0.2</CssParameter>
+              <CssParameter name="fill-opacity">0.15</CssParameter>
             </Fill>
           </PolygonSymbolizer>
 
@@ -185,6 +183,7 @@
                     <Stroke>
                       <CssParameter name="stroke">#ff9e01</CssParameter>
                       <CssParameter name="stroke-width">0.9</CssParameter>
+                      <CssParameter name="stroke-opacity">0.6</CssParameter>                                            
                     </Stroke>
                   </Mark>
                   <Size>8</Size>
@@ -203,6 +202,8 @@
                     <Stroke>
                       <CssParameter name="stroke">#ff9e01</CssParameter>
                       <CssParameter name="stroke-width">0.9</CssParameter>
+                      <CssParameter name="stroke-opacity">0.6</CssParameter>                                            
+                      
                     </Stroke>
                   </Mark>
                   <Size>8</Size>
