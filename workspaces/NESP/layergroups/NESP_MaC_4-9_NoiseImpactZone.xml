@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--61d22a37:192a9727646:6fc4</id>
-  <name>NESP_MaC_4-9_Noise_ImpactZone</name>
+  <name>NESP_MaC_4-9_NoiseImpactZone</name>
   <mode>SINGLE</mode>
   <title>NESP MaC Project 4.9 - theoretical noise Impact Zone from pile drilling in Gippsland &amp; Southern Ocean ORE areas</title>
   <workspace>
@@ -32,5 +32,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-10-20 11:51:48.930 UTC</dateCreated>
-  <dateModified>2024-10-20 11:55:12.938 UTC</dateModified>
+  <dateModified>2024-10-22 02:07:54.590 UTC</dateModified>
 </layerGroup>
