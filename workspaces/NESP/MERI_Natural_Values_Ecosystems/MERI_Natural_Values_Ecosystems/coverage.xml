@@ -11,7 +11,6 @@
 &#xd;
 Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores and Islands (including cays and islets)</abstract>
   <keywords>
-    <string>ecosystem-types-27class-naland-18112021</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -29,26 +28,28 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
     <minx>109.10012207</minx>
     <maxx>171.80262207</maxx>
     <miny>-47.299938964999996</miny>
-    <maxy>-8.469938965</maxy>
+    <maxy>-8.469938964999997</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>109.10012207</minx>
     <maxx>171.80262207</maxx>
     <miny>-47.299938964999996</miny>
-    <maxy>-8.469938965</maxy>
+    <maxy>-8.469938964999997</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">NESP_MERI_ecosystem-types-27class-naland-18112021</entry>
+    <entry key="dirName">NESP_MERI_ecosystem-types-27class-naland</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-19c3df12:180c6c8e7e2:-3481</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -102,6 +103,10 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
   </responseSRS>
   <parameters>
     <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
@@ -110,5 +115,5 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>ecosystem-types-27class-naland-18112021</nativeCoverageName>
+  <nativeCoverageName>ecosystem-types-27class-naland</nativeCoverageName>
 </coverage>
