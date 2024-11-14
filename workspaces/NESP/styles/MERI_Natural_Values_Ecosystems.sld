@@ -27,7 +27,7 @@
               <ColorMapEntry quantity="14" label="  Oceanic mesophotic coral reefs &#8227;" color="#e7689f"/>
               <ColorMapEntry quantity="15" label="  Rariphotic shelf reefs &#8227;" color="#df0003"/>
               <ColorMapEntry quantity="16" label="  Upper slope reefs" color="#ffe400"/>
-              <ColorMapEntry quantity="17" label="  Mid slope reef" color="#b1c706"/>
+              <ColorMapEntry quantity="17" label="  Mid slope reefs" color="#b1c706"/>
               <ColorMapEntry quantity="18" label="  Seamount reefs &#8227;" color="#9eed7c"/>
               
               <ColorMapEntry quantity="7" label="  Shelf incising canyons &#8227;" color="#848484"/>
