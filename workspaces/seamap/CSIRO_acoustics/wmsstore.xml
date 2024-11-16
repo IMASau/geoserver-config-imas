@@ -1,0 +1,20 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl--3607d668:19335c11aaa:-6567</id>
+  <name>CSIRO_acoustics</name>
+  <description>CSIRO holdings of backscatter (acoustic) data</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-11-16 22:36:05.749 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <capabilitiesURL>https://www.cmar.csiro.au/geoserver/acoustics/wms</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>

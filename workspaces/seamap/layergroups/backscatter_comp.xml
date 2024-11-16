@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--3607d668:19335c11aaa:-6523</id>
+  <name>backscatter_comp</name>
+  <mode>SINGLE</mode>
+  <queryDisabled>true</queryDisabled>
+  <title>Multi-resolution acoustic reflectance of the Australian margin (CSIRO/NESP)</title>
+  <abstractTxt>A collation of seabed backscatter data from multibeam bathymetry surveys of the Australian margin held by CSIRO in or around 2010. The layer group includes data gridded at both low (~300m) and high (~30m) resolutions, with higher-resolution data prioritised where overlaps occur.&#xd;
+&#xd;
+The acoustic reflectance intensity has been harmonised across surveys to provide a continuous representation of seabed hardness, with darker areas indicating likely reef (acoustically &quot;harder&quot;) and paler areas representing likely sediments (acoustically &quot;softer&quot;).</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--3607d668:19335c11aaa:-655b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3607d668:19335c11aaa:-654c</id>
+    </published>
+  </publishables>
+  <styles>
+    <style/>
+    <style/>
+  </styles>
+  <bounds>
+    <minx>97.0</minx>
+    <maxx>178.0</maxx>
+    <miny>-48.0</miny>
+    <maxy>-3.0</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-11-16 22:49:07.324 UTC</dateCreated>
+  <dateModified>2024-11-16 22:54:23.289 UTC</dateModified>
+</layerGroup>

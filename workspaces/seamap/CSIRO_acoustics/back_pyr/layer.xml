@@ -1,0 +1,17 @@
+<layer>
+  <name>back_pyr</name>
+  <id>LayerInfoImpl--3607d668:19335c11aaa:-655b</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--3607d668:19335c11aaa:-655c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-11-16 22:38:49.394 UTC</dateCreated>
+  <dateModified>2024-11-16 22:39:55.330 UTC</dateModified>
+</layer>

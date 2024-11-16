@@ -1,0 +1,17 @@
+<layer>
+  <name>back300_pyramid</name>
+  <id>LayerInfoImpl--3607d668:19335c11aaa:-654c</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--3607d668:19335c11aaa:-654d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-11-16 22:39:11.365 UTC</dateCreated>
+  <dateModified>2024-11-16 22:39:41.95 UTC</dateModified>
+</layer>
