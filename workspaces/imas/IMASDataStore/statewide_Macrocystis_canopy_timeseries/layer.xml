@@ -1,0 +1,17 @@
+<layer>
+  <name>statewide_Macrocystis_canopy_timeseries</name>
+  <id>LayerInfoImpl--3607d668:19338a3770d:-4f3d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3607d668:19338a3770d:-4f2f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3607d668:19338a3770d:-4f3e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-11-17 15:12:07.141 UTC</dateCreated>
+  <dateModified>2024-11-17 15:24:22.533 UTC</dateModified>
+</layer>
