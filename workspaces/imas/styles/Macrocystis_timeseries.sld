@@ -12,19 +12,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Name>Macrocystis canopy cover from Landsat imagery</Name>
     <UserStyle>
       <Title>Macrocystis canopy extent</Title>
-      <FeatureTypeStyle>	          
+      <FeatureTypeStyle>
         <Rule>
-          <Title>Macrocystis present</Title>
-		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#00cc00</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>				  
-            </Fill>			
-          </PolygonSymbolizer>
-        </Rule>         
-        <Rule>
-          <Title>Canopy present (zoomed out)</Title>
+          <Title>Macrocystis present (zoomed out)</Title>
 		  <MinScaleDenominator>200000</MinScaleDenominator>		  
           <PolygonSymbolizer>			  
             <Fill>
@@ -37,7 +27,33 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke-width">5</CssParameter>
 			</Stroke>        
           </PolygonSymbolizer>
-        </Rule>			
+        </Rule>        
+        <Rule>
+          <Title>Coverage of Macrocystis surface canopy</Title>
+		  <MinScaleDenominator>50000</MinScaleDenominator>			            
+		  <MaxScaleDenominator>200000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#00cc00</CssParameter>
+              <CssParameter name="fill-opacity">0.75</CssParameter>				  
+            </Fill>	
+			<Stroke>
+              <CssParameter name="stroke">#00cc00</CssParameter>
+              <CssParameter name="stroke-opacity">1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+			</Stroke>             
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+		  <MaxScaleDenominator>50000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#00cc00</CssParameter>
+              <CssParameter name="fill-opacity">0.75</CssParameter>				  
+            </Fill>	
+          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+          </PolygonSymbolizer>
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
