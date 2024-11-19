@@ -13,10 +13,10 @@
     
     <UserStyle>
       <FeatureTypeStyle>
-                <!-- Rule for Pie Chart at scale above 550000 but less than 8000000 -->
+                <!-- Rule for Pie Chart at scale above 300,000 but less than 800000 -->
         <Rule>
-          <MinScaleDenominator>550000</MinScaleDenominator>
-          <MaxScaleDenominator>8000000</MaxScaleDenominator>	
+          <MinScaleDenominator>300000</MinScaleDenominator>
+          <MaxScaleDenominator>800000</MaxScaleDenominator>	
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -38,10 +38,10 @@
         </Rule>      
         
 
-        <!-- Rule for Pie Chart at scale above 20000 but less than 550000 -->
+        <!-- Rule for Pie Chart at scale above 20,000 but less than 300,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>550000</MaxScaleDenominator>				                    
+          <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -55,7 +55,7 @@
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>22</ogc:Literal>
+                <ogc:Literal>21</ogc:Literal>
               </Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
