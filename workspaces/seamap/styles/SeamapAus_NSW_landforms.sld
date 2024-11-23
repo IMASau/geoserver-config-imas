@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Peak</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>LANDFORM</ogc:PropertyName>
               <ogc:Literal>Peaks</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -29,7 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Plain</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>LANDFORM</ogc:PropertyName>
               <ogc:Literal>Plains</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>		
@@ -44,7 +44,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>LANDFORM</ogc:PropertyName>
               <ogc:Literal>Reefs</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -59,7 +59,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Scarp</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>LANDFORM</ogc:PropertyName>
               <ogc:Literal>Scarps</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Depression/channel (smooth)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>LANDFORM</ogc:PropertyName>
               <ogc:Literal>Depressions and channels Smooth</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -89,7 +89,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Depression/channel (rugose)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>LANDFORM</ogc:PropertyName>
               <ogc:Literal>Depressions and channels Rugose</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

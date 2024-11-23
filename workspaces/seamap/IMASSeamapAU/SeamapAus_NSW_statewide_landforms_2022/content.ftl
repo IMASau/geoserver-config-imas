@@ -1,16 +1,18 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
+  	<div class="feature" style="padding-bottom: 5px;">
 	<h5>Habitat - NSW - Statewide landforms 2022</h5>
 	<BR>
-	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
-		<BR><BR>
-	</div>
+		<b>Substratum:</b> ${feature.SM_HAB_CLS.value}<BR>
+		<b>Landform:</b> ${feature.LANDFORM.value}
+		<BR>
 		<#else>
-			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
-			<BR><BR>
+			<BR>
+			<i>Multiple classifications exist at this point. Zoom in for higher precision.</i>
+			<BR>
 		<#break>
-		
+	</div>	
+	
   </#if>
 </#list>
