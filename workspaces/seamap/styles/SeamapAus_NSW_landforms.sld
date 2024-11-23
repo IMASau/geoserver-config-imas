@@ -6,9 +6,9 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>habitat_polygon</Name>
+    <Name>NSW seabed landforms</Name>
     <UserStyle>
-      <Title>Habitat Polygon</Title>
+      <Title>NSW seabed landforms</Title>
       <FeatureTypeStyle>
         <Rule>
           <Title>Peak</Title>
