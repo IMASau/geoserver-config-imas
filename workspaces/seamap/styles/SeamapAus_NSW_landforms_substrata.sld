@@ -26,6 +26,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Title>Consolidated Hard Substrata</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Consolidated Hard Substrata</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#640000</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
           <Title>Soft Substrata</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
