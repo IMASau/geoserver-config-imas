@@ -8,13 +8,6 @@
         <excludedFromDownload>false</excludedFromDownload>
     </filter>
     <filter>
-        <name>DRANGE</name>
-        <type>string</type>
-        <label>Depth range</label>
-        <visualised>true</visualised>
-        <excludedFromDownload>false</excludedFromDownload>
-    </filter>
-    <filter>
         <name>LANDFORM</name>
         <type>string</type>
         <label>Landform</label>
