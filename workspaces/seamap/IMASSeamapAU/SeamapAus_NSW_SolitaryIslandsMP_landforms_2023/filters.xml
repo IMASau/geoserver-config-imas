@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>BathySrc</name>
+        <type>string</type>
+        <label>Bathymetry data source</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>DRANGE</name>
+        <type>string</type>
+        <label>Depth range</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>LANDFORM</name>
+        <type>string</type>
+        <label>Landform</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>EcoComplex</name>
+        <type>string</type>
+        <label>Parks Aus Ecosystem Complex</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Ecosystem</name>
+        <type>string</type>
+        <label>Parks Aus Ecosystem</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>SM_HAB_CLS</name>
+        <type>string</type>
+        <label>Substratum type</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
