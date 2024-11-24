@@ -87,7 +87,7 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#29d000</CssParameter>
-                      <CssParameter name="stroke-width">3.5</CssParameter>
+                      <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>

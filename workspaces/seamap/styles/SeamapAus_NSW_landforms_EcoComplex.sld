@@ -66,7 +66,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#d160f0</CssParameter>
+              <CssParameter name="fill">#bf80ff</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -92,7 +92,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <Mark>
                     <WellKnownName>shape://backslash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#d160f0</CssParameter>
+                      <CssParameter name="stroke">#bf80ff</CssParameter>
                       <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
