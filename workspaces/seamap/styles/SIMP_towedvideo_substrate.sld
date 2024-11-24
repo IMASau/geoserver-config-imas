@@ -13,17 +13,17 @@
 					<ogc:Literal>Sand</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#ffff73</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>5</Size>				
+              <Size>4</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                 
@@ -37,17 +37,17 @@
 					<ogc:Literal>Rock</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MinScaleDenominator>2500000</MinScaleDenominator>
+          <MinScaleDenominator>2000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#a87000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#8f8f70</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>5</Size>				
+              <Size>4</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                 
@@ -63,17 +63,17 @@
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
           <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#ffff73</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>6</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                 		
@@ -88,17 +88,17 @@
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
           <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2500000</MaxScaleDenominator>
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#a87000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#8f8f70</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>6</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                 
@@ -119,10 +119,10 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#ffff73</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>10</Size>				
+              <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
@@ -142,11 +142,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#a87000</CssParameter>  
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                       
+                  <CssParameter name="fill">#8f8f70</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>10</Size>				
+              <Size>8</Size>				
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
@@ -187,15 +187,16 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#a87000</CssParameter>  
+                  <CssParameter name="fill">#8f8f70</CssParameter>  
                 </Fill>                
               </Mark>
               <Size>10</Size>				
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">legendOnly</VendorOption>                           
-        </Rule>        
-        		
+        </Rule>  
+        
+      <VendorOption name="sortBy">PrimarySub D</VendorOption>		          		
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
