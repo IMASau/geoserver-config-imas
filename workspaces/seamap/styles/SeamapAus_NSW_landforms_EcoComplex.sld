@@ -20,7 +20,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#b3b300</CssParameter>
+              <CssParameter name="fill">#e6c700</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -47,7 +47,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#29d000</CssParameter>
-                      <CssParameter name="stroke-width">3.5</CssParameter>
+                      <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
@@ -66,7 +66,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#ff7300</CssParameter>
+              <CssParameter name="fill">#d160f0</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -90,25 +90,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <GraphicFill>
                 <Graphic>
                   <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#29d000</CssParameter>
-                      <CssParameter name="stroke-width">3.5</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-		  <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
                     <WellKnownName>shape://backslash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#ff7300</CssParameter>
+                      <CssParameter name="stroke">#d160f0</CssParameter>
                       <CssParameter name="stroke-width">2</CssParameter>
                     </Stroke>
                   </Mark>
