@@ -1,0 +1,24 @@
+<layer>
+  <name>SeamapAus_NSW_SolitaryIslandsMP_landforms_2023</name>
+  <id>LayerInfoImpl-434b5ea1:19359d62ff8:54d6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2cc461cd:186a5765716:623e</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-434b5ea1:19359d62ff8:2807</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2cc461cd:186a5765716:623e</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:19359d62ff8:54d5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-11-24 02:15:53.989 UTC</dateCreated>
+</layer>
