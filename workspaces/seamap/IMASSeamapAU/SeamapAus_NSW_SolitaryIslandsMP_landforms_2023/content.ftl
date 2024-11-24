@@ -12,10 +12,5 @@
                 <br>
             </div>
         </div>
-    <#else>
-        <br>
-        <i>Multiple classifications exist at this point. Zoom in for higher precision.</i>
-        <br>
-        <#break>
     </#if>
 </#list>
