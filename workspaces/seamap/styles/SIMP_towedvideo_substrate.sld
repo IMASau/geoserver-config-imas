@@ -196,7 +196,6 @@
           <VendorOption name="inclusion">legendOnly</VendorOption>                           
         </Rule>  
         
-      <VendorOption name="sortBy">PrimarySub D</VendorOption>		          		
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

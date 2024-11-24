@@ -1,4 +1,4 @@
-<#list features?sort_by(["PrimarySub", "rawValue"]) as feature>
+<#list features as feature>
     <#if (feature_index < 1)>
         <div class="towvid" style="padding-top: 5px; padding-bottom: 5px; width:255px;">
             <div style="justify-content: space-between;">
