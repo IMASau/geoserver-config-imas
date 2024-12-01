@@ -45,12 +45,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Soft Substrata</ogc:Literal>
+              <ogc:Literal>Mixed Soft Substrata</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>		
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#b1a37e</CssParameter>
+              <CssParameter name="fill">#dccea3</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
           </PolygonSymbolizer>		  
