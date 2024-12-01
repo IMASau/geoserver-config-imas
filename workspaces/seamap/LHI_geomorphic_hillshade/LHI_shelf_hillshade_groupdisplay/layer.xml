@@ -1,0 +1,18 @@
+<layer>
+  <name>LHI_shelf_hillshade_groupdisplay</name>
+  <id>LayerInfoImpl-434b5ea1:1937db63b1d:5cfe</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-434b5ea1:1937db63b1d:5cfd</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-01 10:47:09.710 UTC</dateCreated>
+  <dateModified>2024-12-01 10:47:52.43 UTC</dateModified>
+</layer>

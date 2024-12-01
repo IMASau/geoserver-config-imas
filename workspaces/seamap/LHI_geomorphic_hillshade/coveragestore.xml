@@ -1,0 +1,21 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-434b5ea1:1937db63b1d:5cf8</id>
+  <name>LHI_geomorphic_hillshade</name>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-12-01 10:44:10.85 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/de9020c2-e679-4301-add2-45fd99f9d177/LHI_shelf_bathy_geomorphic_hs5.tif</url>
+</coverageStore>

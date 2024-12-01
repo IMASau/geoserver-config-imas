@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-434b5ea1:1937db63b1d:5d06</id>
+  <name>LordHowe_geomorphic_features_2018</name>
+  <mode>SINGLE</mode>
+  <title>Lord Howe Island &amp; Balls Pyramid shelves geomorphic features 2018 (NESP MBH/Uni of Wollongong)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-434b5ea1:1937db63b1d:4660</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-434b5ea1:1937db63b1d:5cfe</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:4dd7</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>158.67668041865144</minx>
+    <maxx>159.62611407156353</maxx>
+    <miny>-32.06819856607605</miny>
+    <maxy>-31.20497600320134</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <keywords>
+    <string>Lord Howe Island</string>
+    <string>Balls Pyramid</string>
+    <string>LHI</string>
+    <string>BP</string>
+  </keywords>
+  <dateCreated>2024-12-01 10:51:36.370 UTC</dateCreated>
+  <dateModified>2024-12-01 10:58:41.41 UTC</dateModified>
+</layerGroup>
