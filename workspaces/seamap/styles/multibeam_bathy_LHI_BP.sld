@@ -10,8 +10,8 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
                <ColorMapEntry color="#ffffff" opacity="0.00001" quantity="-1000"/>
-              <ColorMapEntry color="#30123b" opacity="0.7" quantity="-300"/>
-              <ColorMapEntry color="#455ed3" opacity="0.7" quantity="-200"/>              
+              <ColorMapEntry color="#2114a7" opacity="0.7" quantity="-300"/>
+              <ColorMapEntry color="#4260e2" opacity="0.7" quantity="-200"/>              
               <ColorMapEntry color="#3aa3fc" opacity="0.7" quantity="-150"/>
               <ColorMapEntry color="#18dec0" opacity="0.7" quantity="-100"/>
               <ColorMapEntry color="#2df09d" opacity="0.7" quantity="-70"/>
@@ -44,8 +44,8 @@
               <ColorMapEntry color="#2df09d" opacity="0.7" label=" 70" quantity="-70"/>
               <ColorMapEntry color="#18dec0" opacity="0.7" label=" 100" quantity="-100"/>
               <ColorMapEntry color="#3aa3fc" opacity="0.7" label=" 150" quantity="-150"/>
-              <ColorMapEntry color="#455ed3" opacity="0.7" label=" 200" quantity="-200"/>
-              <ColorMapEntry color="#30123b" opacity="0.7" label=" 300" quantity="-300"/>
+              <ColorMapEntry color="#4260e2" opacity="0.7" label=" 200" quantity="-200"/>
+              <ColorMapEntry color="#2114a7" opacity="0.7" label=" 300" quantity="-300"/>
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                           
