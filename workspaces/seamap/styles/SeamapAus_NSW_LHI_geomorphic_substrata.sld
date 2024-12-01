@@ -6,9 +6,9 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>NSW seabed substrata from landform classification</Name>
+    <Name>Seabed classification LHI &amp; BP shelves</Name>
     <UserStyle>
-      <Title>NSW seabed substrata</Title>
+      <Title>Lord Howe Island &amp; Balls Pyramid seabed substrata</Title>
       <FeatureTypeStyle>
         <Rule>
           <Title>Hard Substrata</Title>

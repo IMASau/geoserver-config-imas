@@ -1,10 +1,10 @@
 <#list features as feature>
     <#if (feature_index < 1)>
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
+        <div class="feature" style="padding-top: 5px; padding-bottom: 3px;">
             <h5>Seabed - NSW - Geomorphic features LHI & Balls Pyramid 2018</h5>
             <br>
-            <div id="SIMP landforms" style="white-space: normal; word-wrap: break-word;">
-                <i style="color: #9a9a9a; font-size: 90%;">
+            <div id="LHI Geomorphic" style="white-space: normal; word-wrap: break-word;">
+                <i style="color: #9a9a9a;  margin-bottom: 5px; display: inline-block;"">
                     <#if feature.Shelf.value == 'BP'>
                         Balls Pyramid shelf
                     <#else>
