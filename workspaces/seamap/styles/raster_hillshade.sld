@@ -4,7 +4,7 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
 <NamedLayer>
 	<Name>raster_layer</Name>
 	<UserStyle>
-		<Title>A default raster style (for hillshade etc)</Title>
+		<Title>A default raster style for hillshade (noData = 0)</Title>
 		<FeatureTypeStyle>
 	        <FeatureTypeName>Feature</FeatureTypeName>
 			<Rule>

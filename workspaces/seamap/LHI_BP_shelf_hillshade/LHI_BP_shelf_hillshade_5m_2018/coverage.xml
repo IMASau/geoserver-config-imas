@@ -1,64 +1,60 @@
 <coverage>
-  <id>CoverageInfoImpl-434b5ea1:1937db63b1d:5cfd</id>
-  <name>LHI_shelf_hillshade_groupdisplay</name>
-  <nativeName>LHI_shelf_hillshade_groupdisplay</nativeName>
+  <id>CoverageInfoImpl-434b5ea1:193828894e8:-74a4</id>
+  <name>LHI_BP_shelf_hillshade_5m_2018</name>
+  <nativeName>LHI_BP_shelf_hillshade_5m_2018</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade (z-factor 5m) derived from 5m bathymetry for Lord Howe Island and Balls Pyramid shelves</title>
+  <title>Hillshade from bathymetry mosaic for Balls Pyramid &amp; Lord Howe Island shelves (NESP MBH/UoW)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>LHI_shelf_bathy_geomorphic_hs5</string>
+    <string>LHI_shelf_bathy_5m_2018_hillshade</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
-  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
-  GEOGCS[&quot;GDA94&quot;, 
-    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
-      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
-      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
-      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 55S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
     PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
     UNIT[&quot;degree&quot;, 0.017453292519943295], 
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
-  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
-  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
-  PARAMETER[&quot;false_northing&quot;, 0.0], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
   UNIT[&quot;m&quot;, 1.0], 
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
+  <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>158.67668041865144</minx>
-    <maxx>159.62611407156353</maxx>
-    <miny>-32.06819856607605</miny>
-    <maxy>-31.20497600320134</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>483112.4998305654</minx>
+    <maxx>545377.4998305654</maxx>
+    <miny>6464042.49946761</miny>
+    <maxy>6535542.49946761</maxy>
+    <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>158.67668041865144</minx>
-    <maxx>159.62611407156353</maxx>
-    <miny>-32.06819856607605</miny>
-    <maxy>-31.20497600320134</maxy>
+    <minx>146.82129050006162</minx>
+    <maxx>147.48019453647322</maxx>
+    <miny>-31.95959767969366</miny>
+    <maxy>-31.313616376670975</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">LHI_geomorphic_hillshade_LHI_shelf_bathy_geomorphic_hs5</entry>
+    <entry key="dirName">LHI_BP_shelf_hillshade_LHI_shelf_bathy_5m_2018_hillshade</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-434b5ea1:1937db63b1d:5cf8</id>
+    <id>CoverageStoreInfoImpl-434b5ea1:193828894e8:-74b9</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -68,15 +64,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>14899 16332</high>
+      <high>12453 14300</high>
     </range>
     <transform>
       <scaleX>5.0</scaleX>
       <scaleY>-5.0</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>2310985.4402831416</translateX>
-      <translateY>-3763893.305893723</translateY>
+      <translateX>483114.9998305654</translateX>
+      <translateY>6535539.99946761</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
@@ -110,10 +106,10 @@
     </coverageDimension>
   </dimensions>
   <requestSRS>
-    <string>EPSG:3112</string>
+    <string>EPSG:32755</string>
   </requestSRS>
   <responseSRS>
-    <string>EPSG:3112</string>
+    <string>EPSG:32755</string>
   </responseSRS>
   <parameters>
     <entry>
@@ -133,5 +129,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>LHI_shelf_bathy_hillshade_MAPDISPLAY</nativeCoverageName>
+  <nativeCoverageName>LHI_shelf_bathy_5m_2018_hillshade</nativeCoverageName>
 </coverage>

@@ -1,0 +1,17 @@
+<layer>
+  <name>LHI_BP_shelf_bathy_5m_2018</name>
+  <id>LayerInfoImpl-434b5ea1:193828894e8:-74a7</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193828894e8:-74a9</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-434b5ea1:193828894e8:-74a8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-01 20:24:10.775 UTC</dateCreated>
+  <dateModified>2024-12-01 20:29:37.691 UTC</dateModified>
+</layer>

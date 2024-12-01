@@ -1,0 +1,18 @@
+<layer>
+  <name>LHI_BP_shelf_hillshade_5m_2018</name>
+  <id>LayerInfoImpl-434b5ea1:193828894e8:-74a3</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-434b5ea1:193828894e8:-74a4</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-01 20:25:10.673 UTC</dateCreated>
+  <dateModified>2024-12-01 20:28:39.579 UTC</dateModified>
+</layer>

@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-434b5ea1:193828894e8:-749f</id>
+  <name>LHI_BP_shelves_bathymetry_5m_2018</name>
+  <mode>SINGLE</mode>
+  <title>Bathymetry mosaic of Lord Howe &amp; Balls Pyramid shelves 5m 2018 (NESP MBH/UoW)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-434b5ea1:193828894e8:-74a3</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-434b5ea1:193828894e8:-74a7</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:193828894e8:-74a9</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>146.82129050006162</minx>
+    <maxx>159.48019453647325</maxx>
+    <miny>-31.95959767969366</miny>
+    <maxy>-31.313616376670975</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2024-12-01 20:27:11.649 UTC</dateCreated>
+</layerGroup>
