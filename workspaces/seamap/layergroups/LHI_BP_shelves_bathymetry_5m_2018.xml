@@ -25,11 +25,12 @@
     </style>
   </styles>
   <bounds>
-    <minx>146.82129050006162</minx>
-    <maxx>159.48019453647325</maxx>
-    <miny>-31.95959767969366</miny>
-    <maxy>-31.313616376670975</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-662857.3136689679</minx>
+    <maxx>545691.8148390824</maxx>
+    <miny>6398476.413894844</miny>
+    <maxy>6535640.563838821</maxy>
+    <crs class="projected">EPSG:32757</crs>
   </bounds>
   <dateCreated>2024-12-01 20:27:11.649 UTC</dateCreated>
+  <dateModified>2024-12-01 20:55:46.427 UTC</dateModified>
 </layerGroup>
