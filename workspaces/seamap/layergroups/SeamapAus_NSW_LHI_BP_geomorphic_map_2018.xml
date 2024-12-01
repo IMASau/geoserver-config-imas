@@ -1,8 +1,8 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-434b5ea1:1937db63b1d:5d06</id>
-  <name>LordHowe_geomorphic_features_2018</name>
+  <name>SeamapAus_NSW_LHI_BP_geomorphic_map_2018</name>
   <mode>SINGLE</mode>
-  <title>Lord Howe Island &amp; Balls Pyramid shelves geomorphic features 2018 (NESP MBH/Uni of Wollongong)</title>
+  <title>Lord Howe Island &amp; Balls Pyramid shelves substratum 2018 (NESP MBH/Uni of Wollongong)</title>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -18,7 +18,7 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-434b5ea1:1937db63b1d:4dd7</id>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:466e</id>
     </style>
     <style>
       <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
@@ -38,5 +38,5 @@
     <string>BP</string>
   </keywords>
   <dateCreated>2024-12-01 10:51:36.370 UTC</dateCreated>
-  <dateModified>2024-12-01 10:58:41.41 UTC</dateModified>
+  <dateModified>2024-12-01 11:18:29.85 UTC</dateModified>
 </layerGroup>
