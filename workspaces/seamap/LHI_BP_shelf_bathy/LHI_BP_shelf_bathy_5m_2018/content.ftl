@@ -7,7 +7,7 @@
 	<#if (depth_numeric > 10) || (depth_numeric < -10000) || (depth_numeric = 0)>
 	<#else>
         <div class="feature" style="padding-top:5px; padding-bottom:5px">
-	<span style="display: inline-block; margin-bottom:5px; font-size:85%"><i>LHI & BP shelves 5m grid 2018</i></span><br>
+	<span style="display: inline-block; margin-bottom:10px; font-size:85%"><i>LHI & BP shelves 5m grid 2018</i></span><br>
             <#if depth_numeric < 0>
                 <b>Depth:</b> ${-depth_numeric} m
             </#if>

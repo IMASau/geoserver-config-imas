@@ -1,0 +1,69 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-434b5ea1:193828894e8:3711</id>
+  <name>LHI_BP_shelf_bathy_sources</name>
+  <nativeName>HOSTED_LHI_BP_bathy_mosaic_sources_COMPANION</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Polygon extent of input bathymetry sources used in 2018 5m bathymetry grid of Balls Pyramid &amp; Lord Howe Island</title>
+  <abstract>To be used in layer group only - NOT FOR PUBLICATION</abstract>
+  <keywords>
+    <string>HOSTED_LHI_BP_bathy_mosaic_sources_COMPANION</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 57S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 159.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32757&quot;]]</nativeCRS>
+  <srs>EPSG:32757</srs>
+  <nativeBoundingBox>
+    <minx>493922.4998305644</minx>
+    <maxx>534602.4998305665</maxx>
+    <miny>6471917.49946761</miny>
+    <maxy>6527662.49946761</maxy>
+    <crs class="projected">EPSG:32757</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>158.93573505496124</minx>
+    <maxx>159.36589204451118</maxx>
+    <miny>-31.88855059722677</miny>
+    <maxy>-31.385084715495566</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

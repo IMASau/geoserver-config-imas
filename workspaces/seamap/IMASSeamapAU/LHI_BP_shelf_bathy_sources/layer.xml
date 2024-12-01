@@ -1,0 +1,17 @@
+<layer>
+  <name>LHI_BP_shelf_bathy_sources</name>
+  <id>LayerInfoImpl-434b5ea1:193828894e8:3712</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6951ca5b:181d68afa46:28c1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193828894e8:3711</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-01 23:09:22.943 UTC</dateCreated>
+  <dateModified>2024-12-01 23:17:36.505 UTC</dateModified>
+</layer>
