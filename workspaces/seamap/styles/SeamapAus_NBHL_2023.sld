@@ -600,7 +600,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>40000000</MaxScaleDenominator>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#b1a37e</CssParameter>		
+              <CssParameter name="fill">#dccea3</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
