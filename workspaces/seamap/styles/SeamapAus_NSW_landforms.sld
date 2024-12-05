@@ -23,6 +23,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#884545</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#884545</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+            </Stroke>              
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -38,6 +42,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#FFFFBE</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#FFFFBE</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+            </Stroke>            
           </PolygonSymbolizer>		  
         </Rule>
         <Rule>
@@ -53,6 +61,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#CE8966</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#CE8966</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+            </Stroke>            
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
@@ -68,6 +80,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#E60000</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#E60000</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+            </Stroke>             
           </PolygonSymbolizer>
         </Rule>		
         <Rule>
@@ -83,6 +99,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#BEE8FF</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#BEE8FF</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+            </Stroke>             
           </PolygonSymbolizer>
         </Rule>		
         <Rule>
@@ -98,6 +118,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#0085A3</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0085A3</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+            </Stroke>              
           </PolygonSymbolizer>
         </Rule>		
       </FeatureTypeStyle>
