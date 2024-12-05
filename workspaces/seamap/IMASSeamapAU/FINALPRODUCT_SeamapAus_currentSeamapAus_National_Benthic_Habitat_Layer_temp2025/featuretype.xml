@@ -1,19 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--603af1da:18652b2ab74:2f8</id>
-  <name>SeamapAus_National_Benthic_Habitat_Layer</name>
+  <id>FeatureTypeInfoImpl-434b5ea1:193975eec14:313d</id>
+  <name>FINALPRODUCT_SeamapAus_currentSeamapAus_National_Benthic_Habitat_Layer_temp2025</name>
   <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer: v2024 (current)</title>
+  <title>Seamap Australia National Benthic Habitat Layer: 2025 (v2025 beta)</title>
   <abstract>The Seamap Australia National Benthic Habitat Layer (NBHL) is a compilation of benthic habitat datasets obtained from various sectors including research, government, industry and community sources, across Australia. These disparate datasets have been integrated into a single national-scale benthic habitat database, and classified uniformly under a national classification scheme implemented as a controlled vocabulary (https://vocabs.ardc.edu.au/viewById/129). Creation of this classification scheme complements work undertaken by the National Environmental Science Program (NESP) Marine Biodiversity Hub (Theme D).&#xd;
 &#xd;
-This layer is v2024 of the dataset, released in December 2024.</abstract>
+This layer is a beta v2025 of the dataset, released in January 2025.&#xd;
+&#xd;
+The 2025 version of the dataset will be finalised at the end of 2025. Until then, this should be seen as a live product and may continue to be updated with minor corrections or amendments.</abstract>
   <keywords>
-    <string>FINALPRODUCT</string>
-    <string>NBHL</string>
-    <string>National Benthic Habitat Layer</string>
-    <string>benthic habitat</string>
+    <string>features</string>
+    <string>FINALPRODUCT_SeamapAus_current</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -44,7 +44,7 @@ This layer is v2024 of the dataset, released in December 2024.</abstract>
     <maxx>162.08317435095265</maxx>
     <miny>-44.211944459503826</miny>
     <maxy>-7.628132838362767</maxy>
-    <crs>EPSG:4326</crs>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>109.10535256774222</minx>
@@ -55,7 +55,7 @@ This layer is v2024 of the dataset, released in December 2024.</abstract>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
