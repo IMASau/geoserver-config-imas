@@ -47,7 +47,6 @@
   <serviceConfiguration>false</serviceConfiguration>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>GLOBAL__Project &lt;&gt; &apos;Pitt Water-Orielton Lagoon, TAS&apos; AND GLOBAL__Project &lt;&gt; &apos;North-West Bay, TAS&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
