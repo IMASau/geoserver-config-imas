@@ -1,12 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4e65983:15eeaae8f14:-6363</id>
-  <name>SeamapAus_WA_seagrass_synthesis_2020</name>
+  <name>SeamapAus_WA_seagrass_synthesis_2013</name>
   <nativeName>SeamapAus_WA_Seagrass_Synthesis_2020</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Seagrass Synthesis 2020 (WA Government DWER)</title>
-  <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government.</abstract>
+  <title>Seamap Australia - WA - Seagrass Synthesis 2013 (WA Government DWER)</title>
+  <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government. Data was acquired by the ACEAS Seagrass Group for their 2013 Australia-wide risk assessment of Seagrass. Subsequent data is available for several sites in this dataset, in addition to new monitoring sites, from the WA Department of Water and Environmental Regulation (DWER). See https://data.gov.au for access to more recent survey data.</abstract>
   <keywords>
     <string>Seamap Australia</string>
     <string>seagrass</string>
@@ -52,7 +52,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
