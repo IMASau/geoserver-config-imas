@@ -47,6 +47,7 @@
   <serviceConfiguration>false</serviceConfiguration>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>GLOBAL__Overview &lt;&gt; &apos;note: Hobsons bay project - get details from Frank&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
