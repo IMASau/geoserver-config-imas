@@ -27,13 +27,45 @@
               <CssParameter name="fill-opacity">0</CssParameter>              
             </Fill>
           </PolygonSymbolizer>
-        </Rule> 
+        </Rule>
+        <Rule>
+          <Title>90 - 100&#37;</Title>
+          <ogc:Filter>
+          <ogc:Or>            
+            <ogc:PropertyIsEqualTo>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>90 - 100%</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                         
+          </ogc:Or>             
+          </ogc:Filter>  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#88CB66</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>75 - 90&#37;</Title>
+          <ogc:Filter>
+          <ogc:Or>            
+            <ogc:PropertyIsEqualTo>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>75 - 90%</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                         
+          </ogc:Or>             
+          </ogc:Filter>  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#C8FFAB</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	  
         <Rule>
           <Title>50 - 75&#37;</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>51 - 75%</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>50 - 75%</ogc:Literal>
             </ogc:PropertyIsEqualTo>                       
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -41,13 +73,13 @@
               <CssParameter name="fill">#F0F066</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	        
+        </Rule>	
         <Rule>
-          <Title>30 - 50%</Title>
+          <Title>25 - 50%</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>31 - 50%</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>25 - 50%</ogc:Literal>
             </ogc:PropertyIsEqualTo>          
           </ogc:Filter> 
           <PolygonSymbolizer>
@@ -57,11 +89,11 @@
           </PolygonSymbolizer>
         </Rule>	       
         <Rule>
-          <Title>10 - 30&#37;</Title>
+          <Title>10 - 25&#37;</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>11 - 30%</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>10 - 25%</ogc:Literal>
             </ogc:PropertyIsEqualTo>                  
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -74,7 +106,7 @@
           <Title>1 - 10&#37;</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>1 - 10%</ogc:Literal>
             </ogc:PropertyIsEqualTo>                  
           </ogc:Filter>
@@ -85,27 +117,35 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Seagrass absent</Title>
+          <Title>Seagrass present (unknown density)</Title>
           <ogc:Filter>
-          <ogc:Or>            
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>. 1%</ogc:Literal>
-            </ogc:PropertyIsLike>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Absent</ogc:Literal>
-            </ogc:PropertyIsEqualTo>            
-          </ogc:Or>              
-          </ogc:Filter>          
+              <ogc:Literal>Present</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFF3CF</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>              
+            </Fill>
+          </PolygonSymbolizer>                    
+        </Rule>
+        <Rule>
+          <Title>Not surveyed (drone area)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Not surveyed</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#EDEDED</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>              
             </Fill>
-          </PolygonSymbolizer>
-        </Rule>  
-      <VendorOption name="sortBy">Year A</VendorOption>		        
+          </PolygonSymbolizer>                    
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

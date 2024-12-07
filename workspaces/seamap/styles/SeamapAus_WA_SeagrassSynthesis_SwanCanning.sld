@@ -14,7 +14,7 @@
       <Title>Seagrass coverage</Title>
       <FeatureTypeStyle>	                 
         <Rule>
-          <Title>Seagrass present</Title>
+          <Title>Seagrass present (unknown density)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -24,6 +24,7 @@
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9ecc3b</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>              
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer>          

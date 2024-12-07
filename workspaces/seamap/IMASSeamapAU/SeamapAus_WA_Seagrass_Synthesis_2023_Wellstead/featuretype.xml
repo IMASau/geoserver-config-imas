@@ -40,17 +40,17 @@ Subsequent data is also available for several sites, and for additional sites, p
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-1570185.3776071272</minx>
-    <maxx>-1564823.1134953622</maxx>
-    <miny>-4050948.7350049075</miny>
-    <maxy>-4044788.3971432354</maxy>
+    <minx>-1337838.8734245445</minx>
+    <maxx>-1335013.2880658105</maxx>
+    <miny>-3950244.710156424</miny>
+    <maxy>-3946868.1665982474</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>116.69459033989041</minx>
-    <maxx>116.76220361381155</maxx>
-    <miny>-35.03408930238926</miny>
-    <maxy>-34.972298839588845</maxy>
+    <minx>119.35875637757991</minx>
+    <maxx>119.3936769168571</maxx>
+    <miny>-34.393283865326346</miny>
+    <maxy>-34.359955445665534</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
