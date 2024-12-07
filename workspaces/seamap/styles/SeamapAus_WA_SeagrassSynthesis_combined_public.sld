@@ -216,7 +216,8 @@
               <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>  
+      <VendorOption name="sortBy">Year A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-4e65983:15eeaae8f14:-6363</id>
-  <name>SeamapAus_WA_seagrass_synthesis_2013</name>
+  <name>SeamapAus_WA_seagrass_synthesis_2013_public</name>
   <nativeName>SeamapAus_WA_Seagrass_Synthesis_2023</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -38,19 +38,19 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>115.04480162610135</minx>
-    <maxx>121.34869355365058</maxx>
+    <maxx>121.34869355365059</maxx>
     <miny>-35.45454870816156</miny>
-    <maxy>-31.922462064785506</maxy>
+    <maxy>-31.922462064785496</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>115.04480162610135</minx>
-    <maxx>121.34869355365058</maxx>
+    <maxx>121.34869355365059</maxx>
     <miny>-35.45454870816156</miny>
-    <maxy>-31.922462064785506</maxy>
+    <maxy>-31.922462064785496</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>true</advertised>
   <metadata>
