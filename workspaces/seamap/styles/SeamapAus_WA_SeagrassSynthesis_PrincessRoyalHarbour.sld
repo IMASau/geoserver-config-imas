@@ -33,65 +33,51 @@
           <ogc:Filter>
           <ogc:Or>            
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>76 - 100%</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>75 - 100%</ogc:Literal>
             </ogc:PropertyIsEqualTo>                         
           </ogc:Or>             
           </ogc:Filter>  
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#C8FFAB</CssParameter>
+              <CssParameter name="fill">#88CB66</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	  
         <Rule>
-          <Title>50 - 75&#37;</Title>
+          <Title>45 - 75&#37;</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>51 - 75%</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>45 - 75%</ogc:Literal>
             </ogc:PropertyIsEqualTo>                       
           </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#C8FFAB</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>15 - 45%</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>			
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>15 - 45%</ogc:Literal>
+            </ogc:PropertyIsEqualTo>          
+          </ogc:Filter> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#F0F066</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	
-        <Rule>
-          <Title>30 - 50%</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>31 - 50%</ogc:Literal>
-            </ogc:PropertyIsEqualTo>          
-          </ogc:Filter> 
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#CBA966</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
         </Rule>	       
         <Rule>
-          <Title>10 - 30&#37;</Title>
+          <Title>1 - 15&#37;</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>11 - 30%</ogc:Literal>
-            </ogc:PropertyIsEqualTo>                  
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#CB8866</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>1 - 10&#37;</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>PERCCOVER</ogc:PropertyName>
-              <ogc:Literal>1 - 10%</ogc:Literal>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>1 - 15%</ogc:Literal>
             </ogc:PropertyIsEqualTo>                  
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -99,28 +85,8 @@
               <CssParameter name="fill">#AB6666</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Seagrass absent</Title>
-          <ogc:Filter>
-          <ogc:Or>            
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>. 1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-            <ogc:PropertyIsEqualTo>			
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Absent</ogc:Literal>
-            </ogc:PropertyIsEqualTo>            
-          </ogc:Or>              
-          </ogc:Filter>          
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#EDEDED</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>  
+        </Rule>	
+      <VendorOption name="sortBy">Year A</VendorOption>		                
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
