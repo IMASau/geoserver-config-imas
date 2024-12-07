@@ -1,0 +1,77 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-434b5ea1:193a2cc3d7a:4ac8</id>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Wellstead</name>
+  <nativeName>SeamapAus_WA_Seagrass_Synthesis_2023_private</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Seamap Australia - WA - Wellstead Estuary seagrass (2009)</title>
+  <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government, and Murdoch University Marine and Freshwater Research Laboratory (MAFR) for Wellstead Estuary, southern WA.&#xd;
+&#xd;
+Data was acquired by the ACEAS Seagrass Group for their 2013 Australia-wide risk assessment of Seagrass.&#xd;
+&#xd;
+Subsequent data is also available for several sites, and for additional sites, provided by the WA Department of Water and Environmental Regulation (DWER). Users are requested to access https://data.gov.au for more recent survey data.</abstract>
+  <keywords>
+    <string>SeamapAus_WA_Seagrass_Synthesis_2023_private</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
+  GEOGCS[&quot;GDA94&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 134.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
+  <srs>EPSG:3112</srs>
+  <nativeBoundingBox>
+    <minx>-1570185.3776071272</minx>
+    <maxx>-1564823.1134953622</maxx>
+    <miny>-4050948.7350049075</miny>
+    <maxy>-4044788.3971432354</maxy>
+    <crs class="projected">EPSG:3112</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>116.69459033989041</minx>
+    <maxx>116.76220361381155</maxx>
+    <miny>-35.03408930238926</miny>
+    <maxy>-34.972298839588845</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <cqlFilter>Site = &apos;Wellstead Estuary&apos;</cqlFilter>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

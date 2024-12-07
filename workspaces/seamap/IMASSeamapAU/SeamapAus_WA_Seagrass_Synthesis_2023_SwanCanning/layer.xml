@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_SwanCanning</name>
+  <id>LayerInfoImpl-434b5ea1:193a2cc3d7a:4acd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a2cc3d7a:4aec</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a2cc3d7a:4acc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-07 21:46:40.512 UTC</dateCreated>
+</layer>

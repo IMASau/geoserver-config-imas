@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Stokes</name>
+  <id>LayerInfoImpl-434b5ea1:193a2cc3d7a:4acf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a2cc3d7a:4ad5</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a2cc3d7a:4ace</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-07 21:36:07.30 UTC</dateCreated>
+</layer>

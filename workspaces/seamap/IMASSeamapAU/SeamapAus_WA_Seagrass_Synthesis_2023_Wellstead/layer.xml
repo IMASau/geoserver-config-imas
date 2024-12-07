@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Wellstead</name>
+  <id>LayerInfoImpl-434b5ea1:193a2cc3d7a:4ac9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a2cc3d7a:4adc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a2cc3d7a:4ac8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-07 21:40:10.320 UTC</dateCreated>
+</layer>
