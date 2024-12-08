@@ -11,11 +11,11 @@
                 Macrocystis canopy <span style="color: #00cc00; font-weight: bold;">present</span>
                 <br>
                 Total canopy coverage: <b>${feature.period_area_ha.value} hectares</b>
-            <#else>
-                No Macrocystis canopy detected
-            </#if>
-            <br>
+            	<br>
 		<i style="color: #9a9a9a; font-size: 95%;">Landsat Scene ID: ${feature.LSSceneID.value?split('-')[0]}</i>
+            <#else>
+                <i style="color: #9a9a9a;">No Macrocystis canopy detected</i>
+            </#if>
         </div>
     </#if>
 </#list>

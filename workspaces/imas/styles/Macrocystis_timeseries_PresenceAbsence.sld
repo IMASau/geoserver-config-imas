@@ -57,22 +57,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>filename</ogc:PropertyName>
-              <ogc:Literal>MASK</ogc:Literal>
-            </ogc:PropertyIsNotEqualTo>
-          </ogc:Filter>            
-		  <MaxScaleDenominator>50000</MaxScaleDenominator>			  
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#00cc00</CssParameter>
-              <CssParameter name="fill-opacity">0.75</CssParameter>				  
-            </Fill>	
-          <VendorOption name="inclusion">mapOnly</VendorOption>                             
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
           <Title>No Macrocystis detected</Title>          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -85,6 +69,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#bfbfbf</CssParameter>
               <CssParameter name="fill-opacity">0.2</CssParameter>				  
             </Fill>	
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0.25</CssParameter>              
+              <CssParameter name="stroke-width">0.01</CssParameter>
+            </Stroke>            
           </PolygonSymbolizer>
           <PolygonSymbolizer>          
           	<Fill>
@@ -103,7 +92,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>               
-        </Rule>          
+        </Rule>  
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:Literal>MASK</ogc:Literal>
+            </ogc:PropertyIsNotEqualTo>
+          </ogc:Filter>            
+		  <MaxScaleDenominator>50000</MaxScaleDenominator>			  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#00cc00</CssParameter>
+              <CssParameter name="fill-opacity">0.75</CssParameter>				  
+            </Fill>	
+          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+          </PolygonSymbolizer>
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
