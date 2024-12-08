@@ -1,0 +1,17 @@
+<layer>
+  <name>Tas_statewide_Macrocystis_canopy_timeseries_SMview</name>
+  <id>LayerInfoImpl-434b5ea1:193a3233fd1:4c77</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a3233fd1:4c72</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a3233fd1:4c76</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-08 03:39:56.715 UTC</dateCreated>
+  <dateModified>2024-12-08 03:49:47.426 UTC</dateModified>
+</layer>
