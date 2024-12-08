@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Hardy</name>
+  <id>LayerInfoImpl-434b5ea1:193a3233fd1:1d5e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a3233fd1:1d71</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a3233fd1:1d5d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-08 00:52:30.850 UTC</dateCreated>
+</layer>

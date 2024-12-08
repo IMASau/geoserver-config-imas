@@ -1,15 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3ea8dad8:15803a125f7:-2003</id>
-  <name>SeamapAus_WA_seagrass_PrincessRoyal_1996</name>
-  <nativeName>SeamapAus_WA_seagrass_PrincessRoyal_1996-2006</nativeName>
+  <id>FeatureTypeInfoImpl-434b5ea1:193a3233fd1:1d5b</id>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Leschenault</name>
+  <nativeName>SeamapAus_WA_Seagrass_Synthesis_2023_private</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - seagrass Princess Royal Harbour 1996 (WA Government DoW)</title>
+  <title>Seamap Australia - WA - Leschenault Estuary (2009-2023)</title>
+  <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government, and Murdoch University Marine and Freshwater Research Laboratory (MAFR) for Leschenault Estuary, southern WA.&#xd;
+&#xd;
+Data was acquired by the ACEAS Seagrass Group for their 2013 Australia-wide risk assessment of Seagrass.&#xd;
+&#xd;
+Subsequent data is also available for several sites, and for additional sites, provided by the WA Department of Water and Environmental Regulation (DWER). Users are requested to access https://data.gov.au for more recent survey data.</abstract>
   <keywords>
-    <string>habitat mapping</string>
-    <string>seagrass</string>
-    <string>Seamap Australia</string>
+    <string>SeamapAus_WA_Seagrass_Synthesis_2023_private</string>
+    <string>features</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -34,31 +38,35 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-1465834.0698236628</minx>
-    <maxx>-1458738.5596311588</maxx>
-    <miny>-4042434.5325282514</miny>
-    <maxy>-4036837.590011984</maxy>
+    <minx>-1690186.0821853213</minx>
+    <maxx>-1686556.7015887045</maxx>
+    <miny>-3877738.5133661143</miny>
+    <maxy>-3863815.146042319</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-1465834.0698236628</minx>
-    <maxx>-1458738.5596311588</maxx>
-    <miny>-4042434.5325282514</miny>
-    <maxy>-4036837.590011984</maxy>
+    <minx>115.66682531771474</minx>
+    <maxx>115.72744330155162</maxx>
+    <miny>-33.32572655625367</miny>
+    <maxy>-33.19592663515592</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Year=&apos;1996&apos;</cqlFilter>
+  <cqlFilter>Site = &apos;Leschenault Estuary&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

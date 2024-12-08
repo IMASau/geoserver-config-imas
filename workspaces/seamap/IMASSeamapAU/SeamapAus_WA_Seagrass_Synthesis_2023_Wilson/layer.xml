@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Wilson</name>
+  <id>LayerInfoImpl-434b5ea1:193a3233fd1:1d60</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a3233fd1:1d68</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a3233fd1:1d5f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-08 00:49:05.538 UTC</dateCreated>
+</layer>
