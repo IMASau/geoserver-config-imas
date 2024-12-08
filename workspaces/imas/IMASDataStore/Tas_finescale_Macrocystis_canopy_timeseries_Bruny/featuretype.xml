@@ -1,11 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-434b5ea1:193a5042dc3:-3022</id>
-  <name>Tas_finescale_Macrocystis_canopy_timeseries</name>
+  <id>FeatureTypeInfoImpl-434b5ea1:193a5042dc3:291a</id>
+  <name>Tas_finescale_Macrocystis_canopy_timeseries_Bruny</name>
   <nativeName>CButler_Macrocystis_timeseries_finescale</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>High resolution timeseries trends in canopy cover of Giant Kelp (Macrocystis pyrifera) at 24 sites in Tasmania 1986-2015</title>
+  <title>High resolution timeseries trends in canopy cover of Giant Kelp (Macrocystis pyrifera) at 24 sites in Tasmania 1986-2015: Bruny bioregion</title>
+  <abstract>Layer split by bioregion for display in Seamap Australia. See &apos;Tas_finescale_Macrocystis_canopy_timeseries&apos; for the full data collection.</abstract>
   <keywords>
     <string>features</string>
     <string>CButler_Macrocystis_timeseries_finescale</string>
@@ -32,21 +33,22 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>298905.0</minx>
-    <maxx>612555.0</maxx>
-    <miny>5173795.0</miny>
-    <maxy>5480275.0</maxy>
+    <minx>501075.0</minx>
+    <maxx>580545.0</maxx>
+    <miny>5184565.0</miny>
+    <maxy>5253865.0</maxy>
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.5100690392808</minx>
-    <maxx>148.39408581968033</maxx>
-    <miny>-43.58877129149321</miny>
-    <maxy>-40.803916581057074</maxy>
+    <minx>147.01316065389426</minx>
+    <maxx>147.99608926847853</maxx>
+    <miny>-43.491837893250604</miny>
+    <maxy>-42.86355982260971</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -57,6 +59,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>bioregion = &apos;Bruny&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
