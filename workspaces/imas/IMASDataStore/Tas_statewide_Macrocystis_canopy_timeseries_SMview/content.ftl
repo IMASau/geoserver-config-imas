@@ -8,7 +8,7 @@
             Time period: <b>${feature.years.value}</b>
             <br>
             <#if feature.filename.value != "MASK">
-                Macrocystis canopy <span style="color: #00cc00; font-weight: bold;">present</span>
+                <i>Macrocystis</i> canopy <span style="color: #00cc00; font-weight: bold;">present</span>
                 <br>
                 Total canopy coverage: <b>${feature.period_area_ha.value} ha</b>
             	<br>
