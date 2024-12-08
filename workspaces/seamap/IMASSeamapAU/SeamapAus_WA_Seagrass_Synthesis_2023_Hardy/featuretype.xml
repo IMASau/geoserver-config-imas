@@ -63,9 +63,6 @@ Subsequent data is also available for several sites, and for additional sites, p
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>true</serviceConfiguration>
-  <disabledServices>
-    <string>WFS</string>
-  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
