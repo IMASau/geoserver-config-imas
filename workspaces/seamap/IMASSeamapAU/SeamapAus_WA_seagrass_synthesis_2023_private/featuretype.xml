@@ -1,16 +1,18 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-434b5ea1:193a3233fd1:1d5b</id>
-  <name>SeamapAus_WA_Seagrass_Synthesis_2023_Leschenault</name>
+  <id>FeatureTypeInfoImpl-434b5ea1:193a3233fd1:3d05</id>
+  <name>SeamapAus_WA_seagrass_synthesis_2023_private</name>
   <nativeName>SeamapAus_WA_Seagrass_Synthesis_2023_private</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Leschenault Estuary (2009-2023)</title>
-  <abstract>Aggregated product of all individual seagrass surveys conducted by the Department of Water (DoW), Western Australian Government, and Murdoch University Marine and Freshwater Research Laboratory (MAFR) for Leschenault Estuary, southern WA.&#xd;
+  <title>Seamap Australia - WA - Seagrass Synthesis 2023 (INCLUDES PRIVATE DATA)</title>
+  <abstract>This data collection is an aggregated product of individual seagrass surveys conducted by various organisations in southern WA. This dataset includes PRIVATE data from WA DWER and is *NOT FOR DOWNLOAD*, but may be used for display purposes.&#xd;
 &#xd;
-Data was acquired by the ACEAS Seagrass Group for their 2013 Australia-wide risk assessment of Seagrass.&#xd;
+This map package shows all survey data from 1988 through to 2023. Only data collated by the ACEAS group (prior to 2013) may be downloaded from this site, see &apos;SeamapAus_WA_seagrass_synthesis_2013&apos;.&#xd;
 &#xd;
-Subsequent data is also available for several sites, and for additional sites, provided by the WA Department of Water and Environmental Regulation (DWER). Users are requested to access https://data.gov.au for more recent survey data.</abstract>
+Surveys conducted prior to 2013 were undertaken by the Department of Water (DoW), Western Australian Government, Geoscience Australia, and Murdoch University Marine and Freshwater Research Laboratory (MAFR). This data was acquired by the ACEAS Seagrass Group for their 2013 Australia-wide risk assessment of Seagrass.&#xd;
+&#xd;
+Subsequent data is available for several locations around southern WA, in addition to new monitoring sites, from the WA Department of Water and Environmental Regulation (DWER). See the https://data.gov.au for download access to more recent survey data.</abstract>
   <keywords>
     <string>SeamapAus_WA_Seagrass_Synthesis_2023_private</string>
     <string>features</string>
@@ -40,33 +42,35 @@ Subsequent data is also available for several sites, and for additional sites, p
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>-1690186.0821853213</minx>
-    <maxx>-1686556.7015887045</maxx>
-    <miny>-3877738.5133661143</miny>
-    <maxy>-3863815.146042319</maxy>
+    <minx>-1722071.21875</minx>
+    <maxx>-1177241.0280358444</maxx>
+    <miny>-4050948.7350049075</miny>
+    <maxy>-3726866.513785675</maxy>
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>115.66682531771474</minx>
-    <maxx>115.72744330155162</maxx>
-    <miny>-33.32572655625367</miny>
-    <maxy>-33.19592663515592</maxy>
+    <minx>115.04480162610135</minx>
+    <maxx>121.34869355365059</maxx>
+    <miny>-35.45454870816156</miny>
+    <maxy>-31.922462064785496</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WFS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Site = &apos;Leschenault Estuary&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
