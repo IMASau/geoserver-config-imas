@@ -25,10 +25,10 @@
                 Date(s) present at this specific location:
                 <br> 
 
-                <#-- Gather all dates for the current site -->
+                <#-- Gather all non-null dates for the current site -->
                 <#assign dateList = []>
                 <#list features as dateFeature>
-                    <#if dateFeature.site.value == currentSite && dateFeature.year??>
+                    <#if dateFeature.site.value == currentSite && dateFeature.date?? && dateFeature.date != "">
                         <#-- Add the date to the list -->
                         <#assign dateList = dateList + [dateFeature.date.rawValue]>
                     </#if>
@@ -56,7 +56,7 @@
             <div class="feature" style="padding-top: 10px; line-height: 2; min-width:350px; max-width:700px; white-space: normal; word-wrap: break-word;">
                 <div style="line-height: 1; padding-top:10px;">
                     <i>Macrocystis</i> detected at this site in  
-                    <b>${feature.site.value}</b>
+                    <b>${feature.kelp_years.value}</b>
                 </div>
             </div>
         </#if>

@@ -15,8 +15,8 @@
           <Title>Macrocystis present (zoomed out)</Title>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>date</ogc:PropertyName>
-              <ogc:Literal></ogc:Literal> <!-- Compare to an empty string to check for non-null -->
+              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>200000</MinScaleDenominator>          
@@ -36,8 +36,8 @@
           <Title>Coverage of Macrocystis surface canopy</Title>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>date</ogc:PropertyName>
-              <ogc:Literal></ogc:Literal> <!-- Compare to an empty string to check for non-null -->
+              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>50000</MinScaleDenominator>
@@ -57,8 +57,8 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>date</ogc:PropertyName>
-              <ogc:Literal></ogc:Literal> <!-- Compare to an empty string to check for non-null -->
+              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>50000</MaxScaleDenominator>          
@@ -69,7 +69,22 @@
             </Fill>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:Literal>SITEMASK</ogc:Literal>              
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill-opacity">0.0</CssParameter>              
+            </Fill>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+          </PolygonSymbolizer>
+        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
