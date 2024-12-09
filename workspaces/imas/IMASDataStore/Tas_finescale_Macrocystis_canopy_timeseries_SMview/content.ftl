@@ -5,7 +5,7 @@
 <#assign siteMaskFeatures = []>
 <#assign kelpFeatures = []>
 
-<#-- Categorize features into site polygons (SITEMASK) and kelp polygons -->
+<#-- Categorize features into "site boundary" polygons (using filename=SITEMASK) and "kelp present" polygons -->
 <#list features as feature>
     <#if feature.filename.value == "SITEMASK">
         <#assign siteMaskFeatures = siteMaskFeatures + [feature]>
@@ -16,6 +16,9 @@
 
 <#-- Sort kelp features by date -->
 <#assign sortedKelpFeatures = kelpFeatures?sort_by(["date", "rawValue"])>
+
+<#-- Initialize a variable to track if the site has been processed -->
+<#assign siteProcessed = false>
 
 <#-- Iterate through sorted kelp features -->
 <#list sortedKelpFeatures as feature>
@@ -53,6 +56,5 @@
         <div class="feature3" style="padding-bottom:10px; font-size: 90%; color: #9a9a9a; min-width:350px; max-width:750px; white-space: normal; word-wrap: break-word;">
             <i>Macrocystis</i> detected at this <b><u>site</u></b> (${feature.site.value}) in ${feature.kelp_years.value}
         </div>
-        <#break>
     </#if>
 </#list>
