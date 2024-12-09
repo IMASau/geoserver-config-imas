@@ -14,9 +14,10 @@
         <Rule>
           <Title>Macrocystis present (zoomed out)</Title>
           <ogc:Filter>
-            <ogc:PropertyIsNotNull>
+            <ogc:PropertyIsNotEqualTo>
               <ogc:PropertyName>date</ogc:PropertyName>
-            </ogc:PropertyIsNotNull>
+              <ogc:Literal></ogc:Literal> <!-- Compare to an empty string to check for non-null -->
+            </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>200000</MinScaleDenominator>          
           <PolygonSymbolizer>
@@ -34,9 +35,10 @@
         <Rule>
           <Title>Coverage of Macrocystis surface canopy</Title>
           <ogc:Filter>
-            <ogc:PropertyIsNotNull>
+            <ogc:PropertyIsNotEqualTo>
               <ogc:PropertyName>date</ogc:PropertyName>
-            </ogc:PropertyIsNotNull>
+              <ogc:Literal></ogc:Literal> <!-- Compare to an empty string to check for non-null -->
+            </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>50000</MinScaleDenominator>
           <MaxScaleDenominator>200000</MaxScaleDenominator>          
@@ -54,9 +56,10 @@
         </Rule>
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsNotNull>
+            <ogc:PropertyIsNotEqualTo>
               <ogc:PropertyName>date</ogc:PropertyName>
-            </ogc:PropertyIsNotNull>
+              <ogc:Literal></ogc:Literal> <!-- Compare to an empty string to check for non-null -->
+            </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>50000</MaxScaleDenominator>          
           <PolygonSymbolizer>

@@ -43,14 +43,22 @@
 
                 <div style="line-height: 1; color: #9a9a9a;">${formattedDates?join("; ")}</div>
             </#if>
+        </div>
+    </#if>
+</#list>
 
-            <#-- Only include results where 'year' IS null for kelp_years -->
-            <#if !feature.year??>
+<#-- Separate logic for 'kelp_years' -->
+<#list features as feature>
+    <#-- Locate the first row where kelp_years has content -->
+    <#if feature.kelp_years?has_content>
+        <#-- Only display the content once (using feature_index check) -->
+        <#if (feature_index == 0)>
+            <div class="feature" style="padding-top: 10px; line-height: 2; min-width:350px; max-width:700px; white-space: normal; word-wrap: break-word;">
                 <div style="line-height: 1; padding-top:10px;">
                     <i>Macrocystis</i> detected at this site in  
-                    <b>${feature.kelp_years.value!"No data available"}</b>
+                    <b>${feature.site.value}</b>
                 </div>
-            </#if>
-        </div>
+            </div>
+        </#if>
     </#if>
 </#list>
