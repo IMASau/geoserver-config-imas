@@ -1,4 +1,7 @@
-<#list features as feature>
+<#-- Sort features by Year in descending order -->
+<#assign sortedFeatures = features?sort_by(["Year", "rawValue"])?reverse>
+
+<#list sortedFeatures as feature>
     <#if (feature_index < 1)>
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
             <h5>Habitat - WA - ${feature.Site.value} seagrass ${feature.Year.value}</h5>
