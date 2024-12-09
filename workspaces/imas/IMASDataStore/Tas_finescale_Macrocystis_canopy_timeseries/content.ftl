@@ -18,7 +18,8 @@
             <i>Macrocystis</i> canopy 
             <span style="color: #00cc00; font-weight: bold;">present</span>
             <br>
-            <div style="line-height: 1;">Date(s) present: 
+            <div style="line-height: 1; padding-top:5px">Date(s) present at this location:
+		<br> 
 
             <#-- Gather all dates for the current site -->
             <#assign dateList = []>
@@ -33,10 +34,10 @@
             <#assign formattedDates = []>
             <#list dateList?sort as date>
                 <#assign parsedDate = date?date>
-                <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yyyy")]>
+                <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yy")]>
             </#list>
 
-            ${formattedDates?join("; ")}
+            <span style="color: #9a9a9a;">${formattedDates?join("; ")}</span>
             </div>
         </div>
     </#if>
