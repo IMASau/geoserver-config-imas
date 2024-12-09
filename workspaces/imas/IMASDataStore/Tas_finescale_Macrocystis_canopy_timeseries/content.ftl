@@ -1,3 +1,5 @@
+<#setting number_format="####">
+
 <#-- Initialize a variable to track the current site -->
 <#assign currentSite = "">
 
@@ -11,33 +13,49 @@
         <#-- Update current site -->
         <#assign currentSite = feature.site.value>
 
-        <div class="feature" style="padding-top: 10px; padding-bottom: 10px; line-height: 2; min-width:350px; max-width:600px; white-space: normal; word-wrap: break-word;">
+        <div class="feature" style="padding-top: 10px; padding-bottom: 10px; line-height: 2; min-width:350px; max-width:700px; white-space: normal; word-wrap: break-word;">
             Site: <b>${feature.site.value}</b>
             <i style="color: #9a9a9a;">(<b>${feature.bioregion.value}</b> bioregion)</i>
             <br>
-            <i>Macrocystis</i> canopy 
-            <span style="color: #00cc00; font-weight: bold;">present</span>
+            <i>Macrocystis</i> canopy <span style="color: #00cc00; font-weight: bold;">present</span>
             <br>
-            <div style="line-height: 1; padding-top:5px">Date(s) present at this location:
-		<br> 
+            Date(s) present at this specific location:
+            <br> 
 
-            <#-- Gather all dates for the current site -->
-            <#assign dateList = []>
-            <#list features as dateFeature>
-                <#if dateFeature.site.value == currentSite>
-                    <#-- Add the date to the list -->
-                    <#assign dateList = dateList + [dateFeature.date.rawValue]>
-                </#if>
-            </#list>
+                <#-- Gather all dates for the current site -->
+                <#assign dateList = []>
+                <#list features as dateFeature>
+                    <#if dateFeature.site.value == currentSite>
+                        <#-- Add the date to the list -->
+                        <#assign dateList = dateList + [dateFeature.date.rawValue]>
+                    </#if>
+                </#list>
 
-            <#-- Group and format dates for display -->
-            <#assign formattedDates = []>
-            <#list dateList?sort as date>
-                <#assign parsedDate = date?date>
-                <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yy")]>
-            </#list>
+                <#-- Group and format dates for display -->
+                <#assign formattedDates = []>
+                <#list dateList?sort as date>
+                    <#assign parsedDate = date?date>
+                    <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yy")]>
+                </#list>
 
-            <span style="color: #9a9a9a;">${formattedDates?join("; ")}</span>
+                <div style="line-height: 1; color: #9a9a9a;">${formattedDates?join("; ")}</div>
+
+            <#-- Add a line for distinct years -->
+            <div style="line-height: 1; padding-top:10px;"><i>Macrocystis</i> detected at this site in  
+                <#-- Gather and deduplicate years for the current site -->
+                <#assign yearList = []>
+                <#list features as yearFeature>
+                    <#if yearFeature.site.value == currentSite>
+                        <#-- Extract year as a string -->
+                        <#assign year = yearFeature.year.rawValue>
+                        <#-- Avoid duplicates by checking manually -->
+                        <#if !(yearList?seq_contains(year))>
+                            <#assign yearList = yearList + [year]>
+                        </#if>
+                    </#if>
+                </#list>
+
+                <b>${yearList?join(", ")}</b>
             </div>
         </div>
     </#if>
