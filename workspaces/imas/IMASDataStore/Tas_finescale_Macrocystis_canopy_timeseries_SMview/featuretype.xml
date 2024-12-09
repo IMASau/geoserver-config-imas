@@ -1,0 +1,69 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-434b5ea1:193a9118324:6621</id>
+  <name>Tas_finescale_Macrocystis_canopy_timeseries_SMview</name>
+  <nativeName>CButler_Macrocystis_timeseries_finescale_MAPPING</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+  </namespace>
+  <title>Statewide timeseries trends in canopy cover of Giant Kelp (Macrocystis pyrifera) in Tasmania 1987-2015 - includes site geoms</title>
+  <abstract>Created for Seamap display only - not to be published</abstract>
+  <keywords>
+    <string>features</string>
+    <string>CButler_Macrocystis_timeseries_finescale_MAPPING</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 55S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
+  <srs>EPSG:32755</srs>
+  <nativeBoundingBox>
+    <minx>297751.8585999999</minx>
+    <maxx>615190.8870999999</maxx>
+    <miny>5172929.9196</miny>
+    <maxy>5481681.085</maxy>
+    <crs class="projected">EPSG:32755</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>144.4954818012218</minx>
+    <maxx>148.42690753206637</maxx>
+    <miny>-43.596544576764146</miny>
+    <maxy>-40.79097772122869</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,17 @@
+<layer>
+  <name>Tas_finescale_Macrocystis_canopy_timeseries_SMview</name>
+  <id>LayerInfoImpl-434b5ea1:193a9118324:6622</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193a9118324:6939</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193a9118324:6621</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-09 03:51:57.469 UTC</dateCreated>
+  <dateModified>2024-12-09 03:57:21.616 UTC</dateModified>
+</layer>
