@@ -15,7 +15,7 @@
           <Title>Macrocystis present (zoomed out)</Title>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:PropertyName>LSprodID</ogc:PropertyName>
               <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
@@ -36,7 +36,7 @@
           <Title>Coverage of Macrocystis surface canopy</Title>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:PropertyName>LSprodID</ogc:PropertyName>
               <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
@@ -57,7 +57,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:PropertyName>LSprodID</ogc:PropertyName>
               <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
@@ -73,7 +73,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>filename</ogc:PropertyName>
+              <ogc:PropertyName>LSprodID</ogc:PropertyName>
               <ogc:Literal>SITEMASK</ogc:Literal>              
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

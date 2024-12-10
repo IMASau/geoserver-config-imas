@@ -4,7 +4,7 @@
 <#assign currentSite = "">
 
 <#-- Sort features by date rawValue -->
-<#assign sortedFeatures = features?sort_by(["date", "rawValue"])>
+<#assign sortedFeatures = features?sort_by(["ImDate_GMT", "rawValue"])>
 
 <#-- Iterate through the features -->
 <#list sortedFeatures as feature>
@@ -27,14 +27,14 @@
                 <#list features as dateFeature>
                     <#if dateFeature.site.value == currentSite>
                         <#-- Add the date to the list -->
-                        <#assign dateList = dateList + [dateFeature.date.rawValue]>
+                        <#assign dateList = dateList + [dateFeature.ImDate_GMT.rawValue]>
                     </#if>
                 </#list>
 
                 <#-- Group and format dates for display -->
                 <#assign formattedDates = []>
                 <#list dateList?sort as date>
-                    <#assign parsedDate = date?date>
+                    <#assign parsedDate = ImDate_GMT?date>
                     <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yy")]>
                 </#list>
 
