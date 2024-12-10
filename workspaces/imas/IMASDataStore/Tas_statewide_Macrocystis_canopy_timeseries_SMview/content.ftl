@@ -7,10 +7,10 @@
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px; line-height: 2;">
             Time period: <b>${feature.years.value}</b>
             <br>
-            <#if feature.filename.value != "MASK">
+            <#if feature.LSSceneID.value != "MASK">
                 <i>Macrocystis</i> canopy <span style="color: #00cc00; font-weight: bold;">present</span>
                 <br>
-                Total canopy coverage: <b>${feature.period_area_ha.value} ha</b>
+                Total canopy coverage: <b>${feature.period_ha.value} ha</b>
             	<br>
 		<i style="color: #9a9a9a; font-size: 95%;">Landsat Scene ID: ${feature.LSSceneID.value?split('-')[0]}</i>
             <#else>

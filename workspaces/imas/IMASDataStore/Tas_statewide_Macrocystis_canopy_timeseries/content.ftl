@@ -5,7 +5,7 @@
 		<br>
 		Macrocystis canopy <span style="color: #00cc00; font-weight: bold;">present</span>
 		<br>
-		Total canopy coverage: <b>${feature.period_area_ha.value} hectares</b>
+		Canopy patch area: <b>${feature.kelp_ha.value} hectares</b>
 		<br>
 		<i style="color: #9a9a9a; font-size: 95%;">Landsat Scene ID: ${feature.LSSceneID.value?split('-')[0]}</i>
         </div>
