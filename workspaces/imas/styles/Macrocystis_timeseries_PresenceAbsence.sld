@@ -17,7 +17,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Macrocystis present (zoomed out)</Title>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>LSSceneID</ogc:PropertyName>
+              <ogc:PropertyName>LSProdID</ogc:PropertyName>
               <ogc:Literal>MASK</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>          
@@ -38,7 +38,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Coverage of Macrocystis surface canopy</Title>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>LSSceneID</ogc:PropertyName>
+              <ogc:PropertyName>LSProdID</ogc:PropertyName>
               <ogc:Literal>MASK</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>            
@@ -60,7 +60,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>No Macrocystis detected</Title>          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>LSSceneID</ogc:PropertyName>
+              <ogc:PropertyName>LSProdID</ogc:PropertyName>
               <ogc:Literal>MASK</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
@@ -96,7 +96,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>LSSceneID</ogc:PropertyName>
+              <ogc:PropertyName>LSProdID</ogc:PropertyName>
               <ogc:Literal>MASK</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>            

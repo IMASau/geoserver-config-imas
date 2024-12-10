@@ -1,5 +1,5 @@
 <#-- Sort features by 'filename' in reverse order -->
-<#assign sortedFeatures = features?sort_by(["LSSceneID", "rawValue"])>
+<#assign sortedFeatures = features?sort_by(["LSProdID", "rawValue"])>
 
 <#-- Display only the first feature -->
 <#list sortedFeatures as feature>
@@ -7,7 +7,7 @@
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px; line-height: 2;">
             Time period: <b>${feature.years.value}</b>
             <br>
-            <#if feature.LSSceneID.value != "MASK">
+            <#if feature.LSProdID.value != "MASK">
                 <i>Macrocystis</i> canopy <span style="color: #00cc00; font-weight: bold;">present</span>
                 <br>
                 Total canopy area <span style="color: #9a9a9a; font-size: 90%;">(${feature.years.value})</span>: <b>${feature.period_ha.value} ha</b>
