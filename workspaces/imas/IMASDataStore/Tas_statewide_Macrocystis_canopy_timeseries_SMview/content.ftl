@@ -1,5 +1,5 @@
 <#-- Sort features by 'filename' in reverse order -->
-<#assign sortedFeatures = features?sort_by(["filename", "rawValue"])?reverse>
+<#assign sortedFeatures = features?sort_by(["LSSceneID", "rawValue"])>
 
 <#-- Display only the first feature -->
 <#list sortedFeatures as feature>
@@ -10,9 +10,7 @@
             <#if feature.LSSceneID.value != "MASK">
                 <i>Macrocystis</i> canopy <span style="color: #00cc00; font-weight: bold;">present</span>
                 <br>
-                Total canopy coverage: <b>${feature.period_ha.value} ha</b>
-            	<br>
-		<i style="color: #9a9a9a; font-size: 95%;">Landsat Scene ID: ${feature.LSSceneID.value?split('-')[0]}</i>
+                Total canopy area <span style="color: #9a9a9a; font-size: 90%;">(${feature.years.value})</span>: <b>${feature.period_ha.value} ha</b>
             <#else>
                 <i style="color: #9a9a9a; font-size: 95%;">No Macrocystis detected at this location</i>
             </#if>
