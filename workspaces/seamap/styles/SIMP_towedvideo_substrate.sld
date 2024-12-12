@@ -1,12 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+<StyledLayerDescriptor version="1.0.0"
+
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
   <NamedLayer>
     <Name>Point-based samples from towed video styled by dominant substrate type</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
+        <!-- Style for furthest zoom [hidden from legend] -->        
         <Rule>
-          <Title>Sand - ULTRA ZOOMED OUT</Title>
+          <Title>Sand [hidden] - FAR ZOOM</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>PrimarySub</ogc:PropertyName>
@@ -26,11 +34,11 @@
               <Size>4</Size>				
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                 
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule>
         
         <Rule>
-          <Title>Rock - ULTRA ZOOMED OUT</Title>
+          <Title>Rock [hidden] - FAR ZOOM</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>PrimarySub</ogc:PropertyName>
@@ -50,12 +58,12 @@
               <Size>4</Size>				
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                 
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule> 
 
-         
+        <!-- Style for medium zoom [hidden from legend] -->                 
         <Rule>
-          <Title>Sand - A BIT ZOOMED OUT </Title>
+          <Title>Sand [hidden] - MID ZOOM </Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>PrimarySub</ogc:PropertyName>
@@ -76,11 +84,11 @@
               <Size>6</Size>				
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                 		
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule> 
         
         <Rule>
-          <Title>Rock - A BIT ZOOMED OUT </Title>
+          <Title>Rock [hidden] - MID ZOOM </Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>PrimarySub</ogc:PropertyName>
@@ -101,11 +109,12 @@
               <Size>6</Size>				
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                 
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                                         
         </Rule> 
-		
+
+        <!-- Style for closest zoom [hidden from legend] -->                
         <Rule>
-          <Title>Sand - NORMAL</Title>
+          <Title>Sand [hidden] - CLOSE ZOOM</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>PrimarySub</ogc:PropertyName>
@@ -124,12 +133,12 @@
               </Mark>
               <Size>8</Size>				
             </Graphic>
-          </PointSymbolizer>  
-          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                                         
         </Rule>	
 
         <Rule>
-          <Title>Rock - NORMAL</Title>
+          <Title>Rock [hidden] - CLOSE ZOOM</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>PrimarySub</ogc:PropertyName>
@@ -146,12 +155,13 @@
                   <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer> 
-          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule>
 
+        <!-- Style for legend display with point size optimised for legend [hidden from map]-->                
         <Rule>
           <Title>Sand</Title>
 			<ogc:Filter>
@@ -170,8 +180,8 @@
               </Mark>
               <Size>10</Size>				
             </Graphic>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                       
           </PointSymbolizer>  
-          <VendorOption name="inclusion">legendOnly</VendorOption>                           
         </Rule>	
 
         <Rule>
@@ -192,8 +202,8 @@
               </Mark>
               <Size>10</Size>				
             </Graphic>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                       
           </PointSymbolizer> 
-          <VendorOption name="inclusion">legendOnly</VendorOption>                           
         </Rule>  
         
         </FeatureTypeStyle>
