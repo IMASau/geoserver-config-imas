@@ -1,10 +1,10 @@
 <#setting number_format="####">
 
-<#-- Categorize features into "site boundary" polygons (using LSprodID=SITEMASK) and "kelp present" polygons -->
+<#-- Categorize features into "site boundary" polygons (using LSsceneID_historical=SITEMASK) and "kelp present" polygons -->
 <#assign kelpFeatures = []>
 <#assign siteMaskFeatures = []>
 <#list features as feature>
-    <#if feature.LSprodID.value == "SITEMASK">
+    <#if feature.LSsceneID_historical.value == "SITEMASK">
         <#assign siteMaskFeatures = siteMaskFeatures + [feature]>
     <#else>
         <#assign kelpFeatures = kelpFeatures + [feature]>
