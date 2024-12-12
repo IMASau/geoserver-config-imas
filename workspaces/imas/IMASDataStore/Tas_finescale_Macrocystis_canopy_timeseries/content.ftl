@@ -34,7 +34,7 @@
                 <#-- Group and format dates for display -->
                 <#assign formattedDates = []>
                 <#list dateList?sort as date>
-                    <#assign parsedDate = ImDate_GMT?date>
+                    <#assign parsedDate = date?date>
                     <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yy")]>
                 </#list>
 

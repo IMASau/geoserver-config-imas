@@ -5,9 +5,9 @@
 <#assign siteMaskFeatures = []>
 <#assign kelpFeatures = []>
 
-<#-- Categorize features into "site boundary" polygons (using filename=SITEMASK) and "kelp present" polygons -->
+<#-- Categorize features into "site boundary" polygons (using LSprodID=SITEMASK) and "kelp present" polygons -->
 <#list features as feature>
-    <#if feature.filename.value == "SITEMASK">
+    <#if feature.LSprodID.value == "SITEMASK">
         <#assign siteMaskFeatures = siteMaskFeatures + [feature]>
     <#else>
         <#assign kelpFeatures = kelpFeatures + [feature]>
@@ -15,7 +15,7 @@
 </#list>
 
 <#-- Sort kelp features by date -->
-<#assign sortedKelpFeatures = kelpFeatures?sort_by(["date", "rawValue"])>
+<#assign sortedKelpFeatures = kelpFeatures?sort_by(["ImDate_GMT", "rawValue"])>
 
 <#-- Initialize a variable to track if the site has been processed -->
 <#assign siteProcessed = false>
