@@ -11,21 +11,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Title>Lord Howe Island &amp; Balls Pyramid seabed substrata</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Hard Substrata</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Hard Substrata</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>		  
-            <Fill>
-              <CssParameter name="fill">#8a5c5c</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
           <Title>Consolidated Hard Substrata</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
