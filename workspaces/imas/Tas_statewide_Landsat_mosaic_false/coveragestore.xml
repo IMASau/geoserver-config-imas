@@ -1,6 +1,6 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-434b5ea1:193be4e4bb0:-2352</id>
-  <name>Tas_statewide_Landsat_mosaic_timeseries</name>
+  <name>Tas_statewide_Landsat_mosaic_false</name>
   <description>Landsat imagery mosaic of Tasmanian coastline 1987-2015 - false colour composite</description>
   <type>ImageMosaic</type>
   <enabled>true</enabled>

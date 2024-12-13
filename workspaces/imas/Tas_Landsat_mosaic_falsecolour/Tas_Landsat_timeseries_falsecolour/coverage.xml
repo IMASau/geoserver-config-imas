@@ -1,7 +1,7 @@
 <coverage>
-  <id>CoverageInfoImpl-434b5ea1:193be4e4bb0:-2333</id>
-  <name>Tas_Landsat_timeseries_Macrocystis</name>
-  <nativeName>Tas_Landsat_timeseries_Macrocystis</nativeName>
+  <id>CoverageInfoImpl-434b5ea1:193c0bdde5c:-3310</id>
+  <name>Tas_Landsat_timeseries_falsecolour</name>
+  <nativeName>Tas_Landsat_timeseries_falsecolour</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
@@ -51,10 +51,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Tas_statewide_Landsat_mosaic_timeseries_full</entry>
+    <entry key="dirName">Tas_Landsat_mosaic_falsecolour_full</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-434b5ea1:193be4e4bb0:-2352</id>
+    <id>CoverageStoreInfoImpl-434b5ea1:193c0bdde5c:-3487</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>

@@ -5,11 +5,10 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
   version="1.0.0">
-<UserLayer>
-  <Name>raster_layer_8</Name>
+<NamedLayer>
+  <Name>Landsat false-colour imagery</Name>
   <UserStyle>
-    <Name>landsat8_rgb</Name>
-    <Title>LANDSAT8 RGB</Title>
+    <Title>LANDSAT false-colour RGB</Title>
     <FeatureTypeStyle>
           <FeatureTypeName>Feature</FeatureTypeName>
       <Rule>
@@ -22,7 +21,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">0</VendorOption>
-                      <VendorOption name="maxValue">2031</VendorOption>
+                      <VendorOption name="maxValue">3686</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </RedChannel>
@@ -32,7 +31,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">0</VendorOption>
-                      <VendorOption name="maxValue">1580</VendorOption>
+                      <VendorOption name="maxValue">3281</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </GreenChannel>
@@ -42,7 +41,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">0</VendorOption>
-                      <VendorOption name="maxValue">1498</VendorOption>
+                      <VendorOption name="maxValue">3132</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </BlueChannel>
@@ -51,5 +50,5 @@
       </Rule>
     </FeatureTypeStyle>
   </UserStyle>
-</UserLayer>
+</NamedLayer>
 </StyledLayerDescriptor>
