@@ -20,8 +20,8 @@
                   <ContrastEnhancement>
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-                      <VendorOption name="minValue">0</VendorOption>
-                      <VendorOption name="maxValue">3686</VendorOption>
+                      <VendorOption name="minValue">-200</VendorOption>
+                      <VendorOption name="maxValue">3600</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </RedChannel>
@@ -30,8 +30,8 @@
                   <ContrastEnhancement>
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-                      <VendorOption name="minValue">0</VendorOption>
-                      <VendorOption name="maxValue">3281</VendorOption>
+                      <VendorOption name="minValue">-250</VendorOption>
+                      <VendorOption name="maxValue">3200</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </GreenChannel>
@@ -40,8 +40,8 @@
                   <ContrastEnhancement>
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-                      <VendorOption name="minValue">0</VendorOption>
-                      <VendorOption name="maxValue">3132</VendorOption>
+                      <VendorOption name="minValue">-200</VendorOption>
+                      <VendorOption name="maxValue">3100</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </BlueChannel>
