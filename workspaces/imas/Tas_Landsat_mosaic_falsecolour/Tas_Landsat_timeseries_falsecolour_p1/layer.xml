@@ -1,5 +1,5 @@
 <layer>
-  <name>Tas_Landsat_timeseries_falsecolour</name>
+  <name>Tas_Landsat_timeseries_falsecolour_p1</name>
   <id>LayerInfoImpl-434b5ea1:193c0bdde5c:-330f</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-12-13 21:11:16.128 UTC</dateCreated>
-  <dateModified>2024-12-13 23:16:03.546 UTC</dateModified>
+  <dateModified>2024-12-13 23:54:14.743 UTC</dateModified>
 </layer>

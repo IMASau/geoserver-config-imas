@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-434b5ea1:193c0bdde5c:-3310</id>
-  <name>Tas_Landsat_timeseries_falsecolour</name>
+  <name>Tas_Landsat_timeseries_falsecolour_p1</name>
   <nativeName>Tas_Landsat_timeseries_falsecolour</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Timeseries (1987-2015) of Landsat imagery false-colour composites for Tasmanian coastline</title>
+  <title>Timeseries of Landsat imagery false-colour composites for Tasmanian coastline: 1987-1989</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>full</string>
@@ -51,6 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Tas_Landsat_mosaic_falsecolour_full</entry>
@@ -184,7 +185,7 @@
     </entry>
     <entry>
       <string>Filter</string>
-      <string>years=&apos;2013-2015&apos;</string>
+      <string>years=&apos;1987-1989&apos;</string>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
