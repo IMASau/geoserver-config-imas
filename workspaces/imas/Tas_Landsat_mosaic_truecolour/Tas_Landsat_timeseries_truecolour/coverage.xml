@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Timeseries (1987-2015) of Landsat imagery true-colour composites for Tasmanian coastline</title>
+  <title>Timeseries of Landsat imagery true-colour composites for Tasmanian coastline: 1987-2015</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>full</string>
@@ -24,7 +24,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -60,6 +60,8 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
@@ -94,8 +96,8 @@
       <name>RED_BAND</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>0.0</min>
-        <max>65534.0</max>
+        <min>-inf</min>
+        <max>inf</max>
       </range>
       <nullValues>
         <double>65535.0</double>
@@ -108,8 +110,8 @@
       <name>GREEN_BAND</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>0.0</min>
-        <max>65534.0</max>
+        <min>-inf</min>
+        <max>inf</max>
       </range>
       <nullValues>
         <double>65535.0</double>
@@ -122,8 +124,8 @@
       <name>BLUE_BAND</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
-        <min>0.0</min>
-        <max>65534.0</max>
+        <min>-inf</min>
+        <max>inf</max>
       </range>
       <nullValues>
         <double>65535.0</double>
