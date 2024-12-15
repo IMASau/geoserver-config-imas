@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-108e</id>
-  <name>Tas_Landsat_timeseries_falsecolour_masked</name>
-  <nativeName>Tas_Landsat_timeseries_falsecolour_masked</nativeName>
+  <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-106e</id>
+  <name>Tas_Landsat_timeseries_falsecolour_masked_p1</name>
+  <nativeName>Tas_Landsat_timeseries_falsecolour_masked_p1</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Timeseries of Landsat imagery false-colour composites (0-30m depth coastal mask): 1987-2015</title>
+  <title>Timeseries of Landsat imagery false-colour composites (0-30m depth coastal mask): 1987-1989</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>masked</string>
@@ -51,9 +51,8 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Tas_Landsat_mosaic_falsecolour_masked_masked</entry>
   </metadata>
   <store class="coverageStore">
@@ -80,11 +79,15 @@
     <crs>EPSG:32655</crs>
   </grid>
   <supportedFormats>
+    <string>ImageMosaic</string>
+    <string>GeoPackage (mosaic)</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>ArcGrid</string>
     <string>GEOTIFF</string>
+    <string>MBTiles</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -103,7 +106,6 @@
       <nullValues>
         <double>65535.0</double>
       </nullValues>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>UNSIGNED_16BITS</name>
       </dimensionType>
@@ -118,7 +120,6 @@
       <nullValues>
         <double>65535.0</double>
       </nullValues>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>UNSIGNED_16BITS</name>
       </dimensionType>
@@ -133,7 +134,6 @@
       <nullValues>
         <double>65535.0</double>
       </nullValues>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>UNSIGNED_16BITS</name>
       </dimensionType>
@@ -218,7 +218,7 @@
     </entry>
     <entry>
       <string>SORTING</string>
-      <string>years D</string>
+      <null/>
     </entry>
     <entry>
       <string>FootprintBehavior</string>

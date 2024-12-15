@@ -1,0 +1,16 @@
+<layer>
+  <name>Tas_Landsat_timeseries_falsecolour_masked_p1</name>
+  <id>LayerInfoImpl-434b5ea1:193c65f41a5:-106d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-106e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-15 02:08:28.656 UTC</dateCreated>
+</layer>
