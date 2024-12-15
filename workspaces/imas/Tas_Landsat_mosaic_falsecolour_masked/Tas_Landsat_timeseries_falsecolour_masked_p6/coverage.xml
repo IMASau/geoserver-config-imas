@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-106e</id>
-  <name>Tas_Landsat_timeseries_falsecolour_masked_p1</name>
-  <nativeName>Tas_Landsat_timeseries_falsecolour_masked_p1</nativeName>
+  <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-93c</id>
+  <name>Tas_Landsat_timeseries_falsecolour_masked_p6</name>
+  <nativeName>Tas_Landsat_timeseries_falsecolour_masked_p6</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Timeseries of Landsat imagery false-colour composites (0-30m depth coastal mask): 1987-1989</title>
+  <title>Timeseries of Landsat imagery false-colour composites (0-30m depth coastal mask): 2003-2005</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>masked</string>
@@ -199,7 +199,7 @@
     </entry>
     <entry>
       <string>Filter</string>
-      <null/>
+      <string>years=&apos;2003-2005&apos;</string>
     </entry>
     <entry>
       <string>InputTransparentColor</string>

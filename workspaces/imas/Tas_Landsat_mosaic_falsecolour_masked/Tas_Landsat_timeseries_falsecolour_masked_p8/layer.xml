@@ -1,18 +1,17 @@
 <layer>
-  <name>Tas_Landsat_timeseries_falsecolour_masked</name>
-  <id>LayerInfoImpl-434b5ea1:193c65f41a5:-108d</id>
+  <name>Tas_Landsat_timeseries_falsecolour_masked_p8</name>
+  <id>LayerInfoImpl-434b5ea1:193c65f41a5:-936</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-434b5ea1:193c65f41a5:-105a</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-108e</id>
+    <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-937</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2024-12-15 01:56:41.997 UTC</dateCreated>
-  <dateModified>2024-12-15 02:35:15.202 UTC</dateModified>
+  <dateCreated>2024-12-15 02:39:31.602 UTC</dateCreated>
 </layer>

@@ -10,7 +10,7 @@
   <UserStyle>
     <Title>LANDSAT false-colour RGB</Title>
     <FeatureTypeStyle>
-          <FeatureTypeName>Feature</FeatureTypeName>
+      <FeatureTypeName>Feature</FeatureTypeName>
       <Rule>
         <RasterSymbolizer>
             <Opacity>1.0</Opacity>
@@ -20,8 +20,8 @@
                   <ContrastEnhancement>
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-                      <VendorOption name="minValue">-500</VendorOption>
-                      <VendorOption name="maxValue">1376</VendorOption>
+                      <VendorOption name="minValue">-400</VendorOption>
+                      <VendorOption name="maxValue">1200</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </RedChannel>
@@ -30,8 +30,8 @@
                   <ContrastEnhancement>
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-                      <VendorOption name="minValue">-350</VendorOption>
-                      <VendorOption name="maxValue">1418</VendorOption>
+                      <VendorOption name="minValue">-300</VendorOption>
+                      <VendorOption name="maxValue">1300</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </GreenChannel>
@@ -41,7 +41,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">-800</VendorOption>
-                      <VendorOption name="maxValue">1943</VendorOption>
+                      <VendorOption name="maxValue">1700</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </BlueChannel>
