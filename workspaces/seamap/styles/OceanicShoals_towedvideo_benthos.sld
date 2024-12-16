@@ -226,7 +226,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>
                <Stroke>
                    <CssParameter name="stroke">#009999</CssParameter>
-                   <CssParameter name="stroke-width">2.5</CssParameter>
+                   <CssParameter name="stroke-width">2</CssParameter>
                </Stroke>                 
               </Mark>
               <Size>11</Size>				
@@ -252,7 +252,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>
                <Stroke>
                    <CssParameter name="stroke">#009999</CssParameter>
-                   <CssParameter name="stroke-width">1.3</CssParameter>
+                   <CssParameter name="stroke-width">1.2</CssParameter>
                </Stroke>                 
               </Mark>
               <Size>9</Size>				
@@ -339,7 +339,167 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
-        </Rule>			        
+        </Rule>
+        
+        <Rule>
+          <Title>Sponge</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>BENTHOSKEY</ogc:PropertyName>
+					<ogc:Literal>SpongeD</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#faded1</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>
+               <Stroke>
+                   <CssParameter name="stroke">#faded1</CssParameter>
+                   <CssParameter name="stroke-width">2.5</CssParameter>
+               </Stroke>                 
+              </Mark>
+              <Size>11</Size>				
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		
+        <Rule>
+          <Title>Sponge (medium)</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>BENTHOSKEY</ogc:PropertyName>
+					<ogc:Literal>SpongeM</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#faded1</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>
+               <Stroke>
+                   <CssParameter name="stroke">#faded1</CssParameter>
+                   <CssParameter name="stroke-width">1.3</CssParameter>
+               </Stroke>                 
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
+        </Rule>
+
+        <Rule>
+        <Title>Sponge (sparse)</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>BENTHOSKEY</ogc:PropertyName>
+					<ogc:Literal>SpongeS</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#faded1</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>
+               <Stroke>
+                   <CssParameter name="stroke">#faded1</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+               </Stroke>                 
+              </Mark>
+              <Size>7</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
+        </Rule>
+        
+        <Rule>
+          <Title>Whips</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>BENTHOSKEY</ogc:PropertyName>
+					<ogc:Literal>WhipsD</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#000080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>
+               <Stroke>
+                   <CssParameter name="stroke">#000080</CssParameter>
+                   <CssParameter name="stroke-width">2.5</CssParameter>
+               </Stroke>                 
+              </Mark>
+              <Size>11</Size>				
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		
+        <Rule>
+          <Title>Whips (medium)</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>BENTHOSKEY</ogc:PropertyName>
+					<ogc:Literal>WhipsM</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#000080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>
+               <Stroke>
+                   <CssParameter name="stroke">#000080</CssParameter>
+                   <CssParameter name="stroke-width">1.3</CssParameter>
+               </Stroke>                 
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
+        </Rule>
+
+        <Rule>
+        <Title>Whips (sparse)</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>BENTHOSKEY</ogc:PropertyName>
+					<ogc:Literal>WhipsS</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#000080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>
+               <Stroke>
+                   <CssParameter name="stroke">#000080</CssParameter>
+                   <CssParameter name="stroke-width">0.5</CssParameter>
+               </Stroke>                 
+              </Mark>
+              <Size>7</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
+        </Rule>	         
         
         </FeatureTypeStyle>
     </UserStyle>
