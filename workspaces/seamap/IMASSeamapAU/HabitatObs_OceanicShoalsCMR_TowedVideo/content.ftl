@@ -1,45 +1,40 @@
-<#setting number_format="####">
-
-<#-- Initialize a variable to track the current site -->
-<#assign currentSite = "">
-
-<#-- Sort features by date rawValue -->
-<#assign sortedFeatures = features?sort_by(["ImDate_GMT", "rawValue"])>
-
-<#-- Iterate through the features -->
-<#list sortedFeatures as feature>
-    <#-- Check if the current feature is for a new site -->
-    <#if feature.site.value != currentSite>
-        <#-- Update current site -->
-        <#assign currentSite = feature.site.value>
-
-        <div class="feature" style="padding-top: 10px; padding-bottom: 10px; line-height: 2; min-width:350px; max-width:700px; white-space: normal; word-wrap: break-word;">
-            Site: <b>${feature.site.value}</b>
-            <i style="color: #9a9a9a;">(<b>${feature.bioregion.value}</b> bioregion)</i>
+<#list features as feature>
+    <#if (feature_index < 1)>
+        <div class="towvid" style="padding-top: 5px; padding-bottom: 5px; width:255px;">
+            <div style="justify-content: space-between;">
+                <h5 style="font-size: 120%; padding-bottom: 5px; 
+                    <#if feature.PrimarySub.value == "Sand">
+                        color: #FFFF00; 
+                        text-shadow: 
+                            0 0 5px #000000,  /* Small inner black shadow */
+                            0 0 12px #000000; /* Outer glow */
+                    <#elseif feature.PrimarySub.value == "Rock">
+                        color: #804000; 
+                        text-shadow: 
+                            0 0 8px #8f8f70,  /* Small inner brown shadow */
+                            0 0 15px #8f8f70; /* Outer glow */
+                    </#if>">
+                    ${feature.PrimarySub.value}
+                </h5>
+            </div>
+            <small style="font-style: italic; text-align: left;">
+                <b>Transect ID:</b> ${feature.TransectID.value}
+            </small>
             <br>
-            <i>Macrocystis</i> canopy <span style="color: #00cc00; font-weight: bold;">present</span>
-            <br>
-            Date(s) present at this specific location:
-            <br> 
-
-                <#-- Gather all dates for the current site -->
-                <#assign dateList = []>
-                <#list features as dateFeature>
-                    <#if dateFeature.site.value == currentSite>
-                        <#-- Add the date to the list -->
-                        <#assign dateList = dateList + [dateFeature.ImDate_GMT.rawValue]>
-                    </#if>
-                </#list>
-
-                <#-- Group and format dates for display -->
-                <#assign formattedDates = []>
-                <#list dateList?sort as date>
-                    <#assign parsedDate = date?date>
-                    <#assign formattedDates = formattedDates + [parsedDate?string("dd MMM yy")]>
-                </#list>
-
-                <div style="line-height: 1; color: #9a9a9a;">${formattedDates?join("; ")}</div>
-
+            <div style="white-space: normal; word-wrap: break-word;">
+                <i style="color: #9a9a9a; font-size: 95%;">
+                    Video tow conducted at
+                    <#-- Combine ImageDate and ImageTime -->
+                    <#assign rawDateTime = feature.ImageDate.value + " " + feature.ImageTime.value>
+                    <#-- Parse raw date with the provided format -->
+                    <#assign parsedDateTime = rawDateTime?datetime("dd/MM/yy, hh:mm a ss:SS")>
+                    <#-- Add 11 hours for AEDT -->
+                    <#assign adjustedDateTime = parsedDateTime?long + (11 * 60 * 60 * 1000)>
+                    ${adjustedDateTime?number_to_datetime?string("HH:mm:ss")} on 
+                    ${adjustedDateTime?number_to_datetime?string("dd MMM yyyy")}
+                </i>
+                <br>
+            </div>
         </div>
     </#if>
 </#list>

@@ -13,29 +13,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
 
         <!-- Style for furthest zoom [hidden from legend] -->        
-        <Rule>
-          <Title>Limestone [hidden] - FAR ZOOM</Title>
-			<ogc:Filter>
-				<ogc:PropertyIsEqualTo>
-					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
-					<ogc:Literal>LimestoneL</ogc:Literal>
-				</ogc:PropertyIsEqualTo>
-			</ogc:Filter>  
-          <MinScaleDenominator>500000</MinScaleDenominator>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#a3a375</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
-                </Fill>                
-              </Mark>
-              <Size>4</Size>				
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
-        </Rule>
         
         <Rule>
           <Title>Rock [hidden] - FAR ZOOM</Title>
@@ -84,6 +61,30 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule>
+        
+        <Rule>
+          <Title>Limestone [hidden] - FAR ZOOM</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>LimestoneL</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MinScaleDenominator>500000</MinScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#a3a375</CssParameter>  
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>4</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
+        </Rule>        
         
         <Rule>
           <Title>Sand [hidden] - FAR ZOOM</Title>
