@@ -1,0 +1,17 @@
+<layer>
+  <name>HabitatObs_OceanicShoalsCMR_TowedVideo</name>
+  <id>LayerInfoImpl-434b5ea1:193cd985fe7:-4d29</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193cc24f8d8:f6b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-434b5ea1:193cd985fe7:-4d2a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-12-16 03:52:26.325 UTC</dateCreated>
+  <dateModified>2024-12-16 03:53:27.765 UTC</dateModified>
+</layer>
