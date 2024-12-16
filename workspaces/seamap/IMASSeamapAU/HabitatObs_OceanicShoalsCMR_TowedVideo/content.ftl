@@ -1,40 +1,34 @@
-<#list features as feature>
+<#-- Sort features by Year in descending order -->
+<#assign sortedFeatures = features?sort_by(["sortord", "rawValue"])?reverse>
+
+<#list sortedFeatures as feature>
+    <#assign depth_numeric=feature.DEPTH.value?number>
+    <#-- Determine the display value for SUBSTRATEKEY -->
+    <#if feature.SUBSTRATEKEY.value == "None" || feature.SUBSTRATEKEY.value == "NoSub">
+        <#assign substrate_display = "<i style='color: #9a9a9a;'>Unknown</i>"/>
+    <#elseif feature.SUBSTRATEKEY.value == "SandCoarse">
+        <#assign substrate_display = "Coarse Sand"/>
+    <#elseif feature.SUBSTRATEKEY.value == "LimestoneL">
+        <#assign substrate_display = "Limestone"/>
+    <#else>
+        <#assign substrate_display = feature.SUBSTRATEKEY.value/>
+    </#if>
+
     <#if (feature_index < 1)>
-        <div class="towvid" style="padding-top: 5px; padding-bottom: 5px; width:255px;">
-            <div style="justify-content: space-between;">
-                <h5 style="font-size: 120%; padding-bottom: 5px; 
-                    <#if feature.PrimarySub.value == "Sand">
-                        color: #FFFF00; 
-                        text-shadow: 
-                            0 0 5px #000000,  /* Small inner black shadow */
-                            0 0 12px #000000; /* Outer glow */
-                    <#elseif feature.PrimarySub.value == "Rock">
-                        color: #804000; 
-                        text-shadow: 
-                            0 0 8px #8f8f70,  /* Small inner brown shadow */
-                            0 0 15px #8f8f70; /* Outer glow */
-                    </#if>">
-                    ${feature.PrimarySub.value}
-                </h5>
-            </div>
-            <small style="font-style: italic; text-align: left;">
-                <b>Transect ID:</b> ${feature.TransectID.value}
-            </small>
+        <div class="feature" style="padding-top: 5px; padding-bottom: 5px">
+            <h5>Oceanic Shoals towed video</h5>
             <br>
-            <div style="white-space: normal; word-wrap: break-word;">
-                <i style="color: #9a9a9a; font-size: 95%;">
-                    Video tow conducted at
-                    <#-- Combine ImageDate and ImageTime -->
-                    <#assign rawDateTime = feature.ImageDate.value + " " + feature.ImageTime.value>
-                    <#-- Parse raw date with the provided format -->
-                    <#assign parsedDateTime = rawDateTime?datetime("dd/MM/yy, hh:mm a ss:SS")>
-                    <#-- Add 11 hours for AEDT -->
-                    <#assign adjustedDateTime = parsedDateTime?long + (11 * 60 * 60 * 1000)>
-                    ${adjustedDateTime?number_to_datetime?string("HH:mm:ss")} on 
-                    ${adjustedDateTime?number_to_datetime?string("dd MMM yyyy")}
-                </i>
-                <br>
+            <div id="oceanicfeatures" style="white-space: normal; word-wrap: break-word; line-height:1.6;">
+                Substrate: <b>${substrate_display?no_esc}</b><br>
+                Benthos: <b>${feature.BENTHOSKEY.value}</b><br>
+                Organism(s) present: <b>${feature.ORGANISMKEY.value}</b><br>
+                Depth: <b>${-depth_numeric} m</b>
             </div>
+<br>
+            <i style="color: #9a9a9a; font-size: 95%;">
+                Video tow <b>${feature.SITENAME.value}</b> conducted on <b>${feature.GPSLCLTIME.value?datetime("d/M/yyyy")?string("dd MMM yyyy")}</b>
+            </i>
+            <br>
         </div>
     </#if>
 </#list>
