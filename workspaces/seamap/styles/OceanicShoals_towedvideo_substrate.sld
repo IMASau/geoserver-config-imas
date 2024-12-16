@@ -187,9 +187,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
         </Rule> 		
 
-        <!-- Style for close zoom [used in legend] -->                 
+        <!-- Style for close zoom [hidden from legend] -->                 
         <Rule>
-          <Title>Rock</Title>
+          <Title>Rock [hidden]</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
@@ -209,10 +209,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
         </Rule> 
 		
         <Rule>
-          <Title>Rubble</Title>
+          <Title>Rubble [hidden]</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
@@ -232,10 +233,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
         </Rule>
 		
         <Rule>
-          <Title>Limestone</Title>
+          <Title>Limestone [hidden]</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
@@ -255,10 +257,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
         </Rule>		
         
         <Rule>
-          <Title>Sand</Title>
+          <Title>Sand [hidden]</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
@@ -278,10 +281,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
         </Rule> 		
 
         <Rule>
-          <Title>Coarse Sand</Title>
+          <Title>Coarse Sand [hidden]</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
@@ -301,10 +305,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
         </Rule> 
 		
         <Rule>
-          <Title>Silt</Title>
+          <Title>Silt [hidden]</Title>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
 					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
@@ -324,6 +329,183 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
+        </Rule>
+        
+        <Rule>
+          <Title>Not scored [hidden]</Title>
+			<ogc:Filter>
+			<ogc:Or>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>None</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>NoSub</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+			</ogc:Or>			
+			</ogc:Filter>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter>  
+                  <CssParameter name="fill-opacity">0.3</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>8</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
+        </Rule> 
+
+         <!-- Style for legend display only [hidden from map] -->                 
+        <Rule>
+          <Title>Rock</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>Rock</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#640000</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  
+        </Rule> 
+		
+        <Rule>
+          <Title>Rubble</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>Rubble</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#85adad</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
+        </Rule>
+		
+        <Rule>
+          <Title>Limestone</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>LimestoneL</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#a3a375</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
+        </Rule>		
+        
+        <Rule>
+          <Title>Sand</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>Sand</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FFF9A5</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
+        </Rule> 		
+
+        <Rule>
+          <Title>Coarse Sand</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>SandCoarse</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#e0d160</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
+        </Rule> 
+		
+        <Rule>
+          <Title>Silt</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>SUBSTRATEKEY</ogc:PropertyName>
+					<ogc:Literal>Silt</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#E5D6ED</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                
+              </Mark>
+              <Size>9</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
         </Rule>
         
         <Rule>
@@ -348,15 +530,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#808080</CssParameter>  
-                  <CssParameter name="fill-opacity">0.3</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>9</Size>				
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
         </Rule> 
-
-        
+		
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
