@@ -6,9 +6,9 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Extract from GlobalArchive - deployments</title>
-  <abstract>Includes Australian BRUV synthesis (current to 2015) plus additional projects in GlobalArchive.&#xd;
+  <abstract>Includes Australian BRUV synthesis (2015 to present) plus additional projects in GlobalArchive.&#xd;
 &#xd;
-View is not aggregated (presents data at the deployment level).</abstract>
+Data is presented at the DEPLOYMENT level.</abstract>
   <keywords>
     <string>features</string>
     <string>TRANSFORM_GLOBALARCHIVE_DEPLOYMENT_POINTS</string>
@@ -48,6 +48,8 @@ View is not aggregated (presents data at the deployment level).</abstract>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
