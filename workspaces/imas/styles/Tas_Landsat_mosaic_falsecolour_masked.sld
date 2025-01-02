@@ -21,7 +21,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">-400</VendorOption>
-                      <VendorOption name="maxValue">1200</VendorOption>
+                      <VendorOption name="maxValue">1100</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </RedChannel>
@@ -31,7 +31,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">-300</VendorOption>
-                      <VendorOption name="maxValue">1300</VendorOption>
+                      <VendorOption name="maxValue">1150</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </GreenChannel>
@@ -41,7 +41,7 @@
                     <Normalize>
                       <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
                       <VendorOption name="minValue">-800</VendorOption>
-                      <VendorOption name="maxValue">1700</VendorOption>
+                      <VendorOption name="maxValue">1500</VendorOption>
                     </Normalize>
                   </ContrastEnhancement>
               </BlueChannel>
