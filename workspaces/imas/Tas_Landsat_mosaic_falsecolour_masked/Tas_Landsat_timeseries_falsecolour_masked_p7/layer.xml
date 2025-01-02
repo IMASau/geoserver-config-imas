@@ -8,10 +8,11 @@
   <resource class="coverage">
     <id>CoverageInfoImpl-434b5ea1:193c65f41a5:-939</id>
   </resource>
-  <queryable>false</queryable>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-12-15 02:38:48.107 UTC</dateCreated>
+  <dateModified>2025-01-02 21:33:43.871 UTC</dateModified>
 </layer>
