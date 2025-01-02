@@ -1,7 +1,5 @@
 <#list features as feature>
-<h5>Integrated Marine and Coastal Regionalisation of Australia</h5>
-<br>
-  <div class="feature"> 
-  <b>Provincial Bioregion:</b> ${feature.PB_NAME.value}<br><br>     
+  <div class="feature" style="padding-top:5px; padding-bottom:5px"> 
+  <b>IMCRA Provincial Bioregion:</b> ${feature.PB_NAME.value}<br>    
   </div>
 </#list>

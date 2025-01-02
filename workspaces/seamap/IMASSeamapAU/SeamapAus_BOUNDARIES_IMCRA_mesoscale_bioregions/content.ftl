@@ -1,7 +1,5 @@
 <#list features as feature>
-<h5>Integrated Marine and Coastal Regionalisation of Australia</h5>
-<br>
-  <div class="feature"> 
-  <b>Meso-scale Bioregion:</b> ${feature.MESO_NAME.value} <i>(${feature.PB_NAME.value} Provincial Bioregion)</i><br><br> 
+  <div class="feature" style="padding-top:5px; padding-bottom:5px"> 
+  <b>IMCRA Meso-scale Bioregion:</b> ${feature.MESO_NAME.value} <i>(${feature.PB_NAME.value})</i><br>
   </div>
 </#list>
