@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>bioregion</name>
+        <type>string</type>
+        <label>Bioregion</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>site</name>
+        <type>string</type>
+        <label>Site</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>year</name>
+        <type>int</type>
+        <label>Year</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
