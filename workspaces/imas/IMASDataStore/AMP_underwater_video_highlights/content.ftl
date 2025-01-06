@@ -15,7 +15,7 @@
 <#if !found3DModel>
     <!-- Check for YouTube, Vimeo, or BathurstChannel video -->
     <#list features as feature>
-        <#if feature.media_type.value <> "file" && foundMedia < 2>
+        <#if feature.media_type.value != "file" && foundMedia < 2>
             <#assign foundMedia=foundMedia+1>
             <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
                 <#if feature.media_type.value == "youtube">
@@ -24,7 +24,7 @@
                 <#if feature.media_type.value == "vimeo">
                     <iframe width="100%" height="315" src="https://player.vimeo.com/video/${feature.media_name.value}?autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
                 </#if>
-                <#if feature.media_type.value == Bathurst Channel file">
+                <#if feature.media_type.value == "Bathurst Channel file">
                     <video width="560" controls autoplay muted loop>
                         <source src="${feature.media_URL.value!}" type="video/mp4">
                     </video>
