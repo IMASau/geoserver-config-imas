@@ -15,16 +15,16 @@
 <#if !found3DModel>
     <!-- Check for YouTube, Vimeo, or BathurstChannel video -->
     <#list features as feature>
-        <#if (feature.dtype.value == "A_youtube" || feature.dtype.value == "A_vimeo" || feature.dtype.value == "A_BC_comp" || feature.dtype.value == "A_BC_highlight") && foundMedia < 2>
+        <#if feature.media_type.value <> "file" && foundMedia < 2>
             <#assign foundMedia=foundMedia+1>
             <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
-                <#if feature.dtype.value == "A_youtube">
+                <#if feature.media_type.value == "youtube">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
                 </#if>
-                <#if feature.dtype.value == "A_vimeo">
+                <#if feature.media_type.value == "vimeo">
                     <iframe width="100%" height="315" src="https://player.vimeo.com/video/${feature.media_name.value}?autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
                 </#if>
-                <#if feature.dtype.value == "A_BC_comp" || feature.dtype.value == "A_BC_highlight">
+                <#if feature.media_type.value == Bathurst Channel file">
                     <video width="560" controls autoplay muted loop>
                         <source src="${feature.media_URL.value!}" type="video/mp4">
                     </video>
@@ -51,7 +51,7 @@
     <#if foundMedia == 0>
         <div style="display: flex; justify-content: center;">
             <div style="width: 400px;">
-                <#list features?sort_by(["dtype", "rawValue"]) as feature>
+                <#list features?sort_by(["sort_order", "rawValue"]) as feature>
                     <#if feature_index < 3>
                         <div style="position: relative; display: block; padding-bottom: 15px;">
                             <#if feature.Date?? && feature.Date.value?has_content>
@@ -80,7 +80,7 @@
                             </#if>
 
                             <#assign videoStyle = "position: relative; width: 400px;">
-                            <#if feature.dtype.value == "compilation">
+                            <#if feature.dtype.value == "regional compilation">
                                 <#assign videoStyle = videoStyle + "box-shadow: 0 0 8px 2px rgba(0, 153, 255, 0.75);">
                             </#if>
 
@@ -88,12 +88,12 @@
                                 <video width="400" controls autoplay muted loop>
                                     <source src="${feature.media_URL.value!}" type="video/mp4">
                                 </video>
-                                <#if feature.dtype.value == "compilation">
+                                <#if feature.dtype.value == "regional compilation">
                                     <div style="font-size:11px; position: absolute; bottom: 3px; right: 0px; z-index: 10; background-color: rgba(255, 255, 255, 0.3); padding: 3px;">
                                         Video location is approximate
                                     </div> 
                                 </#if>
-                                <#if feature.dtype.value != "compilation">
+                                <#if feature.dtype.value != "regional compilation">
                                     <div style="font-size:10px; position: absolute; top: 3px; right: 3px; background-color: rgba(255, 255, 255, 0.3); padding: 2px;">
                                         Credit: ${feature.source.value!"Unknown"}
                                     </div>

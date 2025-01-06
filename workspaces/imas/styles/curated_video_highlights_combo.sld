@@ -69,16 +69,10 @@
  
         <Rule>
           <ogc:Filter>
-			<ogc:Or>					  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>	
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo> 
-			</ogc:Or>			
+            </ogc:PropertyIsEqualTo>				
           </ogc:Filter>	
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
           <PointSymbolizer>
@@ -113,24 +107,10 @@
         </Rule>	
         <Rule>
           <ogc:Filter>		
-			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>			
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_comp</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>   			
-			</ogc:Or>            
+              <ogc:Literal>regional compilation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>           
           </ogc:Filter>		
           <MinScaleDenominator>4000000</MinScaleDenominator> 		  
           <PointSymbolizer>
@@ -166,17 +146,11 @@
  
  
         <Rule>
-          <ogc:Filter>
-			<ogc:Or>					  
+          <ogc:Filter>				  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>	
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo> 
-			</ogc:Or>			
+            </ogc:PropertyIsEqualTo>				
           </ogc:Filter>	
           <MinScaleDenominator>150000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
@@ -213,24 +187,10 @@
         </Rule>	
         <Rule>
           <ogc:Filter>		
-			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>compilation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo> 
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_comp</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>   			
-			</ogc:Or>			
+              <ogc:Literal>regional compilation</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>			
           </ogc:Filter>		
           <MinScaleDenominator>150000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
@@ -269,16 +229,10 @@
 		
         <Rule>
           <ogc:Filter>
-			<ogc:Or>					  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>	
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo> 
-			</ogc:Or>			
+            </ogc:PropertyIsEqualTo>				
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>           
@@ -315,24 +269,10 @@
         </Rule>
         <Rule>
           <ogc:Filter>		
-			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>compilation</ogc:Literal>		
+              <ogc:Literal>regional compilation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>  
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_comp</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>             
-			</ogc:Or>			
           </ogc:Filter>	
           <MinScaleDenominator>10000</MinScaleDenominator>                              
           <MaxScaleDenominator>150000</MaxScaleDenominator>           
@@ -371,16 +311,10 @@
         <Rule>
           <Title> highlight</Title>
           <ogc:Filter>
-			<ogc:Or>		  
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
               <ogc:Literal>highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_highlight</ogc:Literal>		
-            </ogc:PropertyIsEqualTo> 
-			</ogc:Or>						
+            </ogc:PropertyIsEqualTo>						
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
           <PointSymbolizer>
@@ -417,24 +351,10 @@
         <Rule>
           <Title> regional compilation video</Title>
           <ogc:Filter>
-			<ogc:Or>
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>compilation</ogc:Literal>		
+              <ogc:Literal>regional compilation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_youtube</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_vimeo</ogc:Literal>		
-            </ogc:PropertyIsEqualTo> 
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>dtype</ogc:PropertyName>		
-              <ogc:Literal>A_BC_comp</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>   			
-			</ogc:Or>			
           </ogc:Filter>	          
           <MaxScaleDenominator>10000</MaxScaleDenominator>			  
           <PointSymbolizer>
@@ -468,7 +388,7 @@
           </PointSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                                          		  
         </Rule> 				
-      <VendorOption name="sortBy">dtype D</VendorOption>						
+      <VendorOption name="sortBy">sort_order D</VendorOption>						
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
