@@ -2,18 +2,18 @@
 <#list features as feature>
     <#if (feature_index < 1)>
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-            <i>Tag ID</i> 
+            <i style="color:#9a9a9a;">Tag ID</i> 
             <span style="font-weight:bold; color:${feature.colour.value}">
                 ${feature.TagID.value}
-            </span><br>
+            </span>
 
-            <i>tracked at 
+            <i style="color:#9a9a9a;">tracked at</i> 
                 <time>
-                    ${feature.DateTime.value?datetime?string("HH:mm:ss")}
+                    <b>${feature.DateTime.value?datetime?string("h:mm:ss a")}</b>
                 </time> 
-                on 
+           	on 
                 <date>
-                    ${feature.DateTime.value?datetime?string("dd MMM yy")}
+                    <b>${feature.DateTime.value?datetime?string("dd MMM yyyy")}</b>
                 </date>
             </i>
         </div>
