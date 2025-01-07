@@ -1,0 +1,17 @@
+<layer>
+  <name>PSAT_tagging_Kerguelen_skates_pts</name>
+  <id>LayerInfoImpl-7365ba1:1943f2f008b:-7eb7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7365ba1:1943f2f008b:-7eba</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7365ba1:1943f2f008b:-7eb8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-07 05:20:01.564 UTC</dateCreated>
+  <dateModified>2025-01-07 05:21:26.861 UTC</dateModified>
+</layer>
