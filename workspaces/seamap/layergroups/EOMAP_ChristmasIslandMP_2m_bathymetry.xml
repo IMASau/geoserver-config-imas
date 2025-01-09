@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-7365ba1:1944d3650ae:177a</id>
+  <name>EOMAP_ChristmasIslandMP_2m_bathymetry</name>
+  <mode>SINGLE</mode>
+  <title>Satellite-derived 2m bathymetry mapping of Christmas Island Marine Park 2022 (EOMAP, Parks Australia)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1944d3650ae:14dc</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1944d3650ae:14d3</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--2f6d4f29:189247b1152:-55ba</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>105.52062084868584</minx>
+    <maxx>105.71601901591265</maxx>
+    <miny>-10.577340795040822</miny>
+    <maxy>-10.406685547454742</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-01-09 23:24:45.221 UTC</dateCreated>
+</layerGroup>

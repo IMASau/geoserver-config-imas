@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7365ba1:1944d3650ae:f4d</id>
+  <name>EOMAP_ChristmasIsland_hillshade</name>
+  <description>Hillshade from EOMAP satellite-derived bathymetry</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-01-09 23:03:00.952 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/EOMAP/ChristmasIsland/SDB_AUS_ChristmasIsland_EOMAP_2022_2m_MSL_hs1m.tif</url>
+</coverageStore>

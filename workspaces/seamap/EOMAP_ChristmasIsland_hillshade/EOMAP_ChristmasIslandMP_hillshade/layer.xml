@@ -1,0 +1,18 @@
+<layer>
+  <name>EOMAP_ChristmasIslandMP_hillshade</name>
+  <id>LayerInfoImpl-7365ba1:1944d3650ae:14dc</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7365ba1:1944d3650ae:14db</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-09 23:20:53.117 UTC</dateCreated>
+  <dateModified>2025-01-09 23:22:02.37 UTC</dateModified>
+</layer>

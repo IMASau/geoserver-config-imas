@@ -1,0 +1,16 @@
+<layer>
+  <name>EOMAP_CocosKeelingIslandsMP_bathy</name>
+  <id>LayerInfoImpl-7365ba1:1944d3650ae:14d6</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2f6d4f29:189247b1152:-55ba</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7365ba1:1944d3650ae:14d5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-09 23:18:58.909 UTC</dateCreated>
+</layer>

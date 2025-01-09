@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-7365ba1:1944d3650ae:177b</id>
+  <name>EOMAP_CocosKeelingIslandsMP_2m_bathymetry</name>
+  <mode>SINGLE</mode>
+  <title>Satellite-derived 2m bathymetry mapping of Cocos (Keeling) Islands Marine Park 2022 (EOMAP, Parks Australia)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1944d3650ae:163a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1944d3650ae:14d6</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--2f6d4f29:189247b1152:-55ba</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>96.78543785045174</minx>
+    <maxx>96.94146003991797</maxx>
+    <miny>-12.218920963178716</miny>
+    <maxy>-11.810100819182772</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-01-09 23:25:01.539 UTC</dateCreated>
+</layerGroup>
