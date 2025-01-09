@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-	<h5>Habitat - WA - satellite-derived habitat of Ashmore Reef & Cartier Island</h5>
+	<h5>Satellite-derived benthic habitat of Cocos (Keeling) Islands MP</h5>
 	<BR>
 	<div class="habitat"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}<BR>
