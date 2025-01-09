@@ -21,10 +21,10 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/FAD-icon.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/FAD_icon1.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>10</Size>
+    			 	<Size>28</Size>
   			 </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -39,10 +39,10 @@
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/AR-icon.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/AR_icon1.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>10</Size>
+    			 	<Size>23</Size>
   			 </Graphic>
           </PointSymbolizer>
         </Rule>        
