@@ -11,18 +11,18 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-7365ba1:1944d3650ae:14dc</id>
+      <id>LayerInfoImpl-7365ba1:1944a486ae9:-4591</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-7365ba1:1944a486ae9:-4591</id>
+      <id>LayerInfoImpl-7365ba1:1944d3650ae:14dc</id>
     </published>
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+      <id>StyleInfoImpl-7365ba1:1944a486ae9:-468b</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7365ba1:1944a486ae9:-468b</id>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
     </style>
   </styles>
   <bounds>
@@ -33,4 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-01-10 00:20:45.823 UTC</dateCreated>
+  <dateModified>2025-01-10 00:34:33.355 UTC</dateModified>
 </layerGroup>
