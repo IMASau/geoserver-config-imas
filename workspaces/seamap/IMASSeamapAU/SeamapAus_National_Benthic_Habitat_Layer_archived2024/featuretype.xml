@@ -1,31 +1,18 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-5a17232d:1619115badc:-6538</id>
-  <name>SeamapAus_National_Benthic_Habitat_Layer_archived2020</name>
-  <nativeName>FINALPRODUCT_SeamapAus_archive_2020</nativeName>
+  <id>FeatureTypeInfoImpl-7365ba1:1944ea39766:-7a1c</id>
+  <name>SeamapAus_National_Benthic_Habitat_Layer_archived2024</name>
+  <nativeName>FINALPRODUCT_SeamapAus_archive_2024</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer: 2020 archive</title>
+  <title>Seamap Australia National Benthic Habitat Layer: v2024 archive</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country. Through compiling all of these data sets, we established a controlled vocabulary, reviewed by ANDS and external independent assessors, to produce a national classification of marine habitats.&#xd;
 &#xd;
-This layer represents Version 1.1 of the data and was snapshotted in 2020. Any future changes to the dataset will be released as Version 2 of Seamap Australia.</abstract>
+This layer represents Version 2024 of the data. It has been superseded by Version 2025.</abstract>
   <keywords>
-    <string>Seamap Australia</string>
-    <string>marine</string>
-    <string>data aggregation</string>
-    <string>biota</string>
-    <string>benthic habitat</string>
-    <string>substrata</string>
-    <string>NBHL</string>
-    <string>National Benthic Habitat Layer</string>
+    <string>features</string>
+    <string>FINALPRODUCT_SeamapAus_archive_2024</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=4739e4b0-4dba-4ec5-b658-02c09f27ab9a</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
     DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 
@@ -51,40 +38,30 @@ This layer represents Version 1.1 of the data and was snapshotted in 2020. Any f
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>112.3</minx>
-    <maxx>154.4</maxx>
-    <miny>-44.07851672123112</miny>
-    <maxy>-8.039812374995243</maxy>
+    <minx>109.10535256774192</minx>
+    <maxx>162.08316642900803</maxx>
+    <miny>-44.21194449924788</miny>
+    <maxy>-7.628133813701703</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>112.3</minx>
-    <maxx>154.4</maxx>
-    <miny>-44.07851672123112</miny>
-    <maxy>-8.039812374995243</maxy>
+    <minx>109.10535256774192</minx>
+    <maxx>162.08316642900803</maxx>
+    <miny>-44.21194449924788</miny>
+    <maxy>-7.628133813701703</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
-    <entry key="elevation">
-      <dimensionInfo>
-        <enabled>false</enabled>
-      </dimensionInfo>
-    </entry>
-    <entry key="time">
-      <dimensionInfo>
-        <enabled>false</enabled>
-        <defaultValue/>
-      </dimensionInfo>
-    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
