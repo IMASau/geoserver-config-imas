@@ -12,6 +12,7 @@ This layer represents Version 2023 of the data. It has been superseded by Versio
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_archive_2023</string>
+    <string>NBHL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
