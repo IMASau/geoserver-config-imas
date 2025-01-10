@@ -5,8 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>ADMIN USE ONLY - reduced (5,000m) version of current NBHL</title>
-  <abstract>This layer is created from an SQL Server view of the NBHL - a product of SELECT geom.Reduce(5000)&#xd;
+  <title>ADMIN USE ONLY - reduced (1,000m) version of current NBHL</title>
+  <abstract>This layer is created from an SQL Server view of the NBHL - a product of SELECT geom.Reduce(1000)&#xd;
 &#xd;
 This layer exists exclusively for seeding problematic zoom levels too avoid GC overhead limit issues and Geoserver crashing. Currently, it is NOT used in a zoom-based layer group, but feasibly could be incorporated at levels 8 or higher.</abstract>
   <keywords>
@@ -38,17 +38,17 @@ This layer exists exclusively for seeding problematic zoom levels too avoid GC o
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.11523067334585</minx>
-    <maxx>162.08176219920767</maxx>
-    <miny>-44.207202150682235</miny>
-    <maxy>-7.628132840625412</maxy>
+    <minx>87.00166242638319</minx>
+    <maxx>162.08316642900803</maxx>
+    <miny>-44.20055279131755</miny>
+    <maxy>-4.388534977624384</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-2087580.6687000021</minx>
-    <maxx>2364389.7212999985</maxx>
-    <miny>-4977016.8487</miny>
-    <maxy>-1096966.2495000008</maxy>
+    <minx>87.00166242638319</minx>
+    <maxx>162.08316642900803</maxx>
+    <miny>-44.20055279131755</miny>
+    <maxy>-4.388534977624384</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
