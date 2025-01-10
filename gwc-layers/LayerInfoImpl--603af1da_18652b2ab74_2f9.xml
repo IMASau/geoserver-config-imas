@@ -11,7 +11,7 @@
       <gridSetName>EPSG:4326</gridSetName>
       <extent>
         <coords>
-          <double>109.24269472278225</double>
+          <double>96.6519</double>
           <double>-44.079546064328945</double>
           <double>159.99679706874474</double>
           <double>-7.9025539153829385</double>
@@ -22,7 +22,7 @@
       <gridSetName>WebMercatorQuad</gridSetName>
       <extent>
         <coords>
-          <double>1.2145552290661646E7</double>
+          <double>1.0756528E7</double>
           <double>-5498299.873795617</double>
           <double>1.804301643490543E7</double>
           <double>-851679.6257007833</double>

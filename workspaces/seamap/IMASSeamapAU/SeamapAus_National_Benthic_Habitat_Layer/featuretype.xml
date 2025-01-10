@@ -26,7 +26,7 @@ This layer is v2024 of the dataset, released in December 2024.</abstract>
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -40,17 +40,17 @@ This layer is v2024 of the dataset, released in December 2024.</abstract>
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>87.00166242638319</minx>
+    <minx>96.8</minx>
     <maxx>162.08316642900803</maxx>
     <miny>-44.20055279131755</miny>
-    <maxy>-4.388534977624384</maxy>
+    <maxy>-8.92</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>87.00166242638319</minx>
+    <minx>96.8</minx>
     <maxx>162.08316642900803</maxx>
     <miny>-44.20055279131755</miny>
-    <maxy>-4.388534977624384</maxy>
+    <maxy>-8.92</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -64,6 +64,8 @@ This layer is v2024 of the dataset, released in December 2024.</abstract>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
