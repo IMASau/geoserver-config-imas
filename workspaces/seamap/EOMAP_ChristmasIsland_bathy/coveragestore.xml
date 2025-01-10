@@ -7,6 +7,7 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
+  <connectionParameters/>
   <metadata>
     <entry key="CogSettings.Key">
       <cogSettings>
@@ -17,6 +18,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2025-01-09 23:02:49.14 UTC</dateCreated>
+  <dateModified>2025-01-09 23:46:48.866 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/EOMAP/ChristmasIsland/SDB_AUS_ChristmasIsland_EOMAP_2022_2m_MSL_bathy.tif</url>
 </coverageStore>

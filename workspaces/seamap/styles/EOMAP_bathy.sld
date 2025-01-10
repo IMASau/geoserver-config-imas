@@ -31,7 +31,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#fffffff" opacity="0.00000001" quantity="5" label="Depth (m)"/>              
-              <ColorMapEntry color="#705634" opacity="0.7" label="  &gt;0" quantity="0"/>
+              <ColorMapEntry color="#705634" opacity="0.7" label="  &gt;0 (supratidal)" quantity="0"/>
               <ColorMapEntry color="#ba7b33" opacity="0.7" label="  0.5" quantity="-0.5"/>              
               <ColorMapEntry color="#eaea74" opacity="0.7" label="  1" quantity="-1"/>
               <ColorMapEntry color="#23c88c" opacity="0.7" label="  2" quantity="-2"/>
