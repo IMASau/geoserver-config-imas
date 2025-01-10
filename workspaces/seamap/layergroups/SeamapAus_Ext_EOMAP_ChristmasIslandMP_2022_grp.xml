@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-7365ba1:1944d7d6ae0:-2d38</id>
+  <name>SeamapAus_Ext_EOMAP_ChristmasIslandMP_2022_grp</name>
+  <mode>SINGLE</mode>
+  <title>Satellite-derived 2m habitat mapping of Christmas Island Marine Park 2022 (EOMAP, Parks Australia)</title>
+  <abstractTxt>Layer group displayed with bathymetry hillshade backdrop</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1944d3650ae:14dc</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1944a486ae9:-4591</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7365ba1:1944a486ae9:-468b</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>105.52062084868584</minx>
+    <maxx>105.72649302498712</maxx>
+    <miny>-10.580925279959752</miny>
+    <maxy>-10.37955341369231</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-01-10 00:20:45.823 UTC</dateCreated>
+</layerGroup>

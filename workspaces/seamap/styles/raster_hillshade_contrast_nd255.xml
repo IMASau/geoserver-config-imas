@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
-  <name>raster_hillshade_contrast</name>
+  <name>raster_hillshade_contrast_nd255</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_hillshade_contrast.sld</filename>
+  <filename>raster_hillshade_contrast_nd255.sld</filename>
   <dateCreated>2022-09-19 08:18:03.886 UTC</dateCreated>
-  <dateModified>2023-11-23 20:37:57.105 UTC</dateModified>
+  <dateModified>2025-01-10 00:26:47.684 UTC</dateModified>
 </style>
