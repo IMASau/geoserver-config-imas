@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7365ba1:1944a486ae9:-4592</id>
-  <name>SeamapAus_Ext_ChristmasIslandMP_2022</name>
-  <nativeName>SeamapAus_Ext_EOMAP_ChristmasIslandMP_2022</nativeName>
+  <id>FeatureTypeInfoImpl-7365ba1:1944a486ae9:-4598</id>
+  <name>SeamapAus_Ext_EOMAP_CocosKeelingMP_2022</name>
+  <nativeName>SeamapAus_Ext_EOMAP_CocosKeelingMP_2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Satellite-derived habitat mapping of Christmas Island Marine Park 2022 (EOMAP, Parks Australia)</title>
+  <title>Satellite-derived habitat mapping of Cocos (Keeling) Islands Marine Park 2022 (EOMAP, Parks Australia)</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_Ext_EOMAP_ChristmasIslandMP_2022</string>
+    <string>SeamapAus_Ext_EOMAP_CocosKeelingMP_2022</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>105.52288423624157</minx>
-    <maxx>105.72649302498712</maxx>
-    <miny>-10.580925279959752</miny>
-    <maxy>-10.37955341369231</maxy>
+    <minx>96.70020234374492</minx>
+    <maxx>97.02773524908916</maxx>
+    <miny>-12.234847615464764</miny>
+    <maxy>-11.813021830327353</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>105.52288423624157</minx>
-    <maxx>105.72649302498712</maxx>
-    <miny>-10.580925279959752</miny>
-    <maxy>-10.37955341369231</maxy>
+    <minx>96.70020234374492</minx>
+    <maxx>97.02773524908916</maxx>
+    <miny>-12.234847615464764</miny>
+    <maxy>-11.813021830327353</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
