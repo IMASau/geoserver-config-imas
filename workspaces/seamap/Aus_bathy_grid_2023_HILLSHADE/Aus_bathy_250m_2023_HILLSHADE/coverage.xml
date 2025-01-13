@@ -1,19 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f3a</id>
-  <name>Aus_bathy_grid_250m_2023</name>
-  <nativeName>Aus_bathy_grid_2023</nativeName>
+  <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f4b</id>
+  <name>Aus_bathy_250m_2023_HILLSHADE</name>
+  <nativeName>Aus_bathy_grid_2023_hs1m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Bathymetry 250m (GA 2023)</title>
+  <title>Hillshade for Australian Bathymetry Grid 250m (GA 2023)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>The 2023 bathymetric grid of Australia is the result of a collaborative partnership between Geoscience Australia, the Australian Hydrographic Office, James Cook University, and the University of Sydney. It was compiled using 1582 unique data sources from multibeam echosounders, single-beam echosounders, LiDAR, 3D seismic first returns, Electronic Navigation Charts and satellite derived bathymetry alongside higher-resolution regional compilations. All source bathymetry data were extensively edited as 3D point clouds to remove noise, given a consistent WGS84 horizontal datum, and where possible, an approximate MSL vertical datum. &#xd;
-&#xd;
-The revised grid has the same extents as its 2009 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
-&#xd;
-This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2023 product.</abstract>
+  <abstract>No vertical exaggeration (z-factor 1m), azimuth 315, altitude 45.</abstract>
   <keywords>
-    <string>Aus_bathy_grid_2023</string>
+    <string>Aus_bathy_grid_2023_hs1m</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -40,10 +36,10 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
   <srs>EPSG:9473</srs>
   <nativeBoundingBox>
-    <minx>-4502455.209</minx>
-    <maxx>4502473.463</maxx>
-    <miny>-6827374.226</miny>
-    <maxy>-834078.451</maxy>
+    <minx>-4502455.208774623</minx>
+    <maxx>4502473.462734018</maxx>
+    <miny>-6827374.226215827</miny>
+    <maxy>-834078.4514233792</maxy>
     <crs class="projected">EPSG:9473</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
@@ -58,10 +54,10 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Aus_bathy_grid_2023_fine_Aus_bathy_grid</entry>
+    <entry key="dirName">Aus_bathy_grid_2023_HILLSHADE_Aus_bathy_grid_hs1m</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-5e9bd345:18ed7dc64e3:-f3b</id>
+    <id>CoverageStoreInfoImpl-5e9bd345:18ed7dc64e3:-f4d</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -105,10 +101,10 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
         <max>inf</max>
       </range>
       <nullValues>
-        <double>3.3999999521443642E38</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
-        <name>REAL_32BITS</name>
+        <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
@@ -136,5 +132,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_bathy_grid_2023</nativeCoverageName>
+  <nativeCoverageName>Aus_bathy_grid_2023_hs1m</nativeCoverageName>
 </coverage>

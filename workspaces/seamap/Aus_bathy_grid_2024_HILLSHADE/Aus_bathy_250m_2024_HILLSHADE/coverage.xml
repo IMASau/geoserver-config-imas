@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f4b</id>
-  <name>Aus_bathy_grid_250m_2023_HILLSHADE</name>
-  <nativeName>Aus_bathy_grid_2023_hs1m</nativeName>
+  <id>CoverageInfoImpl-7365ba1:1945eae1555:-3a77</id>
+  <name>Aus_bathy_250m_2024_HILLSHADE</name>
+  <nativeName>Aus_bathy_grid_250m_2024_HILLSHADE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade for Australian Bathymetry Grid 250m (GA 2023)</title>
+  <title>Hillshade for Australian Bathymetry Grid 250m (GA 2024)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>No vertical exaggeration (z-factor 1m), azimuth 315, altitude 45.</abstract>
   <keywords>
-    <string>Aus_bathy_grid_2023_hs1m</string>
+    <string>Aus_bathy_grid_2024_hs1m</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -36,17 +36,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
   <srs>EPSG:9473</srs>
   <nativeBoundingBox>
-    <minx>-4502455.208774623</minx>
-    <maxx>4502473.462734018</maxx>
-    <miny>-6827374.226215827</miny>
-    <maxy>-834078.4514233792</maxy>
+    <minx>-4502455.209</minx>
+    <maxx>4502473.463</maxx>
+    <miny>-6827374.226</miny>
+    <maxy>-834078.451</maxy>
     <crs class="projected">EPSG:9473</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>92.00013888887796</minx>
-    <maxx>172.0001388888053</maxx>
-    <miny>-59.999860839874</miny>
-    <maxy>-7.999860839921226</maxy>
+    <minx>92.0</minx>
+    <maxx>172.0</maxx>
+    <miny>-60.0</miny>
+    <maxy>-8.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -54,10 +54,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Aus_bathy_grid_2023_HILLSHADE_Aus_bathy_grid_hs1m</entry>
+    <entry key="dirName">Aus_bathy_grid_2024_HILLSHADE_Aus_bathy_grid_2024_hs1m</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-5e9bd345:18ed7dc64e3:-f4d</id>
+    <id>CoverageStoreInfoImpl-7365ba1:1945eae1555:-3abb</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -67,15 +67,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>38159 25397</high>
+      <high>31623 21047</high>
     </range>
     <transform>
-      <scaleX>235.98439873971128</scaleX>
-      <scaleY>-235.98439873971128</scaleY>
+      <scaleX>284.7513995133328</scaleX>
+      <scaleY>-284.7513995133328</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4502337.216575254</translateX>
-      <translateY>-834196.4436227491</translateY>
+      <translateX>-4502040.683730968</translateX>
+      <translateY>-834220.8271918949</translateY>
     </transform>
     <crs>EPSG:9473</crs>
   </grid>
@@ -132,5 +132,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_bathy_grid_2023_hs1m</nativeCoverageName>
+  <nativeCoverageName>Aus_bathy_grid_2024_hs1m</nativeCoverageName>
 </coverage>
