@@ -1,0 +1,49 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-7365ba1:1945eae1555:-3a71</id>
+  <name>Aus_bathy_grid_250m_2024</name>
+  <mode>SINGLE</mode>
+  <title>Australian Bathymetry 2024 250 m (GA)</title>
+  <abstractTxt>The AusBathyTopo 250m (Australia) 2024 Grid is a national-scale depth model for Australia that replaces the AusBathyTopo 250m (Australia) 2023 Grid.&#xd;
+&#xd;
+This publication is the result of a collaborative partnership between Geoscience Australia, the Australian Hydrographic Office, James Cook University, and the University of Sydney. It has been compiled using 1456 unique data sources from multibeam echosounders, single-beam echosounders, LiDAR, 3D seismic first returns, Electronic Navigation Charts and satellite derived bathymetry alongside higher-resolution regional compilations. In particular, the map incorporates new innovations such as the use of earth observation data (satellite based) produced by Digital Earth Australia to improve shallow coastal depth modelling to present a seamless transition between land and sea. All source bathymetry data were extensively edited as 3D point clouds to remove noise, given a consistent WGS84 horizontal datum, and where possible, an approximate MSL vertical datum. This new continental-scale grid represents decades of data collection, analysis, investment and collaboration from Australia’s seabed mapping community and is a significant improvement on the 2009 and 2023 compilations.&#xd;
+&#xd;
+The data extends across a vast area from 92°E to 172° E and 8°S to 60° S. This includes areas adjacent to the Australian continent and Tasmania, and surrounding Macquarie Island and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. Australia&apos;s marine jurisdiction offshore from the territory of Heard and McDonald Islands and the Australian Antarctic Territory are not included.&#xd;
+&#xd;
+This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography (AusBathyTopo) 2024 product.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1945eae1555:-3a76</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1945eae1555:-3a79</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--227ee776:1818c8f7268:4e9a</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-4502455.209</minx>
+    <maxx>4502473.463</maxx>
+    <miny>-6827374.226</miny>
+    <maxy>-834078.451</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </bounds>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-13 12:22:44.715 UTC</dateCreated>
+</layerGroup>

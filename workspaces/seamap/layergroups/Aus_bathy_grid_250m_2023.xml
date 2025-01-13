@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-1691f5b0:18e6efa13e2:-12be</id>
-  <name>Aus_bathy_grid_250m</name>
+  <name>Aus_bathy_grid_250m_2023</name>
   <mode>SINGLE</mode>
   <title>Australian Bathymetry 2023 250 m (GA)</title>
   <abstractTxt>The 2023 bathymetric grid of Australia is the result of a collaborative partnership between Geoscience Australia, the Australian Hydrographic Office, James Cook University, and the University of Sydney. It was compiled using 1582 unique data sources from multibeam echosounders, single-beam echosounders, LiDAR, 3D seismic first returns, Electronic Navigation Charts and satellite derived bathymetry alongside higher-resolution regional compilations. All source bathymetry data were extensively edited as 3D point clouds to remove noise, given a consistent WGS84 horizontal datum, and where possible, an approximate MSL vertical datum. &#xd;
@@ -8,6 +8,7 @@
 The revised grid has the same extents as its 2009 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
 &#xd;
 This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2023 product.</abstractTxt>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -37,5 +38,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2024-03-24 07:07:45.231 UTC</dateCreated>
-  <dateModified>2024-05-29 03:06:52.707 UTC</dateModified>
+  <dateModified>2025-01-13 12:21:39.55 UTC</dateModified>
 </layerGroup>
