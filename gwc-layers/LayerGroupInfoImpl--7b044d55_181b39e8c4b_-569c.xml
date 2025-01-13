@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl-7365ba1:1945eae1555:-3a71</id>
+  <id>LayerGroupInfoImpl--7b044d55:181b39e8c4b:-569c</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_grid_250m_2024</name>
+  <name>seamap:Aus_bathy_grid_250m_2009</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>

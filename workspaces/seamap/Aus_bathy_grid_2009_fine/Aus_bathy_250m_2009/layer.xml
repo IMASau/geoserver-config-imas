@@ -1,0 +1,17 @@
+<layer>
+  <name>Aus_bathy_250m_2009</name>
+  <id>LayerInfoImpl-7365ba1:1945eae1555:-1cf2</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--227ee776:1818c8f7268:4e9a</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7365ba1:1945eae1555:-1cf3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-13 14:31:48.613 UTC</dateCreated>
+  <dateModified>2025-01-13 16:00:23.244 UTC</dateModified>
+</layer>

@@ -13,8 +13,6 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <internationalTitle/>
-  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl-7365ba1:1945eae1555:-3a76</id>
@@ -46,4 +44,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-01-13 12:22:44.715 UTC</dateCreated>
+  <dateModified>2025-01-13 16:09:02.593 UTC</dateModified>
 </layerGroup>

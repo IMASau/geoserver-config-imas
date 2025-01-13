@@ -2,27 +2,19 @@
   <id>LayerGroupInfoImpl-1691f5b0:18e6efa13e2:-12be</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_250m_2023</name>
+  <name>seamap:Aus_bathy_grid_250m_2023</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <extent>
-        <coords>
-          <double>-1.967931683542066E7</double>
-          <double>-9699854.783691213</double>
-          <double>1.9950820039405644E7</double>
-          <double>-170236.4577626427</double>
-        </coords>
-      </extent>
       <maxCachedLevel>14</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
-    <int>1</int>
-    <int>1</int>
+    <int>4</int>
+    <int>4</int>
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
