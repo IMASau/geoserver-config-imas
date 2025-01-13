@@ -1,7 +1,7 @@
 <coverage>
   <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f4b</id>
   <name>Aus_bathy_grid_250m_2023_HILLSHADE</name>
-  <nativeName>Aus_bathy_grid_250m_2023_HILLSHADE_N</nativeName>
+  <nativeName>Aus_bathy_grid_2023_hs1m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -9,7 +9,7 @@
   <description>Generated from GeoTIFF</description>
   <abstract>No vertical exaggeration (z-factor 1m), azimuth 315, altitude 45.</abstract>
   <keywords>
-    <string>Aus_bathy_grid_hs1m</string>
+    <string>Aus_bathy_grid_2023_hs1m</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -132,5 +132,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_bathy_grid_hs1m</nativeCoverageName>
+  <nativeCoverageName>Aus_bathy_grid_2023_hs1m</nativeCoverageName>
 </coverage>

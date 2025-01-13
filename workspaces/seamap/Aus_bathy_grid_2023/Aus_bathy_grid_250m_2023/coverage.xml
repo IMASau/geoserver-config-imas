@@ -1,7 +1,7 @@
 <coverage>
   <id>CoverageInfoImpl-5e9bd345:18ed7dc64e3:-f3a</id>
   <name>Aus_bathy_grid_250m_2023</name>
-  <nativeName>Aus_bathy_grid_250m_2023_fine_NEW</nativeName>
+  <nativeName>Aus_bathy_grid_2023</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -13,7 +13,7 @@ The revised grid has the same extents as its 2009 counterpart, including the Aus
 &#xd;
 This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2023 product.</abstract>
   <keywords>
-    <string>Aus_bathy_grid</string>
+    <string>Aus_bathy_grid_2023</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -136,5 +136,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Aus_bathy_grid</nativeCoverageName>
+  <nativeCoverageName>Aus_bathy_grid_2023</nativeCoverageName>
 </coverage>
