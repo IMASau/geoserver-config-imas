@@ -42,10 +42,10 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
   <srs>EPSG:9473</srs>
   <nativeBoundingBox>
-    <minx>-4502455.209</minx>
-    <maxx>4502473.463</maxx>
-    <miny>-6827374.226</miny>
-    <maxy>-834078.451</maxy>
+    <minx>-4502183.059430725</minx>
+    <maxx>4502510.447379398</maxx>
+    <miny>-6827241.157049254</miny>
+    <maxy>-834078.4514921382</maxy>
     <crs class="projected">EPSG:9473</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
