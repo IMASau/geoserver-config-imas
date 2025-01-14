@@ -12,8 +12,7 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
               <ColorMapEntry color="#ffffff" opacity="0" quantity="0"/>
               <ColorMapEntry color="#000000" opacity="0.5" quantity="1"/>              
               <ColorMapEntry color="#737373" opacity="0.35" quantity="170"/>              
-              <ColorMapEntry color="#ffffff" opacity="0.25" quantity="249"/>
-              <ColorMapEntry color="#ffffff" opacity="0" quantity="255"/>
+              <ColorMapEntry color="#ffffff" opacity="0.25" quantity="250"/>
               
             </ColorMap>
           </RasterSymbolizer>
