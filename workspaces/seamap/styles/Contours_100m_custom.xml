@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--61d22a37:19293ca7ccc:-2644</id>
-  <name>SeamapAus_contours_100m</name>
+  <name>Contours_100m_custom</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>SeamapAus_contours_100m.sld</filename>
+  <filename>Contours_100m_custom.sld</filename>
   <dateCreated>2024-10-16 06:40:46.358 UTC</dateCreated>
-  <dateModified>2024-10-17 04:44:32.523 UTC</dateModified>
+  <dateModified>2025-01-14 22:09:10.826 UTC</dateModified>
 </style>
