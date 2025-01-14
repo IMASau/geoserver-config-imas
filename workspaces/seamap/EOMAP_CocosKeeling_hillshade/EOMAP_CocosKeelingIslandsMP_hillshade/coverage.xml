@@ -1,16 +1,16 @@
 <coverage>
-  <id>CoverageInfoImpl-7365ba1:1944d3650ae:1639</id>
+  <id>CoverageInfoImpl-7365ba1:194628241b6:1804</id>
   <name>EOMAP_CocosKeelingIslandsMP_hillshade</name>
-  <nativeName>EOMAP_CocosKeelingIslandsMP_hillshade</nativeName>
+  <nativeName>EOMAP_CocosKeelingIslandsMP_hillshade_TEST</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Hillshade for satellite-derived bathymetry for Cocos (Keeling) Islands Marine Park (EOMAP, Parks Australia)</title>
-  <description>Generated from ImageMosaic</description>
+  <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>hillshade</string>
+    <string>SDB_AUS_CocosKeelingIslandsMP_EOMAP_2022_2m_MSL_hs1m</string>
     <string>WCS</string>
-    <string>ImageMosaic</string>
+    <string>GeoTIFF</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 47S&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
@@ -32,18 +32,18 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32747&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:32747</srs>
   <nativeBoundingBox>
-    <minx>96.78543785045174</minx>
-    <maxx>96.94146003991797</maxx>
-    <miny>-12.218920963178716</miny>
-    <maxy>-11.810100819182772</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>259065.0</minx>
+    <maxx>275711.0</maxx>
+    <miny>8648383.0</miny>
+    <maxy>8693493.0</maxy>
+    <crs class="projected">EPSG:32747</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>96.78543785045174</minx>
-    <maxx>96.94146003991797</maxx>
-    <miny>-12.218920963178716</miny>
+    <minx>96.78543777526902</minx>
+    <maxx>96.9414692138072</maxx>
+    <miny>-12.218930069388453</miny>
     <maxy>-11.810100819182772</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -52,20 +52,20 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">EOMAP_CocosKeeling_hillshade_hillshade</entry>
+    <entry key="dirName">EOMAP_CocosKeeling_hillshade_TEST_SDB_AUS_CocosKeelingIslandsMP_EOMAP_2022_2m_MSL_hs1m</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7365ba1:1944d3650ae:1188</id>
+    <id>CoverageStoreInfoImpl-7365ba1:194628241b6:1801</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <nativeFormat>ImageMosaic</nativeFormat>
+  <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>8322 22554</high>
+      <high>8323 22555</high>
     </range>
     <transform>
       <scaleX>2.0</scaleX>
@@ -75,7 +75,7 @@
       <translateX>259066.0</translateX>
       <translateY>8693492.0</translateY>
     </transform>
-    <crs>EPSG:4326</crs>
+    <crs>EPSG:32747</crs>
   </grid>
   <supportedFormats>
     <string>GIF</string>
@@ -114,48 +114,12 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>BackgroundValues</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>OVERVIEW_POLICY</string>
-      <string>QUALITY</string>
-    </entry>
-    <entry>
-      <string>MergeBehavior</string>
-      <string>FLAT</string>
-    </entry>
-    <entry>
-      <string>AllowMultithreading</string>
-      <boolean>false</boolean>
-    </entry>
-    <entry>
-      <string>MaxAllowedTiles</string>
-      <int>-1</int>
-    </entry>
-    <entry>
-      <string>ExcessGranuleRemoval</string>
-      <string>NONE</string>
-    </entry>
-    <entry>
-      <string>OutputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>USE_JAI_IMAGEREAD</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
-    </entry>
-    <entry>
-      <string>Filter</string>
-      <null/>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
@@ -165,18 +129,6 @@
       <string>SUGGESTED_TILE_SIZE</string>
       <string>512,512</string>
     </entry>
-    <entry>
-      <string>Accurate resolution computation</string>
-      <boolean>false</boolean>
-    </entry>
-    <entry>
-      <string>SORTING</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>FootprintBehavior</string>
-      <string>None</string>
-    </entry>
   </parameters>
-  <nativeCoverageName>hillshade</nativeCoverageName>
+  <nativeCoverageName>SDB_AUS_CocosKeelingIslandsMP_EOMAP_2022_2m_MSL_hs1m</nativeCoverageName>
 </coverage>

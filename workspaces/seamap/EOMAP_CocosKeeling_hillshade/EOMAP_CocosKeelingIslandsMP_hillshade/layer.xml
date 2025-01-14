@@ -1,18 +1,18 @@
 <layer>
   <name>EOMAP_CocosKeelingIslandsMP_hillshade</name>
-  <id>LayerInfoImpl-7365ba1:1944d3650ae:163a</id>
+  <id>LayerInfoImpl-7365ba1:194628241b6:1805</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7365ba1:1944d3650ae:1639</id>
+    <id>CoverageInfoImpl-7365ba1:194628241b6:1804</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-01-09 23:21:48.733 UTC</dateCreated>
-  <dateModified>2025-01-14 01:48:01.310 UTC</dateModified>
+  <dateCreated>2025-01-14 04:13:01.528 UTC</dateCreated>
+  <dateModified>2025-01-14 04:27:04.739 UTC</dateModified>
 </layer>

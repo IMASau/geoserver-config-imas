@@ -10,10 +10,10 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-7365ba1:1944d3650ae:163a</id>
+      <id>LayerInfoImpl-7365ba1:194628241b6:1805</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-7365ba1:1944d3650ae:14d6</id>
+      <id>LayerInfoImpl-7365ba1:194628241b6:17ed</id>
     </published>
   </publishables>
   <styles>
@@ -25,11 +25,12 @@
     </style>
   </styles>
   <bounds>
-    <minx>96.78543785045174</minx>
-    <maxx>96.94146003991797</maxx>
-    <miny>-12.218920963178716</miny>
+    <minx>96.78543777526902</minx>
+    <maxx>96.9414692138072</maxx>
+    <miny>-12.218930069388453</miny>
     <maxy>-11.810100819182772</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-01-09 23:25:01.539 UTC</dateCreated>
+  <dateModified>2025-01-14 04:14:05.686 UTC</dateModified>
 </layerGroup>
