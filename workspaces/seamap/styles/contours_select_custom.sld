@@ -45,6 +45,14 @@
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-3000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-4000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-5000</ogc:Literal>
               </ogc:PropertyIsEqualTo>                 
               </ogc:Or>                
@@ -62,13 +70,13 @@
     	</Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>
             </Font> 
             <Halo>
               <Radius>2</Radius>
               <Fill>
                 <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.4</CssParameter>				        
+                <CssParameter name="fill-opacity">0.5</CssParameter>				        
               </Fill>
             </Halo>
             <Fill>
@@ -307,7 +315,7 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#404040</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>

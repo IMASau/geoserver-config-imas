@@ -181,7 +181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                 
               </Mark>
-              <Size>10</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -210,7 +210,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                
               </Mark>
-              <Size>10</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -384,7 +384,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                 
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -413,7 +413,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
