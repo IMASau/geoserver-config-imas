@@ -13,12 +13,15 @@
         
         <!-- Rule for text labelling Contours when zoomed out -->
         <Rule> 
-          <MaxScaleDenominator>2000000</MaxScaleDenominator> 
           <ogc:Filter>
               <ogc:Or>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-30</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-50</ogc:Literal>
               </ogc:PropertyIsEqualTo>                
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
@@ -26,11 +29,15 @@
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-150</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-200</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-500</ogc:Literal>
+                <ogc:Literal>-1000</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
@@ -46,7 +53,7 @@
   <LineSymbolizer>
     <Stroke>
       <CssParameter name="stroke">#000000</CssParameter>
-      <CssParameter name="stroke-opacity">0.01</CssParameter>
+      <CssParameter name="stroke-opacity">0</CssParameter>
     </Stroke>
   </LineSymbolizer>          
           <TextSymbolizer>
@@ -102,7 +109,7 @@
             <Stroke>
               <CssParameter name="stroke">#737373</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
-              <CssParameter name="stroke-opacity">0.4</CssParameter>              
+              <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -165,6 +172,7 @@
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-100</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
+                
           	  </ogc:Or>
             </ogc:And>                          
           </ogc:Filter>
@@ -172,7 +180,7 @@
             <Stroke>
               <CssParameter name="stroke">#4d4d4d</CssParameter>
               <CssParameter name="stroke-width">0.6</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter>              
+              <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -222,17 +230,23 @@
                 <ogc:PropertyName>Interval</ogc:PropertyName>
                 <ogc:Literal>10</ogc:Literal>
               </ogc:PropertyIsEqualTo>
+              <ogc:Or>                          
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-150</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>              
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-200</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
+              </ogc:Or>                                          
             </ogc:And>                          
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
               <CssParameter name="stroke-width">0.8</CssParameter>
-              <CssParameter name="stroke-opacity">0.6</CssParameter>              
+              <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -246,10 +260,16 @@
                 <ogc:Literal>10</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           	  <ogc:Not>
+          	   <ogc:Or>                
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-150</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>                 
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-200</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
+          	   </ogc:Or>                                 
           	  </ogc:Not>                
             </ogc:And>                          
           </ogc:Filter>
@@ -276,23 +296,11 @@
           	  <ogc:Or>            
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-400</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-600</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-800</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-1000</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-1500</ogc:Literal>
+                	<ogc:Literal>-2000</ogc:Literal>
              	</ogc:PropertyIsEqualTo>                     
           	  </ogc:Or>
             </ogc:And>                          
@@ -300,8 +308,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#262626</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-              <CssParameter name="stroke-opacity">0.7</CssParameter>              
+              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -318,23 +326,11 @@
           	  <ogc:Or>                
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-400</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-600</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-800</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-1000</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-1500</ogc:Literal>
+                	<ogc:Literal>-2000</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
           	  </ogc:Or>
           	  </ogc:Not>                
@@ -345,7 +341,7 @@
               <CssParameter name="stroke">#262626</CssParameter>
               <CssParameter name="stroke-width">0.8</CssParameter>
               <CssParameter name="stroke-opacity">0.7</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">6 3</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>          
@@ -375,11 +371,7 @@
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-5000</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-6000</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>                 
+             	</ogc:PropertyIsEqualTo>               
           	  </ogc:Or>
             </ogc:And>                          
           </ogc:Filter>
@@ -417,11 +409,7 @@
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-5000</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>
-              	<ogc:PropertyIsEqualTo>
-                	<ogc:PropertyName>Contour</ogc:PropertyName>
-                	<ogc:Literal>-6000</ogc:Literal>
-             	</ogc:PropertyIsEqualTo>   
+             	</ogc:PropertyIsEqualTo> 
           	  </ogc:Or>
           	  </ogc:Not>                
             </ogc:And>                          
@@ -429,9 +417,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">6 3</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>          
