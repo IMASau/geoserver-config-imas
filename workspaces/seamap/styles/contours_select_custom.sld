@@ -82,7 +82,7 @@
         
         <!-- Rule for Contours 2 metre intervals - select emphasised Contours -->
         <Rule>
-          <Title>2m isobaths</Title>
+          <Title>2 m isobaths (0-30 m)</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -107,15 +107,15 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#737373</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
         <!-- Rule for Contours 2 metre intervals - other Contours -->
         <Rule>
-          <Title>2m isobaths</Title>
+          <Title>2 m isobaths</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -142,7 +142,7 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#737373</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
@@ -152,7 +152,7 @@
         
         <!-- Rule for Contours 5 metre intervals - select emphasised Contours -->
         <Rule>
-          <Title>5m isobaths</Title>
+          <Title>5 m isobaths (30-100 m)</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -178,15 +178,15 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
         <!-- Rule for Contours 5 metre intervals - other Contours -->
         <Rule>
-          <Title>5m isobaths</Title>
+          <Title>5 m isobaths</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -213,8 +213,8 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
@@ -223,7 +223,7 @@
         
         <!-- Rule for Contours 10 metre intervals - select emphasised Contours -->
         <Rule>
-          <Title>10m isobaths</Title>
+          <Title>10 m isobaths (100-200 m)</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -244,7 +244,7 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#333333</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -252,7 +252,7 @@
         </Rule>
         <!-- Rule for Contours 10 metre intervals - other Contours -->
         <Rule>
-          <Title>10m isobaths</Title>
+          <Title>10 m isobaths</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -276,7 +276,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
@@ -286,7 +286,7 @@
         
         <!-- Rule for Contours 50 metre intervals - select emphasised Contours -->
         <Rule>
-          <Title>50m isobaths</Title>
+          <Title>50 m isobaths (200-2,000 m)</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -307,7 +307,7 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#262626</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -315,7 +315,7 @@
         </Rule>
         <!-- Rule for Contours 50 metre intervals - other Contours -->
         <Rule>
-          <Title>50m isobaths</Title>
+          <Title>50 m isobaths</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -338,7 +338,7 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#262626</CssParameter>
+              <CssParameter name="stroke">#404040</CssParameter>
               <CssParameter name="stroke-width">0.6</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
@@ -348,7 +348,7 @@
         
         <!-- Rule for Contours 100 metre intervals - select emphasised Contours -->
         <Rule>
-          <Title>100m isobaths</Title>
+          <Title>100 m isobaths (2,000-5,000 m)</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -385,7 +385,7 @@
         </Rule>
         <!-- Rule for Contours 100 metre intervals - other Contours -->
         <Rule>
-          <Title>100m isobaths</Title>
+          <Title>100 m isobaths</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
