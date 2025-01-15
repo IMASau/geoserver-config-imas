@@ -41,17 +41,17 @@
                 <ogc:Literal>-5000</ogc:Literal>
               </ogc:PropertyIsEqualTo>                 
               </ogc:Or>                
-          </ogc:Filter>          
+          </ogc:Filter>
+  <!-- Invisible line to ensure the feature is rendered -->
+  <LineSymbolizer>
+    <Stroke>
+      <CssParameter name="stroke">#000000</CssParameter>
+      <CssParameter name="stroke-opacity">0.01</CssParameter>
+    </Stroke>
+  </LineSymbolizer>          
           <TextSymbolizer>
     	<Label>
-<ogc:Function name="numberFormat">
-  <!-- Apply absolute value to the Contour field -->
-  <ogc:Function name="abs">
     <ogc:PropertyName>Contour</ogc:PropertyName>
-  </ogc:Function>
-  <!-- Format as an integer (no decimals) -->
-  <ogc:Literal>0</ogc:Literal>
-</ogc:Function>
     	</Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
