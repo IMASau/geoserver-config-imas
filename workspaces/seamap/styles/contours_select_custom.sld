@@ -108,7 +108,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#737373</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -143,9 +143,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#737373</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
-              <CssParameter name="stroke-opacity">0.4</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -179,7 +179,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -214,9 +214,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>         
@@ -245,7 +245,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -339,9 +339,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#262626</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
-              <CssParameter name="stroke-opacity">0.7</CssParameter>
-              <CssParameter name="stroke-dasharray">6 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>          
@@ -417,9 +417,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>
-              <CssParameter name="stroke-dasharray">6 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>          
