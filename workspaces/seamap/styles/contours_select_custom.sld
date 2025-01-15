@@ -96,7 +96,8 @@
             </Fill>    
             <VendorOption name="followLine">true</VendorOption>
           </TextSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
         </Rule> 
         
         
