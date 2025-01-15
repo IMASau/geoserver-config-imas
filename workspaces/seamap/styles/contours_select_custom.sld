@@ -17,11 +17,23 @@
               <ogc:Or>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-10</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-20</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-30</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-50</ogc:Literal>
+              </ogc:PropertyIsEqualTo>  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-70</ogc:Literal>
               </ogc:PropertyIsEqualTo>                
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
