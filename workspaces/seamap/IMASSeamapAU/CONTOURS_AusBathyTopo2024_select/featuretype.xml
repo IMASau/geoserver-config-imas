@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-7365ba1:194649df7a2:4ca7</id>
   <name>CONTOURS_AusBathyTopo2024_select</name>
-  <nativeName>SeamapAus_CONTOURS_AusBathyTopo2024_combo</nativeName>
+  <nativeName>SeamapAus_CONTOURS_AusBathyTopo2024_customInt</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Contours derived from the GA AusBathyTopo 2024 (250m) grid - select intervals</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_CONTOURS_AusBathyTopo2024_combo</string>
+    <string>SeamapAus_CONTOURS_AusBathyTopo2024_customInt</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA2020 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA2020&quot;, 

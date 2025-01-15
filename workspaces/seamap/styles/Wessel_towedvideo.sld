@@ -149,7 +149,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#808080</CssParameter>  
-                  <CssParameter name="fill-opacity">0.3</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -181,7 +181,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                 
               </Mark>
-              <Size>8</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -210,7 +210,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                
               </Mark>
-              <Size>8</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -321,7 +321,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>Scattered_Epifauna</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>           
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -345,15 +345,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>Other_Unknown</ogc:Literal>
 				</ogc:PropertyIsEqualTo>						
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>           
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#808080</CssParameter>  
-                  <CssParameter name="fill-opacity">0.3</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>8</Size>				
@@ -370,8 +369,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>TOW START</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>           
+          <MaxScaleDenominator>500000</MaxScaleDenominator>           
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -386,7 +384,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                 
               </Mark>
-              <Size>12</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -400,8 +398,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>TOW END</ogc:Literal>
 				</ogc:PropertyIsEqualTo>				
 			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>           
+          <MaxScaleDenominator>500000</MaxScaleDenominator>           
           <PointSymbolizer>           
             <Graphic>
               <Mark>
@@ -416,7 +413,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="stroke-opacity">0.5</CssParameter>                       
                 </Stroke>                
               </Mark>
-              <Size>12</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
