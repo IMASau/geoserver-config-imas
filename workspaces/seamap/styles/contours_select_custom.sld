@@ -132,6 +132,7 @@
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
         <!-- Rule for Contours 2 metre intervals - other Contours -->
         <Rule>
@@ -143,7 +144,11 @@
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           	  <ogc:Not>
-                <ogc:Or>            
+                <ogc:Or>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>0</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>                  
               	<ogc:PropertyIsEqualTo>
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-10</ogc:Literal>
@@ -168,6 +173,7 @@
               <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
         
         <!-- Rule for Contours 5 metre intervals - select emphasised Contours -->
@@ -203,6 +209,7 @@
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
         <!-- Rule for Contours 5 metre intervals - other Contours -->
         <Rule>
@@ -239,6 +246,7 @@
               <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>         
         
         <!-- Rule for Contours 10 metre intervals - select emphasised Contours -->
@@ -269,6 +277,7 @@
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
         <!-- Rule for Contours 10 metre intervals - other Contours -->
         <Rule>
@@ -301,6 +310,7 @@
               <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>         
       
         
@@ -332,6 +342,7 @@
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
         <!-- Rule for Contours 50 metre intervals - other Contours -->
         <Rule>
@@ -364,11 +375,12 @@
               <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>          
         
-        <!-- Rule for Contours 100 metre intervals - select emphasised Contours -->
+        <!-- Rule for Contours 100 metre intervals (2,000-5,000 m) - select emphasised Contours -->
         <Rule>
-          <Title>100 m isobaths (2,000-5,000 m)</Title>
+          <Title>Isobaths - major</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
@@ -405,7 +417,7 @@
         </Rule>
         <!-- Rule for Contours 100 metre intervals - other Contours -->
         <Rule>
-          <Title>100 m isobaths</Title>
+          <Title>Isobaths - minor</Title>
           <ogc:Filter>
             <ogc:And>            
               <ogc:PropertyIsEqualTo>
