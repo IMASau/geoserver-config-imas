@@ -1,23 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-434b5ea1:193cd985fe7:-4d2a</id>
-  <name>HabitatObs_OceanicShoalsCMR_TowedVideo</name>
-  <nativeName>HOSTED_HabitatObs_OceanicShoalsCMR_TowedVid_2012</nativeName>
+  <id>FeatureTypeInfoImpl-7365ba1:19468cbee71:-7f12</id>
+  <name>HabitatObs_WesselCMR_TowedVid_2019</name>
+  <nativeName>HOSTED_HabitatObs_WesselCMR_TowedVid_2019</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Towed Video deployments in Oceanic Shoals Commonwealth Marine Reserve (Timor Sea), Western Australia (2012)</title>
+  <title>Towed Video deployments in Wessel Marine Park, Northern Territory (in2019_t02)</title>
   <keywords>
     <string>features</string>
-    <string>HOSTED_HabitatObs_OceanicShoalsCMR_TowedVid_2012</string>
-    <string>NERP</string>
+    <string>HOSTED_HabitatObs_WesselCMR_TowedVid_2019</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>ISO19115:2003</metadataType>
-      <content>http://dx.doi.org/10.4225/25/55022014A4375</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
     SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -29,22 +21,21 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>126.9064274618714</minx>
-    <maxx>127.45351354907022</maxx>
-    <miny>-12.21908124438162</miny>
-    <maxy>-11.32584577348308</maxy>
+    <minx>136.7712312645753</minx>
+    <maxx>136.81071043621415</maxx>
+    <miny>-10.979946419598924</miny>
+    <maxy>-10.922142541557145</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>126.9064274618714</minx>
-    <maxx>127.45351354907022</maxx>
-    <miny>-12.21908124438162</miny>
-    <maxy>-11.32584577348308</maxy>
+    <minx>136.7712312645753</minx>
+    <maxx>136.81071043621415</maxx>
+    <miny>-10.979946419598924</miny>
+    <maxy>-10.922142541557145</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

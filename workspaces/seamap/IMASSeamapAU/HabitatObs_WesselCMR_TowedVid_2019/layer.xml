@@ -1,0 +1,16 @@
+<layer>
+  <name>HabitatObs_WesselCMR_TowedVid_2019</name>
+  <id>LayerInfoImpl-7365ba1:19468cbee71:-7f11</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7365ba1:1946876bccd:7bc4</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7365ba1:19468cbee71:-7f12</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-15 07:15:10.371 UTC</dateCreated>
+</layer>

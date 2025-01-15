@@ -156,7 +156,65 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
+        </Rule> 
+        
+        <Rule>
+          <Title>Tow start</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>TOW_EVENT</ogc:PropertyName>
+					<ogc:Literal>TOW START</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>
+          <MinScaleDenominator>500000</MinScaleDenominator>          
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#db4325</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                  <CssParameter name="stroke">#ffffff</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                </Stroke>                 
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
         </Rule> 		
+        
+        <Rule>
+          <Title>Tow end</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>TOW_EVENT</ogc:PropertyName>
+					<ogc:Literal>TOW END</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+			</ogc:Filter>
+          <MinScaleDenominator>500000</MinScaleDenominator>          
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006164</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#ffffff</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                </Stroke>                
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
+        </Rule>          
 
         <!-- Style for close zoom [hidden from legend] -->                 
         <Rule>
@@ -304,6 +362,66 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
         </Rule> 
 
+        <Rule>          
+          <Title>Tow start</Title>          
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>TOW_EVENT</ogc:PropertyName>
+					<ogc:Literal>TOW START</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>           
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#db4325</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill> 
+                <Stroke>
+                  <CssParameter name="stroke">#ffffff</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                </Stroke>                 
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>          
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
+        </Rule> 		
+        
+        <Rule>
+          <Title>Tow end</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>TOW_EVENT</ogc:PropertyName>
+					<ogc:Literal>TOW END</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+			</ogc:Filter>
+          <MinScaleDenominator>400000</MinScaleDenominator>
+          <MaxScaleDenominator>2000000</MaxScaleDenominator>           
+          <PointSymbolizer>           
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006164</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#ffffff</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                </Stroke>                
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
+        </Rule>           
+
          <!-- Style for legend display only [hidden from map] -->                 
          <Rule>
           <Title>Barren flat</Title>
@@ -441,8 +559,56 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
-        </Rule> 
-		
+        </Rule>
+        
+        <Rule>
+          <Title>Tow start</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>TOW_EVENT</ogc:PropertyName>
+					<ogc:Literal>TOW START</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#db4325</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>                              
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
+        </Rule> 		
+        
+        <Rule>
+          <Title>Tow end</Title>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>TOW_EVENT</ogc:PropertyName>
+					<ogc:Literal>TOW END</ogc:Literal>
+				</ogc:PropertyIsEqualTo>				
+			</ogc:Filter>              		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>star</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#006164</CssParameter>  
+                  <CssParameter name="fill-opacity">0.9</CssParameter>                       
+                </Fill>               
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
+        </Rule>         
+        
+        
+      <VendorOption name="sortBy">TOW_EVENT A</VendorOption>				
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

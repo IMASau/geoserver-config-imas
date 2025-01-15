@@ -346,9 +346,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>NoSub</ogc:Literal>
 				</ogc:PropertyIsEqualTo>				
 			</ogc:Or>			
-			</ogc:Filter>
-          <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+			</ogc:Filter>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -373,7 +371,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>Rock</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -397,7 +394,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>Rubble</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -421,7 +417,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>LimestoneL</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -445,7 +440,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>Sand</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -469,7 +463,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>SandCoarse</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -493,7 +486,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>Silt</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 			</ogc:Filter>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -522,16 +514,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 					<ogc:Literal>NoSub</ogc:Literal>
 				</ogc:PropertyIsEqualTo>				
 			</ogc:Or>
-			</ogc:Filter>              
-          <MinScaleDenominator>400000</MinScaleDenominator>
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>		  
+			</ogc:Filter>              	  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#808080</CssParameter>  
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>9</Size>				
