@@ -172,7 +172,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#db4325</CssParameter>  
+                  <CssParameter name="fill">#006164</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill> 
                 <Stroke>
@@ -201,7 +201,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#006164</CssParameter>  
+                  <CssParameter name="fill">#db4325</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>
                 <Stroke>
@@ -375,7 +375,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#db4325</CssParameter>  
+                  <CssParameter name="fill">#006164</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill> 
                 <Stroke>
@@ -404,7 +404,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#006164</CssParameter>  
+                  <CssParameter name="fill">#db4325</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>
                 <Stroke>
@@ -571,7 +571,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#db4325</CssParameter>  
+                  <CssParameter name="fill">#006164</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
@@ -594,7 +594,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#006164</CssParameter>  
+                  <CssParameter name="fill">#db4325</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
               </Mark>
