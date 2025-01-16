@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7365ba1:194649df7a2:4ca7</id>
-  <name>CONTOURS_AusBathyTopo2024_select</name>
-  <nativeName>SeamapAus_CONTOURS_AusBathyTopo2024_customInt</nativeName>
+  <id>FeatureTypeInfoImpl-7365ba1:1946d84c3e9:3142</id>
+  <name>CONTOURS_AusBathyTopo2024_1m</name>
+  <nativeName>SeamapAus_CONTOURS_AusBathyTopo2024_1m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Contours derived from the GA AusBathyTopo 2024 (250m) grid - select intervals</title>
+  <title>Contours derived from the GA AusBathyTopo 2024 (250m) grid - 1 m intervals</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_CONTOURS_AusBathyTopo2024_customInt</string>
+    <string>SeamapAus_CONTOURS_AusBathyTopo2024_1m</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA2020 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA2020&quot;, 
@@ -33,16 +33,16 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
   <srs>EPSG:9473</srs>
   <nativeBoundingBox>
-    <minx>-4240638.898977727</minx>
-    <maxx>3786218.301903613</maxx>
-    <miny>-6463186.492771457</miny>
+    <minx>-3897725.2203690484</minx>
+    <maxx>3435222.4725218304</maxx>
+    <miny>-6150689.083812618</miny>
     <maxy>-929043.0432298351</maxy>
     <crs class="projected">EPSG:9473</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>92.0</minx>
-    <maxx>178.0</maxx>
-    <miny>-60.0</miny>
+    <maxx>177.1976901446845</maxx>
+    <miny>-57.34408769959888</miny>
     <maxy>-8.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -58,7 +58,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Contour&gt;= -5000 AND Contour &lt; 0</cqlFilter>
+  <cqlFilter>Contour &lt; 0</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
