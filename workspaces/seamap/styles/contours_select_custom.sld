@@ -10,7 +10,7 @@
       <Title>Contours Styling</Title>
       <FeatureTypeStyle>
         
-        <!-- Rule for text labeling Contours (at all zom levels) -->
+        <!-- Rule for text labeling Contours (zoomed OUT past 1:1,000,000) -->
         <Rule>
           <ogc:Filter>
             <ogc:Or>
@@ -68,6 +68,7 @@
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
           </ogc:Filter>
+          <MinScaleDenominator>1000000</MinScaleDenominator>          
           <!-- Invisible line to ensure the feature is rendered -->
           <LineSymbolizer>
             <Stroke>
@@ -77,7 +78,103 @@
           </LineSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>Contour</ogc:PropertyName>
+			    <ogc:Function name="abs"> <!-- Display absolute (non-negative) contour value -->
+			      <ogc:PropertyName>Contour</ogc:PropertyName>
+			    </ogc:Function>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">SansSerif</CssParameter>
+              <CssParameter name="font-size">10</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>2</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.5</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>
+            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="repeat">500</VendorOption>
+            <VendorOption name="maxDisplacement">500</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        
+        <!-- Rule for text labeling Contours (zoomed IN past 1:1,000,000) -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-10</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-20</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-30</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-50</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-70</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-100</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-150</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-200</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-1000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-2000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-3000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-4000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-5000</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>                    
+          <!-- Invisible line to ensure the feature is rendered -->
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">0</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <TextSymbolizer>
+            <Label>
+			    <ogc:Function name="abs"> <!-- Display absolute (non-negative) contour value -->
+			      <ogc:PropertyName>Contour</ogc:PropertyName>
+			    </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
@@ -98,8 +195,7 @@
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
-        </Rule>
-        
+        </Rule>        
         
         <!-- Rule for Contours 2 metre intervals - select emphasised Contours -->
         <Rule>
