@@ -29,7 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#bfd9e4</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -52,8 +52,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#75a3c0</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill">#339966</CssParameter>  
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -76,8 +76,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b82e8a</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill">#ad1f7e</CssParameter>  
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -101,7 +101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#bc8fa6</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -124,8 +124,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#db8b70</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill">#eb9947</CssParameter>  
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -149,7 +149,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#808080</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
               <Size>4</Size>				
@@ -177,11 +177,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill> 
                 <Stroke>
                   <CssParameter name="stroke">#ffffff</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
-                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                  <CssParameter name="stroke-width">0.6</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>                       
                 </Stroke>                 
               </Mark>
-              <Size>11</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -206,11 +206,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#ffffff</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
-                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                  <CssParameter name="stroke-width">0.6</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>                       
                 </Stroke>                
               </Mark>
-              <Size>11</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -232,10 +232,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#bfd9e4</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
@@ -255,11 +255,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#75a3c0</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill">##339966</CssParameter>  
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
@@ -279,11 +279,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b82e8a</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill">#ad1f7e</CssParameter>  
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
@@ -304,10 +304,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#bc8fa6</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
@@ -327,11 +327,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#db8b70</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill">#eb9947</CssParameter>  
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>10</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
@@ -352,10 +352,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#808080</CssParameter>  
-                  <CssParameter name="fill-opacity">0.5</CssParameter>                       
+                  <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>8</Size>				
+              <Size>6</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  
@@ -380,11 +380,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill> 
                 <Stroke>
                   <CssParameter name="stroke">#ffffff</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
-                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                  <CssParameter name="stroke-width">0.6</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>                       
                 </Stroke>                 
               </Mark>
-              <Size>15</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -409,11 +409,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#ffffff</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>                                         
-                  <CssParameter name="stroke-opacity">0.5</CssParameter>                       
+                  <CssParameter name="stroke-width">0.6</CssParameter>                                         
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>                       
                 </Stroke>                
               </Mark>
-              <Size>15</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                               		  		  		  
@@ -437,7 +437,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>9</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
@@ -456,11 +456,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#75a3c0</CssParameter>  
+                  <CssParameter name="fill">#339966</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>9</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
@@ -479,11 +479,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#b82e8a</CssParameter>  
+                  <CssParameter name="fill">#ad1f7e</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>9</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  
@@ -506,7 +506,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>9</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
@@ -525,11 +525,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#db8b70</CssParameter>  
+                  <CssParameter name="fill">#eb9947</CssParameter>  
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>9</Size>				
+              <Size>11</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
@@ -552,7 +552,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.6</CssParameter>                       
                 </Fill>                
               </Mark>
-              <Size>9</Size>				
+              <Size>8</Size>				
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
@@ -575,7 +575,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>                              
               </Mark>
-              <Size>13</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
@@ -598,7 +598,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <CssParameter name="fill-opacity">0.9</CssParameter>                       
                 </Fill>               
               </Mark>
-              <Size>13</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                                               		  		  		  
