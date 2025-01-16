@@ -156,7 +156,7 @@
  
         <!-- Rule for text labeling Contours (1:1,500,000 to 1:150k) -->
         <Rule>
-          <Title>Isobaths - major</Title>		          
+          <Title>Isobaths</Title>		          
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -258,7 +258,7 @@
 
         <!-- Rule for other Contours -->
         <Rule>
-          <Title>Isobaths - minor</Title>
+          <Title>Zoom for more detail</Title>
           <ogc:Filter>
           	<ogc:Not> 		  
              <ogc:Or>
