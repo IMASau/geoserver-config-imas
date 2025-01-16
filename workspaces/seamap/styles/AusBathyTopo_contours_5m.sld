@@ -36,7 +36,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke-width">0.6</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -123,7 +123,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>

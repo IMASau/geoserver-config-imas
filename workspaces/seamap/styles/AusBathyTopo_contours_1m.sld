@@ -33,11 +33,10 @@
             </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>  <!-- zoom range -->        
-          <!-- Invisible line to ensure the feature is rendered -->
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke-width">0.6</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -124,7 +123,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -155,7 +154,7 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
         </Rule>		
  
-        <!-- Rule for text labeling Contours (1:1,500,000 to 1:120k) -->
+        <!-- Rule for text labeling Contours (1:1,500,000 to 1:150k) -->
         <Rule>
           <Title>Isobaths - major</Title>		          
           <ogc:Filter>
@@ -222,7 +221,7 @@
               </ogc:PropertyIsEqualTo>			  
             </ogc:Or>
           </ogc:Filter>
-          <MinScaleDenominator>120000</MinScaleDenominator>                    		  
+          <MinScaleDenominator>150000</MinScaleDenominator>                    		  
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
@@ -326,7 +325,7 @@
              </ogc:Or>
           	</ogc:Not> 		  			  
           </ogc:Filter>
-          <MinScaleDenominator>120000</MinScaleDenominator>  <!-- zoom range --> 
+          <MinScaleDenominator>150000</MinScaleDenominator>  <!-- zoom range --> 
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                              
           <LineSymbolizer>
             <Stroke>
@@ -338,9 +337,9 @@
           </LineSymbolizer>
         </Rule>           
 		
-        <!-- Rule for text labeling Contours (zoomed IN past 1:120k) -->
+        <!-- Rule for text labeling Contours (zoomed IN past 1:150k) -->
         <Rule>
-          <MaxScaleDenominator>120000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
