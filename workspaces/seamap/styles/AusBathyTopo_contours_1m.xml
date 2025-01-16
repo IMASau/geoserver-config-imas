@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-7365ba1:1946d84c3e9:28cc</id>
-  <name>contours_1m</name>
+  <name>AusBathyTopo_contours_1m</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>contours_1m.sld</filename>
+  <filename>AusBathyTopo_contours_1m.sld</filename>
   <dateCreated>2025-01-16 05:30:47.617 UTC</dateCreated>
-  <dateModified>2025-01-16 05:45:32.730 UTC</dateModified>
+  <dateModified>2025-01-16 06:26:32.470 UTC</dateModified>
 </style>
