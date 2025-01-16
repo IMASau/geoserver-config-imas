@@ -10,9 +10,8 @@
       <Title>Contours Styling</Title>
       <FeatureTypeStyle>
         
-        <!-- Rule for text labeling and styling select emphasised Contours (zoomed OUT past 1:1,000,000) -->
+        <!-- Rule for text labeling and styling select emphasised Contours (zoomed OUT past 1:10,000,000) -->
         <Rule>
-          <Title>Isobaths - major</Title>		
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -66,11 +65,11 @@
             <VendorOption name="repeat">500</VendorOption>
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
 		
-        <!-- Rule for text labeling and styling select emphasised Contours (zoomed OUT past 1:1,000,000) -->
+        <!-- Rule for text labeling and styling select emphasised Contours 1:10,000,000 to 1:1,500,000) -->
         <Rule>
-          <Title>Isobaths - major</Title>		
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -153,10 +152,12 @@
             <VendorOption name="repeat">500</VendorOption>
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
         </Rule>		
  
-        <!-- Rule for text labeling Contours (1:1,000,000 to 1:100k) -->
+        <!-- Rule for text labeling Contours (1:1,500,000 to 1:120k) -->
         <Rule>
+          <Title>Isobaths - major</Title>		          
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -221,13 +222,12 @@
               </ogc:PropertyIsEqualTo>			  
             </ogc:Or>
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>                    		  
+          <MinScaleDenominator>120000</MinScaleDenominator>                    		  
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                    
-          <!-- Invisible line to ensure the feature is rendered -->
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke">#333333</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -255,7 +255,6 @@
             <VendorOption name="repeat">500</VendorOption>
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
         <!-- Rule for other Contours -->
@@ -327,26 +326,25 @@
              </ogc:Or>
           	</ogc:Not> 		  			  
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>  <!-- zoom range --> 
+          <MinScaleDenominator>120000</MinScaleDenominator>  <!-- zoom range --> 
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                              
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.7</CssParameter>
+              <CssParameter name="stroke">#333333</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
               <CssParameter name="stroke-opacity">0.7</CssParameter>
-              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">7 1.5</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>		  
         </Rule>           
 		
-        <!-- Rule for text labeling Contours (zoomed IN past 1:100k) -->
+        <!-- Rule for text labeling Contours (zoomed IN past 1:120k) -->
         <Rule>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>120000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">0.6</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -358,7 +356,7 @@
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">13</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>
             </Font>
             <Halo>
               <Radius>2</Radius>
