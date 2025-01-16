@@ -40,9 +40,9 @@
     <crs class="projected">EPSG:9473</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>92.0</minx>
-    <maxx>177.1976901446845</maxx>
-    <miny>-57.34408769959888</miny>
+    <minx>96.0</minx>
+    <maxx>168.0</maxx>
+    <miny>-55.0</miny>
     <maxy>-8.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -58,7 +58,6 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Contour &lt; 0</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
