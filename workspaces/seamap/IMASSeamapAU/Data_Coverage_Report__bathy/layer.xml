@@ -16,10 +16,10 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--328af523:182683450b7:d9b</id>
   </resource>
-  <queryable>false</queryable>
+  <queryable>true</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateModified>2022-12-07 21:34:55.346 UTC</dateModified>
+  <dateModified>2025-01-17 03:52:39.291 UTC</dateModified>
 </layer>
