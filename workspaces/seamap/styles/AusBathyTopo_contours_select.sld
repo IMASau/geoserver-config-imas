@@ -222,16 +222,55 @@
           	  </ogc:Or>
             </ogc:And>                          
           </ogc:Filter>
+          <MaxScaleDenominator>3000000</MaxScaleDenominator>          		  		  		  		  		  		  		  
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
-        <!-- Rule for Contours 2 metre intervals - other Contours -->
+		
+        <!-- Rule for Contours 2 metre intervals - other Contours - zoomed out-->
+        <Rule>
+          <Title>2 m isobaths</Title>
+          <ogc:Filter>
+            <ogc:And>            
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Interval</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+                <ogc:Or>                
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-10</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-20</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-30</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+          	  </ogc:Or>
+            </ogc:And>                          
+          </ogc:Filter>
+          <MinScaleDenominator>3000000</MinScaleDenominator>          		  		  		  		  		  		  		  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
+        </Rule>
+
+        <!-- Rule for Contours 2 metre intervals - zoomed in -->
         <Rule>
           <Title>2 m isobaths</Title>
           <ogc:Filter>
@@ -262,6 +301,7 @@
           	  </ogc:Not>                
             </ogc:And>                          
           </ogc:Filter>
+          <MaxScaleDenominator>3000000</MaxScaleDenominator>          		  		  		  		  		  		  
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -272,6 +312,7 @@
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
+		
         
         <!-- Rule for Contours 5 metre intervals - select emphasised Contours -->
         <Rule>
@@ -295,20 +336,61 @@
                 	<ogc:PropertyName>Contour</ogc:PropertyName>
                 	<ogc:Literal>-100</ogc:Literal>
              	</ogc:PropertyIsEqualTo>
-                
           	  </ogc:Or>
             </ogc:And>                          
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
-        <!-- Rule for Contours 5 metre intervals - other Contours -->
+		
+        <!-- Rule for Contours 5 metre intervals - other Contours - zoomed out-->
+        <Rule>
+          <Title>5 m isobaths</Title>
+          <ogc:Filter>
+            <ogc:And>            
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Interval</ogc:PropertyName>
+                <ogc:Literal>5</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+                <ogc:Or>            
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-40</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-60</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-80</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-90</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>				
+          	  </ogc:Or>
+            </ogc:And>                          
+          </ogc:Filter>
+          <MinScaleDenominator>3000000</MinScaleDenominator>          		  		  		  		  		  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
+        </Rule> 
+
+        <!-- Rule for Contours 5 metre intervals - other Contours - zoomed in-->
         <Rule>
           <Title>5 m isobaths</Title>
           <ogc:Filter>
@@ -335,6 +417,7 @@
           	  </ogc:Not>                
             </ogc:And>                          
           </ogc:Filter>
+          <MaxScaleDenominator>3000000</MaxScaleDenominator>          		  		  		  		  
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
@@ -344,7 +427,8 @@
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
-        </Rule>         
+        </Rule>  
+        
         
         <!-- Rule for Contours 10 metre intervals - select emphasised Contours -->
         <Rule>
@@ -376,7 +460,49 @@
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
         </Rule>
-        <!-- Rule for Contours 10 metre intervals - other Contours -->
+		
+        <!-- Rule for Contours 10 metre intervals - other Contours zoomed out-->
+        <Rule>
+          <Title>10 m isobaths</Title>
+          <ogc:Filter>
+            <ogc:And>            
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Interval</ogc:PropertyName>
+                <ogc:Literal>10</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+          	   <ogc:Or>                
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-120</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>                 
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-140</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-160</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>                 
+              	<ogc:PropertyIsEqualTo>
+                	<ogc:PropertyName>Contour</ogc:PropertyName>
+                	<ogc:Literal>-180</ogc:Literal>
+             	</ogc:PropertyIsEqualTo>				
+          	   </ogc:Or>                                 
+            </ogc:And>                          
+          </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>          		  		  		  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#333333</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
+        </Rule>  
+
+        <!-- Rule for Contours 10 metre intervals - other Contours - zoomed in-->
         <Rule>
           <Title>10 m isobaths</Title>
           <ogc:Filter>
@@ -399,6 +525,7 @@
           	  </ogc:Not>                
             </ogc:And>                          
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>          		  		  		  
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
@@ -408,7 +535,7 @@
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
-        </Rule>         
+        </Rule>   		
       
         
         <!-- Rule for Contours 50 metre intervals - select emphasised Contours -->
@@ -574,7 +701,6 @@
                 <ogc:PropertyName>Interval</ogc:PropertyName>
                 <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-              <ogc:And>
           	    <ogc:Or>
 				   <ogc:PropertyIsEqualTo>
 					 <ogc:PropertyName>Contour</ogc:PropertyName>
@@ -601,7 +727,6 @@
 				     <ogc:Literal>-5000</ogc:Literal>
 				   </ogc:PropertyIsEqualTo>					   
           	    </ogc:Or>				
-              </ogc:And>				              
             </ogc:And>                          
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>          		  		  
