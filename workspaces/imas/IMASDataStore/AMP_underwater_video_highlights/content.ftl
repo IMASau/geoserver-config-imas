@@ -61,13 +61,15 @@
                                         <i>(status: <b>${feature.status.value}</b>)</i>
                                     </#if>
                                     <br>
-				${feature.Date.value?date("MM/dd/yy")?date}
+				<span style="font-size: 90%; color:#9a9a9a">
+					${feature.Date.value?date("MM/dd/yy")?date}
 					<#if feature.Time?? && feature.Time.value?has_content>
    						(${feature.Time.value?time("hh:mm:ss a")})
 					</#if>
-    					<#if feature.Depth??>
+    					<#if feature.Depth?? && feature.Depth.value?has_content>
     					    @ ${feature.Depth.rawValue!"Unknown"} metres
     					</#if>
+				</span>
                                 </div>
                             </#if>
                             <#if !feature.Date?? || !feature.Date.value?has_content>
