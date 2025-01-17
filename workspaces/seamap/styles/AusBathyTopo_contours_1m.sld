@@ -154,7 +154,7 @@
          <VendorOption name="inclusion">mapOnly</VendorOption>                                
         </Rule>		
  
-        <!-- Rule for text labeling Contours (1:1,500,000 to 1:250k) -->
+        <!-- Rule for text labeling Contours (1:1,500,000 to 1:150k) -->
         <Rule>
           <Title>Isobaths</Title>		          
           <ogc:Filter>
@@ -197,10 +197,6 @@
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-100</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-120</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -221,7 +217,7 @@
               </ogc:PropertyIsEqualTo>			  
             </ogc:Or>
           </ogc:Filter>
-          <MinScaleDenominator>250000</MinScaleDenominator>                    		  
+          <MinScaleDenominator>150000</MinScaleDenominator>                    		  
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
@@ -255,161 +251,25 @@
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
         </Rule>
-
-        <!-- Rule for other Contours -->
-        <Rule>
-          <Title>Zoom for more detail</Title>
-          <ogc:Filter>
-          	<ogc:Not> 		  
-             <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-10</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-20</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-30</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-40</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-50</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-60</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-70</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-80</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-90</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-100</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-120</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-140</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-160</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-180</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-200</ogc:Literal>
-              </ogc:PropertyIsEqualTo>			  
-             </ogc:Or>
-          	</ogc:Not> 		  			  
-          </ogc:Filter>
-          <MinScaleDenominator>250000</MinScaleDenominator>  <!-- zoom range --> 
-          <MaxScaleDenominator>1500000</MaxScaleDenominator>                              
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-opacity">0.7</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>           
-
-        <!-- Rule for text labeling Contours (1:1,500,000 to 1:250k) -->
+		
+ 
+        <!-- Rule for special 100m contour -->
         <Rule>
           <Title>Isobaths</Title>		          
           <ogc:Filter>
-            <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-10</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-20</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-30</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-40</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-50</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-60</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-70</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-80</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-90</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-100</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-120</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-140</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-160</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-180</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-200</ogc:Literal>
-              </ogc:PropertyIsEqualTo>			  
-            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>150000</MinScaleDenominator>                    		  
-          <MaxScaleDenominator>250000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>1500000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
-              <CssParameter name="stroke-opacity">0.8</CssParameter>              
+              <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter> 
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              			  
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer>
@@ -420,7 +280,7 @@
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">12</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
             </Font>
             <Halo>
               <Radius>2</Radius>
@@ -436,7 +296,7 @@
             <VendorOption name="repeat">500</VendorOption>
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
-        </Rule>
+        </Rule>		
 
         <!-- Rule for other Contours -->
         <Rule>
@@ -508,16 +368,15 @@
           	</ogc:Not> 		  			  
           </ogc:Filter>
           <MinScaleDenominator>150000</MinScaleDenominator>  <!-- zoom range --> 
-          <MaxScaleDenominator>250000</MaxScaleDenominator>                              
+          <MaxScaleDenominator>1500000</MaxScaleDenominator>                              
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-opacity">0.7</CssParameter>
-              <CssParameter name="stroke-dasharray">7 1.5</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-width">0.4</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
-        </Rule>     
+        </Rule>           
 		
         <!-- Rule for text labeling Contours (zoomed IN past 1:150k) -->
         <Rule>
