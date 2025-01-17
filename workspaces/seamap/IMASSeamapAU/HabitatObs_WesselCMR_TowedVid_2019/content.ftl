@@ -6,7 +6,7 @@
                 <#if feature.TOW_EVENT.value != "TOW FALSE START">
 
     <#if (feature_index < 1)>
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; width: 320px;">
+        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; width: 380px;">
             <h5>Wessel Marine Park towed video</h5>
             <br>
             <div id="wesselfeatures" style="white-space: normal; word-wrap: break-word; line-height:1.4; padding-bottom: 5px">
