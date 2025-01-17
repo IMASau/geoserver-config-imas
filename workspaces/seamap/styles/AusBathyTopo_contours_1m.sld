@@ -35,7 +35,7 @@
           <MinScaleDenominator>10000000</MinScaleDenominator>  <!-- zoom range -->        
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke">#001133</CssParameter>
               <CssParameter name="stroke-width">0.6</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -122,7 +122,7 @@
           <!-- Invisible line to ensure the feature is rendered -->
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke">#001a4d</CssParameter>
               <CssParameter name="stroke-width">0.8</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -166,10 +166,6 @@
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-20</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-30</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
@@ -221,7 +217,7 @@
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#333333</CssParameter>
+              <CssParameter name="stroke">#001a4d</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -257,17 +253,23 @@
         <Rule>
           <Title>Isobaths</Title>		          
           <ogc:Filter>
+             <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Contour</ogc:PropertyName>
+                <ogc:Literal>-30</ogc:Literal>
+              </ogc:PropertyIsEqualTo>			 
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-100</ogc:Literal>
               </ogc:PropertyIsEqualTo>
+             </ogc:Or>			  
           </ogc:Filter>
           <MinScaleDenominator>150000</MinScaleDenominator>                    		  
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke">#003399</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter> 
               <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              			  
             </Stroke>
@@ -280,7 +282,7 @@
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">13</CssParameter>
+              <CssParameter name="font-size">14</CssParameter>
             </Font>
             <Halo>
               <Radius>2</Radius>
@@ -296,6 +298,7 @@
             <VendorOption name="repeat">500</VendorOption>
             <VendorOption name="maxDisplacement">500</VendorOption>
           </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>		  
         </Rule>		
 
         <!-- Rule for other Contours -->
@@ -371,8 +374,8 @@
           <MaxScaleDenominator>1500000</MaxScaleDenominator>                              
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.4</CssParameter>
+              <CssParameter name="stroke">#001a4d</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -383,7 +386,7 @@
           <MaxScaleDenominator>150000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#001a4d</CssParameter>
               <CssParameter name="stroke-width">0.6</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>

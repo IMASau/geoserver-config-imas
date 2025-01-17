@@ -1,0 +1,16 @@
+<layer>
+  <name>CONTOURS_AusBathyTopo2024_5m</name>
+  <id>LayerInfoImpl-7365ba1:194728bf543:-6701</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7365ba1:1946deb2cac:-1bcb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7365ba1:194728bf543:-6702</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-17 04:59:58.92 UTC</dateCreated>
+</layer>
