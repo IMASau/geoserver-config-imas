@@ -52,13 +52,13 @@
             <div style="font-size: 95%; line-height: 1.6;">
                 <#if feature.Data_BC.value != 'NA'>
                     <b>Source (biota):</b> 
-                    <a href="${feature.Info_BC.value}" target="_blank" style="display: block;">${feature.Data_BC.value}</a> 
+                    <a href="${feature.Info_BC.value}" target="_blank"">${feature.Data_BC.value}</a> 
                     <i>(${feature.Date_BC.value})</i><br>
                 </#if>
 
                 <#if feature.Data_SC.value != 'NA'>
                     <b>Source (substrata):</b> 
-                    <a href="${feature.Info_SC.value}" target="_blank" style="display: block;">${feature.Data_SC.value}</a> 
+                    <a href="${feature.Info_SC.value}" target="_blank">${feature.Data_SC.value}</a> 
                     <i>(${feature.Date_SC.value})</i><br>
                 </#if>
 
