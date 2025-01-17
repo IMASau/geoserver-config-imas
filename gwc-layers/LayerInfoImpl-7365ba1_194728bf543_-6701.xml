@@ -1,0 +1,31 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl-7365ba1:194728bf543:-6701</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:CONTOURS_AusBathyTopo2024_5m</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:AusBathyTopo_contours_5m</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

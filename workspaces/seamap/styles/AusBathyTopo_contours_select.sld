@@ -265,9 +265,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
-              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
@@ -338,9 +338,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
-              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
@@ -402,9 +402,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
@@ -467,9 +467,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#404040</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
-              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
@@ -546,9 +546,9 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
-              <CssParameter name="stroke-dasharray">5 2</CssParameter> <!-- Dashed pattern -->              
+              <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
             </Stroke>
           </LineSymbolizer>
         </Rule>          
