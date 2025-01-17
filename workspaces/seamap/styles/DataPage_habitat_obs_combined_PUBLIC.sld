@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -49,7 +49,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                                     
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -83,7 +83,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -120,7 +120,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -155,7 +155,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                                     
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -189,7 +189,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -225,7 +225,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -260,7 +260,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -295,7 +295,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -331,7 +331,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>		
             <ogc:PropertyIsEqualTo>
@@ -364,7 +364,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -397,7 +397,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
           <ogc:And>                         
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>	
             <ogc:PropertyIsEqualTo>
@@ -427,7 +427,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule> 		
             
  
-      <VendorOption name="sortBy">DType D</VendorOption>		
+      <VendorOption name="sortBy">dtype D</VendorOption>		
 
         </FeatureTypeStyle>
     </UserStyle>

@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Video (GlobalArchive) - ultra zoomed out</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>                     
           </ogc:Filter> 
@@ -42,7 +42,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Imagery (SQUIDLE+) - ultra zoomed out</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>	
@@ -70,7 +70,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Sediment (MARS) - ultra zoomed out</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>            			
           </ogc:Filter>	
@@ -100,7 +100,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>                     
           </ogc:Filter> 
@@ -131,7 +131,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>	
@@ -160,7 +160,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Sediment (MARS)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>            			
           </ogc:Filter>	
@@ -190,7 +190,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Video (GlobalArchive) z1</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>                        
           </ogc:Filter> 
@@ -221,7 +221,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Imagery (SQUIDLE+) z2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>	
@@ -250,7 +250,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Sediment (MARS) z2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>         			
           </ogc:Filter>	
@@ -281,7 +281,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Video (GlobalArchive)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>1_GlobalArchive</ogc:Literal>
             </ogc:PropertyIsEqualTo>                       
           </ogc:Filter> 
@@ -308,7 +308,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Imagery (SQUIDLE+)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>2_Squidle</ogc:Literal>
             </ogc:PropertyIsEqualTo>            
           </ogc:Filter>	
@@ -335,7 +335,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Sediment (MARS)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>DType</ogc:PropertyName>
+              <ogc:PropertyName>dtype</ogc:PropertyName>
               <ogc:Literal>3_Sediment</ogc:Literal>
             </ogc:PropertyIsEqualTo>            			
           </ogc:Filter>	
@@ -360,7 +360,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule> 		
             
  
-      <VendorOption name="sortBy">DType D</VendorOption>		
+      <VendorOption name="sortBy">dtype D</VendorOption>		
 
         </FeatureTypeStyle>
     </UserStyle>
