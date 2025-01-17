@@ -1,5 +1,6 @@
 <#setting date_format="d MMM yyyy">
 <#setting time_format="h:mm a">
+<#setting number_format="###.#">
 
 <#assign found3DModel=false>
 <#assign foundMedia=0>
@@ -66,8 +67,8 @@
 					<#if feature.Time?? && feature.Time.value?has_content>
    						(${feature.Time.value?time("hh:mm:ss a")})
 					</#if>
-    					<#if feature.Depth?? && feature.Depth.value?has_content>
-    					    @ ${feature.Depth.rawValue!"Unknown"} metres
+    					<#if feature.depth??>
+    					    @ ${feature.depth.rawValue!"Unknown"} metres
     					</#if>
 				</span>
                                 </div>
@@ -110,7 +111,7 @@
                     <#if feature_index == 3>
                         <#if features?size gt 3>
                             <details>
-                                <summary><span class="summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-style: italic;">More videos at this location</span></summary>
+                                <summary><span class="summary" style="cursor:pointer; color:CornflowerBlue; text-decoration:underline; font-size: 95%; font-style: italic;">More videos at this location</span></summary>
                                 <div style="display: flex; flex-wrap: wrap; width: 400px; margin-bottom:2px; margin-top:4px;">
                                     <#list features[3..] as thumbnail>
                                         <#if thumbnail_index < 12>
