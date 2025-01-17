@@ -225,7 +225,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>          		  		  		  		  		  		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -261,7 +261,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>          		  		  		  		  		  		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
@@ -304,7 +304,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>          		  		  		  		  		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
@@ -341,7 +341,7 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
@@ -381,7 +381,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>          		  		  		  		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
@@ -420,7 +420,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>          		  		  		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-dasharray">7 2</CssParameter> <!-- Dashed pattern -->              
@@ -453,8 +453,8 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#666666</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -561,8 +561,8 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#404040</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -612,7 +612,7 @@
           <MinScaleDenominator>5000000</MinScaleDenominator>          		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#404040</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>
@@ -646,7 +646,7 @@
           <MaxScaleDenominator>5000000</MaxScaleDenominator>          		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#404040</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>
@@ -686,8 +686,8 @@
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#404040</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>              
             </Stroke>
           </LineSymbolizer>
@@ -732,7 +732,7 @@
           <MinScaleDenominator>5000000</MinScaleDenominator>          		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#404040</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>
@@ -773,7 +773,7 @@
           <MaxScaleDenominator>5000000</MaxScaleDenominator>          		  		  
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#404040</CssParameter>
+              <CssParameter name="stroke">#595959</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-opacity">0.6</CssParameter>
             </Stroke>

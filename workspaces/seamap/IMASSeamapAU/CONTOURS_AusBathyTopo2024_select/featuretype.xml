@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Contours derived from the GA AusBathyTopo 2024 (250m) grid - select intervals</title>
+  <abstract>This layer has been spatially simplified for visualisation purposes. The Web Feature download service has been disabled. For access to the full (unsimplified) contours, please see the zipped download package: https://data.imas.utas.edu.au/attachments/8f007712-6a2b-4007-9529-9bd72dd37ca0/CONTOURS_shelf_AusBathyTopo2024_customInt.zip</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_CONTOURS_AusBathyTopo2024_customInt</string>
@@ -54,7 +55,10 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WFS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>

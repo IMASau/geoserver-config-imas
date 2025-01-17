@@ -42,7 +42,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>seamap:contours_select_custom</defaultStyle>
+      <defaultStyle>seamap:AusBathyTopo_contours_select</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
