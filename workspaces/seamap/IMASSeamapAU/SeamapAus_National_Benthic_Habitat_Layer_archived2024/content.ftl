@@ -3,7 +3,7 @@
     <#assign substrate = "Unknown">
 
     <#if (feature_index < 1)>
-        <h5 style="padding-top:5px; padding-bottom: 5px;">Seamap Australia National Benthic Habitat (2025)</h5>
+        <h5 style="padding-top:5px; padding-bottom: 5px;">Seamap Australia National Benthic Habitat (2024)</h5>
 
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px; min-width: 450px; max-width: 600px; white-space: normal; overflow-wrap: break-word;">
 
