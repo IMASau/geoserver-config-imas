@@ -7,42 +7,42 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>FADs and Artificial Reefs</Name>    
+    <Name>Highlight videos</Name>    
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>         
-          <Title> Fish Aggregating Device</Title>  
+          <Title>Inshore reef sites</Title>  
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>Type</ogc:PropertyName>		
-              <ogc:Literal>FAD</ogc:Literal>		
+              <ogc:PropertyName>site_type</ogc:PropertyName>		
+              <ogc:Literal>Inshore reef site</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>	           
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/FAD-icon.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-red.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>28</Size>
+    			 	<Size>18</Size>
   			 </Graphic>
           </PointSymbolizer>
         </Rule>
         <Rule>          
-          <Title> Artificial Reef</Title>   
+          <Title>Deep reef sites</Title>   
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>Type</ogc:PropertyName>		
-              <ogc:Literal>Artificial reef</ogc:Literal>		
+              <ogc:PropertyName>site_type</ogc:PropertyName>		
+              <ogc:Literal>Deep reef site</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>	          
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/AR-icon.svg" />
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-blue.svg" />
        				<Format>image/svg+xml</Format>
     			 </ExternalGraphic>
-    			 	<Size>23</Size>
+    			 	<Size>18</Size>
   			 </Graphic>
           </PointSymbolizer>
         </Rule>        
