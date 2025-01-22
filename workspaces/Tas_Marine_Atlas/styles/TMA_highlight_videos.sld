@@ -17,7 +17,8 @@
               <ogc:PropertyName>site_type</ogc:PropertyName>		
               <ogc:Literal>Inshore reef site</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>	           
+          </ogc:Filter>	 
+          <MinScaleDenominator>300000</MinScaleDenominator>          
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -35,7 +36,8 @@
               <ogc:PropertyName>site_type</ogc:PropertyName>		
               <ogc:Literal>Deep reef site</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>	          
+          </ogc:Filter>	
+          <MinScaleDenominator>300000</MinScaleDenominator>                    
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -45,6 +47,46 @@
     			 	<Size>18</Size>
   			 </Graphic>
           </PointSymbolizer>
+        </Rule>
+        <Rule>         
+          <Title>Inshore reef sites</Title>  
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>site_type</ogc:PropertyName>		
+              <ogc:Literal>Inshore reef site</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>	 
+          <MaxScaleDenominator>300000</MaxScaleDenominator>          
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-red.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>22</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                                         
+        </Rule>
+        <Rule>          
+          <Title>Deep reef sites</Title>   
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>site_type</ogc:PropertyName>		
+              <ogc:Literal>Deep reef site</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>	
+          <MaxScaleDenominator>300000</MaxScaleDenominator>                    
+          <PointSymbolizer>
+  			 <Graphic>
+    			 <ExternalGraphic>
+      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-blue.svg" />
+       				<Format>image/svg+xml</Format>
+    			 </ExternalGraphic>
+    			 	<Size>22</Size>
+  			 </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                                         
         </Rule>        
         </FeatureTypeStyle>
     </UserStyle>
