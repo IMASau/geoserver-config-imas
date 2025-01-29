@@ -6,74 +6,7 @@
     <Name>Proposed IPA</Name>
     <UserStyle>
       <FeatureTypeStyle>
-        
-<Rule>
-  <TextSymbolizer>
-    <Geometry>
-        <ogc:Function name="centroid">
-          <ogc:PropertyName>geom</ogc:PropertyName>
-        </ogc:Function>
-    </Geometry>
-    <Label>
-      &#169; Tasmanian Aboriginal Centre #1
-    </Label>
-    <Font>
-      <CssParameter name="font-family">sans-serif</CssParameter>
-      <CssParameter name="font-size">15</CssParameter>
-    </Font>
-    <LabelPlacement>       
-      <PointPlacement>       
-<Displacement>
-  <DisplacementX>
-     -100
-  </DisplacementX>
-  <DisplacementY>
-      -100
-  </DisplacementY>
-</Displacement>        
-        <Rotation>-40</Rotation>                         
-      </PointPlacement>
-    </LabelPlacement>    
-    <Fill>
-      <CssParameter name="fill-opacity">0.5</CssParameter>
-    </Fill>  
-  </TextSymbolizer>
-</Rule>        
-        
-<Rule>
-  <TextSymbolizer>
-    <Geometry>
-        <ogc:Function name="centroid">
-          <ogc:PropertyName>geom</ogc:PropertyName>
-        </ogc:Function>
-    </Geometry>
-    <Label>
-      &#169; Tasmanian Aboriginal Centre #2
-    </Label>
-    <Font>
-      <CssParameter name="font-family">sans-serif</CssParameter>
-      <CssParameter name="font-size">15</CssParameter>
-    </Font>
-    <LabelPlacement>       
-      <PointPlacement>        
-<Displacement>
-  <DisplacementX>
-     100
-  </DisplacementX>
-  <DisplacementY>
-      50
-  </DisplacementY>
-</Displacement>        
-        <Rotation>-40</Rotation>                         
-      </PointPlacement>
-    </LabelPlacement>    
-    <Fill>
-      <CssParameter name="fill-opacity">0.5</CssParameter>
-    </Fill>  
-  </TextSymbolizer>
-</Rule>
-        
-        
+
         <Rule>
           <Title>Proposed Tayaritja IPA</Title>
           <PolygonSymbolizer>
