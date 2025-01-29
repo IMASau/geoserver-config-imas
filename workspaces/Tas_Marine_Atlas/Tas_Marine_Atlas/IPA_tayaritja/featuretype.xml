@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
   <title>Proposed Indigenous Protected Area (IPA) for Tayaritja Milaythina Muka Sea Country (Flinders Island, Tas)</title>
+  <abstract>Copyright © Tasmanian Aboriginal Centre. All Rights Reserved.</abstract>
   <keywords>
     <string>features</string>
     <string>IPA_tayaritja</string>
@@ -43,7 +44,11 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WPS</string>
+    <string>WFS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
