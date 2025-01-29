@@ -26,16 +26,16 @@
                 <ogc:PropertyName>NUMPOINTS</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>NUMPOINTS</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffffcc</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.4</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -49,10 +49,10 @@
           <Title>1 - 20,000</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>NUMPOINTS</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>NUMPOINTS</ogc:PropertyName>
                 <ogc:Literal>20000</ogc:Literal>
