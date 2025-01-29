@@ -1,0 +1,16 @@
+<layer>
+  <name>SRL_translocation_releases</name>
+  <id>LayerInfoImpl-7391f9ac:194ac80617c:2d50</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7391f9ac:194ac80617c:2cff</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7391f9ac:194ac80617c:2d49</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-29 01:20:58.848 UTC</dateCreated>
+</layer>
