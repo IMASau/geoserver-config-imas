@@ -12,20 +12,16 @@
     <Name>SRL East Coast Stock Rebuilding Zone</Name>
     <UserStyle>
       <FeatureTypeStyle>
-
         <Rule>
             <Title>East Coast Stock Rebuilding Zone</Title>
           <PolygonSymbolizer>
-
             <Stroke>
               <CssParameter name="stroke">#2f6c9d</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
               <CssParameter name="stroke-opacity">1</CssParameter>				  
-              
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
 		  <Fill>
               <GraphicFill>
                 <Graphic>
