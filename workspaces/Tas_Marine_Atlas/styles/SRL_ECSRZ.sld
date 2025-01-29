@@ -18,7 +18,7 @@
           <PolygonSymbolizer>
 
             <Stroke>
-              <CssParameter name="stroke">#377eb8</CssParameter>
+              <CssParameter name="stroke">#2f6c9d</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
               <CssParameter name="stroke-opacity">1</CssParameter>				  
               
@@ -32,10 +32,10 @@
                   <Mark>
                     <WellKnownName>shape://dot</WellKnownName>
                     <Fill>
-                      <CssParameter name="fill">#377eb8</CssParameter>
+                      <CssParameter name="fill">#2f6c9d</CssParameter>
                     </Fill>                    
                     <Stroke>
-                      <CssParameter name="stroke">#377eb8</CssParameter>
+                      <CssParameter name="stroke">#2f6c9d</CssParameter>
                       <CssParameter name="stroke-width">1.8</CssParameter>
                     </Stroke>
                   </Mark>
