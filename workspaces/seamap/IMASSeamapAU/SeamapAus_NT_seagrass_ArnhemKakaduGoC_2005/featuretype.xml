@@ -1,12 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-69a648bc:16203636226:2a6a</id>
-  <name>SeamapAus_QLD_TorresStrait_seagrass_northwest_MAP</name>
-  <nativeName>SeamapAus_QLD_NWTorresStrait_seagrass_MAP</nativeName>
+  <id>FeatureTypeInfoImpl-1546e939:15c143c255d:-7cf7</id>
+  <name>SeamapAus_NT_seagrass_ArnhemKakaduGoC_2005</name>
+  <nativeName>SeamapAus_NT_seagrass_ArnhemKakaduGoC_2005</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - Torres Strait seagrass northwest - MAP</title>
-  <abstract>Mapping view (zoom-based styling pin for study area)</abstract>
+  <title>Seamap Australia - NT - seagrass meadows (DLRM/QDPI)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -22,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -36,22 +35,21 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>141.33268662955126</minx>
-    <maxx>142.34473729750493</maxx>
-    <miny>-9.677420109977811</miny>
-    <maxy>-9.079561907133614</maxy>
+    <minx>132.19085875759964</minx>
+    <maxx>142.67026637406778</maxx>
+    <miny>-17.840206284669023</miny>
+    <maxy>-10.915165157928318</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>141.33268662955126</minx>
-    <maxx>142.34473729750493</maxx>
-    <miny>-9.677420109977811</miny>
-    <maxy>-9.079561907133614</maxy>
+    <minx>132.19085875759964</minx>
+    <maxx>142.67026637406778</maxx>
+    <miny>-17.840206284669023</miny>
+    <maxy>-10.915165157928318</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -59,6 +57,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

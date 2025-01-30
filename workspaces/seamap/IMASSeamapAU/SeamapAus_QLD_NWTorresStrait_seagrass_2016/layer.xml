@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_QLD_TorresStrait_seagrass_northwest</name>
+  <name>SeamapAus_QLD_NWTorresStrait_seagrass_2016</name>
   <id>LayerInfoImpl--3ea8dad8:157f40ad9c7:5681</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -12,4 +12,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2025-01-30 05:53:40.385 UTC</dateModified>
 </layer>
