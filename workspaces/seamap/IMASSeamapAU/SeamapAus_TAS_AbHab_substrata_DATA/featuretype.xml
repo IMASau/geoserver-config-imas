@@ -59,9 +59,6 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>true</serviceConfiguration>
-  <disabledServices>
-    <string>WMS</string>
-  </disabledServices>
   <internationalTitle/>
   <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
