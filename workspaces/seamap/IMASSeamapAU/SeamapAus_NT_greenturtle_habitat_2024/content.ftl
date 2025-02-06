@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-	<h5>Habitat - NT - Arnhem & Gulf seagrass meadows</h5>
+	<h5>Habitat - NT - green turtle habitat</h5>
 	<BR>
 	<div class="habitat"> 
 		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}<BR>

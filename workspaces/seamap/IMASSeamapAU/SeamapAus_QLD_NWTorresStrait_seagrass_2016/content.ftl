@@ -1,15 +1,15 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
-
+        <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
 	<h5>Habitat - QLD - Torres Strait seagrass (northwest)</h5>
 	<BR>
-	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
-		<BR><BR>
+	<div class="habitat"> 
+		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}<BR>
 	</div>
 		<#else>
+			<BR>
 			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
-			<BR><BR>
+			<BR>
 		<#break>
 		
   </#if>

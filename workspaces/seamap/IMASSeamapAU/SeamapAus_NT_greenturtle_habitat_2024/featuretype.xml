@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--49f7fa1a:18676068552:-6b3c</id>
-  <name>SeamapAus_NT_DarwinHarbour_habitat_2022</name>
-  <nativeName>SeamapAus_NT_DarwinHarbour_habitat_2022</nativeName>
+  <id>FeatureTypeInfoImpl--66af9177:194d9f9b641:-3222</id>
+  <name>SeamapAus_NT_greenturtle_habitat_2024</name>
+  <nativeName>SeamapAus_NT_greenturtle_habitat_2024</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - NT - Darwin Harbour benthic habitat 2022 (DEPWS)</title>
+  <title>Seamap Australia - NT - green turtle habitat mapping 2024 (CDU)</title>
   <keywords>
-    <string>Seamap Australia</string>
-    <string>benthic habitat</string>
+    <string>features</string>
+    <string>SeamapAus_NT_greenturtle_habitat_2024</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -33,24 +33,23 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>130.61648104078208</minx>
-    <maxx>130.98045319586004</maxx>
-    <miny>-12.655928926960653</miny>
-    <maxy>-12.323370486194076</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-248495.01120000333</minx>
+    <maxx>-172259.63899999857</maxx>
+    <miny>-1422036.9926999994</miny>
+    <maxy>-1300180.2728000004</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>130.61648104078208</minx>
-    <maxx>130.98045319586004</maxx>
-    <miny>-12.655928926960653</miny>
-    <maxy>-12.323370486194076</maxy>
+    <minx>131.76312482259968</minx>
+    <maxx>132.46270525607474</maxx>
+    <miny>-12.16991541644134</miny>
+    <maxy>-11.083299474727786</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
