@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal coarse sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal coarse sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -29,7 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal coarse sand and seagrass</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal coarse sand and seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -44,7 +44,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal mud/silt and algae</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal mud/silt and algae</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -59,7 +59,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal mud/silt and seagrass</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal mud/silt and seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal mixed algae and seagrass</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal mixed algae and seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>		
@@ -89,7 +89,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal algal reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal algal reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -104,7 +104,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Intertidal mixed coral reef habitat</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Intertidal mixed coral reef habitat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -116,11 +116,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Intertidal mixed coral/algal reef habitat</Title>
+          <Title>Intertidal mixed coral habitat/algal reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Intertidal mixed coral/algal reef habitat</ogc:Literal>
+              <ogc:PropertyName>Name</ogc:PropertyName>
+              <ogc:Literal>Intertidal mixed coral habitat/algal reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>		  
@@ -134,7 +134,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Subtidal coarse sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Subtidal coarse sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -149,7 +149,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Subtidal mixed coral reef habitat/algal reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Subtidal mixed coral reef habitat/algal reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -164,7 +164,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Subtidal mud/silt</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Subtidal mud/silt</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -179,7 +179,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Deeper subtidal mixed soft coral &amp; and seasonal seagrass</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:PropertyName>Name</ogc:PropertyName>
               <ogc:Literal>Deeper subtidal mixed soft coral reef and seasonal seagrass</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

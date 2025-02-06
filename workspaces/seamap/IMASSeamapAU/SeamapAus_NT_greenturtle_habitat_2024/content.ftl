@@ -4,7 +4,7 @@
 	<h5>Habitat - NT - green turtle habitat</h5>
 	<BR>
 	<div class="habitat"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}<BR>
+		<b>Benthic habitat:</b> ${feature.Name.value}<BR>
 	</div>
 		<#else>
 			<BR>
