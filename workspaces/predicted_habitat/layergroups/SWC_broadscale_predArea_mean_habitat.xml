@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--63c24095:18d97ca1b8f:6cfd</id>
   <name>SWC_broadscale_predArea_mean_habitat</name>
   <mode>NAMED</mode>
-  <title>Predicted habitat (South-west Corner marine park) - mean +- 95% confidence interval probability of occurrence</title>
+  <title>Predicted habitat (South-west Corner marine park) - mean +- 95th credible interval probability of occurrence</title>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
@@ -62,5 +62,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-02-12 01:21:51.847 UTC</dateCreated>
-  <dateModified>2024-04-22 04:30:33.888 UTC</dateModified>
+  <dateModified>2025-02-15 06:34:10.700 UTC</dateModified>
 </layerGroup>
