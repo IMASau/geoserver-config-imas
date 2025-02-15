@@ -1,0 +1,23 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--16faa076:18c188d2cb3:-2371</id>
+  <name>SWC_broadscale_predicted_unconsolidated_P1</name>
+  <description>Habitat predictions for South-west Corner - unconsolidated prob &gt;0</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2023-11-29 01:07:28.406 UTC</dateCreated>
+  <dateModified>2025-02-15 10:07:45.4 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/broadscale/thresholded/pred_unconsolidated_uncert_p1.tif</url>
+</coverageStore>
