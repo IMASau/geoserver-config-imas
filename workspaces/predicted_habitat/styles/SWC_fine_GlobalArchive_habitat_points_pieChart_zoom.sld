@@ -12,36 +12,12 @@
     <Name>Benthic annotations from downward-facing seafloor video</Name>
     
     <UserStyle>
-      <FeatureTypeStyle>
-                <!-- Rule for Pie Chart at scale above 300,000 but less than 800000 -->
-        <Rule>
-          <MinScaleDenominator>300000</MinScaleDenominator>
-          <MaxScaleDenominator>800000</MaxScaleDenominator>	
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#4d4d4d</CssParameter>
-                  <CssParameter name="fill-opacity">0.15</CssParameter>                  
-                </Fill>
-                <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
-                   <CssParameter name="stroke-width">0.01</CssParameter>
-                   <CssParameter name="stroke-opacity">1</CssParameter>                  
-               </Stroke>                
-              </Mark>
-              <Size>4</Size>
-            </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
-        </Rule>      
-        
+      <FeatureTypeStyle>    
 
-        <!-- Rule for Pie Chart at scale above 20,000 but less than 300,000 -->
+        <!-- Rule for Pie Chart at scale above 20,000 but less than 100,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>300000</MaxScaleDenominator>				                    
+          <MaxScaleDenominator>100000</MaxScaleDenominator>				                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
