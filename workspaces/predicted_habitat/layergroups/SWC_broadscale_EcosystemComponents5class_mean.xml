@@ -10,7 +10,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--16faa076:18c1774941e:6473</id>
+      <id>LayerInfoImpl--66af9177:195077f3024:3d95</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl-307e6a7c:18c3893e71d:7e1f</id>
@@ -62,5 +62,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2024-02-12 01:21:51.847 UTC</dateCreated>
-  <dateModified>2025-02-15 09:04:15.863 UTC</dateModified>
+  <dateModified>2025-02-15 10:37:56.590 UTC</dateModified>
 </layerGroup>
