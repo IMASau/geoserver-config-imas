@@ -175,5 +175,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>multibeam_5m_SWC_all_classes</nativeCoverageName>
+  <nativeCoverageName>SWC_finescale_multinomial_preds_5class</nativeCoverageName>
 </coverage>

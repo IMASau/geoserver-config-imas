@@ -19,5 +19,5 @@
   <dateCreated>2024-03-25 03:45:02.780 UTC</dateCreated>
   <dateModified>2024-05-14 13:29:22.834 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner_finescale/ProbabilityOfOccurrence/multiband/multibeam_5m_SWC_all_classes.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/finescale/multiband/SWC_finescale_multinomial_preds_5class.tif</url>
 </coverageStore>
