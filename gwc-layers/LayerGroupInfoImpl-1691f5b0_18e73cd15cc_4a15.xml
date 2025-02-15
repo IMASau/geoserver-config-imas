@@ -2,13 +2,21 @@
   <id>LayerGroupInfoImpl-1691f5b0:18e73cd15cc:4a15</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>predicted_habitat:SWC_finescale_predArea_mean_habitat</name>
+  <name>predicted_habitat:SWC_finescale_EcosystemComponents5class_mean</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>1.2769657499753451E7</double>
+          <double>-4047489.373432498</double>
+          <double>1.2796172500022365E7</double>
+          <double>-4030550.950452394</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
