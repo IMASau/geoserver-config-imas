@@ -1,16 +1,8 @@
-<#list features as feature>
-	<#if (feature_index < 1) >
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-	<h5>Satellite-derived benthic habitat of Christmas Island MP</h5>
-	<BR>
-	<div class="habitat"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}<BR>
-	</div>
-		<#else>
-			<BR>
-			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
-			<BR>
-		<#break>
-		
-  </#if>
-</#list>
+<div style="padding-top: 8px; padding-bottom:10px;">
+            <h5>Modelled mean probability of habitat occurrence [SWC broadscale]</h5>
+</div>
+
+<div style = "padding-bottom:10px">
+	<i>Values represent the mean probability (0-1) that a particular class of habitat will occur at this point.
+	<br>95th credible intervals for prediction shown as (lower 2.5% - upper 97.5%)</i>
+</div>

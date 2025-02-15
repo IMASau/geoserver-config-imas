@@ -1,22 +1,15 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-307e6a7c:18c3893e71d:7de9</id>
-  <name>SWC_predicted_unconsolidated_RANGE</name>
+  <name>SWC_broadscale_predicted_unconsolidated_RANGE</name>
   <description>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of bare unconsolidated substrata occurrence in South-west Corner</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2023-12-05 06:11:32.386 UTC</dateCreated>
+  <dateModified>2025-02-15 09:21:06.621 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/byProbabilityOccurrence/means/combined/unconsolidated_range_multi.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/broadscale/means_95CI/SWC_broadscale_pred_unconsolidated_mean95CI.tif</url>
 </coverageStore>

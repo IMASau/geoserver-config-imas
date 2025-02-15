@@ -1,6 +1,6 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-307e6a7c:18c3893e71d:7de7</id>
-  <name>SWC_predicted_sessile_inverts_RANGE</name>
+  <name>SWC_broadscale_predicted_sessile_inverts_RANGE</name>
   <description>Range (2.5% lower confidence, mean, 97.5% upper confidence) prediction of sessile invertebrate occurrence in South-west Corner</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
@@ -17,6 +17,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2023-12-05 06:11:09.736 UTC</dateCreated>
+  <dateModified>2025-02-15 09:21:40.246 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/byProbabilityOccurrence/means/combined/sessile_inverts_range_multi.tif</url>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/broadscale/means_95CI/SWC_broadscale_pred_sessile_inverts_mean95CI.tif</url>
 </coverageStore>

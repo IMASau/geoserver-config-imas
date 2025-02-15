@@ -8,14 +8,7 @@
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
-        <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of ecosystem components</h5>
-        </div>
-
         <div class="feature"> 
-		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) that a particular class of habitat will occur at this point.
-		<br>50th credible intervals for prediction shown as (lower 25% - upper 75%)</i>
-		</div>
 
             <div style="display: flex; align-items: center;"> 
                 <!-- Check if meanValue is within the specific range -->

@@ -50,8 +50,6 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -140,5 +138,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>seagrass_range_multi</nativeCoverageName>
+  <nativeCoverageName>SWC_broadscale_pred_seagrass_mean95CI</nativeCoverageName>
 </coverage>
