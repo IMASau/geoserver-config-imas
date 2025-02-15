@@ -1,0 +1,18 @@
+<layer>
+  <name>hillshade_250m_SWC_broadscale_predArea_modelling</name>
+  <id>LayerInfoImpl--66af9177:195096dab39:-326d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--66af9177:195096dab39:-326e</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-02-15 13:06:13.29 UTC</dateCreated>
+  <dateModified>2025-02-15 13:07:59.28 UTC</dateModified>
+</layer>

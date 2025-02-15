@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--66af9177:195096dab39:-32ae</id>
+  <name>5m_hillshade_SWC_habitat_finescale</name>
+  <description>Hillshade (z-factor 5m) derived from 5m resolution bathymetry for area covered by SWC fine-scale ecosystem component modelling</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--7299ab69:18be4159bc1:7e6c</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-02-15 13:03:18.153 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_predicted_habitat/southwest_corner/bathy/hillshade_5m_SWC_predArea.tif</url>
+</coverageStore>
