@@ -66,6 +66,7 @@ This layer is v2024 of the dataset, released in December 2024.</abstract>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>Data_BC &lt;&gt; &apos;NT mapping of green turtle foraging habitat&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
