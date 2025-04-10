@@ -115,16 +115,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>&gt;0 - 25</Title>
+          <Title>&gt;0 - 15</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>15000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -139,22 +139,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;25 - 50</Title>
+          <Title>&gt;15 - 40</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>15000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>50</ogc:Literal>
+                <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bfd6e8</CssParameter>
+              <CssParameter name="fill">#b3cde3</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -163,22 +163,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;50 - 75</Title>
+          <Title>&gt;40 - 75</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>50</ogc:Literal>
+                <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>75</ogc:Literal>
+                <ogc:Literal>75000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9cacd2</CssParameter>
+              <CssParameter name="fill">#8c96c6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -187,22 +187,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;75 - 100</Title>
+          <Title>&gt;75 - 125</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>75</ogc:Literal>
+                <ogc:Literal>75000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:Literal>125000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#8a7cba</CssParameter>
+              <CssParameter name="fill">#8856a7</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -211,35 +211,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;100 - 150</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>150</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#87489e</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>&gt;150</Title>
+          <Title>&gt;125</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>150</ogc:Literal>
+                <ogc:Literal>125000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
