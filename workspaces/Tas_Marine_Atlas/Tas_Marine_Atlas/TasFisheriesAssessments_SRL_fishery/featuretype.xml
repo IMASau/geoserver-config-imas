@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--77ef8ee5:19623e674d2:-1ff6</id>
-  <name>TasFisheriesAssessments_SRL_effort</name>
+  <id>FeatureTypeInfoImpl--77ef8ee5:19623e674d2:-1ff4</id>
+  <name>TasFisheriesAssessments_SRL_fishery</name>
   <nativeName>TasFisheriesAssessments_SRL</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
-  <title>Tasmanian Wild Fisheries Assessment - Southern Rock Lobster - EFFORT by 0.5 degree fishing block</title>
+  <title>Tasmanian Wild Fisheries Assessment - Southern Rock Lobster fishery Catch &amp; Effort by 0.5 degree fishing block</title>
   <keywords>
     <string>features</string>
     <string>TasFisheriesAssessments_SRL</string>
@@ -22,15 +22,17 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>143.0</minx>
-    <maxx>150.0</maxx>
+    <maxx>150.00000490641872</maxx>
     <miny>-45.0</miny>
-    <maxy>-39.0</maxy>
+    <maxy>-38.99998671429141</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>143.0</minx>
-    <maxx>150.0</maxx>
+    <maxx>150.00000490641872</maxx>
     <miny>-45.0</miny>
-    <maxy>-39.0</maxy>
+    <maxy>-38.99998671429141</maxy>
+    <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
@@ -45,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos; AND Metric LIKE &apos;Effort%&apos;</cqlFilter>
+  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

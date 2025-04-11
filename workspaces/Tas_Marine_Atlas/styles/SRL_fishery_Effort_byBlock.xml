@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--77ef8ee5:1961e29da04:5b1b</id>
-  <name>NEW_SRL_effort_block</name>
+  <name>SRL_fishery_Effort_byBlock</name>
   <workspace>
     <id>WorkspaceInfoImpl--492f85e9:17f900e0339:504d</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>NEW_SRL_effort_block.sld</filename>
+  <filename>SRL_fishery_Effort_byBlock.sld</filename>
   <dateCreated>2025-04-10 13:00:17.230 UTC</dateCreated>
+  <dateModified>2025-04-11 13:05:38.158 UTC</dateModified>
 </style>

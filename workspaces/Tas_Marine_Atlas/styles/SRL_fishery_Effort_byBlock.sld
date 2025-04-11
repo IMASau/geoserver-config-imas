@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Effort (1000's of potlifts)</Title>
           <ogc:Filter>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>99999999</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -89,7 +89,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>No effort recorded</Title>
           <ogc:Filter>
               <ogc:PropertyIsNull>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
               </ogc:PropertyIsNull>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -119,11 +119,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>12000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -143,11 +143,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>12000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>30000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -167,11 +167,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>39000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>60000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -191,11 +191,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>60000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>95000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -214,7 +214,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>&gt;95</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:PropertyName>Effort</ogc:PropertyName>
                 <ogc:Literal>95000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
