@@ -47,7 +47,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos;</cqlFilter>
+  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos; AND YEAR_START &lt; 2024</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
