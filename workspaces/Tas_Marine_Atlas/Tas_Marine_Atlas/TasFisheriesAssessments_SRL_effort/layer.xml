@@ -1,0 +1,17 @@
+<layer>
+  <name>TasFisheriesAssessments_SRL_effort</name>
+  <id>LayerInfoImpl--77ef8ee5:19623e674d2:-1ff5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--77ef8ee5:1961e29da04:5b1b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--77ef8ee5:19623e674d2:-1ff6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-11 10:47:22.542 UTC</dateCreated>
+  <dateModified>2025-04-11 10:49:41.969 UTC</dateModified>
+</layer>
