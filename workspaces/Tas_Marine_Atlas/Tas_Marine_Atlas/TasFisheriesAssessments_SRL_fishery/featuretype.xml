@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
   <title>Tasmanian Wild Fisheries Assessment - Southern Rock Lobster fishery Catch &amp; Effort by 0.5 degree fishing block</title>
+  <abstract>Data has been filtered to exclude 1999-2000 fishing season (minimal fishing occurred and all data is private) and 2024-2025 (incomplete data).</abstract>
   <keywords>
     <string>features</string>
     <string>TasFisheriesAssessments_SRL</string>
@@ -47,7 +48,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos; AND YEAR_START &lt; 2024</cqlFilter>
+  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos; AND YEAR_START &lt; 2024 AND YEAR_START &gt; 1999</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
