@@ -7,7 +7,7 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>SRL fishery effort (1000's of potlifts)</Name>
+    <Name>Scalefish fishery catch (t)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
@@ -71,10 +71,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>        
        <Rule>
-          <Title>Effort (1000's of potlifts)</Title>
+          <Title>Catch (t)</Title>
           <ogc:Filter>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
                 <ogc:Literal>99999999</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -86,10 +86,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
        <Rule>
-          <Title>No effort recorded</Title>
+          <Title>No catch recorded</Title>
           <ogc:Filter>
               <ogc:PropertyIsNull>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
               </ogc:PropertyIsNull>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -115,22 +115,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>&gt;0 - 12</Title>
+          <Title>&gt;0 - 100</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>12000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ffffd4</CssParameter>
+              <CssParameter name="fill">#edf8fb</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -139,22 +139,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;12 - 30</Title>
+          <Title>&gt;100 - 300</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>12000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>30000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>300</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fed98e</CssParameter>
+              <CssParameter name="fill">#CCD7E9</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -163,22 +163,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;30 - 60</Title>
+          <Title>&gt;200 - 2,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>39000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>300</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>60000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>2,000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fe9929</CssParameter>
+              <CssParameter name="fill">#ACB6D7</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -187,22 +187,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;60 - 95</Title>
+          <Title>&gt;2,000 - 25,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>60000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>2000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>95000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>25000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d95f0e</CssParameter>
+              <CssParameter name="fill">#8C96C6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -211,11 +211,59 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;95</Title>
+          <Title>&gt;25,000 - 100,000</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>25000</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>100000</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#8869AD</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>&gt;100,000 - 300,000</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>100000</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>300000</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#843C94</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
+          <Title>&gt;300,000</Title>
           <ogc:Filter>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>95000</ogc:Literal>
+                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:Literal>300000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
