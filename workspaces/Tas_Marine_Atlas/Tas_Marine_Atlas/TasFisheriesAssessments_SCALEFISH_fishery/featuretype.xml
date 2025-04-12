@@ -1,0 +1,56 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--77ef8ee5:1962afc0c75:-afe</id>
+  <name>TasFisheriesAssessments_SCALEFISH_fishery</name>
+  <nativeName>TasFisheriesAssessments_SCALEFISH</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
+  </namespace>
+  <title>Tasmanian Wild Fisheries Assessment - Scalefish fishery Catch &amp; Effort by fishing block</title>
+  <keywords>
+    <string>features</string>
+    <string>TasFisheriesAssessments_SCALEFISH</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>143.0</minx>
+    <maxx>150.0</maxx>
+    <miny>-45.0</miny>
+    <maxy>-39.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>143.0</minx>
+    <maxx>150.0</maxx>
+    <miny>-45.0</miny>
+    <maxy>-39.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

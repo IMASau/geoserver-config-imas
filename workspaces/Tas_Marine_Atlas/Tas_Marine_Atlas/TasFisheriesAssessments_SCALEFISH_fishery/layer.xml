@@ -1,0 +1,25 @@
+<layer>
+  <name>TasFisheriesAssessments_SCALEFISH_fishery</name>
+  <id>LayerInfoImpl--77ef8ee5:1962afc0c75:-afd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--77ef8ee5:1962afc0c75:-e5b</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--77ef8ee5:1962afc0c75:-e57</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--77ef8ee5:1962afc0c75:-e5b</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--77ef8ee5:1962afc0c75:-afe</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-12 22:40:41.486 UTC</dateCreated>
+  <dateModified>2025-04-12 22:44:53.538 UTC</dateModified>
+</layer>
