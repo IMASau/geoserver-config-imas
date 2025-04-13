@@ -12,7 +12,12 @@
 
         <!-- Check if Catch is not zero or null -->
         <#if Catch?? && Catch != 0>
-            <b>Catch:</b> ${Catch?string["#,##0.00"]} tonnes<br>
+	    <b>Catch:</b> 
+		<#if Catch == Catch?int>
+		    ${Catch?string["#,##0"]}
+		<#else>
+		    ${Catch?string["#,##0.00"]}
+		</#if> tonnes<br>
         <#else>
             <i>No catch reported.</i>
         </#if>
