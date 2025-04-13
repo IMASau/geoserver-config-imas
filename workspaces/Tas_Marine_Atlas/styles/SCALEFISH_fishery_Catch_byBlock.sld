@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>3000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 3 million -->
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>Block</ogc:PropertyName>
+              <ogc:PropertyName>BlockCode</ogc:PropertyName>
             </Label>
             <Geometry>
         		<ogc:Function name="centroid">
@@ -43,7 +43,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>400000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 400k -->
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>Block</ogc:PropertyName>
+              <ogc:PropertyName>BlockCode</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
