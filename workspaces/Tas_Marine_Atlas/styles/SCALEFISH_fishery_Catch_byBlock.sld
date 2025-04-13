@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>3000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 3 million -->
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>BlockCode</ogc:PropertyName>
+              <ogc:PropertyName>Block</ogc:PropertyName>
             </Label>
             <Geometry>
         		<ogc:Function name="centroid">
@@ -43,7 +43,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>400000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 400k -->
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>BlockCode</ogc:PropertyName>
+              <ogc:PropertyName>Block</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -172,7 +172,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch</ogc:PropertyName>
-                <ogc:Literal>2,000</ogc:Literal>
+                <ogc:Literal>2000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
