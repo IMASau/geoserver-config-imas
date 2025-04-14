@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--66f52ec1:18a9bbca852:-7f9e</id>
+  <id>FeatureTypeInfoImpl--77ef8ee5:196368a16bf:-5360</id>
   <name>SeamapAus_WA_CockburnSound_seagrass_1981</name>
-  <nativeName>SeamapAus_WA_CockburnSound_seagrass_1982</nativeName>
+  <nativeName>SeamapAus_WA_CockburnSound_seagrass_1981</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - WA - Cockburn Sound seagrass changes: 1981 survey (UWA)</title>
   <keywords>
-    <string>Seamap Australia</string>
-    <string>seagrass</string>
+    <string>features</string>
+    <string>SeamapAus_WA_CockburnSound_seagrass_1981</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,14 +36,14 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>115.64116041990536</minx>
-    <maxx>115.78370980219421</maxx>
+    <maxx>115.78370980219422</maxx>
     <miny>-32.28255479671753</miny>
     <maxy>-32.12640413207485</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>115.64116041990536</minx>
-    <maxx>115.78370980219421</maxx>
+    <maxx>115.78370980219422</maxx>
     <miny>-32.28255479671753</miny>
     <maxy>-32.12640413207485</maxy>
     <crs>EPSG:4326</crs>
