@@ -168,7 +168,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>39000</ogc:Literal>
+                <ogc:Literal>30000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
