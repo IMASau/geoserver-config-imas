@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NT_Yanyuwa_seagrass_subtidal_2023</name>
+  <id>LayerInfoImpl--77ef8ee5:1963e861de1:-35ce</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--77ef8ee5:1963e861de1:-35cf</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-16 15:00:44.690 UTC</dateCreated>
+</layer>
