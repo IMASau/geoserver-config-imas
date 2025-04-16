@@ -277,7 +277,7 @@ xmlns:gml="http://www.opengis.net/gml">
 		  </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#3385ff</sld:CssParameter>
+              <sld:CssParameter name="fill">#90aae3</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">1.0</sld:CssParameter>
             </sld:Fill>
 				
