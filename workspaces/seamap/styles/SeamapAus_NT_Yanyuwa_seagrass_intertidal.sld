@@ -11,7 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>    
         <Rule>
-          <Title>Cymodocea serrulata with mixed species</Title>
+          <Title>C. serrulata with mixed species</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -26,7 +26,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Enhalus acoroides</Title>
+          <Title>E. acoroides</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -41,7 +41,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Enhalus acoroides / Halophila ovalis</Title>
+          <Title>E. acoroides / H. ovalis</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -56,7 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	        
         <Rule>
-          <Title>Halodule uninervis (narrow form)</Title>
+          <Title>H. uninervis (narrow form)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -71,7 +71,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halodule uninervis (narrow form) / Halophila ovalis</Title>
+          <Title>H. uninervis (narrow form) / H. ovalis</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -86,7 +86,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Halodule uninervis (narrow form) / Halophila ovalis with mixed species</Title>
+          <Title>H. uninervis (narrow form) / H. ovalis with mixed species</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -101,7 +101,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halodule uninervis (narrow form) with Halophila ovalis</Title>
+          <Title>H. uninervis (narrow form) with H. ovalis</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -116,7 +116,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>Halodule uninervis (narrow form) with mixed species</Title>
+          <Title>H. uninervis (narrow form) with mixed species</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -131,7 +131,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	        
         <Rule>
-          <Title>Halodule uninervis (wide form)</Title>
+          <Title>H. uninervis (wide form)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -146,7 +146,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halodule uninervis (wide form) with Halophila ovalis</Title>
+          <Title>H. uninervis (wide form) with H. ovalis</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -161,7 +161,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Halodule uninervis (wide form) with mixed species</Title>
+          <Title>H. uninervis (wide form) with mixed species</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -176,7 +176,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>          
         <Rule>
-          <Title>Halophila ovalis</Title>
+          <Title>H. ovalis</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -191,7 +191,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halophila ovalis / Halodule uninervis (narrow form)</Title>
+          <Title>H. ovalis / H. uninervis (narrow form)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -206,7 +206,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Halophila ovalis / Halodule uninervis with mixed species</Title>
+          <Title>H. ovalis / H. uninervis with mixed species</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -221,7 +221,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Halophila ovalis with Halodule uninervis (narrow form)</Title>
+          <Title>H. ovalis with H. uninervis (narrow form)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -236,7 +236,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Halophila ovalis with Halodule uninervis (wide form)</Title>
+          <Title>H. ovalis with H. uninervis (wide form)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -251,7 +251,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Halophila ovalis with mixed species</Title>
+          <Title>H. ovalis with mixed species</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
