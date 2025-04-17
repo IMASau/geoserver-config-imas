@@ -85,10 +85,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>				
           </PolygonSymbolizer>
         </Rule>  
-        
-        
-        
-        
+        <Rule>
+          <Title>H. decipiens with H. uninervis (narrow form)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Halophila decipiens with Halodule uninervis (narrow form)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#cc6600</CssParameter>
+              <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>			
+          </PolygonSymbolizer>
+        </Rule>	        
         <Rule>
           <Title>H. ovalis</Title>
           <ogc:Filter>	  
@@ -105,36 +116,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>H. ovalis / H. uninervis (narrow form)</Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis / Halodule uninervis (narrow form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#86b300</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>H. ovalis / H. uninervis with mixed species</Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis / Halodule uninervis with mixed species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ff73de</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule> 
-        <Rule>
           <Title>H. ovalis with H. uninervis (narrow form)</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
@@ -148,52 +129,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>
             </Fill>				
           </PolygonSymbolizer>
-        </Rule> 
-        <Rule>
-          <Title>H. ovalis with H. uninervis (wide form)</Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis with Halodule uninervis (wide form)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#a70084</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
-        </Rule> 
-        <Rule>
-          <Title>H. ovalis with mixed species</Title>
-          <ogc:Filter>	  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Halophila ovalis with mixed species</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ef597e</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>				
-          </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>Unknown seagrass spp.</Title>
+          <Title>S. isoetifolium with mixed species</Title>
           <ogc:Filter>	  
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Unknown</ogc:Literal>
+              <ogc:Literal>Syringodium isoetifolium with mixed species</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#999999</CssParameter>
+              <CssParameter name="fill">#90aae3</CssParameter>
               <CssParameter name="fill-opacity">1.0</CssParameter>
-            </Fill>			
+            </Fill>				
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule>  
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
