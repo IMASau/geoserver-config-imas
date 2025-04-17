@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--49f7fa1a:1866f5f4010:4c34</id>
-  <name>SeamapAus_QLD_YulePoint_seagrass_2020</name>
-  <nativeName>SeamapAus_QLD_YulePoint_seagrass_2020</nativeName>
+  <id>FeatureTypeInfoImpl--77ef8ee5:196415b01d5:77f5</id>
+  <name>SeamapAus_QLD_YulePoint_seagrass_spaceborne_2019</name>
+  <nativeName>SeamapAus_QLD_YulePoint_seagrass_spaceborne_2019</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - Yule Point seagrass 2020 (TropWATER/JCU)</title>
+  <title>Seamap Australia - QLD - Yule Point seagrass from spaceborne observations 2017 &amp; 2019 (JCU)</title>
   <keywords>
-    <string>features</string>
-    <string>SeamapAus_QLD_YulePoint_seagrass_2020</string>
+    <string>benthic habitat</string>
+    <string>Seamap Australia NBHL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -38,14 +38,14 @@
     <minx>145.49136173659116</minx>
     <maxx>145.51497281287521</maxx>
     <miny>-16.576222688745023</miny>
-    <maxy>-16.538655956073676</maxy>
+    <maxy>-16.538655956073672</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>145.49136173659116</minx>
     <maxx>145.51497281287521</maxx>
     <miny>-16.576222688745023</miny>
-    <maxy>-16.538655956073676</maxy>
+    <maxy>-16.538655956073672</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>

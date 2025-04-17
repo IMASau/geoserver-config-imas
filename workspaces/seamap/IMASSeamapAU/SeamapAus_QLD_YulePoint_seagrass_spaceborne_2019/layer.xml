@@ -1,16 +1,16 @@
 <layer>
-  <name>SeamapAus_QLD_YulePoint_seagrass_2020</name>
-  <id>LayerInfoImpl--49f7fa1a:1866f5f4010:4c35</id>
+  <name>SeamapAus_QLD_YulePoint_seagrass_spaceborne_2019</name>
+  <id>LayerInfoImpl--77ef8ee5:196415b01d5:77f6</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--49f7fa1a:1866f5f4010:4aab</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--49f7fa1a:1866f5f4010:4c34</id>
+    <id>FeatureTypeInfoImpl--77ef8ee5:196415b01d5:77f5</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-02-21 03:53:20.42 UTC</dateCreated>
+  <dateCreated>2025-04-17 06:18:33.96 UTC</dateCreated>
 </layer>
