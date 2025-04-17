@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:6d98</id>
-  <name>SeamapAus_SA_state_benthic_habitats</name>
-  <nativeName>SeamapAus_SA_state_benthic_habitats</nativeName>
+  <name>SeamapAus_SA_state_benthic_habitats_2013</name>
+  <nativeName>SeamapAus_SA_state_benthic_habitats_2013</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - SA - state benthic habitats (DEWNR)</title>
+  <title>Seamap Australia - SA - Benthic habitats of South Australia 2013 (DEWNR)</title>
   <keywords>
     <string>habitat mapping</string>
     <string>Seamap Australia</string>
@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -57,6 +57,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
