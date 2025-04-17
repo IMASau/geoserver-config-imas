@@ -6,10 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - NT - Darwin &amp; Bynoe Harbours predicted benthic habitat 2019 (DLRNM)</title>
-  <keywords>
-    <string>features</string>
-    <string>SeamapAus_NT_DarwinBynoeHarbours_habitat_2019</string>
-  </keywords>
+  <abstract>Vector version for download.</abstract>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
     DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 

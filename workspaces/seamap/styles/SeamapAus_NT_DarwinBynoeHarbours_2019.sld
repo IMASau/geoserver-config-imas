@@ -71,11 +71,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Bare seafloor</Title>
+          <Title>Bare Seafloor</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Bare seafloor</ogc:Literal>
+              <ogc:Literal>Bare Seafloor</ogc:Literal>
             </ogc:PropertyIsEqualTo>
            </ogc:Filter>	
           <PolygonSymbolizer>
