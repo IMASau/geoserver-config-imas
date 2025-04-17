@@ -2,7 +2,7 @@
 	<#if (feature_index < 1) >
 
   	<div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-	   <h5>NT - Subtidal seagrass of Yanyuwa Sea Country 2022-23</h5>
+	   <h5>NT - Fish habitats of the Recherche Archipelago 2002-03</h5>
 	   <BR>
 	   <b>Seagrass meadow:</b> ${feature.SM_HAB_CLS.value}
 	   <BR>
