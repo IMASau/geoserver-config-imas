@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>GLOBAL__Approach</name>
+        <type>string</type>
+        <label>Approach</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GLOBAL__Geographic_context</name>
+        <type>string</type>
+        <label>Geographic context</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GLOBAL__Primary_objective</name>
+        <type>string</type>
+        <label>Primary objective</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GLOBAL__Coastal_hazard</name>
+        <type>string</type>
+        <label>Coastal hazard</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>GLOBAL__Asset_vulnerable</name>
+        <type>string</type>
+        <label>Asset vulnerable</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
