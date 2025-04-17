@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_NT_DarwinBynoeHarbours_habitat_2019_OLD</name>
+  <name>SeamapAus_NT_DarwinBynoeHarbours_habitat_2019_MAP</name>
   <id>LayerInfoImpl--49f7fa1a:18676068552:-6b32</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2023-02-22 11:08:25.26 UTC</dateCreated>
-  <dateModified>2025-04-17 13:02:42.606 UTC</dateModified>
+  <dateModified>2025-04-17 13:39:38.529 UTC</dateModified>
 </layer>
