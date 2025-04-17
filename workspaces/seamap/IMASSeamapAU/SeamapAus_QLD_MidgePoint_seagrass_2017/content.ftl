@@ -1,16 +1,16 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - QLD - Midge Point seagrass 2017</h5>
-	<BR>
-	<div class="feature"> 
-		<b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
-		<BR><BR>
-	</div>
-		<#else>
-			<i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
-			<BR><BR>
-		<#break>
-		
+  	<div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
+	   <h5>QLD - Midge Point seagrass extent 2017</h5>
+	   <BR>
+	   <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
+	   <BR>
+	<#else>
+	   <i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
+	   <BR>
+	<#break>
+	</div>	
+
   </#if>
 </#list>

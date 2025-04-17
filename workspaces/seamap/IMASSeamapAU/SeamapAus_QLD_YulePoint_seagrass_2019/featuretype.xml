@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--77ef8ee5:196415b01d5:77f5</id>
-  <name>SeamapAus_QLD_YulePoint_seagrass_spaceborne_2019</name>
-  <nativeName>SeamapAus_QLD_YulePoint_seagrass_spaceborne_2019</nativeName>
+  <name>SeamapAus_QLD_YulePoint_seagrass_2019</name>
+  <nativeName>SeamapAus_QLD_YulePoint_seagrass_2019</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - QLD - Yule Point seagrass from spaceborne observations 2017 &amp; 2019 (JCU)</title>
+  <title>Seamap Australia - QLD - Yule Point (GBR) seagrass extent from spaceborne observations 2017 &amp; 2019 (JCU)</title>
   <keywords>
     <string>benthic habitat</string>
     <string>Seamap Australia NBHL</string>
