@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_QLD_MoretonBay_seagrass_RS_2015</name>
+  <name>SeamapAus_QLD_MoretonBay_seagrass_2015</name>
   <id>LayerInfoImpl-2aa9c5d0:186865eea3d:-7fdd</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-02-25 02:26:59.832 UTC</dateCreated>
+  <dateModified>2025-04-17 04:40:55.172 UTC</dateModified>
 </layer>
