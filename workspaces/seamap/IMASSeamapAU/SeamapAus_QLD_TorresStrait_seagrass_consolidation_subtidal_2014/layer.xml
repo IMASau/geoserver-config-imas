@@ -1,15 +1,16 @@
 <layer>
-  <name>SeamapAus_QLD_TorresStrait_seagrass_intertidal</name>
-  <id>LayerInfoImpl--3ea8dad8:157f40ad9c7:5692</id>
+  <name>SeamapAus_QLD_TorresStrait_seagrass_consolidation_subtidal_2014</name>
+  <id>LayerInfoImpl--3ea8dad8:157f40ad9c7:568e</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--68fa8172:15b5a3e3fa1:5356</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:5691</id>
+    <id>FeatureTypeInfoImpl--3ea8dad8:157f40ad9c7:568d</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2025-04-17 10:52:05.903 UTC</dateModified>
 </layer>
