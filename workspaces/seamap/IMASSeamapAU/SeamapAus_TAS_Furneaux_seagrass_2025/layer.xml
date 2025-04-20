@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_TAS_Furneaux_seagrass_2025</name>
+  <id>LayerInfoImpl--3ffd3204:19652ab9a49:-7ffd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ffd3204:19652ab9a49:-7ffe</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-20 10:21:40.337 UTC</dateCreated>
+  <dateModified>2025-04-20 10:22:43.221 UTC</dateModified>
+</layer>
