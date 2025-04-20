@@ -7,8 +7,10 @@
   </namespace>
   <title>Seamap Australia - TAS - Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group of Islands), Tasmania 2023-2025 (IMAS, Deakin Uni, UNSW, Marine and Coastal Hub)</title>
   <keywords>
-    <string>features</string>
-    <string>SeamapAus_TAS_Furneaux_seagrass_2025</string>
+    <string>Seamap Australia NBHL</string>
+    <string>benthic habitat</string>
+    <string>Flinders Island</string>
+    <string>NESP Marine and Coastal Hub (MaC)</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -50,6 +52,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>

@@ -24,7 +24,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill">#2d9624</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule>	
+        
+        <Rule>
+          <Title>Macroalgae on sand</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Macroalgae on sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#989624</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
         <Rule>
           <Title>Seagrass</Title>
           <ogc:Filter>                    
@@ -40,6 +55,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Title>Seagrass on sand</Title>
+          <ogc:Filter>                    
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Seagrass on sand</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#a4dc00</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+        <Rule>
           <Title>Mixed macroalgae &amp; seagrass</Title>
           <ogc:Filter>          
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -49,10 +78,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#d8f263</CssParameter>
+              <CssParameter name="fill">#e5cc33</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	
+        </Rule>
+        <Rule>
+          <Title>Mixed macroalgae &amp; seagrass on sand</Title>
+          <ogc:Filter>          
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Mixed macroalgae * seagrass on sand</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#8fb5ab</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	        
         <Rule>
           <Title>Bare sand</Title>
           <ogc:Filter>
@@ -63,7 +106,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#FFF9A5</CssParameter>
+              <CssParameter name="fill">#fffab3</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>	        
