@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--3ffd3204:1965375cf06:34dd</id>
+  <name>Furneaux_seagrass</name>
+  <description>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group of Islands), Tasmania</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-04-21 00:18:01.875 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/08067a15-2615-4b3e-9b04-23f6a08abb75/derived/Furneaux_mapping_SeamapAus_classified.tif</url>
+</coverageStore>

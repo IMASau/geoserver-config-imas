@@ -1,0 +1,18 @@
+<layer>
+  <name>SeamapAus_TAS_Furneaux_seagrass_2025_MAP</name>
+  <id>LayerInfoImpl--3ffd3204:1965375cf06:34df</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ffd3204:1965375cf06:34dc</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--3ffd3204:1965375cf06:34de</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2025-04-21 00:18:56.642 UTC</dateCreated>
+  <dateModified>2025-04-21 00:20:06.600 UTC</dateModified>
+</layer>
