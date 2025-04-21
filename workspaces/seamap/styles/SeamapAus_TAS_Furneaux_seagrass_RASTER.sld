@@ -11,12 +11,12 @@
             <ColorMap type="values">
               <ColorMapEntry quantity="255" label="--- Ecosystem class ---" color="#ffffff" opacity="0.0001"/>
               
-              <ColorMapEntry quantity="2" label="  Macroalgae" color="#2d9624"/>
-              <ColorMapEntry quantity="6" label="  Macroalgae on sand" color="#8fb814"/>
+              <ColorMapEntry quantity="2" label="  Macroalgae" color="#759122"/>
+              <ColorMapEntry quantity="6" label="  Macroalgae on sand" color="#a7cf30"/>
               <ColorMapEntry quantity="1" label="  Seagrass" color="#02DC00"/>   
-              <ColorMapEntry quantity="5" label="  Seagrass on sand" color="#bfff00"/>              
-              <ColorMapEntry quantity="3" label="  Mixed macroalgae &amp; seagrass" color="#7ecba9"/>
-              <ColorMapEntry quantity="7" label="  Mixed macroalgae &amp; seagrass on sand" color="#96e9e7"/>              
+              <ColorMapEntry quantity="5" label="  Seagrass on sand" color="#4fff4d"/>              
+              <ColorMapEntry quantity="3" label="  Mixed macroalgae &amp; seagrass" color="#2d8643"/>
+              <ColorMapEntry quantity="7" label="  Mixed macroalgae &amp; seagrass on sand" color="#40bf60"/>              
               <ColorMapEntry quantity="4" label="  Bare sand" color="#fffab3"/>
             </ColorMap>
           </RasterSymbolizer>
