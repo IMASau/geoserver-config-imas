@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--3ffd3204:1965c212891:263c</id>
+  <name>MaC_3_6_Furneaux_macroalgae_extent_mask</name>
+  <mode>SINGLE</mode>
+  <title>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group), Tasmania 2023-2025: MACROALGAE extent layer</title>
+  <abstractTxt>A layer group showing the thresholded (binary) extent of macroalgae, overlain with the mapped area polygon and indicative regions of field-validated vs unvalidated mapping.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--3ffd3204:19657ad81da:7605</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3ffd3204:1965c212891:23f7</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:19657ad81da:7398</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:1965c212891:25cc</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>147.50759173426079</minx>
+    <maxx>148.67773722335488</maxx>
+    <miny>-40.67517707576146</miny>
+    <maxy>-39.4563428982681</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-04-22 07:42:27.460 UTC</dateCreated>
+</layerGroup>
