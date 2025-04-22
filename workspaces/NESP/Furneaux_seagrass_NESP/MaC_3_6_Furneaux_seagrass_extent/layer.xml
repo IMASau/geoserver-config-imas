@@ -1,0 +1,16 @@
+<layer>
+  <name>MaC_3_6_Furneaux_seagrass_extent</name>
+  <id>LayerInfoImpl--3ffd3204:19657ad81da:7384</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ffd3204:19657ad81da:7381</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--3ffd3204:19657ad81da:7383</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-21 23:39:06.650 UTC</dateCreated>
+</layer>
