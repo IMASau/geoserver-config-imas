@@ -1,12 +1,13 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--3ffd3204:19657ad81da:6e4e</id>
-  <name>Furneaux_seagrass_NESP</name>
+  <name>MaC_3-6_Furneaux_seagrass</name>
   <description>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group of Islands), Tasmania</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <connectionParameters/>
   <metadata>
     <entry key="CogSettings.Key">
       <cogSettings>
@@ -17,6 +18,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2025-04-21 23:24:00.807 UTC</dateCreated>
+  <dateModified>2025-04-22 05:51:26.294 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/08067a15-2615-4b3e-9b04-23f6a08abb75/raw/nesp36_allclasses_multiband.tif</url>
 </coverageStore>
