@@ -82,7 +82,7 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>Band1</name>
+      <name>mprob</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -96,7 +96,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band2</name>
+      <name>mcov</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -110,7 +110,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band3</name>
+      <name>sprob</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -124,7 +124,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band4</name>
+      <name>scov</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -138,7 +138,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band5</name>
+      <name>sgprob</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -152,7 +152,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band6</name>
+      <name>sgcov</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>

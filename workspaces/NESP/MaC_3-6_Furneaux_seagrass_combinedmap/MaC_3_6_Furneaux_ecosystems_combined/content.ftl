@@ -1,6 +1,7 @@
 <#list features as feature>
-<#assign habitat = feature.GRAY_INDEX.value?number>	
-	<#if (feature_index < 1) >
+<#assign habitat = feature.GRAY_INDEX.value?number>
+  <#if (habitat!=255) >	
+    <#if (feature_index < 1) >
 
   	<div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
         <h5>tayaritja benthic mapping 2023-25</h5>
@@ -20,6 +21,6 @@
 	   <BR>
 	<#break>
 	</div>	
-
+    </#if>
   </#if>
 </#list>
