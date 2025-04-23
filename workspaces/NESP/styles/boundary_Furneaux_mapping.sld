@@ -21,7 +21,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="opacity">0.7</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
@@ -41,7 +41,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>             
             <Stroke>
               <CssParameter name="stroke">#4d4d4d</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="opacity">0.7</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
