@@ -1,0 +1,17 @@
+<layer>
+  <name>MaC_3_6_Furneaux_ecosystems_combined</name>
+  <id>LayerInfoImpl--3ffd3204:1966272ed02:1be8</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ffd3204:1966272ed02:1ebd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--3ffd3204:1966272ed02:1be7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-23 21:45:40.519 UTC</dateCreated>
+  <dateModified>2025-04-23 21:51:22.508 UTC</dateModified>
+</layer>
