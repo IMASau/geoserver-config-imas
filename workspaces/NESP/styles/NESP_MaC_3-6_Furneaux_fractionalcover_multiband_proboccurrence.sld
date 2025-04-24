@@ -68,7 +68,39 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>
 
- <!-- Rule below is for the LENGEND ONLY - order is reversed -->        
+<!-- silent display of rasters not used in map, but called on by content.ftl -->        
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>2</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>4</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>6</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>        
+
+        <!-- Rule below is for the LENGEND ONLY - order is reversed -->        
         <Rule>
           <RasterSymbolizer>           
             <ColorMap type="ramp"> 

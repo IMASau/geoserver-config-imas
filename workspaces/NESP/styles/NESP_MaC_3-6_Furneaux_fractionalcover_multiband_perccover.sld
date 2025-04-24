@@ -53,7 +53,7 @@
             <Opacity>0.7</Opacity>            
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>6</SourceChannelName> <!-- Band 4 is SEAGRASS % cover -->
+                <SourceChannelName>6</SourceChannelName> <!-- Band 6 is SEAGRASS % cover -->
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">              
@@ -67,6 +67,39 @@
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>
+        
+<!-- silent display of rasters not used in map, but called on by content.ftl -->        
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>1</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>3</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>5</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>        
+        
 
  <!-- Rule below is for the LENGEND ONLY - order is reversed -->        
         <Rule>

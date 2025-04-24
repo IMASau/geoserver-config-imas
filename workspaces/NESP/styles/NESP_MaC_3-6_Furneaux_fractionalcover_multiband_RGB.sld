@@ -47,6 +47,8 @@
             </ChannelSelection>
           </RasterSymbolizer>
         </Rule>
+
+<!-- silent display of rasters not used in map, but called on by content.ftl -->        
 <Rule>
   <RasterSymbolizer>
     <Opacity>0.0</Opacity>
