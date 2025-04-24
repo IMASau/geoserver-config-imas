@@ -47,6 +47,37 @@
             </ChannelSelection>
           </RasterSymbolizer>
         </Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>2</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>3</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+<Rule>
+  <RasterSymbolizer>
+    <Opacity>0.0</Opacity>
+    <ChannelSelection>
+      <GrayChannel>
+        <SourceChannelName>5</SourceChannelName>
+      </GrayChannel>
+    </ChannelSelection>
+  </RasterSymbolizer>
+</Rule>
+        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
