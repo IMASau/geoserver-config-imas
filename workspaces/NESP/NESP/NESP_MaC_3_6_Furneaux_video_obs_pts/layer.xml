@@ -1,0 +1,25 @@
+<layer>
+  <name>NESP_MaC_3_6_Furneaux_video_obs_pts</name>
+  <id>LayerInfoImpl--3ffd3204:19668820c33:-684</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3ffd3204:19668820c33:-12ff</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--3ffd3204:19668820c33:-12ff</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:19668820c33:-658</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3ffd3204:19668820c33:-685</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-24 22:22:05.276 UTC</dateCreated>
+  <dateModified>2025-04-24 22:28:31.296 UTC</dateModified>
+</layer>
