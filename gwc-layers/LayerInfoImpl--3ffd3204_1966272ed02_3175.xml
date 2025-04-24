@@ -9,9 +9,25 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:4326</gridSetName>
+      <extent>
+        <coords>
+          <double>147.50759173426079</double>
+          <double>-40.67517707576146</double>
+          <double>148.67773722335488</double>
+          <double>-39.4563428982681</double>
+        </coords>
+      </extent>
     </gridSubset>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>1.642047E7</double>
+          <double>-4964547.773070012</double>
+          <double>1.655073E7</double>
+          <double>-4787251.183334983</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

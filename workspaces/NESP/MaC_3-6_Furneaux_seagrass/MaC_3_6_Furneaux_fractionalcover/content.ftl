@@ -39,6 +39,8 @@
     || (sgcov?is_number && !(sgcov?is_nan) && sgcov != -9999)>
 
     <div class="feature" style="padding-top: 5px; padding-bottom: 2px;">
+    <h5>Sentinel-2 predicted habitat</h5>
+
 
       <b style="display: block; margin-top: 5px; margin-bottom:5px;">Probability of occurrence</b>
 
@@ -83,6 +85,7 @@
           <span style="margin-left: 8px;">Sand: <b>${sprob?string("0.00")}</b></span>
         </div>
       </#if>
+
 
       <b style="display: block; margin-top: 8px; margin-bottom:5px;">Percent cover</b>
 
