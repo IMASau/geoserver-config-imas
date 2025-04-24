@@ -6,26 +6,26 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
   version="1.0.0">
   <NamedLayer>
-    <Name>Furneax percent cover: SEAGRASS</Name>
+    <Name>Furneax percent cover: SAND</Name>
     <UserStyle>
-      <Title>Seagrass % cover</Title>
+      <Title>Sand % cover</Title>
       <FeatureTypeStyle>       
         <Rule>
           <RasterSymbolizer>
             <Opacity>1.0</Opacity>            
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>6</SourceChannelName> <!-- Band 6 is SEAGRASS % cover -->
+                <SourceChannelName>4</SourceChannelName> <!-- Band 4 is SAND % cover -->
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0" quantity="0.00999"/>  <!-- Hides pixels <1% cover -->
-              <ColorMapEntry color="#daebb5" opacity="1" quantity="0.01"/>
-              <ColorMapEntry color="#daebb5" opacity="1" quantity="0.2"/>              
-              <ColorMapEntry color="#8de57b" opacity="1" quantity="0.4"/>            
-              <ColorMapEntry color="#49c545" opacity="1" quantity="0.6"/>
-              <ColorMapEntry color="#279211" opacity="1" quantity="0.8"/>
-              <ColorMapEntry color="#0e6e06" opacity="1" quantity="1"/>           
+              <ColorMapEntry color="#FFFCCC" opacity="1" quantity="0.01"/>
+              <ColorMapEntry color="#FFFCCC" opacity="1" quantity="0.2"/>              
+              <ColorMapEntry color="#FFF87F" opacity="1" quantity="0.4"/>            
+              <ColorMapEntry color="#FFF533" opacity="1" quantity="0.6"/>
+              <ColorMapEntry color="#F2E719" opacity="1" quantity="0.8"/>
+              <ColorMapEntry color="#E6DA00" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -38,12 +38,12 @@
             <ColorMap type="ramp"> 
               
       <!-- Seagrass ramp -->              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Seagrass % cover"/>
-              <ColorMapEntry color="#daebb5" opacity="1" quantity="0.2" label=" 1-20"/>
-              <ColorMapEntry color="#8de57b" opacity="1" quantity="0.4" label=" 21-40"/>            
-              <ColorMapEntry color="#49c545" opacity="1" quantity="0.6" label=" 41-60"/>
-              <ColorMapEntry color="#279211" opacity="1" quantity="0.8" label=" 61-80"/>
-              <ColorMapEntry color="#0e6e06" opacity="1" quantity="1" label=" 81-100"/>  
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Sand % cover"/>
+              <ColorMapEntry color="#FFFCCC" opacity="1" quantity="0.2" label=" 1-20"/>
+              <ColorMapEntry color="#FFF87F" opacity="1" quantity="0.4" label=" 21-40"/>            
+              <ColorMapEntry color="#FFF533" opacity="1" quantity="0.6" label=" 41-60"/>
+              <ColorMapEntry color="#F2E719" opacity="1" quantity="0.8" label=" 61-80"/>
+              <ColorMapEntry color="#E6DA00" opacity="1" quantity="1" label=" 81-100"/>  
 
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     

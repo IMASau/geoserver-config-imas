@@ -38,7 +38,9 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">MaC_3-6_Furneaux_seagrass_nesp36_allclasses_multiband</entry>
   </metadata>
   <store class="coverageStore">
@@ -65,15 +67,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>ImageMosaic</string>
-    <string>MBTiles</string>
-    <string>GeoPackage (mosaic)</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>ArcGrid</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
