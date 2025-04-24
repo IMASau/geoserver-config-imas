@@ -1,0 +1,16 @@
+<layer>
+  <name>MaC_3_6_Furneaux_perccover_macroalgae</name>
+  <id>LayerInfoImpl--3ffd3204:196659e7973:-6a9e</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--3ffd3204:196659e7973:-6a9f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-24 03:06:23.530 UTC</dateCreated>
+</layer>
