@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--3ffd3204:1966272ed02:2bc4</id>
-  <name>NESP_MaC_3-6_Furneaux_fractionalcover_RGB</name>
+  <name>NESP_MaC_3-6_Furneaux_fractionalcover_multiband_RGB</name>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>NESP_MaC_3-6_Furneaux_fractionalcover_RGB.sld</filename>
+  <filename>NESP_MaC_3-6_Furneaux_fractionalcover_multiband_RGB.sld</filename>
   <dateCreated>2025-04-23 22:21:23.133 UTC</dateCreated>
+  <dateModified>2025-04-24 00:28:41.159 UTC</dateModified>
 </style>
