@@ -5,6 +5,17 @@
   <defaultStyle>
     <id>StyleInfoImpl--3ffd3204:1966272ed02:2bc4</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--3ffd3204:1966272ed02:2bc4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:1966272ed02:5324</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:1966272ed02:5314</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl--3ffd3204:1966272ed02:3174</id>
   </resource>
@@ -12,5 +23,7 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2025-04-23 22:24:32.628 UTC</dateCreated>
+  <dateModified>2025-04-24 00:54:18.615 UTC</dateModified>
 </layer>
