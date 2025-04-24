@@ -78,6 +78,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                      
 </Rule>
 <Rule>
   <RasterSymbolizer>
@@ -88,6 +89,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                        
 </Rule>
 <Rule>
   <RasterSymbolizer>
@@ -98,6 +100,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                        
 </Rule>        
 
         <!-- Rule below is for the LENGEND ONLY - order is reversed -->        
@@ -105,7 +108,7 @@
           <RasterSymbolizer>           
             <ColorMap type="ramp"> 
       <!-- Seagrass ramp -->              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Seagrass prob occurrence"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Seagrass probability"/>
               <ColorMapEntry color="#02DC00" opacity="1" quantity="1" label=" 1.0"/>
               <ColorMapEntry color="#02DC00" opacity="0.8" quantity="0.8" label=" 0.8"/>              
               <ColorMapEntry color="#02DC00" opacity="0.6" quantity="0.6" label=" 0.6"/>            
@@ -114,7 +117,7 @@
               <ColorMapEntry color="#02DC00" opacity="0.0001" quantity="0" label=" 0.0"/>  
               
       <!-- Macroalgae ramp -->              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Macroalgae prob occurrence"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Macroalgae probability"/>
               <ColorMapEntry color="#759122" opacity="1" quantity="1" label=" 1.0"/>
               <ColorMapEntry color="#759122" opacity="0.8" quantity="0.8" label=" 0.8"/>              
               <ColorMapEntry color="#759122" opacity="0.6" quantity="0.6" label=" 0.6"/>            
@@ -123,7 +126,7 @@
               <ColorMapEntry color="#759122" opacity="0.0001" quantity="0" label=" 0.0"/>               
 
       <!-- Sand ramp -->              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Sand prob occurrence"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Sand probability"/>
               <ColorMapEntry color="#fff876" opacity="1" quantity="1" label=" 1.0"/>
               <ColorMapEntry color="#fff876" opacity="0.8" quantity="0.8" label=" 0.8"/>              
               <ColorMapEntry color="#fff876" opacity="0.6" quantity="0.6" label=" 0.6"/>            

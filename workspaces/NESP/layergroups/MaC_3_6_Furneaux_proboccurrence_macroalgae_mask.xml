@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--3ffd3204:1966756b464:-4e0a</id>
+  <name>MaC_3_6_Furneaux_proboccurrence_macroalgae_mask</name>
+  <mode>SINGLE</mode>
+  <title>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group), Tasmania: probability MACROALGAE occurrence</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--3ffd3204:196659e7973:-6a37</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3ffd3204:1965c212891:23f7</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:1966756b464:-519f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3ffd3204:1965c212891:25cc</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>147.50759173426079</minx>
+    <maxx>148.67773722335488</maxx>
+    <miny>-40.67517707576146</miny>
+    <maxy>-39.4563428982681</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-04-24 12:28:35.261 UTC</dateCreated>
+</layerGroup>

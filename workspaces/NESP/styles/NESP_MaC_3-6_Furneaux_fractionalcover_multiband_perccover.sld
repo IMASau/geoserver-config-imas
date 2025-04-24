@@ -68,6 +68,7 @@
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>
         
+        
 <!-- silent display of rasters not used in map, but called on by content.ftl -->        
 <Rule>
   <RasterSymbolizer>
@@ -78,6 +79,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                          
 </Rule>
 <Rule>
   <RasterSymbolizer>
@@ -88,6 +90,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                          
 </Rule>
 <Rule>
   <RasterSymbolizer>
@@ -98,8 +101,8 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                          
 </Rule>        
-        
 
  <!-- Rule below is for the LENGEND ONLY - order is reversed -->        
         <Rule>

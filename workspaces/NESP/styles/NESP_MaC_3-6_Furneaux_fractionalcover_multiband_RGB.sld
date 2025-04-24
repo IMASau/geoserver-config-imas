@@ -58,6 +58,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                         
 </Rule>
 <Rule>
   <RasterSymbolizer>
@@ -68,6 +69,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                         
 </Rule>
 <Rule>
   <RasterSymbolizer>
@@ -78,6 +80,7 @@
       </GrayChannel>
     </ChannelSelection>
   </RasterSymbolizer>
+ <VendorOption name="inclusion">mapOnly</VendorOption>                                                       
 </Rule>
         
       </FeatureTypeStyle>

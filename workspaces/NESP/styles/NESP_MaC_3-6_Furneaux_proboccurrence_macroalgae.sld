@@ -6,25 +6,25 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
   version="1.0.0">
   <NamedLayer>
-    <Name>Furneax probability of occurrence cover: SEAGRASS</Name>
+    <Name>Furneax probability of occurrence cover: MACROALGAE</Name>
     <UserStyle>
-      <Title>Seagrass probability of occurrence</Title>
+      <Title>Macroalgae probability of occurrence</Title>
       <FeatureTypeStyle>       
         <Rule>
           <RasterSymbolizer>
             <Opacity>1.0</Opacity>            
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>5</SourceChannelName> <!-- Band 5 is SEAGRASS prob occurrence -->
+                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is MACROALGAE prob occurrence -->
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">
               <ColorMapEntry color="#440154" opacity="1" quantity="0"/>
               <ColorMapEntry color="#440154" opacity="1" quantity="0.07"/>              
-              <ColorMapEntry color="#3b528b" opacity="1" quantity="0.25"/>            
-              <ColorMapEntry color="#21908d" opacity="1" quantity="0.4"/>
-              <ColorMapEntry color="#5dc963" opacity="1" quantity="0.75"/>
-              <ColorMapEntry color="#fde725" opacity="1" quantity="0.95"/>           
+              <ColorMapEntry color="#3b528b" opacity="1" quantity="0.22"/>            
+              <ColorMapEntry color="#21908d" opacity="1" quantity="0.38"/>
+              <ColorMapEntry color="#5dc963" opacity="1" quantity="0.65"/>
+              <ColorMapEntry color="#fde725" opacity="1" quantity="0.85"/>           
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -37,12 +37,12 @@
             <ColorMap type="ramp"> 
               
       <!-- Seagrass ramp -->              
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Seagrass probability"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Macroalgae probability"/>
               <ColorMapEntry color="#440154" opacity="1" quantity="0.07" label=" low"/>
-              <ColorMapEntry color="#3b528b" opacity="1" quantity="0.25" label=""/>            
-              <ColorMapEntry color="#21908d" opacity="1" quantity="0.4" label=" med"/>
-              <ColorMapEntry color="#5dc963" opacity="1" quantity="0.75" label=" "/>
-              <ColorMapEntry color="#fde725" opacity="1" quantity="0.95" label=" high"/>  
+              <ColorMapEntry color="#3b528b" opacity="1" quantity="0.22" label=""/>            
+              <ColorMapEntry color="#21908d" opacity="1" quantity="0.38" label=" med"/>
+              <ColorMapEntry color="#5dc963" opacity="1" quantity="0.65" label=" "/>
+              <ColorMapEntry color="#fde725" opacity="1" quantity="0.85" label=" high"/>  
 
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
