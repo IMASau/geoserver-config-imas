@@ -24,7 +24,7 @@
               <ColorMapEntry color="#3b528b" opacity="1" quantity="0.22"/>            
               <ColorMapEntry color="#21908d" opacity="1" quantity="0.60"/>
               <ColorMapEntry color="#5dc963" opacity="1" quantity="0.85"/>
-              <ColorMapEntry color="#fde725" opacity="1" quantity="0.95"/>           
+              <ColorMapEntry color="#fde725" opacity="1" quantity="0.93"/>           
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -42,7 +42,7 @@
               <ColorMapEntry color="#3b528b" opacity="1" quantity="0.22" label=""/>            
               <ColorMapEntry color="#21908d" opacity="1" quantity="0.60" label=" med"/>
               <ColorMapEntry color="#5dc963" opacity="1" quantity="0.85" label=" "/>
-              <ColorMapEntry color="#fde725" opacity="1" quantity="0.95" label=" high"/>  
+              <ColorMapEntry color="#fde725" opacity="1" quantity="0.93" label=" high"/>  
 
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     

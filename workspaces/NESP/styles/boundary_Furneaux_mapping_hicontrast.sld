@@ -54,7 +54,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <Stroke>
                       <CssParameter name="stroke">#ffffff</CssParameter>
                       <CssParameter name="stroke-width">1</CssParameter>
-                      <CssParameter name="opacity">0.8</CssParameter>                      
+                      <CssParameter name="opacity">0.6</CssParameter>                      
                     </Stroke>
                   </Mark>
                   <Size>11</Size>
