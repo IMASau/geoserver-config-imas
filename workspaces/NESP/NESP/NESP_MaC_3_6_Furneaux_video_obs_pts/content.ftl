@@ -14,7 +14,7 @@
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
 
-        <h5 style="padding-top:20px; padding-bottom:10px;">BOSS observed habitats<br>(annotated video)</h5>
+        <h5 style="padding-top:10px; padding-bottom:5px;">BOSS observed habitats<br>(annotated video)</h5>
 
         <div class="feature">
             <#list sortedHabitats as habitat>

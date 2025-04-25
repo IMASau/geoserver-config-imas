@@ -39,7 +39,7 @@
     || (sgcov?is_number && !(sgcov?is_nan) && sgcov != -9999)>
 
     <div class="feature" style="padding-top: 5px; padding-bottom: 2px;">
-    <h5>Sentinel-2 predicted habitat</h5>
+    <h5 style="padding-bottom:5px;">Sentinel-2 predicted habitat</h5>
 
 
       <b style="display: block; margin-top: 5px; margin-bottom:5px;">Probability of occurrence</b>
