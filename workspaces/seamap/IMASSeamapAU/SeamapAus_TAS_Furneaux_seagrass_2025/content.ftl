@@ -6,11 +6,12 @@
 	   <BR>
 	   <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
 	   <BR>
-	<#else>
-	   <i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
-	   <BR>
-	<#break>
-	</div>	
+  <#else>
+      <div style="margin-top: 10px; font-size: 0.95em;">
+        <i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
+      </div>
+      <#break>
+    </div>
 
   </#if>
 </#list>
