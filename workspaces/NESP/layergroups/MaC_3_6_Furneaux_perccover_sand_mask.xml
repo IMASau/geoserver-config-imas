@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--3ffd3204:196659e7973:2319</id>
   <name>MaC_3_6_Furneaux_perccover_sand_mask</name>
   <mode>SINGLE</mode>
-  <title>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group), Tasmania: % cover of SAND</title>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania: % cover of SAND</title>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -32,4 +32,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-04-24 07:27:08.199 UTC</dateCreated>
+  <dateModified>2025-04-25 23:09:34.151 UTC</dateModified>
 </layerGroup>

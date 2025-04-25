@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--3ffd3204:1966756b464:-4e0b</id>
   <name>MaC_3_6_Furneaux_proboccurrence_seagrass_mask</name>
   <mode>SINGLE</mode>
-  <title>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group), Tasmania: probability SEAGRASS occurrence</title>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania: probability SEAGRASS occurrence</title>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -32,5 +32,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-04-24 12:28:31.73 UTC</dateCreated>
-  <dateModified>2025-04-24 12:43:43.917 UTC</dateModified>
+  <dateModified>2025-04-25 23:09:53.189 UTC</dateModified>
 </layerGroup>

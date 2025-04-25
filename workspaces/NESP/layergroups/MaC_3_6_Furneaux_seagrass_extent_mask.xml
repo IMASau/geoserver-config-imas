@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--3ffd3204:1965c212891:263d</id>
   <name>MaC_3_6_Furneaux_seagrass_extent_mask</name>
   <mode>SINGLE</mode>
-  <title>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group), Tasmania 2023-2025: SEAGRASS extent layer</title>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2023-2025: SEAGRASS extent layer</title>
   <abstractTxt>A layer group showing the thresholded (binary) extent of seagrass, overlain with the mapped area polygon and indicative regions of field-validated vs unvalidated mapping.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
@@ -40,5 +40,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-04-22 07:43:16.763 UTC</dateCreated>
-  <dateModified>2025-04-23 22:12:12.810 UTC</dateModified>
+  <dateModified>2025-04-25 23:09:14.312 UTC</dateModified>
 </layerGroup>
