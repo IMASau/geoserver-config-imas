@@ -7,16 +7,9 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2025-04-21 00:18:01.875 UTC</dateCreated>
+  <dateModified>2025-04-25 23:39:32.72 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/08067a15-2615-4b3e-9b04-23f6a08abb75/derived/Furneaux_mapping_SeamapAus_classified.tif</url>
+  <url>file:///mnt/rdsi/attachments/08067a15-2615-4b3e-9b04-23f6a08abb75/derived/composite_map/Furneaux_mapping_SeamapAus_classified.tif</url>
 </coverageStore>
