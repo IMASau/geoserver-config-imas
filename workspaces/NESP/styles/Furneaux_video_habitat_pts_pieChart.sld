@@ -15,7 +15,7 @@
         
         <!-- Rule for constructing a dummy legend (ExternalGraphic using the charts extension no longer supports a legend)-->
         <Rule>
-          <Title>BOSS drops habitat composition</Title>
+          <Title>Relative habitat composition</Title>
           <PointSymbolizer>
             <Graphic>
               <Mark>
