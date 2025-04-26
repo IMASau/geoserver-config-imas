@@ -66,7 +66,7 @@ Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Seagrass&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos;</cqlFilter>
+  <cqlFilter>(NAT_HAB_CL = &apos;Seagrass&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos;) AND Data_BC NOT LIKE &apos;%Tayaritja%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
