@@ -2,7 +2,7 @@
   <#if (feature_index < 1) >
 
     <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-      <h5>WA - Jurien Bay benthic habitat 2017</h5>
+      <h5>WA - Jurien Bay benthic habitat 2018</h5>
       <br>
       <b>Benthic habitat:</b> ${feature.SM_HAB_CLS.value}
       <br>

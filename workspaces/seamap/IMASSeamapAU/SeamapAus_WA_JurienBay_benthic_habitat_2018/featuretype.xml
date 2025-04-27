@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--694527c:1908f99ac50:6113</id>
-  <name>SeamapAus_WA_JurienBay_benthic_habitat_2017</name>
-  <nativeName>SeamapAus_WA_JurienBay_benthic_habitat_2017</nativeName>
+  <name>SeamapAus_WA_JurienBay_benthic_habitat_2018</name>
+  <nativeName>SeamapAus_WA_JurienBay_benthic_habitat_2018</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia - WA - Jurien Bay benthic habitat 2017 (WA DoT)</title>
+  <title>Seamap Australia - WA - Jurien Bay benthic habitat 2018 (WA DoT)</title>
   <keywords>
-    <string>features</string>
-    <string>SeamapAus_WA_JurienBay_benthic_habitat_2017</string>
+    <string>benthic habitat</string>
+    <string>Seamap Australia NBHL</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
