@@ -10,8 +10,7 @@
 &#xd;
 This layer exists exclusively for seeding problematic zoom levels too avoid GC overhead limit issues and Geoserver crashing. Currently, it is NOT used in a zoom-based layer group, but feasibly could be incorporated at levels 8 or higher.</abstract>
   <keywords>
-    <string>features</string>
-    <string>FINALPRODUCT_SeamapAus_current_reduce5000</string>
+    <string>FINALPRODUCT_SeamapAus_current_reduce1000</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -64,6 +63,7 @@ This layer exists exclusively for seeding problematic zoom levels too avoid GC o
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>Data_BC NOT LIKE &apos;%Tayaritja%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
