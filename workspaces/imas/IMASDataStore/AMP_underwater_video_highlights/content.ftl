@@ -63,7 +63,7 @@
                                     </#if>
                                     <br>
 				<span style="font-size: 90%; color:#9a9a9a">
-					${feature.Date.value?date("MM/dd/yy")?date}
+					${feature.Date.value?date("MM/dd/yy")}
 					<#if feature.Time?? && feature.Time.value?has_content>
    						(${feature.Time.value?time("hh:mm:ss a")})
 					</#if>
