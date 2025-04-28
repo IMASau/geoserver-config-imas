@@ -16,6 +16,19 @@
             overflow: auto; 
         }
 
+        .thumbnail {
+            filter: grayscale(100%) blur(2px);
+            opacity: 0.8;
+            transition: filter 0.3s ease;
+            position: relative; /* Add position relative here */
+            display: block; /* Ensures the anchor is properly formatted */
+            width: 160px; /* Standardize width for mobile and desktop */
+        }
+        .thumbnail:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+
 
         p { 
             margin: 0;
