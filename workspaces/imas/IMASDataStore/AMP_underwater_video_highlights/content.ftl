@@ -116,12 +116,13 @@
 
 								<#if feature.AMP_reserve.value?has_content>
                                     ${feature.AMP_reserve.value} <i>(${feature.AMP_network.value})</i><br>
-								</#if>
-								<#if feature.regional_location.value?has_content && feature.regional_site.value?has_content>
-                                    ${feature.regional_location.value}: ${feature.regional_site.value}<br>
-								<#elseif feature.regional_location.value?has_content && !feature.regional_site.value?has_content>
-                                    ${feature.regional_location.value}<br>								
-								</#if>
+								<#else>
+									<#if feature.regional_location.value?has_content && feature.regional_site.value?has_content>
+										${feature.regional_location.value}: ${feature.regional_site.value}<br>
+									<#elseif feature.regional_location.value?has_content && !feature.regional_site.value?has_content>
+										${feature.regional_location.value}<br>								
+									</#if>
+								</#if>									
 
 								<#if feature.date.value?has_content>							
 									<span style="font-size: 90%; color:#9a9a9a">
