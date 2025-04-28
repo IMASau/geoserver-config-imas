@@ -1,15 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--594ea81f:1967c681fee:3c30</id>
-  <name>AMP_underwater_video_highlights_NEW</name>
-  <nativeName>Seamap_curated_underwater_video</nativeName>
+  <id>FeatureTypeInfoImpl--a145589:1893dfa7d37:-c64</id>
+  <name>AMP_underwater_video_highlights_OLD</name>
+  <nativeName>IMAS_curated_video_ALL</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Underwater video highlights of Australian waters</title>
-  <abstract>Georeferenced highlight and representative clips from multiple baited and unbaited underwater imagery-collecting platforms, survey summaries, and regional compilation videos for the Australian marine estate. Collated for display in Seamap Australia.</abstract>
+  <title>Underwater video highlight clips (BRUV, BOSS, regional compilations)</title>
   <keywords>
     <string>features</string>
-    <string>Seamap_curated_underwater_video</string>
+    <string>IMAS_BRUV_clips_highlights</string>
+    <string>staging</string>
+    <string>highlights</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -37,6 +38,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

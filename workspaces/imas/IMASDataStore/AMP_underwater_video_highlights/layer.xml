@@ -1,22 +1,17 @@
 <layer>
   <name>AMP_underwater_video_highlights</name>
-  <id>LayerInfoImpl--a145589:1893dfa7d37:-c63</id>
+  <id>LayerInfoImpl--594ea81f:1967c681fee:3c31</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--a145589:1893dfa7d37:16fe</id>
   </defaultStyle>
-  <styles class="linked-hash-set">
-    <style>
-      <id>StyleInfoImpl--a145589:1893dfa7d37:16fe</id>
-    </style>
-  </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--a145589:1893dfa7d37:-c64</id>
+    <id>FeatureTypeInfoImpl--594ea81f:1967c681fee:3c30</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2023-07-10 09:15:32.686 UTC</dateCreated>
-  <dateModified>2025-01-06 01:58:48.165 UTC</dateModified>
+  <dateCreated>2025-04-28 21:59:58.507 UTC</dateCreated>
+  <dateModified>2025-04-28 22:26:59.721 UTC</dateModified>
 </layer>
