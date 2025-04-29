@@ -18,14 +18,14 @@
             <#list sortedHabitats as habitat>
                 <#if habitat.value == 0>
                     <!-- Display prohibited symbol for zero value -->
-                    <div style="display: flex;"> 
+                    <div style="display: flex; align-items: center; flex-wrap: nowrap;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
                         <span style="margin-left: 3px;">${habitat.name}: <b>0%</b></span>
                     </div>
                 <#else>
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * habitat.value / totalPoints)?round>
-                    <div style="display: flex;"> 
+                    <div style="display: flex; align-items: center; flex-wrap: nowrap;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: ${habitat.color};"></div>
                         <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / totalPoints)?round}%</b></span>
                     </div>

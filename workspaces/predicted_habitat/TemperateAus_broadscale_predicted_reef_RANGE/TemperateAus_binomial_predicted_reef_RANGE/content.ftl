@@ -10,33 +10,32 @@
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
-        <div style="padding-top: 6px; padding-bottom:6px;">
+        <div style="padding-top: 6px; padding-bottom:8px;">
             <h5>Modelled probability of functional reef</h5>
         </div>
 
+        <div class="feature">
 
-
-        <div class="feature" style="align-left"> 
-            <div> 
-
-                <!-- Check if meanValue is within the specific range -->
+        <!-- Check if meanValue is within the specific range -->
                 <#if meanValue < 0.001>
-                    <!-- Display message for low but non-zero value -->
-                    <div style="padding-bottom:1px;"> 
+                    <!-- Display prohibited symbol for zero value -->
+                    <div style="display: flex; align-items: center; flex-wrap: nowrap;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
-                        <span style="margin-left: 3px;">Likelihood of functional reef: <b>&lt;0.001</b></span>
+                        <span style="margin-left: 3px;">Functional reef: <b>&lt;0.001</b></span>
                     </div>
                 <#else>
-                    <!-- Display the meanValue and confidence interval -->
-                    <div style="padding-bottom:1px;"> 
-                        <span >
-                            Likelihood of functional reef: <b>${meanValue?string("0.000")}</b>
-                            (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
-                        </span>
+                    <!-- Calculate bar width in pixels based on the percentage -->
+                    <#assign barWidth = (maxBarWidth * meanValue)?round>
+                    <div style="display: flex; align-items: center; flex-wrap: nowrap;"> 
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #815d4b;"></div>
+                        <span style="margin-left: 8px;">
+				Functional reef: <b>${meanValue?string("0.000")}</b>
+				(<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
+				</span>
                     </div>
                 </#if>
-            </div>
-        </div>
+        </div> 
+
     </#if>
     </#if>
 </#list>
