@@ -1,4 +1,7 @@
 <#list features as feature>
+    <#if feature_index < 1>
+        <#-- Define the maximum width for the bars in pixels -->
+        <#assign maxBarWidth = 90>
 
     <!-- Extract values from the respective bands -->
     <#assign lowerInterval = feature["LOWER"].value?number>
@@ -7,13 +10,10 @@
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
-        <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled probability of functional reef occurrence</h5>
+        <div style="padding-top: 6px; padding-bottom:6px;">
+            <h5>Modelled probability of functional reef</h5>
         </div>
 
-        <div class="feature"> 
-		<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) of functional reef occurring at this point.</i>
-	</div>
 
 
         <div class="feature" style="align-left"> 
@@ -37,5 +37,6 @@
                 </#if>
             </div>
         </div>
+    </#if>
     </#if>
 </#list>
