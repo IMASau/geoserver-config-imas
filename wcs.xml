@@ -3,7 +3,9 @@
   <enabled>true</enabled>
   <name>WCS</name>
   <title>Web Coverage Service</title>
-  <abstrct>The IMAS WCS server implements the WCS specification 1.0 and 1.1.1. All layers published by this service are also available on WMS.</abstrct>
+  <internationalTitle/>
+  <abstrct>The IMAS Web Coverage Service implements the WCS specification 1.0.0, 1.1, 1.1.0, 1.1.1 and 2.0.1. All layers published by this service are also available on WMS.</abstrct>
+  <internationalAbstract/>
   <versions>
     <org.geotools.util.Version>
       <version>1.0.0</version>

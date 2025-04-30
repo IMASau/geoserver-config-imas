@@ -7,7 +7,23 @@
       <addressState>Tasmania</addressState>
       <contactEmail>IMAS.DataManager@utas.edu.au</contactEmail>
       <contactOrganization>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</contactOrganization>
-      <contactPerson>Data Manager</contactPerson>
+      <contactPerson>IMAS Data Manager</contactPerson>
+      <onlineResource>https://www.utas.edu.au/imas</onlineResource>
+      <internationalAddress class="org.geotools.util.GrowableInternationalString"/>
+      <internationalAddressCity class="org.geotools.util.GrowableInternationalString"/>
+      <internationalAddressCountry class="org.geotools.util.GrowableInternationalString"/>
+      <internationalAddressDeliveryPoint class="org.geotools.util.GrowableInternationalString"/>
+      <internationalAddressPostalCode class="org.geotools.util.GrowableInternationalString"/>
+      <internationalAddressState class="org.geotools.util.GrowableInternationalString"/>
+      <internationalAddressType class="org.geotools.util.GrowableInternationalString"/>
+      <internationalContactEmail class="org.geotools.util.GrowableInternationalString"/>
+      <internationalContactFacsimile class="org.geotools.util.GrowableInternationalString"/>
+      <internationalContactOrganization class="org.geotools.util.GrowableInternationalString"/>
+      <internationalContactPerson class="org.geotools.util.GrowableInternationalString"/>
+      <internationalContactPosition class="org.geotools.util.GrowableInternationalString"/>
+      <internationalContactVoice class="org.geotools.util.GrowableInternationalString"/>
+      <internationalOnlineResource class="org.geotools.util.GrowableInternationalString"/>
+      <internationalWelcome class="org.geotools.util.GrowableInternationalString"/>
     </contact>
     <charset>UTF-8</charset>
     <numDecimals>4</numDecimals>
@@ -85,7 +101,7 @@
     <entry key="logHeadersEnabled">false</entry>
     <entry key="logBodiesEnabled">false</entry>
   </metadata>
-  <updateSequence>43888</updateSequence>
+  <updateSequence>43890</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>100</xmlPostRequestLogBufferSize>
