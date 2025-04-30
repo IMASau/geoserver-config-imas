@@ -63,7 +63,6 @@ Note that this is an ancillary product to the Seamap Australia National Benthic 
   <serviceConfiguration>false</serviceConfiguration>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Data_BC NOT LIKE &apos;%Tayaritja%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

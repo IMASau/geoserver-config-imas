@@ -64,7 +64,7 @@ This layer represents the MACROALGAE extent derived from the most current versio
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>(NAT_HAB_CL = &apos;Macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Biota&apos;) AND ((BC_Species LIKE &apos;%alga%&apos; OR BC_Co_Occ LIKE &apos;%alga%&apos;) AND (BC_Species NOT LIKE &apos;%coral%&apos; AND BC_Co_Occ NOT LIKE &apos;%coral%&apos;)))) AND Data_BC NOT LIKE &apos;%Tayaritja%&apos;</cqlFilter>
+  <cqlFilter>NAT_HAB_CL = &apos;Macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Biota&apos;) AND ((BC_Species LIKE &apos;%alga%&apos; OR BC_Co_Occ LIKE &apos;%alga%&apos;) AND (BC_Species NOT LIKE &apos;%coral%&apos; AND BC_Co_Occ NOT LIKE &apos;%coral%&apos;)))</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

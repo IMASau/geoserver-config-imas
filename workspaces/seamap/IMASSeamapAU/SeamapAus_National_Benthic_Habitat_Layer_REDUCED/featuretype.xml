@@ -63,7 +63,6 @@ This layer exists exclusively for seeding problematic zoom levels too avoid GC o
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Data_BC NOT LIKE &apos;%Tayaritja%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
