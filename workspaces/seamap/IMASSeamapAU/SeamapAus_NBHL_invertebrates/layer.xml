@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NBHL_invertebrates</name>
+  <id>LayerInfoImpl--8e09590:196853c2a74:-2172</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--8e09590:196853c2a74:-220a</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-2173</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-30 08:47:12.20 UTC</dateCreated>
+</layer>

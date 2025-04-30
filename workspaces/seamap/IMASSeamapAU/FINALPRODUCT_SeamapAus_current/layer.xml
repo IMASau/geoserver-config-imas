@@ -1,16 +1,16 @@
 <layer>
-  <name>SeamapAus_NBHL_EOV_seagrass</name>
-  <id>LayerInfoImpl--8e09590:196853c2a74:-328c</id>
+  <name>FINALPRODUCT_SeamapAus_current</name>
+  <id>LayerInfoImpl--8e09590:196853c2a74:-2226</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-328d</id>
+    <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-2227</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-04-30 08:02:56.595 UTC</dateCreated>
+  <dateCreated>2025-04-30 08:32:11.658 UTC</dateCreated>
 </layer>

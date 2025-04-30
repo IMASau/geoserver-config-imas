@@ -1,19 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--2816f738:186570cfa43:-59af</id>
-  <name>SeamapAus_NBHL_seagrass</name>
+  <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-2173</id>
+  <name>SeamapAus_NBHL_invertebrates</name>
   <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer - seagrass extent</title>
+  <title>Seamap Australia National Benthic Habitat Layer - benthic invertebrates</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents all polygons in which SEAGRASS is scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.&#xd;
+This layer represents all polygons in which INVERTEBRATES are scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.&#xd;
 &#xd;
-This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Composition.</abstract>
+This contributes to the Essential Ocean Variable (EOV): Benthic Invertebrate Abundance and Distribution.</abstract>
   <keywords>
-    <string>Seamap Australia National Benthic Habitat Layer</string>
-    <string>seagrass</string>
+    <string>features</string>
+    <string>FINALPRODUCT_SeamapAus_current</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -40,17 +40,17 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.30745890326027</minx>
-    <maxx>156.8018629789978</maxx>
-    <miny>-44.029219596055256</miny>
-    <maxy>-8.046155189269953</maxy>
+    <minx>88.85552020991213</minx>
+    <maxx>156.1134131062498</maxx>
+    <miny>-40.09768970894133</miny>
+    <maxy>-5.996695462881087</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.30745890326027</minx>
-    <maxx>156.8018629789978</maxx>
-    <miny>-44.029219596055256</miny>
-    <maxy>-8.046155189269953</maxy>
+    <minx>88.85552020991213</minx>
+    <maxx>156.1134131062498</maxx>
+    <miny>-40.09768970894133</miny>
+    <maxy>-5.996695462881087</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -66,10 +66,12 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BC_Level4 = &apos;Seagrass&apos;&#xd;
+  <cqlFilter>BC_Level2 = &apos;Invertebrates&apos;&#xd;
 OR (&#xd;
-(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
-AND BC_Species ILIKE &apos;%seagrass%&apos;&#xd;
+BC_Level2 = &apos;Mixed Biota&apos; AND&#xd;
+(&#xd;
+BC_Species ILIKE &apos;%coral%&apos; OR BC_Species ILIKE &apos;%sponge%&apos; OR BC_Species ILIKE &apos;%filter feed%&apos; OR BC_Species ILIKE &apos;%invertebrate%&apos;&#xd;
+)&#xd;
 )</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

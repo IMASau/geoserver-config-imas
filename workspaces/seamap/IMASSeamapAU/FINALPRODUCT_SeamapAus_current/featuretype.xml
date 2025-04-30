@@ -1,16 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-328d</id>
-  <name>SeamapAus_NBHL_EOV_seagrass</name>
+  <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-2227</id>
+  <name>FINALPRODUCT_SeamapAus_current</name>
   <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer - seagrass EOV</title>
-  <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
-&#xd;
-This layer represents all polygons in which SEAGRASS is scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.&#xd;
-&#xd;
-This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Composition.</abstract>
+  <title>FINALPRODUCT_SeamapAus_current</title>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_current</string>
@@ -38,7 +33,7 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-4082963.6805000305</minx>
     <maxx>2454504.8420000076</maxx>
@@ -47,15 +42,14 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
     <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>87.00166242638288</minx>
-    <maxx>163.116285807275</maxx>
-    <miny>-44.18824909077289</miny>
-    <maxy>-4.388534977624306</maxy>
+    <minx>-4082963.6805000305</minx>
+    <maxx>2454504.8420000076</maxx>
+    <miny>-4977557.853300095</miny>
+    <maxy>-1096966.2495000362</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
@@ -63,11 +57,7 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BC_Level4 = &apos;Seagrass&apos;&#xd;
-OR (&#xd;
-(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
-AND BC_Species ILIKE &apos;%seagrass%&apos;&#xd;
-)</cqlFilter>
+  <cqlFilter>BC_Level2 = &apos;Invertebrates&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
