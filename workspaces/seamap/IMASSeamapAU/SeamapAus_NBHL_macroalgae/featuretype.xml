@@ -8,7 +8,9 @@
   <title>Seamap Australia National Benthic Habitat Layer - macroalgae extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the MACROALGAE extent derived from the most current version of the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which macroalgae has been positively identified (e.g. seagrass/macroalgae).</abstract>
+This layer represents all polygons in which MACROALGAE is scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.&#xd;
+&#xd;
+This contributes to the Essential Ocean Variable (EOV): Macroalgae Canopy Cover and Composition.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_current</string>
@@ -38,17 +40,17 @@ This layer represents the MACROALGAE extent derived from the most current versio
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.10535256774192</minx>
-    <maxx>162.08317435095188</maxx>
-    <miny>-44.21194445950467</miny>
-    <maxy>-7.6281328383632</maxy>
+    <minx>87.08301308542505</minx>
+    <maxx>160.53112562485586</maxx>
+    <miny>-44.06930947903993</miny>
+    <maxy>-5.4968963482225295</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.10535256774192</minx>
-    <maxx>162.08317435095188</maxx>
-    <miny>-44.21194445950467</miny>
-    <maxy>-7.6281328383632</maxy>
+    <minx>87.08301308542505</minx>
+    <maxx>160.53112562485586</maxx>
+    <miny>-44.06930947903993</miny>
+    <maxy>-5.4968963482225295</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -64,7 +66,11 @@ This layer represents the MACROALGAE extent derived from the most current versio
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Biota&apos;) AND ((BC_Species LIKE &apos;%alga%&apos; OR BC_Co_Occ LIKE &apos;%alga%&apos;) AND (BC_Species NOT LIKE &apos;%coral%&apos; AND BC_Co_Occ NOT LIKE &apos;%coral%&apos;)))</cqlFilter>
+  <cqlFilter>BC_Level4 = &apos;Macroalgae&apos;&#xd;
+OR (&#xd;
+(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
+AND BC_Species ILIKE &apos;%algae%&apos;&#xd;
+)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

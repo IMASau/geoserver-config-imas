@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>  
 
         <Rule>		
-          <Title>Mangrove extent</Title>		
+          <Title>Mangrove dominated</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -28,19 +28,36 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Mixed Wetland Vegetation (Mangrove present)</Title>		
+          <Title>   Mangrove present (co-dominant)</Title>		
           <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
+            <ogc:PropertyIsNotEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Wetland Vegetation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+              <ogc:Literal>Mangrove</ogc:Literal>		
+            </ogc:PropertyIsNotEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#40bf80</CssParameter>		
+              <CssParameter name="fill">#26734b</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
-          </PolygonSymbolizer>		
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>          
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ffffff</CssParameter>
+                      <CssParameter name="stroke-width">1</CssParameter>
+                      <CssParameter name="opacity">0.8</CssParameter>                      
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>           
         </Rule>          
       </FeatureTypeStyle>
     </UserStyle>

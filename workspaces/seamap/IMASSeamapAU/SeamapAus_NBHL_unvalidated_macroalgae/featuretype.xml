@@ -8,9 +8,9 @@
   <title>Seamap Australia UNVALIDATED habitat data - macroalgae extent</title>
   <abstract>The Seamap Australia UNVALIDATED habitat layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer (NBHL), but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
 &#xd;
-This layer represents the MACROALGAE extent derived from the Seamap Australia UNVALIDATED collection. This includes mixed vegetation classes in which macroalgae has been positively identified (e.g. seagrass/macroalgae).&#xd;
+This layer represents all polygons in which MACROALGAE is scored as a dominant or co-dominant class, derived from the most current version of the UNVALIDATED Seamap Australia National Benthic Habitat Layer.&#xd;
 &#xd;
-Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT meet the current standards required for inclusion in the NBHL.</abstract>
+This contributes to the Essential Ocean Variable (EOV): Macroalgae Canopy Cover and Composition.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_unvalidated</string>
@@ -40,17 +40,17 @@ Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>126.11707882272742</minx>
-    <maxx>130.09217928103027</maxx>
-    <miny>-12.81025038923733</miny>
-    <maxy>-10.21217537649447</maxy>
+    <minx>123.86492976673757</minx>
+    <maxx>148.4424380836148</maxx>
+    <miny>-40.84548509343913</miny>
+    <maxy>-9.967979564415087</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>126.11707882272742</minx>
-    <maxx>130.09217928103027</maxx>
-    <miny>-12.81025038923733</miny>
-    <maxy>-10.21217537649447</maxy>
+    <minx>123.86492976673757</minx>
+    <maxx>148.4424380836148</maxx>
+    <miny>-40.84548509343913</miny>
+    <maxy>-9.967979564415087</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -66,7 +66,11 @@ Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Macroalgae&apos; OR ((NAT_HAB_CL = &apos;Mixed Vegetation&apos; OR NAT_HAB_CL = &apos;Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos; OR NAT_HAB_CL = &apos;Mixed Biota&apos;) AND ((BC_Species LIKE &apos;%alga%&apos; OR BC_Co_Occ LIKE &apos;%alga%&apos;) AND (BC_Species NOT LIKE &apos;%coral%&apos; AND BC_Co_Occ NOT LIKE &apos;%coral%&apos;)))</cqlFilter>
+  <cqlFilter>BC_Level4 = &apos;Macroalgae&apos;&#xd;
+OR (&#xd;
+(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
+AND BC_Species ILIKE &apos;%algae%&apos;&#xd;
+)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

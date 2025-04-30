@@ -38,17 +38,17 @@ This layer represents the SEAGRASS extent derived from the most current version 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>109.30745890326027</minx>
+    <maxx>156.8018629789978</maxx>
+    <miny>-44.029219596055256</miny>
+    <maxy>-8.046155189269953</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>109.30745890326027</minx>
+    <maxx>156.8018629789978</maxx>
+    <miny>-44.029219596055256</miny>
+    <maxy>-8.046155189269953</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -64,7 +64,11 @@ This layer represents the SEAGRASS extent derived from the most current version 
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Seagrass&apos; OR NAT_HAB_CL = &apos;Mixed Macrophytes&apos;</cqlFilter>
+  <cqlFilter>BC_Level4 = &apos;Seagrass&apos;&#xd;
+OR (&#xd;
+(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
+AND BC_Species ILIKE &apos;%seagrass%&apos;&#xd;
+)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

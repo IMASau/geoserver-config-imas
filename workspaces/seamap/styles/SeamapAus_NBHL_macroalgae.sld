@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>  
 
         <Rule>		
-          <Title>Macroalgae extent</Title>		
+          <Title>Macroalgae dominated</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
@@ -28,35 +28,37 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>Mixed Macrophytes (Macroalgae present)</Title>		
+          <Title>   Macroalgae present (co-dominant)</Title>		
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>		
+            <ogc:PropertyIsNotEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Macrophytes</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
+              <ogc:Literal>Macroalgae</ogc:Literal>		
+            </ogc:PropertyIsNotEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>		
             <Fill>		
-              <CssParameter name="fill">#d8f263</CssParameter>		
+              <CssParameter name="fill">#2d9624</CssParameter>		
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
-          </PolygonSymbolizer>		
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>          
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ffffff</CssParameter>
+                      <CssParameter name="stroke-width">1</CssParameter>
+                      <CssParameter name="opacity">0.8</CssParameter>                      
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>          
         </Rule>
-        <Rule>		
-          <Title>Mixed Biota (Macroalgae present)</Title>		
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#1aa3ff</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>           
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

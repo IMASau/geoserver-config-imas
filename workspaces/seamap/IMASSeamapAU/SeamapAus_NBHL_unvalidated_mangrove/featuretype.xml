@@ -8,9 +8,9 @@
   <title>Seamap Australia UNVALIDATED habitat data - mangrove extent</title>
   <abstract>The Seamap Australia UNVALIDATED habitat layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer (NBHL), but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
 &#xd;
-This layer represents the MANGROVE extent derived from the Seamap Australia UNVALIDATED collection. This includes mixed vegetation classes in which mangrove has been positively identified (e.g. saltmarsh/mangrove).&#xd;
+This layer represents all polygons in which MANGROVE is scored as a dominant or co-dominant class, derived from the most current version of the UNVALIDATED Seamap Australia National Benthic Habitat Layer.&#xd;
 &#xd;
-Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT meet the current standards required for inclusion in the NBHL.</abstract>
+This contributes to the Essential Ocean Variable (EOV): Mangrove Cover and Composition.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_unvalidated</string>
@@ -66,7 +66,11 @@ Note that this is an ancillary product to the Seamap Australia NBHL and DOES NOT
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Mangrove&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%angrove%&apos;)</cqlFilter>
+  <cqlFilter>BC_Level4 = &apos;Mangrove&apos;&#xd;
+OR (&#xd;
+(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
+AND BC_Species ILIKE &apos;%mangrove%&apos;&#xd;
+)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

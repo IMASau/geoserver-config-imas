@@ -8,7 +8,7 @@
   <title>Seamap Australia National Benthic Habitat Layer - saltmarsh extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the SALTMARSH extent derived from the most current version of the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which saltmarsh has been positively identified (e.g. saltmarsh/mangrove).</abstract>
+This layer represents all polygons in which SALTMARSH is scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_v2_1</string>
@@ -64,7 +64,10 @@ This layer represents the SALTMARSH extent derived from the most current version
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Saltmarsh&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%altmarsh%&apos;)</cqlFilter>
+  <cqlFilter>BC_Level4 = &apos;Saltmarsh&apos;&#xd;
+OR (&#xd;
+BC_Level2 = &apos;Vegetation&apos; AND BC_Species ILIKE &apos;%saltmarsh%&apos;&#xd;
+)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

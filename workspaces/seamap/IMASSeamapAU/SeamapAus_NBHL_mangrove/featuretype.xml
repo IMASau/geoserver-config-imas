@@ -8,7 +8,9 @@
   <title>Seamap Australia National Benthic Habitat Layer - mangrove extent</title>
   <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents the MANGROVE extent derived from the most current version of the Seamap Australia National Benthic Habitat Layer. This includes mixed vegetation classes in which mangrove has been positively identified (e.g. saltmarsh/mangrove).</abstract>
+This layer represents all polygons in which MANGROVE is scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.&#xd;
+&#xd;
+This contributes to the Essential Ocean Variable (EOV): Mangrove Cover and Composition.</abstract>
   <keywords>
     <string>features</string>
     <string>FINALPRODUCT_SeamapAus_current</string>
@@ -38,17 +40,17 @@ This layer represents the MANGROVE extent derived from the most current version 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>110.40078551558996</minx>
+    <maxx>155.7389532330514</maxx>
+    <miny>-39.37366314591775</miny>
+    <maxy>-8.993579526615243</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>110.40078551558996</minx>
+    <maxx>155.7389532330514</maxx>
+    <miny>-39.37366314591775</miny>
+    <maxy>-8.993579526615243</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -64,7 +66,11 @@ This layer represents the MANGROVE extent derived from the most current version 
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>NAT_HAB_CL = &apos;Mangrove&apos; OR (NAT_HAB_CL = &apos;Mixed Wetland Vegetation&apos; AND BC_Species LIKE &apos;%angrove%&apos;)</cqlFilter>
+  <cqlFilter>BC_Level4 = &apos;Mangrove&apos;&#xd;
+OR (&#xd;
+(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
+AND BC_Species ILIKE &apos;%mangrove%&apos;&#xd;
+)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

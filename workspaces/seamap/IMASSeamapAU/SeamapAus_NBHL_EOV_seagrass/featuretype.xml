@@ -1,19 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--694527c:1909261d612:-55df</id>
-  <name>SeamapAus_NBHL_unvalidated_seagrass</name>
-  <nativeName>FINALPRODUCT_SeamapAus_unvalidated</nativeName>
+  <id>FeatureTypeInfoImpl--8e09590:196853c2a74:-328d</id>
+  <name>SeamapAus_NBHL_EOV_seagrass</name>
+  <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia UNVALIDATED habitat data - seagrass extent</title>
-  <abstract>The Seamap Australia UNVALIDATED habitat layer is a collection of all candidate habitat datasets considered for inclusion in the Seamap Australia National Benthic Habitat Layer (NBHL), but that have not been validated by ground-truthing seafloor observation (ie are exclusively modelled). &#xd;
+  <title>Seamap Australia National Benthic Habitat Layer - seagrass EOV</title>
+  <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country.&#xd;
 &#xd;
-This layer represents all polygons in which SEAGRASS is scored as a dominant or co-dominant class, derived from the most current version of the UNVALIDATED Seamap Australia National Benthic Habitat Layer.&#xd;
+This layer represents all polygons in which SEAGRASS is scored as a dominant or co-dominant class, derived from the most current version of the Seamap Australia National Benthic Habitat Layer.&#xd;
 &#xd;
 This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Composition.</abstract>
   <keywords>
     <string>features</string>
-    <string>FINALPRODUCT_SeamapAus_unvalidated</string>
+    <string>FINALPRODUCT_SeamapAus_current</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -38,27 +38,24 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:3112</srs>
   <nativeBoundingBox>
-    <minx>123.99437677898618</minx>
-    <maxx>148.44074206021185</maxx>
-    <miny>-40.853998280812355</miny>
-    <maxy>-10.10845841642228</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-4082963.6805000305</minx>
+    <maxx>2454504.8420000076</maxx>
+    <miny>-4977557.853300095</miny>
+    <maxy>-1096966.2495000362</maxy>
+    <crs class="projected">EPSG:3112</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>123.99437677898618</minx>
-    <maxx>148.44074206021185</maxx>
-    <miny>-40.853998280812355</miny>
-    <maxy>-10.10845841642228</maxy>
+    <minx>87.00166242638288</minx>
+    <maxx>163.116285807275</maxx>
+    <miny>-44.18824909077289</miny>
+    <maxy>-4.388534977624306</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
