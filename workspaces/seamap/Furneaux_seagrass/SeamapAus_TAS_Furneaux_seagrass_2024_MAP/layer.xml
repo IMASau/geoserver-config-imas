@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_TAS_Furneaux_seagrass_2025_MAP</name>
+  <name>SeamapAus_TAS_Furneaux_seagrass_2024_MAP</name>
   <id>LayerInfoImpl--3ffd3204:1965375cf06:34df</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -14,5 +14,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2025-04-21 00:18:56.642 UTC</dateCreated>
-  <dateModified>2025-04-25 23:07:05.334 UTC</dateModified>
+  <dateModified>2025-04-30 02:30:47.921 UTC</dateModified>
 </layer>
