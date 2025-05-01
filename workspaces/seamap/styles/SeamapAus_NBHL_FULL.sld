@@ -131,7 +131,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>		
+        </Rule>	
+        <Rule>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Non-Coral Cnidaria</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Non-Coral Cnidaria</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#ce7e98</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>	        
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Filter Feeder Community</Title>		
           <ogc:Filter>		
@@ -177,6 +192,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>		
           </PolygonSymbolizer>		
         </Rule>
+        <Rule>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Other Shelled Biota</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Other Shelled Biota</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#c3a692</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>        
         <Rule>		
           <Title>&#9480;&#9480;&#9480; Mixed Invertebrate Community</Title>		
           <ogc:Filter>		
