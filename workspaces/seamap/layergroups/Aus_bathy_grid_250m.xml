@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-7365ba1:1945eae1555:-3a71</id>
-  <name>Aus_bathy_grid_250m_2024</name>
+  <name>Aus_bathy_grid_250m</name>
   <mode>SINGLE</mode>
   <title>Australian Bathymetry 2024 250 m (GA)</title>
   <abstractTxt>The AusBathyTopo 250m (Australia) 2024 Grid is a national-scale depth model for Australia that replaces the AusBathyTopo 250m (Australia) 2023 Grid.&#xd;
@@ -13,6 +13,8 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl-7365ba1:1945eae1555:-3a76</id>
@@ -44,5 +46,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-01-13 12:22:44.715 UTC</dateCreated>
-  <dateModified>2025-01-13 16:09:02.593 UTC</dateModified>
+  <dateModified>2025-05-01 04:21:28.466 UTC</dateModified>
 </layerGroup>
