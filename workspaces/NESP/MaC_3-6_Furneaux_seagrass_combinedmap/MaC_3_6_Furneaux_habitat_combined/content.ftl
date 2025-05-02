@@ -4,7 +4,7 @@
     <#if (feature_index < 1) >
 
   	<div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-        <h5>tayaritja benthic mapping 2023-25</h5>
+        <h5>tayaritja benthic mapping 2020-24</h5>
 	   <BR>
 	   <b>Benthic habitat:</b>  
               <#if (habitat == 1)>Seagrass
