@@ -1,5 +1,7 @@
+<h5 style="padding-top:10px; padding-bottom:3px;">Seagrass species<br>(annotated video)</h5>
+
 <#list features as feature>
-    <#if feature_index < 1>
+    <#if feature_index < 4>
         <#-- Define the maximum width for the bars in pixels -->
         <#assign maxBarWidth = 90>
         <#assign totalPoints = (feature.total_pts_annotated.value)?number>
@@ -13,9 +15,8 @@
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
 
-        <h5 style="padding-top:10px; padding-bottom:5px;">Seagrass species<br>(annotated video)</h5>
 
-        <div class="feature">
+        <div class="feature" style="margin-top:12px;">
             <#list sortedHabitats as habitat>
 		<#if !(habitat.name == "Halophila" && habitat.value == 0)>
                 <#if habitat.value == 0>
@@ -34,7 +35,10 @@
                 </#if>
                 </#if>
             </#list>
-        </div>        
+        </div> 
+      <div style="margin-top: 5px; font-size: 0.9em;">
+        <b>Image:</b> <i>${feature.media_name.value?substring(feature.media_name.value?index_of("FI_"))}</i>
+      </div>       
     </#if>
 </#list>
 <br>
