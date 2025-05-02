@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--8e09590:1968efa5cec:-2748</id>
+  <name>MaC_3-6_Furneaux_seagrass_species</name>
+  <description>Mapping of temperate subtidal seagrass in tayaritja (Furneaux Group of Islands), Tasmania: dominant species</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-05-02 06:30:14.56 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/08067a15-2615-4b3e-9b04-23f6a08abb75/derived/species/nesp36_seagrass_domspecies.tif</url>
+</coverageStore>

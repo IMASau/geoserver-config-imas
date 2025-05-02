@@ -1,0 +1,17 @@
+<layer>
+  <name>MaC_3_6_Furneaux_domspecies_seagrass</name>
+  <id>LayerInfoImpl--8e09590:1968efa5cec:-2746</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--8e09590:1968efa5cec:-24db</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--8e09590:1968efa5cec:-2747</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-05-02 06:31:25.632 UTC</dateCreated>
+  <dateModified>2025-05-02 06:36:56.900 UTC</dateModified>
+</layer>
