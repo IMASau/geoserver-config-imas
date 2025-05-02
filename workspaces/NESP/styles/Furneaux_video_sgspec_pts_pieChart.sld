@@ -123,8 +123,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_Amp},${100 * count_Hal
-},${100 * count_Pos},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
+},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -148,8 +148,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_Amp},${100 * count_Hal
-},${100 * count_Pos},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
+},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -173,8 +173,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_Amp},${100 * count_Hal
-},${100 * count_Pos},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
+},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -197,8 +197,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_Amp},${100 * count_Hal
-},${100 * count_Pos},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
+},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
