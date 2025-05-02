@@ -1,7 +1,7 @@
 <h5 style="padding-top:10px; padding-bottom:3px;">Seagrass species<br>(annotated video)</h5>
 
 <#list features as feature>
-    <#if feature_index < 4>
+    <#if feature_index < 1>
         <#-- Define the maximum width for the bars in pixels -->
         <#assign maxBarWidth = 90>
         <#assign totalPoints = (feature.total_pts_annotated.value)?number>
@@ -18,7 +18,6 @@
 
         <div class="feature" style="margin-top:12px;">
             <#list sortedHabitats as habitat>
-		<#if !(habitat.name == "Halophila" && habitat.value == 0)>
                 <#if habitat.value == 0>
                     <!-- Display prohibited symbol for zero value -->
                     <div style="display: flex; align-items: center"> 
@@ -33,12 +32,35 @@
                         <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / totalPoints)?round}%</b></span>
                     </div>
                 </#if>
-                </#if>
             </#list>
         </div> 
-      <div style="margin-top: 5px; font-size: 0.9em;">
-        <b>Image:</b> <i>${feature.media_name.value?substring(feature.media_name.value?index_of("FI_"))}</i>
-      </div>       
+
+<#-- Build a list of available links -->
+<#assign links = []>
+
+<div style="margin-top: 8px; font-size: 0.92em;">
+  <b>Imagery:</b>
+
+  <#if feature.media_path_N.value?has_content>
+    <a href="${feature.media_path_N.value}" target="_blank">Cam 1</a>
+  </#if>
+
+  <#if feature.media_path_E.value?has_content>
+    <#if feature.media_path_N.value?has_content> | </#if>
+    <a href="${feature.media_path_E.value}" target="_blank">Cam 2</a>
+  </#if>
+
+  <#if feature.media_path_S.value?has_content>
+    <#if feature.media_path_N.value?has_content || feature.media_path_E.value?has_content> | </#if>
+    <a href="${feature.media_path_S.value}" target="_blank">Cam 3</a>
+  </#if>
+
+  <#if feature.media_path_W.value?has_content>
+    <#if feature.media_path_N.value?has_content || feature.media_path_E.value?has_content || feature.media_path_S.value?has_content> | </#if>
+    <a href="${feature.media_path_W.value}" target="_blank">Cam 4</a>
+  </#if>
+</div>
+       
     </#if>
 </#list>
 <br>
