@@ -41,7 +41,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FFFFB3</CssParameter>  
+                  <CssParameter name="fill">#ffff80</CssParameter>  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#000000</CssParameter>
@@ -60,7 +60,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ffb3ff</CssParameter>  
+                  <CssParameter name="fill">#ff99ff</CssParameter>  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#000000</CssParameter>
@@ -79,7 +79,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8DD3C7</CssParameter>  
+                  <CssParameter name="fill">#6cc6b7</CssParameter>  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#000000</CssParameter>
@@ -98,7 +98,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#BEBADA</CssParameter>  
+                  <CssParameter name="fill">#a29cc9</CssParameter>  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#000000</CssParameter>
@@ -123,8 +123,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
-},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * pct_AmpA},${100 * pct_Hal
+},${100 * pct_PosA},${100 * pct_Zos}&amp;chco=ffff80,ff99ff,6cc6b7,a29cc9&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -148,8 +148,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
-},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * pct_AmpA},${100 * pct_Hal
+},${100 * pct_PosA},${100 * pct_Zos}&amp;chco=ffff80,ff99ff,6cc6b7,a29cc9&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -173,8 +173,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
-},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * pct_AmpA},${100 * pct_Hal
+},${100 * pct_PosA},${100 * pct_Zos}&amp;chco=ffff80,ff99ff,6cc6b7,a29cc9&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -197,8 +197,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * count_AmpA},${100 * count_Hal
-},${100 * count_PosA},${100 * count_Zos}&amp;chco=FFFFB3,ffb3ff,8DD3C7,BEBADA&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${100 * pct_AmpA},${100 * pct_Hal
+},${100 * pct_PosA},${100 * pct_Zos}&amp;chco=ffff80,ff99ff,6cc6b7,a29cc9&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
