@@ -1,30 +1,49 @@
-<#setting date_format="d MMM yyyy">
-<#setting time_format="h:mm a">
 <#setting number_format="###.#">
-
 <#list features as feature>
-    <#if (feature_index < 1)>
-	
-            <div style="width: 520px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
-						
-		<!-- Display "view in new window" for files above top-right corner of video -->
-		<div style="font-size:10px; text-align: right; margin-bottom: 4px;">
-			<a style="color: CornflowerBlue;" href="${feature.Click_here.value}" target="_blank">View in new window</a>
-		</div>
+  <#if feature_index < 1>
+    <#assign maxBarWidth = 90>
 
-		<iframe width="100%" height="315" src="${feature.Click_here.value?substring(0, feature.Click_here.value?length - 13)}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+    <#-- Assign raw values -->
+    <#assign biogenic = feature.SO_B_TOT_1.rawValue?number!0>
+    <#assign cobble = feature.HD_C_2.rawValue?number!0>
+    <#assign rockboulder = (feature.HD_B_2.rawValue?number!0) + (feature.HD_R_2.rawValue?number!0)>
+    <#assign pebblegravel = feature.SO_P_TOT_1.rawValue?number!0>
+    <#assign sandmud = feature.SO_S_TOT_1.rawValue?number!0>
+    <#assign blackocto = feature.BO_TOT_1.rawValue?number!0>
+    <#assign macroalgae = (feature.M_C_TOT_1.rawValue?number!0) + (feature.M_F_TOT_1.rawValue?number!0)>
+    <#assign stonycoral = feature.STC_TOT_1.rawValue?number!0>
+    <#assign sponge = feature.S_TOT_1.rawValue?number!0>
+    <#assign other = feature.OC_TOT_1.rawValue?number!0>
 
-		<!-- If description and/or metadata present: show below header -->								
-                <div style="word-wrap: break-word; overflow-wrap: anywhere; white-space: normal; padding-top: 5px; padding-bottom:10px; line-height: 1.3;">
-			<i style="white-space: normal;">${feature.Summary.value?no_esc}</i>
-                        <a href="https://figshare.com/projects/Underwater_tow_video_snippets_of_key_benthic_habitats_observed_around_Lord_Howe_Island_and_Balls_Pyramid_NSW_Australia/35825"
-			target="_blank" style="text-decoration: underline; font-size: 0.95em;">More Info</a>
-			<br><br>
-			<span style="font-size:0.95em"><b>Habitat description:</b> ${feature.Description.value}</span>
-                </div>
-				
-            </div>
-			
+    <#assign total = feature.L1_TOT.rawValue?number!0>
+
+    <#assign habitats = [
+      {"name": "Biogenic", "value": biogenic, "color": "#6cc6b7"},
+      {"name": "Cobbles", "value": cobble, "color": "#ad8a1f"},
+      {"name": "Pebble / gravel", "value": pebblegravel, "color": "#808080"},
+      {"name": "Rock / boulder", "value": rockboulder, "color": "#663300"},
+      {"name": "Sand / mud", "value": sandmud, "color": "#999900"},
+      {"name": "Black & octocorals", "value": blackocto, "color": "#001a33"},
+      {"name": "Macroalgae", "value": macroalgae, "color": "#00b33c"},
+      {"name": "Stony corals", "value": stonycoral, "color": "#9933ff"},
+      {"name": "Sponges", "value": sponge, "color": "#ff99ff"},
+      {"name": "Other colonisers", "value": other, "color": "#00ffcc"}
+    ]>
+
+    <#assign sortedHabitats = habitats?sort_by("value")?reverse>
+
+    <h5 style="padding-top:10px; padding-bottom:3px;">Benthic composition<br>(towed video)</h5>
+
+    <div class="feature" style="margin-top:12px;">
+      <#list sortedHabitats as habitat>
+        <#if habitat.value != 0>
+          <#assign barWidth = (maxBarWidth * habitat.value / total)?round>
+          <div style="display: flex; align-items: center">
+            <div style="width: ${barWidth}px; height: 10px; background-color: ${habitat.color};"></div>
+            <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / total)?round}%</b></span>
+          </div>
         </#if>
-	<#break>
+      </#list>
+    </div>
+  </#if>
 </#list>
