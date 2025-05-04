@@ -81,7 +81,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#663300</CssParameter>  
+                  <CssParameter name="fill">#804000</CssParameter>  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#000000</CssParameter>
@@ -100,7 +100,7 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#999900</CssParameter>  
+                  <CssParameter name="fill">#e6e600</CssParameter>  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#000000</CssParameter>
@@ -210,35 +210,34 @@
             <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
         </Rule> 
-        
-        
-        <!-- Rule for Pie Chart at scales above 500,000 -->
+
+        <!-- Rule for simple points at scales above 1,000,000 -->
         <Rule>
-          <MinScaleDenominator>500000</MinScaleDenominator>          
+          <MinScaleDenominator>1000000</MinScaleDenominator>  
           <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
             <Graphic>
-              <ExternalGraphic>
-                <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,663300,999900,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
-                <Format>application/chart</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>15</ogc:Literal>
-              </Size>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#808080</CssParameter> 
+                  <CssParameter name="fill-opacity">0.1</CssParameter>                    
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#000000</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>10</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
+          </PointSymbolizer>  
         </Rule>         
+               
 
-        <!-- Rule for Pie Chart at scales above 120,000 and below 500,000 -->
+        <!-- Rule for Pie Chart at scales above 120,000 and below 1,000,000 -->
         <Rule>
           <MinScaleDenominator>120000</MinScaleDenominator>
-          <MaxScaleDenominator>500000</MaxScaleDenominator>          
+          <MaxScaleDenominator>1000000</MaxScaleDenominator>          
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -248,7 +247,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,663300,999900,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,804000,e6e600,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -272,7 +271,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,663300,999900,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,804000,e6e600,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -296,7 +295,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,663300,999900,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,804000,e6e600,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -307,7 +306,7 @@
           </PointSymbolizer>
         </Rule>
         
-        <!-- Rule for Pie Chart at scales below 4,000 -->
+        <!-- Rule for Pie Chart at scales below 5,000 -->
         <Rule>
           <MaxScaleDenominator>5000</MaxScaleDenominator>
           <PointSymbolizer>
@@ -319,7 +318,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,663300,999900,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${SO_B_TOT_1},${HD_C_2},${HD_B_2 + HD_R_2},${SO_P_TOT_1},${SO_S_TOT_1},${BO_TOT_1},${M_C_TOT_1 + M_F_TOT_1},${STC_TOT_1},${S_TOT_1},${OC_TOT_1}&amp;chco=6cc6b7,ad8a1f,808080,804000,e6e600,001a33,00b33c,9933ff,ff99ff,00ffcc&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
