@@ -82,7 +82,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>	  
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#cab433</CssParameter>
+              <CssParameter name="fill">#ace600</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
