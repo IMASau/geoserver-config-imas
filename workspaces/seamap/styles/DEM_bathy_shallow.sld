@@ -14,18 +14,18 @@
               <ColorMapEntry color="#3e3994" opacity="0.65" quantity="-4000"/>
               <ColorMapEntry color="#455ed3" opacity="0.65" quantity="-2000"/>
               <ColorMapEntry color="#4681f7" opacity="0.65" quantity="-1000"/>
-              <ColorMapEntry color="#3aa3fc" opacity="0.65" quantity="-500"/>
+              <ColorMapEntry color="#3aa3fc" opacity="0.65" quantity="-400"/>
               <ColorMapEntry color="#23c4e3" opacity="0.65" quantity="-200"/>
-              <ColorMapEntry color="#18dec0" opacity="0.65" quantity="-150"/>
-              <ColorMapEntry color="#2df09d" opacity="0.65" quantity="-120"/>
-              <ColorMapEntry color="#5cfc70" opacity="0.65" quantity="-100"/>
-              <ColorMapEntry color="#90ff48" opacity="0.65" quantity="-80"/>
-              <ColorMapEntry color="#b6f735" opacity="0.65" quantity="-70"/>
-              <ColorMapEntry color="#d7e535" opacity="0.65" quantity="-60"/>
-              <ColorMapEntry color="#f0cc3a" opacity="0.65" quantity="-50"/>
-              <ColorMapEntry color="#fdae35" opacity="0.65" quantity="-40"/>
-              <ColorMapEntry color="#fc8825" opacity="0.65" quantity="-30"/>
-              <ColorMapEntry color="#f26014" opacity="0.65" quantity="-20"/>
+              <ColorMapEntry color="#18dec0" opacity="0.65" quantity="-100"/>
+              <ColorMapEntry color="#2df09d" opacity="0.65" quantity="-80"/>
+              <ColorMapEntry color="#5cfc70" opacity="0.65" quantity="-60"/>
+              <ColorMapEntry color="#90ff48" opacity="0.65" quantity="-50"/>
+              <ColorMapEntry color="#b6f735" opacity="0.65" quantity="-40"/>
+              <ColorMapEntry color="#d7e535" opacity="0.65" quantity="-35"/>
+              <ColorMapEntry color="#f0cc3a" opacity="0.65" quantity="-30"/>
+              <ColorMapEntry color="#fdae35" opacity="0.65" quantity="-25"/>
+              <ColorMapEntry color="#fc8825" opacity="0.65" quantity="-20"/>
+              <ColorMapEntry color="#f26014" opacity="0.65" quantity="-15"/>
               <ColorMapEntry color="#c52603" opacity="0.65" quantity="-10"/>
               <ColorMapEntry color="#7a0403" opacity="0.65" quantity="-5"/>
               <ColorMapEntry color="#7a0471" opacity="0.65" quantity="0"/>
@@ -42,18 +42,18 @@
               <ColorMapEntry color="#7a0471" label="  0" quantity="0"/>
               <ColorMapEntry color="#7a0403" label="  5" quantity="-5"/>              
               <ColorMapEntry color="#c52603" label="  10" quantity="-10"/>              
-              <ColorMapEntry color="#f26014" label="  20" quantity="-20"/>              
-              <ColorMapEntry color="#fc8825" label="  30" quantity="-30"/>              
-              <ColorMapEntry color="#fdae35" label="  40" quantity="-40"/>              
-              <ColorMapEntry color="#f0cc3a" label="  50" quantity="-50"/>              
-              <ColorMapEntry color="#d7e535" label="  60" quantity="-60"/>              
-              <ColorMapEntry color="#b6f735" label="  70" quantity="-70"/>              
-              <ColorMapEntry color="#90ff48" label="  80" quantity="-80"/>              
-              <ColorMapEntry color="#5cfc70" label="  100" quantity="-100"/>              
-              <ColorMapEntry color="#2df09d" label="  120" quantity="-120"/>              
-              <ColorMapEntry color="#18dec0" label="  150" quantity="-150"/>              
+              <ColorMapEntry color="#f26014" label="  15" quantity="-15"/>              
+              <ColorMapEntry color="#fc8825" label="  20" quantity="-20"/>              
+              <ColorMapEntry color="#fdae35" label="  25" quantity="-25"/>              
+              <ColorMapEntry color="#f0cc3a" label="  30" quantity="-30"/>              
+              <ColorMapEntry color="#d7e535" label="  35" quantity="-35"/>              
+              <ColorMapEntry color="#b6f735" label="  40" quantity="-40"/>              
+              <ColorMapEntry color="#90ff48" label="  50" quantity="-50"/>              
+              <ColorMapEntry color="#5cfc70" label="  60" quantity="-60"/>              
+              <ColorMapEntry color="#2df09d" label="  80" quantity="-80"/>              
+              <ColorMapEntry color="#18dec0" label="  100" quantity="-100"/>              
               <ColorMapEntry color="#23c4e3" label="  200" quantity="-200"/>              
-              <ColorMapEntry color="#3aa3fc" label="  500" quantity="-500"/>              
+              <ColorMapEntry color="#3aa3fc" label="  400" quantity="-400"/>              
               <ColorMapEntry color="#4681f7" label="  1,000" quantity="-1000"/>              
               <ColorMapEntry color="#455ed3" label="  2,000" quantity="-2000"/>              
               <ColorMapEntry color="#3e3994" label="  4,000" quantity="-4000"/>              
