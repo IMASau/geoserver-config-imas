@@ -19,8 +19,8 @@
 		<!-- Prioritise higher-profile videos (by sort_order) -->				
 		<#list features?sort_by(["sort_order", "rawValue"]) as feature>
 				
-		<!-- Check for YouTube, Vimeo, regional compilation, or Bathurst Channel video, show max 2 videos -->
-        <#if (feature.media_type.value != "file" || feature.dtype.value == 'regional compilation' || feature.regional_location.value?contains('Port Davey') ) && foundMedia < 2 >
+		<!-- Check for YouTube, Vimeo, regional compilation, Lord Howed Island or Bathurst Channel video, show max 2 videos -->
+        <#if (feature.media_type.value != "file" || feature.dtype.value == 'regional compilation' || feature.regional_location.value?contains('Port Davey') || feature.media_URL.value?contains('Hosted/LordHoweIsland') ) && foundMedia < 2 >
             <#assign foundMedia=foundMedia+1>
 			
             <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
