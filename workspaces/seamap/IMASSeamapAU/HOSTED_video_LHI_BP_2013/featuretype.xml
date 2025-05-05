@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--8e09590:19690f702ba:52b0</id>
+  <id>FeatureTypeInfoImpl--8e09590:1969e751d1e:5757</id>
   <name>HOSTED_video_LHI_BP_2013</name>
   <nativeName>HOSTED_video_LHI_BP_2013</nativeName>
   <namespace>
@@ -8,41 +8,30 @@
   <title>Lord Howe Island &amp; Balls Pyramid towed video snippets (NERP MBH / UoW)</title>
   <keywords>
     <string>features</string>
-    <string>HOSTED_video_LHI_BP_2018</string>
+    <string>HOSTED_video_LHI_BP_2013</string>
   </keywords>
-  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 57S&quot;, 
-  GEOGCS[&quot;WGS 84&quot;, 
-    DATUM[&quot;World Geodetic System 1984&quot;, 
-      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-    UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Geodetic longitude&quot;, EAST], 
-    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
-  PARAMETER[&quot;central_meridian&quot;, 159.0], 
-  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
-  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
-  PARAMETER[&quot;false_easting&quot;, 500000.0], 
-  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
-  UNIT[&quot;m&quot;, 1.0], 
-  AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH], 
-  AUTHORITY[&quot;EPSG&quot;,&quot;32757&quot;]]</nativeCRS>
-  <srs>EPSG:32757</srs>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>497151.363638322</minx>
-    <maxx>530304.2586376288</maxx>
-    <miny>6473939.379597087</miny>
-    <maxy>6520523.592442684</maxy>
-    <crs class="projected">EPSG:32757</crs>
+    <minx>158.97011382059765</minx>
+    <maxx>159.32412018648233</maxx>
+    <miny>-31.86813763736274</miny>
+    <maxy>-31.453478370930423</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>158.96988376436062</minx>
-    <maxx>159.32037930908882</maxx>
-    <miny>-31.870306292101446</miny>
-    <maxy>-31.449615815512484</maxy>
+    <minx>158.97011382059765</minx>
+    <maxx>159.32412018648233</maxx>
+    <miny>-31.86813763736274</miny>
+    <maxy>-31.453478370930423</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
