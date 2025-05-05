@@ -47,27 +47,27 @@
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="0" label="Depth (m)"/>
               <!-- Dense shelf stops -->
-              <ColorMapEntry color="#7a0403" label=" 1" quantity="-1"/>
-              <ColorMapEntry color="#a21201" label=" 10" quantity="-10"/>
-              <ColorMapEntry color="#c52603" label=" 20" quantity="-20"/>
-              <ColorMapEntry color="#f26014" label=" 30" quantity="-30"/>
-              <ColorMapEntry color="#fc8825" label=" 40" quantity="-40"/>
-              <ColorMapEntry color="#fdae35" label=" 50" quantity="-50"/>
-              <ColorMapEntry color="#f0cc3a" label=" 70" quantity="-70"/>
-              <ColorMapEntry color="#d7e535" label=" 90" quantity="-90"/>
-              <ColorMapEntry color="#b6f735" label=" 120" quantity="-120"/>
-              <ColorMapEntry color="#90ff48" label=" 150" quantity="-150"/>
-              <ColorMapEntry color="#5cfc70" label=" 200" quantity="-200"/>
+              <ColorMapEntry color="#7a0403" label="  1" quantity="-1"/>
+              <ColorMapEntry color="#a21201" label="  10" quantity="-10"/>
+              <ColorMapEntry color="#c52603" label="  20" quantity="-20"/>
+              <ColorMapEntry color="#f26014" label="  30" quantity="-30"/>
+              <ColorMapEntry color="#fc8825" label="  40" quantity="-40"/>
+              <ColorMapEntry color="#fdae35" label="  50" quantity="-50"/>
+              <ColorMapEntry color="#f0cc3a" label="  70" quantity="-70"/>
+              <ColorMapEntry color="#d7e535" label="  90" quantity="-90"/>
+              <ColorMapEntry color="#b6f735" label="  120" quantity="-120"/>
+              <ColorMapEntry color="#90ff48" label="  150" quantity="-150"/>
+              <ColorMapEntry color="#5cfc70" label="  200" quantity="-200"/>
               <!-- Slope -->
-              <ColorMapEntry color="#2df09d" label=" 300" quantity="-300"/>
-              <ColorMapEntry color="#18dec0" label=" 400" quantity="-400"/>
-              <ColorMapEntry color="#23c4e3" label=" 600" quantity="-600"/>
+              <ColorMapEntry color="#2df09d" label="  300" quantity="-300"/>
+              <ColorMapEntry color="#18dec0" label="  400" quantity="-400"/>
+              <ColorMapEntry color="#23c4e3" label="  600" quantity="-600"/>
               <!-- Deep -->
-              <ColorMapEntry color="#3aa3fc" label=" 800" quantity="-800"/>
-              <ColorMapEntry color="#4681f7" label=" 1,000" quantity="-1000"/>
-              <ColorMapEntry color="#455ed3" label=" 2,000" quantity="-2000"/>
-              <ColorMapEntry color="#3e3994" label=" 4,000" quantity="-4000"/>
-              <ColorMapEntry color="#30123b" label=" 7,000" quantity="-7000"/>
+              <ColorMapEntry color="#3aa3fc" label="  800" quantity="-800"/>
+              <ColorMapEntry color="#4681f7" label="  1,000" quantity="-1000"/>
+              <ColorMapEntry color="#455ed3" label="  2,000" quantity="-2000"/>
+              <ColorMapEntry color="#3e3994" label="  4,000" quantity="-4000"/>
+              <ColorMapEntry color="#30123b" label="  7,000" quantity="-7000"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>
