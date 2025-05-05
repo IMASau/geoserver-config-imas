@@ -110,7 +110,6 @@
             <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
         </Rule> 
-        
         <!-- Rule for Pie Chart at scales above 500,000 -->
         <Rule>
           <MinScaleDenominator>500000</MinScaleDenominator>          
@@ -134,7 +133,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>         
-
         <!-- Rule for Pie Chart at scales above 120,000 and below 500,000 -->
         <Rule>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -159,7 +157,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>        
-
         <!-- Rule for Pie Chart at scales above 20,000 and below 120,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
@@ -184,7 +181,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <!-- Rule for Pie Chart at scales below 20,000 -->
         <Rule>
           <MaxScaleDenominator>20000</MaxScaleDenominator>
@@ -208,7 +204,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

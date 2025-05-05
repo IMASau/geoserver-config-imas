@@ -12,7 +12,6 @@
     <Name>Seagrass species from downward-facing seafloor video</Name>
     <UserStyle>
       <FeatureTypeStyle>
-        
         <!-- Rule for constructing a dummy legend (ExternalGraphic using the charts extension no longer supports a legend)-->
         <Rule>
           <Title>---Substrate---</Title>
@@ -210,7 +209,6 @@
             <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
         </Rule> 
-
         <!-- Rule for simple points at scales above 1,000,000 -->
         <Rule>
           <MinScaleDenominator>1000000</MinScaleDenominator>  
@@ -232,8 +230,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>  
         </Rule>         
-               
-
         <!-- Rule for Pie Chart at scales above 120,000 and below 1,000,000 -->
         <Rule>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -257,7 +253,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>        
-
         <!-- Rule for Pie Chart at scales above 20,000 and below 120,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
@@ -281,7 +276,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <!-- Rule for Pie Chart at scales above 5,000 and below 20,000 -->
         <Rule>
           <MinScaleDenominator>5000</MinScaleDenominator>          
@@ -305,7 +299,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-        
         <!-- Rule for Pie Chart at scales below 5,000 -->
         <Rule>
           <MaxScaleDenominator>5000</MaxScaleDenominator>
@@ -328,7 +321,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>        
-        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
