@@ -101,6 +101,30 @@
             </Fill>
           </PolygonSymbolizer>
         </Rule>
+		
+        <!-- Unassigned IUCNs -->
+        <Rule>
+          <Title>   IUCN not yet assigned</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo><ogc:PropertyName>IUCN</ogc:PropertyName><ogc:Literal>NAS</ogc:Literal></ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>NRS_MPA</ogc:PropertyName><ogc:Literal>Y</ogc:Literal></ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo><ogc:PropertyName>NRS_MPA</ogc:PropertyName><ogc:Literal>I</ogc:Literal></ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>		  
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#cc80ff</CssParameter>
+              <CssParameter name="fill-opacity">0.75</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#666666</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
+            </Stroke>			
+          </PolygonSymbolizer>
+        </Rule>			
 
         <!-- Excluded from NRS -->
         <Rule>
@@ -192,8 +216,29 @@
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
+		
+        <!-- Non-NRS unassigned IUCNs -->
+        <Rule>
+          <Title>   IUCN not yet assigned</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo><ogc:PropertyName>IUCN</ogc:PropertyName><ogc:Literal>NAS</ogc:Literal></ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsNotEqualTo><ogc:PropertyName>NRS_MPA</ogc:PropertyName><ogc:Literal>Y</ogc:Literal></ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyIsNotEqualTo><ogc:PropertyName>NRS_MPA</ogc:PropertyName><ogc:Literal>I</ogc:Literal></ogc:PropertyIsNotEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#cc80ff</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>		
 
-        <!-- Optional sorting -->
+        <!-- Sorting to display higher-priority IUCN zones on top -->
         <VendorOption name="sortBy">IUCN A</VendorOption>
 
       </FeatureTypeStyle>
