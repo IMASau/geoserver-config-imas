@@ -1,19 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-3397ac5f:196a5225f6b:-126d</id>
-  <name>SeamapAus_BOUNDARIES_CAPAD</name>
-  <nativeName>SeamapAus_BOUNDARIES_CAPAD2024</nativeName>
+  <id>FeatureTypeInfoImpl-4b5bfca8:1898793f311:-1ae</id>
+  <name>SeamapAus_BOUNDARIES_CAPAD2022</name>
+  <nativeName>SeamapAus_BOUNDARIES_CAPAD2022</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2024</title>
+  <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2022</title>
   <abstract>The Collaborative Australian Protected Areas Database (CAPAD) provides information about government, Indigenous and privately protected areas for Australia, in both the marine and terrestrial environments. Information is supplied by State, Territory and large NGO conservation agencies.&#xd;
 &#xd;
 CAPAD provides a snapshot of protected areas that meet the IUCN definition of a protected area: &quot;A protected area is a clearly defined geographical space, recognised, dedicated and managed, through legal or other effective means, to achieve the long term conservation of nature with associated ecosystem services and cultural values.&quot; (IUCN Definition 2008).&#xd;
 &#xd;
-This layer shows the MARINE component of the Collaborative Australian Protected Areas Database 2024, hosted for the purposes of Seamap Australia. (https://seamapaustralia.org/map).</abstract>
+This layer shows the MARINE component of the Collaborative Australian Protected Areas Database 2022, hosted for the purposes of Seamap Australia. (https://seamapaustralia.org/map).</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_BOUNDARIES_CAPAD2024</string>
+    <string>SeamapAus_BOUNDARIES_CAPAD2022</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -40,21 +40,22 @@ This layer shows the MARINE component of the Collaborative Australian Protected 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-175.977695361332</minx>
-    <maxx>178.95983351484068</maxx>
-    <miny>-61.778653824817255</miny>
-    <maxy>-2.7195235945182588</maxy>
+    <minx>-175.9776951646357</minx>
+    <maxx>178.95983270921658</maxx>
+    <miny>-61.77866542527282</miny>
+    <maxy>-2.719533428001452</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-175.977695361332</minx>
-    <maxx>178.95983351484068</maxx>
-    <miny>-61.778653824817255</miny>
-    <maxy>-2.7195235945182588</maxy>
+    <minx>-175.9776951646357</minx>
+    <maxx>178.95983270921658</maxx>
+    <miny>-61.77866542527282</miny>
+    <maxy>-2.719533428001452</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
