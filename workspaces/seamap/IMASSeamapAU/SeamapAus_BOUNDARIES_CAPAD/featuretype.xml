@@ -6,7 +6,11 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2022</title>
-  <abstract>Collaborative Australian Protected Areas Database (Marine) 2022. Hosted for the purposes of Seamap Australia.</abstract>
+  <abstract>The Collaborative Australian Protected Areas Database (CAPAD) provides information about government, Indigenous and privately protected areas for Australia, in both the marine and terrestrial environments. Information is supplied by State, Territory and large NGO conservation agencies.&#xd;
+&#xd;
+CAPAD provides a snapshot of protected areas that meet the IUCN definition of a protected area: &quot;A protected area is a clearly defined geographical space, recognised, dedicated and managed, through legal or other effective means, to achieve the long term conservation of nature with associated ecosystem services and cultural values.&quot; (IUCN Definition 2008).&#xd;
+&#xd;
+This layer shows the MARINE component of the Collaborative Australian Protected Areas Database 2022, hosted for the purposes of Seamap Australia. (https://seamapaustralia.org/map).</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_CAPAD2022</string>

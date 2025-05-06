@@ -1,16 +1,16 @@
 <featureType>
   <id>FeatureTypeInfoImpl-2922ad46:1806901251a:5c1c</id>
-  <name>SeamapAus_CAPAD_MAP</name>
-  <nativeName>SeamapAus_CAPAD2016_MAP</nativeName>
+  <name>SeamapAus_BOUNDARIES_CAPAD2016</name>
+  <nativeName>SeamapAus_BOUNDARIES_CAPAD2016</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>CAPAD 2016</title>
-  <abstract>DO NOT DELETE&#xd;
+  <title>Collaborative Australian Protected Areas Database (CAPAD) - Marine 2016</title>
+  <abstract>The Collaborative Australian Protected Areas Database (CAPAD) provides information about government, Indigenous and privately protected areas for Australia, in both the marine and terrestrial environments. Information is supplied by State, Territory and large NGO conservation agencies.&#xd;
 &#xd;
-Collaborative Australian Protected Areas Database (Marine) - MODIFIED VIEW FOR MAPPING PURPOSES ONLY.&#xd;
+CAPAD provides a snapshot of protected areas that meet the IUCN definition of a protected area: &quot;A protected area is a clearly defined geographical space, recognised, dedicated and managed, through legal or other effective means, to achieve the long term conservation of nature with associated ecosystem services and cultural values.&quot; (IUCN Definition 2008).&#xd;
 &#xd;
-RETAINED FOR OUTDATED GLOBALARCHIVE REFERENCE</abstract>
+This layer shows the MARINE component of the Collaborative Australian Protected Areas Database 2016, hosted for the purposes of Seamap Australia. (https://seamapaustralia.org/map).</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_CAPAD2016_MAP</string>
