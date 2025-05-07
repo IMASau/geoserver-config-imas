@@ -1,9 +1,9 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--3ffd3204:1965c212891:263d</id>
-  <name>MaC_3_6_Furneaux_seagrass_extent_mask</name>
+  <id>LayerGroupInfoImpl--3ffd3204:1965c212891:263c</id>
+  <name>MaC_3_6_Furneaux_extent_macroalgae_mask</name>
   <mode>SINGLE</mode>
-  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2020-2024: SEAGRASS extent layer (NESP MaC 3.6)</title>
-  <abstractTxt>A layer group showing the thresholded (binary) extent of seagrass, overlain with the mapped area polygon and indicative regions of field-validated vs unvalidated mapping.</abstractTxt>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2020-2024: MACROALGAE extent layer (NESP MaC 3.6)</title>
+  <abstractTxt>A layer group showing the thresholded (binary) extent of macroalgae, overlain with the mapped area polygon and indicative regions of field-validated vs unvalidated mapping.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -11,7 +11,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--3ffd3204:19657ad81da:7384</id>
+      <id>LayerInfoImpl--3ffd3204:19657ad81da:7605</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--3ffd3204:1965c212891:23f7</id>
@@ -19,7 +19,7 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl--3ffd3204:19657ad81da:7381</id>
+      <id>StyleInfoImpl--3ffd3204:19657ad81da:7398</id>
     </style>
     <style>
       <id>StyleInfoImpl--3ffd3204:1965c212891:25cc</id>
@@ -39,6 +39,6 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-04-22 07:43:16.763 UTC</dateCreated>
-  <dateModified>2025-05-07 13:12:54.254 UTC</dateModified>
+  <dateCreated>2025-04-22 07:42:27.460 UTC</dateCreated>
+  <dateModified>2025-05-07 14:35:51.703 UTC</dateModified>
 </layerGroup>

@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl--3ffd3204:1965c212891:263b</id>
+  <id>LayerGroupInfoImpl-3397ac5f:196a9c20c4f:dad</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>NESP:MaC_3_6_Furneaux_extent_sand_mask</name>
+  <name>NESP:MaC_3_6_Furneaux_fractionalcover_RGB</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
