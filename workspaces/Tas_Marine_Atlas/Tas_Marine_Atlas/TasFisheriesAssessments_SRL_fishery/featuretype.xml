@@ -10,6 +10,7 @@
   <keywords>
     <string>features</string>
     <string>TasFisheriesAssessments_SRL</string>
+    <string>wild fisheries</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -45,6 +46,9 @@
     <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <disabledServices>
+    <string>WFS</string>
+  </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
