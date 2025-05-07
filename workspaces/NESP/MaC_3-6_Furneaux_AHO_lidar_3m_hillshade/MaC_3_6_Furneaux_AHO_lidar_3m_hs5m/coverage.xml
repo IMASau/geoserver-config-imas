@@ -1,0 +1,136 @@
+<coverage>
+  <id>CoverageInfoImpl-3397ac5f:196a9c20c4f:7a0</id>
+  <name>MaC_3_6_Furneaux_AHO_lidar_3m_hs5m</name>
+  <nativeName>MaC_3_6_Furneaux_AHO_lidar_3m_hs5m</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania: AHO 3m LiDAR hillshade (NESP MaC 3.6)</title>
+  <description>Generated from GeoTIFF</description>
+  <abstract>Hillshade derived from AHO survey SI1032 with Z-factor = 5</abstract>
+  <keywords>
+    <string>AHO_SI_1032_3m_2022_hs5m</string>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;GDA2020 / Australian Albers&quot;, 
+  GEOGCS[&quot;GDA2020&quot;, 
+    DATUM[&quot;Geocentric_Datum_of_Australia_2020&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;7844&quot;]], 
+  PROJECTION[&quot;Albers_Conic_Equal_Area&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, 132.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
+  <srs>EPSG:9473</srs>
+  <nativeBoundingBox>
+    <minx>1247188.7074171829</minx>
+    <maxx>1560319.7074171829</maxx>
+    <miny>-4618262.2599972375</miny>
+    <maxy>-4342352.2599972375</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>146.28208700080657</minx>
+    <maxx>150.27398607231018</maxx>
+    <miny>-41.58475112011636</miny>
+    <maxy>-38.71625427831193</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">MaC_3-6_Furneaux_AHO_lidar_3m_hillshade_AHO_SI_1032_3m_2022_hs5m</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-3397ac5f:196a9c20c4f:79d</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>104377 91970</high>
+    </range>
+    <transform>
+      <scaleX>3.0</scaleX>
+      <scaleY>-3.0</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>1247190.2074171829</translateX>
+      <translateY>-4342353.7599972375</translateY>
+    </transform>
+    <crs>EPSG:9473</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>0.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:9473</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:9473</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>AHO_SI_1032_3m_2022_hs5m</nativeCoverageName>
+</coverage>

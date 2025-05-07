@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--3ffd3204:1966272ed02:1ebe</id>
   <name>MaC_3_6_Furneaux_habitat_combined_mask</name>
   <mode>SINGLE</mode>
-  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2020-2024: combined SeamapAus-classified ecosystem map</title>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2020-2024: combined SeamapAus-classified ecosystem map (NESP MaC 3.6)</title>
   <abstractTxt>A layer group showing the habitat classes (Seamap Australia-classified) of macroalgae,  seagrass and sand, overlain with the mapped area polygon and indicative regions of field-validated vs unvalidated mapping.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
@@ -16,6 +16,9 @@
     <published type="layer">
       <id>LayerInfoImpl--3ffd3204:1965c212891:23f7</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl-3397ac5f:196a9c20c4f:7a1</id>
+    </published>
   </publishables>
   <styles>
     <style>
@@ -23,6 +26,9 @@
     </style>
     <style>
       <id>StyleInfoImpl--3ffd3204:1965c212891:25cc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3397ac5f:196a9c20c4f:79e</id>
     </style>
   </styles>
   <bounds>
@@ -33,5 +39,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-04-23 21:51:05.44 UTC</dateCreated>
-  <dateModified>2025-04-30 03:31:44.997 UTC</dateModified>
+  <dateModified>2025-05-07 13:13:51.798 UTC</dateModified>
 </layerGroup>

@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--3ffd3204:1965c212891:263b</id>
   <name>MaC_3_6_Furneaux_sand_extent_mask</name>
   <mode>SINGLE</mode>
-  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2020-2024: SAND extent layer</title>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2020-2024: SAND extent layer (NESP MaC 3.6)</title>
   <abstractTxt>A layer group showing the thresholded (binary) extent of sand, overlain with the mapped area polygon and indicative regions of field-validated vs unvalidated mapping.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
@@ -33,5 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-04-22 07:42:11.588 UTC</dateCreated>
-  <dateModified>2025-04-30 03:33:03.942 UTC</dateModified>
+  <dateModified>2025-05-07 13:12:46.507 UTC</dateModified>
 </layerGroup>
