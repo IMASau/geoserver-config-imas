@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--8e09590:1969041b145:3076</id>
-  <name>NESP_MaC_3_6_Furneaux_video_obs_sgspec_pts</name>
-  <nativeName>NESP_MaC_3_6_Furneaux_video_obs_sgspec_pts_PIVOTED</nativeName>
+  <id>FeatureTypeInfoImpl--3ffd3204:19668820c33:-685</id>
+  <name>MaC_3_6_Furneaux_video_obs_pts</name>
+  <nativeName>NESP_MaC_3_6_Furneaux_video_obs_pts</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2024: Dominant seagrass species from BOSS/BRUV video (NESP MaC 3.6)</title>
-  <abstract>This dataset is an extract from Squidle+ (https://squidle.org) of benthic habitat annotations from BOSS and stereo-uBRUV drops in Tayaritja (Furneaux group of islands, Tasmania) conducted in 2024 and 2025. This layer is styled according to dominant seagrass species. These validation points were used as inputs to predicted benthic habitat mapping for this region. This layer has been created for use in a layer package in combination with habitat models. Squidle+ should be used for download access, and to view more data for the region.</abstract>
+  <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania 2024: Benthic annotations of broad habitat classes from BOSS/BRUV video (NESP MaC 3.6)</title>
+  <abstract>This dataset is an extract from Squidle+ (https://squidle.org) of benthic habitat annotations from BOSS and stereo-uBRUV drops in Tayaritja (Furneaux group of islands, Tasmania) conducted in 2024 and 2025. This layer is styled according to 4 broad classes of habitat (macroalgae, sand, seagrass, other). These validation points were used as inputs to predicted benthic habitat mapping for this region. This layer has been created for use in a layer package in combination with habitat models. Squidle+ should be used for download access, and to view more data for the region.</abstract>
   <keywords>
     <string>features</string>
-    <string>seagrass</string>
+    <string>NESP_MaC_3_6_Furneaux_video_obs_pts</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -22,17 +22,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>147.76346404473065</minx>
-    <maxx>148.47389096947774</maxx>
-    <miny>-40.580900811618</miny>
-    <maxy>-39.8406842031863</maxy>
+    <minx>147.75908804481818</minx>
+    <maxx>148.50675397013504</maxx>
+    <miny>-40.58600281172004</miny>
+    <maxy>-39.79059120418815</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.76346404473065</minx>
-    <maxx>148.47389096947774</maxx>
-    <miny>-40.580900811618</miny>
-    <maxy>-39.8406842031863</maxy>
+    <minx>147.75908804481818</minx>
+    <maxx>148.50675397013504</maxx>
+    <miny>-40.58600281172004</miny>
+    <maxy>-39.79059120418815</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
