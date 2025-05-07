@@ -11,33 +11,33 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-3397ac5f:196a9c20c4f:7a1</id>
-    </published>
-    <published type="layer">
       <id>LayerInfoImpl--3ffd3204:1966272ed02:1be8</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--3ffd3204:1965c212891:23f7</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl-3397ac5f:196a9c20c4f:7a1</id>
+    </published>
   </publishables>
   <styles>
-    <style>
-      <id>StyleInfoImpl-3397ac5f:196a9c20c4f:d3a</id>
-    </style>
     <style>
       <id>StyleInfoImpl--3ffd3204:1966272ed02:1ebd</id>
     </style>
     <style>
       <id>StyleInfoImpl--3ffd3204:1965c212891:25cc</id>
     </style>
+    <style>
+      <id>StyleInfoImpl-3397ac5f:196a9c20c4f:79e</id>
+    </style>
   </styles>
   <bounds>
-    <minx>147.50759173426079</minx>
-    <maxx>148.67773722335488</maxx>
-    <miny>-40.67517707576146</miny>
-    <maxy>-39.45634289826808</maxy>
+    <minx>146.28208700080657</minx>
+    <maxx>150.27398607231018</maxx>
+    <miny>-41.58475112011636</miny>
+    <maxy>-38.71625427831193</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-04-23 21:51:05.44 UTC</dateCreated>
-  <dateModified>2025-05-07 13:36:43.735 UTC</dateModified>
+  <dateModified>2025-05-07 14:30:00.638 UTC</dateModified>
 </layerGroup>

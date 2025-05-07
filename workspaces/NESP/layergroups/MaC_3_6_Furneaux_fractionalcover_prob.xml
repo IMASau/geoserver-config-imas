@@ -1,6 +1,6 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-3397ac5f:196a9c20c4f:dad</id>
-  <name>MaC_3_6_Furneaux_fractionalcover_map</name>
+  <id>LayerGroupInfoImpl-3397ac5f:196a9c20c4f:13c8</id>
+  <name>MaC_3_6_Furneaux_fractionalcover_prob</name>
   <mode>SINGLE</mode>
   <title>Mapping of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania: fractional cover predictions (NESP MaC 3.6)</title>
   <workspace>
@@ -18,7 +18,7 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl--3ffd3204:1966272ed02:2bc4</id>
+      <id>StyleInfoImpl--3ffd3204:1966272ed02:5314</id>
     </style>
     <style>
       <id>StyleInfoImpl-3397ac5f:196a9c20c4f:79e</id>
@@ -31,5 +31,5 @@
     <maxy>-38.71625427831193</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2025-05-07 13:47:48.277 UTC</dateCreated>
+  <dateCreated>2025-05-07 14:24:47.401 UTC</dateCreated>
 </layerGroup>

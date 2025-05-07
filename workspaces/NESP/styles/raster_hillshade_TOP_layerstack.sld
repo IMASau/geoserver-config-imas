@@ -10,9 +10,9 @@ http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd" version="1.0.0">
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0" quantity="0"/>
-              <ColorMapEntry color="#000000" opacity="0.5" quantity="1"/>              
-              <ColorMapEntry color="#737373" opacity="0.35" quantity="170"/>              
-              <ColorMapEntry color="#ffffff" opacity="0.25" quantity="250"/>
+              <ColorMapEntry color="#000000" opacity="0.4" quantity="1"/>              
+              <ColorMapEntry color="#737373" opacity="0.3" quantity="170"/>              
+              <ColorMapEntry color="#ffffff" opacity="0.2" quantity="250"/>
               
             </ColorMap>
           </RasterSymbolizer>

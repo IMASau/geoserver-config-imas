@@ -11,13 +11,13 @@
             <ColorMap type="values">
               <ColorMapEntry quantity="255" label="--- Ecosystem class ---" color="#ffffff" opacity="0.0001"/>
               
-              <ColorMapEntry quantity="2" opacity="0.7" label="  Macroalgae" color="#759122"/>
-              <ColorMapEntry quantity="6" opacity="0.7" label="  Macroalgae on sand" color="#a7cf30"/>
-              <ColorMapEntry quantity="1" opacity="0.7" label="  Seagrass" color="#02DC00"/>   
-              <ColorMapEntry quantity="5" opacity="0.7" label="  Seagrass on sand" color="#4fff4d"/>              
-              <ColorMapEntry quantity="3" opacity="0.7" label="  Mixed macroalgae &amp; seagrass" color="#2d8643"/>
-              <ColorMapEntry quantity="7" opacity="0.7" label="  Mixed macroalgae &amp; seagrass on sand" color="#40bf60"/>              
-              <ColorMapEntry quantity="4" opacity="0.7" label="  Bare sand" color="#fffab3"/>
+              <ColorMapEntry quantity="2" opacity="0.75" label="  Macroalgae" color="#759122"/>
+              <ColorMapEntry quantity="6" opacity="0.75" label="  Macroalgae on sand" color="#a7cf30"/>
+              <ColorMapEntry quantity="1" opacity="0.75" label="  Seagrass" color="#02DC00"/>   
+              <ColorMapEntry quantity="5" opacity="0.75" label="  Seagrass on sand" color="#4fff4d"/>              
+              <ColorMapEntry quantity="3" opacity="0.75" label="  Mixed macroalgae &amp; seagrass" color="#2d8643"/>
+              <ColorMapEntry quantity="7" opacity="0.75" label="  Mixed macroalgae &amp; seagrass on sand" color="#40bf60"/>              
+              <ColorMapEntry quantity="4" opacity="0.75" label="  Bare sand" color="#fffab3"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
