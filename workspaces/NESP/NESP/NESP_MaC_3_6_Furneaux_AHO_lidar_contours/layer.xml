@@ -1,0 +1,17 @@
+<layer>
+  <name>NESP_MaC_3_6_Furneaux_AHO_lidar_contours</name>
+  <id>LayerInfoImpl-3397ac5f:196b20ba0bd:7ed7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3397ac5f:196b20ba0bd:7e5a</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3397ac5f:196b20ba0bd:7ed6</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-05-08 23:22:07.660 UTC</dateCreated>
+</layer>
