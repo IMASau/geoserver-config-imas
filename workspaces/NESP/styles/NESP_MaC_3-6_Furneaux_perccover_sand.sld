@@ -23,9 +23,9 @@
               <ColorMapEntry color="#FFFCCC" opacity="1" quantity="0.01"/>
               <ColorMapEntry color="#FFFCCC" opacity="1" quantity="0.2"/>              
               <ColorMapEntry color="#FFF87F" opacity="1" quantity="0.4"/>            
-              <ColorMapEntry color="#FFF533" opacity="1" quantity="0.6"/>
-              <ColorMapEntry color="#F2E719" opacity="1" quantity="0.8"/>
-              <ColorMapEntry color="#E6DA00" opacity="1" quantity="1"/>           
+              <ColorMapEntry color="#fff200" opacity="1" quantity="0.6"/>
+              <ColorMapEntry color="#f0d900" opacity="1" quantity="0.8"/>
+              <ColorMapEntry color="#ccb400" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -41,9 +41,9 @@
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Sand % cover"/>
               <ColorMapEntry color="#FFFCCC" opacity="1" quantity="0.2" label=" 1-20"/>
               <ColorMapEntry color="#FFF87F" opacity="1" quantity="0.4" label=" 21-40"/>            
-              <ColorMapEntry color="#FFF533" opacity="1" quantity="0.6" label=" 41-60"/>
-              <ColorMapEntry color="#F2E719" opacity="1" quantity="0.8" label=" 61-80"/>
-              <ColorMapEntry color="#E6DA00" opacity="1" quantity="1" label=" 81-100"/>  
+              <ColorMapEntry color="#fff200" opacity="1" quantity="0.6" label=" 41-60"/>
+              <ColorMapEntry color="#f0d900" opacity="1" quantity="0.8" label=" 61-80"/>
+              <ColorMapEntry color="#ccb400" opacity="1" quantity="1" label=" 81-100"/>  
 
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
