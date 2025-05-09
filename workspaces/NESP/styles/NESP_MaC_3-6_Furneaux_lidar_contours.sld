@@ -115,7 +115,7 @@
  
         <!-- Rule for text labeling and drawing select contours 1:400,000 to 1:50,000 -->
         <Rule>
-          <Title>Depth contours</Title>	
+          <Title>Depth contours (zoom for more detail)</Title>	
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -181,14 +181,6 @@
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Contour</ogc:PropertyName>
                 <ogc:Literal>-30</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-32</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Contour</ogc:PropertyName>
-                <ogc:Literal>-34</ogc:Literal>
               </ogc:PropertyIsEqualTo>			  
             </ogc:Or>
           </ogc:Filter>		  
