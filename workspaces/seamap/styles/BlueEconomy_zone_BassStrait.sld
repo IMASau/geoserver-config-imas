@@ -61,7 +61,39 @@
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>         
+        </Rule>
+        <Rule>		
+          <Title>Final Trial Site</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>ZoneType</ogc:PropertyName>		
+              <ogc:Literal>Final Trial Site</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>			
+            <Stroke>
+              <CssParameter name="stroke">#ff8c1a</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke-opacity">0.9</CssParameter>              
+            </Stroke>            
+          </PolygonSymbolizer>	
+          <PolygonSymbolizer>
+		  <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://backslash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ff8c1a</CssParameter>
+                      <CssParameter name="stroke-width">1</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>7</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>          
         </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
