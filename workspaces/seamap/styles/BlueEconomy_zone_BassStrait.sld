@@ -31,11 +31,11 @@
           </PolygonSymbolizer>	
         </Rule> 
         <Rule>		
-          <Title>Research Trial Area</Title>		
+          <Title>Initial Trial Site</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
               <ogc:PropertyName>ZoneType</ogc:PropertyName>		
-              <ogc:Literal>Research Trial Area</ogc:Literal>		
+              <ogc:Literal>Initial Trial Site</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
           <PolygonSymbolizer>			
