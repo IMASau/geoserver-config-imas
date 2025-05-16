@@ -17,6 +17,8 @@
 
     <#assign total = feature.L1_TOT.rawValue?number!0>
 
+    <#assign depth_numeric=feature.depth.value?number>
+
     <#assign habitats = [
       {"name": "Biogenic", "value": biogenic, "color": "#6cc6b7"},
       {"name": "Cobbles", "value": cobble, "color": "#ad8a1f"},
@@ -45,5 +47,12 @@
         </#if>
       </#list>
     </div>
+
+    <div class="feature" style="padding-top:8px; padding-bottom:1px">
+	<span style="display: inline-block; margin-bottom:5px; font-size:95%">
+	<i><b>Depth:</b> ${-depth_numeric} m</i>
+	</span>
+    </div>
+
   </#if>
 </#list>
