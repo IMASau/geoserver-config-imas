@@ -33,22 +33,22 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-2079693.2026000023</minx>
-    <maxx>2186772.2694997787</maxx>
-    <miny>-4961545.257400036</miny>
-    <maxy>-1100731.935199976</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>96.8</minx>
+    <maxx>162.08316642900803</maxx>
+    <miny>-44.18824909077289</miny>
+    <maxy>-8.92</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>109.24269472278225</minx>
-    <maxx>159.99679706874474</maxx>
-    <miny>-44.079546064328945</miny>
-    <maxy>-7.9025539153829385</maxy>
+    <minx>96.8</minx>
+    <maxx>162.08316642900803</maxx>
+    <miny>-44.18824909077289</miny>
+    <maxy>-8.92</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>

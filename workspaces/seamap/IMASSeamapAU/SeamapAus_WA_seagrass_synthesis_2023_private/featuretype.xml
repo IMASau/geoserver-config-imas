@@ -42,13 +42,13 @@ Subsequent data is available for several locations around southern WA, in additi
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-1722071.21875</minx>
-    <maxx>-1177241.0280358444</maxx>
-    <miny>-4050948.7350049075</miny>
-    <maxy>-3726866.513785675</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>115.04480162610135</minx>
+    <maxx>121.34869355365059</maxx>
+    <miny>-35.45454870816156</miny>
+    <maxy>-31.922462064785496</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>115.04480162610135</minx>
@@ -57,7 +57,7 @@ Subsequent data is available for several locations around southern WA, in additi
     <maxy>-31.922462064785496</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
