@@ -144,11 +144,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>12000</ogc:Literal>
+                <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort</ogc:PropertyName>
-                <ogc:Literal>30000</ogc:Literal>
+                <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
