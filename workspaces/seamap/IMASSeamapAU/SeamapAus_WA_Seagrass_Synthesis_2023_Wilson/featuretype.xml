@@ -38,13 +38,13 @@ Subsequent data is also available for several sites, and for additional sites, p
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-1513377.6517856678</minx>
-    <maxx>-1499754.3841634642</maxx>
-    <miny>-4043022.3337104023</miny>
-    <maxy>-4035012.103382417</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>117.32474339457355</minx>
+    <maxx>117.48465346882777</maxx>
+    <miny>-35.04188206202063</miny>
+    <maxy>-34.95390455140202</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>117.32474339457355</minx>
@@ -53,7 +53,7 @@ Subsequent data is also available for several sites, and for additional sites, p
     <maxy>-34.95390455140202</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>

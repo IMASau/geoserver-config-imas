@@ -38,13 +38,13 @@ Subsequent data is also available for several sites, and for additional sites, p
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
-  <srs>EPSG:3112</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-1382876.247711246</minx>
-    <maxx>-1378116.7229023455</maxx>
-    <miny>-3964024.6813712884</miny>
-    <maxy>-3961783.86601568</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>118.85245810066276</minx>
+    <maxx>118.90702514325746</maxx>
+    <miny>-34.47113421649346</miny>
+    <maxy>-34.445830193607925</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>118.85245810066276</minx>
