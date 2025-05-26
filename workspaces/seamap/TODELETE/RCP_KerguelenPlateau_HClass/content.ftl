@@ -17,20 +17,29 @@
 
     <#assign rcpColor = rcpColors[hclass]! "#000000">
 
-    <div class="feature" style="padding-top:5px; padding-bottom:3px">
-      <span style="
-	letter-spacing:2.5px;
-  	font-size: 140%;
-  	font-weight: 800;
-  	color: ${rcpColor};
-  	text-shadow:
-    	0 0 1px #000000,
-    	0 0 2px #000000
-      ">
-        RCP ${hclass}
-      </span>
-      <i>(probability: <b>${feature.HClass_prob.value?number}</b>)</i><br>
-    </div>
+<div class="feature" style="padding-top:5px; padding-bottom:3px; display: flex; align-items: center;">
+  <span style="
+    width: 14px;
+    height: 14px;
+    background-color: ${rcpColor};
+    display: inline-block;
+    margin-right: 8px;
+    border: 1px solid #000;
+  "></span>
+  <div style="display: inline-block;">
+    <span style="
+      letter-spacing:2px;
+      font-size: 140%;
+      font-weight: 800;
+      color: black;
+    ">
+      RCP ${hclass}
+    </span>
+    <span>
+      <i>(probability: <b>${feature.HClass_prob.value?number}</b>)</i>
+    </span>
+  </div>
+</div>
 
     <#break>
   </#if>
