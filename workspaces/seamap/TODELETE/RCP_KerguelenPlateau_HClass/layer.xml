@@ -12,6 +12,7 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2025-05-26 14:23:35.746 UTC</dateCreated>
-  <dateModified>2025-05-26 14:25:04.467 UTC</dateModified>
+  <dateModified>2025-05-26 14:33:36.369 UTC</dateModified>
 </layer>

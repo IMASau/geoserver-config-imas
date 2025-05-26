@@ -17,8 +17,6 @@
 
     <#assign rcpColor = rcpColors[hclass]! "#000000">
 
-    <h5 style="padding-top:10px; padding-bottom:8px;">Regions of Common Profile</h5>
-
     <div class="feature" style="padding-top:5px; padding-bottom:3px">
       <span style="
 	letter-spacing:2.5px;

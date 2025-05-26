@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--6e4e475:1970c45819f:c7a</id>
+  <name>TODELETE</name>
+  <mode>SINGLE</mode>
+  <title>TODELETE RCP</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--6e4e475:1970c45819f:a52</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--6e4e475:1970c45819f:bfb</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--6e4e475:1970c45819f:a50</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6e4e475:1970c45819f:bf8</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>62.25</minx>
+    <maxx>81.15</maxx>
+    <miny>-54.45</miny>
+    <maxy>-45.95</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-05-26 14:32:36.135 UTC</dateCreated>
+  <dateModified>2025-05-26 14:32:59.287 UTC</dateModified>
+</layerGroup>
