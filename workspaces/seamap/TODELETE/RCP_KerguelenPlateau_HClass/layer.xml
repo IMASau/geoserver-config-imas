@@ -1,0 +1,17 @@
+<layer>
+  <name>RCP_KerguelenPlateau_HClass</name>
+  <id>LayerInfoImpl--6e4e475:1970c45819f:a52</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6e4e475:1970c45819f:a50</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--6e4e475:1970c45819f:a51</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-05-26 14:23:35.746 UTC</dateCreated>
+  <dateModified>2025-05-26 14:25:04.467 UTC</dateModified>
+</layer>
