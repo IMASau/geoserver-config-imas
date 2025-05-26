@@ -2,12 +2,12 @@
 
 <style>
 
-.summary {
+.collapsedsummary {
      cursor:pointer;
-     color:Darkblue;
+     color:cornflowerblue;
      text-decoration:underline;
-    padding-top: 15px; /* Controls spacing above the "More info" */
-    margin-top: 15px;  /* Adds vertical spacing from any preceding content */
+     display: inline-block;
+     margin-top: 10px;  /* Adds vertical spacing from any preceding content */
 }
 
 
@@ -26,7 +26,7 @@
 
 
   <summary>
-    <span class="summary">More info</span>
+    <span class="collapsedsummary">More info</span>
   </summary>
 
 
