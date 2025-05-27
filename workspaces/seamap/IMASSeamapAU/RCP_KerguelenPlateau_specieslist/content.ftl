@@ -40,13 +40,13 @@
     </p>
 
     <table class="featureInfo" style="border: 1.5pt solid black; border-collapse: collapse; white-space: nowrap;">
-      <thead style="background-color: #d9d9d9; font-size: 92%;">
+      <thead style="background-color: #d9d9d9;">
         <tr>
-          <th style="border: 1.5pt solid black; border-right: none;">
+          <th style="border: 1.5pt solid black; border-right: none; font-size: 90%;">
             Species
           </th>
-          <th style="border: 1.5pt solid black; border-left: none;">
-            Probability</span>
+          <th style="border: 1.5pt solid black; border-left: none; font-size: 90%;">
+            Probability
           </th>
         </tr>
       </thead>
