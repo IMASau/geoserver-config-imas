@@ -29,17 +29,18 @@
   <div style="display: inline-block;">
     <span style="
       letter-spacing:2px;
-      font-size: 140%;
+      font-size: 150%;
       font-weight: 800;
       color: black;
     ">
       RCP ${hclass}
     </span>
-    <span>
+    <span style="font-size: 110%;">
       <i>(probability: <b>${feature.HClass_prob.value?number}</b>)</i>
     </span>
   </div>
 </div>
+
 
     <#break>
   </#if>
