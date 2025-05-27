@@ -1,8 +1,9 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--6e4e475:1970c45819f:c7a</id>
-  <name>TODELETE</name>
+  <name>RCP_KerguelenPlateau_HClass_combo</name>
   <mode>SINGLE</mode>
-  <title>TODELETE RCP</title>
+  <title>Regions of Common Profile (RCP) - Kerguelen Plateau: Hard classification</title>
+  <abstractTxt>A layer group combining the &quot;hard classification&quot; of Regions of Common Profile (RCP) for the Kerguelen Plateau, together with ancillary information available in map popups: for each classified RCP, (1) biological and environmental characteristics; and (2) a full species list (and probability of occurrence).</abstractTxt>
   <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
@@ -39,5 +40,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-05-26 14:32:36.135 UTC</dateCreated>
-  <dateModified>2025-05-27 05:06:21.171 UTC</dateModified>
+  <dateModified>2025-05-27 22:17:54.535 UTC</dateModified>
 </layerGroup>
