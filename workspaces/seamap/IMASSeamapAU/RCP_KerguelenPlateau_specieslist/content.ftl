@@ -10,6 +10,8 @@
   }
 </style>
 
+<div style="max-width: 410px;">
+
 <details>
 
   <#-- Select the RCP value from the first feature -->
@@ -38,13 +40,13 @@
 
   <#-- Only render the table if a valid RCP value exists -->
   <#if selectedRCP != "">
-    <div style="max-width: 310px; margin: 0 auto; overflow-x: auto; padding: 5px 0 5px 0;">
+    <div style="max-width: 340px; margin: 0 auto; overflow-x: auto; padding: 5px 0 5px 0;">
 
       <table class="featureInfo" style="border: 1.5pt solid black; margin: 0 auto; max-width: 100%; border-collapse: collapse; white-space: nowrap;">
         <thead style="background-color: #d9d9d9;">
           <tr>
-            <th style="border: 1.5pt solid black; border-right: none; font-size: 88%;">Species</th>
-            <th style="border: 1.5pt solid black; border-left: none; text-align: center; font-size: 88%;">Probability</th>
+            <th style="padding: 4px 4px; border: 1.5pt solid black; border-right: none; font-size: 88%;">Species</th>
+            <th style="padding: 4px 4px; border: 1.5pt solid black; border-left: none; text-align: center; font-size: 88%;">Probability</th>
           </tr>
         </thead>
 
@@ -65,11 +67,11 @@
                 </#if>;
               ">
                 <td style="
-			   font-size: 90%;
+			   font-size: 88%;
 			   padding: 3px 3px;
 			   border-bottom: <#if isLast>1.2pt solid black<#else>1px solid #262626</#if>
 			   ;">
-                  <i style="color: #262626">${feature.species.value}</i>
+                  <i style="color: #262626">${feature.species.value}</i>&nbsp;&nbsp;<span style="font-size: 96%; color: #666666;">(${feature.commname.value})</span>
                 </td>
                 <td style="
 			   font-size: 90%;
@@ -89,3 +91,5 @@
   </#if>
 
 </details>
+
+</div>
