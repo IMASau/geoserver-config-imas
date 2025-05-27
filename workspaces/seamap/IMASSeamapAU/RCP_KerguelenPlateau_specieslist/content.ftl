@@ -64,10 +64,19 @@
                 <#else> #EE9393
                 </#if>;
               ">
-                <td style="font-size: 88%; border-bottom: <#if isLast>1.2pt solid black<#else>1px solid #262626</#if>;">
+                <td style="
+			   font-size: 90%;
+			   padding: 3px 3px;
+			   border-bottom: <#if isLast>1.2pt solid black<#else>1px solid #262626</#if>
+			   ;">
                   <i style="color: #262626">${feature.species.value}</i>
                 </td>
-                <td style="font-size: 90%; text-align: center; border-bottom: <#if isLast>1.2pt solid black<#else>1px solid #262626</#if>;">
+                <td style="
+			   font-size: 90%;
+			   padding: 3px 3px;
+			   text-align: center;
+			   border-bottom: <#if isLast>1.2pt solid black<#else>1px solid #262626</#if>
+			   ;">
                   ${feature.mean.value?number} <i style="color: #666666;">&#177; ${feature.sd.value?number}</i>
                 </td>
               </tr>
