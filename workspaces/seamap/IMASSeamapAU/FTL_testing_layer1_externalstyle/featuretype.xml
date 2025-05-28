@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-287aaefb:19715286ff7:2c33</id>
-  <name>FTL_testing_layer2</name>
-  <nativeName>BIOLOGY_bioregionalisations_RCP_Kerguelen_species</nativeName>
+  <id>FeatureTypeInfoImpl-287aaefb:19715286ff7:2c31</id>
+  <name>FTL_testing_layer1_externalstyle</name>
+  <nativeName>BIOLOGY_bioregionalisations_RCP_Kerguelen_media</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>FTL_testing_layer2</title>
+  <title>FTL_testing_layer1_externalstyle</title>
   <keywords>
+    <string>BIOLOGY_bioregionalisations_RCP_Kerguelen_media</string>
     <string>features</string>
-    <string>BIOLOGY_bioregionalisations_RCP_Kerguelen_species</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 

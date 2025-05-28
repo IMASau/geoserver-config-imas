@@ -1,16 +1,16 @@
 <layer>
-  <name>FTL_testing_layer2</name>
-  <id>LayerInfoImpl-287aaefb:19715286ff7:2c34</id>
+  <name>FTL_testing_layer2_internalstyle</name>
+  <id>LayerInfoImpl-287aaefb:197154da266:-1007</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-287aaefb:19715286ff7:2c33</id>
+    <id>FeatureTypeInfoImpl-287aaefb:197154da266:-1008</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-05-28 04:34:50.421 UTC</dateCreated>
+  <dateCreated>2025-05-28 05:25:46.214 UTC</dateCreated>
 </layer>

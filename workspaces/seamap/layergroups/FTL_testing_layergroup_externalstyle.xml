@@ -1,8 +1,8 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-287aaefb:19715286ff7:2c4e</id>
-  <name>FTL_testing_layergroup</name>
+  <name>FTL_testing_layergroup_externalstyle</name>
   <mode>SINGLE</mode>
-  <title>FTL_testing_layergroup</title>
+  <title>FTL_testing_layergroup_externalstyle</title>
   <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
@@ -33,4 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-05-28 04:36:31.326 UTC</dateCreated>
+  <dateModified>2025-05-28 05:23:44.41 UTC</dateModified>
 </layerGroup>
