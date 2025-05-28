@@ -1,7 +1,7 @@
 ----------------------------------------------
-<br><br>
-Scenario: style info in header.ftl / footer.ftl
-<br><br>
-<h5>Some text, using h5 style element (should be caps, medium sized font, letters spaced, blue)</h5>
 <br>
-<i>Layer #1</i> in Layer Group <h6>(this should be RED)</h6>
+<b>Scenario:</b> style info embedded in content.ftl
+<br>
+<i>Layer #1</i> in Layer Group <span class="smallred">(this should be small & RED)</span>
+<br>
+<h5>Some text, using h5 style element (should be caps, medium sized font, letters spaced, blue)</h5>
