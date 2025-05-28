@@ -4,5 +4,10 @@
   <sldVersion>
     <version>1.0.0</version>
   </sldVersion>
+  <format>sld</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
   <filename>default_line.sld</filename>
+  <dateModified>2025-05-28 04:33:04.61 UTC</dateModified>
 </style>

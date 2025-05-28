@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-287aaefb:19715286ff7:2c4e</id>
+  <name>FTL_testing_layergroup</name>
+  <mode>SINGLE</mode>
+  <title>FTL_testing_layergroup</title>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-287aaefb:19715286ff7:2c32</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-287aaefb:19715286ff7:2c34</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>62.25</minx>
+    <maxx>81.15</maxx>
+    <miny>-54.45</miny>
+    <maxy>-45.95</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-05-28 04:36:31.326 UTC</dateCreated>
+</layerGroup>
