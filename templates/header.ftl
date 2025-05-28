@@ -7,6 +7,14 @@
 
 <style type="text/css">
 
+.collapsedsummary {
+    cursor: pointer;
+    color: cornflowerblue;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 10px;  /* Adds vertical spacing from any preceding content */
+}
+
 .fixed-width-ellipsis {
     max-width: 150px; /* ensures that the width doesn't exceed the set limit */
     width: auto; /* allows the width to be flexible */
@@ -50,22 +58,23 @@ table {
 }
 
 th {
-	font-weight: bold;
-	text-transform: uppercase;
-	padding:6px;
-	border-right: 1px solid black;
-	text-align: left;
-   	font-size: 11px;
-
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px;
+  border-right: 1px solid black;
+  text-align: left;
+  font-size: 11px;
+  background-color: #b3d9ff;
 }
 
 td {
-	padding:6px;
-	border-right: 1px solid black; /* Add a right border to table data */
-	text-align: left;
-   	font-size: 11px;
+  padding: 6px;
+  border-right: 1px solid black;
+  text-align: left;
+  font-size: 11px;
 }
-
+tr:nth-child(even) { background-color: #e8e9ed; }
+tr:nth-child(odd)  { background-color: #ffffff; }
 
 dl {
 	margin: 0 20px;
@@ -124,17 +133,11 @@ h6 {
 	line-height: 20px;
 }
 
-i {
-	color: #9a9a9a;
-}
+i { color: #9a9a9a; }
 
-a {
-	color: CornflowerBlue;
-}
+a { color: CornflowerBlue; }
 
-a:hover {
-	color: #575757;
-}
+a:hover { color: #575757; }
 
 </style>
 

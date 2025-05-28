@@ -8,12 +8,7 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <internationalTitle/>
-  <internationalAbstract/>
   <publishables>
-    <published type="layer">
-      <id>LayerInfoImpl--6e4e475:1970c45819f:a52</id>
-    </published>
     <published type="layer">
       <id>LayerInfoImpl--6e4e475:1970faa8b8d:3565</id>
     </published>
@@ -22,9 +17,6 @@
     </published>
   </publishables>
   <styles>
-    <style>
-      <id>StyleInfoImpl--6e4e475:1970c45819f:a50</id>
-    </style>
     <style>
       <id>StyleInfoImpl--6e4e475:1970c45819f:bf8</id>
     </style>
@@ -40,5 +32,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-05-26 14:32:36.135 UTC</dateCreated>
-  <dateModified>2025-05-27 22:17:54.535 UTC</dateModified>
+  <dateModified>2025-05-28 07:22:00.324 UTC</dateModified>
 </layerGroup>
