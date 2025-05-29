@@ -27,4 +27,6 @@
     <entry key="WFSDataStoreFactory:ENCODING">UTF-8</entry>
   </connectionParameters>
   <__default>false</__default>
+  <dateModified>2025-05-29 00:33:34.534 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>
