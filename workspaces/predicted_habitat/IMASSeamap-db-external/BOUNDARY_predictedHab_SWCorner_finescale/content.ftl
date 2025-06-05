@@ -1,4 +1,2 @@
-        <div style="padding-top: 8px; padding-bottom:10px;">
-            <h5>Modelled mean probability of habitat occurrence [SWC finescale]</h5>
-        </div>
-	<div style = "padding-bottom:10px"><i>Values represent the mean probability (0-1) that a particular class of habitat will occur.</i></div>
+        <h5 style="padding-top:20px; padding-bottom:10px;">Modelled probability of benthic habitats [SWC finescale]</h5>
+	<div style = "padding-bottom:10px; font-size:95%"><i>Values represent the mean probability (0-1) that a particular class of habitat will occur.</i></div>

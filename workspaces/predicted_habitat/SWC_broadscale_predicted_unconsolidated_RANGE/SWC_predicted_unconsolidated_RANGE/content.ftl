@@ -8,6 +8,7 @@
 
     <#if meanValue?is_number>
 
+
             <div style="display: flex; align-items: center;"> 
                 <!-- Check if meanValue is 0 -->
                 <#if meanValue < 0.001>
