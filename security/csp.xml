@@ -1,14 +1,12 @@
 <config>
-  <enabled>true</enabled>
+  <enabled>false</enabled>
   <reportOnly>false</reportOnly>
   <allowOverride>false</allowOverride>
   <injectProxyBase>false</injectProxyBase>
-  <remoteResources></remoteResources>
-  <frameAncestors></frameAncestors>
   <policy>
     <name>other-directives</name>
     <description>Rules to set the base-uri, form-action and fetch directives</description>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
     <rule>
       <name>static-html-files</name>
       <description>Allow unsafe scripts and remote resources on static HTML pages unless disabled by a property.</description>
@@ -62,7 +60,7 @@
   <policy>
     <name>frame-ancestors</name>
     <description>Rules to set the frame-ancestors directive</description>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
     <rule>
       <name>frame-ancestors-property</name>
       <description>Set frame-ancestors based on the CSP frame ancestors property or setting when it is configured.</description>
