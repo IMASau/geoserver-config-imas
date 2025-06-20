@@ -11,7 +11,6 @@
 		
         <!-- Zoom levels <50,000 -->
         <Rule>
-          <Title> 1 - 2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
@@ -40,7 +39,6 @@
         </Rule>
 
         <Rule>
-          <Title> 3 - 5</Title>
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -68,14 +66,13 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>15</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
         </Rule>
 
         <Rule>
-          <Title> 6 - 10</Title>
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -103,14 +100,13 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>18</Size>
+              <Size>20</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 		  
         <Rule>
-          <Title> &gt; 10</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
@@ -132,7 +128,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>21</Size>
+              <Size>24</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -140,7 +136,6 @@
 
         <!-- Zoom levels 50,000 to 600,000-->
         <Rule>
-          <Title> 1 - 2</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
@@ -170,7 +165,6 @@
         </Rule>
 
         <Rule>
-          <Title> 3 - 5</Title>
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -199,14 +193,13 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>13</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 
         <Rule>
-          <Title> 6 - 10</Title>
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -235,14 +228,13 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>16</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 		  
         <Rule>
-          <Title> &gt; 10</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
@@ -265,7 +257,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>19</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -274,6 +266,7 @@
    
         <!-- Zoom levels >600,000 --> 
         <Rule>
+          <Title> 1 - 2</Title>				
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
@@ -301,6 +294,7 @@
         </Rule>
 
         <Rule>
+          <Title> 3 - 5</Title>				
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -334,6 +328,7 @@
         </Rule>
 
         <Rule>
+          <Title> 6 - 10</Title>		
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -367,6 +362,7 @@
         </Rule>
 		  
         <Rule>
+          <Title> &gt; 10</Title>		
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
