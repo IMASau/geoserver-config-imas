@@ -2,8 +2,8 @@
 
 	<THEAD>
 		<TR>
-			<th>Region</th>
 			<th>Site</th>
+			<th style="text-align:center;">Fished status</th>
 			<th style="text-align:center;">Survey year</th>
 			<th style="text-align:center;">Fish count</th>
 			<th style="text-align:center;">Average length (cm)</th>
@@ -16,11 +16,17 @@
 	<TBODY>
 		<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 			<TD>
-				${feature.Location.value}
+				${feature.Site.value} <i>(${feature.Location.value})</i>
 			</TD>
-			<TD>
-				${feature.Site.value}
+			<TD style="text-align:center;">
+				<i><#if feature.No_take.value == 'n'>
+				Fished
+				<#else>
+				Not fished
+				</#if></i>
+
 			</TD>
+
 			<TD style="text-align:center;">
 				${feature.Year.value}
 			</TD>
