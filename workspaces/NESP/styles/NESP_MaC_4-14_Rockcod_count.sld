@@ -6,10 +6,10 @@
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>No. fish sighted</Title>
+          <Title>Number of fish sighted</Title>
         </Rule>
-
-        <!-- Zoom levels <500,000 -->
+		
+        <!-- Zoom levels <50,000 -->
         <Rule>
           <Title> 1 - 2</Title>
           <ogc:Filter>
@@ -18,7 +18,7 @@
               <ogc:Literal>3</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>	
-          <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -29,32 +29,31 @@
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#1919A4</CssParameter>
-                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke-width">1.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>8</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 
         <Rule>
           <Title> 3 - 5</Title>
-		  <And>
           <ogc:Filter>
+		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>		  
-          <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>6</ogc:Literal>
             </ogc:PropertyIsLessThan>
+		  </ogc:And>				
           </ogc:Filter>	
-		  </And>	
-          <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -65,32 +64,31 @@
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#651672</CssParameter>
-                  <CssParameter name="stroke-width">0.8</CssParameter>
+                  <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>11</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>
+	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
         </Rule>
 
         <Rule>
           <Title> 6 - 10</Title>
-		  <And>
           <ogc:Filter>
+		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>		  
-          <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>11</ogc:Literal>
             </ogc:PropertyIsLessThan>
+		  </ogc:And>			
           </ogc:Filter>	
-		  </And>
-          <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -101,13 +99,14 @@
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#B21341</CssParameter>
-                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>14</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 		  
         <Rule>
@@ -118,7 +117,7 @@
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
-          <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  
+          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -129,17 +128,151 @@
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#FF1010</CssParameter>
-                  <CssParameter name="stroke-width">1.2</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>17</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
+        </Rule>			
+
+        <!-- Zoom levels 50,000 to 600,000-->
+        <Rule>
+          <Title> 1 - 2</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
+              <ogc:Literal>3</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+          </ogc:Filter>	
+          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MaxScaleDenominator>600000</MaxScaleDenominator>          		  		  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#1919A4</CssParameter>
+                  <CssParameter name="fill-opacity">0.6</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#1919A4</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
+        </Rule>
+
+        <Rule>
+          <Title> 3 - 5</Title>
+          <ogc:Filter>
+		  <ogc:And>		  
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
+              <ogc:Literal>2</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+            <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
+              <ogc:Literal>6</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+		  </ogc:And>				
+          </ogc:Filter>	
+          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MaxScaleDenominator>600000</MaxScaleDenominator>
+		  <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#651672</CssParameter>
+                  <CssParameter name="fill-opacity">0.6</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#651672</CssParameter>
+                  <CssParameter name="stroke-width">1.2</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>				  
+                </Stroke>
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
+        </Rule>
+
+        <Rule>
+          <Title> 6 - 10</Title>
+          <ogc:Filter>
+		  <ogc:And>		  
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
+              <ogc:Literal>5</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+            <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
+              <ogc:Literal>11</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+		  </ogc:And>			
+          </ogc:Filter>	
+          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MaxScaleDenominator>600000</MaxScaleDenominator> 
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#B21341</CssParameter>
+                  <CssParameter name="fill-opacity">0.6</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#B21341</CssParameter>
+                  <CssParameter name="stroke-width">1.4</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
+        </Rule>
+		  
+        <Rule>
+          <Title> &gt; 10</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
+              <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+          </ogc:Filter>	
+          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MaxScaleDenominator>600000</MaxScaleDenominator> 
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FF1010</CssParameter>
+                  <CssParameter name="fill-opacity">0.6</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#FF1010</CssParameter>
+                  <CssParameter name="stroke-width">1.6</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>			
 
    
-        <!-- Zoom levels >500,000 --> 
+        <!-- Zoom levels >600,000 --> 
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
@@ -147,7 +280,7 @@
               <ogc:Literal>3</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>	
-          <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		  
+          <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -162,27 +295,24 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>10</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  
         </Rule>
 
         <Rule>
-		  <And>
           <ogc:Filter>
+		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>		  
-          <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>6</ogc:Literal>
             </ogc:PropertyIsLessThan>
+		  </ogc:And>				
           </ogc:Filter>	
-		  </And>	
           <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
@@ -198,28 +328,25 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>13</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>					  
         </Rule>
 
         <Rule>
-		  <And>
           <ogc:Filter>
+		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>		  
-          <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count_rockcod</ogc:PropertyName>
               <ogc:Literal>15</ogc:Literal>
             </ogc:PropertyIsLessThan>
+		  </ogc:And>			
           </ogc:Filter>	
-		  </And>
-          <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		  
+          <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -234,10 +361,9 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>16</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>					  
         </Rule>
 		  
         <Rule>
@@ -247,7 +373,7 @@
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
-          <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		  
+          <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -262,12 +388,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>19</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>					  
         </Rule>	
-
+      <VendorOption name="sortBy">Year A</VendorOption>		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
