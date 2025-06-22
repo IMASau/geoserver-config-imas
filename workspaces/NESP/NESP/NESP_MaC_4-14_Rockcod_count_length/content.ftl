@@ -19,7 +19,7 @@
 				${feature.Site.value} <i>(${feature.Location.value})</i>
 			</TD>
 			<TD style="text-align:center;">
-				<i><#if feature.No_take.value == 'n'>
+				<i><#if feature.No_take.value == 'no'>
 				Fished
 				<#else>
 				Not fished
