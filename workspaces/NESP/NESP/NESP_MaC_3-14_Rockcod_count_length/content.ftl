@@ -11,22 +11,22 @@
 	</THEAD>
 
 	<#list features?sort_by(["Year", "rawValue"]) as feature>
-	<#if (feature_index < 2)> 
+	<#if (feature_index < 2)>
 
 	<TBODY>
 		<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 			<TD>
 				${feature.Site.value} <i>(${feature.Location.value})</i>
 			</TD>
-			<TD style="text-align:center;">
-				<i><#if feature.No_take.value == 'no'>
-				Fished
-				<#else>
-				Not fished
-				</#if></i>
-
+			<TD style="text-align:center; background-color: <#if feature.No_take.value == 'no'>#f8d4d4<#else>#d4f8d4</#if>;">
+				<i>
+					<#if feature.No_take.value == 'no'>
+						Fished
+					<#else>
+						Not fished
+					</#if>
+				</i>
 			</TD>
-
 			<TD style="text-align:center;">
 				${feature.Year.value}
 			</TD>
@@ -45,8 +45,10 @@
 </table>
 
 <#list features as feature_counter>
-	<#if (feature_counter_index >2)>
-		<p style="padding-bottom:5px; font-size:80%"><i>Multiple sites exist at this location. Zoom in for view data for more sites.</i></p>
+	<#if (feature_counter_index > 2)>
+		<p style="padding-bottom:5px; font-size:80%">
+			<i>Multiple sites exist at this location. Zoom in for view data for more sites.</i>
+		</p>
 	<#break>
 	</#if>
 </#list>

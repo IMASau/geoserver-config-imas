@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanorEqualTo>
               <ogc:PropertyName>Mean_length</ogc:PropertyName>
-              <ogc:Literal>50</ogc:Literal>
+              <ogc:Literal>50.0</ogc:Literal>
             </ogc:PropertyIsLessThanorEqualTo>
           </ogc:Filter>	
           <MaxScaleDenominator>60000</MaxScaleDenominator>          		  		  		  
