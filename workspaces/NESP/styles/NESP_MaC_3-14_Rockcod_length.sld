@@ -12,10 +12,10 @@
         <!-- Zoom levels <60,000 -->
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsLessThanorEqualTo>
+            <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Mean_length</ogc:PropertyName>
-              <ogc:Literal>50.0</ogc:Literal>
-            </ogc:PropertyIsLessThanorEqualTo>
+              <ogc:Literal>50</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
           <MaxScaleDenominator>60000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
@@ -137,10 +137,10 @@
         <!-- Zoom levels 60,000 to 600,000-->
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsLessThanorEqualTo>
+            <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Mean_length</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsLessThanorEqualTo>
+            </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
           <MinScaleDenominator>60000</MinScaleDenominator>          		  		  		  		  
           <MaxScaleDenominator>600000</MaxScaleDenominator>          		  		  		  
@@ -268,10 +268,10 @@
         <Rule>
           <Title> &#8804; 50</Title>				
           <ogc:Filter>
-            <ogc:PropertyIsLessThanorEqualTo>
+            <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Mean_length</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsLessThanorEqualTo>
+            </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
           <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
