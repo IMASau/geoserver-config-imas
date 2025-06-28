@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_Ext_EOMAP_NorfolkIslandMP_2022</name>
+  <id>LayerInfoImpl-77e7fa25:197b57d1b4c:477c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-77e7fa25:197b57d1b4c:4778</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-77e7fa25:197b57d1b4c:477b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-28 16:39:17.895 UTC</dateCreated>
+</layer>
