@@ -1,0 +1,17 @@
+<layer>
+  <name>Norfolk_AHO_lidar_2m_hs1m</name>
+  <id>LayerInfoImpl-77e7fa25:197bdf0e01b:1a8d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-77e7fa25:197bdf0e01b:1a8c</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-06-29 23:25:17.8 UTC</dateCreated>
+</layer>
