@@ -1,12 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl--a145589:18952165369:33bf</id>
   <name>SeamapAus_BOUNDARIES_AMP_ZONE</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2023_ZONE</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2025_ZONE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Parks (2023) - Zone category</title>
-  <abstract>Australian Marine Parks 2023 (includes newly-extended Macquarie Island park) - styled by Zone Categories.</abstract>
+  <title>Australian Marine Parks (2025) - Zone category</title>
+  <abstract>Australian Marine Parks 2025 - styled by Zone Categories.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_AMP2023_ZONE</string>
