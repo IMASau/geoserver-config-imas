@@ -37,17 +37,17 @@ FOR DISPLAY PURPOSES IN LAYER GROUP ONLY - NOT FOR PUBLICAITON.</abstract>
   AUTHORITY[&quot;EPSG&quot;,&quot;32758&quot;]]</nativeCRS>
   <srs>EPSG:32758</srs>
   <nativeBoundingBox>
-    <minx>782465.1211000001</minx>
+    <minx>781941.1211000001</minx>
     <maxx>793841.1211000001</maxx>
-    <miny>6773121.6002</miny>
-    <maxy>6791043.6002</maxy>
+    <miny>6773085.6002</miny>
+    <maxy>6791509.6002</maxy>
     <crs class="projected">EPSG:32758</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>167.89876592491171</minx>
-    <maxx>168.0200869888956</maxx>
-    <miny>-29.13905390277468</miny>
-    <maxy>-28.974933878574262</maxy>
+    <minx>167.89327713778033</minx>
+    <maxx>168.02009648290638</maxx>
+    <miny>-29.13949495141846</miny>
+    <maxy>-28.970733606416385</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -117,20 +117,20 @@ FOR DISPLAY PURPOSES IN LAYER GROUP ONLY - NOT FOR PUBLICAITON.</abstract>
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
     </entry>
   </parameters>
   <nativeCoverageName>Norfolk_AHO_lidar_2m_hs_clipped</nativeCoverageName>

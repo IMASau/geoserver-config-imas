@@ -1,0 +1,32 @@
+<GeoServerTileLayer>
+  <id>LayerGroupInfoImpl-77e7fa25:197bdf0e01b:261e</id>
+  <enabled>false</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>seamap:SeamapAus_Ext_EOMAP_NorfolkMP_2022_grp</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>1.8688692171509717E7</double>
+          <double>-3393778.2131348513</double>
+          <double>1.87067737438155E7</double>
+          <double>-3369255.559522769</double>
+        </coords>
+      </extent>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>
