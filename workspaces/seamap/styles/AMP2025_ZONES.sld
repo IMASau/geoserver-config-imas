@@ -42,7 +42,8 @@
                     <VendorOption name="group">true</VendorOption> 
 					<VendorOption name="conflictResolution">true</VendorOption>
                   <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
-                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only largest one instance -->
+                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only shows one instance -->
+                 
 			</TextSymbolizer>    
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
  		</Rule>
@@ -59,19 +60,20 @@
            		  </Label>
                   <Font>
            			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">9</CssParameter>								
+           			<CssParameter name="font-size">10</CssParameter>								
           		  </Font>
                    <LabelPlacement>
            			<PointPlacement>
              			<AnchorPoint>                      
               		 	<AnchorPointX>0.5</AnchorPointX>
                			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                          
-           			</PointPlacement>
+             			</AnchorPoint>                      
+           			</PointPlacement>                    
          		   </LabelPlacement>  
                     <VendorOption name="partials">true</VendorOption>
 					<VendorOption name="spaceAround">5</VendorOption>
-					<VendorOption name="conflictResolution">false</VendorOption>   
+					<VendorOption name="conflictResolution">true</VendorOption>
+              <VendorOption name="maxDisplacement">25</VendorOption>              
 					<VendorOption name="inclusion">mapOnly</VendorOption>                            
 			</TextSymbolizer>	
 		<VendorOption name="inclusion">mapOnly</VendorOption>                        
@@ -93,17 +95,16 @@
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>National Park Zone (IUCN II) (Marine NPZ in the SE)</Title>
+            <Title>National Park Zone</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard='%' singleChar='.' escape='!'>
+            <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
-              <ogc:Literal>%Park Zone%II%</ogc:Literal>
-            </ogc:PropertyIsLike>
+              <ogc:Literal>National Park Zone (IUCN II)</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
@@ -117,7 +118,7 @@
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>		
         <Rule>
             <Title>Recreational Use Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -127,7 +128,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -135,7 +135,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -148,7 +147,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -156,7 +154,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -186,7 +183,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -194,7 +190,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -224,7 +219,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -232,7 +226,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -261,7 +254,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -269,7 +261,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -282,7 +273,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -290,7 +280,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
@@ -303,7 +292,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -311,11 +299,9 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -341,7 +327,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -349,11 +334,9 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <GraphicFill>
                 <Graphic>
@@ -379,7 +362,6 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>		
 		  <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
               <CssParameter name="fill-opacity">0.6</CssParameter>				  
@@ -387,7 +369,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -425,7 +406,6 @@
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>         
