@@ -1,6 +1,6 @@
 <GeoServerTileLayer>
   <id>LayerGroupInfoImpl-77e7fa25:197bdf0e01b:261e</id>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
   <name>seamap:SeamapAus_Ext_EOMAP_NorfolkMP_2022_grp</name>
   <mimeFormats>
