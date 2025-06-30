@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-5e9bd345:18ec048a58a:60ec</id>
   <name>AMP_boundaries_PARK_simplified</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2023_PARK_simp1000m</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2025_PARK_simp1000m</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Park (2023) PARK boundaries - simplified 1000m for querying</title>
+  <title>Australian Marine Park (2025) PARK boundaries - simplified 1000m for querying</title>
   <abstract>This layer represents the Australian Marine Park boundaries (aggregated by PARK), with a simplification algorithm (preserve critical points) of 1,000m applied. This layer is intended to be used for subsetting Squidle+ queries and is not designed to be published.</abstract>
   <keywords>
     <string>features</string>

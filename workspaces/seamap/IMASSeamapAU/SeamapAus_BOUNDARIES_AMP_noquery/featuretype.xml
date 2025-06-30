@@ -1,15 +1,15 @@
 <featureType>
   <id>FeatureTypeInfoImpl--7a6c209c:1811e60aaec:-772a</id>
   <name>SeamapAus_BOUNDARIES_AMP_noquery</name>
-  <nativeName>SeamapAus_BOUNDARIES_AMP2023</nativeName>
+  <nativeName>SeamapAus_BOUNDARIES_AMP2025</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Australian Marine Parks (AMPs) 2023</title>
+  <title>Australian Marine Parks (AMPs) 2025</title>
   <abstract>For specific use in layer groups that do not support querying of this layer. Not to be advertised.</abstract>
   <keywords>
     <string>features</string>
-    <string>BOUNDARIES_AMP2022</string>
+    <string>SeamapAus_BOUNDARIES_AMP2025</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
