@@ -4,7 +4,7 @@
     <#if (feature_index < 1) >
 
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-            <h5>Substrate mapping of Zeehan AMP</h5>
+            <h5>Substrate mapping of Zeehan Marine Park</h5>
             <BR>
             <div class="habitat"> 
 	       <b>Substrate class:</b>  
