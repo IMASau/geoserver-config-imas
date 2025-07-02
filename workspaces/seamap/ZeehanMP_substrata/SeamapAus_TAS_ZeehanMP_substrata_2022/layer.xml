@@ -3,7 +3,7 @@
   <id>LayerInfoImpl-621da417:197cab9e576:1589</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl-621da417:197cab9e576:1b10</id>
   </defaultStyle>
   <resource class="coverage">
     <id>CoverageInfoImpl-621da417:197cab9e576:1588</id>
@@ -12,5 +12,7 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2025-07-02 12:21:55.472 UTC</dateCreated>
+  <dateModified>2025-07-02 13:20:45.34 UTC</dateModified>
 </layer>

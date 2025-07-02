@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl-7365ba1:1944d7d6ae0:-2c89</id>
   <name>SeamapAus_Ext_EOMAP_CocosKeelingMP_2022_grp</name>
   <mode>SINGLE</mode>
-  <title>Satellite-derived 2m habitat mapping of Cocos (Keeling) Islands Marine Park 2022 (EOMAP, Parks Australia)</title>
+  <title>Seamap Australia - Ext Territories - Satellite-derived 2m habitat mapping of Cocos (Keeling) Islands Marine Park 2022 (EOMAP, Parks Australia)</title>
   <abstractTxt>Layer group displayed with bathymetry hillshade backdrop</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
@@ -33,5 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-01-10 00:20:48.948 UTC</dateCreated>
-  <dateModified>2025-01-14 04:15:47.805 UTC</dateModified>
+  <dateModified>2025-07-02 13:18:19.698 UTC</dateModified>
 </layerGroup>

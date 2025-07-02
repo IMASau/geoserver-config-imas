@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-621da417:197cab9e576:1f0d</id>
+  <name>SeamapAus_TAS_FranklinMP_substrata_2022_grp</name>
+  <mode>SINGLE</mode>
+  <title>Seamap Australia - TAS - Fine-scale substrate mapping of Franklin Marine Park 2022</title>
+  <abstractTxt>Layer group: Fine-scale substrate mapping of the Franklin Australian Marine Park (2m resolution) with a hillshade backdrop derived from multibeam bathymetry (BF2022_v01)</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-621da417:197cab9e576:1587</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-621da417:197cab9e576:1580</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-621da417:197cab9e576:1b1d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>144.1416583112187</minx>
+    <maxx>144.4041731875772</maxx>
+    <miny>-41.00413866590114</miny>
+    <maxy>-40.52345729936966</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-07-02 13:22:55.248 UTC</dateCreated>
+</layerGroup>

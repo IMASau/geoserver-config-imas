@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl--2f6d4f29:189247b1152:-5c05</id>
   <name>SeamapAus_WA_EOMAP_AshmoreCartier_2022_grp</name>
   <mode>SINGLE</mode>
-  <title>Satellite-derived habitat mapping of Ashmore Reef and Cartier Island 2022 (EOMAP, Parks Australia) - hillshaded</title>
+  <title>Seamap Australia - WA - Satellite-derived habitat mapping of Ashmore Reef and Cartier Island 2022 (EOMAP, Parks Australia) - hillshaded</title>
   <abstractTxt>Layer group displayed with bathymetry hillshade backdrop</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
@@ -33,5 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-07-05 16:01:26.863 UTC</dateCreated>
-  <dateModified>2023-12-22 20:32:57.358 UTC</dateModified>
+  <dateModified>2025-07-02 13:18:02.655 UTC</dateModified>
 </layerGroup>

@@ -2,7 +2,7 @@
   <id>LayerGroupInfoImpl-77e7fa25:197bdf0e01b:261e</id>
   <name>SeamapAus_Ext_EOMAP_NorfolkMP_2022_grp</name>
   <mode>SINGLE</mode>
-  <title>Habitat mapping of Norfolk Marine Park 2022 (Pendoley Environmental, EOMAP, Parks Australia)</title>
+  <title>Seamap Australia - Ext Territories - Habitat mapping of Norfolk Marine Park 2022 (Pendoley Environmental, EOMAP, Parks Australia)</title>
   <abstractTxt>Layer group displayed with bathymetry hillshade backdrop</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
@@ -40,5 +40,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-06-29 23:31:47.942 UTC</dateCreated>
-  <dateModified>2025-06-30 22:21:55.730 UTC</dateModified>
+  <dateModified>2025-07-02 13:18:26.991 UTC</dateModified>
 </layerGroup>
