@@ -1,0 +1,17 @@
+<layer>
+  <name>ZeehanMP_BF2022_V01_2m_hillshade</name>
+  <id>LayerInfoImpl-621da417:197cab9e576:1583</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-621da417:197cab9e576:1582</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-07-02 12:18:25.917 UTC</dateCreated>
+</layer>

@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-621da417:197cab9e576:157c</id>
+  <name>FranklinMP_hillshade</name>
+  <description>Hillshade from BF2022_v01 multibeam bathymetry 2m</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-07-02 12:15:56.542 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/6eb8ab22-6ba4-4c5a-8454-73e279f751f0/FranklinMP_BF2022_V01_2m_hillshade.tif</url>
+</coverageStore>

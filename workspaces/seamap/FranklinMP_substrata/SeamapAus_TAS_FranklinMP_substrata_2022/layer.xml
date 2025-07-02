@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_TAS_FranklinMP_substrata_2022</name>
+  <id>LayerInfoImpl-621da417:197cab9e576:1587</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-621da417:197cab9e576:1586</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-07-02 12:21:49.355 UTC</dateCreated>
+</layer>
