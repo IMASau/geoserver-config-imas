@@ -5,7 +5,7 @@
     <#if (feature_index < 1)>
         <h5 style="padding-top:5px; padding-bottom: 5px;"><img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" width=105px; style="padding-right:10px">Seagrass extent</h5>
 
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; min-width:350px; white-space: normal; overflow-wrap: break-word;">
+        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; min-width:400px; white-space: normal; overflow-wrap: break-word;">
 
             <div style="padding-top: 10px; padding-bottom: 5px">
 
@@ -45,7 +45,7 @@
                 <br>
             </div>
 
-            <div style="padding-bottom: 20px">
+            <div style="padding-bottom: 15px">
                 &#10148; <b>Original classification(s):</b> <i>${feature.Hab_ORIG.value}</i>
             </div>
 

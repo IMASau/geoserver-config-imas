@@ -3,11 +3,11 @@
     <#assign substrate = "Unknown">
 
     <#if (feature_index < 1)>
-	<h5 style="padding-top:8px">Seamap Australia <i>UNVALIDATED</i> seagrass extent</h5>
+        <h5 style="padding-top:5px; padding-bottom: 5px;"><img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" width=105px; style="padding-right:10px"><i>Unvalidated</i> seagrass extent</h5>
 
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; min-width: 450px; max-width: 600px; white-space: normal; overflow-wrap: break-word;">
+        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; min-width:400px; white-space: normal; overflow-wrap: break-word;">
 
-            <div style="padding-top: 15px; padding-bottom: 10px">
+            <div style="padding-top: 10px; padding-bottom: 5px">
 
                 <#-- Get the finest biotic classification -->
                 <#if feature.BC_Level4.value?has_content && feature.BC_Level4.value != "Unknown" && feature.BC_Level4.value != "NA">
@@ -45,7 +45,7 @@
                 <br>
             </div>
 
-            <div style="padding-bottom: 20px">
+            <div style="padding-bottom: 15px">
                 &#10148; <b>Original classification(s):</b> <i>${feature.Hab_ORIG.value}</i>
             </div>
 
@@ -61,11 +61,10 @@
                     <a href="${feature.Info_SC.value}" target="_blank">${feature.Data_SC.value}</a> 
                     <i>(${feature.Date_SC.value})</i><br>
                 </#if>
-
             </div>
         </div>
     <#else>
-        <div style="font-size: 90%; padding-top: 15px;">
+        <div style="font-size: 90%; padding-top: 10px;">
             <i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
         </div>
         <#break>
