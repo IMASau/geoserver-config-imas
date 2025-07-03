@@ -3,11 +3,11 @@
     <#assign substrate = "Unknown">
 
     <#if (feature_index < 1)>
-        <h5 style="padding-top:5px; padding-bottom: 5px;">Seamap Australia National Benthic Habitat (2024)</h5>
+        <h5 style="padding-top:5px; padding-bottom: 5px;"><img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" width=105px; style="padding-right:10px">National Benthic Habitat Layer (2024)</h5>
 
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; min-width: 450px; max-width: 600px; white-space: normal; overflow-wrap: break-word;">
+        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; width: 520px; white-space: normal; overflow-wrap: break-word;">
 
-            <div style="padding-top: 15px; padding-bottom: 10px">
+            <div style="padding-top: 10px; padding-bottom: 5px">
 
                 <#-- Get the finest biotic classification -->
                 <#if feature.BC_Level4.value?has_content && feature.BC_Level4.value != "Unknown" && feature.BC_Level4.value != "NA">
@@ -69,7 +69,7 @@
             </div>
         </div>
     <#else>
-        <div style="font-size: 90%; padding-top: 15px;">
+        <div style="font-size: 90%; padding-top: 10px;">
             <i>Multiple habitats exist at this point. Zoom in for higher precision.</i>
         </div>
         <#break>
