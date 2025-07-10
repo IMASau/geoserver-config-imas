@@ -81,7 +81,7 @@
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2009-11:</i></span>
         <div style="width:${width2009}px; height:10px; background-color:#79e5a6; margin:0 4px;"></div>
-        <span style="font-size:90%;"><b>${count2009}</b> fish</span>
+        <span><b>&nbsp;${count2009}</b> fish</span>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
@@ -93,7 +93,7 @@
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2023-24:</i></span>
         <div style="width:${width2023}px; height:10px; background-color:#a679e5; margin:0 4px;"></div>
-        <span style="font-size:90%;"><b>${count2023}</b> fish</span>
+        <span><b>&nbsp;${count2023}</b> fish</span>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2023-24: No fish observed</i></div>
