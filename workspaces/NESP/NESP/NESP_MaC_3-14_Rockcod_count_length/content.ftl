@@ -1,4 +1,5 @@
 <#setting date_format="dd-mm-yyyy">
+<#setting number_format="#.#">
 
 <table style="width: auto; table-layout: auto; border-collapse: collapse;">
 
@@ -36,7 +37,7 @@
 				${feature.Count.value}
 			</TD>
 			<TD style="text-align:center;">
-				${feature.Length_mean.value}
+				${feature.Length_mean.rawValue}
 			</TD>
 		</TR>
 	</TBODY>
