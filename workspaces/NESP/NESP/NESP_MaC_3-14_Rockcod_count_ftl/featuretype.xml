@@ -1,12 +1,12 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-621da417:197f1e6c652:-c19</id>
-  <name>NESP_MaC_3_14_Rockcod_countlength_2324</name>
+  <id>FeatureTypeInfoImpl-621da417:197f1e6c652:-87b</id>
+  <name>NESP_MaC_3-14_Rockcod_count_ftl</name>
   <nativeName>NESP_MaC_3_14_Rockcod_countlength_MAP</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MaC Project 3.14 - count and mean length of Black Rockcod from UVC 2023-24</title>
-  <abstract>For use in layer group only - not to be advertised.</abstract>
+  <title>NESP MaC Project 3.14 - count of Black Rockcod from UVC 2009-11 vs 2023-24 (NSW)</title>
+  <abstract>For use in layer group only (content.ftl popups) - not to be published</abstract>
   <keywords>
     <string>NESP_MaC_3_14_Rockcod_countlength_MAP</string>
     <string>features</string>
@@ -22,16 +22,16 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>152.23084695538302</minx>
-    <maxx>159.0716331814326</maxx>
-    <miny>-32.7061306541226</miny>
+    <minx>152.16131295677368</minx>
+    <maxx>159.07198618143966</maxx>
+    <miny>-32.753150655062996</miny>
     <maxy>-28.6099994278</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>152.23084695538302</minx>
-    <maxx>159.0716331814326</maxx>
-    <miny>-32.7061306541226</miny>
+    <minx>152.16131295677368</minx>
+    <maxx>159.07198618143966</maxx>
+    <miny>-32.753150655062996</miny>
     <maxy>-28.6099994278</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -48,7 +48,6 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Period = &apos;2023-24&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

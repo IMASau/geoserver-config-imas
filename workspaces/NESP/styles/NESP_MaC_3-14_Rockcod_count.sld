@@ -1,6 +1,6 @@
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <Name>Important Bird Areas (IBA)</Name>
+    <Name>Black rockcod count</Name>
     <UserStyle>
       <FeatureTypeStyle>
 

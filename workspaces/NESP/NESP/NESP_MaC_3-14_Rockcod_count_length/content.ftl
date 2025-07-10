@@ -5,7 +5,9 @@
 
 	<THEAD>
 		<TR>
+			<th>Marine Park</th>
 			<th>Site</th>
+			<th style="text-align:center;">Zoning</th>
 			<th style="text-align:center;">Fished status</th>
 			<th style="text-align:center;">Survey date</th>
 			<th style="text-align:center;">Fish count</th>
@@ -19,7 +21,18 @@
 	<TBODY>
 		<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 			<TD>
+				<#if feature.Area.value == 'Fish Rock'>
+				${feature.Area.value} <i>(not formally protected)</i>
+				<#else>
+				${feature.Area.value}
+				</#if>
+			</TD>
+
+			<TD>
 				${feature.Site.value} <i>(${feature.Location.value})</i>
+			</TD>
+			<TD style="text-align:center;">
+				${feature.Zoning.value}
 			</TD>
 			<TD style="text-align:center; background-color: <#if feature.No_take.value == 'no'>#f8d4d4<#else>#d4f8d4</#if>;">
 				<i>
