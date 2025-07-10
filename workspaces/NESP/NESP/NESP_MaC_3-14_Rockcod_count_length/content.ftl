@@ -1,16 +1,18 @@
+<#setting date_format="dd-mm-yyyy">
+
 <table style="width: auto; table-layout: auto; border-collapse: collapse;">
 
 	<THEAD>
 		<TR>
 			<th>Site</th>
 			<th style="text-align:center;">Fished status</th>
-			<th style="text-align:center;">Survey year</th>
+			<th style="text-align:center;">Survey date</th>
 			<th style="text-align:center;">Fish count</th>
 			<th style="text-align:center;">Average length (cm)</th>
 		</TR>
 	</THEAD>
 
-	<#list features?sort_by(["Year", "rawValue"]) as feature>
+	<#list features?sort_by(["Date", "rawValue"]) as feature>
 	<#if (feature_index < 2)>
 
 	<TBODY>
@@ -28,13 +30,13 @@
 				</i>
 			</TD>
 			<TD style="text-align:center;">
-				${feature.Year.value}
+				${feature.Date.value?date("dd/mm/yy")?date}
 			</TD>
 			<TD style="text-align:center;">
-				${feature.Count_rockcod.value}
+				${feature.Count.value}
 			</TD>
 			<TD style="text-align:center;">
-				${feature.Mean_length.value}
+				${feature.Length_mean.value}
 			</TD>
 		</TR>
 	</TBODY>
