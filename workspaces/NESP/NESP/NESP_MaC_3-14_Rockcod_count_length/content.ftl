@@ -19,7 +19,7 @@
 	<#if (feature_index < 2)>
 
 	<TBODY>
-		<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
+		<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#f1f1f4")}'>
 			<TD>
 				<#if feature.Area.value == 'Fish Rock'>
 				${feature.Area.value} <i>(not formally protected)</i>
@@ -32,7 +32,13 @@
 				${feature.Site.value} <i>(${feature.Location.value})</i>
 			</TD>
 			<TD style="text-align:center;">
-				${feature.Zoning.value}
+				<#if feature.Zoning.value =='National Park Zone'>
+					${feature.Zoning.value} <i>(Cth)</i>
+				<#elseif feature.Zoning.value =='N/A'>
+					<i>N/A</i>
+				<#else>
+					${feature.Zoning.value}
+				</#if>			
 			</TD>
 			<TD style="text-align:center; background-color: <#if feature.No_take.value == 'no'>#f8d4d4<#else>#d4f8d4</#if>;">
 				<i>
@@ -51,6 +57,9 @@
 			</TD>
 			<TD style="text-align:center;">
 				${feature.Length_mean.rawValue}
+				<#if feature.Count.rawValue gt 1>
+					<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.value} - ${feature.Length_max.value})</i></span>
+				</#if>
 			</TD>
 		</TR>
 	</TBODY>
@@ -63,7 +72,7 @@
 <#list features as feature_counter>
 	<#if (feature_counter_index > 2)>
 		<p style="padding-bottom:5px; font-size:80%">
-			<i>Multiple sites exist at this location. Zoom in for view data for more sites.</i>
+			<i>Multiple sites exist at this location. Zoom in to view data for more sites.</i>
 		</p>
 	<#break>
 	</#if>

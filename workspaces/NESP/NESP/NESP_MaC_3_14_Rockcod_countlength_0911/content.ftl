@@ -31,14 +31,12 @@
 				${feature.Site.value} <i>(${feature.Location.value})</i>
 			</TD>
 			<TD style="text-align:center;">
-				<#if feature.Zoning.value =='SZ'>
-					Sanctuary Zone
-				<#elseif feature.Zoning.value =='HPZ'>	
-					Habitat Protection Zone
-				<#elseif feature.Zoning.value =='NPZ'>
-					National Park Zone <i>(Cth)</i>
-				<#else>
+				<#if feature.Zoning.value =='National Park Zone'>
+					${feature.Zoning.value} <i>(Cth)</i>
+				<#elseif feature.Zoning.value =='N/A'>
 					<i>N/A</i>
+				<#else>
+					${feature.Zoning.value}
 				</#if>			
 			</TD>
 			<TD style="text-align:center; background-color: <#if feature.No_take.value == 'no'>#f8d4d4<#else>#d4f8d4</#if>;">
