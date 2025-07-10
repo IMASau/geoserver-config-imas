@@ -1,6 +1,4 @@
-<#setting date_format="yyyy-mm-dd">
-
-<#-- 0) Determine current site from first 2009-11 survey -->
+<#-- Determine current site from first 2009-11 survey -->
 <#assign currentSite = "">
 <#list features?sort_by(["Date","rawValue"]) as f>
   <#if f.Period.value == "2009-11">
@@ -9,10 +7,7 @@
   </#if>
 </#list>
 
-<h5 style="padding-top:10px; padding-bottom:8px;">
-  Site/survey data for 2009-11 (${currentSite})
-</h5>
-
+<div style="padding-top:10px; padding-bottom:10px;">
 <table style="width: auto; table-layout: auto; border-collapse: collapse;">
   <THEAD>
     <TR>
@@ -20,7 +15,6 @@
       <th>Site</th>
       <th style="text-align:center;">Zoning</th>
       <th style="text-align:center;">Fished status</th>
-      <th style="text-align:center;">Survey date</th>
     </TR>
   </THEAD>
   <TBODY>
@@ -49,17 +43,15 @@
               <#if feature.Fishing_permitted.value == 'yes'>Fished<#else>Not fished</#if>
             </i>
           </TD>
-          <TD style="text-align:center;">
-            ${feature.Date.value?date("dd/MM/yy")?date}
-          </TD>
         </TR>
         <#break>
       </#if>
     </#list>
   </TBODY>
 </table>
+</div>
 
-<#-- 1) Aggregate counts for both periods, for current site -->
+<#-- Aggregate counts for both periods, for current site -->
 <#assign count2009 = 0>
 <#assign count2023 = 0>
 <#list features as f>
@@ -72,24 +64,23 @@
   </#if>
 </#list>
 
+<#-- Totals count can be removed (no longer used) -->
 <#assign total = (count2009 + count2023)?number>
-<#assign maxBarWidth = 120>
 
-<h5 style="padding-top:12px; padding-bottom:8px;">
+<#assign maxBarWidth = 200>
+
+<h5 style="padding-top:10px;">
   Rockcod counts 2009-11 vs 2023-24: ${currentSite}
 </h5>
 
-<div style="padding-top:5px; padding-bottom:5px;">
-  <#if total == 0>
-    <i>No fish observed at this site</i>
-  <#else>
+<div style="padding-top:6px; padding-bottom:5px;">
 
     <#-- 2009-11 bar -->
     <#if count2009 gt 0>
-      <#assign width2009 = (maxBarWidth * count2009 / total)?round>
+      <#assign width2009 = (maxBarWidth * count2009 / 14)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
-        <span style="font-size:90%;">2009-11:&nbsp;&nbsp;</span>
-        <div style="width:${width2009}px; height:10px; background-color:#e74c3c; margin:0 8px;"></div>
+        <span style="font-size:90%;"><i>2009-11:</i></span>
+        <div style="width:${width2009}px; height:10px; background-color:#79e5a6; margin:0 4px;"></div>
         <span style="font-size:90%;"><b>${count2009}</b> fish</span>
       </div>
     <#else>
@@ -98,15 +89,14 @@
 
     <#-- 2023-24 bar -->
     <#if count2023 gt 0>
-      <#assign width2023 = (maxBarWidth * count2023 / total)?round>
+      <#assign width2023 = (maxBarWidth * count2023 / 14)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
-        <span style="font-size:90%;">2023-24:&nbsp;&nbsp;</span>
-        <div style="width:${width2023}px; height:10px; background-color:#3498db; margin:0 8px;"></div>
+        <span style="font-size:90%;"><i>2023-24:</i></span>
+        <div style="width:${width2023}px; height:10px; background-color:#a679e5; margin:0 4px;"></div>
         <span style="font-size:90%;"><b>${count2023}</b> fish</span>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2023-24: No fish observed</i></div>
     </#if>
 
-  </#if>
 </div>
