@@ -1,58 +1,49 @@
-<#setting number_format="###.#">
+
+<#-- Initialise counts -->
+<#assign count2009 = 0>
+<#assign count2023 = 0>
+
 <#list features as feature>
-  <#if feature_index < 1>
-    <#assign maxBarWidth = 90>
-
-    <#-- Assign raw values -->
-    <#assign biogenic = feature.SO_B_TOT_1.rawValue?number!0>
-    <#assign cobble = feature.HD_C_2.rawValue?number!0>
-    <#assign rockboulder = (feature.HD_B_2.rawValue?number!0) + (feature.HD_R_2.rawValue?number!0)>
-    <#assign pebblegravel = feature.SO_P_TOT_1.rawValue?number!0>
-    <#assign sandmud = feature.SO_S_TOT_1.rawValue?number!0>
-    <#assign blackocto = feature.BO_TOT_1.rawValue?number!0>
-    <#assign macroalgae = (feature.M_C_TOT_1.rawValue?number!0) + (feature.M_F_TOT_1.rawValue?number!0)>
-    <#assign stonycoral = feature.STC_TOT_1.rawValue?number!0>
-    <#assign sponge = feature.S_TOT_1.rawValue?number!0>
-    <#assign other = feature.OC_TOT_1.rawValue?number!0>
-
-    <#assign total = feature.L1_TOT.rawValue?number!0>
-
-    <#assign depth_numeric=feature.depth.value?number>
-
-    <#assign habitats = [
-      {"name": "Biogenic", "value": biogenic, "color": "#6cc6b7"},
-      {"name": "Cobbles", "value": cobble, "color": "#ad8a1f"},
-      {"name": "Pebble / gravel", "value": pebblegravel, "color": "#808080"},
-      {"name": "Rock / boulder", "value": rockboulder, "color": "#663300"},
-      {"name": "Sand / mud", "value": sandmud, "color": "#999900"},
-      {"name": "Black & octocorals", "value": blackocto, "color": "#001a33"},
-      {"name": "Macroalgae", "value": macroalgae, "color": "#00b33c"},
-      {"name": "Stony corals", "value": stonycoral, "color": "#9933ff"},
-      {"name": "Sponges", "value": sponge, "color": "#ff99ff"},
-      {"name": "Other colonisers", "value": other, "color": "#00ffcc"}
-    ]>
-
-    <#assign sortedHabitats = habitats?sort_by("value")?reverse>
-
-    <h5 style="padding-top:10px; padding-bottom:3px;">Benthic composition<br>(towed video)</h5>
-
-    <div class="feature" style="margin-top:12px;">
-      <#list sortedHabitats as habitat>
-        <#if habitat.value != 0>
-          <#assign barWidth = (maxBarWidth * habitat.value / total)?round>
-          <div style="display: flex; align-items: center">
-            <div style="width: ${barWidth}px; height: 10px; background-color: ${habitat.color};"></div>
-            <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / total)?round}%</b></span>
-          </div>
-        </#if>
-      </#list>
-    </div>
-
-    <div class="feature" style="padding-top:8px; padding-bottom:1px">
-	<span style="display: inline-block; margin-bottom:5px; font-size:95%">
-	<i><b>Depth:</b> ${-depth_numeric} m</i>
-	</span>
-    </div>
-
+  <#if feature.Period.value == "2009-11">
+    <#assign count2009 = feature.Count.value?number!0>
+  <#elseif feature.Period.value == "2023-24">
+    <#assign count2023 = feature.Count.value?number!0>
   </#if>
 </#list>
+
+<#assign total = (count2009 + count2023)?number>
+<#assign maxBarWidth = 90>
+
+<#if total == 0>
+  <div style="padding:10px;"><i>No fish observed at this location.</i></div>
+<#else>
+  <h5 style="padding-top:10px; padding-bottom:3px;">
+    Benthic composition<br>(towed video)
+  </h5>
+
+  <div style="margin-top:12px;">
+
+    <#-- 2009-11 bar (draw only if it exists) -->
+    <#if count2009.value > 0>
+      <#assign width2009 = (maxBarWidth * count2009 / total)?round>
+      <div style="display:flex; align-items:center; margin-bottom:6px;">
+        <div style="width:${width2009}px; height:10px; background-color:#e74c3c;"></div>
+        <span style="margin-left:8px; font-size:0.9em;">
+          2009-11: <b>${count2009}</b>
+        </span>
+      </div>
+    </#if>
+
+    <#-- 2023-24 bar (draw only if it exists) -->
+    <#if count2023.value > 0>
+      <#assign width2023 = (maxBarWidth * count2023 / total)?round>
+      <div style="display:flex; align-items:center;">
+        <div style="width:${width2023}px; height:10px; background-color:#3498db;"></div>
+        <span style="margin-left:8px; font-size:0.9em;">
+          2023-24: <b>${count2023}</b>
+        </span>
+      </div>
+    </#if>
+
+  </div>
+</#if>
