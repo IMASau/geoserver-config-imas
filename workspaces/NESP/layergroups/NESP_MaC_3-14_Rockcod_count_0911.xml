@@ -1,0 +1,38 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-621da417:197f1e6c652:-c0e</id>
+  <name>NESP_MaC_3-14_Rockcod_count_0911</name>
+  <mode>SINGLE</mode>
+  <title>NESP MaC Project 3.14 - count of Black Rockcod from UVC 2009-11 (NSW)</title>
+  <abstractTxt>This layer shows the count and mean length measurement of Black Rockcod (Epinephelus daemelii) for monitoring sites along the NSW coastline from Underwater Visual Census conducted in 2009-11 vs 2023-24.</abstractTxt>
+  <advertised>false</advertised>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-621da417:197f1e6c652:-c1a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-621da417:197f1e6c652:-87a</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-45c4f183:1978d2f78e4:-29b4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-3da50ec5:181f96b066a:2434</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>152.16131295677368</minx>
+    <maxx>159.07198618143966</maxx>
+    <miny>-32.753150655062996</miny>
+    <maxy>-28.6099994278</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-07-10 04:02:29.985 UTC</dateCreated>
+  <dateModified>2025-07-10 06:51:38.820 UTC</dateModified>
+</layerGroup>

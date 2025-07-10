@@ -16,11 +16,14 @@
   </#if>
 </#list>
 
+<#list features as feature>
+<#if (feature_index < 1)>
 <div style="padding-top:5px; padding-bottom:5px;">
 
-<h5 style="padding-bottom:8px;">Rockcod counts 2009-11 vs 2023-24</h5>
+<h5 style="padding-top:10px; padding-bottom:8px;">Rockcod counts 2009-11 vs 2023-24 at ${feature.Site.value}</h5>
 
 <#assign maxBarWidth = 120>
+<#-- Delete the total statement below if no longer needed -->
 <#assign total = (count2009 + count2023)?number>
 
 <#-- Draw bars (only if count > 0) -->
@@ -55,3 +58,5 @@
 </#if>
 
 </div>
+</#if>
+</#list>
