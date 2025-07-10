@@ -5,8 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP MaC Project 3.14 - count and mean length of Black Rockcod from UVC 2023-24 (NSW)</title>
-  <abstract>This layer shows the count and mean length measurement of Black Rockcod (Epinephelus daemelii) for monitoring sites along the NSW coastline from Underwater Visual Census conducted in 2023 and 2024.</abstract>
+  <title>NESP MaC Project 3.14 - count and mean length of Black Rockcod from UVC 2009-11 vs 2023-24 (NSW)</title>
+  <abstract>This layer shows the count and mean length measurement of Black Rockcod (Epinephelus daemelii) for monitoring sites along the NSW coastline from Underwater Visual Census conducted in 2009-11 and 2023-24.</abstract>
   <keywords>
     <string>NESP_MaC_3_14_Rockcod_countlength_MAP</string>
     <string>features</string>
@@ -22,16 +22,16 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>152.23084695538302</minx>
-    <maxx>159.0716331814326</maxx>
-    <miny>-32.7061306541226</miny>
+    <minx>152.16131295677368</minx>
+    <maxx>159.07198618143966</maxx>
+    <miny>-32.753150655062996</miny>
     <maxy>-28.6099994278</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>152.23084695538302</minx>
-    <maxx>159.0716331814326</maxx>
-    <miny>-32.7061306541226</miny>
+    <minx>152.16131295677368</minx>
+    <maxx>159.07198618143966</maxx>
+    <miny>-32.753150655062996</miny>
     <maxy>-28.6099994278</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
