@@ -1,4 +1,4 @@
-<#setting date_format="dd-mm-yyyy">
+<#setting date_format="yyyy-mm-dd">
 
 <h5 style="padding-top:10px; padding-bottom:8px;">Site/survey data for 2023-24</h5>
 
@@ -39,9 +39,9 @@
 					${feature.Zoning.value}
 				</#if>			
 			</TD>
-			<TD style="text-align:center; background-color: <#if feature.No_take.value == 'no'>#f8d4d4<#else>#d4f8d4</#if>;">
+			<TD style="text-align:center; background-color: <#if feature.Fishing_permitted.value == 'yes'>#f8d4d4<#else>#d4f8d4</#if>;">
 				<i>
-					<#if feature.No_take.value == 'no'>
+					<#if feature.Fishing_permitted.value == 'yes'>
 						Fished
 					<#else>
 						Not fished
