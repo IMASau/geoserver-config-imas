@@ -132,7 +132,7 @@
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5DCBB9</CssParameter>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -166,7 +166,7 @@
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#018571</CssParameter>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -281,7 +281,7 @@
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5DCBB9</CssParameter>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
                   <CssParameter name="stroke-width">1.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -316,7 +316,7 @@
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#018571</CssParameter>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -402,7 +402,7 @@
         </Rule>
 
         <Rule>
-          <Title> &gt; 75 - 100</Title>		
+          <Title> &gt; 75 - 100 (mature)</Title>		
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -429,7 +429,7 @@
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5DCBB9</CssParameter>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
                   <CssParameter name="stroke-width">1.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -440,7 +440,7 @@
         </Rule>
 		  
         <Rule>
-          <Title> &gt; 100</Title>				
+          <Title> &gt; 100 (mature)</Title>				
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -463,7 +463,7 @@
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#018571</CssParameter>
+                  <CssParameter name="stroke">#6600ff</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
