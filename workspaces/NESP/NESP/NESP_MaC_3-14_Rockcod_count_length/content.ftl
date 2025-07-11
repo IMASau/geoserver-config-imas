@@ -83,6 +83,22 @@
 </#list>
 </div>
 
+
+<#assign countCols = [
+  {"min":0,   "max":1,   "color":"#1919A4"},
+  {"min":2,   "max":3,  "color":"#52167F"},
+  {"min":4,  "max":7,  "color":"#8C145A"},
+  {"min":7,  "max":10,  "color":"#C51235"},
+  {"min":11,  "max":999, "color":"#FF1010"}
+]>
+
+<#assign lengthCols = [
+  {"min":0,   "max":50,  "color":"#FFD503"},
+  {"min":50,  "max":75,  "color":"#F2A54D"},
+  {"min":75,  "max":100,  "color":"#5cadd6"},
+  {"min":100,  "max":999, "color":"#017e21"}
+]>
+
 <#-- Aggregate counts for both periods, for current site -->
 <#assign count2009 = 0>
 <#assign count2023 = 0>
@@ -104,10 +120,12 @@
 
     <#-- 2009-11 bar -->
     <#if count2009 gt 0>
+      <#assign cc = countCols?filter(c -> count2009 >= c.min && count2009 <= c.max)?first>
+      <#assign countCol = cc.color>
       <#assign width2009 = (maxBarWidth * count2009 / 14)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2009-11:</i></span>
-        <div style="width:${width2009}px; height:10px; background-color:#79e5a6; margin:0 4px;"></div>
+        <div style="width:${width2009}px; height:10px; background-color:${countCol}; margin:0 4px;"></div>
         <span><b>&nbsp;${count2009}</b> fish</span>
       </div>
     <#else>
@@ -116,10 +134,12 @@
 
     <#-- 2023-24 bar -->
     <#if count2023 gt 0>
+      <#assign cc = countCols?filter(c -> count2023 >= c.min && count2023 <= c.max)?first>
+      <#assign countCol = cc.color>
       <#assign width2023 = (maxBarWidth * count2023 / 14)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%; padding-left:15px;"><i>2023:</i></span>
-        <div style="width:${width2023}px; height:10px; background-color:#a679e5; margin:0 4px;"></div>
+        <div style="width:${width2023}px; height:10px; background-color:${countCol}; margin:0 4px;"></div>
         <span><b>&nbsp;${count2023}</b> fish</span>
       </div>
     <#else>
@@ -153,10 +173,12 @@
 
     <#-- 2009-11 bar -->
     <#if length2009 gt 0>
+      <#assign lc = lengthCols?filter(l -> length2009 > l.min && length2009 <= l.max)?first>
+      <#assign lengthCol = lc.color>
       <#assign width2009 = (maxBarWidth * length2009 / 128)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2009-11:</i></span>
-        <div style="width:${width2009}px; height:10px; background-color:#1873f2; margin:0 4px;"></div>
+        <div style="width:${width2009}px; height:10px; background-color:${lengthCol}; margin:0 4px;"></div>
         <b>&nbsp;${length2009}</b>&nbsp;cm mean length
 	  <#if min2009 != max2009><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2009} - ${max2009} cm)</i></span></#if>
       </div>
@@ -166,10 +188,12 @@
 
     <#-- 2023-24 bar -->
     <#if length2023 gt 0>
+      <#assign lc = lengthCols?filter(l -> length2023 > l.min && length2023 <= l.max)?first>
+      <#assign lengthCol = lc.color>
       <#assign width2023 = (maxBarWidth * length2023 / 128)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%; padding-left:15px;"><i>2023:</i></span>
-        <div style="width:${width2023}px; height:10px; background-color:#f29718; margin:0 4px;"></div>
+        <div style="width:${width2023}px; height:10px; background-color:${lengthCol}; margin:0 4px;"></div>
         <b>&nbsp;${length2023}</b>&nbsp;cm mean length
 	  <#if min2023 != max2023><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span></#if>
       </div>
