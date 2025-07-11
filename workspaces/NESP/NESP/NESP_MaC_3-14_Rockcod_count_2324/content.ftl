@@ -70,10 +70,10 @@
 <#assign maxBarWidth = 200>
 
 <h5 style="padding-top:10px;">
-  Rockcod counts 2009-11 vs 2023-24: ${currentSite}
+  Count 2009-11 vs 2023-24: ${currentSite}
 </h5>
 
-<div style="padding-top:6px; padding-bottom:5px;">
+<div style="padding-top:8px; padding-bottom:5px;">
 
     <#-- 2009-11 bar -->
     <#if count2009 gt 0>

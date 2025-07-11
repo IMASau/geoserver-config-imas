@@ -3,7 +3,7 @@
 <#-- Determine current site from first 2023-24 survey -->
 <#assign currentSite = "">
 <#list features?sort_by(["Date","rawValue"]) as f>
-  <#if f.Period.value == "2024-24">
+  <#if f.Period.value == "2023-24">
     <#assign currentSite = f.Site.value!"" >
     <#break>
   </#if>
@@ -73,18 +73,18 @@
 <#assign maxBarWidth = 200>
 
 <h5 style="padding-top:10px;">
-  Rockcod mean lengths 2009-11 vs 2023-24: ${currentSite}
+  Mean length 2009-11 vs 2023-24: ${currentSite}
 </h5>
 
-<div style="padding-top:6px; padding-bottom:5px;">
+<div style="padding-top:8px; padding-bottom:5px;">
 
     <#-- 2009-11 bar -->
     <#if length2009 gt 0>
       <#assign width2009 = (maxBarWidth * length2009 / 128)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2009-11:</i></span>
-        <div style="width:${width2009}px; height:10px; background-color:#79e5a6; margin:0 4px;"></div>
-        <span><b>&nbsp;${length2009}</b> cm mean length <i>(${min2009} - ${max2009} cm)</i></span>
+        <div style="width:${width2009}px; height:10px; background-color:#1873f2; margin:0 4px;"></div>
+        <b>&nbsp;${length2009}</b>&nbsp;cm mean length <span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2009} - ${max2009} cm)</i></span>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
@@ -95,8 +95,8 @@
       <#assign width2023 = (maxBarWidth * length2023 / 128)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2023-24:</i></span>
-        <div style="width:${width2023}px; height:10px; background-color:#a679e5; margin:0 4px;"></div>
-        <span><b>&nbsp;${length2023}</b> cm mean length <i>(${min2023} - ${max2023} cm)</i></span>
+        <div style="width:${width2023}px; height:10px; background-color:#f29718; margin:0 4px;"></div>
+        <b>&nbsp;${length2023}</b>&nbsp;cm mean length <span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2023-24: No fish observed</i></div>
