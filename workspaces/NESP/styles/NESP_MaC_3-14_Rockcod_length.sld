@@ -36,7 +36,7 @@
               <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
+	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
         </Rule>
 
         <Rule>
@@ -104,7 +104,6 @@
               <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 		  
         <Rule>
@@ -132,7 +131,6 @@
               <Size>24</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>	
 		
 
@@ -163,7 +161,6 @@
               <Size>8</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 
         <Rule>
@@ -198,7 +195,6 @@
               <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 
         <Rule>
@@ -233,7 +229,6 @@
               <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 		  
         <Rule>
@@ -262,7 +257,6 @@
               <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>			
 
    

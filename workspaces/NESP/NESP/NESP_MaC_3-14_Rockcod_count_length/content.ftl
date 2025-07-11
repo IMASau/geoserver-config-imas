@@ -19,8 +19,8 @@
 		</TR>
 	</THEAD>
 
-	<#list features?sort_by(["Date", "rawValue"]) as feature>
-		<#if feature.Site.value == currentSite && (feature_index < 2)>
+	<#list (features?filter(f -> f.Site.value == currentSite)?sort_by(["Date", "rawValue"])) as feature>
+		<#if (feature_index < 2)>
 
 		<TBODY>
 			<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#f1f1f4")}'>
@@ -75,9 +75,9 @@
 
 <#list features as feature_counter>
 	<#if (feature_counter_index > 2)>
-		<p style="font-size:80%">
+		<div style="padding-top:10px; font-size:80%">
 			<i>Multiple sites exist at this location. Zoom in to view data for more sites.</i>
-		</p>
+		</div>
 	<#break>
 	</#if>
 </#list>
@@ -98,7 +98,7 @@
 
 <#assign maxBarWidth = 200>
 
-<h5 style="padding-top:10px;">Count 2009-11 vs 2023-24: ${currentSite}</h5>
+<h5 style="padding-top:10px;">Count 2009-11 vs 2023: ${currentSite}</h5>
 
 <div style="padding-top:8px; padding-bottom:5px;">
 
@@ -128,8 +128,6 @@
 
 </div>
 
-
-
 <#-- Aggregate lengths for both periods, for current site -->
 <#assign length2009 = 0>
 <#assign length2023 = 0>
@@ -149,9 +147,7 @@
 
 <#assign maxBarWidth = 200>
 
-<h5 style="padding-top:10px;">
-  Mean length 2009-11 vs 2023-24: ${currentSite}
-</h5>
+<h5 style="padding-top:10px;">Mean length 2009-11 vs 2023: ${currentSite}</h5>
 
 <div style="padding-top:8px; padding-bottom:5px;">
 
@@ -161,7 +157,8 @@
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2009-11:</i></span>
         <div style="width:${width2009}px; height:10px; background-color:#1873f2; margin:0 4px;"></div>
-        <b>&nbsp;${length2009}</b>&nbsp;cm mean length <span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2009} - ${max2009} cm)</i></span>
+        <b>&nbsp;${length2009}</b>&nbsp;cm mean length
+	  <#if min2009 != max2009><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2009} - ${max2009} cm)</i></span></#if>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
@@ -173,7 +170,8 @@
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2023-24:</i></span>
         <div style="width:${width2023}px; height:10px; background-color:#f29718; margin:0 4px;"></div>
-        <b>&nbsp;${length2023}</b>&nbsp;cm mean length <span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span>
+        <b>&nbsp;${length2023}</b>&nbsp;cm mean length
+	  <#if min2023 != max2023><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span></#if>
       </div>
     <#else>
       <div style="font-size:90%; margin-bottom:4px;"><i>2023-24: No fish observed</i></div>

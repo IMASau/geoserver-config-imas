@@ -102,7 +102,7 @@
               <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
-	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
 
         <Rule>
