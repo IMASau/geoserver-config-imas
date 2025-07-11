@@ -62,7 +62,7 @@
 				<TD style="text-align:center;">
 					${feature.Length_mean.rawValue}
 					<#if feature.Count.rawValue gt 1>
-						<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.value} - ${feature.Length_max.value})</i></span>
+						<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.rawValue} - ${feature.Length_max.rawValue})</i></span>
 					</#if>
 				</TD>
 			</TR>
@@ -179,7 +179,7 @@
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%;"><i>2009-11:</i></span>
         <div style="width:${width2009}px; height:10px; background-color:${lengthCol}; margin:0 4px;"></div>
-        <b>&nbsp;${length2009}</b>&nbsp;cm mean length
+        <b>&nbsp;${length2009}</b>&nbsp;cm
 	  <#if min2009 != max2009><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2009} - ${max2009} cm)</i></span></#if>
       </div>
     <#else>
@@ -194,7 +194,7 @@
       <div style="display:flex; align-items:center; margin-bottom:4px;">
         <span style="font-size:90%; padding-left:15px;"><i>2023:</i></span>
         <div style="width:${width2023}px; height:10px; background-color:${lengthCol}; margin:0 4px;"></div>
-        <b>&nbsp;${length2023}</b>&nbsp;cm mean length
+        <b>&nbsp;${length2023}</b>&nbsp;cm
 	  <#if min2023 != max2023><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span></#if>
       </div>
     <#else>
