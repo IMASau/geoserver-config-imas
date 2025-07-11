@@ -64,13 +64,11 @@
   </#if>
 </#list>
 
-<#-- Totals count can be removed (no longer used) -->
-<#assign total = (count2009 + count2023)?number>
 
 <#assign maxBarWidth = 200>
 
 <h5 style="padding-top:10px;">
-  Count 2009-11 vs 2023-24: ${currentSite}
+  Count 2009-11 vs 2023: ${currentSite}
 </h5>
 
 <div style="padding-top:8px; padding-bottom:5px;">
@@ -91,7 +89,7 @@
     <#if count2023 gt 0>
       <#assign width2023 = (maxBarWidth * count2023 / 14)?round>
       <div style="display:flex; align-items:center; margin-bottom:4px;">
-        <span style="font-size:90%;"><i>2023-24:</i></span>
+        <span style="font-size:90%; padding-left:15px;"><i>2023:</i></span>
         <div style="width:${width2023}px; height:10px; background-color:#a679e5; margin:0 4px;"></div>
         <span><b>&nbsp;${count2023}</b> fish</span>
       </div>
