@@ -141,7 +141,7 @@
 </#list>
 
 
-<#assign maxBarWidth = 240>
+<#assign maxBarWidth = 230>
 
 <#if count2009 gt 0 || count2023 gt 0>
 
