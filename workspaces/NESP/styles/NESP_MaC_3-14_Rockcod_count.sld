@@ -166,6 +166,34 @@
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		  
+        </Rule>	
+
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Count</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>			  
+            </ogc:PropertyIsEqualTo>						  			
+          </ogc:Filter>	
+          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#404040</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#404040</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
         </Rule>			
 
         <!-- Zoom levels 50,000 to 600,000-->
@@ -331,6 +359,35 @@
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		  
         </Rule>	
+		
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Count</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>			  
+            </ogc:PropertyIsEqualTo>						  			
+          </ogc:Filter>	
+          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MaxScaleDenominator>600000</MaxScaleDenominator>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#404040</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#404040</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>9</Size>
+            </Graphic>
+          </PointSymbolizer>
+	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
+        </Rule>			
    
         <!-- Zoom levels >600,000 --> 
         <Rule>
@@ -489,8 +546,40 @@
               <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
+        </Rule>	
+
+        <!-- Explanatory legend empty rule --> 
+        <Rule>
+          <Title>----------</Title>
+        </Rule>         
+        <Rule>
+          <Title>Survey sites with no fish observed</Title>		
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Count</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>			  
+            </ogc:PropertyIsEqualTo>						  			
+          </ogc:Filter>	
+          <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#404040</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#404040</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>9</Size>
+            </Graphic>
+          </PointSymbolizer>
         </Rule>			
-		
+      <VendorOption name="sortBy">Count A, Period D</VendorOption>						
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

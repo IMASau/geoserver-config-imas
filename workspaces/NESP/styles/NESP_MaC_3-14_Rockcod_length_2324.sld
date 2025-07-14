@@ -198,15 +198,15 @@
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#404040</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#404040</CssParameter>
-                  <CssParameter name="stroke-width">1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.6</CssParameter>				  
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>14</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer>
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
@@ -382,15 +382,15 @@
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#404040</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#404040</CssParameter>
-                  <CssParameter name="stroke-width">1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.6</CssParameter>				  
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>10</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
@@ -589,15 +589,15 @@
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#404040</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>
+                  <CssParameter name="fill-opacity">0.3</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#404040</CssParameter>
-                  <CssParameter name="stroke-width">1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.6</CssParameter>				  
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>10</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>	        
