@@ -54,7 +54,10 @@
 						</#if>
 				</TD>
 				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
-					${feature.Date.value?date("dd/mm/yy")?date}
+					<#if feature.Date.value?date("dd/MM/yy")?string("dd/MM/yyyy") == "01/01/2009">2009-11
+					<#elseif feature.Date.value?date("dd/MM/yy")?string("dd/MM/yyyy") == "01/01/2023">2023
+					<#else>${feature.Date.value?date("dd/mm/yy")?date}
+					</#if>
 				</TD>
 				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
 					<#if feature.Count.rawValue != 0>
@@ -125,11 +128,11 @@
 <#assign length2023 = 0>
 <#list features as f>
   <#if f.Site.value == currentSite>
-    <#if f.Period.value == "2009-11">
+    <#if f.Period.value == "2009-11" && f.Count.rawValue gt 0>
       <#assign length2009 = f.Length_mean.value?number!0>
       <#assign min2009 = f.Length_min.value?number!0>
       <#assign max2009 = f.Length_max.value?number!0>
-    <#elseif f.Period.value == "2023">
+    <#elseif f.Period.value == "2023" && f.Count.rawValue gt 0>
       <#assign length2023 = f.Length_mean.value?number!0>
       <#assign min2023 = f.Length_min.value?number!0>
       <#assign max2023 = f.Length_max.value?number!0>
@@ -182,7 +185,7 @@
     <h5 style="padding-top:5px; padding-bottom:5px">Mean length 2009-11 vs 2023</h5>
 
     <#-- 2009-11 bar -->
-    <#if length2009 gt 0>
+    <#if count2009 gt 0>
       <#assign lc = lengthCols?filter(l -> length2009 > l.min && length2009 <= l.max)?first>
       <#assign lengthCol = lc.color>
       <#assign lengthAlpha = lc.alpha>
@@ -197,7 +200,7 @@
     </#if>
 
     <#-- 2023 bar -->
-    <#if length2023 gt 0>
+    <#if count2023 gt 0>
       <#assign lc = lengthCols?filter(l -> length2023 > l.min && length2023 <= l.max)?first>
       <#assign lengthCol = lc.color>
       <#assign lengthAlpha = lc.alpha>

@@ -22,6 +22,7 @@
 	</THEAD>
 
 	<#list (features?filter(f -> f.Site.value == currentSite)?sort_by(["Date", "rawValue"])) as feature>
+
 		<#if (feature_index < 2)>
 
 		<TBODY>
@@ -54,8 +55,8 @@
 						</#if>
 				</TD>
 				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
-					<#if feature.Date.value == "2009-01-01">2009-2011
-					<#elseif feature.Date.value == "2023-01-01">2023
+					<#if feature.Date.value?date("dd/MM/yy")?string("dd/MM/yyyy") == "01/01/2009">2009-11
+					<#elseif feature.Date.value?date("dd/MM/yy")?string("dd/MM/yyyy") == "01/01/2023">2023
 					<#else>${feature.Date.value?date("dd/mm/yy")?date}
 					</#if>
 				</TD>
