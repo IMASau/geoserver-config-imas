@@ -5,17 +5,17 @@
 <#assign currentSite = (features?sort_by(["Date","rawValue"])[0].Site.value)!"" >
 
 <div style="padding-top:10px; padding-bottom:10px;">
-<table style="width: auto; table-layout: auto; border-collapse: collapse; border: 1.5px solid #000;">
+<table style="width: auto; table-layout: auto; border-collapse: collapse; border: 1px solid #000;">
 
 	<THEAD>
 		<TR>
-			<th>Marine Park</th>
-			<th>Site</th>
-			<th style="text-align:center;">Zoning</th>
-			<th style="text-align:center;">Fished status</th>
-			<th style="text-align:center;">Survey date</th>
-			<th style="text-align:center;">Fish count</th>
-			<th style="text-align:center;">Average length (cm)</th>
+			<th style="font-size: 90%;">Marine Park</th>
+			<th style="font-size: 90%;">Site</th>
+			<th style="font-size: 90%; text-align:center;">Zoning</th>
+			<th style="font-size: 90%; text-align:center;">Fished status</th>
+			<th style="font-size: 90%; text-align:center;">Survey date</th>
+			<th style="font-size: 90%; text-align:center;">Fish count</th>
+			<th style="font-size: 90%; text-align:center;">Average length (cm)</th>
 		</TR>
 	</THEAD>
 
@@ -24,7 +24,7 @@
 
 		<TBODY>
 			<TR style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#f1f1f4")}'>
-				<TD>
+				<TD style="font-size: 90%;">
 					<#if feature.Area.value == 'Fish Rock'>
 					${feature.Area.value} <i>(not formally protected)</i>
 					<#else>
@@ -35,7 +35,7 @@
 				<TD>
 					${feature.Site.value} <i>(${feature.Location.value})</i>
 				</TD>
-				<TD style="text-align:center;">
+				<TD style="font-size: 90%;text-align:center;">
 					<#if feature.Zoning.value =='National Park Zone'>
 						${feature.Zoning.value} <i>(Cth)</i>
 					<#elseif feature.Zoning.value =='N/A'>
@@ -44,20 +44,20 @@
 						${feature.Zoning.value}
 					</#if>           
 				</TD>
-				<TD style="text-align:center; background-color: <#if feature.Fishing_permitted.value == 'yes'>#f8d4d4<#else>#d4f8d4</#if>;">
+				<TD style="font-size: 90%;text-align:center; background-color: <#if feature.Fishing_permitted.value == 'yes'>#f8d4d4<#else>#d4f8d4</#if>;">
 						<#if feature.Fishing_permitted.value == 'yes'>
 							Fished
 						<#else>
 							Not fished
 						</#if>
 				</TD>
-				<TD style="text-align:center;">
+				<TD style="font-size: 90%;text-align:center;">
 					${feature.Date.value?date("dd/mm/yy")?date}
 				</TD>
-				<TD style="text-align:center;">
+				<TD style="font-size: 90%;text-align:center;">
 					${feature.Count.value}
 				</TD>
-				<TD style="text-align:center;">
+				<TD style="font-size: 90%;text-align:center;">
 					${feature.Length_mean.rawValue}
 					<#if feature.Count.rawValue gt 1>
 						<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.rawValue} - ${feature.Length_max.rawValue})</i></span>
