@@ -4,7 +4,9 @@
 <#-- Determine current site -->
 <#assign currentSite = (features?sort_by(["Date","rawValue"])[0].Site.value)!"" >
 
-<div style="padding-top:5px; padding-bottom:5px;">
+<span style="display:inline-block; padding-top:13px; letter-spacing: 1.3px; font-size: 12px; text-transform: uppercase;">&#128712; <span style="font-size:85%; font-weight: 600;"><i>Layer: Black Rockcod length</i></span></span>
+
+<div style="padding-top:4px; padding-bottom:5px;">
 <table style="width: auto; table-layout: auto; border-collapse: collapse; border: 1px solid rgba(0,0,0,0.4);">
 
 	<THEAD>
@@ -132,7 +134,7 @@
 
 <#assign maxBarWidth = 250>
 
-<div style="display:flex; padding-top:8px; padding-bottom:5px;">
+<div style="display:flex; padding-top:8px; padding-bottom:7px;">
 
   <!-- Left: COUNT -->
   <div style="flex:1; padding-right:10px;">
@@ -205,3 +207,4 @@
   </div>
 
 </div>
+
