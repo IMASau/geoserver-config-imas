@@ -2,7 +2,7 @@
 <#setting number_format="#.#">
 
 <#-- Determine current site -->
-<#assign currentSite = (features?sort_by(["Date","rawValue"])[0].Site.value)!"" >
+<#assign currentSite = (features?sort_by(["Site","value"])[0].Site.value)!"" >
 
 <span style="display:inline-block; padding-top:13px; letter-spacing: 1.3px; font-size: 12px; text-transform: uppercase;">&#128712; <span style="font-size:85%; font-weight: 600;"><i>Layer: Black Rockcod length</i></span></span>
 

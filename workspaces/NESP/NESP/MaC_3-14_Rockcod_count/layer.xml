@@ -19,9 +19,13 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-621da417:19806e3c5e0:-27da</id>
   </resource>
+  <metadata>
+    <entry key="buffer">10</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-07-14 04:37:17.742 UTC</dateCreated>
+  <dateModified>2025-07-14 05:24:02.570 UTC</dateModified>
 </layer>
