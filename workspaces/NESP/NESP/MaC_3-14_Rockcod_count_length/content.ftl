@@ -55,12 +55,18 @@
 					${feature.Date.value?date("dd/mm/yy")?date}
 				</TD>
 				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
-					${feature.Count.value}
+					<#if feature.Count.rawValue != 0>
+						${feature.Count.value}
+					<#else><i style="font-size:95%">No fish sighted</i>
+					</#if>
 				</TD>
 				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
-					${feature.Length_mean.rawValue}
-					<#if feature.Count.rawValue gt 1>
-						<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.rawValue} - ${feature.Length_max.rawValue})</i></span>
+					<#if feature.Count.rawValue != 0>
+						${feature.Length_mean.rawValue}
+						<#if feature.Count.rawValue gt 1>
+							<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.rawValue} - ${feature.Length_max.rawValue})</i></span>
+						</#if>
+					<#else><i>N/A</i>
 					</#if>
 				</TD>
 			</TR>
