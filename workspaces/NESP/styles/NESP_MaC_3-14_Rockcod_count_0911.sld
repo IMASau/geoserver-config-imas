@@ -9,12 +9,12 @@
           <Title>Number of fish sighted</Title>
         </Rule>
 		
-        <!-- Rule for making 2023-24 data invisible -->
+        <!-- Rule for making 2023 data invisible -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	
           <PointSymbolizer>

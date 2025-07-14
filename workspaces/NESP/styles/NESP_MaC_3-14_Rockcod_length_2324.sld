@@ -43,7 +43,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>						  			
           </ogc:Filter>	
@@ -82,7 +82,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>		
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>						
           </ogc:Filter>	
@@ -120,7 +120,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>		
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>					
           </ogc:Filter>	
@@ -154,7 +154,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>				
           </ogc:Filter>	
@@ -190,7 +190,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>						  			
           </ogc:Filter>			  
@@ -229,7 +229,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>		
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>						
           </ogc:Filter>	
@@ -268,7 +268,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>			
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>				
           </ogc:Filter>	
@@ -303,7 +303,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>				
           </ogc:Filter>	
@@ -341,7 +341,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>						  			
           </ogc:Filter>	
@@ -379,7 +379,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>		
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>	
           </ogc:Filter>	
@@ -417,7 +417,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>			
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>	
           </ogc:Filter>	
@@ -451,7 +451,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
+              <ogc:Literal>2023</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		  </ogc:And>				
           </ogc:Filter>		

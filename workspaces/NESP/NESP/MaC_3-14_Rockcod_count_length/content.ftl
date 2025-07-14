@@ -105,7 +105,7 @@
   <#if f.Site.value == currentSite>
     <#if f.Period.value == "2009-11">
       <#assign count2009 = f.Count.value?number!0>
-    <#elseif f.Period.value == "2023-24">
+    <#elseif f.Period.value == "2023">
       <#assign count2023 = f.Count.value?number!0>
     </#if>
   </#if>
@@ -121,7 +121,7 @@
       <#assign length2009 = f.Length_mean.value?number!0>
       <#assign min2009 = f.Length_min.value?number!0>
       <#assign max2009 = f.Length_max.value?number!0>
-    <#elseif f.Period.value == "2023-24">
+    <#elseif f.Period.value == "2023">
       <#assign length2023 = f.Length_mean.value?number!0>
       <#assign min2023 = f.Length_min.value?number!0>
       <#assign max2023 = f.Length_max.value?number!0>
@@ -153,7 +153,7 @@
       <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
     </#if>
 
-    <#-- 2023-24 bar -->
+    <#-- 2023 bar -->
     <#if count2023 gt 0>
       <#assign cc = countCols?filter(c -> count2023 >= c.min && count2023 <= c.max)?first>
       <#assign countCol = cc.color>
@@ -165,7 +165,7 @@
         <span><b>&nbsp;${count2023}</b> fish</span>
       </div>
     <#else>
-      <div style="font-size:90%; margin-bottom:4px;"><i>2023-24: No fish observed</i></div>
+      <div style="font-size:90%; margin-bottom:4px; padding-left:15px;"><i>2023: No fish observed</i></div>
     </#if>
   </div>
 
@@ -188,7 +188,7 @@
       <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
     </#if>
 
-    <#-- 2023-24 bar -->
+    <#-- 2023 bar -->
     <#if length2023 gt 0>
       <#assign lc = lengthCols?filter(l -> length2023 > l.min && length2023 <= l.max)?first>
       <#assign lengthCol = lc.color>
@@ -200,7 +200,7 @@
         <b>&nbsp;${length2023}</b>&nbsp;cm<#if min2023 != max2023><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span></#if>
       </div>
     <#else>
-      <div style="font-size:90%; margin-bottom:4px;"><i>2023-24: No fish observed</i></div>
+      <div style="font-size:90%; margin-bottom:4px; padding-left:15px;"><i>2023: No fish observed</i></div>
     </#if>
   </div>
 

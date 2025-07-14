@@ -7,45 +7,16 @@
         <!-- Rule for pseudo-title -->
         <Rule>
           <Title>Average length (cm)</Title>
-        </Rule>
-		
-        <!-- Rule for making 2023-24 data invisible -->
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2023-24</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>	
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ffffff</CssParameter>
-                  <CssParameter name="fill-opacity">0.002</CssParameter>
-                </Fill>			
-              </Mark>
-              <Size>14</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
-        </Rule>			
+        </Rule>		
 		
 		
         <!-- Zoom levels <50,000 -->
         <Rule>
           <ogc:Filter>
-		  <ogc:And>						  
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:And>						  			
+            </ogc:PropertyIsLessThanOrEqualTo>						  			
           </ogc:Filter>	
           <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
@@ -80,10 +51,6 @@
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>75</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>		
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
 		  </ogc:And>						
           </ogc:Filter>	
           <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
@@ -118,10 +85,6 @@
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>		
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
 		  </ogc:And>					
           </ogc:Filter>	
           <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
@@ -147,16 +110,10 @@
 		  
         <Rule>
           <ogc:Filter>
-		  <ogc:And>						  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:And>				
+            </ogc:PropertyIsGreaterThan>				
           </ogc:Filter>	
           <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  
           <PointSymbolizer>
@@ -183,16 +140,10 @@
         <!-- Zoom levels 50,000 to 600,000-->
         <Rule>
           <ogc:Filter>
-		  <ogc:And>						  
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:And>						  			
+            </ogc:PropertyIsLessThanOrEqualTo>						  			
           </ogc:Filter>			  
           <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
           <MaxScaleDenominator>600000</MaxScaleDenominator>          		  		  		  
@@ -227,10 +178,6 @@
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>75</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>		
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
 		  </ogc:And>						
           </ogc:Filter>	
           <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
@@ -266,10 +213,6 @@
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>			
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
 		  </ogc:And>				
           </ogc:Filter>	
           <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
@@ -296,16 +239,10 @@
 		  
         <Rule>
           <ogc:Filter>
-		  <ogc:And>						  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:And>				
+            </ogc:PropertyIsGreaterThan>			
           </ogc:Filter>	
           <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
           <MaxScaleDenominator>600000</MaxScaleDenominator>
@@ -334,16 +271,10 @@
         <Rule>
           <Title> &#8804; 50</Title>				
           <ogc:Filter>
-		  <ogc:And>						  
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>50</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:And>						  			
           </ogc:Filter>	
           <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
@@ -377,10 +308,6 @@
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>75</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>		
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
 		  </ogc:And>	
           </ogc:Filter>	
           <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
@@ -415,10 +342,6 @@
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>			
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
 		  </ogc:And>	
           </ogc:Filter>	
           <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
@@ -444,16 +367,10 @@
         <Rule>
           <Title> &gt; 100</Title>				
           <ogc:Filter>
-		  <ogc:And>						  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Length_mean</ogc:PropertyName>
               <ogc:Literal>100</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Period</ogc:PropertyName>
-              <ogc:Literal>2009-11</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-		  </ogc:And>				
+            </ogc:PropertyIsGreaterThan>			
           </ogc:Filter>		
           <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
