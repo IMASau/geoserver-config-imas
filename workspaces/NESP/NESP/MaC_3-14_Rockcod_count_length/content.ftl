@@ -5,7 +5,7 @@
 <#assign currentSite = (features?sort_by(["Date","rawValue"])[0].Site.value)!"" >
 
 <div style="padding-top:10px; padding-bottom:10px;">
-<table style="width: auto; table-layout: auto; border-collapse: collapse;">
+<table style="width: auto; table-layout: auto; border-collapse: collapse; border: 1.5px solid #000;">
 
 	<THEAD>
 		<TR>
@@ -45,13 +45,11 @@
 					</#if>           
 				</TD>
 				<TD style="text-align:center; background-color: <#if feature.Fishing_permitted.value == 'yes'>#f8d4d4<#else>#d4f8d4</#if>;">
-					<i>
 						<#if feature.Fishing_permitted.value == 'yes'>
 							Fished
 						<#else>
 							Not fished
 						</#if>
-					</i>
 				</TD>
 				<TD style="text-align:center;">
 					${feature.Date.value?date("dd/mm/yy")?date}
