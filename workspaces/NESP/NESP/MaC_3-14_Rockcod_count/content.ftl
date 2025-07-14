@@ -17,7 +17,7 @@
 			<th style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">Fished status</th>
 			<th style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">Survey date</th>
 			<th style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">Fish count</th>
-			<th style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">Average length (cm)</th>
+			<th style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">Mean length (cm)</th>
 		</TR>
 	</THEAD>
 
@@ -71,7 +71,7 @@
 						<#if feature.Count.rawValue gt 1>
 							<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.rawValue} - ${feature.Length_max.rawValue})</i></span>
 						</#if>
-					<#else><i>N/A</i>
+					<#else><i style="font-size:95%">N/A</i>
 					</#if>
 				</TD>
 			</TR>
@@ -141,7 +141,7 @@
 </#list>
 
 
-<#assign maxBarWidth = 250>
+<#assign maxBarWidth = 240>
 
 <#if count2009 gt 0 || count2023 gt 0>
 

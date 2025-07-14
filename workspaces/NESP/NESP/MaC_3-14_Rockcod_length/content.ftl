@@ -72,7 +72,7 @@
 						<#if feature.Count.rawValue gt 1>
 							<span style="font-size:95%"><i>&nbsp;(${feature.Length_min.rawValue} - ${feature.Length_max.rawValue})</i></span>
 						</#if>
-					<#else><i>N/A</i>
+					<#else><i style="font-size:95%">N/A</i>
 					</#if>
 				</TD>
 			</TR>

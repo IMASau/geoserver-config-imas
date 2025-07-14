@@ -9,12 +9,6 @@
     <style>
       <id>StyleInfoImpl-45c4f183:1978d2f78e4:-29b4</id>
     </style>
-    <style>
-      <id>StyleInfoImpl-621da417:197f5a8229c:7d73</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-621da417:197f5a8229c:747f</id>
-    </style>
   </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-621da417:19806e3c5e0:-27da</id>
@@ -27,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-07-14 04:37:17.742 UTC</dateCreated>
-  <dateModified>2025-07-14 07:04:47.910 UTC</dateModified>
+  <dateModified>2025-07-14 13:11:08.256 UTC</dateModified>
 </layer>

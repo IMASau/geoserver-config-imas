@@ -7,22 +7,10 @@
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
-      <id>StyleInfoImpl-621da417:197f686ad15:-4ec1</id>
-    </style>
-    <style>
       <id>StyleInfoImpl-45c4f183:1978d2f78e4:-77e</id>
     </style>
     <style>
       <id>StyleInfoImpl-45c4f183:1978d2f78e4:-29b4</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-621da417:197f5a8229c:7d73</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-621da417:197f686ad15:-4557</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-621da417:197f5a8229c:747f</id>
     </style>
   </styles>
   <resource class="featureType">
@@ -33,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-06-20 12:01:04.961 UTC</dateCreated>
-  <dateModified>2025-07-14 07:05:02.678 UTC</dateModified>
+  <dateModified>2025-07-14 13:23:52.803 UTC</dateModified>
 </layer>
