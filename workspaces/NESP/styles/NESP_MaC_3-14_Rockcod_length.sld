@@ -404,7 +404,7 @@
         </Rule>
 
         <Rule>
-          <Title> &gt; 75 - 100 (mature)</Title>		
+          <Title> &gt; 75 - 100</Title>		
           <ogc:Filter>
 		  <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -442,7 +442,7 @@
         </Rule>
 		  
         <Rule>
-          <Title> &gt; 100 (mature)</Title>				
+          <Title> &gt; 100</Title>				
           <ogc:Filter>
 		  <ogc:And>						  
             <ogc:PropertyIsGreaterThan>
@@ -473,7 +473,34 @@
               <Size>19</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>     
+        </Rule>
+        
+        <!-- Explanatory legend empty rule --> 
+        <Rule>
+          <Title>------------------</Title>
+        </Rule>        
+        <Rule>
+          <Title> Black border shows mature fish</Title>				
+          <ogc:Filter>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Length_mean</ogc:PropertyName>
+              <ogc:Literal>999</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+          </ogc:Filter>		
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke">#000000</CssParameter>
+                  <CssParameter name="stroke-width">1.6</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>15</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>           
 		
       <VendorOption name="sortBy">Period D</VendorOption>				
       </FeatureTypeStyle>
