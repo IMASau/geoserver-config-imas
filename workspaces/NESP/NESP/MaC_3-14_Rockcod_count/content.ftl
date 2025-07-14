@@ -6,7 +6,7 @@
 
 <span style="display:inline-block; padding-top:13px; letter-spacing: 1.2px; font-size: 12px; text-transform: uppercase;">&#128712; <span style="font-size:85%; font-weight: 500; font-style: italic;">Layer: Black Rockcod count</span></span>
 
-<div style="padding-top:4px; padding-bottom:5px;">
+<div style="padding-top:4px; padding-bottom:10px;">
 <table style="width: auto; table-layout: auto; border-collapse: collapse; border: 1px solid rgba(0,0,0,0.4);">
 
 	<THEAD>
@@ -143,7 +143,9 @@
 
 <#assign maxBarWidth = 250>
 
-<div style="display:flex; padding-top:8px; padding-bottom:7px;">
+<#if count2009 gt 0 || count2023 gt 0>
+
+<div style="display:flex; padding-bottom:7px;">
 
   <!-- Left: COUNT -->
   <div style="flex:1; padding-right:10px;">
@@ -161,7 +163,7 @@
         <span><b>&nbsp;${count2009}</b> fish</span>
       </div>
     <#else>
-      <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
+      <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish sighted</i></div>
     </#if>
 
     <#-- 2023 bar -->
@@ -176,7 +178,7 @@
         <span><b>&nbsp;${count2023}</b> fish</span>
       </div>
     <#else>
-      <div style="font-size:90%; margin-bottom:4px; padding-left:15px;"><i>2023: No fish observed</i></div>
+      <div style="font-size:90%; margin-bottom:4px; padding-left:15px;"><i>2023: No fish sighted</i></div>
     </#if>
   </div>
 
@@ -196,7 +198,7 @@
         <b>&nbsp;${length2009}</b>&nbsp;cm<#if min2009 != max2009><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2009} - ${max2009} cm)</i></span></#if>
       </div>
     <#else>
-      <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish observed</i></div>
+      <div style="font-size:90%; margin-bottom:4px;"><i>2009-11: No fish sighted</i></div>
     </#if>
 
     <#-- 2023 bar -->
@@ -211,9 +213,11 @@
         <b>&nbsp;${length2023}</b>&nbsp;cm<#if min2023 != max2023><span style="font-size:95%;"><i>&nbsp;&nbsp;(${min2023} - ${max2023} cm)</i></span></#if>
       </div>
     <#else>
-      <div style="font-size:90%; margin-bottom:4px; padding-left:15px;"><i>2023: No fish observed</i></div>
+      <div style="font-size:90%; margin-bottom:4px; padding-left:15px;"><i>2023: No fish sighted</i></div>
     </#if>
   </div>
 
 </div>
+</#if>
+
 
