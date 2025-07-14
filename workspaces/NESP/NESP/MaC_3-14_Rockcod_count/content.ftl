@@ -4,7 +4,7 @@
 <#-- Determine current site -->
 <#assign currentSite = (features?sort_by(["Site","value"])[0].Site.value)!"" >
 
-<span style="display:inline-block; padding-top:13px; letter-spacing: 1.3px; font-size: 12px; text-transform: uppercase;">&#128712; <span style="font-size:85%; font-weight: 600;"><i>Layer: Black Rockcod count</i></span></span>
+<span style="display:inline-block; padding-top:13px; letter-spacing: 1.2px; font-size: 12px; text-transform: uppercase;">&#128712; <span style="font-size:85%; font-weight: 500; font-style: italic;">Layer: Black Rockcod count</span></span>
 
 <div style="padding-top:4px; padding-bottom:5px;">
 <table style="width: auto; table-layout: auto; border-collapse: collapse; border: 1px solid rgba(0,0,0,0.4);">

@@ -76,7 +76,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThan>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
@@ -260,7 +260,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThan>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>
@@ -448,7 +448,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThan>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Period</ogc:PropertyName>

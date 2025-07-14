@@ -47,7 +47,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThan>
 		  </ogc:And>				
           </ogc:Filter>	
@@ -207,7 +207,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThan>
 		  </ogc:And>				
           </ogc:Filter>	
@@ -371,7 +371,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThan>
               <ogc:PropertyName>Count</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
+              <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsLessThan>
 		  </ogc:And>				
           </ogc:Filter>	
