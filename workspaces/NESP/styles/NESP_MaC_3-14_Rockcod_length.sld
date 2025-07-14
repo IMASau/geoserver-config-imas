@@ -315,7 +315,7 @@
                   <CssParameter name="stroke-opacity">0.6</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>16</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
@@ -496,7 +496,7 @@
                   <CssParameter name="stroke-opacity">0.6</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>12</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>			
