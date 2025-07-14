@@ -10,7 +10,7 @@
         </Rule>		
 		
 		
-        <!-- Zoom levels <50,000 -->
+        <!-- Zoom levels <50,000 -->			
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -136,8 +136,35 @@
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  		  
         </Rule>	
 		
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>Length_mean</ogc:PropertyName>
+            </ogc:PropertyIsNull>						  			
+          </ogc:Filter>	
+          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#404040</CssParameter>
+                  <CssParameter name="fill-opacity">0.4</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#404040</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>14</Size>
+            </Graphic>
+          </PointSymbolizer>
+	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
+        </Rule>			
+		
 
-        <!-- Zoom levels 50,000 to 600,000-->
+        <!-- Zoom levels 50,000 to 600,000-->		
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -264,10 +291,38 @@
             </Graphic>
           </PointSymbolizer>
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  		  
+        </Rule>	
+
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>Length_mean</ogc:PropertyName>
+            </ogc:PropertyIsNull>						  			
+          </ogc:Filter>	
+          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MaxScaleDenominator>600000</MaxScaleDenominator>  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#404040</CssParameter>
+                  <CssParameter name="fill-opacity">0.4</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#404040</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
         </Rule>			
 
    
-        <!-- Zoom levels >600,000 --> 
+        <!-- Zoom levels >600,000 --> 		
         <Rule>
           <Title> &#8804; 50</Title>				
           <ogc:Filter>
@@ -417,9 +472,36 @@
               <Size>15</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>           
+        </Rule> 
+
+        <Rule>
+          <Title>Survey sites with no fish observed</Title>		
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>Length_mean</ogc:PropertyName>
+            </ogc:PropertyIsNull>						  			
+          </ogc:Filter>	
+          <MinScaleDenominator>600000</MinScaleDenominator>          		  		  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#404040</CssParameter>
+                  <CssParameter name="fill-opacity">0.4</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#404040</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.6</CssParameter>				  
+                </Stroke>				
+              </Mark>
+              <Size>12</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>			
 		
-      <VendorOption name="sortBy">Period D</VendorOption>				
+      <VendorOption name="sortBy">Count A, Period D</VendorOption>				
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
