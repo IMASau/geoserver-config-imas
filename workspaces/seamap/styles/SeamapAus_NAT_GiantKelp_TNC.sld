@@ -10,7 +10,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <Title>Giant Kelp extent</Title>
       <Abstract>Extent of remotely-sensed Giant Kelp canopy, with nearshore (coastal) zones flagged as lower confidence.</Abstract>
-      <FeatureTypeStyle>	        
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Giant kelp extent (zoomed out)</Title>
+          <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		            
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#f92c00</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#f92c00</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>              
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>        
         <Rule>
           <Title>Giant kelp - open coast (high confidence)</Title>
           <ogc:Filter>
@@ -19,6 +32,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Open Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		            
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#00802b</CssParameter>
@@ -33,6 +47,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		                      
           <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#53acac</CssParameter>
