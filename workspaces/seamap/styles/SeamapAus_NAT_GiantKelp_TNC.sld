@@ -20,7 +20,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#f92c00</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>              
+              <CssParameter name="stroke-width">0.6</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>        
@@ -32,6 +32,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Open Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		                      
           <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		            
           <PolygonSymbolizer>		  
             <Fill>
@@ -39,7 +40,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#00802b</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>              
+              <CssParameter name="stroke-width">0.6</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>
@@ -51,6 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		                                
           <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		                      
           <PolygonSymbolizer>		  
             <Fill>
@@ -58,11 +60,50 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#53acac</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>              
+              <CssParameter name="stroke-width">0.6</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>	        
-        
+        <Rule>
+          <Title>Giant kelp - open coast (high confidence)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Macrocystis pyrifera - Open Coast</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		                      
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#00802b</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#00802b</CssParameter>
+              <CssParameter name="stroke-width">0.9</CssParameter>              
+            </Stroke>            
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		                      
+        </Rule>
+        <Rule>
+          <Title>Giant kelp - near-coast (lower confidence)</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		                                
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#53acac</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#53acac</CssParameter>
+              <CssParameter name="stroke-width">0.9</CssParameter>              
+            </Stroke>            
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
+        </Rule>	
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
