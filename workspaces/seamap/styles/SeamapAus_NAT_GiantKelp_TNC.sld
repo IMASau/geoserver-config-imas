@@ -37,6 +37,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Fill>
               <CssParameter name="fill">#00802b</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#00802b</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>              
+            </Stroke>            
           </PolygonSymbolizer>
         </Rule>
         <Rule>
@@ -52,6 +56,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Fill>
               <CssParameter name="fill">#53acac</CssParameter>
             </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#53acac</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>              
+            </Stroke>            
           </PolygonSymbolizer>
         </Rule>	        
         
