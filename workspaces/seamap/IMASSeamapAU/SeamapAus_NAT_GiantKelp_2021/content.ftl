@@ -27,7 +27,7 @@
     <#if primary.Zone.value == "Near-Coast (less reliable)">
       <span style="color:#53acac; font-weight:bold">Near-Coast</span> <i>(less reliable)</i>
     <#else>
-      <span style="color:#00802b; font-weight:bold">Open-Coast</span> <i>(more reliable)</i>
+      <span style="color:#00802b; font-weight:bold">Open Water</span> <i>(more reliable)</i>
     </#if>
 
     <#if yearCount == 1>

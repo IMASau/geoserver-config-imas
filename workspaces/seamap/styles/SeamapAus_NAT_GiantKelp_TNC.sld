@@ -25,11 +25,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Giant kelp - open coast (more reliable)</Title>
+          <Title>Giant kelp - open water (more reliable)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Open Coast</ogc:Literal>
+              <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		                      
@@ -68,7 +68,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Open Coast</ogc:Literal>
+              <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		                      
