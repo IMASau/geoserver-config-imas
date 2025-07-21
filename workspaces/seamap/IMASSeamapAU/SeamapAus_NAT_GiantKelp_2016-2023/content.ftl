@@ -15,24 +15,30 @@
 <#assign yearCount = otherYears?size>
 <#assign totalCount = sortedFeatures?size>
 
-<div class="feature" style="padding-top: 5px; padding-bottom: 5px; line-height:1.5;">
+<div class="feature" style="padding-top: 8px; padding-bottom:5px;">
   <h5>Surface canopy mapping of giant kelp (Southern Aus)</h5>
-  <br>
-  <span style="color:#008000; font-weight:bold">Giant kelp detected</span> in <b>${primary.Year.value}</b>
+<br>
+  <span style="color:#008000; font-weight:bold; font-size:150%">&#10004;</span>&nbsp;&nbsp;<b>Giant kelp detected</b> in <b>${primary.Year.value}</b>
   <i>(patch size: <b>${primary.Area_ha.rawValue} ha</b>)</i>
   <br>
-  <b>Detection zone:</b> ${primary.Zone.value}
+  <span style="font-weight:bold; font-size:110%">&#128269;</span> Detection zone: 
+
+<#if primary.Zone.value == "Near-Coast (lower confidence)">
+<span style="color:#53acac; font-weight:bold">Near-Coast</span> <i>(lower confidence)</i>
+<#else>
+<span style="color:#00802b; font-weight:bold">Open Coast</span> <i>(high confidence)</i>
+</#if>
 
   <#if yearCount == 1>
-    <br><br>Giant kelp also detected at this location in <b>${otherYears[0]}</b>
+    Giant kelp also detected at this location in <b>${otherYears[0]}</b>
   <#elseif yearCount gt 1>
     <#assign sortedYears = otherYears?sort>
-    <br><br>Giant kelp also detected at this location in <b>${sortedYears[0]} - ${sortedYears[yearCount - 1]}</b>
+    &#x1F6C8; Giant kelp also detected at this location in <b>${sortedYears[0]} - ${sortedYears[yearCount - 1]}</b>
   </#if>
 </div>
 
 <#if totalCount gt 1>
-  <div style="margin-top: 10px; font-size: 0.95em;">
+  <div style="margin-top: 12px; margin-bottom:10px; font-size: 0.95em;">
     <i>Multiple detections exist at this point. Zoom in for higher precision.</i>
   </div>
 </#if>
