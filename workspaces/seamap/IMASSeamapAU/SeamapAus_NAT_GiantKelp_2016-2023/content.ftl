@@ -24,10 +24,10 @@
 
     <span style="font-weight:bold; font-size:110%;">&#128269;</span>&nbsp;
     Detection zone:
-    <#if primary.Zone.value == "Near-Coast (lower confidence)">
-      <span style="color:#53acac; font-weight:bold">Near-Coast</span> <i>(lower confidence)</i>
+    <#if primary.Zone.value == "Near-Coast (less reliable)">
+      <span style="color:#53acac; font-weight:bold">Near-Coast</span> <i>(less reliable)</i>
     <#else>
-      <span style="color:#00802b; font-weight:bold">Open Coast</span> <i>(high confidence)</i>
+      <span style="color:#00802b; font-weight:bold">Open-Coast</span> <i>(more reliable)</i>
     </#if>
 
     <#if yearCount == 1>

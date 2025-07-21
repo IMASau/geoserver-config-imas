@@ -25,7 +25,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Giant kelp - open coast (high confidence)</Title>
+          <Title>Giant kelp - open coast (more reliable)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -45,7 +45,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Giant kelp - near-coast (lower confidence)</Title>
+          <Title>Giant kelp - near-coast (less reliable)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -65,7 +65,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	        
         <Rule>
-          <Title>Giant kelp - open coast (high confidence)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
@@ -85,7 +84,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		                      
         </Rule>
         <Rule>
-          <Title>Giant kelp - near-coast (lower confidence)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
