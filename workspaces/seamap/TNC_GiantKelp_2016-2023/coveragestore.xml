@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-16695075:1982d15b64f:-4e8b</id>
+  <name>TNC_GiantKelp_2016-2023</name>
+  <description>Remotely sensed probability of Giant Kelp surface canopy in Southern Australia 2016–2023 (TNC)</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-07-21 23:11:34.259 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/b8dde99d-86e4-48f8-b6f4-7e3a857fe8f8/mapping</url>
+</coverageStore>

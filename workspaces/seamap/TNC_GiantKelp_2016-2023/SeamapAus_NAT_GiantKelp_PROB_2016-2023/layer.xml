@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NAT_GiantKelp_PROB_2016-2023</name>
+  <id>LayerInfoImpl-16695075:1982d15b64f:-4e69</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-16695075:1982b7f1740:5ed9</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-16695075:1982d15b64f:-4e6a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-07-21 23:12:36.906 UTC</dateCreated>
+</layer>
