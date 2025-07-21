@@ -27,7 +27,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" quantity="-999"  opacity="0.0000001" label="Giant kelp probability (%)" /> 
+              <ColorMapEntry color="#ffffff" quantity="-999"  opacity="0.0000001" label="Kelp probability (%)" /> 
               <ColorMapEntry color="#fdef9a" quantity="0.9" label="  100" />
               <ColorMapEntry color="#89d061" quantity="0.75" label="  75" />                            
               <ColorMapEntry color="#43a084" quantity="0.50" label="  50" />              
