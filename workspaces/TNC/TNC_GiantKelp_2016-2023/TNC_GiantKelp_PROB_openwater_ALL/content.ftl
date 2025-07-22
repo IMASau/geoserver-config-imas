@@ -24,8 +24,8 @@
 
         <span style="font-weight:bold;font-size:110%;">&#128269;</span>&nbsp;
         Detection zone: 
-        <span style="color:#4db3b3;font-weight:bold">Near-Coast</span> 
-        <span style="font-size:95%"><i>(less reliable)</i></span>
+        <span style="color:#007c2b;font-weight:bold">Open Water</span> 
+        <span style="font-size:95%"><i>(more reliable)</i></span>
       </div>
     </div>
   </#if>

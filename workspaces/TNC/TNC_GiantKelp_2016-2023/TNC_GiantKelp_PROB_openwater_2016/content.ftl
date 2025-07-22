@@ -10,6 +10,8 @@
       <h5>Probability of giant kelp surface canopy (Southern Aus)</h5>
 
       <div style="padding-top: 15px; line-height: 1.5;">
+        <span style="font-size:95%;">&#x1F4C5;</span>
+          &nbsp;&nbsp;Detection year: <b>2016</b><br> 
         <#if (kelpProb >= 0.45)>
           <span style="color:#008000;font-weight:bold;font-size:150%;">&#10004;</span>
           &nbsp;&nbsp;Giant kelp probability: 
@@ -24,8 +26,8 @@
 
         <span style="font-weight:bold;font-size:110%;">&#128269;</span>&nbsp;
         Detection zone: 
-        <span style="color:#4db3b3;font-weight:bold">Near-Coast</span> 
-        <span style="font-size:95%"><i>(less reliable)</i></span>
+        <span style="color:#007c2b;font-weight:bold">Open Water</span> 
+        <span style="font-size:95%"><i>(more reliable)</i></span>
       </div>
     </div>
   </#if>
