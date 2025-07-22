@@ -14,8 +14,8 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#0b0b35" quantity="0.00001" opacity="0.5" label="  &gt;0" />                                  
-              <ColorMapEntry color="#2d115f" quantity="0.15" opacity="0.5" label="  15" />                            
+              <ColorMapEntry color="#0b0b35" quantity="0.00001" opacity="0.2" label="  &gt;0" />                                  
+              <ColorMapEntry color="#2d115f" quantity="0.15" opacity="0.35" label="  15" />                            
               <ColorMapEntry color="#721f81" quantity="0.30" opacity="0.5" label="  30" />                            
               <ColorMapEntry color="#b6367a" quantity="0.45" label="  45 (min threshold)" />               
               <ColorMapEntry color="#f1605d" quantity="0.60" label="  60" />
@@ -35,8 +35,8 @@
               <ColorMapEntry color="#f1605d" quantity="0.60" label="  60" />
               <ColorMapEntry color="#b6367a" quantity="0.45" label="  45 (min threshold)" />               
               <ColorMapEntry color="#721f81" quantity="0.30" opacity="0.5" label="  30" />                            
-              <ColorMapEntry color="#2d115f" quantity="0.15" opacity="0.5" label="  15" />                            
-              <ColorMapEntry color="#0b0b35" quantity="0.00001" opacity="0.5" label="  &gt;0" />                            
+              <ColorMapEntry color="#2d115f" quantity="0.15" opacity="0.35" label="  15" />                            
+              <ColorMapEntry color="#0b0b35" quantity="0.00001" opacity="0.2" label="  &gt;0" />                            
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    

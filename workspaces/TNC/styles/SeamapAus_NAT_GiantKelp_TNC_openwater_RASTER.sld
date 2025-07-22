@@ -14,13 +14,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#2a186c" quantity="0.00001" opacity="0.5" label="  &gt;0" />                                  
-              <ColorMapEntry color="#14439c" quantity="0.15" opacity="0.5" label="  15" />                            
+              <ColorMapEntry color="#2a186c" quantity="0.00001" opacity="0.2" label="  &gt;0" />                                  
+              <ColorMapEntry color="#14439c" quantity="0.15" opacity="0.35" label="  15" />                            
               <ColorMapEntry color="#206e8b" quantity="0.30" opacity="0.5" label="  30" />                            
               <ColorMapEntry color="#3c9387" quantity="0.45" label="  45 (min threshold)" />               
               <ColorMapEntry color="#5ab978" quantity="0.60" label="  60" />
               <ColorMapEntry color="#aad85c" quantity="0.75" label="  75" />                            
-              <ColorMapEntry color="#fdef9a" quantity="0.9" label="  &#8805;90" />
+              <ColorMapEntry color="#dcff80" quantity="0.9" label="  &#8805;90" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -30,13 +30,13 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" quantity="-999"  opacity="0.0000001" label="Kelp prob (%) - open water" /> 
-              <ColorMapEntry color="#fdef9a" quantity="0.9" label="  &#8805;90" />
+              <ColorMapEntry color="#dcff80" quantity="0.9" label="  &#8805;90" />
               <ColorMapEntry color="#aad85c" quantity="0.75" label="  75" />                            
               <ColorMapEntry color="#5ab978" quantity="0.60" label="  60" />
               <ColorMapEntry color="#3c9387" quantity="0.45" label="  45 (min threshold)" />               
               <ColorMapEntry color="#206e8b" quantity="0.30" opacity="0.5" label="  30" />                            
-              <ColorMapEntry color="#14439c" quantity="0.15" opacity="0.5" label="  15" />                            
-              <ColorMapEntry color="#2a186c" quantity="0.00001" opacity="0.5" label="  &gt;0" />                            
+              <ColorMapEntry color="#14439c" quantity="0.15" opacity="0.35" label="  15" />                            
+              <ColorMapEntry color="#2a186c" quantity="0.00001" opacity="0.2" label="  &gt;0" />                            
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    

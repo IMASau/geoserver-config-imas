@@ -9,6 +9,14 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>1.5546809999938939E7</double>
+          <double>-5444214.462990606</double>
+          <double>1.671067800001789E7</double>
+          <double>-4346060.957024747</double>
+        </coords>
+      </extent>
       <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
