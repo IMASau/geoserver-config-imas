@@ -32,15 +32,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		                      
+          <MinScaleDenominator>80000</MinScaleDenominator>          		  		  		                      
           <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#00802b</CssParameter>
+              <CssParameter name="fill">#007c2b</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#00802b</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>              
+              <CssParameter name="stroke">#007c2b</CssParameter>
+              <CssParameter name="stroke-width">1.6</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>
@@ -52,15 +52,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		                                
+          <MinScaleDenominator>80000</MinScaleDenominator>          		  		  		                                
           <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		                      
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#53acac</CssParameter>
+              <CssParameter name="fill">#4db3b3</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#53acac</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>              
+              <CssParameter name="stroke">#4db3b3</CssParameter>
+              <CssParameter name="stroke-width">1.6</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
         </Rule>	        
@@ -71,14 +71,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		                      
+          <MaxScaleDenominator>80000</MaxScaleDenominator>          		  		  		                      
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#00802b</CssParameter>
+              <CssParameter name="fill">#007c2b</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#00802b</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>              
+              <CssParameter name="stroke">#007c2b</CssParameter>
+              <CssParameter name="stroke-width">2.2</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		                      
@@ -90,14 +90,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		                                
+          <MaxScaleDenominator>80000</MaxScaleDenominator>          		  		  		                                
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#53acac</CssParameter>
+              <CssParameter name="fill">#4db3b3</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#53acac</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>              
+              <CssParameter name="stroke">#4db3b3</CssParameter>
+              <CssParameter name="stroke-width">2.2</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
