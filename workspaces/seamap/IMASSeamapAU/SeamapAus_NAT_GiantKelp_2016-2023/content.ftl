@@ -1,4 +1,4 @@
-<#setting number_format="#,###.##">
+<#setting number_format="#,###.####">
 
 <#assign sortedFeatures = features?sort_by(["Year", "value"])?reverse>
 <#assign primary = sortedFeatures[0]>
