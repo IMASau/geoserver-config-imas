@@ -52,7 +52,7 @@
     <position>BOT_RIGHT</position>
     <transparency>100</transparency>
   </watermark>
-  <interpolation>Bilinear</interpolation>
+  <interpolation>Nearest</interpolation>
   <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
   <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
