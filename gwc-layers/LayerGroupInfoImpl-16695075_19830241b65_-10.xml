@@ -1,0 +1,24 @@
+<GeoServerTileLayer>
+  <id>LayerGroupInfoImpl-16695075:19830241b65:-10</id>
+  <enabled>false</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>TNC:TNC_GiantKelp_PROB_ALL</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <maxCachedLevel>18</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>4</int>
+    <int>4</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>

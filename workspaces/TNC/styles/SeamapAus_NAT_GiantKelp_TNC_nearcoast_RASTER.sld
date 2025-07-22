@@ -14,13 +14,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#2a186c" quantity="0.00001" opacity="0.5" label="  &gt;0" />                                  
-              <ColorMapEntry color="#14439c" quantity="0.15" opacity="0.5" label="  15" />                            
-              <ColorMapEntry color="#206e8b" quantity="0.30" opacity="0.5" label="  30" />                            
-              <ColorMapEntry color="#3c9387" quantity="0.45" label="  45 (min threshold)" />               
-              <ColorMapEntry color="#5ab978" quantity="0.60" label="  60" />
-              <ColorMapEntry color="#aad85c" quantity="0.75" label="  75" />                            
-              <ColorMapEntry color="#fdef9a" quantity="0.9" label="  &#8805;90" />
+              <ColorMapEntry color="#0b0b35" quantity="0.00001" opacity="0.5" label="  &gt;0" />                                  
+              <ColorMapEntry color="#2d115f" quantity="0.15" opacity="0.5" label="  15" />                            
+              <ColorMapEntry color="#721f81" quantity="0.30" opacity="0.5" label="  30" />                            
+              <ColorMapEntry color="#b6367a" quantity="0.45" label="  45 (min threshold)" />               
+              <ColorMapEntry color="#f1605d" quantity="0.60" label="  60" />
+              <ColorMapEntry color="#feaf78" quantity="0.75" label="  75" />                            
+              <ColorMapEntry color="#fcff88" quantity="0.9" label="  &#8805;90" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -29,14 +29,14 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" quantity="-999"  opacity="0.0000001" label="Kelp prob (%) - open water" /> 
-              <ColorMapEntry color="#fdef9a" quantity="0.9" label="  &#8805;90" />
-              <ColorMapEntry color="#aad85c" quantity="0.75" label="  75" />                            
-              <ColorMapEntry color="#5ab978" quantity="0.60" label="  60" />
-              <ColorMapEntry color="#3c9387" quantity="0.45" label="  45 (min threshold)" />               
-              <ColorMapEntry color="#206e8b" quantity="0.30" opacity="0.5" label="  30" />                            
-              <ColorMapEntry color="#14439c" quantity="0.15" opacity="0.5" label="  15" />                            
-              <ColorMapEntry color="#2a186c" quantity="0.00001" opacity="0.5" label="  &gt;0" />                            
+              <ColorMapEntry color="#ffffff" quantity="-999"  opacity="0.0000001" label="Kelp prob (%) - near-coast" /> 
+              <ColorMapEntry color="#fcff88" quantity="0.9" label="  &#8805;90" />
+              <ColorMapEntry color="#feaf78" quantity="0.75" label="  75" />                            
+              <ColorMapEntry color="#f1605d" quantity="0.60" label="  60" />
+              <ColorMapEntry color="#b6367a" quantity="0.45" label="  45 (min threshold)" />               
+              <ColorMapEntry color="#721f81" quantity="0.30" opacity="0.5" label="  30" />                            
+              <ColorMapEntry color="#2d115f" quantity="0.15" opacity="0.5" label="  15" />                            
+              <ColorMapEntry color="#0b0b35" quantity="0.00001" opacity="0.5" label="  &gt;0" />                            
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    

@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-16695075:19830241b65:-d0</id>
+  <name>TNC_GiantKelp_PROB_2016</name>
+  <mode>SINGLE</mode>
+  <title>TNC Giant Kelp probability: 2016</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-16695075:1982f53b98a:3209</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-16695075:19830241b65:-e5</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-16695075:1982d15b64f:-4e69</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-16695075:198300c2ef9:-51d2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-16695075:1982b7f1740:5ed9</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>139.27881711921063</minx>
+    <maxx>150.21353296569694</maxx>
+    <miny>-43.86919096736544</miny>
+    <maxy>-36.25561859149172</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-07-22 03:37:49.721 UTC</dateCreated>
+</layerGroup>

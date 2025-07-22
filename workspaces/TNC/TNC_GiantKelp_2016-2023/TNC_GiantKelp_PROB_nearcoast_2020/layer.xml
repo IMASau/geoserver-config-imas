@@ -1,0 +1,16 @@
+<layer>
+  <name>TNC_GiantKelp_PROB_nearcoast_2020</name>
+  <id>LayerInfoImpl-16695075:19830241b65:-dd</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-16695075:198300c2ef9:-51d2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-16695075:19830241b65:-de</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-07-22 03:33:42.426 UTC</dateCreated>
+</layer>

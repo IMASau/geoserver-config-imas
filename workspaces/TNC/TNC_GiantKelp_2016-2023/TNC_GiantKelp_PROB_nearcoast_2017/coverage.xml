@@ -1,0 +1,171 @@
+<coverage>
+  <id>CoverageInfoImpl-16695075:19830241b65:-e4</id>
+  <name>TNC_GiantKelp_PROB_nearcoast_2017</name>
+  <nativeName>TNC_GiantKelp_PROB_nearcoast_2017</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-16695075:1982f53b98a:320a</id>
+  </namespace>
+  <title>TNC Giant Kelp probability: near-coast - 2017</title>
+  <description>Generated from ImageMosaic</description>
+  <keywords>
+    <string>mapping</string>
+    <string>WCS</string>
+    <string>ImageMosaic</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>139.27881711921063</minx>
+    <maxx>150.21353296569694</maxx>
+    <miny>-43.86919096736544</miny>
+    <maxy>-36.25561859149172</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>139.27881711921063</minx>
+    <maxx>150.21353296569694</maxx>
+    <miny>-43.86919096736544</miny>
+    <maxy>-36.25561859149172</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">TNC_GiantKelp_2016-2023_mapping</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-16695075:1982d15b64f:-4e8b</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>ImageMosaic</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>405749 282513</high>
+    </range>
+    <transform>
+      <scaleX>2.694945852358553E-5</scaleX>
+      <scaleY>-2.694945852358553E-5</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>139.2788305939399</translateX>
+      <translateY>-36.25563206622098</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>0.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:4326</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:4326</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>BackgroundValues</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>OVERVIEW_POLICY</string>
+      <string>QUALITY</string>
+    </entry>
+    <entry>
+      <string>MergeBehavior</string>
+      <string>FLAT</string>
+    </entry>
+    <entry>
+      <string>AllowMultithreading</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MaxAllowedTiles</string>
+      <int>-1</int>
+    </entry>
+    <entry>
+      <string>ExcessGranuleRemoval</string>
+      <string>NONE</string>
+    </entry>
+    <entry>
+      <string>OutputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>USE_JAI_IMAGEREAD</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>Filter</string>
+      <string>Zone = &apos;near-coast (less reliable)&apos; AND Year=2017</string>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+    <entry>
+      <string>Accurate resolution computation</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>SORTING</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>FootprintBehavior</string>
+      <string>None</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>mapping</nativeCoverageName>
+</coverage>
