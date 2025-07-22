@@ -16,10 +16,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		            
           <PolygonSymbolizer>		  
             <Fill>
-              <CssParameter name="fill">#f92c00</CssParameter>
+              <CssParameter name="fill">#8600b3</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#f92c00</CssParameter>
+              <CssParameter name="stroke">#8600b3</CssParameter>
               <CssParameter name="stroke-width">0.6</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
