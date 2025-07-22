@@ -144,7 +144,7 @@
     </entry>
     <entry>
       <string>Filter</string>
-      <null/>
+      <string>Zone = &apos;open water (more reliable)&apos;</string>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
