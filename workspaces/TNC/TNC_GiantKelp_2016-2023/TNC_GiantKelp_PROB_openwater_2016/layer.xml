@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_NAT_GiantKelp_PROB_2016-2023</name>
+  <name>TNC_GiantKelp_PROB_openwater_2016</name>
   <id>LayerInfoImpl-16695075:1982d15b64f:-4e69</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-07-21 23:12:36.906 UTC</dateCreated>
-  <dateModified>2025-07-22 01:49:35.895 UTC</dateModified>
+  <dateModified>2025-07-22 02:27:56.613 UTC</dateModified>
 </layer>

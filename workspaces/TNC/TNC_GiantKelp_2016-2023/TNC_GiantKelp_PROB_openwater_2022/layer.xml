@@ -1,0 +1,16 @@
+<layer>
+  <name>TNC_GiantKelp_PROB_openwater_2022</name>
+  <id>LayerInfoImpl-16695075:1982f53b98a:3561</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-16695075:1982b7f1740:5ed9</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-16695075:1982f53b98a:3560</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-07-22 02:27:43.26 UTC</dateCreated>
+</layer>

@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl-16695075:1982d15b64f:-4e6a</id>
-  <name>SeamapAus_NAT_GiantKelp_PROB_2016-2023</name>
-  <nativeName>SeamapAus_NAT_GiantKelp_PROB_2016-2023</nativeName>
+  <id>CoverageInfoImpl-16695075:1982f53b98a:3560</id>
+  <name>TNC_GiantKelp_PROB_openwater_2022</name>
+  <nativeName>TNC_GiantKelp_PROB_openwater_2022</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl-16695075:1982f53b98a:320a</id>
   </namespace>
-  <title>Seamap Australia - NATIONAL - Probability of Giant Kelp surface canopy in Southern Australia 2016–2023 (TNC)</title>
+  <title>TNC Giant Kelp probability: open water - 2022</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>mapping</string>
@@ -38,6 +38,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">TNC_GiantKelp_2016-2023_mapping</entry>
@@ -143,7 +144,7 @@
     </entry>
     <entry>
       <string>Filter</string>
-      <string>Year=2023</string>
+      <string>Zone = &apos;open water (more reliable)&apos; AND Year=2022</string>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
