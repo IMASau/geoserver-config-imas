@@ -71,6 +71,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000</MinScaleDenominator>          		  		  		                                		  		  
           <MaxScaleDenominator>80000</MaxScaleDenominator>          		  		  		                      
           <PolygonSymbolizer>		  
             <Fill>
@@ -90,6 +91,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000</MinScaleDenominator>          		  		  		                                		  
           <MaxScaleDenominator>80000</MaxScaleDenominator>          		  		  		                                
           <PolygonSymbolizer>		  
             <Fill>
@@ -102,6 +104,44 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
         </Rule>	
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MaxScaleDenominator>10000</MaxScaleDenominator>          		  		  		                      
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#007c2b</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#007c2b</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>              
+            </Stroke>            
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		                      
+        </Rule>
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MaxScaleDenominator>10000</MaxScaleDenominator>          		  		  		                                
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#4db3b3</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#4db3b3</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>              
+            </Stroke>            
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
+        </Rule>			
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
