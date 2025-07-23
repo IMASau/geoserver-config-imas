@@ -1,4 +1,4 @@
-<#setting number_format="#,###.####">
+<#setting number_format="#,###.#">
 
 <#-- 1. Sort and pick the most recent feature -->
 <#assign sortedFeatures = features?sort_by(["Year","value"])?reverse>
@@ -63,7 +63,14 @@
   <div style="padding-top: 15px; line-height: 1.35;">
     <span style="color:#008000;font-weight:bold;font-size:150%;">&#10004;</span>&nbsp;&nbsp;
     <b>Giant kelp detected</b> in <b>${primaryYear?string("0")}</b>
-    <i>(patch size: <b>${primary.Area_ha.rawValue} ha</b>)</i><br>
+
+    <i>(patch size: <b>
+    <#if (primary.Area_ha.rawValue lt 0.1)>
+        ${primary.Area_ha.rawValue*10000} m&#178;</b>)
+    <#else>
+        ${primary.Area_ha.rawValue} ha</b>)
+    </#if>
+    </i><br>
 
     <span style="font-weight:bold;font-size:110%;">&#128269;</span>&nbsp;
     Detection zone:
