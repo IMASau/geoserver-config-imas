@@ -11,7 +11,7 @@
     <Title>Seafloor RGB (0–255, black transparent)</Title>
     <FeatureTypeStyle>
       <Rule>
-        <RasterSymbolizer>
+        <RasterSymbolizer>          
           <ChannelSelection>
             <RedChannel>
               <SourceChannelName>1</SourceChannelName>
@@ -44,6 +44,7 @@
               </ContrastEnhancement>
             </BlueChannel>
           </ChannelSelection>
+       
         </RasterSymbolizer>
       </Rule>
     </FeatureTypeStyle>
