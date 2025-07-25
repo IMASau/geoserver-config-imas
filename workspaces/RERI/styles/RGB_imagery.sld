@@ -8,11 +8,10 @@
 <NamedLayer>
   <Name>Seafloor RGB Mosaic</Name>
   <UserStyle>
-    <Title>Seafloor RGB (0–255)</Title>
+    <Title>Seafloor RGB (0–255, black transparent)</Title>
     <FeatureTypeStyle>
       <Rule>
         <RasterSymbolizer>
-          <Opacity>1.0</Opacity>
           <ChannelSelection>
             <RedChannel>
               <SourceChannelName>1</SourceChannelName>
