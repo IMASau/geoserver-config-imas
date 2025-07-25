@@ -115,7 +115,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <unit>W.m-2.Sr-1</unit>
       <dimensionType>
@@ -130,7 +130,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <unit>W.m-2.Sr-1</unit>
       <dimensionType>
@@ -145,7 +145,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <unit>W.m-2.Sr-1</unit>
       <dimensionType>
