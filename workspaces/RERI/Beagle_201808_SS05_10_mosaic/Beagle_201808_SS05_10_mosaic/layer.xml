@@ -1,0 +1,16 @@
+<layer>
+  <name>Beagle_201808_SS05_10_mosaic</name>
+  <id>LayerInfoImpl--273f763c:19845a527dd:-213d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--273f763c:19845a527dd:-213e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-07-26 13:35:49.131 UTC</dateCreated>
+</layer>

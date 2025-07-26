@@ -1,0 +1,223 @@
+<coverage>
+  <id>CoverageInfoImpl--273f763c:19845a527dd:-213e</id>
+  <name>Beagle_201808_SS05_10_mosaic</name>
+  <nativeName>Beagle_201808_SS05_10_mosaic</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
+  </namespace>
+  <title>AUV stitched image mosaic: Tasmania 201808 - SS05_Beagle_Shelf_10</title>
+  <description>Generated from ImageMosaic</description>
+  <keywords>
+    <string>mosaic</string>
+    <string>WCS</string>
+    <string>ImageMosaic</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;unnamed&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, 147.1001281738281], 
+  PARAMETER[&quot;latitude_of_origin&quot;, -39.29540634155273], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:200005</srs>
+  <nativeBoundingBox>
+    <minx>-212.603927612305</minx>
+    <maxx>3526.87158203125</maxx>
+    <miny>-1771.315185546875</miny>
+    <maxy>0.683428823948</maxy>
+    <crs class="projected">PROJCS[&quot;unnamed&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, 147.1001281738281], 
+  PARAMETER[&quot;latitude_of_origin&quot;, -39.29540634155273], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH]]</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>147.0976630709907</minx>
+    <maxx>147.14102158633128</maxx>
+    <miny>-39.31136105165898</miny>
+    <maxy>-39.29539300762551</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">Beagle_201808_SS05_10_mosaic_mosaic</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--273f763c:19845a527dd:-2140</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>ImageMosaic</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>1496594 709163</high>
+    </range>
+    <transform>
+      <scaleX>0.0024986567459704947</scaleX>
+      <scaleY>-0.002498716819943909</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>-212.60267828393202</translateX>
+      <translateY>0.682179465538028</translateY>
+    </transform>
+    <crs>EPSG:200005</crs>
+  </grid>
+  <supportedFormats>
+    <string>GEOTIFF</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>RED_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>255.0</double>
+      </nullValues>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>GREEN_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>255.0</double>
+      </nullValues>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BLUE_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>255.0</double>
+      </nullValues>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <parameters>
+    <entry>
+      <string>BackgroundValues</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>OVERVIEW_POLICY</string>
+      <string>QUALITY</string>
+    </entry>
+    <entry>
+      <string>MergeBehavior</string>
+      <string>FLAT</string>
+    </entry>
+    <entry>
+      <string>AllowMultithreading</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MaxAllowedTiles</string>
+      <int>300</int>
+    </entry>
+    <entry>
+      <string>ExcessGranuleRemoval</string>
+      <string>NONE</string>
+    </entry>
+    <entry>
+      <string>OutputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>USE_JAI_IMAGEREAD</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>Filter</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+    <entry>
+      <string>Accurate resolution computation</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>SORTING</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>FootprintBehavior</string>
+      <string>Cut</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>mosaic</nativeCoverageName>
+</coverage>
