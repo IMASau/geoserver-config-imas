@@ -175,7 +175,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>500</int>
+      <int>300</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
@@ -187,7 +187,7 @@
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
-      <boolean>true</boolean>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>Bands</string>
