@@ -33,35 +33,17 @@
   AXIS[&quot;Northing&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:200002</srs>
   <nativeBoundingBox>
-    <minx>-328.354034423828</minx>
-    <maxx>657.753356933594</maxx>
+    <minx>-332.877471923828</minx>
+    <maxx>662.276794433594</maxx>
     <miny>-1107.869384765625</miny>
     <maxy>240.1123046875</maxy>
-    <crs class="projected">PROJCS[&quot;unknown&quot;, 
-  GEOGCS[&quot;WGS 84&quot;, 
-    DATUM[&quot;World Geodetic System 1984&quot;, 
-      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-    UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Geodetic longitude&quot;, EAST], 
-    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 147.175689697266], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.4412460327148], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
-  PARAMETER[&quot;false_northing&quot;, 0.0], 
-  UNIT[&quot;m&quot;, 1.0], 
-  AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH]]</crs>
+    <crs class="projected">EPSG:200002</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.1718748877159</minx>
-    <maxx>147.183331460475</maxx>
-    <miny>-39.45122467561981</miny>
-    <maxy>-39.439083073413556</maxy>
+    <minx>147.17182233452377</minx>
+    <maxx>147.18338401366586</maxx>
+    <miny>-39.4512246795043</miny>
+    <maxy>-39.43908306995031</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
