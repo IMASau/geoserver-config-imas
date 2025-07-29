@@ -62,7 +62,7 @@
 
   <div style="padding-top: 15px; line-height: 1.35;">
     <span style="color:#008000;font-weight:bold;font-size:150%;">&#10004;</span>&nbsp;&nbsp;
-    <b>Giant kelp detected</b> in <b>${primaryYear?string("0")}</b>
+    <b>Vegetation detected</b> in <b>${primaryYear?string("0")}</b>
 
     <i>(patch size: <b>
     <#if (primary.Area_ha.rawValue lt 0.1)>
@@ -73,11 +73,11 @@
     </i><br>
 
     <span style="font-weight:bold;font-size:110%;">&#128269;</span>&nbsp;
-    Detection zone:
-    <#if primary.Zone.value == "Near-Coast (less reliable)">
-      <span style="color:#4db3b3;font-weight:bold">Near-Coast</span> <i>(less reliable)</i>
+    Zone:
+    <#if primary.Zone.value?contains("Near")>
+      <span style="color:#4db3b3;font-weight:bold">Near-Coast & Estuarine/Embayment vegetation - </span> <i>unidentified</i>
     <#else>
-      <span style="color:#007c2b;font-weight:bold">Open Water</span> <i>(more reliable)</i>
+      <span style="color:#007c2b;font-weight:bold">Open Water vegetation - </span> <i>Giant Kelp likely</i>
     </#if>
 
     <#-- 4. Only show the “also detected” line if we have a summary -->
