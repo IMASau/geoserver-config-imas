@@ -25,12 +25,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Giant kelp - open water (more reliable)</Title>
+          <Title>Open Water vegetation - Giant Kelp likely</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*Open*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>80000</MinScaleDenominator>          		  		  		                      
           <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		            
@@ -45,12 +45,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Giant kelp - near-coast (less reliable)</Title>
+          <Title>Near-Coast &amp; Estuarine/Embayment vegetation - unidentified</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*Near*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>80000</MinScaleDenominator>          		  		  		                                
           <MaxScaleDenominator>500000</MaxScaleDenominator>          		  		  		                      
@@ -66,10 +66,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>	        
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*Open*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>          		  		  		                                		  		  
           <MaxScaleDenominator>80000</MaxScaleDenominator>          		  		  		                      
@@ -86,10 +86,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*Near*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>          		  		  		                                		  
           <MaxScaleDenominator>80000</MaxScaleDenominator>          		  		  		                                
@@ -106,10 +106,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>	
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Open Water</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*Open*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>10000</MaxScaleDenominator>          		  		  		                      
           <PolygonSymbolizer>		  
@@ -118,17 +118,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#007c2b</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>              
+              <CssParameter name="stroke-width">4</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		                      
         </Rule>
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Macrocystis pyrifera - Near-Coast</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*Near*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>10000</MaxScaleDenominator>          		  		  		                                
           <PolygonSymbolizer>		  
@@ -137,7 +137,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#4db3b3</CssParameter>
-              <CssParameter name="stroke-width">3</CssParameter>              
+              <CssParameter name="stroke-width">4</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
