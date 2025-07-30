@@ -75,7 +75,7 @@
     <span style="font-weight:bold;font-size:110%;">&#128269;</span>&nbsp;
     Zone:
     <#if primary.Zone.value?contains("Near")>
-      <span style="color:#4db3b3;font-weight:bold">Near-Coast & Estuarine/Embayment vegetation - </span> <i>unidentified</i>
+      <span style="color:#4db3b3;font-weight:bold">Near-Coast & Estuary/Embayment vegetation - </span> <i>unidentified</i>
     <#else>
       <span style="color:#007c2b;font-weight:bold">Open Water vegetation - </span> <i>Giant Kelp likely</i>
     </#if>
