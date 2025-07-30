@@ -80,7 +80,7 @@
       <span style="color:#007c2b;font-weight:bold">Open Water vegetation - </span> <i>Giant Kelp likely</i>
     </#if>
 
-    <#-- 4. Only show the “also detected” line if we have a summary -->
+    <#-- 4. Only show the "also detected" line if we have a summary -->
     <#if summary?has_content>
       <br><br>
       <span style="font-size:130%;">&#x1F6C8;</span>&nbsp;&nbsp;
