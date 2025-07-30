@@ -31,7 +31,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>TNC:SeamapAus_NAT_GiantKelp_TNC</defaultStyle>
+      <defaultStyle>TNC:SeamapAus_NAT_GiantKelp_TNC_bright</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

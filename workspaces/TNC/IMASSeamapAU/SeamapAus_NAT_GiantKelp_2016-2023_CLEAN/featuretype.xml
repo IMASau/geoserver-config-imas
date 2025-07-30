@@ -21,7 +21,7 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>139.65937042300004</minx>
+    <minx>139.65937042200005</minx>
     <maxx>150.11457455400011</maxx>
     <miny>-43.86266919899998</miny>
     <maxy>-36.32954095599996</maxy>
