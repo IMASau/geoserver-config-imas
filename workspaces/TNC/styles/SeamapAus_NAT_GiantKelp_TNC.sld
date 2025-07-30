@@ -6,13 +6,13 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Giant Kelp extent</Name>
+    <Name>Vegetation extent</Name>
     <UserStyle>
-      <Title>Giant Kelp extent</Title>
+      <Title>Vegetation detections</Title>
       <Abstract>Extent of remotely-sensed Giant Kelp canopy, with nearshore (coastal) zones flagged as lower confidence.</Abstract>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Giant kelp extent (zoomed out)</Title>
+          <Title>Vegetation detections (zoomed out)</Title>
           <MinScaleDenominator>500000</MinScaleDenominator>          		  		  		            
           <PolygonSymbolizer>		  
             <Fill>
@@ -45,7 +45,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Near-Coast &amp; Estuarine/Embayment vegetation - unidentified</Title>
+          <Title>Near-Coast &amp; Estuary/Embayment vegetation</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
