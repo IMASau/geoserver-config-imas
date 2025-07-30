@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--488987c8:19859e64c65:-137</id>
+  <name>SeamapAus_Ext_OI_NorfolkMP_substrate_2022_grp</name>
+  <mode>SINGLE</mode>
+  <title>Seamap Australia - Ext Territories - Nearshore &amp; coastal habitat mapping of Norfolk Marine Park 2022 (Ocean Infinity, Parks Australia)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:19859e64c65:-138</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:19859e64c65:-37c</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--488987c8:19859e64c65:-457</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>167.74306403049064</minx>
+    <maxx>168.17210478270695</maxx>
+    <miny>-29.179124640820714</miny>
+    <maxy>-28.882511364059656</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-07-30 11:21:32.798 UTC</dateCreated>
+</layerGroup>

@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--488987c8:19859e64c65:-381</id>
+  <name>OI_NorfolkMP_hillshade</name>
+  <description>Hillshade from OI bathymetry (AU420)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-07-30 11:06:03.91 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/227466d6-30d3-4567-9ee3-2eb8c98e14bc/Seabed/NFK_1m_Depth_hs_WGS84.tif</url>
+</coverageStore>
