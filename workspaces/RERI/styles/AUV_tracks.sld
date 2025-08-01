@@ -23,11 +23,11 @@
             </ogc:PropertyIsEqualTo>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>                    
+          <MinScaleDenominator>20000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0000ff</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>        
@@ -45,11 +45,11 @@
             </ogc:PropertyIsEqualTo>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>                    
+          <MinScaleDenominator>20000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#b300b3</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -67,23 +67,23 @@
             </ogc:PropertyIsEqualTo>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>                    
+          <MinScaleDenominator>20000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#b300b3</CssParameter> <!-- Dashed white line -->
-              <CssParameter name="stroke-width">2</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter> <!-- Dashed pattern -->
+              <CssParameter name="stroke">#b300b3</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke-dasharray">5 3</CssParameter> <!-- Dashed pattern -->
             </Stroke>
           </LineSymbolizer>
         </Rule> 		
         
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 
-          <MinScaleDenominator>100000</MinScaleDenominator>          
+          <MinScaleDenominator>20000</MinScaleDenominator>
+          <MaxScaleDenominator>400000</MaxScaleDenominator>                    
           <TextSymbolizer>
              <Label>
                <ogc:PropertyName>deployment</ogc:PropertyName>
-               <ogc:Literal>0</ogc:Literal>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
@@ -99,11 +99,22 @@
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
             </Fill>    
-            <VendorOption name="followLine">true</VendorOption>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                             
-        </Rule>        
+        </Rule>
         
+        <Rule>
+          <Title>Faint zoomed in outline (not displayed)</Title>
+          <MaxScaleDenominator>20000</MaxScaleDenominator>                    
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter> <!-- Dashed pattern -->
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
+        </Rule>         
 
       </FeatureTypeStyle>
     </UserStyle>

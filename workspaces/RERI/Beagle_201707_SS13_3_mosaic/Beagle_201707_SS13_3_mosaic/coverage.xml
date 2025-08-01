@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl--273f763c:1984b1cb7ec:-4dfc</id>
-  <name>Beagle_201707_SS10_8_mosaic</name>
-  <nativeName>Beagle_201707_SS10_8_mosaic</nativeName>
+  <id>CoverageInfoImpl--488987c8:198642d4221:-49b1</id>
+  <name>Beagle_201707_SS13_3_mosaic</name>
+  <nativeName>Beagle_201707_SS13_3_mosaic</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>AUV stitched image mosaic: Tasmania 201707 - SS10_Beagle_Shelf_8</title>
+  <title>AUV stitched image mosaic: Tasmania 201707 - SS13_Beagle_Shelf_3</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>mosaic</string>
@@ -23,20 +23,20 @@
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
   PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 146.7747650146484], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.25503540039062], 
+  PARAMETER[&quot;central_meridian&quot;, 147.1313018798828], 
+  PARAMETER[&quot;latitude_of_origin&quot;, -39.34811782836914], 
   PARAMETER[&quot;scale_factor&quot;, 1.0], 
   PARAMETER[&quot;false_easting&quot;, 0.0], 
   PARAMETER[&quot;false_northing&quot;, 0.0], 
   UNIT[&quot;m&quot;, 1.0], 
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH]]</nativeCRS>
-  <srs>EPSG:200008</srs>
+  <srs>EPSG:200003</srs>
   <nativeBoundingBox>
-    <minx>-21.011348724365</minx>
-    <maxx>791.480102539062</maxx>
-    <miny>-960.702270507812</miny>
-    <maxy>161.837036132812</maxy>
+    <minx>-321.656463623047</minx>
+    <maxx>627.669128417969</maxx>
+    <miny>-939.107788085938</miny>
+    <maxy>362.214965820312</maxy>
     <crs class="projected">PROJCS[&quot;unnamed&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
     DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -48,8 +48,8 @@
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
   PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 146.7747650146484], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.25503540039062], 
+  PARAMETER[&quot;central_meridian&quot;, 147.1313018798828], 
+  PARAMETER[&quot;latitude_of_origin&quot;, -39.34811782836914], 
   PARAMETER[&quot;scale_factor&quot;, 1.0], 
   PARAMETER[&quot;false_easting&quot;, 0.0], 
   PARAMETER[&quot;false_northing&quot;, 0.0], 
@@ -58,21 +58,20 @@
   AXIS[&quot;Northing&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>146.774521557098</minx>
-    <maxx>146.7839358588583</maxx>
-    <miny>-39.26368878246056</miny>
-    <maxy>-39.253577315205256</maxy>
+    <minx>147.1275699302678</minx>
+    <maxx>147.13858427529695</maxx>
+    <miny>-39.35657656200546</miny>
+    <maxy>-39.34485505234321</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201707_SS10_8_mosaic_mosaic</entry>
+    <entry key="dirName">Beagle_201707_SS13_3_mosaic_mosaic</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--273f763c:1984b1cb7ec:-4dfd</id>
+    <id>CoverageStoreInfoImpl--488987c8:1984c0913fa:-52d0</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -82,17 +81,17 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>596399 823968</high>
+      <high>406906 557781</high>
     </range>
     <transform>
-      <scaleX>0.0013623275156102366</scaleX>
-      <scaleY>-0.001362357552595461</scaleY>
+      <scaleX>0.0023330328032716307</scaleX>
+      <scaleY>-0.0023330328032717426</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-21.010667560607196</translateX>
-      <translateY>161.8363549540357</translateY>
+      <translateX>-321.6552971066454</translateX>
+      <translateY>362.2137993039104</translateY>
     </transform>
-    <crs>EPSG:200008</crs>
+    <crs>EPSG:200003</crs>
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
@@ -118,7 +117,6 @@
       <nullValues>
         <double>255.0</double>
       </nullValues>
-      <unit>0</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -133,7 +131,6 @@
       <nullValues>
         <double>255.0</double>
       </nullValues>
-      <unit>0</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -148,12 +145,17 @@
       <nullValues>
         <double>255.0</double>
       </nullValues>
-      <unit>0</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
+  <requestSRS>
+    <string>EPSG:200003</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:200003</string>
+  </responseSRS>
   <parameters>
     <entry>
       <string>BackgroundValues</string>
@@ -217,7 +219,7 @@
     </entry>
     <entry>
       <string>FootprintBehavior</string>
-      <string>Cut</string>
+      <string>None</string>
     </entry>
   </parameters>
   <nativeCoverageName>mosaic</nativeCoverageName>

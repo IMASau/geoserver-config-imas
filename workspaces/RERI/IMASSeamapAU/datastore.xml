@@ -1,0 +1,25 @@
+<dataStore>
+  <id>DataStoreInfoImpl--488987c8:198640846b2:-4f6</id>
+  <name>IMASSeamapAU</name>
+  <description>Seamap SQL Storage Database</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">RERI</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2025-08-01 05:34:27.463 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>
