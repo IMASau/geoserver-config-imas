@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--488987c8:1986445f503:12a2</id>
+  <name>RERI14_AUV_mosaics</name>
+  <mode>SINGLE</mode>
+  <title>AUV imagery mosaics (IMOS Sirius) - Beagle AMP</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--69b40751:198408b56ba:-2106</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--273f763c:19845a527dd:-213d</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--488987c8:198640846b2:-176e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>146.77452250041313</minx>
+    <maxx>147.18334349990266</maxx>
+    <miny>-39.45122140004753</miny>
+    <maxy>-39.25358420005074</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-08-01 06:42:28.797 UTC</dateCreated>
+  <dateModified>2025-08-01 06:53:00.692 UTC</dateModified>
+</layerGroup>
