@@ -1,0 +1,41 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--488987c8:19866790612:-49d4</id>
+  <name>RERI14_AUV_mosaics_Beagle</name>
+  <mode>SINGLE</mode>
+  <title>Raw &amp; stitched image mosaics of Beagle AMP</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:1986445f503:-2401</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:1986445f503:12a1</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--488987c8:198640846b2:-176e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>146.77452250041313</minx>
+    <maxx>147.18334349990266</maxx>
+    <miny>-39.45122140004753</miny>
+    <maxy>-39.25358420005074</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-08-01 21:20:29.658 UTC</dateCreated>
+</layerGroup>
