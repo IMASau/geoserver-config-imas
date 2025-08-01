@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--488987c8:198640846b2:-4ef</id>
-  <name>RERI14_AUV_Beagle</name>
+  <name>RERI14_AUV_tracks_Beagle</name>
   <nativeName>RERI14_AUV_Beagle</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>IMOS AUV tracks</title>
+  <title>Beagle AUV tracks</title>
   <keywords>
     <string>features</string>
     <string>RERI14_AUV_Beagle</string>

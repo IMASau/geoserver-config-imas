@@ -48,7 +48,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Beagle_201808_SS13_12_mosaic_mosaic</entry>
@@ -158,7 +158,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>50</int>
+      <int>100</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
