@@ -6,8 +6,6 @@
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
-  <internationalTitle/>
-  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
@@ -15,16 +13,10 @@
     <published type="layer">
       <id>LayerInfoImpl--488987c8:1986445f503:-2401</id>
     </published>
-    <published type="layer">
-      <id>LayerInfoImpl--488987c8:1986445f503:4120</id>
-    </published>
   </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl--488987c8:198640846b2:-176e</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
     </style>
     <style>
       <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
@@ -45,5 +37,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-08-01 06:42:28.797 UTC</dateCreated>
-  <dateModified>2025-08-01 11:28:10.762 UTC</dateModified>
+  <dateModified>2025-08-01 11:55:06.564 UTC</dateModified>
 </layerGroup>
