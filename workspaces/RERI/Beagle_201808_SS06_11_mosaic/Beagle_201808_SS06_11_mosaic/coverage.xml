@@ -179,7 +179,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>200</int>
+      <int>50</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
