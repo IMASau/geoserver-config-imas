@@ -79,7 +79,7 @@
         
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 
-          <MinScaleDenominator>1000</MinScaleDenominator>
+          <MinScaleDenominator>300</MinScaleDenominator>
           <MaxScaleDenominator>400000</MaxScaleDenominator>                    
           <TextSymbolizer>
              <Label>

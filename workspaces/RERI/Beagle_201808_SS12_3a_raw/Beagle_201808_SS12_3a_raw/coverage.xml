@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>AUV raw image mosaic: Tasmania 201808 - SS12_Beagle_Shelf_3a</title>
+  <title>AUV raw mosaic: Tas 201808 - SS12_Beagle_Shelf_3a</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>raw</string>
@@ -49,7 +49,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Beagle_201808_SS12_3a_raw_raw</entry>
@@ -159,7 +159,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>50</int>
+      <int>100</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
