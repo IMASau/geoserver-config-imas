@@ -15,6 +15,9 @@
     <published type="layer">
       <id>LayerInfoImpl--488987c8:1986445f503:-2401</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:1986445f503:4120</id>
+    </published>
   </publishables>
   <styles>
     <style>
@@ -23,12 +26,15 @@
     <style>
       <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
     </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
   </styles>
   <bounds>
-    <minx>146.77452250041313</minx>
+    <minx>146.774521557098</minx>
     <maxx>147.18334349990266</maxx>
     <miny>-39.45122140004753</miny>
-    <maxy>-39.25358420005074</maxy>
+    <maxy>-39.253577315205256</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
   <metadata>
@@ -39,5 +45,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-08-01 06:42:28.797 UTC</dateCreated>
-  <dateModified>2025-08-01 08:23:50.878 UTC</dateModified>
+  <dateModified>2025-08-01 11:28:10.762 UTC</dateModified>
 </layerGroup>

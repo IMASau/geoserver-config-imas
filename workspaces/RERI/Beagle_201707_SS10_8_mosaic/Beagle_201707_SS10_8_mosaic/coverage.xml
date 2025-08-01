@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--273f763c:1984b1cb7ec:-4dfc</id>
+  <id>CoverageInfoImpl--488987c8:1986445f503:411f</id>
   <name>Beagle_201707_SS10_8_mosaic</name>
   <nativeName>Beagle_201707_SS10_8_mosaic</nativeName>
   <namespace>
@@ -12,15 +12,15 @@
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
-  <nativeCRS class="projected">PROJCS[&quot;unnamed&quot;, 
+  <nativeCRS class="projected">PROJCS[&quot;ACFR_Beagle_Shelf_201707_SS10&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
-    DATUM[&quot;World Geodetic System 1984&quot;, 
+    DATUM[&quot;WGS_1984&quot;, 
       SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
       AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0], 
     UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Geodetic longitude&quot;, EAST], 
-    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
   PROJECTION[&quot;Transverse_Mercator&quot;], 
   PARAMETER[&quot;central_meridian&quot;, 146.7747650146484], 
@@ -30,14 +30,15 @@
   PARAMETER[&quot;false_northing&quot;, 0.0], 
   UNIT[&quot;m&quot;, 1.0], 
   AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH]]</nativeCRS>
-  <srs>EPSG:200008</srs>
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;200008&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-21.011348724365</minx>
-    <maxx>791.480102539062</maxx>
-    <miny>-960.702270507812</miny>
-    <maxy>161.837036132812</maxy>
-    <crs class="projected">EPSG:200008</crs>
+    <minx>146.774521557098</minx>
+    <maxx>146.7839358588583</maxx>
+    <miny>-39.26368878246056</miny>
+    <maxy>-39.253577315205256</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>146.774521557098</minx>
@@ -46,9 +47,9 @@
     <maxy>-39.253577315205256</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Beagle_201707_SS10_8_mosaic_mosaic</entry>
@@ -74,7 +75,7 @@
       <translateX>-21.010667560607196</translateX>
       <translateY>161.8363549540357</translateY>
     </transform>
-    <crs>EPSG:200008</crs>
+    <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
@@ -100,7 +101,6 @@
       <nullValues>
         <double>255.0</double>
       </nullValues>
-      <unit>0</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -115,7 +115,6 @@
       <nullValues>
         <double>255.0</double>
       </nullValues>
-      <unit>0</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -130,12 +129,17 @@
       <nullValues>
         <double>255.0</double>
       </nullValues>
-      <unit>0</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
     </coverageDimension>
   </dimensions>
+  <requestSRS>
+    <string>EPSG:200008</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:200008</string>
+  </responseSRS>
   <parameters>
     <entry>
       <string>BackgroundValues</string>
