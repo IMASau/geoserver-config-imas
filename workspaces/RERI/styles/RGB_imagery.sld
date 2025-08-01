@@ -11,7 +11,7 @@
     <Title>Seafloor RGB (0–255, black transparent)</Title>
     <FeatureTypeStyle>
       <Rule>
-        <MaxScaleDenominator>500</MaxScaleDenominator>                            
+        <MaxScaleDenominator>300</MaxScaleDenominator>                            
         <RasterSymbolizer>          
           <ChannelSelection>
             <RedChannel>
