@@ -12,16 +12,10 @@
     <published type="layer">
       <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
     </published>
-    <published type="layer">
-      <id>LayerInfoImpl--488987c8:19869b47c1e:4183</id>
-    </published>
   </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl--488987c8:198640846b2:-176e</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
     </style>
   </styles>
   <bounds>
@@ -32,5 +26,5 @@
     <crs class="projected">EPSG:32755</crs>
   </bounds>
   <dateCreated>2025-08-02 05:48:57.986 UTC</dateCreated>
-  <dateModified>2025-08-02 10:20:23.117 UTC</dateModified>
+  <dateModified>2025-08-02 14:44:06.220 UTC</dateModified>
 </layerGroup>

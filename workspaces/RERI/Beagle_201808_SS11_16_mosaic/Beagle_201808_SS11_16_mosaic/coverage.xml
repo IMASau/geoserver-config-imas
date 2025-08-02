@@ -1,18 +1,18 @@
 <coverage>
-  <id>CoverageInfoImpl--273f763c:19848eb4064:-48da</id>
+  <id>CoverageInfoImpl--488987c8:19869b5555d:-d42</id>
   <name>Beagle_201808_SS11_16_mosaic</name>
-  <nativeName>Beagle_201808_SS11_16_mosaic</nativeName>
+  <nativeName>Beagle_201808_SS11_16_mosaic2</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
   <title>AUV stitched mosaic: Tas 201808 - SS11_Beagle_Shelf_16</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>mosaic</string>
+    <string>mosaic_adj</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
-  <nativeCRS class="projected">PROJCS[&quot;unnamed&quot;, 
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 55S&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
     DATUM[&quot;World Geodetic System 1984&quot;, 
       SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -22,57 +22,40 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 147.0807800292969], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.40415573120117], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
-  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
   UNIT[&quot;m&quot;, 1.0], 
   AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH]]</nativeCRS>
-  <srs>EPSG:200007</srs>
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
+  <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>-38.493827819824</minx>
-    <maxx>839.204040527344</maxx>
-    <miny>-1582.766235351562</miny>
-    <maxy>13.5146484375</maxy>
-    <crs class="projected">PROJCS[&quot;unnamed&quot;, 
-  GEOGCS[&quot;WGS 84&quot;, 
-    DATUM[&quot;World Geodetic System 1984&quot;, 
-      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-    UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Geodetic longitude&quot;, EAST], 
-    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 147.0807800292969], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.40415573120117], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
-  PARAMETER[&quot;false_northing&quot;, 0.0], 
-  UNIT[&quot;m&quot;, 1.0], 
-  AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH]]</crs>
+    <minx>506916.4414566181</minx>
+    <maxx>507684.8229270043</maxx>
+    <miny>5636786.549138326</miny>
+    <maxy>5638382.692928932</maxy>
+    <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.0803330186452</minx>
-    <maxx>147.09052530961242</maxx>
-    <miny>-39.41841188780186</miny>
-    <maxy>-39.404033595083575</maxy>
+    <minx>147.080333003778</minx>
+    <maxx>147.08927592181314</maxx>
+    <miny>-39.418416391841625</miny>
+    <maxy>-39.404027497793095</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201808_SS11_16_mosaic_mosaic</entry>
+    <entry key="dirName">Beagle_201808_SS11_16_mosaic2_mosaic_adj</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--273f763c:19848eb4064:-4c6c</id>
+    <id>CoverageStoreInfoImpl--488987c8:19869b5555d:-fd6</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -82,17 +65,17 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>347470 631957</high>
+      <high>304317 632151</high>
     </range>
     <transform>
-      <scaleX>0.0025259603665570753</scaleX>
-      <scaleY>-0.0025259303295708437</scaleY>
+      <scaleX>0.002524936788777988</scaleX>
+      <scaleY>-0.002524936788777988</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-38.49256483964072</translateX>
-      <translateY>13.513385472335214</translateY>
+      <translateX>506916.4427190865</translateX>
+      <translateY>5638382.691666463</translateY>
     </transform>
-    <crs>EPSG:200007</crs>
+    <crs>EPSG:32755</crs>
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
@@ -116,7 +99,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -130,7 +113,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -144,7 +127,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -152,10 +135,10 @@
     </coverageDimension>
   </dimensions>
   <requestSRS>
-    <string>EPSG:200007</string>
+    <string>EPSG:32755</string>
   </requestSRS>
   <responseSRS>
-    <string>EPSG:200007</string>
+    <string>EPSG:32755</string>
   </responseSRS>
   <parameters>
     <entry>
@@ -176,7 +159,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>100</int>
+      <int>50</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
@@ -223,5 +206,5 @@
       <string>Cut</string>
     </entry>
   </parameters>
-  <nativeCoverageName>mosaic</nativeCoverageName>
+  <nativeCoverageName>mosaic_adj</nativeCoverageName>
 </coverage>

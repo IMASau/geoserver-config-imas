@@ -19,7 +19,7 @@
       <id>LayerInfoImpl--488987c8:1986445f503:12a1</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--488987c8:19869b5555d:-15bb</id>
+      <id>LayerInfoImpl--488987c8:19869b5555d:-d41</id>
     </published>
   </publishables>
   <styles>
@@ -44,5 +44,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-08-01 21:20:29.658 UTC</dateCreated>
-  <dateModified>2025-08-02 13:42:34.240 UTC</dateModified>
+  <dateModified>2025-08-02 14:49:39.264 UTC</dateModified>
 </layerGroup>
