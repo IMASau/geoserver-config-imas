@@ -1,13 +1,16 @@
 <layerGroup>
   <id>LayerGroupInfoImpl--488987c8:1986925b7f8:-2d38</id>
   <name>test</name>
-  <mode>SINGLE</mode>
+  <mode>NAMED</mode>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
   <internationalTitle/>
   <internationalAbstract/>
   <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
+    </published>
     <published type="layer">
       <id>LayerInfoImpl--488987c8:1986925b7f8:-2df4</id>
     </published>
@@ -17,6 +20,9 @@
   </publishables>
   <styles>
     <style>
+      <id>StyleInfoImpl--488987c8:198640846b2:-176e</id>
+    </style>
+    <style>
       <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
     </style>
     <style>
@@ -24,12 +30,12 @@
     </style>
   </styles>
   <bounds>
-    <minx>147.080333003778</minx>
-    <maxx>147.12145934558424</maxx>
-    <miny>-39.418416391841625</miny>
-    <maxy>-39.367255817003176</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>480545.3818226023</minx>
+    <maxx>515819.215502187</maxx>
+    <miny>5633124.693404609</miny>
+    <maxy>5655082.080404966</maxy>
+    <crs class="projected">EPSG:32755</crs>
   </bounds>
   <dateCreated>2025-08-02 05:48:57.986 UTC</dateCreated>
-  <dateModified>2025-08-02 05:55:20.831 UTC</dateModified>
+  <dateModified>2025-08-02 06:12:48.737 UTC</dateModified>
 </layerGroup>

@@ -1,4 +1,4 @@
 <logging>
-  <level>PRODUCTION_LOGGING</level>
+  <level>DEFAULT_LOGGING</level>
   <stdOutLogging>false</stdOutLogging>
 </logging>
