@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--488987c8:1986925b7f8:-2d38</id>
+  <name>test</name>
+  <mode>SINGLE</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:1986925b7f8:-2df4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:1986445f503:-2401</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>147.080333003778</minx>
+    <maxx>147.12145934558424</maxx>
+    <miny>-39.418416391841625</miny>
+    <maxy>-39.367255817003176</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-08-02 05:48:57.986 UTC</dateCreated>
+  <dateModified>2025-08-02 05:55:20.831 UTC</dateModified>
+</layerGroup>
