@@ -166,7 +166,7 @@
     </entry>
     <entry>
       <string>OutputTransparentColor</string>
-      <string>#FFFFFF</string>
+      <null/>
     </entry>
     <entry>
       <string>USE_JAI_IMAGEREAD</string>
