@@ -23,7 +23,7 @@
             </ogc:PropertyIsEqualTo>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>300</MinScaleDenominator>                    
+          <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0000ff</CssParameter>
@@ -45,7 +45,7 @@
             </ogc:PropertyIsEqualTo>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>300</MinScaleDenominator>                    
+          <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#b300b3</CssParameter>
@@ -67,7 +67,7 @@
             </ogc:PropertyIsEqualTo>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>300</MinScaleDenominator>                    
+          <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#b300b3</CssParameter>
@@ -79,7 +79,6 @@
         
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 
-          <MinScaleDenominator>300</MinScaleDenominator>
           <MaxScaleDenominator>400000</MaxScaleDenominator>                    
           <TextSymbolizer>
              <Label>
@@ -105,7 +104,7 @@
         
         <Rule>
           <Title>Faint zoomed in outline (not displayed)</Title>
-          <MaxScaleDenominator>300</MaxScaleDenominator>                    
+          <MaxScaleDenominator>1000</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
