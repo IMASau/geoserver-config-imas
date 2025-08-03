@@ -1,5 +1,5 @@
 <coverageStore>
-  <id>CoverageStoreInfoImpl--273f763c:198433033f3:788d</id>
+  <id>CoverageStoreInfoImpl--488987c8:1986d9f90ae:-8b2</id>
   <name>Beagle_201808_SS09_14_mosaic</name>
   <description>Tasmania 201808 - SS09_Beagle_Shelf_14 stitched image mosaic</description>
   <type>ImageMosaic</type>
@@ -8,8 +8,7 @@
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
   <__default>false</__default>
-  <dateCreated>2025-07-26 07:29:27.736 UTC</dateCreated>
-  <dateModified>2025-07-26 11:23:02.204 UTC</dateModified>
+  <dateCreated>2025-08-03 04:30:55.420 UTC</dateCreated>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/RERI14/Beagle/Tasmania201808/SS09_Beagle_Shelf_14/mosaic</url>
 </coverageStore>

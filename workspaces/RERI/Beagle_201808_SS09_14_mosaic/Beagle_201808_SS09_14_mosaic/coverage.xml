@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--273f763c:19845a527dd:-772e</id>
+  <id>CoverageInfoImpl--488987c8:1986d9f90ae:c1d</id>
   <name>Beagle_201808_SS09_14_mosaic</name>
   <nativeName>Beagle_201808_SS09_14_mosaic</nativeName>
   <namespace>
@@ -12,7 +12,7 @@
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
-  <nativeCRS class="projected">PROJCS[&quot;unknown&quot;, 
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 55S&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
     DATUM[&quot;World Geodetic System 1984&quot;, 
       SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
@@ -22,57 +22,40 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 147.148345947266], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.3738822937012], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
-  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 147.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
   UNIT[&quot;m&quot;, 1.0], 
   AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH]]</nativeCRS>
-  <srs>EPSG:200001</srs>
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
+  <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>-4.278176784515</minx>
-    <maxx>2687.814453125</maxx>
-    <miny>-912.8408203125</miny>
-    <maxy>275.628814697266</maxy>
-    <crs class="projected">PROJCS[&quot;unknown&quot;, 
-  GEOGCS[&quot;WGS 84&quot;, 
-    DATUM[&quot;World Geodetic System 1984&quot;, 
-      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
-      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
-    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
-    UNIT[&quot;degree&quot;, 0.017453292519943295], 
-    AXIS[&quot;Geodetic longitude&quot;, EAST], 
-    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
-    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
-  PARAMETER[&quot;central_meridian&quot;, 147.148345947266], 
-  PARAMETER[&quot;latitude_of_origin&quot;, -39.3738822937012], 
-  PARAMETER[&quot;scale_factor&quot;, 1.0], 
-  PARAMETER[&quot;false_easting&quot;, 0.0], 
-  PARAMETER[&quot;false_northing&quot;, 0.0], 
-  UNIT[&quot;m&quot;, 1.0], 
-  AXIS[&quot;Easting&quot;, EAST], 
-  AXIS[&quot;Northing&quot;, NORTH]]</crs>
+    <minx>512773.2072729928</minx>
+    <maxx>515463.3649608086</maxx>
+    <miny>5640805.159326355</miny>
+    <maxy>5641996.408567028</maxy>
+    <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.1482962925678</minx>
-    <maxx>147.17954208826356</maxx>
-    <miny>-39.38210440309569</miny>
-    <maxy>-39.37139547655778</maxy>
+    <minx>147.14828900170335</minx>
+    <maxx>147.1795474244946</maxx>
+    <miny>-39.382138986391624</miny>
+    <maxy>-39.371360958228</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Beagle_201808_SS09_14_mosaic_mosaic</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--273f763c:198433033f3:788d</id>
+    <id>CoverageStoreInfoImpl--488987c8:1986d9f90ae:-8b2</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -82,17 +65,17 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>1440676 636016</high>
+      <high>1440219 637754</high>
     </range>
     <transform>
-      <scaleX>0.0018686309574158352</scaleX>
-      <scaleY>-0.001868615938922244</scaleY>
+      <scaleX>0.0018678802758360013</scaleX>
+      <scaleY>-0.0018678802758360013</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>-4.277242469036292</translateX>
-      <translateY>275.62788038929654</translateY>
+      <translateX>512773.20820693293</translateX>
+      <translateY>5641996.407633088</translateY>
     </transform>
-    <crs>EPSG:200001</crs>
+    <crs>EPSG:32755</crs>
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
@@ -116,7 +99,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -130,7 +113,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -144,7 +127,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>255.0</double>
+        <double>0.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
@@ -152,10 +135,10 @@
     </coverageDimension>
   </dimensions>
   <requestSRS>
-    <string>EPSG:200001</string>
+    <string>EPSG:32755</string>
   </requestSRS>
   <responseSRS>
-    <string>EPSG:200001</string>
+    <string>EPSG:32755</string>
   </responseSRS>
   <parameters>
     <entry>
@@ -176,7 +159,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>100</int>
+      <int>150</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
