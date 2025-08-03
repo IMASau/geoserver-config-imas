@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--488987c8:19869b5555d:-d42</id>
-  <name>Beagle_201808_SS11_16_mosaic</name>
-  <nativeName>Beagle_201808_SS11_16_mosaic2</nativeName>
+  <id>CoverageInfoImpl--488987c8:1986f1be7d2:-5e17</id>
+  <name>Beagle_201808_SS13_12_mosaic</name>
+  <nativeName>Beagle_201808_SS13_12_mosaic</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>AUV stitched mosaic: Tas 201808 - SS11_Beagle_Shelf_16</title>
+  <title>AUV stitched mosaic: Tas 201808 - SS13_Beagle_Shelf_12</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>mosaic_adj</string>
+    <string>mosaic</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -34,17 +34,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>506916.4414566181</minx>
-    <maxx>507684.8229270043</maxx>
-    <miny>5636786.549138326</miny>
-    <maxy>5638382.692928932</maxy>
+    <minx>511299.0802668687</minx>
+    <maxx>512159.6322619565</maxx>
+    <miny>5647086.7452559285</miny>
+    <maxy>5647787.586191675</maxy>
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.080333003778</minx>
-    <maxx>147.08927592181314</maxx>
-    <miny>-39.418416391841625</miny>
-    <maxy>-39.404027497793095</maxy>
+    <minx>147.13107783368514</minx>
+    <maxx>147.1410735423685</maxx>
+    <miny>-39.32555752450281</miny>
+    <maxy>-39.31923069467675</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -52,10 +52,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201808_SS11_16_mosaic2_mosaic_adj</entry>
+    <entry key="dirName">Beagle_201808_SS13_12_mosaic_mosaic</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--488987c8:19869b5555d:-fd6</id>
+    <id>CoverageStoreInfoImpl--488987c8:1986f1be7d2:-7517</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -65,15 +65,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>304317 632151</high>
+      <high>272251 221724</high>
     </range>
     <transform>
-      <scaleX>0.002524936788777988</scaleX>
-      <scaleY>-0.002524936788777988</scaleY>
+      <scaleX>0.0031608692759738</scaleX>
+      <scaleY>-0.0031608692759738</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>506916.4427190865</translateX>
-      <translateY>5638382.691666463</translateY>
+      <translateX>511299.0818473033</translateX>
+      <translateY>5647787.58461124</translateY>
     </transform>
     <crs>EPSG:32755</crs>
   </grid>
@@ -206,5 +206,5 @@
       <string>Cut</string>
     </entry>
   </parameters>
-  <nativeCoverageName>mosaic_adj</nativeCoverageName>
+  <nativeCoverageName>mosaic</nativeCoverageName>
 </coverage>

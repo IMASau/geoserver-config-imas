@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--488987c8:1986f1be7d2:-7517</id>
+  <name>Beagle_201808_SS13_12_mosaic</name>
+  <description>Tasmania 201808 - SS13_Beagle_Shelf_12 stitched image mosaic</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-08-03 09:38:59.560 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/RERI14/Beagle/Tasmania201808/SS13_Beagle_Shelf_12/mosaic</url>
+</coverageStore>
