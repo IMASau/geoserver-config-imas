@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--488987c8:1986b9dfaba:38e8</id>
+  <id>CoverageInfoImpl--488987c8:1986d9f90ae:5553</id>
   <name>Beagle_201808_SS06_11_mosaic</name>
   <nativeName>Beagle_201808_SS06_11_mosaic</nativeName>
   <namespace>
@@ -55,7 +55,7 @@
     <entry key="dirName">Beagle_201808_SS06_11_mosaic_mosaic</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--488987c8:1986b9dfaba:1aab</id>
+    <id>CoverageStoreInfoImpl--488987c8:1986d9f90ae:3718</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -159,7 +159,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>50</int>
+      <int>150</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
