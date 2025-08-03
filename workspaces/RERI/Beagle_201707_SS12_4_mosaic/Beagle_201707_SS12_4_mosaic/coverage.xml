@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl--488987c8:1986fb6be03:1ffd</id>
-  <name>Beagle_201808_SS11_16_mosaic</name>
-  <nativeName>Beagle_201808_SS11_16_mosaic</nativeName>
+  <id>CoverageInfoImpl--488987c8:1986fb6be03:1b31</id>
+  <name>Beagle_201707_SS12_4_mosaic</name>
+  <nativeName>Beagle_201707_SS12_4_mosaic</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>AUV stitched mosaic: Tas 201808 - SS11_Beagle_Shelf_16</title>
+  <title>AUV stitched mosaic: Tas 201707 - SS12_Beagle_Shelf_4</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>mosaic</string>
@@ -34,17 +34,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>506916.4414566181</minx>
-    <maxx>507792.66836841847</maxx>
-    <miny>5636786.549138326</miny>
-    <maxy>5638382.692928932</maxy>
+    <minx>510484.9590140227</minx>
+    <maxx>511413.8985940383</maxx>
+    <miny>5645166.928271709</miny>
+    <maxy>5646164.694867245</maxy>
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.080333003778</minx>
-    <maxx>147.09052877956967</maxx>
-    <miny>-39.418416391841625</miny>
-    <maxy>-39.40402653007838</maxy>
+    <minx>147.1216587694061</minx>
+    <maxx>147.13245435366477</maxx>
+    <miny>-39.34286690045055</miny>
+    <maxy>-39.33386444852907</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -52,10 +52,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201808_SS11_16_mosaic_mosaic</entry>
+    <entry key="dirName">Beagle_201707_SS12_4_mosaic_mosaic</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--488987c8:1986fb6be03:1c73</id>
+    <id>CoverageStoreInfoImpl--488987c8:1986fb6be03:-1d5b</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -65,15 +65,15 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>347029 632151</high>
+      <high>389526 418387</high>
     </range>
     <transform>
-      <scaleX>0.002524936788777988</scaleX>
-      <scaleY>-0.002524936788777988</scaleY>
+      <scaleX>0.0023847896652829936</scaleX>
+      <scaleY>-0.0023847896652829936</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>506916.4427190865</translateX>
-      <translateY>5638382.691666463</translateY>
+      <translateX>510484.96020641754</translateX>
+      <translateY>5646164.69367485</translateY>
     </transform>
     <crs>EPSG:32755</crs>
   </grid>

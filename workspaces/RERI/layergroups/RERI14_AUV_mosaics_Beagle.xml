@@ -31,10 +31,10 @@
       <id>LayerInfoImpl--488987c8:1986d9f90ae:c1e</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--488987c8:19869b5555d:-d41</id>
+      <id>LayerInfoImpl--488987c8:1986d9f90ae:5caa</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--488987c8:1986d9f90ae:5caa</id>
+      <id>LayerInfoImpl--488987c8:1986fb6be03:1ffe</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--488987c8:1986f1be7d2:-7771</id>
@@ -79,12 +79,12 @@
     </style>
   </styles>
   <bounds>
-    <minx>146.77452250041313</minx>
+    <minx>146.77449373582087</minx>
     <maxx>147.18340345329224</maxx>
     <miny>-39.45123627729797</miny>
-    <maxy>-39.25358420005074</maxy>
+    <maxy>-39.25356757482626</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-08-01 21:20:29.658 UTC</dateCreated>
-  <dateModified>2025-08-03 11:48:23.453 UTC</dateModified>
+  <dateModified>2025-08-03 13:48:25.534 UTC</dateModified>
 </layerGroup>
