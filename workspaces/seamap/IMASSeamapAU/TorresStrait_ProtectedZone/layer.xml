@@ -1,0 +1,16 @@
+<layer>
+  <name>TorresStrait_ProtectedZone</name>
+  <id>LayerInfoImpl--488987c8:1986d9f90ae:2f02</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--488987c8:1986d9f90ae:2ef9</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--488987c8:1986d9f90ae:2f01</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-08-03 06:35:50.751 UTC</dateCreated>
+</layer>

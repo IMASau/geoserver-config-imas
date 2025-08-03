@@ -1,0 +1,16 @@
+<layer>
+  <name>TorresStrait_DugongSanctuary</name>
+  <id>LayerInfoImpl--488987c8:1986d9f90ae:2f05</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--488987c8:1986d9f90ae:2efd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--488987c8:1986d9f90ae:2f04</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-08-03 06:36:05.855 UTC</dateCreated>
+</layer>

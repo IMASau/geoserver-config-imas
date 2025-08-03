@@ -18,7 +18,7 @@
           <PolygonSymbolizer>         
             <Fill>
               <CssParameter name="fill">#0000b3</CssParameter>
-              <CssParameter name="fill-opacity">0.2</CssParameter>
+              <CssParameter name="fill-opacity">0.15</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#0000b3</CssParameter>
@@ -33,11 +33,11 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#0000b3</CssParameter>
-                      <CssParameter name="stroke-width">1</CssParameter>
-                      <CssParameter name="opacity">1</CssParameter>                      
+                      <CssParameter name="stroke-width">0.8</CssParameter>
+                      <CssParameter name="opacity">0.8</CssParameter>                      
                     </Stroke>
                   </Mark>
-                  <Size>8</Size>
+                  <Size>12</Size>
                 </Graphic>
               </GraphicFill>
             </Fill> 
