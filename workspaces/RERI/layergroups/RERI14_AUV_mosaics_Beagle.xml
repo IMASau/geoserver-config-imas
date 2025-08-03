@@ -13,7 +13,7 @@
       <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--488987c8:1986b9dfaba:-a49</id>
+      <id>LayerInfoImpl--488987c8:1986d9f90ae:-91b</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--488987c8:1986445f503:-2401</id>
@@ -50,5 +50,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-08-01 21:20:29.658 UTC</dateCreated>
-  <dateModified>2025-08-03 03:43:41.820 UTC</dateModified>
+  <dateModified>2025-08-03 04:24:42.93 UTC</dateModified>
 </layerGroup>

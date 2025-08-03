@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--488987c8:1986b9dfaba:-a4a</id>
+  <id>CoverageInfoImpl--488987c8:1986d9f90ae:-91c</id>
   <name>Beagle_201808_SS05_10_mosaic</name>
   <nativeName>Beagle_201808_SS05_10_mosaic</nativeName>
   <namespace>
@@ -8,7 +8,7 @@
   <title>AUV stitched mosaic: Tas 201808 - SS05_Beagle_Shelf_10</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>mosaic</string>
+    <string>SS05_Beagle_Shelf_10</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -52,10 +52,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201808_SS05_10_mosaic</entry>
+    <entry key="dirName">Beagle_201808_SS05_10_mosaic_SS05_Beagle_Shelf_10</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--488987c8:1986b9dfaba:-211e</id>
+    <id>CoverageStoreInfoImpl--488987c8:1986d9f90ae:-1d0b</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -159,7 +159,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>50</int>
+      <int>150</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
@@ -206,5 +206,5 @@
       <string>Cut</string>
     </entry>
   </parameters>
-  <nativeCoverageName>mosaic</nativeCoverageName>
+  <nativeCoverageName>SS05_Beagle_Shelf_10</nativeCoverageName>
 </coverage>
