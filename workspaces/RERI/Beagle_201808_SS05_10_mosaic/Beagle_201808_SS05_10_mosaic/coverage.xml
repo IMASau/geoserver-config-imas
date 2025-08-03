@@ -8,7 +8,7 @@
   <title>AUV stitched mosaic: Tas 201808 - SS05_Beagle_Shelf_10</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>mosaic_adj</string>
+    <string>mosaic</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -52,7 +52,7 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201808_SS05_10_mosaic_mosaic_adj</entry>
+    <entry key="dirName">Beagle_201808_SS05_10_mosaic</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl--488987c8:1986b9dfaba:-211e</id>
@@ -206,5 +206,5 @@
       <string>Cut</string>
     </entry>
   </parameters>
-  <nativeCoverageName>mosaic_adj</nativeCoverageName>
+  <nativeCoverageName>mosaic</nativeCoverageName>
 </coverage>
