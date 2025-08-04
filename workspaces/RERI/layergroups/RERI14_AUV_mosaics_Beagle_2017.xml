@@ -1,0 +1,47 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--488987c8:198745fa810:-2f19</id>
+  <name>RERI14_AUV_mosaics_Beagle_2017</name>
+  <mode>SINGLE</mode>
+  <title>Stitched image mosaics of Beagle AMP (2017 campaign)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:198640846b2:-4ee</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:19872a1c083:-7972</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:1987217b441:1283</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:19872a1c083:-1e6d</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--488987c8:198745fa810:-2f1c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>146.77449373582087</minx>
+    <maxx>147.18334349990266</maxx>
+    <miny>-39.45122140004753</miny>
+    <maxy>-39.25356757482626</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-08-04 10:29:05.181 UTC</dateCreated>
+</layerGroup>

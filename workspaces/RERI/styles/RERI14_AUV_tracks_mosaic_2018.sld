@@ -8,29 +8,7 @@
     <Name>AUV tracks</Name>
     <UserStyle>
       <Title>AUV tracks</Title>
-      <FeatureTypeStyle>
-        <Rule>
-          <Title>2017 stitched mosaics</Title>
-          <ogc:Filter>
-            <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>campaign</ogc:PropertyName>
-              <ogc:Literal>Tasmania201707</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>map_type</ogc:PropertyName>
-              <ogc:Literal>*stitched*</ogc:Literal>
-            </ogc:PropertyIsLike>
-            </ogc:And>                
-          </ogc:Filter>
-          <MinScaleDenominator>500</MinScaleDenominator>                    
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#1a8cff</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>        
+      <FeatureTypeStyle>       
         <Rule>
           <Title>2018 stitched mosaics</Title>
           <ogc:Filter>
@@ -57,7 +35,19 @@
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 
           <MinScaleDenominator>500</MinScaleDenominator>                              
-          <MaxScaleDenominator>400000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>400000</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:And>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>campaign</ogc:PropertyName>
+              <ogc:Literal>Tasmania201808</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>map_type</ogc:PropertyName>
+              <ogc:Literal>*stitched*</ogc:Literal>
+            </ogc:PropertyIsLike>
+            </ogc:And>                
+          </ogc:Filter>          
           <TextSymbolizer>
              <Label>
                <ogc:PropertyName>deployment</ogc:PropertyName>
@@ -82,12 +72,24 @@
         
         <Rule>
           <Title>Faint zoomed in outline (not displayed)</Title>
-          <MaxScaleDenominator>500</MaxScaleDenominator>                    
+          <MaxScaleDenominator>500</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:And>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>campaign</ogc:PropertyName>
+              <ogc:Literal>Tasmania201808</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>map_type</ogc:PropertyName>
+              <ogc:Literal>*stitched*</ogc:Literal>
+            </ogc:PropertyIsLike>
+            </ogc:And>                
+          </ogc:Filter>          
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter> <!-- Dashed pattern -->
+              <CssParameter name="stroke-opacity">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
