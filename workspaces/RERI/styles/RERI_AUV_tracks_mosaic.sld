@@ -26,7 +26,7 @@
           <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#0000ff</CssParameter>
+              <CssParameter name="stroke">#1a8cff</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -48,7 +48,7 @@
           <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#b300b3</CssParameter>
+              <CssParameter name="stroke">#e600e6</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -70,7 +70,7 @@
           <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#b300b3</CssParameter>
+              <CssParameter name="stroke">#e600e6</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
               <CssParameter name="stroke-dasharray">5 3</CssParameter> <!-- Dashed pattern -->
             </Stroke>
