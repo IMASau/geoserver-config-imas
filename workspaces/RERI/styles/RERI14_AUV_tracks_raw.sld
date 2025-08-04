@@ -21,9 +21,23 @@
               <ogc:PropertyName>map_type</ogc:PropertyName>
               <ogc:Literal>*raw*</ogc:Literal>
             </ogc:PropertyIsLike>
-            </ogc:And>                
+			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS07_Beagle_Shelf_15</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS12_Beagle_Shelf_3a</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+            </ogc:Or>     			
+            </ogc:And>          
           </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
+          <MinScaleDenominator>500</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0000e6</CssParameter>
@@ -44,9 +58,23 @@
               <ogc:PropertyName>map_type</ogc:PropertyName>
               <ogc:Literal>*raw*</ogc:Literal>
             </ogc:PropertyIsLike>
+			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS07_Beagle_Shelf_15</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS12_Beagle_Shelf_3a</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+            </ogc:Or> 			
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
+          <MinScaleDenominator>500</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#990099</CssParameter>
@@ -59,7 +87,25 @@
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 
           <MinScaleDenominator>500</MinScaleDenominator>                              
-          <MaxScaleDenominator>400000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>400000</MaxScaleDenominator> 
+          <ogc:Filter>
+            <ogc:And>                                        
+			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS07_Beagle_Shelf_15</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS12_Beagle_Shelf_3a</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+            </ogc:Or> 			
+            </ogc:And>                
+          </ogc:Filter>		  
           <TextSymbolizer>
              <Label>
                <ogc:PropertyName>deployment</ogc:PropertyName>
@@ -84,7 +130,25 @@
         
         <Rule>
           <Title>Faint zoomed in outline (not displayed)</Title>
-          <MaxScaleDenominator>1000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>500</MaxScaleDenominator>   
+          <ogc:Filter>
+            <ogc:And>                            
+			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS07_Beagle_Shelf_15</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS12_Beagle_Shelf_3a</ogc:Literal>
+            </ogc:PropertyIsEqualTo>			
+            </ogc:Or> 			
+            </ogc:And>                
+          </ogc:Filter>			  
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>

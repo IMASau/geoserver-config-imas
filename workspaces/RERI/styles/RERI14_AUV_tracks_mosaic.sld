@@ -23,7 +23,7 @@
             </ogc:PropertyIsLike>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
+          <MinScaleDenominator>500</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#1a8cff</CssParameter>
@@ -45,7 +45,7 @@
             </ogc:PropertyIsLike>
             </ogc:And>                
           </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
+          <MinScaleDenominator>500</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#e600e6</CssParameter>
@@ -82,7 +82,7 @@
         
         <Rule>
           <Title>Faint zoomed in outline (not displayed)</Title>
-          <MaxScaleDenominator>1000</MaxScaleDenominator>                    
+          <MaxScaleDenominator>500</MaxScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
