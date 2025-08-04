@@ -52,30 +52,7 @@
               <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>2018 raw images</Title>
-          <ogc:Filter>
-            <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>campaign</ogc:PropertyName>
-              <ogc:Literal>Tasmania201808</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>map_type</ogc:PropertyName>
-              <ogc:Literal>*raw*</ogc:Literal>
-            </ogc:PropertyIsLike>
-            </ogc:And>                
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#e600e6</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-              <CssParameter name="stroke-dasharray">5 3</CssParameter> <!-- Dashed pattern -->
-            </Stroke>
-          </LineSymbolizer>
-        </Rule> 		
+        </Rule>		
         
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 

@@ -1,18 +1,17 @@
 <layer>
   <name>Beagle_201808_SS13_12_mosaic</name>
-  <id>LayerInfoImpl--488987c8:1986f1be7d2:-5e16</id>
+  <id>LayerInfoImpl--488987c8:19872a1c083:627</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--40004db0:1983ef693f0:579d</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--488987c8:1986f1be7d2:-5e17</id>
+    <id>CoverageInfoImpl--488987c8:19872a1c083:626</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-08-03 09:53:00.484 UTC</dateCreated>
-  <dateModified>2025-08-03 09:55:30.593 UTC</dateModified>
+  <dateCreated>2025-08-04 03:55:24.572 UTC</dateCreated>
 </layer>

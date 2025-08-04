@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl--488987c8:1986f1be7d2:-5e17</id>
+  <id>CoverageInfoImpl--488987c8:19872a1c083:626</id>
   <name>Beagle_201808_SS13_12_mosaic</name>
   <nativeName>Beagle_201808_SS13_12_mosaic</nativeName>
   <namespace>
@@ -55,7 +55,7 @@
     <entry key="dirName">Beagle_201808_SS13_12_mosaic_mosaic</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--488987c8:1986f1be7d2:-7517</id>
+    <id>CoverageStoreInfoImpl--488987c8:19872a1c083:-1103</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
