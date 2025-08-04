@@ -24,6 +24,10 @@
 			<ogc:Or>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS10_Beagle_Shelf_8</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	              
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
               <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -61,6 +65,10 @@
 			<ogc:Or>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS10_Beagle_Shelf_8</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
               <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -91,6 +99,10 @@
           <ogc:Filter>
             <ogc:And>                                        
 			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS10_Beagle_Shelf_8</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>deployment</ogc:PropertyName>
               <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
@@ -134,6 +146,10 @@
           <ogc:Filter>
             <ogc:And>                            
 			<ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>deployment</ogc:PropertyName>
+              <ogc:Literal>SS10_Beagle_Shelf_8</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>deployment</ogc:PropertyName>
               <ogc:Literal>SS08_Beagle_Shelf_13</ogc:Literal>
