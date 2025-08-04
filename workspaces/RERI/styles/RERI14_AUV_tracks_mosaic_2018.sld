@@ -32,7 +32,7 @@
           </LineSymbolizer>
         </Rule>		
         
-        <!-- Rule for text labelling tracks when zoomed in -->
+        <!-- Rule for text labelling tracks when zoomed out -->
         <Rule> 
           <ogc:Filter>
             <ogc:And>
@@ -46,9 +46,8 @@
             </ogc:PropertyIsLike>
             </ogc:And>                
           </ogc:Filter> 
-          <MinScaleDenominator>500</MinScaleDenominator>                              
-          <MaxScaleDenominator>400000</MaxScaleDenominator>          
-          <TextSymbolizer>
+          <MinScaleDenominator>15000</MinScaleDenominator>                              
+          <TextSymbolizer>        
              <Label>
                <ogc:PropertyName>deployment</ogc:PropertyName>
             </Label>
@@ -66,11 +65,48 @@
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
             </Fill>  
-            <VendorOption name="maxDisplacement">20</VendorOption> 
+            <VendorOption name="maxDisplacement">200</VendorOption> 
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                             
         </Rule>
-        
+        <!-- Rule for text labelling tracks when zoomed in -->        
+        <Rule> 
+          <ogc:Filter>
+            <ogc:And>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>campaign</ogc:PropertyName>
+              <ogc:Literal>Tasmania201808</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>map_type</ogc:PropertyName>
+              <ogc:Literal>*stitched*</ogc:Literal>
+            </ogc:PropertyIsLike>
+            </ogc:And>                
+          </ogc:Filter> 
+          <MinScaleDenominator>500</MinScaleDenominator>                    
+          <MaxScaleDenominator>15000</MaxScaleDenominator>          
+          <TextSymbolizer>        
+             <Label>
+               <ogc:PropertyName>deployment</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">SansSerif</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
+            </Font> 
+            <Halo>
+              <Radius>2</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.8</CssParameter>				        
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>  
+			<VendorOption name="followLine">true</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                             
+        </Rule>        
         <Rule>
           <Title>Faint zoomed in outline (not displayed)</Title>
           <ogc:Filter>
