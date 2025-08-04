@@ -10,49 +10,28 @@
       <Title>AUV tracks</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Title>2017 stitched mosaics</Title>
+          <Title>2017 raw images</Title>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>campaign</ogc:PropertyName>
               <ogc:Literal>Tasmania201707</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>map_type</ogc:PropertyName>
-              <ogc:Literal>stitched</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*raw*</ogc:Literal>
+            </ogc:PropertyIsLike>
             </ogc:And>                
           </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#1a8cff</CssParameter>
+              <CssParameter name="stroke">#0000e6</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke-dasharray">5 3</CssParameter> <!-- Dashed pattern -->
             </Stroke>
           </LineSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>2018 stitched mosaics</Title>
-          <ogc:Filter>
-            <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>campaign</ogc:PropertyName>
-              <ogc:Literal>Tasmania201808</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>map_type</ogc:PropertyName>
-              <ogc:Literal>stitched</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            </ogc:And>                
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#e600e6</CssParameter>
-              <CssParameter name="stroke-width">1.5</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
+        </Rule> 	
         <Rule>
           <Title>2018 raw images</Title>
           <ogc:Filter>
@@ -61,16 +40,16 @@
               <ogc:PropertyName>campaign</ogc:PropertyName>
               <ogc:Literal>Tasmania201808</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>map_type</ogc:PropertyName>
-              <ogc:Literal>raw</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>*raw*</ogc:Literal>
+            </ogc:PropertyIsLike>
             </ogc:And>                
           </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>                    
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#e600e6</CssParameter>
+              <CssParameter name="stroke">#990099</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
               <CssParameter name="stroke-dasharray">5 3</CssParameter> <!-- Dashed pattern -->
             </Stroke>
