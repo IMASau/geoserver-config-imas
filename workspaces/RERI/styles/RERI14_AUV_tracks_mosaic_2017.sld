@@ -34,8 +34,6 @@
         
         <!-- Rule for text labelling tracks when zoomed in -->
         <Rule> 
-          <MinScaleDenominator>500</MinScaleDenominator>                              
-          <MaxScaleDenominator>400000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -47,7 +45,9 @@
               <ogc:Literal>*stitched*</ogc:Literal>
             </ogc:PropertyIsLike>
             </ogc:And>                
-          </ogc:Filter>          
+          </ogc:Filter>  
+          <MinScaleDenominator>500</MinScaleDenominator>                              
+          <MaxScaleDenominator>400000</MaxScaleDenominator>          
           <TextSymbolizer>
              <Label>
                <ogc:PropertyName>deployment</ogc:PropertyName>
@@ -65,14 +65,14 @@
             </Halo>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
-            </Fill>    
+            </Fill>  
+            <VendorOption name="maxDisplacement">200</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                             
         </Rule>
         
         <Rule>
           <Title>Faint zoomed in outline (not displayed)</Title>
-          <MaxScaleDenominator>500</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
@@ -84,7 +84,8 @@
               <ogc:Literal>*stitched*</ogc:Literal>
             </ogc:PropertyIsLike>
             </ogc:And>                
-          </ogc:Filter>          
+          </ogc:Filter>
+          <MaxScaleDenominator>500</MaxScaleDenominator>          
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
