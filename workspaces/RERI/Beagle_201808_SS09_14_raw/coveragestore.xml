@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--488987c8:198770b8dea:-32c2</id>
+  <name>Beagle_201808_SS09_14_raw</name>
+  <description>Tasmania 201808 - SS09_Beagle_Shelf_14 raw image mosaic</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-08-04 22:24:11.772 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/RERI14/Beagle/Tasmania201808/SS09_Beagle_Shelf_14/raw</url>
+</coverageStore>
