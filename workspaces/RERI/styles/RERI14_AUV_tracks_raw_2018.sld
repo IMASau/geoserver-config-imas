@@ -40,7 +40,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>campaign</ogc:PropertyName>
-              <ogc:Literal>Tasmania201707</ogc:Literal>
+              <ogc:Literal>Tasmania201808</ogc:Literal>
             </ogc:PropertyIsEqualTo>                
           </ogc:Filter>		  
           <TextSymbolizer>
@@ -71,7 +71,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>campaign</ogc:PropertyName>
-              <ogc:Literal>Tasmania201707</ogc:Literal>
+              <ogc:Literal>Tasmania201808</ogc:Literal>
             </ogc:PropertyIsEqualTo>                                                          
           </ogc:Filter>			  
           <LineSymbolizer>
