@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl--40004db0:1983ef693f0:5974</id>
-  <name>Beagle_201808_SS12_3a_raw</name>
-  <nativeName>Beagle_201808_SS12_3a_raw</nativeName>
+  <id>CoverageInfoImpl-4f52f2e3:1987a45980f:7786</id>
+  <name>Beagle_201808_SS13_12_raw</name>
+  <nativeName>Beagle_201808_SS13_12_raw</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>AUV raw mosaic: Tas 201808 - SS12_Beagle_Shelf_3a</title>
+  <title>AUV raw mosaic: Tas 201707 - SS12_Beagle_Shelf_4</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>raw</string>
@@ -34,17 +34,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>510991.2824494035</minx>
-    <maxx>512843.8785497233</maxx>
-    <miny>5642736.956622888</miny>
-    <maxy>5644583.521361007</maxy>
+    <minx>511299.5946152594</minx>
+    <maxx>512160.5348674298</maxx>
+    <miny>5647086.818740885</miny>
+    <maxy>5647787.285213751</maxy>
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.12755960685269</minx>
-    <maxx>147.1490952582344</maxx>
-    <miny>-39.36475656470832</miny>
-    <maxy>-39.348092022662065</maxy>
+    <minx>147.13108380556054</minx>
+    <maxx>147.14108401285074</maxx>
+    <miny>-39.32555685562229</miny>
+    <maxy>-39.31923339405071</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -52,10 +52,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Beagle_201808_SS12_3a_raw_raw</entry>
+    <entry key="dirName">Beagle_201808_SS13_12_raw_raw</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--40004db0:1983ed7f89c:2d9d</id>
+    <id>CoverageStoreInfoImpl-4f52f2e3:1987a45980f:47ad</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -65,24 +65,24 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>1871717 1865623</high>
+      <high>1002063 815285</high>
     </range>
     <transform>
-      <scaleX>9.897842191936642E-4</scaleX>
-      <scaleY>-9.897842191936642E-4</scaleY>
+      <scaleX>8.591675333763185E-4</scaleX>
+      <scaleY>-8.591675333763185E-4</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>510991.2829442956</translateX>
-      <translateY>5644583.520866116</translateY>
+      <translateX>511299.59504484315</translateX>
+      <translateY>5647787.284784167</translateY>
     </transform>
     <crs>EPSG:32755</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
