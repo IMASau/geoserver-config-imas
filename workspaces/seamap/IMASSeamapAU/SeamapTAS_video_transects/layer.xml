@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapTAS_video_transects</name>
+  <id>LayerInfoImpl-1bbfd6da:1989957f7d2:-1cc9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1bbfd6da:19896ef253a:6f34</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1bbfd6da:1989957f7d2:-1cca</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-08-11 22:31:25.560 UTC</dateCreated>
+</layer>
