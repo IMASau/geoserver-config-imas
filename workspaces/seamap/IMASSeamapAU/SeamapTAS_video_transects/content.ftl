@@ -2,24 +2,24 @@
 <#setting number_format="###.#">
 
 <#list features as feature>
-    <#if (feature_index < 1)>
+  <#if (feature_index < 1)>
 
     <#assign maxBarWidth = 90>
 
     <#-- Assign raw values -->
-    <#assign cobble = feature.Cobble.rawValue?number!0>
-    <#assign sand = feature.Gravel_Sand.rawValue?number!0>
-    <#assign shell = feature.Shell.rawValue?number!0>
-    <#assign silt = feature.Silt.rawValue?number!0>
-    <#assign hpreef = feature.High_Profile_Reef.rawValue?number!0>
-    <#assign mpreef = feature.Medium_Profile_Reef.rawValue?number!0>
-    <#assign lpreef = feature.Low_Profile_Reef.rawValue?number!0>
-    <#assign macroalgae = feature.Macroalgae.rawValue?number!0>
-    <#assign turf = feature.Turf_Algae.rawValue?number!0>
-    <#assign seagrass = feature.Seagrass.rawValue?number!0>
-    <#assign mixed = feature.Mixed_Macroalgae_Seagrass.rawValue?number!0>
-    <#assign inverts = feature.Invertebrates.rawValue?number!0>
-    <#assign other = feature.Other_Unknown.rawValue?number!0>
+    <#assign cobble    = feature.Cobble.rawValue?number!0>
+    <#assign sand      = feature.Gravel_Sand.rawValue?number!0>
+    <#assign shell     = feature.Shell.rawValue?number!0>
+    <#assign silt      = feature.Silt.rawValue?number!0>
+    <#assign hpreef    = feature.High_Profile_Reef.rawValue?number!0>
+    <#assign mpreef    = feature.Medium_Profile_Reef.rawValue?number!0>
+    <#assign lpreef    = feature.Low_Profile_Reef.rawValue?number!0>
+    <#assign macroalgae= feature.Macroalgae.rawValue?number!0>
+    <#assign turf      = feature.Turf_Algae.rawValue?number!0>
+    <#assign seagrass  = feature.Seagrass.rawValue?number!0>
+    <#assign mixed     = feature.Mixed_Macroalgae_Seagrass.rawValue?number!0>
+    <#assign inverts   = feature.Invertebrates.rawValue?number!0>
+    <#assign other     = feature.Other_Unknown.rawValue?number!0>
 
     <#assign total = feature.Obs_Total.rawValue?number!0>
 
@@ -43,43 +43,59 @@
 
     <h5 style="padding-top:10px; padding-bottom:3px;">SeaMap Tasmania benthic composition (towed video)</h5>
 
-    <div class="feature" style="margin-top:12px;">
-      <#list sortedHabitats as habitat>
-        <#if habitat.value != 0>
-          <#assign barWidth = (maxBarWidth * habitat.value / total)?round>
-          <div style="display: flex; align-items: center">
-            <div style="width: ${barWidth}px; height: 10px; background-color: ${habitat.color};"></div>
-            <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / total)?round}%</b></span>
-          </div>
-        </#if>
-      </#list>
-    </div>
+    <#-- layout config -->
+    <#assign videoWidth = 560>
+    <#assign barsOffset = (videoWidth * 2 / 3)?round>
+    <#-- count visible bar rows to size spacer -->
+    <#assign rows = 0>
+    <#list sortedHabitats as h><#if h.value != 0><#assign rows = rows + 1></#if></#list>
+    <#assign rowHeight = 18>
+    <#assign headerGap = 6>
+    <#assign blockHeight = headerGap + (rows * rowHeight)>
 
-    <div class="feature" style="padding-top:8px; padding-bottom:1px">
-	<span style="display: inline-block; margin-bottom:5px; font-size:95%">
-	<b>Transect:</b> <i>${feature.Transect.value}</i><br>
-	<b>Date:</b> ${feature.Date.value?date("MM/dd/yy")}<br>
-<#if feature.Depth_min.value?has_content && feature.Depth_max.value?has_content>
-  <b>Depth:</b> ${feature.Depth_min.value?number} - ${feature.Depth_max.value?number} m <br>
-</#if>
-	</span>
-    </div>
+    <div style="position:relative; width:${videoWidth}px;">
 
-	
-            <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
-						
-		<!-- Display "view in new window" for files above top-right corner of video -->
-		<div style="font-size:10px; text-align: right; margin-bottom: 3px;">
-			<a style="color: CornflowerBlue;" href="https://data.imas.utas.edu.au/attachments/24d48803-5dae-4425-b776-612c4ac2080a/video/${feature.Video.value}" target="_blank">View in new window</a>
-		</div>
+      <div class="feature" style="position:absolute; left:0; top:0; padding-top:0; padding-bottom:1px;">
+        <span style="display:inline-block; margin-bottom:5px; font-size:95%">
+          <b>Transect:</b> <i>${feature.Transect.value}</i><br>
+          <#if feature.Date.value?has_content>
+            <b>Date:</b> ${feature.Date.value?date?string("yyyy-MM-dd")}<br>
+          </#if>
+          <#if feature.Depth_min.value?has_content && feature.Depth_max.value?has_content>
+            <b>Depth:</b> ${feature.Depth_min.value?number} - ${feature.Depth_max.value?number} m <br>
+          </#if>
+        </span>
+      </div>
 
-		<div>
-			<video width="560" controls autoplay muted loop>
-				<source src="https://data.imas.utas.edu.au/attachments/24d48803-5dae-4425-b776-612c4ac2080a/video/${feature.Video.value}" type="video/mp4">
-			</video>
-		</div>				
+      <div class="feature" style="position:absolute; left:${barsOffset}px; top:0; width:${maxBarWidth}px; margin-top:${headerGap}px;">
+        <#list sortedHabitats as habitat>
+          <#if habitat.value != 0>
+            <#assign barWidth = (maxBarWidth * habitat.value / total)?round>
+            <div style="display:flex; align-items:center; margin:4px 0;">
+              <div style="width:${barWidth}px; height:10px; background-color:${habitat.color};"></div>
+              <span style="margin-left:8px; white-space:nowrap;">
+                ${habitat.name}: <b>${(100 * habitat.value / total)?round}%</b>
+              </span>
             </div>
-			
-        </#if>
-	<#break>
+          </#if>
+        </#list>
+      </div>
+
+      <div style="height:${blockHeight}px;"></div>
+    </div>
+
+    <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
+      <div style="font-size:10px; text-align: right; margin-bottom: 3px;">
+        <a style="color: CornflowerBlue;" href="https://data.imas.utas.edu.au/attachments/24d48803-5dae-4425-b776-612c4ac2080a/video/${feature.Video.value}" target="_blank">View in new window</a>
+      </div>
+
+      <div>
+        <video width="560" controls autoplay muted loop>
+          <source src="https://data.imas.utas.edu.au/attachments/24d48803-5dae-4425-b776-612c4ac2080a/video/${feature.Video.value}" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+  </#if>
+  <#break>
 </#list>
