@@ -37,7 +37,7 @@
       {"name": "Patchy Reef", "value": preef, "color": "#a88a8a"},
       {"name": "Macroalgae", "value": macroalgae, "color": "#018200"},
       {"name": "Turf Algae", "value": turf, "color": "#b4e151"},
-      {"name": "Seagrass", "value": seagrass, "color": "#4db71f"},
+      {"name": "Seagrass", "value": seagrass, "color": "#02DC00"},
       {"name": "Mixed Macroalgae / Seagrass", "value": mixed, "color": "#00cc99"},
       {"name": "Invertebrates", "value": inverts, "color": "#ac39ac"},
       {"name": "Other / Unknown", "value": other, "color": "#a6a6a6"}
@@ -104,7 +104,7 @@
 
 <#if feature.Video.value !="missing">
     <div style="width: ${videoWidth}px; padding-top:${videoPaddingTop}px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
-      <div style="font-size:10px; text-align: right; margin-bottom: 3px;">
+      <div style="font-size:11px; text-align: right; margin-bottom: 3px;">
         <a style="color: CornflowerBlue;" href="https://data.imas.utas.edu.au/attachments/24d48803-5dae-4425-b776-612c4ac2080a/video/${feature.Video.value}" target="_blank">View in new window</a>
       </div>
 

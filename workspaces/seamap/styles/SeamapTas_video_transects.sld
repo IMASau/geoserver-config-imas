@@ -19,8 +19,8 @@
 
         <!-- Zoomed-in style - for transects with different start/end locations-->        
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>          
-          <Title>2000</Title>       
+          <MaxScaleDenominator>150000</MaxScaleDenominator>          
+          <Title> 2000</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -35,7 +35,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2001</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -51,7 +51,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2002</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -67,7 +67,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2003</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -83,7 +83,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2004</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -99,7 +99,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2005</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -115,7 +115,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2006</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -131,7 +131,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2007</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -147,7 +147,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2008</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -163,7 +163,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
-          <MaxScaleDenominator>70000</MaxScaleDenominator>                  
+          <MaxScaleDenominator>150000</MaxScaleDenominator>                  
           <Title> 2009</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -180,10 +180,10 @@
         </Rule>
  
         
-        <!-- Rule for Pie Chart at scales between 70,000 and 10,000 -->
+        <!-- Rule for Pie Chart at scales between 150,000 and 10,000 -->
         <Rule>
           <MinScaleDenominator>10000</MinScaleDenominator>                    
-          <MaxScaleDenominator>70000</MaxScaleDenominator>          
+          <MaxScaleDenominator>150000</MaxScaleDenominator>          
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -193,7 +193,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Sand},${Gravel},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Patchy_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=85adad,FFF9A5,93a659,9a85ad,E5D6ED,974749,A16632,A1967A,a88a8a,018200,b4e151,4db71f,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Sand},${Gravel},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Patchy_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=85adad,FFF9A5,93a659,9a85ad,E5D6ED,974749,A16632,A1967A,a88a8a,018200,b4e151,02DC00,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -216,7 +216,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Sand},${Gravel},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Patchy_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=85adad,FFF9A5,93a659,9a85ad,E5D6ED,974749,A16632,A1967A,a88a8a,018200,b4e151,4db71f,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Sand},${Gravel},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Patchy_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=85adad,FFF9A5,93a659,9a85ad,E5D6ED,974749,A16632,A1967A,a88a8a,018200,b4e151,02DC00,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -230,7 +230,7 @@
         
         <!-- Zoomed-out style (map only)-->
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2000</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -255,7 +255,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2001</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -280,7 +280,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2002</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -305,7 +305,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2003</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -330,7 +330,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2004</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -355,7 +355,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2005</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -380,7 +380,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2006</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -405,7 +405,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>        
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2007</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -430,7 +430,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2008</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
@@ -455,7 +455,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
-          <MinScaleDenominator>70000</MinScaleDenominator>
+          <MinScaleDenominator>150000</MinScaleDenominator>
           <Title>2009</Title>
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
