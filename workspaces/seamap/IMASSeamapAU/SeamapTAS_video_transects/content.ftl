@@ -1,4 +1,4 @@
-<#setting date_format="d MMM yyyy">
+<#setting date_format="yyyy-MM-dd">
 <#setting number_format="###.#">
 
 <#list features as feature>
@@ -22,14 +22,6 @@
     <#assign other = feature.Other_Unknown.rawValue?number!0>
 
     <#assign total = feature.Obs_Total.rawValue?number!0>
-
-<#assign depth_min_raw = feature.Depth_min.value!"" >
-<#assign depth_max_raw = feature.Depth_max.value!"" >
-
-<#if depth_min_raw?has_content && depth_max_raw?has_content>
-  <#assign depth_min = depth_min_raw?number>
-  <#assign depth_max = depth_max_raw?number>
-</#if>
 
     <#assign habitats = [
       {"name": "Cobble", "value": cobble, "color": "#6cc6b7"},
@@ -66,8 +58,10 @@
     <div class="feature" style="padding-top:8px; padding-bottom:1px">
 	<span style="display: inline-block; margin-bottom:5px; font-size:95%">
 	<b>Transect:</b> <i>${feature.Transect.value}</i><br>
-	<b>Date:</b> ${feature.Date.value}<br>
-	<if depth_min??> <b>Depth:</b> ${depth_min} - ${depth_max} m <br></if>
+	<b>Date:</b> ${feature.Date.value?date("MM/dd/yy")}<br>
+<#if feature.Depth_min.value?has_content && feature.Depth_max.value?has_content>
+  <b>Depth:</b> ${feature.Depth_min.value?number} - ${feature.Depth_max.value?number} m <br>
+</#if>
 	</span>
     </div>
 
