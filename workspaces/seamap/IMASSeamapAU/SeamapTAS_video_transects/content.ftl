@@ -45,7 +45,7 @@
 
     <#-- layout config -->
     <#assign videoWidth = 560>
-    <#assign barsOffset = (videoWidth * 2 / 3)?round>
+    <#assign barsOffset = (videoWidth / 2)?round>
     <#-- count visible bar rows to size spacer -->
     <#assign rows = 0>
     <#list sortedHabitats as h><#if h.value != 0><#assign rows = rows + 1></#if></#list>
@@ -55,11 +55,11 @@
 
     <div style="position:relative; width:${videoWidth}px;">
 
-      <div class="feature" style="position:absolute; left:0; top:0; padding-top:0; padding-bottom:1px;">
+      <div class="feature" style="position:absolute; left:${barsOffset}px; top:0; padding-top:0; padding-bottom:1px;">
         <span style="display:inline-block; margin-bottom:5px; font-size:95%">
           <b>Transect:</b> <i>${feature.Transect.value}</i><br>
           <#if feature.Date.value?has_content>
-            <b>Date:</b> ${feature.Date.value?date?string("yyyy-MM-dd")}<br>
+	    <b>Date:</b> ${feature.Date.value?date("MM/dd/yy")}<br>
           </#if>
           <#if feature.Depth_min.value?has_content && feature.Depth_max.value?has_content>
             <b>Depth:</b> ${feature.Depth_min.value?number} - ${feature.Depth_max.value?number} m <br>
