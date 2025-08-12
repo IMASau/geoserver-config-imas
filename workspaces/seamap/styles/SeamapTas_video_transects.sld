@@ -195,7 +195,7 @@
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>20</ogc:Literal>
+                <ogc:Literal>24</ogc:Literal>
               </Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
