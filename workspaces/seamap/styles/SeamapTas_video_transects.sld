@@ -178,6 +178,7 @@
             </Stroke>
           </LineSymbolizer>                      
         </Rule>
+ 
         
         <!-- Rule for Pie Chart at scales above below 50,000 -->
         <Rule>
@@ -191,7 +192,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Gravel_Sand},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=c9a682,e0e06c,9a85ad,87a6c5,4d2600,994d00,cc9966,556600,b4e151,4db71f,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Gravel_Sand},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=c9a682,e0e06c,9a85ad,E5D6ED,974749,A16632,A1967A,018200,b4e151,4db71f,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -201,6 +202,7 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>        
+  
         
         <!-- Zoomed-out style (map only)-->
         <Rule>
