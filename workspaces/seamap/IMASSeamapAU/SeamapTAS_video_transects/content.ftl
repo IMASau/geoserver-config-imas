@@ -41,7 +41,7 @@
 
     <#assign sortedHabitats = habitats?sort_by("value")?reverse>
 
-    <h5 style="padding-top:10px; padding-bottom:3px;">Benthic composition (towed video)</h5>
+    <h5 style="padding-top:10px; padding-bottom:3px;">SeaMap Tasmania benthic composition (towed video)</h5>
 
     <div class="feature" style="margin-top:12px;">
       <#list sortedHabitats as habitat>
