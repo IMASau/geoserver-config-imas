@@ -1,4 +1,4 @@
-<#setting date_format="yyyy-MM-dd">
+<#setting date_format="dd MMMM yyyy">
 <#setting number_format="###.#">
 
 <#list features as feature>
@@ -24,19 +24,19 @@
     <#assign total = feature.Obs_Total.rawValue?number!0>
 
     <#assign habitats = [
-      {"name": "Cobble", "value": cobble, "color": "#6cc6b7"},
-      {"name": "Gravel / Sand", "value": sand, "color": "#ad8a1f"},
-      {"name": "Shell", "value": shell, "color": "#808080"},
-      {"name": "Silt", "value": silt, "color": "#663300"},
-      {"name": "High Profile Reef", "value": hpreef, "color": "#999900"},
-      {"name": "Medium Profile Reef", "value": mpreef, "color": "#001a33"},
-      {"name": "Low Profile Reef", "value": lpreef, "color": "#00b33c"},
-      {"name": "Macroalgae", "value": macroalgae, "color": "#9933ff"},
-      {"name": "Turf Algae", "value": turf, "color": "#ff99ff"},
-      {"name": "Seagrass", "value": seagrass, "color": "#00ffcc"},
-      {"name": "Mixed Macroalgae / Seagrass", "value": mixed, "color": "#00ffcc"},
-      {"name": "Invertebrates", "value": inverts, "color": "#00ffcc"},
-      {"name": "Other / Unknown", "value": other, "color": "#00ffcc"}
+      {"name": "Cobble", "value": cobble, "color": "#c9a682"},
+      {"name": "Gravel / Sand", "value": sand, "color": "#e0e06c"},
+      {"name": "Shell", "value": shell, "color": "#9a85ad"},
+      {"name": "Silt", "value": silt, "color": "#87a6c5"},
+      {"name": "High Profile Reef", "value": hpreef, "color": "#4d2600"},
+      {"name": "Medium Profile Reef", "value": mpreef, "color": "#994d00"},
+      {"name": "Low Profile Reef", "value": lpreef, "color": "#cc9966"},
+      {"name": "Macroalgae", "value": macroalgae, "color": "#556600"},
+      {"name": "Turf Algae", "value": turf, "color": "#b4e151"},
+      {"name": "Seagrass", "value": seagrass, "color": "#4db71f"},
+      {"name": "Mixed Macroalgae / Seagrass", "value": mixed, "color": "#00cc99"},
+      {"name": "Invertebrates", "value": inverts, "color": "#ac39ac"},
+      {"name": "Other / Unknown", "value": other, "color": "#a6a6a6"}
     ]>
 
     <#assign sortedHabitats = habitats?sort_by("value")?reverse>
@@ -98,6 +98,7 @@
       <div style="height:${blockHeight}px;"></div>
     </div>
 
+<#if feature.Video.value !="missing">
     <div style="width: ${videoWidth}px; padding-top:${videoPaddingTop}px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
       <div style="font-size:10px; text-align: right; margin-bottom: 3px;">
         <a style="color: CornflowerBlue;" href="https://data.imas.utas.edu.au/attachments/24d48803-5dae-4425-b776-612c4ac2080a/video/${feature.Video.value}" target="_blank">View in new window</a>
@@ -109,6 +110,7 @@
         </video>
       </div>
     </div>
+</#if>
 
   </#if>
   <#break>
