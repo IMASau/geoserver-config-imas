@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <filters>
     <filter>
+        <name>CONTOUR</name>
+        <type>int</type>
+        <label>Contour</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
         <name>Geometry</name>
         <type>geometrypropertytype</type>
         <label>Geometry</label>

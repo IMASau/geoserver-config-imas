@@ -1,8 +1,8 @@
 <style>
   <id>StyleInfoImpl--2cde9246:132a9900d8b:-7ffc</id>
-  <name>seamaptas_contours</name>
+  <name>SeamapTAS_contours</name>
   <workspace>
-    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
   </workspace>
   <sldVersion>
     <version>1.0.0</version>
@@ -11,6 +11,6 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>seamaptas_contours.sld</filename>
-  <dateModified>2024-08-24 04:49:14.126 UTC</dateModified>
+  <filename>SeamapTAS_contours.sld</filename>
+  <dateModified>2025-08-12 12:52:54.23 UTC</dateModified>
 </style>

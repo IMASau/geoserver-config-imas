@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1bbfd6da:1989957f7d2:-1cca</id>
+  <id>FeatureTypeInfoImpl-1bbfd6da:1989d8d6b72:-3940</id>
   <name>SeamapTAS_video_transects</name>
-  <nativeName>SeamapTas_video_transects</nativeName>
+  <nativeName>SeamapTAS_video_transects</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
   <title>Seamap Tasmania towed video transects</title>
   <keywords>
-    <string>SeamapTas_video_transects</string>
     <string>features</string>
+    <string>SeamapTAS_video_transects</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -40,7 +40,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>

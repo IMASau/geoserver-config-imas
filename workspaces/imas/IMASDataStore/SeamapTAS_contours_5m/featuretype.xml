@@ -1,22 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-70a8d5d5:173fa41b30f:-4616</id>
+  <id>FeatureTypeInfoImpl-1bbfd6da:1989d8d6b72:-38ef</id>
   <name>SeamapTAS_contours_5m</name>
   <nativeName>SeamapTAS_contours_5m</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Seamap Tasmania bathymetry contours - 5m</title>
+  <title>SeaMap Tasmania bathymetry contours - 5m</title>
   <keywords>
     <string>features</string>
     <string>SeamapTAS_contours_5m</string>
   </keywords>
-  <metadataLinks>
-    <metadataLink>
-      <type>text/plain</type>
-      <metadataType>19139</metadataType>
-      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=fa2dbc70-44ab-11dc-8cd0-00188b4c0af8</content>
-    </metadataLink>
-  </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;WGS 72 / UTM zone 55N&quot;, 
   GEOGCS[&quot;WGS 72&quot;, 
     DATUM[&quot;World Geodetic System 1972&quot;, 
@@ -28,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4322&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 147.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -38,30 +31,33 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32255&quot;]]</nativeCRS>
-  <srs>EPSG:4326</srs>
+  <srs>EPSG:32255</srs>
   <nativeBoundingBox>
-    <minx>144.83689487353624</minx>
-    <maxx>148.43948381053852</maxx>
-    <miny>-43.59832732132413</miny>
-    <maxy>-39.37588430103867</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>325336.38905091846</minx>
+    <maxx>616190.1422024696</maxx>
+    <miny>-4827290.87544302</miny>
+    <maxy>-4360453.61691864</maxy>
+    <crs class="projected">EPSG:32255</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>144.83689487353624</minx>
-    <maxx>148.43948381053852</maxx>
+    <minx>144.8368948735362</minx>
+    <maxx>148.4394838105385</maxx>
     <miny>-43.59832732132413</miny>
     <maxy>-39.37588430103867</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
