@@ -8,12 +8,14 @@
 
     <#-- Assign raw values -->
     <#assign cobble    = feature.Cobble.rawValue?number!0>
-    <#assign sand      = feature.Gravel_Sand.rawValue?number!0>
+    <#assign sand      = feature.Sand.rawValue?number!0>
+    <#assign gravel    = feature.Gravel.rawValue?number!0>
     <#assign shell     = feature.Shell.rawValue?number!0>
     <#assign silt      = feature.Silt.rawValue?number!0>
     <#assign hpreef    = feature.High_Profile_Reef.rawValue?number!0>
     <#assign mpreef    = feature.Medium_Profile_Reef.rawValue?number!0>
     <#assign lpreef    = feature.Low_Profile_Reef.rawValue?number!0>
+    <#assign preef     = feature.Patchy_Reef.rawValue?number!0>
     <#assign macroalgae= feature.Macroalgae.rawValue?number!0>
     <#assign turf      = feature.Turf_Algae.rawValue?number!0>
     <#assign seagrass  = feature.Seagrass.rawValue?number!0>
@@ -24,13 +26,15 @@
     <#assign total = feature.Obs_Total.rawValue?number!0>
 
     <#assign habitats = [
-      {"name": "Cobble", "value": cobble, "color": "#c9a682"},
-      {"name": "Gravel / Sand", "value": sand, "color": "#e0e06c"},
+      {"name": "Cobble", "value": cobble, "color": "#85adad"},
+      {"name": "Sand", "value": sand, "color": "#FFF9A5"},
+      {"name": "Gravel", "value": gravel, "color": "#93a659"},
       {"name": "Shell", "value": shell, "color": "#9a85ad"},
       {"name": "Silt", "value": silt, "color": "#E5D6ED"},
       {"name": "High Profile Reef", "value": hpreef, "color": "#974749"},
       {"name": "Medium Profile Reef", "value": mpreef, "color": "#A16632"},
       {"name": "Low Profile Reef", "value": lpreef, "color": "#A1967A"},
+      {"name": "Patchy Reef", "value": preef, "color": "#a88a8a"},
       {"name": "Macroalgae", "value": macroalgae, "color": "#018200"},
       {"name": "Turf Algae", "value": turf, "color": "#b4e151"},
       {"name": "Seagrass", "value": seagrass, "color": "#4db71f"},
