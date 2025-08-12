@@ -1,8 +1,11 @@
-<StyledLayerDescriptor version="1.0.0"
-    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
-    xmlns="http://www.opengis.net/sld"
-    xmlns:ogc="http://www.opengis.net/ogc"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<StyledLayerDescriptor
+  version="1.0.0"
+  xmlns="http://www.opengis.net/sld"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gml="http://www.opengis.net/gml"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   
   <NamedLayer>
     <Name>Video Tranects</Name>
@@ -19,20 +22,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>          
           <Title>2000</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2000*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2000*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -45,20 +38,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2001</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2001*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2001*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -71,20 +54,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2002</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2002*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2002*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -97,20 +70,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2003</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2003*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2003*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -123,20 +86,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2004</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2004*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2004*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -149,20 +102,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2005</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2005*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2005*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -175,20 +118,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2006</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2006*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2006*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -201,20 +134,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2007</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2007*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2007*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -227,20 +150,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2008</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2008*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2008*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -253,20 +166,10 @@
           <MaxScaleDenominator>50000</MaxScaleDenominator>                  
           <Title> 2009</Title>       
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2009*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyIsNotEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsNotEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+              <ogc:PropertyName>Date</ogc:PropertyName>
+              <ogc:Literal>*2009*</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <LineSymbolizer>
             <Stroke>
@@ -275,27 +178,10 @@
             </Stroke>
           </LineSymbolizer>                      
         </Rule>
-
-        <!-- Zoomed-in style - for transects with a single point-->        
+        
+        <!-- Rule for Pie Chart at scales above below 50,000 -->
         <Rule>
           <MaxScaleDenominator>50000</MaxScaleDenominator>          
-          <Title>2000</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2000*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter> 
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -303,332 +189,19 @@
               </ogc:Function>
             </Geometry>
             <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#003049</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
+              <ExternalGraphic>
+                <!-- URL constructed for Google Charts (deprecated) -->
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${Cobble},${Gravel_Sand},${Shell},${Silt},${High_Profile_Reef},${Medium_Profile_Reef},${Low_Profile_Reef},${Macroalgae},${Turf_Algae},${Seagrass},${Mixed_Macroalgae_Seagrass},${Invertebrates},${Other_Unknown}&amp;chco=c9a682,e0e06c,9a85ad,87a6c5,4d2600,994d00,cc9966,556600,b4e151,4db71f,00cc99,ac39ac,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <Format>application/chart</Format>
+              </ExternalGraphic>
+              <Size>
+                <ogc:Literal>20</ogc:Literal>
+              </Size>
             </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>           
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2001</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2001*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>   
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#005f73</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>            
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2002</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2002*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>  
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#0a9396</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>            
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2003</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2003*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#94d2bd</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>           
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2004</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2004*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter> 
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#e9d8a6</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>            
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2005</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2005*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#ee9b00</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>            
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2006</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2006*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter> 
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#ca6702</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>          
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2007</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2007*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>    
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#bb3e03</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>             
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2008</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2008*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#ae2012</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>            
-        </Rule>
-        <Rule>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>                  
-          <Title> 2009</Title>       
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>Date</ogc:PropertyName>
-                <ogc:Literal>*2009*</ogc:Literal>
-              </ogc:PropertyIsLike>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lat</ogc:PropertyName>
-                <ogc:PropertyName>End_Lat</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Start_Lon</ogc:PropertyName>
-                <ogc:PropertyName>End_Lon</ogc:PropertyName>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter> 
-          <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill><CssParameter name="fill">#9b2226</CssParameter></Fill>
-              </Mark>
-              <Size>9</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>          
-        </Rule>
-
-
+        </Rule>        
+        
         <!-- Zoomed-out style (map only)-->
         <Rule>
           <MinScaleDenominator>50000</MinScaleDenominator>
