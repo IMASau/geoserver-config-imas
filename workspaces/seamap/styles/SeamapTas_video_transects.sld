@@ -13,8 +13,10 @@
         <Rule>
           <Title>Survey Year</Title>                           
         </Rule>      
-        
+
+        <!-- Zoomed-in style-->        
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>          
           <Title> 2000</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -30,6 +32,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2001</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -45,6 +48,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2002</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -60,6 +64,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2003</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -75,6 +80,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2004</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -90,6 +96,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2005</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -105,6 +112,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2006</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -120,6 +128,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2007</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -135,6 +144,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2008</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -150,6 +160,7 @@
           </LineSymbolizer>                      
         </Rule>
         <Rule>
+          <MaxScaleDenominator>250000</MaxScaleDenominator>                  
           <Title> 2009</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -163,7 +174,179 @@
               <CssParameter name="stroke-width">3</CssParameter>
             </Stroke>
           </LineSymbolizer>                      
-        </Rule>        
+        </Rule>
+
+        <!-- Zoomed-out style (map only)-->
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>          
+          <Title> 2000</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2000*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#003049</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>                      
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2001</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2001*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#005f73</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>                      
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2002</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2002*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#0a9396</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer>                      
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2003</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2003*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#94d2bd</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer>                      
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2004</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2004*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#e9d8a6</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer>                      
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2005</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2005*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ee9b00</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer>                      
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2006</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2006*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ca6702</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer>  
+            <VendorOption name="inclusion">mapOnly</VendorOption>            
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2007</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2007*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#bb3e03</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer>                      
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2008</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2008*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ae2012</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer> 
+            <VendorOption name="inclusion">mapOnly</VendorOption>            
+        </Rule>
+        <Rule>
+          <MinScaleDenominator>250000</MinScaleDenominator>                  
+          <Title> 2009</Title>       
+          <ogc:Filter>
+            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+                <ogc:PropertyName>Date</ogc:PropertyName>
+                <ogc:Literal>*2009*</ogc:Literal>
+              </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#9b2226</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+            </LineSymbolizer> 
+            <VendorOption name="inclusion">mapOnly</VendorOption>            
+        </Rule>         
  
       </FeatureTypeStyle>
     </UserStyle>
