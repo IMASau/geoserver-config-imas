@@ -12,7 +12,13 @@
   <#if feature_index < 3>
     <tr style="background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}">
       <td style="padding-left: 5px; padding-right: 5px;">${feature.RESNAME.value}</td>
-      <td style="padding-left: 5px; padding-right: 5px;">${feature.ZONE_NAME.value}</td>
+      <td style="padding-left: 5px; padding-right: 5px;">
+        <#if feature.ZONE_NAME.value?has_content>
+          ${feature.ZONE_NAME.value}
+        <#else>
+          -
+        </#if>
+      </td>
       <td style="padding-left: 5px; padding-right: 5px;">
         <#if feature.ZONE_TYPE.value?contains("RAZ")>
           Restricted Access Zone
@@ -24,7 +30,7 @@
           General Managed Use Zone
         </#if>
       </td>
-      <td style="padding-left: 5px; padding-right: 5px;">${feature.ZONE_TIME.value}</td>
+      <td style="padding-left: 5px; padding-right: 5px;"><span style="font-size:95%"><i>${feature.ZONE_TIME.value}</i></span></td>
     </tr>
   </#if>
 

@@ -13,39 +13,6 @@
     <UserStyle>
       <Name>SA state waters zoning</Name>
       <FeatureTypeStyle>
-      <Rule>
-        <MinScaleDenominator>5000000</MinScaleDenominator>                             
-        <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
-          <TextSymbolizer> 
-            <Geometry>
-               <ogc:Function name="centroid">
-                  <ogc:PropertyName>geom</ogc:PropertyName>
-               </ogc:Function>
-            </Geometry>
-            <Label>
-              <ogc:PropertyName>RESNAME</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">sans-serif</CssParameter>
-              <CssParameter name="font-size">11</CssParameter>								
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>                      
-                  <AnchorPointX>0.5</AnchorPointX>
-                  <AnchorPointY>0</AnchorPointY>
-                </AnchorPoint>                          
-              </PointPlacement>
-            </LabelPlacement>  
-            <VendorOption name="partials">true</VendorOption>
-            <VendorOption name="spaceAround">5</VendorOption>
-            <VendorOption name="group">true</VendorOption> 
-            <VendorOption name="conflictResolution">true</VendorOption>
-            <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
-            <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only shows one instance -->
-          </TextSymbolizer>    
-          <VendorOption name="inclusion">mapOnly</VendorOption>                        
-        </Rule>
         <Rule>
           <Title>Restricted Access Zone</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
