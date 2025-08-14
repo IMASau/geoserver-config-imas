@@ -1,0 +1,17 @@
+<layer>
+  <name>BOUNDARIES_statewaters_zoning_SA</name>
+  <id>LayerInfoImpl-1bbfd6da:198a779f93a:-2eb3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1bbfd6da:198a717f1a3:-683b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1bbfd6da:198a779f93a:-2eb4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-08-14 08:06:03.20 UTC</dateCreated>
+  <dateModified>2025-08-14 08:16:30.485 UTC</dateModified>
+</layer>

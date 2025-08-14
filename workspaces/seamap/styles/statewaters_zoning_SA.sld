@@ -90,7 +90,7 @@
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
                 <ogc:PropertyName>ZONE_TIME</ogc:PropertyName>
-                <ogc:Literal>April</ogc:Literal>
+                <ogc:Literal>*April*</ogc:Literal>
               </ogc:PropertyIsLike>            
             </ogc:And>                                  
           </ogc:Filter>
@@ -100,7 +100,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#FFBEBE</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -111,10 +111,10 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#FFBEBE</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
+                      <CssParameter name="stroke-width">1.5</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>9</Size>
+                  <Size>6</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
@@ -150,7 +150,7 @@
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
                 <ogc:PropertyName>ZONE_TIME</ogc:PropertyName>
-                <ogc:Literal>April</ogc:Literal>
+                <ogc:Literal>*April*</ogc:Literal>
               </ogc:PropertyIsLike>            
             </ogc:And>                                  
           </ogc:Filter>
@@ -160,7 +160,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#FFBEBE</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -171,10 +171,10 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#FFBEBE</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
+                      <CssParameter name="stroke-width">1.5</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>9</Size>
+                  <Size>6</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
@@ -199,7 +199,8 @@
               <CssParameter name="fill">#BEE8FF</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>  
+      <VendorOption name="sortBy">ZONE_TIME A</VendorOption>		        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
