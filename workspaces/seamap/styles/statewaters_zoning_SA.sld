@@ -14,7 +14,7 @@
       <Name>SA state waters zoning</Name>
       <FeatureTypeStyle>
         <Rule>
-          <Title>Restricted Access Zone</Title>
+          <Title>Restricted Access Zone (RAZ)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>ZONE_TYPE</ogc:PropertyName>
@@ -28,7 +28,7 @@
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Sanctuary Zone</Title>
+          <Title>Sanctuary Zone (SZ)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>           
               <ogc:PropertyIsEqualTo>
@@ -48,7 +48,7 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Sanctuary Zone (Nov to April) and Restricted Access Zone (May to Oct)</Title>
+          <Title>SZ (Nov to April) and RAZ (May to Oct)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>           
               <ogc:PropertyIsEqualTo>
@@ -88,7 +88,7 @@
           </PolygonSymbolizer>          
         </Rule>          
         <Rule>
-          <Title>Habitat Protection Zone</Title>
+          <Title>Habitat Protection Zone (HPZ)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>                        
               <ogc:PropertyIsEqualTo>
@@ -108,7 +108,7 @@
           </PolygonSymbolizer>
         </Rule> 
         <Rule>
-          <Title>Habitat Protection Zone (Nov to April) and Restricted Access Zone (May to Oct)</Title>
+          <Title>HPZ (Nov to April) and RAZ (May to Oct)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>           
               <ogc:PropertyIsEqualTo>
