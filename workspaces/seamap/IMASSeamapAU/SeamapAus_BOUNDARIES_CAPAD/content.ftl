@@ -1,6 +1,7 @@
 <#list features as feature>
     <#if feature_index == 0>
-       <table style="border:1.5pt solid black; border-collapse: collapse; text-align: center;">
+    <table style="border:1.5pt solid black; border-collapse: collapse; text-align: center; margin-top:10px; margin-bottom:10px;">
+    <caption style="caption-side: top; text-align: left; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; font-size: 11px; padding:5px 0;">CAPAD 2024</caption>
             <tr style="background-color: #d3d3d3; border:1.5pt solid black;">
                 <th style="padding: 5px;">Area name</th>
                 <th style="padding: 5px;">Area type</th>
