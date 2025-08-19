@@ -9,13 +9,22 @@
   <Name>Seafloor RGB Mosaics</Name>
   <UserStyle>
     <Title>Seafloor imagemosaics</Title>
-		<FeatureTypeStyle>
-			<Rule>
-				<RasterSymbolizer>
-				    <Opacity>1.0</Opacity>
-				</RasterSymbolizer>
-			</Rule>
-		</FeatureTypeStyle>
+    <FeatureTypeStyle>
+      <Rule>
+        <RasterSymbolizer>
+          <Opacity>1.0</Opacity>
+          <ImageOutline>
+            <LineSymbolizer>
+              <Stroke>
+                <CssParameter name="stroke">#000000</CssParameter>
+                <CssParameter name="stroke-width">10</CssParameter>
+                <CssParameter name="stroke-opacity">1.0</CssParameter>
+              </Stroke>
+            </LineSymbolizer>
+          </ImageOutline>
+        </RasterSymbolizer>
+      </Rule>          
+    </FeatureTypeStyle>
   </UserStyle>
 </NamedLayer>
 </StyledLayerDescriptor>
