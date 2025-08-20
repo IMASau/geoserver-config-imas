@@ -44,8 +44,8 @@
   <latLonBoundingBox>
     <minx>147.95188351386255</minx>
     <maxx>148.75706850645045</maxx>
-    <miny>-43.32930420038067</miny>
-    <maxy>-40.526242343235076</maxy>
+    <miny>-43.137346494359065</miny>
+    <maxy>-40.33634925373211</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
