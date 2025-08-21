@@ -79,7 +79,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#007c2b</CssParameter>
-              <CssParameter name="stroke-width">2.2</CssParameter>              
+              <CssParameter name="stroke-width">4</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		                      
@@ -99,7 +99,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#4db3b3</CssParameter>
-              <CssParameter name="stroke-width">2.2</CssParameter>              
+              <CssParameter name="stroke-width">4</CssParameter>              
             </Stroke>            
           </PolygonSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
