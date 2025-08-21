@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_NAT_GiantKelp_2016_2023</name>
+  <id>LayerInfoImpl-fd6cebe:198ca56ddb1:-6cb0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-16695075:1981674cf96:-6fee</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-fd6cebe:198ca56ddb1:-6cb1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-08-21 04:53:54.464 UTC</dateCreated>
+  <dateModified>2025-08-21 04:57:32.941 UTC</dateModified>
+</layer>

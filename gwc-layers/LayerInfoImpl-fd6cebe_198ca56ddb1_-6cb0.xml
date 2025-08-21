@@ -1,22 +1,14 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--40004db0:1983415db23:517b</id>
+  <id>LayerInfoImpl-fd6cebe:198ca56ddb1:-6cb0</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>TNC:SeamapAus_NAT_GiantKelp_2016-2023</name>
+  <name>seamap:SeamapAus_NAT_GiantKelp_2016_2023</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <extent>
-        <coords>
-          <double>1.5546809999938939E7</double>
-          <double>-5444214.462990606</double>
-          <double>1.671067800001789E7</double>
-          <double>-4346060.957024747</double>
-        </coords>
-      </extent>
       <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
@@ -31,7 +23,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>TNC:SeamapAus_NAT_GiantKelp_TNC_bright</defaultStyle>
+      <defaultStyle>TNC:SeamapAus_NAT_GiantKelp_TNC</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
