@@ -205,7 +205,7 @@
     </entry>
     <entry>
       <string>InputTransparentColor</string>
-      <null/>
+      <string>#000000</string>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
@@ -221,7 +221,7 @@
     </entry>
     <entry>
       <string>FootprintBehavior</string>
-      <string>Transparent</string>
+      <string>Cut</string>
     </entry>
   </parameters>
   <nativeCoverageName>AUV_mosaics</nativeCoverageName>
