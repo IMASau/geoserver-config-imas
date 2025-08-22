@@ -221,7 +221,7 @@
     </entry>
     <entry>
       <string>FootprintBehavior</string>
-      <string>Cut</string>
+      <string>Transparent</string>
     </entry>
   </parameters>
   <nativeCoverageName>AUV_mosaics</nativeCoverageName>
