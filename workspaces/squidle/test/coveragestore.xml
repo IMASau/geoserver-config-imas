@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1d7c27a7:198d3f4d2f4:-50bf</id>
+  <name>test</name>
+  <description>test</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--566041e7:198c1a71d30:-4987</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-08-23 02:13:28.138 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/imagery/test</url>
+</coverageStore>
