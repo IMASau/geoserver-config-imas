@@ -7,43 +7,41 @@
       <Title>RGB mild brighten (NoData=0 masked as black)</Title>
       <FeatureTypeStyle>
         <Rule>
-<RasterSymbolizer>
-  <Opacity>1.0</Opacity>
-  <ChannelSelection>
-    <RedChannel>
-      <SourceChannelName>1</SourceChannelName>
-      <ContrastEnhancement>
-        <Normalize>
-          <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-          <VendorOption name="minValue">0</VendorOption>
-          <VendorOption name="maxValue">150</VendorOption>
-        </Normalize>
-      </ContrastEnhancement>
-    </RedChannel>
-    <GreenChannel>
-      <SourceChannelName>2</SourceChannelName>
-      <ContrastEnhancement>
-        <Normalize>
-          <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-          <VendorOption name="minValue">0</VendorOption>
-          <VendorOption name="maxValue">150</VendorOption>
-        </Normalize>
-      </ContrastEnhancement>
-    </GreenChannel>
-    <BlueChannel>
-      <SourceChannelName>3</SourceChannelName>
-      <ContrastEnhancement>
-        <Normalize>
-          <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
-          <VendorOption name="minValue">0</VendorOption>
-          <VendorOption name="maxValue">150</VendorOption>
-        </Normalize>
-      </ContrastEnhancement>
-    </BlueChannel>
-  </ChannelSelection>
-</RasterSymbolizer>
-
-
+          <RasterSymbolizer>
+            <Opacity>1.0</Opacity>
+            <ChannelSelection>
+              <RedChannel>
+                <SourceChannelName>1</SourceChannelName>
+                <ContrastEnhancement>
+                  <Normalize>
+                    <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
+                    <VendorOption name="minValue">0</VendorOption>
+                    <VendorOption name="maxValue">150</VendorOption>
+                  </Normalize>
+                </ContrastEnhancement>
+              </RedChannel>
+              <GreenChannel>
+                <SourceChannelName>2</SourceChannelName>
+                <ContrastEnhancement>
+                  <Normalize>
+                    <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
+                    <VendorOption name="minValue">0</VendorOption>
+                    <VendorOption name="maxValue">150</VendorOption>
+                  </Normalize>
+                </ContrastEnhancement>
+              </GreenChannel>
+              <BlueChannel>
+                <SourceChannelName>3</SourceChannelName>
+                <ContrastEnhancement>
+                  <Normalize>
+                    <VendorOption name="algorithm">StretchToMinimumMaximum</VendorOption>
+                    <VendorOption name="minValue">0</VendorOption>
+                    <VendorOption name="maxValue">150</VendorOption>
+                  </Normalize>
+                </ContrastEnhancement>
+              </BlueChannel>
+            </ChannelSelection>
+          </RasterSymbolizer>
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
