@@ -205,7 +205,7 @@
     </entry>
     <entry>
       <string>InputTransparentColor</string>
-      <string>#000000</string>
+      <null/>
     </entry>
     <entry>
       <string>SUGGESTED_TILE_SIZE</string>
