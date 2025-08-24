@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl--566041e7:198c1a71d30:-4966</id>
+  <id>CoverageInfoImpl--14ed927f:198dab1005b:-7d57</id>
   <name>AUV_mosaics</name>
   <nativeName>AUV_mosaics</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--566041e7:198c1a71d30:-4986</id>
   </namespace>
-  <title>IMOS AUV mosaics - for Squidle</title>
+  <title>Seafloor imagery mosaics from AUVs - for Squidle</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>AUV_mosaics</string>
@@ -38,25 +38,24 @@
     <minx>1.6388502540684775E7</minx>
     <maxx>1.6559561118038176E7</maxx>
     <miny>-5406585.44009027</miny>
-    <maxy>-4914940.69698621</maxy>
+    <maxy>-4954551.6544707455</maxy>
     <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>147.2204231612874</minx>
     <maxx>148.75706850645045</maxx>
     <miny>-43.618452502930495</miny>
-    <maxy>-40.33634925373211</maxy>
+    <maxy>-40.607039001981015</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Squidle_AUV_mosaics_AUV_mosaics</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--566041e7:198c1a71d30:-4984</id>
+    <id>CoverageStoreInfoImpl--1d7c27a7:198da4be270:5421</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -66,24 +65,24 @@
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>391566528 1825885378</high>
+      <high>747280301 1974738412</high>
     </range>
     <transform>
       <scaleX>2.2890818483746933E-4</scaleX>
       <scaleY>-2.2890818483746933E-4</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>1.646992833478336E7</translateX>
-      <translateY>-4914940.697100664</translateY>
+      <translateX>1.6388502540799228E7</translateX>
+      <translateY>-4954551.654585199</translateY>
     </transform>
     <crs>EPSG:3857</crs>
   </grid>
   <supportedFormats>
-    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -133,20 +132,6 @@
         <double>0.0</double>
       </nullValues>
       <unit>W.m-2.Sr-1</unit>
-      <dimensionType>
-        <name>UNSIGNED_8BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
-      <name>ALPHA_BAND</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>0.0</double>
-      </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
