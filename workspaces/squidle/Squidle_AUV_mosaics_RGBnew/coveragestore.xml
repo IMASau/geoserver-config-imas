@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--14ed927f:198df8cc3aa:-2c7</id>
+  <name>Squidle_AUV_mosaics_RGBnew</name>
+  <description>Imagemosaic of IMOS AUV imagery - for provision to Squidle</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--566041e7:198c1a71d30:-4987</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-08-25 11:19:38.280 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/imagery/AUV_mosaics_mask</url>
+</coverageStore>
