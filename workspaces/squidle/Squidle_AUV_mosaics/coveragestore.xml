@@ -11,5 +11,5 @@
   <dateCreated>2025-08-24 06:02:24.916 UTC</dateCreated>
   <dateModified>2025-08-26 05:38:52.576 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/imagery/AUV_mosaics</url>
+  <url>file:///mnt/rdsi/imagery/AUV_mosaics_RGB</url>
 </coverageStore>

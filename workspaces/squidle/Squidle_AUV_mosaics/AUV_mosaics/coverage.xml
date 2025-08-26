@@ -1,14 +1,14 @@
 <coverage>
   <id>CoverageInfoImpl--14ed927f:198dab1005b:-7d57</id>
   <name>AUV_mosaics</name>
-  <nativeName>AUV_mosaics</nativeName>
+  <nativeName>AUV_mosaics_RGB</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--566041e7:198c1a71d30:-4986</id>
   </namespace>
   <title>Seafloor AUV imagery mosaics - for Squidle</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>AUV_mosaics</string>
+    <string>AUV_mosaics_RGB</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
