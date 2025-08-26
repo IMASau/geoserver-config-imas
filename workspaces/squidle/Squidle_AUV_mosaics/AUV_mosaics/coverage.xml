@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--14ed927f:198dab1005b:-7d57</id>
+  <id>CoverageInfoImpl--14ed927f:198e627dd60:-2c45</id>
   <name>AUV_mosaics</name>
-  <nativeName>AUV_mosaics_RGB</nativeName>
+  <nativeName>AUV_mosaics</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--566041e7:198c1a71d30:-4986</id>
   </namespace>
   <title>Seafloor AUV imagery mosaics - for Squidle</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
-    <string>AUV_mosaics_RGB</string>
+    <string>AUV_mosaics</string>
     <string>WCS</string>
     <string>ImageMosaic</string>
   </keywords>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Popular Visualisation Pseudo Mercator&quot;], 
+  PROJECTION[&quot;Popular Visualisation Pseudo Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;1024&quot;]], 
   PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;central_meridian&quot;, 0.0], 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3857&quot;]]</nativeCRS>
   <srs>EPSG:3857</srs>
   <nativeBoundingBox>
-    <minx>1.6338865001162462E7</minx>
-    <maxx>1.656305091277146E7</maxx>
+    <minx>1.6388502540684775E7</minx>
+    <maxx>1.6530714642083675E7</maxx>
     <miny>-5406585.44009027</miny>
-    <maxy>-4758059.711006313</maxy>
+    <maxy>-5141436.189090918</maxy>
     <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>146.77452155709764</minx>
-    <maxx>148.78841786592392</maxx>
+    <minx>147.2204231612874</minx>
+    <maxx>148.4979362040213</maxx>
     <miny>-43.618452502930495</miny>
-    <maxy>-39.25357731520518</maxy>
+    <maxy>-41.869399734899076</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -55,23 +55,25 @@
     <entry key="dirName">Squidle_AUV_mosaics_AUV_mosaics</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--1d7c27a7:198da4be270:5421</id>
+    <id>CoverageStoreInfoImpl--14ed927f:198dab1005b:-7d54</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>747280301 1974738412</high>
+      <high>86778834 161795956</high>
     </range>
     <transform>
-      <scaleX>2.2890818483746933E-4</scaleX>
-      <scaleY>-2.2890818483746933E-4</scaleY>
+      <scaleX>0.0016387878688608473</scaleX>
+      <scaleY>-0.0016387878688608473</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>1.6388502540799228E7</translateX>
-      <translateY>-4954551.654585199</translateY>
+      <translateX>1.6388502541504169E7</translateX>
+      <translateY>-5141436.189910312</translateY>
     </transform>
     <crs>EPSG:3857</crs>
   </grid>
@@ -99,7 +101,6 @@
       <nullValues>
         <double>0.0</double>
       </nullValues>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -114,7 +115,6 @@
       <nullValues>
         <double>0.0</double>
       </nullValues>
-      <unit>W.m-2.Sr-1</unit>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>
@@ -129,7 +129,20 @@
       <nullValues>
         <double>0.0</double>
       </nullValues>
-      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>ALPHA_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>0.0</double>
+      </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
       </dimensionType>

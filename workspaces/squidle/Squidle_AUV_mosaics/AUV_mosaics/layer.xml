@@ -1,17 +1,17 @@
 <layer>
   <name>AUV_mosaics</name>
-  <id>LayerInfoImpl--14ed927f:198dab1005b:-7d56</id>
+  <id>LayerInfoImpl--14ed927f:198e627dd60:-2c44</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--1d7c27a7:198d3f4d2f4:-50bb</id>
+    <id>StyleInfoImpl--566041e7:198c1a71d30:-4968</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--14ed927f:198dab1005b:-7d57</id>
+    <id>CoverageInfoImpl--14ed927f:198e627dd60:-2c45</id>
   </resource>
+  <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-08-24 06:23:41.209 UTC</dateCreated>
-  <dateModified>2025-08-25 04:19:29.417 UTC</dateModified>
+  <dateCreated>2025-08-26 21:23:56.614 UTC</dateCreated>
 </layer>
