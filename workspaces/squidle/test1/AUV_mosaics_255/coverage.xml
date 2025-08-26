@@ -1,11 +1,11 @@
 <coverage>
-  <id>CoverageInfoImpl--14ed927f:198e3e2ece1:b25</id>
-  <name>AUV_mosaics_RGB</name>
-  <nativeName>AUV_mosaics_RGB</nativeName>
+  <id>CoverageInfoImpl--14ed927f:198e3e2ece1:ba7</id>
+  <name>AUV_mosaics_255</name>
+  <nativeName>AUV_mosaics_255</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
+    <id>NamespaceInfoImpl--566041e7:198c1a71d30:-4986</id>
   </namespace>
-  <title>Seafloor AUV imagery mosaics - for Squidle</title>
+  <title>AUV_mosaics_255</title>
   <description>Generated from ImageMosaic</description>
   <keywords>
     <string>AUV_mosaics_255</string>
@@ -52,10 +52,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">test_AUV_mosaics_255</entry>
+    <entry key="dirName">test1_AUV_mosaics_255</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--14ed927f:198e3e2ece1:aee</id>
+    <id>CoverageStoreInfoImpl--14ed927f:198e3e2ece1:b99</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -129,7 +129,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>2555.0</double>
+        <double>255.0</double>
       </nullValues>
       <unit>W.m-2.Sr-1</unit>
       <dimensionType>
@@ -182,7 +182,7 @@
     </entry>
     <entry>
       <string>RescalePixels</string>
-      <boolean>true</boolean>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>Filter</string>
