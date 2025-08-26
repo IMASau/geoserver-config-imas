@@ -36,16 +36,16 @@
   <srs>EPSG:3857</srs>
   <nativeBoundingBox>
     <minx>1.6388502540684775E7</minx>
-    <maxx>1.6530714642083675E7</maxx>
+    <maxx>1.6559561118038176E7</maxx>
     <miny>-5406585.44009027</miny>
-    <maxy>-5141436.189090918</maxy>
+    <maxy>-4914940.69698621</maxy>
     <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>147.2204231612874</minx>
-    <maxx>148.4979362040213</maxx>
+    <maxx>148.75706850645045</maxx>
     <miny>-43.618452502930495</miny>
-    <maxy>-41.869399734899076</maxy>
+    <maxy>-40.33634925373211</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
