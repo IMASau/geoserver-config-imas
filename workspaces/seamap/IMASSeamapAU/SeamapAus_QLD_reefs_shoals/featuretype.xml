@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3ea8dad8:157e6438370:-7caf</id>
   <name>SeamapAus_QLD_reefs_shoals</name>
-  <nativeName>SeamapAus_QLD_reefs_shoals</nativeName>
+  <nativeName>SeamapAus_QLD_reefs_shoals_2025</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -35,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>534496.4979961633</minx>
-    <maxx>1933626.9746806936</maxx>
-    <miny>-3256917.9685858283</miny>
-    <maxy>-1100732.0755213592</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>138.70142190227637</minx>
+    <maxx>156.5253292375942</maxx>
+    <miny>-29.187610301724217</miny>
+    <maxy>-7.902556277146129</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>534496.4979961633</minx>
-    <maxx>1933626.9746806936</maxx>
-    <miny>-3256917.9685858283</miny>
-    <maxy>-1100732.0755213592</maxy>
+    <minx>138.70142190227637</minx>
+    <maxx>156.5253292375942</maxx>
+    <miny>-29.187610301724217</miny>
+    <maxy>-7.902556277146129</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -57,6 +57,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
