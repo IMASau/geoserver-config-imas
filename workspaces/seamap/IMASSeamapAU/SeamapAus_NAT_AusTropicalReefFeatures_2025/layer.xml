@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_NAT_AusTropicalReefFeatures_2025</name>
+  <id>LayerInfoImpl--5de17116:199411f277a:-5619</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1bbfd6da:198a96ccb3f:1e63</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5de17116:199411f277a:-561a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-09-13 08:42:52.269 UTC</dateCreated>
+  <dateModified>2025-09-13 08:54:49.710 UTC</dateModified>
+</layer>

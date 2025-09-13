@@ -29,7 +29,7 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral Reef Bank</ogc:Literal>
+              <ogc:Literal>Coral Reef Flat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -194,7 +194,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9d6347</CssParameter>
+              <CssParameter name="fill">#b7b070</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -303,7 +303,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rocky Reef</ogc:Literal>
+              <ogc:Literal>Oceanic Rim Coral Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -316,7 +316,7 @@
               <GraphicFill>
                 <Graphic>
                   <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
+                    <WellKnownName>shape://horline</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#f28bf9</CssParameter>
                       <CssParameter name="stroke-width">0.7</CssParameter>
@@ -502,6 +502,7 @@
             </Fill>
           </PolygonSymbolizer>          
         </Rule>
+
 
       </FeatureTypeStyle>
     </UserStyle>
