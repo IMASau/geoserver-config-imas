@@ -59,16 +59,15 @@
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
                       <CssParameter name="stroke">#6b32c0</CssParameter>
-                      <CssParameter name="stroke-width">0.5</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>9</Size>
+                  <Size>8</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>          
         </Rule>  
-
         <Rule>
           <Title>High Intertidal Coral Reef</Title>
           <ogc:Filter>
@@ -79,26 +78,55 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d65c95</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
+              <CssParameter name="fill">#ecb4e3</CssParameter>
             </Fill>
           </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#c428af</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>            
         </Rule>
-
         <Rule>
-          <Title>Oceanic Flow Coral Reef</Title>
+          <Title>High Intertidal Sediment Reef</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Flow Coral Reef</ogc:Literal>
+              <ogc:Literal>High Intertidal Sediment Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9C1DE7</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
+              <CssParameter name="fill">#c3b047</CssParameter>
             </Fill>
           </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#00741d</CssParameter>
+                      <CssParameter name="stroke-width">0.7</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>            
         </Rule>
 
         <Rule>
