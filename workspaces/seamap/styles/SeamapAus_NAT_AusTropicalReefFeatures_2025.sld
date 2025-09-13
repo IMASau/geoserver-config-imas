@@ -6,13 +6,13 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Habitat styling</Name>
+    <Name>Australian Tropical Reef Features</Name>
     <UserStyle>
-      <FeatureTypeStyle>
-
+      <Name>Australian Tropical Reef Features</Name>
+      <FeatureTypeStyle>       
         <Rule>
           <Title>Coral Reef</Title>
-          <ogc:Filter>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Coral Reef</ogc:Literal>
@@ -20,15 +20,13 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e63342</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
+              <CssParameter name="fill">#d950cb</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-
         <Rule>
-          <Title>Coral Reef Bank</Title>
-          <ogc:Filter>
+          <Title>Coral Reef Flat</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Coral Reef Bank</ogc:Literal>
@@ -36,27 +34,40 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#F3722C</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
+              <CssParameter name="fill">#f8dcf8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-
         <Rule>
-          <Title>Coral Reef Flat</Title>
-          <ogc:Filter>
+          <Title>Coral Reef Bank</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral Reef Flat</ogc:Literal>
+              <ogc:Literal>Coral Reef Bank</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f9a339</CssParameter>
-              <CssParameter name="fill-opacity">1.0</CssParameter>
+              <CssParameter name="fill">#915eca</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#6b32c0</CssParameter>
+                      <CssParameter name="stroke-width">0.5</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>9</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>          
+        </Rule>  
 
         <Rule>
           <Title>High Intertidal Coral Reef</Title>
