@@ -1,7 +1,7 @@
 <#list features as feature>
 	<#if (feature_index < 1) >
 
-	<h5>Habitat - NT/WA - Oceanic Shoals geomorphic features</h5>
+	<h5>Habitat - WA - Oceanic Shoals geomorphic features</h5>
 	<BR>
 	<div class="feature"> 
 		<b>Geomorphic feature:</b> ${feature.SM_HAB_CLS.value}

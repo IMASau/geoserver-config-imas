@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_NT_OceanicShoals_geomorphic_2012</name>
+  <name>SeamapAus_WA_OceanicShoals_geomorphic_2012</name>
   <id>LayerInfoImpl--6da6cc33:186bfde7437:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-03-08 06:17:54.257 UTC</dateCreated>
+  <dateModified>2025-09-13 13:25:36.97 UTC</dateModified>
 </layer>
