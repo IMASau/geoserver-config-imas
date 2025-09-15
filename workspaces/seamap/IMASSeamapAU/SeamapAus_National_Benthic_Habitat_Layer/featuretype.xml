@@ -41,14 +41,14 @@ This layer is v2025 of the dataset, released in January 2025.</abstract>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>96.8</minx>
-    <maxx>168.017</maxx>
+    <maxx>168.06</maxx>
     <miny>-44.201</miny>
     <maxy>-8.92</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>96.8</minx>
-    <maxx>168.017</maxx>
+    <maxx>168.06</maxx>
     <miny>-44.201</miny>
     <maxy>-8.92</maxy>
     <crs>EPSG:4326</crs>
