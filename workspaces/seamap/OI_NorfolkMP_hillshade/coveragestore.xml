@@ -7,16 +7,9 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2025-07-30 11:06:03.91 UTC</dateCreated>
+  <dateModified>2025-09-16 07:05:53.708 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/227466d6-30d3-4567-9ee3-2eb8c98e14bc/Seabed/NFK_1m_Depth_hs_WGS84.tif</url>
 </coverageStore>
