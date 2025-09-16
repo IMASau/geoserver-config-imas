@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade (Z-factor 5m) from OI 1m multibeam bathymetry for Norfolk Marine Park (AU420)</title>
+  <title>Hillshade (Z-factor 5m) from Ocean Infinity 1m multibeam bathymetry for Norfolk Marine Park (AU420)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>NFK_1m_Depth_hs_WGS84</string>
@@ -23,17 +23,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>167.74306403049064</minx>
-    <maxx>168.17210478270695</maxx>
-    <miny>-29.179124640820714</miny>
-    <maxy>-28.882511364059656</maxy>
+    <minx>167.66590353467046</minx>
+    <maxx>168.25146026409627</maxx>
+    <miny>-29.264194786626057</miny>
+    <maxy>-28.797242356210262</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>167.74306403049064</minx>
-    <maxx>168.17210478270695</maxx>
-    <miny>-29.179124640820714</miny>
-    <maxy>-28.882511364059656</maxy>
+    <minx>167.66590353467046</minx>
+    <maxx>168.25146026409627</maxx>
+    <miny>-29.264194786626057</miny>
+    <maxy>-28.797242356210262</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>

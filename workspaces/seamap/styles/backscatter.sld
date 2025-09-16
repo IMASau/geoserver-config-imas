@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <Name>Backscatter intensity</Name>
+    <UserStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#ffffff" quantity="0.0000001"/>              
+              <ColorMapEntry color="#af0000" quantity="1"/>
+              <ColorMapEntry color="#fc9a03" quantity="127"/>              
+              <ColorMapEntry color="#ffff97" quantity="255"/>     
+            </ColorMap>
+          </RasterSymbolizer>
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                           
+        </Rule>         
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#af0000" label="  Soft" quantity="1"/>
+              <ColorMapEntry color="#fc9a03" label="" quantity="100"/>              
+              <ColorMapEntry color="#ffff97" label="  Hard" quantity="255"/>     
+            </ColorMap>
+          </RasterSymbolizer>
+ 		<VendorOption name="inclusion">legendOnly</VendorOption>                                           
+        </Rule>        
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
