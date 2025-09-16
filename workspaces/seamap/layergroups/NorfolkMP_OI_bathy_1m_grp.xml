@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--5de17116:199524c6cad:5516</id>
+  <name>NorfolkMP_OI_bathy_1m_grp</name>
+  <mode>SINGLE</mode>
+  <title>Multibeam bathymetry (1m) from Ocean Infinity survey of Norfolk Marine Park (AU420)</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--5de17116:199524c6cad:561a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--488987c8:19859e64c65:-37c</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--5de17116:199524c6cad:5509</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-434b5ea1:1937db63b1d:5d05</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>167.66590353467046</minx>
+    <maxx>168.25146026409627</maxx>
+    <miny>-29.264194786626057</miny>
+    <maxy>-28.797242356210262</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-09-16 22:38:29.808 UTC</dateCreated>
+  <dateModified>2025-09-16 22:42:50.639 UTC</dateModified>
+</layerGroup>

@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--5de17116:199524c6cad:550a</id>
+  <name>OI_NorfolkMP_bathy</name>
+  <description>Ocean Infinity Norfolk Marine Park bathymetry (AU420)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-09-16 22:35:22.77 UTC</dateCreated>
+  <dateModified>2025-09-16 22:41:01.874 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/227466d6-30d3-4567-9ee3-2eb8c98e14bc/Seabed/NFK_1m_Depth_WGS84.tif</url>
+</coverageStore>
