@@ -1,0 +1,18 @@
+<layer>
+  <name>OI_NorfolkIsland_orthomosaic</name>
+  <id>LayerInfoImpl--5de17116:199524c6cad:-38d6</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5de17116:199524c6cad:-38d9</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--5de17116:199524c6cad:-38d7</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-09-16 12:17:11.177 UTC</dateCreated>
+  <dateModified>2025-09-16 12:22:36.743 UTC</dateModified>
+</layer>
