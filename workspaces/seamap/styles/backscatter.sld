@@ -5,27 +5,15 @@
   <NamedLayer>
     <Name>Backscatter intensity</Name>
     <UserStyle>
-      <FeatureTypeStyle>
+      <FeatureTypeStyle>       
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" quantity="0.0000001"/>              
-              <ColorMapEntry color="#af0000" quantity="1"/>
-              <ColorMapEntry color="#fc9a03" quantity="127"/>              
-              <ColorMapEntry color="#ffff97" quantity="255"/>     
-            </ColorMap>
-          </RasterSymbolizer>
- 		<VendorOption name="inclusion">mapOnly</VendorOption>                                           
-        </Rule>         
-        <Rule>
-          <RasterSymbolizer>
-            <ColorMap type="ramp">
-              <ColorMapEntry color="#af0000" label="  Soft" quantity="1"/>
+              <ColorMapEntry color="#af0000" label="  Soft" quantity="0"/>
               <ColorMapEntry color="#fc9a03" label="" quantity="100"/>              
               <ColorMapEntry color="#ffff97" label="  Hard" quantity="255"/>     
             </ColorMap>
           </RasterSymbolizer>
- 		<VendorOption name="inclusion">legendOnly</VendorOption>                                           
         </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
