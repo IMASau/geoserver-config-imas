@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Hillshade from OI 1m multibeam bathymetry for Norfolk Marine Park (AU420)</title>
+  <title>Hillshade (Z-factor 5m) from OI 1m multibeam bathymetry for Norfolk Marine Park (AU420)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>NFK_1m_Depth_hs_WGS84</string>
@@ -48,6 +48,8 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
