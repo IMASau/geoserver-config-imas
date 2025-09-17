@@ -67,7 +67,7 @@
         <#assign width = maxBarWidth * macroalgae>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <div style="width: ${width}px; height: 10px; background-color: #2d9624;"></div>
-          <span style="margin-left: 8px;">Macroalgae: <b>${macroalgae?string("0.000")}</b></span>
+          <span style="margin-left: 8px;">Macroalgae: <b>${macroalgae?string("0.000")}</b> (<i>lwr CI - upr CI</i>)</span>
         </div>
       </#if>
 
@@ -75,7 +75,7 @@
       <#if consolidated < 0.001>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <span style="color: red; font-size: 10px;">&#128711;</span>
-          <span style="margin-left: 4px;">Bare consolidated substrata: <b>&lt;0.001</b></span>
+          <span style="margin-left: 4px;">Bare consolidated substrata: <b>&lt;0.001</b> (<i>lwr CI - upr CI</i>)</span>
         </div>
       <#else>
         <#assign width = maxBarWidth * consolidated>
