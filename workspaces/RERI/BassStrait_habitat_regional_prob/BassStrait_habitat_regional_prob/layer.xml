@@ -1,0 +1,30 @@
+<layer>
+  <name>BassStrait_habitat_regional_prob</name>
+  <id>LayerInfoImpl--5de17116:19956dbe022:129d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--5de17116:19956cd1fb4:-7fd9</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:19956dbe022:129b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:19956cd1fb4:-7fc3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:19956cc4728:7f3b</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--5de17116:19956dbe022:129c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-09-17 08:56:10.895 UTC</dateCreated>
+</layer>
