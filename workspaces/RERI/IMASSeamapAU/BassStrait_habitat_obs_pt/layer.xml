@@ -1,0 +1,17 @@
+<layer>
+  <name>BassStrait_habitat_obs_pt</name>
+  <id>LayerInfoImpl--5de17116:19956dbe022:6391</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5de17116:19956dbe022:59f3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5de17116:19956dbe022:6390</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-09-17 09:51:54.839 UTC</dateCreated>
+  <dateModified>2025-09-17 09:55:04.976 UTC</dateModified>
+</layer>

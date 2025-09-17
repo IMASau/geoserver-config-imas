@@ -15,6 +15,9 @@
     <published type="layer">
       <id>LayerInfoImpl--5de17116:19955fe5f65:2d4</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl--5de17116:19956dbe022:6391</id>
+    </published>
   </publishables>
   <styles>
     <style>
@@ -22,6 +25,9 @@
     </style>
     <style>
       <id>StyleInfoImpl--6e4e475:197100d43f0:-3825</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:19956dbe022:59f3</id>
     </style>
   </styles>
   <bounds>
@@ -32,5 +38,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-09-17 09:12:40.443 UTC</dateCreated>
-  <dateModified>2025-09-17 09:21:45.973 UTC</dateModified>
+  <dateModified>2025-09-17 09:58:31.533 UTC</dateModified>
 </layerGroup>
