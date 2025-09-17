@@ -39,7 +39,7 @@
         <#assign width = maxBarWidth * unconsolidated>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <div style="width: ${width}px; height: 10px; background-color: #fff34d;"></div>
-          <span style="margin-left: 8px;">Bare unconsolidated substrata: <b>${unconsolidated?string("0.000")}</b></span>
+          <span style="margin-left: 8px;">Bare unconsolidated substrata: <b>${unconsolidated?string("0.000")}</b>  (<i>lwr CI - upr CI</i>)</span>
         </div>
       </#if>
 

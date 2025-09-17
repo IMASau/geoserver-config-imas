@@ -14,7 +14,7 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <Opacity>0.6</Opacity>
+            <Opacity>0.5</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0" quantity="0" />
               <ColorMapEntry color="#000000" quantity="1" />

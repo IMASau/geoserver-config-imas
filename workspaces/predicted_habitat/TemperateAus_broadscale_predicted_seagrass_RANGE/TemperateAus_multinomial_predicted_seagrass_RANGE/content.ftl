@@ -1,13 +1,15 @@
 <#list features as feature>
     <#assign maxBarWidth = 90>
 
-    <!-- Extract values from the respective bands -->
-    <#assign lowerInterval = feature["LOWER"].value?number>
+    <#assign lowVal = feature["LOWER"].value?number>
     <#assign meanValue = feature["MEAN"].value?number>
-    <#assign upperInterval = feature["UPPER"].value?number>
+    <#assign highVal = feature["UPPER"].value?number>
+
+    <#-- ensure proper order of CIs -->
+    <#assign lowerInterval = (lowVal < highVal)?then(lowVal, highVal)>
+    <#assign upperInterval = (lowVal > highVal)?then(lowVal, highVal)>
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
-
         <div class="feature"> 
             <div style="display: flex; align-items: center;"> 
                 <!-- Check if meanValue is within the specific range -->

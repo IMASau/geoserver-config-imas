@@ -1,24 +1,23 @@
 <#list features as feature>
     <#assign maxBarWidth = 90>
 
-    <!-- Extract values from the respective bands -->
-    <#assign lowerInterval = feature["LOWER"].value?number>
+    <#assign lowVal = feature["LOWER"].value?number>
     <#assign meanValue = feature["MEAN"].value?number>
-    <#assign upperInterval = feature["UPPER"].value?number>
+    <#assign highVal = feature["UPPER"].value?number>
+
+    <#-- ensure proper order of CIs -->
+    <#assign lowerInterval = (lowVal < highVal)?then(lowVal, highVal)>
+    <#assign upperInterval = (lowVal > highVal)?then(lowVal, highVal)>
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
-
         <div class="feature"> 
             <div style="display: flex; align-items: center;"> 
-                <!-- Check if meanValue is within the specific range -->
                 <#if meanValue < 0.001>
-                    <!-- Display message for low but non-zero value -->
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
                         <span style="color: red; font-size: 10px;">&#128711;</span>
                         <span style="margin-left: 3px;">Sessile invertebrates: <b>&lt;0.001</b></span>
                     </div>
                 <#else>
-                    <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * meanValue)>
                     <div style="display: flex; align-items: center; padding-bottom:1px;">
                         <div style="width: ${barWidth}px; height: 10px; background-color: #b23499;"></div>
