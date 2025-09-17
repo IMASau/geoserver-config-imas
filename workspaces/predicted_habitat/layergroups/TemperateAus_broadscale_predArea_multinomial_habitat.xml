@@ -16,9 +16,6 @@ This layer to be used in a layer group including predictions of the other 4 broa
       <id>LayerInfoImpl-66607dc3:18e9d6d3359:340</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-66607dc3:18e9d6d3359:349</id>
-    </published>
-    <published type="layer">
       <id>LayerInfoImpl-66607dc3:18e9d6d3359:34f</id>
     </published>
     <published type="layer">
@@ -26,6 +23,9 @@ This layer to be used in a layer group including predictions of the other 4 broa
     </published>
     <published type="layer">
       <id>LayerInfoImpl-66607dc3:18e9d6d3359:34b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-66607dc3:18e9d6d3359:349</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl-257b21bb:18f0f04bb8b:-6c73</id>
@@ -42,9 +42,6 @@ This layer to be used in a layer group including predictions of the other 4 broa
       <id>StyleInfoImpl-307e6a7c:18c3893e71d:7de6</id>
     </style>
     <style>
-      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fc</id>
-    </style>
-    <style>
       <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fd</id>
     </style>
     <style>
@@ -52,6 +49,9 @@ This layer to be used in a layer group including predictions of the other 4 broa
     </style>
     <style>
       <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-307e6a7c:18c36a59770:-8fc</id>
     </style>
     <style>
       <id>StyleInfoImpl-257b21bb:18f0f04bb8b:-7179</id>
@@ -78,5 +78,5 @@ This layer to be used in a layer group including predictions of the other 4 broa
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2024-04-02 21:35:04.433 UTC</dateCreated>
-  <dateModified>2024-04-27 22:19:07.908 UTC</dateModified>
+  <dateModified>2025-09-17 09:24:39.692 UTC</dateModified>
 </layerGroup>

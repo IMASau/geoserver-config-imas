@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--5de17116:19956dbe022:1cc2</id>
+  <name>BassStrait_habitat_regional_prob_map</name>
+  <mode>SINGLE</mode>
+  <title>Bass Strait regional habitat model - probability</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--5de17116:19956dbe022:129d</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--5de17116:19955fe5f65:2d4</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--5de17116:19956dbe022:2013</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6e4e475:197100d43f0:-3825</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>143.00005000000095</minx>
+    <maxx>149.99995000006754</maxx>
+    <miny>-42.00004999999811</miny>
+    <maxy>-36.999949999950545</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2025-09-17 09:12:40.443 UTC</dateCreated>
+  <dateModified>2025-09-17 09:21:45.973 UTC</dateModified>
+</layerGroup>
