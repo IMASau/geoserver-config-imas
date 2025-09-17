@@ -8,7 +8,7 @@
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
-        <h5 style="padding-top:20px; padding-bottom:10px;">Modelled probability of benthic habitats</h5>
+        <h5 style="padding-top:10px; padding-bottom:10px;">Modelled probability of benthic habitats</h5>
 
         <div class="feature"> 
 

@@ -21,7 +21,7 @@
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * meanValue)>
                     <div style="display: flex; align-items: center; padding-bottom:1px;">
-                        <div style="width: ${barWidth}px; height: 10px; background-color: #c639aa;"></div>
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #9e2e88;"></div>
                         <span style="margin-left: 8px;">
                             Sessile invertebrates: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)
