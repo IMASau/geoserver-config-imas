@@ -8,9 +8,9 @@
         <#assign habitats = [
             {"name": "Macroalgae", "value": (feature.broad_macroalgae.value)?number!0, "color": "#2d9624"},
             {"name": "Seagrass", "value": (feature.summed_broad_seagrasses.value)?number!0, "color": "#02de70"},
-            {"name": "Sessile invertebrates", "value": (feature.summed_broad_sessile_inverts.value)?number!0, "color": "#c639aa"},
+            {"name": "Sessile invertebrates", "value": (feature.summed_broad_sessile_inverts.value)?number!0, "color": "#b23499"},
             {"name": "Bare consolidated substrata", "value": (feature.broad_consolidated.value)?number!0, "color": "#663300"},
-            {"name": "Bare unconsolidated substrata", "value": (feature.broad_unconsolidated.value)?number!0, "color": "#fff780"}
+            {"name": "Bare unconsolidated substrata", "value": (feature.broad_unconsolidated.value)?number!0, "color": "#fff34d"}
         ]>
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>

@@ -8,7 +8,7 @@
 
     <#if meanValue?is_number && (!meanValue?is_nan) && (meanValue > 0)>
 
-        <h5 style="padding-top:10px; padding-bottom:10px;">Modelled probability of benthic habitats</h5>
+        <h5 style="padding-top:10px; padding-bottom:7px;">Temperate Aus: Probability of benthic habitats</h5>
 
         <div class="feature"> 
 
@@ -24,7 +24,7 @@
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * meanValue)>
                     <div style="display: flex; align-items: center; padding-bottom:1px;">
-                        <div style="width: ${barWidth}px; height: 10px; background-color: #ffee00;"></div>
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #fff34d;"></div>
                         <span style="margin-left: 8px;">
                             Bare unconsolidated substrata: <b>${meanValue?string("0.000")}</b>
                             (<i>${lowerInterval?string("0.000")} - ${upperInterval?string("0.000")}</i>)

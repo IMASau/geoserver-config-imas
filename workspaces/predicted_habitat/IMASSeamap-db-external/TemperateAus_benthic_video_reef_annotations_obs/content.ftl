@@ -12,7 +12,7 @@
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
 
-        <h5 style="padding-top:20px; padding-bottom:10px;">Obervations of functional reef<br>(annotated video)</h5>
+        <h5 style="padding-top:10px; padding-bottom:10px;">Obervations of functional reef</h5>
 
         <div class="feature">
             <#list sortedHabitats as habitat>

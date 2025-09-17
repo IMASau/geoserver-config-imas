@@ -24,7 +24,7 @@
                     <!-- Calculate bar width in pixels based on the percentage -->
                     <#assign barWidth = (maxBarWidth * unconsolidated)>
                     <div style="display: flex; align-items: center; padding-bottom:1px;"> 
-                        <div style="width: ${barWidth}px; height: 10px; background-color: #ffee00;"></div>
+                        <div style="width: ${barWidth}px; height: 10px; background-color: #fff34d;"></div>
                         <span style="margin-left: 8px;">
                             Bare unconsolidated: <b>${unconsolidated?string("0.000")}</b>
                         </span>

@@ -26,8 +26,8 @@
     || (macroalgae?is_number && macroalgae != -9999)
     || (inverts?is_number && inverts!= -9999)>
 
-    <div class="feature" style="padding-top: 10px; padding-bottom: 10px;">
-    <h5 style="padding-bottom:5px;">Modelled probability of benthic habitats</h5>
+    <div class="feature" style="padding-top: 5px; padding-bottom: 2px;">
+    <h5 style="padding-bottom:7px;">Bass Strait: probability of benthic habitats</h5>
 
       <!-- Bare unconsolidated prob -->
       <#if unconsolidated < 0.01>
@@ -38,7 +38,7 @@
       <#else>
         <#assign width = maxBarWidth * unconsolidated>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
-          <div style="width: ${width}px; height: 10px; background-color: #fff899;"></div>
+          <div style="width: ${width}px; height: 10px; background-color: #fff34d;"></div>
           <span style="margin-left: 8px;">Bare unconsolidated substrata: <b>${unconsolidated?string("0.00")}</b></span>
         </div>
       </#if>
@@ -52,7 +52,7 @@
       <#else>
         <#assign width = maxBarWidth * inverts>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
-          <div style="width: ${width}px; height: 10px; background-color: #9e2e88;"></div>
+          <div style="width: ${width}px; height: 10px; background-color: #b23499;"></div>
           <span style="margin-left: 8px;">Sessile invertebrates: <b>${inverts?string("0.00")}</b></span>
         </div>
       </#if>

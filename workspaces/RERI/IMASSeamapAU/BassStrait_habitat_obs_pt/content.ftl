@@ -15,7 +15,7 @@
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
 
-        <h5 style="padding-top:20px; padding-bottom:10px;">Observed benthic habitat<br>(annotated video)</h5>
+        <h5 style="padding-top:10px; padding-bottom:7px;">Bass Strait: observed benthic habitats</h5>
 
         <div class="feature">
             <#list sortedHabitats as habitat>
