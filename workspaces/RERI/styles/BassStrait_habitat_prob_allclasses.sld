@@ -6,25 +6,7 @@
   <NamedLayer>
     <Name>BassStrait_habitat_regional_prob</Name>
     <UserStyle>
-      <FeatureTypeStyle>
-        <Rule>
-          <RasterSymbolizer>
-            <ChannelSelection>
-              <GrayChannel>
-                <SourceChannelName>4</SourceChannelName> <!-- Band 4 is SESSILE INVERTEBRATES habitat -->
-              </GrayChannel>
-            </ChannelSelection>            
-            <ColorMap type="ramp">              
-              <ColorMapEntry color="#9e2e88" opacity="0.0001" quantity="0"/>
-              <ColorMapEntry color="#9e2e88" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#9e2e88" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#9e2e88" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#9e2e88" opacity="0.8" quantity="0.8"/>
-              <ColorMapEntry color="#9e2e88" opacity="1" quantity="1"/>           
-            </ColorMap>
-          </RasterSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
-        </Rule>        
+      <FeatureTypeStyle>        
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
@@ -33,11 +15,11 @@
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#fff899" opacity="0.0001" quantity="0"/>
-              <ColorMapEntry color="#fff899" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#fff899" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#fff899" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#fff899" opacity="0.8" quantity="0.8"/>
+              <ColorMapEntry color="#fff899" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#fff899" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#fff899" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#fff899" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#fff899" opacity="0.9" quantity="0.8"/>
               <ColorMapEntry color="#fff899" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>
@@ -47,15 +29,33 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
+                <SourceChannelName>4</SourceChannelName> <!-- Band 4 is SESSILE INVERTEBRATES habitat -->
+              </GrayChannel>
+            </ChannelSelection>            
+            <ColorMap type="ramp">              
+              <ColorMapEntry color="#9e2e88" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#9e2e88" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#9e2e88" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#9e2e88" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#9e2e88" opacity="0.9" quantity="0.8"/>
+              <ColorMapEntry color="#9e2e88" opacity="1" quantity="1"/>           
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
+        </Rule>        
+        <Rule>
+          <RasterSymbolizer>
+            <ChannelSelection>
+              <GrayChannel>
                 <SourceChannelName>3</SourceChannelName> <!-- Band 3 is MACROALGAE habitat -->
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#2d9624" opacity="0" quantity="0"/>
-              <ColorMapEntry color="#2d9624" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#2d9624" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#2d9624" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#2d9624" opacity="0.8" quantity="0.8"/>
+              <ColorMapEntry color="#2d9624" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#2d9624" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#2d9624" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#2d9624" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#2d9624" opacity="0.9" quantity="0.8"/>
               <ColorMapEntry color="#2d9624" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>
@@ -69,11 +69,11 @@
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#663300" opacity="0.0001" quantity="0"/>
-              <ColorMapEntry color="#663300" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#663300" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#663300" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#663300" opacity="0.8" quantity="0.8"/>
+              <ColorMapEntry color="#663300" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#663300" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#663300" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#663300" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#663300" opacity="0.9" quantity="0.8"/>
               <ColorMapEntry color="#663300" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>

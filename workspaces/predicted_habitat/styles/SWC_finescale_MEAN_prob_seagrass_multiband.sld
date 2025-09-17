@@ -14,7 +14,7 @@
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#02de70" opacity="0.0001" quantity="0"/>
+              <ColorMapEntry color="#02de70" opacity="0.1" quantity="0"/>
               <ColorMapEntry color="#02de70" opacity="0.3" quantity="0.2"/>              
               <ColorMapEntry color="#02de70" opacity="0.5" quantity="0.4"/>            
               <ColorMapEntry color="#02de70" opacity="0.7" quantity="0.6"/>

@@ -14,11 +14,11 @@
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#2d9624" opacity="0" quantity="0"/>
-              <ColorMapEntry color="#2d9624" opacity="0.2" quantity="0.2"/>              
-              <ColorMapEntry color="#2d9624" opacity="0.4" quantity="0.4"/>            
-              <ColorMapEntry color="#2d9624" opacity="0.6" quantity="0.6"/>
-              <ColorMapEntry color="#2d9624" opacity="0.8" quantity="0.8"/>
+              <ColorMapEntry color="#2d9624" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#2d9624" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#2d9624" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#2d9624" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#2d9624" opacity="0.9" quantity="0.8"/>
               <ColorMapEntry color="#2d9624" opacity="1" quantity="1"/>           
           
             </ColorMap>
