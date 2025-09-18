@@ -197,9 +197,26 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#808080</CssParameter>
-                  <CssParameter name="fill-opacity">0.4</CssParameter>		                  
+                  <CssParameter name="fill-opacity">0.2</CssParameter>		                  
                 </Fill>		
-             </PolygonSymbolizer>		
+             </PolygonSymbolizer>
+             <PolygonSymbolizer>
+               <Fill>
+                 <GraphicFill>
+                   <Graphic>
+                     <Mark>
+                       <WellKnownName>shape://slash</WellKnownName>
+                       <Stroke>
+                         <CssParameter name="stroke">#000000</CssParameter>
+                         <CssParameter name="stroke-width">1</CssParameter>
+                         <CssParameter name="stroke-opacity">0.15</CssParameter>                         
+                       </Stroke>
+                     </Mark>
+                     <Size>25</Size>
+                   </Graphic>
+                 </GraphicFill>
+               </Fill>
+             </PolygonSymbolizer>             
           </Rule>	          
         </FeatureTypeStyle>
      </UserStyle>
