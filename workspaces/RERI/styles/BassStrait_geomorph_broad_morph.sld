@@ -39,7 +39,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#66cc00</CssParameter>		
-                </Fill>		
+                </Fill>	
+                <Stroke>		
+                  <CssParameter name="stroke">#66cc00</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>	               
              </PolygonSymbolizer>		
           </Rule>           
           <Rule>		
@@ -53,7 +57,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#8c8c90</CssParameter>		
-                </Fill>		
+                </Fill>
+                <Stroke>		
+                  <CssParameter name="stroke">#8c8c90</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>               
              </PolygonSymbolizer>		
           </Rule>           
           <Rule>		
@@ -68,6 +76,10 @@
                 <Fill>		
                   <CssParameter name="fill">#538cc6</CssParameter>		
                 </Fill>		
+                <Stroke>		
+                  <CssParameter name="stroke">#538cc6</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>                
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
@@ -81,7 +93,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#ffebbe</CssParameter>		
-                </Fill>		
+                </Fill>			
+                <Stroke>		
+                  <CssParameter name="stroke">#ffebbe</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>                 
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
@@ -95,7 +111,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#669999</CssParameter>		
-                </Fill>		
+                </Fill>	
+                <Stroke>		
+                  <CssParameter name="stroke">#669999</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>                
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
@@ -109,7 +129,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#ff0000</CssParameter>		
-                </Fill>		
+                </Fill>	
+                <Stroke>		
+                  <CssParameter name="stroke">#ff0000</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>                  
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
@@ -123,7 +147,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#a87000</CssParameter>		
-                </Fill>		
+                </Fill>	
+                <Stroke>		
+                  <CssParameter name="stroke">#a87000</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>                 
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
@@ -138,10 +166,12 @@
                 <Fill>		
                   <CssParameter name="fill">#737300</CssParameter>		
                 </Fill>		
+                <Stroke>		
+                  <CssParameter name="stroke">#737300</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>               
              </PolygonSymbolizer>		
           </Rule> 
-          
-          
           <Rule>		
              <Title>Terrace</Title>		
              <ogc:Filter>		
@@ -153,7 +183,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#FFAD00</CssParameter>		
-                </Fill>		
+                </Fill>	
+                <Stroke>		
+                  <CssParameter name="stroke">#FFAD00</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>                
              </PolygonSymbolizer>		
           </Rule> 
           <Rule>		
@@ -167,7 +201,11 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#002b80</CssParameter>		
-                </Fill>		
+                </Fill>	
+                <Stroke>		
+                  <CssParameter name="stroke">#002b80</CssParameter>
+                  <CssParameter name="stroke-width">0.1</CssParameter>		                  
+                </Stroke>               
              </PolygonSymbolizer>		
           </Rule>	          
         </FeatureTypeStyle>
