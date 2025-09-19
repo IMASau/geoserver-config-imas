@@ -18,7 +18,7 @@
 
   <#-- Only render first 3 rows -->
   <#if feature_index < 3>
-    <tr style="background-color:#ffffff">
+    <tr style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
       <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.broad_type.value}</b></td>
       <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.Morphology.value}</b></td>
       <td style="padding: 5px; font-size:90%; text-align:center;"><i>${feature.PhysiogSet.value}</i></td>
@@ -61,7 +61,7 @@
 
 <#-- Note below the table if there were more than 3 -->
 <#if hasMore>
-  <div style="font-size:90%; font-style: italic; margin-top:4px;">
-    Multiple features exist at this point.
+  <div style="font-size:90%; margin-top:10px;">
+    <i>More than three features exist at this point. Zoom in for more detail.</i>
   </div>
 </#if>
