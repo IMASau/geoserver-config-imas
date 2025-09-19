@@ -1,0 +1,27 @@
+<layer>
+  <name>Beagle_geomorph_fine_2025</name>
+  <id>LayerInfoImpl--5de17116:1995fc58203:3ea9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5de17116:1995f280430:-5a99</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--5de17116:1995f280430:-5a99</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:1995f280430:-4ca1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:1995f280430:-3db9</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5de17116:1995fc58203:3ea8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-09-19 02:50:43.899 UTC</dateCreated>
+</layer>
