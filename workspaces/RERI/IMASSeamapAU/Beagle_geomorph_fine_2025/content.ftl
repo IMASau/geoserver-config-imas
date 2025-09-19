@@ -13,7 +13,7 @@
       </tr>
       <tr style="background-color:#ffffff">
         <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.broad_type.value}</b></td>
-        <td style="padding: 5px; font-size:90%; text-align:center;">${feature.Morphology.value}</td>
+        <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.Morphology.value}</b></td>
         <td style="padding: 5px; font-size:90%; text-align:center;"><i>${feature.PhysiogSet.value}</i></td>
         <td style="padding: 5px; font-size:90%; text-align:center;"><i>${feature.GeomorphSet.value}</i></td>
         <td style="padding: 5px; font-size:90%; text-align:center;">
@@ -27,7 +27,7 @@
           <#if feature.BGU_T.value == "NA">
             <i>${feature.BGU_T.value}</i>
           <#else>
-            ${feature.BGU_T.value}
+            <b>${feature.BGU_T.value}</b>
           </#if>
         <td style="padding: 5px; font-size:90%; text-align:center;">
           <#if feature.BGU_sT.value == "NA" || feature.BGU_sT.value == "Unknown">

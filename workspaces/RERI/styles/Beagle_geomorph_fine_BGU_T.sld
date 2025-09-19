@@ -14,10 +14,10 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphic Unit</Title>		
+             <Title>Basic Geomorphic Unit Type</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
                   <ogc:Literal>INTENTIONALLYBLANK</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
@@ -32,7 +32,7 @@
              <Title>dune</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
                   <ogc:Literal>dune</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>	
@@ -50,7 +50,7 @@
              <Title>sediment ribbon</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
                   <ogc:Literal>sediment ribbon</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
@@ -69,11 +69,11 @@
              <ogc:Filter>
                 <ogc:Or>		             
                   <ogc:PropertyIsEqualTo>		
-                    <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                    <ogc:PropertyName>BGU_T</ogc:PropertyName>		
                     <ogc:Literal>NA</ogc:Literal>		
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>		
-                    <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                    <ogc:PropertyName>BGU_T</ogc:PropertyName>		
                     <ogc:Literal>Unknown</ogc:Literal>		
                   </ogc:PropertyIsEqualTo>                  
                 </ogc:Or>		                             
