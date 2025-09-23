@@ -9,6 +9,7 @@
   </workspace>
   <connectionParameters>
     <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="schema">dbo</entry>
     <entry key="Integrated Security">false</entry>
     <entry key="fetch size">1000</entry>
     <entry key="jndiReferenceName">java:comp/env/jdbc/immerse</entry>
@@ -20,6 +21,6 @@
   </connectionParameters>
   <__default>false</__default>
   <dateCreated>2025-09-23 07:19:49.34 UTC</dateCreated>
-  <dateModified>2025-09-23 22:02:02.140 UTC</dateModified>
+  <dateModified>2025-09-23 23:13:16.37 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>
