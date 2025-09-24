@@ -237,7 +237,6 @@
           </ogc:And>			
           </ogc:Filter>	
           <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
-          <MaxScaleDenominator>600000</MaxScaleDenominator>   
           <PointSymbolizer>
             <Graphic>
               <Mark>
