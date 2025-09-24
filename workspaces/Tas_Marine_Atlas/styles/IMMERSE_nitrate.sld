@@ -38,7 +38,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>17</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -50,7 +50,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -77,7 +77,7 @@
                   <CssParameter name="fill">#DFC27D</CssParameter>
                 </Fill>
               </Mark>
-              <Size>17</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -89,7 +89,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -101,7 +101,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>23</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer>            
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
@@ -128,7 +128,7 @@
                   <CssParameter name="fill">#C7EAE5</CssParameter>
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -140,7 +140,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>23</Size>
+              <Size>20</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -152,7 +152,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>26</Size>
+              <Size>23</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -179,7 +179,7 @@
                   <CssParameter name="fill">#35978F</CssParameter>
                 </Fill>
               </Mark>
-              <Size>23</Size>
+              <Size>20</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -191,7 +191,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>26</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -203,7 +203,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>29</Size>
+              <Size>25</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -224,7 +224,7 @@
                   <CssParameter name="fill">#003C30</CssParameter>
                 </Fill>
               </Mark>
-              <Size>26</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -236,7 +236,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>29</Size>
+              <Size>24</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -248,7 +248,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>32</Size>
+              <Size>27</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		  
@@ -296,7 +296,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>12</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer>            
         </Rule>
@@ -323,7 +323,7 @@
                   <CssParameter name="fill">#DFC27D</CssParameter>
                 </Fill>
               </Mark>
-              <Size>11</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -335,7 +335,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>13</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -374,7 +374,7 @@
                   <CssParameter name="fill">#C7EAE5</CssParameter>
                 </Fill>
               </Mark>
-              <Size>14</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -386,7 +386,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>16</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -398,7 +398,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>18</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>           
         </Rule>
@@ -425,7 +425,7 @@
                   <CssParameter name="fill">#35978F</CssParameter>
                 </Fill>
               </Mark>
-              <Size>17</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -437,7 +437,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>19</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -449,7 +449,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>21</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>          
         </Rule>			
@@ -470,7 +470,7 @@
                   <CssParameter name="fill">#003C30</CssParameter>
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -482,7 +482,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>22</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -494,7 +494,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>24</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer>           
         </Rule>		

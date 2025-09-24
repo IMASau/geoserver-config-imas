@@ -1,6 +1,6 @@
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <Name>Black rockcod TEMPERATURE_MEAN</Name>
+    <Name>Water temperature</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
@@ -38,7 +38,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>17</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -50,12 +50,11 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
-
         <Rule>
           <ogc:Filter>
           <ogc:And>		  
@@ -78,7 +77,7 @@
                   <CssParameter name="fill">#52167F</CssParameter>
                 </Fill>
               </Mark>
-              <Size>17</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -90,7 +89,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -102,12 +101,11 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>23</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer>          
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
         </Rule>
-
         <Rule>
           <ogc:Filter>
           <ogc:And>		  
@@ -130,7 +128,7 @@
                   <CssParameter name="fill">#8C145A</CssParameter>
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -142,7 +140,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>23</Size>
+              <Size>20</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -154,12 +152,11 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>26</Size>
+              <Size>23</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>
-		  
         <Rule>
           <ogc:Filter>
           <ogc:And>		  
@@ -182,7 +179,7 @@
                   <CssParameter name="fill">#C51235</CssParameter>
                 </Fill>
               </Mark>
-              <Size>23</Size>
+              <Size>20</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -194,7 +191,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>26</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -206,12 +203,11 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>29</Size>
+              <Size>25</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
         </Rule>	
-
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
@@ -228,7 +224,7 @@
                   <CssParameter name="fill">#FF1010</CssParameter>
                 </Fill>
               </Mark>
-              <Size>26</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -240,7 +236,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>29</Size>
+              <Size>24</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -252,11 +248,12 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>32</Size>
+              <Size>27</Size>
             </Graphic>
           </PointSymbolizer>           
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		  
         </Rule>		
+
 
         <!-- Zoom levels >50,000-->
         <Rule>
@@ -300,7 +297,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>12</Size>
+              <Size>13</Size>
             </Graphic>
           </PointSymbolizer>            
         </Rule>
@@ -327,7 +324,7 @@
                   <CssParameter name="fill">#52167F</CssParameter>
                 </Fill>
               </Mark>
-              <Size>11</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -339,7 +336,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>13</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -378,7 +375,7 @@
                   <CssParameter name="fill">#8C145A</CssParameter>
                 </Fill>
               </Mark>
-              <Size>14</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -390,7 +387,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>16</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -402,7 +399,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>18</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>          
         </Rule>
@@ -429,7 +426,7 @@
                   <CssParameter name="fill">#C51235</CssParameter>
                 </Fill>
               </Mark>
-              <Size>17</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -441,7 +438,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>19</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -453,7 +450,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>21</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>           
         </Rule>			
@@ -474,7 +471,7 @@
                   <CssParameter name="fill">#FF1010</CssParameter>
                 </Fill>
               </Mark>
-              <Size>20</Size>
+              <Size>16</Size>
             </Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
@@ -486,7 +483,7 @@
                   <CssParameter name="fill-opacity">0.4</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>22</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer> 
           <PointSymbolizer>
@@ -498,7 +495,7 @@
                   <CssParameter name="fill-opacity">0.2</CssParameter>                  
                 </Fill>
               </Mark>
-              <Size>24</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer>            
         </Rule>		
