@@ -1,0 +1,27 @@
+<layer>
+  <name>IMMERSE_monthly_aggregated</name>
+  <id>LayerInfoImpl--24d17555:19979219525:-2523</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5de17116:19976200ad8:-1a53</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--5de17116:1997641062b:-2b4f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--24d17555:1997881d003:-76a2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5de17116:19976200ad8:-1a53</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--24d17555:19979219525:-2524</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-09-24 01:03:29.19 UTC</dateCreated>
+</layer>
