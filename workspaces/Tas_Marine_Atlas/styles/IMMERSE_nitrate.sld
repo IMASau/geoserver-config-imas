@@ -9,7 +9,7 @@
           <Title>Nitrate (&#xB5;M)</Title>
         </Rule>
 		
-        <!-- Zoom levels <50,000 -->
+        <!-- Zoom levels <100,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -17,7 +17,7 @@
               <ogc:Literal>0.008</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
-          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -68,7 +68,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
           </ogc:Filter>	
-          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -119,7 +119,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
           </ogc:Filter>	
-          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -170,7 +170,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
-          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		  
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -215,7 +215,7 @@
               <ogc:Literal>0.049</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
-          <MaxScaleDenominator>50000</MaxScaleDenominator>          		  		   
+          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		   
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -254,7 +254,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		  
         </Rule>		
 
-        <!-- Zoom levels >50,000-->
+        <!-- Zoom levels >100,000-->
         <Rule>
           <Title> &#8804; 0.008</Title>				        
           <ogc:Filter>
@@ -263,7 +263,7 @@
               <ogc:Literal>0.008</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
-          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -314,7 +314,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
           </ogc:Filter>	
-          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -365,7 +365,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
           </ogc:Filter>	
-          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -416,7 +416,7 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
-          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -461,7 +461,7 @@
               <ogc:Literal>0.049</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
-          <MinScaleDenominator>50000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
