@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--24d17555:19978f2348e:de1</id>
-  <name>IMMERSE_seasonal_aggregated</name>
-  <nativeName>TMA_IMMERSE_aggSEASON_GEOSERVER</nativeName>
+  <id>FeatureTypeInfoImpl--24d17555:199805e497b:5bc</id>
+  <name>IMMERSE_monthly_depth_aggregated</name>
+  <nativeName>IMMERSE_aggr_monthXdepth</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
-  <title>IMMERSE water quality monitoring: seasonal means</title>
+  <title>IMMERSE water quality monitoring: monthly means, aggregated by depth</title>
   <keywords>
     <string>features</string>
-    <string>TMA_IMMERSE_aggSEASON_GEOSERVER</string>
+    <string>IMMERSE_aggr_monthXdepth</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -40,7 +40,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--5de17116:1997536cfda:5a41</id>
+    <id>DataStoreInfoImpl-70cd8c1d:17fd247d26b:-8000</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>

@@ -1,6 +1,6 @@
 <layer>
   <name>IMMERSE_monthly_aggregated</name>
-  <id>LayerInfoImpl--24d17555:19979219525:-2523</id>
+  <id>LayerInfoImpl--24d17555:199805e497b:5bb</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--5de17116:19976200ad8:-1a53</id>
@@ -17,11 +17,11 @@
     </style>
   </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--24d17555:19979219525:-2524</id>
+    <id>FeatureTypeInfoImpl--24d17555:199805e497b:5ba</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-09-24 01:03:29.19 UTC</dateCreated>
+  <dateCreated>2025-09-25 21:11:40.443 UTC</dateCreated>
 </layer>

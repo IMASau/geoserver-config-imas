@@ -1,6 +1,6 @@
 <layer>
   <name>IMMERSE_seasonal_aggregated</name>
-  <id>LayerInfoImpl--24d17555:19978f2348e:de2</id>
+  <id>LayerInfoImpl--24d17555:199805e497b:5bf</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--5de17116:19976200ad8:-1a53</id>
@@ -17,12 +17,11 @@
     </style>
   </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--24d17555:19978f2348e:de1</id>
+    <id>FeatureTypeInfoImpl--24d17555:199805e497b:5be</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-09-24 00:08:16.417 UTC</dateCreated>
-  <dateModified>2025-09-24 00:14:42.312 UTC</dateModified>
+  <dateCreated>2025-09-25 21:11:45.172 UTC</dateCreated>
 </layer>
