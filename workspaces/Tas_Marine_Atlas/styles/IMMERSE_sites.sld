@@ -4,9 +4,8 @@
     <UserStyle>
       <FeatureTypeStyle>
 		
-        <!-- Zoom levels <100,000 -->
         <Rule>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>140000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -21,7 +20,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
               </Mark>
-              <Size>18</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>
           <!-- label to the right -->
@@ -51,7 +50,7 @@
                 </AnchorPoint>
                 <!-- push label a bit to the right of the point -->
                 <Displacement>
-                  <DisplacementX>8</DisplacementX>
+                  <DisplacementX>12</DisplacementX>
                   <DisplacementY>0</DisplacementY>
                 </Displacement>
               </PointPlacement>
@@ -64,7 +63,7 @@
         </Rule>
         <Rule>
           <Title>Monitoring site</Title>		        
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  
+          <MinScaleDenominator>140000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
