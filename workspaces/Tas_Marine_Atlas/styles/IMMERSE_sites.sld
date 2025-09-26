@@ -5,7 +5,7 @@
       <FeatureTypeStyle>
 		
         <Rule>
-          <MaxScaleDenominator>140000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>400000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -30,16 +30,17 @@
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
             </Font>
             <Halo>
-              <Radius>1.2</Radius>
+              <Radius>1.3</Radius>
               <Fill>
                 <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.8</CssParameter>                
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#222222</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
             <LabelPlacement>
               <PointPlacement>
@@ -63,7 +64,7 @@
         </Rule>
         <Rule>
           <Title>Monitoring site</Title>		        
-          <MinScaleDenominator>140000</MinScaleDenominator>          		  		  		  
+          <MinScaleDenominator>400000</MinScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
