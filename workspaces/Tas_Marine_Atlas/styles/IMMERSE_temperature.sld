@@ -9,7 +9,7 @@
           <Title>Temperature (&#176;C)</Title>
         </Rule>
 		
-        <!-- Zoom levels <100,000 -->
+        <!-- Zoom levels <120,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
@@ -17,14 +17,14 @@
               <ogc:Literal>11.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#1919A4</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#1919A4</CssParameter>
@@ -50,14 +50,14 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
           </ogc:Filter>	
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#52167F</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#52167F</CssParameter>
@@ -83,14 +83,14 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
           </ogc:Filter>	
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  		  
+          <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#8C145A</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#8C145A</CssParameter>
@@ -116,14 +116,14 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		  
+          <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#C51235</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#C51235</CssParameter>
@@ -143,14 +143,14 @@
               <ogc:Literal>16.9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
-          <MaxScaleDenominator>100000</MaxScaleDenominator>          		  		   
+          <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		   
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#FF1010</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#FF1010</CssParameter>
@@ -165,7 +165,7 @@
         </Rule>		
 
 
-        <!-- Zoom levels >100,000-->
+        <!-- Zoom levels >120,000-->
         <Rule>
           <Title> &#8804; 11.5</Title>				        
           <ogc:Filter>
@@ -174,14 +174,14 @@
               <ogc:Literal>11.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#1919A4</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#1919A4</CssParameter>
@@ -207,14 +207,14 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
           </ogc:Filter>	
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#52167F</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#52167F</CssParameter>
@@ -240,14 +240,14 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
           </ogc:Filter>	
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#8C145A</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#8C145A</CssParameter>
@@ -273,14 +273,14 @@
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#C51235</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#C51235</CssParameter>
@@ -300,14 +300,14 @@
               <ogc:Literal>16.9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
-          <MinScaleDenominator>100000</MinScaleDenominator>          		  		  		  		  
+          <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#FF1010</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#FF1010</CssParameter>
