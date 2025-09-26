@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--24d17555:199849c981c:-6ea8</id>
+  <id>FeatureTypeInfoImpl--24d17555:19985769ee8:6d1c</id>
   <name>IMMERSE_sites</name>
-  <nativeName>IMMERSE_sites</nativeName>
+  <nativeName>IMMERSE_aggr_season</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
   <title>IMMERSE water quality monitoring sites</title>
   <keywords>
+    <string>IMMERSE_aggr_season</string>
     <string>features</string>
-    <string>IMMERSE_sites</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -36,6 +36,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

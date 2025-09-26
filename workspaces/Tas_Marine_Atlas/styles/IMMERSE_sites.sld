@@ -30,7 +30,7 @@
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>
             </Font>
             <Halo>
               <Radius>1.3</Radius>
@@ -51,7 +51,7 @@
                 </AnchorPoint>
                 <!-- push label a bit to the right of the point -->
                 <Displacement>
-                  <DisplacementX>12</DisplacementX>
+                  <DisplacementX>13</DisplacementX>
                   <DisplacementY>0</DisplacementY>
                 </Displacement>
               </PointPlacement>
