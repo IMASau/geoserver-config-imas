@@ -1,22 +1,28 @@
-<#setting number_format="0">
+<#list features as feature>
+  <#if feature_index == 0>
+    <#assign site = feature.SITE.value?string>
 
-<#-- 1) Take the site label from the first feature -->
-<#assign site = features[0].SITE.value?string>
+    <#-- Define groups -->
+    <#assign g_2021 = ["Storm Bay 26"]>
+    <#assign g_2020_2021 = ["Yellow Bluff 1","Yellow Bluff 2","Yellow Bluff 3"]>
+    <#assign g_2020_2023 = ["Storm Bay 16","Storm Bay 24","Storm Bay Lease 1 middle transect 3","Yellow Bluff 4"]>
+    <#assign g_2021_2023 = ["Storm Bay 10","Storm Bay 17","Storm Bay 18","Storm Bay 19","Storm Bay 20","Storm Bay 22","Storm Bay 23"]>
 
-<#-- 2) Collect UNIQUE years (numbers), then sort -->
-<#assign years = []>
-<#list features as f>
-  <#assign y = f.YEAR.value?number>
-  <#if !(years?seq_contains(y))>
-    <#assign years += [y]>
+    <div class="feature" style="padding-top:5px; padding-bottom:5px;">
+      <b>${site}: </b>
+      <#if g_2020_2021?seq_contains(site)>
+        <i>monitored 2020 - 2021</i>
+      <#elseif g_2020_2023?seq_contains(site)>
+        <i>monitored 2020 - 2023</i>
+      <#elseif g_2021?seq_contains(site)>
+        <i>monitored 2021</i>
+      <#elseif g_2021_2023?seq_contains(site)>
+        <i>monitored 2021 - 2023</i>
+      <#else>
+        <i>monitored 2019 - 2023</i>
+      </#if>
+    </div>
+
+    <#break>
   </#if>
 </#list>
-<#assign years = years?sort>
-
-<#-- 3) Min/Max from the sorted list -->
-<#assign minYear = years[0]>
-<#assign maxYear = years[years?size - 1]>
-
-<div class="featureblock" style="padding-top:5px; padding-bottom:5px;">
-  <i>${site}: ${minYear}<#if maxYear != minYear> - ${maxYear}</#if></i>
-</div>
