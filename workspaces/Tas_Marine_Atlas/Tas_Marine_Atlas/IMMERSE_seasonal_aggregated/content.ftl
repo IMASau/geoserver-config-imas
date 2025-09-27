@@ -1,42 +1,59 @@
 <#list features as feature>
-    <#if (feature_index < 1) >
+  <#if (feature_index < 1)>
 
-    <!-- Assign parameters with conditional checks for null -->
-    <#assign Temperature = feature.TEMPERATURE_MEAN.value?has_content?then(feature.TEMPERATURE_MEAN.value?number)>
-    <#assign Salinity = feature.SALINITY_MEAN.value?has_content?then(feature.SALINITY_MEAN.value?number)>
-    <#assign Nitrate = feature.NITRATE_MEAN.value?has_content?then(feature.NITRATE_MEAN.value?number)>
+    <div class="feature" style="padding-top: 5px; padding-bottom:5px"> 
 
-    <h5>Storm Bay water quality monitoring</h5>
+      <b>Site:</b> <i>${feature.SITE.value}</i><br>      
+      <b>Time:</b> ${feature.SEASON.value} ${feature.YEAR.value}<br>
+      <b>Depth Zone:</b> ${feature.DEPTH_CLASS.value?substring(4)}<br><br>        
 
-    <div class="feature" style="padding-bottom:7px"> 
-        <p style="margin-bottom: 6px;"><i><b>${feature.SITE.value}</b></i></p>
-        
-        <b>Time:</b> ${feature.SEASON.value?substring(4)} ${feature.YEAR.value}<br>
-        <b>Depth Zone:</b> ${feature.DEPTH_CLASS.value?substring(4)}<br>        
+      <ul style="margin-top:0; margin-bottom:0; padding-left:20px; list-style-type: disc;">
 
-        <!-- Check if Temperature is not null -->
-        <#if Catch??>
-          <b>Temperature:</b> ${Temperature?string["#.#"]} &#176;C<br>
-        <#else>
-          <i>not measured</i>
-        </#if>
+        <!-- Temperature -->
+        <li>
+          <#if feature.TEMPERATURE_MEAN.value?has_content>
+            <b>Temperature:</b> 
+            ${feature.TEMPERATURE_MEAN.value?number?string["#.#"]}
+            <#if feature.TEMPERATURE_STD.value?has_content>
+              &#177; ${feature.TEMPERATURE_STD.value?number?string["#.##"]}
+            </#if>
+            &#176;C
+          <#else>
+            <i>Temperature not measured</i>
+          </#if>
+        </li>
 
-        <!-- Check if Salinity is not null -->
-        <#if Salinity??>
-          <b>Salinity:</b> ${Salinity?string["#.#"]} PSU<br>
-        <#else>
-          <i>not measured</i>
-        </#if>
+        <!-- Salinity -->
+        <li>
+          <#if feature.SALINITY_MEAN.value?has_content>
+            <b>Salinity:</b> 
+            ${feature.SALINITY_MEAN.value?number?string["#.#"]}
+            <#if feature.SALINITY_STD.value?has_content>
+              &#177; ${feature.SALINITY_STD.value?number?string["#.#"]}
+            </#if>
+            PSU
+          <#else>
+            <i>Salinity not measured</i>
+          </#if>
+        </li>
 
-        <!-- Check if Nitrate is not null -->
-        <#if Nitrate??>
-          <b>Nitrate:</b> ${Nitrate?string["#.###"]} &#xB5;M<br>
-        <#else>
-          <i>not measured</i>
-        </#if>
+        <!-- Nitrate -->
+        <li>
+          <#if feature.NITRATE_MEAN.value?has_content>
+            <b>Nitrate:</b> 
+            ${feature.NITRATE_MEAN.value?number?string["#.###"]}
+            <#if feature.NITRATE_STD.value?has_content>
+             &#177; ${feature.NITRATE_STD.value?number?string["#.####"]}
+            </#if>
+            &#xB5;M
+          <#else>
+            <i>Nitrate not measured</i>
+          </#if>
+        </li>
 
+      </ul>
     </div>
 
-   <#break>
-   </#if>
+    <#break>
+  </#if>
 </#list>
