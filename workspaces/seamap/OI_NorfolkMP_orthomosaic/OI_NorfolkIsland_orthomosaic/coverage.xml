@@ -26,14 +26,14 @@
     <minx>167.91149298804237</minx>
     <maxx>167.99493676171667</maxx>
     <miny>-29.068542920059475</miny>
-    <maxy>-28.98828884732738</maxy>
+    <maxy>-29.004030434162658</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>167.91149298804237</minx>
     <maxx>167.99493676171667</maxx>
     <miny>-29.068542920059475</miny>
-    <maxy>-28.98828884732738</maxy>
+    <maxy>-29.004030434162658</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
