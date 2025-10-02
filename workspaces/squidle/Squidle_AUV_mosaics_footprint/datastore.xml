@@ -1,0 +1,26 @@
+<dataStore>
+  <id>DataStoreInfoImpl--3f627510:199a19b444f:59e1</id>
+  <name>Squidle_AUV_mosaics_footprint</name>
+  <description>.shp footprint of AUV imagemosaic layer -  - for provision to Squidle</description>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--566041e7:198c1a71d30:-4987</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">false</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Australia/Hobart</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">https://geoserver.imas.utas.edu.au/geoserver/squidle</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="skipScan">true</entry>
+    <entry key="url">file:///mnt/rdsi/imagery/AUV_mosaics/AUV_mosaics.shp</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2025-10-02 01:14:46.971 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>

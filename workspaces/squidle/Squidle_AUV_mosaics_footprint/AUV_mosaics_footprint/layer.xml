@@ -1,0 +1,16 @@
+<layer>
+  <name>AUV_mosaics_footprint</name>
+  <id>LayerInfoImpl--3f627510:199a19b444f:5c14</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3f627510:199a19b444f:5c13</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-10-02 01:24:27.253 UTC</dateCreated>
+</layer>
