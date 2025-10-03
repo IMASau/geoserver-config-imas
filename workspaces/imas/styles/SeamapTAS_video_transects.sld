@@ -14,13 +14,13 @@
       <FeatureTypeStyle>
       
         <Rule>
-          <Title>Survey Year</Title>                           
+          <Title>--Survey Year--</Title>                           
         </Rule>      
 
         <!-- Zoomed-in style - for transects with different start/end locations-->        
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>          
-          <Title> 2000</Title>       
+          <Title>  2000</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -36,7 +36,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2001</Title>       
+          <Title>  2001</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -52,7 +52,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2002</Title>       
+          <Title>  2002</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -68,7 +68,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2003</Title>       
+          <Title>  2003</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -84,7 +84,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2004</Title>       
+          <Title>  2004</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -100,7 +100,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2005</Title>       
+          <Title>  2005</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -116,7 +116,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2006</Title>       
+          <Title>  2006</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -132,7 +132,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2007</Title>       
+          <Title>  2007</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -148,7 +148,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2008</Title>       
+          <Title>  2008</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -164,7 +164,7 @@
         </Rule>
         <Rule>
           <MaxScaleDenominator>150000</MaxScaleDenominator>                  
-          <Title> 2009</Title>       
+          <Title>  2009</Title>       
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>Date</ogc:PropertyName>
@@ -178,7 +178,147 @@
             </Stroke>
           </LineSymbolizer>                      
         </Rule>
- 
+        
+        
+        <!-- Legend-only symbology for habitat classes-->
+        <Rule>
+          <Title>--Broad-scale Habitat--</Title>                           
+        </Rule>            
+        <Rule>
+          <Title>  Cobble</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#85adad</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>
+        <Rule>
+          <Title>  Sand</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#FFF9A5</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>     
+        <Rule>
+          <Title>  Gravel</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#93a659</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule> 
+        <Rule>
+          <Title>  Shell</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#9a85ad</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>  
+        <Rule>
+          <Title>  Silt</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#E5D6ED</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>         
+        <Rule>
+          <Title>  High Profile Reef</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#974749</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule> 
+        <Rule>
+          <Title>  Medium Profile Reef</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#A16632</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>         
+        <Rule>
+          <Title>  Low Profile Reef</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#A1967A</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>
+        <Rule>
+          <Title>  Patchy Reef</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#a88a8a</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>         
+        <Rule>
+          <Title>  Macroalgae</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#018200</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>  
+        <Rule>
+          <Title>  Turf Algae</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#b4e151</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>
+        <Rule>
+          <Title>  Seagrass</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#02DC00</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>  
+        <Rule>
+          <Title>  Mixed Macroalgae/Seagrass</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#00cc99</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>    
+        <Rule>
+          <Title>  Invertebrates</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#ac39ac</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>  
+        <Rule>
+          <Title>  Other/Unknown</Title>		        
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#a6a6a6</CssParameter>		
+            </Fill>		
+            <VendorOption name="inclusion">legendOnly</VendorOption>            
+          </PolygonSymbolizer>	
+        </Rule>         
         
         <!-- Rule for Pie Chart at scales between 150,000 and 10,000 -->
         <Rule>
