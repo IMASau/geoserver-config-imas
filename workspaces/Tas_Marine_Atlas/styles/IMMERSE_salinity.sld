@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-              <ogc:Literal>31.1</ogc:Literal>
+              <ogc:Literal>32.7</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -43,11 +43,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>31.1</ogc:Literal>
+                <ogc:Literal>32.7</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>33.3</ogc:Literal>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -77,11 +77,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>33.3</ogc:Literal>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>34.3</ogc:Literal>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,7 +111,7 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>34.3</ogc:Literal>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
@@ -170,11 +170,11 @@
 
         <!-- Zoom levels >120,000-->
         <Rule>
-          <Title> &#8804; 31.1</Title>
+          <Title> &#8804; 32.7</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-              <ogc:Literal>31.1</ogc:Literal>
+              <ogc:Literal>32.7</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    31.1 - 33.3</Title>
+          <Title>    32.7 - 33.8</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>31.1</ogc:Literal>
+                <ogc:Literal>32.7</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>33.3</ogc:Literal>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    33.3 - 34.3</Title>
+          <Title>    33.8 - 34.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>33.3</ogc:Literal>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>34.3</ogc:Literal>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -266,12 +266,12 @@
         </Rule>
 
         <Rule>
-          <Title>    34.3 - 34.9</Title>
+          <Title>    34.5 - 34.9</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
-                <ogc:Literal>34.3</ogc:Literal>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
