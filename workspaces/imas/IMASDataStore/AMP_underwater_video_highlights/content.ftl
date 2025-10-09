@@ -17,7 +17,7 @@
 <#if !found3DModel>
 
 		<!-- Prioritise higher-profile videos (by sort_order) -->				
-		<#list features?sort_by(["sort_order", "rawValue"]) as feature>
+		<#list features?sort_by(["sort_order", "rawValue"])?sort_by(["media_type", "rawValue"]) as feature>
 				
 		<!-- Check for YouTube, Vimeo, regional compilation, Lord Howed Island or Bathurst Channel video, show max 2 videos -->
         <#if (feature.media_type.value != "file" || feature.dtype.value == 'regional compilation' || feature.regional_location.value?contains('Port Davey') || feature.media_URL.value?contains('Hosted/LordHoweIsland') ) && foundMedia < 2 >
@@ -36,7 +36,7 @@
 				<!-- Fallback embedding for regional compilation or Bathurst Channel -->							
 				<#else>
 					<div style="margin-top: 25px;">
-						<video width="560" controls autoplay muted loop>
+						<video width="560" controls autoplay loop>
 							<source src="${feature.media_URL.value!}" type="video/mp4">
 						</video>
 					</div>
