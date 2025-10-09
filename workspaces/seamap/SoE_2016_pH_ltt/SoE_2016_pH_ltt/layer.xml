@@ -1,0 +1,16 @@
+<layer>
+  <name>SoE_2016_pH_ltt</name>
+  <id>LayerInfoImpl--3f627510:199cad7b7ec:-773d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3f627510:199cad7b7ec:-7748</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--3f627510:199cad7b7ec:-773e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-10-09 21:37:52.392 UTC</dateCreated>
+</layer>

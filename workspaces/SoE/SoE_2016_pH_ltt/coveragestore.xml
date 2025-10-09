@@ -1,0 +1,23 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--3f627510:199cad7b7ec:-7740</id>
+  <name>SoE_2016_pH_ltt</name>
+  <description>Long-term decadal trend in surface pH (1980-90 to 2000-09)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3f627510:199cad7b7ec:-74c2</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-10-09 21:37:11.6 UTC</dateCreated>
+  <dateModified>2025-10-09 21:43:21.795 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/SoE/SoE_2016_pH_ltt/PHdecadalChange.tif</url>
+</coverageStore>

@@ -9,13 +9,11 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0" quantity="-8000" label="pH decadal change"/>                                          
-              <ColorMapEntry color="#30123b" opacity="0.7" quantity="-7000"/>
-              <ColorMapEntry color="#3e3994" opacity="0.7" quantity="-5000"/>
-              <ColorMapEntry color="#455ed3" opacity="0.7" quantity="-3000"/>
-              <ColorMapEntry color="#4681f7" opacity="0.7" quantity="-2000"/>
-              <ColorMapEntry color="#3aa3fc" opacity="0.7" quantity="-1500"/>
-              <ColorMapEntry color="#23c4e3" opacity="0.7" quantity="-1000"/>          
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-100" label="pH decadal change"/>                                          
+              <ColorMapEntry color="#B8203B" quantity="-0.11" label = "  -0.11"/>
+              <ColorMapEntry color="#ffd6b3" quantity="-0.10" label = "  -0.10"/>
+              <ColorMapEntry color="#b3ecff" quantity="-0.09" label = "  -0.09"/>
+              <ColorMapEntry color="#2400D9" quantity="-0.08" label = "  -0.08"/>  
             </ColorMap>
           </RasterSymbolizer>
         </Rule>      
