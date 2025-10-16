@@ -12,72 +12,7 @@
     <Name>Australian Marine Parks - Zones (labelled)</Name>
     <UserStyle>
       <Name>Australian Marine Parks - Zones (labelled)</Name>
-      <FeatureTypeStyle>
- 		<Rule>
-		  <MinScaleDenominator>5000000</MinScaleDenominator>                             
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
-           		  </Label>
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">11</CssParameter>								
-          		  </Font>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>                      
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                          
-           			</PointPlacement>
-         		   </LabelPlacement>  
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">5</VendorOption>
-                    <VendorOption name="group">true</VendorOption> 
-					<VendorOption name="conflictResolution">true</VendorOption>
-                  <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
-                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only shows one instance -->
-                 
-			</TextSymbolizer>    
-		<VendorOption name="inclusion">mapOnly</VendorOption>                        
- 		</Rule>
- 		<Rule>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                             		  
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>Legend</ogc:PropertyName>
-           		  </Label>
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">10</CssParameter>								
-          		  </Font>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>                      
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                      
-           			</PointPlacement>                    
-         		   </LabelPlacement>  
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">5</VendorOption>
-					<VendorOption name="conflictResolution">true</VendorOption>
-              <VendorOption name="maxDisplacement">25</VendorOption>              
-					<VendorOption name="inclusion">mapOnly</VendorOption>                            
-			</TextSymbolizer>	
-		<VendorOption name="inclusion">mapOnly</VendorOption>                        
- 		</Rule>          
+      <FeatureTypeStyle>       
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
