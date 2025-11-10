@@ -8,10 +8,10 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>habitat_polygon</Name>
+    <Name>Darwin Harbour</Name>
     <UserStyle>
-      <Title>Habitat Polygon</Title>
-      <Abstract>A style that renders habitats</Abstract>
+      <Title>Darwin Harbour</Title>
+      <Abstract>Darwin Harbour seabed mapping</Abstract>
       <FeatureTypeStyle>      
         <Rule>
           <Title>Very deep, very high slope, unconsolidated</Title>
@@ -22,9 +22,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>		             
           </ogc:Filter>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#000080</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -40,9 +37,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#4d4dff</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -58,9 +52,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>         
           </ogc:Filter>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#b3b3ff</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -76,9 +67,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>	         
           </ogc:Filter>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ff9c33</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -94,9 +82,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffce99</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -112,9 +97,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffffcc</CssParameter>
               <CssParameter name="fill-opacity">0.8</CssParameter>

@@ -8,25 +8,25 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>habitat_polygon</Name>
+    <Name>Darwin Harbour</Name>
     <UserStyle>
-      <Title>Habitat Polygon</Title>
-      <Abstract>A style that renders habitats</Abstract>
+      <Title>Darwin Harbour</Title>
+      <Abstract>Darwin Harbour seabed mapping</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <Title>Mapped location (zoomed out)</Title>		        
-		  <MinScaleDenominator>5000000</MinScaleDenominator>				
+          <MinScaleDenominator>5000000</MinScaleDenominator>				
           <PointSymbolizer>
-			<Geometry>
-			<ogc:PropertyName>sitegeom</ogc:PropertyName>
-			</Geometry>			  
-  			 <Graphic>
-    			 <ExternalGraphic>
-      				<OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
-       				<Format>image/svg+xml</Format>
-    			 </ExternalGraphic>
-    			 <Size>20</Size>
-  			 </Graphic>
+            <Geometry>
+              <ogc:PropertyName>sitegeom</ogc:PropertyName>
+            </Geometry>			  
+             <Graphic>
+               <ExternalGraphic>
+                  <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg" />
+                  <Format>image/svg+xml</Format>
+               </ExternalGraphic>
+               <Size>20</Size>
+             </Graphic>
           </PointSymbolizer>
         </Rule>	      
         <Rule>
@@ -37,14 +37,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Very deep*very high slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>		             
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#000080</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>			
           </PolygonSymbolizer>
         </Rule>
@@ -56,14 +52,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Deep*low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#4d4dff</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>		  
           </PolygonSymbolizer>
         </Rule>		
@@ -75,14 +67,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Moderately deep*low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>         
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#b3b3ff</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>		  
           </PolygonSymbolizer>
         </Rule>	
@@ -94,14 +82,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Moderately shallow*high slope*low consolidation</ogc:Literal>
             </ogc:PropertyIsLike>	         
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ff9c33</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>		  
           </PolygonSymbolizer>
         </Rule>			
@@ -113,14 +97,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Shallow*very low slope*unconsolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+        <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffce99</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>			  	  
           </PolygonSymbolizer>
         </Rule>
@@ -132,14 +112,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Very shallow*very low slope*highly consolidated</ogc:Literal>
             </ogc:PropertyIsLike>	           
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		  
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
             <Fill>
               <CssParameter name="fill">#ffffcc</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>			
