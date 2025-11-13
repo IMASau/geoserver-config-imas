@@ -1,0 +1,17 @@
+<layer>
+  <name>BassStrait_habitat_regional_prob_v2</name>
+  <id>LayerInfoImpl-7a31f18c:19a7da825a4:-53d</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7a31f18c:19a7da825a4:-4611</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7a31f18c:19a7da825a4:-53e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-11-13 22:46:07.5 UTC</dateCreated>
+  <dateModified>2025-11-13 22:59:21.795 UTC</dateModified>
+</layer>
