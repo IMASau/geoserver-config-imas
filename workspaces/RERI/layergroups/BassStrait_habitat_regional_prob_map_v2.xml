@@ -2,7 +2,8 @@
   <id>LayerGroupInfoImpl-7a31f18c:19a7da825a4:-4c4</id>
   <name>BassStrait_habitat_regional_prob_map_v2</name>
   <mode>SINGLE</mode>
-  <title>Bass Strait regional habitat model - probability v2</title>
+  <title>Bass Strait regional habitat model - probability v2 - with hillshade</title>
+  <abstractTxt>v2 incorporates extra ground-truthing and GA broad-scale Bass Strait geomorph product. Includes Bass Strait 30m DEM hillshade backdrop.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
@@ -32,4 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-11-13 22:46:58.198 UTC</dateCreated>
+  <dateModified>2025-11-13 23:12:41.851 UTC</dateModified>
 </layerGroup>

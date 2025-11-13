@@ -5,9 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model - probability v2</title>
+  <title>Bass Strait regional habitat model - probability v2 - no hillshade</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>v2 incorporates extra ground-truthing and GA geomorph broad-scale</abstract>
+  <abstract>v2 incorporates extra ground-truthing and GA broad-scale Bass Strait geomorph product.</abstract>
   <keywords>
     <string>BassStrait_habitat_regional_prob_geomorphbroad</string>
     <string>WCS</string>
@@ -39,7 +39,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">BassStrait_habitat_regional_prob_v2_BassStrait_habitat_regional_prob_geomorphbroad</entry>
