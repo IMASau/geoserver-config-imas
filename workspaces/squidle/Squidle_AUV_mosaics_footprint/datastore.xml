@@ -1,7 +1,7 @@
 <dataStore>
   <id>DataStoreInfoImpl--3f627510:199a19b444f:59e1</id>
   <name>Squidle_AUV_mosaics_footprint</name>
-  <description>.shp footprint of AUV imagemosaic layer -  - for provision to Squidle</description>
+  <description>.shp footprint of AUV imagemosaic layer -  for provision to Squidle</description>
   <type>Shapefile</type>
   <enabled>true</enabled>
   <workspace>
@@ -22,6 +22,6 @@
   </connectionParameters>
   <__default>false</__default>
   <dateCreated>2025-10-02 01:14:46.971 UTC</dateCreated>
-  <dateModified>2025-11-12 20:11:43.605 UTC</dateModified>
+  <dateModified>2025-11-15 12:46:07.590 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>
