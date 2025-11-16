@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-7a31f18c:19a8b553465:-3cc6</id>
-  <name>Mac_4-8_PygmyBlueWhales_relative_distribution</name>
+  <name>Mac_4-8_PygmyBlueWhales_combined_relative_distribution</name>
   <nativeName>Mac_4-8_PygmyBlueWhales_relative_distribution</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Relative distribution of Pygmy Blue Whales - foraging and overall distribution</title>
+  <title>Relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</title>
   <description>Generated from GeoTIFF</description>
   <abstract>The combined relative distribution of pygmy blue whales was calculated for (1) overall distribution (including migration and foraging); and (2) foraging areas only. Predictions integrate satellite tracking and habitat suitability data with whale sighting records. For each input source, whale occurrence within 10 km × 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
 &#xd;
@@ -93,7 +93,7 @@ For the overall distribution, the model used the tracking data based on all move
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.3999999521443642E38</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -107,7 +107,7 @@ For the overall distribution, the model used the tracking data based on all move
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.3999999521443642E38</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -122,20 +122,20 @@ For the overall distribution, the model used the tracking data based on all move
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
     </entry>
   </parameters>
   <nativeCoverageName>PBW_combined_reldistrib__multiband</nativeCoverageName>
