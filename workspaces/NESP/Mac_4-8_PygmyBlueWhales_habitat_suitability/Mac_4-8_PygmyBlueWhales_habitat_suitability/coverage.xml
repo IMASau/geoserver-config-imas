@@ -7,7 +7,7 @@
   </namespace>
   <title>Habitat suitability for Pygmy Blue Whales - migration and foraging distributions</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Predictions of suitable habitat were developed by incorporating tracking data and passive acoustic data (predicted spatial distribution of unique whale songs whale songs) for northwest Australia. Spatial predictions were validated and normalised between 0 and 1 to generate habitat suitability maps for (A) migration; and (B) foraging behaviour.</abstract>
+  <abstract>Predictions of suitable habitat were developed by incorporating tracking data and passive acoustic data (predicted spatial distribution of unique whale songs whale songs) for northwest Australia. Spatial predictions were validated and normalised between 0 and 1 to generate habitat suitability maps for foraging and migration.</abstract>
   <keywords>
     <string>PBW_habitat_suitability_allareas_allbehaviour__multiband</string>
     <string>WCS</string>
@@ -120,20 +120,20 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
     </entry>
   </parameters>
   <nativeCoverageName>PBW_habitat_suitability_allareas_allbehaviour__multiband</nativeCoverageName>
