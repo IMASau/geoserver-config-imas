@@ -40,6 +40,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Mac_4-8_PygmyBlueWhales_habitat_suitability_PBW_habitat_suitability_allareas_allbehaviour__multiband</entry>
   </metadata>
   <store class="coverageStore">
@@ -67,14 +68,10 @@
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
-    <string>ImageMosaic</string>
-    <string>MBTiles</string>
-    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
