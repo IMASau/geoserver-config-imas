@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-7a31f18c:19a89b4802f:3be4</id>
+  <id>CoverageInfoImpl-7a31f18c:19a8b553465:-3cc6</id>
   <name>Mac_4-8_PygmyBlueWhales_relative_distribution</name>
   <nativeName>Mac_4-8_PygmyBlueWhales_relative_distribution</nativeName>
   <namespace>
@@ -7,6 +7,9 @@
   </namespace>
   <title>Relative distribution of Pygmy Blue Whales - foraging and overall distribution</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>The combined relative distribution of pygmy blue whales was calculated for (1) overall distribution (including migration and foraging); and (2) foraging areas only. Predictions integrate satellite tracking and habitat suitability data with whale sighting records. For each input source, whale occurrence within 10 km × 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
+&#xd;
+For the overall distribution, the model used the tracking data based on all movement states. For the foraging distribution, input tracking locations were limited to where movement was classified as &apos;area-restricted foraging&apos; (move-persistence index ≤ 0.8), and occurrence was calculated as residence time within a gridcell (rather than whale count)</abstract>
   <keywords>
     <string>PBW_combined_reldistrib__multiband</string>
     <string>WCS</string>
@@ -42,7 +45,7 @@
     <entry key="dirName">Mac_4-8_PygmyBlueWhales_relative_distribution_PBW_combined_reldistrib__multiband</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7a31f18c:19a89b4802f:3be3</id>
+    <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:-3cc7</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -83,7 +86,7 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>foraging</name>
+      <name>full_distribution</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -97,7 +100,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>combined</name>
+      <name>foraging_only</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
