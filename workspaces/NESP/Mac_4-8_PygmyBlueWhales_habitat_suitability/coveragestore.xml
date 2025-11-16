@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7a31f18c:19a89b4802f:3acb</id>
+  <name>Mac_4-8_PygmyBlueWhales_habitat_suitability</name>
+  <description>Habitat suitability for Pygmy Blue Whales - migration and foraging distributions</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-11-16 03:39:35.655 UTC</dateCreated>
+  <dateModified>2025-11-16 03:41:54.297 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/310ecc6f-0530-446e-a141-487a7f65300c/PBW_Distribution_and_Habitats/PBW_habitat_suitability/PBW_habitat_suitability_allareas_allbehaviour__multiband.tif</url>
+</coverageStore>

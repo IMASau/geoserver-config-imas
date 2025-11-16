@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7a31f18c:19a89b4802f:3c75</id>
+  <name>Mac_4-8_Threats_to_PygmyBlueWhales</name>
+  <description>Normalised (0-1) intensity index for six threats to Pygmy Blue Whales</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-11-16 03:58:46.591 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/310ecc6f-0530-446e-a141-487a7f65300c/Threats_and_Exposure/Threats/allthreats__multiband.tif</url>
+</coverageStore>
