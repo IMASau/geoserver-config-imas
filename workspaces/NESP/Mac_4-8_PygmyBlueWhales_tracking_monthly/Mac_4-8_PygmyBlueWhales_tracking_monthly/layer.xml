@@ -1,9 +1,9 @@
 <layer>
-  <name>PBW_tracking_distribution_ALL_months_multi</name>
+  <name>Mac_4-8_PygmyBlueWhales_tracking_monthly</name>
   <id>LayerInfoImpl-7a31f18c:19a89b4802f:2f93</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl-7a31f18c:19a8b553465:2669</id>
   </defaultStyle>
   <resource class="coverage">
     <id>CoverageInfoImpl-7a31f18c:19a89b4802f:2f92</id>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-11-16 03:33:38.241 UTC</dateCreated>
+  <dateModified>2025-11-16 20:18:35.709 UTC</dateModified>
 </layer>

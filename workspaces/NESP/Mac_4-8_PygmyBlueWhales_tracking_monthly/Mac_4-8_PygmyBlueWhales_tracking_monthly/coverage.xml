@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl-7a31f18c:19a89b4802f:2f92</id>
-  <name>PBW_tracking_distribution_ALL_months_multi</name>
+  <name>Mac_4-8_PygmyBlueWhales_tracking_monthly</name>
   <nativeName>PBW_tracking_distribution_ALL_months_multi</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
@@ -259,20 +259,20 @@ Whale locations were aggregated into 10 km × 10 km grid cells, and the number o
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
     <entry>
       <string>RescalePixels</string>
       <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
     </entry>
   </parameters>
   <nativeCoverageName>PBW_tracking_distribution_ALL_months_multi</nativeCoverageName>
