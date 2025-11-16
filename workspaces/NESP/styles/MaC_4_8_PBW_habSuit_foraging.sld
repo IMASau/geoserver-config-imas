@@ -22,10 +22,10 @@
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" quantity="0" opacity="0.000000001"/>              
               <ColorMapEntry color="#450159" quantity="0.25"/>
-              <ColorMapEntry color="#404185" quantity="0.4"/>                               
-              <ColorMapEntry color="#2A768E" quantity="0.55" />              
-              <ColorMapEntry color="#25AC83" quantity="0.7" />                            
-              <ColorMapEntry color="#61C95F" quantity="0.85" />              
+              <ColorMapEntry color="#404185" quantity="0.62"/>                               
+              <ColorMapEntry color="#2A768E" quantity="0.74" />              
+              <ColorMapEntry color="#25AC83" quantity="0.84" />                            
+              <ColorMapEntry color="#61C95F" quantity="0.92" />              
               <ColorMapEntry color="#fdef9a" quantity="1.0" />             
             </ColorMap>
           </RasterSymbolizer>
