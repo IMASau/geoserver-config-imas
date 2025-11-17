@@ -20,11 +20,11 @@
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">
-              <ColorMapEntry color="#8d01ef" quantity="0"/>             
-              <ColorMapEntry color="#bf09ee" quantity="0.04" />
-              <ColorMapEntry color="#ff51bd" quantity="0.09"/>              
-              <ColorMapEntry color="#ff9d82" quantity="0.18"/>              
-              <ColorMapEntry color="#ffc666" quantity="0.5"/>
+              <ColorMapEntry color="#8d01ef" quantity="0.02"/>             
+              <ColorMapEntry color="#bf09ee" quantity="0.09" />
+              <ColorMapEntry color="#ff51bd" quantity="0.18"/>              
+              <ColorMapEntry color="#ff9d82" quantity="0.3"/>              
+              <ColorMapEntry color="#ffc666" quantity="0.6"/>
               <ColorMapEntry color="#ffff35" quantity="0.9"/>
             </ColorMap>
           </RasterSymbolizer>
@@ -34,13 +34,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="9999" label="Relative prob occurrence"/>  
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="9999" label="Prob occurrence (all months)"/>  
               <ColorMapEntry color="#ffff35" quantity="0.9" label="  high" />
-              <ColorMapEntry color="#ffc666" quantity="0.5" />              
-              <ColorMapEntry color="#ff9d82" quantity="0.18" />              
-              <ColorMapEntry color="#ff51bd" quantity="0.09" />              
-              <ColorMapEntry color="#bf09ee" quantity="0.04" /> 
-              <ColorMapEntry color="#8d01ef" quantity="0" label="  low" />                           
+              <ColorMapEntry color="#ffc666" quantity="0.6" />              
+              <ColorMapEntry color="#ff9d82" quantity="0.3" />              
+              <ColorMapEntry color="#ff51bd" quantity="0.18" />              
+              <ColorMapEntry color="#bf09ee" quantity="0.09" /> 
+              <ColorMapEntry color="#8d01ef" quantity="0.02" label="  low" />                           
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
