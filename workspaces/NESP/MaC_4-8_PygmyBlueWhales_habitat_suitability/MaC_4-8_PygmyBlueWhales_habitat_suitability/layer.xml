@@ -1,5 +1,5 @@
 <layer>
-  <name>Mac_4-8_PygmyBlueWhales_habitat_suitability</name>
+  <name>MaC_4-8_PygmyBlueWhales_habitat_suitability</name>
   <id>LayerInfoImpl-7a31f18c:19a89b4802f:3acd</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -21,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-11-16 03:41:41.127 UTC</dateCreated>
-  <dateModified>2025-11-16 23:13:55.493 UTC</dateModified>
+  <dateModified>2025-11-17 08:16:24.723 UTC</dateModified>
 </layer>

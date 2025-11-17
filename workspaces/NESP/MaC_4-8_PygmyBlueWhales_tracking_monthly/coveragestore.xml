@@ -1,15 +1,23 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:28cd</id>
-  <name>Mac_4-8_PygmyBlueWhales_tracking_monthly</name>
+  <name>MaC_4-8_PygmyBlueWhales_tracking_monthly</name>
   <description>Normalised monthly distribution (0-1) of Pygmy Blue Whale occurrence from satellite telemetry data</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
   <__default>false</__default>
   <dateCreated>2025-11-16 21:17:19.123 UTC</dateCreated>
-  <dateModified>2025-11-16 21:18:06.161 UTC</dateModified>
+  <dateModified>2025-11-17 08:15:56.484 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/310ecc6f-0530-446e-a141-487a7f65300c/PBW_Distribution_and_Habitats/PBW_tracking_distribution_monthly/PBW_tracking_distribution_ALL_months_multi.tif</url>
 </coverageStore>

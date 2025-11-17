@@ -1,17 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-7a31f18c:19a8b553465:-3cc6</id>
-  <name>Mac_4-8_PygmyBlueWhales_combined_relative_distribution</name>
-  <nativeName>Mac_4-8_PygmyBlueWhales_relative_distribution</nativeName>
+  <id>CoverageInfoImpl-7a31f18c:19a8b553465:-5470</id>
+  <name>MaC_4-8_Threats_to_PygmyBlueWhales</name>
+  <nativeName>Mac_4-8_Threats_to_PygmyBlueWhales</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Normalised (0-1) relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</title>
+  <title>Normalised (0-1) intensity index for six threats to Pygmy Blue Whales</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>The combined relative distribution of pygmy blue whales was calculated for (1) overall distribution (including migration and foraging); and (2) foraging areas only. Predictions integrate satellite tracking and habitat suitability data with whale sighting records. For each input source, whale occurrence within 10 km × 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
-&#xd;
-For the overall distribution, the model used the tracking data based on all movement states. For the foraging distribution, input tracking locations were limited to where movement was classified as &apos;area-restricted foraging&apos; (move-persistence index ≤ 0.8), and occurrence was calculated as residence time within a gridcell (rather than whale count)</abstract>
+  <abstract>The key threats to pygmy blue whales in Australia have been identified as vessel strike, underwater noise, pollution, entanglement, displacement, and climate change. A range of spatial pressures data associated with these threats was collated and converted into pressure intensity on a 10 km × 10 km grid. For each threat, all relevant overlapping spatial pressures were summed and normalised between 0 (no threat present) and 1 (maximum threat intensity), which allowed intensity to be compared across threats.</abstract>
   <keywords>
-    <string>PBW_combined_reldistrib__multiband</string>
+    <string>allthreats__multiband</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -26,27 +24,27 @@ For the overall distribution, the model used the tracking data based on all move
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>83.0</minx>
-    <maxx>147.1441511999983</maxx>
-    <miny>-50.199999999998674</miny>
-    <maxy>0.0702757999999976</maxy>
+    <minx>109.0</minx>
+    <maxx>155.84685199999876</maxx>
+    <miny>-44.599999999999014</miny>
+    <maxy>-7.122518400000002</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>83.0</minx>
-    <maxx>147.1441511999983</maxx>
-    <miny>-50.199999999998674</miny>
-    <maxy>0.0702757999999976</maxy>
+    <minx>109.0</minx>
+    <maxx>155.84685199999876</maxx>
+    <miny>-44.599999999999014</miny>
+    <maxy>-7.122518400000002</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Mac_4-8_PygmyBlueWhales_relative_distribution_PBW_combined_reldistrib__multiband</entry>
+    <entry key="dirName">Mac_4-8_Threats_to_PygmyBlueWhales_allthreats__multiband</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:-3cc7</id>
+    <id>CoverageStoreInfoImpl-7a31f18c:19a89b4802f:3c75</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -56,15 +54,15 @@ For the overall distribution, the model used the tracking data based on all move
   <grid dimension="2">
     <range>
       <low>0 0</low>
-      <high>356 279</high>
+      <high>260 208</high>
     </range>
     <transform>
       <scaleX>0.18018019999999524</scaleX>
       <scaleY>-0.18018019999999524</scaleY>
       <shearX>0.0</shearX>
       <shearY>0.0</shearY>
-      <translateX>83.0900901</translateX>
-      <translateY>-0.019814300000000007</translateY>
+      <translateX>109.0900901</translateX>
+      <translateY>-7.2126085</translateY>
     </transform>
     <crs>EPSG:4326</crs>
   </grid>
@@ -83,28 +81,84 @@ For the overall distribution, the model used the tracking data based on all move
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>full_distribution</name>
+      <name>climate_change</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-9999.0</double>
+        <double>-3.3999999521443642E38</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>foraging_only</name>
+      <name>displacement</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-9999.0</double>
+        <double>-3.3999999521443642E38</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>entanglement</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-3.3999999521443642E38</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>pollution</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-3.3999999521443642E38</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>underwater_noise</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-3.3999999521443642E38</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>vessel_strike</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-3.3999999521443642E38</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -135,5 +189,5 @@ For the overall distribution, the model used the tracking data based on all move
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>PBW_combined_reldistrib__multiband</nativeCoverageName>
+  <nativeCoverageName>allthreats__multiband</nativeCoverageName>
 </coverage>

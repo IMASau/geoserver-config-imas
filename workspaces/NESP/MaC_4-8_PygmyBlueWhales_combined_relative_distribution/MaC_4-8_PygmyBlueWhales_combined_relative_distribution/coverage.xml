@@ -1,15 +1,17 @@
 <coverage>
-  <id>CoverageInfoImpl-7a31f18c:19a8b553465:-3f6a</id>
-  <name>Mac_4-8_PygmyBlueWhales_cumulative_exposure_threats</name>
-  <nativeName>Mac_4-8_PygmyBlueWhales_cumulative_exposure_threats</nativeName>
+  <id>CoverageInfoImpl-7a31f18c:19a8b553465:-3cc6</id>
+  <name>MaC_4-8_PygmyBlueWhales_combined_relative_distribution</name>
+  <nativeName>Mac_4-8_PygmyBlueWhales_relative_distribution</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Cumulative exposure of threats to Pygmy Blue Whales - full distribution and foraging distribution</title>
+  <title>Normalised (0-1) relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Cumulative exposure of pygmy blue whales to key threats was calculated from both their foraging and entire distributions. Expert elicitation was used to assess the probability of exposure to each threat where whale distribution and threat layers overlapped. Each threat layer was weighted by the expert-derived probabilities of exposure. and then summed on a 10 km × 10 km grid to represent the combined intensity of all threats. The combined threat intensity was then multiplied by either the overall combined relative distribution of pygmy blue whales, or the foraging-only distribution. The resulting maps show where pygmy blue whales are most at-risk from climatic and anthropogenic threats.</abstract>
+  <abstract>The combined relative distribution of pygmy blue whales was calculated for (1) overall distribution (including migration and foraging); and (2) foraging areas only. Predictions integrate satellite tracking and habitat suitability data with whale sighting records. For each input source, whale occurrence within 10 km × 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
+&#xd;
+For the overall distribution, the model used the tracking data based on all movement states. For the foraging distribution, input tracking locations were limited to where movement was classified as &apos;area-restricted foraging&apos; (move-persistence index ≤ 0.8), and occurrence was calculated as residence time within a gridcell (rather than whale count)</abstract>
   <keywords>
-    <string>PBW_cumulative_exposure_threats__multiband</string>
+    <string>PBW_combined_reldistrib__multiband</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -40,10 +42,11 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="dirName">Mac_4-8_PygmyBlueWhales_cumulative_exposure_threats_PBW_cumulative_exposure_threats__multiband</entry>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">Mac_4-8_PygmyBlueWhales_relative_distribution_PBW_combined_reldistrib__multiband</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:-492d</id>
+    <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:-3cc7</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -67,14 +70,10 @@
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
-    <string>ImageMosaic</string>
-    <string>MBTiles</string>
-    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -91,7 +90,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.3999999521443642E38</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -105,7 +104,7 @@
         <max>inf</max>
       </range>
       <nullValues>
-        <double>-3.3999999521443642E38</double>
+        <double>-9999.0</double>
       </nullValues>
       <dimensionType>
         <name>REAL_32BITS</name>
@@ -136,5 +135,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>PBW_cumulative_exposure_threats__multiband</nativeCoverageName>
+  <nativeCoverageName>PBW_combined_reldistrib__multiband</nativeCoverageName>
 </coverage>

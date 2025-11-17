@@ -1,6 +1,6 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:-3cc7</id>
-  <name>Mac_4-8_PygmyBlueWhales_combined_relative_distribution</name>
+  <name>MaC_4-8_PygmyBlueWhales_combined_relative_distribution</name>
   <description>Normalised (0-1) relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
@@ -17,7 +17,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2025-11-16 10:08:42.506 UTC</dateCreated>
-  <dateModified>2025-11-17 05:39:39.16 UTC</dateModified>
+  <dateModified>2025-11-17 08:15:39.925 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/310ecc6f-0530-446e-a141-487a7f65300c/PBW_Distribution_and_Habitats/PBW_combined_relative_distribution/PBW_combined_reldistrib__multiband.tif</url>
 </coverageStore>
