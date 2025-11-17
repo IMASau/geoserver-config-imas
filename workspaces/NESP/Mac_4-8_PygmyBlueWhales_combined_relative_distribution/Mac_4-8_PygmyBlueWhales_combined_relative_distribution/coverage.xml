@@ -42,6 +42,7 @@ For the overall distribution, the model used the tracking data based on all move
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Mac_4-8_PygmyBlueWhales_relative_distribution_PBW_combined_reldistrib__multiband</entry>
   </metadata>
   <store class="coverageStore">
@@ -49,6 +50,8 @@ For the overall distribution, the model used the tracking data based on all move
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -67,14 +70,10 @@ For the overall distribution, the model used the tracking data based on all move
   </grid>
   <supportedFormats>
     <string>GEOTIFF</string>
-    <string>ImageMosaic</string>
-    <string>MBTiles</string>
-    <string>ArcGrid</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
