@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</title>
+  <title>Normalised (0-1) relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</title>
   <description>Generated from GeoTIFF</description>
   <abstract>The combined relative distribution of pygmy blue whales was calculated for (1) overall distribution (including migration and foraging); and (2) foraging areas only. Predictions integrate satellite tracking and habitat suitability data with whale sighting records. For each input source, whale occurrence within 10 km × 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
 &#xd;
