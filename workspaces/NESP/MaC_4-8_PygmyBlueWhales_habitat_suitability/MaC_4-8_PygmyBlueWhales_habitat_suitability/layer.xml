@@ -20,6 +20,7 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2025-11-16 03:41:41.127 UTC</dateCreated>
-  <dateModified>2025-11-17 08:16:24.723 UTC</dateModified>
+  <dateModified>2025-11-17 20:17:55.752 UTC</dateModified>
 </layer>

@@ -7,43 +7,43 @@
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28be</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28ba</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c1</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28bd</id>
     </style>
     <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28b9</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:2669</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c1</id>
     </style>
     <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28bb</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28bd</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:2669</id>
     </style>
     <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28bf</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c0</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c2</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28b8</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28ba</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c0</id>
     </style>
     <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28bc</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c2</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28be</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28b8</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
     </style>
   </styles>
   <resource class="coverage">
@@ -53,5 +53,7 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2025-11-16 21:20:26.651 UTC</dateCreated>
+  <dateModified>2025-11-17 20:18:20.910 UTC</dateModified>
 </layer>
