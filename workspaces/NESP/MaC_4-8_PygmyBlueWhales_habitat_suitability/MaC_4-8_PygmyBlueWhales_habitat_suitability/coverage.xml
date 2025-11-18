@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Habitat suitability for Pygmy Blue Whales - migration and foraging distributions</title>
+  <title>Normalised (0-1) habitat suitability for Pygmy Blue Whales - migration and foraging distributions</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Predictions of suitable habitat were developed by incorporating tracking data and passive acoustic data (predicted spatial distribution of unique whale songs whale songs) for northwest Australia. Spatial predictions were validated and normalised between 0 and 1 to generate habitat suitability maps for foraging and migration.</abstract>
   <keywords>

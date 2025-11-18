@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Normalised monthly distribution (0-1) of Pygmy Blue Whale occurrence from satellite telemetry data</title>
+  <title>Normalised (0-1) monthly distribution of Pygmy Blue Whale occurrence from satellite telemetry data</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Satellite telemetry data from 60 pygmy blue whales were compiled from multiple long-term tracking programs across southern Australia and Indonesia, spanning 22 years and a range of tag types. All tracks were processed using a state-space model to account for location error and movement autocorrelation, and a time-weighting used to reduce spatial and temporal bias near tagging sites caused by tag transmission decay. A move-persistence model was used to classify behaviour relative to the directionality of movement, with 0 representing &apos;area restricted search&apos; (foraging), and 1 representing fast directional movement (migration or transit).&#xd;
 &#xd;
