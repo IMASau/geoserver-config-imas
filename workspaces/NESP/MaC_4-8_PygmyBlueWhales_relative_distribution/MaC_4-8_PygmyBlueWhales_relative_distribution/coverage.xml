@@ -1,15 +1,15 @@
 <coverage>
   <id>CoverageInfoImpl-7a31f18c:19a8b553465:-3cc6</id>
-  <name>MaC_4-8_PygmyBlueWhales_combined_relative_distribution</name>
+  <name>MaC_4-8_PygmyBlueWhales_relative_distribution</name>
   <nativeName>Mac_4-8_PygmyBlueWhales_relative_distribution</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Normalised (0-1) relative distribution of Pygmy Blue Whales - combined foraging and combined overall distribution</title>
+  <title>Normalised (0-1) relative distribution of Pygmy Blue Whales - foraging and overall distribution from combined data sources</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>The combined relative distribution of pygmy blue whales was calculated for (1) overall distribution (including migration and foraging); and (2) foraging areas only. Predictions integrate satellite tracking and habitat suitability data with whale sighting records. For each input source, whale occurrence within 10 km × 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
+  <abstract>The relative distribution of pygmy blue whales was calculated from combined data sources for (1) overall distribution (including migration and foraging); and (2) foraging areas only. These predictions integrate satellite tracking and habitat suitability data with sighting records. For each data input source, whale occurrence within 10 x 10 km grid cells was first normalised to a 0–1 scale, allowing metrics based on different units (e.g. occupancy time vs number of whales) to be comparable. These normalised layers were then summed and the resulting surface was re-normalised from 0–1 to generate a final relative-distribution index.&#xd;
 &#xd;
-For the overall distribution, the model used the tracking data based on all movement states. For the foraging distribution, input tracking locations were limited to where movement was classified as &apos;area-restricted foraging&apos; (move-persistence index ≤ 0.8), and occurrence was calculated as residence time within a gridcell (rather than whale count)</abstract>
+For the overall relative distribution map, the model incorporated tracking data based on all movement states. For the foraging-only distribution, tracking locations were restricted to movements that was classified as &apos;area-restricted foraging&apos; (move-persistence index ≤ 0.8), and occurrence subsequently calculated as &apos;residence time within a gridcell&apos; (rather than whale count)</abstract>
   <keywords>
     <string>PBW_combined_reldistrib__multiband</string>
     <string>WCS</string>

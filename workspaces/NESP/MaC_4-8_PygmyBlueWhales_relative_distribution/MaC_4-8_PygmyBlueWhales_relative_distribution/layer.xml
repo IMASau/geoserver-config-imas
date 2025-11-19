@@ -1,5 +1,5 @@
 <layer>
-  <name>MaC_4-8_PygmyBlueWhales_combined_relative_distribution</name>
+  <name>MaC_4-8_PygmyBlueWhales_relative_distribution</name>
   <id>LayerInfoImpl-7a31f18c:19a8b553465:-3cc5</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -22,5 +22,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2025-11-16 10:12:12.287 UTC</dateCreated>
-  <dateModified>2025-11-17 20:16:31.971 UTC</dateModified>
+  <dateModified>2025-11-19 04:26:55.253 UTC</dateModified>
 </layer>
