@@ -7,7 +7,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Combined relative distribution (full)</Name>
+    <Name>Pygmy blue whale relative distribution (overall)</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
