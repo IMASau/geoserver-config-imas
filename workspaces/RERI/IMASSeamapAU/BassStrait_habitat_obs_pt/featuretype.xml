@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
   <title>Bass Strait regional habitat model - validation points</title>
+  <abstract>This layer shows the broad-scale breakdown of benthic habitat (ecosystem components) derived from spatially balanced ground-truthing data used for model training of the RERI 14 Project regional-scale benthic habitat mapping of Bass Strait. Annotation data is publicly available from Squidle+, and includes select BOSS, stereo-BRUV, and AUV deployments.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_NAT_predictedHab_temperateAus_obs</string>
@@ -36,7 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
