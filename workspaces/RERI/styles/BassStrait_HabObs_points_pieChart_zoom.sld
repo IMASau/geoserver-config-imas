@@ -10,13 +10,11 @@
 
   <NamedLayer>
     <Name>Benthic annotations from downward-facing seafloor video</Name>
-    
     <UserStyle>
       <FeatureTypeStyle>
-                <!-- Rule for Pie Chart at scale above 250,000 but less than 800000 -->
+         <!-- Rule for Pie Chart at scale above 550,000 -->
         <Rule>
-          <MinScaleDenominator>250000</MinScaleDenominator>
-          <MaxScaleDenominator>800000</MaxScaleDenominator>	
+          <MinScaleDenominator>550000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -36,12 +34,10 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>      
-        
-
-        <!-- Rule for Pie Chart at scale above 20,000 but less than 250,000 -->
+        <!-- Rule for Pie Chart at scale above 20,000 but less than 550,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>250000</MaxScaleDenominator>				                    
+          <MaxScaleDenominator>550000</MaxScaleDenominator>				                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -61,7 +57,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <!-- Rule for Pie Chart at scales below 20000 -->
         <Rule>
           <MaxScaleDenominator>20000</MaxScaleDenominator>
@@ -84,7 +79,16 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-        
+        <Rule> 
+          <Title>Coral Sea</Title>          
+          <PolygonSymbolizer>                    
+            <Fill>
+              <CssParameter name="fill">#ffc021</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+          <VendorOption name="inclusion">legendOnly</VendorOption>          
+        </Rule> 
+          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
