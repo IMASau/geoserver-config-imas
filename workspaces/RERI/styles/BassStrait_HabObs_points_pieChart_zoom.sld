@@ -15,6 +15,7 @@
          <!-- Rule for Pie Chart at scale above 550,000 -->
         <Rule>
           <MinScaleDenominator>550000</MinScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -31,19 +32,14 @@
               </Mark>
               <Size>4</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>      
         <!-- Rule for Pie Chart at scale above 20,000 but less than 550,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>550000</MaxScaleDenominator>				                    
+          <MaxScaleDenominator>550000</MaxScaleDenominator>		
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
           <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
@@ -54,18 +50,13 @@
                 <ogc:Literal>21</ogc:Literal>
               </Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
         <!-- Rule for Pie Chart at scales below 20000 -->
         <Rule>
           <MaxScaleDenominator>20000</MaxScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
           <PointSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:PropertyName>geom</ogc:PropertyName>
-              </ogc:Function>
-            </Geometry>
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
@@ -76,19 +67,56 @@
                 <ogc:Literal>30</ogc:Literal>
               </Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
         <Rule> 
-          <Title>Coral Sea</Title>          
+          <Title>Macroalgae</Title>   
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
           <PolygonSymbolizer>                    
             <Fill>
-              <CssParameter name="fill">#ffc021</CssParameter>
+              <CssParameter name="fill">#2d9624</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+        </Rule> 
+        <Rule> 
+          <Title>Seagrass</Title>        
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+          <PolygonSymbolizer>                    
+            <Fill>
+              <CssParameter name="fill">#02de70</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+        </Rule> 
+        <Rule> 
+          <Title>Sessile invertebrates</Title>       
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+          <PolygonSymbolizer>                    
+            <Fill>
+              <CssParameter name="fill">#9c2d86</CssParameter>
             </Fill>
           </PolygonSymbolizer> 
           <VendorOption name="inclusion">legendOnly</VendorOption>          
         </Rule> 
-          
+        <Rule> 
+          <Title>Bare consolidated</Title>          
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+          <PolygonSymbolizer>                    
+            <Fill>
+              <CssParameter name="fill">#663300</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+          <VendorOption name="inclusion">legendOnly</VendorOption>          
+        </Rule> 
+        <Rule> 
+          <Title>Bare unconsolidated</Title>          
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+          <PolygonSymbolizer>                    
+            <Fill>
+              <CssParameter name="fill">#fff780</CssParameter>
+            </Fill>
+          </PolygonSymbolizer> 
+          <VendorOption name="inclusion">legendOnly</VendorOption>          
+        </Rule>                  
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
