@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl--5de17116:19955fe5f65:7e4</id>
-  <name>BassStrait_habitat_regional_entropy_uncert</name>
-  <nativeName>BassStrait_habitat_regional_entropy_uncert</nativeName>
+  <id>CoverageInfoImpl--5de17116:19956dbe022:129c</id>
+  <name>BassStrait_habitat_regional_prob_v1</name>
+  <nativeName>BassStrait_habitat_regional_prob</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model - entropy uncertainty</title>
+  <title>Bass Strait regional habitat model - probability v1 - no hillshade</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>BassStrait_habitat_regional_entropy_uncert</string>
+    <string>BassStrait_habitat_regional_prob</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -41,10 +41,10 @@
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">BassStrait_habitat_regional_entropy_uncert_BassStrait_habitat_regional_entropy_uncert</entry>
+    <entry key="dirName">BassStrait_habitat_regional_prob_BassStrait_habitat_regional_prob</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--5de17116:19955fe5f65:31a</id>
+    <id>CoverageStoreInfoImpl--5de17116:19956dbe022:1299</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -81,7 +81,49 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>GRAY_INDEX</name>
+      <name>BARE_CONSOLIDATED</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BARE_UNCONSOLIDATED</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>MACROALGAE</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>SESSILE_INVERTS</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -119,5 +161,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>BassStrait_habitat_regional_entropy_uncert</nativeCoverageName>
+  <nativeCoverageName>BassStrait_habitat_regional_prob</nativeCoverageName>
 </coverage>

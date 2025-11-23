@@ -2,7 +2,7 @@
   <id>LayerInfoImpl--5de17116:19956dbe022:129d</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>RERI:BassStrait_habitat_regional_prob</name>
+  <name>RERI:BassStrait_habitat_regional_prob_v1</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
@@ -22,7 +22,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>RERI:BassStrait_habitat_prob_allclasses</defaultStyle>
+      <defaultStyle>RERI:BassStrait_habitat_prob_allclasses_v1</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>20</gutter>

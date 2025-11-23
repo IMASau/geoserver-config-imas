@@ -1,5 +1,5 @@
 <layer>
-  <name>BassStrait_habitat_regional_entropy_uncert</name>
+  <name>BassStrait_habitat_regional_entropy_uncert_v1</name>
   <id>LayerInfoImpl--5de17116:19955fe5f65:7e5</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-09-17 07:10:15.753 UTC</dateCreated>
-  <dateModified>2025-09-17 08:24:47.586 UTC</dateModified>
+  <dateModified>2025-11-23 21:06:57.365 UTC</dateModified>
 </layer>
