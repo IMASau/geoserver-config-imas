@@ -27,7 +27,7 @@
     || (inverts?is_number && inverts!= -9999)>
 
     <div class="feature" style="padding-top: 5px; padding-bottom: 2px;">
-    <h5 style="padding-bottom:7px;">Bass Strait: probability of benthic habitats</h5>
+    <h5 style="padding-bottom:7px;">Bass Strait: prob. benthic habitats <span style="color: #ff0000;">V1</span></h5>
 
       <!-- Bare unconsolidated prob -->
       <#if unconsolidated < 0.001>
@@ -39,7 +39,7 @@
         <#assign width = maxBarWidth * unconsolidated>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <div style="width: ${width}px; height: 10px; background-color: #fff34d;"></div>
-          <span style="margin-left: 8px;">Bare unconsolidated substrata: <b>${unconsolidated?string("0.000")}</b>  (<i>lwr CI - upr CI</i>)</span>
+          <span style="margin-left: 8px;">Bare unconsolidated substrata: <b>${unconsolidated?string("0.000")}</b></span>
         </div>
       </#if>
 
@@ -53,7 +53,7 @@
         <#assign width = maxBarWidth * inverts>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <div style="width: ${width}px; height: 10px; background-color: #b23499;"></div>
-          <span style="margin-left: 8px;">Sessile invertebrates: <b>${inverts?string("0.000")}</b> (<i>lwr CI - upr CI</i>)</span>
+          <span style="margin-left: 8px;">Sessile invertebrates: <b>${inverts?string("0.000")}</b></span>
         </div>
       </#if>
 
@@ -67,7 +67,7 @@
         <#assign width = maxBarWidth * macroalgae>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <div style="width: ${width}px; height: 10px; background-color: #2d9624;"></div>
-          <span style="margin-left: 8px;">Macroalgae: <b>${macroalgae?string("0.000")}</b> (<i>lwr CI - upr CI</i>)</span>
+          <span style="margin-left: 8px;">Macroalgae: <b>${macroalgae?string("0.000")}</b></span>
         </div>
       </#if>
 
@@ -75,13 +75,13 @@
       <#if consolidated < 0.001>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <span style="color: red; font-size: 10px;">&#128711;</span>
-          <span style="margin-left: 4px;">Bare consolidated substrata: <b>&lt;0.001</b> (<i>lwr CI - upr CI</i>)</span>
+          <span style="margin-left: 4px;">Bare consolidated substrata: <b>&lt;0.001</b></span>
         </div>
       <#else>
         <#assign width = maxBarWidth * consolidated>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
           <div style="width: ${width}px; height: 10px; background-color: #663300;"></div>
-          <span style="margin-left: 8px;">Bare consolidated substrata: <b>${consolidated?string("0.000")}</b> (<i>lwr CI - upr CI</i>)</span>
+          <span style="margin-left: 8px;">Bare consolidated substrata: <b>${consolidated?string("0.000")}</b></span>
         </div>
       </#if>
 

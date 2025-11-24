@@ -290,8 +290,13 @@
               </ogc:Function>
             </Geometry>           
             <Label>
-               <ogc:PropertyName>deployment</ogc:PropertyName>
-            </Label>
+              <ogc:Function name="Concatenate">
+                <ogc:PropertyName>deployment</ogc:PropertyName>
+                <ogc:Literal> (</ogc:Literal>   
+                <ogc:PropertyName>year</ogc:PropertyName>                
+                <ogc:Literal>)</ogc:Literal>                           
+             </ogc:Function>
+            </Label>              
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
               <CssParameter name="font-size">11</CssParameter>

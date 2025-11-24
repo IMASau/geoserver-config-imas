@@ -33,7 +33,7 @@
     || (seagrass?is_number && seagrass!= -9999))>
 
     <div class="feature" style="padding-top: 5px; padding-bottom: 2px;">
-    <h5 style="padding-bottom:7px;">Bass Strait: probability of benthic habitats</h5>
+    <h5 style="padding-bottom:7px;">Bass Strait: prob. benthic habitats <span style="color: #ff0000;">V2</span></h5>
 
       <!-- Bare unconsolidated prob -->
       <#if unconsolidated < 0.001>
