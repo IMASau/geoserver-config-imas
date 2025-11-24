@@ -291,7 +291,7 @@
             </Geometry>           
             <Label>
               <ogc:Function name="Concatenate">
-                <ogc:PropertyName>deployment</ogc:PropertyName>
+                <ogc:PropertyName>name</ogc:PropertyName>
                 <ogc:Literal> (</ogc:Literal>   
                 <ogc:PropertyName>year</ogc:PropertyName>                
                 <ogc:Literal>)</ogc:Literal>                           
