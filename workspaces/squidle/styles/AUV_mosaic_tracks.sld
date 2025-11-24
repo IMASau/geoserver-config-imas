@@ -28,11 +28,21 @@
               <Size>30</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>        	      
+        </Rule>  
+        <Rule>  
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                               
+          <Title>Deployment tracks (coloured by year)</Title>        
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#9900ff</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>        
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                      
-          <Title>2008</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>  
+          <MaxScaleDenominator>500000</MaxScaleDenominator>        
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -47,9 +57,9 @@
           </LineSymbolizer>
         </Rule>		
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator> 
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                      
-          <Title>2010</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator> 
+          <MaxScaleDenominator>500000</MaxScaleDenominator>             
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -64,9 +74,9 @@
           </LineSymbolizer>
         </Rule>	        
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>       
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2011</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>       
+          <MaxScaleDenominator>500000</MaxScaleDenominator>           
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -81,9 +91,9 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>     
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2012</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>     
+          <MaxScaleDenominator>500000</MaxScaleDenominator>          
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -98,9 +108,9 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>          
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2013</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>          
+          <MaxScaleDenominator>500000</MaxScaleDenominator>          
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -115,9 +125,9 @@
           </LineSymbolizer>
         </Rule>		
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>              
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2014</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>              
+          <MaxScaleDenominator>500000</MaxScaleDenominator>          
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -132,9 +142,9 @@
           </LineSymbolizer>
         </Rule>	        
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>                   
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2015</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>                   
+          <MaxScaleDenominator>500000</MaxScaleDenominator>         
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -149,9 +159,9 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>               
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2016</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>               
+          <MaxScaleDenominator>500000</MaxScaleDenominator>      
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -166,9 +176,9 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>                 
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2017</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>                 
+          <MaxScaleDenominator>500000</MaxScaleDenominator>   
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -183,9 +193,9 @@
           </LineSymbolizer>
         </Rule>		
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>               
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2018</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>               
+          <MaxScaleDenominator>500000</MaxScaleDenominator>   
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -200,9 +210,9 @@
           </LineSymbolizer>
         </Rule>	        
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>                       
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2019</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>                       
+          <MaxScaleDenominator>500000</MaxScaleDenominator>  
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -217,9 +227,9 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>                            
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2020</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>                            
+          <MaxScaleDenominator>500000</MaxScaleDenominator>  
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -234,9 +244,9 @@
           </LineSymbolizer>
         </Rule>	   
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>                        
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2021</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>                        
+          <MaxScaleDenominator>500000</MaxScaleDenominator>  
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -251,9 +261,9 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                
-          <Title>2022</Title>
+          <MinScaleDenominator>1500</MinScaleDenominator>                    
+          <MaxScaleDenominator>500000</MaxScaleDenominator> 
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>year</ogc:PropertyName>
@@ -270,8 +280,8 @@
       
         <!-- Rule for text labelling tracks when zoomed in -->        
         <Rule> 
-          <MinScaleDenominator>1000</MinScaleDenominator>                    
-          <MaxScaleDenominator>15000</MaxScaleDenominator>  
+          <MinScaleDenominator>1500</MinScaleDenominator>                    
+          <MaxScaleDenominator>50000</MaxScaleDenominator>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
           <TextSymbolizer>    
             <Geometry>
@@ -298,19 +308,19 @@
             </Fill>  
             <VendorOption name="followLine">true</VendorOption>
           </TextSymbolizer>
-        </Rule>   
+        </Rule> 
         <!-- Faint zoomed-in track (hidden from legend) -->                
         <Rule>
-          <MaxScaleDenominator>1000</MaxScaleDenominator>  
+          <MaxScaleDenominator>1500</MaxScaleDenominator>                              
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.5</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter>
+              <CssParameter name="stroke-width">100</CssParameter>
+              <CssParameter name="stroke-opacity">0.01</CssParameter>
             </Stroke>
           </LineSymbolizer>
-        </Rule>         
+        </Rule>            
 
       </FeatureTypeStyle>
     </UserStyle>
