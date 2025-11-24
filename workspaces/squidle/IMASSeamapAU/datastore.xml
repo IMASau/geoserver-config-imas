@@ -1,0 +1,25 @@
+<dataStore>
+  <id>DataStoreInfoImpl-54d1a3b2:19ab088b530:29fb</id>
+  <name>IMASSeamapAU</name>
+  <description>Seamap SQL Storage Database</description>
+  <type>Microsoft SQL Server (JNDI)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--566041e7:198c1a71d30:-4987</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="Force spatial index usage via hints">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">true</entry>
+    <entry key="Use native geometry serialization">true</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="Integrated Security">false</entry>
+    <entry key="jndiReferenceName">java:comp/env/jdbc/seamap</entry>
+    <entry key="dbtype">sqlserver</entry>
+    <entry key="namespace">https://geoserver.imas.utas.edu.au/geoserver/squidle</entry>
+    <entry key="Use Native Paging">true</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2025-11-24 02:44:02.482 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>

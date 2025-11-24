@@ -1,0 +1,16 @@
+<layer>
+  <name>AUV_mosaics_tracks</name>
+  <id>LayerInfoImpl-54d1a3b2:19ab088b530:2a04</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-54d1a3b2:19ab088b530:2997</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-54d1a3b2:19ab088b530:2a03</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-11-24 02:45:29.963 UTC</dateCreated>
+</layer>
