@@ -40,7 +40,7 @@
           </LineSymbolizer>
         </Rule>        
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>  
+          <MinScaleDenominator>6000</MinScaleDenominator>  
           <MaxScaleDenominator>500000</MaxScaleDenominator>        
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -57,7 +57,7 @@
           </LineSymbolizer>
         </Rule>		
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator> 
+          <MinScaleDenominator>6000</MinScaleDenominator> 
           <MaxScaleDenominator>500000</MaxScaleDenominator>             
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -74,7 +74,7 @@
           </LineSymbolizer>
         </Rule>	        
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>       
+          <MinScaleDenominator>6000</MinScaleDenominator>       
           <MaxScaleDenominator>500000</MaxScaleDenominator>           
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -91,7 +91,7 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>     
+          <MinScaleDenominator>6000</MinScaleDenominator>     
           <MaxScaleDenominator>500000</MaxScaleDenominator>          
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -108,7 +108,7 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>          
+          <MinScaleDenominator>6000</MinScaleDenominator>          
           <MaxScaleDenominator>500000</MaxScaleDenominator>          
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -125,7 +125,7 @@
           </LineSymbolizer>
         </Rule>		
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>              
+          <MinScaleDenominator>6000</MinScaleDenominator>              
           <MaxScaleDenominator>500000</MaxScaleDenominator>          
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -142,7 +142,7 @@
           </LineSymbolizer>
         </Rule>	        
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>                   
+          <MinScaleDenominator>6000</MinScaleDenominator>                   
           <MaxScaleDenominator>500000</MaxScaleDenominator>         
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -159,7 +159,7 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>               
+          <MinScaleDenominator>6000</MinScaleDenominator>               
           <MaxScaleDenominator>500000</MaxScaleDenominator>      
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -176,7 +176,7 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>                 
+          <MinScaleDenominator>6000</MinScaleDenominator>                 
           <MaxScaleDenominator>500000</MaxScaleDenominator>   
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -193,7 +193,7 @@
           </LineSymbolizer>
         </Rule>		
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>               
+          <MinScaleDenominator>6000</MinScaleDenominator>               
           <MaxScaleDenominator>500000</MaxScaleDenominator>   
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -210,7 +210,7 @@
           </LineSymbolizer>
         </Rule>	        
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>                       
+          <MinScaleDenominator>6000</MinScaleDenominator>                       
           <MaxScaleDenominator>500000</MaxScaleDenominator>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -227,7 +227,7 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>                            
+          <MinScaleDenominator>6000</MinScaleDenominator>                            
           <MaxScaleDenominator>500000</MaxScaleDenominator>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -244,7 +244,7 @@
           </LineSymbolizer>
         </Rule>	   
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>                        
+          <MinScaleDenominator>6000</MinScaleDenominator>                        
           <MaxScaleDenominator>500000</MaxScaleDenominator>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -261,7 +261,7 @@
           </LineSymbolizer>
         </Rule>	
         <Rule>
-          <MinScaleDenominator>1500</MinScaleDenominator>                    
+          <MinScaleDenominator>6000</MinScaleDenominator>                    
           <MaxScaleDenominator>500000</MaxScaleDenominator> 
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <ogc:Filter>
@@ -280,7 +280,7 @@
       
         <!-- Rule for text labelling tracks when zoomed in -->        
         <Rule> 
-          <MinScaleDenominator>1500</MinScaleDenominator>                    
+          <MinScaleDenominator>3000</MinScaleDenominator>                    
           <MaxScaleDenominator>50000</MaxScaleDenominator>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
           <TextSymbolizer>    
@@ -306,16 +306,19 @@
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
             </Fill>  
-            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="spaceAround">0</VendorOption>
+            <VendorOption name="partials">true</VendorOption>            
+            <!-- <VendorOption name="followLine">true</VendorOption> -->
           </TextSymbolizer>
         </Rule> 
         <!-- Faint zoomed-in track (hidden from legend) -->                
         <Rule>
-          <MaxScaleDenominator>1500</MaxScaleDenominator>                              
+          <MaxScaleDenominator>6000</MaxScaleDenominator>                              
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                 
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke">#ffffff</CssParameter>
               <CssParameter name="stroke-width">100</CssParameter>
               <CssParameter name="stroke-opacity">0.01</CssParameter>
             </Stroke>

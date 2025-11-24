@@ -213,7 +213,7 @@
     </entry>
     <entry>
       <string>SORTING</string>
-      <null/>
+      <string>date asc</string>
     </entry>
     <entry>
       <string>FootprintBehavior</string>

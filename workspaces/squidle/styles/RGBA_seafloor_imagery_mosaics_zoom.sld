@@ -11,7 +11,7 @@
     <Title>Seafloor image mosaics</Title>
     <FeatureTypeStyle>
       <Rule>
-        <MaxScaleDenominator>30000</MaxScaleDenominator>  
+        <MaxScaleDenominator>6000</MaxScaleDenominator>  
         <VendorOption name="inclusion">mapOnly</VendorOption>   
         <RasterSymbolizer>
           <Opacity>1.0</Opacity>
