@@ -268,44 +268,23 @@
           </LineSymbolizer>
         </Rule>	 
       
-        <!-- Rule for text labelling tracks when zoomed out -->
-        <Rule> 
-          <MinScaleDenominator>15000</MinScaleDenominator>  
-          <MaxScaleDenominator>500000</MaxScaleDenominator>                                                          
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                       
-          <TextSymbolizer>        
-             <Label>
-               <ogc:PropertyName>deployment</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">11</CssParameter>
-            </Font> 
-            <Halo>
-              <Radius>2</Radius>
-              <Fill>
-                <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.4</CssParameter>				        
-              </Fill>
-            </Halo>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>  
-            <VendorOption name="maxDisplacement">200</VendorOption> 
-          </TextSymbolizer>
-        </Rule>
         <!-- Rule for text labelling tracks when zoomed in -->        
         <Rule> 
           <MinScaleDenominator>1000</MinScaleDenominator>                    
           <MaxScaleDenominator>15000</MaxScaleDenominator>  
           <VendorOption name="inclusion">mapOnly</VendorOption>                                       
-          <TextSymbolizer>        
-             <Label>
+          <TextSymbolizer>    
+            <Geometry>
+              <ogc:Function name="centroid">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </Geometry>           
+            <Label>
                <ogc:PropertyName>deployment</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
-              <CssParameter name="font-size">13</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
             </Font> 
             <Halo>
               <Radius>2</Radius>

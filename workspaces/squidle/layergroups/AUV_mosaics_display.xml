@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-54d1a3b2:19ab088b530:2ab5</id>
+  <name>AUV_mosaics_display</name>
+  <mode>SINGLE</mode>
+  <title>Seafloor AUV imagery mosaics (IMOS, ACFR) - for mapping display</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--566041e7:198c1a71d30:-4987</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--14ed927f:198e627dd60:-2c44</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-54d1a3b2:19ab088b530:2a04</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--566041e7:198c1a71d30:-4968</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-54d1a3b2:19ab088b530:2997</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>1.2625539429726657E7</minx>
+    <maxx>1.7707319053220425E7</maxx>
+    <miny>-5427684.846380662</miny>
+    <maxy>-1583603.1598646056</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </bounds>
+  <dateCreated>2025-11-24 03:09:26.678 UTC</dateCreated>
+</layerGroup>
