@@ -8,8 +8,9 @@
 <NamedLayer>
   <Name>Seafloor RGB Mosaics</Name>
   <UserStyle>
-    <Title>Seafloor imagemosaics</Title>
+    <Title>Seafloor image mosaics</Title>
     <FeatureTypeStyle>
+      <VendorOption name="inclusion">mapOnly</VendorOption>                                                       
       <Rule>
         <RasterSymbolizer>
           <Opacity>1.0</Opacity>
