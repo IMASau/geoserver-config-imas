@@ -1,18 +1,21 @@
 <layer>
-  <name>IMMERSE_sites</name>
+  <name>IMMERSE_sites_bySeason</name>
   <id>LayerInfoImpl--24d17555:19985769ee8:6d1d</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--24d17555:199849c981c:-71e7</id>
+    <id>StyleInfoImpl--7e13c4c0:19abf54423d:-7cf8</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--24d17555:19985769ee8:6d1c</id>
   </resource>
   <queryable>true</queryable>
+  <metadata>
+    <entry key="buffer">256</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-09-26 10:47:56.565 UTC</dateCreated>
-  <dateModified>2025-11-26 08:15:12.165 UTC</dateModified>
+  <dateModified>2025-11-26 08:49:37.89 UTC</dateModified>
 </layer>
