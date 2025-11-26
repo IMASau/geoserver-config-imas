@@ -32,6 +32,7 @@
     <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
     <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
     <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+    <showModifiedUserAdminList>false</showModifiedUserAdminList>
     <useHeadersProxyURL>true</useHeadersProxyURL>
   </settings>
   <jai>
@@ -42,37 +43,7 @@
     <memoryCapacity>0.5</memoryCapacity>
     <memoryThreshold>0.75</memoryThreshold>
     <imageIOCache>false</imageIOCache>
-    <pngAcceleration>false</pngAcceleration>
-    <jpegAcceleration>false</jpegAcceleration>
-    <allowNativeMosaic>false</allowNativeMosaic>
-    <allowNativeWarp>false</allowNativeWarp>
-    <pngEncoderType>NATIVE</pngEncoderType>
-    <jaiext>
-      <jaiExtOperations class="sorted-set">
-        <string>Affine</string>
-        <string>BandCombine</string>
-        <string>BandMerge</string>
-        <string>BandSelect</string>
-        <string>Binarize</string>
-        <string>Border</string>
-        <string>ColorConvert</string>
-        <string>Crop</string>
-        <string>ErrorDiffusion</string>
-        <string>Format</string>
-        <string>ImageFunction</string>
-        <string>Lookup</string>
-        <string>Mosaic</string>
-        <string>Null</string>
-        <string>OrderedDither</string>
-        <string>Rescale</string>
-        <string>Scale</string>
-        <string>Stats</string>
-        <string>Translate</string>
-        <string>Warp</string>
-        <string>algebric</string>
-        <string>operationConst</string>
-      </jaiExtOperations>
-    </jaiext>
+    <pngEncoderType>JDK</pngEncoderType>
   </jai>
   <coverageAccess>
     <maxPoolSize>5</maxPoolSize>
@@ -86,11 +57,10 @@
     <entry key="logHeadersEnabled">false</entry>
     <entry key="logBodiesEnabled">false</entry>
   </metadata>
-  <updateSequence>55539</updateSequence>
+  <updateSequence>55541</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>100</xmlPostRequestLogBufferSize>
-  <xmlExternalEntitiesEnabled>false</xmlExternalEntitiesEnabled>
   <webUIMode>DEFAULT</webUIMode>
   <resourceErrorHandling>SKIP_MISCONFIGURED_LAYERS</resourceErrorHandling>
 </global>
