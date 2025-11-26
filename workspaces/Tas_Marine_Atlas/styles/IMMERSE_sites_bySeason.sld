@@ -23,11 +23,19 @@
               <Size>17</Size>
             </Graphic>
           </PointSymbolizer>
-          <!-- label to the right -->
+          <!-- conditional label -->
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>SITE</ogc:PropertyName>
+              <ogc:Function name="if_then_else">
+                <ogc:Function name="equalTo">
+                  <ogc:PropertyName>SITE</ogc:PropertyName>
+                  <ogc:Literal>Storm Bay Lease 1 middle transect 3</ogc:Literal>
+                </ogc:Function>
+                <ogc:Literal>Storm Bay mid 3</ogc:Literal>
+                <ogc:PropertyName>SITE</ogc:PropertyName>
+              </ogc:Function>
             </Label>
+
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
               <CssParameter name="font-size">12</CssParameter>
@@ -36,7 +44,7 @@
               <Radius>1.3</Radius>
               <Fill>
                 <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>                
+                <CssParameter name="fill-opacity">0.8</CssParameter>
               </Fill>
             </Halo>
             <Fill>
@@ -44,23 +52,21 @@
             </Fill>
             <LabelPlacement>
               <PointPlacement>
-                <!-- anchor at label's left-center -->
                 <AnchorPoint>
                   <AnchorPointX>0.0</AnchorPointX>
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
-                <!-- push label a bit to the right of the point -->
                 <Displacement>
                   <DisplacementX>13</DisplacementX>
                   <DisplacementY>0</DisplacementY>
                 </Displacement>
               </PointPlacement>
             </LabelPlacement>
-            <!-- nice-to-haves -->
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="partials">true</VendorOption>
-          </TextSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		            
+          </TextSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         <Rule>
           <Title>Monitoring site</Title>		        
