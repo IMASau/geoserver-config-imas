@@ -1,13 +1,12 @@
 <featureType>
   <id>FeatureTypeInfoImpl--24d17555:19985769ee8:6d1c</id>
   <name>IMMERSE_sites</name>
-  <nativeName>IMMERSE_aggr_season</nativeName>
+  <nativeName>IMMERSE_sites</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
   <title>IMMERSE water quality monitoring sites</title>
   <keywords>
-    <string>IMMERSE_aggr_season</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -47,6 +46,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>YEAR=&apos;2023&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
