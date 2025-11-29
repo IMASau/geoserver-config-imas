@@ -7,7 +7,7 @@
   </namespace>
   <title>Cumulative exposure of threats to Pygmy Blue Whales - full distribution and foraging distribution</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Cumulative exposure of pygmy blue whales to key threats was calculated from both their foraging and entire distributions. Expert elicitation was used to assess the probability of exposure to each threat where whale distribution and threat layers overlapped. Each threat layer was weighted by the expert-derived probabilities of exposure. and then summed on a 10 km × 10 km grid to represent the combined intensity of all threats. The combined threat intensity was then multiplied by either the overall combined relative distribution of pygmy blue whales, or the foraging-only distribution. The resulting maps show where pygmy blue whales are most at-risk from climatic and anthropogenic threats.</abstract>
+  <abstract>Cumulative exposure of pygmy blue whales to key threats was calculated from both their foraging and overall distributions. Expert elicitation was used to assess the probability of exposure to each threat where whale distribution and threat layers overlapped. Each threat layer was weighted by the expert-derived probabilities of exposure. and then summed on a 10 km × 10 km grid to represent the combined intensity of all threats. The combined threat intensity was then multiplied by either the overall combined relative distribution of pygmy blue whales, or the foraging-only distribution. The resulting maps show where pygmy blue whales are most at-risk from climatic and anthropogenic threats.</abstract>
   <keywords>
     <string>PBW_cumulative_exposure_threats__multiband</string>
     <string>WCS</string>
