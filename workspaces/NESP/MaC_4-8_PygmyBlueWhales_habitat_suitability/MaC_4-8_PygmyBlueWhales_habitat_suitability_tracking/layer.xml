@@ -1,0 +1,26 @@
+<layer>
+  <name>MaC_4-8_PygmyBlueWhales_habitat_suitability_tracking</name>
+  <id>LayerInfoImpl-7a31f18c:19a89b4802f:3acd</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7a31f18c:19a8b553465:2bc8</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:5693</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:2bc8</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7a31f18c:19a89b4802f:3acc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2025-11-16 03:41:41.127 UTC</dateCreated>
+  <dateModified>2025-11-29 14:20:14.675 UTC</dateModified>
+</layer>
