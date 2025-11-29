@@ -1,0 +1,17 @@
+<layer>
+  <name>MaC_4-8_PygmyBlueWhales_tracking</name>
+  <id>LayerInfoImpl--7e13c4c0:19acf7c44c1:-2c95</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7e13c4c0:19acf7c44c1:-2c96</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2025-11-29 14:59:08.227 UTC</dateCreated>
+</layer>

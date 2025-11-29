@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7e13c4c0:19acf7c44c1:-2c98</id>
+  <name>MaC_4-8_PygmyBlueWhales_tracking</name>
+  <description>Normalised (0-1) distribution of Pygmy Blue Whale occurrence from satellite telemetry data - foraging and overall distribution</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-11-29 14:57:51.56 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/310ecc6f-0530-446e-a141-487a7f65300c/PBW_Distribution_and_Habitats/PBW_tracking_distribution/PBW_tracking_distribution__multiband.tif</url>
+</coverageStore>
