@@ -7,17 +7,9 @@
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2025-11-16 03:58:46.591 UTC</dateCreated>
-  <dateModified>2025-11-17 08:16:01.414 UTC</dateModified>
+  <dateModified>2025-11-29 08:50:34.903 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/310ecc6f-0530-446e-a141-487a7f65300c/Threats_and_Exposure/Threats/allthreats__multiband.tif</url>
 </coverageStore>
