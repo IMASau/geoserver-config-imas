@@ -20,8 +20,8 @@
               </GrayChannel>
             </ChannelSelection>              
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" quantity="0" opacity="0"/>  
-              <ColorMapEntry color="#ffffb2" quantity="0.001"/>           
+              <ColorMapEntry color="#ffffff" quantity="0.001" opacity="0"/>  
+              <ColorMapEntry color="#ffffb2" quantity="0.003"/>           
               <ColorMapEntry color="#fed976" quantity="0.2" />              
               <ColorMapEntry color="#feb24c" quantity="0.4" />
               <ColorMapEntry color="#fd8d3c" quantity="0.6" />                            
