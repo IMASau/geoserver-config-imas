@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-7a31f18c:19a89b4802f:3acc</id>
-  <name>MaC_4-8_PygmyBlueWhales_habitat_suitability_tracking</name>
+  <name>MaC_4-8_PygmyBlueWhales_habitat_suitability_trackingdata</name>
   <nativeName>Mac_4-8_PygmyBlueWhales_habitat_suitability</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Normalised (0-1) habitat suitability for Pygmy Blue Whales from tracking data - migration and foraging distributions</title>
+  <title>Normalised (0-1) habitat suitability for Pygmy Blue Whales - migration and foraging distributions from satellite telemetry data</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Predictions of suitable habitat were developed by incorporating tracking data and passive acoustic data (predicted spatial distribution of unique whale songs whale songs) for northwest Australia. Spatial predictions were validated and normalised between 0 and 1 to generate habitat suitability maps for foraging and migration.</abstract>
   <keywords>
@@ -133,5 +133,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>PBW_habitat_suitability_allareas_allbehaviour__multiband</nativeCoverageName>
+  <nativeCoverageName>PBW_habitat_suitability_allareas__multiband</nativeCoverageName>
 </coverage>
