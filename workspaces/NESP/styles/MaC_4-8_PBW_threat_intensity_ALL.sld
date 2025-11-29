@@ -36,10 +36,10 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="9999" label="Relative intensity (threats combined)" />
-              <ColorMapEntry color="#ffffd1" quantity="1.0" label="  high" />
-              <ColorMapEntry color="#ffae85" quantity="0.8" label=""/>
-              <ColorMapEntry color="#e745b5" quantity="0.4" label="  moderate"/>
-              <ColorMapEntry color="#7f1eb4" quantity="0.2" label=""/>              
+              <ColorMapEntry color="#ffffd1" quantity="1.8" label="  high" />
+              <ColorMapEntry color="#ffae85" quantity="1.2" label=""/>
+              <ColorMapEntry color="#e745b5" quantity="0.5" label="  moderate"/>
+              <ColorMapEntry color="#7f1eb4" quantity="0.25" label=""/>              
               <ColorMapEntry color="#481793" quantity="0.0" label="  low"/>
             </ColorMap>
           </RasterSymbolizer>
