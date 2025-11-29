@@ -5,6 +5,14 @@
   <defaultStyle>
     <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--7e13c4c0:19acf7c44c1:-2c89</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl--7e13c4c0:19acf7c44c1:-2c96</id>
   </resource>
@@ -14,4 +22,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2025-11-29 14:59:08.227 UTC</dateCreated>
+  <dateModified>2025-11-29 15:02:50.527 UTC</dateModified>
 </layer>

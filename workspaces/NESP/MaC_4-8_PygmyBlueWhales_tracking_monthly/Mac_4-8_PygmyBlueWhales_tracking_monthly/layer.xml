@@ -1,9 +1,9 @@
 <layer>
   <name>Mac_4-8_PygmyBlueWhales_tracking_monthly</name>
-  <id>LayerInfoImpl-7a31f18c:19a8b553465:297e</id>
+  <id>LayerInfoImpl--7e13c4c0:19acf7c44c1:-2a86</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
+    <id>StyleInfoImpl-7a31f18c:19a8b553465:2669</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
@@ -13,10 +13,13 @@
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28b9</id>
     </style>
     <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28bb</id>
+    </style>
+    <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28c1</id>
     </style>
     <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28bb</id>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28be</id>
     </style>
     <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:2669</id>
@@ -28,6 +31,9 @@
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28c2</id>
     </style>
     <style>
+      <id>StyleInfoImpl-7a31f18c:19a8b553465:28b8</id>
+    </style>
+    <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28ba</id>
     </style>
     <style>
@@ -36,24 +42,14 @@
     <style>
       <id>StyleInfoImpl-7a31f18c:19a8b553465:28bc</id>
     </style>
-    <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28be</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28b8</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-7a31f18c:19a8b553465:28c6</id>
-    </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7a31f18c:19a8b553465:297d</id>
+    <id>CoverageInfoImpl--7e13c4c0:19acf7c44c1:-2a87</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
-  <dateCreated>2025-11-16 21:20:26.651 UTC</dateCreated>
-  <dateModified>2025-11-18 00:01:03.206 UTC</dateModified>
+  <dateCreated>2025-11-29 15:22:13.74 UTC</dateCreated>
 </layer>

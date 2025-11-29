@@ -1,5 +1,5 @@
 <coverage>
-  <id>CoverageInfoImpl-7a31f18c:19a8b553465:297d</id>
+  <id>CoverageInfoImpl--7e13c4c0:19acf7c44c1:-2a87</id>
   <name>Mac_4-8_PygmyBlueWhales_tracking_monthly</name>
   <nativeName>Mac_4-8_PygmyBlueWhales_tracking_monthly</nativeName>
   <namespace>
@@ -11,7 +11,7 @@
 &#xd;
 Whale locations were aggregated into 10 km × 10 km grid cells, and the number of unique whales present in each cell was divided by the total number of tracked whales to produce a normalised monthly distribution (0–1), where 1 indicates the highest relative use and 0 indicates no use.</abstract>
   <keywords>
-    <string>PBW_tracking_distribution_ALL_months_multi</string>
+    <string>PBW_tracking_distribution_Jan-Dec__multiband</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -43,7 +43,7 @@ Whale locations were aggregated into 10 km × 10 km grid cells, and the number o
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Mac_4-8_PygmyBlueWhales_tracking_monthly_PBW_tracking_distribution_ALL_months_multi</entry>
+    <entry key="dirName">MaC_4-8_PygmyBlueWhales_tracking_monthly_PBW_tracking_distribution_Jan-Dec__multiband</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-7a31f18c:19a8b553465:28cd</id>
@@ -250,20 +250,6 @@ Whale locations were aggregated into 10 km × 10 km grid cells, and the number o
         <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
-    <coverageDimension>
-      <name>ALL</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>-9999.0</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
   </dimensions>
   <requestSRS>
     <string>EPSG:4326</string>
@@ -289,5 +275,5 @@ Whale locations were aggregated into 10 km × 10 km grid cells, and the number o
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>PBW_tracking_distribution_ALL_months_multi</nativeCoverageName>
+  <nativeCoverageName>PBW_tracking_distribution_Jan-Dec__multiband</nativeCoverageName>
 </coverage>

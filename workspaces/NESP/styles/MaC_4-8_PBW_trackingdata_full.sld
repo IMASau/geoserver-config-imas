@@ -7,7 +7,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Relative distribution of tracked Pygmy Blue Whales - all months</Name>
+    <Name>Relative distribution of tracked Pygmy Blue Whales - full distributin</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
@@ -16,16 +16,16 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>13</SourceChannelName> <!-- Band 13 is ALL MONTHS -->
+                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is FULL DISTRIBUTION -->
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">
-              <ColorMapEntry color="#8d01ef" quantity="0.02"/>             
-              <ColorMapEntry color="#bf09ee" quantity="0.09" />
-              <ColorMapEntry color="#ff51bd" quantity="0.18"/>              
-              <ColorMapEntry color="#ff9d82" quantity="0.3"/>              
-              <ColorMapEntry color="#ffc666" quantity="0.6"/>
-              <ColorMapEntry color="#ffff35" quantity="0.9"/>
+              <ColorMapEntry color="#8d01ef" quantity="0.2"/>             
+              <ColorMapEntry color="#bf09ee" quantity="0.4" />
+              <ColorMapEntry color="#ff51bd" quantity="0.6"/>              
+              <ColorMapEntry color="#ff9d82" quantity="0.8"/>              
+              <ColorMapEntry color="#ffc666" quantity="0.9"/>
+              <ColorMapEntry color="#ffff35" quantity="1.0"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                    
@@ -34,7 +34,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="9999" label="Prob occurrence (all months)"/>  
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="9999" label="Prob occurrence (overall)"/>  
               <ColorMapEntry color="#ffff35" quantity="0.9" label="  high" />
               <ColorMapEntry color="#ffc666" quantity="0.6" />              
               <ColorMapEntry color="#ff9d82" quantity="0.3" />              
