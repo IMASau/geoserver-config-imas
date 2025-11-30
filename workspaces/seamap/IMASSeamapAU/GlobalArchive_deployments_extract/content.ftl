@@ -57,11 +57,11 @@
 			</TD >
 
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
-				${feature.deployment_date.value}
+				${feature.deployment_date.value?date("d MMMM yyyy, hh:mm:ss a")?string("dd-MM-yyyy")}
 			</TD>
 
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
-				${feature.deployment_time.value}
+				${feature.deployment_time.value?time("d MMMM yyyy, hh:mm:ss a")?string("HH:mm")}
 			</TD>
                  
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">

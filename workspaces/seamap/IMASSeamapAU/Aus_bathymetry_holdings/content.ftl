@@ -88,7 +88,7 @@
 				<#if today < feature.END_DATE.rawValue?long>
 					<i>in progress</i>
 				<#else>
-					${startdate?date("mm/dd/yy")?date} - ${enddate?date("mm/dd/yy")?date}
+					${startdate?date("d MMMM yyyy, hh:mm:ss a")} - ${enddate?date("d MMMM yyyy, hh:mm:ss a")}
 				</#if>
 			<#else>
 			-

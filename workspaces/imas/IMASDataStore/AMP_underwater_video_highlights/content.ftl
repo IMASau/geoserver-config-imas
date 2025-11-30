@@ -126,9 +126,9 @@
 
 								<#if feature.date.value?has_content>							
 									<span style="font-size: 90%; color:#9a9a9a">
-										${feature.date.value?date("MM/dd/yy")}
+										${feature.date.value?date("d MMMM yyyy, hh:mm:ss a")?string("dd-MM-yyyy")}
 											<#if feature.time.value?has_content>
-												(${feature.time.value?time("hh:mm:ss a")})
+												(${feature.time.value?time("d MMMM yyyy, hh:mm:ss a")?string("HH:mm")})
 											</#if>
 											<#if feature.depth.value?has_content>
 												@ ${feature.depth.rawValue} metres
