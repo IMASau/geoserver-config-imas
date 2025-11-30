@@ -1,6 +1,7 @@
 
 <#setting date_format="dd-mm-yyyy">
 
+
 <table style="border: 1.5pt solid black; border-collapse: collapse; border-spacing: 0; margin: 0; width: 100%;">
 
 	<THEAD>
@@ -56,11 +57,11 @@
 			</TD >
 
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
-				${feature.deployment_date.value?date("dd/mm/yy")?date}
+				${feature.deployment_date.value}
 			</TD>
 
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
-				${feature.deployment_time.value?time?string("HH:mm")}
+				${feature.deployment_time.value}
 			</TD>
                  
 			<td style="padding: 6px; border-right: 1px solid black; font-size: 11px; text-align:center">
