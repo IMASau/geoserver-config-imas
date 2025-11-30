@@ -9,7 +9,7 @@
 						
 		<!-- Display "view in new window" for files above top-right corner of video -->
 		<div style="font-size:10px; text-align: right; margin-bottom: 3px;">
-			<a style="color: CornflowerBlue;" href="${feature.Click_here.value}" target="_blank">View in new window</a>
+			<a style="color: CornflowerBlue;" href="${feature.media_URL.value}" target="_blank">View in new window</a>
 		</div>
 
 		<div>

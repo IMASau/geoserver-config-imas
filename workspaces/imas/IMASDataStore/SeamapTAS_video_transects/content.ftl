@@ -66,7 +66,7 @@
         <span style="display:inline-block; line-height:1.5em;">
           <b>Transect:</b> <i>${feature.Transect.value}</i><br>
           <#if feature.Date.value?has_content>
-	    <b>Date:</b> ${feature.Date.value?date("MM/dd/yy")}<br>
+	    <b>Date:</b> ${feature.Date.value?date("d MMMM yyyy, hh:mm:ss a")?string("dd-MM-yyyy")}<br>
           </#if>
           <#if feature.Depth_min.value?has_content && feature.Depth_max.value?has_content>
             <b>Depth:</b> ${feature.Depth_min.value?number} - ${feature.Depth_max.value?number} m <br>
