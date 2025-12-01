@@ -1,72 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gwcConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://geowebcache.org/schema/1.26.0 http://geowebcache.org/schema/1.26.0/geowebcache.xsd" xmlns="http://geowebcache.org/schema/1.26.0">
-  <version>1.26.0</version>
+<gwcConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://geowebcache.org/schema/1.28.0 http://geowebcache.org/schema/1.28.0/geowebcache.xsd" xmlns="http://geowebcache.org/schema/1.28.0">
+  <version>1.28.0</version>
   <backendTimeout>120</backendTimeout>
   <blobStores/>
-  <gridSets>
-    <gridSet>
-      <name>EPSG:3031_custom</name>
-      <description>A custom gridset for WGS 84 / Antarctic Polar Stereographic (EPSG:3031) based on the GBIF leaflet tiles for 3031: https://tile.gbif.org/ui/3031/EPSG3031-leaflet.js</description>
-      <srs>
-        <number>3031</number>
-      </srs>
-      <extent>
-        <coords>
-          <double>-3333134.027630277</double>
-          <double>-3333134.027630277</double>
-          <double>3333134.027630277</double>
-          <double>3333134.027630277</double>
-        </coords>
-      </extent>
-      <alignTopLeft>false</alignTopLeft>
-      <resolutions>
-        <double>13020.05479543077</double>
-        <double>6510.027397715385</double>
-        <double>3255.0136988576924</double>
-        <double>1627.5068494288462</double>
-        <double>813.7534247144231</double>
-        <double>406.87671235721155</double>
-        <double>203.43835617860577</double>
-        <double>101.71917808930289</double>
-        <double>50.85958904465144</double>
-        <double>25.42979452232572</double>
-        <double>12.71489726116286</double>
-        <double>6.35744863058143</double>
-        <double>3.178724315290715</double>
-        <double>1.5893621576453576</double>
-        <double>0.7946810788226788</double>
-        <double>0.3973405394113394</double>
-        <double>0.1986702697056697</double>
-        <double>0.0993351348528348</double>
-        <double>0.0496675674264174</double>
-      </resolutions>
-      <metersPerUnit>1.0</metersPerUnit>
-      <pixelSize>2.8E-4</pixelSize>
-      <scaleNames>
-        <string>EPSG:3031:0</string>
-        <string>EPSG:3031:1</string>
-        <string>EPSG:3031:2</string>
-        <string>EPSG:3031:3</string>
-        <string>EPSG:3031:4</string>
-        <string>EPSG:3031:5</string>
-        <string>EPSG:3031:6</string>
-        <string>EPSG:3031:7</string>
-        <string>EPSG:3031:8</string>
-        <string>EPSG:3031:9</string>
-        <string>EPSG:3031:10</string>
-        <string>EPSG:3031:11</string>
-        <string>EPSG:3031:12</string>
-        <string>EPSG:3031:13</string>
-        <string>EPSG:3031:14</string>
-        <string>EPSG:3031:15</string>
-        <string>EPSG:3031:16</string>
-        <string>EPSG:3031:17</string>
-        <string>EPSG:3031:18</string>
-      </scaleNames>
-      <tileHeight>512</tileHeight>
-      <tileWidth>512</tileWidth>
-      <yCoordinateFirst>false</yCoordinateFirst>
-    </gridSet>
-  </gridSets>
+  <gridSets/>
   <layers/>
 </gwcConfiguration>
