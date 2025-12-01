@@ -9,3 +9,4 @@ logs/geoserver.log*
 logs/geoserver-*
 
 cluster/
+geosearch/
