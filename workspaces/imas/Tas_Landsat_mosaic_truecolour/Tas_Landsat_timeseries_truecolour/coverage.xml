@@ -171,7 +171,7 @@
       <null/>
     </entry>
     <entry>
-      <string>USE_JAI_IMAGEREAD</string>
+      <string>USE_IMAGEN_IMAGEREAD</string>
       <boolean>true</boolean>
     </entry>
     <entry>
@@ -185,6 +185,10 @@
     <entry>
       <string>Filter</string>
       <null/>
+    </entry>
+    <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>

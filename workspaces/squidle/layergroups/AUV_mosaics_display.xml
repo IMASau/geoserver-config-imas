@@ -3,6 +3,7 @@
   <name>AUV_mosaics_display</name>
   <mode>SINGLE</mode>
   <title>Seafloor AUV imagery mosaics (IMOS, ACFR) - for mapping display</title>
+  <abstractTxt>This layer group shows the location (zoomed out), AUV tracks (mid-zoom), and mosaicked imagery from 531 AUV deployments conducted by the IMOS AUV facility between 2008-2022 in Australian waters.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl--566041e7:198c1a71d30:-4987</id>
   </workspace>
@@ -32,5 +33,5 @@
     <crs class="projected">EPSG:3857</crs>
   </bounds>
   <dateCreated>2025-11-24 03:09:26.678 UTC</dateCreated>
-  <dateModified>2025-11-24 10:10:51.10 UTC</dateModified>
+  <dateModified>2025-12-02 05:00:05.766 UTC</dateModified>
 </layerGroup>
