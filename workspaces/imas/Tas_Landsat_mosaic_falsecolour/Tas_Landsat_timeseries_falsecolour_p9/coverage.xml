@@ -172,7 +172,7 @@
       <null/>
     </entry>
     <entry>
-      <string>USE_JAI_IMAGEREAD</string>
+      <string>USE_IMAGEN_IMAGEREAD</string>
       <boolean>true</boolean>
     </entry>
     <entry>
@@ -186,6 +186,10 @@
     <entry>
       <string>Filter</string>
       <string>years=&apos;2013-2015&apos;</string>
+    </entry>
+    <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
