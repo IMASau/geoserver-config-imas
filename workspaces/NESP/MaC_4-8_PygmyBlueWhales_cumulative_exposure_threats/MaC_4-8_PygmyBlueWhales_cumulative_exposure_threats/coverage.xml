@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Cumulative exposure of threats to Pygmy Blue Whales - full distribution and foraging distribution</title>
+  <title>Cumulative exposure of threats to Pygmy Blue Whales - foraging and overall distribution</title>
   <description>Generated from GeoTIFF</description>
   <abstract>The cumulative exposure of pygmy blue whales to key threats was calculated from both their foraging and overall distributions. Expert elicitation was used to assess the probability of exposure to each threat where whale distribution and threat layers overlapped. Each threat layer was weighted by the expert-derived probabilities of exposure. and then summed on a 10 km × 10 km grid to represent the combined intensity of all threats. The combined threat intensity was then multiplied by either the overall combined relative distribution of pygmy blue whales, or the foraging-only distribution. The resulting maps show where pygmy blue whales are most at-risk from climatic and anthropogenic threats.</abstract>
   <keywords>
@@ -81,7 +81,7 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>GRAY_INDEX</name>
+      <name>full_distribution</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -95,7 +95,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band2</name>
+      <name>foraging_only</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
