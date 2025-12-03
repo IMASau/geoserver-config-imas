@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Phylum</name>
+        <type>string</type>
+        <label>2. Phylum</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Order</name>
+        <type>string</type>
+        <label>3. Order</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Family</name>
+        <type>string</type>
+        <label>4. Family</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Species</name>
+        <type>string</type>
+        <label>5. Species</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Functional_group</name>
+        <type>string</type>
+        <label>1. Functional group</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Ks</name>
+        <type>double</type>
+        <label>Ks</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Vmax</name>
+        <type>double</type>
+        <label>Vmax</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>

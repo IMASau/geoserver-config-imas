@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--7e13c4c0:19ae46a3ec5:7f45</id>
-  <name>global_analysis_NitrateUptake_seaweeds</name>
+  <name>global_analysis_DINuptake_seaweeds</name>
   <nativeName>Hurd_global_analysis_NitrateUptake_seaweeds</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -37,6 +37,9 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--338f9103:14c0791088d:-7ffa</id>
   </store>

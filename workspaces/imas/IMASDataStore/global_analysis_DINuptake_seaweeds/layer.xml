@@ -1,9 +1,9 @@
 <layer>
-  <name>global_analysis_NitrateUptake_seaweeds</name>
+  <name>global_analysis_DINuptake_seaweeds</name>
   <id>LayerInfoImpl--7e13c4c0:19ae46a3ec5:7f46</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl--7e13c4c0:19ae606b779:-50c8</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--7e13c4c0:19ae46a3ec5:7f45</id>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-12-03 20:53:20.663 UTC</dateCreated>
+  <dateModified>2025-12-03 22:10:40.573 UTC</dateModified>
 </layer>
