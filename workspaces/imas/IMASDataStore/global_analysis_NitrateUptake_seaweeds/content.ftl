@@ -4,12 +4,12 @@
 
 
     <TR style='background-color:#b3d9ff; border:1.5pt solid black'>
-      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Functional group</th>
-      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Species</th>
-      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">N source</th>
-      <th class="table-header-center" style="text-align: center; font-size: 11px; border-right: 1px solid black;">Ks (&#xb5;mol/L)</th>
-      <th class="table-header-center" style="text-align: center; font-size: 11px; border-right: 1px solid black;">Vmax (&#181;mol/h/cm<sup>2</sup>)</th>
-      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Study</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black; width:50px; white-space: nowrap;">Functional group</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black; width:50px; white-space: nowrap;">Species</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black; width:30px; white-space: nowrap;">N source</th>
+      <th class="table-header-center" style="text-align: center; font-size: 11px; text-transform: none; border-right: 1px solid black; width:30px; white-space: nowrap;">Ks (&#xb5;mol/L)</th>
+      <th class="table-header-center" style="text-align: center; font-size: 11px; text-transform: none; border-right: 1px solid black; width:30px; white-space: nowrap;">Vmax (&#181;mol/h/cm<sup>2</sup>)</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black; width:50px; white-space: nowrap;">Study</th>
     </TR>
 
 
@@ -54,9 +54,9 @@
           <TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
             <#if Ks?has_content>
               <#if Ks_SE?has_content>
-                <b>${Ks?number?string["0.00"]}</b> &#177; ${Ks_SE?number?string["0.00"]}
+                <b>${Ks?number?string["0.0"]}</b> &#177; ${Ks_SE?number?string["0.0"]}
               <#else>
-                <b>${Ks?number?string["0.00"]}</b>
+                <b>${Ks?number?string["0.0"]}</b>
               </#if>
             <#else>
               -
@@ -66,9 +66,9 @@
           <TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
             <#if Vmax?has_content>
               <#if Vmax_SE?has_content>
-                <b>${Vmax?number?string["0.00"]}</b> &#177; ${Vmax_SE?number?string["0.00"]}
+                <b>${Vmax?number?string["0.0"]}</b> &#177; ${Vmax_SE?number?string["0.0"]}
               <#else>
-                <b>${Vmax?number?string["0.00"]}</b>
+                <b>${Vmax?number?string["0.0"]}</b>
               </#if>
             <#else>
               -
