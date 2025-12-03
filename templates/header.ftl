@@ -1,144 +1,98 @@
-<!DOCTYPE html>
-<html>
+<div style="padding: 5px 0;">
 
-<head>
-    <title>GetFeatureInfo style stored in /templates/ workspace</title>
-</head>
-
-<style type="text/css">
-
-.collapsedsummary {
-    cursor: pointer;
-    color: cornflowerblue;
-    text-decoration: underline;
-    display: inline-block;
-    margin-top: 10px;  /* Adds vertical spacing from any preceding content */
-}
-
-.fixed-width-ellipsis {
-    max-width: 150px; /* ensures that the width doesn't exceed the set limit */
-    width: auto; /* allows the width to be flexible */
-    white-space: nowrap; /* prevents the contents of the cell from wrapping */
-    overflow: hidden; /* hides content that is larger than the cell's width */
-    text-overflow: ellipsis; /* adds an ellipsis when the content is too large */
-    font-size: 11px;
-}
-
-.max-width-column {
-    max-width: 150px; /* replace 200px with your desired maximum width */
-    width: auto; /* allows the width to be flexible */
-    word-wrap: break-word; /* wrap long words onto the next line */
-    font-size: 11px;
-    }
-
-.table-header-center {
-    border-bottom: 1.5pt solid black;
-    text-align: center;
-    font-size: 11px;
-}
-
-.table-header-left {
-    border-bottom: 1.5pt solid black;
-    text-align: left;
-}
-
-.table-header-left {
-    border-bottom: 1.5pt solid black;
-    text-align: left;
-   	font-size: 11px;
-}
+  <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black;">
 
 
-table {
-	border: 1.5pt solid black;
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin: 0;
-	width:100%;
-}
-
-th {
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 6px;
-  border-right: 1px solid black;
-  text-align: left;
-  font-size: 11px;
-  background-color: #b3d9ff;
-}
-
-td {
-  padding: 6px;
-  border-right: 1px solid black;
-  text-align: left;
-  font-size: 11px;
-}
-tr:nth-child(even) { background-color: #e8e9ed; }
-tr:nth-child(odd)  { background-color: #ffffff; }
-
-dl {
-	margin: 0 20px;
-}
-
-dt {
-	font-weight: bold;
-}
-
-dd {
-	margin: 0 20px;
-}
+    <TR style='background-color:#b3d9ff; border:1.5pt solid black'>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Functional group</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Species</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">N source</th>
+      <th class="table-header-center" style="text-align: center; font-size: 11px; text-transform: none; border-right: 1px solid black;">Ks (&#xb5;mol/L)</th>
+      <th class="table-header-center" style="text-align: center; font-size: 11px; text-transform: none; border-right: 1px solid black;">Vmax (&#181;mol/h/cm<sup>2</sup>)</th>
+      <th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Study</th>
+    </TR>
 
 
-h1, h2, h3, h4, h5 {
-	text-transform: uppercase;
-	margin: 0;
-	padding: 0;
-	color: #000;
-}
+    <#list features as feature>
 
-h1 {
-	font-weight: 700;
-	line-height: 45px;
-}
+      <#assign fgroup=feature.Functional_group.value>
+      <#assign species=feature.Species.value>		
+      <#assign DIN=feature.DIN.value>
+      <#assign Ks=feature.Converted_Ks.value>
+      <#assign Ks_SE=feature.Converted_Ks_SE.value>
+      <#assign Vmax=feature.Converted_Vmax.value>						
+      <#assign Vmax_SE=feature.Converted_Vmax_SE.value>
 
-h2 {
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-}
+      <#if (feature_index < 10)> 
 
-h3 {
-	font-size: 14px;
-	font-weight: 700;
-}
+        <TR ALIGN="LEFT" style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
 
-h4 {
-	letter-spacing: 0px;
-	font-weight: 400;
-	text-transform: none;
-	font-size: 16px;
-	line-height: 26px;
-}
+          <TD style="font-size:11px; text-align: left; border-right: 1px solid black;">
+            <#if fgroup?has_content>
+              ${fgroup}
+            <#else>
+              -
+            </#if>
+          </TD>
 
-h5 {
-	letter-spacing: 1.5px;
-	font-weight: 600;
-	font-size: 11px;
-}
+          <TD style="font-size:11px; text-align: left; border-right: 1px solid black;">
+            <#if species?has_content>
+              <i>${species}</i>
+            <#else>
+              -
+            </#if>
+          </TD>
+          
+          <TD style="font-size:11px; text-align: left; border-right: 1px solid black;">
+            <#if DIN?has_content>
+              ${DIN}
+            <#else>
+              -
+            </#if>
+          </TD>    
 
-h6 {
-	letter-spacing: 1px;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 20px;
-}
+          <TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
+            <#if Ks?has_content>
+              <#if Ks_SE?has_content>
+                <b>${Ks?number?string["0.00"]}</b> &#177; ${Ks_SE?number?string["0.00"]}
+              <#else>
+                <b>${Ks?number?string["0.00"]}</b>
+              </#if>
+            <#else>
+              -
+            </#if>
+          </TD>   
 
-i { color: #9a9a9a; }
+          <TD style="text-align: center; font-size:11px; border-right: 1px solid black;">
+            <#if Vmax?has_content>
+              <#if Vmax_SE?has_content>
+                <b>${Vmax?number?string["0.00"]}</b> &#177; ${Vmax_SE?number?string["0.00"]}
+              <#else>
+                <b>${Vmax?number?string["0.00"]}</b>
+              </#if>
+            <#else>
+              -
+            </#if>
+          </TD>     
+                       
+          <TD style="text-align: left; white-space: normal; font-size:10px; border-right: 1px solid black;">
+            <a href="${feature.Link.value}" target="_blank">${feature.Reference.value}</a>
+          </TD>   
 
-a { color: CornflowerBlue; }
+        </TR>
 
-a:hover { color: #575757; }
+      </#if>
+    </#list>
 
-</style>
+  </TABLE>
 
-<body>
+</div>
+
+<#list features as feature_counter>
+	<#if (feature_counter_index <10)> 
+		<#else>
+			<p style="font-size:10px"><i>More than ten data points exist at this location.</i></p>
+		<#break>
+
+	</#if>
+</#list>
