@@ -11,12 +11,12 @@
               <Mark>
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF5F1F</CssParameter>
+                  <CssParameter name="fill">#ff0056</CssParameter>
                   <CssParameter name="fill-opacity">0.6</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#4d4d4d</CssParameter>
-                  <CssParameter name="stroke-width">1.5</CssParameter>
+                  <CssParameter name="stroke-width">1.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
               </Mark>
@@ -69,12 +69,12 @@
               <Mark>
                 <WellKnownName>cross</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF5F1F</CssParameter>
+                  <CssParameter name="fill">#ff0056</CssParameter>
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#4d4d4d</CssParameter>
-                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-width">0.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
               </Mark>

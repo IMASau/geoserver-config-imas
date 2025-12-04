@@ -1,66 +1,26 @@
 <#list features as feature>
-  <#if (feature_index < 1)>
+  <#if feature_index == 0>
+    <#assign site = feature.SITE.value?string>
 
-    <div class="featureblock1" style="padding-top:5px; padding-bottom:5px;">
+    <#-- Define groups -->
+    <#assign g_2021 = ["Storm Bay 26"]>
+    <#assign g_2020_2021 = ["Yellow Bluff 1","Yellow Bluff 2","Yellow Bluff 3"]>
+    <#assign g_2020_2023 = ["Storm Bay 16","Storm Bay 24","Storm Bay Lease 1 middle transect 3","Yellow Bluff 4"]>
+    <#assign g_2021_2023 = ["Storm Bay 10","Storm Bay 17","Storm Bay 18","Storm Bay 19","Storm Bay 20","Storm Bay 22","Storm Bay 23"]>
 
-      <b>Site:</b> <i>${feature.SITE.value}</i><br>      
-      <b>Time:</b> ${feature.MONTH.value?substring(4)} ${feature.YEAR.value}<br>
-      <b>Depth zone:</b> ${feature.DEPTH_CLASS.value?substring(4)}
-        <#if feature.DEPTH_CLASS.value?substring(4) == 'Surface'>
-          <i> (~1 m)</i>
-        <#elseif feature.DEPTH_CLASS.value?substring(4) == 'Middle'>
-          <i> (~10 m)</i>
-        </#if>
-
-     </div>
-     
-    <div class="featureblock2" style="padding-top:5px;">     
-
-      <ul style="margin-top:5px; margin-bottom:5px; padding-left:15px; list-style-type: disc;">
-
-        <!-- Temperature -->
-        <li style="margin-bottom:4px;">
-          <#if feature.TEMPERATURE_MEAN.value?has_content>
-            <span style="color:#FF1010">Temperature: </span> 
-            <b>${feature.TEMPERATURE_MEAN.value?number?string["0.0"]}
-            <#if feature.TEMPERATURE_STD.value?has_content>
-              &#177; ${feature.TEMPERATURE_STD.value?number?string["0.00"]}
-            </#if>
-            &#176;C</b>
-          <#else>
-            <i>Temperature not measured</i>
-          </#if>
-        </li>
-
-        <!-- Salinity -->
-        <li style="margin-bottom:4px;">
-          <#if feature.SALINITY_MEAN.value?has_content>
-            <span style="color:#b2a001">Salinity: </span> 
-            <b>${feature.SALINITY_MEAN.value?number?string["0.0"]}
-            <#if feature.SALINITY_STD.value?has_content>
-              &#177; ${feature.SALINITY_STD.value?number?string["0.00"]}
-            </#if>
-            PSU</b>
-          <#else>
-            <i>Salinity not measured</i>
-          </#if>
-        </li>
-
-        <!-- Nitrate -->
-        <li style="margin-bottom:4px;">
-          <#if feature.NITRATE_MEAN.value?has_content>
-            <span style="color:#006652">Nitrate: </span> 
-            <b>${feature.NITRATE_MEAN.value?number?string["0.000"]}
-            <#if feature.NITRATE_STD.value?has_content>
-             &#177; ${feature.NITRATE_STD.value?number?string["0.000"]}
-            </#if>
-            &#xB5;M</b>
-          <#else>
-            <i>Nitrate not measured</i>
-          </#if>
-        </li>
-
-      </ul>
+    <div class="feature" style="padding-top:5px; padding-bottom:5px;">
+      <b>${site}: </b>
+      <#if g_2020_2021?seq_contains(site)>
+        <i>monitored 2020 - 2021</i>
+      <#elseif g_2020_2023?seq_contains(site)>
+        <i>monitored 2020 - 2023</i>
+      <#elseif g_2021?seq_contains(site)>
+        <i>monitored 2021</i>
+      <#elseif g_2021_2023?seq_contains(site)>
+        <i>monitored 2021 - 2023</i>
+      <#else>
+        <i>monitored 2019 - 2023</i>
+      </#if>
     </div>
 
     <#break>
