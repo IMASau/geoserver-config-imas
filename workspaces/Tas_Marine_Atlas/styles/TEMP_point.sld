@@ -12,18 +12,16 @@
       <FeatureTypeStyle>
         <Rule>
           <Name>Seagrass</Name>
-<PointSymbolizer>
-   <Graphic>
-     <Mark>
-        <WellKnownName>ttf://Webdings#0x0064</WellKnownName>
-        <Fill>
-          <CssParameter name="fill">#666666</CssParameter>
-       </Fill>
-        <Stroke/>
-      </Mark>
-    <Size>30</Size>
-   </Graphic>
-</PointSymbolizer>     
+<TextSymbolizer>
+  <Label>📍</Label>
+  <Font>
+    <CssParameter name="font-family">Segoe UI Emoji</CssParameter>
+    <CssParameter name="font-size">18</CssParameter>
+  </Font>
+  <Fill>
+    <CssParameter name="fill">#ff0000</CssParameter>
+  </Fill>
+</TextSymbolizer>     
         </Rule>
         </FeatureTypeStyle>
     </UserStyle>
