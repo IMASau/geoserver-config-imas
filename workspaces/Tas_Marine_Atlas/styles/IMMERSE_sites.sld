@@ -220,7 +220,7 @@
                 </Displacement>
               </PointPlacement>
             </LabelPlacement>
-            <VendorOption name="conflictResolution">true</VendorOption>
+            <VendorOption name="conflictResolution">false</VendorOption>
             <VendorOption name="partials">true</VendorOption>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
