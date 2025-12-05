@@ -12,11 +12,11 @@
       <FeatureTypeStyle>
 		
         <Rule>
-          <Title>---Monitoring Site Type---</Title>          		  		  		  
+          <Title>--Monitoring Site Type--</Title>          		  		  		  
         </Rule>
         
         <Rule>
-          <Title>   Water quality</Title>		        
+          <Title>  Water quality</Title>		        
           <MinScaleDenominator>400000</MinScaleDenominator>  
             <ogc:Filter>		
               <ogc:PropertyIsEqualTo>		
@@ -35,7 +35,7 @@
           </PointSymbolizer>
         </Rule>                    
         <Rule>
-          <Title>   Water quality, deep reef</Title>		        
+          <Title>  Water quality, deep reef</Title>		        
           <MinScaleDenominator>400000</MinScaleDenominator>  
             <ogc:Filter>		
               <ogc:PropertyIsEqualTo>		
@@ -54,7 +54,7 @@
           </PointSymbolizer>
         </Rule>          
         <Rule>
-          <Title>   Water quality, sediment</Title>		        
+          <Title>  Water quality, sediment</Title>		        
           <MinScaleDenominator>400000</MinScaleDenominator>  
             <ogc:Filter>		
               <ogc:PropertyIsEqualTo>		
@@ -65,7 +65,7 @@
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
-                 <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-BEMP-WQ-sed.svg" />
+                 <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-BEMP-WQ-sediment.svg" />
                  <Format>image/svg+xml</Format>
               </ExternalGraphic>
              <Size>19</Size>
@@ -73,7 +73,7 @@
           </PointSymbolizer>          
         </Rule>
         <Rule>
-          <Title>   Non-BEMP site</Title>		        
+          <Title>  Non-BEMP site</Title>		        
           <MinScaleDenominator>400000</MinScaleDenominator>  
             <ogc:Filter>		
               <ogc:PropertyIsEqualTo>		
@@ -160,7 +160,7 @@
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
-                 <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-BEMP-WQ-sed.svg" />
+                 <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-BEMP-WQ-sediment.svg" />
                  <Format>image/svg+xml</Format>
               </ExternalGraphic>
              <Size>22</Size>
