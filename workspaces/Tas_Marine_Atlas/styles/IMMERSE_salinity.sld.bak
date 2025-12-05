@@ -1,20 +1,20 @@
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <Name>Nitrate concentration</Name>
+    <Name>Salinity</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>Nitrate (&#xB5;M)</Title>
+          <Title>Salinity (PSU)</Title>
         </Rule>
 
         <!-- Zoom levels <120,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-              <ogc:Literal>0.008</ogc:Literal>
+              <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+              <ogc:Literal>32.7</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -23,11 +23,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#D0FA95</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#440154</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#D0FA95</CssParameter>
+                  <CssParameter name="stroke">#440154</CssParameter>
                   <CssParameter name="stroke-width">2.1</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -42,12 +42,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.008</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>32.7</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -57,11 +57,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9CCA7B</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#3B528C</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#9CCA7B</CssParameter>
+                  <CssParameter name="stroke">#3B528C</CssParameter>
                   <CssParameter name="stroke-width">2.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -76,12 +76,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -91,11 +91,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#689B62</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#21918D</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#689B62</CssParameter>
+                  <CssParameter name="stroke">#21918D</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -110,12 +110,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.043</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>34.9</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -125,11 +125,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#346B49</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#88d629</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#346B49</CssParameter>
+                  <CssParameter name="stroke">#88d629</CssParameter>
                   <CssParameter name="stroke-width">2.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -143,8 +143,8 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-              <ogc:Literal>0.043</ogc:Literal>
+              <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+              <ogc:Literal>34.9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -153,11 +153,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#003C30</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#FEE825</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#003C30</CssParameter>
+                  <CssParameter name="stroke">#FEE825</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -168,13 +168,13 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- Zoom levels >120,000 -->
+        <!-- Zoom levels >120,000-->
         <Rule>
-          <Title> &#8804; 0.008</Title>
+          <Title> &#8804; 32.7</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-              <ogc:Literal>0.008</ogc:Literal>
+              <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+              <ogc:Literal>32.7</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -183,11 +183,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#D0FA95</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#440154</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#D0FA95</CssParameter>
+                  <CssParameter name="stroke">#440154</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.008 - 0.018</Title>
+          <Title>    32.7 - 33.8</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.008</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>32.7</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -217,11 +217,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9CCA7B</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#3B528C</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#9CCA7B</CssParameter>
+                  <CssParameter name="stroke">#3B528C</CssParameter>
                   <CssParameter name="stroke-width">1.7</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.018 - 0.029</Title>
+          <Title>    33.8 - 34.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>33.8</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -251,11 +251,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#689B62</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#21918D</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#689B62</CssParameter>
+                  <CssParameter name="stroke">#21918D</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.029 - 0.043</Title>
+          <Title>    34.5 - 34.9</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>34.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-                <ogc:Literal>0.043</ogc:Literal>
+                <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+                <ogc:Literal>34.9</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -285,11 +285,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#346B49</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#88d629</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#346B49</CssParameter>
+                  <CssParameter name="stroke">#88d629</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.043</Title>
+          <Title> > 34.9</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
-              <ogc:Literal>0.043</ogc:Literal>
+              <ogc:PropertyName>SALINITY_MEAN</ogc:PropertyName>
+              <ogc:Literal>34.9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -313,11 +313,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#003C30</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>
+                  <CssParameter name="fill">#FEE825</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#003C30</CssParameter>
+                  <CssParameter name="stroke">#FEE825</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>

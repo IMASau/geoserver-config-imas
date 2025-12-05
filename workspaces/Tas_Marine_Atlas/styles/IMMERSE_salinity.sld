@@ -23,11 +23,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#440154</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                  <CssParameter name="fill">#e5ceb1</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#440154</CssParameter>
+                  <CssParameter name="stroke">#e5ceb1</CssParameter>
                   <CssParameter name="stroke-width">2.1</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -57,11 +57,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#3B528C</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                  <CssParameter name="fill">#d2b897</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#3B528C</CssParameter>
+                  <CssParameter name="stroke">#d2b897</CssParameter>
                   <CssParameter name="stroke-width">2.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -91,11 +91,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#21918D</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#ad8b62</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#21918D</CssParameter>
+                  <CssParameter name="stroke">#ad8b62</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -125,11 +125,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#88d629</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#855621</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#88d629</CssParameter>
+                  <CssParameter name="stroke">#855621</CssParameter>
                   <CssParameter name="stroke-width">2.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -153,11 +153,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FEE825</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#684217</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#FEE825</CssParameter>
+                  <CssParameter name="stroke">#684217</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -183,11 +183,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#440154</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#e5ceb1</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#440154</CssParameter>
+                  <CssParameter name="stroke">#e5ceb1</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -217,11 +217,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#3B528C</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#d2b897</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#3B528C</CssParameter>
+                  <CssParameter name="stroke">#d2b897</CssParameter>
                   <CssParameter name="stroke-width">1.7</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -251,11 +251,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#21918D</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#ad8b62</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#21918D</CssParameter>
+                  <CssParameter name="stroke">#ad8b62</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -285,11 +285,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#88d629</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#855621</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#88d629</CssParameter>
+                  <CssParameter name="stroke">#855621</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -313,11 +313,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FEE825</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>                  
+                  <CssParameter name="fill">#684217</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#FEE825</CssParameter>
+                  <CssParameter name="stroke">#684217</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>

@@ -1,20 +1,12 @@
 <layer>
   <name>IMMERSE_sites_byMonth</name>
-  <id>LayerInfoImpl--7e13c4c0:19abf54423d:-7d2b</id>
+  <id>LayerInfoImpl--1fcfa93a:19ae833b38f:-4836</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--7e13c4c0:19abf54423d:-7cf8</id>
+    <id>StyleInfoImpl--1fcfa93a:19ae833b38f:-4839</id>
   </defaultStyle>
-  <styles class="linked-hash-set">
-    <style>
-      <id>StyleInfoImpl--7e13c4c0:19abf54423d:-7cf8</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--24d17555:199849c981c:-71e7</id>
-    </style>
-  </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--7e13c4c0:19abf54423d:-7d2c</id>
+    <id>FeatureTypeInfoImpl--1fcfa93a:19ae833b38f:-4837</id>
   </resource>
   <metadata>
     <entry key="buffer">256</entry>
@@ -23,6 +15,6 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-11-26 08:44:58.337 UTC</dateCreated>
-  <dateModified>2025-11-26 11:54:08.141 UTC</dateModified>
+  <dateCreated>2025-12-04 11:53:30.589 UTC</dateCreated>
+  <dateModified>2025-12-05 03:29:29.177 UTC</dateModified>
 </layer>

@@ -1,13 +1,13 @@
 <featureType>
   <id>FeatureTypeInfoImpl--24d17555:199805e497b:5be</id>
   <name>IMMERSE_seasonal_aggregated</name>
-  <nativeName>IMMERSE_aggr_season</nativeName>
+  <nativeName>IMMERSE_TMA_seasonal</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
   <title>IMMERSE water quality monitoring: seasonal means</title>
   <keywords>
-    <string>IMMERSE_aggr_season</string>
+    <string>IMMERSE_TMA_seasonal</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -36,6 +36,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
