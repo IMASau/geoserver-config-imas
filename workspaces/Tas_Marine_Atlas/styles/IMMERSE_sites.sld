@@ -12,7 +12,7 @@
       <FeatureTypeStyle>
 		
         <Rule>
-          <Title>---BEMP site type---</Title>          		  		  		  
+          <Title>---Monitoring Site Type---</Title>          		  		  		  
         </Rule>
         
         <Rule>
@@ -35,12 +35,12 @@
           </PointSymbolizer>
         </Rule>                    
         <Rule>
-          <Title>   Water quality, Deep reef</Title>		        
+          <Title>   Water quality, deep reef</Title>		        
           <MinScaleDenominator>400000</MinScaleDenominator>  
             <ogc:Filter>		
               <ogc:PropertyIsEqualTo>		
                 <ogc:PropertyName>SITE_TYPE</ogc:PropertyName>		
-                <ogc:Literal>Water quality, sediment</ogc:Literal>		
+                <ogc:Literal>Water quality, deep reef</ogc:Literal>		
               </ogc:PropertyIsEqualTo>		
             </ogc:Filter>	 
           <PointSymbolizer>
@@ -54,7 +54,7 @@
           </PointSymbolizer>
         </Rule>          
         <Rule>
-          <Title>   Water quality, Sediment</Title>		        
+          <Title>   Water quality, sediment</Title>		        
           <MinScaleDenominator>400000</MinScaleDenominator>  
             <ogc:Filter>		
               <ogc:PropertyIsEqualTo>		
@@ -109,7 +109,27 @@
              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>                    
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+        </Rule>  
+        <Rule>
+          <MaxScaleDenominator>400000</MaxScaleDenominator>  
+            <ogc:Filter>		
+              <ogc:PropertyIsEqualTo>		
+                <ogc:PropertyName>SITE_TYPE</ogc:PropertyName>		
+                <ogc:Literal>Water quality, deep reef</ogc:Literal>		
+              </ogc:PropertyIsEqualTo>		
+            </ogc:Filter>	 
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                 <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/icons-TMA/pin-BEMP-WQ-DR.svg" />
+                 <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+             <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+        </Rule>           
         <Rule>
           <MaxScaleDenominator>400000</MaxScaleDenominator>  
             <ogc:Filter>		
@@ -127,6 +147,7 @@
              <Size>22</Size>
             </Graphic>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>          
         <Rule>
           <MaxScaleDenominator>400000</MaxScaleDenominator>  
@@ -144,7 +165,8 @@
               </ExternalGraphic>
              <Size>22</Size>
             </Graphic>
-          </PointSymbolizer>          
+          </PointSymbolizer>   
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>
         <Rule>
           <MaxScaleDenominator>400000</MaxScaleDenominator>  
@@ -162,7 +184,8 @@
               </ExternalGraphic>
              <Size>22</Size>
             </Graphic>
-          </PointSymbolizer>          
+          </PointSymbolizer>  
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
         </Rule>           
 
         <Rule>        
