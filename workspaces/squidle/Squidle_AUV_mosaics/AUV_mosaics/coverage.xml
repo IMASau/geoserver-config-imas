@@ -173,7 +173,7 @@
     </entry>
     <entry>
       <string>MaxAllowedTiles</string>
-      <int>-1</int>
+      <int>200</int>
     </entry>
     <entry>
       <string>ExcessGranuleRemoval</string>
@@ -184,7 +184,7 @@
       <null/>
     </entry>
     <entry>
-      <string>USE_JAI_IMAGEREAD</string>
+      <string>USE_IMAGEN_IMAGEREAD</string>
       <boolean>false</boolean>
     </entry>
     <entry>
@@ -198,6 +198,10 @@
     <entry>
       <string>Filter</string>
       <null/>
+    </entry>
+    <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
