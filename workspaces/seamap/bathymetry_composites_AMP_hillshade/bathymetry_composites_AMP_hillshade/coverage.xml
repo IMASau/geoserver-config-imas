@@ -1,0 +1,189 @@
+<coverage>
+  <id>CoverageInfoImpl--1fcfa93a:19af78051a5:2dc3</id>
+  <name>bathymetry_composites_AMP_hillshade</name>
+  <nativeName>bathymetry_composites_AMP_hillshade</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Hillshade (z-factor 5m) from composite bathymetry mosaics per Australian Marine Park (AMP)</title>
+  <description>Generated from ImageMosaic</description>
+  <abstract>A multi-resolution hillshade of bathymetry mosaics for Australian Marine Parks (AMPs). To be used as a backdrop to bathymetry maps. Hillshade is 5x vertically exaggerated with an azimuth of 315 degrees and altitude of 45 degrees.&#xd;
+&#xd;
+FOR USE IN LAYER GROUP - NOT FOR SINGLE PUBLICATION</abstract>
+  <keywords>
+    <string>hillshade</string>
+    <string>WCS</string>
+    <string>ImageMosaic</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / UTM zone 50S&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 117.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;32750&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>116.01766117210721</minx>
+    <maxx>120.61497016784074</maxx>
+    <miny>-20.600650349673664</miny>
+    <maxy>-12.999601639736664</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>116.01766117210721</minx>
+    <maxx>120.61497016784074</maxx>
+    <miny>-20.600650349673664</miny>
+    <maxy>-12.999601639736664</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">bathymetry_composites_AMP_hillshade_hillshade</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--1fcfa93a:19af78051a5:2dbc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>ImageMosaic</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>47934 83829</high>
+    </range>
+    <transform>
+      <scaleX>10.0</scaleX>
+      <scaleY>-10.0</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>397637.0</translateX>
+      <translateY>8560330.0</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>255.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:32750</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:32750</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>BackgroundValues</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>OVERVIEW_POLICY</string>
+      <string>QUALITY</string>
+    </entry>
+    <entry>
+      <string>MergeBehavior</string>
+      <string>FLAT</string>
+    </entry>
+    <entry>
+      <string>AllowMultithreading</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MaxAllowedTiles</string>
+      <int>-1</int>
+    </entry>
+    <entry>
+      <string>ExcessGranuleRemoval</string>
+      <string>NONE</string>
+    </entry>
+    <entry>
+      <string>OutputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>USE_IMAGEN_IMAGEREAD</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>Filter</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+    <entry>
+      <string>Accurate resolution computation</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>SORTING</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>FootprintBehavior</string>
+      <string>Cut</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>hillshade</nativeCoverageName>
+</coverage>

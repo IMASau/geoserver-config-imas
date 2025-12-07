@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1fcfa93a:19af78051a5:2db9</id>
+  <name>bathymetry_composites_AMP</name>
+  <description>Composite bathymetry mosaics per Australian Marine Park (AMP)</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-12-07 20:40:11.486 UTC</dateCreated>
+  <dateModified>2025-12-07 20:53:57.913 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/AMP_bathymetry_derivatives/test/bathy</url>
+</coverageStore>

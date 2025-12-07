@@ -1,0 +1,14 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1fcfa93a:19af78051a5:2dbc</id>
+  <name>bathymetry_composites_AMP_hillshade</name>
+  <description>Hillshade from composite bathymetry mosaics per Australian Marine Park (AMP)</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-12-07 20:40:14.959 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/AMP_bathymetry_derivatives/test/hillshade</url>
+</coverageStore>
