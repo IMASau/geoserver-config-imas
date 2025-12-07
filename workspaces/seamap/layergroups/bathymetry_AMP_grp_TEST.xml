@@ -15,10 +15,10 @@ The bathymetry data is current as of 2024.</abstractTxt>
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--1fcfa93a:19af78051a5:2dc4</id>
+      <id>LayerInfoImpl--1fcfa93a:19af78051a5:3175</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--1fcfa93a:19af78051a5:2dc0</id>
+      <id>LayerInfoImpl--1fcfa93a:19af78051a5:3172</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--7a6c209c:1811e60aaec:-7729</id>
@@ -43,4 +43,5 @@ The bathymetry data is current as of 2024.</abstractTxt>
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-12-07 20:55:55.546 UTC</dateCreated>
+  <dateModified>2025-12-07 21:47:02.526 UTC</dateModified>
 </layerGroup>

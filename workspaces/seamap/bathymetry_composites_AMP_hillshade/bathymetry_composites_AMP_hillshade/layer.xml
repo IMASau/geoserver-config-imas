@@ -1,17 +1,16 @@
 <layer>
   <name>bathymetry_composites_AMP_hillshade</name>
-  <id>LayerInfoImpl--1fcfa93a:19af78051a5:2dc4</id>
+  <id>LayerInfoImpl--1fcfa93a:19af78051a5:3175</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--1fcfa93a:19af78051a5:2dc6</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--1fcfa93a:19af78051a5:2dc3</id>
+    <id>CoverageInfoImpl--1fcfa93a:19af78051a5:3174</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-12-07 20:45:49.957 UTC</dateCreated>
-  <dateModified>2025-12-07 21:09:35.784 UTC</dateModified>
+  <dateCreated>2025-12-07 21:46:29.83 UTC</dateCreated>
 </layer>
