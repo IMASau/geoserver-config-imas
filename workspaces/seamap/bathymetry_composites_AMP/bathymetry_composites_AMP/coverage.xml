@@ -25,7 +25,7 @@ FOR USE IN LAYER GROUP - NOT FOR SINGLE PUBLICATION</abstract>
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Transverse_Mercator&quot;], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 117.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;scale_factor&quot;, 0.9996], 
@@ -37,20 +37,20 @@ FOR USE IN LAYER GROUP - NOT FOR SINGLE PUBLICATION</abstract>
   AUTHORITY[&quot;EPSG&quot;,&quot;32750&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>116.01766117210721</minx>
-    <maxx>120.61497016784074</maxx>
-    <miny>-20.600650349673664</miny>
-    <maxy>-12.999601639736664</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>397632.0</minx>
+    <maxx>876972.0</maxx>
+    <miny>7722039.461363262</miny>
+    <maxy>8560335.0</maxy>
+    <crs class="projected">EPSG:32750</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>116.01766117210721</minx>
-    <maxx>120.61497016784074</maxx>
-    <miny>-20.600650349673664</miny>
-    <maxy>-12.999601639736664</maxy>
+    <minx>397632.0</minx>
+    <maxx>876972.0</maxx>
+    <miny>7722039.461363262</miny>
+    <maxy>8560335.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
@@ -62,6 +62,8 @@ FOR USE IN LAYER GROUP - NOT FOR SINGLE PUBLICATION</abstract>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
