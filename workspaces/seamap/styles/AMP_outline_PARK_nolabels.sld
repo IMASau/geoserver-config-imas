@@ -12,7 +12,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
  		<Rule>
 		  <Title>Australian Marine Park boundary</Title>          
-                    <PolygonSymbolizer>
+          <PolygonSymbolizer>
 			<Geometry> <ogc:PropertyName>geom_res</ogc:PropertyName></Geometry>		                      
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -20,6 +20,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="opacity">0.7</CssParameter>					  			  
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
  		</Rule>   
 
       </FeatureTypeStyle>
