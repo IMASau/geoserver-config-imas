@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--1fcfa93a:19af78051a5:2dc6</id>
-  <name>raster_hillshade_highcontrast</name>
+  <name>raster_hillshade_highcontrast_BOTTOM</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,6 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>raster_hillshade_highcontrast.sld</filename>
+  <filename>raster_hillshade_highcontrast_BOTTOM.sld</filename>
   <dateCreated>2025-12-07 20:48:26.808 UTC</dateCreated>
+  <dateModified>2025-12-10 20:12:20.422 UTC</dateModified>
 </style>

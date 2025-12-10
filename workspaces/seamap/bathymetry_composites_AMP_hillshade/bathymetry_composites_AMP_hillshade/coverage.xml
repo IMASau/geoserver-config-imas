@@ -29,14 +29,14 @@ FOR USE IN LAYER GROUP - NOT FOR SINGLE PUBLICATION</abstract>
     <minx>66.43759227004936</minx>
     <maxx>171.38197909986098</maxx>
     <miny>-60.54704253805079</miny>
-    <maxy>-7.7784435176116675</maxy>
+    <maxy>-7.575556271803456</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>66.43759227004936</minx>
     <maxx>171.38197909986098</maxx>
     <miny>-60.54704253805079</miny>
-    <maxy>-7.7784435176116675</maxy>
+    <maxy>-7.575556271803456</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -91,7 +91,7 @@ FOR USE IN LAYER GROUP - NOT FOR SINGLE PUBLICATION</abstract>
         <max>inf</max>
       </range>
       <nullValues>
-        <double>0.0</double>
+        <double>255.0</double>
       </nullValues>
       <dimensionType>
         <name>UNSIGNED_8BITS</name>
