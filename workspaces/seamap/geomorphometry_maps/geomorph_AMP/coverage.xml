@@ -47,6 +47,8 @@
     <id>CoverageStoreInfoImpl-733d3287:17ed8ffd77c:4115</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
@@ -128,7 +130,7 @@
       <null/>
     </entry>
     <entry>
-      <string>USE_JAI_IMAGEREAD</string>
+      <string>USE_IMAGEN_IMAGEREAD</string>
       <boolean>true</boolean>
     </entry>
     <entry>
@@ -136,8 +138,16 @@
       <null/>
     </entry>
     <entry>
+      <string>RescalePixels</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
       <string>Filter</string>
       <null/>
+    </entry>
+    <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
@@ -157,7 +167,7 @@
     </entry>
     <entry>
       <string>FootprintBehavior</string>
-      <string>None</string>
+      <string>Cut</string>
     </entry>
   </parameters>
   <nativeCoverageName>geomorph</nativeCoverageName>

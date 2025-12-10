@@ -58,6 +58,8 @@
     <id>CoverageStoreInfoImpl-5ba9f273:18121c77677:-5478</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>ImageMosaic</nativeFormat>
   <grid dimension="2">
     <range>
@@ -139,7 +141,7 @@
       <string>#FFFFFF</string>
     </entry>
     <entry>
-      <string>USE_JAI_IMAGEREAD</string>
+      <string>USE_IMAGEN_IMAGEREAD</string>
       <boolean>true</boolean>
     </entry>
     <entry>
@@ -153,6 +155,10 @@
     <entry>
       <string>Filter</string>
       <null/>
+    </entry>
+    <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
     </entry>
     <entry>
       <string>InputTransparentColor</string>
