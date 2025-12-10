@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1fcfa93a:19b07adda44:-8ba</id>
+  <name>Storm_Bay_bathymetry_2022_5m_hillshade</name>
+  <description>Storm Bay bathymetry 2022 5m - hillshade</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2025-12-10 12:28:39.136 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/368783d1-6379-44c7-911d-7853c3979be6/StormBay_bathymetry_2022_5m_hillshade.tif</url>
+</coverageStore>

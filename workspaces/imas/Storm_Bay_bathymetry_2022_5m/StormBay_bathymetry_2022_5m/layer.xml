@@ -1,0 +1,17 @@
+<layer>
+  <name>StormBay_bathymetry_2022_5m</name>
+  <id>LayerInfoImpl--1fcfa93a:19b07adda44:-8b8</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1fcfa93a:19b07adda44:-8be</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--1fcfa93a:19b07adda44:-8b9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2025-12-10 12:29:26.415 UTC</dateCreated>
+</layer>
