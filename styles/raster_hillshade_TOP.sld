@@ -14,7 +14,7 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <Opacity>0.5</Opacity>
+            <Opacity>0.45</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0" quantity="0" />
               <ColorMapEntry color="#000000" quantity="1" />
@@ -24,8 +24,9 @@
               <ColorMapEntry color="#ffffff" quantity="255" />
             </ColorMap>
           </RasterSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
+        <VendorOption name="inclusion">mapOnly</VendorOption>        
+        <!-- Blend hillshade with layers underneath -->        
         <VendorOption name="composite">multiply</VendorOption>
       </FeatureTypeStyle>
     </UserStyle>
