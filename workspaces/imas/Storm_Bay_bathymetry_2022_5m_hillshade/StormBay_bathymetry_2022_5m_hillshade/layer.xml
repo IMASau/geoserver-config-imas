@@ -1,0 +1,17 @@
+<layer>
+  <name>StormBay_bathymetry_2022_5m_hillshade</name>
+  <id>LayerInfoImpl--1fcfa93a:19b07adda44:-899</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1fcfa93a:19b07adda44:-89b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--1fcfa93a:19b07adda44:-89a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-10 12:33:16.351 UTC</dateCreated>
+  <dateModified>2025-12-10 12:33:31.898 UTC</dateModified>
+</layer>

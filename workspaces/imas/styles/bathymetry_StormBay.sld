@@ -8,18 +8,17 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap type="ramp">              
-              <ColorMapEntry color="#30123b" quantity="-70"/>
-              <ColorMapEntry color="#3e3994" quantity="-60"/>
+            <ColorMap type="ramp">   
+              <ColorMapEntry color="#1a3ea8" quantity="-60"/>
               <ColorMapEntry color="#4681f7" quantity="-50"/>
               <ColorMapEntry color="#23c4e3" quantity="-40"/>
-              <ColorMapEntry color="#2df09d" quantity="-30"/>
-              <ColorMapEntry color="#90ff48" quantity="-25"/>
-              <ColorMapEntry color="#d7e535" quantity="-20"/>
-              <ColorMapEntry color="#fdae35" quantity="-15"/>
-              <ColorMapEntry color="#f26014" quantity="-10"/>
-              <ColorMapEntry color="#a21201" quantity="-5"/>
-              <ColorMapEntry color="#7a0403" quantity="0"/>              
+              <ColorMapEntry color="#2df09d" quantity="-35"/>
+              <ColorMapEntry color="#90ff48" quantity="-30"/>
+              <ColorMapEntry color="#d7e535" quantity="-25"/>
+              <ColorMapEntry color="#fdae35" quantity="-20"/>
+              <ColorMapEntry color="#f26014" quantity="-15"/>
+              <ColorMapEntry color="#b32d00" quantity="-10"/>
+              <ColorMapEntry color="#7a0403" quantity="-5"/>              
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                           
@@ -28,17 +27,16 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="1000" label="Depth (m)"/>                                                      
-              <ColorMapEntry color="#7a0403" label="   0" quantity="0"/>              
-              <ColorMapEntry color="#a21201" label="   5" quantity="-5"/>              
-              <ColorMapEntry color="#f26014" label="  10" quantity="-10"/>              
-              <ColorMapEntry color="#fdae35" label="  15" quantity="-15"/>              
-              <ColorMapEntry color="#d7e535" label="  20" quantity="-20"/>              
-              <ColorMapEntry color="#90ff48" label="  25" quantity="-25"/>              
-              <ColorMapEntry color="#2df09d" label="  30" quantity="-30"/>              
+              <ColorMapEntry color="#7a0403" label="   5" quantity="5"/>              
+              <ColorMapEntry color="#b32d00" label="  10" quantity="-10"/>              
+              <ColorMapEntry color="#f26014" label="  15" quantity="-15"/>              
+              <ColorMapEntry color="#fdae35" label="  20" quantity="-20"/>              
+              <ColorMapEntry color="#d7e535" label="  25" quantity="-25"/>              
+              <ColorMapEntry color="#90ff48" label="  30" quantity="-30"/>              
+              <ColorMapEntry color="#2df09d" label="  35" quantity="-35"/>              
               <ColorMapEntry color="#23c4e3" label="  40" quantity="-40"/>              
               <ColorMapEntry color="#4681f7" label="  50" quantity="-50"/>              
-              <ColorMapEntry color="#3e3994" label="  60" quantity="-60"/>              
-              <ColorMapEntry color="#30123b" label="  70" quantity="-70"/>                          
+              <ColorMapEntry color="#1a3ea8" label="  60" quantity="-60"/>              
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                                           

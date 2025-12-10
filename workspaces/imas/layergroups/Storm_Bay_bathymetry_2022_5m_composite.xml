@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--1fcfa93a:19b07adda44:-896</id>
+  <name>Storm_Bay_bathymetry_2022_5m_composite</name>
+  <mode>SINGLE</mode>
+  <title>Storm Bay hillshaded bathymetry 2022 5m</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--558bdc10:1485b268ab8:7c24</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--1fcfa93a:19b07adda44:-8b8</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1fcfa93a:19b07adda44:-899</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--1fcfa93a:19b07adda44:-8be</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1fcfa93a:19b07adda44:-89b</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>529304.0</minx>
+    <maxx>556064.0</maxx>
+    <miny>5207664.0</miny>
+    <maxy>5238394.0</maxy>
+    <crs class="projected">EPSG:32755</crs>
+  </bounds>
+  <dateCreated>2025-12-10 12:35:11.872 UTC</dateCreated>
+</layerGroup>
