@@ -99,7 +99,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>National Park Zone</Title>
+            <Title>National Park Zone (IUCN II)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
