@@ -46,6 +46,12 @@
 
 
 <#assign featureList = groupedFeatures?values>
+
+<#assign count = 0>
+<#list featureList as f>
+    <#assign count = count + 1>
+</#list>
+
 <#list featureList?sort_by(["DATA_DL", "rawValue"])?reverse as feature>
 
 		<#assign collection=feature.TITLE_ASB.value>
@@ -174,8 +180,6 @@
 
 </div>
 
-<#if featureList?size > 10> 
-  <#else>
+<#if (count > 10)>
     <p style="font-size:10px"><i>More than ten surveys exist at this location.</i></p>
-  <#break>
 </#if>
