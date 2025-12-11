@@ -2,13 +2,21 @@
   <id>LayerGroupInfoImpl--1fcfa93a:19af78051a5:2dca</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:bathymetry_AMP_grp_TEST</name>
+  <name>seamap:bathymetry_AMP_grp</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>-1.95897474386067E7</double>
+          <double>-8806847.573312586</double>
+          <double>1.992171753931534E7</double>
+          <double>-302849.71768956014</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

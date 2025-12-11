@@ -1,10 +1,11 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl--3abb6195:1850617f60a:15dc</id>
+  <id>LayerGroupInfoImpl--1fcfa93a:19b07adda44:40ae</id>
   <name>bathymetry_AMP_grp_shelf</name>
   <mode>SINGLE</mode>
-  <title>Bathymetry of AMPs - shelf stretch</title>
-  <abstractTxt>Stretched to shelf</abstractTxt>
-  <advertised>false</advertised>
+  <title>Bathymetry of Australian Marine Parks (AMPs) - shelf-optimised colour stretch</title>
+  <abstractTxt>Multibeam bathymetry data complied from various sources and compiled into a single Geotiff per Australian Marine Park (AMP). Each AMP Geotiff is gridded to the equivalent of the finest resolution of data available in that region and represents a multi-resolution mosaic.&#xd;
+&#xd;
+This layer group comprises of bathymetry mosaics overlaid on derived hillshade, clipped to the boundaries of Australian Marine Parks (2025). A shelf-optimised colour ramp has been used to emphasise features in the shallow (~0-250m) zone.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -12,13 +13,10 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl--227ee776:1818ba2a0a7:-798f</id>
+      <id>LayerInfoImpl--1fcfa93a:19af78051a5:3175</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl--227ee776:1818c8f7268:4b24</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl-2922ad46:180a80ba0ce:-3681</id>
+      <id>LayerInfoImpl--1fcfa93a:19af78051a5:3172</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--7a6c209c:1811e60aaec:-7729</id>
@@ -26,25 +24,22 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
+      <id>StyleInfoImpl--1fcfa93a:19af78051a5:2dc6</id>
     </style>
     <style>
-      <id>StyleInfoImpl--3abb6195:1850617f60a:155e</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--3abb6195:1850617f60a:155d</id>
+      <id>StyleInfoImpl--1fcfa93a:19b07adda44:f79</id>
     </style>
     <style>
       <id>StyleInfoImpl-262a8ff:189f2ad1ec4:-457b</id>
     </style>
   </styles>
   <bounds>
-    <minx>-1.3091256695898265E7</minx>
-    <maxx>1.4653249642160192E7</maxx>
-    <miny>-1.349740339842502E7</miny>
-    <maxy>-423171.7843549479</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>-175.97769536141647</minx>
+    <maxx>178.95983351478912</maxx>
+    <miny>-61.77865382458602</miny>
+    <maxy>-2.719523594200699</maxy>
+    <crs>EPSG:4326</crs>
   </bounds>
-  <dateCreated>2022-12-12 12:45:48.238 UTC</dateCreated>
-  <dateModified>2023-12-22 03:24:17.393 UTC</dateModified>
+  <dateCreated>2025-12-10 19:59:40.659 UTC</dateCreated>
+  <dateModified>2025-12-11 04:27:50.454 UTC</dateModified>
 </layerGroup>
