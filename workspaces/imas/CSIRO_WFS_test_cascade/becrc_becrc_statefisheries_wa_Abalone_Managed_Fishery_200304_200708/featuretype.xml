@@ -21,23 +21,24 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-35.999986605999936</minx>
-    <maxx>-26.999986460999935</maxx>
-    <miny>113.00001068400002</miny>
-    <maxy>129.00000900400005</maxy>
+    <minx>113.00001068400002</minx>
+    <maxx>129.00000900400005</maxx>
+    <miny>-35.999986605999936</miny>
+    <maxy>-26.999986460999935</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-35.999986605999936</minx>
-    <maxx>-26.999986460999935</maxx>
-    <miny>113.00001068400002</miny>
-    <maxy>129.00000900400005</maxy>
+    <minx>113.00001068400002</minx>
+    <maxx>129.00000900400005</maxx>
+    <miny>-35.999986605999936</miny>
+    <maxy>-26.999986460999935</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
-    <entry key="OTHER_SRS">urn:ogc:def:crs:EPSG::900913</entry>
+    <entry key="OTHER_SRS">urn:ogc:def:crs:EPSG::900913,EPSG:4326</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-26f37eeb:19b10de36da:27ee</id>
