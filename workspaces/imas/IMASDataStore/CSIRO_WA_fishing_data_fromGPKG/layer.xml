@@ -1,0 +1,16 @@
+<layer>
+  <name>CSIRO_WA_fishing_data_fromGPKG</name>
+  <id>LayerInfoImpl-26f37eeb:19b107a8930:-7328</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-26f37eeb:19b107a8930:-7329</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-12 02:54:25.45 UTC</dateCreated>
+</layer>
