@@ -6,13 +6,13 @@
         <#if (ecosys < 1)>
         <#else>
 
-            <div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom: 7px; padding-top: 7px'>
+            <div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom: 7px; padding-top: 7px; text-align:center;'>
                 <#if ecosys == 1>
-                    <b>Shelf unvegetated sediments</b>
-                    <br>
-                    <i>Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Shelf unvegetated sediments</div>
+                    <span style="font-size:97%"><i>Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -42,11 +42,11 @@
                     </div>
 
                 <#elseif ecosys == 2>
-                    <b>Upper slope sediments</b>
-                    <br>
-                    <i>Sediment habitats on the upper continental slope (200 m -700 m).</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Upper slope sediments</div>
+                    <span style="font-size:97%"><i>Sediment habitats on the upper continental slope (200 m -700 m).</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
                                 <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4" target="_blank">
@@ -75,23 +75,20 @@
                     </div>
 
                 <#elseif ecosys == 3>
-                    <b>Mid slope sediments</b>
-                    <br>
-                    <i>Sediment habitats on the mid continental slope (700-2000 m).</i>
+                    <div style="padding-bottom:8px; font-weight:bold;">Mid slope sediments</div>
+                    <span style="font-size:97%"><i>Sediment habitats on the mid continental slope (700-2000 m).</i></span>
                 <#elseif ecosys == 4>
-                    <b>Lower slope reef and sediments</b>
-                    <br>
-                    <i>Rocky reef and sediment habitats on the lower continental slope and continental rise (i.e. between 2000 m and nominally 4000 m).</i>
+                    <div style="padding-bottom:8px; font-weight:bold;">Lower slope reef and sediments</div>
+                    <span style="font-size:97%"><i>Rocky reef and sediment habitats on the lower continental slope and continental rise (i.e. between 2000 m and nominally 4000 m).</i></span>
                 <#elseif ecosys == 5>
-                    <b>Abyssal reef and sediments</b>
-                    <br>
-                    <i>Reef and sediment habitats in the abyssal zone, between 4000 m and 6000 m.</i>
+                    <div style="padding-bottom:8px; font-weight:bold;">Abyssal reef and sediments</div>
+                    <span style="font-size:97%"><i>Reef and sediment habitats in the abyssal zone, between 4000 m and 6000 m.</i></span>
                 <#elseif ecosys == 6>
-                    <b>Seamount sediments</b>
-                    <br>
-                    <i>Sediment habitats occurring on seamounts.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a seamount feature at a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Seamount sediments</div>
+                    <span style="font-size:97%"><i>Sediment habitats occurring on seamounts.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts.<br>(Note: videos may be from a seamount feature at a different location).</div>
                         <div style="display: flex; flex-wrap: wrap;">
                             <!-- First YouTube video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
@@ -115,11 +112,11 @@
                     </div>
 
                 <#elseif ecosys == 7>
-                    <b>Shelf incising canyons</b>
-                    <br>
-                    <i>Steep sided valleys in the seabed that extend onto the continental shelf at least 500 m shoreward of the shelf break.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on canyon ecosystems (note: videos may be from a canyon feature at a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Shelf incising canyons</div>
+                    <span style="font-size:97%"><i>Steep sided valleys in the seabed that extend onto the continental shelf at least 500 m shoreward of the shelf break.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on canyon ecosystems.<br>(Note: videos may be from a canyon feature at a different location).</div>
                         <div style="display: flex; flex-wrap: wrap;">
                             <!-- First YouTube video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
@@ -143,11 +140,11 @@
                     </div>
 
                 <#elseif ecosys == 8>
-                    <b>Oceanic shallow coral reefs</b>
-                    <br>
-                    <i>Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Oceanic shallow coral reefs</div>
+                    <span style="font-size:97%"><i>Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -177,11 +174,11 @@
                     </div>
 
                 <#elseif ecosys == 9>
-                    <b>Shelf vegetated sediments</b>
-                    <br>
-                    <i>Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Shelf vegetated sediments</div>
+                    <span style="font-size:97%"><i>Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -211,11 +208,11 @@
                     </div>
 
                 <#elseif ecosys == 10>
-                    <b>Shallow coral reefs</b>
-                    <br>
-                    <i>Coral reefs occurring in continental shelf areas shallower than 30 m.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Shallow coral reefs</div>
+                    <span style="font-size:97%"><i>Coral reefs occurring in continental shelf areas shallower than 30 m.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
@@ -245,11 +242,11 @@
                     </div>
 
                 <#elseif ecosys == 11>
-                    <b>Shallow rocky reefs</b>
-                    <br>
-                    <i>Rocky reefs occurring in continental shelf areas shallower than 30 m.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Shallow rocky reefs</div>
+                    <span style="font-size:97%"><i>Rocky reefs occurring in continental shelf areas shallower than 30 m.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -279,11 +276,11 @@
                     </div>
 
                 <#elseif ecosys == 12>
-                    <b>Mesophotic coral reefs</b>
-                    <br>
-                    <i>Coral reef formations on tropical continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Mesophotic coral reefs</div>
+                    <span style="font-size:97%"><i>Coral reef formations on tropical continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
@@ -313,11 +310,11 @@
                     </div>
 
                 <#elseif ecosys == 13>
-                    <b>Mesophotic rocky reefs</b>
-                    <br>
-                    <i>Rocky reef formations on temperate continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Mesophotic rocky reefs</div>
+                    <span style="font-size:97%"><i>Rocky reef formations on temperate continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -347,11 +344,11 @@
                     </div>
 
                 <#elseif ecosys == 14>
-                    <b>Oceanic mesophotic coral reefs</b>
-                    <br>
-                    <i>Coral reefs occurring seaward of the continental shelf break in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Oceanic mesophotic coral reefs</div>
+                    <span style="font-size:97%"><i>Coral reefs occurring seaward of the continental shelf break in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -381,11 +378,11 @@
                     </div>
 
                 <#elseif ecosys == 15>
-                    <b>Rariphotic shelf reefs</b>
-                    <br>
-                    <i>Rocky reef formations found on the continental shelf below the mesophotic zone where light is so scarce it is not enough to support photosynthesis. Nominally rariphotic shelf reefs occur between 70 m and 200 m (the nominal depth of the shelf break).</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem (note: videos may be from a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Rariphotic shelf reefs</div>
+                    <span style="font-size:97%"><i>Rocky reef formations found on the continental shelf below the mesophotic zone where light is so scarce it is not enough to support photosynthesis. Nominally rariphotic shelf reefs occur between 70 m and 200 m (the nominal depth of the shelf break).</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -415,19 +412,17 @@
                     </div>
 
                 <#elseif ecosys == 16>
-                    <b>Upper slope reefs</b>
-                    <br>
-                    <i>Reef habitats on the upper section of the continental slope between shelf break (nominally 200 m) and 700 m.</i>
+                    <div style="padding-bottom:8px; font-weight:bold;">Upper slope reefs</div>
+                    <span style="font-size:97%"><i>Reef habitats on the upper section of the continental slope between shelf break (nominally 200 m) and 700 m.</i></span>
                 <#elseif ecosys == 17>
-                    <b>Mid slope reefs</b>
-                    <br>
-                    <i>Reef habitats on the mid-continental slope between 700 m and 2000 m.</i>
+                    <div style="padding-bottom:8px; font-weight:bold;">Mid slope reefs</div>
+                    <span style="font-size:97%"><i>Reef habitats on the mid-continental slope between 700 m and 2000 m.</i></span>
                 <#elseif ecosys == 18>
-                    <b>Seamount reefs</b>
-                    <br>
-                    <i>Rocky and deep-sea cold-water coral formations occurring on seamounts.</i>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; margin-bottom: 3px; margin-top: 10px;">
-                        <div style="font-size: smaller; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts (note: videos may be from a seamount feature at a different location).</div>
+                    <div style="padding-bottom:8px; font-weight:bold;">Seamount reefs</div>
+                    <span style="font-size:97%"><i>Rocky and deep-sea cold-water coral formations occurring on seamounts.</i></span>
+                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
+
+                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts.<br>(Note: videos may be from a seamount feature at a different location).</div>
                         <div style="display: flex; flex-wrap: wrap;">
                             <!-- First YouTube video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
@@ -451,16 +446,16 @@
                     </div>
 
                 <#elseif ecosys == 20>
-                    <b>Bathypelagic & Abyssopelagic</b>
+                    <div style="padding-bottom:8px; font-weight:bold;">Bathypelagic & Abyssopelagic</div>
                 <#elseif ecosys == 21>
-                    <b>Mesopelagic</b>
+                    <div style="padding-bottom:8px; font-weight:bold;">Mesopelagic</div>
                 <#elseif ecosys == 22>
-                    <b>Off-shelf (oceanic) epipelagic</b>
+                    <div style="padding-bottom:8px; font-weight:bold;">Off-shelf (oceanic) epipelagic</div>
                 <#elseif ecosys == 23>
-                    <b>On-shelf (neritic) epipelagic</b>
+                    <div style="padding-bottom:8px; font-weight:bold;">On-shelf (neritic) epipelagic</div>
                 <#elseif ecosys == 27>
-                    <b>Islands (including cays and islets)</b>
-                    <i>Island = Relatively small body of land surrounded by water; Cay = a low bank or reef of coral or sand; Islet = a little island.</i>
+                    <div style="padding-bottom:8px; font-weight:bold;">Islands (including cays and islets)</div>
+                    <span style="font-size:97%"><i>Island = Relatively small body of land surrounded by water; Cay = a low bank or reef of coral or sand; Islet = a little island.</i></span>
                 </#if>
 
             </div>
