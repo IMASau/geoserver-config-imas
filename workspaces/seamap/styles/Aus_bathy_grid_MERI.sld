@@ -17,7 +17,8 @@
              <ColorMapEntry color="#b6ff8f" quantity="-200" opacity="1" label=" upper-slope (200-700 m)"/>             
              <ColorMapEntry color="#ffff0d" quantity="-70" opacity="1" label=" rariphotic (70-200 m)"/>                       
              <ColorMapEntry color="#ffcc00" quantity="-30" opacity="1" label=" mesophotic (30-70 m)" />
-             <ColorMapEntry color="#ff2600" quantity="-0" opacity="1" label=" shallow (&lt;30 m)"/>
+             <ColorMapEntry color="#ff2600" quantity="0" opacity="1" label=" shallow (&lt;30 m)"/>
+             <ColorMapEntry color="#ffffff" quantity="100" opacity="0" label=" NODATA"/>                            
            </ColorMap>
          </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                    
