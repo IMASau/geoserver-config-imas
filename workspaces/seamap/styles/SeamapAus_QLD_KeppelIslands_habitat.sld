@@ -6,49 +6,63 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Australian Tropical Reef Features</Name>
+    <Name>Keppel Islands habitat mapping</Name>
     <UserStyle>
-      <Name>Australian Tropical Reef Features</Name>
+      <Name>Keppel Islands habitat mapping</Name>
       <FeatureTypeStyle>       
         <Rule>
-          <Title>Coral Reef</Title>
+          <Title>Mangrove</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral Reef</ogc:Literal>
+              <ogc:Literal>Mangroves.</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d950cb</CssParameter>
+              <CssParameter name="fill">#155E1B</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Coral Reef Flat</Title>
+          <Title>Salt flat</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral Reef Flat</ogc:Literal>
+              <ogc:Literal>Salt flat</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f8dcf8</CssParameter>
+              <CssParameter name="fill">#F0E7D4</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Coral Reef Bank</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+          <Title>Rock</Title>
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Coral Reef Bank</ogc:Literal>
+              <ogc:Literal>Rock.</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#915eca</CssParameter>
+              <CssParameter name="fill">#8C807A</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Beach rock</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
+              <ogc:Literal>Beach rock</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFC86C</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
@@ -58,447 +72,83 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#6b32c0</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
+                      <CssParameter name="stroke">#795C30</CssParameter>
+                      <CssParameter name="stroke-width">1</CssParameter>
                     </Stroke>
                   </Mark>
-                  <Size>8</Size>
+                  <Size>7</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>          
-        </Rule>  
+        </Rule>          
         <Rule>
-          <Title>High Intertidal Coral Reef</Title>
+          <Title>Gravel</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>High Intertidal Coral Reef</ogc:Literal>
+              <ogc:Literal>Gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ecb4e3</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#c428af</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>            
-        </Rule>
-        <Rule>
-          <Title>High Intertidal Sediment Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>High Intertidal Sediment Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#c3b047</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#00741d</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>            
-        </Rule>
-        <Rule>
-          <Title>Intertidal Sediment</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Intertidal Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#eedf89</CssParameter>
+              <CssParameter name="fill">#c8b87a</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Low Relief Rocky Reef</Title>
+          <Title>Coral</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Low Relief Rocky Reef</ogc:Literal>
+              <ogc:Literal>Coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d4b3ab</CssParameter>
+              <CssParameter name="fill">#BE369E</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Paleo Coast Rocky Reef</Title>
+          <Title>Sparse coral</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Paleo Coast Rocky Reef</ogc:Literal>
+              <ogc:Literal>Sparse coral</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#6d3e38</CssParameter>
+              <CssParameter name="fill">#EB76CE</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>Rocky Reef</Title>
+          <Title>Macroalgae on rubble</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Rocky Reef.</ogc:Literal>
+              <ogc:Literal>Unknown not rock (Macroalgae on rubble)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9d6347</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Non-reef bank</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Non-reef bank</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#b7b070</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Man Made Structure</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Man Made Structure</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ed1548</CssParameter>
+              <CssParameter name="fill">#718248</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>        
         <Rule>
-          <Title>Oceanic Flow Coral Reef</Title>
+          <Title>Marine feature (Rock)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Flow Coral Reef</ogc:Literal>
+              <ogc:Literal>Marine feature (Rock)</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bd86c9</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#0000ff</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>           
-        </Rule>
-        <Rule>
-          <Title>Oceanic Lagoon Coral Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Lagoon Coral Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#9e5099</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Oceanic Lagoon Patch Coral Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Lagoon Patch Coral Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ae47da</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>  
-        <Rule>
-          <Title>Oceanic Platform</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Platform</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#c1d2db</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>        
-        <Rule>
-          <Title>Oceanic Platform Coral Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Platform Coral Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#c189e1</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Oceanic Rim Coral Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Oceanic Rim Coral Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#c189e1</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://horline</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#f28bf9</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>           
-        </Rule>
-        <Rule>
-          <Title>Sand Bank</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sand Bank</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#f2e67a</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Limestone Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Limestone Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#a18ec1</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Sandy Limestone Pavement</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Sandy Limestone Pavement</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#c9bcd9</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Seagrass on Coral Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Seagrass on Coral Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#eebde4</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://backslash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#00b22d</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>            
-        </Rule>
-        <Rule>
-          <Title>Seagrass on Sediment</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Seagrass on Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#e6d563</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://backslash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#00b22d</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>            
-        </Rule>
-        <Rule>
-          <Title>Shallow Sediment</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Shallow Sediment</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fcf7b7</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Stromatolite Reef</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Stromatolite Reef</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#5a2c32</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Unvegetated Cay</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Unvegetated Cay (Land)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffe819</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#ffffff</CssParameter>
-                      <CssParameter name="stroke-width">0.7</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>            
-        </Rule>
-        <Rule>
-          <Title>Vegetated Cay</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
-              <ogc:Literal>Vegetated Cay (Land)</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#20c31b</CssParameter>
+              <CssParameter name="fill">#643C4F</CssParameter>
             </Fill>
           </PolygonSymbolizer>          
         </Rule>
