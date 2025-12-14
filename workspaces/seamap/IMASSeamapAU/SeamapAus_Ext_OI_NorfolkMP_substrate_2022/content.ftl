@@ -1,8 +1,7 @@
 <#list features as feature>
     <#if (feature_index < 1) >
         <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-            <h5>Coastal substrate of Norfolk Marine Park</h5>
-            <BR>
+            <h5 style="padding-bottom:8px;">Coastal substrate of Norfolk Marine Park</h5>
             <div class="habitat"> 
                 <b>Substrate:</b> ${feature.SM_HAB_CLS.value?substring(9)}<BR>
 	    </div>
