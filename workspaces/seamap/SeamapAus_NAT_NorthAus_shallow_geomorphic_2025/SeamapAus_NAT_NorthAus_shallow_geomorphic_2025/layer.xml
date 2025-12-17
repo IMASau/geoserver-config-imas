@@ -1,0 +1,16 @@
+<layer>
+  <name>SeamapAus_NAT_NorthAus_shallow_geomorphic_2025</name>
+  <id>LayerInfoImpl-1b5d2dc8:19b2e4229ee:-76ef</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b5d2dc8:19b2cb71a13:7c84</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1b5d2dc8:19b2e4229ee:-76f0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-17 22:42:50.779 UTC</dateCreated>
+</layer>

@@ -1,0 +1,123 @@
+<coverage>
+  <id>CoverageInfoImpl-1b5d2dc8:19b2e4229ee:-76f0</id>
+  <name>SeamapAus_NAT_NorthAus_shallow_geomorphic_2025</name>
+  <nativeName>SeamapAus_NAT_NorthAus_shallow_geomorphic_2025</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Seamap Australia - National - Shallow geomorphic habitat of Northern &amp; Western Aus (NESP MaC 3.17, UQ)</title>
+  <description>Generated from GeoTIFF</description>
+  <abstract>This layer shows the geomorphic habitat for shallow areas across Northern and Western Australia, estimated from Sentinel 2 composite imagery from 2018 – 2023.</abstract>
+  <keywords>
+    <string>NW_NESP-MaC-3-17_UQ_Shallow-habitat_Geomorphic_2025</string>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>112.44383091228033</minx>
+    <maxx>142.22720466267782</maxx>
+    <miny>-29.066158827556475</miny>
+    <maxy>-9.234860783805505</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>112.44383091228033</minx>
+    <maxx>142.22720466267782</maxx>
+    <miny>-29.066158827556475</miny>
+    <maxy>-9.234860783805505</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">SeamapAus_NAT_NorthAus_shallow_geomorphic_2025_NW_NESP-MaC-3-17_UQ_Shallow-habitat_Geomorphic_2025</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-1b5d2dc8:19b2e4229ee:-76f6</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>331547 220761</high>
+    </range>
+    <transform>
+      <scaleX>8.983152841195215E-5</scaleX>
+      <scaleY>-8.983152841195215E-5</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>112.44387582804454</translateX>
+      <translateY>-9.234905699569712</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GEOTIFF</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>0.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:4326</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:4326</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>NW_NESP-MaC-3-17_UQ_Shallow-habitat_Geomorphic_2025</nativeCoverageName>
+</coverage>
