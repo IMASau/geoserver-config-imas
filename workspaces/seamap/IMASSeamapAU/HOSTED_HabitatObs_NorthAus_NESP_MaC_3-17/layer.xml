@@ -1,0 +1,17 @@
+<layer>
+  <name>HOSTED_HabitatObs_NorthAus_NESP_MaC_3-17</name>
+  <id>LayerInfoImpl-1b5d2dc8:19b2e4229ee:-51b8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1b5d2dc8:19b2e4229ee:-51b9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-18 00:10:22.681 UTC</dateCreated>
+  <dateModified>2025-12-18 00:28:04.675 UTC</dateModified>
+</layer>
