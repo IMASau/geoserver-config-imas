@@ -3,7 +3,7 @@
 
 <#if (habclass != 0)>	  
   <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-    <h5 style="padding-bottom:8px;">Shallow geomorphic mapping W & N Aus</h5>
+    <h5 style="padding-bottom:8px;">Shallow geomorphic map of N Aus</h5>
     <div class="habitat"> 
       <b>Geomorphic class:</b> 
       <#if (habclass == 2)>	

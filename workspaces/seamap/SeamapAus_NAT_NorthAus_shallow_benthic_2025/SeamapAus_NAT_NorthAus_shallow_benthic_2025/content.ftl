@@ -3,7 +3,7 @@
 
 <#if (habclass != 0)>	  
   <div class="feature" style="padding-top: 5px; padding-bottom: 5px;">
-    <h5 style="padding-bottom:8px;">Shallow benthic mapping W & N Aus</h5>
+    <h5 style="padding-bottom:8px;">Shallow benthic map of N Aus</h5>
     <div class="habitat"> 
       <b>Benthic class:</b> 
       <#if (habclass == 11)>	
