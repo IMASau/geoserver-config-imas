@@ -26,7 +26,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#e6e65f</CssParameter>
+                  <CssParameter name="stroke">#c4c451</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -35,6 +35,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Rubble</Title>		                
           <ogc:Filter>
@@ -52,7 +53,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#b89252</CssParameter>
+                  <CssParameter name="stroke">#9c7c46</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -61,6 +62,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Rock</Title>		                        
           <ogc:Filter>
@@ -78,7 +80,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#8f5f00</CssParameter>
+                  <CssParameter name="stroke">#7a5100</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -87,6 +89,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Seagrass</Title>		                        
           <ogc:Filter>
@@ -104,7 +107,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5f9e5f</CssParameter>
+                  <CssParameter name="stroke">#518651</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -113,6 +116,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Coral/Algae</Title>		                        
           <ogc:Filter>
@@ -130,7 +134,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#008fc4</CssParameter>
+                  <CssParameter name="stroke">#007aa7</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -139,6 +143,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Microalgal Mats</Title>		                        
           <ogc:Filter>
@@ -156,7 +161,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#a886bf</CssParameter>
+                  <CssParameter name="stroke">#8f72a2</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -165,6 +170,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Light Seagrass</Title>		                        
           <ogc:Filter>
@@ -182,7 +188,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#bfd1b9</CssParameter>
+                  <CssParameter name="stroke">#a2b29d</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -216,7 +222,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#012c44</CssParameter>
+                  <CssParameter name="stroke">#01253a</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -225,6 +231,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Sediment Slope</Title>		                
           <ogc:Filter>
@@ -242,7 +249,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#e2cfb3</CssParameter>
+                  <CssParameter name="stroke">#c0b098</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -251,6 +258,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Shallow Lagoon</Title>		                        
           <ogc:Filter>
@@ -268,7 +276,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#3ccae6</CssParameter>
+                  <CssParameter name="stroke">#33acc4</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -277,6 +285,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Deep Lagoon</Title>		                        
           <ogc:Filter>
@@ -294,7 +303,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2b78a1</CssParameter>
+                  <CssParameter name="stroke">#256689</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -303,6 +312,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Inner Reef Flat</Title>		                        
           <ogc:Filter>
@@ -320,7 +330,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#e6e6a8</CssParameter>
+                  <CssParameter name="stroke">#c4c48f</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -329,6 +339,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Outer Reef Flat</Title>		                        
           <ogc:Filter>
@@ -346,7 +357,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#e6b566</CssParameter>
+                  <CssParameter name="stroke">#c49a57</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -355,6 +366,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Reef Crest</Title>		                        
           <ogc:Filter>
@@ -372,7 +384,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7f0b10</CssParameter>
+                  <CssParameter name="stroke">#6c090e</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -381,6 +393,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>  
+
         <Rule>
           <Title>Terrestrial Reef Flat</Title>		        
           <ogc:Filter>
@@ -398,7 +411,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#94c878</CssParameter>
+                  <CssParameter name="stroke">#7eaa66</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -407,6 +420,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Sheltered Reef Slope</Title>		                
           <ogc:Filter>
@@ -424,7 +438,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#bfd48c</CssParameter>
+                  <CssParameter name="stroke">#a2b477</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -433,6 +447,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Reef Slope</Title>		                        
           <ogc:Filter>
@@ -450,7 +465,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#bcbc14</CssParameter>
+                  <CssParameter name="stroke">#a0a011</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -459,6 +474,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Plateau</Title>		                        
           <ogc:Filter>
@@ -476,7 +492,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#9e9e9e</CssParameter>
+                  <CssParameter name="stroke">#868686</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -485,6 +501,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Back Reef Slope</Title>		                        
           <ogc:Filter>
@@ -502,7 +519,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#02666e</CssParameter>
+                  <CssParameter name="stroke">#02575e</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -511,6 +528,7 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Small Reef</Title>		                        
           <ogc:Filter>
@@ -528,7 +546,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#c2d6eb</CssParameter>
+                  <CssParameter name="stroke">#a5b6c8</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
@@ -537,12 +555,13 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
+
         <Rule>
           <Title>Rocky Reef</Title>		                        
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>class_label</ogc:PropertyName>
-              <ogc:Literal>Light Seagrass</ogc:Literal>
+              <ogc:Literal>Rocky Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	
           <PointSymbolizer>
@@ -554,7 +573,7 @@
                   <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#b3b4cc</CssParameter>
+                  <CssParameter name="stroke">#9899ad</CssParameter>
                   <CssParameter name="stroke-width">0.65</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>				
