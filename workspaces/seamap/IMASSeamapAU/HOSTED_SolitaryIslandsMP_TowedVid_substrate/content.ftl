@@ -1,6 +1,7 @@
+
 <#list features as feature>
     <#if (feature_index < 1)>
-        <div class="towvid" style="padding-top: 5px; padding-bottom: 5px; width:255px;">
+        <div class="towvid" style="padding-top: 5px; padding-bottom: 5px; width:200px;">
             <div style="justify-content: space-between;">
                 <h5 style="font-size: 120%; padding-bottom: 5px; 
                     <#if feature.PrimarySub.value == "Sand">
@@ -23,15 +24,7 @@
             <br>
             <div style="white-space: normal; word-wrap: break-word;">
                 <i style="color: #9a9a9a; font-size: 95%;">
-                    Video tow conducted at
-                    <#-- Combine ImageDate and ImageTime -->
-                    <#assign rawDateTime = feature.ImageDate.value + " " + feature.ImageTime.value>
-                    <#-- Parse raw date with the provided format -->
-                    <#assign parsedDateTime = rawDateTime?datetime("dd/MM/yy, hh:mm a ss:SS")>
-                    <#-- Add 11 hours for AEDT -->
-                    <#assign adjustedDateTime = parsedDateTime?long + (11 * 60 * 60 * 1000)>
-                    ${adjustedDateTime?number_to_datetime?string("HH:mm:ss")} on 
-                    ${adjustedDateTime?number_to_datetime?string("dd MMM yyyy")}
+                    Video tow conducted on ${feature.ImageDate.value?date("d MMMM yyyy, hh:mm:ss a")}
                 </i>
                 <br>
             </div>
