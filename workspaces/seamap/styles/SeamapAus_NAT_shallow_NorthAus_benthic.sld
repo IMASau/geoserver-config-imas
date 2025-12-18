@@ -14,8 +14,8 @@
               <ColorMapEntry color="#a87000" quantity="13" label="  Rock"/>
               <ColorMapEntry color="#73b273" quantity="14" label="  Seagrass"/>
               <ColorMapEntry color="#00a9e6" quantity="15" label="  Coral/Algae"/>
-              <ColorMapEntry color="#c29ed7" quantity="18" label="  Microalgal mats"/>
-              <ColorMapEntry color="#d9ead3" quantity="19" label="  Light seagrass"/>
+              <ColorMapEntry color="#c29ed7" quantity="18" label="  Microalgal Mats"/>
+              <ColorMapEntry color="#d9ead3" quantity="19" label="  Light Seagrass"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>

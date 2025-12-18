@@ -9,7 +9,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#023858" quantity="2"  label="  Deep"/>
+              <ColorMapEntry color="#023858" quantity="2"  label="  Deep Water"/>
               <ColorMapEntry color="#fee8c8" quantity="10" label="  Sediment Slope"/>
               <ColorMapEntry color="#5ce0ff" quantity="11" label="  Shallow Lagoon"/>
               <ColorMapEntry color="#3690c0" quantity="12" label="  Deep Lagoon"/>

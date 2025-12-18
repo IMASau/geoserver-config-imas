@@ -17,9 +17,9 @@
       <#elseif (habclass == 15)>	
         Coral/Algae
       <#elseif (habclass == 18)>	
-        Microalgal mats
+        Microalgal Mats
       <#elseif (habclass == 19)>	
-        Light seagrass      
+        Light Seagrass      
       </#if>	      
     </div>
   </div>
