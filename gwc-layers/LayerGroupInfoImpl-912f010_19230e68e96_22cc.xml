@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl-5e9bd345:18ed09f5c55:-73d0</id>
+  <id>LayerGroupInfoImpl-912f010:19230e68e96:22cc</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>bathy_composites:AusEEZ_bathy_composite_multires_shallow</name>
+  <name>bathy_composites:AusEEZ_bathy_hillshade_composite_multires</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
@@ -12,14 +12,6 @@
     </gridSubset>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <extent>
-        <coords>
-          <double>-1.975632383561959E7</double>
-          <double>-9254825.745825225</double>
-          <double>1.9894012487257533E7</double>
-          <double>-233981.98053799328</double>
-        </coords>
-      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

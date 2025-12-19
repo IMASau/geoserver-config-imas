@@ -8,8 +8,10 @@
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
+      <gridSetName>EPSG:4326</gridSetName>
+    </gridSubset>
+    <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <maxCachedLevel>16</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

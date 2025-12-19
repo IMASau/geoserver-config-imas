@@ -60,12 +60,6 @@ See the full data product description at https://metadata.imas.utas.edu.au/geone
   <srs>
     <string>4326</string>
     <string>3857</string>
-    <string>3112</string>
-    <string>4283</string>
-    <string>4938</string>
-    <string>7844</string>
-    <string>9473</string>
-    <string>3577</string>
   </srs>
   <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>
