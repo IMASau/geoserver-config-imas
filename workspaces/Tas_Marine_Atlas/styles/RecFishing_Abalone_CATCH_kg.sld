@@ -11,7 +11,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->        
+          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million --> 
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Species</ogc:PropertyName>
+              <ogc:Literal>Abalone aggregated</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                          
+          </ogc:Filter>          
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -51,6 +57,51 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule> 
+        <Rule>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
+          <ogc:Filter>
+            <ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyName>Species</ogc:PropertyName>
+              <ogc:Literal>Abalone aggregated</ogc:Literal>
+            </ogc:PropertyIsNotEqualTo>                          
+          </ogc:Filter>             
+          <TextSymbolizer>
+            <Geometry>
+              <ogc:Function name="centroid">
+                <ogc:Function name="envelope">
+                  <ogc:PropertyName>geom</ogc:PropertyName>
+                </ogc:Function>
+              </ogc:Function>
+            </Geometry> 
+            <Label>
+              <ogc:Literal>N/A for this species</ogc:Literal>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">sans-serif</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.5</AnchorPointY>
+                </AnchorPoint>
+              </PointPlacement>
+            </LabelPlacement>              
+            <Halo>
+              <Radius>2</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.5</CssParameter>
+              </Fill>
+            </Halo>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+            <VendorOption name="group">true</VendorOption>            
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>         
 
       <!-- Rule for pseudo-title -->
       <Rule>
@@ -60,15 +111,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Rule>
         <Title>No catch recorded</Title>
           <ogc:Filter>
-            <ogc:Or>          
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-              </ogc:PropertyIsNull>
+            <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>            
-            </ogc:Or>            
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>              
+              <ogc:Or>          
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
+                  <ogc:Literal>0</ogc:Literal>
+                </ogc:PropertyIsEqualTo>            
+              </ogc:Or>    
+            </ogc:And>              
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -104,6 +161,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>1000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -128,6 +189,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>1800</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -152,6 +217,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>2800</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -176,6 +245,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>6100</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -191,10 +264,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>&gt;6,100</Title>
           <ogc:Filter>
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-              <ogc:Literal>6100</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
+            <ogc:And>          
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
+                <ogc:Literal>6100</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>     
+            </ogc:And>                        
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -206,6 +285,43 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+          <Title>Metric not available for this spcies</Title>
+          <ogc:Filter>        
+            <ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyName>Species</ogc:PropertyName>
+              <ogc:Literal>Abalone aggregated</ogc:Literal>
+            </ogc:PropertyIsNotEqualTo>                            
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff3300</CssParameter>
+              <CssParameter name="fill-opacity">0.25</CssParameter>              
+            </Fill>
+          </PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#ffffff</CssParameter>
+                      <CssParameter name="stroke-opacity">0.4</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill> 
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>          
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

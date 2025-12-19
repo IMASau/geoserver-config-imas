@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--73a77e4b:19b34ae9dfe:-4c9a</id>
-  <name>RecFishing_Abalone_CATCH_kg</name>
+  <id>FeatureTypeInfoImpl-1b5d2dc8:19b33e8d991:-384a</id>
+  <name>RecFishing_Abalone</name>
   <nativeName>VW_RecFishing_Abalone</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
-  <title>Recreational Fishing by reporting block: Abalone - catch (kg)</title>
+  <title>Recreational Fishing by reporting block: Abalone</title>
   <keywords>
     <string>features</string>
     <string>VW_RecFishing_Abalone</string>
@@ -46,7 +46,6 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>Species = &apos;Abalone aggregated&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
