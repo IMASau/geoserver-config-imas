@@ -106,56 +106,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Rule>
         <Title>Catch (estimated weght kg)</Title>
       </Rule>
-        
-      <Rule>
-        <Title>No catch recorded</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>              
-              <ogc:Or>          
-                <ogc:PropertyIsNull>
-                  <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                </ogc:PropertyIsNull>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                  <ogc:Literal>0</ogc:Literal>
-                </ogc:PropertyIsEqualTo>            
-              </ogc:Or>    
-            </ogc:And>              
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>         
+               
         <Rule>
-          <Title>&gt;0 - 1,000</Title>
+          <Title>  0 - 1,000</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>1000</ogc:Literal>
@@ -284,6 +243,42 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+        <Title>Not recorded</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                      
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
+              </ogc:PropertyIsNull>   
+            </ogc:And>              
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#666666</CssParameter>
+                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>          
+        
         <Rule>
           <Title>Metric not available for this spcies</Title>
           <ogc:Filter>        

@@ -108,22 +108,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
         
       <Rule>
-        <Title>No effort recorded</Title>
+        <Title>Not recorded</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Species</ogc:PropertyName>
                 <ogc:Literal>Abalone aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>           
-              <ogc:Or>          
-                <ogc:PropertyIsNull>
-                  <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                </ogc:PropertyIsNull>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                  <ogc:Literal>0</ogc:Literal>
-                </ogc:PropertyIsEqualTo>            
-              </ogc:Or> 
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+              </ogc:PropertyIsNull>          
             </ogc:And>               
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -149,13 +143,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>&gt;0 - 350</Title>
+          <Title>  0 - 350</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
                 <ogc:Literal>350</ogc:Literal>

@@ -58,17 +58,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
         
       <Rule>
-        <Title>No catch recorded</Title>
+        <Title>Not recorded</Title>
           <ogc:Filter>
-            <ogc:Or>          
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-              </ogc:PropertyIsNull>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>             
-            </ogc:Or>            
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>Catch__number</ogc:PropertyName>
+            </ogc:PropertyIsNull>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -93,13 +87,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>         
         <Rule>
-          <Title>&gt;0 - 800</Title>
+          <Title>  0 - 800</Title>
           <ogc:Filter>
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>Catch__number</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch__number</ogc:PropertyName>
                 <ogc:Literal>800</ogc:Literal>
