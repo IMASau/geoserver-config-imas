@@ -12,6 +12,7 @@
     <FeatureTypeStyle>
       <VendorOption name="inclusion">mapOnly</VendorOption>                                                       
       <Rule>
+        <MaxScaleDenominator>500000</MaxScaleDenominator>          
         <RasterSymbolizer>
           <Opacity>1.0</Opacity>
         </RasterSymbolizer>
