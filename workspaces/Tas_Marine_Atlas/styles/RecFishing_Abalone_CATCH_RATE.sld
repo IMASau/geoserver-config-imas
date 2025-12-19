@@ -7,7 +7,7 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Catch (number of individuals)</Name>
+    <Name>Catch rate (number of individuals per fisher days)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
@@ -54,61 +54,26 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
       <!-- Rule for pseudo-title -->
       <Rule>
-        <Title>Catch (number of individuals)</Title>
+        <Title>Catch Rate\n(no. individuals / fisher days)</Title>
       </Rule>
-        
-      <Rule>
-        <Title>No catch recorded</Title>
+                
+        <Rule>
+          <Title>  0 - 3.4</Title>
           <ogc:Filter>
-            <ogc:Or>          
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-              </ogc:PropertyIsNull>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>             
-            </ogc:Or>            
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>         
-        <Rule>
-          <Title>&gt;0 - 800</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>800</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>3.4</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#edf8e9</CssParameter>
+              <CssParameter name="fill">#feebe2</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -117,22 +82,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;800 - 2,300</Title>
+          <Title>&gt;3.4 - 4.7</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>800</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>3.4</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>2300</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>4.7</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bae4b3</CssParameter>
+              <CssParameter name="fill">#fbb4b9</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -141,22 +106,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;2,300 - 4,500</Title>
+          <Title>&gt;4.7 - 5.2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>2300</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>4.7</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>4500</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>5.2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#74c476</CssParameter>
+              <CssParameter name="fill">#f768a1</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -165,22 +130,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;4,500 - 9,000</Title>
+          <Title>&gt;5.2 - 6.0</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>4500</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>5.2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
-                <ogc:Literal>9000</ogc:Literal>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+                <ogc:Literal>6.0</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#31a354</CssParameter>
+              <CssParameter name="fill">#c51b8a</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -189,16 +154,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;9,000</Title>
+          <Title>&gt;6.0</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Catch__number</ogc:PropertyName>
-              <ogc:Literal>9000</ogc:Literal>
+              <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+              <ogc:Literal>6.0</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#006d2c</CssParameter>
+              <CssParameter name="fill">#7a0177</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>

@@ -121,11 +121,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>1000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>1800</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -145,11 +145,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>1800</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>2800</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -169,11 +169,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>2800</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch</ogc:PropertyName>
+                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
                 <ogc:Literal>6100</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -192,7 +192,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>&gt;6,100</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Catch</ogc:PropertyName>
+              <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
               <ogc:Literal>6100</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
