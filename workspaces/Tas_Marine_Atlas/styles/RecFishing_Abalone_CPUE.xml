@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-3852</id>
-  <name>RecFishing_Abalone_CATCH_RATE</name>
+  <name>RecFishing_Abalone_CPUE</name>
   <workspace>
     <id>WorkspaceInfoImpl--492f85e9:17f900e0339:504d</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>RecFishing_Abalone_CATCH_RATE.sld</filename>
+  <filename>RecFishing_Abalone_CPUE.sld</filename>
   <dateCreated>2025-12-19 01:16:27.856 UTC</dateCreated>
-  <dateModified>2025-12-19 01:18:12.279 UTC</dateModified>
+  <dateModified>2025-12-19 04:06:33.981 UTC</dateModified>
 </style>

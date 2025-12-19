@@ -1,22 +1,13 @@
 <layer>
-  <name>RecFishing_Abalone</name>
+  <name>RecFishing_Abalone_CATCH_number</name>
   <id>LayerInfoImpl-1b5d2dc8:19b33e8d991:-3849</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-7cac</id>
+    <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-5082</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
       <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-7cac</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-3852</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-3892</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-3ca3</id>
     </style>
     <style>
       <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-5082</id>
@@ -30,5 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-12-19 01:21:56.395 UTC</dateCreated>
-  <dateModified>2025-12-19 02:03:37.38 UTC</dateModified>
+  <dateModified>2025-12-19 04:07:17.904 UTC</dateModified>
 </layer>

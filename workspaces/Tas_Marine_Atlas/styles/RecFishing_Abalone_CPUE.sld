@@ -54,7 +54,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
       <!-- Rule for pseudo-title -->
       <Rule>
-        <Title>Catch Rate\n(no. individuals / fisher days)</Title>
+        <Title>Catch Rate\n(number / fisher days)</Title>
       </Rule>
                 
         <Rule>

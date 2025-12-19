@@ -1,0 +1,25 @@
+<layer>
+  <name>RecFishing_Abalone_CATCH_kg</name>
+  <id>LayerInfoImpl--73a77e4b:19b34ae9dfe:-4c99</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-3ca3</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-7cac</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-3ca3</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--73a77e4b:19b34ae9dfe:-4c9a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-19 04:07:48.736 UTC</dateCreated>
+  <dateModified>2025-12-19 04:11:19.338 UTC</dateModified>
+</layer>
