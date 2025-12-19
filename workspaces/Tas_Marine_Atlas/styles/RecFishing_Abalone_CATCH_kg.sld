@@ -11,7 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>3000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 3 million -->        
+          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->        
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
-              <CssParameter name="font-size">12.5</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
