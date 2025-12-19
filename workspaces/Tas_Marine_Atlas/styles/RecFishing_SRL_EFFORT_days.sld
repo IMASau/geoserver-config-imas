@@ -7,17 +7,17 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>Catch (estimated weight kg)</Name>
+    <Name>Effort (fisher days)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million --> 
+          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->      
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
+              <ogc:PropertyName>Method</ogc:PropertyName>
+              <ogc:Literal>Aggregated</ogc:Literal>
             </ogc:PropertyIsEqualTo>                          
-          </ogc:Filter>          
+          </ogc:Filter>           
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -61,8 +61,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
+              <ogc:PropertyName>Method</ogc:PropertyName>
+              <ogc:Literal>Aggregated</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>                          
           </ogc:Filter>             
           <TextSymbolizer>
@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:Function>
             </Geometry> 
             <Label>
-              <ogc:Literal>N/A for this species</ogc:Literal>
+              <ogc:Literal>N/A for this method</ogc:Literal>
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
@@ -100,34 +100,34 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <VendorOption name="partials">true</VendorOption>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
-        </Rule>         
+        </Rule>           
 
       <!-- Rule for pseudo-title -->
       <Rule>
-        <Title>Catch (estimated weight kg)</Title>
+        <Title>Effort (fisher days)</Title>
       </Rule>
-               
+                
         <Rule>
-          <Title>  0 - 1,000</Title>
+          <Title>  0 - 2,500</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1000</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>2500</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f2f0f7</CssParameter>
+              <CssParameter name="fill">#ffffd4</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -136,26 +136,26 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;1,000 - 1,800</Title>
+          <Title>&gt;2,500 - 4,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1000</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>2500</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1800</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>4000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#cbc9e2</CssParameter>
+              <CssParameter name="fill">#fed98e</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -164,26 +164,26 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;1,800 - 2,800</Title>
+          <Title>&gt;4,000 - 7,500</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1800</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>4000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>2800</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>7500</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9e9ac8</CssParameter>
+              <CssParameter name="fill">#fe9929</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -192,26 +192,26 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;2,800 - 6,100</Title>
+          <Title>&gt;7,500 - 18,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>2800</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>7500</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>6100</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>18000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#756bb1</CssParameter>
+              <CssParameter name="fill">#d95f0e</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -220,22 +220,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;6,100</Title>
+          <Title>&gt;18,000</Title>
           <ogc:Filter>
             <ogc:And>          
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>6100</ogc:Literal>
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:Literal>18000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>     
-            </ogc:And>                        
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>  
+            </ogc:And>              
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#54278f</CssParameter>
+              <CssParameter name="fill">#993404</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
@@ -244,17 +244,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-        <Title>Not recorded</Title>
+          <Title>Not recorded</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                      
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>           
               <ogc:PropertyIsNull>
-                <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-              </ogc:PropertyIsNull>   
-            </ogc:And>              
+                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+              </ogc:PropertyIsNull>          
+            </ogc:And>               
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -277,14 +277,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>            
           </PolygonSymbolizer>
-        </Rule>          
+        </Rule>         
         
         <Rule>
-          <Title>Metric not available for this spcies</Title>
+          <Title>Metric not available for this method</Title>
           <ogc:Filter>        
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
+              <ogc:PropertyName>Method</ogc:PropertyName>
+              <ogc:Literal>Aggregated</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>                            
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -315,7 +315,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>            
           </PolygonSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>          
-        </Rule>        
+        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

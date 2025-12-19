@@ -14,8 +14,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million --> 
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
+              <ogc:PropertyName>Method</ogc:PropertyName>
+              <ogc:Literal>Aggregated</ogc:Literal>
             </ogc:PropertyIsEqualTo>                          
           </ogc:Filter>          
           <TextSymbolizer>
@@ -61,8 +61,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
+              <ogc:PropertyName>Method</ogc:PropertyName>
+              <ogc:Literal>Aggregated</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>                          
           </ogc:Filter>             
           <TextSymbolizer>
@@ -74,7 +74,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:Function>
             </Geometry> 
             <Label>
-              <ogc:Literal>N/A for this species</ogc:Literal>
+              <ogc:Literal>N/A for this method</ogc:Literal>
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
@@ -108,7 +108,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
                
         <Rule>
-          <Title>  0 - 1,000</Title>
+          <Title>  0 - 4,500</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -117,11 +117,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1000</ogc:Literal>
+                <ogc:Literal>4500</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
@@ -136,20 +136,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;1,000 - 1,800</Title>
+          <Title>&gt;4,500 - 7,500</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1000</ogc:Literal>
+                <ogc:Literal>4500</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1800</ogc:Literal>
+                <ogc:Literal>7500</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
@@ -164,20 +164,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;1,800 - 2,800</Title>
+          <Title>&gt;7,500 - 11,500</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>1800</ogc:Literal>
+                <ogc:Literal>7500</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>2800</ogc:Literal>
+                <ogc:Literal>11500</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
@@ -192,20 +192,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;2,800 - 6,100</Title>
+          <Title>&gt;11,500 - 18,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>2800</ogc:Literal>
+                <ogc:Literal>11500</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>6100</ogc:Literal>
+                <ogc:Literal>18000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter>
@@ -220,16 +220,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;6,100</Title>
+          <Title>&gt;18,000</Title>
           <ogc:Filter>
             <ogc:And>          
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
-                <ogc:Literal>6100</ogc:Literal>
+                <ogc:Literal>18000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>     
             </ogc:And>                        
           </ogc:Filter>
@@ -248,8 +248,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
+                <ogc:PropertyName>Method</ogc:PropertyName>
+                <ogc:Literal>Aggregated</ogc:Literal>
               </ogc:PropertyIsEqualTo>                      
               <ogc:PropertyIsNull>
                 <ogc:PropertyName>Catch__estimated_weight_kg</ogc:PropertyName>
@@ -283,8 +283,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Metric not available for this spcies</Title>
           <ogc:Filter>        
             <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
+              <ogc:PropertyName>Method</ogc:PropertyName>
+              <ogc:Literal>Aggregated</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>                            
           </ogc:Filter>
           <PolygonSymbolizer>
