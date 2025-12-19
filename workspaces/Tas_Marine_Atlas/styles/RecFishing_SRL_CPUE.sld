@@ -108,7 +108,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>
                  
         <Rule>
-          <Title>  0 - 0.8</Title>
+          <Title>  0 - 0.9</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -117,7 +117,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch_rate</ogc:PropertyName>
-                <ogc:Literal>0.8</ogc:Literal>
+                <ogc:Literal>0.9</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Method</ogc:PropertyName>
@@ -136,16 +136,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;0.8 - 1.0</Title>
+          <Title>&gt;0.9 - 1.1</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch_rate</ogc:PropertyName>
-                <ogc:Literal>0.8</ogc:Literal>
+                <ogc:Literal>0.9</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch_rate</ogc:PropertyName>
-                <ogc:Literal>1.0</ogc:Literal>
+                <ogc:Literal>1.1</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Method</ogc:PropertyName>
@@ -164,12 +164,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;1.0 - 1.3</Title>
+          <Title>&gt;1.1 - 1.3</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Catch_rate</ogc:PropertyName>
-                <ogc:Literal>1.0</ogc:Literal>
+                <ogc:Literal>1.1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Catch_rate</ogc:PropertyName>

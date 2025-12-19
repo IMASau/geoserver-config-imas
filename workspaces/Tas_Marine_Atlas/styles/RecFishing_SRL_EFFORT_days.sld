@@ -108,7 +108,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
                 
         <Rule>
-          <Title>  0 - 2,500</Title>
+          <Title>  0 - 2,400</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -117,7 +117,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>2500</ogc:Literal>
+                <ogc:Literal>2400</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Method</ogc:PropertyName>
@@ -136,16 +136,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;2,500 - 4,000</Title>
+          <Title>&gt;2,400 - 3,800</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>2500</ogc:Literal>
+                <ogc:Literal>2400</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>4000</ogc:Literal>
+                <ogc:Literal>3800</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>Method</ogc:PropertyName>
@@ -164,12 +164,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;4,000 - 7,500</Title>
+          <Title>&gt;3,800 - 7,500</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>4000</ogc:Literal>
+                <ogc:Literal>3800</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
