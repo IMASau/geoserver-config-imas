@@ -14,37 +14,43 @@
             Catch (number): 
             <b>${feature.Catch__number.value?number}</b> individuals
             <#if feature.CI_catch_lower.value?has_content>              
-              <span style = "font-size:95%;"><i>(CI: ${feature.CI_catch_lower.value?number} - ${feature.CI_catch_upper.value?number})</i></span>
+              <span style = "font-size:95%; font-style:italic; color:#8c8c8c;">(CI: ${feature.CI_catch_lower.value?number} - ${feature.CI_catch_upper.value?number})</span>
             </#if>                
           </li>
         </#if>
 
         <!-- Catch (kg) -->
-        <#if feature.Catch__estimated_weight_kg.value?has_content>
-          <li style="margin-bottom:4px;">
-            Catch (weight): 
+        <li style="margin-bottom:4px;">
+          Catch (weight): 
+          <#if feature.Catch__estimated_weight_kg.value?has_content>
             <b>${feature.Catch__estimated_weight_kg.value?number}</b> kg
-          </li>
-        </#if>
+          <#else>
+            <span style = "font-size:95%; font-style:italic; color:#8c8c8c;">Data not reported for this fishing method.</span>
+          </#if>
+        </li> 
 
         <!-- Effort (fishing days) -->
-        <#if feature.Effort__fisher_days.value?has_content>
-          <li style="margin-bottom:4px;">
-            Effort:
+        <li style="margin-bottom:4px;">
+          Effort:
+          <#if feature.Effort__fisher_days.value?has_content>
             <b>${feature.Effort__fisher_days.value?number}</b> fishing days
             <#if feature.CI_effort_lower.value?has_content>              
-              <span style = "font-size:95%;"><i>(CI: ${feature.CI_effort_lower.value?number} - ${feature.CI_effort_upper.value?number})</i></span>
-            </#if>                
-          </li>
-        </#if>
+              <span style = "font-size:95%; font-style:italic; color:#8c8c8c;">(CI: ${feature.CI_effort_lower.value?number} - ${feature.CI_effort_upper.value?number})</span>
+            </#if> 
+          <#else>
+            <span style = "font-size:95%; font-style:italic; color:#8c8c8c;">Data not reported for this fishing method.</span>
+          </#if>
+        </li> 
 
         <!-- Catch rate -->
-        <#if feature.Catch_rate.value?has_content>
-          <li style="margin-bottom:4px;">
+        <li style="margin-bottom:4px;">
             Catch rate:
+          <#if feature.Catch_rate.value?has_content>
             <b>${feature.Catch_rate.value?number?string["0.0"]}</b> individuals / fishing day
-          </li>
-        </#if>          
+          <#else>
+            <span style = "font-size:95%; font-style:italic; color:#8c8c8c;">Not reported for this fishing method.</span>
+          </#if>
+        </li>          
 
       </ul>
       
