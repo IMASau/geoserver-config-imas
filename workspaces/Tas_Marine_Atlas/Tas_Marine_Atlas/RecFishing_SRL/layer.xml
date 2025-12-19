@@ -1,0 +1,20 @@
+<layer>
+  <name>RecFishing_SRL</name>
+  <id>LayerInfoImpl--73a77e4b:19b34ae9dfe:c22</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-7cac</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--73a77e4b:19b34ae9dfe:c21</id>
+  </resource>
+  <metadata>
+    <entry key="buffer">128</entry>
+  </metadata>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-19 07:24:32.350 UTC</dateCreated>
+  <dateModified>2025-12-19 07:25:20.430 UTC</dateModified>
+</layer>

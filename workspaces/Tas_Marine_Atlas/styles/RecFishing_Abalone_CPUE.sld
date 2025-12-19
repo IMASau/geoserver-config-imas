@@ -102,46 +102,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>                 
 
-      <!-- Rule for pseudo-title -->
-      <Rule>
-        <Title>Catch Rate\n(number / fisher days)</Title>
-      </Rule>
-
-      <Rule>
-        <Title>Not recorded</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>              
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
-              </ogc:PropertyIsNull>    
-            </ogc:And>              
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>                  
+        <!-- Rule for pseudo-title -->
+        <Rule>
+          <Title>Catch Rate\n(number / fisher days)</Title>
+        </Rule>
+                 
         <Rule>
           <Title>  0 - 3.2</Title>
           <ogc:Filter>
@@ -278,6 +243,42 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+          <Title>Not recorded</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Species</ogc:PropertyName>
+                <ogc:Literal>Abalone aggregated</ogc:Literal>
+              </ogc:PropertyIsEqualTo>              
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Catch_rate</ogc:PropertyName>
+              </ogc:PropertyIsNull>    
+            </ogc:And>              
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#666666</CssParameter>
+                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>         
+        
         <Rule>
           <Title>Metric not available for this spcies</Title>
           <ogc:Filter>        

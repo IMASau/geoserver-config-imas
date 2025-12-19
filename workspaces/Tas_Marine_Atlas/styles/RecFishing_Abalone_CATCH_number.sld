@@ -56,36 +56,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Rule>
         <Title>Catch (number of individuals)</Title>
       </Rule>
-        
-      <Rule>
-        <Title>Not recorded</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>Catch__number</ogc:PropertyName>
-            </ogc:PropertyIsNull>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>         
+               
         <Rule>
           <Title>  0 - 800</Title>
           <ogc:Filter>
@@ -200,6 +171,35 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
+        <Rule>
+        <Title>Not recorded</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>Catch__number</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#666666</CssParameter>
+                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
+                      <CssParameter name="stroke-width">3</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>10</Size>
+                </Graphic>
+              </GraphicFill>           
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#232323</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>            
+          </PolygonSymbolizer>
+        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
