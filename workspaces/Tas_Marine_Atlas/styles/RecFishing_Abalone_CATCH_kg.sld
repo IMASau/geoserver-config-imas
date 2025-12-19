@@ -78,7 +78,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
-              <CssParameter name="font-size">13</CssParameter>
+              <CssParameter name="font-size">12.5</CssParameter>
               <CssParameter name="font-style">italic</CssParameter>
             </Font>
             <LabelPlacement>
@@ -93,12 +93,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <Radius>2</Radius>
               <Fill>
                 <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.5</CssParameter>
+                <CssParameter name="fill-opacity">0.7</CssParameter>
               </Fill>
             </Halo>
             <VendorOption name="conflictResolution">false</VendorOption>
             <VendorOption name="partials">true</VendorOption>
-            <VendorOption name="group">true</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>         
