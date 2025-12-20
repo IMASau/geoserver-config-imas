@@ -1,0 +1,17 @@
+<layer>
+  <name>RecFishing_AssessmentAreas_SRL</name>
+  <id>LayerInfoImpl--73a77e4b:19b3b965847:24bc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-7cac</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--73a77e4b:19b3b965847:24ae</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-20 11:49:05.249 UTC</dateCreated>
+  <dateModified>2025-12-20 14:08:18.430 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>RecFishing_AssessmentAreas_Abalone</name>
+  <id>LayerInfoImpl-7c1c5b20:19b3bd3b379:-7e94</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1b5d2dc8:19b33e8d991:-7cac</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7c1c5b20:19b3bd3b379:-7e95</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-12-20 14:08:30.378 UTC</dateCreated>
+</layer>
