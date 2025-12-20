@@ -42,21 +42,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Fill>		
           </PolygonSymbolizer>		
         </Rule> 
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480; Non-Molluscan Filter Feeders</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Non-Molluscan Filter Feeders</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#cc99ff</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>
 		<Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Ascidians</Title>		
           <ogc:Filter>		
@@ -131,21 +116,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>	
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Non-Coral Cnidaria</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Non-Coral Cnidaria</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#ce7e98</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
         </Rule>	        
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Filter Feeder Community</Title>		
@@ -161,22 +131,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480; Shelled Biota</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Shelled Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#adad85</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>		
+        </Rule>	
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Screw Shell Biota</Title>		
           <ogc:Filter>		
@@ -191,22 +146,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>
-        <Rule>		
-          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Other Shelled Biota</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Other Shelled Biota</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#c3a692</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>        
+        </Rule>       
         <Rule>		
           <Title>&#9480;&#9480;&#9480; Mixed Invertebrate Community</Title>		
           <ogc:Filter>		
@@ -328,21 +268,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Seagrass</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Seagrass</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#02DC00</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>
-        <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Macrophytes</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
@@ -356,7 +281,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>			
+        </Rule>
         <Rule>		
           <Title>&#9480;&#9480;&#9480; Wetland Vegetation</Title>		
           <ogc:Filter>		
@@ -371,7 +296,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule>	 		 				
+        </Rule>	        
         <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mangrove</Title>		
           <ogc:Filter>		
@@ -416,22 +341,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">1.0</CssParameter>		
             </Fill>		
           </PolygonSymbolizer>		
-        </Rule> 
-       <Rule>		
-          <Title>&#9480;&#9480;&#9480; Mixed Vegetation</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
-              <ogc:Literal>Mixed Vegetation</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>		
-          <PolygonSymbolizer>		
-            <Fill>		
-              <CssParameter name="fill">#7e8000</CssParameter>		
-              <CssParameter name="fill-opacity">1.0</CssParameter>		
-            </Fill>		
-          </PolygonSymbolizer>		
-        </Rule>					
+        </Rule> 				
         <Rule>		
           <Title>&#9480; Mixed Biota</Title>		
           <ogc:Filter>		
