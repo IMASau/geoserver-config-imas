@@ -37,17 +37,17 @@ This layer exists exclusively for seeding problematic zoom levels too avoid GC o
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>96.8</minx>
-    <maxx>168.017</maxx>
-    <miny>-44.201</miny>
-    <maxy>-8.92</maxy>
+    <minx>86.94214603342816</minx>
+    <maxx>171.9747680569463</maxx>
+    <miny>-44.27146859722604</miny>
+    <maxy>-4.388584412435984</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>96.8</minx>
-    <maxx>168.017</maxx>
-    <miny>-44.201</miny>
-    <maxy>-8.92</maxy>
+    <minx>86.94214603342816</minx>
+    <maxx>171.9747680569463</maxx>
+    <miny>-44.27146859722604</miny>
+    <maxy>-4.388584412435984</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
