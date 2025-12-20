@@ -12,7 +12,7 @@
 
       <p style="margin-top:10px; font-size:103%;">
         Reporting Area <b>${feature.Area.value}</b>
-        <span style="font-weight:bold; font-style:italic; color:<#if (feature.Region.value == "North coast")>#E88354<#elseif (feature.Region.value == "East coast")>#9FEB51<#elseif (feature.Region.value == "West coast")>#9D51EB</#if>;">
+        <span style="font-weight:bold; font-style:italic; color:<#if (feature.Region.value == "North coast")>#E88354<#elseif (feature.Region.value == "East coast")>#00cc00<#elseif (feature.Region.value == "West coast")>#9D51EB</#if>;">
           (${feature.Region.value})
         </span>       
       </p>

@@ -41,11 +41,11 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9FEB51</CssParameter>
+              <CssParameter name="fill">#00cc00</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#9FEB51</CssParameter>
+              <CssParameter name="stroke">#00cc00</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
