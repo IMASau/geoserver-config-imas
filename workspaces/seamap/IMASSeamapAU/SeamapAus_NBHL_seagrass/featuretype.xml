@@ -67,8 +67,9 @@ This contributes to the Essential Ocean Variable (EOV): Seagrass Cover and Compo
   <internationalTitle/>
   <internationalAbstract/>
   <cqlFilter>BC_Level4 = &apos;Seagrass&apos;&#xd;
+OR BC_Level4 = &apos;Mixed Macrophytes&apos; &#xd;
 OR (&#xd;
-(BC_Level3 = &apos;Mixed Macrophytes&apos; OR BC_Level2 = &apos;Mixed Biota&apos;)&#xd;
+BC_Level2 = &apos;Mixed Biota&apos;&#xd;
 AND BC_Species ILIKE &apos;%seagrass%&apos;&#xd;
 )</cqlFilter>
   <maxFeatures>0</maxFeatures>
