@@ -133,6 +133,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>	
         <Rule>		
+          <Title>&#9480;&#9480;&#9480; Shelled Biota</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Shelled Biota</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#adad85</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>	        
+        <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Screw Shell Biota</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
