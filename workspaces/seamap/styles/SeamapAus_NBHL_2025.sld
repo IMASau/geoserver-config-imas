@@ -283,6 +283,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
+          <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Seagrass</Title>		
+          <ogc:Filter>		
+            <ogc:PropertyIsEqualTo>		
+              <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
+              <ogc:Literal>Seagrass</ogc:Literal>		
+            </ogc:PropertyIsEqualTo>		
+          </ogc:Filter>		
+          <PolygonSymbolizer>		
+            <Fill>		
+              <CssParameter name="fill">#02DC00</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>		
+          </PolygonSymbolizer>		
+        </Rule>        
+        <Rule>		
           <Title>&#9480;&#9480;&#9480;&#9480;&#9480; Mixed Macrophytes</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsEqualTo>		
