@@ -36,17 +36,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3112&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-404914.3079935176</minx>
-    <maxx>-274805.4701974163</maxx>
-    <miny>-1508001.4193383644</miny>
-    <maxy>-1409074.812512469</maxy>
-    <crs class="projected">EPSG:3112</crs>
+    <minx>130.33315518675244</minx>
+    <maxx>131.5286386823682</maxx>
+    <miny>-12.917728966053312</miny>
+    <maxy>-12.012633366261923</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-404914.3079935176</minx>
-    <maxx>-274805.4701974163</maxx>
-    <miny>-1508001.4193383644</miny>
-    <maxy>-1409074.812512469</maxy>
+    <minx>130.33315518675244</minx>
+    <maxx>131.5286386823682</maxx>
+    <miny>-12.917728966053312</miny>
+    <maxy>-12.012633366261923</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -58,6 +58,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
