@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>   Invertebrates present (co-dominant)</Title>		
+          <Title>Invertebrates present (co-dominant)</Title>		
           <ogc:Filter>
             <ogc:PropertyIsNotEqualTo>		
               <ogc:PropertyName>BC_Level2</ogc:PropertyName>		

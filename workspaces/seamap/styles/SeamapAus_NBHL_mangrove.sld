@@ -28,7 +28,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>		
         </Rule>
         <Rule>		
-          <Title>   Mangrove present (co-dominant)</Title>		
+          <Title>Mangrove present (co-dominant)</Title>		
           <ogc:Filter>		
             <ogc:PropertyIsNotEqualTo>		
               <ogc:PropertyName>NAT_HAB_CL</ogc:PropertyName>		
