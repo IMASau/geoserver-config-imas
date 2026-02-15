@@ -16,6 +16,7 @@
         <!-- Rule for constructing a dummy legend (ExternalGraphic using the charts extension no longer supports a legend)-->
         <Rule>
           <Title>Seagrass species composition</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -31,11 +32,11 @@
               </Mark>
               <Size>13</Size>
             </Graphic>
-            <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
         </Rule>
         <Rule>
           <Title>Amphibolis antarctica</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -50,11 +51,11 @@
               </Mark>
               <Size>10</Size>
             </Graphic>
-            <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
         </Rule>
         <Rule>
           <Title>Halophila spp.</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -69,11 +70,11 @@
               </Mark>
               <Size>10</Size>
             </Graphic>
-            <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>      
         </Rule>         
         <Rule>
           <Title>Posidonia australis</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -93,6 +94,7 @@
         </Rule>         
         <Rule>
           <Title>Zostera spp.</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -113,7 +115,8 @@
         
         <!-- Rule for Pie Chart at scales above 500,000 -->
         <Rule>
-          <MinScaleDenominator>500000</MinScaleDenominator>          
+          <MinScaleDenominator>500000</MinScaleDenominator> 
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -131,14 +134,14 @@
                 <ogc:Literal>15</ogc:Literal>
               </Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>         
 
         <!-- Rule for Pie Chart at scales above 120,000 and below 500,000 -->
         <Rule>
           <MinScaleDenominator>120000</MinScaleDenominator>
-          <MaxScaleDenominator>500000</MaxScaleDenominator>          
+          <MaxScaleDenominator>500000</MaxScaleDenominator>   
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -156,14 +159,14 @@
                 <ogc:Literal>20</ogc:Literal>
               </Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>        
 
         <!-- Rule for Pie Chart at scales above 20,000 and below 120,000 -->
         <Rule>
           <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>120000</MaxScaleDenominator>          
+          <MaxScaleDenominator>120000</MaxScaleDenominator> 
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -181,13 +184,13 @@
                 <ogc:Literal>25</ogc:Literal>
               </Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
 
         <!-- Rule for Pie Chart at scales below 20,000 -->
         <Rule>
           <MaxScaleDenominator>20000</MaxScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
           <PointSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -205,7 +208,6 @@
                 <ogc:Literal>35</ogc:Literal>
               </Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
         
