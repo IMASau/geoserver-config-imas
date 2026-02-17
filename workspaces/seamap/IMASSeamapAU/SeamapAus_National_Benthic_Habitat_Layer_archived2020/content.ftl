@@ -3,11 +3,15 @@
     <#assign substrate = "Unknown">
 
     <#if (feature_index < 1)>
-        <h5 style="padding-top:5px; padding-bottom: 5px;"><img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" width=105px; style="padding-right:10px">National Benthic Habitat Layer (2020)</h5>
 
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; width: 520px; white-space: normal; overflow-wrap: break-word;">
+      <div class="feature" style="padding-top:5px; padding-bottom:5px; min-width:460px; margin:0 auto; display:inline-block; white-space:normal; word-break:normal; overflow-wrap: break-word;">
 
-            <div style="padding-top: 10px; padding-bottom: 5px">
+        <h5 style="margin:0 0 6px 0;">
+          <img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" style="width:105px; padding-right:10px; vertical-align:middle;">
+          National Benthic Habitat Layer (2020)
+        </h5>    
+    
+            <div style="padding-top: 10px; padding-bottom: 5px;">
 
                 <#-- Get the finest biotic classification -->
                 <#if feature.BC_Level4.value?has_content && feature.BC_Level4.value != "Unknown" && feature.BC_Level4.value != "NA">
@@ -32,8 +36,7 @@
                 </#if>
 
                 &#10148; <a href="https://seamapaustralia.org/wp-content/uploads/2017/11/Classification_Hierarchy_20170907.pdf" target="_blank">
-                    <b>Seamap Australia habitat</b>
-                </a>:
+                    <b>Seamap Australia habitat</b></a>:
                 <#if biota != "Unknown">
                     ${biota}
                     <#if substrate != "Unknown"> | ${substrate}</#if>
@@ -45,14 +48,14 @@
                 <br>
             </div>
 
-            <div style="padding-bottom: 20px">
+            <div style="padding-bottom: 20px; line-height:1.6">
                 &#10148; <b>Original classification(s):</b> <i>${feature.Hab_ORIG.value}</i>
             </div>
 
-            <div style="font-size: 95%; line-height: 1.6;">
+            <div style="font-size: 95%; line-height:1.6">
                 <#if feature.Data_BC.value != 'NA'>
                     <b>Source (biota):</b> 
-                    <a href="${feature.Info_BC.value}" target="_blank"">${feature.Data_BC.value}</a> 
+                    <a href="${feature.Info_BC.value}" target="_blank">${feature.Data_BC.value}</a> 
                     <i>(${feature.Date_BC.value})</i><br>
                 </#if>
 

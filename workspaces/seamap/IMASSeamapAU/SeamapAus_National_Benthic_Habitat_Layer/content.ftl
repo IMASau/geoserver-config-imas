@@ -4,9 +4,9 @@
 
     <#if (feature_index < 1)>
 
-      <div class="feature" style="padding-top:5px; padding-bottom:5px; display: inline-block; min-width:420px; max-width:800px; margin:0 auto;">
+      <div class="feature" style="padding-top:5px; padding-bottom:5px; min-width:460px; margin:0 auto; display:inline-block; white-space:normal; word-break:normal; overflow-wrap: break-word;">
 
-        <h5 style="margin:0 0 6px 0; white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
+        <h5 style="margin:0 0 6px 0;">
           <img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" style="width:105px; padding-right:10px; vertical-align:middle;">
           National Benthic Habitat Layer (2025)
         </h5>    
@@ -36,8 +36,7 @@
                 </#if>
 
                 &#10148; <a href="https://seamapaustralia.org/wp-content/uploads/2017/11/Classification_Hierarchy_20170907.pdf" target="_blank">
-                    <b>Seamap Australia habitat</b>
-                </a>:
+                    <b>Seamap Australia habitat</b></a>:
                 <#if biota != "Unknown">
                     ${biota}
                     <#if substrate != "Unknown"> | ${substrate}</#if>
@@ -49,11 +48,11 @@
                 <br>
             </div>
 
-            <div style="padding-bottom: 20px; white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
+            <div style="padding-bottom: 20px; line-height:1.6">
                 &#10148; <b>Original classification(s):</b> <i>${feature.Hab_ORIG.value}</i>
             </div>
 
-            <div style="font-size: 95%; line-height: 1.6; white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
+            <div style="font-size: 95%; line-height:1.6">
                 <#if feature.Data_BC.value != 'NA'>
                     <b>Source (biota):</b> 
                     <a href="${feature.Info_BC.value}" target="_blank">${feature.Data_BC.value}</a> 
