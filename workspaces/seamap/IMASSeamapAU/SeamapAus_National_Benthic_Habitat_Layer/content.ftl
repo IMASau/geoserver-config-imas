@@ -4,14 +4,14 @@
 
     <#if (feature_index < 1)>
 
-      <div class="feature" style="padding-top:5px; padding-bottom:5px; width:100%; max-width:500px; margin:0 auto;">
+      <div class="feature" style="padding-top:5px; padding-bottom:5px; display: inline-block; min-width:420px; max-width:800px; margin:0 auto;">
 
-        <h5 style="margin:0 0 6px 0;">
+        <h5 style="margin:0 0 6px 0; white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
           <img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" style="width:105px; padding-right:10px; vertical-align:middle;">
           National Benthic Habitat Layer (2025)
         </h5>    
     
-            <div style="padding-top: 10px; padding-bottom: 5px;  white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
+            <div style="padding-top: 10px; padding-bottom: 5px;">
 
                 <#-- Get the finest biotic classification -->
                 <#if feature.BC_Level4.value?has_content && feature.BC_Level4.value != "Unknown" && feature.BC_Level4.value != "NA">
@@ -49,14 +49,14 @@
                 <br>
             </div>
 
-            <div style="padding-bottom: 20px">
+            <div style="padding-bottom: 20px; white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
                 &#10148; <b>Original classification(s):</b> <i>${feature.Hab_ORIG.value}</i>
             </div>
 
-            <div style="font-size: 95%; line-height: 1.6;">
+            <div style="font-size: 95%; line-height: 1.6; white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
                 <#if feature.Data_BC.value != 'NA'>
                     <b>Source (biota):</b> 
-                    <a href="${feature.Info_BC.value}" target="_blank"">${feature.Data_BC.value}</a> 
+                    <a href="${feature.Info_BC.value}" target="_blank">${feature.Data_BC.value}</a> 
                     <i>(${feature.Date_BC.value})</i><br>
                 </#if>
 
