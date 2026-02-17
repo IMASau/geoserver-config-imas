@@ -3,11 +3,15 @@
     <#assign substrate = "Unknown">
 
     <#if (feature_index < 1)>
-        <h5 style="padding-top:5px; padding-bottom: 5px;"><img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" width=105px; style="padding-right:10px">National Benthic Habitat Layer (2025)</h5>
 
-        <div class="feature" style="padding-top: 5px; padding-bottom: 5px; width: 520px; white-space: normal; overflow-wrap: break-word;">
+      <div class="feature" style="padding-top:5px; padding-bottom:5px; width:100%; max-width:500px; margin:0 auto;">
 
-            <div style="padding-top: 10px; padding-bottom: 5px">
+        <h5 style="margin:0 0 6px 0;">
+          <img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" style="width:105px; padding-right:10px; vertical-align:middle;">
+          National Benthic Habitat Layer (2025)
+        </h5>    
+    
+            <div style="padding-top: 10px; padding-bottom: 5px;  white-space:normal; overflow-wrap:anywhere; word-break:break-word;">
 
                 <#-- Get the finest biotic classification -->
                 <#if feature.BC_Level4.value?has_content && feature.BC_Level4.value != "Unknown" && feature.BC_Level4.value != "NA">
