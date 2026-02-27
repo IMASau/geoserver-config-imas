@@ -50,7 +50,7 @@ NOTE: this data has not been optimised for viewing and may respond unpredictably
   </latLonBoundingBox>
   <projectionPolicy>NONE</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

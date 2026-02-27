@@ -51,7 +51,10 @@ NOTE: this data has been simplified for viewing to ~200m. See layer group &apos;
   <store class="dataStore">
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
-  <serviceConfiguration>false</serviceConfiguration>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WFS</string>
+  </disabledServices>
   <internationalTitle/>
   <internationalAbstract/>
   <cqlFilter>IMAS_CL = &apos;Reef&apos; OR IMAS_CL = &apos;Other&apos;</cqlFilter>
