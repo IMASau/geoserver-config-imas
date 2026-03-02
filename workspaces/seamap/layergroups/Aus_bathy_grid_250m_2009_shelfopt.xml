@@ -1,0 +1,39 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-556f00cc:19cad10daae:-6a57</id>
+  <name>Aus_bathy_grid_250m_2009_shelfopt</name>
+  <mode>SINGLE</mode>
+  <title>Australian Bathymetry 2009 250 m (GA) - shelf-optimised stretch</title>
+  <abstractTxt>The 2009 bathymetric grid of Australia has been produced to include recently acquired datasets, and solutions to issues identified in the previous version. The revised grid has the same extents as its 2005 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
+&#xd;
+This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2009 product. A shallow water-optimised colour ramp has been used to highlight shelf features.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1945eae1555:-1d32</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7365ba1:1945eae1555:-1cf2</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--8e09590:1969ebbd8d2:7068</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-4502644.567194062</minx>
+    <maxx>4502176.34135525</maxx>
+    <miny>-6827695.899603057</miny>
+    <maxy>-834353.1699311007</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </bounds>
+  <dateCreated>2026-03-02 06:05:46.573 UTC</dateCreated>
+  <dateModified>2026-03-02 06:28:05.46 UTC</dateModified>
+</layerGroup>
