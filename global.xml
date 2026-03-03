@@ -54,10 +54,10 @@
   </coverageAccess>
   <metadata>
     <entry key="logRequestsEnabled">true</entry>
-    <entry key="logHeadersEnabled">false</entry>
+    <entry key="logHeadersEnabled">true</entry>
     <entry key="logBodiesEnabled">false</entry>
   </metadata>
-  <updateSequence>58645</updateSequence>
+  <updateSequence>58646</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>100</xmlPostRequestLogBufferSize>
