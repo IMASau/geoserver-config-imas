@@ -8,7 +8,7 @@
 
         <h5 style="margin:0 0 6px 0;">
           <img src="https://seamapaustralia.org/map/img/Seamap2_V2_RGB.png" style="width:105px; padding-right:10px; vertical-align:middle;">
-          National Benthic Habitat Layer (2026)
+          National Benthic Habitat Layer (2025)
         </h5>    
     
             <div style="padding-top: 10px; padding-bottom: 5px;">
