@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_National_Benthic_Habitat_Layer_archived2025</name>
+  <id>LayerInfoImpl--2c19e7f1:19cb7244df9:-7a91</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-434b5ea1:193975eec14:-6056</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2c19e7f1:19cb7244df9:-7a92</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-03-04 04:40:56.172 UTC</dateCreated>
+  <dateModified>2026-03-04 04:59:31.295 UTC</dateModified>
+</layer>

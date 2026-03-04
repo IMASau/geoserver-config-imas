@@ -1,19 +1,18 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--603af1da:18652b2ab74:2f8</id>
-  <name>SeamapAus_National_Benthic_Habitat_Layer</name>
-  <nativeName>FINALPRODUCT_SeamapAus_current</nativeName>
+  <id>FeatureTypeInfoImpl--2c19e7f1:19cb7244df9:-7a92</id>
+  <name>SeamapAus_National_Benthic_Habitat_Layer_archived2025</name>
+  <nativeName>FINALPRODUCT_SeamapAus_archive_2025</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer: v2026 (current)</title>
-  <abstract>The Seamap Australia National Benthic Habitat Layer (NBHL) is a compilation of benthic habitat datasets obtained from various sectors including research, government, industry and community sources, across Australia. These disparate datasets have been integrated into a single national-scale benthic habitat database, and classified uniformly under a national classification scheme implemented as a controlled vocabulary (https://vocabs.ardc.edu.au/viewById/129). Creation of this classification scheme complements work undertaken by the National Environmental Science Program (NESP) Marine Biodiversity Hub (Theme D).&#xd;
+  <title>Seamap Australia National Benthic Habitat Layer: v2025 archive</title>
+  <abstract>The Seamap Australia spatial data layer is a nationally synthesised data product of seafloor marine habitat data. Australian continental shelf benthic habitat layers in GIS format were collected from various stakeholders around the country. Through compiling all of these data sets, we established a controlled vocabulary, reviewed by ANDS and external independent assessors, to produce a national classification of marine habitats.&#xd;
 &#xd;
-This layer is v2026 of the dataset, last updated 2026-03-01.</abstract>
+This layer represents Version 2025 of the data. It has been superseded by Version 2026.</abstract>
   <keywords>
-    <string>FINALPRODUCT</string>
+    <string>features</string>
+    <string>FINALPRODUCT_SeamapAus_archive_2025</string>
     <string>NBHL</string>
-    <string>National Benthic Habitat Layer</string>
-    <string>benthic habitat</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -55,7 +54,6 @@ This layer is v2026 of the dataset, last updated 2026-03-01.</abstract>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
