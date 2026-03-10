@@ -64,8 +64,8 @@
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>4000000</maxRequestMemory>
-  <maxRenderingTime>300</maxRenderingTime>
+  <maxRequestMemory>1280000</maxRequestMemory>
+  <maxRenderingTime>240</maxRenderingTime>
   <maxRenderingErrors>20</maxRenderingErrors>
   <internationalRootLayerTitle/>
   <internationalRootLayerAbstract/>

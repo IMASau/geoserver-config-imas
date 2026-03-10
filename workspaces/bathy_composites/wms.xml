@@ -73,7 +73,7 @@ See the full data product description at https://metadata.imas.utas.edu.au/geone
   <dynamicStylingDisabled>false</dynamicStylingDisabled>
   <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
   <maxBuffer>0</maxBuffer>
-  <maxRequestMemory>1000000</maxRequestMemory>
+  <maxRequestMemory>1280000</maxRequestMemory>
   <maxRenderingTime>120</maxRenderingTime>
   <maxRenderingErrors>100</maxRenderingErrors>
   <internationalRootLayerTitle/>
