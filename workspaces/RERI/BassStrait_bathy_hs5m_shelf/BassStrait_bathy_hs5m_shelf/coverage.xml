@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait bathymetry 2022 30m - hillshade</title>
+  <title>Bass Strait bathymetry 2022 30m: hillshade (shelf waters clip)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>BassStrait_bathymetry_2022_30m_hs5m_clip_shelf</string>
@@ -119,5 +119,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>BassStrait_bathymetry_2022_30m_hs5m_clip_shelf</nativeCoverageName>
+  <nativeCoverageName>BassStrait_30m_hs5m__clip_sea_shelf</nativeCoverageName>
 </coverage>

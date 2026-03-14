@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-7a31f18c:19a7da825a4:-64c</id>
-  <name>BassStrait_habitat_regional_prob_v2</name>
-  <description>Bass Strait regional habitat model - probability</description>
+  <name>BassStrait_habitat_v2_prob</name>
+  <description>Bass Strait regional habitat model (v2) - probability</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
@@ -17,6 +17,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2025-11-13 22:44:33.824 UTC</dateCreated>
+  <dateModified>2026-03-14 01:14:16.826 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/RERI14/data/regional/BassStrait_habitat_regional_prob_geomorphbroad.tif</url>
+  <url>file:///mnt/rdsi/attachments/RERI14/data/regional/BassStrait_habitat_v2_prob.tif</url>
 </coverageStore>

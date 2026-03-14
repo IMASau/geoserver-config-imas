@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl--5de17116:19955fe5f65:7e4</id>
-  <name>BassStrait_habitat_entropy_uncert_v1</name>
-  <nativeName>BassStrait_habitat_regional_entropy_uncert</nativeName>
+  <name>BassStrait_habitat_v1_entropy_uncert</name>
+  <nativeName>BassStrait_habitat_v1_entropy_uncert</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model - entropy uncertainty v1</title>
+  <title>Bass Strait regional habitat model (v1): global entropy uncertainty</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>BassStrait_habitat_regional_entropy_uncert</string>
@@ -119,5 +119,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>BassStrait_habitat_regional_entropy_uncert</nativeCoverageName>
+  <nativeCoverageName>BassStrait_habitat_v1_entropy_uncert</nativeCoverageName>
 </coverage>

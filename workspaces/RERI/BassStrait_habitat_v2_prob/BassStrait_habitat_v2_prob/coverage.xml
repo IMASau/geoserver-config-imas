@@ -1,14 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl--5de17116:19956dbe022:129c</id>
-  <name>BassStrait_habitat_prob_v1</name>
-  <nativeName>BassStrait_habitat_prob_v1</nativeName>
+  <id>CoverageInfoImpl-7a31f18c:19a7da825a4:-53e</id>
+  <name>BassStrait_habitat_v2_prob</name>
+  <nativeName>BassStrait_habitat_v2_prob</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model - probability v1 - no hillshade</title>
+  <title>Bass Strait regional habitat model (v2): mean probability</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>v2 incorporates extra ground-truthing and GA broad-scale Bass Strait geomorphology product.</abstract>
   <keywords>
-    <string>BassStrait_habitat_regional_prob</string>
+    <string>BassStrait_habitat_regional_prob_geomorphbroad</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -38,13 +39,13 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">BassStrait_habitat_regional_prob_BassStrait_habitat_regional_prob</entry>
+    <entry key="dirName">BassStrait_habitat_regional_prob_v2_BassStrait_habitat_regional_prob_geomorphbroad</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--5de17116:19956dbe022:1299</id>
+    <id>CoverageStoreInfoImpl-7a31f18c:19a7da825a4:-64c</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -93,20 +94,6 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>BARE_UNCONSOLIDATED</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>-9999.0</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
       <name>MACROALGAE</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
@@ -121,7 +108,35 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
+      <name>SEAGRASS</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
       <name>SESSILE_INVERTS</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BARE_UNCONSOLIDATED</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -159,5 +174,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>BassStrait_habitat_prob_v1</nativeCoverageName>
+  <nativeCoverageName>BassStrait_habitat_v2_prob</nativeCoverageName>
 </coverage>
