@@ -72,7 +72,7 @@
       <#else>
         <#assign width = maxBarWidth * macroalgae>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
-          <div style="width: ${width}px; height: 10px; background-color: #2d9624;"></div>
+          <div style="width: ${width}px; height: 10px; background-color: #2e8a0f;"></div>
           <span style="margin-left: 8px;">Macroalgae: <b>${macroalgae?string("0.000")}</b></span>
         </div>
       </#if>
@@ -86,7 +86,7 @@
       <#else>
         <#assign width = maxBarWidth * seagrass>
         <div style="display: flex; align-items: center; padding-bottom: 2px;">
-          <div style="width: ${width}px; height: 10px; background-color: #02de70;"></div>
+          <div style="width: ${width}px; height: 10px; background-color: #00e6e6;"></div>
           <span style="margin-left: 8px;">Seagrass: <b>${seagrass?string("0.000")}</b></span>
         </div>
       </#if>      
