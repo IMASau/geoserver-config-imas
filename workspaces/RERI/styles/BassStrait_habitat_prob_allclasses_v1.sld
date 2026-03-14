@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <Title>Habitat probability of occurrence</Title>
   <NamedLayer>
-    <Name>BassStrait_habitat_regional_prob</Name>
+    <Name>Bass Strait regional-scale benthic habitat (v3)</Name>
     <UserStyle>
       <FeatureTypeStyle>        
         <Rule>
@@ -42,7 +42,7 @@
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
-        </Rule>        
+        </Rule>         
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
@@ -51,16 +51,17 @@
               </GrayChannel>
             </ChannelSelection>             
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#2d9624" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#2d9624" opacity="0.3" quantity="0.2"/>              
-              <ColorMapEntry color="#2d9624" opacity="0.5" quantity="0.4"/>            
-              <ColorMapEntry color="#2d9624" opacity="0.7" quantity="0.6"/>
-              <ColorMapEntry color="#2d9624" opacity="0.9" quantity="0.8"/>
-              <ColorMapEntry color="#2d9624" opacity="1" quantity="1"/>           
+              <ColorMapEntry color="#2e8a0f" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#2e8a0f" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#2e8a0f" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#2e8a0f" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#2e8a0f" opacity="0.9" quantity="0.8"/>
+              <ColorMapEntry color="#2e8a0f" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
-        </Rule>         
+        </Rule>  
+        
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
@@ -85,40 +86,30 @@
           <RasterSymbolizer>          
             <ColorMap type="ramp"> 
               <!-- BARE CONSOLIDATED ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability (bare consolidated)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare consolidated)"/>
               <ColorMapEntry color="#663300" opacity="1" quantity="1" label="  1.0"/>
-              <ColorMapEntry color="#663300" opacity="0.8" quantity="0.8" label="  0.8"/>              
-              <ColorMapEntry color="#663300" opacity="0.6" quantity="0.6" label="  0.6"/>            
-              <ColorMapEntry color="#663300" opacity="0.4" quantity="0.4" label="  0.4"/>
-              <ColorMapEntry color="#663300" opacity="0.2" quantity="0.2" label="  0.2"/>
-              <ColorMapEntry color="#663300" opacity="0.0001" quantity="0" label="  0.0"/> 
+              <ColorMapEntry color="#663300" opacity="0.5" quantity="0.5" label="  0.5"/>              
+              <ColorMapEntry color="#663300" opacity="0.1" quantity="0" label="  0.0"/> 
               
               <!-- BARE UNCONSOLIDATED ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability (bare unconsolidated)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare unconsolidated)"/>
               <ColorMapEntry color="#fff899" opacity="1" quantity="1" label="  1.0"/>
-              <ColorMapEntry color="#fff899" opacity="0.8" quantity="0.8" label="  0.8"/>              
-              <ColorMapEntry color="#fff899" opacity="0.6" quantity="0.6" label="  0.6"/>            
-              <ColorMapEntry color="#fff899" opacity="0.4" quantity="0.4" label="  0.4"/>
-              <ColorMapEntry color="#fff899" opacity="0.2" quantity="0.2" label="  0.2"/>
-              <ColorMapEntry color="#fff899" opacity="0.0001" quantity="0" label="  0.0"/>  
+              <ColorMapEntry color="#fff899" opacity="0.5" quantity="0.5" label="  0.5"/>              
+              <ColorMapEntry color="#fff899" opacity="0.1" quantity="0" label="  0.0"/>  
               
               <!-- MACROALGAE ramp -->                                        
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability (macroalgae)"/>
-              <ColorMapEntry color="#2d9624" opacity="1" quantity="1" label="  1.0"/>
-              <ColorMapEntry color="#2d9624" opacity="0.8" quantity="0.8" label="  0.8"/>              
-              <ColorMapEntry color="#2d9624" opacity="0.6" quantity="0.6" label="  0.6"/>            
-              <ColorMapEntry color="#2d9624" opacity="0.4" quantity="0.4" label="  0.4"/>
-              <ColorMapEntry color="#2d9624" opacity="0.2" quantity="0.2" label="  0.2"/>
-              <ColorMapEntry color="#2d9624" opacity="0.0001" quantity="0" label="  0.0"/> 
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (macroalgae)"/>
+              <ColorMapEntry color="#2e8a0f" opacity="1" quantity="1" label="  1.0"/>
+              <ColorMapEntry color="#2e8a0f" opacity="0.5" quantity="0.5" label="  0.5"/>              
+              <ColorMapEntry color="#2e8a0f" opacity="0.1" quantity="0" label="  0.0"/>              
               
               <!-- SESSILE INVERTEBRATES ramp -->                                       
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="200" label="Probability (sessile invertebrates)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (sessile invertebrates)"/>
               <ColorMapEntry color="#9e2e88" opacity="1" quantity="1" label="  1.0"/>
-              <ColorMapEntry color="#9e2e88" opacity="0.8" quantity="0.8" label="  0.8"/>              
-              <ColorMapEntry color="#9e2e88" opacity="0.6" quantity="0.6" label="  0.6"/>            
-              <ColorMapEntry color="#9e2e88" opacity="0.4" quantity="0.4" label="  0.4"/>
-              <ColorMapEntry color="#9e2e88" opacity="0.2" quantity="0.2" label="  0.2"/>
-              <ColorMapEntry color="#9e2e88" opacity="0.0001" quantity="0" label="  0.0"/>    
+              <ColorMapEntry color="#9e2e88" opacity="0.5" quantity="0.5" label="  0.5"/>              
+              <ColorMapEntry color="#9e2e88" opacity="0.1" quantity="0" label="  0.0"/>   
+              
+                      
             </ColorMap>
             <VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>

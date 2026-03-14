@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model (v2): mean probability</title>
+  <title>Bass Strait regional habitat model (v2): mean Probability</title>
   <description>Generated from GeoTIFF</description>
   <abstract>v2 incorporates extra ground-truthing and GA broad-scale Bass Strait geomorphology product.</abstract>
   <keywords>
@@ -49,6 +49,8 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>

@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-53b06053:19ce8adf603:-51c4</id>
+  <name>BassStrait_benthic_habitat_v3</name>
+  <mode>SINGLE</mode>
+  <title>Bass Strait regional habitat model (v3): mean probability (hillshade backdrop)</title>
+  <abstractTxt>v3 incorporates additional ground-truthing and removes the GA broad-scale geomorphology input (relative to v2). Includes Bass Strait 30m DEM hillshade backdrop.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-53b06053:19ce8adf603:-5536</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-53b06053:19ce8adf603:-51c5</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-53b06053:19ce8adf603:-5547</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6e4e475:197100d43f0:-3825</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>142.9943500000009</minx>
+    <maxx>150.00355000006758</maxx>
+    <miny>-42.0102499999982</miny>
+    <maxy>-36.99334999995048</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2026-03-14 02:52:52.675 UTC</dateCreated>
+</layerGroup>

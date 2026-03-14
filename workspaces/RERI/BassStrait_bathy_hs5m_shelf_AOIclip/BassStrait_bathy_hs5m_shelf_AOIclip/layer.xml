@@ -1,12 +1,12 @@
 <layer>
-  <name>BassStrait_bathy_hs5m_shelf</name>
-  <id>LayerInfoImpl--5de17116:19955fe5f65:2d4</id>
+  <name>BassStrait_bathy_hs5m_shelf_AOIclip</name>
+  <id>LayerInfoImpl-53b06053:19ce8adf603:-51c5</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--6e4e475:197100d43f0:-3825</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl--5de17116:19955fe5f65:2d3</id>
+    <id>CoverageInfoImpl-53b06053:19ce8adf603:-51c6</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
@@ -14,6 +14,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
-  <dateCreated>2025-09-17 06:58:23.993 UTC</dateCreated>
-  <dateModified>2026-03-14 02:52:32.214 UTC</dateModified>
+  <dateCreated>2026-03-14 02:52:38.268 UTC</dateCreated>
 </layer>

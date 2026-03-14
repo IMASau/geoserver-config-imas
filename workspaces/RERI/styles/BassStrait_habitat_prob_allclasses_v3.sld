@@ -42,25 +42,7 @@
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
-        </Rule>        
-        <Rule>
-          <RasterSymbolizer>
-            <ChannelSelection>
-              <GrayChannel>
-                <SourceChannelName>3</SourceChannelName> <!-- Band 3 is MACROALGAE habitat -->
-              </GrayChannel>
-            </ChannelSelection>             
-            <ColorMap type="ramp">              
-              <ColorMapEntry color="#267b1e" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#267b1e" opacity="0.3" quantity="0.2"/>              
-              <ColorMapEntry color="#267b1e" opacity="0.5" quantity="0.4"/>            
-              <ColorMapEntry color="#267b1e" opacity="0.7" quantity="0.6"/>
-              <ColorMapEntry color="#267b1e" opacity="0.9" quantity="0.8"/>
-              <ColorMapEntry color="#267b1e" opacity="1" quantity="1"/>           
-            </ColorMap>
-          </RasterSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
-        </Rule>  
+        </Rule>
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
@@ -69,16 +51,35 @@
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">              
-              <ColorMapEntry color="#02de70" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#02de70" opacity="0.3" quantity="0.2"/>              
-              <ColorMapEntry color="#02de70" opacity="0.5" quantity="0.4"/>            
-              <ColorMapEntry color="#02de70" opacity="0.7" quantity="0.6"/>
-              <ColorMapEntry color="#02de70" opacity="0.9" quantity="0.8"/>
-              <ColorMapEntry color="#02de70" opacity="1" quantity="1"/>           
+              <ColorMapEntry color="#00e6e6" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#00e6e6" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#00e6e6" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#00e6e6" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#00e6e6" opacity="0.9" quantity="0.8"/>
+              <ColorMapEntry color="#00e6e6" opacity="1" quantity="1"/>           
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>          
+        <Rule>
+          <RasterSymbolizer>
+            <ChannelSelection>
+              <GrayChannel>
+                <SourceChannelName>3</SourceChannelName> <!-- Band 3 is MACROALGAE habitat -->
+              </GrayChannel>
+            </ChannelSelection>             
+            <ColorMap type="ramp">              
+              <ColorMapEntry color="#2e8a0f" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#2e8a0f" opacity="0.3" quantity="0.2"/>              
+              <ColorMapEntry color="#2e8a0f" opacity="0.5" quantity="0.4"/>            
+              <ColorMapEntry color="#2e8a0f" opacity="0.7" quantity="0.6"/>
+              <ColorMapEntry color="#2e8a0f" opacity="0.9" quantity="0.8"/>
+              <ColorMapEntry color="#2e8a0f" opacity="1" quantity="1"/>           
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
+        </Rule>  
+        
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
@@ -116,9 +117,15 @@
               
               <!-- MACROALGAE ramp -->                                        
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (macroalgae)"/>
-              <ColorMapEntry color="#267b1e" opacity="1" quantity="1" label="  1.0"/>
-              <ColorMapEntry color="#267b1e" opacity="0.5" quantity="0.5" label="  0.5"/>              
-              <ColorMapEntry color="#267b1e" opacity="0.1" quantity="0" label="  0.0"/> 
+              <ColorMapEntry color="#2e8a0f" opacity="1" quantity="1" label="  1.0"/>
+              <ColorMapEntry color="#2e8a0f" opacity="0.5" quantity="0.5" label="  0.5"/>              
+              <ColorMapEntry color="#2e8a0f" opacity="0.1" quantity="0" label="  0.0"/> 
+              
+              <!-- SEAGRASS ramp -->                                                      
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (seagrass)"/>   
+              <ColorMapEntry color="#00e6e6" opacity="1" quantity="1" label="  1.0"/>
+              <ColorMapEntry color="#00e6e6" opacity="0.5" quantity="0.5" label="  0.5"/>              
+              <ColorMapEntry color="#00e6e6" opacity="0.1" quantity="0" label="  0.0"/>               
               
               <!-- SESSILE INVERTEBRATES ramp -->                                       
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (sessile invertebrates)"/>
@@ -126,10 +133,6 @@
               <ColorMapEntry color="#9e2e88" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#9e2e88" opacity="0.1" quantity="0" label="  0.0"/>   
               
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (seagrass)"/>   
-              <ColorMapEntry color="#02de70" opacity="1" quantity="1" label="  1.0"/>
-              <ColorMapEntry color="#02de70" opacity="0.5" quantity="0.5" label="  0.5"/>              
-              <ColorMapEntry color="#02de70" opacity="0.1" quantity="0" label="  0.0"/> 
                       
             </ColorMap>
             <VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
