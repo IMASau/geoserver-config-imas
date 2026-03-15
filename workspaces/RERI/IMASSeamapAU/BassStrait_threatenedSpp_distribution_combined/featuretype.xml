@@ -1,17 +1,19 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1bc065f3:19cf204b235:-7efc</id>
-  <name>BassStrait_threatenedSpp_distribution_refined</name>
-  <nativeName>RERI14_BassStrait_threatenedSpp_refined_distributions</nativeName>
+  <id>FeatureTypeInfoImpl-1bc065f3:19cf3752575:-5f58</id>
+  <name>BassStrait_threatenedSpp_distribution_combined</name>
+  <nativeName>RERI14_BassStrait_threatenedSpp_combined_distributions</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait threatened species distribution polygons: refined categorical distributions</title>
+  <title>Bass Strait threatened species presence distribution polygons (refined + SNES combined)</title>
   <abstract>Refined presence distribution polygons for threatened and endangered benthic-associated species occurring on the Bass Strait continental shelf (&lt;250 m depth).&#xd;
 &#xd;
-Modelled species distributions were extracted from the public Species of National Environmental Significance (SNES) database. These distributions were refined by applying spatial constraints derived from supporting environmental datasets, including bathymetry (depth) and habitat suitability information. A threshold-based system was applied to remove low-confidence areas and restrict distributions to ecologically plausible environments, producing a regionally consistent representation of the level of support (high vs. medium) for the occurrence of threatened benthic and demersal species within Bass Strait.</abstract>
+Modelled species distributions were extracted from the public Species of National Environmental Significance (SNES) database. These distributions were refined by applying spatial constraints derived from supporting environmental datasets, including bathymetry (depth) and habitat suitability information. A threshold-based system was applied to remove low-confidence areas and restrict distributions to ecologically plausible environments, producing a regionally consistent representation of the level of support (high vs. medium) for the occurrence of threatened benthic and demersal species within Bass Strait.&#xd;
+&#xd;
+This layer package includes both the original SNES and refined (thresholded) distribution of polygons, and is intended for mapping purposes only.</abstract>
   <keywords>
     <string>features</string>
-    <string>RERI14_BassStrait_threatenedSpp_refined_distributions</string>
+    <string>RERI14_BassStrait_threatenedSpp_combined_distributions</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 

@@ -5,8 +5,11 @@
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait threatened species likelihood of occurrence (masked: shelf + AoI)</title>
+  <title>Bass Strait threatened species presence distribution polygons (masked: shelf + AoI)</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>Presence distribution polygons for threatened and endangered benthic-associated species occurring on the Bass Strait continental shelf (&lt;250 m depth). Distribution polygons were sourced from the public Species of National Environmental Significance (SNES) database, and filtered to include only benthic and demersal taxa.&#xd;
+&#xd;
+The original SNES distribution polygons were clipped to the 250 m depth contour and inshore estuaries and embayments excluded to constrain the dataset to the RERI 14 project Area of Interest within Bass Strait.</abstract>
   <keywords>
     <string>threatenedSpp_LikelihoodIndex_multiband</string>
     <string>WCS</string>
