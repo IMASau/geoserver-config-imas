@@ -39,6 +39,9 @@ Modelled species distributions were extracted from the public Species of Nationa
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--488987c8:198640846b2:-4f6</id>
   </store>

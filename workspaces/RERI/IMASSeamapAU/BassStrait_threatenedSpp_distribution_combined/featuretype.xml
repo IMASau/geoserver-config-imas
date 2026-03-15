@@ -41,6 +41,9 @@ This layer package includes both the original SNES and refined (thresholded) dis
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--488987c8:198640846b2:-4f6</id>
   </store>
