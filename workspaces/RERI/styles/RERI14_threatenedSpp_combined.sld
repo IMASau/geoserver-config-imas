@@ -26,7 +26,7 @@
           <PolygonSymbolizer>           
             <Fill>
               <CssParameter name="fill">#00e673</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>			  
+              <CssParameter name="fill-opacity">0.6</CssParameter>			  
             </Fill>     
           </PolygonSymbolizer>            
         </Rule> 
@@ -41,12 +41,12 @@
           <PolygonSymbolizer>           
             <Fill>
               <CssParameter name="fill">#d633ff</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>			  
+              <CssParameter name="fill-opacity">0.6</CssParameter>			  
             </Fill>     
           </PolygonSymbolizer>            
         </Rule>   
         <Rule>
-          <Title>High support for species (RERI14 refined)</Title>
+          <Title>High support for species (RERI)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_C</ogc:PropertyName>
@@ -60,8 +60,8 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#009976</CssParameter>
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke">#bfff00</CssParameter>
+                      <CssParameter name="stroke-width">2.5</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>9</Size>
@@ -71,7 +71,7 @@
           </PolygonSymbolizer>          
         </Rule> 
         <Rule>
-          <Title>Moderate support for species (RERI14 refined)</Title>
+          <Title>Moderate support for species (RERI)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>PRESENCE_C</ogc:PropertyName>
@@ -85,8 +85,8 @@
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#aa00ff</CssParameter>
-                      <CssParameter name="stroke-width">3</CssParameter>
+                      <CssParameter name="stroke">#7200ff</CssParameter>
+                      <CssParameter name="stroke-width">2.5</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>9</Size>

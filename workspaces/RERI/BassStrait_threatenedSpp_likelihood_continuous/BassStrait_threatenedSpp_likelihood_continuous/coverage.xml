@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-53b06053:19cee837df3:7117</id>
-  <name>Bass Strait threatened species likelihood of occurrence (masked: shelf + AoI)</name>
+  <name>BassStrait_threatenedSpp_likelihood_continuous</name>
   <nativeName>BassStrait_threatenedSpp_likelihood_continuous</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait threatened species presence distribution polygons (masked: shelf + AoI)</title>
+  <title>Bass Strait threatened species likelihood of occurrence (masked: shelf + AoI)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>A continuous &apos;likelihood of occurrence&apos; index for threatened and endangered benthic-associated species occurring on the Bass Strait continental shelf (&lt;250 m depth).</abstract>
   <keywords>

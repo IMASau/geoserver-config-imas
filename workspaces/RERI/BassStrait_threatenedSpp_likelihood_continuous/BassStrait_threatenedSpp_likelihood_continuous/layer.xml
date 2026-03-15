@@ -1,5 +1,5 @@
 <layer>
-  <name>Bass Strait threatened species likelihood of occurrence (masked: shelf + AoI)</name>
+  <name>BassStrait_threatenedSpp_likelihood_continuous</name>
   <id>LayerInfoImpl-53b06053:19cee837df3:7118</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -132,5 +132,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-03-15 12:53:15.864 UTC</dateCreated>
-  <dateModified>2026-03-15 22:03:10.398 UTC</dateModified>
+  <dateModified>2026-03-15 22:51:11.866 UTC</dateModified>
 </layer>
