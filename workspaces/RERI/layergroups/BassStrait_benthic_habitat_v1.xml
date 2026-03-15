@@ -3,7 +3,7 @@
   <name>BassStrait_benthic_habitat_v1</name>
   <mode>SINGLE</mode>
   <title>Bass Strait regional habitat model - probability</title>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
@@ -33,5 +33,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-09-17 09:12:40.443 UTC</dateCreated>
-  <dateModified>2026-03-14 02:48:01.23 UTC</dateModified>
+  <dateModified>2026-03-15 04:11:39.189 UTC</dateModified>
 </layerGroup>
