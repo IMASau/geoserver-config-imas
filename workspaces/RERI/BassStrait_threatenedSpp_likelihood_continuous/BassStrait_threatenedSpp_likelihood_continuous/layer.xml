@@ -1,0 +1,50 @@
+<layer>
+  <name>BassStrait_threatenedSpp_likelihood_continuous</name>
+  <id>LayerInfoImpl-53b06053:19cee837df3:7118</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-53b06053:19cee837df3:711b</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:711b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:711c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:7125</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:711e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:7123</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:7126</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:7120</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:711d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:7127</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-53b06053:19cee837df3:711f</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-53b06053:19cee837df3:7117</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2026-03-15 12:53:15.864 UTC</dateCreated>
+  <dateModified>2026-03-15 12:58:30.962 UTC</dateModified>
+</layer>
