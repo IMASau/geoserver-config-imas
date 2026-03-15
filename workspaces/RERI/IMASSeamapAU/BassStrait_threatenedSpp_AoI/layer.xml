@@ -1,0 +1,17 @@
+<layer>
+  <name>BassStrait_threatenedSpp_AoI</name>
+  <id>LayerInfoImpl-53b06053:19cee837df3:7337</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-53b06053:19cee837df3:7344</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-53b06053:19cee837df3:7336</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-03-15 13:36:28.340 UTC</dateCreated>
+  <dateModified>2026-03-15 13:43:03.54 UTC</dateModified>
+</layer>
