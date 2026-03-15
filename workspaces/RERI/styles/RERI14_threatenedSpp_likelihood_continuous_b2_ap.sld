@@ -21,12 +21,12 @@
             </ChannelSelection>              
             <ColorMap type="ramp">
               <ColorMapEntry color="#2a186c" quantity="0"/>
-              <ColorMapEntry color="#14439c" quantity="0.16"/>                              
-              <ColorMapEntry color="#206e8b" quantity="0.33" />              
-              <ColorMapEntry color="#3c9387" quantity="0.5" />              
-              <ColorMapEntry color="#5ab978" quantity="0.66" />                            
-              <ColorMapEntry color="#aad85c" quantity="0.83" />              
-              <ColorMapEntry color="#fdef9a" quantity="1.0" />             
+              <ColorMapEntry color="#14439c" quantity="0.12"/>                              
+              <ColorMapEntry color="#206e8b" quantity="0.24" />              
+              <ColorMapEntry color="#3c9387" quantity="0.36" />              
+              <ColorMapEntry color="#5ab978" quantity="0.48" />                            
+              <ColorMapEntry color="#aad85c" quantity="0.60" />              
+              <ColorMapEntry color="#fdef9a" quantity="0.72" />             
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -37,12 +37,12 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="101" label="Likelihood of occurrence" />
-              <ColorMapEntry color="#fdef9a" quantity="1.0" label="  high support" />
-              <ColorMapEntry color="#aad85c" quantity="0.83" />
-              <ColorMapEntry color="#5ab978" quantity="0.66" />              
-              <ColorMapEntry color="#3c9387" quantity="0.5" label="  medium support" />
-              <ColorMapEntry color="#206e8b" quantity="0.33" />
-              <ColorMapEntry color="#14439c" quantity="0.16" />              
+              <ColorMapEntry color="#fdef9a" quantity="0.72" label="  high support" />
+              <ColorMapEntry color="#aad85c" quantity="0.60" />
+              <ColorMapEntry color="#5ab978" quantity="0.48" />              
+              <ColorMapEntry color="#3c9387" quantity="0.36" label="  medium support" />
+              <ColorMapEntry color="#206e8b" quantity="0.24" />
+              <ColorMapEntry color="#14439c" quantity="0.12" />              
               <ColorMapEntry color="#2a186c" quantity="0" label="  low support"/>
             </ColorMap>
           </RasterSymbolizer>
