@@ -127,10 +127,12 @@ h5 {
 }
 
 h6 {
-	letter-spacing: 1px;
-	font-size: 13px;
+	letter-spacing: 1.3px;
+	font-size: 11px;
 	font-weight: 400;
-	line-height: 20px;
+	font-size:95%; 
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 i { color: #9a9a9a; }
