@@ -5,7 +5,13 @@
   "Moderate support for species or species habitat":"#7200ff"
 }>
 
-<h5 style="margin:0 0 12px 0;">Threatened species distributions (Bass Strait)</h5>
+<#list features as feature>
+  <#if feature_index == 0>
+    <h6 style="margin:0 0 8px 0; font-size: 11.5px;">
+      <b>${feature.VERNACULAR.value}</b> (<span style="font-style:italic;">${feature.SCIENTIFIC.value}</span>)
+    </h6>
+  </#if>
+</#list>
 
 <#list features as feature>
   <#if feature_index < 2>
@@ -15,7 +21,6 @@
 
     <div class="feature" style="padding-bottom:6px;">
       <div style="border-left:6px solid ${bandColor}; padding-left:10px;">
-        <h6>${feature.VERNACULAR.value} (<span style="font-style:italic;">${feature.SCIENTIFIC.value}</span>)</h6>
         <ul style="margin:0; padding-left:14px; line-height:1.6em; list-style-position:outside;">
           <li style="padding-left:0px;"><b>Presence category <#if feature.SOURCE.value == "SNES">(SPRAT)<#else>(RERI refined)</#if>:</b> <i>${feature.PRESENCE_C.value}</i></li>
         </ul>
