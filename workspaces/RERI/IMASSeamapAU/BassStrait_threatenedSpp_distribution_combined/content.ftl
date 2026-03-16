@@ -15,7 +15,7 @@
 
     <div class="feature" style="padding-bottom:6px;">
       <div style="border-left:6px solid ${bandColor}; padding-left:10px;">
-        <h6>${feature.VERNACULAR.value} <span style="font-style:italic;">${feature.SCIENTIFIC.value}</span></h6>
+        <h6>${feature.VERNACULAR.value} (<span style="font-style:italic;">${feature.SCIENTIFIC.value}</span>)</h6>
         <ul style="margin:0; padding-left:14px; line-height:1.6em; list-style-position:outside;">
           <li style="padding-left:0px;"><b>Presence category <#if feature.SOURCE.value == "SNES">(SPRAT)<#else>(RERI refined)</#if>:</b> <i>${feature.PRESENCE_C.value}</i></li>
         </ul>
