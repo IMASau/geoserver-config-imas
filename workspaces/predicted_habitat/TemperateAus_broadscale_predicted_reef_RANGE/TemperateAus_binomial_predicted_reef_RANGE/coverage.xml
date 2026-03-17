@@ -7,7 +7,7 @@
   </namespace>
   <title>Mean prediction of reef occurrence in temperate Australian waters</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>This multiband raster contains the mean posterior prediction of reef occurrence in temperate Australian waters (band 2), with 25% lower credible interval (band 1) and 75% upper credible interval (band 3) included for display in popups.</abstract>
+  <abstract>This multiband raster contains the mean posterior prediction of functional reef occurrence in temperate Australian waters (band 2), with 25% lower credible interval (band 1) and 75% upper credible interval (band 3) included for display in popups.</abstract>
   <keywords>
     <string>binomial_preds_reef_range_multi</string>
     <string>WCS</string>
@@ -49,6 +49,8 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
