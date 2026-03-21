@@ -16,7 +16,7 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>19</SourceChannelName>
+                <SourceChannelName>8</SourceChannelName>
               </GrayChannel>
             </ChannelSelection>              
             <ColorMap type="ramp">
