@@ -1,11 +1,11 @@
 <#list features as feature>
-  <#assign maxBarWidth = 120>
+  <#assign maxBarWidth = 100>
 
   <#assign habitats = []>
 
   <#if feature.prob_BARE_SEDIMENT?? && feature.sd_BARE_SEDIMENT??>
     <#assign habitats = habitats + [{
-      "label": "Bare Rock substrata",
+      "label": "Bare Sediment",
       "prob": feature.prob_BARE_SEDIMENT.value?number,
       "sd": feature.sd_BARE_SEDIMENT.value?number,
       "color": "#fff34d"
@@ -41,7 +41,7 @@
 
   <#if feature.prob_BARE_ROCK?? && feature.sd_BARE_ROCK??>
     <#assign habitats = habitats + [{
-      "label": "Bare Sediment substrata",
+      "label": "Bare Rock",
       "prob": feature.prob_BARE_ROCK.value?number,
       "sd": feature.sd_BARE_ROCK.value?number,
       "color": "#663300"
@@ -59,9 +59,9 @@
   <#if validHabitats?size gt 0>
     <#assign sortedHabitats = validHabitats?sort_by("prob")?reverse>
 
-    <div class="feature" style="padding-top: 5px; padding-bottom: 2px;">
-      <h5 style="padding-bottom:7px;">Bass Strait: prob. benthic habitats <span style="color: #ff0000;">V3</span></h5>
-
+    <div class="feature" style="padding-top: 5px;">
+      <h5 style="padding-bottom:6px;">Bass Strait benthic habitats</h5>
+      <h6 style=padding-bottom:6px;"><i>Probability &#177; Standard Deviation</i></h6>
       <#list sortedHabitats as h>
         <#if h.prob < 0.001>
           <div style="display: flex; align-items: center; padding-bottom: 2px;">
