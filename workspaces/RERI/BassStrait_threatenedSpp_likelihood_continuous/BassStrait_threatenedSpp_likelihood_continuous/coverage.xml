@@ -137,34 +137,6 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Centrophorus_harrissoni</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>-9999.0</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
-      <name>Centrophorus_uyato</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>-9999.0</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
       <name>Chelonia_mydas</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
