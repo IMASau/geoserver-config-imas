@@ -11,7 +11,7 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>2</SourceChannelName> <!-- Band 2 is BARE UNCONSOLIDATED habitat -->
+                <SourceChannelName>2</SourceChannelName> <!-- Band 2 is BARE SEDIMENT habitat -->
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">              
@@ -84,7 +84,7 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is BARE CONSOLIDATED habitat -->
+                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is BARE ROCK habitat -->
               </GrayChannel>
             </ChannelSelection>            
             <ColorMap type="ramp">              
@@ -103,14 +103,14 @@
         <Rule>
           <RasterSymbolizer>          
             <ColorMap type="ramp"> 
-              <!-- BARE CONSOLIDATED ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare consolidated)"/>
+              <!-- BARE ROCK ramp -->                          
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare rock)"/>
               <ColorMapEntry color="#663300" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#663300" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#663300" opacity="0.1" quantity="0" label="  0.0"/> 
               
-              <!-- BARE UNCONSOLIDATED ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare unconsolidated)"/>
+              <!-- BARE SEDIMENT ramp -->                          
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare sediment)"/>
               <ColorMapEntry color="#fff899" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#fff899" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#fff899" opacity="0.1" quantity="0" label="  0.0"/>  

@@ -81,7 +81,7 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>prob_BARE_CONSOLIDATED</name>
+      <name>prob_BARE_ROCK</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -95,7 +95,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>prob_BARE_UNCONSOLIDATED</name>
+      <name>prob_BARE_SEDIMENT</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -151,7 +151,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>sd_BARE_CONSOLIDATED</name>
+      <name>sd_BARE_ROCK</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -165,7 +165,7 @@
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>sd_BARE_UNCONSOLIDATED</name>
+      <name>sd_BARE_SEDIMENT</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>

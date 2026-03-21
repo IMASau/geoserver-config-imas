@@ -3,11 +3,11 @@
 
   <#assign habitats = []>
 
-  <#if feature.prob_BARE_UNCONSOLIDATED?? && feature.sd_BARE_UNCONSOLIDATED??>
+  <#if feature.prob_BARE_SEDIMENT?? && feature.sd_BARE_SEDIMENT??>
     <#assign habitats = habitats + [{
-      "label": "Bare Unconsolidated substrata",
-      "prob": feature.prob_BARE_UNCONSOLIDATED.value?number,
-      "sd": feature.sd_BARE_UNCONSOLIDATED.value?number,
+      "label": "Bare Rock substrata",
+      "prob": feature.prob_BARE_SEDIMENT.value?number,
+      "sd": feature.sd_BARE_SEDIMENT.value?number,
       "color": "#fff34d"
     }]>
   </#if>
@@ -39,11 +39,11 @@
     }]>
   </#if>
 
-  <#if feature.prob_BARE_CONSOLIDATED?? && feature.sd_BARE_CONSOLIDATED??>
+  <#if feature.prob_BARE_ROCK?? && feature.sd_BARE_ROCK??>
     <#assign habitats = habitats + [{
-      "label": "Bare Consolidated substrata",
-      "prob": feature.prob_BARE_CONSOLIDATED.value?number,
-      "sd": feature.sd_BARE_CONSOLIDATED.value?number,
+      "label": "Bare Sediment substrata",
+      "prob": feature.prob_BARE_ROCK.value?number,
+      "sd": feature.sd_BARE_ROCK.value?number,
       "color": "#663300"
     }]>
   </#if>
