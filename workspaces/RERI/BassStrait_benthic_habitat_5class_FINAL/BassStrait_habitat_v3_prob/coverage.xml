@@ -48,8 +48,6 @@
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -245,5 +243,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>BassStrait_habitat_v3_prob_sd_multiband</nativeCoverageName>
+  <nativeCoverageName>BassStrait_benthic_habitat_5class_prob_stdev_stack</nativeCoverageName>
 </coverage>

@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-53b06053:19ce8adf603:-5539</id>
-  <name>BassStrait_habitat_v3_prob</name>
-  <description>Bass Strait regional habitat model (v2) - Probability and Standard Deviation</description>
+  <name>BassStrait_benthic_habitat_5class_FINAL</name>
+  <description>Bass Strait regional-scale benthic habitat (5-class) - Probability and Standard Deviation</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
@@ -9,7 +9,7 @@
   </workspace>
   <__default>false</__default>
   <dateCreated>2026-03-14 02:16:08.863 UTC</dateCreated>
-  <dateModified>2026-03-21 04:36:36.458 UTC</dateModified>
+  <dateModified>2026-03-22 03:27:58.601 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/RERI14/data/regional/BassStrait_habitat_v3_prob_sd_multiband.tif</url>
+  <url>file:///mnt/rdsi/attachments/RERI14/data/regional/BassStrait_benthic_habitat_5class_prob_stdev_stack.tif</url>
 </coverageStore>
