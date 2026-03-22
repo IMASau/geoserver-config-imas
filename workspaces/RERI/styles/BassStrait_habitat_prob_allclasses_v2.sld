@@ -104,7 +104,7 @@
           <RasterSymbolizer>          
             <ColorMap type="ramp"> 
               <!-- BARE CONSOLIDATED ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare consolidated)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Bare consolidated)"/>
               <ColorMapEntry color="#663300" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#663300" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#663300" opacity="0.1" quantity="0" label="  0.0"/> 
