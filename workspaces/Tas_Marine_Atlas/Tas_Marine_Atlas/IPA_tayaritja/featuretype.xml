@@ -47,7 +47,6 @@
   <serviceConfiguration>true</serviceConfiguration>
   <disabledServices>
     <string>WPS</string>
-    <string>WFS</string>
   </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
