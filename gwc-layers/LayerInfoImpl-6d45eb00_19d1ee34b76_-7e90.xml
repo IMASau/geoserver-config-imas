@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-53b06053:19ce8adf603:-5536</id>
+  <id>LayerInfoImpl-6d45eb00:19d1ee34b76:-7e90</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>RERI:BassStrait_habitat_v3_prob</name>
+  <name>RERI:BassStrait_benthic_habitat_5class</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
@@ -17,7 +17,17 @@
           <double>-4438179.90353327</double>
         </coords>
       </extent>
-      <maxCachedLevel>10</maxCachedLevel>
+    </gridSubset>
+    <gridSubset>
+      <gridSetName>EPSG:4326</gridSetName>
+      <extent>
+        <coords>
+          <double>142.9943500000009</double>
+          <double>-42.0102499999982</double>
+          <double>150.00355000006758</double>
+          <double>-36.99334999995048</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

@@ -60,7 +60,7 @@
     <#assign sortedHabitats = validHabitats?sort_by("prob")?reverse>
 
     <div class="feature" style="padding-top: 5px;">
-      <h5 style="padding-bottom:6px;">Bass Strait benthic habitats</h5>
+      <h5 style="padding-bottom:6px;">Bass Strait broad-scale benthic habitat</h5>
       <h6 style=padding-bottom:6px;"><i>Probability &#177; Standard Deviation</i></h6>
       <#list sortedHabitats as h>
         <#if h.prob < 0.001>

@@ -1,15 +1,15 @@
 <coverage>
-  <id>CoverageInfoImpl-53b06053:19ce8adf603:-5537</id>
-  <name>BassStrait_habitat_v3_prob</name>
-  <nativeName>BassStrait_habitat_v3_prob</nativeName>
+  <id>CoverageInfoImpl-6d45eb00:19d1ee34b76:-7e91</id>
+  <name>BassStrait_benthic_habitat_5class</name>
+  <nativeName>BassStrait_benthic_habitat_5class</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model (v3): mean Probability and Standard Deviation</title>
+  <title>Bass Strait regional-scale benthic habitat: 5-class model</title>
   <description>Generated from GeoTIFF</description>
   <abstract>v3 incorporates additional ground-truthing and removes the GA broad-scale geomorphology input (relative to v2).</abstract>
   <keywords>
-    <string>BassStrait_habitat_v3_prob_sd_multiband</string>
+    <string>BassStrait_benthic_habitat_5class_prob_stdev_stack</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -41,10 +41,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">BassStrait_habitat_v3_prob_BassStrait_habitat_v3_prob_sd_multiband</entry>
+    <entry key="dirName">BassStrait_benthic_habitat_5class_BassStrait_benthic_habitat_5class_prob_stdev_stack</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-53b06053:19ce8adf603:-5539</id>
+    <id>CoverageStoreInfoImpl-6d45eb00:19d1ee34b76:-7ee3</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -67,11 +67,11 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
+    <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
-    <string>GEOTIFF</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
