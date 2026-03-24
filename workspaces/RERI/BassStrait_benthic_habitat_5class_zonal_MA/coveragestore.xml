@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-6d45eb00:19d1ee34b76:-78f6</id>
+  <name>BassStrait_benthic_habitat_5class_zonal_MA</name>
+  <description>Bass Strait mean probability of Macroalgae habitat zoned within geomorphic features: 5-class model</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2026-03-24 08:46:25.737 UTC</dateCreated>
+  <dateModified>2026-03-24 08:47:01.982 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/RERI14/data/regional/geomorph_surrogacy/BassStrait_zonal_mean_geomorph_Macroalgae.tif</url>
+</coverageStore>
