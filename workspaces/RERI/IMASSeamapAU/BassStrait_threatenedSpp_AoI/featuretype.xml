@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
   <title>Bass Strait threatened species: Area of Interest</title>
+  <abstract>FOR USE IN LAYER GROUP ONLY - NOT FOR SINGLE PUBLICATION</abstract>
   <keywords>
     <string>features</string>
     <string>RERI14_BassStrait_threatenedSpp_AOI</string>
@@ -36,6 +37,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
