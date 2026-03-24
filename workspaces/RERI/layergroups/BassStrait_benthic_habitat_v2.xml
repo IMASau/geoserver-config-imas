@@ -4,6 +4,7 @@
   <mode>SINGLE</mode>
   <title>Bass Strait regional habitat model (v2): mean probability (hillshade backdrop)</title>
   <abstractTxt>v2 incorporates extra ground-truthing and GA broad-scale Bass Strait geomorph product. Includes Bass Strait 30m DEM hillshade backdrop.</abstractTxt>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
@@ -33,5 +34,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2025-11-13 22:46:58.198 UTC</dateCreated>
-  <dateModified>2026-03-14 02:53:10.214 UTC</dateModified>
+  <dateModified>2026-03-24 09:05:27.794 UTC</dateModified>
 </layerGroup>
