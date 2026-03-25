@@ -33,7 +33,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" quantity="1000" opacity="0.0000001" label="Mean probability of habitat" />
+              <ColorMapEntry color="#ffffff" quantity="1000" opacity="0.0000001" label="Probability of habitat class" />
               <ColorMapEntry color="#d53e4f" quantity="0.9" label="  &gt;0.8"/>              
               <ColorMapEntry color="#f46d43" quantity="0.8" label="    0.8" />                            
               <ColorMapEntry color="#fdae61" quantity="0.7" label="    0.7"/>              

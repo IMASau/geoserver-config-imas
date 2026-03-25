@@ -19,6 +19,7 @@
               <CssParameter name="opacity">0.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
         </Rule>
 
         <Rule>
