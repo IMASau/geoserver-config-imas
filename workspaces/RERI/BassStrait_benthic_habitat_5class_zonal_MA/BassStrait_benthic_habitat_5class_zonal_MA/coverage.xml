@@ -39,6 +39,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">BassStrait_benthic_habitat_5class_zonal_MA_BassStrait_geomorph_Macroalgae_zonal_mean_stdev_stack</entry>
