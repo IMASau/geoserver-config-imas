@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-6d45eb00:19d24c1835d:-2bd8</id>
+  <name>BassStrait_benthic_habitat_5class_zonal_BR_stack</name>
+  <mode>SINGLE</mode>
+  <title>Bass Strait mean probability of Bare Rock habitat within geomorphic features</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-6d45eb00:19d226b9611:-4585</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-6d45eb00:19d24c1835d:-2bdc</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-6d45eb00:19d1ee34b76:-79f1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6d45eb00:19d24c1835d:-2be0</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>143.00065000000097</minx>
+    <maxx>149.99935000006758</maxx>
+    <miny>-41.999449999998106</miny>
+    <maxy>-37.00054999995052</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2026-03-25 14:03:47.163 UTC</dateCreated>
+</layerGroup>
