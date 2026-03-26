@@ -12,34 +12,8 @@
       <FeatureTypeStyle>
 
         <Rule>
-          <Title>Mean probability of\n---Sessile Invertebrates---\nin geomorphic unit</Title>
-          <VendorOption name="inclusion">legendOnly</VendorOption>          
-        </Rule>
-        
-        <Rule>
-          <Title>0.9 - 1.0</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>SI_mean</ogc:PropertyName>
-                <ogc:Literal>0.9</ogc:Literal>
-              </ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SI_mean</ogc:PropertyName>
-                <ogc:Literal>1.0</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#d53e4f</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
-              <CssParameter name="opacity">0.5</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
+          <Title>Prob. Sessile Invertebrates</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
         </Rule>
 
         <Rule>
@@ -58,7 +32,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f46d43</CssParameter>
+              <CssParameter name="fill">#d12e41</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -84,7 +58,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fdae61</CssParameter>
+              <CssParameter name="fill">#f46d43</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -110,7 +84,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fee08b</CssParameter>
+              <CssParameter name="fill">#fdae61</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -136,7 +110,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ffffbf</CssParameter>
+              <CssParameter name="fill">#fee08b</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -162,7 +136,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e6f598</CssParameter>
+              <CssParameter name="fill">#ffffb3</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -188,7 +162,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#abdda4</CssParameter>
+              <CssParameter name="fill">#ccebad</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -240,7 +214,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#3288bd</CssParameter>
+              <CssParameter name="fill">#3691c9</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -266,7 +240,7 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#33259d</CssParameter>
+              <CssParameter name="fill">#1f5993</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
