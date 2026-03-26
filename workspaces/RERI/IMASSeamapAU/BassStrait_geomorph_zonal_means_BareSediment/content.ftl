@@ -3,7 +3,7 @@
 <#list features as feature>
   <#if feature_index < 3>
 
-    <#assign probRaw = feature.SI_mean.value!>
+    <#assign probRaw = feature.BS_mean.value!>
     <#assign probColor = "#a6a6a6">
     <#assign probText = "#000000">
 
@@ -45,7 +45,7 @@
 
     <div class="feature" style="padding-top:5px; padding-bottom:5px;">
       <#if feature_index == 0>
-        <h5 style="padding-bottom:6px;">Sessile Invertebrates</h5>
+        <h5 style="padding-bottom:6px;">Bare Sediment</h5>
         <h6 style="padding-bottom:6px;"><i>Zonal mean per geomorphic unit</i></h6>
       </#if>
 
@@ -66,8 +66,8 @@
               border-radius:3.5px;
               display:inline-block;
             ">
-              ${feature.SI_mean.value?number}
-              <span style="font-style:italic;"> &#177; ${feature.SI_stdev.value?number}</span>
+              ${feature.BS_mean.value?number}
+              <span style="font-style:italic;"> &#177; ${feature.BS_stdev.value?number}</span>
             </span>
           </li>
         </ul>
