@@ -1,0 +1,16 @@
+<layer>
+  <name>BassStrait_geomorph_zonal_means_Seagrass</name>
+  <id>LayerInfoImpl-6d45eb00:19d27e777f4:2586</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6d45eb00:19d27e777f4:1e64</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6d45eb00:19d27e777f4:2585</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-03-26 02:31:28.851 UTC</dateCreated>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>BassStrait_geomorph_zonal_means_SessileInverts</name>
+  <id>LayerInfoImpl-6d45eb00:19d27e777f4:257e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6d45eb00:19d27e777f4:2167</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6d45eb00:19d27e777f4:257d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-03-26 02:30:43.370 UTC</dateCreated>
+</layer>
