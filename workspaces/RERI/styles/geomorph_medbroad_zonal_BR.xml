@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-6d45eb00:19d24c1835d:-2be0</id>
-  <name>geomorph_medbroad_flattened_AOI_overlay</name>
+  <name>geomorph_medbroad_zonal_BR</name>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>geomorph_medbroad_flattened_AOI_overlay.sld</filename>
+  <filename>geomorph_medbroad_zonal_BR.sld</filename>
   <dateCreated>2026-03-25 13:51:55.451 UTC</dateCreated>
-  <dateModified>2026-03-25 20:36:57.190 UTC</dateModified>
+  <dateModified>2026-03-26 02:22:32.889 UTC</dateModified>
 </style>
