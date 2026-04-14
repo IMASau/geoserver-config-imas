@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <Title>Habitat probability of occurrence</Title>
   <NamedLayer>
-    <Name>Bass Strait regional-scale benthic habitat (v3)</Name>
+    <Name>Bass Strait regional-scale benthic habitat</Name>
     <UserStyle>
       <FeatureTypeStyle>        
         <Rule>

@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-53b06053:19ce8adf603:-5547</id>
-  <name>BassStrait_habitat_prob_allclasses_v3</name>
+  <name>BassStrait_benthic_habitat_prob_allclasses</name>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>BassStrait_habitat_prob_allclasses_v3.sld</filename>
+  <filename>BassStrait_benthic_habitat_prob_allclasses.sld</filename>
   <dateCreated>2026-03-14 02:11:41.275 UTC</dateCreated>
-  <dateModified>2026-03-21 04:23:26.0 UTC</dateModified>
+  <dateModified>2026-04-14 06:24:13.114 UTC</dateModified>
 </style>
