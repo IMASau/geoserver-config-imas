@@ -1,19 +1,20 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--5de17116:19956dbe022:129d</id>
+  <id>LayerInfoImpl--5f0f557:1885f90730c:6bad</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>RERI:BassStrait_habitat_regional_prob_v1</name>
+  <name>seamap:MARS_Folk_textural_class</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <maxCachedLevel>6</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
-    <int>8</int>
-    <int>8</int>
+    <int>4</int>
+    <int>4</int>
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
@@ -22,9 +23,9 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>RERI:BassStrait_habitat_prob_allclasses_v1</defaultStyle>
+      <defaultStyle>seamap:MARS_Folk_sediment_textural_class</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
-  <gutter>20</gutter>
+  <gutter>0</gutter>
   <cacheWarningSkips/>
 </GeoServerTileLayer>
