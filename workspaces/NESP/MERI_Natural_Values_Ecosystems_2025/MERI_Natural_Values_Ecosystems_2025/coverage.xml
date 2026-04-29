@@ -42,6 +42,7 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">MERI_Natural_Values_Ecosystems_2025_nvcl-ecosystem-types-2025v0.1_styled</entry>
   </metadata>
   <store class="coverageStore">
@@ -68,15 +69,11 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>ArcGrid</string>
-    <string>GeoPackage (mosaic)</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
     <string>GEOTIFF</string>
-    <string>MBTiles</string>
-    <string>ImageMosaic</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
