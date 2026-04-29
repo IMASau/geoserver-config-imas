@@ -83,7 +83,7 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>PALETTE_INDEX</name>
+      <name>GRAY_INDEX</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
