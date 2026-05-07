@@ -152,7 +152,7 @@
               <ogc:Literal>highlight</ogc:Literal>		
             </ogc:PropertyIsEqualTo>				
           </ogc:Filter>	
-          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MinScaleDenominator>300000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
   			 <Graphic>
@@ -172,7 +172,7 @@
               <ogc:Literal>representative</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MinScaleDenominator>300000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
   			 <Graphic>
@@ -192,7 +192,7 @@
               <ogc:Literal>regional compilation</ogc:Literal>		
             </ogc:PropertyIsEqualTo>			
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MinScaleDenominator>300000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  		  
           <PointSymbolizer>
   			 <Graphic>
@@ -212,7 +212,7 @@
               <ogc:Literal>3D model</ogc:Literal>		
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>		
-          <MinScaleDenominator>150000</MinScaleDenominator> 
+          <MinScaleDenominator>300000</MinScaleDenominator> 
           <MaxScaleDenominator>4000000</MaxScaleDenominator>           		  
           <PointSymbolizer>
   			 <Graphic>
@@ -235,7 +235,7 @@
             </ogc:PropertyIsEqualTo>				
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
-          <MaxScaleDenominator>150000</MaxScaleDenominator>           
+          <MaxScaleDenominator>300000</MaxScaleDenominator>           
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -255,7 +255,7 @@
             </ogc:PropertyIsEqualTo>		  			
           </ogc:Filter>
           <MinScaleDenominator>10000</MinScaleDenominator>                              
-          <MaxScaleDenominator>150000</MaxScaleDenominator>           
+          <MaxScaleDenominator>300000</MaxScaleDenominator>           
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -275,7 +275,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>	
           <MinScaleDenominator>10000</MinScaleDenominator>                              
-          <MaxScaleDenominator>150000</MaxScaleDenominator>           
+          <MaxScaleDenominator>300000</MaxScaleDenominator>           
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
@@ -295,7 +295,7 @@
             </ogc:PropertyIsEqualTo>		
           </ogc:Filter>	
           <MinScaleDenominator>10000</MinScaleDenominator>                              
-          <MaxScaleDenominator>150000</MaxScaleDenominator>           
+          <MaxScaleDenominator>300000</MaxScaleDenominator>           
           <PointSymbolizer>
   			 <Graphic>
     			 <ExternalGraphic>
