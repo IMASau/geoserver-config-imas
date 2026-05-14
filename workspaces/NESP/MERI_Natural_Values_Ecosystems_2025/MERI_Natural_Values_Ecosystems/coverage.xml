@@ -50,8 +50,6 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -121,5 +119,5 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>NVCL-ecosystem-types-2025v0.11_COG</nativeCoverageName>
+  <nativeCoverageName>NVCL_Ecosystems_2025</nativeCoverageName>
 </coverage>

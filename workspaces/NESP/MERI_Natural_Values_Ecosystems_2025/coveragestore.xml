@@ -7,9 +7,17 @@
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
   <__default>false</__default>
   <dateCreated>2026-04-29 06:53:21.191 UTC</dateCreated>
-  <dateModified>2026-05-04 11:28:50.671 UTC</dateModified>
+  <dateModified>2026-05-13 23:53:35.893 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/68ccd9e6-6fd0-441c-9d97-63350a059658/NVCL-ecosystem-types-2025v0.11_COG.tif</url>
+  <url>file:///mnt/rdsi/attachments/c1612406-a807-4073-a776-8d58af19b139/NVCL_Ecosystems_2025.tif</url>
 </coverageStore>
