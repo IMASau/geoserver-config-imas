@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl--594ea81f:1967c681fee:3c30</id>
-  <name>AMP_underwater_video_highlights</name>
+  <name>AMP_underwater_video_highlights_DISABLED</name>
   <nativeName>Seamap_curated_underwater_video</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
@@ -36,7 +36,7 @@
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
-  <enabled>true</enabled>
+  <enabled>false</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
