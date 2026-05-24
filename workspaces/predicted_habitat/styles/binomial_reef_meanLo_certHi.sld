@@ -15,7 +15,7 @@
               <ogc:Literal><![CDATA[
                 b1 = src[0];
                 b2 = src[1];
-                dest = (b1 >= 0.2 && b2 < 0.005) ? 1 : 0;
+                dest = (b1 >= 0.2 && b2 < 0.01) ? 1 : 0;
               ]]></ogc:Literal>
             </ogc:Function>
           </ogc:Function>
@@ -25,7 +25,7 @@
             <Opacity>1.0</Opacity>
             <ColorMap>
               <ColorMapEntry color="#000000" quantity="0" opacity="0"/> <!-- Transparent where condition is not met -->
-              <ColorMapEntry color="#eadbcc" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
+              <ColorMapEntry color="#eed3ba" quantity="1" opacity="1"/> <!-- Brown where condition is met -->
             </ColorMap>
           </RasterSymbolizer>
  		 <VendorOption name="inclusion">mapOnly</VendorOption>                                                               
@@ -33,7 +33,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">              
-              <ColorMapEntry color="#eadbcc" quantity="1" label="  Reef/sediment prediction" />           
+              <ColorMapEntry color="#eed3ba" quantity="1" label="  Reef/sediment prediction" />           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>
