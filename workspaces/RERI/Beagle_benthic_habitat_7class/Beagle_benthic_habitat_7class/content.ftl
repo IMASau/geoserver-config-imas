@@ -79,7 +79,7 @@
 
     <div class="feature" style="padding-top: 5px;">
       <h5 style="padding-bottom:6px;">Beagle fine-scale benthic habitat</h5>
-      <h6 style=padding-bottom:6px;"><i>Probability &#177; Standard Deviation</i></h6>
+      <h6 style="padding-bottom:6px;"><i>Probability &#177; Standard Deviation</i></h6>
       <#list sortedHabitats as h>
         <#if h.prob < 0.001>
           <div style="display: flex; align-items: center; padding-bottom: 2px;">
