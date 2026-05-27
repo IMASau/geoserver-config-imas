@@ -104,31 +104,31 @@
           <RasterSymbolizer>          
             <ColorMap type="ramp"> 
               <!-- BARE ROCK ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare rock)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Bare Rock"/>
               <ColorMapEntry color="#663300" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#663300" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#663300" opacity="0.1" quantity="0" label="  0.0"/> 
               
               <!-- BARE SEDIMENT ramp -->                          
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (bare sediment)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Bare Sediment"/>
               <ColorMapEntry color="#fff899" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#fff899" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#fff899" opacity="0.1" quantity="0" label="  0.0"/>  
               
               <!-- MACROALGAE ramp -->                                        
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (macroalgae)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Nacroalgae"/>
               <ColorMapEntry color="#2e8a0f" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#2e8a0f" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#2e8a0f" opacity="0.1" quantity="0" label="  0.0"/> 
               
               <!-- SEAGRASS ramp -->                                                      
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (seagrass)"/>   
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Seagrass"/>   
               <ColorMapEntry color="#00e6e6" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#00e6e6" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#00e6e6" opacity="0.1" quantity="0" label="  0.0"/>               
               
               <!-- SESSILE INVERTEBRATES ramp -->                                       
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Probability (sessile invertebrates)"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Sessile Invertebrates"/>
               <ColorMapEntry color="#9e2e88" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#9e2e88" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#9e2e88" opacity="0.1" quantity="0" label="  0.0"/>   
