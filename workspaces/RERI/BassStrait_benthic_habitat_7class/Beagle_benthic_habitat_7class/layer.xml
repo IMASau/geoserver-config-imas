@@ -1,0 +1,17 @@
+<layer>
+  <name>Beagle_benthic_habitat_7class</name>
+  <id>LayerInfoImpl-50fd76af:19e672e8c7c:-4637</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-50fd76af:19e66fb6793:145b</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-50fd76af:19e672e8c7c:-4638</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-05-27 03:20:46.352 UTC</dateCreated>
+  <dateModified>2026-05-27 03:24:15.46 UTC</dateModified>
+</layer>
