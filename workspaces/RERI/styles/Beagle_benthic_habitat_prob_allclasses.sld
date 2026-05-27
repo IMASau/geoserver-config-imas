@@ -16,11 +16,11 @@
             </ChannelSelection>            
             <ColorMap type="ramp">              
               <ColorMapEntry color="#ff9900" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#ff9900" opacity="0.3" quantity="0.003"/>              
-              <ColorMapEntry color="#ff9900" opacity="0.5" quantity="0.006"/>            
-              <ColorMapEntry color="#ff9900" opacity="0.7" quantity="0.009"/>
-              <ColorMapEntry color="#ff9900" opacity="0.9" quantity="0.012"/>
-              <ColorMapEntry color="#ff9900" opacity="1.0" quantity="0.015"/>           
+              <ColorMapEntry color="#ff9900" opacity="0.3" quantity="0.002"/>              
+              <ColorMapEntry color="#ff9900" opacity="0.5" quantity="0.004"/>            
+              <ColorMapEntry color="#ff9900" opacity="0.7" quantity="0.006"/>
+              <ColorMapEntry color="#ff9900" opacity="0.9" quantity="0.008"/>
+              <ColorMapEntry color="#ff9900" opacity="1.0" quantity="0.010"/>           
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -35,11 +35,11 @@
             </ChannelSelection>            
             <ColorMap type="ramp">              
               <ColorMapEntry color="#00cc99" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#00cc99" opacity="0.3" quantity="0.016"/>              
-              <ColorMapEntry color="#00cc99" opacity="0.5" quantity="0.032"/>            
-              <ColorMapEntry color="#00cc99" opacity="0.7" quantity="0.048"/>
-              <ColorMapEntry color="#00cc99" opacity="0.9" quantity="0.064"/>
-              <ColorMapEntry color="#00cc99" opacity="1.0" quantity="0.080"/>           
+              <ColorMapEntry color="#00cc99" opacity="0.3" quantity="0.012"/>              
+              <ColorMapEntry color="#00cc99" opacity="0.5" quantity="0.024"/>            
+              <ColorMapEntry color="#00cc99" opacity="0.7" quantity="0.036"/>
+              <ColorMapEntry color="#00cc99" opacity="0.9" quantity="0.048"/>
+              <ColorMapEntry color="#00cc99" opacity="1.0" quantity="0.060"/>           
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -54,11 +54,11 @@
             </ChannelSelection>            
             <ColorMap type="ramp">              
               <ColorMapEntry color="#b30000" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#b30000" opacity="0.3" quantity="0.02"/>              
-              <ColorMapEntry color="#b30000" opacity="0.5" quantity="0.04"/>            
-              <ColorMapEntry color="#b30000" opacity="0.7" quantity="0.06"/>
-              <ColorMapEntry color="#b30000" opacity="0.9" quantity="0.08"/>
-              <ColorMapEntry color="#b30000" opacity="1.0" quantity="0.10"/>           
+              <ColorMapEntry color="#b30000" opacity="0.3" quantity="0.018"/>              
+              <ColorMapEntry color="#b30000" opacity="0.5" quantity="0.036"/>            
+              <ColorMapEntry color="#b30000" opacity="0.7" quantity="0.054"/>
+              <ColorMapEntry color="#b30000" opacity="0.9" quantity="0.062"/>
+              <ColorMapEntry color="#b30000" opacity="1.0" quantity="0.080"/>           
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
@@ -82,6 +82,25 @@
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>  
+
+        <Rule>
+          <RasterSymbolizer>
+            <ChannelSelection>
+              <GrayChannel>
+                <SourceChannelName>5</SourceChannelName> <!-- Band 5 is INVERTEBRATE COMPLEX habitat -->
+              </GrayChannel>
+            </ChannelSelection>            
+            <ColorMap type="ramp">              
+              <ColorMapEntry color="#4d4dff" opacity="0.1" quantity="0"/>
+              <ColorMapEntry color="#4d4dff" opacity="0.3" quantity="0.06"/>              
+              <ColorMapEntry color="#4d4dff" opacity="0.5" quantity="0.12"/>            
+              <ColorMapEntry color="#4d4dff" opacity="0.7" quantity="0.18"/>
+              <ColorMapEntry color="#4d4dff" opacity="0.9" quantity="0.24"/>
+              <ColorMapEntry color="#4d4dff" opacity="1.0" quantity="0.30"/>           
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
+        </Rule>  
         
         <Rule>
           <RasterSymbolizer>
@@ -101,25 +120,6 @@
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>             
-
-        <Rule>
-          <RasterSymbolizer>
-            <ChannelSelection>
-              <GrayChannel>
-                <SourceChannelName>5</SourceChannelName> <!-- Band 5 is INVERTEBRATE COMPLEX habitat -->
-              </GrayChannel>
-            </ChannelSelection>            
-            <ColorMap type="ramp">              
-              <ColorMapEntry color="#4d4dff" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#4d4dff" opacity="0.3" quantity="0.08"/>              
-              <ColorMapEntry color="#4d4dff" opacity="0.5" quantity="0.16"/>            
-              <ColorMapEntry color="#4d4dff" opacity="0.7" quantity="0.24"/>
-              <ColorMapEntry color="#4d4dff" opacity="0.9" quantity="0.32"/>
-              <ColorMapEntry color="#4d4dff" opacity="1.0" quantity="0.40"/>           
-            </ColorMap>
-          </RasterSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
-        </Rule>  
         
         <Rule>
           <RasterSymbolizer>
@@ -130,10 +130,10 @@
             </ChannelSelection>            
             <ColorMap type="ramp">              
               <ColorMapEntry color="#fff899" opacity="0.1" quantity="0"/>
-              <ColorMapEntry color="#fff899" opacity="0.3" quantity="0.2"/>              
-              <ColorMapEntry color="#fff899" opacity="0.5" quantity="0.4"/>            
-              <ColorMapEntry color="#fff899" opacity="0.7" quantity="0.6"/>
-              <ColorMapEntry color="#fff899" opacity="0.9" quantity="0.8"/>
+              <ColorMapEntry color="#fff899" opacity="0.2" quantity="0.2"/>              
+              <ColorMapEntry color="#fff899" opacity="0.4" quantity="0.4"/>            
+              <ColorMapEntry color="#fff899" opacity="0.6" quantity="0.6"/>
+              <ColorMapEntry color="#fff899" opacity="0.8" quantity="0.8"/>
               <ColorMapEntry color="#fff899" opacity="1.0" quantity="1.0"/>           
             </ColorMap>
           </RasterSymbolizer>
@@ -146,8 +146,8 @@
             <ColorMap type="ramp"> 
               <!-- ASCIDIANS ramp -->                          
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Ascidians"/>
-              <ColorMapEntry color="#ff9900" opacity="1.0" quantity="0.015"   label="  0.015"/>
-              <ColorMapEntry color="#ff9900" opacity="0.5" quantity="0.0075"  label="  0.008"/>              
+              <ColorMapEntry color="#ff9900" opacity="1.0" quantity="0.010"   label="  0.010"/>
+              <ColorMapEntry color="#ff9900" opacity="0.5" quantity="0.005"   label="  0.005"/>              
               <ColorMapEntry color="#ff9900" opacity="0.1" quantity="0"       label="  0.0"/> 
               
               <!-- BARE SEDIMENT ramp -->                          
@@ -158,20 +158,20 @@
               
               <!-- BRYOZOANS ramp -->                                        
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Bryozoans"/>
-              <ColorMapEntry color="#00cc99" opacity="1.0" quantity="0.08"    label="  0.080"/>
-              <ColorMapEntry color="#00cc99" opacity="0.5" quantity="0.04"    label="  0.040"/>              
+              <ColorMapEntry color="#00cc99" opacity="1.0" quantity="0.06"    label="  0.060"/>
+              <ColorMapEntry color="#00cc99" opacity="0.5" quantity="0.03"    label="  0.030"/>              
               <ColorMapEntry color="#00cc99" opacity="0.1" quantity="0"       label="  0.000"/> 
               
               <!-- HYDROIDS ramp -->                                                      
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Hydroids"/>   
-              <ColorMapEntry color="#b30000" opacity="1.0" quantity="0.10"    label="  0.100"/>
-              <ColorMapEntry color="#b30000" opacity="0.5" quantity="0.05"    label="  0.050"/>              
+              <ColorMapEntry color="#b30000" opacity="1.0" quantity="0.08"    label="  0.080"/>
+              <ColorMapEntry color="#b30000" opacity="0.5" quantity="0.04"    label="  0.040"/>              
               <ColorMapEntry color="#b30000" opacity="0.1" quantity="0"       label="  0.000"/>               
               
               <!-- INVERTEBRATE COMPLEX ramp -->                                       
               <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Invertebrate Complex"/>
-              <ColorMapEntry color="#4d4dff" opacity="1.0" quantity="0.4"     label="  0.400"/>
-              <ColorMapEntry color="#4d4dff" opacity="0.5" quantity="0.2"     label="  0.200"/>              
+              <ColorMapEntry color="#4d4dff" opacity="1.0" quantity="0.30"    label="  0.300"/>
+              <ColorMapEntry color="#4d4dff" opacity="0.5" quantity="0.15"    label="  0.150"/>              
               <ColorMapEntry color="#4d4dff" opacity="0.1" quantity="0"       label="  0.000"/>   
               
               <!-- MOLLUSCS ramp -->                                       
