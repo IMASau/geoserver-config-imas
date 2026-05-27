@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0"
+  xmlns="http://www.opengis.net/sld"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+
+  <NamedLayer>
+    <Name>Probability of occurrence</Name>
+    <UserStyle>
+      <FeatureTypeStyle>
+
+        <!-- Raster display rule -->
+        <Rule>
+          <RasterSymbolizer>
+            <ChannelSelection>
+              <GrayChannel>
+                <SourceChannelName>7</SourceChannelName> <!-- Band 7 is SPONGES -->
+              </GrayChannel>
+            </ChannelSelection>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#440154" quantity="0.0"/>
+              <ColorMapEntry color="#414487" quantity="0.04"/>
+              <ColorMapEntry color="#2A788E" quantity="0.08"/>
+              <ColorMapEntry color="#22A884" quantity="0.12"/>
+              <ColorMapEntry color="#7AD151" quantity="0.16"/>
+              <ColorMapEntry color="#FDE725" quantity="0.20"/>
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- Legend-only rule -->
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="100" label="Probability"/>
+
+              <ColorMapEntry color="#FDE725" quantity="0.20" label="  0.20"/>
+              <ColorMapEntry color="#7AD151" quantity="0.16" label="  0.16"/>
+              <ColorMapEntry color="#22A884" quantity="0.12" label="  0.12"/>
+              <ColorMapEntry color="#2A788E" quantity="0.08" label="  0.08"/>
+              <ColorMapEntry color="#414487" quantity="0.04" label="  0.04"/>
+              <ColorMapEntry color="#440154" quantity="0.00" label="  0.00"/>
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+        </Rule>
+
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
