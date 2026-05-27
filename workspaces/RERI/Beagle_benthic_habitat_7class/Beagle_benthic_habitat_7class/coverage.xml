@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Beagle file-scale benthic habitat: 7-class model</title>
+  <title>Beagle fine-scale benthic habitat: 7-class model</title>
   <description>Generated from GeoTIFF</description>
   <abstract>A 2 metre resolution benthic habitat model (7 classes) of the grid0 region of the Beagle AMP.</abstract>
   <keywords>
@@ -41,13 +41,15 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">BassStrait_benthic_habitat_7class_Beagle_benthic_habitat_7class_prob_stdev_stack</entry>
+    <entry key="dirName">Beagle_benthic_habitat_7class_Beagle_benthic_habitat_7class_prob_stdev_stack</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-50fd76af:19e672e8c7c:-463a</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>

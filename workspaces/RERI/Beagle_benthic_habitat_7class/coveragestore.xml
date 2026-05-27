@@ -1,15 +1,23 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-50fd76af:19e672e8c7c:-463a</id>
-  <name>BassStrait_benthic_habitat_7class</name>
+  <name>Beagle_benthic_habitat_7class</name>
   <description>Beagle fine-scale benthic habitat (7-class) - Probability and Standard Deviation</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
   </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
   <__default>false</__default>
   <dateCreated>2026-05-27 03:16:43.803 UTC</dateCreated>
-  <dateModified>2026-05-27 04:40:35.999 UTC</dateModified>
+  <dateModified>2026-05-27 06:09:37.176 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/RERI14/data/beagle/habitat/Beagle_benthic_habitat_7class_prob_stdev_stack.tif</url>
 </coverageStore>

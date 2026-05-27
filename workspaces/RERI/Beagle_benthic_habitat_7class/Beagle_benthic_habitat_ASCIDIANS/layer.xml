@@ -1,0 +1,18 @@
+<layer>
+  <name>Beagle_benthic_habitat_ASCIDIANS</name>
+  <id>LayerInfoImpl-a9b5936:19e67a6d9ba:-5713</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-a9b5936:19e67a6d9ba:-5f60</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-a9b5936:19e67a6d9ba:-5714</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2026-05-27 06:16:57.923 UTC</dateCreated>
+  <dateModified>2026-05-27 06:17:27.65 UTC</dateModified>
+</layer>

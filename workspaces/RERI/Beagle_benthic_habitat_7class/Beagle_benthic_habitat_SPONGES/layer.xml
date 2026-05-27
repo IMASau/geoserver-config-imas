@@ -1,0 +1,17 @@
+<layer>
+  <name>Beagle_benthic_habitat_SPONGES</name>
+  <id>LayerInfoImpl-a9b5936:19e67a6d9ba:-56ff</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-a9b5936:19e67a6d9ba:-5f1f</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-a9b5936:19e67a6d9ba:-5700</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2026-05-27 06:18:57.281 UTC</dateCreated>
+</layer>

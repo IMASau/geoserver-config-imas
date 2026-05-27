@@ -1,0 +1,17 @@
+<layer>
+  <name>Beagle_benthic_habitat_INVERT_COMPLEX</name>
+  <id>LayerInfoImpl-a9b5936:19e67a6d9ba:-5704</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-a9b5936:19e67a6d9ba:-5f24</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-a9b5936:19e67a6d9ba:-5705</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2026-05-27 06:18:30.176 UTC</dateCreated>
+</layer>
