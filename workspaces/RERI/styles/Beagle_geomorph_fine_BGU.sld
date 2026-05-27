@@ -14,7 +14,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphic Unit Type</Title>		
+             <Title>Basic Geomorphicc Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>BGU_T</ogc:PropertyName>		
@@ -29,12 +29,12 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>Coastal | bedform | dune</Title>		
+             <Title>Coastal | bedform</Title>		
              <ogc:Filter>	
               <ogc:And>                              
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
-                  <ogc:Literal>dune</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                  <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>GeomorphSet</ogc:PropertyName>		
@@ -45,48 +45,22 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#cc9900</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>		                                    
+                  <CssParameter name="fill-opacity">0.85</CssParameter>		                                    
                 </Fill>	
                 <Stroke>		
                   <CssParameter name="stroke">#cc9900</CssParameter>
                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>		                                                      
+                  <CssParameter name="stroke-opacity">0.85</CssParameter>		                                                      
                 </Stroke>	               
              </PolygonSymbolizer>		
-          </Rule> 
+          </Rule>         
           <Rule>		
-             <Title>Coastal | bedform | NA</Title>		
-             <ogc:Filter>	
-              <ogc:And>                              
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>NA</ogc:PropertyName>		
-                  <ogc:Literal>dune</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>GeomorphSet</ogc:PropertyName>		
-                  <ogc:Literal>Coastal</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>                
-              </ogc:And>                 
-             </ogc:Filter>	
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#c1b38b</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>		                                    
-                </Fill>	
-                <Stroke>		
-                  <CssParameter name="stroke">#c1b38b</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>		                                                                        
-                </Stroke>	               
-             </PolygonSymbolizer>		
-          </Rule>          
-          <Rule>		
-             <Title>Marine | bedform | dune</Title>		
+             <Title>Marine | bedform</Title>		
              <ogc:Filter>	
               <ogc:And>
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
-                  <ogc:Literal>dune</ogc:Literal>		
+                  <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                  <ogc:Literal>bedform</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>GeomorphSet</ogc:PropertyName>		
@@ -97,61 +71,15 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#669999</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>		                                    
+                  <CssParameter name="fill-opacity">0.85</CssParameter>		                                    
                 </Fill>
                 <Stroke>		
                   <CssParameter name="stroke">#669999</CssParameter>
                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>		                                                                        
+                  <CssParameter name="stroke-opacity">0.85</CssParameter>		                                                                        
                 </Stroke>               
              </PolygonSymbolizer>		
           </Rule>           
-          <Rule>		
-             <Title>Marine | bedform | sediment ribbon</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
-                  <ogc:Literal>sediment ribbon</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#9cb946</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>		                                    
-                </Fill>
-                <Stroke>		
-                  <CssParameter name="stroke">#9cb946</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>		                                                                        
-                </Stroke>               
-             </PolygonSymbolizer>		
-          </Rule> 
-          <Rule>		
-             <Title>Marine | bedform | unknown</Title>		
-             <ogc:Filter>	
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>BGU_T</ogc:PropertyName>		
-                  <ogc:Literal>Unknown</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>GeomorphSet</ogc:PropertyName>		
-                  <ogc:Literal>Marine</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>                
-              </ogc:And>                
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#a3b3c2</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>		                                    
-                </Fill>
-                <Stroke>		
-                  <CssParameter name="stroke">#a3b3c2</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>		                                                                        
-                </Stroke>               
-             </PolygonSymbolizer>		
-          </Rule> 
           <Rule>		
              <Title>Karst</Title>		
              <ogc:Filter>	
@@ -163,12 +91,12 @@
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#c6538c</CssParameter>
-                  <CssParameter name="fill-opacity">0.8</CssParameter>		                  
+                  <CssParameter name="fill-opacity">0.85</CssParameter>		                  
                 </Fill>
                 <Stroke>		
                   <CssParameter name="stroke">#c6538c</CssParameter>
                   <CssParameter name="stroke-width">0.1</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>		                                                                        
+                  <CssParameter name="stroke-opacity">0.85</CssParameter>		                                                                        
                 </Stroke>               
              </PolygonSymbolizer>		
           </Rule>           
@@ -176,7 +104,7 @@
              <Title>NA / unknown</Title>		
              <ogc:Filter>
                 <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Basic_Geom</ogc:PropertyName>		
+                  <ogc:PropertyName>GeomorphSet</ogc:PropertyName>		
                   <ogc:Literal>NA</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>	                             
              </ogc:Filter>		

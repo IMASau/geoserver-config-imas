@@ -101,11 +101,11 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>Palaeodunes</Title>		
+             <Title>Paleodunes</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>broad_type</ogc:PropertyName>		
-                  <ogc:Literal>palaeodunes</ogc:Literal>		
+                  <ogc:Literal>paleodunes</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
