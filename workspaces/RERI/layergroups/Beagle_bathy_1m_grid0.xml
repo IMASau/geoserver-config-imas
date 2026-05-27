@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-a9b5936:19e67a6d9ba:-6b03</id>
+  <name>Beagle_bathy_1m_grid0</name>
+  <mode>SINGLE</mode>
+  <title>Beagle hillshaded bathymetry - grid0 area</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-a9b5936:19e67a6d9ba:-6b04</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-a9b5936:19e67a6d9ba:-6b06</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-a9b5936:19e67a6d9ba:-6cb4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6e4e475:197100d43f0:-3825</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>503518.6345197205</minx>
+    <maxx>520705.6702315831</maxx>
+    <miny>5631661.1831969675</miny>
+    <maxy>5654151.877015336</maxy>
+    <crs class="projected">EPSG:32755</crs>
+  </bounds>
+  <dateCreated>2026-05-27 04:55:02.711 UTC</dateCreated>
+</layerGroup>

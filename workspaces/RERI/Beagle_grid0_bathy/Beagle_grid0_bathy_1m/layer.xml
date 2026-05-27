@@ -1,0 +1,17 @@
+<layer>
+  <name>Beagle_grid0_bathy_1m</name>
+  <id>LayerInfoImpl-a9b5936:19e67a6d9ba:-6b04</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-a9b5936:19e67a6d9ba:-6cb4</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-a9b5936:19e67a6d9ba:-6b05</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-05-27 04:53:34.978 UTC</dateCreated>
+  <dateModified>2026-05-27 04:55:29.802 UTC</dateModified>
+</layer>

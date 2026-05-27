@@ -41,7 +41,7 @@
 
   <#if feature.prob_INVERT_COMPLEX?? && feature.sd_INVERT_COMPLEX??>
     <#assign habitats = habitats + [{
-      "label": "Invertbrate Complex",
+      "label": "Invertebrate Complex",
       "prob": feature.prob_INVERT_COMPLEX.value?number,
       "sd": feature.sd_INVERT_COMPLEX.value?number,
       "color": "#4d4dff"
