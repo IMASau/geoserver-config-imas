@@ -29,64 +29,55 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>Bank/Hummock/Mound</Title>		
+             <Title>Hummock</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology</ogc:PropertyName>		
-                  <ogc:Literal>Bank/Hummock/Mound</ogc:Literal>		
+                  <ogc:Literal>Hummock</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>	
+             </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
-                  <CssParameter name="fill">#d2ff4d</CssParameter>		
-                </Fill>	               
-             </PolygonSymbolizer>
-             <PolygonSymbolizer>
-               <Fill>
-                 <GraphicFill>
-                   <Graphic>
-                     <Mark>
-                       <WellKnownName>shape://slash</WellKnownName>
-                       <Stroke>
-                         <CssParameter name="stroke">#59b300</CssParameter>
-                         <CssParameter name="stroke-width">2</CssParameter>
-                       </Stroke>
-                     </Mark>
-                     <Size>10</Size>
-                   </Graphic>
-                 </GraphicFill>
-               </Fill>
-             </PolygonSymbolizer>
-             <PolygonSymbolizer>
-               <Fill>
-                 <GraphicFill>
-                   <Graphic>
-                     <Mark>
-                       <WellKnownName>shape://backslash</WellKnownName>
-                       <Stroke>
-                         <CssParameter name="stroke">#cc00cc</CssParameter>
-                         <CssParameter name="stroke-width">1.5</CssParameter>
-                         <CssParameter name="stroke-opacity">0.7</CssParameter>                         
-                       </Stroke>
-                     </Mark>
-                     <Size>15</Size>
-                   </Graphic>
-                 </GraphicFill>
-               </Fill>
-             </PolygonSymbolizer>            
-          </Rule>           
+                  <CssParameter name="fill">#cc00cc</CssParameter>		
+                </Fill>	                
+             </PolygonSymbolizer>		
+          </Rule>  
           <Rule>		
-             <Title>Cone/Hummock/Mound</Title>		
+             <Title>Mound</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology</ogc:PropertyName>		
-                  <ogc:Literal>Cone/Hummock/Mound</ogc:Literal>		
+                  <ogc:Literal>Mound</ogc:Literal>		
                 </ogc:PropertyIsEqualTo>		
              </ogc:Filter>		
              <PolygonSymbolizer>		
                 <Fill>		
                   <CssParameter name="fill">#d2ff4d</CssParameter>		
-                </Fill>             
+                </Fill>		              
+             </PolygonSymbolizer>		
+          </Rule>           
+          <Rule>		
+             <Title>Bank / Cone / Hummock / Mound</Title>		
+             <ogc:Filter>		
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
+                  <ogc:Literal>Bank/Hummock/Mound</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>	
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
+                  <ogc:Literal>Hummock/Mound</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>	
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
+                  <ogc:Literal>Cone/Hummock/Mound</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>	                
+              </ogc:Or>
+             </ogc:Filter>	
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#d2ff4d</CssParameter>		
+                </Fill>              
              </PolygonSymbolizer>	
              <PolygonSymbolizer>
                <Fill>
@@ -95,7 +86,7 @@
                      <Mark>
                        <WellKnownName>shape://slash</WellKnownName>
                        <Stroke>
-                         <CssParameter name="stroke">#336699</CssParameter>
+                         <CssParameter name="stroke">#cc00cc</CssParameter>
                          <CssParameter name="stroke-width">2</CssParameter>
                        </Stroke>
                      </Mark>
@@ -103,24 +94,7 @@
                    </Graphic>
                  </GraphicFill>
                </Fill>
-             </PolygonSymbolizer>
-             <PolygonSymbolizer>
-               <Fill>
-                 <GraphicFill>
-                   <Graphic>
-                     <Mark>
-                       <WellKnownName>shape://backslash</WellKnownName>
-                       <Stroke>
-                         <CssParameter name="stroke">#cc00cc</CssParameter>
-                         <CssParameter name="stroke-width">1.5</CssParameter>
-                         <CssParameter name="stroke-opacity">0.7</CssParameter>                         
-                       </Stroke>
-                     </Mark>
-                     <Size>15</Size>
-                   </Graphic>
-                 </GraphicFill>
-               </Fill>
-             </PolygonSymbolizer>             
+             </PolygonSymbolizer>  
           </Rule>           
           <Rule>		
              <Title>Depression</Title>		
@@ -137,7 +111,21 @@
              </PolygonSymbolizer>		
           </Rule>
           <Rule>		
-             <Title>Depression/Hole</Title>		
+             <Title>Hole</Title>		
+             <ogc:Filter>		
+                <ogc:PropertyIsEqualTo>		
+                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
+                  <ogc:Literal>Hole</ogc:Literal>		
+                </ogc:PropertyIsEqualTo>		
+             </ogc:Filter>		
+             <PolygonSymbolizer>		
+                <Fill>		
+                  <CssParameter name="fill">#66ffff</CssParameter>		
+                </Fill>	                
+             </PolygonSymbolizer>		
+          </Rule>	          
+          <Rule>		
+             <Title>Depression / Hole</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology</ogc:PropertyName>		
@@ -165,79 +153,7 @@
                  </GraphicFill>
                </Fill>
              </PolygonSymbolizer>            
-          </Rule>
-          <Rule>		
-             <Title>Hole</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
-                  <ogc:Literal>Hole</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#66ffff</CssParameter>		
-                </Fill>	                
-             </PolygonSymbolizer>		
-          </Rule>
-          <Rule>		
-             <Title>Hummock</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
-                  <ogc:Literal>Hummock</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#cc00cc</CssParameter>		
-                </Fill>	                
-             </PolygonSymbolizer>		
-          </Rule>
-          <Rule>		
-             <Title>Hummock/Mound</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
-                  <ogc:Literal>Hummock/Mound</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#d2ff4d</CssParameter>		
-                </Fill>              
-             </PolygonSymbolizer>	
-             <PolygonSymbolizer>
-               <Fill>
-                 <GraphicFill>
-                   <Graphic>
-                     <Mark>
-                       <WellKnownName>shape://slash</WellKnownName>
-                       <Stroke>
-                         <CssParameter name="stroke">#cc00cc</CssParameter>
-                         <CssParameter name="stroke-width">2</CssParameter>
-                       </Stroke>
-                     </Mark>
-                     <Size>10</Size>
-                   </Graphic>
-                 </GraphicFill>
-               </Fill>
-             </PolygonSymbolizer>  
-          </Rule>		            
-          <Rule>		
-             <Title>Mound</Title>		
-             <ogc:Filter>		
-                <ogc:PropertyIsEqualTo>		
-                  <ogc:PropertyName>Morphology</ogc:PropertyName>		
-                  <ogc:Literal>Mound</ogc:Literal>		
-                </ogc:PropertyIsEqualTo>		
-             </ogc:Filter>		
-             <PolygonSymbolizer>		
-                <Fill>		
-                  <CssParameter name="fill">#d2ff4d</CssParameter>		
-                </Fill>		              
-             </PolygonSymbolizer>		
-          </Rule> 
+          </Rule>	            
           <Rule>		
              <Title>Ridge</Title>		
              <ogc:Filter>		
@@ -257,7 +173,7 @@
              </PolygonSymbolizer>		
           </Rule> 
           <Rule>		
-             <Title>Valley/Channel</Title>		
+             <Title>Valley / Channel</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>Morphology</ogc:PropertyName>		
