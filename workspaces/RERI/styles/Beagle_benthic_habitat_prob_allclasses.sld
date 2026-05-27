@@ -116,7 +116,7 @@
               <ColorMapEntry color="#fff899" opacity="0.1" quantity="0" label="  0.0"/>  
               
               <!-- MACROALGAE ramp -->                                        
-              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Macroalgae"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000001" quantity="-9999" label="Nacroalgae"/>
               <ColorMapEntry color="#2e8a0f" opacity="1" quantity="1" label="  1.0"/>
               <ColorMapEntry color="#2e8a0f" opacity="0.5" quantity="0.5" label="  0.5"/>              
               <ColorMapEntry color="#2e8a0f" opacity="0.1" quantity="0" label="  0.0"/> 
