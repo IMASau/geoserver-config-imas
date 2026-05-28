@@ -170,7 +170,7 @@
           </ogc:Filter>            
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#6d7e02</CssParameter>
+              <CssParameter name="stroke">#73c49a</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -204,7 +204,7 @@
           </ogc:Filter>            
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4439e3</CssParameter>
+              <CssParameter name="stroke">#6d7e02</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -221,7 +221,7 @@
           </ogc:Filter>            
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#73c49a</CssParameter>
+              <CssParameter name="stroke">#4439e3</CssParameter>
               <CssParameter name="stroke-width">1.5</CssParameter>
             </Stroke>
           </LineSymbolizer>

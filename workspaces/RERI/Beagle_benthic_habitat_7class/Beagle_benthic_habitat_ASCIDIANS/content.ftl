@@ -1,5 +1,5 @@
 <#list features as feature>
-  <#assign maxBarWidth = 10000>
+  <#assign maxBarWidth = 100>
 
   <#assign habitats = []>
 
