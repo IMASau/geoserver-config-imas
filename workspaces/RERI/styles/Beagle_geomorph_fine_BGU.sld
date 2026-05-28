@@ -14,7 +14,7 @@
      <UserStyle>
         <FeatureTypeStyle>  
           <Rule>		
-             <Title>Basic Geomorphicc Unit</Title>		
+             <Title>Basic Geomorphic Unit</Title>		
              <ogc:Filter>		
                 <ogc:PropertyIsEqualTo>		
                   <ogc:PropertyName>BGU_T</ogc:PropertyName>		
