@@ -6,8 +6,8 @@
     <table style="border:1.5pt solid black; border-collapse: collapse; text-align: center; margin-top:5px; margin-bottom:5px;">
       <tr style="background-color: #d3d3d3; border:1.5pt solid black;">
         <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Geomorphic Setting</th>
-        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #adc7d2;">Morphology</th>
-        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Feature Class</th>
+        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Morphology</th>
+        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #adc7d2;">Feature Class</th>
         <th style="padding: 5px; font-size:90%; text-align:center;">BGU</th>
         <th style="padding: 5px; font-size:90%; text-align:center;">BGU type</th>
         <th style="padding: 5px; font-size:90%; text-align:center;">BGU sub-type</th>
@@ -66,6 +66,6 @@
 <#-- Note below the table if there were more than 3 -->
 <#if hasMore>
   <div style="font-size:90%; margin-top:10px;">
-    <i>More than three features exist at this point.</i>
+    <i>More than three overlapping features exist at this point.</i>
   </div>
 </#if>
