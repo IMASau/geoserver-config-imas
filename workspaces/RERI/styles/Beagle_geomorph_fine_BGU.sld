@@ -132,7 +132,7 @@
                </Fill>
              </PolygonSymbolizer>             
           </Rule> 
-        <VendorOption name="sortBy">sortorder D</VendorOption>		          
+        <VendorOption name="sortBy">sortorder A</VendorOption>		          
         </FeatureTypeStyle>
      </UserStyle>
   </NamedLayer>

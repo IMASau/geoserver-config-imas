@@ -8,9 +8,9 @@
   <#if feature_index == 0>
     <table style="border:1.5pt solid black; border-collapse: collapse; text-align: center; margin-top:5px; margin-bottom:5px;">
       <tr style="background-color: #d3d3d3; border:1.5pt solid black;">
-        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Geomorphic Setting</th>
-        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Morphology</th>
         <th style="padding: 5px; font-size:90%; text-align:center; background-color: #adc7d2;">Feature Class</th>
+        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Morphology</th>
+        <th style="padding: 5px; font-size:90%; text-align:center; background-color: #c7ced1;">Geomorphic Setting</th>
         <th style="padding: 5px; font-size:90%; text-align:center;">BGU</th>
         <th style="padding: 5px; font-size:90%; text-align:center;">BGU type</th>
         <th style="padding: 5px; font-size:90%; text-align:center;">BGU sub-type</th>
@@ -21,9 +21,9 @@
   <#-- Only render first 5 rows after sorting -->
   <#if feature_index < 5>
     <tr style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
-      <td style="padding: 5px; font-size:90%; text-align:center;"><i>${feature.GeomorphSet.value}</i></td>      
-      <td style="padding: 5px; font-size:90%; text-align:center;">${feature.Morphology.value}</td>
       <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.broad_type.value}</b></td>      
+      <td style="padding: 5px; font-size:90%; text-align:center;">${feature.Morphology.value}</td>
+      <td style="padding: 5px; font-size:90%; text-align:center;"><i>${feature.GeomorphSet.value}</i></td>      
       <td style="padding: 5px; font-size:90%; text-align:center;">
         <#if feature.Basic_Geom.value == "NA">
           <i>${feature.Basic_Geom.value}</i>
