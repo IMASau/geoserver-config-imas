@@ -16,7 +16,7 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>3</SourceChannelName> <!-- Band 3 is BROZOANS -->
+                <SourceChannelName>3</SourceChannelName> <!-- Band 3 is BRYOZOANS -->
               </GrayChannel>
             </ChannelSelection>
             <ColorMap type="ramp">
@@ -35,7 +35,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="100" label="Probability"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="100" label="Probability (Bryozoans)"/>
 
               <ColorMapEntry color="#FDE725" quantity="0.060" label="  0.060"/>
               <ColorMapEntry color="#7AD151" quantity="0.048" label="  0.048"/>

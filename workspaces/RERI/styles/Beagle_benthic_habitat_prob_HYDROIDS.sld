@@ -35,7 +35,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="100" label="Probability"/>
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="100" label="Probability (Hydroids)"/>
 
               <ColorMapEntry color="#FDE725" quantity="0.080" label="  0.080"/>
               <ColorMapEntry color="#7AD151" quantity="0.062" label="  0.062"/>
