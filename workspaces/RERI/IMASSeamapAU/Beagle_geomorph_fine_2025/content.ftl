@@ -1,6 +1,9 @@
 <#assign hasMore = false />
 
-<#list features as feature>
+<#-- Sort features by sortorder, with 1 at the top -->
+<#assign sortedFeatures = features?sort_by(["sortorder", "value"])>
+
+<#list sortedFeatures as feature>
   <#-- Open table + header on first feature only -->
   <#if feature_index == 0>
     <table style="border:1.5pt solid black; border-collapse: collapse; text-align: center; margin-top:5px; margin-bottom:5px;">
@@ -15,11 +18,11 @@
       </tr>
   </#if>
 
-  <#-- Only render first 3 rows -->
-  <#if feature_index < 3>
+  <#-- Only render first 5 rows after sorting -->
+  <#if feature_index < 5>
     <tr style='background-color: ${((feature_index % 2)==0)?string("#ffffff", "#e8e9ed")}'>
       <td style="padding: 5px; font-size:90%; text-align:center;"><i>${feature.GeomorphSet.value}</i></td>      
-      <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.Morphology.value}</b></td>
+      <td style="padding: 5px; font-size:90%; text-align:center;">${feature.Morphology.value}</td>
       <td style="padding: 5px; font-size:90%; text-align:center;"><b>${feature.broad_type.value}</b></td>      
       <td style="padding: 5px; font-size:90%; text-align:center;">
         <#if feature.Basic_Geom.value == "NA">
@@ -32,7 +35,7 @@
         <#if feature.BGU_T.value == "NA">
           <i>${feature.BGU_T.value}</i>
         <#else>
-          <b>${feature.BGU_T.value}</b>
+          ${feature.BGU_T.value}
         </#if>
       </td>
       <td style="padding: 5px; font-size:90%; text-align:center;">
@@ -51,21 +54,21 @@
       </td>
     </tr>
 
-    <#-- Close table after we've rendered up to 3 rows, or when there is no next row -->
-    <#if (feature_index == 2) || (!feature_has_next)>
+    <#-- Close table after we've rendered up to 5 rows, or when there is no next row -->
+    <#if (feature_index == 4) || (!feature_has_next)>
       </table>
     </#if>
   <#else>
-    <#-- We got to a 4th row => mark that there are more -->
+    <#-- We got to a 6th row after sorting => mark that there are more -->
     <#if !hasMore>
       <#assign hasMore = true />
     </#if>
   </#if>
 </#list>
 
-<#-- Note below the table if there were more than 3 -->
+<#-- Note below the table if there were more than 5 -->
 <#if hasMore>
   <div style="font-size:90%; margin-top:10px;">
-    <i>More than three overlapping features exist at this point.</i>
+    <i>More than five features exist at this point.</i>
   </div>
 </#if>
