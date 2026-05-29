@@ -5,7 +5,7 @@
     <#assign err10=feature["err10pct"].value?number>
 
     <#-- Only return content if values are not nodata -->
-    <#if !(err05 < 0 && err10 < 0)>
+    <#if !(err05 <= 0 && err10 <= 0)>
 
       <#-- Turbo palette colours for 5% omission-error layer -->
       <#if (err05<=0.025)>
