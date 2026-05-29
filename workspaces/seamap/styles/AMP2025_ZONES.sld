@@ -1,83 +1,83 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor
-  version="1.0.0"
-  xmlns="http://www.opengis.net/sld"
-  xmlns:ogc="http://www.opengis.net/ogc"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:gml="http://www.opengis.net/gml"
-  xsi:schemaLocation="http://www.opengis.net/sld
-    http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
     <Name>Australian Marine Parks - Zones (labelled)</Name>
     <UserStyle>
       <Name>Australian Marine Parks - Zones (labelled)</Name>
       <FeatureTypeStyle>
- 		<Rule>
-		  <MinScaleDenominator>5000000</MinScaleDenominator>                             
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>                   
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>RESNAME</ogc:PropertyName>
-           		  </Label>
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">11</CssParameter>								
-          		  </Font>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>                      
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                          
-           			</PointPlacement>
-         		   </LabelPlacement>  
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">5</VendorOption>
-                    <VendorOption name="group">true</VendorOption> 
-					<VendorOption name="conflictResolution">true</VendorOption>
-                  <VendorOption name="group">yes</VendorOption>  <!-- Groups by unique RESNAME -->
-                  <VendorOption name="duplicateRule">largest</VendorOption>  <!-- Only shows one instance -->
-                 
-			</TextSymbolizer>    
-		<VendorOption name="inclusion">mapOnly</VendorOption>                        
- 		</Rule>
- 		<Rule>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>                             		  
-			<TextSymbolizer> 
-                  <Geometry>
-                     <ogc:Function name="centroid">
-                        <ogc:PropertyName>geom</ogc:PropertyName>
-                     </ogc:Function>
-                  </Geometry>
-           		  <Label>
-           			<ogc:PropertyName>Legend</ogc:PropertyName>
-           		  </Label>
-                  <Font>
-           			<CssParameter name="font-family">sans-serif</CssParameter>
-           			<CssParameter name="font-size">10</CssParameter>								
-          		  </Font>
-                   <LabelPlacement>
-           			<PointPlacement>
-             			<AnchorPoint>                      
-              		 	<AnchorPointX>0.5</AnchorPointX>
-               			<AnchorPointY>0</AnchorPointY>
-             			</AnchorPoint>                      
-           			</PointPlacement>                    
-         		   </LabelPlacement>  
-                    <VendorOption name="partials">true</VendorOption>
-					<VendorOption name="spaceAround">5</VendorOption>
-					<VendorOption name="conflictResolution">true</VendorOption>
-              <VendorOption name="maxDisplacement">25</VendorOption>              
-					<VendorOption name="inclusion">mapOnly</VendorOption>                            
-			</TextSymbolizer>	
-		<VendorOption name="inclusion">mapOnly</VendorOption>                        
- 		</Rule>          
+        <Rule>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Geometry>
+              <ogc:Function name="centroid">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </Geometry>
+            <Label>
+              <ogc:PropertyName>RESNAME</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">sans-serif</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+              </PointPlacement>
+            </LabelPlacement>
+            <VendorOption name="partials">true</VendorOption>
+            <VendorOption name="spaceAround">5</VendorOption>
+            <VendorOption name="group">true</VendorOption>
+            <VendorOption name="conflictResolution">true</VendorOption>
+            <VendorOption name="group">yes</VendorOption>
+            <!-- Groups by unique RESNAME -->
+            <VendorOption name="duplicateRule">largest</VendorOption>
+            <!-- Only shows one instance -->
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Geometry>
+              <ogc:Function name="centroid">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </Geometry>
+            <Label>
+              <ogc:PropertyName>Legend</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">sans-serif</CssParameter>
+              <CssParameter name="font-size">10.5</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+              </PointPlacement>
+            </LabelPlacement>
+            <Halo>
+              <Radius>1.5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.3</CssParameter>
+              </Fill>
+            </Halo>            
+            <VendorOption name="partials">true</VendorOption>
+            <VendorOption name="spaceAround">5</VendorOption>
+            <VendorOption name="conflictResolution">true</VendorOption>
+            <VendorOption name="maxDisplacement">25</VendorOption>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
         <Rule>
           <Title>Sanctuary Zone (IUCN Ia)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -87,10 +87,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#f7c0d8</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -99,7 +98,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>National Park Zone (IUCN II)</Title>
+          <Title>National Park Zone (IUCN II)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -107,10 +106,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#7bbc63</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -118,9 +116,9 @@
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule>
         <Rule>
-            <Title>Recreational Use Zone (IUCN IV)</Title>
+          <Title>Recreational Use Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -128,9 +126,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#fdba33</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -139,7 +137,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Habitat Protection Zone (Lord Howe) (IUCN IV)</Title>
+          <Title>Habitat Protection Zone (Lord Howe) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -147,9 +145,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -157,8 +155,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
-		  <Fill>
+            <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -175,7 +172,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Habitat Protection Zone (Macquarie) (IUCN IV)</Title>
+          <Title>Habitat Protection Zone (Macquarie) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -183,9 +180,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -193,8 +190,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
-		  <Fill>
+            <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -209,9 +205,9 @@
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>
         <Rule>
-            <Title>Habitat Protection Zone (Reefs) (IUCN IV)</Title>
+          <Title>Habitat Protection Zone (Reefs) (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -219,9 +215,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -229,7 +225,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -246,7 +242,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Habitat Protection Zone (IUCN IV)</Title>
+          <Title>Habitat Protection Zone (IUCN IV)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -254,9 +250,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#fff8a3</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -265,7 +261,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Multiple Use Zone (IUCN VI)</Title>
+          <Title>Multiple Use Zone (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -273,9 +269,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#b9e6fb</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -284,7 +280,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
+          <Title>Special Purpose Zone (Norfolk) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -292,9 +288,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -302,7 +298,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -319,7 +315,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</Title>
+          <Title>Special Purpose Zone (Mining Exclusion) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -327,9 +323,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -337,7 +333,7 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <GraphicFill>
                 <Graphic>
                   <Mark>
@@ -354,7 +350,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Special Purpose Zone (Trawl) (IUCN VI)</Title>
+          <Title>Special Purpose Zone (Trawl) (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -362,9 +358,9 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-		  <Fill>
+            <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
@@ -372,7 +368,6 @@
             </Stroke>
           </PolygonSymbolizer>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <GraphicFill>
                 <Graphic>
@@ -390,7 +385,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-            <Title>Special Purpose Zone (IUCN VI)</Title>
+          <Title>Special Purpose Zone (IUCN VI)</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Legend</ogc:PropertyName>
@@ -398,17 +393,16 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
-			<Geometry> <ogc:PropertyName>geom</ogc:PropertyName></Geometry>				  
             <Fill>
               <CssParameter name="fill">#6dafe0</CssParameter>
-              <CssParameter name="fill-opacity">0.6</CssParameter>				  
+              <CssParameter name="fill-opacity">0.6</CssParameter>
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#686868</CssParameter>
               <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>         
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
