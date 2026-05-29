@@ -7,10 +7,10 @@
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
-      <id>StyleInfoImpl-1c3db537:19e705908ed:6b8f</id>
+      <id>StyleInfoImpl-1c3db537:19e705908ed:6b8e</id>
     </style>
     <style>
-      <id>StyleInfoImpl-1c3db537:19e705908ed:6b8e</id>
+      <id>StyleInfoImpl-1c3db537:19e705908ed:6b8f</id>
     </style>
   </styles>
   <resource class="coverage">
@@ -20,5 +20,7 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2026-05-28 22:31:57.970 UTC</dateCreated>
+  <dateModified>2026-05-29 00:19:35.197 UTC</dateModified>
 </layer>
