@@ -21,7 +21,7 @@
             </ChannelSelection>              
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" quantity="0.0" opacity="0"/>
-              <ColorMapEntry color="#30123b" quantity="0.00001" />
+              <ColorMapEntry color="#30123b" quantity="0.000001" />
               <ColorMapEntry color="#3d358b" quantity="0.05" />
               <ColorMapEntry color="#4559cb" quantity="0.10" />
               <ColorMapEntry color="#477bf2" quantity="0.15" />
