@@ -1,16 +1,16 @@
 <layer>
-  <name>SharkRay_ALLspp_habitat_suitability</name>
+  <name>SharkRay_ALLspp_richness</name>
   <id>LayerInfoImpl-1c3db537:19e705908ed:6efb</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl-1c3db537:19e705908ed:6b8e</id>
+    <id>StyleInfoImpl-1c3db537:19e725541d4:-3139</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
-      <id>StyleInfoImpl-1c3db537:19e705908ed:6b8e</id>
+      <id>StyleInfoImpl-1c3db537:19e725541d4:-30d4</id>
     </style>
     <style>
-      <id>StyleInfoImpl-1c3db537:19e705908ed:6b8f</id>
+      <id>StyleInfoImpl-1c3db537:19e725541d4:-3139</id>
     </style>
   </styles>
   <resource class="coverage">
@@ -22,5 +22,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
   <dateCreated>2026-05-28 22:31:52.861 UTC</dateCreated>
-  <dateModified>2026-05-29 01:27:27.673 UTC</dateModified>
+  <dateModified>2026-05-29 08:11:00.582 UTC</dateModified>
 </layer>

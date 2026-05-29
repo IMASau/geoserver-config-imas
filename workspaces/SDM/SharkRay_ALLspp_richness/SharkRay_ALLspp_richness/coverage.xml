@@ -1,15 +1,15 @@
 <coverage>
   <id>CoverageInfoImpl-1c3db537:19e705908ed:6efa</id>
-  <name>SharkRay_ALLspp_habitat_suitability</name>
+  <name>SharkRay_ALLspp_richness</name>
   <nativeName>SharkRay_ALLspp_habitat_suitability</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--63c24095:18de3b3b44f:-7b03</id>
   </namespace>
-  <title>Shark &amp; Ray National SDM: habitat suitability - all species (219) combined</title>
+  <title>Shark &amp; Ray National SDM: species richness</title>
   <description>Generated from GeoTIFF</description>
   <abstract>The Shark and Ray National Species Distribution Modelling project generated predicted habitat suitability maps for 219 species of chondrichthyans (sharks, rays, and chimaeras) across mainland Australian waters, representing ~68% of Australia&apos;s known chondrichthyan fauna. Occurrence records were compiled from 43 heterogeneous data sources, including national and state fisheries observer programs, scientific surveys, biodiversity repositories, acoustic telemetry networks, baited remote underwater video surveys, and beach protection programs, yielding ~2.54 million cleaned records. Each species dataset comprises two habitat suitability prediction layers (~5 km resolution) derived at fixed sensitivity thresholds (95% and 90%), representing conservative estimates of native range.&#xd;
 &#xd;
-This layer shows the mean habitat suitability across all 219 modelled chondrichthyan species. Two styles are available, representing the 95% and 90% sensitivity threshold outputs.</abstract>
+This layer shows the species richness across all 219 modelled chondrichthyan species. Two styles are available, representing the 95% and 90% sensitivity threshold outputs.</abstract>
   <keywords>
     <string>ALL_species_richness</string>
     <string>WCS</string>
