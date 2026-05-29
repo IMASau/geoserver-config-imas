@@ -11,7 +11,7 @@
 &#xd;
 This layer shows the mean habitat suitability across all 219 modelled chondrichthyan species. Two styles are available, representing the 95% and 90% sensitivity threshold outputs.</abstract>
   <keywords>
-    <string>ALL_species_mean</string>
+    <string>ALL_species_richness</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -44,7 +44,7 @@ This layer shows the mean habitat suitability across all 219 modelled chondricht
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SharkRay_ALLspp_habSuit_ALL_species_mean</entry>
+    <entry key="dirName">SharkRay_ALLspp_habSuit_ALL_species_richness</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-1c3db537:19e705908ed:6e7f</id>
@@ -136,5 +136,5 @@ This layer shows the mean habitat suitability across all 219 modelled chondricht
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>ALL_species_mean</nativeCoverageName>
+  <nativeCoverageName>ALL_species_richness</nativeCoverageName>
 </coverage>
