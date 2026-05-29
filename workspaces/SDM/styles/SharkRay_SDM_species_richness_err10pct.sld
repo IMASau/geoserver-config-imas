@@ -21,27 +21,27 @@
             </ChannelSelection>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" quantity="0.0" opacity="0"/>
-              <ColorMapEntry color="#000004" quantity="0.000001" />
-              <ColorMapEntry color="#08051d" quantity="0.12" />
-              <ColorMapEntry color="#160b39" quantity="0.24" />
-              <ColorMapEntry color="#270b52" quantity="0.36" />
-              <ColorMapEntry color="#3a0963" quantity="0.48" />
-              <ColorMapEntry color="#4b0c6b" quantity="0.60" />
-              <ColorMapEntry color="#5c126e" quantity="0.72" />
-              <ColorMapEntry color="#6d186e" quantity="0.84" />
-              <ColorMapEntry color="#7e1e6c" quantity="0.96" />
-              <ColorMapEntry color="#8f2469" quantity="1.08" />
-              <ColorMapEntry color="#a22a62" quantity="1.20" />
-              <ColorMapEntry color="#b63258" quantity="1.32" />
-              <ColorMapEntry color="#c83e4b" quantity="1.44" />
-              <ColorMapEntry color="#d94b3d" quantity="1.56" />
-              <ColorMapEntry color="#e75c2c" quantity="1.68" />
-              <ColorMapEntry color="#f2701d" quantity="1.80" />
-              <ColorMapEntry color="#f8870e" quantity="1.92" />
-              <ColorMapEntry color="#fba40a" quantity="2.04" />
-              <ColorMapEntry color="#f9c72f" quantity="2.16" />
-              <ColorMapEntry color="#f2e661" quantity="2.28" />
-              <ColorMapEntry color="#fcffa4" quantity="2.40" />
+              <ColorMapEntry color="#0b0778" quantity="0.000001" />
+              <ColorMapEntry color="#2a0593" quantity="0.10" />
+              <ColorMapEntry color="#40039c" quantity="0.20" />
+              <ColorMapEntry color="#5601a4" quantity="0.30" />
+              <ColorMapEntry color="#6a00a8" quantity="0.40" />
+              <ColorMapEntry color="#7e03a8" quantity="0.50" />
+              <ColorMapEntry color="#8f0da4" quantity="0.60" />
+              <ColorMapEntry color="#a11b9b" quantity="0.70" />
+              <ColorMapEntry color="#b12a90" quantity="0.80" />
+              <ColorMapEntry color="#c03a83" quantity="0.90" />
+              <ColorMapEntry color="#cc4778" quantity="1.00" />
+              <ColorMapEntry color="#d8576b" quantity="1.10" />
+              <ColorMapEntry color="#e16462" quantity="1.20" />
+              <ColorMapEntry color="#e97158" quantity="1.30" />
+              <ColorMapEntry color="#f07f4f" quantity="1.40" />
+              <ColorMapEntry color="#f79044" quantity="1.50" />
+              <ColorMapEntry color="#fca636" quantity="1.60" />
+              <ColorMapEntry color="#fecd25" quantity="1.70" />
+              <ColorMapEntry color="#ffe81a" quantity="1.80" />
+              <ColorMapEntry color="#f3f625" quantity="1.90" />
+              <ColorMapEntry color="#ffff66" quantity="2.00" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -52,17 +52,17 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="10000" label="Species richness" />
-              <ColorMapEntry color="#fcffa4" quantity="2.40" label="  2.40" />
-              <ColorMapEntry color="#f9c72f" quantity="2.16" label="  2.16" />
-              <ColorMapEntry color="#f8870e" quantity="1.92" label="  1.92" />
-              <ColorMapEntry color="#e75c2c" quantity="1.68" label="  1.68" />
-              <ColorMapEntry color="#c83e4b" quantity="1.44" label="  1.44" />
-              <ColorMapEntry color="#a22a62" quantity="1.20" label="  1.20" />
-              <ColorMapEntry color="#7e1e6c" quantity="0.96" label="  0.96" />
-              <ColorMapEntry color="#5c126e" quantity="0.72" label="  0.72" />
-              <ColorMapEntry color="#3a0963" quantity="0.48" label="  0.48" />
-              <ColorMapEntry color="#160b39" quantity="0.24" label="  0.24" />
-              <ColorMapEntry color="#000004" quantity="0.00" label="  0.00" />
+              <ColorMapEntry color="#ffff66" quantity="2.00" label="  2.0" />
+              <ColorMapEntry color="#ffe81a" quantity="1.80" label="  1.8" />
+              <ColorMapEntry color="#fca636" quantity="1.60" label="  1.6" />
+              <ColorMapEntry color="#f07f4f" quantity="1.40" label="  1.4" />
+              <ColorMapEntry color="#e16462" quantity="1.20" label="  1.2" />
+              <ColorMapEntry color="#cc4778" quantity="1.00" label="  1.0" />
+              <ColorMapEntry color="#b12a90" quantity="0.80" label="  0.8" />
+              <ColorMapEntry color="#8f0da4" quantity="0.60" label="  0.6" />
+              <ColorMapEntry color="#6a00a8" quantity="0.40" label="  0.4" />
+              <ColorMapEntry color="#40039c" quantity="0.20" label="  0.2" />
+              <ColorMapEntry color="#0b0778" quantity="0.00" label="  0.0" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>

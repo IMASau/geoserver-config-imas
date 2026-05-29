@@ -1,4 +1,4 @@
-<#setting number_format="0.0">
+<#setting number_format="0.00">
 
 <#list features as feature>
     <#assign err05=feature["err05pct"].value?number>
@@ -7,94 +7,94 @@
     <#-- Only return content if values are not nodata / zero-only -->
     <#if !(err05 <= 0 && err10 <= 0)>
 
-      <#-- Inferno palette colours for 5% omission-error layer, scaled 0 to 2.4 -->
-      <#if (err05<=0.06)>
-        <#assign colour05="#000004" textcolour05="#ffffff">
-      <#elseif (err05>0.06 && err05<=0.18)>
-        <#assign colour05="#08051d" textcolour05="#ffffff">
-      <#elseif (err05>0.18 && err05<=0.30)>
-        <#assign colour05="#160b39" textcolour05="#ffffff">
-      <#elseif (err05>0.30 && err05<=0.42)>
-        <#assign colour05="#270b52" textcolour05="#ffffff">
-      <#elseif (err05>0.42 && err05<=0.54)>
-        <#assign colour05="#3a0963" textcolour05="#ffffff">
-      <#elseif (err05>0.54 && err05<=0.66)>
-        <#assign colour05="#4b0c6b" textcolour05="#ffffff">
-      <#elseif (err05>0.66 && err05<=0.78)>
-        <#assign colour05="#5c126e" textcolour05="#ffffff">
-      <#elseif (err05>0.78 && err05<=0.90)>
-        <#assign colour05="#6d186e" textcolour05="#ffffff">
-      <#elseif (err05>0.90 && err05<=1.02)>
-        <#assign colour05="#7e1e6c" textcolour05="#ffffff">
-      <#elseif (err05>1.02 && err05<=1.14)>
-        <#assign colour05="#8f2469" textcolour05="#ffffff">
-      <#elseif (err05>1.14 && err05<=1.26)>
-        <#assign colour05="#a22a62" textcolour05="#ffffff">
-      <#elseif (err05>1.26 && err05<=1.38)>
-        <#assign colour05="#b63258" textcolour05="#ffffff">
-      <#elseif (err05>1.38 && err05<=1.50)>
-        <#assign colour05="#c83e4b" textcolour05="#ffffff">
-      <#elseif (err05>1.50 && err05<=1.62)>
-        <#assign colour05="#d94b3d" textcolour05="#ffffff">
-      <#elseif (err05>1.62 && err05<=1.74)>
-        <#assign colour05="#e75c2c" textcolour05="#000000">
-      <#elseif (err05>1.74 && err05<=1.86)>
-        <#assign colour05="#f2701d" textcolour05="#000000">
-      <#elseif (err05>1.86 && err05<=1.98)>
-        <#assign colour05="#f8870e" textcolour05="#000000">
-      <#elseif (err05>1.98 && err05<=2.10)>
-        <#assign colour05="#fba40a" textcolour05="#000000">
-      <#elseif (err05>2.10 && err05<=2.22)>
-        <#assign colour05="#f9c72f" textcolour05="#000000">
-      <#elseif (err05>2.22 && err05<=2.34)>
-        <#assign colour05="#f2e661" textcolour05="#000000">
-      <#elseif (err05>2.34)>
-        <#assign colour05="#fcffa4" textcolour05="#000000">
+      <#-- Plasma-style colours for 5% omission-error layer, scaled 0 to 2.0 -->
+      <#if (err05<=0.05)>
+        <#assign colour05="#0b0778" textcolour05="#ffffff">
+      <#elseif (err05>0.05 && err05<=0.15)>
+        <#assign colour05="#2a0593" textcolour05="#ffffff">
+      <#elseif (err05>0.15 && err05<=0.25)>
+        <#assign colour05="#40039c" textcolour05="#ffffff">
+      <#elseif (err05>0.25 && err05<=0.35)>
+        <#assign colour05="#5601a4" textcolour05="#ffffff">
+      <#elseif (err05>0.35 && err05<=0.45)>
+        <#assign colour05="#6a00a8" textcolour05="#ffffff">
+      <#elseif (err05>0.45 && err05<=0.55)>
+        <#assign colour05="#7e03a8" textcolour05="#ffffff">
+      <#elseif (err05>0.55 && err05<=0.65)>
+        <#assign colour05="#8f0da4" textcolour05="#ffffff">
+      <#elseif (err05>0.65 && err05<=0.75)>
+        <#assign colour05="#a11b9b" textcolour05="#ffffff">
+      <#elseif (err05>0.75 && err05<=0.85)>
+        <#assign colour05="#b12a90" textcolour05="#ffffff">
+      <#elseif (err05>0.85 && err05<=0.95)>
+        <#assign colour05="#c03a83" textcolour05="#ffffff">
+      <#elseif (err05>0.95 && err05<=1.05)>
+        <#assign colour05="#cc4778" textcolour05="#ffffff">
+      <#elseif (err05>1.05 && err05<=1.15)>
+        <#assign colour05="#d8576b" textcolour05="#ffffff">
+      <#elseif (err05>1.15 && err05<=1.25)>
+        <#assign colour05="#e16462" textcolour05="#ffffff">
+      <#elseif (err05>1.25 && err05<=1.35)>
+        <#assign colour05="#e97158" textcolour05="#000000">
+      <#elseif (err05>1.35 && err05<=1.45)>
+        <#assign colour05="#f07f4f" textcolour05="#000000">
+      <#elseif (err05>1.45 && err05<=1.55)>
+        <#assign colour05="#f79044" textcolour05="#000000">
+      <#elseif (err05>1.55 && err05<=1.65)>
+        <#assign colour05="#fca636" textcolour05="#000000">
+      <#elseif (err05>1.65 && err05<=1.75)>
+        <#assign colour05="#fecd25" textcolour05="#000000">
+      <#elseif (err05>1.75 && err05<=1.85)>
+        <#assign colour05="#ffe81a" textcolour05="#000000">
+      <#elseif (err05>1.85 && err05<=1.95)>
+        <#assign colour05="#f3f625" textcolour05="#000000">
+      <#elseif (err05>1.95)>
+        <#assign colour05="#ffff66" textcolour05="#000000">
       </#if>
 
-      <#-- Inferno palette colours for 10% omission-error layer, scaled 0 to 2.4 -->
-      <#if (err10<=0.06)>
-        <#assign colour10="#000004" textcolour10="#ffffff">
-      <#elseif (err10>0.06 && err10<=0.18)>
-        <#assign colour10="#08051d" textcolour10="#ffffff">
-      <#elseif (err10>0.18 && err10<=0.30)>
-        <#assign colour10="#160b39" textcolour10="#ffffff">
-      <#elseif (err10>0.30 && err10<=0.42)>
-        <#assign colour10="#270b52" textcolour10="#ffffff">
-      <#elseif (err10>0.42 && err10<=0.54)>
-        <#assign colour10="#3a0963" textcolour10="#ffffff">
-      <#elseif (err10>0.54 && err10<=0.66)>
-        <#assign colour10="#4b0c6b" textcolour10="#ffffff">
-      <#elseif (err10>0.66 && err10<=0.78)>
-        <#assign colour10="#5c126e" textcolour10="#ffffff">
-      <#elseif (err10>0.78 && err10<=0.90)>
-        <#assign colour10="#6d186e" textcolour10="#ffffff">
-      <#elseif (err10>0.90 && err10<=1.02)>
-        <#assign colour10="#7e1e6c" textcolour10="#ffffff">
-      <#elseif (err10>1.02 && err10<=1.14)>
-        <#assign colour10="#8f2469" textcolour10="#ffffff">
-      <#elseif (err10>1.14 && err10<=1.26)>
-        <#assign colour10="#a22a62" textcolour10="#ffffff">
-      <#elseif (err10>1.26 && err10<=1.38)>
-        <#assign colour10="#b63258" textcolour10="#ffffff">
-      <#elseif (err10>1.38 && err10<=1.50)>
-        <#assign colour10="#c83e4b" textcolour10="#ffffff">
-      <#elseif (err10>1.50 && err10<=1.62)>
-        <#assign colour10="#d94b3d" textcolour10="#ffffff">
-      <#elseif (err10>1.62 && err10<=1.74)>
-        <#assign colour10="#e75c2c" textcolour10="#000000">
-      <#elseif (err10>1.74 && err10<=1.86)>
-        <#assign colour10="#f2701d" textcolour10="#000000">
-      <#elseif (err10>1.86 && err10<=1.98)>
-        <#assign colour10="#f8870e" textcolour10="#000000">
-      <#elseif (err10>1.98 && err10<=2.10)>
-        <#assign colour10="#fba40a" textcolour10="#000000">
-      <#elseif (err10>2.10 && err10<=2.22)>
-        <#assign colour10="#f9c72f" textcolour10="#000000">
-      <#elseif (err10>2.22 && err10<=2.34)>
-        <#assign colour10="#f2e661" textcolour10="#000000">
-      <#elseif (err10>2.34)>
-        <#assign colour10="#fcffa4" textcolour10="#000000">
+      <#-- Plasma-style colours for 10% omission-error layer, scaled 0 to 2.0 -->
+      <#if (err10<=0.05)>
+        <#assign colour10="#0b0778" textcolour10="#ffffff">
+      <#elseif (err10>0.05 && err10<=0.15)>
+        <#assign colour10="#2a0593" textcolour10="#ffffff">
+      <#elseif (err10>0.15 && err10<=0.25)>
+        <#assign colour10="#40039c" textcolour10="#ffffff">
+      <#elseif (err10>0.25 && err10<=0.35)>
+        <#assign colour10="#5601a4" textcolour10="#ffffff">
+      <#elseif (err10>0.35 && err10<=0.45)>
+        <#assign colour10="#6a00a8" textcolour10="#ffffff">
+      <#elseif (err10>0.45 && err10<=0.55)>
+        <#assign colour10="#7e03a8" textcolour10="#ffffff">
+      <#elseif (err10>0.55 && err10<=0.65)>
+        <#assign colour10="#8f0da4" textcolour10="#ffffff">
+      <#elseif (err10>0.65 && err10<=0.75)>
+        <#assign colour10="#a11b9b" textcolour10="#ffffff">
+      <#elseif (err10>0.75 && err10<=0.85)>
+        <#assign colour10="#b12a90" textcolour10="#ffffff">
+      <#elseif (err10>0.85 && err10<=0.95)>
+        <#assign colour10="#c03a83" textcolour10="#ffffff">
+      <#elseif (err10>0.95 && err10<=1.05)>
+        <#assign colour10="#cc4778" textcolour10="#ffffff">
+      <#elseif (err10>1.05 && err10<=1.15)>
+        <#assign colour10="#d8576b" textcolour10="#ffffff">
+      <#elseif (err10>1.15 && err10<=1.25)>
+        <#assign colour10="#e16462" textcolour10="#ffffff">
+      <#elseif (err10>1.25 && err10<=1.35)>
+        <#assign colour10="#e97158" textcolour10="#000000">
+      <#elseif (err10>1.35 && err10<=1.45)>
+        <#assign colour10="#f07f4f" textcolour10="#000000">
+      <#elseif (err10>1.45 && err10<=1.55)>
+        <#assign colour10="#f79044" textcolour10="#000000">
+      <#elseif (err10>1.55 && err10<=1.65)>
+        <#assign colour10="#fca636" textcolour10="#000000">
+      <#elseif (err10>1.65 && err10<=1.75)>
+        <#assign colour10="#fecd25" textcolour10="#000000">
+      <#elseif (err10>1.75 && err10<=1.85)>
+        <#assign colour10="#ffe81a" textcolour10="#000000">
+      <#elseif (err10>1.85 && err10<=1.95)>
+        <#assign colour10="#f3f625" textcolour10="#000000">
+      <#elseif (err10>1.95)>
+        <#assign colour10="#ffff66" textcolour10="#000000">
       </#if>
 
       <div class="feature" style="padding-top:5px; padding-bottom:5px; text-align:center;">
