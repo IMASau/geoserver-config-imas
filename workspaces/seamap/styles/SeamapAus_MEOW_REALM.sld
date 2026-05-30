@@ -261,8 +261,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <MaxScaleDenominator>50000000</MaxScaleDenominator>
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -287,8 +286,7 @@
             <VendorOption name="partials">true</VendorOption>
             <VendorOption name="spaceAround">5</VendorOption>
             <VendorOption name="conflictResolution">true</VendorOption>
-            <VendorOption name="group">true</VendorOption>
-            <VendorOption name="labelAllGroup">false</VendorOption>
+            <VendorOption name="group">yes</VendorOption>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>        
