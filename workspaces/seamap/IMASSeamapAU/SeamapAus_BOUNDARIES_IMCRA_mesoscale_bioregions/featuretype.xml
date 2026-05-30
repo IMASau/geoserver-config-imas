@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Integrated Marine and Coastal Regionalisation (IMCRA) - Meso-scale Bioregions</title>
-  <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Styling applied at the Meso-scale Bioregion level. Rehosted for the purposes of Seamap Australia.</abstract>
+  <abstract>Integrated Marine and Coastal Regionalisation (IMCRA) boundaries, version 4.0. Styling is applied at the Meso-scale Bioregion level.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_BOUNDARIES_IMCRA</string>
@@ -22,7 +22,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4283&quot;]], 
-  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
   PARAMETER[&quot;central_meridian&quot;, 134.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
@@ -58,6 +58,8 @@
     <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
