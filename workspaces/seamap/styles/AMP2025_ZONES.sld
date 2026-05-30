@@ -31,7 +31,6 @@
             </LabelPlacement>
             <VendorOption name="partials">true</VendorOption>
             <VendorOption name="spaceAround">5</VendorOption>
-            <VendorOption name="group">true</VendorOption>
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="group">yes</VendorOption>
             <!-- Groups by unique RESNAME -->
