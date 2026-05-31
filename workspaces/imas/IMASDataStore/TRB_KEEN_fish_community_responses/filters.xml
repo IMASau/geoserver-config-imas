@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<filters>
+    <filter>
+        <name>Authors_Year</name>
+        <type>string</type>
+        <label>Study</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>Pub_Year</name>
+        <type>short</type>
+        <label>Publication year</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>ECOREGION</name>
+        <type>string</type>
+        <label>MEOW Ecoregion</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>PROVINCE</name>
+        <type>string</type>
+        <label>MEOW Province</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>REALM</name>
+        <type>string</type>
+        <label>MEOW Realm</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+    <filter>
+        <name>geom</name>
+        <type>geometrypropertytype</type>
+        <label>Geom</label>
+        <visualised>true</visualised>
+        <excludedFromDownload>false</excludedFromDownload>
+    </filter>
+</filters>
