@@ -1,17 +1,17 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1c3db537:19e81a64bee:61dc</id>
-  <name>TRB_KEEN_ObsData_Sites</name>
-  <nativeName>TRB_KEEN_Obs_Sites</nativeName>
+  <id>FeatureTypeInfoImpl-1c3db537:19e81a64bee:681a</id>
+  <name>TRB_KEEN_ObsData_Fish</name>
+  <nativeName>TRB_KEEN_Obs_Fish_geom</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--558bdc10:1485b268ab8:7c25</id>
   </namespace>
-  <title>Kelp Ecosystem Ecology Network - Observational data - Site locations</title>
+  <title>Kelp Ecosystem Ecology Network - Observational data - Fish counts/size along transects</title>
   <abstract>Observational data for the Kelp Ecosystem Ecology Network. These data come from transects of rocky reefs taken around the world using the KEEN observational data protocol (see https://kelpecosystems.org for full description of methods and handbook). The KEEN observational data consists of the following components: site information, fish observations, quadrat sampling, band transect sampling, and percent cover from uniform point counts.&#xd;
 &#xd;
-This layer is for the SITE INFORMATION (point locations).</abstract>
+This layer is for the FISH OBSERVATIONS data, with locations joined from the SITE data.</abstract>
   <keywords>
     <string>features</string>
-    <string>TRB_KEEN_Obs_Sites</string>
+    <string>TRB_KEEN_Obs_Fish_geom</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -25,16 +25,16 @@ This layer is for the SITE INFORMATION (point locations).</abstract>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>-71.36642248198093</minx>
-    <maxx>-68.8879786222404</maxx>
+    <maxx>-69.5078386098432</maxx>
     <miny>41.47691383866751</miny>
-    <maxy>44.040800880816</maxy>
+    <maxy>43.8358808767176</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-71.36642248198093</minx>
-    <maxx>-68.8879786222404</maxx>
+    <maxx>-69.5078386098432</maxx>
     <miny>41.47691383866751</miny>
-    <maxy>44.040800880816</maxy>
+    <maxy>43.8358808767176</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
