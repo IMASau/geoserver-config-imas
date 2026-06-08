@@ -8,7 +8,7 @@
 
             <span style="color: #9a9a9a; font-size: 95%; font-style: italic;"> 
                 <#if feature.bathymetry_resolution.value == 'Unknown'>
-		   Bathymetry data is available at this location, but it is <b style="color:#cc0000"> not public</b>.
+		   Bathymetry data was collected at this location, but it is <b style="color:#cc0000"> not yet public</b>.
                 <#else>
 		   <b style="color:#00b300">Public</b> bathymetry data at <b style="color:#000000">${feature.bathymetry_resolution.value}</b> resolution is available at this location.
                 </#if>

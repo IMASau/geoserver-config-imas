@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--1fcfa93a:19b07adda44:f79</id>
-  <name>bathymetry_AMPs_shallow_NEW</name>
+  <name>bathymetry_AMPs_shallow</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>bathymetry_AMPs_shallow_NEW.sld</filename>
+  <filename>bathymetry_AMPs_shallow.sld</filename>
   <dateCreated>2025-12-10 13:53:16.193 UTC</dateCreated>
-  <dateModified>2025-12-10 21:07:20.807 UTC</dateModified>
+  <dateModified>2026-06-08 05:04:04.833 UTC</dateModified>
 </style>

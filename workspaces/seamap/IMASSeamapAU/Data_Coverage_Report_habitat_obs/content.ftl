@@ -19,7 +19,7 @@
 
             Observation (<b>${feature.method.value}</b>) collected on
 		<#if feature.date.value?has_content>
-		   <b>${feature.date.value?date("dd/mm/yy")?date}</b>
+		   <b>${feature.date.value?date("d MMMM yyyy, hh:mm:ss a")?string("dd-MM-yyyy")}</b>
 		<#else>
 		   <i style="color: #9a9a9a;"> [unknown date]</i>
 		</#if>
