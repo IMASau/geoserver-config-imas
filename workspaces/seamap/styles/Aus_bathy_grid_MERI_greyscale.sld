@@ -17,13 +17,13 @@
             <ColorMap type="intervals">
               <ColorMapEntry color="#ffffff" quantity="-100000" opacity="0" label=" NODATA"/>
 
-              <ColorMapEntry color="#000000" quantity="-6000" opacity="1" label=" hadal (&gt;6,000 m)"/>
-              <ColorMapEntry color="#232323" quantity="-4000" opacity="1" label=" abyss (4,000-6,000 m)"/>
-              <ColorMapEntry color="#464646" quantity="-2000" opacity="1" label=" lower-slope (2,000-4,000 m)"/>
-              <ColorMapEntry color="#696969" quantity="-700" opacity="1" label=" mid-slope (700-2,000 m)"/>
-              <ColorMapEntry color="#8B8B8B" quantity="-200" opacity="1" label=" upper-slope (200-700 m)"/>
-              <ColorMapEntry color="#AEAEAE" quantity="-70" opacity="1" label=" rariphotic (70-200 m)"/>
-              <ColorMapEntry color="#D1D1D1" quantity="-30" opacity="1" label=" mesophotic (30-70 m)"/>
+              <ColorMapEntry color="#414141" quantity="-6000" opacity="1" label=" hadal (&gt;6,000 m)"/>
+              <ColorMapEntry color="#5B5B5B" quantity="-4000" opacity="1" label=" abyss (4,000-6,000 m)"/>
+              <ColorMapEntry color="#747474" quantity="-2000" opacity="1" label=" lower-slope (2,000-4,000 m)"/>
+              <ColorMapEntry color="#8E8E8E" quantity="-700" opacity="1" label=" mid-slope (700-2,000 m)"/>
+              <ColorMapEntry color="#A7A7A7" quantity="-200" opacity="1" label=" upper-slope (200-700 m)"/>
+              <ColorMapEntry color="#C1C1C1" quantity="-70" opacity="1" label=" rariphotic (70-200 m)"/>
+              <ColorMapEntry color="#DADADA" quantity="-30" opacity="1" label=" mesophotic (30-70 m)"/>
               <ColorMapEntry color="#F4F4F4" quantity="0" opacity="1" label=" shallow (&lt;30 m)"/>
 
               <ColorMapEntry color="#ffffff" quantity="100" opacity="0" label=" NODATA"/>
@@ -32,20 +32,20 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- Legend only, ordered shallow to deep -->
+        <!-- Legend only -->
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="intervals">
               <ColorMapEntry color="#ffffff" quantity="-10000" opacity="0.001" label=" MER depth zones"/>
 
               <ColorMapEntry color="#F4F4F4" quantity="0" opacity="1" label="  shallow (&lt;30 m)"/>
-              <ColorMapEntry color="#D1D1D1" quantity="-30" opacity="1" label="  mesophotic (30-70 m)"/>
-              <ColorMapEntry color="#AEAEAE" quantity="-70" opacity="1" label="  rariphotic (70-200 m)"/>
-              <ColorMapEntry color="#8B8B8B" quantity="-200" opacity="1" label="  upper-slope (200-700 m)"/>
-              <ColorMapEntry color="#696969" quantity="-700" opacity="1" label="  mid-slope (700-2,000 m)"/>
-              <ColorMapEntry color="#464646" quantity="-2000" opacity="1" label="  lower-slope (2,000-4,000 m)"/>
-              <ColorMapEntry color="#232323" quantity="-4000" opacity="1" label="  abyss (4,000-6,000 m)"/>
-              <ColorMapEntry color="#000000" quantity="-6000" opacity="1" label="  hadal (&gt;6,000 m)"/>
+              <ColorMapEntry color="#DADADA" quantity="-30" opacity="1" label="  mesophotic (30-70 m)"/>
+              <ColorMapEntry color="#C1C1C1" quantity="-70" opacity="1" label="  rariphotic (70-200 m)"/>
+              <ColorMapEntry color="#A7A7A7" quantity="-200" opacity="1" label="  upper-slope (200-700 m)"/>
+              <ColorMapEntry color="#8E8E8E" quantity="-700" opacity="1" label="  mid-slope (700-2,000 m)"/>
+              <ColorMapEntry color="#747474" quantity="-2000" opacity="1" label="  lower-slope (2,000-4,000 m)"/>
+              <ColorMapEntry color="#5B5B5B" quantity="-4000" opacity="1" label="  abyss (4,000-6,000 m)"/>
+              <ColorMapEntry color="#414141" quantity="-6000" opacity="1" label="  hadal (&gt;6,000 m)"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>
