@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--492a9490:183a16d3d08:-7f9a</id>
-  <name>SeamapAus_NBHL_level_classification</name>
-  <nativeName>SeamapAus_NBHL_level_classification</nativeName>
+  <id>FeatureTypeInfoImpl-1c3db537:19ebaa1c747:-411c</id>
+  <name>SeamapAus_NBHL_CONFIDENCE_biota</name>
+  <nativeName>SeamapAus_NBHL_CONFIDENCE_Data_BC</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Seamap Australia National Benthic Habitat Layer - resolved level of classification</title>
+  <title>Seamap Australia NBHL confidence - biota</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_NBHL_level_classification</string>
+    <string>SeamapAus_NBHL_CONFIDENCE_Data_BC</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,21 +36,20 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>86.94147169788515</minx>
-    <maxx>171.98020456857367</maxx>
-    <miny>-44.27159568836492</miny>
+    <maxx>171.93689017870472</maxx>
+    <miny>-44.27090184531613</miny>
     <maxy>-4.388439670672371</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>86.94147169788515</minx>
-    <maxx>171.98020456857367</maxx>
-    <miny>-44.27159568836492</miny>
+    <maxx>171.93689017870472</maxx>
+    <miny>-44.27090184531613</miny>
     <maxy>-4.388439670672371</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
-  <enabled>false</enabled>
-  <advertised>false</advertised>
+  <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

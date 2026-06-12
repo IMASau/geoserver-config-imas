@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1c3db537:19ebaa1c747:-411c</id>
-  <name>SeamapAus_NBHL_CONFIDENCE_Data_BC</name>
-  <nativeName>SeamapAus_NBHL_CONFIDENCE_Data_BC</nativeName>
+  <id>FeatureTypeInfoImpl-1c3db537:19ebdb52a2b:-7d98</id>
+  <name>SeamapAus_NBHL_CONFIDENCE_substrata</name>
+  <nativeName>SeamapAus_NBHL_CONFIDENCE_Data_SC</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+    <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Seamap Australia NBHL confidence - biota</title>
+  <title>Seamap Australia NBHL confidence - substrata</title>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_NBHL_CONFIDENCE_Data_BC</string>
+    <string>SeamapAus_NBHL_CONFIDENCE_Data_SC</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Geoscience Australia Lambert&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
@@ -36,15 +36,15 @@
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>86.94147169788515</minx>
-    <maxx>171.93689017870472</maxx>
-    <miny>-44.27090184531613</miny>
+    <maxx>171.98020456857367</maxx>
+    <miny>-44.27159568836492</miny>
     <maxy>-4.388439670672371</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>86.94147169788515</minx>
-    <maxx>171.93689017870472</maxx>
-    <miny>-44.27090184531613</miny>
+    <maxx>171.98020456857367</maxx>
+    <miny>-44.27159568836492</miny>
     <maxy>-4.388439670672371</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
@@ -54,7 +54,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+    <id>DataStoreInfoImpl--488987c8:198640846b2:-4f6</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
