@@ -10,18 +10,121 @@
     <Name>Confidence in Seamap Australia NBHL source data</Name>
     <UserStyle>
       <Title>Confidence score</Title>
-      <Abstract>SCORE binned into 0.05 increments from high to low confidence</Abstract>
+      <Abstract>Confidence in data sources (0-1, low to high confidence)</Abstract>
 
       <FeatureTypeStyle>
 
-        
+        <!-- Legend only rules -->       
         <Rule>
           <Title>Confidence</Title>
         </Rule>
-       
-
         <Rule>
-          <Title>0.95 - 1.00</Title>
+          <Title> 1.0 (high)</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff200</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.9</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#f5e84a</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                              
+        </Rule>        
+        <Rule>
+          <Title> 0.8</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#cdd982</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.7</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#8bd1ad</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.6</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#48c2ca</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.5</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#24a5c3</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.4</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#2182b4</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.3</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#285ca5</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#285ca5</CssParameter>
+              <CssParameter name="stroke-width">0.01</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.2</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#29388b</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.1</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#1d1d63</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                    
+        </Rule>
+        <Rule>
+          <Title> 0.0 (low)</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0b0f33</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>          
+        </Rule>
+
+
+        <!-- MAP only rules -->
+        <Rule>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -36,17 +139,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#FFD633</CssParameter>
+              <CssParameter name="fill">#fff200</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#FFD633</CssParameter>
+              <CssParameter name="stroke">#fff200</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.90 - 0.95</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -61,17 +163,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#FFE14D</CssParameter>
+              <CssParameter name="fill">#f5e84a</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#FFE14D</CssParameter>
+              <CssParameter name="stroke">#f5e84a</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.85 - 0.90</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -86,17 +187,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#FFEA66</CssParameter>
+              <CssParameter name="fill">#e4df69</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#FFEA66</CssParameter>
+              <CssParameter name="stroke">#e4df69</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.80 - 0.85</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -111,17 +211,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#FFF080</CssParameter>
+              <CssParameter name="fill">#cdd982</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#FFF080</CssParameter>
+              <CssParameter name="stroke">#cdd982</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.75 - 0.80</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -136,17 +235,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#FFF59A</CssParameter>
+              <CssParameter name="fill">#add59a</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#FFF59A</CssParameter>
+              <CssParameter name="stroke">#add59a</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.70 - 0.75</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -161,17 +259,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#F6F7A5</CssParameter>
+              <CssParameter name="fill">#8bd1ad</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#F6F7A5</CssParameter>
+              <CssParameter name="stroke">#8bd1ad</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.65 - 0.70</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -186,17 +283,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#E4F1A8</CssParameter>
+              <CssParameter name="fill">#68cbc0</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#E4F1A8</CssParameter>
+              <CssParameter name="stroke">#68cbc0</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.60 - 0.65</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -211,17 +307,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#D1EAAF</CssParameter>
+              <CssParameter name="fill">#48c2ca</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#D1EAAF</CssParameter>
+              <CssParameter name="stroke">#48c2ca</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.55 - 0.60</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -236,17 +331,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#BCE2B6</CssParameter>
+              <CssParameter name="fill">#31b5ca</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#BCE2B6</CssParameter>
+              <CssParameter name="stroke">#31b5ca</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.50 - 0.55</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -261,17 +355,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#A6DABC</CssParameter>
+              <CssParameter name="fill">#24a5c3</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#A6DABC</CssParameter>
+              <CssParameter name="stroke">#24a5c3</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.45 - 0.50</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -286,17 +379,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#8FD2C1</CssParameter>
+              <CssParameter name="fill">#1f94bb</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#8FD2C1</CssParameter>
+              <CssParameter name="stroke">#1f94bb</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.40 - 0.45</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -311,17 +403,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#77CAC5</CssParameter>
+              <CssParameter name="fill">#2182b4</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#77CAC5</CssParameter>
+              <CssParameter name="stroke">#2182b4</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.35 - 0.40</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -336,17 +427,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#5EC2C8</CssParameter>
+              <CssParameter name="fill">#256fae</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#5EC2C8</CssParameter>
+              <CssParameter name="stroke">#256fae</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.30 - 0.35</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -361,17 +451,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#44B8C8</CssParameter>
+              <CssParameter name="fill">#285ca5</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#44B8C8</CssParameter>
+              <CssParameter name="stroke">#285ca5</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.25 - 0.30</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -386,17 +475,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#31A6C3</CssParameter>
+              <CssParameter name="fill">#2a4999</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#31A6C3</CssParameter>
+              <CssParameter name="stroke">#2a4999</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.20 - 0.25</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -411,17 +499,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#2891BD</CssParameter>
+              <CssParameter name="fill">#29388b</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#2891BD</CssParameter>
+              <CssParameter name="stroke">#29388b</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.15 - 0.20</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -436,17 +523,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#2379B3</CssParameter>
+              <CssParameter name="fill">#252978</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#2379B3</CssParameter>
+              <CssParameter name="stroke">#252978</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.10 - 0.15</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -461,17 +547,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#235DA4</CssParameter>
+              <CssParameter name="fill">#1d1d63</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#235DA4</CssParameter>
+              <CssParameter name="stroke">#1d1d63</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.05 - 0.10</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -486,17 +571,16 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#223C8D</CssParameter>
+              <CssParameter name="fill">#15154d</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#223C8D</CssParameter>
+              <CssParameter name="stroke">#15154d</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
-
         <Rule>
-          <Title>0.00 - 0.05</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -511,13 +595,14 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#081D58</CssParameter>
+              <CssParameter name="fill">#0b0f33</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#081D58</CssParameter>
+              <CssParameter name="stroke">#0b0f33</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
       </FeatureTypeStyle>
