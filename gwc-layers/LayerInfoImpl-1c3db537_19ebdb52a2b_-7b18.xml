@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-1c3db537:19ebdb52a2b:-7d97</id>
+  <id>LayerInfoImpl-1c3db537:19ebdb52a2b:-7b18</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>RERI:SeamapAus_NBHL_CONFIDENCE_substrata</name>
+  <name>seamap:SeamapAus_NBHL_CONFIDENCE_substrata</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
@@ -22,7 +22,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>generic</defaultStyle>
+      <defaultStyle>seamap:SeamapAus_NBHL_CONFIDENCE</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

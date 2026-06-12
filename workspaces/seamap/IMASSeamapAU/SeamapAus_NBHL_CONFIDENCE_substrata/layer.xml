@@ -1,0 +1,17 @@
+<layer>
+  <name>SeamapAus_NBHL_CONFIDENCE_substrata</name>
+  <id>LayerInfoImpl-1c3db537:19ebdb52a2b:-7b18</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1c3db537:19ebaa1c747:-42b7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1c3db537:19ebdb52a2b:-7b19</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-06-12 22:45:31.348 UTC</dateCreated>
+  <dateModified>2026-06-12 22:46:15.273 UTC</dateModified>
+</layer>
