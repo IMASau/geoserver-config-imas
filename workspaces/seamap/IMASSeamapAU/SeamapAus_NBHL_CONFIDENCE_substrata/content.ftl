@@ -1,7 +1,7 @@
 <#list features as feature>
-  <#assign featureVal=feature.SCORE.value?number>
-
   <#if feature_index == 0>
+  
+    <#assign featureVal=feature.SCORE.value?number>
   
     <#if (featureVal >= 0.95 && featureVal <= 1.00)>
       <#assign color="#fff200" textColor="#000000">
@@ -48,8 +48,11 @@
     <div class="feature" style="padding-top:5px; padding-bottom:5px;">
       <h5 style="padding-bottom:5px;">Seamap Australia confidence <span style="text-transform:none;">(substrate)</span></h5>
       <h6 style="margin-bottom:8px;"><i>${feature.DATASET.value}</i></h6>
-      <h6 style="margin-bottom:8px;"><B>CONFIDENCE:</B> <span style="background:${color}; color:${textColor}; padding:2px 4px; border-radius:3px; font-size:102%">${featureVal}</span></h6> 
       <table style="border-collapse:collapse; margin:8px 0 0 0; width:auto; background:transparent; border:0.5px solid #cccccc; font-size:95%;">
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc; background:${color}; color:${textColor}; font-size:102%"><h6>CONFIDENCE</h6></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc; background:${color}; color:${textColor}; font-size:102%">${featureVal}</td>
+        </tr>      
         <tr style="background:transparent;">
           <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Survey scale</b></td>
           <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.Survey_scale.value}</td>
