@@ -48,7 +48,45 @@
     <div class="feature" style="padding-top:5px; padding-bottom:5px;">
       <h5 style="padding-bottom:5px;">Seamap Australia confidence <span style="text-transform:none;">(substrate)</span></h5>
       <h6 style="margin-bottom:8px;"><i>${feature.DATASET.value}</i></h6>
-      <h6 style="margin-bottom:8px;"><B>CONFIDENCE:</B> <span style="background:${color}; color:${textColor}; padding:2px 4px; border-radius:3px; font-size:102%">${featureVal}</span></h6>        
+      <h6 style="margin-bottom:8px;"><B>CONFIDENCE:</B> <span style="background:${color}; color:${textColor}; padding:2px 4px; border-radius:3px; font-size:102%">${featureVal}</span></h6> 
+      <table style="border-collapse:collapse; margin:8px 0 0 0; width:auto; background:transparent; border:0.5px solid #cccccc; font-size:95%;">
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Survey scale</b></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.Survey_scale.value}</td>
+        </tr>
+        <#if feature.Visibility_setting.value != "below surface imagery range">
+          <tr style="background:transparent;">
+            <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Broad-scale source</b> <i>(below-optical)</i></td>
+            <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceBr_below.value}</td>
+          </tr>
+        <#elseif feature.Visibility_setting.value != "from surface/surface imagery">          
+          <tr style="background:transparent;">
+            <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Broad-scale source</b> <i>(above-optical)</i></td>
+            <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceBr_above.value}</td>
+          </tr> 
+        </#if>
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Broad-scale source resolution</b></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceBr_resolution.value}</td>
+        </tr>
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Ground-truth method</b></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceGT_method.value}</td>
+        </tr> 
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Ground-truth design</b></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceGT_design.value}</td>
+        </tr>  
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Extraction method</b></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.Extract_method.value}</td>
+        </tr> 
+        <tr style="background:transparent;">
+          <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Output resolution</b></td>
+          <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.Output_resolution.value}</td>
+        </tr>         
+      </table>
+      
     </div>
 
   </#if>
