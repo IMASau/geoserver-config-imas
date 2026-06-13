@@ -59,7 +59,8 @@
             <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Broad-scale source</b> <i>(below-optical)</i></td>
             <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceBr_below.value}</td>
           </tr>
-        <#elseif feature.Visibility_setting.value != "from surface/surface imagery">          
+        </#if>
+        <#if feature.Visibility_setting.value != "from surface/surface imagery">          
           <tr style="background:transparent;">
             <td style="background:transparent; padding:4px 6px; text-align:right; white-space:nowrap; border:0.5px solid #cccccc;"><b>Broad-scale source</b> <i>(above-optical)</i></td>
             <td style="padding:3px 5px; text-align:left; min-width:38px; border:0.5px solid #cccccc;">${feature.SourceBr_above.value}</td>
