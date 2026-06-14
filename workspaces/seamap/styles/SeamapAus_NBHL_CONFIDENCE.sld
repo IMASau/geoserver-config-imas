@@ -31,7 +31,7 @@
           <Title> 0.9</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fbea05</CssParameter>
+              <CssParameter name="fill">#fde72f</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                              
@@ -40,7 +40,7 @@
           <Title> 0.8</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e6e126</CssParameter>
+              <CssParameter name="fill">#d8bf3a</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -49,7 +49,7 @@
           <Title> 0.7</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#b4d75c</CssParameter>
+              <CssParameter name="fill">#a6c36f</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -58,7 +58,7 @@
           <Title> 0.6</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#75cc91</CssParameter>
+              <CssParameter name="fill">#70c99a</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -67,7 +67,7 @@
           <Title> 0.5</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#37b9b8</CssParameter>
+              <CssParameter name="fill">#3bb9bc</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -76,7 +76,7 @@
           <Title> 0.4</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#1b9ac9</CssParameter>
+              <CssParameter name="fill">#1c9ccb</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -85,10 +85,10 @@
           <Title> 0.3</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#286fc2</CssParameter>
+              <CssParameter name="fill">#2874c5</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#286fc2</CssParameter>
+              <CssParameter name="stroke">#2874c5</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -98,7 +98,7 @@
           <Title> 0.2</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#2944a8</CssParameter>
+              <CssParameter name="fill">#2947ad</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -107,7 +107,7 @@
           <Title> 0.1</Title>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#1a216f</CssParameter>
+              <CssParameter name="fill">#20247f</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                    
@@ -163,10 +163,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ffee00</CssParameter>
+              <CssParameter name="fill">#fde72f</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#ffee00</CssParameter>
+              <CssParameter name="stroke">#fde72f</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -187,10 +187,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fbea05</CssParameter>
+              <CssParameter name="fill">#f0cf1a</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#fbea05</CssParameter>
+              <CssParameter name="stroke">#f0cf1a</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -211,10 +211,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f4e613</CssParameter>
+              <CssParameter name="fill">#d8bf3a</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#f4e613</CssParameter>
+              <CssParameter name="stroke">#d8bf3a</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -235,10 +235,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e6e126</CssParameter>
+              <CssParameter name="fill">#bfbd56</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#e6e126</CssParameter>
+              <CssParameter name="stroke">#bfbd56</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -259,10 +259,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d0dc3f</CssParameter>
+              <CssParameter name="fill">#a6c36f</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#d0dc3f</CssParameter>
+              <CssParameter name="stroke">#a6c36f</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -283,10 +283,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#b4d75c</CssParameter>
+              <CssParameter name="fill">#8cc884</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#b4d75c</CssParameter>
+              <CssParameter name="stroke">#8cc884</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -307,10 +307,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#96d277</CssParameter>
+              <CssParameter name="fill">#70c99a</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#96d277</CssParameter>
+              <CssParameter name="stroke">#70c99a</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -331,10 +331,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#75cc91</CssParameter>
+              <CssParameter name="fill">#55c4ad</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#75cc91</CssParameter>
+              <CssParameter name="stroke">#55c4ad</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -355,10 +355,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#55c4a7</CssParameter>
+              <CssParameter name="fill">#3bb9bc</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#55c4a7</CssParameter>
+              <CssParameter name="stroke">#3bb9bc</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -379,10 +379,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#37b9b8</CssParameter>
+              <CssParameter name="fill">#27acc5</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#37b9b8</CssParameter>
+              <CssParameter name="stroke">#27acc5</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -403,10 +403,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#22abc3</CssParameter>
+              <CssParameter name="fill">#1c9ccb</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#22abc3</CssParameter>
+              <CssParameter name="stroke">#1c9ccb</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -427,10 +427,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#1b9ac9</CssParameter>
+              <CssParameter name="fill">#2189ca</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#1b9ac9</CssParameter>
+              <CssParameter name="stroke">#2189ca</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -451,10 +451,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#2285c8</CssParameter>
+              <CssParameter name="fill">#2874c5</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#2285c8</CssParameter>
+              <CssParameter name="stroke">#2874c5</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -475,10 +475,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#286fc2</CssParameter>
+              <CssParameter name="fill">#2b5ebe</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#286fc2</CssParameter>
+              <CssParameter name="stroke">#2b5ebe</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -499,10 +499,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#2b58b8</CssParameter>
+              <CssParameter name="fill">#2947ad</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#2b58b8</CssParameter>
+              <CssParameter name="stroke">#2947ad</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -523,10 +523,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#2944a8</CssParameter>
+              <CssParameter name="fill">#25359a</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#2944a8</CssParameter>
+              <CssParameter name="stroke">#25359a</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -547,10 +547,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#23318f</CssParameter>
+              <CssParameter name="fill">#20247f</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#23318f</CssParameter>
+              <CssParameter name="stroke">#20247f</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -571,10 +571,10 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#1a216f</CssParameter>
+              <CssParameter name="fill">#17185c</CssParameter>
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#1a216f</CssParameter>
+              <CssParameter name="stroke">#17185c</CssParameter>
               <CssParameter name="stroke-width">0.01</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
