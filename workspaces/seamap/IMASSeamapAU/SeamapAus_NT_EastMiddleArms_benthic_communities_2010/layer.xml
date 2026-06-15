@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_NT_EastMiddleArms_communities</name>
+  <name>SeamapAus_NT_EastMiddleArms_benthic_communities_2010</name>
   <id>LayerInfoImpl--a189114:158b2dab1a2:3f8a</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -12,4 +12,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2026-06-15 20:52:48.399 UTC</dateModified>
 </layer>

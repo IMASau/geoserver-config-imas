@@ -1,5 +1,5 @@
 <layer>
-  <name>SeamapAus_NT_EastMiddleArms_habitats</name>
+  <name>SeamapAus_NT_EastMiddleArms_physical_habitats_2010</name>
   <id>LayerInfoImpl--a189114:158b2dab1a2:3f8d</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -12,4 +12,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2026-06-15 20:52:54.64 UTC</dateModified>
 </layer>
