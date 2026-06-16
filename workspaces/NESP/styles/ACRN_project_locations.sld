@@ -7,29 +7,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Project Locations</Name>
+    <Name>ACRN project locations - Habitat Restoration</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>		
-          <Title>---Restored Habitat Type---</Title>		
-          <ogc:Filter>		
-            <ogc:PropertyIsEqualTo>		
-              <ogc:PropertyName>Habitat_type</ogc:PropertyName>		
-              <ogc:Literal>intentionallyblank</ogc:Literal>		
-            </ogc:PropertyIsEqualTo>		
-          </ogc:Filter>        
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#ffffff</CssParameter>  
-                  <CssParameter name="fill-opacity">0</CssParameter>                       
-                </Fill>               
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
+          <Title>---Restored Habitat Type---</Title>		    
         </Rule>        
         <Rule>		
           <Title>Coral</Title>		

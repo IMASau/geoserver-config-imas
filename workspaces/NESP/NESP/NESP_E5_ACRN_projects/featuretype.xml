@@ -5,7 +5,12 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>NESP E5 - Australian Coastal Restoration Network - database of projects</title>
+  <title>Australasian Coastal Restoration Network database (NESP MB E5)</title>
+  <abstract>This layer shows the location of coastal and marine restoration projects contributed through the Australasian Coastal Restoration Network (https://www.acrn.org.au). Projects are styled by the primary habitat type being restored, including seagrass, saltmarsh, coastal wetlands, coral and shellfish reefs, mangroves and kelp forests.&#xd;
+&#xd;
+The layer highlights restoration activity across the region and supports knowledge sharing among practitioners, researchers, managers and communities working to restore coastal ecosystems and the ecosystem services they provide.&#xd;
+&#xd;
+This layer represents a static snapshot of the ACRN database from March 2020, following work conducted by NESP Marine Biodiversity Hub Project E5. The ACRN database is continually updated, and additional restoration projects may be available from the ACRN website.</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_E5_ACRN_projects</string>
@@ -43,6 +48,8 @@
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
