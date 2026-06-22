@@ -3,6 +3,7 @@
   <name>eeztemp</name>
   <mode>SINGLE</mode>
   <title>eeztemp</title>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
   </workspace>
@@ -32,4 +33,5 @@
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2026-06-22 00:13:42.935 UTC</dateCreated>
+  <dateModified>2026-06-22 05:10:08.126 UTC</dateModified>
 </layerGroup>
