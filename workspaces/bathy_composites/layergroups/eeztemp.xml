@@ -1,0 +1,35 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-1c3db537:19eec66111b:-2ce1</id>
+  <name>eeztemp</name>
+  <mode>SINGLE</mode>
+  <title>eeztemp</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--7bc16a82:18eeb2ae0ff:39f6</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e6efa13e2:-b3a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1691f5b0:18e6fee13d7:467</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--7bc16a82:18eeb2ae0ff:3ab4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1c3db537:19eec66111b:-2cf3</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-4333776.65588629</minx>
+    <maxx>4465467.602282695</maxx>
+    <miny>-6691900.35982885</miny>
+    <maxy>-884350.3598288503</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </bounds>
+  <dateCreated>2026-06-22 00:13:42.935 UTC</dateCreated>
+</layerGroup>
