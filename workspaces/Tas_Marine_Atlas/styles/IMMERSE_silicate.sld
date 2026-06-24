@@ -1,20 +1,20 @@
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <Name>Nitrate concentration</Name>
+    <Name>Silicate (&#xB5;M)</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>Nitrate (&#xB5;M)</Title>
+          <Title>Silicate (&#xB5;M)</Title>
         </Rule>
 
         <!-- Zoom levels <120,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>NITRATE</ogc:PropertyName>
-              <ogc:Literal>0.008</ogc:Literal>
+              <ogc:PropertyName>SILICATE</ogc:PropertyName>
+              <ogc:Literal>0.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -23,11 +23,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#D8F0FF</CssParameter>
+                  <CssParameter name="fill">#E0E7FF</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#D8F0FF</CssParameter>
+                  <CssParameter name="stroke">#E0E7FF</CssParameter>
                   <CssParameter name="stroke-width">2.1</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -42,12 +42,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.008</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -57,11 +57,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9DD3F0</CssParameter>
+                  <CssParameter name="fill">#A5B4FC</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#9DD3F0</CssParameter>
+                  <CssParameter name="stroke">#A5B4FC</CssParameter>
                   <CssParameter name="stroke-width">2.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -76,12 +76,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -91,11 +91,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5DA9D6</CssParameter>
+                  <CssParameter name="fill">#6366F1</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5DA9D6</CssParameter>
+                  <CssParameter name="stroke">#6366F1</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -110,12 +110,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.043</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -125,11 +125,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#2171B5</CssParameter>
+                  <CssParameter name="fill">#4338CA</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2171B5</CssParameter>
+                  <CssParameter name="stroke">#4338CA</CssParameter>
                   <CssParameter name="stroke-width">2.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -143,8 +143,8 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>NITRATE</ogc:PropertyName>
-              <ogc:Literal>0.043</ogc:Literal>
+              <ogc:PropertyName>SILICATE</ogc:PropertyName>
+              <ogc:Literal>0.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -153,11 +153,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#08306B</CssParameter>
+                  <CssParameter name="fill">#1E1B4B</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#08306B</CssParameter>
+                  <CssParameter name="stroke">#1E1B4B</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -168,13 +168,13 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- Zoom levels >120,000 -->
+        <!-- Zoom levels >120,000-->
         <Rule>
-          <Title> &#8804; 0.008</Title>
+          <Title> &#8804; 0.1</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>NITRATE</ogc:PropertyName>
-              <ogc:Literal>0.008</ogc:Literal>
+              <ogc:PropertyName>SILICATE</ogc:PropertyName>
+              <ogc:Literal>0.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -183,11 +183,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#D8F0FF</CssParameter>
+                  <CssParameter name="fill">#E0E7FF</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#D8F0FF</CssParameter>
+                  <CssParameter name="stroke">#E0E7FF</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.008 - 0.018</Title>
+          <Title>    0.1 - 0.2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.008</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -217,11 +217,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9DD3F0</CssParameter>
+                  <CssParameter name="fill">#A5B4FC</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#9DD3F0</CssParameter>
+                  <CssParameter name="stroke">#A5B4FC</CssParameter>
                   <CssParameter name="stroke-width">1.7</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.018 - 0.029</Title>
+          <Title>    0.2 - 0.3</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.018</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -251,11 +251,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5DA9D6</CssParameter>
+                  <CssParameter name="fill">#6366F1</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5DA9D6</CssParameter>
+                  <CssParameter name="stroke">#6366F1</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.029 - 0.043</Title>
+          <Title>    0.3 - 0.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.029</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE</ogc:PropertyName>
-                <ogc:Literal>0.043</ogc:Literal>
+                <ogc:PropertyName>SILICATE</ogc:PropertyName>
+                <ogc:Literal>0.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -285,11 +285,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#2171B5</CssParameter>
+                  <CssParameter name="fill">#4338CA</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2171B5</CssParameter>
+                  <CssParameter name="stroke">#4338CA</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.043</Title>
+          <Title> > 0.5</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>NITRATE</ogc:PropertyName>
-              <ogc:Literal>0.043</ogc:Literal>
+              <ogc:PropertyName>SILICATE</ogc:PropertyName>
+              <ogc:Literal>0.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -313,11 +313,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#08306B</CssParameter>
+                  <CssParameter name="fill">#1E1B4B</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#08306B</CssParameter>
+                  <CssParameter name="stroke">#1E1B4B</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
