@@ -32,7 +32,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>14</Size>
+              <Size>15</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -65,7 +65,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>16</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>         
 	      <VendorOption name="inclusion">mapOnly</VendorOption>								  		  	  
@@ -98,7 +98,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
               </Mark>
-              <Size>18</Size>
+              <Size>19</Size>
             </Graphic>
           </PointSymbolizer>        
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -131,7 +131,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 
               </Mark>
-              <Size>20</Size>
+              <Size>21</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
@@ -158,7 +158,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 
               </Mark>
-              <Size>22</Size>
+              <Size>23</Size>
             </Graphic>
           </PointSymbolizer>          
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		  

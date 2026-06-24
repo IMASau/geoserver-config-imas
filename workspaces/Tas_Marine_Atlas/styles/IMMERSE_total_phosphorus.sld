@@ -1,20 +1,20 @@
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <Name>Silicate (&#xB5;M)</Name>
+    <Name>Total phosphorus (&#xB5;M)</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>Silicate (&#xB5;M)</Title>
+          <Title>Total phosphorus</Title>
         </Rule>
 
         <!-- Zoom levels <120,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.1</ogc:Literal>
+              <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+              <ogc:Literal>0.021</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -23,11 +23,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E0E7FF</CssParameter>
+                  <CssParameter name="fill">#E9E1E7</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#E0E7FF</CssParameter>
+                  <CssParameter name="stroke">#E9E1E7</CssParameter>
                   <CssParameter name="stroke-width">2.1</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -42,12 +42,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.1</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.021</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.024</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -57,11 +57,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#A5B4FC</CssParameter>
+                  <CssParameter name="fill">#C7A8BA</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#A5B4FC</CssParameter>
+                  <CssParameter name="stroke">#C7A8BA</CssParameter>
                   <CssParameter name="stroke-width">2.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -76,12 +76,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.024</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.026</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -91,11 +91,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#6366F1</CssParameter>
+                  <CssParameter name="fill">#A06F8C</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#6366F1</CssParameter>
+                  <CssParameter name="stroke">#A06F8C</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -110,12 +110,12 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.026</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.5</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.030</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -125,11 +125,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4338CA</CssParameter>
+                  <CssParameter name="fill">#6C4A63</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#4338CA</CssParameter>
+                  <CssParameter name="stroke">#6C4A63</CssParameter>
                   <CssParameter name="stroke-width">2.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -143,8 +143,8 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.5</ogc:Literal>
+              <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+              <ogc:Literal>0.030</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -153,11 +153,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#1E1B4B</CssParameter>
+                  <CssParameter name="fill">#3E2A3D</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#1E1B4B</CssParameter>
+                  <CssParameter name="stroke">#3E2A3D</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -168,13 +168,13 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- Zoom levels >120,000-->
+        <!-- Zoom levels >120,000 -->
         <Rule>
-          <Title> &#8804; 0.1</Title>
+          <Title> &#8804; 0.021</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.1</ogc:Literal>
+              <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+              <ogc:Literal>0.021</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -183,11 +183,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E0E7FF</CssParameter>
+                  <CssParameter name="fill">#E9E1E7</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#E0E7FF</CssParameter>
+                  <CssParameter name="stroke">#E9E1E7</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.1 - 0.2</Title>
+          <Title>    0.021 - 0.024</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.1</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.021</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.024</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -217,11 +217,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#A5B4FC</CssParameter>
+                  <CssParameter name="fill">#C7A8BA</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#A5B4FC</CssParameter>
+                  <CssParameter name="stroke">#C7A8BA</CssParameter>
                   <CssParameter name="stroke-width">1.7</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.2 - 0.3</Title>
+          <Title>    0.024 - 0.026</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.024</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.026</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -251,11 +251,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#6366F1</CssParameter>
+                  <CssParameter name="fill">#A06F8C</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#6366F1</CssParameter>
+                  <CssParameter name="stroke">#A06F8C</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.3 - 0.5</Title>
+          <Title>    0.026 - 0.030</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.026</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.5</ogc:Literal>
+                <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+                <ogc:Literal>0.030</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -285,11 +285,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4338CA</CssParameter>
+                  <CssParameter name="fill">#6C4A63</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#4338CA</CssParameter>
+                  <CssParameter name="stroke">#6C4A63</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.5</Title>
+          <Title> > 0.030</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.5</ogc:Literal>
+              <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
+              <ogc:Literal>0.030</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -313,11 +313,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#1E1B4B</CssParameter>
+                  <CssParameter name="fill">#3E2A3D</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#1E1B4B</CssParameter>
+                  <CssParameter name="stroke">#3E2A3D</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
