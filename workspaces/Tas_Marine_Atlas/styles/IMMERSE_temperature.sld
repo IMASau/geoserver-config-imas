@@ -112,7 +112,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>17.0</ogc:Literal>
+              <ogc:Literal>17.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
@@ -140,7 +140,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>17.0</ogc:Literal>
+              <ogc:Literal>17.1</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
           <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		   
@@ -149,11 +149,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF1010</CssParameter>
+                  <CssParameter name="fill">#f51330</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#FF1010</CssParameter>
+                  <CssParameter name="stroke">#f51330</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 
@@ -260,7 +260,7 @@
           </PointSymbolizer>         
         </Rule>
         <Rule>
-          <Title>    15.1 - 17.0</Title>				                                    
+          <Title>    15.1 - 17.1</Title>				                                    
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -269,7 +269,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>17.0</ogc:Literal>
+              <ogc:Literal>17.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
@@ -293,11 +293,11 @@
           </PointSymbolizer>          
         </Rule>			
         <Rule>
-          <Title> > 17.0</Title>				                                            
+          <Title> > 17.1</Title>				                                            
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>17.0</ogc:Literal>
+              <ogc:Literal>17.1</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
           <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
@@ -306,11 +306,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FF1010</CssParameter>
+                  <CssParameter name="fill">#f51330</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>                  
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#FF1010</CssParameter>
+                  <CssParameter name="stroke">#f51330</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>               
