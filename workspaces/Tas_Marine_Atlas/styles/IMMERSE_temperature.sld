@@ -112,7 +112,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>16.9</ogc:Literal>
+              <ogc:Literal>17.0</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
@@ -140,7 +140,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>16.9</ogc:Literal>
+              <ogc:Literal>17.0</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
           <MaxScaleDenominator>120000</MaxScaleDenominator>          		  		   
@@ -260,7 +260,7 @@
           </PointSymbolizer>         
         </Rule>
         <Rule>
-          <Title>    15.1 - 16.9</Title>				                                    
+          <Title>    15.1 - 17.0</Title>				                                    
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
@@ -269,7 +269,7 @@
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>16.9</ogc:Literal>
+              <ogc:Literal>17.0</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
@@ -293,11 +293,11 @@
           </PointSymbolizer>          
         </Rule>			
         <Rule>
-          <Title> > 16.9</Title>				                                            
+          <Title> > 17.0</Title>				                                            
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
-              <ogc:Literal>16.9</ogc:Literal>
+              <ogc:Literal>17.0</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
           <MinScaleDenominator>120000</MinScaleDenominator>          		  		  		  		  
