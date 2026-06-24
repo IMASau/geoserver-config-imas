@@ -20,12 +20,9 @@
 
         <!-- Temperature -->
         <li style="margin-bottom:4px;">
-          <#if feature.TEMPERATURE_MEAN.value?has_content>
+          <#if feature.TEMPERATURE.value?has_content>
             <span style="color:#FF1010">Temperature: </span> 
-            <b>${feature.TEMPERATURE_MEAN.value?number?string["0.0"]}
-            <#if feature.TEMPERATURE_STD.value?has_content>
-              &#177; ${feature.TEMPERATURE_STD.value?number?string["0.00"]}
-            </#if>
+            <b>${feature.TEMPERATURE.value?number?string["0.0"]}
             &#176;C</b>
           <#else>
             <i>Temperature not measured</i>
@@ -34,12 +31,9 @@
 
         <!-- Salinity -->
         <li style="margin-bottom:4px;">
-          <#if feature.SALINITY_MEAN.value?has_content>
+          <#if feature.SALINITY.value?has_content>
             <span style="color:#b2a001">Salinity: </span> 
-            <b>${feature.SALINITY_MEAN.value?number?string["0.0"]}
-            <#if feature.SALINITY_STD.value?has_content>
-              &#177; ${feature.SALINITY_STD.value?number?string["0.00"]}
-            </#if>
+            <b>${feature.SALINITY.value?number?string["0.0"]}
             PSU</b>
           <#else>
             <i>Salinity not measured</i>
@@ -48,12 +42,9 @@
 
         <!-- Nitrate -->
         <li style="margin-bottom:4px;">
-          <#if feature.NITRATE_MEAN.value?has_content>
+          <#if feature.NITRATE.value?has_content>
             <span style="color:#006652">Nitrate: </span> 
-            <b>${feature.NITRATE_MEAN.value?number?string["0.000"]}
-            <#if feature.NITRATE_STD.value?has_content>
-             &#177; ${feature.NITRATE_STD.value?number?string["0.000"]}
-            </#if>
+            <b>${feature.NITRATE.value?number?string["0.000"]}
             &#xB5;M</b>
           <#else>
             <i>Nitrate not measured</i>

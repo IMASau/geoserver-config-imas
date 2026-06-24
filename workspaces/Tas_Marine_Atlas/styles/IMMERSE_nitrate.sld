@@ -13,7 +13,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>NITRATE</ogc:PropertyName>
               <ogc:Literal>0.008</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
@@ -42,11 +42,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.008</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.018</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -76,11 +76,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.018</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.029</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -110,11 +110,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.029</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.043</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -143,7 +143,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>NITRATE</ogc:PropertyName>
               <ogc:Literal>0.043</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
@@ -173,7 +173,7 @@
           <Title> &#8804; 0.008</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>NITRATE</ogc:PropertyName>
               <ogc:Literal>0.008</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
@@ -202,11 +202,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.008</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.018</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -236,11 +236,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.018</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.029</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -270,11 +270,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.029</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+                <ogc:PropertyName>NITRATE</ogc:PropertyName>
                 <ogc:Literal>0.043</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -303,7 +303,7 @@
           <Title> > 0.043</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>NITRATE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>NITRATE</ogc:PropertyName>
               <ogc:Literal>0.043</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>

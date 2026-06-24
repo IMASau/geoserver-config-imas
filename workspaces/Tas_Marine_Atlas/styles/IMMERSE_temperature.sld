@@ -13,7 +13,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>11.4</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
@@ -41,11 +41,11 @@
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>11.4</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>13.2</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
@@ -74,11 +74,11 @@
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>13.2</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>15.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
@@ -107,11 +107,11 @@
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>15.1</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>16.9</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
@@ -139,7 +139,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>16.9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
@@ -170,7 +170,7 @@
           <Title> &#8804; 11.4</Title>				        
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>11.4</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
@@ -198,11 +198,11 @@
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>11.4</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>13.2</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
@@ -231,11 +231,11 @@
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>13.2</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>15.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
@@ -264,11 +264,11 @@
           <ogc:Filter>
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>15.1</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>16.9</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
@@ -296,7 +296,7 @@
           <Title> > 16.9</Title>				                                            
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>TEMPERATURE_MEAN</ogc:PropertyName>
+              <ogc:PropertyName>TEMPERATURE</ogc:PropertyName>
               <ogc:Literal>16.9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
