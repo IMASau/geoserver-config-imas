@@ -37,7 +37,7 @@
               <Radius>1.3</Radius>
               <Fill>
                 <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.8</CssParameter>
+                <CssParameter name="fill-opacity">0.7</CssParameter>
               </Fill>
             </Halo>
             <Fill>
