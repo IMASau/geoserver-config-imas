@@ -6,7 +6,7 @@
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>Mean carbon stock (mg C/ha)</Title>
+          <Title>Mean carbon stock (t C/ha)</Title>
         </Rule>
 		
         <!-- Zoom levels <200,000 -->
