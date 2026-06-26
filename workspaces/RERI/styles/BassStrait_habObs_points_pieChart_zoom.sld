@@ -113,10 +113,9 @@
           </PointSymbolizer>      
         </Rule>  
 
-        <!-- Rule for Pie Chart at scale above 250,000 but less than 800000 -->
+        <!-- Rule for Pie Chart at scale above 250,000 -->
         <Rule>
           <MinScaleDenominator>250000</MinScaleDenominator>
-          <MaxScaleDenominator>800000</MaxScaleDenominator>	
           <PointSymbolizer>
             <Graphic>
               <Mark>

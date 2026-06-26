@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5de17116:19956dbe022:6390</id>
+  <id>FeatureTypeInfoImpl-1c3db537:19f010fd0ef:-4a23</id>
   <name>BassStrait_habitat_obs_pt</name>
-  <nativeName>SeamapAus_NAT_predictedHab_temperateAus_obs</nativeName>
+  <nativeName>RERI14_BassStrait_habObs_pts</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--40004db0:1983c4612ee:-65d3</id>
   </namespace>
-  <title>Bass Strait regional habitat model - ground-truthing benthic observations</title>
+  <title>Bass Strait regional habitat model - benthic observations</title>
   <abstract>This layer shows the broad-scale breakdown of benthic habitat (ecosystem components) derived from spatially balanced ground-truthing data used for model training of the RERI 14 Project regional-scale benthic habitat mapping of Bass Strait. Annotation data is publicly available from Squidle+, and includes select BOSS, stereo-BRUV, and AUV deployments.</abstract>
   <keywords>
     <string>features</string>
-    <string>SeamapAus_NAT_predictedHab_temperateAus_obs</string>
+    <string>RERI14_BassStrait_habObs_pts</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -22,22 +22,21 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>143.0</minx>
-    <maxx>150.0</maxx>
-    <miny>-42.0</miny>
-    <maxy>-37.0</maxy>
+    <minx>143.188797136224</minx>
+    <maxx>148.6198329723966</maxx>
+    <miny>-41.96658416933167</miny>
+    <maxy>-38.34980463300389</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>143.0</minx>
-    <maxx>150.0</maxx>
-    <miny>-42.0</miny>
-    <maxy>-37.0</maxy>
+    <minx>143.188797136224</minx>
+    <maxx>148.6198329723966</maxx>
+    <miny>-41.96658416933167</miny>
+    <maxy>-38.34980463300389</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
@@ -48,7 +47,6 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BBOX(geom, 143, -42, 150, -37)</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
