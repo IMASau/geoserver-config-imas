@@ -113,9 +113,9 @@
           </PointSymbolizer>      
         </Rule>  
 
-        <!-- Rule for Pie Chart at scale above 250,000 -->
+        <!-- Rule for Pie Chart at scale above 1,500,000 -->
         <Rule>
-          <MinScaleDenominator>250000</MinScaleDenominator>
+          <MinScaleDenominator>1500000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -136,11 +136,34 @@
           </PointSymbolizer>
         </Rule>  
         
-        
-        <!-- Rule for Pie Chart at scales above 120,000 and below 250,000 -->
+        <!-- Rule for Pie Chart at scales above 500,000 and below 1,500,000 -->
+        <Rule>
+          <MinScaleDenominator>500000</MinScaleDenominator>
+          <MaxScaleDenominator>1500000</MaxScaleDenominator> 
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
+          <PointSymbolizer>
+            <Geometry>
+              <ogc:Function name="centroid">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </Geometry>
+            <Graphic>
+              <ExternalGraphic>
+                <!-- URL constructed for Google Charts (deprecated) -->
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock / total_points},${bare_sediment
+},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <Format>application/chart</Format>
+              </ExternalGraphic>
+              <Size>
+                <ogc:Literal>15</ogc:Literal>
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>          
+        <!-- Rule for Pie Chart at scales above 120,000 and below 500,000 -->
         <Rule>
           <MinScaleDenominator>120000</MinScaleDenominator>
-          <MaxScaleDenominator>250000</MaxScaleDenominator> 
+          <MaxScaleDenominator>500000</MaxScaleDenominator> 
           <VendorOption name="inclusion">mapOnly</VendorOption>          
           <PointSymbolizer>
             <Geometry>
