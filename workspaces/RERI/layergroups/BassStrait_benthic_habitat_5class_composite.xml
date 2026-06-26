@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-1c3db537:19f014a29c0:-1a84</id>
+  <name>BassStrait_benthic_habitat_5class_composite</name>
+  <mode>SINGLE</mode>
+  <title>Bass Strait regional-scale benthic habitat: 5-class model with confidence overlay</title>
+  <abstractTxt>Composite regional-scale benthic habitat map of Bass Strait shelf waters. Five classes of benthic habitat are predicted: Bare Rock, Bare Sediment, Macroalgae, Seagrass, Sessile Invertebrates.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--40004db0:1983c4612ee:-65d4</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-6d45eb00:19d1ee34b76:-7e90</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1c3db537:19f010fd0ef:-4a22</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-53b06053:19ce8adf603:-5547</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1c3db537:19f010fd0ef:-5c9c</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>142.9943500000009</minx>
+    <maxx>150.00355000006758</maxx>
+    <miny>-42.0102499999982</miny>
+    <maxy>-36.99334999995048</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2026-06-26 00:28:43.863 UTC</dateCreated>
+</layerGroup>
