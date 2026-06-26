@@ -150,8 +150,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock / total_points},${bare_sediment
-},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -174,8 +173,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock / total_points},${bare_sediment
-},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -198,8 +196,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock / total_points},${bare_sediment
-},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -221,8 +218,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock / total_points},${bare_sediment
-},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>

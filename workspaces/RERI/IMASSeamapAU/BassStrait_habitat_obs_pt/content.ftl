@@ -3,7 +3,7 @@
         <#-- Define the maximum width for the bars in pixels -->
         <#assign maxBarWidth = 90>
 
-        <#assign totalPoints = (feature.total_points.value)?number!1>
+        <#assign totalPoints = (feature.scored_points.value)?number!1>
 
         <#-- Combine sessile invertebrate classes -->
         <#assign sessileInverts =
