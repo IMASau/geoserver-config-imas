@@ -143,7 +143,7 @@
 
           <span style="margin-left: 8px;">
             <#if row.label == "all species mean">All species mean<#else><span style="font-style:italic;">${row.label}</span></#if>:
-            <b>${row.totalMean?string("0")}</b> <i style="color:#666666">&#177; ${row.totalStdev?string("0")}</i> t C ha<sup>-1</sup>
+            <b>${row.totalMean?string("0")}</b> &#177; ${row.totalStdev?string("0")} t C ha<sup>-1</sup>
           </span>
 
         </div>
@@ -153,7 +153,7 @@
     </#list>
 
     <#if showTotalLegend || showRhizomeLegend || showSoilLegend>
-      <div style="display: flex; align-items: center; gap: 15px; padding-top: 10px; font-size: 90%; white-space: nowrap;">
+      <div style="display: flex; align-items: center; gap: 10px; padding-top: 10px; font-size: 90%; white-space: nowrap;">
 
         <#if showTotalLegend>
           <span style="display: inline-flex; align-items: center;">
