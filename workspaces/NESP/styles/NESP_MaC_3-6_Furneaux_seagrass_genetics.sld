@@ -6,320 +6,746 @@
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>Clonal richnes</Title>
+          <Title>Clonal richness</Title>
         </Rule>
-		
-        <!-- Zoom levels <200,000 -->
+
+        <!-- ========================== -->
+        <!-- Zoom levels < 200,000      -->
+        <!-- ========================== -->
+
+        <!-- 0.0–0.2 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
               <ogc:Literal>0.2</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:Filter>	
-          <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		  		  
+          </ogc:Filter>
+          <MaxScaleDenominator>200000</MaxScaleDenominator>
+
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#440154</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
                 </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#440154</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
               </Mark>
               <Size>22</Size>
             </Graphic>
-          </PointSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
-        </Rule>
-        <Rule>
-          <ogc:Filter>
-          <ogc:And>		  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.2</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.4</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:And>			
-          </ogc:Filter>	
-          <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#3B528B</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#3B528B</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>22</Size>
-            </Graphic>
-          </PointSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
-        </Rule>
-        <Rule>
-          <ogc:Filter>
-          <ogc:And>		  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.4</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.6</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:And>
-          </ogc:Filter>	
-          <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#21918C</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#21918C</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>22</Size>
-            </Graphic>
-          </PointSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
-        </Rule>
-        <Rule>
-          <ogc:Filter>
-          <ogc:And>		  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.6</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.8</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:And>
-          </ogc:Filter>	
-          <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		  
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#5EC962</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#5EC962</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>22</Size>
-            </Graphic>
-          </PointSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
-        </Rule>        
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.8</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>	
-          <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		   
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#FDE725</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#FDE725</CssParameter>
-                  <CssParameter name="stroke-width">2.5</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>22</Size>
-            </Graphic>
-          </PointSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  
-        </Rule>
-
-
-        <!-- Zoom level >200,000-->
-        <Rule>
-          <Title>  0.8&#8211;1.0</Title>				                                                                    
-          <ogc:Filter>
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.8</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>	
-          <MinScaleDenominator>200000</MinScaleDenominator>          		  		   
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#FDE725</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#FDE725</CssParameter>
-                  <CssParameter name="stroke-width">1.8</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>16</Size>
-            </Graphic>
-          </PointSymbolizer>          
-        </Rule>   
-        <Rule>
-          <Title>  0.6&#8211;0.8</Title>				                                                            
-          <ogc:Filter>
-          <ogc:And>		  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.6</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.8</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:And>
-          </ogc:Filter>	
-          <MinScaleDenominator>200000</MinScaleDenominator>          		  		   
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#5EC962</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#5EC962</CssParameter>
-                  <CssParameter name="stroke-width">1.8</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>16</Size>
-            </Graphic>
-          </PointSymbolizer>          
-        </Rule>         
-        <Rule>
-          <Title>  0.4&#8211;0.6</Title>				                                                    
-          <ogc:Filter>
-          <ogc:And>		  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.4</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.6</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:And>
-          </ogc:Filter>	
-          <MinScaleDenominator>200000</MinScaleDenominator>          		  		   
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#21918C</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#21918C</CssParameter>
-                  <CssParameter name="stroke-width">1.8</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>16</Size>
-            </Graphic>
-          </PointSymbolizer>          
-        </Rule> 
-        <Rule>
-          <Title>  0.2&#8211;0.4</Title>				                                            
-          <ogc:Filter>
-          <ogc:And>		  
-            <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.2</ogc:Literal>
-            </ogc:PropertyIsGreaterThan>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.4</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:And>			
-          </ogc:Filter>	
-          <MinScaleDenominator>200000</MinScaleDenominator>          		  		   
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#3B528B</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#3B528B</CssParameter>
-                  <CssParameter name="stroke-width">1.8</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
-              </Mark>
-              <Size>16</Size>
-            </Graphic>
-          </PointSymbolizer>          
-        </Rule>        
-        <Rule>
-          <Title>  0.0&#8211;0.2</Title>				                                    
-          <ogc:Filter>
-            <ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
-              <ogc:Literal>0.2</ogc:Literal>
-            </ogc:PropertyIsLessThanOrEqualTo>
-          </ogc:Filter>	
-          <MinScaleDenominator>200000</MinScaleDenominator>          		  		   
+          </PointSymbolizer>
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#440154</CssParameter>
-                  <CssParameter name="fill-opacity">0.9</CssParameter>                  
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
                 </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#440154</CssParameter>
-                  <CssParameter name="stroke-width">1.8</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>				  
-                </Stroke>
+              </Mark>
+              <Size>18</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- 0.2–0.4 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.2</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.4</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <MaxScaleDenominator>200000</MaxScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>21</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>17</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- 0.4–0.6 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.4</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.6</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <MaxScaleDenominator>200000</MaxScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>28</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>24</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>20</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                </Fill>
               </Mark>
               <Size>16</Size>
             </Graphic>
-          </PointSymbolizer>          
-        </Rule>        
-      <VendorOption name="sortBy">Clonal_richness A</VendorOption>		        
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- 0.6–0.8 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.6</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.8</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <MaxScaleDenominator>200000</MaxScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>31</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>27</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>23</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- >0.8 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+              <ogc:Literal>0.8</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+          </ogc:Filter>
+          <MaxScaleDenominator>200000</MaxScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>34</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>30</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>26</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- ========================== -->
+        <!-- Zoom levels > 200,000      -->
+        <!-- ========================== -->
+
+        <!-- 0.0–0.2 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsLessThanOrEqualTo>
+              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+              <ogc:Literal>0.2</ogc:Literal>
+            </ogc:PropertyIsLessThanOrEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>200000</MinScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- 0.2–0.4 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.2</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.4</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <MinScaleDenominator>200000</MinScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- 0.4–0.6 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.4</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.6</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <MinScaleDenominator>200000</MinScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>13</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- 0.6–0.8 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.6</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+                <ogc:Literal>0.8</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <MinScaleDenominator>200000</MinScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- >0.8 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Clonal_richness</ogc:PropertyName>
+              <ogc:Literal>0.8</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+          </ogc:Filter>
+          <MinScaleDenominator>200000</MinScaleDenominator>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                  <CssParameter name="fill-opacity">0.10</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>28</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                  <CssParameter name="fill-opacity">0.18</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>25</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                  <CssParameter name="fill-opacity">0.32</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>22</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+
+        <!-- Legend-only rule -->
+        <Rule>
+          <Title>0.0&#8211;0.2</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#440154</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+        </Rule>
+
+        <Rule>
+          <Title>0.2&#8211;0.4</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3B528B</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+        </Rule>
+
+        <Rule>
+          <Title>0.4&#8211;0.6</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#21918C</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+        </Rule>
+
+        <Rule>
+          <Title>0.6&#8211;0.8</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#5EC962</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>17</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+        </Rule>
+
+        <Rule>
+          <Title>0.8&#8211;1.0</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#FDE725</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>19</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+        </Rule>
+
+        <VendorOption name="sortBy">Clonal_richness D</VendorOption>
+
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
