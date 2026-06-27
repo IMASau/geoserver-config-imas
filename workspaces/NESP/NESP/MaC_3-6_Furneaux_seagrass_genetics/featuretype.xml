@@ -1,15 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-1e5ae6a9:19f05693b11:5284</id>
-  <name>NESP_MaC_3-6_Furneaux_seagrass_molluscs</name>
-  <nativeName>NESP_MaC_3_6_Furneaux_seagrass_molluscs</nativeName>
+  <id>FeatureTypeInfoImpl-1c3db537:19f03601ffb:-496b</id>
+  <name>MaC_3-6_Furneaux_seagrass_genetics</name>
+  <nativeName>NESP_MaC_3_6_Furneaux_seagrass_genetics</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Molluscs associated with subtidal seagrass in Tayaritja (Furneaux Group), Tasmania</title>
-  <abstract>This layer shows site-based measurements of mollusc richness and biomass associated with seagrass habitats in Tayaritja Sea Country, Flinders Island. Values are summarised by seagrass species at each sampled site. Mollusc richness represents the number of mollusc taxa recorded, while mollusc biomass represents mollusc dry mass relative to the biomass of sampled seagrass material.</abstract>
+  <title>Population genetics of temperate subtidal seagrass in Tayaritja (Furneaux Group), Tasmania</title>
+  <abstract>This layer shows seagrass population genetic information from sampling sites in Tayaritja Sea Country, Flinders Island. Points are styled by clonal richness, which indicates the proportion of sampled plants that represent unique genetic individuals within each sampled population. Lower values indicate greater clonality, while higher values indicate greater genotypic diversity.</abstract>
   <keywords>
     <string>features</string>
-    <string>NESP_MaC_3_6_Furneaux_seagrass_molluscs</string>
+    <string>NESP_MaC_3_6_Furneaux_seagrass_genetics</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
   DATUM[&quot;World Geodetic System 1984&quot;, 
@@ -22,17 +22,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>147.83416404331666</minx>
-    <maxx>148.26528096530555</maxx>
-    <miny>-40.34422880688456</miny>
-    <maxy>-39.83361020332778</maxy>
+    <minx>147.834197043316</minx>
+    <maxx>148.306902966138</maxx>
+    <miny>-40.3247208064944</miny>
+    <maxy>-39.8336092033278</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>147.83416404331666</minx>
-    <maxx>148.26528096530555</maxx>
-    <miny>-40.34422880688456</miny>
-    <maxy>-39.83361020332778</maxy>
+    <minx>147.834197043316</minx>
+    <maxx>148.306902966138</maxx>
+    <miny>-40.3247208064944</miny>
+    <maxy>-39.8336092033278</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
