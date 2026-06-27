@@ -301,7 +301,7 @@
           <VendorOption name="inclusion">legendOnly</VendorOption>								  		  		  		                                
         </Rule>			
         <Rule>
-          <Title> > 2.5</Title>				                                            
+          <Title> > 2.5 taxa</Title>				                                            
           <PointSymbolizer>
             <Graphic>
               <Mark>
