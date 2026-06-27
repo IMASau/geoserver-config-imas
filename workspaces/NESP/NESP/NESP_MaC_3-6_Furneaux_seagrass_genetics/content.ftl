@@ -68,60 +68,60 @@
     <table style="width:auto; max-width:100%; border-collapse:collapse; font-size:12px; border:1px solid rgba(70,70,70,0.28);">
 
       <tr>
-        <th style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); text-transform:none; vertical-align:middle; line-height:1.1; white-space:nowrap; text-align:left; letter-spacing:.1em;">
+        <th style="padding:6px 7px; border:1px solid rgba(70,70,70,0.28); text-transform:none; vertical-align:middle; line-height:1.1; white-space:nowrap; text-align:left; letter-spacing:.1em;">
           Population parameter
         </th>
 
         <#list sortedRows as row>
-          <th style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); text-transform:none; text-align:right; vertical-align:middle; line-height:1.1; letter-spacing:.1em;">
+          <th style="padding:6px 7px; border:1px solid rgba(70,70,70,0.28); text-transform:none; text-align:right; vertical-align:middle; line-height:1.1; letter-spacing:.1em;">
             <span style= "font-style:italic;">${row.species}</i>
           </th>
         </#list>
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
           Multilocus genotypes
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.MLG?number?string["0"]}
           </td>
         </#list>
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
-          Clonal richness
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap; color:#002b80;">
+          <b>Clonal richness
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.clonalRichness?number?string["0.000"]}
           </td>
         </#list>
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
           Polymorphic loci
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.polyLociPct?number?string["0.0"]}<span style="color:#666;">%</span>
           </td>
         </#list>
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
           Observed heterozygosity
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.Ho?number?string["0.000"]}
             <span style="color:#666; font-size:95%;">&#177; ${row.HoSD?number?string["0.000"]}</span>
           </td>
@@ -129,12 +129,12 @@
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
           Expected heterozygosity
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.He?number?string["0.000"]}
             <span style="color:#666; font-size:95%;">&#177; ${row.HeSD?number?string["0.000"]}</span>
           </td>
@@ -142,12 +142,12 @@
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
           Inbreeding coefficient
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.Fis?number?string["0.000"]}
             <span style="color:#666; font-size:95%;">&#177; ${row.FisSD?number?string["0.000"]}</span>
           </td>
@@ -155,18 +155,23 @@
       </tr>
 
       <tr>
-        <td style="padding:4px 6px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap;">
+        <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap; color:#1f6040;">
           Global FST
         </td>
 
         <#list sortedRows as row>
-          <td style="padding:4px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
+          <td style="padding:5px 7px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28);">
             ${row.FST?number?string["0.000"]}
           </td>
         </#list>
       </tr>
 
     </table>
+
+    <div style="padding-top:15px; font-size:90%; line-height:1.5; color:#595959;">
+      <span style="font-weight:750; color:#002b80;">Clonal richness</span> = proportion of sampled plants with unique genotypes<br>
+      <span style="font-weight:750; color:#1f6040;">Global FST</span> = species-level genetic differentiation <u>among</u> populations
+    </div>
 
   </div>
 
