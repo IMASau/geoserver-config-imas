@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-1e5ae6a9:19f05693b11:5284</id>
+  <name>NESP_MaC_3-6_Furneaux_seagrass_molluscs</name>
+  <nativeName>NESP_MaC_3_6_Furneaux_seagrass_molluscs</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>Molluscs associated with subtidal seagrass in Tayaritja (Furneaux Group), Tasmania</title>
+  <abstract>This layer shows site-based measurements of mollusc richness and biomass associated with seagrass habitats in Tayaritja Sea Country, Flinders Island. Values are summarised by seagrass species at each sampled site. Mollusc richness represents the number of mollusc taxa recorded, while mollusc biomass represents mollusc dry mass relative to the biomass of sampled seagrass material.</abstract>
+  <keywords>
+    <string>features</string>
+    <string>NESP_MaC_3_6_Furneaux_seagrass_molluscs</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>147.83416404331666</minx>
+    <maxx>148.26528096530555</maxx>
+    <miny>-40.34422880688456</miny>
+    <maxy>-39.83361020332778</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>147.83416404331666</minx>
+    <maxx>148.26528096530555</maxx>
+    <miny>-40.34422880688456</miny>
+    <maxy>-39.83361020332778</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

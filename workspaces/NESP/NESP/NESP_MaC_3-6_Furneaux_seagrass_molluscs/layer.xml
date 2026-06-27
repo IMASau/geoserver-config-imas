@@ -1,0 +1,24 @@
+<layer>
+  <name>NESP_MaC_3-6_Furneaux_seagrass_molluscs</name>
+  <id>LayerInfoImpl-1e5ae6a9:19f05693b11:5285</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1e5ae6a9:19f05693b11:4f3a</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1e5ae6a9:19f05693b11:5275</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-1e5ae6a9:19f05693b11:4f3a</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1e5ae6a9:19f05693b11:5284</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-06-27 04:23:33.576 UTC</dateCreated>
+</layer>
