@@ -1,14 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl-1e5ae6a9:19f0816296e:-7b03</id>
-  <name>ImportantBirdAreas_IBA</name>
-  <nativeName>BOUNDARIES_ImportantBirdAreas</nativeName>
+  <name>KeyBiodiversityAreas_KBA</name>
+  <nativeName>BOUNDARIES_KeyBiodiversityAreas_global</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Important Bird Areas (2026)</title>
-  <abstract>Important Bird and Biodiversity Areas (IBAs) are sites identified as being internationally significant for the conservation of birds and other biodiversity, based on a set of standardised, data-driven criteria. Since the launch of the IBA concept by BirdLife in 1979, IBAs have been identified in over 200 countries and territories worldwide, in both terrestrial and marine realms, with thousands of protected areas designated as a direct consequence.&#xd;
+  <title>Key Biodiversity Areas (2026)</title>
+  <abstract>Key Biodiversity Areas (KBAs) are sites identified as being internationally significant for the conservation of birds and other biodiversity, based on a set of standardised, data-driven criteria. KBAs include Important Bird Areas (IBA). Since the launch of the IBA concept by BirdLife in 1979, biodiversity areas have been identified in over 200 countries and territories worldwide, in both terrestrial and marine realms, with thousands of protected areas designated as a direct consequence.&#xd;
 &#xd;
-This layer shows the location of all confirmed IBAs in Australia and is current as of March 2026.</abstract>
+This layer shows the location of all confirmed KBAs in Australia and is current as of March 2026.</abstract>
   <keywords>
     <string>features</string>
     <string>BOUNDARIES_ImportantBirdAreas</string>
