@@ -93,7 +93,7 @@
 
       <tr>
         <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap; color:#002b80;">
-          <b>Clonal richness
+          <b>Clonal richness</b>
         </td>
 
         <#list sortedRows as row>
@@ -156,7 +156,7 @@
 
       <tr>
         <td style="padding:5px 7px; border:1px solid rgba(70,70,70,0.28); white-space:nowrap; color:#1f6040;">
-          Global FST
+          <b>Global FST</b>
         </td>
 
         <#list sortedRows as row>
