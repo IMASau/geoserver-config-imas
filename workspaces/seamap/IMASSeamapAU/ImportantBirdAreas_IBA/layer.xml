@@ -1,0 +1,16 @@
+<layer>
+  <name>ImportantBirdAreas_IBA</name>
+  <id>LayerInfoImpl-1e5ae6a9:19f0816296e:-7b02</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1e5ae6a9:19f0816296e:-7b03</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-06-27 09:28:14.131 UTC</dateCreated>
+</layer>
