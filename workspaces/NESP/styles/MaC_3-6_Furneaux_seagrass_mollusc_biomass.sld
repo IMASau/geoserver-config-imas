@@ -150,7 +150,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 			
               </Mark>
-              <Size>10</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		            
@@ -182,7 +182,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>  
               </Mark>
-              <Size>12</Size>
+              <Size>14</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		            
@@ -214,7 +214,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>                 
               </Mark>
-              <Size>16</Size>
+              <Size>18</Size>
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		            
@@ -240,7 +240,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>               
               </Mark>
-              <Size>20</Size>
+              <Size>22</Size>
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">mapOnly</VendorOption>								  		  		  		            
@@ -326,7 +326,8 @@
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">legendOnly</VendorOption>								  		  		  		                                
-        </Rule>	        
+        </Rule>	      
+        <VendorOption name="sortBy">Biomass_mean D</VendorOption>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

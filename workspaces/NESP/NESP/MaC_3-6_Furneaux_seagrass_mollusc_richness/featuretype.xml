@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-1e5ae6a9:19f05693b11:5284</id>
-  <name>MaC_3-6_Furneaux_seagrass_molluscs</name>
+  <name>MaC_3-6_Furneaux_seagrass_mollusc_richness</name>
   <nativeName>NESP_MaC_3_6_Furneaux_seagrass_molluscs</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Molluscs associated with subtidal seagrass in Tayaritja (Furneaux Group), Tasmania</title>
+  <title>Mollusc species richness associated with subtidal seagrass in Tayaritja (Furneaux Group), Tasmania</title>
   <abstract>This layer shows site-based measurements of mollusc richness and biomass associated with seagrass habitats in Tayaritja Sea Country, Flinders Island. Values are summarised by seagrass species at each sampled site. Mollusc richness represents the number of mollusc taxa recorded, while mollusc biomass represents mollusc dry mass relative to the biomass of sampled seagrass material.</abstract>
   <keywords>
     <string>features</string>

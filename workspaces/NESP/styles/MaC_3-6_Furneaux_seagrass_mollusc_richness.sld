@@ -326,7 +326,8 @@
             </Graphic>
           </PointSymbolizer> 
           <VendorOption name="inclusion">legendOnly</VendorOption>								  		  		  		                                
-        </Rule>	        
+        </Rule>
+        <VendorOption name="sortBy">Richness_mean D</VendorOption>                
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
