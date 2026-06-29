@@ -3,17 +3,7 @@
         <#-- Define the maximum width for the bars in pixels -->
         <#assign maxBarWidth = 90>
 
-        <#assign totalPoints = (feature.scored_points.value)?number!1>
-
-        <#-- Combine sessile invertebrate classes -->
-        <#assign sessileInverts =
-            ((feature.ascidians.value)?number!0) +
-            ((feature.bryozoa.value)?number!0) +
-            ((feature.hydroids.value)?number!0) +
-            ((feature.invertebrate_complex.value)?number!0) +
-            ((feature.octocoral_black.value)?number!0) +
-            ((feature.sponges.value)?number!0)
-        >
+        <#assign totalPoints = (feature.total_points.value)?number!1>
 
         <#assign habitats = [
             {
@@ -28,9 +18,9 @@
             },
             {
                 "name": "Sessile Invertebrates",
-                "value": sessileInverts,
-                "color": "#b23499"
-            },
+                "value": (feature.sessile_inverts.value)?number!0,
+                "color": "#fff34d"
+            }            
             {
                 "name": "Bare Rock",
                 "value": (feature.bare_rock.value)?number!0,
@@ -41,6 +31,11 @@
                 "value": (feature.bare_sediment.value)?number!0,
                 "color": "#fff34d"
             }
+            {
+                "name": "Other",
+                "value": (feature.other.value)?number!0,
+                "color": "#a6a6a6"
+            }            
         ]>
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>

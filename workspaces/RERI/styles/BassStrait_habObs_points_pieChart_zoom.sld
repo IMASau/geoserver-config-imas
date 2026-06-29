@@ -11,111 +11,12 @@
   <NamedLayer>
     <Name>Benthic annotations (pie chart)</Name>
     <UserStyle>
-      <FeatureTypeStyle>
-        
-        <!-- Rule for constructing a dummy legend (ExternalGraphic using the charts extension no longer supports a legend)-->
-        <Rule>
-          <Title>Habitat composition</Title>    
-        </Rule>
-        <Rule>
-          <Title>Bare rock</Title>
-          <VendorOption name="inclusion">legendOnly</VendorOption>          
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#663300</CssParameter>  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>
-        <Rule>
-          <Title>Bare sediment</Title>
-          <VendorOption name="inclusion">legendOnly</VendorOption>                    
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#fff899</CssParameter>  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>         
-        <Rule>
-          <Title>Macroalgae</Title>
-          <VendorOption name="inclusion">legendOnly</VendorOption>                    
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#2e8a0f</CssParameter>  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule> 
-        <Rule>
-          <Title>Seagrass</Title>
-          <VendorOption name="inclusion">legendOnly</VendorOption>          
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#00e6e6</CssParameter>  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule> 
-        <Rule>
-          <Title>Sessile invertebrates</Title>
-          <VendorOption name="inclusion">legendOnly</VendorOption>          
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#9e2e88</CssParameter>  
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>10</Size>
-            </Graphic>
-          </PointSymbolizer>      
-        </Rule>  
+      <FeatureTypeStyle>       
 
         <!-- Rule for Pie Chart at scale above 1,500,000 -->
         <Rule>
           <MinScaleDenominator>1500000</MinScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -132,7 +33,6 @@
               </Mark>
               <Size>4</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>  
         
@@ -150,7 +50,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource
+                xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -173,7 +74,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -196,7 +97,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -218,7 +119,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${ascidians + bryozoa + hydroids + invertebrate_complex + octocoral_black + sponges}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
