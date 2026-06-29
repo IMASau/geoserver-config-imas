@@ -51,7 +51,7 @@
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
                 <OnlineResource
-                xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
@@ -74,11 +74,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>20</ogc:Literal>
+                <ogc:Literal>25</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -97,11 +97,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>30</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -119,11 +119,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts},${other}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88,a6a6a6&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chd=t:${bare_rock},${bare_sediment},${macroalgae},${seagrasses},${sessile_inverts}&amp;chco=663300,fff899,2e8a0f,00e6e6,9e2e88&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>35</ogc:Literal>
+                <ogc:Literal>40</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>

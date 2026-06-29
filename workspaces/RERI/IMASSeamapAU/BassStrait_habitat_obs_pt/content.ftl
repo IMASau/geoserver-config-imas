@@ -3,7 +3,8 @@
         <#-- Define the maximum width for the bars in pixels -->
         <#assign maxBarWidth = 90>
 
-        <#assign totalPoints = (feature.total_points.value)?number!1>
+        <#assign totalPoints = (feature.total_points.value)?number>
+        <#assign other = (feature.other.value)?number>
 
         <#assign habitats = [
             {
@@ -19,7 +20,7 @@
             {
                 "name": "Sessile Invertebrates",
                 "value": (feature.sessile_inverts.value)?number!0,
-                "color": "#fff34d"
+                "color": "#9e2e88"
             }            
             {
                 "name": "Bare Rock",
@@ -30,12 +31,7 @@
                 "name": "Bare Sediment",
                 "value": (feature.bare_sediment.value)?number!0,
                 "color": "#fff34d"
-            }
-            {
-                "name": "Other",
-                "value": (feature.other.value)?number!0,
-                "color": "#a6a6a6"
-            }            
+            }          
         ]>
 
         <#assign sortedHabitats = habitats?sort_by("value")?reverse>
@@ -53,7 +49,7 @@
                     <#assign barWidth = (maxBarWidth * habitat.value / totalPoints)?round>
                     <div style="display: flex; align-items: center; padding-bottom: 2px;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: ${habitat.color};"></div>
-                        <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / totalPoints)?round}%</b></span>
+                        <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / (totalPoints - other))?round}%</b></span>
                     </div>
                 </#if>
             </#list>
