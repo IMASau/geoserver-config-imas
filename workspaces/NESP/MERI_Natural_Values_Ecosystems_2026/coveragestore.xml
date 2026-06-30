@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-1e5ae6a9:19f17525ed3:-7be3</id>
+  <name>MERI_Natural_Values_Ecosystems_2026</name>
+  <description>NESP MaC 4.20 - MERI Natural Values Ecosystems (2026)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-06-30 07:11:45.829 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/c6ed3079-f030-49e6-8316-a9595ed70f75/Natural_Values_Ecosystems_2026.tif</url>
+</coverageStore>

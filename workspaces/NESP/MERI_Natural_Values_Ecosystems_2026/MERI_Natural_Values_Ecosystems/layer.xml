@@ -1,0 +1,16 @@
+<layer>
+  <name>MERI_Natural_Values_Ecosystems</name>
+  <id>LayerInfoImpl-1e5ae6a9:19f17525ed3:-79c1</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1e5ae6a9:19f16d6e8f8:7e62</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-1e5ae6a9:19f17525ed3:-79c2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-06-30 07:13:42.829 UTC</dateCreated>
+</layer>
