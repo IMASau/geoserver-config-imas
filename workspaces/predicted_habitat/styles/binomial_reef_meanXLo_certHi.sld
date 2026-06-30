@@ -33,7 +33,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">              
-              <ColorMapEntry color="#f3e6d8" quantity="1" label="  Reef/sediment prediction" />           
+              <ColorMapEntry color="#f3e6d8" quantity="1" label="  Reef possible" />           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>

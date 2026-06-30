@@ -2,7 +2,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Reef likelihood (high), model certainty (moderate)</Name>
+    <Name>Reef likelihood (very high), model certainty (moderate)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Transformation>
@@ -33,7 +33,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">              
-              <ColorMapEntry color="#845f4d" quantity="1" label="  Reef/sediment prediction" />           
+              <ColorMapEntry color="#845f4d" quantity="1" label="  Reef possible" />           
             </ColorMap>
  		<VendorOption name="inclusion">legendOnly</VendorOption>                                                                     
           </RasterSymbolizer>
