@@ -13,13 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>Confidence in range shift</Title> 
         </Rule>
         <Rule>
-          <Title>Low</Title>         
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>confidence</ogc:PropertyName>
-              <ogc:Literal>Low</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>        
+          <Title>Low</Title>               
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FCCFBA</CssParameter>
@@ -30,89 +24,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke-width">2</CssParameter>
               <CssParameter name="stroke-opacity">0.9</CssParameter>
             </Stroke>                
-          </PolygonSymbolizer>  
-          <PolygonSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#FCCFBA</CssParameter>
-              <CssParameter name="stroke-width">5</CssParameter>
-              <CssParameter name="stroke-opacity">0.3</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>  
-          <PolygonSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#FCCFBA</CssParameter>
-              <CssParameter name="stroke-width">8</CssParameter>
-              <CssParameter name="stroke-opacity">0.1</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>            
-        </Rule>
-        <Rule>
-          <Title>Medium</Title>         
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>confidence</ogc:PropertyName>
-              <ogc:Literal>Medium</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>        
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#F26A4D</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>                   
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#F26A4D</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
-              <CssParameter name="stroke-opacity">0.9</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>  
-          <PolygonSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#F26A4D</CssParameter>
-              <CssParameter name="stroke-width">5</CssParameter>
-              <CssParameter name="stroke-opacity">0.3</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>  
-          <PolygonSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#F26A4D</CssParameter>
-              <CssParameter name="stroke-width">8</CssParameter>
-              <CssParameter name="stroke-opacity">0.1</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>            
-        </Rule>    
-        <Rule>
-          <Title>High</Title>         
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>confidence</ogc:PropertyName>
-              <ogc:Literal>High</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>        
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#870812</CssParameter>
-              <CssParameter name="fill-opacity">0.7</CssParameter>                   
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#870812</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
-              <CssParameter name="stroke-opacity">0.9</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>  
-          <PolygonSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#870812</CssParameter>
-              <CssParameter name="stroke-width">5</CssParameter>
-              <CssParameter name="stroke-opacity">0.3</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>  
-          <PolygonSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#870812</CssParameter>
-              <CssParameter name="stroke-width">8</CssParameter>
-              <CssParameter name="stroke-opacity">0.1</CssParameter>
-            </Stroke>                
-          </PolygonSymbolizer>            
+          </PolygonSymbolizer>        
         </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
