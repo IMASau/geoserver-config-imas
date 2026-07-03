@@ -2,6 +2,9 @@
   <name>HealthCheck3</name>
   <id>LayerInfoImpl--7e13c4c0:19ac800afd3:-21f2</id>
   <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+  </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--7e13c4c0:19ac800afd3:-21f3</id>
   </resource>
@@ -10,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-11-28 01:45:48.289 UTC</dateCreated>
-  <dateModified>2025-11-28 03:14:23.895 UTC</dateModified>
+  <dateModified>2026-07-03 06:05:56.411 UTC</dateModified>
 </layer>
