@@ -27,11 +27,8 @@
             </Stroke>
           </LineSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
-        </Rule>
-      </FeatureTypeStyle>
-      
+        </Rule>      
       <!-- PASS 2: draw all pale glows underneath -->
-      <FeatureTypeStyle>
         <Rule>
           <LineSymbolizer>
             <Stroke>
@@ -44,12 +41,8 @@
           </LineSymbolizer>
          <VendorOption name="inclusion">mapOnly</VendorOption>                      
         </Rule>
-      </FeatureTypeStyle>      
-
       <!-- PASS 3: draw all main coloured tracks on top -->
-      <FeatureTypeStyle>
         <Rule>
-          <Title>Humpback whale migration path</Title>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">
@@ -59,9 +52,21 @@
               <CssParameter name="stroke-opacity">0.95</CssParameter>
             </Stroke>
           </LineSymbolizer>
+         <VendorOption name="inclusion">mapOnly</VendorOption>                                
         </Rule>
-      </FeatureTypeStyle>
 
+        <Rule>
+          <Title>Migration paths</Title>          
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#944dff</CssParameter>              
+              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+         <VendorOption name="inclusion">legendOnly</VendorOption>                      
+        </Rule>
+      </FeatureTypeStyle>       
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
