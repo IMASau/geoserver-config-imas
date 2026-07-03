@@ -22,11 +22,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#4d4d4d</CssParameter>
+                  <CssParameter name="fill">#ecff00</CssParameter>
                   <CssParameter name="fill-opacity">0.15</CssParameter>                  
                 </Fill>
                 <Stroke>
-                   <CssParameter name="stroke">#000000</CssParameter>
+                   <CssParameter name="stroke">#ecff00</CssParameter>
                    <CssParameter name="stroke-width">0.01</CssParameter>
                    <CssParameter name="stroke-opacity">1</CssParameter>                  
                </Stroke>                
