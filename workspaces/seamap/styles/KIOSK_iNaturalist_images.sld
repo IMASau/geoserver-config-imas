@@ -15,43 +15,15 @@
         <Rule>
           <Title>Photograph</Title>
           <!-- <MaxScaleDenominator>100000</MaxScaleDenominator> -->          
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>image_path</ogc:PropertyName>
-              <ogc:Literal>*inaturalist-open*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
                 <OnlineResource
                   xlink:type="simple"
-                  xlink:href="http://inaturalist-open-data.s3.amazonaws.com/photos/${image_small}" />
+                  xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/assets-TMAG/thumbs/${image}" />
                 <Format>image/jpeg</Format>
               </ExternalGraphic>
-              <Size>45</Size>
-              <Opacity>1</Opacity>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Photograph</Title>
-          <!-- <MaxScaleDenominator>100000</MaxScaleDenominator> -->          
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>image_path</ogc:PropertyName>
-              <ogc:Literal>*static.inaturalist*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <PointSymbolizer>
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-                  xlink:type="simple"
-                  xlink:href="https://static.inaturalist.org/photos/${image_small}" />
-                <Format>image/jpeg</Format>
-              </ExternalGraphic>
-              <Size>45</Size>
+              <Size>60</Size>
               <Opacity>1</Opacity>
             </Graphic>
           </PointSymbolizer>
