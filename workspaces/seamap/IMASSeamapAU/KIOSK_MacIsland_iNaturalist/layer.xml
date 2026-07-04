@@ -1,0 +1,17 @@
+<layer>
+  <name>KIOSK_MacIsland_iNaturalist</name>
+  <id>LayerInfoImpl-699cca83:19f2ad1c4d2:-43</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-699cca83:19f2ad1c4d2:-48</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-699cca83:19f2ad1c4d2:-44</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-07-04 04:40:10.898 UTC</dateCreated>
+  <dateModified>2026-07-04 04:51:09.375 UTC</dateModified>
+</layer>
