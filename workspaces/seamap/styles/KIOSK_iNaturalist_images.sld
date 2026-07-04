@@ -14,7 +14,7 @@
       <FeatureTypeStyle>
         <Rule>
           <Title>Photograph</Title>
-          <MinScaleDenominator>100000</MinScaleDenominator>         
+          <MinScaleDenominator>120000</MinScaleDenominator>         
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -30,7 +30,7 @@
         </Rule> 
         <Rule>
           <Title>Photograph</Title>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>         
+          <MaxScaleDenominator>120000</MaxScaleDenominator>         
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>

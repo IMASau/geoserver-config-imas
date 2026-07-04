@@ -2,7 +2,7 @@
      CONFIG
      ========================================================= -->
 <#assign popupWidth = 760>
-<#assign imageFrameHeight = 640>
+<#assign imageFrameHeight = 540>
 <#assign maxPopupHeight = 1000>
 <#setting date_format="d MMM yyyy">
 
