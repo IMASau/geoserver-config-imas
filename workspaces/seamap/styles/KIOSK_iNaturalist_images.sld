@@ -14,7 +14,7 @@
       <FeatureTypeStyle>
         <Rule>
           <Title>Photograph</Title>
-          <!-- <MaxScaleDenominator>100000</MaxScaleDenominator> -->          
+          <MinScaleDenominator>100000</MinScaleDenominator>         
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -23,11 +23,28 @@
                   xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/assets-TMAG/thumbs/${image}" />
                 <Format>image/jpeg</Format>
               </ExternalGraphic>
-              <Size>60</Size>
+              <Size>50</Size>
               <Opacity>1</Opacity>
             </Graphic>
           </PointSymbolizer>
-        </Rule>        
+        </Rule> 
+        <Rule>
+          <Title>Photograph</Title>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>         
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource
+                  xlink:type="simple"
+                  xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/assets-TMAG/thumbs/${image}" />
+                <Format>image/jpeg</Format>
+              </ExternalGraphic>
+              <Size>90</Size>
+              <Opacity>1</Opacity>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                           
+        </Rule>         
         
       </FeatureTypeStyle>
     </UserStyle>
