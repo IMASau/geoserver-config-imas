@@ -15,13 +15,31 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>confidence</ogc:PropertyName>
               <ogc:Literal>low</ogc:Literal>
             </ogc:PropertyIsEqualTo>	 
-          </ogc:Filter>	 
+          </ogc:Filter>	
+          <PolygonSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+            </Stroke>
+          </PolygonSymbolizer>            
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#000000</CssParameter>  
-              <CssParameter name="fill-opacity">0.6</CssParameter>
-            </Fill>              
-          </PolygonSymbolizer> 
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#000000</CssParameter>
+                      <CssParameter name="stroke-width">0.8</CssParameter>
+                      <CssParameter name="stroke-opacity">0.4</CssParameter>                                            
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>          
          <VendorOption name="inclusion">mapOnly</VendorOption>                                  
         </Rule>  
         <Rule>
@@ -32,11 +50,29 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </ogc:PropertyIsEqualTo>	 
           </ogc:Filter>	
           <PolygonSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+            </Stroke>
+          </PolygonSymbolizer>            
+          <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#000000</CssParameter>  
-              <CssParameter name="fill-opacity">0.3</CssParameter>
-            </Fill>                                  
-          </PolygonSymbolizer>  
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#000000</CssParameter>
+                      <CssParameter name="stroke-width">1</CssParameter>
+                      <CssParameter name="stroke-opacity">0.4</CssParameter>                      
+                    </Stroke>
+                  </Mark>
+                  <Size>16</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>          
          <VendorOption name="inclusion">mapOnly</VendorOption>                                  
         </Rule>		
       </FeatureTypeStyle>
