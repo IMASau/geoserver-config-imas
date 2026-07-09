@@ -1,7 +1,7 @@
 <#list features as feature>
     <#if feature_index < 1>
         <#-- Define the maximum width for the bars in pixels -->
-        <#assign maxBarWidth = 90>
+        <#assign maxBarWidth = 100>
 
         <#assign totalPoints = (feature.total_points.value)?number>
         <#assign other = (feature.other.value)?number>
@@ -46,7 +46,7 @@
                         <span style="margin-left: 4px;">${habitat.name}: <b>0%</b></span>
                     </div>
                 <#else>
-                    <#assign barWidth = (maxBarWidth * habitat.value / totalPoints)?round>
+                    <#assign barWidth = (maxBarWidth * habitat.value / (totalPoints - other))?round>
                     <div style="display: flex; align-items: center; padding-bottom: 2px;"> 
                         <div style="width: ${barWidth}px; height: 10px; background-color: ${habitat.color};"></div>
                         <span style="margin-left: 8px;">${habitat.name}: <b>${(100 * habitat.value / (totalPoints - other))?round}%</b></span>

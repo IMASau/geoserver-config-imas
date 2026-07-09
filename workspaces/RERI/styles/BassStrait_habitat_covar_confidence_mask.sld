@@ -8,12 +8,19 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
     <Name>Bass Strait benthic habitat covariate confidence - mask</Name>
     <UserStyle>
-      <FeatureTypeStyle>		
+      <FeatureTypeStyle>
         <Rule>
+          <Title>-------------</Title>
+        </Rule>         
+        <Rule>
+          <Title>Environmental prediction confidence</Title>
+        </Rule> 
+        <Rule>
+          <Title>High</Title>          
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>confidence</ogc:PropertyName>
-              <ogc:Literal>low</ogc:Literal>
+              <ogc:Literal>high</ogc:Literal>
             </ogc:PropertyIsEqualTo>	 
           </ogc:Filter>	
           <PolygonSymbolizer>
@@ -22,27 +29,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke-width">0.05</CssParameter>
               <CssParameter name="stroke-opacity">0.5</CssParameter>                      
             </Stroke>
-          </PolygonSymbolizer>            
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#000000</CssParameter>
-                      <CssParameter name="stroke-width">0.8</CssParameter>
-                      <CssParameter name="stroke-opacity">0.4</CssParameter>                                            
-                    </Stroke>
-                  </Mark>
-                  <Size>8</Size>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>          
-         <VendorOption name="inclusion">mapOnly</VendorOption>                                  
-        </Rule>  
+          </PolygonSymbolizer>                      
+         <VendorOption name="inclusion">legendOnly</VendorOption>                                  
+        </Rule>        
         <Rule>
+          <Title>Medium</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>confidence</ogc:PropertyName>
@@ -73,8 +64,40 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </GraphicFill>
             </Fill>
           </PolygonSymbolizer>          
-         <VendorOption name="inclusion">mapOnly</VendorOption>                                  
-        </Rule>		
+        </Rule>	
+        <Rule> 
+          <Title>Low</Title>          
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>confidence</ogc:PropertyName>
+              <ogc:Literal>low</ogc:Literal>
+            </ogc:PropertyIsEqualTo>	 
+          </ogc:Filter>	
+          <PolygonSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+            </Stroke>
+          </PolygonSymbolizer>            
+          <PolygonSymbolizer>
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#000000</CssParameter>
+                      <CssParameter name="stroke-width">0.8</CssParameter>
+                      <CssParameter name="stroke-opacity">0.4</CssParameter>                                            
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>          
+        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
