@@ -10,13 +10,11 @@
       <#assign confidenceColor = "#b3b3b3">
     </#if>
 
-    <div class="feature" style="padding-top:5px;">
-      <h6 style="font-size:95%;">
-        Environmental prediction confidence:
-        <span style="font-weight: bold; color:${confidenceColor};">
-          ${confidenceValue}
-        </span>
-      </h6>
+    <div class="feature" style="padding-top:10px; padding-bottom:5px; letter-spacing: 1.2px; font-size:95%;">
+      Environmental prediction confidence:
+      <span style="font-weight: 780; color:${confidenceColor}; font-size:102%;">
+        ${confidenceValue}
+      </span>
     </div>
 
     <#break>

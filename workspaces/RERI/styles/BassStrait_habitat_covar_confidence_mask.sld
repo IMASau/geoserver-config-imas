@@ -27,10 +27,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.05</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+              <CssParameter name="stroke-opacity">0.3</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>                      
-         <VendorOption name="inclusion">legendOnly</VendorOption>                                  
         </Rule>        
         <Rule>
           <Title>Medium</Title>
@@ -44,7 +43,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.05</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+              <CssParameter name="stroke-opacity">0.3</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>            
           <PolygonSymbolizer>
@@ -77,7 +76,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.05</CssParameter>
-              <CssParameter name="stroke-opacity">0.5</CssParameter>                      
+              <CssParameter name="stroke-opacity">0.3</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>            
           <PolygonSymbolizer>
