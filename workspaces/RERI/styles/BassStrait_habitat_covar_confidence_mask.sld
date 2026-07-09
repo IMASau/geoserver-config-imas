@@ -26,8 +26,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.05</CssParameter>
-              <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+              <CssParameter name="stroke-width">0.06</CssParameter>
+              <CssParameter name="stroke-opacity">0.4</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>                      
         </Rule>        
@@ -42,8 +42,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.05</CssParameter>
-              <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+              <CssParameter name="stroke-width">0.06</CssParameter>
+              <CssParameter name="stroke-opacity">0.4</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>            
           <PolygonSymbolizer>
@@ -55,10 +55,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <Stroke>
                       <CssParameter name="stroke">#000000</CssParameter>
                       <CssParameter name="stroke-width">1</CssParameter>
-                      <CssParameter name="stroke-opacity">0.4</CssParameter>                      
+                      <CssParameter name="stroke-opacity">0.5</CssParameter>                      
                     </Stroke>
                   </Mark>
-                  <Size>16</Size>
+                  <Size>18</Size>
                 </Graphic>
               </GraphicFill>
             </Fill>
@@ -75,8 +75,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.05</CssParameter>
-              <CssParameter name="stroke-opacity">0.3</CssParameter>                      
+              <CssParameter name="stroke-width">0.06</CssParameter>
+              <CssParameter name="stroke-opacity">0.4</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>            
           <PolygonSymbolizer>
@@ -88,7 +88,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <Stroke>
                       <CssParameter name="stroke">#000000</CssParameter>
                       <CssParameter name="stroke-width">0.8</CssParameter>
-                      <CssParameter name="stroke-opacity">0.4</CssParameter>                                            
+                      <CssParameter name="stroke-opacity">0.5</CssParameter>                                            
                     </Stroke>
                   </Mark>
                   <Size>8</Size>
