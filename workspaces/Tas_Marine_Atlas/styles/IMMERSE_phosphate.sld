@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-              <ogc:Literal>0.004</ogc:Literal>
+              <ogc:Literal>0.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -43,11 +43,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.004</ogc:Literal>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -77,11 +77,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.009</ogc:Literal>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,11 +111,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.009</ogc:Literal>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.012</ogc:Literal>
+                <ogc:Literal>0.4</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,7 +144,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-              <ogc:Literal>0.012</ogc:Literal>
+              <ogc:Literal>0.4</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -153,11 +153,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5d0943</CssParameter>
+                  <CssParameter name="fill">#5b024b</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5d0943</CssParameter>
+                  <CssParameter name="stroke">#5b024b</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -170,11 +170,11 @@
 
         <!-- Zoom levels >120,000 -->
         <Rule>
-          <Title> &#8804; 0.004</Title>
+          <Title> &#8804; 0.1</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-              <ogc:Literal>0.004</ogc:Literal>
+              <ogc:Literal>0.1</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.004 - 0.006</Title>
+          <Title>    0.1 - 0.2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.004</ogc:Literal>
+                <ogc:Literal>0.1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.006 - 0.006</Title>
+          <Title>    0.2 - 0.2</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.009</ogc:Literal>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.009 - 0.012</Title>
+          <Title>    0.3 - 0.4</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.009</ogc:Literal>
+                <ogc:Literal>0.3</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-                <ogc:Literal>0.012</ogc:Literal>
+                <ogc:Literal>0.4</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.012</Title>
+          <Title> > 0.4</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>PHOSPHATE</ogc:PropertyName>
-              <ogc:Literal>0.012</ogc:Literal>
+              <ogc:Literal>0.4</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -313,11 +313,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5d0943</CssParameter>
+                  <CssParameter name="fill">#5b024b</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5d0943</CssParameter>
+                  <CssParameter name="stroke">#5b024b</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
