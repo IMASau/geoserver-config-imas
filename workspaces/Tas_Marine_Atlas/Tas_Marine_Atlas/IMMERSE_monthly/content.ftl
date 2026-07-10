@@ -51,6 +51,27 @@
           </tr>
         </#if>
 
+        <!-- Pigments -->
+        <tr style="background:#eeeeee !important;">
+          <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
+            Pigments
+          </td>
+        </tr>
+
+        <#if feature.CHLOROPHYLL_A.value?has_content>
+          <tr style="background:#ffffff !important;">
+            <td style="padding:5px 6px; border:1px solid rgba(70,70,70,0.28); background:#ffffff !important;">
+              <span style="display:inline-block; width:4px; height:13px; background:#5FCB32; margin-right:7px; vertical-align:-2px;"></span>
+              Chlorophyll a
+            </td>
+            <td style="width:78px; padding:6px 6px; text-align:right; white-space:nowrap; border:1px solid rgba(70,70,70,0.28); background:#ffffff !important;">
+              <b>${feature.CHLOROPHYLL_A.value?number?string["0.00"]}</b>
+              <span style="color:#666;">&#xB5;g L<sup>-1</sup></span>
+            </td>
+          </tr>
+        </#if>
+
+
         <!-- Nitrogen -->
         <tr style="background:#eeeeee !important;">
           <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
