@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-              <ogc:Literal>0.0025</ogc:Literal>
+              <ogc:Literal>0.20</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -23,11 +23,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FCE7D8</CssParameter>
+                  <CssParameter name="fill">#FDE6D8</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#FCE7D8</CssParameter>
+                  <CssParameter name="stroke">#FDE6D8</CssParameter>
                   <CssParameter name="stroke-width">2.1</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -43,11 +43,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.0025</ogc:Literal>
+                <ogc:Literal>0.20</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.005</ogc:Literal>
+                <ogc:Literal>0.30</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -57,11 +57,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#F6BFA6</CssParameter>
+                  <CssParameter name="fill">#F7BE98</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#F6BFA6</CssParameter>
+                  <CssParameter name="stroke">#F7BE98</CssParameter>
                   <CssParameter name="stroke-width">2.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -77,11 +77,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.005</ogc:Literal>
+                <ogc:Literal>0.30</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.50</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -91,11 +91,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E68A7A</CssParameter>
+                  <CssParameter name="fill">#e08752</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#E68A7A</CssParameter>
+                  <CssParameter name="stroke">#e08752</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -111,11 +111,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.50</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.008</ogc:Literal>
+                <ogc:Literal>0.90</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -125,11 +125,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#c4546e</CssParameter>
+                  <CssParameter name="fill">#d65729</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#c4546e</CssParameter>
+                  <CssParameter name="stroke">#d65729</CssParameter>
                   <CssParameter name="stroke-width">2.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -144,7 +144,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-              <ogc:Literal>0.013</ogc:Literal>
+              <ogc:Literal>0.90</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -153,11 +153,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7F2A5A</CssParameter>
+                  <CssParameter name="fill">#872f12</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7F2A5A</CssParameter>
+                  <CssParameter name="stroke">#872f12</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -168,13 +168,13 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- Zoom levels >120,000-->
+        <!-- Zoom levels >120,000 -->
         <Rule>
-          <Title> &#8804; 0.0025</Title>
+          <Title> &#8804; 0.20</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-              <ogc:Literal>0.0025</ogc:Literal>
+              <ogc:Literal>0.20</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -183,11 +183,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#FCE7D8</CssParameter>
+                  <CssParameter name="fill">#FDE6D8</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#FCE7D8</CssParameter>
+                  <CssParameter name="stroke">#FDE6D8</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.0025 - 0.005</Title>
+          <Title>    0.20 - 0.30</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.0025</ogc:Literal>
+                <ogc:Literal>0.20</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.005</ogc:Literal>
+                <ogc:Literal>0.30</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -217,11 +217,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#F6BFA6</CssParameter>
+                  <CssParameter name="fill">#F7BE98</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#F6BFA6</CssParameter>
+                  <CssParameter name="stroke">#F7BE98</CssParameter>
                   <CssParameter name="stroke-width">1.7</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.005 - 0.006</Title>
+          <Title>    0.30 - 0.50</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.005</ogc:Literal>
+                <ogc:Literal>0.30</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.50</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -251,11 +251,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E68A7A</CssParameter>
+                  <CssParameter name="fill">#e08752</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#E68A7A</CssParameter>
+                  <CssParameter name="stroke">#e08752</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.006 - 0.008</Title>
+          <Title>    0.50 - 0.90</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.006</ogc:Literal>
+                <ogc:Literal>0.50</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-                <ogc:Literal>0.008</ogc:Literal>
+                <ogc:Literal>0.90</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -285,11 +285,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#c4546e</CssParameter>
+                  <CssParameter name="fill">#d65729</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#c4546e</CssParameter>
+                  <CssParameter name="stroke">#d65729</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.013</Title>
+          <Title> &gt; 0.90</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>AMMONIUM</ogc:PropertyName>
-              <ogc:Literal>0.013</ogc:Literal>
+              <ogc:Literal>0.90</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -313,11 +313,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7F2A5A</CssParameter>
+                  <CssParameter name="fill">#872f12</CssParameter>
                   <CssParameter name="fill-opacity">0.85</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7F2A5A</CssParameter>
+                  <CssParameter name="stroke">#872f12</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
