@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.1</ogc:Literal>
+              <ogc:Literal>2.0</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -43,11 +43,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.1</ogc:Literal>
+                <ogc:Literal>2.0</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:Literal>5.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -77,11 +77,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:Literal>5.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:Literal>8.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,11 +111,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:Literal>8.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.5</ogc:Literal>
+                <ogc:Literal>14.0</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,7 +144,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.5</ogc:Literal>
+              <ogc:Literal>14.0</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -170,11 +170,11 @@
 
         <!-- Zoom levels >120,000-->
         <Rule>
-          <Title> &#8804; 0.1</Title>
+          <Title> &#8804; 2.0</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.1</ogc:Literal>
+              <ogc:Literal>2.0</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.1 - 0.2</Title>
+          <Title>    2.0 - 5.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.1</ogc:Literal>
+                <ogc:Literal>2.0</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:Literal>5.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.2 - 0.3</Title>
+          <Title>    5.5 - 8.5</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.2</ogc:Literal>
+                <ogc:Literal>5.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:Literal>8.5</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.3 - 0.5</Title>
+          <Title>    8.5 - 14.0</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.3</ogc:Literal>
+                <ogc:Literal>8.5</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>SILICATE</ogc:PropertyName>
-                <ogc:Literal>0.5</ogc:Literal>
+                <ogc:Literal>14.0</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.5</Title>
+          <Title> > 14.0</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>SILICATE</ogc:PropertyName>
-              <ogc:Literal>0.5</ogc:Literal>
+              <ogc:Literal>14.0</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
