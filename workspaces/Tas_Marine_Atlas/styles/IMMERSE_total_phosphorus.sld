@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-              <ogc:Literal>0.021</ogc:Literal>
+              <ogc:Literal>0.65</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -43,11 +43,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.021</ogc:Literal>
+                <ogc:Literal>0.65</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.024</ogc:Literal>
+                <ogc:Literal>0.75</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -77,11 +77,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.024</ogc:Literal>
+                <ogc:Literal>0.75</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.026</ogc:Literal>
+                <ogc:Literal>0.85</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,11 +111,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.026</ogc:Literal>
+                <ogc:Literal>0.85</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.030</ogc:Literal>
+                <ogc:Literal>0.95</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,7 +144,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-              <ogc:Literal>0.030</ogc:Literal>
+              <ogc:Literal>0.95</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -170,11 +170,11 @@
 
         <!-- Zoom levels >120,000 -->
         <Rule>
-          <Title> &#8804; 0.021</Title>
+          <Title> &#8804; 0.65</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-              <ogc:Literal>0.021</ogc:Literal>
+              <ogc:Literal>0.65</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.021 - 0.024</Title>
+          <Title>    0.65 - 0.75</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.021</ogc:Literal>
+                <ogc:Literal>0.65</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.024</ogc:Literal>
+                <ogc:Literal>0.75</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.024 - 0.026</Title>
+          <Title>    0.75 - 0.85</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.024</ogc:Literal>
+                <ogc:Literal>0.75</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.026</ogc:Literal>
+                <ogc:Literal>0.85</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.026 - 0.030</Title>
+          <Title>    0.85 - 0.95</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.026</ogc:Literal>
+                <ogc:Literal>0.85</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-                <ogc:Literal>0.030</ogc:Literal>
+                <ogc:Literal>0.95</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.030</Title>
+          <Title> > 0.95</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TOTAL_PHOSPHORUS</ogc:PropertyName>
-              <ogc:Literal>0.030</ogc:Literal>
+              <ogc:Literal>0.95</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>

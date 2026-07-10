@@ -14,7 +14,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-              <ogc:Literal>0.25</ogc:Literal>
+              <ogc:Literal>17</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -43,11 +43,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.25</ogc:Literal>
+                <ogc:Literal>17</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.27</ogc:Literal>
+                <ogc:Literal>19</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -77,11 +77,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.27</ogc:Literal>
+                <ogc:Literal>19</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.29</ogc:Literal>
+                <ogc:Literal>21</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,11 +111,11 @@
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.29</ogc:Literal>
+                <ogc:Literal>21</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.34</ogc:Literal>
+                <ogc:Literal>23</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,7 +144,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-              <ogc:Literal>0.34</ogc:Literal>
+              <ogc:Literal>23</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MaxScaleDenominator>120000</MaxScaleDenominator>
@@ -170,11 +170,11 @@
 
         <!-- Zoom levels >120,000 -->
         <Rule>
-          <Title> &#8804; 0.25</Title>
+          <Title> &#8804; 17</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-              <ogc:Literal>0.25</ogc:Literal>
+              <ogc:Literal>17</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
@@ -198,16 +198,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.25 - 0.27</Title>
+          <Title>    17 - 19</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.25</ogc:Literal>
+                <ogc:Literal>17</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.27</ogc:Literal>
+                <ogc:Literal>19</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -232,16 +232,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.27 - 0.29</Title>
+          <Title>    19 - 21</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.27</ogc:Literal>
+                <ogc:Literal>19</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.29</ogc:Literal>
+                <ogc:Literal>21</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -266,16 +266,16 @@
         </Rule>
 
         <Rule>
-          <Title>    0.29 - 0.34</Title>
+          <Title>    21 - 23</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.29</ogc:Literal>
+                <ogc:Literal>21</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-                <ogc:Literal>0.34</ogc:Literal>
+                <ogc:Literal>23</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -300,11 +300,11 @@
         </Rule>
 
         <Rule>
-          <Title> > 0.34</Title>
+          <Title> > 23</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>TOTAL_NITROGEN</ogc:PropertyName>
-              <ogc:Literal>0.34</ogc:Literal>
+              <ogc:Literal>23</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <MinScaleDenominator>120000</MinScaleDenominator>
