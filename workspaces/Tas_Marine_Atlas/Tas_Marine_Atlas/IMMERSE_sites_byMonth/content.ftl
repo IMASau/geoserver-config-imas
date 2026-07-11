@@ -15,11 +15,11 @@
       <b>${site}: </b>
       <#if g_2009_2023?seq_contains(site)>
         <i>monitored 2009 - 2015; 2019 - 2023</i>
-      <#if g_SB4?seq_contains(site)>
+      <#elseif g_SB4?seq_contains(site)>
         <i>monitored 2009; 2019 - 2023</i>
-      <#if g_SB9?seq_contains(site)>
+      <#elseif g_SB9?seq_contains(site)>
         <i>monitored 2011 - 2015; 2019 - 2023</i>
-      <#if g_2020_2021?seq_contains(site)>
+      <#elseif g_2020_2021?seq_contains(site)>
         <i>monitored 2020 - 2021</i>
       <#elseif g_2020_2023?seq_contains(site)>
         <i>monitored 2020 - 2023</i>
