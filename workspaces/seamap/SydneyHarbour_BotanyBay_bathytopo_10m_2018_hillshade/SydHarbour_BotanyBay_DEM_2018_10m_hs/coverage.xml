@@ -33,7 +33,7 @@
   AXIS[&quot;Easting&quot;, EAST], 
   AXIS[&quot;Northing&quot;, NORTH], 
   AUTHORITY[&quot;EPSG&quot;,&quot;32756&quot;]]</nativeCRS>
-  <srs>EPSG:32756</srs>
+  <srs>EPSG:4326</srs>
   <nativeBoundingBox>
     <minx>310091.0</minx>
     <maxx>349401.0</maxx>
