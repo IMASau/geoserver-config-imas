@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--645e915c:19f53e93390:-26c3</id>
+  <name>SydHarbour_BotanyBay_DEM_2018_10m_composite</name>
+  <mode>SINGLE</mode>
+  <title>Hillshaded bathymetry &amp; topography composite for Sydney Harbour &amp; Botany Bay 2018</title>
+  <abstractTxt>A 10 m resolution hillshaded bathymetry &amp; topography composite for Sydney Harbour &amp; Botany Bay, 2018.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--645e915c:19f53e93390:-26c4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--645e915c:19f53e93390:-26c6</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-7365ba1:1944d7d6ae0:-27e7</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--645e915c:19f53e93390:-26dd</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>310091.0</minx>
+    <maxx>349401.0</maxx>
+    <miny>6223981.0</miny>
+    <maxy>6271201.0</maxy>
+    <crs class="projected">EPSG:32756</crs>
+  </bounds>
+  <dateCreated>2026-07-12 03:54:35.263 UTC</dateCreated>
+</layerGroup>

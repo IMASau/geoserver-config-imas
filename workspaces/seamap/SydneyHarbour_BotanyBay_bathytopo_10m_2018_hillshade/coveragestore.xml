@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--645e915c:19f53e93390:-26cc</id>
+  <name>SydneyHarbour_BotanyBay_bathytopo_10m_2018_hillshade</name>
+  <description>Bathymetry &amp; topography composite for Sydney Harbour &amp; Botany Bay 2018 - hillshade</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-07-12 03:52:10.302 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/SydHarbour_BotanyBay_DEM_2018_10m/SydHarbour_BotanyBay_DEM_2018_10m_hs.tif</url>
+</coverageStore>

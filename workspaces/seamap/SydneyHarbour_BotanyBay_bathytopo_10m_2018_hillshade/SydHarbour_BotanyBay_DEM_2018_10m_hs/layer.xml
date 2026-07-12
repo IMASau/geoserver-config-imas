@@ -1,0 +1,17 @@
+<layer>
+  <name>SydHarbour_BotanyBay_DEM_2018_10m_hs</name>
+  <id>LayerInfoImpl--645e915c:19f53e93390:-26c4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7365ba1:1944d7d6ae0:-27e7</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--645e915c:19f53e93390:-26c5</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-07-12 03:53:43.553 UTC</dateCreated>
+</layer>

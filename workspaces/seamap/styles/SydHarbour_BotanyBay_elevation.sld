@@ -7,34 +7,54 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>dem_hypsometric_minus90_220</Name>
+    <Name>BathyTopo DEM</Name>
     <UserStyle>
-      <Title>Hypsometric elevation -90 to 220 m</Title>
-
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <Opacity>1.0</Opacity>
+            <Opacity>0.7</Opacity>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#1F4E8C" quantity="-70"/>
+              <ColorMapEntry color="#2D7FB8" quantity="-40"/>
+              <ColorMapEntry color="#46A6B8" quantity="-20"/>
+              <ColorMapEntry color="#80C9C0" quantity="-10"/>
+              <ColorMapEntry color="#CFE8DF" quantity="-5"/>
 
-            <ColorMap type="ramp" extended="true">
-              <ColorMapEntry color="#1F4E8C" quantity="-90" label="-90 m"/>
-              <ColorMapEntry color="#2D7FB8" quantity="-50" label="-50 m"/>
-              <ColorMapEntry color="#46A6B8" quantity="-20" label="-20 m"/>
-              <ColorMapEntry color="#80C9C0" quantity="-10" label="-10 m"/>
-              <ColorMapEntry color="#CFE8DF" quantity="-5" label="-5 m"/>
+              <ColorMapEntry color="#F6F0DA" quantity="0"/>
 
-              <ColorMapEntry color="#F6F0DA" quantity="0" label="0 m"/>
-
-              <ColorMapEntry color="#EAD39A" quantity="10" label="10 m"/>
-              <ColorMapEntry color="#D7AD61" quantity="20" label="20 m"/>
-              <ColorMapEntry color="#BD7F2A" quantity="50" label="50 m"/>
-              <ColorMapEntry color="#98570B" quantity="90" label="90 m"/>
-              <ColorMapEntry color="#733C05" quantity="150" label="150 m"/>
-              <ColorMapEntry color="#543005" quantity="220" label="220 m"/>
+              <ColorMapEntry color="#E9DCC1" quantity="5"/>
+              <ColorMapEntry color="#D8BF91" quantity="10"/>
+              <ColorMapEntry color="#C79A66" quantity="20"/>
+              <ColorMapEntry color="#B76B43" quantity="40"/>
+              <ColorMapEntry color="#944331" quantity="70"/>
+              <ColorMapEntry color="#76251F" quantity="120"/>
+              <ColorMapEntry color="#4E1716" quantity="200"/>
             </ColorMap>
-
           </RasterSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                                                     
         </Rule>
+
+        <Rule>
+          <RasterSymbolizer>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-9999" label="Elevation (m)" />              
+              <ColorMapEntry color="#4E1716" quantity="200" label="  +200"/> 
+              <ColorMapEntry color="#76251F" quantity="120" label="  +120"/> 
+              <ColorMapEntry color="#944331" quantity="70" label="  +90"/>  
+              <ColorMapEntry color="#B76B43" quantity="40" label="  +40"/>  
+              <ColorMapEntry color="#C79A66" quantity="20" label="  +20"/> 
+              <ColorMapEntry color="#D8BF91" quantity="10" label="  +10"/>  
+              <ColorMapEntry color="#E9DCC1" quantity="5" label="  +5"/>  
+              <ColorMapEntry color="#F6F0DA" quantity="0" label="    0 m"/>   
+              <ColorMapEntry color="#CFE8DF" quantity="-5" label="   &#8211;5"/> 
+              <ColorMapEntry color="#80C9C0" quantity="-10" label="   &#8211;10"/> 
+              <ColorMapEntry color="#46A6B8" quantity="-20" label="   &#8211;20"/>
+              <ColorMapEntry color="#2D7FB8" quantity="-40" label="   &#8211;40"/>              
+              <ColorMapEntry color="#1F4E8C" quantity="-70" label="   &#8211;70"/>
+            </ColorMap>
+          </RasterSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>                                                     
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
