@@ -327,6 +327,50 @@
           </PointSymbolizer>
         </Rule>
 
+
+        <Rule>
+          <Title>---------------------</Title>	
+        </Rule>          
+        <Rule>
+          <Title>𝘕𝘰 𝘥𝘢𝘵𝘢 𝘧𝘰𝘳 𝘴𝘦𝘭𝘦𝘤𝘵𝘦𝘥 𝘧𝘪𝘭𝘵𝘦𝘳𝘴</Title>				                
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>NITRATE</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>	
+          <MinScaleDenominator>120000</MinScaleDenominator>          
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>x</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#737373</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>          
+        </Rule>
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>NITRATE</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>	
+          <MaxScaleDenominator>120000</MaxScaleDenominator>          
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>x</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#737373</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>16</Size>
+            </Graphic>
+          </PointSymbolizer> 
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
+        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
