@@ -19,11 +19,13 @@
       <table style="width:100%; border-collapse:collapse; font-size:12px; border:1px solid rgba(70,70,70,0.28); background:#ffffff !important;">
 
         <!-- Physical -->
-        <tr style="background:#eeeeee !important;">
-          <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
-            Physical
-          </td>
-        </tr>
+        <#if feature.TEMPERATURE.value?has_content || feature.SALINITY.value?has_content >        
+          <tr style="background:#eeeeee !important;">
+            <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
+              Physical
+            </td>
+          </tr>
+        </#if>          
 
         <#if feature.TEMPERATURE.value?has_content>
           <tr style="background:#ffffff !important;">
@@ -52,11 +54,13 @@
         </#if>
 
         <!-- Pigments -->
-        <tr style="background:#eeeeee !important;">
-          <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
-            Pigments
-          </td>
-        </tr>
+        <#if feature.CHLOROPHYLL_A.value?has_content >                
+          <tr style="background:#eeeeee !important;">
+            <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
+              Pigments
+            </td>
+          </tr>
+        </#if>
 
         <#if feature.CHLOROPHYLL_A.value?has_content>
           <tr style="background:#ffffff !important;">
@@ -73,11 +77,13 @@
 
 
         <!-- Nitrogen -->
-        <tr style="background:#eeeeee !important;">
-          <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
-            Nitrogen
-          </td>
-        </tr>
+        <#if feature.AMMONIUM.value?has_content || feature.NITRATE.value?has_content || feature.NITRATE_NITRITE.value?has_content || feature.TOTAL_NITROGEN.value?has_content >                
+          <tr style="background:#eeeeee !important;">
+            <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
+              Nitrogen
+            </td>
+          </tr>
+        </#if>
 
         <#if feature.AMMONIUM.value?has_content>
           <tr style="background:#ffffff !important;">
@@ -132,11 +138,13 @@
         </#if>
 
         <!-- Phosphorus -->
-        <tr style="background:#eeeeee !important;">
-          <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
-            Phosphorus
-          </td>
-        </tr>
+        <#if feature.PHOSPHATE.value?has_content || feature.TOTAL_PHOSPHORUS.value?has_content >                        
+          <tr style="background:#eeeeee !important;">
+            <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
+              Phosphorus
+            </td>
+          </tr>
+        </#if>
 
         <#if feature.PHOSPHATE.value?has_content>
           <tr style="background:#ffffff !important;">
@@ -165,11 +173,13 @@
         </#if>
 
         <!-- Silicate -->
-        <tr style="background:#eeeeee !important;">
-          <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
-            Silicate
-          </td>
-        </tr>
+        <#if feature.SILICATE.value?has_content >                        
+          <tr style="background:#eeeeee !important;">
+            <td colspan="2" style="padding:6px 8px; border:1px solid rgba(70,70,70,0.28); background:#eeeeee !important; font-size:10.5px; font-weight:bold; text-transform:uppercase; letter-spacing:.08em; color:#595959; vertical-align:middle; line-height:1.1;">
+              Silicate
+            </td>
+          </tr>
+        </#if>
 
         <#if feature.SILICATE.value?has_content>
           <tr style="background:#ffffff !important;">
