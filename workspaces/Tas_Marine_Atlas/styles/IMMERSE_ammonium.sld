@@ -24,7 +24,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#FDE6D8</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#FDE6D8</CssParameter>
@@ -58,7 +58,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#F7BE98</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#F7BE98</CssParameter>
@@ -92,7 +92,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#e08752</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#e08752</CssParameter>
@@ -126,7 +126,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#d65729</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#d65729</CssParameter>
@@ -154,7 +154,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#872f12</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#872f12</CssParameter>
@@ -184,7 +184,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#FDE6D8</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#FDE6D8</CssParameter>
@@ -218,7 +218,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#F7BE98</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#F7BE98</CssParameter>
@@ -252,7 +252,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#e08752</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#e08752</CssParameter>
@@ -286,7 +286,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#d65729</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#d65729</CssParameter>
@@ -314,7 +314,7 @@
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
                   <CssParameter name="fill">#872f12</CssParameter>
-                  <CssParameter name="fill-opacity">0.85</CssParameter>
+                  <CssParameter name="fill-opacity">0.9</CssParameter>
                 </Fill>
                 <Stroke>
                   <CssParameter name="stroke">#872f12</CssParameter>
