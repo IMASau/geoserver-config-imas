@@ -164,7 +164,7 @@
         </TD>  		
 
         <TD style="font-size:11px; border-right: 1px solid black;">
-          <#if metadata?has_content>
+          <#if metadata?has_content & metadata != 'NA'>
             <a rel="external" href="${feature.METADATA_URL.value}" target="_blank">metadata</a>
           <#else>
             -
