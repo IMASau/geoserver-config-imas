@@ -23,14 +23,14 @@
 </#list>
 
 <TABLE bordercolorlight="#000000" cellpadding="4" style="border:1.5pt solid black; width: 1100px; table-layout: fixed;">
-	<col width="29%" />
+	<col width="29.5%" />
 	<col width="7.5%" />
-	<col width="7.7%" />
-  	<col width="17%" />
-	<col width="8.5%" />
 	<col width="7.5%" />
-  	<col width="17.5%" />
-	<col width="5.3%" />
+  <col width="17%" />
+	<col width="8%" />
+	<col width="10%" />
+  <col width="15%" />
+	<col width="5.5%" />
 
 
 	<TR style='background-color:#b3d9ff; border:1.5pt solid black'>
@@ -39,7 +39,7 @@
 		<th class="table-header-center" style="text-align: center; font-size: 11px; border-right: 1px solid black;">Resolution</th>
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Marine Park(s)</th>
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Availability</th>
-		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Collector</th>
+		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Owner</th>
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Point of contact</th>		
 		<th class="table-header-left" style="text-align: left; font-size: 11px; border-right: 1px solid black;">Info</th>
 	</TR>
@@ -59,8 +59,8 @@
 		<#assign metadata=feature.METADATA_URL.value>
 		<#assign surveyID=feature.SURVEYID.value>
 		<#assign resolution=feature.RES_ACTUAL.value>
-		<#assign collectedby=feature.COLLECTING_ORG.value>						
-		<#assign POC=feature.POINTOFCONTACT.value>		
+		<#assign owner=feature.OWNER.value>						
+		<#assign custodian=feature.CUSTODIAN.value>		
 		<#assign startdate=feature.START_DATE.value>
 		<#assign enddate=feature.END_DATE.value>
 		<#assign view_map=feature.VIEW_MAP.value>
@@ -144,11 +144,11 @@
         
 
         <TD style="white-space: normal; font-size:11px; border-right: 1px solid black;">
-          <#if collectedby?has_content>
-            <#if feature.COLLECTING_ORG.value == 'WA Department of Transport (DoT)'>
+          <#if owner?has_content>
+            <#if owner == 'WA Department of Transport (DoT)'>
               WA DoT
             <#else>
-              ${feature.COLLECTING_ORG.value}
+              ${owner}
             </#if> 
           <#else>
             -
@@ -156,8 +156,8 @@
         </TD> 
 
         <TD style="white-space: normal; font-size:10.5px; border-right: 1px solid black; overflow-wrap: break-word; word-break: break-word; hyphens: auto;">
-          <#if POC?has_content>
-            ${feature.POINTOFCONTACT.value}
+          <#if custodian?has_content>
+            ${custodian}
           <#else>
             -
           </#if> 
