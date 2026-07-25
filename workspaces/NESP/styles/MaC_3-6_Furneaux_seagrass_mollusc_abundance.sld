@@ -17,7 +17,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.25</ogc:Literal>
+              <ogc:Literal>2.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	
           <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		  		  
@@ -26,10 +26,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00590f</CssParameter>
+                  <CssParameter name="fill">#ffff80</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#004d0b</CssParameter>
+                  <CssParameter name="stroke">#e6e600</CssParameter>
                   <CssParameter name="stroke-width">2.1</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
@@ -44,11 +44,11 @@
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.25</ogc:Literal>
+              <ogc:Literal>2.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.50</ogc:Literal>
+              <ogc:Literal>11.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>			
           </ogc:Filter>	
@@ -58,10 +58,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#008c1a</CssParameter>
+                  <CssParameter name="fill">#fed98e</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#006613</CssParameter>
+                  <CssParameter name="stroke">#fdba35</CssParameter>
                   <CssParameter name="stroke-width">2.3</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>
@@ -76,11 +76,11 @@
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.50</ogc:Literal>
+              <ogc:Literal>11.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.75</ogc:Literal>
+              <ogc:Literal>13.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>
           </ogc:Filter>	
@@ -90,10 +90,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00bf25</CssParameter>
+                  <CssParameter name="fill">#fe9929</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#00991f</CssParameter>
+                  <CssParameter name="stroke">#e47a01</CssParameter>
                   <CssParameter name="stroke-width">2.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 
@@ -107,7 +107,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.75</ogc:Literal>
+              <ogc:Literal>13.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
           <MaxScaleDenominator>200000</MaxScaleDenominator>          		  		   
@@ -116,10 +116,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#bfff00</CssParameter>
+                  <CssParameter name="fill">#cc4c02</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#99cc00</CssParameter>
+                  <CssParameter name="stroke">#973902</CssParameter>
                   <CssParameter name="stroke-width">2.5</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 
@@ -136,7 +136,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.25</ogc:Literal>
+              <ogc:Literal>2.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>	   
           <MinScaleDenominator>200000</MinScaleDenominator>          		  		  		  		            
@@ -145,10 +145,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00590f</CssParameter>
+                  <CssParameter name="fill">#ffff80</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#004d0b</CssParameter>
+                  <CssParameter name="stroke">#e6e600</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 			
@@ -163,11 +163,11 @@
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.25</ogc:Literal>
+              <ogc:Literal>2.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.50</ogc:Literal>
+              <ogc:Literal>11.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
           </ogc:Filter>	 
@@ -177,10 +177,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#008c1a</CssParameter>
+                  <CssParameter name="fill">#fed98e</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#006613</CssParameter>
+                  <CssParameter name="stroke">#fdba35</CssParameter>
                   <CssParameter name="stroke-width">1.7</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>  
@@ -195,11 +195,11 @@
           <ogc:And>		  
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.50</ogc:Literal>
+              <ogc:Literal>11.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.75</ogc:Literal>
+              <ogc:Literal>13.5</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:And>				
           </ogc:Filter>	  
@@ -209,10 +209,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00bf25</CssParameter>
+                  <CssParameter name="fill">#fe9929</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#00991f</CssParameter>
+                  <CssParameter name="stroke">#e47a01</CssParameter>
                   <CssParameter name="stroke-width">1.9</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>                 
@@ -226,7 +226,7 @@
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Abundance_mean</ogc:PropertyName>
-              <ogc:Literal>0.75</ogc:Literal>
+              <ogc:Literal>13.5</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>	
           <MinScaleDenominator>200000</MinScaleDenominator>          		  		  		  		  
@@ -235,10 +235,10 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#bfff00</CssParameter>
+                  <CssParameter name="fill">#cc4c02</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#99cc00</CssParameter>
+                  <CssParameter name="stroke">#973902</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>               
@@ -251,16 +251,16 @@
 
         <!-- Legend-only rule-->
         <Rule>
-          <Title>   0.00&#8211;0.25</Title>				               		  		  		  		  
+          <Title>   0&#8211;2.5</Title>				               		  		  		  		  
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00590f</CssParameter>
+                  <CssParameter name="fill">#ffff80</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#004d0b</CssParameter>
+                  <CssParameter name="stroke">#e6e600</CssParameter>
                   <CssParameter name="stroke-width">1.4</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 			
@@ -271,16 +271,16 @@
           <VendorOption name="inclusion">legendOnly</VendorOption>								  		  		  		                      
         </Rule>
         <Rule>
-          <Title>   0.25&#8211;0.50</Title>				                            
+          <Title>   2.5&#8211;11.5</Title>				                            
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#008c1a</CssParameter>
+                  <CssParameter name="fill">#fed98e</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#006613</CssParameter>
+                  <CssParameter name="stroke">#fdba35</CssParameter>
                   <CssParameter name="stroke-width">1.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>  
@@ -291,16 +291,16 @@
           <VendorOption name="inclusion">legendOnly</VendorOption>								  		  		  		                                
         </Rule>
         <Rule>
-          <Title>   0.50&#8211;0.75</Title>				                                    
+          <Title>   11.5&#8211;13.5</Title>				                                    
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#00bf25</CssParameter>
+                  <CssParameter name="fill">#fe9929</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#00991f</CssParameter>
+                  <CssParameter name="stroke">#e47a01</CssParameter>
                   <CssParameter name="stroke-width">1.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>                 
@@ -311,16 +311,16 @@
           <VendorOption name="inclusion">legendOnly</VendorOption>								  		  		  		                                
         </Rule>			
         <Rule>
-          <Title>   0.75&#8211;1.00</Title>				                                    
+          <Title> &#x3e;13.5</Title>				                                    
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#bfff00</CssParameter>
+                  <CssParameter name="fill">#cc4c02</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#99cc00</CssParameter>
+                  <CssParameter name="stroke">#973902</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>               
