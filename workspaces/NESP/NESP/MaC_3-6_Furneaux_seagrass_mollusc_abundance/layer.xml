@@ -1,5 +1,5 @@
 <layer>
-  <name>MaC_3-6_Furneaux_seagrass_mollusc_abundance_summary</name>
+  <name>MaC_3-6_Furneaux_seagrass_mollusc_abundance</name>
   <id>LayerInfoImpl-7cf4a2a7:19f98de9910:357c</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-07-25 11:31:05.360 UTC</dateCreated>
+  <dateModified>2026-07-25 12:41:10.503 UTC</dateModified>
 </layer>
