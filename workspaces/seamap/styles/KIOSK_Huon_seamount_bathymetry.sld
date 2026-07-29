@@ -15,14 +15,15 @@
               <ColorMapEntry color="#ffffff" opacity="1.0" quantity="-99999"/>
 
               <!-- Deeper = blue, midpoint around 62 m = pale orange, shallower = red -->
-              <ColorMapEntry color="#081d58" opacity="1" quantity="-2700"/>
-              <ColorMapEntry color="#2b4f9f" opacity="1" quantity="-2100"/>
-              <ColorMapEntry color="#6fa3c8" opacity="1" quantity="-1400"/>
-              <ColorMapEntry color="#fdbb84" opacity="1" quantity="-800"/>
-              <ColorMapEntry color="#f07a55" opacity="1" quantity="-650"/>
-              <ColorMapEntry color="#d7301f" opacity="1" quantity="-550"/>
-              <ColorMapEntry color="#b30000" opacity="1" quantity="-450"/>
-              <ColorMapEntry color="#7f0000" opacity="1" quantity="-400"/>
+              <ColorMapEntry color="#081d58" opacity="1" quantity="-2800"/>
+              <ColorMapEntry color="#2b4f9f" opacity="1" quantity="-2500"/>              
+              <ColorMapEntry color="#3765c8" opacity="1" quantity="-2200"/>
+              <ColorMapEntry color="#7eacce" opacity="1" quantity="-1900"/>
+              <ColorMapEntry color="#fdbb84" opacity="1" quantity="-1600"/>
+              <ColorMapEntry color="#f07a55" opacity="1" quantity="-1300"/>
+              <ColorMapEntry color="#d7301f" opacity="1" quantity="-1000"/>
+              <ColorMapEntry color="#b30000" opacity="1" quantity="-800"/>
+              <ColorMapEntry color="#7f0000" opacity="1" quantity="-600"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -39,7 +40,8 @@
               <ColorMapEntry color="#d7301f" label="    700" quantity="-700"/>
               <ColorMapEntry color="#f07a55" label="    900" quantity="-900"/>
               <ColorMapEntry color="#fdbb84" label="  1,200" quantity="-1200"/>
-              <ColorMapEntry color="#6fa3c8" label="  1,600" quantity="-1600"/>
+              <ColorMapEntry color="#90b7d5" label="  1,600" quantity="-1600"/>
+              <ColorMapEntry color="#5f84d3" label="  2,100" quantity="-2100"/>              
               <ColorMapEntry color="#2b4f9f" label="  2,100" quantity="-2100"/>
               <ColorMapEntry color="#081d58" label="  2,700" quantity="-2700"/>
             </ColorMap>
