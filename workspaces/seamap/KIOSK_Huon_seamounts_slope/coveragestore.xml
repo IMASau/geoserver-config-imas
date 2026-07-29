@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7cf4a2a7:19fad4069fa:43d1</id>
+  <name>KIOSK_Huon_seamounts_slope</name>
+  <description>Bathymetric slope of the Huon seamounts cluster</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-07-29 11:59:29.556 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/KIOSK/Huon_seamounts/HuonSeamount_Bathymetry_30m_2025_slope.tif</url>
+</coverageStore>
