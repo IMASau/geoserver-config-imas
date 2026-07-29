@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-7cf4a2a7:19fad4069fa:7926</id>
+  <name>KIOSK_Huon_seamounts_VME</name>
+  <mode>SINGLE</mode>
+  <title>Probability of Vulnerable Marine Ecosystems on the Huons eamounts cluster</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7cf4a2a7:19fad4069fa:7925</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7cf4a2a7:19fb007975f:-5404</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:7923</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:77a6</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>502063.9822344051</minx>
+    <maxx>537264.3619337906</maxx>
+    <miny>5085683.647260774</miny>
+    <maxy>5110148.417266846</maxy>
+    <crs class="projected">EPSG:32755</crs>
+  </bounds>
+  <dateCreated>2026-07-29 22:37:25.788 UTC</dateCreated>
+  <dateModified>2026-07-29 22:53:30.818 UTC</dateModified>
+</layerGroup>

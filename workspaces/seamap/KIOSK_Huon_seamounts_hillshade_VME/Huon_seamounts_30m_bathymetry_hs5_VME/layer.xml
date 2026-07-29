@@ -1,0 +1,17 @@
+<layer>
+  <name>Huon_seamounts_30m_bathymetry_hs5_VME</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fb007975f:-5404</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:77a6</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fb007975f:-5405</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-07-29 22:52:13.533 UTC</dateCreated>
+</layer>
