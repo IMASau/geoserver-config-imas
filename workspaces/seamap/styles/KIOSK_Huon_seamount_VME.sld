@@ -20,7 +20,7 @@
               <ColorMapEntry color="#206e8b" quantity="0.4" />              
               <ColorMapEntry color="#5ab978" quantity="0.6" />                            
               <ColorMapEntry color="#aad85c" quantity="0.8" />              
-              <ColorMapEntry color="#fbfb6a" quantity="1.0" />             
+              <ColorMapEntry color="#ffff8a" quantity="1.0" />             
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -31,7 +31,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="101" label="Habitat suitability" />
-              <ColorMapEntry color="#fbfb6a" quantity="1.0" label="  high" />          
+              <ColorMapEntry color="#ffff8a" quantity="1.0" label="  high" />          
               <ColorMapEntry color="#8ccb4d" quantity="0.7" />   
               <ColorMapEntry color="#206e8b" quantity="0.4" />                            
               <ColorMapEntry color="#2a186c" quantity="0.0" label="  low"/>
