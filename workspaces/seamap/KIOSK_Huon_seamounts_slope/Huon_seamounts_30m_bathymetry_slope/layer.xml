@@ -3,7 +3,7 @@
   <id>LayerInfoImpl-7cf4a2a7:19fad4069fa:43d7</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:776f</id>
   </defaultStyle>
   <resource class="coverage">
     <id>CoverageInfoImpl-7cf4a2a7:19fad4069fa:43d6</id>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-07-29 12:00:33.265 UTC</dateCreated>
+  <dateModified>2026-07-29 21:52:55.400 UTC</dateModified>
 </layer>

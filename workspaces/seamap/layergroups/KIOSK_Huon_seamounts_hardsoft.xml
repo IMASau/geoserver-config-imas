@@ -1,8 +1,8 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-7cf4a2a7:19fad4069fa:4447</id>
-  <name>KIOSK_Huon_seamounts_bathy</name>
+  <id>LayerGroupInfoImpl-7cf4a2a7:19fad4069fa:779b</id>
+  <name>KIOSK_Huon_seamounts_hardsoft</name>
   <mode>SINGLE</mode>
-  <title>Hillshaded bathymetry of the Huon seamounts cluster</title>
+  <title>Slope-based substrate classification of the Huon seamounts cluster</title>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -10,7 +10,7 @@
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-7cf4a2a7:19fad4069fa:43d3</id>
+      <id>LayerInfoImpl-7cf4a2a7:19fad4069fa:43d7</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl-7cf4a2a7:19fad4069fa:43d5</id>
@@ -18,7 +18,7 @@
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:43df</id>
+      <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:776f</id>
     </style>
     <style>
       <id>StyleInfoImpl-7cf4a2a7:19fad4069fa:77a6</id>
@@ -31,6 +31,6 @@
     <maxy>5117235.0</maxy>
     <crs class="projected">EPSG:32755</crs>
   </bounds>
-  <dateCreated>2026-07-29 12:42:48.732 UTC</dateCreated>
-  <dateModified>2026-07-29 21:58:40.581 UTC</dateModified>
+  <dateCreated>2026-07-29 21:53:49.74 UTC</dateCreated>
+  <dateModified>2026-07-29 21:55:30.360 UTC</dateModified>
 </layerGroup>
