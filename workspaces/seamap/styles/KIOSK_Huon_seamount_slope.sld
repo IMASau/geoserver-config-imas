@@ -13,7 +13,8 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.0" quantity="-9999"/>
-              <ColorMapEntry color="#c9c9cb" opacity="0.0" quantity="0"/>              
+              <ColorMapEntry color="#c9c9cb" opacity="1" quantity="-100"/>                            
+              <ColorMapEntry color="#c9c9cb" opacity="1" quantity="-5"/>              
               <ColorMapEntry color="#f4f2ca" opacity="1" quantity="2"/>
               <ColorMapEntry color="#ddcb8d" opacity="1" quantity="7"/>
               <ColorMapEntry color="#9c663f" opacity="1" quantity="10"/>

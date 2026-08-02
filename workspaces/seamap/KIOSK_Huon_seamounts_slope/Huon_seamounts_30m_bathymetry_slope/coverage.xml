@@ -49,6 +49,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">KIOSK_Huon_seamounts_slope_HuonSeamount_Bathymetry_30m_2025_slope</entry>

@@ -15,12 +15,12 @@
         <Rule>
           <RasterSymbolizer>              
             <ColorMap type="ramp">
-              <ColorMapEntry color="#2a186c" quantity="0"/>
-              <ColorMapEntry color="#14439c" quantity="0.2"/>                            
+              <ColorMapEntry color="#311c7d" quantity="0"/>
+              <ColorMapEntry color="#174eb5" quantity="0.2"/>                            
               <ColorMapEntry color="#206e8b" quantity="0.4" />              
               <ColorMapEntry color="#5ab978" quantity="0.6" />                            
-              <ColorMapEntry color="#aad85c" quantity="0.8" />              
-              <ColorMapEntry color="#ffff8a" quantity="1.0" />             
+              <ColorMapEntry color="#b4dc6f" quantity="0.8" />              
+              <ColorMapEntry color="#ffff99" quantity="1.0" />             
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
