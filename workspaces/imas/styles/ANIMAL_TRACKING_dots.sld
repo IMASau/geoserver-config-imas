@@ -21,7 +21,8 @@
               </Mark>
               <Size>6</Size>
             </Graphic>
-          </PointSymbolizer>  
+          </PointSymbolizer> 
+ 		<VendorOption name="inclusion">mapOnly</VendorOption>                                                           
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>

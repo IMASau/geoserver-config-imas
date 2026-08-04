@@ -1,0 +1,16 @@
+<layer>
+  <name>KIOSK_HuonSeamount_imagery</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fcea4098b:-64d6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fcea4098b:-64da</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7cf4a2a7:19fcea4098b:-64d7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-04 21:51:48.153 UTC</dateCreated>
+</layer>
