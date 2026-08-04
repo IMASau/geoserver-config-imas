@@ -1,17 +1,17 @@
 <#-- =========================================================
      CONFIG
      ========================================================= -->
-<#assign popupWidth = 1000>
-<#assign mainImageHeight = 666.67>
+<#assign popupWidth = 999>
+<#assign mainImageHeight = 666>
 
-<#assign thumbWidth = 95.5>
-<#assign thumbHeight = 63.67>
+<#-- Ten 1.5:1 thumbnails across 999 px -->
+<#assign thumbWidth = 120.5>
+<#assign thumbHeight = 80.33>
 <#assign thumbGap = 5>
 
 <#assign maxFeatures =
   ((popupWidth + thumbGap) / (thumbWidth + thumbGap))?floor
 >
-
 
 <#assign imageBaseUrl =
   "https://data.imas.utas.edu.au/attachments/KIOSK/Huon_seamounts/imagery/"
