@@ -1,33 +1,29 @@
 <#-- =========================================================
      CONFIG
      ========================================================= -->
-<#assign popupWidth = 900>
-<#assign mainImageHeight = 600>
+<#assign popupWidth = 1000>
+<#assign mainImageHeight = 666.67>
 
-<#-- Images use a 1.5:1 aspect ratio -->
-<#assign thumbWidth = 99>
-<#assign thumbHeight = 66>
+<#assign thumbWidth = 95.5>
+<#assign thumbHeight = 63.67>
 <#assign thumbGap = 5>
 
-<#-- Maximum number of thumbnails that fit on one row -->
 <#assign maxFeatures =
   ((popupWidth + thumbGap) / (thumbWidth + thumbGap))?floor
 >
+
 
 <#assign imageBaseUrl =
   "https://data.imas.utas.edu.au/attachments/KIOSK/Huon_seamounts/imagery/"
 >
 
 <#-- =========================================================
-     SORT AND LIMIT FEATURES
+     LIMIT FEATURES
      ========================================================= -->
-<#assign sortedFeatures =
-  features?sort_by(["HSM_type", "rawValue"])
->
 
 <#assign rows = []>
 
-<#list sortedFeatures as feature>
+<#list features as feature>
   <#if feature_index < maxFeatures>
     <#assign rows = rows + [feature]>
   </#if>
@@ -39,17 +35,17 @@
 <#if rows?size gt 0>
 
   <style>
-    .hsm-carousel {
+    .image-carousel {
       position: relative;
       width: 100%;
     }
 
-    .hsm-carousel input[type="radio"] {
+    .image-carousel input[type="radio"] {
       position: absolute;
       left: -9999px;
     }
 
-    .hsm-main-area {
+    .image-main-area {
       position: relative;
       width: 100%;
       height: ${mainImageHeight}px;
@@ -58,26 +54,26 @@
       overflow: hidden;
     }
 
-    .hsm-main-slide {
+    .image-main-slide {
       display: none;
       position: relative;
       width: 100%;
       height: 100%;
     }
 
-    .hsm-main-slide a {
+    .image-main-slide a {
       display: block;
       width: 100%;
       height: 100%;
     }
 
-    .hsm-main-slide img {
+    .image-main-slide img {
       display: block;
       width: 100%;
       height: 100%;
     }
 
-    .hsm-data-overlay {
+    .image-data-overlay {
       position: absolute;
       top: 10px;
       right: 10px;
@@ -86,14 +82,14 @@
       border-radius: 4px;
       background: rgba(255, 255, 255, 0.72);
       color: #000000;
-      font-size: 90%;
+      font-size: 115%;
       font-weight: bold;
-      line-height: 1.5;
+      line-height: 1.8;
       text-align: left;
       pointer-events: none;
     }
 
-    .hsm-nav {
+    .image-nav {
       position: absolute;
       top: 50%;
       z-index: 20;
@@ -108,15 +104,15 @@
       transform: translateY(-50%);
     }
 
-    .hsm-prev {
+    .image-prev {
       left: 8px;
     }
 
-    .hsm-next {
+    .image-next {
       right: 8px;
     }
 
-    .hsm-thumbnails {
+    .image-thumbnails {
       display: flex;
       flex-wrap: nowrap;
       justify-content: center;
@@ -125,7 +121,7 @@
       margin-top: 8px;
     }
 
-    .hsm-thumb-label {
+    .image-thumb-label {
       display: block;
       flex: 0 0 ${thumbWidth}px;
       width: ${thumbWidth}px;
@@ -136,7 +132,7 @@
       cursor: pointer;
     }
 
-    .hsm-thumb-label img {
+    .image-thumb-label img {
       display: block;
       width: 100%;
       height: 100%;
@@ -149,14 +145,14 @@
     margin-bottom:10px;
   ">
 
-    <div class="hsm-carousel">
+    <div class="image-carousel">
 
       <#-- Hidden radio button for each image -->
       <#list rows as feature>
         <input
           type="radio"
-          name="hsm_carousel"
-          id="hsm_slide_${feature_index}"
+          name="image_carousel"
+          id="image_slide_${feature_index}"
           <#if feature_index == 0>checked="checked"</#if>
         />
       </#list>
@@ -164,22 +160,22 @@
       <#-- Selected slide and thumbnail rules -->
       <#list rows as feature>
         <style>
-          #hsm_slide_${feature_index}:checked
-          ~ .hsm-main-area
-          .hsm-main-slide-${feature_index} {
+          #image_slide_${feature_index}:checked
+          ~ .image-main-area
+          .image-main-slide-${feature_index} {
             display: block;
           }
 
-          #hsm_slide_${feature_index}:checked
-          ~ .hsm-thumbnails
-          .hsm-thumb-${feature_index} {
+          #image_slide_${feature_index}:checked
+          ~ .image-thumbnails
+          .image-thumb-${feature_index} {
             border: 3px solid #333333;
           }
         </style>
       </#list>
 
       <#-- Main image area -->
-      <div class="hsm-main-area">
+      <div class="image-main-area">
 
         <#list rows as feature>
 
@@ -199,7 +195,7 @@
             ".jpg"
           >
 
-          <div class="hsm-main-slide hsm-main-slide-${i}">
+          <div class="image-main-slide image-main-slide-${i}">
 
             <a href="${imageUrl}" target="_blank">
               <img
@@ -208,7 +204,7 @@
               />
             </a>
 
-            <div class="hsm-data-overlay">
+            <div class="image-data-overlay">
               <div>
                 Depth:
                 ${feature.depth.value?number?string["#,##0"]}
@@ -224,13 +220,13 @@
 
             <#if rows?size gt 1>
               <label
-                for="hsm_slide_${previousIndex}"
-                class="hsm-nav hsm-prev"
+                for="image_slide_${previousIndex}"
+                class="image-nav image-prev"
               >&#10094;</label>
 
               <label
-                for="hsm_slide_${nextIndex}"
-                class="hsm-nav hsm-next"
+                for="image_slide_${nextIndex}"
+                class="image-nav image-next"
               >&#10095;</label>
             </#if>
 
@@ -243,27 +239,20 @@
       <#-- Thumbnail strip -->
       <#if rows?size gt 1>
 
-        <div class="hsm-thumbnails">
+        <div class="image-thumbnails">
 
           <#list rows as feature>
 
-            <#assign imageUrl =
-              imageBaseUrl +
-              feature.imageid.value +
-              ".jpg"
-            >
+            <#assign imageUrl = imageBaseUrl + feature.imageid.value + ".jpg" >
 
             <label
-              for="hsm_slide_${feature_index}"
+              for="image_slide_${feature_index}"
               class="
-                hsm-thumb-label
-                hsm-thumb-${feature_index}
+                image-thumb-label
+                image-thumb-${feature_index}
               "
             >
-              <img
-                src="${imageUrl}"
-                alt="Thumbnail ${feature_index + 1}"
-              />
+              <img src="${imageUrl}" alt="Thumbnail ${feature_index + 1}" />
             </label>
 
           </#list>
