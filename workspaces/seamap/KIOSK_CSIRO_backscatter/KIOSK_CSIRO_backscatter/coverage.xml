@@ -38,6 +38,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">KIOSK_CSIRO_backscatter_CSIRO_multibeam_backscatter_75m_2013</entry>
