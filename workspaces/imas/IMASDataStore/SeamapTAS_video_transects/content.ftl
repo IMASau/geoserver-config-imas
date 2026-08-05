@@ -4,7 +4,7 @@
 <#list features as feature>
   <#if (feature_index < 1)>
 
-    <#assign maxBarWidth = 230>
+    <#assign maxBarWidth = 120>
 
     <#-- Assign raw values -->
     <#assign cobble    = feature.Cobble.rawValue?number!0>
@@ -84,11 +84,16 @@
 
       <div style="display:flex; align-items:center; margin:1px 0;">
         <span style="
-          display:inline-block;
-          width:${barWidth}px; height:10px;
+          display:block;
+          flex:0 0 ${barWidth}px;
+          min-width:${barWidth}px;
+          width:${barWidth}px;
+          height:10px;
           background-color:${habitat.color} !important;
           background-image:none !important;
-          border:0; outline:0;">
+          border:0;
+          outline:0;">
+        </span>
         </span>
         <span style="margin-left:8px; white-space:nowrap;">
           ${habitat.name}: <b>${pctText}</b>
