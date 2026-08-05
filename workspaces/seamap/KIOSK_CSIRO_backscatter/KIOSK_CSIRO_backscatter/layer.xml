@@ -1,0 +1,16 @@
+<layer>
+  <name>KIOSK_CSIRO_backscatter</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fd02ff47b:662c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fd02ff47b:6629</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fd02ff47b:662b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-05 04:51:29.245 UTC</dateCreated>
+</layer>
