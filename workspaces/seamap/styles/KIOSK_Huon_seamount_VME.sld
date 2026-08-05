@@ -30,7 +30,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="101" label="Habitat suitability" />
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="101" label="Unique habitat" />
               <ColorMapEntry color="#ffff8a" quantity="1.0" label="  high" />          
               <ColorMapEntry color="#8ccb4d" quantity="0.7" />   
               <ColorMapEntry color="#206e8b" quantity="0.4" />                            
