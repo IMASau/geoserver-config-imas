@@ -20,7 +20,7 @@
               </GrayChannel>
             </ChannelSelection>              
             <ColorMap type="values">
-              <ColorMapEntry color="#8282fe" quantity="1" />            
+              <ColorMapEntry color="#2a88fe" quantity="1" />            
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -30,7 +30,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#8282fe" quantity="1" label="  Species range" />
+              <ColorMapEntry color="#2a88fe" quantity="1" label="  Species range" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>
