@@ -5,7 +5,13 @@
   <#if feature.Range.value?? && feature.Range.value?number != 0>
 
     <div class="feature" style="padding-top:5px; padding-bottom:5px; text-align:center;">
-      <h5 style="padding-bottom:5px;">Suitable Habitat</h5>
+      <h5 style="padding-bottom:5px;">
+        <#if feature["HabSuit_err05pct"]??>
+          Habitat Suitability
+        <#else>
+          Suitable Habitat
+        </#if>
+      </h5>
       <h6 style="margin-bottom:2px; font-style:italic;">Aulohalaelurus labiosus</h6>
 
       <#-- Only process suitability values if band 2 exists -->
