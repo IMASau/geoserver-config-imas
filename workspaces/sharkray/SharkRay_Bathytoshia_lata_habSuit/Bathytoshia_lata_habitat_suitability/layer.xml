@@ -1,0 +1,27 @@
+<layer>
+  <name>Bathytoshia_lata_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fe68c8d1d:3f5e</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ac</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fe68c8d1d:3f5d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-09 14:50:13.588 UTC</dateCreated>
+</layer>
