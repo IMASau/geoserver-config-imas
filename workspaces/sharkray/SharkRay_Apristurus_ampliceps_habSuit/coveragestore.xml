@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7cf4a2a7:19fe6635bbd:-5f9c</id>
+  <name>SharkRay_Apristurus_ampliceps_habSuit</name>
+  <description>Shark &amp; Ray National SDM: Apristurus ampliceps</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-7cf4a2a7:19fe47b087f:62ac</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-08-09 12:12:33.12 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/35916744-f7a6-4dbe-b1e1-f6d213528f0c/per_species/Apristurus_ampliceps.tif</url>
+</coverageStore>
