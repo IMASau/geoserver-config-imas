@@ -1,0 +1,27 @@
+<layer>
+  <name>Aetobatus_ocellatus_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fe6635bbd:-4dbb</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ac</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fe6635bbd:-4dbc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-09 12:32:00.383 UTC</dateCreated>
+</layer>
