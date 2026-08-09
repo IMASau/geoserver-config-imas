@@ -1,0 +1,84 @@
+<wms>
+  <id>WMSInfoImpl-7cf4a2a7:19fe47b087f:62b7</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-7cf4a2a7:19fe47b087f:62ac</id>
+  </workspace>
+  <enabled>true</enabled>
+  <name>WMS</name>
+  <title>Web Mapping Service for Australian Shark &amp; Ray National SDM Project</title>
+  <internationalTitle/>
+  <maintainer>Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS)</maintainer>
+  <abstrct>This collection contains predicted range and habitat suitability maps for 220 species of chondrichthyans (sharks, rays, and chimaeras) across Australian waters (excluding offshore territories), representing approximately 68% of Australia&apos;s known chondrichthyan fauna</abstrct>
+  <internationalAbstract/>
+  <versions>
+    <org.geotools.util.Version>
+      <version>1.1.1</version>
+    </org.geotools.util.Version>
+    <org.geotools.util.Version>
+      <version>1.3.0</version>
+    </org.geotools.util.Version>
+  </versions>
+  <citeCompliant>false</citeCompliant>
+  <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
+  <verbose>false</verbose>
+  <metadata>
+    <entry key="disableDatelineWrappingHeuristic">false</entry>
+    <entry key="kmlSuperoverlayMode">auto</entry>
+    <entry key="kmlReflectorMode">refresh</entry>
+    <entry key="loopContinuously">false</entry>
+    <entry key="svgAntiAlias">false</entry>
+    <entry key="kmlPlacemark">false</entry>
+    <entry key="rootLayerInCapabilities">true</entry>
+    <entry key="kmlKmscore">40</entry>
+    <entry key="mapWrapping">true</entry>
+    <entry key="pngCompression">25</entry>
+    <entry key="jpegCompression">25</entry>
+    <entry key="advancedProjectionDensification">false</entry>
+    <entry key="advancedProjectionHandling">true</entry>
+    <entry key="maxAllowedFrames">2147483647</entry>
+    <entry key="kmlAttr">true</entry>
+    <entry key="disposalMethod">none</entry>
+    <entry key="MarkFactoryList"></entry>
+    <entry key="scalehintMapunitsPixel">false</entry>
+    <entry key="framesDelay">1000</entry>
+  </metadata>
+  <srs>
+    <string>4326</string>
+    <string>3857</string>
+    <string>3112</string>
+    <string>4283</string>
+    <string>4938</string>
+    <string>7844</string>
+    <string>9473</string>
+    <string>3577</string>
+    <string>32755</string>
+  </srs>
+  <bboxForEachCRS>false</bboxForEachCRS>
+  <watermark>
+    <enabled>false</enabled>
+    <position>BOT_RIGHT</position>
+    <transparency>100</transparency>
+  </watermark>
+  <interpolation>Bilinear</interpolation>
+  <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
+  <getMapMimeTypeCheckingEnabled>false</getMapMimeTypeCheckingEnabled>
+  <dynamicStylingDisabled>false</dynamicStylingDisabled>
+  <featuresReprojectionDisabled>false</featuresReprojectionDisabled>
+  <maxBuffer>0</maxBuffer>
+  <maxRequestMemory>1280000</maxRequestMemory>
+  <maxRenderingTime>180</maxRenderingTime>
+  <maxRenderingErrors>100</maxRenderingErrors>
+  <internationalRootLayerTitle/>
+  <internationalRootLayerAbstract/>
+  <maxRequestedDimensionValues>100</maxRequestedDimensionValues>
+  <cacheConfiguration>
+    <enabled>false</enabled>
+    <maxEntries>1000</maxEntries>
+    <maxEntrySize>51200</maxEntrySize>
+  </cacheConfiguration>
+  <remoteStyleMaxRequestTime>60000</remoteStyleMaxRequestTime>
+  <remoteStyleTimeout>30000</remoteStyleTimeout>
+  <defaultGroupStyleEnabled>false</defaultGroupStyleEnabled>
+  <transformFeatureInfoDisabled>false</transformFeatureInfoDisabled>
+  <autoEscapeTemplateValues>false</autoEscapeTemplateValues>
+</wms>
