@@ -1,0 +1,27 @@
+<layer>
+  <name>Carcharhinus_amblyrhynchos_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fe68c8d1d:3f7c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ac</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fe68c8d1d:3f7b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-09 15:06:56.483 UTC</dateCreated>
+</layer>
