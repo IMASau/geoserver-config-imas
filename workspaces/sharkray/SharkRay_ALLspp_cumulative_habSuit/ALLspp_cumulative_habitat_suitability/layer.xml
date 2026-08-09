@@ -1,5 +1,5 @@
 <layer>
-  <name>ALLspp_cumulative_habSuit</name>
+  <name>ALLspp_cumulative_habitat_suitability</name>
   <id>LayerInfoImpl-7cf4a2a7:19fe47b087f:63a7</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-08-09 08:00:34.347 UTC</dateCreated>
+  <dateModified>2026-08-09 08:35:22.750 UTC</dateModified>
 </layer>

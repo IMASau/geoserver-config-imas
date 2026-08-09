@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl-7cf4a2a7:19fe47b087f:63a6</id>
-  <name>ALLspp_cumulative_habSuit</name>
-  <nativeName>ALLspp_cumulative_habSuit</nativeName>
+  <id>CoverageInfoImpl-7cf4a2a7:19fe47b087f:63c6</id>
+  <name>Aulohalaelurus_labiosus_habitat_suitability</name>
+  <nativeName>Aulohalaelurus_labiosus_habitat_suitability</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-7cf4a2a7:19fe47b087f:62ad</id>
   </namespace>
-  <title>Shark &amp; Ray National Species Distribution Modelling: cumulative habitat suitability (220 species)</title>
+  <title>Shark &amp; Ray National SDM: habitat suitability - Aulohalaelurus labiosus</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>cumulative_habSuit_allSpp_p95</string>
+    <string>Aulohalaelurus_labiosus</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -40,10 +40,10 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SharkRay_ALLspp_cumulative_habSuit_cumulative_habSuit_allSpp_p95</entry>
+    <entry key="dirName">Aulohalaelurus_labiosus_habSuit_Aulohalaelurus_labiosus</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7cf4a2a7:19fe47b087f:63a0</id>
+    <id>CoverageStoreInfoImpl-7cf4a2a7:19fe47b087f:63be</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -80,7 +80,35 @@
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>GRAY_INDEX</name>
+      <name>Range</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>HabSuit_err05pct</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>HabSuit_err10pct</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -118,5 +146,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>cumulative_habSuit_allSpp_p95</nativeCoverageName>
+  <nativeCoverageName>Aulohalaelurus_labiosus</nativeCoverageName>
 </coverage>
