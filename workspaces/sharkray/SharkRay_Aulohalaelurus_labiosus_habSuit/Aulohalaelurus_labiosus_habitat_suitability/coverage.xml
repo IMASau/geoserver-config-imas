@@ -1,14 +1,14 @@
 <coverage>
-  <id>CoverageInfoImpl-7cf4a2a7:19fe47b087f:63c8</id>
-  <name>Bathytoshia_brevicaudata_habitat_suitability</name>
-  <nativeName>Bathytoshia_brevicaudata_habitat_suitability</nativeName>
+  <id>CoverageInfoImpl-7cf4a2a7:19fe47b087f:63c6</id>
+  <name>Aulohalaelurus_labiosus_habitat_suitability</name>
+  <nativeName>Aulohalaelurus_labiosus_habitat_suitability</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-7cf4a2a7:19fe47b087f:62ad</id>
   </namespace>
-  <title>Shark &amp; Ray National SDM: habitat suitability - Bathytoshia brevicaudata</title>
+  <title>Shark &amp; Ray National SDM: habitat suitability - Aulohalaelurus labiosus</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
-    <string>Bathytoshia_brevicaudata</string>
+    <string>Aulohalaelurus_labiosus</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -40,15 +40,13 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">Bathytoshia_brevicaudata_habSuit_Bathytoshia_brevicaudata</entry>
+    <entry key="dirName">Aulohalaelurus_labiosus_habSuit_Aulohalaelurus_labiosus</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl-7cf4a2a7:19fe47b087f:63bf</id>
+    <id>CoverageStoreInfoImpl-7cf4a2a7:19fe47b087f:63be</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
@@ -146,5 +144,5 @@
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Bathytoshia_brevicaudata</nativeCoverageName>
+  <nativeCoverageName>Aulohalaelurus_labiosus</nativeCoverageName>
 </coverage>
