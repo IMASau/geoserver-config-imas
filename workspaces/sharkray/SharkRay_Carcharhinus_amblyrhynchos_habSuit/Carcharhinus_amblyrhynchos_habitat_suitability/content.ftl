@@ -12,7 +12,7 @@
           Suitable Habitat
         </#if>
       </h5>
-      <h6 style="margin-bottom:2px; font-style:italic;">Carcharhinus amblyrhynchos</h6>
+      <h6 style="margin-bottom:2px; font-style:italic;">${type.name?replace("_habitat_suitability", "")?replace("_", " ")}</h6>
 
       <#-- Only process suitability values if band 2 exists -->
       <#if feature["HabSuit_err05pct"]??>

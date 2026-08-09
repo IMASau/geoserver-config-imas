@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7cf4a2a7:19fe68c8d1d:5345</id>
+  <name>SharkRay_Carcharhinus_limbatus_habSuit</name>
+  <description>Shark &amp; Ray National SDM: Carcharhinus limbatus</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-7cf4a2a7:19fe47b087f:62ac</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-08-09 22:04:26.77 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/35916744-f7a6-4dbe-b1e1-f6d213528f0c/per_species/Carcharhinus_limbatus.tif</url>
+</coverageStore>
