@@ -1,0 +1,27 @@
+<layer>
+  <name>Glaucostegus_typus_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fe99bbcb8:-3311</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ac</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fe99bbcb8:-3312</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-10 03:34:27.882 UTC</dateCreated>
+</layer>
