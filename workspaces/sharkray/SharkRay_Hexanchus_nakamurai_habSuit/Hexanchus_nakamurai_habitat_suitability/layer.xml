@@ -1,0 +1,16 @@
+<layer>
+  <name>Hexanchus_nakamurai_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fea4f429d:-42e6</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fea4f429d:-42e7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-10 06:50:28.4 UTC</dateCreated>
+</layer>
