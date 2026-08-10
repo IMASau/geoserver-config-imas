@@ -1,0 +1,21 @@
+<layer>
+  <name>Orectolobus_maculatus_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19feac3ae32:-bd3</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19feac3ae32:-bd4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-10 12:24:20.210 UTC</dateCreated>
+</layer>
