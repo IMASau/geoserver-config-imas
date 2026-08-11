@@ -2,7 +2,7 @@
   <id>LayerInfoImpl--37cf091d:18c8a819ed6:4fbd</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>ICIN:Indigenous_carbon_interests</name>
+  <name>seamap:Indigenous_carbon_interests</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
@@ -32,7 +32,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>ICIN:ICIN_Land_Classes</defaultStyle>
+      <defaultStyle>seamap:ICIN_Land_Classes</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

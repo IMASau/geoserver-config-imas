@@ -5,18 +5,11 @@
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
-    <id>WorkspaceInfoImpl--37cf091d:18c8a819ed6:3c23</id>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2023-12-21 12:01:59.443 UTC</dateCreated>
+  <dateModified>2026-08-11 11:06:29.544 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/2a7e2279-07c8-4c56-a469-91788f99d595/Indigenous_interest_2023_v2.0.tif</url>
 </coverageStore>
