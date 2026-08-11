@@ -1,0 +1,21 @@
+<layer>
+  <name>Trygonorrhina_dumerilii_habitat_suitability</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fef57c89b:-40ad</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:19fef57c89b:-40ae</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-11 09:50:20.897 UTC</dateCreated>
+</layer>
