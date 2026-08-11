@@ -6,7 +6,7 @@
 
         <!-- Rule for pseudo-title -->
         <Rule>
-          <Title>Total phosphorus</Title>
+          <Title>Total phosphorus (&#xB5;M)</Title>
         </Rule>
 
         <!-- Zoom levels <120,000 -->
