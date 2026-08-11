@@ -14,47 +14,47 @@
         <#assign err05=feature["HabSuit_err05pct"].value?number>
 
           <#-- Turbo palette colours for 5% omission-error layer -->
-          <#if (err05<=0.025)>
+          <#if (err05<=1)>
             <#assign colour05="#30123b" textcolour05="#ffffff">
-          <#elseif (err05>0.025 && err05<=0.075)>
+          <#elseif (err05>1 && err05<=3)>
             <#assign colour05="#3d358b" textcolour05="#ffffff">
-          <#elseif (err05>0.075 && err05<=0.125)>
+          <#elseif (err05>3 && err05<=5)>
             <#assign colour05="#4559cb" textcolour05="#ffffff">
-          <#elseif (err05>0.125 && err05<=0.175)>
+          <#elseif (err05>5 && err05<=7)>
             <#assign colour05="#477bf2" textcolour05="#ffffff">
-          <#elseif (err05>0.175 && err05<=0.225)>
+          <#elseif (err05>7 && err05<=9)>
             <#assign colour05="#3e9bfe" textcolour05="#000000">
-          <#elseif (err05>0.225 && err05<=0.275)>
+          <#elseif (err05>9 && err05<=11)>
             <#assign colour05="#28bceb" textcolour05="#000000">
-          <#elseif (err05>0.275 && err05<=0.325)>
+          <#elseif (err05>11 && err05<=13)>
             <#assign colour05="#19d5cd" textcolour05="#000000">
-          <#elseif (err05>0.325 && err05<=0.375)>
+          <#elseif (err05>13 && err05<=15)>
             <#assign colour05="#20eaac" textcolour05="#000000">
-          <#elseif (err05>0.375 && err05<=0.425)>
+          <#elseif (err05>15 && err05<=17)>
             <#assign colour05="#46f884" textcolour05="#000000">
-          <#elseif (err05>0.425 && err05<=0.475)>
+          <#elseif (err05>17 && err05<=19)>
             <#assign colour05="#79fe59" textcolour05="#000000">
-          <#elseif (err05>0.475 && err05<=0.525)>
+          <#elseif (err05>19 && err05<=21)>
             <#assign colour05="#a4fc3c" textcolour05="#000000">
-          <#elseif (err05>0.525 && err05<=0.575)>
+          <#elseif (err05>21 && err05<=23)>
             <#assign colour05="#c3f134" textcolour05="#000000">
-          <#elseif (err05>0.575 && err05<=0.625)>
+          <#elseif (err05>23 && err05<=25)>
             <#assign colour05="#e1dd37" textcolour05="#000000">
-          <#elseif (err05>0.625 && err05<=0.675)>
+          <#elseif (err05>25 && err05<=27)>
             <#assign colour05="#f6c33a" textcolour05="#000000">
-          <#elseif (err05>0.675 && err05<=0.725)>
+          <#elseif (err05>27 && err05<=29)>
             <#assign colour05="#fea431" textcolour05="#000000">
-          <#elseif (err05>0.725 && err05<=0.775)>
+          <#elseif (err05>29 && err05<=31)>
             <#assign colour05="#fb7e21" textcolour05="#000000">
-          <#elseif (err05>0.775 && err05<=0.825)>
+          <#elseif (err05>31 && err05<=33)>
             <#assign colour05="#f05b12" textcolour05="#000000">
-          <#elseif (err05>0.825 && err05<=0.875)>
+          <#elseif (err05>33 && err05<=35)>
             <#assign colour05="#dd3d08" textcolour05="#ffffff">
-          <#elseif (err05>0.875 && err05<=0.925)>
+          <#elseif (err05>35 && err05<=37)>
             <#assign colour05="#c32503" textcolour05="#ffffff">
-          <#elseif (err05>0.925 && err05<=0.975)>
+          <#elseif (err05>37 && err05<=39)>
             <#assign colour05="#a11201" textcolour05="#ffffff">
-          <#elseif (err05>0.975)>
+          <#elseif (err05>39)>
             <#assign colour05="#7a0403" textcolour05="#ffffff">
           </#if>
 
