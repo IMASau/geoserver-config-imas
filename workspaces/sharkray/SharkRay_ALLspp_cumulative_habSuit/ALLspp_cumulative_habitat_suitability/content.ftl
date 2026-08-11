@@ -1,11 +1,11 @@
-<#setting number_format="0.000">
+<#setting number_format="0.0">
 
 <#list features as feature>
 
   <#if feature.HabSuit_err05pct.value?? && feature.HabSuit_err05pct.value?number != 0>
 
     <div class="feature" style="padding-top:5px; padding-bottom:5px; text-align:center;">
-      <h5 style="padding-bottom:5px;">Habitat Suitability</h5>
+      <h5 style="padding-bottom:5px;">Cumulative Habitat Suitability</h5>
       <h6 style="margin-bottom:2px; font-style:italic;">All species combined</h6>
 
       <#-- Only process suitability values if band 2 exists -->
