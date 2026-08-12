@@ -1,24 +1,14 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--492a9490:183a16d3d08:-7f99</id>
+  <id>LayerInfoImpl--2816f738:186570cfa43:-4372</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:SeamapAus_NBHL_level_classification</name>
+  <name>seamap:SeamapAus_NBHL_mangrove</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <extent>
-        <coords>
-          <double>1.2160841149425155E7</double>
-          <double>-5477760.383319357</double>
-          <double>1.781076197824739E7</double>
-          <double>-882510.8001260555</double>
-        </coords>
-      </extent>
-      <minCachedLevel>2</minCachedLevel>
-      <maxCachedLevel>18</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -32,7 +22,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>seamap:SeamapAus_NBHL_classification_level</defaultStyle>
+      <defaultStyle>seamap:SeamapAus_NBHL_mangrove</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
