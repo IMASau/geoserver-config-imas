@@ -1,0 +1,57 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-7cf4a2a7:19ff8fa1cbf:156d</id>
+  <name>MaC_3-15_SRW_tracking_SSM_paths</name>
+  <nativeName>NESP_MaC_3_15_SRW_tracking_lines</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
+  </namespace>
+  <title>Interpolated tracking movements of Southern right whales from SSM - paths (NESP MaC 3.16)</title>
+  <abstract>Interpolated positions of four southern right whales satellite tagged in Encounter Bay, SA in June 2024. Locations are predicted at six-hour intervals using a state-space model, together with dive metrics summarised for the three hours before and after each modelled location.&#xd;
+&#xd;
+This layer shows the paths between SSM-predicted points, and should be used for display in a layer group only (not for download).</abstract>
+  <keywords>
+    <string>features</string>
+    <string>NESP_MaC_3_15_SRW_tracking_lines</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>96.87967803</minx>
+    <maxx>138.8592062</maxx>
+    <miny>-47.6239</miny>
+    <maxy>-31.466276</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>96.87967803</minx>
+    <maxx>138.8592062</maxx>
+    <miny>-47.6239</miny>
+    <maxy>-31.466276</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
