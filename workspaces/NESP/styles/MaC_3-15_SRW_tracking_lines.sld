@@ -39,7 +39,7 @@
         </Rule>
 
         <Rule>
-          <Title>Transmission gap</Title>
+          <Title>Transmission break</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>

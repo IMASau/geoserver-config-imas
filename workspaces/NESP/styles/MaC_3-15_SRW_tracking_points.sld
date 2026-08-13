@@ -11,54 +11,299 @@
   <NamedLayer>
     <Name>Southern Right Whale tracking points</Name>
     <UserStyle>
-      <Title>Southern Right Whale tracking points</Title>      
-      <FeatureTypeStyle>       
+      <Title>Southern Right Whale tracking points</Title>
 
-        <!-- Rule for Pie Chart at scale above 3,000,000 -->
+      <FeatureTypeStyle>
+      
         <Rule>
-          <Title>Tracking point</Title>
-          <MinScaleDenominator>3000000</MinScaleDenominator>
+          <Title>Interpolated location</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ffccda</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill">#B9CAD8</CssParameter>
+                  <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                   <CssParameter name="stroke">#4d1927</CssParameter>
-                   <CssParameter name="stroke-width">0.5</CssParameter>
-                   <CssParameter name="stroke-opacity">1</CssParameter>                  
-               </Stroke>                
+                  <CssParameter name="stroke">#355C7D</CssParameter>
+                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>      
+
+        <!-- ===================================================== -->
+        <!-- ZOOMED OUT                                            -->
+        <!-- ===================================================== -->
+
+        <!-- 261255 - blue -->
+        <Rule>
+          <Title>261255</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261255</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#B9CAD8</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#355C7D</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
               </Mark>
               <Size>7</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>  
-        
-        <!-- Rule for Pie Chart at scale below 3,000,000 -->
+        </Rule>
+
+
+        <!-- 261253 - burnt orange -->
         <Rule>
-          <MaxScaleDenominator>3000000</MaxScaleDenominator>
-          <VendorOption name="inclusion">mapOnly</VendorOption>          
+          <Title>261253</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261253</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ffccda</CssParameter>
-                  <CssParameter name="fill-opacity">0.6</CssParameter>                  
+                  <CssParameter name="fill">#E7C6B5</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
                 </Fill>
                 <Stroke>
-                   <CssParameter name="stroke">#4d1927</CssParameter>
-                   <CssParameter name="stroke-width">1</CssParameter>
-                   <CssParameter name="stroke-opacity">1</CssParameter>                  
-               </Stroke>                
+                  <CssParameter name="stroke">#A45A32</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <!-- 261256 - green -->
+        <Rule>
+          <Title>261256</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261256</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#BED2C4</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#3F6B4F</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <!-- 261252 - purple -->
+        <Rule>
+          <Title>261252</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261252</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#D3BED8</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#704C7A</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <!-- ===================================================== -->
+        <!-- ZOOMED IN                                             -->
+        <!-- ===================================================== -->
+
+        <!-- 261255 - blue -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261255</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#B9CAD8</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#355C7D</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
               </Mark>
               <Size>11</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>          
+        </Rule>
+
+
+        <!-- 261253 - burnt orange -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261253</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#E7C6B5</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#A45A32</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <!-- 261256 - green -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261256</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#BED2C4</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#3F6B4F</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+
+        <!-- 261252 - purple -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>DeployID</ogc:PropertyName>
+              <ogc:Literal>261252</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#D3BED8</CssParameter>
+                  <CssParameter name="fill-opacity">0.45</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#704C7A</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>11</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
 
       </FeatureTypeStyle>
     </UserStyle>
