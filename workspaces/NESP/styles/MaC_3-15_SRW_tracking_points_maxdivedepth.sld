@@ -382,7 +382,7 @@
             </Graphic>
           </PointSymbolizer>          
         </Rule>		        
-
+      <VendorOption name="sortBy">Dives_MaxDepth D</VendorOption>		
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
