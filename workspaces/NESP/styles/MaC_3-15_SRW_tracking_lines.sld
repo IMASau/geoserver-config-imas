@@ -33,7 +33,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#355C7D</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -56,8 +56,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#355C7D</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -82,7 +82,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#A45A32</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -106,8 +106,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#A45A32</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -133,7 +133,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3F6B4F</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -157,8 +157,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3F6B4F</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -184,7 +184,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#704C7A</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -208,8 +208,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#704C7A</CssParameter>
-              <CssParameter name="stroke-width">1.1</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.3</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -238,7 +238,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#355C7D</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -261,8 +261,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#355C7D</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -287,7 +287,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#A45A32</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -310,8 +310,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#A45A32</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -336,7 +336,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3F6B4F</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -359,8 +359,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3F6B4F</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -385,7 +385,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#704C7A</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -408,8 +408,8 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#704C7A</CssParameter>
-              <CssParameter name="stroke-width">1.6</CssParameter>
-              <CssParameter name="stroke-dasharray">4 3</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
