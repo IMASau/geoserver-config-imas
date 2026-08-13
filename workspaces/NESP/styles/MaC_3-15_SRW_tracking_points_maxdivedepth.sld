@@ -221,7 +221,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke> 			
               </Mark>
-              <Size>8</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>           
         </Rule>
@@ -255,7 +255,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>  
               </Mark>
-              <Size>9</Size>
+              <Size>9.5</Size>
             </Graphic>
           </PointSymbolizer>            
         </Rule>
@@ -289,7 +289,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>                 
               </Mark>
-              <Size>11</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>         
         </Rule>
@@ -323,7 +323,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>                 
               </Mark>
-              <Size>13</Size>
+              <Size>14.5</Size>
             </Graphic>
           </PointSymbolizer>          
         </Rule>			
@@ -351,7 +351,7 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>				  
                 </Stroke>               
               </Mark>
-              <Size>15</Size>
+              <Size>17</Size>
             </Graphic>
           </PointSymbolizer>          
         </Rule>
@@ -378,7 +378,7 @@
                   <CssParameter name="stroke-opacity">0.7</CssParameter>				  
                 </Stroke>               
               </Mark>
-              <Size>8</Size>
+              <Size>7</Size>
             </Graphic>
           </PointSymbolizer>          
         </Rule>		        
