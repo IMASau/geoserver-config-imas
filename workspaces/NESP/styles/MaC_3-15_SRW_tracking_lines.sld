@@ -16,7 +16,7 @@
 
         <!-- 261255 - dark blue -->
         <Rule>
-          <Title>261255 - Interpolated movement</Title>
+          <Title>Interpolated movement</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
@@ -39,7 +39,7 @@
         </Rule>
 
         <Rule>
-          <Title>261255 - Transmission gap</Title>
+          <Title>Transmission gap</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
@@ -85,6 +85,7 @@
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
         <Rule>
@@ -109,6 +110,7 @@
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
 
@@ -134,6 +136,7 @@
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
         <Rule>
@@ -158,6 +161,7 @@
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
 
@@ -183,6 +187,7 @@
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
         <Rule>
@@ -207,6 +212,7 @@
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
 
