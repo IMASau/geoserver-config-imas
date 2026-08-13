@@ -1,0 +1,36 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-7cf4a2a7:19ff8fa1cbf:74a4</id>
+  <name>MaC_3-15_SRW_tracking</name>
+  <mode>SINGLE</mode>
+  <title>Interpolated tracking movements of Southern right whales from State Space Modelling (NESP MaC 3.16)</title>
+  <abstractTxt>This map package shows the nterpolated positions of four southern right whales satellite tagged in Encounter Bay, SA in June 2024. Locations are predicted at six-hour intervals using a state-space model, together with dive metrics summarised for the three hours before and after each modelled location.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-7cf4a2a7:19ff8fa1cbf:156e</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-7cf4a2a7:19ff8fa1cbf:1129</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19ff8fa1cbf:5b3f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:19ff8fa1cbf:689f</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>96.87967803</minx>
+    <maxx>138.8592062</maxx>
+    <miny>-47.6239</miny>
+    <maxy>-31.466276</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2026-08-13 04:20:33.42 UTC</dateCreated>
+</layerGroup>

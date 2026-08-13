@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-7cf4a2a7:19ff8fa1cbf:1128</id>
-  <name>MaC_3-15_SRW_tracking_pts_SSM</name>
+  <name>MaC_3-15_SRW_tracking_SSM_pts</name>
   <nativeName>NESP_MaC_3_15_SRW_tracking_pts_SSM</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
@@ -38,6 +38,9 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--3a9062c2:158f6d056c9:-3ecd</id>
   </store>
