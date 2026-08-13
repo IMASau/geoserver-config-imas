@@ -14,7 +14,7 @@
         <!-- ZOOMED OUT                                            -->
         <!-- ===================================================== -->
 
-        <!-- 261255 -->
+        <!-- 261255 - dark blue -->
         <Rule>
           <Title>261255 - Interpolated movement</Title>
           <ogc:Filter>
@@ -32,7 +32,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6475</CssParameter>
+              <CssParameter name="stroke">#355C7D</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -55,7 +55,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6475</CssParameter>
+              <CssParameter name="stroke">#355C7D</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -63,7 +63,7 @@
         </Rule>
 
 
-        <!-- 261253 -->
+        <!-- 261253 - burnt orange -->
         <Rule>
           <Title>261253 - Interpolated movement</Title>
           <ogc:Filter>
@@ -81,7 +81,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#805548</CssParameter>
+              <CssParameter name="stroke">#A45A32</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -104,7 +104,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#805548</CssParameter>
+              <CssParameter name="stroke">#A45A32</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -112,7 +112,7 @@
         </Rule>
 
 
-        <!-- 261256 -->
+        <!-- 261256 - dark green -->
         <Rule>
           <Title>261256 - Interpolated movement</Title>
           <ogc:Filter>
@@ -130,7 +130,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6857</CssParameter>
+              <CssParameter name="stroke">#3F6B4F</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -153,7 +153,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6857</CssParameter>
+              <CssParameter name="stroke">#3F6B4F</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -161,7 +161,7 @@
         </Rule>
 
 
-        <!-- 261252 -->
+        <!-- 261252 - dark purple -->
         <Rule>
           <Title>261252 - Interpolated movement</Title>
           <ogc:Filter>
@@ -179,7 +179,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#69566f</CssParameter>
+              <CssParameter name="stroke">#704C7A</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -202,7 +202,7 @@
           <MinScaleDenominator>3000000</MinScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#69566f</CssParameter>
+              <CssParameter name="stroke">#704C7A</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -231,7 +231,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6475</CssParameter>
+              <CssParameter name="stroke">#355C7D</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -254,7 +254,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6475</CssParameter>
+              <CssParameter name="stroke">#355C7D</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -280,7 +280,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#805548</CssParameter>
+              <CssParameter name="stroke">#A45A32</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -303,7 +303,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#805548</CssParameter>
+              <CssParameter name="stroke">#A45A32</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -329,7 +329,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6857</CssParameter>
+              <CssParameter name="stroke">#3F6B4F</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -352,7 +352,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#4f6857</CssParameter>
+              <CssParameter name="stroke">#3F6B4F</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
@@ -378,7 +378,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#69566f</CssParameter>
+              <CssParameter name="stroke">#704C7A</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -401,7 +401,7 @@
           <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#69566f</CssParameter>
+              <CssParameter name="stroke">#704C7A</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>
               <CssParameter name="stroke-dasharray">4 3</CssParameter>
             </Stroke>
