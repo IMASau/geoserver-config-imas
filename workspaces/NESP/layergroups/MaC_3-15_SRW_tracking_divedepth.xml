@@ -22,7 +22,7 @@ This layer is styled by the maximum dive depth for each six hour period, where d
   </publishables>
   <styles>
     <style>
-      <id>StyleInfoImpl-7cf4a2a7:19ff8fa1cbf:5b3f</id>
+      <id>StyleInfoImpl-7cf4a2a7:19ffc0cc7b8:49cf</id>
     </style>
     <style>
       <id>StyleInfoImpl-7cf4a2a7:19ff9f51a5e:2919</id>
@@ -36,5 +36,5 @@ This layer is styled by the maximum dive depth for each six hour period, where d
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2026-08-13 07:40:56.524 UTC</dateCreated>
-  <dateModified>2026-08-13 09:15:03.15 UTC</dateModified>
+  <dateModified>2026-08-13 21:55:49.456 UTC</dateModified>
 </layerGroup>
