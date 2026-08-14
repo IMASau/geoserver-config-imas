@@ -42,6 +42,7 @@ This layer package contains the exposure to each of the five component threats, 
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">MaC_3-15_SouthernRightWhales_cumulative_exposure_threats_SRW_Exposure_multiband</entry>
   </metadata>
   <store class="coverageStore">
@@ -68,10 +69,6 @@ This layer package contains the exposure to each of the five component threats, 
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>GeoPackage (mosaic)</string>
-    <string>ArcGrid</string>
-    <string>MBTiles</string>
-    <string>ImageMosaic</string>
     <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
