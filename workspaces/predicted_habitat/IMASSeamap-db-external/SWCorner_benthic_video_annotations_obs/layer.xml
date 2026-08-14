@@ -16,10 +16,13 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--7299ab69:18be47e5fe6:-52dd</id>
   </resource>
+  <metadata>
+    <entry key="buffer">256</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2023-11-18 22:43:41.594 UTC</dateCreated>
-  <dateModified>2024-04-17 23:31:46.729 UTC</dateModified>
+  <dateModified>2026-08-14 21:55:15.949 UTC</dateModified>
 </layer>

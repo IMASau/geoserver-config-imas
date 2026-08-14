@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Interpolated tracking movements of Southern right whales from SSM - paths (NESP MaC 3.16)</title>
+  <title>Interpolated tracking movements of Southern right whales from SSM - paths (NESP MaC 3.15)</title>
   <abstract>Interpolated positions of four southern right whales satellite tagged in Encounter Bay, SA in June 2024. Locations are predicted at six-hour intervals using a state-space model, together with dive metrics summarised for the three hours before and after each modelled location.&#xd;
 &#xd;
 This layer shows the paths between SSM-predicted points, and should be used for display in a layer group only (not for download).</abstract>
