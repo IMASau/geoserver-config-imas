@@ -54,11 +54,11 @@
                 <ogc:Literal>solid</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>            
-          <MinScaleDenominator>3000000</MinScaleDenominator>
+          <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3d5c5c</CssParameter>
-              <CssParameter name="stroke-width">1.3</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>          
@@ -71,11 +71,11 @@
                 <ogc:Literal>dotted</ogc:Literal>
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>3000000</MinScaleDenominator>
+          <MaxScaleDenominator>3000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3d5c5c</CssParameter>
-              <CssParameter name="stroke-width">1.3</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
               <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </LineSymbolizer>

@@ -2,14 +2,14 @@
 
 <div style="padding-top:4px; padding-bottom:10px;">
 
-<table style="width:420px; table-layout:fixed; border-collapse:collapse; border:1px solid rgba(0,0,0,0.4);">
+<table style="width:400px; table-layout:fixed; border-collapse:collapse; border:1px solid rgba(0,0,0,0.4);">
 
   <thead>
     <tr>
-      <th style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Whale ID</th>
-      <th style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Date</th>
-      <th style="width:15%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Dive count</th>
-      <th style="width:20%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Max. dive depth <span style="text-transform:none;">(m)</span></th>
+      <th style="width:18%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Whale ID</th>
+      <th style="width:20%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Date</th>
+      <th style="width:20%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Dive count</th>
+      <th style="width:21%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Max. dive depth <span style="text-transform:none;">(m)</span></th>
       <th style="width:21%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Mean dive duration</th>
     </tr>
   </thead>
@@ -69,7 +69,7 @@
         </#if>
       </#if>
 
-      <tr style='background-color:${((feature_index % 2)==0)?string("#ffffff", "#f7f7f8")}'>
+      <tr style='background-color:#ffffff'>
 
         <td style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
           ${feature.DeployID.value}
