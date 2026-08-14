@@ -1,4 +1,4 @@
-<#setting date_format="yyyy-mm-dd">
+<#setting date_format="yyyy-MM-dd">
 <#setting number_format="#.#">
 
 <#-- Determine current site -->
@@ -54,12 +54,15 @@
 							Not fished
 						</#if>
 				</TD>
-				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
-					<#if feature.Date.value?date("dd/MM/yy")?string("dd/MM/yyyy") == "01/01/2009">2009-11
-					<#elseif feature.Date.value?date("dd/MM/yy")?string("dd/MM/yyyy") == "01/01/2023">2023
-					<#else>${feature.Date.value?date("dd/mm/yy")?date}
-					</#if>
-				</TD>
+        <TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
+            <#if feature.Date.rawValue?string("dd/MM/yyyy") == "01/01/2009">
+                2009-11
+            <#elseif feature.Date.rawValue?string("dd/MM/yyyy") == "01/01/2023">
+                2023
+            <#else>
+                ${feature.Date.rawValue?string("dd/MM/yyyy")}
+            </#if>
+        </TD>
 				<TD style="font-size: 90%; border: 1px solid rgba(0,0,0,0.4); text-align:center;">
 					<#if feature.Count.rawValue != 0>
 						${feature.Count.value}
