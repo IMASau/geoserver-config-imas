@@ -1,9 +1,9 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-7cf4a2a7:19ffd8530c4:11ec</id>
+  <id>FeatureTypeInfoImpl-7cf4a2a7:19ffd8530c4:1d91</id>
   <name>Humpback_whale_tracks_nocache</name>
   <nativeName>KIOSK_tracks_humpback_whales</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl--566041e7:198c1a71d30:-4986</id>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Humpback whale migration tracks (no browser caching)</title>
   <keywords>
@@ -41,7 +41,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-54d1a3b2:19ab088b530:29fb</id>
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
