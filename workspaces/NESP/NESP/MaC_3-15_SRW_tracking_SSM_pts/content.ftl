@@ -1,129 +1,106 @@
-<#setting date_format="yyyy-MM-dd">
 <#setting number_format="0.0">
-
-<#-- Pale versions of the SLD colours for table cells -->
-
-<#assign depthCols = [
-  {"min":-999999, "max":10,     "color":"#F4FDFD"},
-  {"min":10,      "max":30,     "color":"#E3FAFB"},
-  {"min":30,      "max":70,     "color":"#CDF4F6"},
-  {"min":70,      "max":120,    "color":"#BCE4EE"},
-  {"min":120,     "max":999999, "color":"#BAD2E3"}
-]>
-
-<#assign durationCols = [
-  {"min":-999999, "max":2,      "color":"#F9EBE2"},
-  {"min":2,       "max":3,      "color":"#F2E0D7"},
-  {"min":3,       "max":4,      "color":"#E4D6E0"},
-  {"min":4,       "max":6,      "color":"#D7CDED"},
-  {"min":6,       "max":999999, "color":"#C8B8EA"}
-]>
-
 
 <div style="padding-top:4px; padding-bottom:10px;">
 
-<table style="width:auto; table-layout:auto; border-collapse:collapse; border:1px solid rgba(0,0,0,0.4);">
+<table style="width:420px; table-layout:fixed; border-collapse:collapse; border:1px solid rgba(0,0,0,0.4);">
 
   <thead>
     <tr>
-      <th style="font-size:90%; border:1px solid rgba(0,0,0,0.4);">
-        Whale ID
-      </th>
-
-      <th style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
-        Date
-      </th>
-
-      <th style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
-        Dive count
-      </th>
-
-      <th style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
-        Max. dive depth (m)
-      </th>
-
-      <th style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
-        Mean dive duration (min)
-      </th>
+      <th style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Whale ID</th>
+      <th style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Date</th>
+      <th style="width:15%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Dive count</th>
+      <th style="width:20%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Max. dive depth <span style="text-transform:none;">(m)</span></th>
+      <th style="width:21%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; white-space:normal; letter-spacing:0.6px; padding:5px 6px;">Mean dive duration</th>
     </tr>
   </thead>
-
 
   <tbody>
 
   <#list features as feature>
     <#if feature_index < 5>
 
-      <#-- Maximum depth colour -->
+      <#-- Check whether dive values actually contain data -->
+      <#assign hasDepth = feature.Dives_MaxDepth.rawValue?has_content>
+      <#assign hasDuration = feature.Dives_MeanDuration.rawValue?has_content>
+
+      <#-- Convert to numbers once -->
+      <#if hasDepth>
+        <#assign depth = feature.Dives_MaxDepth.rawValue?number>
+      </#if>
+
+      <#if hasDuration>
+        <#assign duration = feature.Dives_MeanDuration.rawValue?number>
+        <#assign totalSeconds = (duration * 60)?round>
+        <#assign durationMinutes = (totalSeconds / 60)?floor>
+        <#assign durationSeconds = totalSeconds % 60>
+      </#if>
+
+      <#-- Maximum dive depth colour -->
       <#assign depthColor = "#f1f1f4">
 
-      <#if feature.Dives_MaxDepth.rawValue??>
-        <#assign depth = feature.Dives_MaxDepth.rawValue?number>
-
+      <#if hasDepth>
         <#if depth <= 10>
-          <#assign depthColor = "#F4FDFD">
+          <#assign depthColor = "#E9FAFB">
         <#elseif depth <= 30>
-          <#assign depthColor = "#E3FAFB">
+          <#assign depthColor = "#D3F5F7">
         <#elseif depth <= 70>
-          <#assign depthColor = "#CDF4F6">
+          <#assign depthColor = "#B4EBEF">
         <#elseif depth <= 120>
-          <#assign depthColor = "#BCE4EE">
+          <#assign depthColor = "#9AD7E4">
         <#else>
-          <#assign depthColor = "#BAD2E3">
+          <#assign depthColor = "#93BDD5">
         </#if>
       </#if>
 
-
-      <#-- Mean duration colour -->
+      <#-- Mean dive duration colour -->
       <#assign durationColor = "#f1f1f4">
 
-      <#if feature.Dives_MeanDuration.rawValue??>
-        <#assign duration = feature.Dives_MeanDuration.rawValue?number>
-
+      <#if hasDuration>
         <#if duration < 2>
-          <#assign durationColor = "#F9EBE2">
+          <#assign durationColor = "#F4DDD0">
         <#elseif duration < 3>
-          <#assign durationColor = "#F2E0D7">
+          <#assign durationColor = "#EBCDBD">
         <#elseif duration < 4>
-          <#assign durationColor = "#E4D6E0">
+          <#assign durationColor = "#D8C0D2">
         <#elseif duration <= 6>
-          <#assign durationColor = "#D7CDED">
+          <#assign durationColor = "#C3AFE5">
         <#else>
-          <#assign durationColor = "#C8B8EA">
+          <#assign durationColor = "#AC93DD">
         </#if>
       </#if>
 
       <tr style='background-color:${((feature_index % 2)==0)?string("#ffffff", "#f7f7f8")}'>
 
-
-        <td style="font-size:90%; border:1px solid rgba(0,0,0,0.4);">
+        <td style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
           ${feature.DeployID.value}
         </td>
 
-        <td style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
-          ${feature.stepTime.rawValue?string("dd/MM/yyyy")}
+        <td style="width:17%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
+          ${feature.stepTime.rawValue?string("dd MMM yyyy")}
         </td>
 
-        <td style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
+        <td style="width:15%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center;">
           ${feature.Dives_Count.value}
         </td>
 
-        <td style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; background-color:${depthColor};">
-          <#if feature.Dives_MaxDepth.rawValue??>
-            ${feature.Dives_MaxDepth.value?number}
+        <td style="width:20%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; background-color:${depthColor};">
+          <#if hasDepth>
+            ${depth}
           <#else>
             <i>NA</i>
           </#if>
         </td>
 
-        <td style="font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; background-color:${durationColor};">
-          <#if feature.Dives_MeanDuration.rawValue??>
-            ${feature.Dives_MeanDuration.value?number}
+        <td style="width:21%; font-size:90%; border:1px solid rgba(0,0,0,0.4); text-align:center; background-color:${durationColor};">
+          <#if hasDuration>
+            ${durationMinutes?string("0")}m ${durationSeconds?string("0")}s
           <#else>
             <i>NA</i>
           </#if>
         </td>
+
       </tr>
+
     </#if>
   </#list>
 
