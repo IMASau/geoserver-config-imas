@@ -1,0 +1,37 @@
+<layer>
+  <name>MaC_3-15_SRW_exposure_threats</name>
+  <id>LayerInfoImpl-7cf4a2a7:1a002327b1e:-4c1b</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-3414</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-33d3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-33d5</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-33e2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-3414</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-33d2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-7cf4a2a7:1a002327b1e:-33d6</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:1a002327b1e:-4c1c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-14 21:44:29.869 UTC</dateCreated>
+  <dateModified>2026-08-14 22:50:34.31 UTC</dateModified>
+</layer>

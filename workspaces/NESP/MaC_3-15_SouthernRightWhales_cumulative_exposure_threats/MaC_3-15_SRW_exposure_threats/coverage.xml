@@ -1,15 +1,15 @@
 <coverage>
   <id>CoverageInfoImpl-7cf4a2a7:1a002327b1e:-4c1c</id>
-  <name>MaC_3-15_SouthernRightWhales_cumulative_exposure_threats</name>
+  <name>MaC_3-15_SRW_exposure_threats</name>
   <nativeName>MaC_3-15_SouthernRightWhales_cumulative_exposure_threats</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
   <title>Cumulative exposure of Southern Right Whales to key threats (NESP MaC 3.15)</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>Spatial threat layers representing ship strike, chronic underwater noise, pollution, entanglement and climate change were standardised to a 10 × 10 km grid. Exposure was calculated by combining the occurrence of tagged whales within each grid cell with the corresponding threat intensity. Cumulative exposure was derived by combining the individual threat layers and normalising the resulting values. &#xd;
+  <abstract>Spatial threat layers representing ship strike, chronic underwater noise, pollution, entanglement and climate change were standardised to a 10 × 10 km grid. Exposure of Southern right whales to each of these threats was calculated by combining the occurrence of tagged whales within each grid cell with the corresponding threat intensity.&#xd;
 &#xd;
-This layer package contains the exposure to each of the five component threats, and cumulative threat-exposure, each normalised from 0 (no threat) to 1 (maximum threat intensity). Select from the available styles to navigate between exposure to each component threat.</abstract>
+This layer package contains the exposure to each of the five component threats, and cumulative threat-exposure, each normalised from 0 (no exposure) to 1 (maximum exposure). Select from the available styles to navigate between exposure to each component threat.</abstract>
   <keywords>
     <string>SRW_Exposure_multiband</string>
     <string>WCS</string>
