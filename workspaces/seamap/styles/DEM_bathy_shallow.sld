@@ -42,20 +42,12 @@
               <ColorMapEntry color="#7a0471" label="  0" quantity="0"/>
               <ColorMapEntry color="#7a0403" label="  5" quantity="-5"/>              
               <ColorMapEntry color="#c52603" label="  10" quantity="-10"/>              
-              <ColorMapEntry color="#f26014" label="  15" quantity="-15"/>              
               <ColorMapEntry color="#fc8825" label="  20" quantity="-20"/>              
-              <ColorMapEntry color="#fdae35" label="  25" quantity="-25"/>              
               <ColorMapEntry color="#f0cc3a" label="  30" quantity="-30"/>              
-              <ColorMapEntry color="#d7e535" label="  35" quantity="-35"/>              
-              <ColorMapEntry color="#b6f735" label="  40" quantity="-40"/>              
-              <ColorMapEntry color="#90ff48" label="  50" quantity="-50"/>              
-              <ColorMapEntry color="#5cfc70" label="  60" quantity="-60"/>              
-              <ColorMapEntry color="#2df09d" label="  80" quantity="-80"/>              
+              <ColorMapEntry color="#b6f735" label="  40" quantity="-40"/>                           
               <ColorMapEntry color="#18dec0" label="  100" quantity="-100"/>              
-              <ColorMapEntry color="#23c4e3" label="  200" quantity="-200"/>              
               <ColorMapEntry color="#3aa3fc" label="  400" quantity="-400"/>              
               <ColorMapEntry color="#4681f7" label="  1,000" quantity="-1000"/>              
-              <ColorMapEntry color="#455ed3" label="  2,000" quantity="-2000"/>              
               <ColorMapEntry color="#3e3994" label="  4,000" quantity="-4000"/>              
               <ColorMapEntry color="#30123b" label="  7,000" quantity="-7000"/>              
             </ColorMap>
