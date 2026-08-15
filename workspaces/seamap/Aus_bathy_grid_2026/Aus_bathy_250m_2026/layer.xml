@@ -1,0 +1,16 @@
+<layer>
+  <name>Aus_bathy_250m_2026</name>
+  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:-223c</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--227ee776:1818c8f7268:4e9a</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:-223d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-15 22:22:07.423 UTC</dateCreated>
+</layer>

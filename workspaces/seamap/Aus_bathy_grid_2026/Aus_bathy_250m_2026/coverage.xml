@@ -1,0 +1,143 @@
+<coverage>
+  <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:-223d</id>
+  <name>Aus_bathy_250m_2026</name>
+  <nativeName>Aus_bathy_250m_2026</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Australian Bathymetry 250m (GA 2026)</title>
+  <description>Generated from GeoTIFF</description>
+  <abstract>The AusBathyTopo 250m (Australia) 2026 Grid is a national-scale depth model for Australia that replaces the AusBathyTopo 250m (Australia) 2024 Grid.&#xd;
+&#xd;
+The AusBathyTopo 250m (Australia) 2026 grid was compiled using 1542 unique data sources from multibeam echosounders, single beam echosounders, LiDAR, 3D seismic first returns, Electronic Navigation Charts (ENC) and satellite-derived bathymetry and higher-resolution regional compilations. This includes 86 new unique data sources in addition to those used in the 2024 version. Australian Hydrographic Office (AHO) supplied ENC tile spot depths provide broad scale bathymetry coverage across the dataset. Airborne LiDAR bathymetry and satellite-derived bathymetry data cover nearshore and coastal regions, whilst multibeam and single beam data cover shallow and deep-water areas. In areas where no sounding data are available, the bathymetry is provided by an amended surface derived from 2-arc minute ETOPO (Smith and Sandwell, 1997) and 1-arc minute ETOPO (Amante and Eakins, 2008) satellite altimetry data. The Geoscience Australia-developed National Intertidal Digital Elevation Model (NIDEM) (http://dx.doi.org/10.26186/5c4fc06a79f76) was used to improve continuity between bathymetry and topography. Terrestrial elevation data was provided by the Shuttle Radar Topography Mission (SRTM) (https://pid.geoscience.gov.au/dataset/ga/72759).&#xd;
+&#xd;
+The data extends across a vast area from 92°E to 172° E and 8°S to 60° S. This includes areas adjacent to the Australian continent and Tasmania, and surrounding Macquarie Island and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. Australia&apos;s marine jurisdiction offshore from the territory of Heard and McDonald Islands and the Australian Antarctic Territory are not included.&#xd;
+&#xd;
+This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography (AusBathyTopo) 2026 product.</abstract>
+  <keywords>
+    <string>Aus_bathy_grid_2026</string>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;GDA2020 / Australian Albers&quot;, 
+  GEOGCS[&quot;GDA2020&quot;, 
+    DATUM[&quot;Geocentric Datum of Australia 2020&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;1168&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;7844&quot;]], 
+  PROJECTION[&quot;Albers_Conic_Equal_Area&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9822&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 132.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, -18.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, -36.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;9473&quot;]]</nativeCRS>
+  <srs>EPSG:9473</srs>
+  <nativeBoundingBox>
+    <minx>-4502455.208775064</minx>
+    <maxx>4502741.361156756</maxx>
+    <miny>-6827159.481035201</miny>
+    <maxy>-834078.4514233425</maxy>
+    <crs class="projected">EPSG:9473</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-65.34365871254246</miny>
+    <maxy>-1.5283455807856565</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">Aus_bathy_grid_2026_Aus_bathy_grid_2026</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-7cf4a2a7:1a0075f68df:-2241</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>38160 25396</high>
+    </range>
+    <transform>
+      <scaleX>235.9852350611064</scaleX>
+      <scaleY>-235.9852350611064</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>-4502337.216157533</translateX>
+      <translateY>-834196.444040873</translateY>
+    </transform>
+    <crs>EPSG:9473</crs>
+  </grid>
+  <supportedFormats>
+    <string>GEOTIFF</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>GRAY_INDEX</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>3.3999999521443642E38</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:9473</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:9473</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>Bands</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>RescalePixels</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>Aus_bathy_grid_2026</nativeCoverageName>
+</coverage>
