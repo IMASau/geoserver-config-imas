@@ -8,6 +8,7 @@
 The revised grid has the same extents as its 2009 counterpart, including the Australian water column jurisdiction lying between 92° E and 172° E, and 8° S and 60° S. The waters adjacent to the continent of Australia and Tasmania are included, as are areas surrounding Macquarie Island, and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. The area selected does not include Australia&apos;s marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory.&#xd;
 &#xd;
 This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography 2023 product. A shallow water-optimised colour ramp has been used to highlight shelf features.</abstractTxt>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -37,5 +38,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2026-03-02 06:05:43.870 UTC</dateCreated>
-  <dateModified>2026-03-02 06:28:19.475 UTC</dateModified>
+  <dateModified>2026-08-15 22:32:08.201 UTC</dateModified>
 </layerGroup>

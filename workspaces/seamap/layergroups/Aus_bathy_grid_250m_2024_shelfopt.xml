@@ -1,6 +1,6 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-7cf4a2a7:1a0075f68df:-2228</id>
-  <name>Aus_bathy_grid_250m_2004_shelfopt</name>
+  <name>Aus_bathy_grid_250m_2024_shelfopt</name>
   <mode>SINGLE</mode>
   <title>Australian Bathymetry 2024 250 m (GA) - shelf-optimised stretch</title>
   <abstractTxt>The AusBathyTopo 250m (Australia) 2024 Grid is a national-scale depth model for Australia that replaces the AusBathyTopo 250m (Australia) 2023 Grid.&#xd;
@@ -10,6 +10,7 @@ This publication is the result of a collaborative partnership between Geoscience
 The data extends across a vast area from 92°E to 172° E and 8°S to 60° S. This includes areas adjacent to the Australian continent and Tasmania, and surrounding Macquarie Island and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. Australia&apos;s marine jurisdiction offshore from the territory of Heard and McDonald Islands and the Australian Antarctic Territory are not included.&#xd;
 &#xd;
 This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography (AusBathyTopo) 2024 product.</abstractTxt>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -39,4 +40,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <crs class="projected">EPSG:9473</crs>
   </bounds>
   <dateCreated>2026-08-15 22:25:58.977 UTC</dateCreated>
+  <dateModified>2026-08-15 22:31:58.812 UTC</dateModified>
 </layerGroup>

@@ -10,6 +10,7 @@ This publication is the result of a collaborative partnership between Geoscience
 The data extends across a vast area from 92°E to 172° E and 8°S to 60° S. This includes areas adjacent to the Australian continent and Tasmania, and surrounding Macquarie Island and the Australian Territories of Norfolk Island, Christmas Island, and Cocos (Keeling) Islands. Australia&apos;s marine jurisdiction offshore from the territory of Heard and McDonald Islands and the Australian Antarctic Territory are not included.&#xd;
 &#xd;
 This layer is the Intellectual Property of Geoscience Australia, and has been re-hosted by UTAS for the purposes of Seamap Australia visualisation. Note that the Australian landmass has been clipped from the original Australian Bathymetry and Topography (AusBathyTopo) 2024 product.</abstractTxt>
+  <advertised>false</advertised>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -46,4 +47,5 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-08-15 22:25:57.302 UTC</dateCreated>
+  <dateModified>2026-08-15 22:32:04.196 UTC</dateModified>
 </layerGroup>
