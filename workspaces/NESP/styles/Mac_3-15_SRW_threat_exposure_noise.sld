@@ -26,7 +26,7 @@
               <ColorMapEntry color="#DAEF00" quantity="0.05" />
               <ColorMapEntry color="#FFC700" quantity="0.10" />                            
               <ColorMapEntry color="#FF6400" quantity="0.20" />              
-              <ColorMapEntry color="#bd0026" quantity="1.0"/>
+              <ColorMapEntry color="#bd0026" quantity="0.30"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
