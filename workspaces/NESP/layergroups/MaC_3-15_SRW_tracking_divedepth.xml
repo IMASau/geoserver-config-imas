@@ -6,7 +6,7 @@
   <abstractTxt>This map package shows the interpolated positions of four southern right whales satellite tagged in Encounter Bay, SA in June 2024. Locations are predicted at six-hour intervals using a state-space model, together with dive metrics summarised for the three hours before and after each modelled location.&#xd;
 &#xd;
 This layer is styled by the maximum dive depth for each six hour period, where dive data was available.</abstractTxt>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
@@ -36,5 +36,5 @@ This layer is styled by the maximum dive depth for each six hour period, where d
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2026-08-13 07:40:56.524 UTC</dateCreated>
-  <dateModified>2026-08-13 21:55:49.456 UTC</dateModified>
+  <dateModified>2026-08-14 23:45:34.407 UTC</dateModified>
 </layerGroup>
