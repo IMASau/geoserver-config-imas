@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-7cf4a2a7:1a0075f68df:7cba</id>
+  <name>Aus_bathy_grid_2026_TID</name>
+  <description>Data Type Identifier (TID) for Aus bathy 250m grid (2026 GA)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2026-08-16 04:53:01.128 UTC</dateCreated>
+  <dateModified>2026-08-16 04:57:38.722 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/Aus_250m_depth_2026/Aus_bathy_grid_2026_TID.tif</url>
+</coverageStore>

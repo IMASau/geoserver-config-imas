@@ -1,0 +1,18 @@
+<layer>
+  <name>Aus_bathy_250m_2026_TID</name>
+  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:7cbc</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7cf4a2a7:1a0075f68df:7cb6</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:7cbb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Nearest</defaultWMSInterpolationMethod>
+  <dateCreated>2026-08-16 04:54:31.386 UTC</dateCreated>
+  <dateModified>2026-08-16 04:55:14.181 UTC</dateModified>
+</layer>
