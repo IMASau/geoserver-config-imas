@@ -9,7 +9,7 @@
   <description>Generated from GeoTIFF</description>
   <abstract>The AusBathyTopo 250m (Australia) 2026 Grid is a national-scale depth model for Australia that replaces the AusBathyTopo 250m (Australia) 2024 Grid.&#xd;
 &#xd;
-This layer shows the Data Type Identifier (TID) per the GEBCO Data Type and Definitions.</abstract>
+This layer shows the Data Type Identifier (TID) classified according to the GEBCO Data Type and Definitions.</abstract>
   <keywords>
     <string>Aus_bathy_grid_2026_TID</string>
     <string>WCS</string>

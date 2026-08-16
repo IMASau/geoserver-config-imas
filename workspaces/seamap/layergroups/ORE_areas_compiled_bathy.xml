@@ -6,17 +6,9 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <internationalTitle/>
-  <internationalAbstract/>
   <publishables>
     <published type="layer">
       <id>LayerInfoImpl-6ba5e4c7:18bfb63edd7:-5a77</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl-6ba5e4c7:18bfc1a048f:6051</id>
-    </published>
-    <published type="layer">
-      <id>LayerInfoImpl-6ba5e4c7:18bfc1a048f:5f43</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl-54bbc89c:18bfddcd00e:-7a4f</id>
@@ -25,12 +17,6 @@
   <styles>
     <style>
       <id>StyleInfoImpl-6ba5e4c7:18bfb63edd7:-5a7a</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-5205889b:18354c7238e:-53c3</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-6ba5e4c7:18bfc1a048f:5e7b</id>
     </style>
     <style>
       <id>StyleInfoImpl-6ba5e4c7:18bfb63edd7:-5a7a</id>
@@ -44,5 +30,5 @@
     <crs>EPSG:4326</crs>
   </bounds>
   <dateCreated>2023-11-23 13:39:42.178 UTC</dateCreated>
-  <dateModified>2023-12-21 06:28:00.763 UTC</dateModified>
+  <dateModified>2026-08-16 05:45:53.47 UTC</dateModified>
 </layerGroup>
