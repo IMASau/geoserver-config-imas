@@ -1,14 +1,15 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl-556f00cc:19cad10daae:-6a58</id>
+  <id>LayerGroupInfoImpl-7cf4a2a7:1a0075f68df:2055</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_grid_250m_2023_shelfopt</name>
+  <name>seamap:Aus_bathy_grid_250m_2023</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <maxCachedLevel>14</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
