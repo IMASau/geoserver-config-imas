@@ -7,6 +7,11 @@
 
 <style type="text/css">
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .collapsedsummary {
     cursor: pointer;
     color: cornflowerblue;

@@ -37,11 +37,12 @@
                     allow="autoplay">
                 </iframe>
 
-                <a class="qgis-youtube-link"
-                   href="https://www.youtube.com/watch?v=${feature.media_name.value}"
-                   target="_blank"
-                   style="display:none; position:absolute; top:0; left:0; width:100%; height:100%; z-index:100;">
-                </a>
+            <a class="qgis-youtube-link"
+               href="https://www.youtube.com/watch?v=${feature.media_name.value}"
+               target="_blank"
+                 style="display:none; position:absolute; top:0; left:0; width:100%; height:315px; box-sizing:border-box; z-index:100; text-align:center; padding:135px 10px 0 10px; font-size:16px; line-height:20px; color:white; background:rgba(0,0,0,0.55); text-decoration:none;">
+                 Play <span style="font-style:italic; color:#6cb1e0">${feature.title.value}</span> in YouTube
+            </a>
 
             </div>
 
@@ -56,7 +57,32 @@
 					
 				<!-- Custom handling for Vimeo embedding -->
 				<#elseif feature.media_type.value == "vimeo">
-					<iframe width="100%" height="315" src="https://player.vimeo.com/video/${feature.media_name.value}?autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+          <div style="position:relative; width:100%; height:315px;">
+
+              <iframe width="100%" height="315"
+                  src="https://player.vimeo.com/video/${feature.media_name.value}?autoplay=1&loop=1&mute=1"
+                  frameborder="0"
+                  allowfullscreen
+                  allow="autoplay">
+              </iframe>
+
+              <a class="qgis-vimeo-link"
+                 href="https://vimeo.com/${feature.media_name.value}"
+                 target="_blank"
+                 style="display:none; position:absolute; top:0; left:0; width:100%; height:315px; box-sizing:border-box; z-index:100; text-align:center; padding:135px 10px 0 10px; font-size:16px; line-height:20px; color:white; background:rgba(0,0,0,0.55); text-decoration:none;">
+                 Play <span style="font-style:italic; color:#6cb1e0">${feature.title.value}</span> in Vimeo
+              </a>
+
+          </div>
+
+          <script>
+              if (/QGIS/i.test(navigator.userAgent)) {
+                  var links = document.getElementsByClassName("qgis-vimeo-link");
+                  for (var i = 0; i < links.length; i++) {
+                      links[i].style.display = "block";
+                  }
+              }
+          </script>
 
 				<!-- Fallback embedding for regional compilation or Bathurst Channel -->							
 				<#else>
