@@ -3,6 +3,11 @@
 <head>
     <title>GeoServer GetFeatureInfo output</title>
     <style type="text/css">
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         a {
             color: CornflowerBlue;
         }

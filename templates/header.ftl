@@ -3,14 +3,12 @@
 
 <head>
     <title>GetFeatureInfo style stored in /templates/ workspace</title>
-</head>
 
 <style type="text/css">
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .collapsedsummary {
     cursor: pointer;
@@ -147,5 +145,7 @@ a { color: CornflowerBlue; }
 a:hover { color: #575757; }
 
 </style>
+
+</head>
 
 <body>
