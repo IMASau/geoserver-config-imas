@@ -1,5 +1,5 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl-7365ba1:1945eae1555:-3a71</id>
+  <id>LayerGroupInfoImpl-7cf4a2a7:1a0075f68df:21b</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
   <name>seamap:Aus_bathy_grid_250m</name>
@@ -9,7 +9,7 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
-      <maxCachedLevel>18</maxCachedLevel>
+      <maxCachedLevel>14</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>

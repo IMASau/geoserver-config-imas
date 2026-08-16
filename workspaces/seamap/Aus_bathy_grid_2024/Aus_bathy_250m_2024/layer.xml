@@ -1,17 +1,16 @@
 <layer>
   <name>Aus_bathy_250m_2024</name>
-  <id>LayerInfoImpl-7365ba1:1945eae1555:-3a79</id>
+  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:1561</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--227ee776:1818c8f7268:4e9a</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7365ba1:1945eae1555:-3a7a</id>
+    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:1560</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-01-13 12:18:33.259 UTC</dateCreated>
-  <dateModified>2025-01-13 15:54:21.929 UTC</dateModified>
+  <dateCreated>2026-08-16 03:19:58.453 UTC</dateCreated>
 </layer>

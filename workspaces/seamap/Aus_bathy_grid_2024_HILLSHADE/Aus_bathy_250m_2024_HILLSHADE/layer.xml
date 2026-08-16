@@ -1,18 +1,17 @@
 <layer>
   <name>Aus_bathy_250m_2024_HILLSHADE</name>
-  <id>LayerInfoImpl-7365ba1:1945eae1555:-3a76</id>
+  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:1563</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7365ba1:1945eae1555:-3a77</id>
+    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:1562</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2025-01-13 12:18:37.112 UTC</dateCreated>
-  <dateModified>2025-01-13 15:53:54.24 UTC</dateModified>
+  <dateCreated>2026-08-16 03:20:02.588 UTC</dateCreated>
 </layer>

@@ -1,17 +1,17 @@
 <layer>
   <name>Aus_bathy_250m_2026_HILLSHADE</name>
-  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:-2238</id>
+  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:21a</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-1691f5b0:18e6efa13e2:-1334</id>
   </defaultStyle>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:-2239</id>
+    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:219</id>
   </resource>
   <queryable>false</queryable>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2026-08-15 22:22:38.76 UTC</dateCreated>
+  <dateCreated>2026-08-16 03:02:04.576 UTC</dateCreated>
 </layer>

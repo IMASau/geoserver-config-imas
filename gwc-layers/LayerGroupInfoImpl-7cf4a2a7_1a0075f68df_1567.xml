@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl--8e09590:1969ebbd8d2:732a</id>
+  <id>LayerGroupInfoImpl-7cf4a2a7:1a0075f68df:1567</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>seamap:Aus_bathy_grid_250m_shelfopt</name>
+  <name>seamap:Aus_bathy_grid_250m_2024_shelfopt</name>
   <mimeFormats>
     <string>image/png</string>
   </mimeFormats>

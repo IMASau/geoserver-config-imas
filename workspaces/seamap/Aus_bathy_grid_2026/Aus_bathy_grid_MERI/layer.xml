@@ -1,0 +1,16 @@
+<layer>
+  <name>Aus_bathy_grid_MERI</name>
+  <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:ac3</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5d921cd2:17bc397365e:-6215</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-7cf4a2a7:1a0075f68df:ac2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-08-16 03:12:27.27 UTC</dateCreated>
+</layer>

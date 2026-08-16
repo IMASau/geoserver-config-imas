@@ -1,5 +1,5 @@
 <layerGroup>
-  <id>LayerGroupInfoImpl-7365ba1:1945eae1555:-3a71</id>
+  <id>LayerGroupInfoImpl-7cf4a2a7:1a0075f68df:21b</id>
   <name>Aus_bathy_grid_250m</name>
   <mode>SINGLE</mode>
   <title>Australian Bathymetry 2026 250 m (GA)</title>
@@ -17,10 +17,10 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
   <internationalAbstract/>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:-2238</id>
+      <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:21a</id>
     </published>
     <published type="layer">
-      <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:-223c</id>
+      <id>LayerInfoImpl-7cf4a2a7:1a0075f68df:217</id>
     </published>
   </publishables>
   <styles>
@@ -32,19 +32,12 @@ This layer is the Intellectual Property of Geoscience Australia, and has been re
     </style>
   </styles>
   <bounds>
-    <minx>-1.3138413351291178E7</minx>
-    <maxx>1.47981879518469E7</maxx>
-    <miny>-1.3269973964213725E7</miny>
-    <maxy>-223735.49716080003</maxy>
-    <crs class="projected">EPSG:9473</crs>
+    <minx>92.000138888874</minx>
+    <maxx>172.002638888874</maxx>
+    <miny>-59.997360839921</miny>
+    <maxy>-7.999860839920999</maxy>
+    <crs>EPSG:4326</crs>
   </bounds>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
-  <attribution>
-    <logoWidth>0</logoWidth>
-    <logoHeight>0</logoHeight>
-  </attribution>
-  <dateCreated>2025-01-13 12:22:44.715 UTC</dateCreated>
-  <dateModified>2026-08-15 22:28:51.444 UTC</dateModified>
+  <dateCreated>2026-08-16 03:03:39.951 UTC</dateCreated>
+  <dateModified>2026-08-16 03:06:00.339 UTC</dateModified>
 </layerGroup>
