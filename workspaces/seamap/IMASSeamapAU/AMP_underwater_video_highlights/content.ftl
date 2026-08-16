@@ -26,8 +26,33 @@
             <div style="width: 560px; text-align: left; overflow-wrap: break-word; word-break: break-word; position: relative;">
 
 				<!-- Custom handling for YouTube embedding -->
-				<#if feature.media_type.value == "youtube">
-					<iframe width="100%" height="315" src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        <#if feature.media_type.value == "youtube">
+
+            <div style="position:relative; width:100%; height:315px;">
+
+                <iframe width="100%" height="315"
+                    src="https://www.youtube.com/embed/${feature.media_name.value}?autoplay=1&loop=1&mute=1&cc_load_policy=1&playlist=${feature.media_name.value}"
+                    frameborder="0"
+                    allowfullscreen
+                    allow="autoplay">
+                </iframe>
+
+                <a class="qgis-youtube-link"
+                   href="https://www.youtube.com/watch?v=${feature.media_name.value}"
+                   target="_blank"
+                   style="display:none; position:absolute; top:0; left:0; width:100%; height:100%; z-index:100;">
+                </a>
+
+            </div>
+
+            <script>
+                if (/QGIS/i.test(navigator.userAgent)) {
+                    var links = document.getElementsByClassName("qgis-youtube-link");
+                    for (var i = 0; i < links.length; i++) {
+                        links[i].style.display = "block";
+                    }
+                }
+            </script>
 					
 				<!-- Custom handling for Vimeo embedding -->
 				<#elseif feature.media_type.value == "vimeo">
