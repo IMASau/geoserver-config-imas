@@ -30,10 +30,8 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <allowedStyles class="java.util.Collections$UnmodifiableSet"/>
-      <availableStyles class="sorted-set">
-        <string>seamap:CSIRO_MNF_voyage_tracks</string>
-      </availableStyles>
-      <defaultStyle>seamap:mnf_test</defaultStyle>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:CSIRO_MNF_voyage_tracks</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

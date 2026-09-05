@@ -7,6 +7,9 @@
   </namespace>
   <title>MNF and CMAR Ship Tracks - all voyages</title>
   <description>Single layer of all voyages (RV Franklin and RV Southern Surveyor) from 1986 to present. Includes all MNF voyage and some non-MNF voyages. Note some voyages appear to track across land and that is due to data gaps for that particular voyage. This will be fixed in due course. For individual voyages sorted by year see folder MNF Underway Voyage Data.</description>
+  <abstract>This map shows the tracks of all CSIRO CMAR and Marine National Facility (MNF) voyages. It includes voyages undertaken by RV Investigator from 2015 to present, RV Linnaeus from 2011–2016, RV Southern Surveyor from 2006–2013, and RV Franklin from 1986–2002.&#xd;
+&#xd;
+See https://www.marine.csiro.au/data/underway for current MNF voyages. Data is remotely cascaded from https://cmar.csiro.au/geoserver</abstract>
   <keywords>
     <string>features</string>
     <string>SHIPTRACK_GEOMETRY</string>
