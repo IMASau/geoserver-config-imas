@@ -1,28 +1,254 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor version="1.0.0" 
-		xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
-		xmlns="http://www.opengis.net/sld" 
-		xmlns:ogc="http://www.opengis.net/ogc" 
-		xmlns:xlink="http://www.w3.org/1999/xlink" 
-		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<StyledLayerDescriptor version="1.0.0"
+  xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
+  xmlns="http://www.opengis.net/sld"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-	<NamedLayer>
-		<Name>Voyage tracks styled by decade of collection</Name>
-		<UserStyle>
-			<FeatureTypeStyle>
-				<Rule>
-					<Name>Rule 1</Name>
-					<Title>Track</Title>
-					<Abstract>A blue line with a 2 pixel width</Abstract>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#00b39f</CssParameter>
-							<CssParameter name="stroke-width">2</CssParameter>                          
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
+  <NamedLayer>
+    <Name>Voyage tracks styled by decade of collection</Name>
+    <UserStyle>
+      <FeatureTypeStyle>
 
-		    </FeatureTypeStyle>
-		</UserStyle>
-	</NamedLayer>
+        <Rule>
+          <Title>-- Survey Year --</Title>
+        </Rule>
+
+        <Rule>
+          <Title>2025&#8211;present</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsGreaterThan>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:Literal>2024</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>2020&#8211;2024</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>2020</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>2024</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>2015&#8211;2019</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>2015</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>2019</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>2010&#8211;2014</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>2010</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>2014</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>2005&#8211;2009</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>2005</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>2009</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>2000&#8211;2004</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>2000</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>2004</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>1995&#8211;1999</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>1995</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>1999</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>1990&#8211;1994</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsBetween>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:LowerBoundary>
+                <ogc:Literal>1990</ogc:Literal>
+              </ogc:LowerBoundary>
+              <ogc:UpperBoundary>
+                <ogc:Literal>1994</ogc:Literal>
+              </ogc:UpperBoundary>
+            </ogc:PropertyIsBetween>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>pre-1990</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLessThan>
+              <ogc:Function name="parseInt">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>SURVEY_NAME</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:Literal>1990</ogc:Literal>
+            </ogc:PropertyIsLessThan>
+          </ogc:Filter>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#00b39f</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
 </StyledLayerDescriptor>
