@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-703e2511:1a06f2a2fde:-7e</id>
+  <id>FeatureTypeInfoImpl-703e2511:1a06f2a2fde:39c1</id>
   <name>mnf_SHIPTRACK_GEOMETRY</name>
   <nativeName>mnf_SHIPTRACK_GEOMETRY</nativeName>
   <namespace>
@@ -37,9 +37,6 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <metadata>
-    <entry key="cachingEnabled">false</entry>
-  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl-703e2511:1a06f2a2fde:-5c14</id>
   </store>
@@ -47,6 +44,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>SURVEY_NAME LIKE &apos;%2026%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
