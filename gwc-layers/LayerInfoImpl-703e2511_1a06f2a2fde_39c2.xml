@@ -1,0 +1,31 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl-703e2511:1a06f2a2fde:39c2</id>
+  <enabled>true</enabled>
+  <name>seamap:mnf_SHIPTRACK_GEOMETRY</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+      <maxCachedLevel>16</maxCachedLevel>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>1</int>
+    <int>1</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <allowedStyles class="sorted-set"/>
+      <availableStyles class="sorted-set"/>
+      <defaultStyle>seamap:CSIRO_voyage_tracks</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>
