@@ -1,0 +1,34 @@
+<dataStore>
+  <id>DataStoreInfoImpl-703e2511:1a06f2a2fde:-5c14</id>
+  <name>CSIRO_cascaded</name>
+  <description>WFS cascade of CSIRO GeoSever</description>
+  <type>Web Feature Server (NG)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <connectionParameters class="linked-hash-map">
+    <entry key="WFSDataStoreFactory:GET_CAPABILITIES_URL">https://www.cmar.csiro.au/geoserver/mnf/ows?service=WFS&amp;version=1.0.0&amp;request=GetCapabilities</entry>
+    <entry key="WFSDataStoreFactory:PROTOCOL">false</entry>
+    <entry key="WFSDataStoreFactory:ENCODING">UTF-8</entry>
+    <entry key="WFSDataStoreFactory:TIMEOUT">12000</entry>
+    <entry key="WFSDataStoreFactory:BUFFER_SIZE">10</entry>
+    <entry key="WFSDataStoreFactory:TRY_GZIP">true</entry>
+    <entry key="WFSDataStoreFactory:LENIENT">false</entry>
+    <entry key="WFSDataStoreFactory:MAXFEATURES">0</entry>
+    <entry key="WFSDataStoreFactory:FILTER_COMPLIANCE">0</entry>
+    <entry key="WFSDataStoreFactory:WFS_STRATEGY">auto</entry>
+    <entry key="namespace">seamap</entry>
+    <entry key="usedefaultsrs">false</entry>
+    <entry key="WFSDataStoreFactory:AXIS_ORDER">North / East</entry>
+    <entry key="WFSDataStoreFactory:AXIS_ORDER_FILTER">North / East</entry>
+    <entry key="WFSDataStoreFactory:GML_COMPLIANCE_LEVEL">0</entry>
+    <entry key="WFSDataStoreFactory:GML_COMPATIBLE_TYPENAMES">false</entry>
+    <entry key="WFSDataStoreFactory:USE_HTTP_CONNECTION_POOLING">true</entry>
+    <entry key="WFSDataStoreFactory:MAX_CONNECTION_POOL_SIZE">6</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2026-09-05 01:37:22.724 UTC</dateCreated>
+  <dateModified>2026-09-05 01:55:41.701 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>

@@ -1,0 +1,17 @@
+<layer>
+  <name>mnf_SHIPTRACK_GEOMETRY</name>
+  <id>LayerInfoImpl-703e2511:1a06f2a2fde:-61</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7b2b61ef:16a0c932433:384f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-703e2511:1a06f2a2fde:-7e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-09-05 01:46:51.175 UTC</dateCreated>
+  <dateModified>2026-09-05 01:47:52.648 UTC</dateModified>
+</layer>
