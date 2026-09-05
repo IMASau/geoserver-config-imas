@@ -8,6 +8,14 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>-2.003750834E7</double>
+          <double>-9608371.509933662</double>
+          <double>2.0037508342789244E7</double>
+          <double>1375119.9029268208</double>
+        </coords>
+      </extent>
       <maxCachedLevel>16</maxCachedLevel>
     </gridSubset>
   </gridSubsets>
@@ -21,8 +29,10 @@
     <styleParameterFilter>
       <key>STYLES</key>
       <defaultValue></defaultValue>
-      <allowedStyles class="sorted-set"/>
-      <availableStyles class="sorted-set"/>
+      <allowedStyles class="java.util.Collections$UnmodifiableSet"/>
+      <availableStyles class="sorted-set">
+        <string>seamap:mnf_test</string>
+      </availableStyles>
       <defaultStyle>seamap:CSIRO_voyage_tracks</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>

@@ -9,13 +9,8 @@
     <Name>Voyage tracks styled by decade of collection</Name>
     <UserStyle>
       <FeatureTypeStyle>
-
+      
         <Rule>
-          <Title>-- Survey Year --</Title>
-        </Rule>
-
-        <Rule>
-          <Title>2025 &#8211; 𝘱𝘳𝘦𝘴𝘦𝘯𝘵</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:Function name="parseInt">
@@ -31,13 +26,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#B51F24</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>2020 &#8211; 2024</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -58,13 +54,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#D95F18</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>2015 &#8211; 2019</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -85,13 +82,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#C08A22</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>2010 &#8211; 2014</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -112,13 +110,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#5A9E3D</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>2005 &#8211; 2009</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -139,13 +138,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#15906F</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>2000 &#8211; 2004</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -166,13 +166,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#167D9A</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>1995 &#8211; 1999</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -193,13 +194,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3656A6</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>1990 &#8211; 1994</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:Function name="parseInt">
@@ -220,13 +222,14 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#5C2A9D</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
         </Rule>
-
+        
         <Rule>
-          <Title>   𝘱𝘳𝘦&#8211;  1990</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
               <ogc:Function name="parseInt">
@@ -242,9 +245,115 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3B0F70</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-width">0.05</CssParameter>
+              <CssParameter name="stroke-opacity">0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
+        </Rule>
+        
+        
+        <Rule>
+          <Title>-- Survey Year --</Title>
+        </Rule>
+
+        <Rule>
+          <Title>2025 &#8211; 𝘱𝘳𝘦𝘴𝘦𝘯𝘵</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#B51F24</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>2020 &#8211; 2024</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#D95F18</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>2015 &#8211; 2019</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#C08A22</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>2010 &#8211; 2014</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#5A9E3D</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>2005 &#8211; 2009</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#15906F</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>2000 &#8211; 2004</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#167D9A</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>1995 &#8211; 1999</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#3656A6</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>1990 &#8211; 1994</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#5C2A9D</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                          
+        </Rule>
+
+        <Rule>
+          <Title>   𝘱𝘳𝘦&#8211;  1990</Title>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#3B0F70</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <VendorOption name="inclusion">legendOnly</VendorOption>					                                                
         </Rule>
 
       </FeatureTypeStyle>
