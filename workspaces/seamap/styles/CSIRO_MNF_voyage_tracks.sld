@@ -26,7 +26,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#B51F24</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -53,7 +53,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#D95F18</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -80,7 +80,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#C08A22</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -107,7 +107,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#5A9E3D</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -134,7 +134,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#15906F</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -161,7 +161,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#167D9A</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -188,7 +188,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3656A6</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -215,7 +215,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#5C2A9D</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    
@@ -237,7 +237,7 @@
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#3B0F70</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>					                                                                    

@@ -25,15 +25,15 @@ See https://www.marine.csiro.au/data/underway for current MNF voyages. Data is r
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
+    <minx>53.0</minx>
+    <maxx>168.0</maxx>
     <miny>-65.0</miny>
     <maxy>12.2583096511892</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
+    <minx>53.0</minx>
+    <maxx>168.0</maxx>
     <miny>-65.0</miny>
     <maxy>12.2583096511892</maxy>
     <crs>EPSG:4326</crs>
