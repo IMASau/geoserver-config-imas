@@ -43,6 +43,16 @@ NOT TO BE PUBLISHED.</abstract>
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
@@ -52,7 +62,7 @@ NOT TO BE PUBLISHED.</abstract>
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
-  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos; AND CommName ILIKE &apos;Southern rock lobster&apos; AND YEAR_END = 2024</cqlFilter>
+  <cqlFilter>BlockScheme LIKE &apos;%0.5%&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
