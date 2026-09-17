@@ -11,7 +11,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>400000</MaxScaleDenominator> <!-- Labels only when zoomed out further than 400k -->          
           <MaxScaleDenominator>3000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 3 million -->
           <TextSymbolizer>
             <Label>
@@ -36,40 +35,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <CssParameter name="fill">#FFFFFF</CssParameter> <!-- Halo around text (white) -->
               </Fill>
             </Halo>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>                           
-        </Rule>            
-        <Rule>
-          <MaxScaleDenominator>400000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 400k -->
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>BlockCode</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
-              <CssParameter name="font-style">Normal</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX>0.5</AnchorPointX>
-                  <AnchorPointY>0.5</AnchorPointY>
-                </AnchorPoint>                
-              </PointPlacement>
-            </LabelPlacement>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter> <!-- Label color (black) -->
-            </Fill>
-            <Halo>
-              <Radius>1.5</Radius>
-              <Fill>
-                <CssParameter name="fill">#FFFFFF</CssParameter> <!-- Halo around text (white) -->
-              </Fill>
-            </Halo>
-          </TextSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>                           
-        </Rule>        
+        </Rule>                
        <Rule>
           <Title>Effort (1000's of potlifts)</Title>
           <ogc:Filter>
