@@ -8,6 +8,7 @@
     <#-- Catch colours - match SLD -->
     <#if catchRecorded>
       <#assign catch = feature["Catch"].value?number>
+      <#assign catchTonnes = catch / 1000>
 
       <#if (catch <= 100)>
         <#assign catchColour="#edf8fb">
@@ -87,10 +88,10 @@
           </td>
           <td style="background:${catchColour}; color:${catchTextColour}; padding:3px 5px; text-align:center; min-width:38px; border:none; letter-spacing:0.3px;">
             <#if catchRecorded>
-              <#if (catch < 100)>
-                <b>${catch?string("#,##0.00")}</b> tonnes
+              <#if (catchTonnes < 100)>
+                <b>${catchTonnes?string("#,##0.00")}</b> tonnes
               <#else>
-                <b>${catch?string("#,##0.0")}</b> tonnes
+                <b>${catchTonnes?string("#,##0.0")}</b> tonnes
               </#if>
             <#else>
               <span style="font-size:95%; font-style:italic;">none recorded</span>
