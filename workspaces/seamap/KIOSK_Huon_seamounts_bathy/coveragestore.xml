@@ -7,16 +7,9 @@
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2026-07-29 11:58:31.393 UTC</dateCreated>
+  <dateModified>2026-10-08 10:48:27.543 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/KIOSK/Huon_seamounts/HuonSeamount_Bathymetry_30m_2025.tif</url>
+  <url>file:///mnt/rdsi/kiosk/Huon_seamounts/HuonSeamount_Bathymetry_30m_2025.tif</url>
 </coverageStore>

@@ -13,10 +13,6 @@
   ((popupWidth + thumbGap) / (thumbWidth + thumbGap))?floor
 >
 
-<#assign imageBaseUrl =
-  "https://data.imas.utas.edu.au/attachments/KIOSK/Huon_seamounts/imagery/"
->
-
 <#-- =========================================================
      LIMIT FEATURES
      ========================================================= -->
@@ -189,18 +185,14 @@
             (i == rows?size - 1)?then(0, i + 1)
           >
 
-          <#assign imageUrl =
-            imageBaseUrl +
-            feature.imageid.value +
-            ".jpg"
-          >
+          <#assign imageUrl = feature["media_URL"].value>
 
           <div class="image-main-slide image-main-slide-${i}">
 
             <a href="${imageUrl}" target="_blank">
               <img
                 src="${imageUrl}"
-                alt="Huon seamount image ${feature.imageid.value}"
+                alt="Huon seamount image"
               />
             </a>
 
@@ -243,7 +235,7 @@
 
           <#list rows as feature>
 
-            <#assign imageUrl = imageBaseUrl + feature.imageid.value + ".jpg" >
+            <#assign imageUrl = feature["media_URL"].value>
 
             <label
               for="image_slide_${feature_index}"
