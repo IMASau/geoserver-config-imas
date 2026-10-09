@@ -1,0 +1,17 @@
+<layer>
+  <name>KIOSK_AMP_boundaries</name>
+  <id>LayerInfoImpl--6267ce40:1a11fa02f0a:-7514</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6267ce40:1a11fa02f0a:-7511</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6267ce40:1a11fa02f0a:-7515</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-09 08:10:07.843 UTC</dateCreated>
+  <dateModified>2026-10-09 08:16:21.870 UTC</dateModified>
+</layer>
