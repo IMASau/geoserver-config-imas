@@ -8,10 +8,13 @@
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--6267ce40:1a11fa02f0a:-7515</id>
   </resource>
+  <metadata>
+    <entry key="buffer">512</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-10-09 08:10:07.843 UTC</dateCreated>
-  <dateModified>2026-10-09 08:16:21.870 UTC</dateModified>
+  <dateModified>2026-10-09 08:39:05.920 UTC</dateModified>
 </layer>
