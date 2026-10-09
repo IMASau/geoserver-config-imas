@@ -30,7 +30,7 @@
             </Fill>
             <Stroke>
               <CssParameter name="stroke">#003366</CssParameter>
-              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke-width">0.75</CssParameter>
               <CssParameter name="stroke-opacity">0.7</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -56,14 +56,14 @@
               <CssParameter name="stroke">#3e404b</CssParameter>
               <CssParameter name="stroke-width">1.8</CssParameter>
               <CssParameter name="stroke-opacity">0.8</CssParameter>
-              <CssParameter name="stroke-dasharray">5 3</CssParameter>
+              <CssParameter name="stroke-dasharray">5 4</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
 
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- INSET: > 8,000,000 -->
+        <!-- INSET: > 12,000,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -71,7 +71,7 @@
               <ogc:Literal>INSET</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>8000000</MinScaleDenominator>
+          <MinScaleDenominator>12000000</MinScaleDenominator>
           <MaxScaleDenominator>18000000</MaxScaleDenominator>
           <TextSymbolizer>
             <Geometry>
@@ -110,7 +110,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
-        <!-- 8,000,000 to 5,000,000 -->
+        <!-- 12,000,000 to 6,000,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -118,8 +118,8 @@
               <ogc:Literal>INSET</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>5000000</MinScaleDenominator>          
-          <MaxScaleDenominator>8000000</MaxScaleDenominator>
+          <MinScaleDenominator>6000000</MinScaleDenominator>          
+          <MaxScaleDenominator>12000000</MaxScaleDenominator>
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="pointN">
@@ -151,13 +151,13 @@
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#ffffff</CssParameter>
+              <CssParameter name="fill">#3e404b</CssParameter>
             </Fill>
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>        
 
-        <!-- INSET: 5,000,000 to 2,000,000 -->
+        <!-- INSET: 6,000,000 to 2,500,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -165,8 +165,8 @@
               <ogc:Literal>INSET</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>2000000</MinScaleDenominator>          
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <MinScaleDenominator>2500000</MinScaleDenominator>          
+          <MaxScaleDenominator>6000000</MaxScaleDenominator>
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="pointN">
@@ -204,7 +204,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
         
-        <!-- INSET: <2,000,000 -->
+        <!-- INSET: <2,500,000 -->
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -212,7 +212,7 @@
               <ogc:Literal>INSET</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>2000000</MaxScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="pointN">
