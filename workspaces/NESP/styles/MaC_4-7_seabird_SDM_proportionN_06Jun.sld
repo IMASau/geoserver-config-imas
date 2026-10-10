@@ -7,7 +7,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Proportion of seabird population - January</Name>
+    <Name>Proportion of seabird population - June</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
@@ -16,7 +16,7 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is JANUARY -->
+                <SourceChannelName>6</SourceChannelName> <!-- Band 6 is JUNE -->
               </GrayChannel>
             </ChannelSelection>
             <ColorMap type="ramp">
