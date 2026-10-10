@@ -7,7 +7,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Seabird probability of presence</Name>
+    <Name>Seabird probability of presence - February</Name>
     <UserStyle>
       <FeatureTypeStyle>
 
