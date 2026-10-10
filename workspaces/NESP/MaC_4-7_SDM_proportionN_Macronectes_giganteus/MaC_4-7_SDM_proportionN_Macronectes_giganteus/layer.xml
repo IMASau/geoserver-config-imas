@@ -1,0 +1,59 @@
+<layer>
+  <name>MaC_4-7_SDM_proportionN_Macronectes_giganteus</name>
+  <id>LayerInfoImpl--6267ce40:1a124827dd1:-6e2e</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6267ce40:1a124827dd1:-745f</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-748d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7463</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7466</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7462</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-748c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-745f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-748e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7490</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7460</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7465</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-746b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7467</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a124827dd1:-7464</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--6267ce40:1a124827dd1:-6e2f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2026-10-10 08:35:04.923 UTC</dateCreated>
+  <dateModified>2026-10-10 08:46:31.469 UTC</dateModified>
+</layer>

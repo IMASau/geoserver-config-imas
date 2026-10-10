@@ -1,21 +1,21 @@
 <coverage>
-  <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:1420</id>
-  <name>MaC_4-7_SDM_prob_Thalassarche_cauta_steadi</name>
-  <nativeName>MaC_4-7_SDM_prob_Thalassarche_cauta_steadi</nativeName>
+  <id>CoverageInfoImpl--6267ce40:1a124827dd1:-6e31</id>
+  <name>MaC_4-7_SDM_proportionN_Diomedea_sanfordi</name>
+  <nativeName>MaC_4-7_SDM_proportionN_Diomedea_sanfordi</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Distribution of Shy &amp; White-capped albatross (combined): monthly probability of occurrence (NESP MaC 4.7)</title>
+  <title>Distribution of Northern royal albatross: proportion of population (NESP MaC 4.7)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Seabirds range widely across the Southern Hemisphere, with distributions changing through the year as birds move between breeding, foraging and migration areas. Understanding where priority species are most likely to occur is important for assessing potential exposure to offshore activities, including offshore wind development.&#xd;
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled the distributions of seven priority seabird species using an integrated space-time model that combines observations from multiple data sources and survey types. The models estimate seasonal changes in distribution across the Southern Hemisphere on a 5 km equal-area grid.&#xd;
 &#xd;
-This layer shows the modelled monthly (January-December) probability of presence for Shy &amp; White-capped albatross (Thalassarche cauta, T. steadi) combined within each 5 km grid cell, with 2024 used as the reference year for the modelled annual cycle. An additional derived annual mean surface represents the mean of the 12 monthly probabilities.&#xd;
+This layer shows the modelled monthly (January-December) proportion of the Northern royal albatross (Diomedea sandfordi) population occurring within each 5 km grid cell, with 2024 used as the reference year for the modelled annual cycle. An additional derived annual mean surface represents the mean of the 12 monthly population proportions.&#xd;
 &#xd;
-Select from the available styles to navigate between predicted probabilities for each month.</abstract>
+Select from the available styles to navigate between modelled population proportions for each month.</abstract>
   <keywords>
-    <string>Shy_White_capped_Albatross_probability</string>
+    <string>Northern_Royal_Albatross_ProportionN</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -58,10 +58,10 @@ Select from the available styles to navigate between predicted probabilities for
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">MaC_4-7_SDM_prob_Thalassarche_cauta_steadi_Shy_White_capped_Albatross_probability</entry>
+    <entry key="dirName">MaC_4-7_SDM_proportionN_Diomedea_sanfordi_Northern_Royal_Albatross_ProportionN</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--6267ce40:1a1231eb5e8:1369</id>
+    <id>CoverageStoreInfoImpl--6267ce40:1a124827dd1:-6ee1</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -304,5 +304,5 @@ Select from the available styles to navigate between predicted probabilities for
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Shy_White_capped_Albatross_probability</nativeCoverageName>
+  <nativeCoverageName>Northern_Royal_Albatross_ProportionN</nativeCoverageName>
 </coverage>
