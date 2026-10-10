@@ -1,6 +1,6 @@
 <layer>
-  <name>MaC_4-7_SDM_prob_monthly_Thalassarche_cauta</name>
-  <id>LayerInfoImpl--6267ce40:1a1231eb5e8:1417</id>
+  <name>MaC_4-7_SDM_prob_Thalassarche_chrysostoma</name>
+  <id>LayerInfoImpl--6267ce40:1a1231eb5e8:140a</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--6267ce40:1a1231eb5e8:8c0</id>
@@ -44,12 +44,13 @@
     </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:1416</id>
+    <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:1409</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
-  <dateCreated>2026-10-10 05:06:12.132 UTC</dateCreated>
+  <dateCreated>2026-10-10 05:04:54.194 UTC</dateCreated>
+  <dateModified>2026-10-10 06:29:26.23 UTC</dateModified>
 </layer>

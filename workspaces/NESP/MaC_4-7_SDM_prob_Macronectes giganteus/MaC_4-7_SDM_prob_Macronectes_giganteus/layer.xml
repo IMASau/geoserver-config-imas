@@ -1,5 +1,5 @@
 <layer>
-  <name>MaC_4-7_SDM_prob_monthly_Macronectes_giganteus</name>
+  <name>MaC_4-7_SDM_prob_Macronectes_giganteus</name>
   <id>LayerInfoImpl--6267ce40:1a1231eb5e8:141b</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -52,4 +52,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2026-10-10 05:07:08.87 UTC</dateCreated>
+  <dateModified>2026-10-10 06:28:32.672 UTC</dateModified>
 </layer>

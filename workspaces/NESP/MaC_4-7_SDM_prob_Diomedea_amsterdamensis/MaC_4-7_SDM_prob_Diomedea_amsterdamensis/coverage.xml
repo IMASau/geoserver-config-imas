@@ -11,7 +11,7 @@
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled the distributions of seven priority seabird species using an integrated space-time model that combines observations from multiple data sources and survey types. The models estimate seasonal changes in distribution across the Southern Hemisphere on a 5 km equal-area grid.&#xd;
 &#xd;
-This layer shows the modelled monthly probability of presence for Amsterdam albatross (Diomedea amsterdamensis) within each 5 km grid cell. The 12 monthly surfaces represent January-December, using 2024 as the reference year for the modelled annual cycle.
+This layer shows the modelled monthly (January-December) probability of presence for Amsterdam albatross (Diomedea amsterdamensis) within each 5 km grid cell, with 2024 used as the reference year for the modelled annual cycle. An additional derived annual mean surface represents the mean of the 12 monthly probabilities.&#xd;
 &#xd;
 Select from the available styles to navigate between predicted probabilities for each month.</abstract>
   <keywords>

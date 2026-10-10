@@ -1,6 +1,6 @@
 <layer>
-  <name>MaC_4-7_SDM_prob_monthly_Diomedea_sanfordi</name>
-  <id>LayerInfoImpl--6267ce40:1a1231eb5e8:1414</id>
+  <name>MaC_4-7_SDM_prob_Thalassarche_steadi</name>
+  <id>LayerInfoImpl--6267ce40:1a1231eb5e8:1419</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--6267ce40:1a1231eb5e8:8c0</id>
@@ -44,12 +44,13 @@
     </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:1413</id>
+    <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:1418</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
-  <dateCreated>2026-10-10 05:05:41.492 UTC</dateCreated>
+  <dateCreated>2026-10-10 05:06:39.635 UTC</dateCreated>
+  <dateModified>2026-10-10 06:29:47.744 UTC</dateModified>
 </layer>

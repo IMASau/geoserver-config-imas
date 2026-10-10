@@ -1,6 +1,6 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--6267ce40:1a1231eb5e8:1361</id>
-  <name>MaC_4-7_SDM_prob_monthly_Thalassarche_steadi</name>
+  <name>MaC_4-7_SDM_prob_Thalassarche_steadi</name>
   <description>Distribution of White-capped albatross: monthly probability of occurrence (NESP MaC 4.7)</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
@@ -18,5 +18,5 @@
   <__default>false</__default>
   <dateCreated>2026-10-10 04:48:34.91 UTC</dateCreated>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/f1b12505-ac1d-4714-803b-d4f65f897879/probability/monthly/White_capped_Albatross_probability_monthly.tif</url>
+  <url>file:///mnt/rdsi/attachments/f1b12505-ac1d-4714-803b-d4f65f897879/probability/White_capped_Albatross_probability.tif</url>
 </coverageStore>
