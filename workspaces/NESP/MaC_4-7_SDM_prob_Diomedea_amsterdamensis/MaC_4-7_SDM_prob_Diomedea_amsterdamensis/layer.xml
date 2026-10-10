@@ -1,6 +1,6 @@
 <layer>
   <name>MaC_4-7_SDM_prob_Diomedea_amsterdamensis</name>
-  <id>LayerInfoImpl--6267ce40:1a1231eb5e8:11a4</id>
+  <id>LayerInfoImpl--605439af:1a127ea910b:-72de</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--6267ce40:1a1231eb5e8:4723</id>
@@ -47,13 +47,11 @@
     </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:11a3</id>
+    <id>CoverageInfoImpl--605439af:1a127ea910b:-72df</id>
   </resource>
-  <metadata/>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2026-10-10 04:45:07.125 UTC</dateCreated>
-  <dateModified>2026-10-10 13:30:10.736 UTC</dateModified>
+  <dateCreated>2026-10-10 23:04:31.945 UTC</dateCreated>
 </layer>
