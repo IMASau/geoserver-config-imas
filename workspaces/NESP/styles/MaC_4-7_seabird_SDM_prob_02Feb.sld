@@ -16,7 +16,7 @@
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is JANUARY -->
+                <SourceChannelName>2</SourceChannelName> <!-- Band 2 is FEBRUARY -->
               </GrayChannel>
             </ChannelSelection>
 

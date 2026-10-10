@@ -1,24 +1,23 @@
 <coverage>
-  <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:11a3</id>
-  <name>MaC_4-7_SDM_prob_monthly_Diomedea_amsterdamensis</name>
-  <nativeName>MaC_4-7_SDM_prob_monthly_Diomedea_amsterdamensis</nativeName>
+  <id>CoverageInfoImpl--6267ce40:1a1231eb5e8:1409</id>
+  <name>MaC_4-7_SDM_prob_monthly_Thalassarche_chrysostoma</name>
+  <nativeName>MaC_4-7_SDM_prob_monthly_Thalassarche_chrysostoma</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Distribution of Amsterdam albatross: monthly probability of occurrence (NESP MaC 4.7)</title>
+  <title>Distribution of Gray-headed albatross: monthly probability of occurrence (NESP MaC 4.7)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Seabirds range widely across the Southern Hemisphere, with distributions changing through the year as birds move between breeding, foraging and migration areas. Understanding where priority species are most likely to occur is important for assessing potential exposure to offshore activities, including offshore wind development.&#xd;
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled the distributions of seven priority seabird species using an integrated space-time model that combines observations from multiple data sources and survey types. The models estimate seasonal changes in distribution across the Southern Hemisphere on a 5 km equal-area grid.&#xd;
 &#xd;
-This layer shows the modelled monthly probability of presence for Amsterdam albatross (Diomedea amsterdamensis) within each 5 km grid cell. The 12 monthly surfaces represent January–December, using 2024 as the reference year for the modelled annual cycle.&#xd;
+This layer shows the modelled monthly probability of presence for Gray-headed albatross (Thalassarche chrysostoma) within each 5 km grid cell. The 12 monthly surfaces represent January–December, using 2024 as the reference year for the modelled annual cycle.&#xd;
 &#xd;
 Select from the available styles to navigate between predicted probabilities for each month.</abstract>
   <keywords>
-    <string>Amsterdam_Albatross_probability_monthly</string>
+    <string>Gray_headed_Albatross_probability_monthly</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
-    <string>ORE</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;WGS 84 / NSIDC EASE-Grid 2.0 South&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
@@ -51,7 +50,7 @@ Select from the available styles to navigate between predicted probabilities for
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
-    <maxy>84.63404966254876</maxy>
+    <maxy>84.63404966614172</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -59,10 +58,10 @@ Select from the available styles to navigate between predicted probabilities for
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">MaC_4-7_SDM_prob_monthly_Diomedea_amsterdamensis_Amsterdam_Albatross_probability_monthly</entry>
+    <entry key="dirName">MaC_4-7_SDM_prob_monthly_Thalassarche_chrysostoma_Gray_headed_Albatross_probability_monthly</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--6267ce40:1a1231eb5e8:10e5</id>
+    <id>CoverageStoreInfoImpl--6267ce40:1a1231eb5e8:134e</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -291,5 +290,5 @@ Select from the available styles to navigate between predicted probabilities for
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Amsterdam_Albatross_probability_monthly</nativeCoverageName>
+  <nativeCoverageName>Gray_headed_Albatross_probability_monthly</nativeCoverageName>
 </coverage>

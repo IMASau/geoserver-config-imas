@@ -14,12 +14,6 @@
         <!-- Map -->
         <Rule>
           <RasterSymbolizer>
-            <ChannelSelection>
-              <GrayChannel>
-                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is JANUARY -->
-              </GrayChannel>
-            </ChannelSelection>
-
             <ColorMap type="ramp">
               <ColorMapEntry color="#000004" quantity="0" />
               <ColorMapEntry color="#1F0C48" quantity="0.001" />
