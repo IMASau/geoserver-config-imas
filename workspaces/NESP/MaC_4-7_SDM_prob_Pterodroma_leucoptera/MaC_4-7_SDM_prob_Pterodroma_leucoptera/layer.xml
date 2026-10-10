@@ -3,26 +3,11 @@
   <id>LayerInfoImpl--6267ce40:1a1231eb5e8:1408</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--6267ce40:1a1231eb5e8:8c0</id>
+    <id>StyleInfoImpl--6267ce40:1a1231eb5e8:4723</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
       <id>StyleInfoImpl--6267ce40:1a1231eb5e8:8c0</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:13fc</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1401</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1403</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1406</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:13ff</id>
     </style>
     <style>
       <id>StyleInfoImpl--6267ce40:1a1231eb5e8:13fe</id>
@@ -40,6 +25,24 @@
       <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1405</id>
     </style>
     <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:13fc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:4723</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1401</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1403</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1406</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:13ff</id>
+    </style>
+    <style>
       <id>StyleInfoImpl--6267ce40:1a1231eb5e8:1402</id>
     </style>
   </styles>
@@ -52,5 +55,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2026-10-10 05:04:24.147 UTC</dateCreated>
-  <dateModified>2026-10-10 06:28:14.724 UTC</dateModified>
+  <dateModified>2026-10-10 06:33:46.466 UTC</dateModified>
 </layer>

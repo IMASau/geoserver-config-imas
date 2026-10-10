@@ -14,6 +14,12 @@
         <!-- Map -->
         <Rule>
           <RasterSymbolizer>
+            <ChannelSelection>
+              <GrayChannel>
+                <SourceChannelName>13</SourceChannelName> <!-- Band 13 is ANNUAL MEAN -->
+              </GrayChannel>
+            </ChannelSelection>
+            
             <ColorMap type="ramp">
               <ColorMapEntry color="#000004" quantity="0" />
               <ColorMapEntry color="#1F0C48" quantity="0.001" />

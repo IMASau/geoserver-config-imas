@@ -1,22 +1,15 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--6267ce40:1a1231eb5e8:1364</id>
-  <name>MaC_4-7_SDM_prob_Macronectes giganteus</name>
+  <name>MaC_4-7_SDM_prob_Macronectes_giganteus</name>
   <description>Distribution of Southern giant petrel: monthly probability of occurrence (NESP MaC 4.7)</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2026-10-10 04:48:48.747 UTC</dateCreated>
+  <dateModified>2026-10-10 06:35:31.887 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/f1b12505-ac1d-4714-803b-d4f65f897879/probability/Southern_Giant_Petrel_probability.tif</url>
 </coverageStore>
