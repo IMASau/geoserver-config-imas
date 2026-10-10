@@ -51,7 +51,7 @@ Select from the available styles to navigate between predicted probabilities for
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
-    <maxy>84.63404966254876</maxy>
+    <maxy>84.63404966614172</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
