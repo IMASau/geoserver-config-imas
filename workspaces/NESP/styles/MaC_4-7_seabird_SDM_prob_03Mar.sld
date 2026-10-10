@@ -21,7 +21,8 @@
             </ChannelSelection>
 
             <ColorMap type="ramp">
-              <ColorMapEntry color="#000004" quantity="0" />
+              <ColorMapEntry color="#000000" quantity="0" opacity="0"/>              
+              <ColorMapEntry color="#000004" quantity="0.0001" opacity="0"/>
               <ColorMapEntry color="#1F0C48" quantity="0.001" />
               <ColorMapEntry color="#550F6D" quantity="0.003" />
               <ColorMapEntry color="#88226A" quantity="0.01" />
@@ -46,7 +47,7 @@
               <ColorMapEntry color="#88226A" quantity="0.01" label="  0.01" />
               <ColorMapEntry color="#550F6D" quantity="0.003" label="  0.003" />
               <ColorMapEntry color="#1F0C48" quantity="0.001" label="  0.001" />
-              <ColorMapEntry color="#000004" quantity="0" label="  0" />
+              <ColorMapEntry color="#000004" quantity="0.0001" label="  &gt;0" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>

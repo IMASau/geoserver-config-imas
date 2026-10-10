@@ -20,7 +20,8 @@
               </GrayChannel>
             </ChannelSelection>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#440154" quantity="0" />
+              <ColorMapEntry color="#000000" quantity="0" opacity="0"/>
+              <ColorMapEntry color="#440154" quantity="0.00000001" />              
               <ColorMapEntry color="#46327E" quantity="0.0000001" />
               <ColorMapEntry color="#365C8D" quantity="0.0000003" />
               <ColorMapEntry color="#277F8E" quantity="0.000001" />
@@ -38,14 +39,14 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Population in grid cell (x 10^-3 %)" />
-              <ColorMapEntry color="#FDE725" quantity="0.0001" label="  10.00" />
-              <ColorMapEntry color="#A0DA39" quantity="0.00003" label="   3.00" />
-              <ColorMapEntry color="#4AC16D" quantity="0.00001" label="   1.00" />
-              <ColorMapEntry color="#1FA187" quantity="0.000003" label="   0.30" />
-              <ColorMapEntry color="#277F8E" quantity="0.000001" label="   0.10" />
-              <ColorMapEntry color="#365C8D" quantity="0.0000003" label="   0.03" />
-              <ColorMapEntry color="#46327E" quantity="0.0000001" label="   0.01" />
-              <ColorMapEntry color="#440154" quantity="0" label="   0.00" />
+              <ColorMapEntry color="#FDE725" quantity="0.0001" label="   10.00" />
+              <ColorMapEntry color="#A0DA39" quantity="0.00003" label="    3.00" />
+              <ColorMapEntry color="#4AC16D" quantity="0.00001" label="    1.00" />
+              <ColorMapEntry color="#1FA187" quantity="0.000003" label="    0.30" />
+              <ColorMapEntry color="#277F8E" quantity="0.000001" label="    0.10" />
+              <ColorMapEntry color="#365C8D" quantity="0.0000003" label="    0.03" />
+              <ColorMapEntry color="#46327E" quantity="0.0000001" label="    0.01" />
+              <ColorMapEntry color="#440154" quantity="0.00000001" label="  &gt;0" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>
