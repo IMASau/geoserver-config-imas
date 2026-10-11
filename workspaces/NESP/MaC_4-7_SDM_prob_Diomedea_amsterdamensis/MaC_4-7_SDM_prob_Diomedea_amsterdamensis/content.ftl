@@ -1,8 +1,10 @@
 <#list features as feature>
 
-  <#assign maxBarWidth = 180>
-  <#assign minBarWidth = 6>  
+  <#assign maxBarWidth = 160>
+  <#assign minBarWidth = 5>
+  <#assign compression = 0.25>
   <#assign indent = 65>
+  <#assign popupThreshold = 0.00001>
 
   <#assign periods = [
     ["Jan", "January"],
@@ -20,10 +22,18 @@
     ["Annual mean", "Annual_mean"]
   ]>
 
-  <#assign annual = feature["Annual_mean"].value?number>
+  <#-- Show popup if ANY month or the annual mean exceeds the threshold -->
+  <#assign showPopup = false>
 
-  <#-- Only return content where raster has data and is non-zero -->
-  <#if !(annual?is_nan) && annual gt 0.0001>
+  <#list periods as p>
+    <#assign checkValue = feature[p[1]].value?number>
+    <#if !(checkValue?is_nan) && checkValue gt popupThreshold>
+      <#assign showPopup = true>
+      <#break>
+    </#if>
+  </#list>
+
+  <#if showPopup>
 
     <#assign scientificName = type.name?replace("MaC_4-7_SDM_prob_", "")?replace("MaC_4-7_SDM_ProportionN_", "")?replace("_", " ")>
 
@@ -50,7 +60,7 @@
 
     <div class="feature" style="padding-top:5px; padding-bottom:2px;">
       <h5 style="padding-bottom:7px; margin:0;">Seabird probability of presence</h5>
-      <h6 style="margin:0 0 8px 0;">${commonName} <span style="font-style:italic;"> (${scientificName})</span></h6>
+      <h6 style="margin:0 0 8px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
       <#list periods as p>
 
@@ -59,24 +69,31 @@
 
         <#if !(value?is_nan)>
 
-          <#-- Compress probability values so the very small values remain visible -->
-          <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * value>
+          <#-- Non-linear scaling: small values remain visible while high values remain distinguishable -->
+          <#if value gt 0>
+            <#assign scaledValue = ((1 + compression) * value) / (value + compression)>
+            <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>
+          <#else>
+            <#assign width = 0>
+          </#if>
 
-          <#-- Colours match the probability-of-presence SLD -->
-          <#if value lt 0.001>
+          <#-- Approximate midpoint colours between SLD ramp breaks -->
+          <#if value lt 0.0001>
             <#assign colour = "#000004">
+          <#elseif value lt 0.001>
+            <#assign colour = "#100626">
           <#elseif value lt 0.003>
-            <#assign colour = "#1F0C48">
+            <#assign colour = "#3A0E5A">
           <#elseif value lt 0.01>
-            <#assign colour = "#550F6D">
+            <#assign colour = "#6E186C">
           <#elseif value lt 0.03>
-            <#assign colour = "#88226A">
+            <#assign colour = "#A22C5F">
           <#elseif value lt 0.1>
-            <#assign colour = "#BB3754">
+            <#assign colour = "#D04A42">
           <#elseif value lt 0.3>
-            <#assign colour = "#E65C2F">
+            <#assign colour = "#F0751C">
           <#elseif value lt 1>
-            <#assign colour = "#F98E09">
+            <#assign colour = "#FAC656">
           <#else>
             <#assign colour = "#FCFFA4">
           </#if>
@@ -85,16 +102,22 @@
 
             <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">${label}</span>
 
-            <div style="width:${maxBarWidth}px; height:10px;"><div style="width:${width}px; height:10px; background-color:${colour};"></div></div>
+            <div style="width:${maxBarWidth}px; height:10px;">
+              <div style="width:${width}px; height:10px; background-color:${colour};"></div>
+            </div>
 
-            <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;"><b>${(value * 100)?string("0.00")}%</b></span> <#-- tabular-nums makes all digits occupy same width -->
-
+            <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
+              <#if value gt 0 && value lt 0.0001>
+                <span style="color:#660000;">&lt;0.01%</span>
+              <#else>
+                ${(value * 100)?string("0.00")}%
+              </#if>
+            </span>
           </div>
         </#if>
       </#list>
     </div>
-
     <#break>
-
   </#if>
+
 </#list>
