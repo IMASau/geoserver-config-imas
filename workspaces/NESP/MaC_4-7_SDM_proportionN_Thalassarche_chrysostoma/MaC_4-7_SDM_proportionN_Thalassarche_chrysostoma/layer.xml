@@ -1,6 +1,6 @@
 <layer>
   <name>MaC_4-7_SDM_proportionN_Thalassarche_chrysostoma</name>
-  <id>LayerInfoImpl--6267ce40:1a124827dd1:-6e26</id>
+  <id>LayerInfoImpl--605439af:1a127ea910b:-649d</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--6267ce40:1a124827dd1:-745f</id>
@@ -47,12 +47,11 @@
     </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl--6267ce40:1a124827dd1:-6e27</id>
+    <id>CoverageInfoImpl--605439af:1a127ea910b:-649e</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2026-10-10 08:35:09.137 UTC</dateCreated>
-  <dateModified>2026-10-10 12:16:56.909 UTC</dateModified>
+  <dateCreated>2026-10-10 23:33:15.320 UTC</dateCreated>
 </layer>

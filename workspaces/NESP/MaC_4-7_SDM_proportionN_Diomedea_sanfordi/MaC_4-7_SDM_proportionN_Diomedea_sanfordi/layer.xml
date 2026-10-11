@@ -1,6 +1,6 @@
 <layer>
   <name>MaC_4-7_SDM_proportionN_Diomedea_sanfordi</name>
-  <id>LayerInfoImpl--6267ce40:1a124827dd1:-6e30</id>
+  <id>LayerInfoImpl--605439af:1a127ea910b:-64a8</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl--6267ce40:1a124827dd1:-745f</id>
@@ -25,6 +25,9 @@
       <id>StyleInfoImpl--6267ce40:1a124827dd1:-745f</id>
     </style>
     <style>
+      <id>StyleInfoImpl--6267ce40:1a1231eb5e8:4723</id>
+    </style>
+    <style>
       <id>StyleInfoImpl--6267ce40:1a124827dd1:-748e</id>
     </style>
     <style>
@@ -47,12 +50,11 @@
     </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl--6267ce40:1a124827dd1:-6e31</id>
+    <id>CoverageInfoImpl--605439af:1a127ea910b:-64a9</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2026-10-10 08:35:03.713 UTC</dateCreated>
-  <dateModified>2026-10-10 12:16:05.265 UTC</dateModified>
+  <dateCreated>2026-10-10 23:31:54.443 UTC</dateCreated>
 </layer>
