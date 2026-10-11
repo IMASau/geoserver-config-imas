@@ -3,7 +3,7 @@
   <#assign maxBarWidth = 160>
   <#assign minBarWidth = 5>
   <#assign compression = 0.25>
-  <#assign indent = 65>
+  <#assign indent = 37>
   <#assign popupThreshold = 0.00001>
 
   <#assign periods = [
@@ -19,7 +19,7 @@
     ["Oct", "October"],
     ["Nov", "November"],
     ["Dec", "December"],
-    ["Annual mean", "Annual_mean"]
+    ["Annual", "Annual_mean"]
   ]>
 
   <#-- Show popup if ANY month or the annual mean exceeds the threshold -->
@@ -35,7 +35,7 @@
 
   <#if showPopup>
 
-    <#assign scientificName = type.name?replace("MaC_4-7_SDM_prob_", "")?replace("MaC_4-7_SDM_ProportionN_", "")?replace("_", " ")>
+    <#assign scientificName = type.name?replace("MaC_4-7_SDM_prob_", "")?replace("MaC_4-7_SDM_proportionN_", "")?replace("_", " ")>
 
     <#if scientificName == "Diomedea amsterdamensis">
       <#assign commonName = "Amsterdam albatross">
@@ -98,7 +98,7 @@
             <#assign colour = "#FCFFA4">
           </#if>
 
-          <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Annual mean'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
+          <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Annual'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
 
             <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">${label}</span>
 
