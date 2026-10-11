@@ -59,6 +59,16 @@ Select from the available styles to navigate between modelled population proport
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">MaC_4-7_SDM_proportionN_Thalassarche_steadi_White_capped_Albatross_ProportionN</entry>
   </metadata>
