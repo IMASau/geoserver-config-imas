@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl--605439af:1a128cddd2a:-5fa7</id>
-  <name>MaC_4-7_BirdFlow_transits_combined_Calidris_ferruginea</name>
-  <description>Migration of Curlew sandpiper: monthly combined transits (NESP MaC 4.7)</description>
+  <name>MaC_4-7_BirdFlow_transits_NS_Calidris_ferruginea</name>
+  <description>Migration of Curlew sandpiper: monthly N+S transits (NESP MaC 4.7)</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
@@ -17,6 +17,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2026-10-11 02:37:06.637 UTC</dateCreated>
+  <dateModified>2026-10-11 06:40:39.325 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/707d5675-d528-41a9-8eab-6b1fe80db57d/Curlew_Sandpiper_model19_transit_count_combined.tif</url>
 </coverageStore>

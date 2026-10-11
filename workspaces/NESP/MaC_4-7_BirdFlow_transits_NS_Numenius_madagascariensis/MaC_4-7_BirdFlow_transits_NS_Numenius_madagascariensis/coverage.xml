@@ -1,21 +1,21 @@
 <coverage>
-  <id>CoverageInfoImpl--605439af:1a128cddd2a:-5bc6</id>
-  <name>MaC_4-7_BirdFlow_transits_south_Calidris_canutus</name>
-  <nativeName>MaC_4-7_BirdFlow_transits_south_Calidris canutus</nativeName>
+  <id>CoverageInfoImpl--605439af:1a128cddd2a:-5b4a</id>
+  <name>MaC_4-7_BirdFlow_transits_NS_Numenius_madagascariensis</name>
+  <nativeName>MaC_4-7_BirdFlow_transits_combined_Numenius_madagascariensis</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Migration of Red knot: monthly southward transits (NESP MaC 4.7)</title>
+  <title>Migration of Far eastern curlew: monthly N+S transits (NESP MaC 4.7)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Migratory shorebirds move between Tasmania and mainland Australia as part of much longer seasonal migrations. Understanding where these movements are concentrated across Bass Strait is important for assessing potential exposure to offshore activities, including offshore wind development.&#xd;
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled migration pathways for three priority shorebird species using BirdFlow. The models combine weekly relative-abundance surfaces derived from Australian bird-monitoring data with available telemetry, banding and re-sighting information to simulate seasonal migration across Bass Strait.&#xd;
 &#xd;
-This layer shows the modelled monthly (January-December) southward transit counts for Red Knot (Calidris canutus) on a 1 km grid. Values represent the number of bird passages through each grid cell. An additional derived annual total surface represents the sum of the 12 monthly transit counts.&#xd;
+This layer shows the modelled monthly (January-December) combined northward and southward transit counts for Far Eastern Curlew (Numenius madagascariensis) on a 1 km grid. Values represent the number of bird passages through each grid cell. An additional derived annual total surface represents the sum of the 12 monthly transit counts.&#xd;
 &#xd;
 Select from the available styles to navigate between modelled transit counts for each month.</abstract>
   <keywords>
-    <string>Red_Knot_model37_transit_count_south</string>
+    <string>Far_Eastern_Curlew_model19_transit_count_combined</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -58,11 +58,10 @@ Select from the available styles to navigate between modelled transit counts for
   <enabled>true</enabled>
   <advertised>false</advertised>
   <metadata>
-    <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">MaC_4-7_BirdFlow_transits_south_Calidris canutus_Red_Knot_model37_transit_count_south</entry>
+    <entry key="dirName">MaC_4-7_BirdFlow_transits_combined_Numenius_madagascariensis_Far_Eastern_Curlew_model19_transit_count_combined</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--605439af:1a128cddd2a:-5fa8</id>
+    <id>CoverageStoreInfoImpl--605439af:1a128cddd2a:-5fa6</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -85,11 +84,15 @@ Select from the available styles to navigate between modelled transit counts for
     <crs>EPSG:32755</crs>
   </grid>
   <supportedFormats>
+    <string>ArcGrid</string>
+    <string>MBTiles</string>
     <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
     <string>JPEG</string>
     <string>TIFF</string>
+    <string>ImageMosaic</string>
+    <string>GeoPackage (mosaic)</string>
   </supportedFormats>
   <interpolationMethods>
     <string>nearest neighbor</string>
@@ -305,5 +308,5 @@ Select from the available styles to navigate between modelled transit counts for
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Red_Knot_model37_transit_count_south</nativeCoverageName>
+  <nativeCoverageName>Far_Eastern_Curlew_model19_transit_count_combined</nativeCoverageName>
 </coverage>

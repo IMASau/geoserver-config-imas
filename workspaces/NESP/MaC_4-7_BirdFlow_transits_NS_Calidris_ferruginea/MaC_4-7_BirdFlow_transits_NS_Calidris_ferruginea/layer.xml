@@ -1,5 +1,5 @@
 <layer>
-  <name>MaC_4-7_BirdFlow_transits_combined_Calidris_ferruginea</name>
+  <name>MaC_4-7_BirdFlow_transits_NS_Calidris_ferruginea</name>
   <id>LayerInfoImpl--605439af:1a128cddd2a:-5b4b</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-10-11 02:56:26.368 UTC</dateCreated>
+  <dateModified>2026-10-11 06:41:37.305 UTC</dateModified>
 </layer>
