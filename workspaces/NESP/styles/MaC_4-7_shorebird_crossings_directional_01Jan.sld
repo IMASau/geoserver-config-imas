@@ -8,7 +8,7 @@
     xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Migratory shorebird transit counts - January</Name>
+    <Name>Migratory shorebird transit counts - January (single direction)</Name>
 
     <UserStyle>
       <FeatureTypeStyle>
@@ -24,13 +24,13 @@
 
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0" />
-              <ColorMapEntry color="#E8FFFF" quantity="0.0001" />
-              <ColorMapEntry color="#B9F4EE" quantity="1" />
-              <ColorMapEntry color="#7FE2D5" quantity="2" />
-              <ColorMapEntry color="#40CCBA" quantity="3" />
-              <ColorMapEntry color="#13B29E" quantity="4" />
-              <ColorMapEntry color="#008B7F" quantity="5" />
-              <ColorMapEntry color="#00645C" quantity="6" />
+              <ColorMapEntry color="#0b2775" quantity="0.01" />
+              <ColorMapEntry color="#225EA8" quantity="1" />
+              <ColorMapEntry color="#1D91C0" quantity="2" />
+              <ColorMapEntry color="#41B6C4" quantity="3" />
+              <ColorMapEntry color="#7FCDBB" quantity="4" />
+              <ColorMapEntry color="#d0f1b1" quantity="5" />
+              <ColorMapEntry color="#ffffb3" quantity="6" />
             </ColorMap>
           </RasterSymbolizer>
 
@@ -39,17 +39,16 @@
 
         <!-- Legend -->
         <Rule>
-          <Title>Total crossings</Title>
-
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#00645C" quantity="6" label="  6" />
-              <ColorMapEntry color="#008B7F" quantity="5" label="  5" />
-              <ColorMapEntry color="#13B29E" quantity="4" label="  4" />
-              <ColorMapEntry color="#40CCBA" quantity="3" label="  3" />
-              <ColorMapEntry color="#7FE2D5" quantity="2" label="  2" />
-              <ColorMapEntry color="#B9F4EE" quantity="1" label="  1" />
-              <ColorMapEntry color="#E8FFFF" quantity="0" label=" &gt;0" />
+              <ColorMapEntry color="#ffffff" quantity="-1" opacity = "0.0001" label="Monthly crossings (single direction)" />              
+              <ColorMapEntry color="#ffffb3" quantity="6" label="   6" />
+              <ColorMapEntry color="#d0f1b1" quantity="5" label="   5" />
+              <ColorMapEntry color="#7FCDBB" quantity="5" label="   4" />
+              <ColorMapEntry color="#41B6C4" quantity="3" label="   3" />
+              <ColorMapEntry color="#1D91C0" quantity="2" label="   2" />
+              <ColorMapEntry color="#225EA8" quantity="1" label="   1" />
+              <ColorMapEntry color="#0b2775" quantity="0" label=" &gt;0" />
             </ColorMap>
           </RasterSymbolizer>
 
