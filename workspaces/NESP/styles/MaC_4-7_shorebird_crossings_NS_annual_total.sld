@@ -24,7 +24,7 @@
 
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0" />
-              <ColorMapEntry color="#0b2775" quantity="0.001" />
+              <ColorMapEntry color="#0b2775" quantity="0.0001" />
               <ColorMapEntry color="#225EA8" quantity="2" />
               <ColorMapEntry color="#1D91C0" quantity="4" />
               <ColorMapEntry color="#41B6C4" quantity="6" />

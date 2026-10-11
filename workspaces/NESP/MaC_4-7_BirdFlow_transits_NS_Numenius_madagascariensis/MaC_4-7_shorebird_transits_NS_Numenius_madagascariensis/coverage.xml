@@ -1,21 +1,21 @@
 <coverage>
-  <id>CoverageInfoImpl--605439af:1a128cddd2a:-5b4c</id>
-  <name>MaC_4-7_BirdFlow_transits_NS_Calidris_ferruginea</name>
-  <nativeName>MaC_4-7_BirdFlow_transits_combined_Calidris_ferruginea</nativeName>
+  <id>CoverageInfoImpl--605439af:1a128cddd2a:-5b4a</id>
+  <name>MaC_4-7_shorebird_transits_NS_Numenius_madagascariensis</name>
+  <nativeName>MaC_4-7_BirdFlow_transits_combined_Numenius_madagascariensis</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Migration of Curlew sandpiper: monthly N+S transits (NESP MaC 4.7)</title>
+  <title>Migration of Far eastern curlew: monthly N+S transits (NESP MaC 4.7)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Migratory shorebirds move between Tasmania and mainland Australia as part of much longer seasonal migrations. Understanding where these movements are concentrated across Bass Strait is important for assessing potential exposure to offshore activities, including offshore wind development.&#xd;
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled migration pathways for three priority shorebird species using BirdFlow. The models combine weekly relative-abundance surfaces derived from Australian bird-monitoring data with available telemetry, banding and re-sighting information to simulate seasonal migration across Bass Strait.&#xd;
 &#xd;
-This layer shows the modelled monthly (January-December) combined northward and southward transit counts for Curlew Sandpiper (Calidris ferruginea) on a 1 km grid. Values represent the number of bird passages through each grid cell. An additional derived annual total surface represents the sum of the 12 monthly transit counts.&#xd;
+This layer shows the modelled monthly (January-December) combined northward and southward transit counts for Far Eastern Curlew (Numenius madagascariensis) on a 1 km grid. Values represent the number of bird passages through each grid cell. An additional derived annual total surface represents the sum of the 12 monthly transit counts.&#xd;
 &#xd;
 Select from the available styles to navigate between modelled transit counts for each month.</abstract>
   <keywords>
-    <string>Curlew_Sandpiper_model19_transit_count_combined</string>
+    <string>Far_Eastern_Curlew_model19_transit_count_combined</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -59,10 +59,10 @@ Select from the available styles to navigate between modelled transit counts for
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">MaC_4-7_BirdFlow_transits_combined_Calidris_ferruginea_Curlew_Sandpiper_model19_transit_count_combined</entry>
+    <entry key="dirName">MaC_4-7_BirdFlow_transits_combined_Numenius_madagascariensis_Far_Eastern_Curlew_model19_transit_count_combined</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--605439af:1a128cddd2a:-5fa7</id>
+    <id>CoverageStoreInfoImpl--605439af:1a128cddd2a:-5fa6</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -305,5 +305,5 @@ Select from the available styles to navigate between modelled transit counts for
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Curlew_Sandpiper_model19_transit_count_combined</nativeCoverageName>
+  <nativeCoverageName>Far_Eastern_Curlew_model19_transit_count_combined</nativeCoverageName>
 </coverage>
