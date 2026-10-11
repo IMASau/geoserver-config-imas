@@ -1,6 +1,6 @@
 <#list features as feature>
 
-  <#assign maxBarWidth = 160>
+  <#assign maxBarWidth = 155>
   <#assign minBarWidth = 5>
   <#assign compression = 0.25>
   <#assign indent = 37>
@@ -59,9 +59,13 @@
     </#if>
 
     <div class="feature" style="padding-top:5px; padding-bottom:2px;">
-      <h5 style="padding-bottom:7px; margin:0;">Seabird probability of presence</h5>
-      <h6 style="margin:0 0 8px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
-
+      <h5 style="padding-bottom:6px; margin:0;">Seabird probability of presence</h5>
+      <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
+      
+      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
+        Probability of presence (%)
+      </div> 
+      
       <#list periods as p>
 
         <#assign label = p[0]>
@@ -108,9 +112,9 @@
 
             <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
               <#if value gt 0 && value lt 0.0001>
-                <span style="color:#660000;">&lt;0.01%</span>
+                <span style="color:#660000;">&lt;0.01</span>
               <#else>
-                ${(value * 100)?string("0.00")}%
+                ${(value * 100)?string("0.00")}
               </#if>
             </span>
           </div>

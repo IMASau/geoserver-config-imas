@@ -1,6 +1,6 @@
 <#list features as feature>
 
-  <#assign maxBarWidth = 170>
+  <#assign maxBarWidth = 155>
   <#assign minBarWidth = 5>
   <#assign displayMax = 0.0001>
   <#assign compression = 0.00001>
@@ -58,12 +58,12 @@
     </#if>
 
     <div class="feature" style="padding-top:5px; padding-bottom:2px;">
-      <h5 style="padding-bottom:7px; margin:0;">Proportion of seabird population</h5>
-      <h6 style="margin:0 0 2px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
-
-      <div style="margin: 0 0 8px 0; font-size:90%; color:#666;">
+      <h5 style="padding-bottom:6px; margin:0;">Proportion of seabird population</h5>
+      <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
+      
+      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
         Population in grid cell (&times;10<sup>-3</sup> %)
-      </div>
+      </div>     
 
       <#list periods as p>
 
