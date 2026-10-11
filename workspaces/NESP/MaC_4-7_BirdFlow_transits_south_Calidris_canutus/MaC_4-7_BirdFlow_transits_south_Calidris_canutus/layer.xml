@@ -1,9 +1,9 @@
 <layer>
-  <name>MaC_4-7_BirdFlow_transits_south_Calidris canutus</name>
+  <name>MaC_4-7_BirdFlow_transits_south_Calidris_canutus</name>
   <id>LayerInfoImpl--605439af:1a128cddd2a:-5bc5</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl--605439af:1a128cddd2a:1ea2</id>
   </defaultStyle>
   <resource class="coverage">
     <id>CoverageInfoImpl--605439af:1a128cddd2a:-5bc6</id>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-10-11 02:56:24.752 UTC</dateCreated>
+  <dateModified>2026-10-11 05:49:16.101 UTC</dateModified>
 </layer>
