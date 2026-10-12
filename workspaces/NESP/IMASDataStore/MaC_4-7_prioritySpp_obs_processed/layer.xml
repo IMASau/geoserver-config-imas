@@ -1,0 +1,17 @@
+<layer>
+  <name>MaC_4-7_prioritySpp_obs_processed</name>
+  <id>LayerInfoImpl--605439af:1a131c9ffa4:-7eb3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--605439af:1a131c9ffa4:-7ee3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--605439af:1a131c9ffa4:-7eb4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-12 20:36:27.215 UTC</dateCreated>
+  <dateModified>2026-10-12 20:45:53.338 UTC</dateModified>
+</layer>
