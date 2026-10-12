@@ -23,17 +23,17 @@
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#7c52fa</CssParameter><CssParameter name="fill-opacity">0.20</CssParameter></Fill>
-            </Mark><Size>15</Size></Graphic>
+            </Mark><Size>13</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#7c52fa</CssParameter><CssParameter name="fill-opacity">0.50</CssParameter></Fill>
-            </Mark><Size>12</Size></Graphic>
+            </Mark><Size>10</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#7c52fa</CssParameter><CssParameter name="fill-opacity">1.0</CssParameter></Fill>
-            </Mark><Size>9</Size></Graphic>
+            </Mark><Size>8</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
@@ -77,7 +77,7 @@
                 <CssParameter name="fill">#2db84d</CssParameter>
                 <CssParameter name="fill-opacity">0.20</CssParameter>
               </Fill>
-            </Mark><Size>15</Size></Graphic>
+            </Mark><Size>13</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
@@ -85,7 +85,7 @@
                 <CssParameter name="fill">#2db84d</CssParameter>
                 <CssParameter name="fill-opacity">0.50</CssParameter>
               </Fill>
-            </Mark><Size>12</Size></Graphic>
+            </Mark><Size>10</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
@@ -93,7 +93,7 @@
                 <CssParameter name="fill">#2db84d</CssParameter>
                 <CssParameter name="fill-opacity">1.0</CssParameter>
               </Fill>
-            </Mark><Size>9</Size></Graphic>
+            </Mark><Size>8</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
@@ -126,17 +126,17 @@
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#6d4c41</CssParameter><CssParameter name="fill-opacity">0.20</CssParameter></Fill>
-            </Mark><Size>15</Size></Graphic>
+            </Mark><Size>13</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#6d4c41</CssParameter><CssParameter name="fill-opacity">0.50</CssParameter></Fill>
-            </Mark><Size>12</Size></Graphic>
+            </Mark><Size>10</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#6d4c41</CssParameter><CssParameter name="fill-opacity">1.0</CssParameter></Fill>
-            </Mark><Size>9</Size></Graphic>
+            </Mark><Size>8</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
@@ -163,17 +163,17 @@
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#1e88e5</CssParameter><CssParameter name="fill-opacity">0.20</CssParameter></Fill>
-            </Mark><Size>15</Size></Graphic>
+            </Mark><Size>13</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#1e88e5</CssParameter><CssParameter name="fill-opacity">0.50</CssParameter></Fill>
-            </Mark><Size>12</Size></Graphic>
+            </Mark><Size>10</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
               <Fill><CssParameter name="fill">#1e88e5</CssParameter><CssParameter name="fill-opacity">1.0</CssParameter></Fill>
-            </Mark><Size>9</Size></Graphic>
+            </Mark><Size>8</Size></Graphic>
           </PointSymbolizer>
           <PointSymbolizer>
             <Graphic><Mark><WellKnownName>circle</WellKnownName>
