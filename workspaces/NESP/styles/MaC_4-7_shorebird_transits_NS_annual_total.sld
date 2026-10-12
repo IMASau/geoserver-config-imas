@@ -30,7 +30,8 @@
               <ColorMapEntry color="#f0cb7a" quantity="6" />
               <ColorMapEntry color="#E27F55" quantity="8" />
               <ColorMapEntry color="#C04A58" quantity="10" />
-              <ColorMapEntry color="#931f3c" quantity="14" />                            
+              <ColorMapEntry color="#8e0b4d" quantity="14" />  
+              <ColorMapEntry color="#65143f" quantity="20" />                                          
             </ColorMap>
           </RasterSymbolizer>
 
@@ -42,7 +43,8 @@
           <RasterSymbolizer>
             <ColorMap type="values">
               <ColorMapEntry color="#ffffff" quantity="-1" opacity="0.0001" label="No. crossings (N + S)" />
-              <ColorMapEntry color="#931f3c" quantity="14" label="  14" />              
+              <ColorMapEntry color="#65143f" quantity="20" label="  20+" />                            
+              <ColorMapEntry color="#8e0b4d" quantity="14" label="  14" />              
               <ColorMapEntry color="#C04A58" quantity="10" label="  10" />
               <ColorMapEntry color="#E27F55" quantity="8" label="   8" />
               <ColorMapEntry color="#f0cb7a" quantity="6" label="   6" />

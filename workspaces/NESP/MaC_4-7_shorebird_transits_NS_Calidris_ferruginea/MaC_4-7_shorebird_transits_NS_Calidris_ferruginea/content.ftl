@@ -2,9 +2,9 @@
 
   <#assign maxBarWidth = 155>
   <#assign minBarWidth = 5>
-  <#assign compression = 3>
-  <#assign scaleMax = 16>
-  <#assign indent = 30>
+  <#assign compression = 5>
+  <#assign scaleMax = 18>
+  <#assign indent = 28>
   <#assign popupThreshold = 0.001>
 
   <#assign periods = [
@@ -121,10 +121,12 @@
               <#assign colour = "#f0cb7a">
             <#elseif value lt 9>
               <#assign colour = "#E27F55">
-            <#elseif value lt 11>
+            <#elseif value lt 12>
               <#assign colour = "#C04A58">
-            <#else>
+            <#elseif value lt 17>
               <#assign colour = "#931f3c">
+            <#else>
+              <#assign colour = "#65143f">              
             </#if>
 
           </#if>
