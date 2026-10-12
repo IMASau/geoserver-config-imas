@@ -38,7 +38,7 @@
 
     <#if scientificName == "Diomedea amsterdamensis">
       <#assign commonName = "Amsterdam albatross">
-    <#elseif scientificName == "Pterodroma leucoptera leucoptera">
+    <#elseif scientificName == "Pterodroma leucoptera">
       <#assign commonName = "Gould's petrel">
     <#elseif scientificName == "Thalassarche chrysostoma">
       <#assign commonName = "Gray-headed albatross">
