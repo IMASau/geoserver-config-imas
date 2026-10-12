@@ -25,6 +25,7 @@
 
   <#-- Show popup if ANY month or the annual total exceeds the threshold -->
   <#assign showPopup = false>
+
   <#list periods as p>
     <#assign checkValue = feature[p[1]].value?number>
     <#if !(checkValue?is_nan) && checkValue gte popupThreshold>
@@ -48,22 +49,40 @@
     </#if>
 
     <div class="feature" style="padding-top:5px; padding-bottom:2px;">
+
       <h5 style="padding-bottom:6px; margin:0;">Shorebird transits</h5>
       <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
-      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
+      <div style="margin:0 0 5px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
         Crossings per 1 km grid cell
       </div>
+
+      <#assign zeroMonths = 0>
 
       <#list periods as p>
 
         <#assign label = p[0]>
-        <#assign value = feature[p[1]].value?number>
+        <#assign field = p[1]>
+        <#assign value = feature[field].value?number>
+        <#assign isTotal = (field == "Annual_total")>
 
-        <#if !(value?is_nan)>
+        <#-- Count exact-zero monthly values, but don't display them -->
+        <#if !isTotal && !(value?is_nan) && value == 0>
+          <#assign zeroMonths = zeroMonths + 1>
+        </#if>
 
-          <#-- Same scale for monthly and annual: equal values get equal bar widths.
-               Larger annual values are progressively compressed. -->
+        <#-- Add one explanatory note immediately before the total -->
+        <#if isTotal && zeroMonths gt 0>
+          <div style="margin:3px 0 5px ${indent + 8}px; font-size:90%; color:#777; font-style:italic;">
+            No crossings simulated in other months.
+          </div>
+        </#if>
+
+        <#-- Display positive monthly values and the annual total -->
+        <#if !(value?is_nan) && (isTotal || value gt 0)>
+
+          <#-- Same scale throughout: equal values have equal bar widths.
+               Larger values progressively compress toward the maximum width. -->
           <#if value gt 0>
             <#assign scaledValue = (value / (value + compression)) / (scaleMax / (scaleMax + compression))>
             <#if scaledValue gt 1><#assign scaledValue = 1></#if>
@@ -72,8 +91,9 @@
             <#assign width = 0>
           </#if>
 
-          <#-- Monthly colours: approximate midpoint colours between SLD breaks -->
-          <#if label != "Total">
+          <#-- Monthly SLD stop colours, with class boundaries halfway between stops -->
+          <#if !isTotal>
+
             <#if value lt 0.5>
               <#assign colour = "#1d548b">
             <#elseif value lt 1.5>
@@ -88,8 +108,9 @@
               <#assign colour = "#C04A58">
             </#if>
 
-          <#-- Annual colours: approximate midpoint colours between SLD breaks -->
+          <#-- Annual SLD stop colours, with class boundaries halfway between stops -->
           <#else>
+
             <#if value lt 1>
               <#assign colour = "#1d548b">
             <#elseif value lt 3>
@@ -102,13 +123,17 @@
               <#assign colour = "#E27F55">
             <#elseif value lt 11>
               <#assign colour = "#C04A58">
-            <#elseif>
+            <#else>
               <#assign colour = "#931f3c">
+            </#if>
+
           </#if>
 
-          <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Total'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
+          <div style="display:flex; align-items:center; padding-bottom:3px;<#if isTotal> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
 
-            <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">${label}</span>
+            <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">
+              ${label}
+            </span>
 
             <div style="width:${maxBarWidth}px; height:10px;">
               <div style="width:${width}px; height:10px; background-color:${colour};"></div>
@@ -116,7 +141,7 @@
 
             <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
               <#if value == 0>
-                <span style="font-size:90%; color:#666; font-style:italic;">none simulated</span>
+                0
               <#elseif value lt 0.1>
                 <span style="color:#660000;">&lt;0.1</span>
               <#else>
