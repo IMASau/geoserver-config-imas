@@ -73,42 +73,37 @@
           </#if>
 
           <#-- Monthly colours: approximate midpoint colours between SLD breaks -->
-          <#if label != "Annual">
-            <#if value lt 0.0001>
-              <#assign colour = "#275B80">
-            <#elseif value lt 1>
-              <#assign colour = "#578D82">
-            <#elseif value lt 2>
-              <#assign colour = "#ACD086">
-            <#elseif value lt 3>
-              <#assign colour = "#DFD683">
-            <#elseif value lt 4>
-              <#assign colour = "#E7A569">
-            <#elseif value lt 5>
-              <#assign colour = "#D16557">
+          <#if label != "Total">
+            <#if value lt 0.5>
+              <#assign colour = "#1d548b">
+            <#elseif value lt 1.5>
+              <#assign colour = "#76be97">
+            <#elseif value lt 2.5>
+              <#assign colour = "#bfe87c">
+            <#elseif value lt 3.5>
+              <#assign colour = "#f0cb7a">
+            <#elseif value lt 4.5>
+              <#assign colour = "#E27F55">
             <#else>
               <#assign colour = "#C04A58">
             </#if>
 
           <#-- Annual colours: approximate midpoint colours between SLD breaks -->
           <#else>
-            <#if value lt 0.0001>
-              <#assign colour = "#0B2775">
-            <#elseif value lt 2>
-              <#assign colour = "#17438F">
-            <#elseif value lt 4>
-              <#assign colour = "#2078B4">
-            <#elseif value lt 6>
-              <#assign colour = "#2FA4C2">
-            <#elseif value lt 8>
-              <#assign colour = "#60C2C0">
-            <#elseif value lt 10>
-              <#assign colour = "#A8DFB6">
-            <#elseif value lt 12>
-              <#assign colour = "#E8F8B2">
-            <#else>
-              <#assign colour = "#FFFFB3">
-            </#if>
+            <#if value lt 1>
+              <#assign colour = "#1d548b">
+            <#elseif value lt 3>
+              <#assign colour = "#76be97">
+            <#elseif value lt 5>
+              <#assign colour = "#bfe87c">
+            <#elseif value lt 7>
+              <#assign colour = "#f0cb7a">
+            <#elseif value lt 9>
+              <#assign colour = "#E27F55">
+            <#elseif value lt 11>
+              <#assign colour = "#C04A58">
+            <#elseif>
+              <#assign colour = "#931f3c">
           </#if>
 
           <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Total'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
@@ -120,8 +115,10 @@
             </div>
 
             <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
-              <#if value gt 0 && value lt 0.01>
-                <span style="color:#660000;">&lt;0.01</span>
+              <#if value == 0>
+                <span style="font-size:90%; color:#666; font-style:italic;">none simulated</span>
+              <#elseif value lt 0.1>
+                <span style="color:#660000;">&lt;0.1</span>
               <#else>
                 ${value?string("0.0")}
               </#if>
