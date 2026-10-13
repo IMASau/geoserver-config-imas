@@ -1,6 +1,6 @@
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <Name>Priority species observations - species groups</Name>
+    <Name>Priority species observations - data type</Name>
     <UserStyle>
       <FeatureTypeStyle>
       

@@ -13,19 +13,22 @@
       <id>StyleInfoImpl--605439af:1a1339b646b:-1fe</id>
     </style>
     <style>
-      <id>StyleInfoImpl--605439af:1a131c9ffa4:-7021</id>
+      <id>StyleInfoImpl--605439af:1a131c9ffa4:-7ee3</id>
     </style>
     <style>
-      <id>StyleInfoImpl--605439af:1a131c9ffa4:-7ee3</id>
+      <id>StyleInfoImpl--605439af:1a131c9ffa4:-7021</id>
     </style>
   </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl--605439af:1a131c9ffa4:-7eb4</id>
   </resource>
+  <metadata>
+    <entry key="buffer">512</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-10-12 20:36:27.215 UTC</dateCreated>
-  <dateModified>2026-10-13 05:39:27.614 UTC</dateModified>
+  <dateModified>2026-10-13 20:51:54.246 UTC</dateModified>
 </layer>
