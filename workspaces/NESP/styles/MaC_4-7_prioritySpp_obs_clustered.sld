@@ -417,7 +417,7 @@
         <!-- ========================================================= -->
 
         <Rule>
-          <Title>Single observation</Title>
+          <Title> Single observation</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>count</ogc:PropertyName>
@@ -464,7 +464,7 @@
         </Rule>
 
         <Rule>
-          <Title>Multiple observations</Title>
+          <Title> Multiple observations</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>count</ogc:PropertyName>
