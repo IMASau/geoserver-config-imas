@@ -50,9 +50,6 @@
       <#assign commonName = "Southern giant petrel">
     <#elseif scientificName == "Thalassarche steadi">
       <#assign commonName = "White-capped albatross">
-    <#elseif scientificName == "Thalassarche cauta steadi">
-      <#assign scientificName = "Thalassarche cauta & T. steadi">
-      <#assign commonName = "Shy & White-capped albatross">
     <#else>
       <#assign commonName = scientificName>
     </#if>
