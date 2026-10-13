@@ -7,7 +7,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Priority species observations - density heatmap</Name>
+    <Name>Priority species observations - individual count [heatmap]</Name>
 
     <UserStyle>
       <FeatureTypeStyle>
@@ -69,7 +69,7 @@
             <Opacity>0.75</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0.00001"/>
-              <ColorMapEntry color="#4444FF" quantity="0.03"/>
+              <ColorMapEntry color="#4444FF" quantity="0.01"/>
               <ColorMapEntry color="#FF0000" quantity="0.5"/>
               <ColorMapEntry color="#FFFF00" quantity="1.0"/>
             </ColorMap>
@@ -81,9 +81,9 @@
           <RasterSymbolizer>
             <Opacity>0.75</Opacity>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#FFFF00" quantity="2" label="  more observations"/>  
+              <ColorMapEntry color="#FFFF00" quantity="2" label="  more individuals"/>  
               <ColorMapEntry color="#FF0000" quantity="1"/>              
-              <ColorMapEntry color="#4444FF" quantity="0" label="  fewer observations"/>
+              <ColorMapEntry color="#4444FF" quantity="0" label="  fewer individuals"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                              
