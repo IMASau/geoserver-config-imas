@@ -1,133 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor version="1.0.0"
-  xmlns="http://www.opengis.net/sld"
-  xmlns:ogc="http://www.opengis.net/ogc"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
     <Name>Priority species observations - observation count</Name>
     <UserStyle>
       <FeatureTypeStyle>
-
-        <!-- NULL observation_count: rendered first, underneath all other points -->
-
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>observation_count</ogc:PropertyName>
-            </ogc:PropertyIsNull>
-          </ogc:Filter>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill"> #8c8c8c</CssParameter>
-                  <CssParameter name="fill-opacity">0.65</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
-                  <CssParameter name="stroke-width">0.6</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>1.5</Size>
-            </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
-        </Rule>
-
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>observation_count</ogc:PropertyName>
-            </ogc:PropertyIsNull>
-          </ogc:Filter>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill"> #8c8c8c</CssParameter>
-                  <CssParameter name="fill-opacity">0.65</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
-                  <CssParameter name="stroke-width">0.8</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>2</Size>
-            </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
-        </Rule>
-
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>observation_count</ogc:PropertyName>
-            </ogc:PropertyIsNull>
-          </ogc:Filter>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill"> #8c8c8c</CssParameter>
-                  <CssParameter name="fill-opacity">0.65</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
-                  <CssParameter name="stroke-width">1.0</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>2.5</Size>
-            </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
-        </Rule>
-
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>observation_count</ogc:PropertyName>
-            </ogc:PropertyIsNull>
-          </ogc:Filter>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill"> #8c8c8c</CssParameter>
-                  <CssParameter name="fill-opacity">0.65</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
-                  <CssParameter name="stroke-width">1.2</CssParameter>
-                  <CssParameter name="stroke-opacity">1</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>3.5</Size>
-            </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
-          </PointSymbolizer>
-        </Rule>
-
-      </FeatureTypeStyle>
-
-      <FeatureTypeStyle>
-
-        <!-- All non-NULL observation_count rules -->
         <Rule>
           <Title>Observation count</Title>
         </Rule>
@@ -144,11 +20,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5b82b5</CssParameter>
+                  <CssParameter name="fill">#4575b4</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5b82b5</CssParameter>
+                  <CssParameter name="stroke">#4575b4</CssParameter>
                   <CssParameter name="stroke-width">0.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -158,7 +34,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -178,11 +53,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#6f9fc8</CssParameter>
+                  <CssParameter name="fill">#74add1</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#6f9fc8</CssParameter>
+                  <CssParameter name="stroke">#74add1</CssParameter>
                   <CssParameter name="stroke-width">0.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -192,7 +67,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -212,11 +86,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7fb8d2</CssParameter>
+                  <CssParameter name="fill">#8fc6dc</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7fb8d2</CssParameter>
+                  <CssParameter name="stroke">#8fc6dc</CssParameter>
                   <CssParameter name="stroke-width">0.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -226,7 +100,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -246,11 +119,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#96cbdc</CssParameter>
+                  <CssParameter name="fill">#b8dde7</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#96cbdc</CssParameter>
+                  <CssParameter name="stroke">#b8dde7</CssParameter>
                   <CssParameter name="stroke-width">0.6</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -260,7 +133,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -289,12 +161,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>4.25</Size>
+              <Size>4.5</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -323,12 +194,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>5.25</Size>
+              <Size>5.5</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -357,12 +227,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>6.5</Size>
+              <Size>6.75</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -391,12 +260,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>8.5</Size>
+              <Size>8.25</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
@@ -426,6 +294,32 @@
         </Rule>
         <Rule>
           <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>observation_count</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"> #8c8c8c</CssParameter>
+                  <CssParameter name="fill-opacity">0.65</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
+                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>1.5</Size>
+            </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+          </PointSymbolizer>
+        </Rule>
+        <Rule>
+          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>observation_count</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
@@ -438,11 +332,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5b82b5</CssParameter>
+                  <CssParameter name="fill">#4575b4</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5b82b5</CssParameter>
+                  <CssParameter name="stroke">#4575b4</CssParameter>
                   <CssParameter name="stroke-width">0.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -452,7 +346,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -473,11 +366,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#6f9fc8</CssParameter>
+                  <CssParameter name="fill">#74add1</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#6f9fc8</CssParameter>
+                  <CssParameter name="stroke">#74add1</CssParameter>
                   <CssParameter name="stroke-width">0.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -487,7 +380,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -508,11 +400,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7fb8d2</CssParameter>
+                  <CssParameter name="fill">#8fc6dc</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7fb8d2</CssParameter>
+                  <CssParameter name="stroke">#8fc6dc</CssParameter>
                   <CssParameter name="stroke-width">0.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -522,7 +414,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -543,11 +434,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#96cbdc</CssParameter>
+                  <CssParameter name="fill">#b8dde7</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#96cbdc</CssParameter>
+                  <CssParameter name="stroke">#b8dde7</CssParameter>
                   <CssParameter name="stroke-width">0.8</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -557,7 +448,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -587,12 +477,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>5.75</Size>
+              <Size>6</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -622,12 +511,11 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>6.75</Size>
+              <Size>7.25</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -662,7 +550,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -697,7 +584,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
@@ -721,7 +607,34 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>13.5</Size>
+              <Size>14</Size>
+            </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+          </PointSymbolizer>
+        </Rule>
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>observation_count</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"> #8c8c8c</CssParameter>
+                  <CssParameter name="fill-opacity">0.65</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
+                  <CssParameter name="stroke-width">0.8</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>2</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
@@ -741,11 +654,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5b82b5</CssParameter>
+                  <CssParameter name="fill">#4575b4</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5b82b5</CssParameter>
+                  <CssParameter name="stroke">#4575b4</CssParameter>
                   <CssParameter name="stroke-width">1.0</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -754,7 +667,6 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>2 - 3</Title>
           <ogc:Filter>
@@ -776,11 +688,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#6f9fc8</CssParameter>
+                  <CssParameter name="fill">#74add1</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#6f9fc8</CssParameter>
+                  <CssParameter name="stroke">#74add1</CssParameter>
                   <CssParameter name="stroke-width">1.0</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -789,7 +701,6 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>4 - 6</Title>
           <ogc:Filter>
@@ -811,11 +722,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7fb8d2</CssParameter>
+                  <CssParameter name="fill">#8fc6dc</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7fb8d2</CssParameter>
+                  <CssParameter name="stroke">#8fc6dc</CssParameter>
                   <CssParameter name="stroke-width">1.0</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -824,7 +735,6 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>7 - 10</Title>
           <ogc:Filter>
@@ -846,11 +756,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#96cbdc</CssParameter>
+                  <CssParameter name="fill">#b8dde7</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#96cbdc</CssParameter>
+                  <CssParameter name="stroke">#b8dde7</CssParameter>
                   <CssParameter name="stroke-width">1.0</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -859,7 +769,6 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>11 - 15</Title>
           <ogc:Filter>
@@ -890,11 +799,10 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>7.25</Size>
+              <Size>7.5</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>16 - 25</Title>
           <ogc:Filter>
@@ -925,11 +833,10 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>8.5</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>26 - 50</Title>
           <ogc:Filter>
@@ -960,11 +867,10 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>10.75</Size>
+              <Size>11</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>51 - 100</Title>
           <ogc:Filter>
@@ -999,7 +905,6 @@
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>100+</Title>
           <ogc:Filter>
@@ -1024,16 +929,22 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>17</Size>
+              <Size>17.5</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <Title>---------------------</Title>
         </Rule>
         <Rule>
           <Title>Not recorded</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>observation_count</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1050,7 +961,6 @@
               </Mark>
               <Size>2.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">legendOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
         <Rule>
@@ -1066,11 +976,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#5b82b5</CssParameter>
+                  <CssParameter name="fill">#4575b4</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#5b82b5</CssParameter>
+                  <CssParameter name="stroke">#4575b4</CssParameter>
                   <CssParameter name="stroke-width">1.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -1080,7 +990,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1100,11 +1009,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#6f9fc8</CssParameter>
+                  <CssParameter name="fill">#74add1</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#6f9fc8</CssParameter>
+                  <CssParameter name="stroke">#74add1</CssParameter>
                   <CssParameter name="stroke-width">1.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -1114,7 +1023,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1134,11 +1042,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7fb8d2</CssParameter>
+                  <CssParameter name="fill">#8fc6dc</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#7fb8d2</CssParameter>
+                  <CssParameter name="stroke">#8fc6dc</CssParameter>
                   <CssParameter name="stroke-width">1.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -1148,7 +1056,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1168,11 +1075,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#96cbdc</CssParameter>
+                  <CssParameter name="fill">#b8dde7</CssParameter>
                   <CssParameter name="fill-opacity">0.8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#96cbdc</CssParameter>
+                  <CssParameter name="stroke">#b8dde7</CssParameter>
                   <CssParameter name="stroke-width">1.2</CssParameter>
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
@@ -1182,7 +1089,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1216,7 +1122,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1250,7 +1155,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1284,7 +1188,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:And>
@@ -1318,7 +1221,6 @@
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
@@ -1341,12 +1243,37 @@
                   <CssParameter name="stroke-opacity">1</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>23.75</Size>
+              <Size>24</Size>
             </Graphic>
             <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
         </Rule>
-
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>observation_count</ogc:PropertyName>
+            </ogc:PropertyIsNull>
+          </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"> #8c8c8c</CssParameter>
+                  <CssParameter name="fill-opacity">0.65</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke"> #8c8c8c</CssParameter>
+                  <CssParameter name="stroke-width">1.2</CssParameter>
+                  <CssParameter name="stroke-opacity">1</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>3.5</Size>
+            </Graphic>
+            <VendorOption name="inclusion">mapOnly</VendorOption>
+          </PointSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
