@@ -24,11 +24,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8517f7</CssParameter>
+                  <CssParameter name="fill">#95508a</CssParameter>
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#8517f7</CssParameter>
+                  <CssParameter name="stroke">#95508a</CssParameter>
                   <CssParameter name="stroke-width">0.6</CssParameter>
                 </Stroke>                
               </Mark>
@@ -154,11 +154,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8517f7</CssParameter>
+                  <CssParameter name="fill">#95508a</CssParameter>
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#8517f7</CssParameter>
+                  <CssParameter name="stroke">#95508a</CssParameter>
                   <CssParameter name="stroke-width">0.8</CssParameter>
                 </Stroke>                
               </Mark>
@@ -288,11 +288,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8517f7</CssParameter>
+                  <CssParameter name="fill">#95508a</CssParameter>
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#8517f7</CssParameter>
+                  <CssParameter name="stroke">#95508a</CssParameter>
                   <CssParameter name="stroke-width">1.0</CssParameter>
                 </Stroke>                
               </Mark>
@@ -400,7 +400,7 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	
         </Rule>
 
-        <!-- Zoom 10,000,000 to 5,000,000 -->
+        <!-- Zoom < 5,000,000 -->
         <Rule>
           <Title>Seabirds</Title>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>  
@@ -421,11 +421,11 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8517f7</CssParameter>
+                  <CssParameter name="fill">#95508a</CssParameter>
                   <CssParameter name="fill-opacity">0.7</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#8517f7</CssParameter>
+                  <CssParameter name="stroke">#95508a</CssParameter>
                   <CssParameter name="stroke-width">1.2</CssParameter>
                 </Stroke>                
               </Mark>

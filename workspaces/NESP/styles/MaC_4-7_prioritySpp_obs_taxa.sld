@@ -1392,7 +1392,7 @@
         </Rule>
 
         <Rule>
-          <Title>Gould&apos;s Petrel</Title>
+          <Title>Gould's Petrel</Title>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -1527,10 +1527,7 @@
         </Rule>
 
 
-        <!-- Migratory shorebirds -->
-        <Rule>
-          <Title>----------</Title>  
-        </Rule>         
+        <!-- Migratory shorebirds -->        
         <Rule>
           <Title>Curlew Sandpiper</Title>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
@@ -1640,10 +1637,7 @@
         </Rule>
 
 
-        <!-- Migratory parrots -->
-        <Rule>
-          <Title>----------</Title>  
-        </Rule>         
+        <!-- Migratory parrots -->        
         <Rule>
           <Title>Orange-bellied Parrot</Title>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
@@ -1699,10 +1693,7 @@
         </Rule>
 
 
-        <!-- Whales -->
-        <Rule>
-          <Title>----------</Title>  
-        </Rule>          
+        <!-- Whales -->         
         <Rule>
           <Title>Blue Whale</Title>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
