@@ -6,7 +6,6 @@
       
         <!-- Zoom > 30,000,000 -->
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>            
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -19,6 +18,7 @@
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>                      
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -39,7 +39,6 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>                      
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -60,6 +59,7 @@
               </ogc:PropertyIsLike>              
             </ogc:Or>              
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>                                
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -80,13 +80,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>                                
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>                                          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -107,13 +107,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>                                
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>                                          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -135,8 +135,6 @@
         
         <!-- Zoom 30,000,000 to 10,000,000 -->
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>  
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -149,6 +147,8 @@
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -169,8 +169,6 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>  
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -191,6 +189,8 @@
               </ogc:PropertyIsLike>              
             </ogc:Or>              
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -210,15 +210,15 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	          
         </Rule>
 
-        <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>                               
+        <Rule>                           
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -238,15 +238,15 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	          
         </Rule>
 
-        <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>                                
+        <Rule>                              
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -269,8 +269,6 @@
         <!-- Zoom 10,000,000 to 5,000,000 -->
         <Rule>
           <Title>Seabirds</Title>
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>  
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -283,6 +281,8 @@
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -303,8 +303,6 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>  
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -325,6 +323,8 @@
               </ogc:PropertyIsLike>              
             </ogc:Or>              
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -344,15 +344,15 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	          
         </Rule>
 
-        <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>                                
+        <Rule>                              
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -372,15 +372,15 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	          
         </Rule>
 
-        <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>                                 
+        <Rule>                               
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -397,13 +397,12 @@
               <Size>5</Size>
             </Graphic>
           </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>	
+          <VendorOption name="inclusion">mapOnly</VendorOption>	                    
         </Rule>
 
         <!-- Zoom < 5,000,000 -->
         <Rule>
           <Title>Seabirds</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>  
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -416,6 +415,7 @@
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -436,7 +436,6 @@
 
         <Rule>
           <Title>Migratory shorebirds</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>  
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
@@ -457,6 +456,7 @@
               </ogc:PropertyIsLike>              
             </ogc:Or>              
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -477,13 +477,13 @@
 
         <Rule>
           <Title>Migratory parrots</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                 
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -504,13 +504,13 @@
 
         <Rule>
           <Title>Whales</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>                                  
           <ogc:Filter>
             <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>            
           <PointSymbolizer>
             <Graphic>
               <Mark>

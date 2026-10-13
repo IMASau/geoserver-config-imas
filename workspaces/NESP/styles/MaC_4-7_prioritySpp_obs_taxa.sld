@@ -7,13 +7,13 @@
         <!-- Zoom > 30,000,000 -->
         <!-- Seabirds -->
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -34,13 +34,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -61,13 +61,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -88,13 +88,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -115,13 +115,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -142,13 +142,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -171,13 +171,13 @@
 
         <!-- Migratory shorebirds -->
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -198,13 +198,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -225,13 +225,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -252,13 +252,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -281,13 +281,13 @@
 
         <!-- Migratory parrots -->
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -308,13 +308,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -337,13 +337,13 @@
 
         <!-- Whales -->
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -364,13 +364,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -391,13 +391,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -418,13 +418,13 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>30000000</MinScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -449,14 +449,14 @@
         <!-- Zoom 30,000,000 to 10,000,000 -->
         <!-- Seabirds -->
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -477,14 +477,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -505,14 +505,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -533,14 +533,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -561,14 +561,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -589,14 +589,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -619,14 +619,14 @@
 
         <!-- Migratory shorebirds -->
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -647,14 +647,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -675,14 +675,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -703,14 +703,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -733,14 +733,14 @@
 
         <!-- Migratory parrots -->
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -761,14 +761,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -791,14 +791,14 @@
 
         <!-- Whales -->
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -819,14 +819,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -847,14 +847,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -875,14 +875,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>10000000</MinScaleDenominator>
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -907,14 +907,14 @@
         <!-- Zoom 10,000,000 to 5,000,000 -->
         <!-- Seabirds -->
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -935,14 +935,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -963,14 +963,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -991,14 +991,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1019,14 +1019,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1047,14 +1047,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1077,14 +1077,14 @@
 
         <!-- Migratory shorebirds -->
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1105,14 +1105,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1133,14 +1133,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1161,14 +1161,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1191,14 +1191,14 @@
 
         <!-- Migratory parrots -->
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1219,14 +1219,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1249,14 +1249,14 @@
 
         <!-- Whales -->
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1277,14 +1277,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1305,14 +1305,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1333,14 +1333,14 @@
         </Rule>
 
         <Rule>
-          <MinScaleDenominator>5000000</MinScaleDenominator>
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1366,13 +1366,13 @@
         <!-- Seabirds -->
         <Rule>
           <Title>Amsterdam Albatross</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1393,13 +1393,13 @@
 
         <Rule>
           <Title>Gould's Petrel</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1420,13 +1420,13 @@
 
         <Rule>
           <Title>Gray-headed Albatross</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1447,13 +1447,13 @@
 
         <Rule>
           <Title>Northern Royal Albatross</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1474,13 +1474,13 @@
 
         <Rule>
           <Title>Shy Albatross</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1501,13 +1501,13 @@
 
         <Rule>
           <Title>Southern Giant-Petrel</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1530,13 +1530,13 @@
         <!-- Migratory shorebirds -->        
         <Rule>
           <Title>Curlew Sandpiper</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1557,13 +1557,13 @@
 
         <Rule>
           <Title>Far Eastern Curlew</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1584,13 +1584,13 @@
 
         <Rule>
           <Title>Lesser Sand Plover</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1611,13 +1611,13 @@
 
         <Rule>
           <Title>Red Knot</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1640,13 +1640,13 @@
         <!-- Migratory parrots -->        
         <Rule>
           <Title>Orange-bellied Parrot</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1667,13 +1667,13 @@
 
         <Rule>
           <Title>Swift Parrot</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1696,13 +1696,13 @@
         <!-- Whales -->         
         <Rule>
           <Title>Blue Whale</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1723,13 +1723,13 @@
 
         <Rule>
           <Title>Humpback Whale</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1750,13 +1750,13 @@
 
         <Rule>
           <Title>Pygmy Blue Whale</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -1777,13 +1777,13 @@
 
         <Rule>
           <Title>Southern Right Whale</Title>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>display_common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
