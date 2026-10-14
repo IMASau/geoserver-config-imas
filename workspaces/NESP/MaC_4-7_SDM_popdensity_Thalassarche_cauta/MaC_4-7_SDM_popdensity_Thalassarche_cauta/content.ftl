@@ -134,9 +134,9 @@
   </#if>
 
   <#-- Highest SLD break is where the bar becomes yellow.
-       Bar width continues increasing above second-last value and
+       Bar width continues increasing above last value and
        asymptotically approaches maxBarWidth. -->
-  <#assign compression = breaks[6] / 3>
+  <#assign compression = breaks[7] / 4>
 
   <#-- Popup values are displayed per 1,000 km2. -->
   <#assign displayThreshold = popupThreshold * 1000>
@@ -157,24 +157,13 @@
   </#list>
 
   <#if showPopup>
-
     <div class="feature" style="padding-top:5px; padding-bottom:2px;">
+      <h5 style="padding-bottom:6px; margin:0;">Seabird population density</h5>
+      <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
-      <h5 style="padding-bottom:6px; margin:0;">
-        Estimated seabird population density
-      </h5>
-
-      <h6 style="margin:0 0 5px 0;">
-        ${commonName}
-        <span style="font-style:italic;">(${scientificName})</span>
-      </h6>
-
-      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
-        Estimated individuals per 1,000 km<sup>2</sup>
-      </div>
+      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">Estimated individuals per 1,000 km<sup>2</sup></div>
 
       <#list periods as p>
-
         <#assign label = p[0]>
         <#assign value = feature[p[1]].value?number>
 
@@ -247,14 +236,12 @@
 
             <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
 
-              <#if value gt 0 && value lt popupThreshold>
+              <#if value lt popupThreshold>
 
                 <span style="color:#660000;">
                   &lt;<#if displayThreshold lt 0.001>${displayThreshold?string("0.0000")}<#elseif displayThreshold lt 0.01>${displayThreshold?string("0.000")}<#elseif displayThreshold lt 1>${displayThreshold?string("0.00")}<#else>${displayThreshold?string("0.0")}</#if>
                 </span>
 
-              <#elseif value == 0>
-                0
               <#elseif displayValue lt 0.001>
                 ${displayValue?string("0.0000")}
               <#elseif displayValue lt 0.01>
