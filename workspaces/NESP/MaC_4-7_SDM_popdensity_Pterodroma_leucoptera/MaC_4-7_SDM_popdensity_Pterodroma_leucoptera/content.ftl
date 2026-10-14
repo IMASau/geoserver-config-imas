@@ -111,7 +111,7 @@
 
             <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
               <#if value lt popupThreshold>
-                <span style="color:#660000;">&lt;<#if displayThreshold lt 0.01>${displayThreshold?string("0.000")}<#elseif displayThreshold lt 0.1>${displayThreshold?string("0.00")}<#elseif displayThreshold lt 1>${displayThreshold?string("0.0")}<#else>${displayThreshold?string("0")}</#if></span>
+                <span style="color:#660000;">&lt;<#if displayThreshold lt 0.01>${displayThreshold?string("0.000")}<#elseif displayThreshold lt 0.1>${displayThreshold?string("0.00")}<#else>${displayThreshold?string("0.0")}</#if></span>
               <#elseif displayValue lt 0.001>
                 ${displayValue?string("0.0000")}
               <#elseif displayValue lt 0.01>
