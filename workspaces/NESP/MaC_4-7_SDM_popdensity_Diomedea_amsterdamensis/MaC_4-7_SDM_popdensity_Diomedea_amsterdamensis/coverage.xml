@@ -1,21 +1,21 @@
 <coverage>
-  <id>CoverageInfoImpl--605439af:1a137be543b:934</id>
-  <name>MaC_4-7_SDM_popdensity_Thalassarche_chrysostoma</name>
-  <nativeName>MaC_4-7_SDM_popdensity_Thalassarche_chrysostoma</nativeName>
+  <id>CoverageInfoImpl--605439af:1a138638daa:-2f94</id>
+  <name>MaC_4-7_SDM_popdensity_Diomedea_amsterdamensis</name>
+  <nativeName>MaC_4-7_SDM_popdensity_Diomedea_amsterdamensis</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-6a14d715:18f95ad014a:3c47</id>
+    <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Distribution of Gray-headed albatross: monthly population density (NESP MaC 4.7)</title>
+  <title>Distribution of Amsterdam albatross: monthly population density (NESP MaC 4.7)</title>
   <description>Generated from GeoTIFF</description>
   <abstract>Seabirds range widely across the Southern Hemisphere, with distributions changing through the year as birds move between breeding, foraging and migration areas. Understanding where priority species are most likely to occur is important for assessing potential exposure to offshore activities, including offshore wind development.&#xd;
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled the distributions of seven priority seabird species using an integrated space-time model that combines observations from multiple data sources and survey types. The models estimate seasonal changes in distribution across the Southern Hemisphere on a 5 km equal-area grid.&#xd;
 &#xd;
-This layer shows the estimated monthly population density of Gray-headed albatross (Thalassarche chrysostoma), with 2024 used as the reference year for the modelled annual cycle. Population density was calculated by scaling the modelled proportion of the adult population within each 5 × 5 km grid cell by the estimated size of the Southern hemisphere adult population, and is expressed as estimated individuals per square kilometer. An additional derived annual mean surface represents the mean of the 12 monthly density estimates.&#xd;
+This layer shows the estimated monthly population density of Amsterdam albatross (Diomedea amsterdamensis), with 2024 used as the reference year for the modelled annual cycle. Population density was calculated by scaling the modelled proportion of the adult population within each 5 × 5 km grid cell by the estimated size of the Southern hemisphere adult population, and is expressed as estimated individuals per square kilometer. An additional derived annual mean surface represents the mean of the 12 monthly density estimates.&#xd;
 &#xd;
 Select from the available styles to navigate between estimated population densities for each month.</abstract>
   <keywords>
-    <string>Gray_headed_Albatross_individuals_per_km2</string>
+    <string>Amsterdam_Albatross_individuals_per_km2</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
@@ -60,10 +60,10 @@ Select from the available styles to navigate between estimated population densit
   <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">MaC_4-7_SDM_popdensity_Thalassarche_chrysostoma_Gray_headed_Albatross_individuals_per_km2</entry>
+    <entry key="dirName">MaC_4-7_SDM_popdensity_Diomedea_amsterdamensis_Amsterdam_Albatross_individuals_per_km2</entry>
   </metadata>
   <store class="coverageStore">
-    <id>CoverageStoreInfoImpl--605439af:1a137be543b:933</id>
+    <id>CoverageStoreInfoImpl--605439af:1a138244b75:6a50</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
@@ -306,5 +306,5 @@ Select from the available styles to navigate between estimated population densit
       <string>512,512</string>
     </entry>
   </parameters>
-  <nativeCoverageName>Gray_headed_Albatross_individuals_per_km2</nativeCoverageName>
+  <nativeCoverageName>Amsterdam_Albatross_individuals_per_km2</nativeCoverageName>
 </coverage>

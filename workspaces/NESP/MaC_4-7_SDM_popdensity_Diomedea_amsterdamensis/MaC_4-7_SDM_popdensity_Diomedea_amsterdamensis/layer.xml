@@ -1,0 +1,16 @@
+<layer>
+  <name>MaC_4-7_SDM_popdensity_Diomedea_amsterdamensis</name>
+  <id>LayerInfoImpl--605439af:1a138638daa:-2f93</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--605439af:1a138244b75:5f19</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--605439af:1a138638daa:-2f94</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-14 03:10:28.129 UTC</dateCreated>
+</layer>
