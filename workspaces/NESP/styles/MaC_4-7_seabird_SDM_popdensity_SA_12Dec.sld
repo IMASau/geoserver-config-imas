@@ -26,9 +26,9 @@
               <ColorMapEntry color="#365C8D" quantity="0.0001" />
               <ColorMapEntry color="#277F8E" quantity="0.0002" />
               <ColorMapEntry color="#1FA187" quantity="0.0005" />
-              <ColorMapEntry color="#4AC16D" quantity="0.001" />
+              <ColorMapEntry color="#4AC16D" quantity="0.002" />
               <ColorMapEntry color="#A0DA39" quantity="0.01" />
-              <ColorMapEntry color="#FDE725" quantity="0.03" />
+              <ColorMapEntry color="#FDE725" quantity="0.05" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -39,9 +39,9 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Individuals per 1,000 km&#xB2;" />
-              <ColorMapEntry color="#FDE725" quantity="0.03" label="   30+" />
+              <ColorMapEntry color="#FDE725" quantity="0.05" label="   50+" />
               <ColorMapEntry color="#A0DA39" quantity="0.01" label="   10" />
-              <ColorMapEntry color="#4AC16D" quantity="0.001" label="   1" />
+              <ColorMapEntry color="#4AC16D" quantity="0.002" label="   2" />
               <ColorMapEntry color="#1FA187" quantity="0.0005" label="   0.5" />
               <ColorMapEntry color="#277F8E" quantity="0.0002" label="   0.2" />
               <ColorMapEntry color="#365C8D" quantity="0.0001" label="   0.1" />

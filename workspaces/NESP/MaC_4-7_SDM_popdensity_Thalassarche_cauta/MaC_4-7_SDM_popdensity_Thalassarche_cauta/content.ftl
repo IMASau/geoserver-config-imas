@@ -21,7 +21,7 @@
   ]>
 
   <#-- =========================================================
-       SPECIES
+       SPECIES CONFIGURATION
        ========================================================= -->
 
   <#assign scientificName = type.name?replace("MaC_4-7_SDM_popdensity_", "")?replace("_", " ")>
@@ -96,9 +96,9 @@
       0.0001,
       0.0002,
       0.0005,
-      0.001,
+      0.002,
       0.01,
-      0.03
+      0.05
     ]>
 
   <#elseif scientificName == "Macronectes giganteus">
@@ -133,16 +133,16 @@
 
   </#if>
 
-  <#-- Yellow starts at the highest colour break.
-       Bars continue growing until four times that value. -->
-  <#assign colourMax = breaks[7]>
-  <#assign barMax = colourMax * 4>
-  <#assign compression = colourMax>
+  <#-- Highest SLD break is where the bar becomes yellow.
+       Bar width continues increasing above second-last value and
+       asymptotically approaches maxBarWidth. -->
+  <#assign compression = breaks[6] / 3>
 
+  <#-- Popup values are displayed per 1,000 km2. -->
   <#assign displayThreshold = popupThreshold * 1000>
 
   <#-- =========================================================
-       DOES THIS LOCATION HAVE ANY DISPLAYABLE DATA?
+       CHECK WHETHER POPUP SHOULD BE SHOWN
        ========================================================= -->
 
   <#assign showPopup = false>
@@ -182,19 +182,15 @@
 
           <#-- ===================================================
                BAR WIDTH
+
+               No finite maximum is imposed. As density increases,
+               the bar approaches maxBarWidth but is not explicitly
+               capped at a particular population-density value.
                =================================================== -->
 
           <#if value gte popupThreshold>
 
-            <#assign scaledValue =
-              (value / (value + compression))
-              /
-              (barMax / (barMax + compression))
-            >
-
-            <#if scaledValue gt 1>
-              <#assign scaledValue = 1>
-            </#if>
+            <#assign scaledValue = value / (value + compression)>
 
             <#assign width =
               minBarWidth
@@ -210,8 +206,9 @@
 
           <#-- ===================================================
                BAR COLOUR
-               Approximate midpoint colours between the SLD stops.
-               The break values vary by species; colours do not.
+
+               Same Viridis ramp for every species.
+               Numeric breakpoints vary by species.
                =================================================== -->
 
           <#if value lt breaks[0]>
@@ -234,8 +231,8 @@
             <#assign colour = "#FDE725">
           </#if>
 
-          <#-- Raster is individuals/km2.
-               Popup displays individuals/1,000 km2. -->
+          <#-- Raster values are individuals/km2.
+               Display values are individuals/1,000 km2. -->
           <#assign displayValue = value * 1000>
 
           <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Annual'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
@@ -257,25 +254,15 @@
                 </span>
 
               <#elseif value == 0>
-
                 0
-
               <#elseif displayValue lt 0.001>
-
                 ${displayValue?string("0.0000")}
-
               <#elseif displayValue lt 0.01>
-
                 ${displayValue?string("0.000")}
-
               <#elseif displayValue lt 1>
-
                 ${displayValue?string("0.00")}
-
               <#else>
-
                 ${displayValue?string("0.0")}
-
               </#if>
 
             </span>
