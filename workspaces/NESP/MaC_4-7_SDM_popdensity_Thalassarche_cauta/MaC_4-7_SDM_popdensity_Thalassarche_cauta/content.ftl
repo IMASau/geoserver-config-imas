@@ -5,151 +5,51 @@
   <#assign indent = 37>
 
   <#assign periods = [
-    ["Jan", "January"],
-    ["Feb", "February"],
-    ["Mar", "March"],
-    ["Apr", "April"],
-    ["May", "May"],
-    ["Jun", "June"],
-    ["Jul", "July"],
-    ["Aug", "August"],
-    ["Sep", "September"],
-    ["Oct", "October"],
-    ["Nov", "November"],
-    ["Dec", "December"],
+    ["Jan", "January"], ["Feb", "February"], ["Mar", "March"],
+    ["Apr", "April"], ["May", "May"], ["Jun", "June"],
+    ["Jul", "July"], ["Aug", "August"], ["Sep", "September"],
+    ["Oct", "October"], ["Nov", "November"], ["Dec", "December"],
     ["Annual", "Annual_mean"]
   ]>
-
-  <#-- =========================================================
-       SPECIES CONFIGURATION
-       ========================================================= -->
 
   <#assign scientificName = type.name?replace("MaC_4-7_SDM_popdensity_", "")?replace("_", " ")>
 
   <#if scientificName == "Diomedea amsterdamensis">
-
     <#assign commonName = "Amsterdam albatross">
-    <#assign popupThreshold = 0.0000005>
-    <#assign breaks = [
-      0.000001,
-      0.000002,
-      0.000005,
-      0.00001,
-      0.00002,
-      0.00003,
-      0.00006,
-      0.00012
-    ]>
-
+    <#assign breaks = [0.000001, 0.000002, 0.000005, 0.00001, 0.00002, 0.00003, 0.00006, 0.00012]>
   <#elseif scientificName == "Pterodroma leucoptera">
-
     <#assign commonName = "Gould's petrel">
-    <#assign popupThreshold = 0.00001>
-    <#assign breaks = [
-      0.00002,
-      0.00005,
-      0.0001,
-      0.0002,
-      0.0005,
-      0.001,
-      0.002,
-      0.005
-    ]>
-
+    <#assign breaks = [0.00002, 0.00005, 0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.005]>
   <#elseif scientificName == "Thalassarche chrysostoma">
-
     <#assign commonName = "Gray-headed albatross">
-    <#assign popupThreshold = 0.0005>
-    <#assign breaks = [
-      0.001,
-      0.002,
-      0.005,
-      0.01,
-      0.015,
-      0.02,
-      0.03,
-      0.045
-    ]>
-
+    <#assign breaks = [0.001, 0.002, 0.005, 0.01, 0.015, 0.02, 0.03, 0.045]>
   <#elseif scientificName == "Diomedea sanfordi">
-
     <#assign commonName = "Northern royal albatross">
-    <#assign popupThreshold = 0.000005>
-    <#assign breaks = [
-      0.00001,
-      0.00002,
-      0.00005,
-      0.0001,
-      0.0002,
-      0.0005,
-      0.0015,
-      0.004
-    ]>
-
+    <#assign breaks = [0.00001, 0.00002, 0.00005, 0.0001, 0.0002, 0.0005, 0.0015, 0.004]>
   <#elseif scientificName == "Thalassarche cauta">
-
     <#assign commonName = "Shy albatross">
-    <#assign popupThreshold = 0.00001>
-    <#assign breaks = [
-      0.00002,
-      0.00005,
-      0.0001,
-      0.0002,
-      0.0005,
-      0.002,
-      0.01,
-      0.05
-    ]>
-
+    <#assign breaks = [0.00002, 0.00005, 0.0001, 0.0002, 0.0005, 0.002, 0.01, 0.05]>
   <#elseif scientificName == "Macronectes giganteus">
-
     <#assign commonName = "Southern giant petrel">
-    <#assign popupThreshold = 0.00005>
-    <#assign breaks = [
-      0.0001,
-      0.0002,
-      0.0005,
-      0.001,
-      0.002,
-      0.004,
-      0.006,
-      0.01
-    ]>
-
+    <#assign breaks = [0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.004, 0.006, 0.01]>
   <#else>
-
     <#assign commonName = scientificName>
-    <#assign popupThreshold = 0>
-    <#assign breaks = [
-      0.000001,
-      0.000002,
-      0.000005,
-      0.00001,
-      0.00002,
-      0.00003,
-      0.00006,
-      0.00012
-    ]>
-
+    <#assign breaks = [0.000001, 0.000002, 0.000005, 0.00001, 0.00002, 0.00003, 0.00006, 0.00012]>
   </#if>
 
-  <#-- Highest SLD break is where the bar becomes yellow.
-       Bar width continues increasing above last value and
-       asymptotically approaches maxBarWidth. -->
+  <#-- Lowest coloured SLD value defines popup/display threshold -->
+  <#assign popupThreshold = breaks[0]>
+
+  <#-- Controls how quickly bars approach maximum width -->
   <#assign compression = breaks[7] / 4>
 
-  <#-- Popup values are displayed per 1,000 km2. -->
+  <#-- Threshold expressed in popup units -->
   <#assign displayThreshold = popupThreshold * 1000>
 
-  <#-- =========================================================
-       CHECK WHETHER POPUP SHOULD BE SHOWN
-       ========================================================= -->
-
+  <#-- Popup only appears if at least one period reaches the lowest legend value -->
   <#assign showPopup = false>
-
   <#list periods as p>
     <#assign checkValue = feature[p[1]].value?number>
-
     <#if !(checkValue?is_nan) && checkValue gte popupThreshold>
       <#assign showPopup = true>
       <#break>
@@ -157,11 +57,14 @@
   </#list>
 
   <#if showPopup>
+
     <div class="feature" style="padding-top:5px; padding-bottom:2px;">
       <h5 style="padding-bottom:6px; margin:0;">Seabird population density</h5>
       <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
-      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">Estimated individuals per 1,000 km<sup>2</sup></div>
+      <div style="margin:0 0 6px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
+        Estimated individuals per 1,000 km<sup>2</sup>
+      </div>
 
       <#list periods as p>
         <#assign label = p[0]>
@@ -169,36 +72,13 @@
 
         <#if !(value?is_nan)>
 
-          <#-- ===================================================
-               BAR WIDTH
-
-               No finite maximum is imposed. As density increases,
-               the bar approaches maxBarWidth but is not explicitly
-               capped at a particular population-density value.
-               =================================================== -->
-
-          <#if value gte popupThreshold>
-
+          <#-- Every positive value gets at least minBarWidth; true zero gets no bar -->
+          <#if value gt 0>
             <#assign scaledValue = value / (value + compression)>
-
-            <#assign width =
-              minBarWidth
-              +
-              (maxBarWidth - minBarWidth) * scaledValue
-            >
-
+            <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>
           <#else>
-
             <#assign width = 0>
-
           </#if>
-
-          <#-- ===================================================
-               BAR COLOUR
-
-               Same Viridis ramp for every species.
-               Numeric breakpoints vary by species.
-               =================================================== -->
 
           <#if value lt breaks[0]>
             <#assign colour = "#2c014f">
@@ -220,28 +100,18 @@
             <#assign colour = "#FDE725">
           </#if>
 
-          <#-- Raster values are individuals/km2.
-               Display values are individuals/1,000 km2. -->
           <#assign displayValue = value * 1000>
 
-          <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Annual'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic;</#if>">
-
-            <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">
-              ${label}
-            </span>
+          <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Annual'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic; color:#666;</#if>">
+            <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">${label}</span>
 
             <div style="width:${maxBarWidth}px; height:10px;">
               <div style="width:${width}px; height:10px; background-color:${colour};"></div>
             </div>
 
             <span style="width:58px; margin-left:8px; text-align:right; font-variant-numeric:tabular-nums;">
-
               <#if value lt popupThreshold>
-
-                <span style="color:#660000;">
-                  &lt;<#if displayThreshold lt 0.001>${displayThreshold?string("0.0000")}<#elseif displayThreshold lt 0.01>${displayThreshold?string("0.000")}<#elseif displayThreshold lt 1>${displayThreshold?string("0.00")}<#else>${displayThreshold?string("0.0")}</#if>
-                </span>
-
+                <span style="color:#660000;">&lt;<#if displayThreshold lt 0.01>${displayThreshold?string("0.000")}<#elseif displayThreshold lt 0.1>${displayThreshold?string("0.00")}<#elseif displayThreshold lt 1>${displayThreshold?string("0.0")}<#else>${displayThreshold?string("0")}</#if></span>
               <#elseif displayValue lt 0.001>
                 ${displayValue?string("0.0000")}
               <#elseif displayValue lt 0.01>
@@ -251,19 +121,15 @@
               <#else>
                 ${displayValue?string("0.0")}
               </#if>
-
             </span>
-
           </div>
 
         </#if>
-
       </#list>
 
     </div>
 
     <#break>
-
   </#if>
 
 </#list>
