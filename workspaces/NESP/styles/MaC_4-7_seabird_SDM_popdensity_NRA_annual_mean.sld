@@ -25,7 +25,7 @@
               <ColorMapEntry color="#46327E" quantity="0.00002" />
               <ColorMapEntry color="#365C8D" quantity="0.00005" />
               <ColorMapEntry color="#277F8E" quantity="0.0001" />
-              <ColorMapEntry color="#1FA187" quantity="0.00025" />
+              <ColorMapEntry color="#1FA187" quantity="0.0002" />
               <ColorMapEntry color="#4AC16D" quantity="0.0005" />
               <ColorMapEntry color="#A0DA39" quantity="0.0015" />
               <ColorMapEntry color="#FDE725" quantity="0.004" />
@@ -42,7 +42,7 @@
               <ColorMapEntry color="#FDE725" quantity="0.004" label="   4+" />
               <ColorMapEntry color="#A0DA39" quantity="0.0015" label="   1.5" />
               <ColorMapEntry color="#4AC16D" quantity="0.0005" label="   0.5" />
-              <ColorMapEntry color="#1FA187" quantity="0.00025" label="   0.25" />
+              <ColorMapEntry color="#1FA187" quantity="0.0002" label="   0.2" />
               <ColorMapEntry color="#277F8E" quantity="0.0001" label="   0.1" />
               <ColorMapEntry color="#365C8D" quantity="0.00005" label="   0.05" />
               <ColorMapEntry color="#46327E" quantity="0.00002" label="   0.02" />

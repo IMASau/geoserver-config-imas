@@ -7,6 +7,13 @@
   </namespace>
   <title>Distribution of Gray-headed albatross: monthly population density (NESP MaC 4.7)</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>Seabirds range widely across the Southern Hemisphere, with distributions changing through the year as birds move between breeding, foraging and migration areas. Understanding where priority species are most likely to occur is important for assessing potential exposure to offshore activities, including offshore wind development.&#xd;
+&#xd;
+NESP Marine and Coastal Hub Project 4.7 modelled the distributions of seven priority seabird species using an integrated space-time model that combines observations from multiple data sources and survey types. The models estimate seasonal changes in distribution across the Southern Hemisphere on a 5 km equal-area grid.&#xd;
+&#xd;
+This layer shows the estimated monthly population density of Gray-headed albatross (Thalassarche chrysostoma), with 2024 used as the reference year for the modelled annual cycle. Population density was calculated by scaling the modelled proportion of the adult population within each 5 × 5 km grid cell by the estimated size of the Southern hemisphere adult population, and is expressed as estimated individuals per square kilometer. An additional derived annual mean surface represents the mean of the 12 monthly density estimates.&#xd;
+&#xd;
+Select from the available styles to navigate between estimated population densities for each month.</abstract>
   <keywords>
     <string>Gray_headed_Albatross_individuals_per_km2</string>
     <string>WCS</string>
@@ -50,6 +57,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">MaC_4-7_SDM_popdensity_Thalassarche_chrysostoma_Gray_headed_Albatross_individuals_per_km2</entry>
