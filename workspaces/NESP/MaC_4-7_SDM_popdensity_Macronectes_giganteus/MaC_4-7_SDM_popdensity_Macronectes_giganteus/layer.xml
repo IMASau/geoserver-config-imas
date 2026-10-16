@@ -3,7 +3,7 @@
   <id>LayerInfoImpl--605439af:1a138638daa:-2f8e</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--605439af:1a138244b75:6712</id>
+    <id>StyleInfoImpl--605439af:1a138ddaf59:-24a5</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
@@ -31,9 +31,6 @@
       <id>StyleInfoImpl--605439af:1a138ddaf59:-2437</id>
     </style>
     <style>
-      <id>StyleInfoImpl--605439af:1a138244b75:6712</id>
-    </style>
-    <style>
       <id>StyleInfoImpl--605439af:1a138ddaf59:-2439</id>
     </style>
     <style>
@@ -54,5 +51,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-10-14 03:10:55.450 UTC</dateCreated>
-  <dateModified>2026-10-16 21:30:32.963 UTC</dateModified>
+  <dateModified>2026-10-16 22:29:08.86 UTC</dateModified>
 </layer>

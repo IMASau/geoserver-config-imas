@@ -267,20 +267,6 @@ Select from the available styles to navigate between estimated population densit
         <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
-    <coverageDimension>
-      <name>Annual_mean</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>NaN</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
   </dimensions>
   <requestSRS>
     <string>EPSG:3857</string>
