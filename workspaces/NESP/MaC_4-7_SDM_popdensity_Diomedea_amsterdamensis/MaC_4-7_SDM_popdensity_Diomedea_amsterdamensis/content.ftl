@@ -5,11 +5,18 @@
   <#assign indent = 37>
 
   <#assign periods = [
-    ["Jan", "January"], ["Feb", "February"], ["Mar", "March"],
-    ["Apr", "April"], ["May", "May"], ["Jun", "June"],
-    ["Jul", "July"], ["Aug", "August"], ["Sep", "September"],
-    ["Oct", "October"], ["Nov", "November"], ["Dec", "December"],
-    ["Annual", "Annual_mean"]
+    ["Jan", "January"],
+    ["Feb", "February"],
+    ["Mar", "March"],
+    ["Apr", "April"],
+    ["May", "May"],
+    ["Jun", "June"],
+    ["Jul", "July"],
+    ["Aug", "August"],
+    ["Sep", "September"],
+    ["Oct", "October"],
+    ["Nov", "November"],
+    ["Dec", "December"]
   ]>
 
   <#assign scientificName = type.name?replace("MaC_4-7_SDM_popdensity_", "")?replace("_", " ")>
@@ -102,7 +109,7 @@
 
           <#assign displayValue = value * 1000>
 
-          <div style="display:flex; align-items:center; padding-bottom:3px;<#if label == 'Annual'> padding-top:8px; margin-top:5px; border-top:1px solid #ddd; font-style:italic; color:#666;</#if>">
+          <div style="display:flex; align-items:center; padding-bottom:3px;">
             <span style="display:inline-block; width:${indent}px; text-align:right; padding-right:8px; font-size:95%;">${label}</span>
 
             <div style="width:${maxBarWidth}px; height:10px;">

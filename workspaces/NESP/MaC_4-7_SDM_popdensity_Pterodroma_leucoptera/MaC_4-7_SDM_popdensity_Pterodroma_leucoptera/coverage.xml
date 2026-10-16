@@ -11,7 +11,7 @@
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled the distributions of seven priority seabird species using an integrated space-time model that combines observations from multiple data sources and survey types. The models estimate seasonal changes in distribution across the Southern Hemisphere on a 5 km equal-area grid.&#xd;
 &#xd;
-This layer shows the estimated monthly population density of Gould&apos;s petrel (Pterodroma leucoptera), with 2024 used as the reference year for the modelled annual cycle. Population density was calculated by scaling the modelled proportion of the adult population within each 5 × 5 km grid cell by the estimated size of the Southern hemisphere adult population, and is expressed as estimated individuals per square kilometer. An additional derived annual mean surface represents the mean of the 12 monthly density estimates.&#xd;
+This layer shows the estimated monthly population density of Gould&apos;s petrel (Pterodroma leucoptera), with 2024 used as the reference year for the modelled annual cycle. Population density was calculated by scaling the modelled proportion of the adult population within each 5 × 5 km grid cell by the estimated size of the Southern hemisphere adult population, and is expressed as estimated individuals per square kilometer.&#xd;
 &#xd;
 Select from the available styles to navigate between estimated population densities for each month.</abstract>
   <keywords>
