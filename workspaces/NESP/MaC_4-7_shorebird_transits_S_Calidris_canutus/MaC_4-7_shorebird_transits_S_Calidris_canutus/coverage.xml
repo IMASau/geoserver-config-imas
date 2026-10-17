@@ -99,7 +99,7 @@ Select from the available styles to navigate between modelled transit counts for
   <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
-      <name>Band1</name>
+      <name>January</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -113,7 +113,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band2</name>
+      <name>February</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -127,7 +127,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band3</name>
+      <name>March</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -141,7 +141,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band4</name>
+      <name>April</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -155,7 +155,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band5</name>
+      <name>May</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -169,7 +169,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band6</name>
+      <name>June</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -183,7 +183,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band7</name>
+      <name>July</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -197,7 +197,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band8</name>
+      <name>August</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -211,7 +211,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band9</name>
+      <name>September</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -225,7 +225,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band10</name>
+      <name>October</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -239,7 +239,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band11</name>
+      <name>November</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
@@ -253,7 +253,7 @@ Select from the available styles to navigate between modelled transit counts for
       </dimensionType>
     </coverageDimension>
     <coverageDimension>
-      <name>Band12</name>
+      <name>December</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>

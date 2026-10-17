@@ -24,7 +24,6 @@
 
   <#-- Show popup if any month exceeds the threshold -->
   <#assign showPopup = false>
-
   <#list periods as p>
     <#assign checkValue = feature[p[1]].value?number>
     <#if !(checkValue?is_nan) && checkValue gte popupThreshold>
@@ -35,7 +34,22 @@
 
   <#if showPopup>
 
-    <#assign scientificName = type.name?replace("MaC_4-7_shorebird_transits_NS_", "")?replace("_", " ")>
+    <#-- Determine direction from layer name and strip it from species name -->
+    <#assign layerSuffix = type.name?replace("MaC_4-7_shorebird_transits_", "")>
+
+    <#if layerSuffix?starts_with("NS_")>
+      <#assign scientificName = layerSuffix?substring(3)?replace("_", " ")>
+      <#assign crossingsLabel = "Expected crossings per 1 km grid cell (north + south)">
+    <#elseif layerSuffix?starts_with("N_")>
+      <#assign scientificName = layerSuffix?substring(2)?replace("_", " ")>
+      <#assign crossingsLabel = "Expected northward crossings per 1 km grid cell">
+    <#elseif layerSuffix?starts_with("S_")>
+      <#assign scientificName = layerSuffix?substring(2)?replace("_", " ")>
+      <#assign crossingsLabel = "Expected southward crossings per 1 km grid cell">
+    <#else>
+      <#assign scientificName = layerSuffix?replace("_", " ")>
+      <#assign crossingsLabel = "Expected crossings per 1 km grid cell">
+    </#if>
 
     <#if scientificName == "Calidris canutus">
       <#assign commonName = "Red knot">
@@ -53,7 +67,7 @@
       <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
       <div style="margin:0 0 5px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
-        Expected crossings per 1 km grid cell (north + south)
+        ${crossingsLabel}
       </div>
 
       <#assign zeroMonths = 0>
@@ -72,12 +86,11 @@
         <#-- Display positive monthly values only -->
         <#if !(value?is_nan) && value gt 0>
 
-          <#-- Same scale throughout: equal values have equal bar widths.
-               Larger values progressively compress toward the maximum width. -->
+          <#-- Same scale throughout: equal values have equal bar widths -->
           <#assign scaledValue = (value / (value + compression)) / (scaleMax / (scaleMax + compression))>
-          <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>  
+          <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>
 
-          <#-- Monthly SLD stop colours, with class boundaries halfway between stops -->
+          <#-- Approximate monthly SLD ramp using nearest stop colour -->
           <#if value lt 0.505>
             <#assign colour = "#1d548b">
           <#elseif value lt 1.5>
