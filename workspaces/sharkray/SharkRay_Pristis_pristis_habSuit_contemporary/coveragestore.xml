@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--605439af:1a14a6b05c9:e15</id>
+  <name>SharkRay_Pristis_pristis_habSuit_contemporary</name>
+  <description>Shark &amp; Ray National SDM: Pristis pristis (contemporary range)</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-7cf4a2a7:19fe47b087f:62ac</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-10-17 21:15:44.196 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/35916744-f7a6-4dbe-b1e1-f6d213528f0c/per_species/Pristis_pristis__contemporary.tif</url>
+</coverageStore>

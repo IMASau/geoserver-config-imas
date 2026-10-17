@@ -7,13 +7,7 @@
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
-      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ac</id>
-    </style>
-    <style>
       <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ad</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
     </style>
   </styles>
   <resource class="coverage">
@@ -24,4 +18,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-08-10 03:34:19.644 UTC</dateCreated>
+  <dateModified>2026-10-17 21:05:36.208 UTC</dateModified>
 </layer>

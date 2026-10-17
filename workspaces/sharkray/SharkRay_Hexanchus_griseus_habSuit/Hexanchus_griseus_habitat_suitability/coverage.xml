@@ -39,6 +39,7 @@
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
+    <entry key="cachingEnabled">false</entry>
     <entry key="dirName">SharkRay_Hexanchus_griseus_habSuit_Hexanchus_griseus</entry>
   </metadata>
   <store class="coverageStore">
@@ -65,10 +66,6 @@
     <crs>EPSG:4326</crs>
   </grid>
   <supportedFormats>
-    <string>GeoPackage (mosaic)</string>
-    <string>ArcGrid</string>
-    <string>MBTiles</string>
-    <string>ImageMosaic</string>
     <string>GEOTIFF</string>
     <string>GIF</string>
     <string>PNG</string>
