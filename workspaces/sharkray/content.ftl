@@ -7,7 +7,7 @@
 <#if layerName?ends_with("_habitat_suitability_historical")>
   <#assign scenario = "Historical scenario">
 <#elseif layerName?ends_with("_habitat_suitability_contemporary")>
-  <#assign scenario = "Contemporary">
+  <#assign scenario = "Contemporary range">
 </#if>
 
 <#-- Extract scientific name -->
@@ -33,7 +33,7 @@
       <h6 style="margin-bottom:2px; font-style:italic;">${speciesName}</h6>
 
       <#if scenario?has_content>
-        <div style="font-size:11px; color:#777; margin-bottom:4px;">
+        <div style="font-size:10.5px; color:#777; margin-top:5px; margin-bottom:4px;">
           ${scenario}
         </div>
       </#if>
