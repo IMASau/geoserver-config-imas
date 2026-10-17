@@ -11,7 +11,7 @@
 &#xd;
 NESP Marine and Coastal Hub Project 4.7 modelled migration pathways for three priority shorebird species using BirdFlow. The models combine weekly relative-abundance surfaces derived from Australian bird-monitoring data with available telemetry, banding and re-sighting information to simulate seasonal migration across Bass Strait.&#xd;
 &#xd;
-This layer shows the modelled monthly (January-December) combined northward and southward transit counts for Curlew Sandpiper (Calidris ferruginea) on a 1 km grid. Values represent the number of bird passages through each grid cell. An additional derived annual total surface represents the sum of the 12 monthly transit counts.&#xd;
+This layer shows the modelled monthly (January-December) combined northward and southward transit counts for Curlew Sandpiper (Calidris ferruginea) on a 1 km grid. Values represent the number of bird passages through each grid cell.&#xd;
 &#xd;
 Select from the available styles to navigate between modelled transit counts for each month.</abstract>
   <keywords>
@@ -41,17 +41,17 @@ Select from the available styles to navigate between modelled transit counts for
   AUTHORITY[&quot;EPSG&quot;,&quot;32755&quot;]]</nativeCRS>
   <srs>EPSG:32755</srs>
   <nativeBoundingBox>
-    <minx>-1079500.0</minx>
-    <maxx>1490500.0</maxx>
-    <miny>4932500.0</miny>
-    <maxy>7264500.0</maxy>
+    <minx>-500.0</minx>
+    <maxx>800500.0</maxx>
+    <miny>5399500.0</miny>
+    <maxy>5950500.0</maxy>
     <crs class="projected">EPSG:32755</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>127.29727619716249</minx>
-    <maxx>159.58183116271667</maxx>
-    <miny>-45.69838780986886</miny>
-    <maxy>-23.9432393691675</maxy>
+    <minx>141.01387670983178</minx>
+    <maxx>150.60010313356779</maxx>
+    <miny>-41.55546650045494</miny>
+    <maxy>-36.46009599225551</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
@@ -254,20 +254,6 @@ Select from the available styles to navigate between modelled transit counts for
     </coverageDimension>
     <coverageDimension>
       <name>December</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>NaN</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
-      <name>Annual_total</name>
       <description>GridSampleDimension[-Infinity,Infinity]</description>
       <range>
         <min>-inf</min>
