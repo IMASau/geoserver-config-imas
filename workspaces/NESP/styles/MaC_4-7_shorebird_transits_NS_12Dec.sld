@@ -8,7 +8,7 @@
     xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Migratory shorebird transit counts - December total (N + S)</Name>
+    <Name>Migratory shorebird transit counts - December</Name>
 
     <UserStyle>
       <FeatureTypeStyle>
@@ -30,6 +30,8 @@
               <ColorMapEntry color="#f0cb7a" quantity="3" />
               <ColorMapEntry color="#E27F55" quantity="4" />
               <ColorMapEntry color="#C04A58" quantity="5" />
+              <ColorMapEntry color="#8e0b4d" quantity="6" />  
+              <ColorMapEntry color="#65143f" quantity="8" />               
             </ColorMap>
           </RasterSymbolizer>
 
@@ -40,7 +42,9 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#ffffff" quantity="-1" opacity="0.0001" label="No. crossings (N + S)" />
+              <ColorMapEntry color="#ffffff" quantity="-1" opacity="0.0001" label="Expected no. crossings" />
+              <ColorMapEntry color="#65143f" quantity="8" label="   8+" />                            
+              <ColorMapEntry color="#8e0b4d" quantity="6" label="   6" />                
               <ColorMapEntry color="#C04A58" quantity="5" label="   5" />
               <ColorMapEntry color="#E27F55" quantity="4" label="   4" />
               <ColorMapEntry color="#f0cb7a" quantity="3" label="   3" />

@@ -79,18 +79,20 @@
           <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>
 
           <#-- Monthly SLD stop colours, with class boundaries halfway between stops -->
-          <#if value lt 0.5>
+          <#if value lte 1>
             <#assign colour = "#1d548b">
-          <#elseif value lt 1.5>
+          <#elseif value lte 2>
             <#assign colour = "#76be97">
-          <#elseif value lt 2.5>
+          <#elseif value lte 3>
             <#assign colour = "#bfe87c">
-          <#elseif value lt 3.5>
+          <#elseif value lte 4>
             <#assign colour = "#f0cb7a">
-          <#elseif value lt 4.5>
+          <#elseif value lte 5>
             <#assign colour = "#E27F55">
+          <#elseif value lte 6>
+            <#assign colour = "#8e0b4d">           
           <#else>
-            <#assign colour = "#C04A58">
+            <#assign colour = "#65143f">
           </#if>
 
           <div style="display:flex; align-items:center; padding-bottom:3px;">
