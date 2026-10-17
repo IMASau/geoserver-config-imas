@@ -1,6 +1,6 @@
 <layer>
-  <name>Pristis_clavata_habitat_suitability</name>
-  <id>LayerInfoImpl-7cf4a2a7:19fede08e8e:-5a25</id>
+  <name>Pristis_zijsron_habitat_suitability_historical</name>
+  <id>LayerInfoImpl-7cf4a2a7:19fede08e8e:-5a21</id>
   <type>RASTER</type>
   <defaultStyle>
     <id>StyleInfoImpl-7cf4a2a7:19fe47b087f:63ab</id>
@@ -17,11 +17,12 @@
     </style>
   </styles>
   <resource class="coverage">
-    <id>CoverageInfoImpl-7cf4a2a7:19fede08e8e:-5a26</id>
+    <id>CoverageInfoImpl-7cf4a2a7:19fede08e8e:-5a22</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2026-08-10 23:49:55.49 UTC</dateCreated>
+  <dateCreated>2026-08-10 23:51:27.821 UTC</dateCreated>
+  <dateModified>2026-10-17 20:34:40.136 UTC</dateModified>
 </layer>

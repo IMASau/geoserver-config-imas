@@ -1,11 +1,11 @@
 <coverage>
   <id>CoverageInfoImpl-7cf4a2a7:19fede08e8e:-5a26</id>
-  <name>Pristis_clavata_habitat_suitability</name>
-  <nativeName>Pristis_clavata_habitat_suitability</nativeName>
+  <name>Pristis_clavata_habitat_suitability_historical</name>
+  <nativeName>Pristis_clavata_habitat_suitability_historical</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-7cf4a2a7:19fe47b087f:62ad</id>
   </namespace>
-  <title>Shark &amp; Ray National SDM: habitat suitability - Pristis clavata</title>
+  <title>Shark &amp; Ray National SDM: habitat suitability - Pristis clavata (historical scenario)</title>
   <description>Generated from GeoTIFF</description>
   <keywords>
     <string>Pristis_clavata</string>
@@ -40,7 +40,7 @@
   <enabled>true</enabled>
   <metadata>
     <entry key="cachingEnabled">false</entry>
-    <entry key="dirName">SharkRay_Pristis_clavata_habSuit_Pristis_clavata</entry>
+    <entry key="dirName">SharkRay_Pristis_clavata_habSuit_historical_Pristis_clavata_historical</entry>
   </metadata>
   <store class="coverageStore">
     <id>CoverageStoreInfoImpl-7cf4a2a7:19feac3ae32:1ea2</id>
@@ -130,14 +130,6 @@
   </responseSRS>
   <parameters>
     <entry>
-      <string>InputTransparentColor</string>
-      <null/>
-    </entry>
-    <entry>
-      <string>SUGGESTED_TILE_SIZE</string>
-      <string>512,512</string>
-    </entry>
-    <entry>
       <string>Bands</string>
       <null/>
     </entry>
@@ -145,6 +137,14 @@
       <string>RescalePixels</string>
       <boolean>true</boolean>
     </entry>
+    <entry>
+      <string>InputTransparentColor</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
   </parameters>
-  <nativeCoverageName>Pristis_clavata</nativeCoverageName>
+  <nativeCoverageName>Pristis_clavata__historical</nativeCoverageName>
 </coverage>

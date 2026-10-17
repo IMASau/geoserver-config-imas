@@ -96,34 +96,6 @@
         <name>REAL_32BITS</name>
       </dimensionType>
     </coverageDimension>
-    <coverageDimension>
-      <name>HabSuit_err05pct</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>-9999.0</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
-    <coverageDimension>
-      <name>HabSuit_err10pct</name>
-      <description>GridSampleDimension[-Infinity,Infinity]</description>
-      <range>
-        <min>-inf</min>
-        <max>inf</max>
-      </range>
-      <nullValues>
-        <double>-9999.0</double>
-      </nullValues>
-      <dimensionType>
-        <name>REAL_32BITS</name>
-      </dimensionType>
-    </coverageDimension>
   </dimensions>
   <requestSRS>
     <string>EPSG:4326</string>

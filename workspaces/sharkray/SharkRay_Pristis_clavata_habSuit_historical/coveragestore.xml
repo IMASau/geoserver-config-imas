@@ -1,7 +1,7 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-7cf4a2a7:19feac3ae32:1ea2</id>
-  <name>SharkRay_Pristis_clavata_habSuit</name>
-  <description>Shark &amp; Ray National SDM: Pristis clavata</description>
+  <name>SharkRay_Pristis_clavata_habSuit_historical</name>
+  <description>Shark &amp; Ray National SDM: Pristis clavata (historical scenario)</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
@@ -17,6 +17,7 @@
   </metadata>
   <__default>false</__default>
   <dateCreated>2026-08-10 21:27:54.993 UTC</dateCreated>
+  <dateModified>2026-10-17 20:38:42.831 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
-  <url>file:///mnt/rdsi/attachments/35916744-f7a6-4dbe-b1e1-f6d213528f0c/per_species/Pristis_clavata.tif</url>
+  <url>file:///mnt/rdsi/attachments/35916744-f7a6-4dbe-b1e1-f6d213528f0c/per_species/Pristis_clavata__historical.tif</url>
 </coverageStore>

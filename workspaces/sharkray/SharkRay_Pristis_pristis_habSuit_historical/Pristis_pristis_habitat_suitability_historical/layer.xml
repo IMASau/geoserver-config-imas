@@ -1,5 +1,5 @@
 <layer>
-  <name>Pristis_pristis_habitat_suitability</name>
+  <name>Pristis_pristis_habitat_suitability_historical</name>
   <id>LayerInfoImpl-7cf4a2a7:19fede08e8e:-5a23</id>
   <type>RASTER</type>
   <defaultStyle>
@@ -24,4 +24,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-08-10 23:50:41.988 UTC</dateCreated>
+  <dateModified>2026-10-17 20:34:37.262 UTC</dateModified>
 </layer>

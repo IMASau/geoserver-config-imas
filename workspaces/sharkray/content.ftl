@@ -1,5 +1,23 @@
 <#setting number_format="0.000">
 
+<#-- Identify scenario from layer name -->
+<#assign layerName = type.name>
+<#assign scenario = "">
+
+<#if layerName?ends_with("_habitat_suitability_historical")>
+  <#assign scenario = "Historical scenario">
+<#elseif layerName?ends_with("_habitat_suitability_contemporary")>
+  <#assign scenario = "Contemporary">
+</#if>
+
+<#-- Extract scientific name -->
+<#assign speciesName = layerName
+  ?replace("_habitat_suitability_historical", "")
+  ?replace("_habitat_suitability_contemporary", "")
+  ?replace("_habitat_suitability", "")
+  ?replace("_", " ")
+>
+
 <#list features as feature>
 
   <#if feature.Range.value?? && feature.Range.value?number != 0>
@@ -12,7 +30,13 @@
           Suitable Habitat
         </#if>
       </h5>
-      <h6 style="margin-bottom:2px; font-style:italic;">${type.name?replace("_habitat_suitability", "")?replace("_", " ")}</h6>
+      <h6 style="margin-bottom:2px; font-style:italic;">${speciesName}</h6>
+
+      <#if scenario?has_content>
+        <div style="font-size:11px; color:#777; margin-bottom:4px;">
+          ${scenario}
+        </div>
+      </#if>
 
       <#-- Only process suitability values if band 2 exists -->
       <#if feature["HabSuit_err05pct"]??>
@@ -126,8 +150,7 @@
 
         </#if>
       </#if>
-    </#if>
-
-  </div>
+    </div>
+  </#if>
 
 </#list>
