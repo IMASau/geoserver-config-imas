@@ -53,7 +53,7 @@
       <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
       <div style="margin:0 0 5px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
-        Expected crossings per 1 km grid cell
+        Expected crossings per 1 km grid cell (north + south)
       </div>
 
       <#assign zeroMonths = 0>

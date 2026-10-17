@@ -1,0 +1,54 @@
+<layer>
+  <name>MaC_4-7_shorebird_transits_S_Numenius_madagascariensis</name>
+  <id>LayerInfoImpl--605439af:1a1479dc288:-1082</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--605439af:1a128cddd2a:3180</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:318d</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:31bc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:318e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:3192</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:3180</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:3182</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:318f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:3181</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:318b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:318c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:3207</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--605439af:1a128cddd2a:3190</id>
+    </style>
+  </styles>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--605439af:1a1479dc288:-1083</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-17 02:23:43.812 UTC</dateCreated>
+</layer>

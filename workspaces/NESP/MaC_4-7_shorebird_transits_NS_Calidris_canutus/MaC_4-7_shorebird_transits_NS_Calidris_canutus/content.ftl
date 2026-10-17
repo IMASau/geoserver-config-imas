@@ -2,8 +2,8 @@
 
   <#assign maxBarWidth = 155>
   <#assign minBarWidth = 5>
-  <#assign compression = 5>
-  <#assign scaleMax = 7>
+  <#assign compression = 10>
+  <#assign scaleMax = 13>
   <#assign indent = 28>
   <#assign popupThreshold = 0.001>
 
@@ -53,7 +53,7 @@
       <h6 style="margin:0 0 5px 0;">${commonName} <span style="font-style:italic;">(${scientificName})</span></h6>
 
       <div style="margin:0 0 5px ${indent}px; padding-left:8px; font-size:90%; color:#666;">
-        Expected crossings per 1 km grid cell
+        Expected crossings per 1 km grid cell (north + south)
       </div>
 
       <#assign zeroMonths = 0>
@@ -75,22 +75,23 @@
           <#-- Same scale throughout: equal values have equal bar widths.
                Larger values progressively compress toward the maximum width. -->
           <#assign scaledValue = (value / (value + compression)) / (scaleMax / (scaleMax + compression))>
-          <#if scaledValue gt 1><#assign scaledValue = 1></#if>
-          <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>
+          <#assign width = minBarWidth + (maxBarWidth - minBarWidth) * scaledValue>  
 
           <#-- Monthly SLD stop colours, with class boundaries halfway between stops -->
-          <#if value lte 1>
+          <#if value lt 0.505>
             <#assign colour = "#1d548b">
-          <#elseif value lte 2>
+          <#elseif value lt 1.5>
             <#assign colour = "#76be97">
-          <#elseif value lte 3>
+          <#elseif value lt 2.5>
             <#assign colour = "#bfe87c">
-          <#elseif value lte 4>
+          <#elseif value lt 3.5>
             <#assign colour = "#f0cb7a">
-          <#elseif value lte 5>
+          <#elseif value lt 4.5>
             <#assign colour = "#E27F55">
-          <#elseif value lte 6>
-            <#assign colour = "#8e0b4d">           
+          <#elseif value lt 5.5>
+            <#assign colour = "#C04A58">
+          <#elseif value lt 7>
+            <#assign colour = "#8e0b4d">
           <#else>
             <#assign colour = "#65143f">
           </#if>
