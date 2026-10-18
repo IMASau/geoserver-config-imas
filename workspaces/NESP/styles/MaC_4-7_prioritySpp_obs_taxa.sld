@@ -9,7 +9,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -36,7 +36,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -63,7 +63,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -90,7 +90,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -117,7 +117,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -144,7 +144,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -173,7 +173,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -200,7 +200,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -227,7 +227,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -254,7 +254,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -283,7 +283,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -310,7 +310,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -339,7 +339,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -366,7 +366,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -393,7 +393,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -420,7 +420,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -451,7 +451,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -479,7 +479,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -507,7 +507,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -535,7 +535,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -563,7 +563,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -591,7 +591,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -621,7 +621,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -649,7 +649,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -677,7 +677,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -705,7 +705,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -735,7 +735,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -763,7 +763,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -793,7 +793,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -821,7 +821,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -849,7 +849,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -877,7 +877,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -909,7 +909,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -937,7 +937,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -965,7 +965,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -993,7 +993,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1021,7 +1021,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1049,7 +1049,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1079,7 +1079,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1107,7 +1107,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1135,7 +1135,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1163,7 +1163,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1193,7 +1193,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1221,7 +1221,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1251,7 +1251,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1279,7 +1279,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1307,7 +1307,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1335,7 +1335,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1368,7 +1368,7 @@
           <Title>Amsterdam Albatross</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Amsterdam Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1395,7 +1395,7 @@
           <Title>Gould's Petrel</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1422,7 +1422,7 @@
           <Title>Gray-headed Albatross</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gray-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1449,7 +1449,7 @@
           <Title>Northern Royal Albatross</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Northern Royal Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1476,7 +1476,7 @@
           <Title>Shy Albatross</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Shy Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1503,7 +1503,7 @@
           <Title>Southern Giant-Petrel</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Giant-Petrel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1532,7 +1532,7 @@
           <Title>Curlew Sandpiper</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Curlew Sandpiper</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1559,7 +1559,7 @@
           <Title>Far Eastern Curlew</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Far Eastern Curlew</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1586,7 +1586,7 @@
           <Title>Lesser Sand Plover</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Lesser Sand Plover</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1613,7 +1613,7 @@
           <Title>Red Knot</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Red Knot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1642,7 +1642,7 @@
           <Title>Orange-bellied Parrot</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Orange-bellied Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1669,7 +1669,7 @@
           <Title>Swift Parrot</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Swift Parrot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1698,7 +1698,7 @@
           <Title>Blue Whale</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1725,7 +1725,7 @@
           <Title>Humpback Whale</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Humpback Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1752,7 +1752,7 @@
           <Title>Pygmy Blue Whale</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Pygmy Blue Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -1779,7 +1779,7 @@
           <Title>Southern Right Whale</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>display_common_name</ogc:PropertyName>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Southern Right Whale</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
