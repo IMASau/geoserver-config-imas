@@ -15,18 +15,18 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E38FA6</CssParameter>
+                  <CssParameter name="fill">#A489C6</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#471f35</CssParameter>
+                  <CssParameter name="stroke">#312145</CssParameter>
                   <CssParameter name="stroke-width">0.3</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>9</Size>
@@ -43,18 +43,18 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E9B45C</CssParameter>
+                  <CssParameter name="fill">#F1CD70</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#322d1a</CssParameter>
+                  <CssParameter name="stroke">#5D4609</CssParameter>
                   <CssParameter name="stroke-width">0.3</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>5</Size>
@@ -71,18 +71,18 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>square</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7da9b3</CssParameter>
+                  <CssParameter name="fill">#7DA9B3</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2f273f</CssParameter>
+                  <CssParameter name="stroke">#263B40</CssParameter>
                   <CssParameter name="stroke-width">0.3</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>4.5</Size>
@@ -102,18 +102,18 @@
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
           <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E38FA6</CssParameter>
+                  <CssParameter name="fill">#A489C6</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#471f35</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#312145</CssParameter>
+                  <CssParameter name="stroke-width">0.4</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>10</Size>
@@ -131,18 +131,18 @@
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
           <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E9B45C</CssParameter>
+                  <CssParameter name="fill">#F1CD70</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#322d1a</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#5D4609</CssParameter>
+                  <CssParameter name="stroke-width">0.4</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>6</Size>
@@ -160,18 +160,18 @@
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
           <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>square</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7da9b3</CssParameter>
+                  <CssParameter name="fill">#7DA9B3</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2f273f</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#263B40</CssParameter>
+                  <CssParameter name="stroke-width">0.4</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>5.5</Size>
@@ -191,18 +191,18 @@
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
           <MaxScaleDenominator>10000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E38FA6</CssParameter>
+                  <CssParameter name="fill">#A489C6</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#471f35</CssParameter>
-                  <CssParameter name="stroke-width">0.7</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#312145</CssParameter>
+                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>11</Size>
@@ -220,18 +220,18 @@
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
           <MaxScaleDenominator>10000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E9B45C</CssParameter>
+                  <CssParameter name="fill">#F1CD70</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#322d1a</CssParameter>
-                  <CssParameter name="stroke-width">0.7</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#5D4609</CssParameter>
+                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>7</Size>
@@ -249,18 +249,18 @@
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
           <MaxScaleDenominator>10000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>square</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7da9b3</CssParameter>
+                  <CssParameter name="fill">#7DA9B3</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2f273f</CssParameter>
-                  <CssParameter name="stroke-width">0.7</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#263B40</CssParameter>
+                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>6.5</Size>
@@ -279,18 +279,18 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E38FA6</CssParameter>
+                  <CssParameter name="fill">#A489C6</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#471f35</CssParameter>
-                  <CssParameter name="stroke-width">0.9</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                  
+                  <CssParameter name="stroke">#312145</CssParameter>
+                  <CssParameter name="stroke-width">0.7</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                  
                 </Stroke>
               </Mark>
               <Size>12.5</Size>
@@ -306,18 +306,18 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#E9B45C</CssParameter>
+                  <CssParameter name="fill">#F1CD70</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#322d1a</CssParameter>
-                  <CssParameter name="stroke-width">0.9</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#5D4609</CssParameter>
+                  <CssParameter name="stroke-width">0.7</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>9</Size>
@@ -333,18 +333,18 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <!-- Coloured symbol with black outline -->
+          <!-- Coloured symbol with dark, semi-transparent outline -->
           <PointSymbolizer>
             <Graphic>
               <Mark>
                 <WellKnownName>square</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#7da9b3</CssParameter>
+                  <CssParameter name="fill">#7DA9B3</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#2f273f</CssParameter>
-                  <CssParameter name="stroke-width">0.9</CssParameter>
-                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
+                  <CssParameter name="stroke">#263B40</CssParameter>
+                  <CssParameter name="stroke-width">0.7</CssParameter>
+                  <CssParameter name="stroke-opacity">0.65</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>8.5</Size>

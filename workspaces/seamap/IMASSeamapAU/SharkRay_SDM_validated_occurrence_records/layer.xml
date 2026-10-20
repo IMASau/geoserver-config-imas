@@ -1,25 +1,16 @@
 <layer>
   <name>SharkRay_SDM_validated_occurrence_records</name>
-  <id>LayerInfoImpl-716bea90:1a157f50687:-13fa</id>
+  <id>LayerInfoImpl-716bea90:1a15af875c3:-1bd5</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl-716bea90:1a157f50687:2b4</id>
   </defaultStyle>
-  <styles class="linked-hash-set">
-    <style>
-      <id>StyleInfoImpl-716bea90:1a157f50687:-140d</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-716bea90:1a157f50687:2b4</id>
-    </style>
-  </styles>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-716bea90:1a157f50687:-13fb</id>
+    <id>FeatureTypeInfoImpl-716bea90:1a15af875c3:-1bd6</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2026-10-20 07:15:46.980 UTC</dateCreated>
-  <dateModified>2026-10-20 11:13:54.711 UTC</dateModified>
+  <dateCreated>2026-10-20 20:23:28.814 UTC</dateCreated>
 </layer>

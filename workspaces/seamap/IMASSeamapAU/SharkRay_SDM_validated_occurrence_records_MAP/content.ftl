@@ -30,16 +30,16 @@
         <#assign group = feature.broad_group.value>
 
         <#if group == "Sharks">
-          <#assign groupFill = "#ffe999">
+          <#assign groupFill = "#F1CD70">
         <#elseif group == "Skates, rays & stingarees">
-          <#assign groupFill = "#c09eff">
+          <#assign groupFill = "#7DA9B3">
         <#elseif group == "Chimaeras">
-          <#assign groupFill = "#ff70bf">
+          <#assign groupFill = "#A489C6">
         </#if>
 
         <div style="display:flex; align-items:stretch; padding:9px 2px; border-top:1px solid #e3e3e3;">
 
-          <div style="flex:0 0 5px; background-color:${groupFill}; border:0.5px solid rgba(0,0,0,0.20); border-radius:2px; margin-right:8px;"></div>
+          <div style="flex:0 0 5px; background-color:${groupFill}; border:0.3px solid rgba(0,0,0,0.20); border-radius:2px; margin-right:8px;"></div>
 
           <div style="flex:1 1 auto; min-width:0;">
             <div style="font-size:11.5px; font-weight:bold; line-height:1.4; overflow-wrap:break-word;">

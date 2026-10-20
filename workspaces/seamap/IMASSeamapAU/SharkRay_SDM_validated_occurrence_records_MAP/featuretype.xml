@@ -1,0 +1,62 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-716bea90:1a157f50687:-13fb</id>
+  <name>SharkRay_SDM_validated_occurrence_records_MAP</name>
+  <nativeName>VW_HEATMAP_HOSTED_SharkRay_SDM_occurrence_records</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
+  </namespace>
+  <title>Occurrence records for chondrichthyan (shark &amp; ray) species: calibration input for distribution modelling</title>
+  <abstract>Occurrence records for Australian sharks, rays and chimaeras were compiled as part of the Shark and Ray National Species Distribution Modelling (SDM) Project. The full dataset was assembled from 43 sources, including fisheries observer programs, scientific surveys, biodiversity repositories, acoustic telemetry networks, baited remote underwater video surveys and beach protection programs, yielding approximately 3.37 million initial records and 2.54 million cleaned records.&#xd;
+&#xd;
+Records were additionally spatially and environmentally filtered to reduce spatial autocorrelation and sampling bias in distribution modelling. This yielded a final ~20,500 occurrence across 220 species of chondrichthyans. This dataset represents the final calibration dataset used as input for the species distribution models (SDMs), following species-specific data filtering and expert-based processing to ensure suitability for model calibration.&#xd;
+&#xd;
+***This layer has an additional land mask geometry appended for styling purposes (heatmap masking) and is not prefereable to make as the downloadable version.***</abstract>
+  <keywords>
+    <string>features</string>
+    <string>HOSTED_SharkRay_SDM_occurrence_records</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>106.06699787865999</minx>
+    <maxx>162.00000324</maxx>
+    <miny>-47.700000954000004</miny>
+    <maxy>-9.000999819979999</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>106.06699787865999</minx>
+    <maxx>162.00000324</maxx>
+    <miny>-47.700000954000004</miny>
+    <maxy>-9.000999819979999</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-513dc49c:1562676d393:-5684</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
