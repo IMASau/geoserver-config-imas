@@ -58,6 +58,9 @@
 
         <Rule>
           <RasterSymbolizer>
+            <Geometry>
+              <ogc:PropertyName>geom</ogc:PropertyName>
+            </Geometry>              
             <Opacity>0.75</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0.00001"/>
@@ -80,7 +83,22 @@
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                              
         </Rule>
-
+        <VendorOption name="composite">multiply</VendorOption>
+        <VendorOption name="composite-base">true</VendorOption>
+       </FeatureTypeStyle>
+      
+       <FeatureTypeStyle>
+        <Rule>
+          <PolygonSymbolizer>
+              <Geometry>
+                <ogc:PropertyName>geom_LAND</ogc:PropertyName></Geometry>		  
+            <Fill>		
+              <CssParameter name="fill">#000000</CssParameter>		
+              <CssParameter name="fill-opacity">1.0</CssParameter>		
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <VendorOption name="composite">destination-out</VendorOption>
       </FeatureTypeStyle>
     </UserStyle>
 
