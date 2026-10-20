@@ -5,10 +5,10 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Validated occurrence records for chondrichthyan (shark &amp; ray) species: SDM input</title>
+  <title>Occurrence records for chondrichthyan (shark &amp; ray) species: calibration input for distribution modelling</title>
   <abstract>Occurrence records for Australian sharks, rays and chimaeras were compiled as part of the Shark and Ray National Species Distribution Modelling (SDM) Project. The full dataset was assembled from 43 sources, including fisheries observer programs, scientific surveys, biodiversity repositories, acoustic telemetry networks, baited remote underwater video surveys and beach protection programs, yielding approximately 3.37 million initial records and 2.54 million cleaned records.&#xd;
 &#xd;
-Records were additionally spatially and environmentally filtered to reduce spatial autocorrelation and sampling bias in distribution modelling. This yielded a final ~20,000 occurrence across 220 species of chondrichthyans.</abstract>
+Records were additionally spatially and environmentally filtered to reduce spatial autocorrelation and sampling bias in distribution modelling. This yielded a final ~20,500 occurrence across 220 species of chondrichthyans. This dataset represents the final calibration dataset used as input for the species distribution models (SDMs), following species-specific data filtering and expert-based processing to ensure suitability for model calibration.</abstract>
   <keywords>
     <string>features</string>
     <string>HOSTED_SharkRay_SDM_occurrence_records</string>

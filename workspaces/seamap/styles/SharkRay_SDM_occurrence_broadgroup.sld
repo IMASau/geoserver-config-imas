@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" version="0.9.0">
   <NamedLayer>
     <Name>Shark and ray SDM occurrences - broad groups</Name>
     <UserStyle>
@@ -21,14 +21,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff85c4</CssParameter>
+                  <CssParameter name="fill">#ff7ac8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.3</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>7</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -48,11 +49,12 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9cfcd4</CssParameter>
+                  <CssParameter name="fill">#8fffd2</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.3</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>5</Size>
@@ -78,15 +80,17 @@
                   <CssParameter name="fill">#b9a3ff</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">0.6</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.3</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>5</Size>
+              <Size>4.5</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
+        
         <!-- Zoom 30,000,000 to 10,000,000 -->
         <Rule>
           <Title>Chimaeras</Title>
@@ -104,14 +108,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff85c4</CssParameter>
+                  <CssParameter name="fill">#ff7ac8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">0.8</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>8</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -132,11 +137,12 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9cfcd4</CssParameter>
+                  <CssParameter name="fill">#8fffd2</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">0.8</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>6</Size>
@@ -163,15 +169,17 @@
                   <CssParameter name="fill">#b9a3ff</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">0.8</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>6</Size>
+              <Size>5.5</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
+        
         <!-- Zoom 10,000,000 to 5,000,000 -->
         <Rule>
           <Title>Chimaeras</Title>
@@ -189,14 +197,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff85c4</CssParameter>
+                  <CssParameter name="fill">#ff7ac8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">1.0</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.7</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>9</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -217,11 +226,12 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9cfcd4</CssParameter>
+                  <CssParameter name="fill">#8fffd2</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">1.0</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.7</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>7</Size>
@@ -248,15 +258,17 @@
                   <CssParameter name="fill">#b9a3ff</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">1.0</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.7</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>7</Size>
+              <Size>6.5</Size>
             </Graphic>
           </PointSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
+        
         <!-- Zoom < 5,000,000 -->
         <Rule>
           <Title>Chimaeras</Title>
@@ -273,14 +285,15 @@
               <Mark>
                 <WellKnownName>triangle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff85c4</CssParameter>
+                  <CssParameter name="fill">#ff7ac8</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">1.2</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.9</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                  
                 </Stroke>
               </Mark>
-              <Size>11</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -299,11 +312,12 @@
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#9cfcd4</CssParameter>
+                  <CssParameter name="fill">#8fffd2</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">1.2</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.9</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
               <Size>9</Size>
@@ -328,11 +342,12 @@
                   <CssParameter name="fill">#b9a3ff</CssParameter>
                 </Fill>
                 <Stroke>
-                  <CssParameter name="stroke">#171717</CssParameter>
-                  <CssParameter name="stroke-width">1.2</CssParameter>
+                  <CssParameter name="stroke">#1a1a1a</CssParameter>
+                  <CssParameter name="stroke-width">0.9</CssParameter>
+                  <CssParameter name="stroke-opacity">0.8</CssParameter>                                    
                 </Stroke>
               </Mark>
-              <Size>9</Size>
+              <Size>8.5</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
