@@ -1,4 +1,4 @@
-<#assign maxRecords = 30>
+<#assign maxRecords = 20>
 
 <#-- Group returned records by scientific name and temporal currency, in common-name order -->
 <#assign keys = []>
@@ -23,7 +23,7 @@
     </span>
   </div>
 
-  <div style="max-height:600px; overflow-y:auto; padding-right:6px;">
+  <div style="max-height:580px; overflow-y:auto; padding-right:6px;">
     <#list keys as key>
       <#if key_index lt maxRecords>
         <#assign feature = firstByKey[key]>
