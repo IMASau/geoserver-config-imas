@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" version="0.9.0">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
   <NamedLayer>
     <Name>Shark and ray SDM occurrences</Name>
     <UserStyle>
