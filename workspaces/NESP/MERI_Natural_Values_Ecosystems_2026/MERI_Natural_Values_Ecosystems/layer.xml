@@ -5,6 +5,14 @@
   <defaultStyle>
     <id>StyleInfoImpl-1e5ae6a9:19f16d6e8f8:7e62</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1e5ae6a9:19f16d6e8f8:7e62</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-716bea90:1a15f4592c8:-1c2</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl-1e5ae6a9:19f17525ed3:-79c2</id>
   </resource>
@@ -13,4 +21,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-06-30 07:13:42.829 UTC</dateCreated>
+  <dateModified>2026-10-21 23:04:19.416 UTC</dateModified>
 </layer>

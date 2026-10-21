@@ -3,7 +3,7 @@
     <#if (feature_index < 1)>
         <#assign ecosys = feature.GRAY_INDEX.value?number>
 
-        <#if (ecosys < 1)>
+        <#if (ecosys == 255)>
         <#else>
 
             <div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom: 7px; padding-top: 7px; text-align:center;'>
