@@ -1,3 +1,4 @@
+
 <#assign maxRecords = 20>
 
 <#-- Group returned records by scientific name and temporal currency, in common-name order -->
@@ -17,7 +18,7 @@
 
 <div style="max-width:320px; box-sizing:border-box; padding:5px 0; color:#222;">
   <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; padding:0 0 9px 0;">
-    <h6 style="font-size:96%; letter-spacing: 2px;">Chondrichthyan occurrence</h6>
+    <h6 style="font-size:96%; letter-spacing:2px;">Chondrichthyan occurrence</h6>
     <span style="font-size:11px; color:#666; white-space:nowrap;">
       ${features?size} record<#if features?size != 1>s</#if>
     </span>
@@ -28,6 +29,7 @@
       <#if key_index lt maxRecords>
         <#assign feature = firstByKey[key]>
         <#assign group = feature.broad_group.value>
+        <#assign display = feature.seamap_display.value?lower_case>
 
         <#if group == "Sharks">
           <#assign groupFill = "#F1CD70">
@@ -51,8 +53,14 @@
           </div>
 
           <div style="flex:0 0 auto; align-self:center; margin-left:50px; font-size:10.5px; color:#808080; text-align:right; white-space:nowrap;">
-            <div>${feature.temporal_currency.value}</div>
-            <div style="font-size:10px; margin-top:2px;">${countByKey[key]?c} record<#if countByKey[key] != 1>s</#if></div>
+
+            <#if display?contains(" - contemporary") || display?contains(" - historical")>
+              <div>${feature.temporal_currency.value}</div>
+            </#if>
+
+            <div style="font-size:10px; margin-top:2px;">
+              ${countByKey[key]?c} record<#if countByKey[key] != 1>s</#if>
+            </div>
           </div>
 
         </div>
