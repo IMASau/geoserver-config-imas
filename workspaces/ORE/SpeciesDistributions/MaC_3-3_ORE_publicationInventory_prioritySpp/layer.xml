@@ -1,5 +1,5 @@
 <layer>
-  <name>NESP_MaC_3-3_ORE_publicationInventory_prioritySpp</name>
+  <name>MaC_3-3_ORE_publicationInventory_prioritySpp</name>
   <id>LayerInfoImpl-39154dcd:19e05fb8e46:-2fc7</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,4 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-05-08 06:58:05.173 UTC</dateCreated>
+  <dateModified>2026-10-22 20:59:56.714 UTC</dateModified>
 </layer>

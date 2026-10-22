@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - NT - Bynoe Harbour mangroves (DLRM)</title>
-  <abstract>SUPERSEDED</abstract>
+  <abstract>This data has been superseded.</abstract>
   <keywords>
     <string>habitat mapping</string>
     <string>mangrove</string>
@@ -52,7 +52,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
