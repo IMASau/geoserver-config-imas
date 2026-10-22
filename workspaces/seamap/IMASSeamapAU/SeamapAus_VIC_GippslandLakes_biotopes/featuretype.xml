@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - VIC - Gippsland Lake biotopes</title>
-  <abstract>SUPERSEDED</abstract>
+  <abstract>This data has been superseded.</abstract>
   <keywords>
     <string>Seamap Australia</string>
     <string>benthic habitat</string>
@@ -53,7 +53,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

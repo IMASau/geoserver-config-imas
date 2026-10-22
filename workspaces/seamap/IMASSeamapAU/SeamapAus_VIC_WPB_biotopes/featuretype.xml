@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
   <title>Seamap Australia - VIC - Western Port Bay biotopes</title>
-  <abstract>SUPERSEDED</abstract>
+  <abstract>This data has been superseded.</abstract>
   <keywords>
     <string>features</string>
     <string>SeamapAus_VIC_WPB_biotopes</string>
@@ -51,7 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>
