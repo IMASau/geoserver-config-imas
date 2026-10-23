@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-76a728da:1a16ac09f45:-600c</id>
+  <name>MB_A8_seasnake_spp_habitat_suitability</name>
+  <description>NESP MB Project A8 - Predicted sea snake habitat suitability in North West Marine Region</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3a9062c2:158f6d056c9:-3ed0</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-10-23 22:14:52.413 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/8114ec84-7907-4ad8-8453-e0b255dc2bd7/NESP_MB_A8_seasnake_habSuit.tif</url>
+</coverageStore>

@@ -10,12 +10,11 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap>
-              <ColorMapEntry color="#ffffff" opacity="0" quantity="0.0"/>/>              
-              <ColorMapEntry color="#0d0887" opacity="1" quantity="0.08"/>
-              <ColorMapEntry color="#7e03a8" opacity="1" quantity="0.20"/>              
-              <ColorMapEntry color="#cb4778" opacity="1" quantity="0.32"/>            
-              <ColorMapEntry color="#f89541" opacity="1" quantity="0.42"/>            
-              <ColorMapEntry color="#f0f921" opacity="1" quantity="0.6"/>            
+              <ColorMapEntry color="#0d0887" opacity="1" quantity="0.0"/>
+              <ColorMapEntry color="#7e03a8" opacity="1" quantity="0.2"/>              
+              <ColorMapEntry color="#cb4778" opacity="1" quantity="0.4"/>            
+              <ColorMapEntry color="#f89541" opacity="1" quantity="0.6"/>            
+              <ColorMapEntry color="#f0f921" opacity="1" quantity="0.8"/>            
             </ColorMap>
           </RasterSymbolizer>
  		<VendorOption name="inclusion">mapOnly</VendorOption>                                                                         
