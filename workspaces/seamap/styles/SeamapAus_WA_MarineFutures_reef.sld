@@ -1,17 +1,40 @@
-<StyledLayerDescriptor version="1.0.0"
-xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
-xmlns="http://www.opengis.net/sld" 
-xmlns:gml="http://www.opengis.net/gml"
-xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>habitat_polygon</Name>
+    <Name>WA Marine Futures reef</Name>
     <UserStyle>
-      <Title>Habitat Polygon</Title>
+      <Title>Habitat polygon</Title>
       <Abstract>A style that renders habitats</Abstract>
-      <FeatureTypeStyle>      
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Mapped location (zoomed out)</Title>
+          <MinScaleDenominator>5000000</MinScaleDenominator>
+          <TextSymbolizer>
+            <Geometry>
+              <ogc:PropertyName>geom</ogc:PropertyName>
+            </Geometry>
+            <Label>
+              <ogc:PropertyName>Site</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-size">1</CssParameter>
+            </Font>
+            <Fill>
+              <CssParameter name="fill-opacity">0</CssParameter>
+            </Fill>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="https://geoserver.imas.utas.edu.au/geoserver/styles/pin-red.svg"/>
+                <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+              <Size>20</Size>
+            </Graphic>
+            <VendorOption name="group">yes</VendorOption>
+            <VendorOption name="goodnessOfFit">0.0</VendorOption>
+            <VendorOption name="conflictResolution">false</VendorOption>
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
         <Rule>
           <Title>Reef</Title>
           <ogc:Filter>
@@ -19,8 +42,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Reef</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>	
-          <PolygonSymbolizer>		  
+          </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#640000</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
@@ -35,13 +59,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>		  
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c8b87a</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		
+        </Rule>
         <Rule>
           <Title>Sand</Title>
           <ogc:Filter>
@@ -50,7 +75,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>		  
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FFF9A5</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
@@ -65,14 +91,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed reef and gravel</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>		  
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cc0000</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>		
-        <Rule>  
+        </Rule>
+        <Rule>
           <Title>Mixed reef and sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -80,14 +107,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed reef and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>		  
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff884d</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-        <Rule>  
+        <Rule>
           <Title>Mixed gravel and sand</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -95,43 +123,46 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>Mixed gravel and sand</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <PolygonSymbolizer>	  
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d2a679</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-        <Rule>  
+        <Rule>
           <Title>Mixed reef, gravel and sand</Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>Mixed reef*gravel*sand</ogc:Literal>
             </ogc:PropertyIsLike>
-          </ogc:Filter>	
-          <PolygonSymbolizer>		  
+          </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cccc00</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>			
-        <Rule> 
+        </Rule>
+        <Rule>
           <Title>None modelled with certainty</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>SM_HAB_CLS</ogc:PropertyName>
               <ogc:Literal>None modelled with certainty</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>	
-          <PolygonSymbolizer>		  
+          </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c0c1c8</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
