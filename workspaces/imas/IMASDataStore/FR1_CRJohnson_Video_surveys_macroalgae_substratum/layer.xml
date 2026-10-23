@@ -1,9 +1,9 @@
 <layer>
-  <name>FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA</name>
+  <name>FR1_CRJohnson_Video_surveys_macroalgae_substratum</name>
   <id>LayerInfoImpl-666f1fb1:16d03ed56a9:-1d6</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-3a80a162:1562b334824:-7ffd</id>
+    <id>StyleInfoImpl--4677ad3c:15f2870e874:-adf</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-666f1fb1:16d03ed56a9:-1d7</id>
@@ -12,4 +12,5 @@
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
+  <dateModified>2026-10-23 21:48:31.317 UTC</dateModified>
 </layer>
