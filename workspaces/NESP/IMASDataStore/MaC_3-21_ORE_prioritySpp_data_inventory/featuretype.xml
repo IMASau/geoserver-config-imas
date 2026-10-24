@@ -1,6 +1,6 @@
 <featureType>
   <id>FeatureTypeInfoImpl-ac1146b:1922b8d1c34:-733d</id>
-  <name>NESP_MaC_3_21_ORE_prioritySpp_data_inventory</name>
+  <name>MaC_3-21_ORE_prioritySpp_data_inventory</name>
   <nativeName>NESP_MaC_3_21_ORE_prioritySpp_data_inventory</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
@@ -40,6 +40,8 @@
     <string>WMS</string>
   </disabledServices>
   <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
