@@ -7,11 +7,28 @@
   </namespace>
   <title>NESP MB Project A8 - Predicted sea snake habitat suitability in North West Marine Region</title>
   <description>Generated from GeoTIFF</description>
+  <abstract>Presence/absence data for four genus of sea snake was collected using Baited Remote Underwater Video Stations (BRUVS). This data was used to model habitat suitability within the North West Marine Region using Gradient Boosted Regression Tree Models.&#xd;
+&#xd;
+This multiband surface includes one for each taxonomic group, and a fifth computed mean habitat suitability band across all taxa.&#xd;
+Band 1 = Aipysurus spp.&#xd;
+Band 2 = Emydocephalus spp.&#xd;
+Band 3 =Hydrophis spp.&#xd;
+Band 4 = unidentified spp.&#xd;
+Band 5 = all species combined&#xd;
+&#xd;
+Select from the available styles to navigate between habitat suitability predictions for each group.</abstract>
   <keywords>
     <string>NESP_MB_A8_seasnake_habSuit</string>
     <string>WCS</string>
     <string>GeoTIFF</string>
   </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>ISO19115:2003</metadataType>
+      <content>https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/8114ec84-7907-4ad8-8453-e0b255dc2bd7</content>
+    </metadataLink>
+  </metadataLinks>
   <nativeCRS class="projected">PROJCS[&quot;GDA94 / Australian Albers&quot;, 
   GEOGCS[&quot;GDA94&quot;, 
     DATUM[&quot;Geocentric Datum of Australia 1994&quot;, 

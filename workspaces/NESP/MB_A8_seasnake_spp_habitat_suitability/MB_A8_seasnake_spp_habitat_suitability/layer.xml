@@ -5,6 +5,23 @@
   <defaultStyle>
     <id>StyleInfoImpl--771e51da:162fade6940:ec</id>
   </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-76a728da:1a16b6ceb22:120f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-76a728da:1a16b6ceb22:1225</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-76a728da:1a16b6ceb22:1223</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-76a728da:1a16b6ceb22:1222</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--771e51da:162fade6940:ec</id>
+    </style>
+  </styles>
   <resource class="coverage">
     <id>CoverageInfoImpl-76a728da:1a16b59ca39:-4318</id>
   </resource>
@@ -14,4 +31,5 @@
   </attribution>
   <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
   <dateCreated>2026-10-24 00:58:51.40 UTC</dateCreated>
+  <dateModified>2026-10-24 01:14:34.579 UTC</dateModified>
 </layer>
