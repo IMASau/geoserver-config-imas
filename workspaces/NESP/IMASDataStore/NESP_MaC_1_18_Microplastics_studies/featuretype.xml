@@ -6,6 +6,7 @@
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
   <title>NESP MaC Project 1.18: Location of microplastics studies in Southeast Australian waters</title>
+  <abstract>Map-only representation of study synthesis.</abstract>
   <keywords>
     <string>features</string>
     <string>NESP_MaC_1_18_Microplastics_studies_database</string>
@@ -47,6 +48,8 @@
     <string>WFS</string>
     <string>WPS</string>
   </disabledServices>
+  <internationalTitle/>
+  <internationalAbstract/>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>
