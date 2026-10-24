@@ -1,0 +1,17 @@
+<layer>
+  <name>MB_A8_seasnake_spp_habitat_suitability</name>
+  <id>LayerInfoImpl-76a728da:1a16b59ca39:-4317</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--771e51da:162fade6940:ec</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-76a728da:1a16b59ca39:-4318</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <defaultWMSInterpolationMethod>Bilinear</defaultWMSInterpolationMethod>
+  <dateCreated>2026-10-24 00:58:51.40 UTC</dateCreated>
+</layer>
