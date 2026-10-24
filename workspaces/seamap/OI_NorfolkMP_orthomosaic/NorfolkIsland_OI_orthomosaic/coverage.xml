@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl--5de17116:199524c6cad:-38d7</id>
-  <name>OI_NorfolkIsland_orthomosaic</name>
+  <name>NorfolkIsland_OI_orthomosaic</name>
   <nativeName>OI_NorfolkMP_orthomosaic</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -172,7 +172,7 @@
       <null/>
     </entry>
     <entry>
-      <string>USE_JAI_IMAGEREAD</string>
+      <string>USE_IMAGEN_IMAGEREAD</string>
       <boolean>true</boolean>
     </entry>
     <entry>
@@ -188,6 +188,10 @@
       <null/>
     </entry>
     <entry>
+      <string>SkipDuplicates</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
       <string>InputTransparentColor</string>
       <null/>
     </entry>
@@ -197,6 +201,10 @@
     </entry>
     <entry>
       <string>Accurate resolution computation</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>CacheGranules</string>
       <boolean>false</boolean>
     </entry>
     <entry>
