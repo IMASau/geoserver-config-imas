@@ -64,7 +64,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gray-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
@@ -226,10 +226,16 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Lesser Sand Plover</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Siberian Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Lesser Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
@@ -508,7 +514,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gray-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
@@ -676,10 +682,16 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Lesser Sand Plover</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Siberian Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Lesser Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
           <MaxScaleDenominator>30000000</MaxScaleDenominator>
@@ -966,7 +978,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gray-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
@@ -1134,10 +1146,16 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Lesser Sand Plover</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Siberian Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Lesser Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
           <MaxScaleDenominator>10000000</MaxScaleDenominator>
@@ -1419,11 +1437,11 @@
         </Rule>
 
         <Rule>
-          <Title>Gray-headed Albatross</Title>
+          <Title>Grey-headed Albatross</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gray-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
@@ -1583,12 +1601,18 @@
         </Rule>
 
         <Rule>
-          <Title>Lesser Sand Plover</Title>
+          <Title>Siberian/Lesser Sand-plover</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Lesser Sand Plover</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Siberian Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Lesser Sand-plover</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
