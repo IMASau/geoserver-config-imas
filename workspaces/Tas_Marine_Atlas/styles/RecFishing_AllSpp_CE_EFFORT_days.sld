@@ -11,7 +11,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->               
+          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
+          <ogc:Filter>
+            <ogc:PropertyIsNull>
+              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+            </ogc:PropertyIsNull>                          
+          </ogc:Filter>           
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -47,50 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <VendorOption name="group">true</VendorOption>            
           </TextSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
-        </Rule> 
-        <Rule>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
-          <ogc:Filter>
-            <ogc:PropertyIsNotNull>
-              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-            </ogc:PropertyIsNotNull>                          
-          </ogc:Filter>             
-          <TextSymbolizer>
-            <Geometry>
-              <ogc:Function name="centroid">
-                <ogc:Function name="envelope">
-                  <ogc:PropertyName>geom</ogc:PropertyName>
-                </ogc:Function>
-              </ogc:Function>
-            </Geometry> 
-            <Label>
-              <ogc:Literal>N/A for this species group</ogc:Literal>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">sans-serif</CssParameter>
-              <CssParameter name="font-size">12.5</CssParameter>
-              <CssParameter name="font-style">italic</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX>0.5</AnchorPointX>
-                  <AnchorPointY>0.5</AnchorPointY>
-                </AnchorPoint>
-              </PointPlacement>
-            </LabelPlacement>              
-            <Halo>
-              <Radius>2</Radius>
-              <Fill>
-                <CssParameter name="fill">#ffffff</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-              </Fill>
-            </Halo>
-            <VendorOption name="conflictResolution">false</VendorOption>
-            <VendorOption name="partials">true</VendorOption>
-          </TextSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>
-        </Rule>           
+        </Rule>        
 
       <!-- Rule for pseudo-title -->
       <Rule>
@@ -228,20 +190,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>
           </PolygonSymbolizer>
         </Rule>       
-        
+
         <Rule>
-          <Title>Metric not available for this species group</Title>
-          <ogc:Filter>        
-            <ogc:PropertyIsNotNull>
-              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-            </ogc:PropertyIsNotNull>                            
+          <Title>Not recorded</Title>
+          <ogc:Filter>
+            <ogc:And>          
+              <ogc:PropertyIsNotNull>
+                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+              </ogc:PropertyIsNotNull>          
+            </ogc:And>               
           </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ff3300</CssParameter>
-              <CssParameter name="fill-opacity">0.25</CssParameter>              
-            </Fill>
-          </PolygonSymbolizer>
           <PolygonSymbolizer>
             <Fill>
               <GraphicFill>
@@ -249,22 +207,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#ffffff</CssParameter>
-                      <CssParameter name="stroke-opacity">0.4</CssParameter>                      
+                      <CssParameter name="stroke">#666666</CssParameter>
+                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
                       <CssParameter name="stroke-width">3</CssParameter>
                     </Stroke>
                   </Mark>
                   <Size>10</Size>
                 </Graphic>
               </GraphicFill>           
-            </Fill> 
+            </Fill>
             <Stroke>
               <CssParameter name="stroke">#232323</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>            
-          </PolygonSymbolizer>          
-          <VendorOption name="inclusion">mapOnly</VendorOption>          
-        </Rule>          
+          </PolygonSymbolizer>
+        </Rule>         
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
