@@ -13,26 +13,45 @@
     <UserStyle>
       <FeatureTypeStyle> 	
         <Rule>
-          <Title>North Coast</Title>
+          <Title>North-west Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Region_Code</ogc:PropertyName>
-              <ogc:Literal>NC</ogc:Literal>
+              <ogc:Literal>NWC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#70c1b3</CssParameter>
+              <CssParameter name="fill">#27B3A2</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#70c1b3</CssParameter>
+              <CssParameter name="stroke">#27B3A2</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>East Coast</Title>
+          <Title>North-east Coast &amp; Tamar</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>NECT</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#E5AD36</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#E5AD36</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>	 
+        <Rule>
+          <Title>Eastern Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Region_Code</ogc:PropertyName>
@@ -41,34 +60,110 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f4b942</CssParameter>
+              <CssParameter name="fill">#E77B50</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#f4b942</CssParameter>
+              <CssParameter name="stroke">#E77B50</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>	 
         <Rule>
-          <Title>South-east Coast</Title>
+          <Title>Central Eastern Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Region_Code</ogc:PropertyName>
-              <ogc:Literal>SEC</ogc:Literal>
+              <ogc:Literal>CEC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ce6a85</CssParameter>
+              <CssParameter name="fill">#4C98D5</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#ce6a85</CssParameter>
+              <CssParameter name="stroke">#4C98D5</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>	 
+        </Rule>	
+        <Rule>
+          <Title>Great Oyster Bay</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>GOB</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#A6B83F</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#A6B83F</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Tasman</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>TAS</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#AB6DC3</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#AB6DC3</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>	  
+        <Rule>
+          <Title>Southeastern Coast &amp; d'Entrecasteaux Channel</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>SECDEC</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#E98191</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#E98191</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>	
+         <Rule>
+          <Title>Frederick-Henry, Norfolk Bay &amp; Derwent</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>FHNB</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#55B879</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#55B879</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>	       
         <Rule>
           <Title>West Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -79,15 +174,15 @@
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#4059ad</CssParameter>
+              <CssParameter name="fill">#3989B3</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#4059ad</CssParameter>
+              <CssParameter name="stroke">#3989B3</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>	         
+        </Rule>	        
         <Rule>
           <TextSymbolizer>
             <Geometry>

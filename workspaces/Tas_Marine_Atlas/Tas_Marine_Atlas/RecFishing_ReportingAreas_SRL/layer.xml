@@ -1,5 +1,5 @@
 <layer>
-  <name>RecFishing_AssessmentAreas_SRL</name>
+  <name>RecFishing_ReportingAreas_SRL</name>
   <id>LayerInfoImpl--73a77e4b:19b3b965847:24bc</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -13,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2025-12-20 11:49:05.249 UTC</dateCreated>
-  <dateModified>2026-01-05 00:38:13.944 UTC</dateModified>
+  <dateModified>2026-10-27 03:17:29.751 UTC</dateModified>
 </layer>

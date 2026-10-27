@@ -1,0 +1,16 @@
+<layer>
+  <name>RecFishing_ReportingAreas_allSpp_GP</name>
+  <id>LayerInfoImpl-76a728da:1a17affe1c6:671f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a17affe1c6:4592</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-76a728da:1a17affe1c6:671e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-27 03:28:06.433 UTC</dateCreated>
+</layer>
