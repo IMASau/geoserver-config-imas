@@ -9,24 +9,24 @@
   xsi:schemaLocation="http://www.opengis.net/sld
     http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Recreational Fishing assessment areas</Name>
+    <Name>Recreational Fishing reporting areas - General Purpose</Name>
     <UserStyle>
       <FeatureTypeStyle> 	
         <Rule>
           <Title>North Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Region</ogc:PropertyName>
-              <ogc:Literal>North coast</ogc:Literal>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>NC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#E88354</CssParameter>
+              <CssParameter name="fill">#70c1b3</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#E88354</CssParameter>
+              <CssParameter name="stroke">#70c1b3</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -35,17 +35,36 @@
           <Title>East Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Region</ogc:PropertyName>
-              <ogc:Literal>East coast</ogc:Literal>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>EC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#00cc00</CssParameter>
+              <CssParameter name="fill">#f4b942</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#00cc00</CssParameter>
+              <CssParameter name="stroke">#f4b942</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>	 
+        <Rule>
+          <Title>South-east Coast</Title>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>SEC</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ce6a85</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>					  
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ce6a85</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -54,21 +73,21 @@
           <Title>West Coast</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Region</ogc:PropertyName>
-              <ogc:Literal>West coast</ogc:Literal>
+              <ogc:PropertyName>Region_Code</ogc:PropertyName>
+              <ogc:Literal>WC</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#9D51EB</CssParameter>
+              <CssParameter name="fill">#4059ad</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>					  
             </Fill>
             <Stroke>
-              <CssParameter name="stroke">#9D51EB</CssParameter>
+              <CssParameter name="stroke">#4059ad</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>	 
+        </Rule>	         
         <Rule>
           <TextSymbolizer>
             <Geometry>
@@ -79,10 +98,7 @@
               </ogc:Function>
             </Geometry> 
             <Label>
-              <ogc:Function name="strConcat">
-                <ogc:Literal>Area #</ogc:Literal>
-                <ogc:PropertyName>Area</ogc:PropertyName>
-              </ogc:Function>
+                <ogc:PropertyName>Region_Code</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
