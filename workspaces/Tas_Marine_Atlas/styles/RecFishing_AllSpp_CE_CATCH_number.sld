@@ -13,9 +13,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million --> 
           <ogc:Filter>
-            <ogc:PropertyIsNotNull>
-              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-            </ogc:PropertyIsNotNull>                          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Metric</ogc:PropertyName>
+              <ogc:Literal>Catch</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                         
           </ogc:Filter>           
           <TextSymbolizer>
             <Geometry>
@@ -71,9 +72,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>10000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNotNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNotNull>               
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Catch</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -98,9 +100,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNotNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNotNull>                             
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Catch</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                           
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -125,9 +128,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>90000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNotNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNotNull>                             
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Catch</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                            
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -152,9 +156,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>150000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNotNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNotNull>                             
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Catch</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                        
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -175,9 +180,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>150000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsNotNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNotNull> 
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Catch</ogc:Literal>
+              </ogc:PropertyIsEqualTo>     
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -191,37 +197,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule> 
         
-        <Rule>
-          <Title>Not recorded</Title>
-          <ogc:Filter>
-            <ogc:And>          
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNull>          
-            </ogc:And>               
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>          
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

@@ -13,9 +13,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
           <ogc:Filter>
-            <ogc:PropertyIsNull>
-              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-            </ogc:PropertyIsNull>                          
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>Metric</ogc:PropertyName>
+              <ogc:Literal>Effort</ogc:Literal>
+            </ogc:PropertyIsEqualTo>                            
           </ogc:Filter>           
           <TextSymbolizer>
             <Geometry>
@@ -60,7 +61,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
                 
         <Rule>
-          <Title>  0 - 25,000</Title>
+          <Title>   0 - 20,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -69,11 +70,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>25000</ogc:Literal>
+                <ogc:Literal>20000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNull>                  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Effort</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                    
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -87,20 +89,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;25,000 - 40,000</Title>
+          <Title>&gt;20,000 - 40,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>25000</ogc:Literal>
+                <ogc:Literal>20000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNull>                 
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Effort</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                    
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -114,7 +117,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;40,000 - 55,000</Title>
+          <Title>&gt;40,000 - 65,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -123,11 +126,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>55000</ogc:Literal>
+                <ogc:Literal>65000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNull>                 
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Effort</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                   
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -141,20 +145,21 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;55,000 - 70,000</Title>
+          <Title>&gt;65,000 - 100,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>55000</ogc:Literal>
+                <ogc:Literal>65000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>70000</ogc:Literal>
+                <ogc:Literal>100000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNull>                  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Effort</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                     
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -168,16 +173,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;70,000</Title>
+          <Title>&gt;100,000</Title>
           <ogc:Filter>
             <ogc:And>          
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>70000</ogc:Literal>
+                <ogc:Literal>100000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNull>  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>Metric</ogc:PropertyName>
+                <ogc:Literal>Effort</ogc:Literal>
+              </ogc:PropertyIsEqualTo>  
             </ogc:And>              
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -190,38 +196,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             </Stroke>
           </PolygonSymbolizer>
         </Rule>       
-
-        <Rule>
-          <Title>Not recorded</Title>
-          <ogc:Filter>
-            <ogc:And>          
-              <ogc:PropertyIsNotNull>
-                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
-              </ogc:PropertyIsNotNull>          
-            </ogc:And>               
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>         
+      
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
