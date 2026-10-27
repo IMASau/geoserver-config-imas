@@ -11,13 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Metric</ogc:PropertyName>
-              <ogc:Literal>Effort</ogc:Literal>
-            </ogc:PropertyIsEqualTo>                            
-          </ogc:Filter>           
+          <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->            
           <TextSymbolizer>
             <Geometry>
               <ogc:Function name="centroid">
@@ -71,11 +65,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>20000</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Metric</ogc:PropertyName>
-                <ogc:Literal>Effort</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                    
+              </ogc:PropertyIsLessThanOrEqualTo>                
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -99,11 +89,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>40000</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Metric</ogc:PropertyName>
-                <ogc:Literal>Effort</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                    
+              </ogc:PropertyIsLessThanOrEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -127,11 +113,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>65000</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Metric</ogc:PropertyName>
-                <ogc:Literal>Effort</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                   
+              </ogc:PropertyIsLessThanOrEqualTo>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -155,11 +137,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>100000</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Metric</ogc:PropertyName>
-                <ogc:Literal>Effort</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                     
+              </ogc:PropertyIsLessThanOrEqualTo>                    
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -175,16 +153,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <Title>&gt;100,000</Title>
           <ogc:Filter>
-            <ogc:And>          
-              <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Value</ogc:PropertyName>
-                <ogc:Literal>100000</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Metric</ogc:PropertyName>
-                <ogc:Literal>Effort</ogc:Literal>
-              </ogc:PropertyIsEqualTo>  
-            </ogc:And>              
+            <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyName>Value</ogc:PropertyName>
+              <ogc:Literal>100000</ogc:Literal>
+            </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>

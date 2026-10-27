@@ -1,0 +1,16 @@
+<layer>
+  <name>RecFishing_allSpp_regionCE_effort</name>
+  <id>LayerInfoImpl-76a728da:1a17c59d49a:25a0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a17bf72798:1139</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-76a728da:1a17c59d49a:259f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-27 09:18:28.52 UTC</dateCreated>
+</layer>

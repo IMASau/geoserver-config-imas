@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-76a728da:1a17b6e775e:-5611</id>
-  <name>RecFishing_allSpp_regionCE</name>
+  <id>FeatureTypeInfoImpl-76a728da:1a17c59d49a:259f</id>
+  <name>RecFishing_allSpp_regionCE_effort</name>
   <nativeName>VW_RecFishing_AllSpp_RegionCE</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
-  <title>Recreational Fishing by CE reporting block: all other species</title>
+  <title>Recreational Fishing by CE reporting block: all other species - EFFORT</title>
   <keywords>
     <string>features</string>
     <string>VW_RecFishing_AllSpp_RegionCE</string>
@@ -46,6 +46,7 @@
   <simpleConversionEnabled>false</simpleConversionEnabled>
   <internationalTitle/>
   <internationalAbstract/>
+  <cqlFilter>Metric=&apos;Effort&apos;</cqlFilter>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
   <padWithZeros>false</padWithZeros>

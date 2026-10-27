@@ -1,0 +1,17 @@
+<layer>
+  <name>RecFishing_allSpp_regionCE_catch</name>
+  <id>LayerInfoImpl-76a728da:1a17b6e775e:-5610</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a17be69e76:-9d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-76a728da:1a17b6e775e:-5611</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-10-27 03:57:31.425 UTC</dateCreated>
+  <dateModified>2026-10-27 09:18:31.472 UTC</dateModified>
+</layer>
