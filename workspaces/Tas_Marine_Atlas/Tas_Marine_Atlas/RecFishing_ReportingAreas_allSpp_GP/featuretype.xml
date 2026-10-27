@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
-  <title>Recreational Fishing reporting block areas (from all species CP data)</title>
+  <title>Recreational Fishing reporting block areas (from all species GP data)</title>
   <keywords>
     <string>features</string>
     <string>VW_RecFishing_AllSpp_RegionGP</string>
@@ -36,6 +36,7 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
   </metadata>

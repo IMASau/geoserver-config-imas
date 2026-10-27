@@ -55,7 +55,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
                
         <Rule>
-          <Title>  0 - 10,000</Title>
+          <Title>   0 - 10,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>

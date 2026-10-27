@@ -51,10 +51,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <Rule>
           <MaxScaleDenominator>5000000</MaxScaleDenominator> <!-- Labels only when zoomed in closer than 5 million -->  
           <ogc:Filter>
-            <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
-            </ogc:PropertyIsNotEqualTo>                          
+            <ogc:PropertyIsNotNull>
+              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+            </ogc:PropertyIsNotNull>                          
           </ogc:Filter>             
           <TextSymbolizer>
             <Geometry>
@@ -65,7 +64,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:Function>
             </Geometry> 
             <Label>
-              <ogc:Literal>N/A for this species</ogc:Literal>
+              <ogc:Literal>N/A for this species group</ogc:Literal>
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
@@ -99,21 +98,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       </Rule>
                 
         <Rule>
-          <Title>  0 - 350</Title>
+          <Title>  0 - 25,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>350</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>25000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                 
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+              </ogc:PropertyIsNull>                  
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -127,21 +125,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;350 - 850</Title>
+          <Title>&gt;25,000 - 40,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>350</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>25000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>850</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                 
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+              </ogc:PropertyIsNull>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -155,21 +152,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;850 - 1,600</Title>
+          <Title>&gt;40,000 - 55,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>850</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>1600</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>55000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                 
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+              </ogc:PropertyIsNull>                 
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -183,21 +179,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;1,600 - 4,000</Title>
+          <Title>&gt;55,000 - 70,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>1600</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>55000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>4000</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>70000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>                 
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+              </ogc:PropertyIsNull>                  
             </ogc:And>
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -211,17 +206,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Title>&gt;4,000</Title>
+          <Title>&gt;70,000</Title>
           <ogc:Filter>
             <ogc:And>          
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-                <ogc:Literal>4000</ogc:Literal>
+                <ogc:PropertyName>Value</ogc:PropertyName>
+                <ogc:Literal>70000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>  
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+              </ogc:PropertyIsNull>  
             </ogc:And>              
           </ogc:Filter>
           <PolygonSymbolizer>
@@ -233,50 +227,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>Not recorded</Title>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>Species</ogc:PropertyName>
-                <ogc:Literal>Abalone aggregated</ogc:Literal>
-              </ogc:PropertyIsEqualTo>           
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>Effort__fisher_days</ogc:PropertyName>
-              </ogc:PropertyIsNull>          
-            </ogc:And>               
-          </ogc:Filter>
-          <PolygonSymbolizer>
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>shape://slash</WellKnownName>
-                    <Stroke>
-                      <CssParameter name="stroke">#666666</CssParameter>
-                      <CssParameter name="stroke-opacity">0.1</CssParameter>                      
-                      <CssParameter name="stroke-width">3</CssParameter>
-                    </Stroke>
-                  </Mark>
-                  <Size>10</Size>
-                </Graphic>
-              </GraphicFill>           
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#232323</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>            
-          </PolygonSymbolizer>
-        </Rule>         
+        </Rule>       
         
         <Rule>
-          <Title>Metric not available for this spcies</Title>
+          <Title>Metric not available for this species group</Title>
           <ogc:Filter>        
-            <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>Species</ogc:PropertyName>
-              <ogc:Literal>Abalone aggregated</ogc:Literal>
-            </ogc:PropertyIsNotEqualTo>                            
+            <ogc:PropertyIsNotNull>
+              <ogc:PropertyName>Species_common_name</ogc:PropertyName>
+            </ogc:PropertyIsNotNull>                            
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
