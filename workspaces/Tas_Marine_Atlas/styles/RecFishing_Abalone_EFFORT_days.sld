@@ -280,7 +280,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>         
         
         <Rule>
-          <Title>Metric not available for this spcies</Title>
+          <Title>Metric not available for this species</Title>
           <ogc:Filter>        
             <ogc:PropertyIsNotEqualTo>
               <ogc:PropertyName>Species</ogc:PropertyName>

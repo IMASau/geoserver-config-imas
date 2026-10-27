@@ -21,10 +21,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:Function>
             </Geometry> 
             <Label>
-              <ogc:Function name="strConcat">
-                <ogc:Literal>Area #</ogc:Literal>
-                <ogc:PropertyName>Area</ogc:PropertyName>
-              </ogc:Function>
+                <ogc:PropertyName>Region_Code</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">sans-serif</CssParameter>
@@ -62,11 +59,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>10000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -86,11 +83,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>10000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -110,11 +107,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>40000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>90000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -134,11 +131,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>90000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>Catch__number</ogc:PropertyName>
+                <ogc:PropertyName>Value</ogc:PropertyName>
                 <ogc:Literal>150000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -157,7 +154,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <Title>&gt;150,000</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>Catch__number</ogc:PropertyName>
+              <ogc:PropertyName>Value</ogc:PropertyName>
               <ogc:Literal>150000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
