@@ -1,0 +1,38 @@
+<GeoServerTileLayer>
+  <id>LayerInfoImpl--605439af:1a131c9ffa4:-7eb3</id>
+  <enabled>true</enabled>
+  <name>NESP:MaC_4-7_prioritySpp_obs_processed</name>
+  <mimeFormats>
+    <string>image/png</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>WebMercatorQuad</gridSetName>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>1</int>
+    <int>1</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters>
+    <styleParameterFilter>
+      <key>STYLES</key>
+      <defaultValue></defaultValue>
+      <allowedStyles class="sorted-set">
+        <string>NESP:MaC_4-7_prioritySpp_obs_specgrp</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_taxa</string>
+      </allowedStyles>
+      <availableStyles class="sorted-set">
+        <string>NESP:MaC_4-7_prioritySpp_obs_heatmap_count</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_heatmap_records</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_specgrp</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_taxa</string>
+      </availableStyles>
+      <defaultStyle>NESP:MaC_4-7_prioritySpp_obs_specgrp</defaultStyle>
+    </styleParameterFilter>
+  </parameterFilters>
+  <gutter>0</gutter>
+  <cacheWarningSkips/>
+</GeoServerTileLayer>
