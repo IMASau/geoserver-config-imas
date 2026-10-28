@@ -8,6 +8,14 @@
   <gridSubsets>
     <gridSubset>
       <gridSetName>WebMercatorQuad</gridSetName>
+      <extent>
+        <coords>
+          <double>-2.003734510388467E7</double>
+          <double>-1.587323795388603E7</double>
+          <double>2.003744094996816E7</double>
+          <double>1.3735864053221865E7</double>
+        </coords>
+      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -21,10 +29,15 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <allowedStyles class="sorted-set">
+        <string>NESP:MaC_4-7_prioritySpp_obs_count</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_datatype</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_specgrp</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_taxa</string>
       </allowedStyles>
       <availableStyles class="sorted-set">
+        <string>NESP:MaC_4-7_prioritySpp_obs_clustered</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_count</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_datatype</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_heatmap_count</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_heatmap_records</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_specgrp</string>
