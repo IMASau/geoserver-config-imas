@@ -31,8 +31,8 @@
               </Mark>
               <Size>1.75</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -64,8 +64,8 @@
               </Mark>
               <Size>2.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -97,8 +97,8 @@
               </Mark>
               <Size>3</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -130,8 +130,8 @@
               </Mark>
               <Size>3.75</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -163,8 +163,8 @@
               </Mark>
               <Size>4.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -196,8 +196,8 @@
               </Mark>
               <Size>5.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -229,8 +229,8 @@
               </Mark>
               <Size>6.75</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -262,8 +262,8 @@
               </Mark>
               <Size>8.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -289,8 +289,8 @@
               </Mark>
               <Size>10.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -315,8 +315,8 @@
               </Mark>
               <Size>1.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -343,8 +343,8 @@
               </Mark>
               <Size>2.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -377,8 +377,8 @@
               </Mark>
               <Size>3</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -411,8 +411,8 @@
               </Mark>
               <Size>4</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -445,8 +445,8 @@
               </Mark>
               <Size>5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -479,8 +479,8 @@
               </Mark>
               <Size>6</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -513,8 +513,8 @@
               </Mark>
               <Size>7.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -547,8 +547,8 @@
               </Mark>
               <Size>8.75</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -581,8 +581,8 @@
               </Mark>
               <Size>11.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -609,8 +609,8 @@
               </Mark>
               <Size>14</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -636,8 +636,8 @@
               </Mark>
               <Size>2</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <Title>1</Title>
@@ -987,8 +987,8 @@
               </Mark>
               <Size>4</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1020,8 +1020,8 @@
               </Mark>
               <Size>5.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1053,8 +1053,8 @@
               </Mark>
               <Size>7</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>   
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1086,8 +1086,8 @@
               </Mark>
               <Size>8.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1119,8 +1119,8 @@
               </Mark>
               <Size>10</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1152,8 +1152,8 @@
               </Mark>
               <Size>12</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1185,8 +1185,8 @@
               </Mark>
               <Size>15.25</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1218,8 +1218,8 @@
               </Mark>
               <Size>19.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1245,8 +1245,8 @@
               </Mark>
               <Size>24</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>                    
         </Rule>
         <Rule>
           <ogc:Filter>
@@ -1271,8 +1271,8 @@
               </Mark>
               <Size>3.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
