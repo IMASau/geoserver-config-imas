@@ -50,8 +50,6 @@ Benthic ecosystems not shown are Beaches, Intertidal coral reefs, Rocky shores a
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>
-  <internationalTitle/>
-  <internationalAbstract/>
   <nativeFormat>GeoTIFF</nativeFormat>
   <grid dimension="2">
     <range>
