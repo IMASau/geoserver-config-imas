@@ -39,7 +39,7 @@
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Gravel (%)" />
               <ColorMapEntry color="#494936" quantity="50" opacity="1" label="  50"/>
               <ColorMapEntry color="#7e7e67" quantity="25" opacity="0.5" label="  25" />
-              <ColorMapEntry color="#b3b398" quantity="0" opacity="0.1" label="  0" />
+              <ColorMapEntry color="#b3b398" quantity="0" opacity="0.2" label="  0" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>

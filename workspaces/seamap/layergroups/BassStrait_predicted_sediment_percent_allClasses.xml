@@ -1,0 +1,45 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-76a728da:1a19633714d:-11d3</id>
+  <name>BassStrait_predicted_sediment_percent_allClasses</name>
+  <mode>SINGLE</mode>
+  <title>Bass Strait predicted sediment grainsize composition: % occurrence all sediment classes</title>
+  <abstractTxt>This layer shows the predicted percentage cover of gravel, mud and sand across Bass Strait as a stacked (combined) view. Predictions were developed from Marine Sediments (MARS) samples and environmental and spatial predictors including bathymetry, seabed shear stress and hydrodynamic variables.&#xd;
+&#xd;
+The dataset was produced through the Resourcing Australia’s Prosperity Initiative (RAPi) Offshore Energy Project. See https://doi.org/10.26186/151229 for additional information.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-76a728da:1a19521d465:268a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-76a728da:1a19521d465:268a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-76a728da:1a19521d465:268a</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-76a728da:1a196220bbe:2a47</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-76a728da:1a196220bbe:2b26</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-76a728da:1a19633714d:-1868</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>151759.61209999956</minx>
+    <maxx>766099.6120999996</maxx>
+    <miny>5347283.1756</miny>
+    <maxy>5876693.1756</maxy>
+    <crs class="projected">EPSG:32755</crs>
+  </bounds>
+  <dateCreated>2026-11-01 08:38:54.935 UTC</dateCreated>
+  <dateModified>2026-11-01 08:42:49.131 UTC</dateModified>
+</layerGroup>
