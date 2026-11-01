@@ -29,10 +29,10 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <allowedStyles class="java.util.Collections$UnmodifiableSet">
-        <string>NESP:MaC_4-7_prioritySpp_obs_count</string>
-        <string>NESP:MaC_4-7_prioritySpp_obs_datatype</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_specgrp</string>
         <string>NESP:MaC_4-7_prioritySpp_obs_taxa</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_datatype</string>
+        <string>NESP:MaC_4-7_prioritySpp_obs_count</string>
       </allowedStyles>
       <availableStyles class="sorted-set">
         <string>NESP:MaC_4-7_prioritySpp_obs_clustered</string>
