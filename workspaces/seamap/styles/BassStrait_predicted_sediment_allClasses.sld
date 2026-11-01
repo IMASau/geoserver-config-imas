@@ -11,83 +11,89 @@
     <UserStyle>
       <FeatureTypeStyle>
 
-        <!-- Map -->
+        <!-- Map: SAND -->
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>3</SourceChannelName> <!-- Band 3 is SAND -->
+                <SourceChannelName>3</SourceChannelName>
               </GrayChannel>
             </ChannelSelection>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#f5f0dc" quantity="0" opacity="0.1"/>
-              <ColorMapEntry color="#efe6c8" quantity="5" opacity="0.2"/>
-              <ColorMapEntry color="#e8dbb4" quantity="10" opacity="0.3"/>
-              <ColorMapEntry color="#e2d1a0" quantity="15" opacity="0.4"/>
-              <ColorMapEntry color="#dcc78b" quantity="20" opacity="0.6"/>
-              <ColorMapEntry color="#d5bc77" quantity="30" opacity="0.8"/>
-              <ColorMapEntry color="#cfb263" quantity="50" opacity="1"/>
+              <ColorMapEntry color="#faf7e8" quantity="0" opacity="0"/>
+              <ColorMapEntry color="#f5edcf" quantity="5" opacity="0.1"/>
+              <ColorMapEntry color="#efe3b7" quantity="10" opacity="0.2"/>
+              <ColorMapEntry color="#e8d99f" quantity="15" opacity="0.4"/>
+              <ColorMapEntry color="#e0ce87" quantity="20" opacity="0.5"/>
+              <ColorMapEntry color="#d8c274" quantity="30" opacity="0.8"/>
+              <ColorMapEntry color="#cfb263" quantity="50" opacity="1.0"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
+
+        <!-- Map: GRAVEL -->
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>1</SourceChannelName> <!-- Band 1 is GRAVEL -->
+                <SourceChannelName>1</SourceChannelName>
               </GrayChannel>
             </ChannelSelection>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#b3b398" quantity="0" opacity="0.1"/>
-              <ColorMapEntry color="#a1a188" quantity="5"  opacity="0.2"/>              
-              <ColorMapEntry color="#909077" quantity="10"  opacity="0.3"/>
-              <ColorMapEntry color="#7e7e67" quantity="15"  opacity="0.4"/>
-              <ColorMapEntry color="#6c6c57" quantity="20"  opacity="0.6"/>
-              <ColorMapEntry color="#5b5b46" quantity="30"  opacity="0.8"/>
-              <ColorMapEntry color="#494936" quantity="50"  opacity="1"/>
+              <ColorMapEntry color="#d7d7c5" quantity="0" opacity="0"/>
+              <ColorMapEntry color="#c0c0a8" quantity="5" opacity="0.1"/>
+              <ColorMapEntry color="#a9aa8d" quantity="10" opacity="0.2"/>
+              <ColorMapEntry color="#929572" quantity="15" opacity="0.4"/>
+              <ColorMapEntry color="#7b805a" quantity="20" opacity="0.6"/>
+              <ColorMapEntry color="#626a47" quantity="30" opacity="0.8"/>
+              <ColorMapEntry color="#494f36" quantity="50" opacity="1.0"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
-        </Rule> 
+        </Rule>
+
+        <!-- Map: MUD -->
         <Rule>
           <RasterSymbolizer>
             <ChannelSelection>
               <GrayChannel>
-                <SourceChannelName>2</SourceChannelName> <!-- Band 2 is MUD -->
+                <SourceChannelName>2</SourceChannelName>
               </GrayChannel>
             </ChannelSelection>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#997b66" quantity="0" opacity="0.1"/>
-              <ColorMapEntry color="#8f6d57" quantity="5"  opacity="0.2"/>              
-              <ColorMapEntry color="#8b6851" quantity="10"  opacity="0.3"/>
-              <ColorMapEntry color="#805a4c" quantity="15"  opacity="0.4"/>
-              <ColorMapEntry color="#764d3d" quantity="20"  opacity="0.6"/>
-              <ColorMapEntry color="#6b3f2e" quantity="30"  opacity="0.8"/>
-              <ColorMapEntry color="#593526" quantity="50"  opacity="1"/>
+              <ColorMapEntry color="#d3b9aa" quantity="0" opacity="0"/>
+              <ColorMapEntry color="#bd9783" quantity="5" opacity="0.1"/>
+              <ColorMapEntry color="#aa7d68" quantity="10" opacity="0.2"/>
+              <ColorMapEntry color="#966451" quantity="15" opacity="0.4"/>
+              <ColorMapEntry color="#824e3e" quantity="20" opacity="0.6"/>
+              <ColorMapEntry color="#6f3e30" quantity="30" opacity="0.8"/>
+              <ColorMapEntry color="#593526" quantity="50" opacity="1.0"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
-        </Rule>        
+        </Rule>
 
         <!-- Legend -->
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Sand (%)" />
-              <ColorMapEntry color="#cfb263" quantity="50" opacity="1" label="  50"/>
-              <ColorMapEntry color="#e2d1a0" quantity="25" opacity="0.6" label="  25"/>
-              <ColorMapEntry color="#f5f0dc" quantity="0" opacity="0.2" label="  0"/>
 
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Gravel (%)" />              
-              <ColorMapEntry color="#494936" quantity="50" opacity="1" label="  50"/>
-              <ColorMapEntry color="#7e7e67" quantity="25" opacity="0.5" label="  25" />
-              <ColorMapEntry color="#b3b398" quantity="0" opacity="0.2" label="  0" />
-              
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Mud (%)" />              
-              <ColorMapEntry color="#593526" quantity="50" opacity="1" label="  50"/>
-              <ColorMapEntry color="#764d3d" quantity="25" opacity="0.5" label="  25" />
-              <ColorMapEntry color="#997b66" quantity="0" opacity="0.2" label="  0" />              
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Sand (%)"/>
+              <ColorMapEntry color="#cfb263" quantity="50" opacity="0.9" label="  50"/>
+              <ColorMapEntry color="#dec981" quantity="25" opacity="0.5" label="  25"/>
+              <ColorMapEntry color="#efe3b7" quantity="0" opacity="0.2" label="  0"/>
+
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Gravel (%)"/>
+              <ColorMapEntry color="#494f36" quantity="50" opacity="0.9" label="  50"/>
+              <ColorMapEntry color="#71784f" quantity="25" opacity="0.5" label="  25"/>
+              <ColorMapEntry color="#c0c0a8" quantity="0" opacity="0.2" label="  0"/>
+
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Mud (%)"/>
+              <ColorMapEntry color="#593526" quantity="50" opacity="0.9" label="  50"/>
+              <ColorMapEntry color="#795044" quantity="25" opacity="0.5" label="  25"/>
+              <ColorMapEntry color="#d3b9aa" quantity="0" opacity="0.2" label="  0"/>
+
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>
@@ -96,5 +102,4 @@
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
-
 </StyledLayerDescriptor>
