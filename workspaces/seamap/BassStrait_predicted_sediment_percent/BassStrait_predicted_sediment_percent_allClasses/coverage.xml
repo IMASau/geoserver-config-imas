@@ -1,6 +1,6 @@
 <coverage>
   <id>CoverageInfoImpl-76a728da:1a19521d465:2689</id>
-  <name>BassStrait_predicted_sediment_percent</name>
+  <name>BassStrait_predicted_sediment_percent_allClasses</name>
   <nativeName>BassStrait_predicted_sediment_percent</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
@@ -9,9 +9,7 @@
   <description>Generated from GeoTIFF</description>
   <abstract>This layer shows the predicted percentage cover of gravel, mud and sand across Bass Strait. Predictions were developed from Marine Sediments (MARS) samples and environmental and spatial predictors including bathymetry, seabed shear stress and hydrodynamic variables.&#xd;
 &#xd;
-The dataset was produced through the Resourcing Australia’s Prosperity Initiative (RAPi) Offshore Energy Project. See https://doi.org/10.26186/151229 for additional information.&#xd;
-&#xd;
-Select from the available styles to navigate through individual predictions for gravel, mud, and sand.</abstract>
+The dataset was produced through the Resourcing Australia’s Prosperity Initiative (RAPi) Offshore Energy Project. See https://doi.org/10.26186/151229 for additional information.</abstract>
   <keywords>
     <string>BassStrait_percent_sedimentType</string>
     <string>WCS</string>

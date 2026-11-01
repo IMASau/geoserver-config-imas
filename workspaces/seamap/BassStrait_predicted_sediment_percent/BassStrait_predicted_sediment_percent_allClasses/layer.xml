@@ -1,9 +1,9 @@
 <layer>
-  <name>BassStrait_predicted_sediment_percent</name>
+  <name>BassStrait_predicted_sediment_percent_allClasses</name>
   <id>LayerInfoImpl-76a728da:1a19521d465:268a</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+    <id>StyleInfoImpl-76a728da:1a196220bbe:2a47</id>
   </defaultStyle>
   <styles class="linked-hash-set">
     <style>
@@ -24,5 +24,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-11-01 07:10:58.187 UTC</dateCreated>
-  <dateModified>2026-11-01 07:39:42.719 UTC</dateModified>
+  <dateModified>2026-11-01 09:58:19.832 UTC</dateModified>
 </layer>

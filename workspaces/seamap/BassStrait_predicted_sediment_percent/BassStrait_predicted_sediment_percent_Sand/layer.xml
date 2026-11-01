@@ -1,0 +1,17 @@
+<layer>
+  <name>BassStrait_predicted_sediment_percent_Sand</name>
+  <id>LayerInfoImpl-76a728da:1a19633714d:2414</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a19521d465:2d45</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-76a728da:1a19633714d:2413</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-01 09:46:56.437 UTC</dateCreated>
+  <dateModified>2026-11-01 09:47:59.956 UTC</dateModified>
+</layer>

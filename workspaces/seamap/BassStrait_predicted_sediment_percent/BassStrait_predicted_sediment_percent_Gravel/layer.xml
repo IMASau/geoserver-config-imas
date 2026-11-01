@@ -1,0 +1,16 @@
+<layer>
+  <name>BassStrait_predicted_sediment_percent_Gravel</name>
+  <id>LayerInfoImpl-76a728da:1a19633714d:24d7</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a19521d465:2a70</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-76a728da:1a19633714d:24d6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-01 09:48:16.379 UTC</dateCreated>
+</layer>
