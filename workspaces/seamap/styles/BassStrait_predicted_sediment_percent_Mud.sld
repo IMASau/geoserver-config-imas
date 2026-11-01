@@ -36,7 +36,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Percent occurrence (%)" />
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Percent (%)" />
               <ColorMapEntry color="#fde725" quantity="35" label="  35" />
               <ColorMapEntry color="#8fd744" quantity="20" label="  20" />
               <ColorMapEntry color="#35b779" quantity="10" label="  10" />

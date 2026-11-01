@@ -21,12 +21,12 @@
             </ChannelSelection>
             <ColorMap type="ramp">
               <ColorMapEntry color="#440154" quantity="0"/>
-              <ColorMapEntry color="#443a82" quantity="1" />              
-              <ColorMapEntry color="#31688e" quantity="3" />
-              <ColorMapEntry color="#21908d" quantity="5" />
-              <ColorMapEntry color="#35b779" quantity="10" />
-              <ColorMapEntry color="#8fd744" quantity="20" />
-              <ColorMapEntry color="#fde725" quantity="35" />
+              <ColorMapEntry color="#443a82" quantity="60" />              
+              <ColorMapEntry color="#31688e" quantity="75" />
+              <ColorMapEntry color="#21908d" quantity="82" />
+              <ColorMapEntry color="#35b779" quantity="88" />
+              <ColorMapEntry color="#8fd744" quantity="92" />
+              <ColorMapEntry color="#fde725" quantity="92" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -36,13 +36,13 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Percent occurrence (%)" />
-              <ColorMapEntry color="#fde725" quantity="35" label="  35" />
-              <ColorMapEntry color="#8fd744" quantity="20" label="  20" />
-              <ColorMapEntry color="#35b779" quantity="10" label="  10" />
-              <ColorMapEntry color="#21908d" quantity="5" label="  5" />
-              <ColorMapEntry color="#31688e" quantity="3" label="  3" />
-              <ColorMapEntry color="#443a82" quantity="1" label="  1" />
+              <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Percent (%)" />
+              <ColorMapEntry color="#fde725" quantity="95" label="  95" />
+              <ColorMapEntry color="#8fd744" quantity="92" label="  92" />
+              <ColorMapEntry color="#35b779" quantity="88" label="  88" />
+              <ColorMapEntry color="#21908d" quantity="82" label="  82" />
+              <ColorMapEntry color="#31688e" quantity="75" label="  75" />
+              <ColorMapEntry color="#443a82" quantity="60" label="  60" />
               <ColorMapEntry color="#440154" quantity="0" label="  0" />
             </ColorMap>
           </RasterSymbolizer>
