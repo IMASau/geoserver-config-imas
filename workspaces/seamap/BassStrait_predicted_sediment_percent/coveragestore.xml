@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-76a728da:1a19521d465:2652</id>
+  <name>BassStrait_predicted_sediment_percent</name>
+  <description>Bass Strait predicted sediment grainsize composition: % occurrence mud, gravel, sand</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-11-01 07:08:38.36 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/BassStrait_sediment_grainsize/BassStrait_percent_sedimentType.tif</url>
+</coverageStore>

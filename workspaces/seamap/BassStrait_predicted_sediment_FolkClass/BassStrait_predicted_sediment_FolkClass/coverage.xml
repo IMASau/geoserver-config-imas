@@ -7,7 +7,7 @@
   </namespace>
   <title>Bass Strait predicted sediment grainsize composition: Folk Class</title>
   <description>Generated from GeoTIFF</description>
-  <abstract>This layer shows predicted Folk sediment classes across Bass Strait. Classes were derived from modelled percentages of mud, sand and gravel using modified Folk classification rules. The underlying sediment predictions were developed from Marine Sediments (MARS) samples and environmental and spatial predictors including bathymetry, seabed shear stress and hydrodynamic variables.&#xd;
+  <abstract>This layer shows the predicted dominant sediment classes across Bass Strait, classified by Folk categories. Classes were derived from modelled percentages of mud, sand and gravel using modified Folk classification rules. The underlying sediment predictions were developed from Marine Sediments (MARS) samples and environmental and spatial predictors including bathymetry, seabed shear stress and hydrodynamic variables.&#xd;
 &#xd;
 The dataset was produced through the Resourcing Australia’s Prosperity Initiative (RAPi) Offshore Energy Project. See https://doi.org/10.26186/151229 for additional information.</abstract>
   <keywords>
