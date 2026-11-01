@@ -116,10 +116,16 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Shy Albatross</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Shy Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>White-capped Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
@@ -568,10 +574,16 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Shy Albatross</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Shy Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>White-capped Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
           <MaxScaleDenominator>30000000</MaxScaleDenominator>
@@ -1032,10 +1044,16 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Shy Albatross</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Shy Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>White-capped Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
           <MaxScaleDenominator>10000000</MaxScaleDenominator>
@@ -1491,12 +1509,18 @@
         </Rule>
 
         <Rule>
-          <Title>Shy Albatross</Title>
+          <Title>Shy/White-capped Albatross</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Shy Albatross</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>Shy Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>common_name</ogc:PropertyName>
+                <ogc:Literal>White-capped Albatross</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
