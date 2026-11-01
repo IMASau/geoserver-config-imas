@@ -19,16 +19,19 @@
                 <SourceChannelName>3</SourceChannelName> <!-- Band 3 is SAND -->
               </GrayChannel>
             </ChannelSelection>
+
             <ColorMap type="ramp">
-              <ColorMapEntry color="#f5e057" quantity="0" opacity="0.1"/>
-              <ColorMapEntry color="#f4dd49" quantity="5"  opacity="0.2"/>              
-              <ColorMapEntry color="#f3db3a" quantity="10"  opacity="0.3"/>
-              <ColorMapEntry color="#f3d82c" quantity="15"  opacity="0.4"/>
-              <ColorMapEntry color="#f2d51d" quantity="20"  opacity="0.6"/>
-              <ColorMapEntry color="#f1d30f" quantity="30"  opacity="0.8"/>
-              <ColorMapEntry color="#f0d000" quantity="50"  opacity="1"/>
+              <ColorMapEntry color="#f6e79a" quantity="0" opacity="0.1"/>
+              <ColorMapEntry color="#f4e184" quantity="5" opacity="0.2"/>
+              <ColorMapEntry color="#f3dc6f" quantity="10" opacity="0.3"/>
+              <ColorMapEntry color="#f2d759" quantity="15" opacity="0.4"/>
+              <ColorMapEntry color="#f1d243" quantity="20" opacity="0.6"/>
+              <ColorMapEntry color="#f0cd2c" quantity="30" opacity="0.8"/>
+              <ColorMapEntry color="#efc816" quantity="50" opacity="1"/>
             </ColorMap>
+
           </RasterSymbolizer>
+
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
@@ -37,15 +40,17 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Sand (%)" />
-              <ColorMapEntry color="#f0d000" quantity="50" opacity="1" label="  50"/>
-              <ColorMapEntry color="#f3d82c" quantity="25" opacity="0.6" label="  25" />
-              <ColorMapEntry color="#f5e057" quantity="0" opacity="0.2" label="  0" />
+              <ColorMapEntry color="#efc816" quantity="50" opacity="1" label="  50"/>
+              <ColorMapEntry color="#f1d54e" quantity="25" opacity="0.6" label="  25"/>
+              <ColorMapEntry color="#f6e79a" quantity="0" opacity="0.2" label="  0"/>
             </ColorMap>
           </RasterSymbolizer>
+
           <VendorOption name="inclusion">legendOnly</VendorOption>
         </Rule>
 
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
+
 </StyledLayerDescriptor>
