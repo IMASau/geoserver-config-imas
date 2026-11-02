@@ -8,13 +8,13 @@
         <Rule>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Albatross*</ogc:Literal>
+                <ogc:Literal>*albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Petrel*</ogc:Literal>
+                <ogc:Literal>*petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -41,52 +41,25 @@
         <Rule>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Anarhynchus*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Calidris*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Charadrius*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Numenius*</ogc:Literal>
               </ogc:PropertyIsLike>              
             </ogc:Or>              
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>                                
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#669900</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#669900</CssParameter>
-                  <CssParameter name="stroke-width">0.6</CssParameter>
-                </Stroke>                
-              </Mark>
-              <Size>3</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>	          
-        </Rule>
-
-        <Rule>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Parrot*</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>30000000</MinScaleDenominator>                                          
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -108,9 +81,36 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Whale*</ogc:Literal>
+              <ogc:Literal>*parrot*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <MinScaleDenominator>30000000</MinScaleDenominator>                                          
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#669900</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#669900</CssParameter>
+                  <CssParameter name="stroke-width">0.6</CssParameter>
+                </Stroke>                
+              </Mark>
+              <Size>3</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>	          
+        </Rule>
+
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
+              <ogc:Literal>*whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>                                          
@@ -137,13 +137,13 @@
         <Rule>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Albatross*</ogc:Literal>
+                <ogc:Literal>*albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Petrel*</ogc:Literal>
+                <ogc:Literal>*petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -171,51 +171,23 @@
         <Rule>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Anarhynchus*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Calidris*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Charadrius*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Numenius*</ogc:Literal>
               </ogc:PropertyIsLike>              
             </ogc:Or>              
-          </ogc:Filter>
-          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>30000000</MaxScaleDenominator>            
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#669900</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#669900</CssParameter>
-                  <CssParameter name="stroke-width">0.8</CssParameter>
-                </Stroke>                
-              </Mark>
-              <Size>4</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>	          
-        </Rule>
-
-        <Rule>                           
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Parrot*</ogc:Literal>
-            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>                                          
           <MaxScaleDenominator>30000000</MaxScaleDenominator>            
@@ -238,11 +210,39 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	          
         </Rule>
 
+        <Rule>                           
+          <ogc:Filter>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
+              <ogc:Literal>*parrot*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <MinScaleDenominator>10000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>30000000</MaxScaleDenominator>            
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#669900</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#669900</CssParameter>
+                  <CssParameter name="stroke-width">0.8</CssParameter>
+                </Stroke>                
+              </Mark>
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>	          
+        </Rule>
+
         <Rule>                              
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Whale*</ogc:Literal>
+              <ogc:Literal>*whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>                                          
@@ -271,13 +271,13 @@
           <Title>Seabirds</Title>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Albatross*</ogc:Literal>
+                <ogc:Literal>*albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Petrel*</ogc:Literal>
+                <ogc:Literal>*petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -305,51 +305,23 @@
         <Rule>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Anarhynchus*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Calidris*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Charadrius*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Numenius*</ogc:Literal>
               </ogc:PropertyIsLike>              
             </ogc:Or>              
-          </ogc:Filter>
-          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
-          <MaxScaleDenominator>10000000</MaxScaleDenominator>            
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#669900</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#669900</CssParameter>
-                  <CssParameter name="stroke-width">1.0</CssParameter>
-                </Stroke>                
-              </Mark>
-              <Size>5</Size>
-            </Graphic>
-          </PointSymbolizer>
-          <VendorOption name="inclusion">mapOnly</VendorOption>	          
-        </Rule>
-
-        <Rule>                              
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Parrot*</ogc:Literal>
-            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>                                          
           <MaxScaleDenominator>10000000</MaxScaleDenominator>            
@@ -372,11 +344,39 @@
           <VendorOption name="inclusion">mapOnly</VendorOption>	          
         </Rule>
 
+        <Rule>                              
+          <ogc:Filter>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
+              <ogc:Literal>*parrot*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <MinScaleDenominator>5000000</MinScaleDenominator>                                          
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>            
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#669900</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#669900</CssParameter>
+                  <CssParameter name="stroke-width">1.0</CssParameter>
+                </Stroke>                
+              </Mark>
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>	          
+        </Rule>
+
         <Rule>                               
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Whale*</ogc:Literal>
+              <ogc:Literal>*whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>                                          
@@ -405,13 +405,13 @@
           <Title>Seabirds</Title>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Albatross*</ogc:Literal>
+                <ogc:Literal>*albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*Petrel*</ogc:Literal>
+                <ogc:Literal>*petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -438,50 +438,23 @@
           <Title>Migratory shorebirds</Title>
           <ogc:Filter>
             <ogc:Or>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Anarhynchus*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Calidris*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Charadrius*</ogc:Literal>
               </ogc:PropertyIsLike>
-              <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>scientific_name</ogc:PropertyName>
                 <ogc:Literal>Numenius*</ogc:Literal>
               </ogc:PropertyIsLike>              
             </ogc:Or>              
-          </ogc:Filter>
-          <MaxScaleDenominator>5000000</MaxScaleDenominator>            
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#669900</CssParameter>
-                  <CssParameter name="fill-opacity">0.7</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#669900</CssParameter>
-                  <CssParameter name="stroke-width">1.2</CssParameter>
-                </Stroke>                
-              </Mark>
-              <Size>7</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-
-        <Rule>
-          <Title>Migratory parrots</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
-              <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Parrot*</ogc:Literal>
-            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>            
           <PointSymbolizer>
@@ -503,11 +476,38 @@
         </Rule>
 
         <Rule>
+          <Title>Migratory parrots</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
+              <ogc:PropertyName>common_name</ogc:PropertyName>
+              <ogc:Literal>*parrot*</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <MaxScaleDenominator>5000000</MaxScaleDenominator>            
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#669900</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#669900</CssParameter>
+                  <CssParameter name="stroke-width">1.2</CssParameter>
+                </Stroke>                
+              </Mark>
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
           <Title>Whales</Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard='*' singleChar='.' escape='!'>
+            <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*Whale*</ogc:Literal>
+              <ogc:Literal>*whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>            
