@@ -2,19 +2,18 @@
 
 <style>
 
-  /* Scrollable table viewport.
-     Unsupported browsers simply fall back to their default scrollbar. */
+  /* OUTER TABLE BORDER — change colour/width here */
   .species-scroll {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #4b4c4e;
+
     scrollbar-width: thin;
     scrollbar-color: #c5c9cd transparent;
-
-    /* Reserves space for the scrollbar where supported,
-       so it does not visually crowd the last column. */
     scrollbar-gutter: stable;
   }
 
-  /* Chrome / Edge / Safari scrollbar styling.
-     The scrollbar area is 9px wide, but the visible thumb remains narrow. */
+  /* Lightweight scrollbar for Chrome / Edge / Safari */
   .species-scroll::-webkit-scrollbar {
     width: 9px;
   }
@@ -24,76 +23,59 @@
   }
 
   .species-scroll::-webkit-scrollbar-thumb {
-    background-color: #c5c9cd;
-    border: 5px solid transparent;
+    background: #c5c9cd;
+    border: 2px solid transparent;
     background-clip: content-box;
     border-radius: 8px;
   }
 
   .species-scroll::-webkit-scrollbar-thumb:hover {
-    background-color: #aeb4b9;
+    background: #aeb4b9;
   }
 
 
-  /* Keep the table visually light and override any heavier
-     table styling inherited from the surrounding application. */
+  /* Table structure */
   .species-table {
     width: 100%;
     table-layout: fixed;
     border-collapse: separate;
     border-spacing: 0;
-    border: none !important;
-    background: #ffffff;
+    border: none;
   }
 
 
-  /* Sticky header remains visible while records scroll.
-     Header colour and font styling continue to come from global CSS. */
+  /* Header */
   .species-table th {
     position: sticky;
     top: 0;
     z-index: 2;
 
     padding: 6px 7px;
-
     font-size: 10.5px;
     font-weight: 600;
 
-    border-top: none !important;
-    border-left: none !important;
+    border: none !important;
+    border-right: 1px solid #d4d7da !important;
     border-bottom: 1px solid #c8ccd1 !important;
-    border-right: 1px solid #d4d7da !important;
-  }
-
-  /* Left and right outside edges of the table. */
-  .species-table th:first-child {
-    border-left: 1px solid #c8ccd1 !important;
-  }
-
-  .species-table th:last-child {
-    border-right: 1px solid #c8ccd1 !important;
   }
 
 
-  /* Light internal cell separators. */
+  /* Body cells */
   .species-table td {
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: 1px solid #e1e3e5 !important;
+    border: none !important;
     border-right: 1px solid #d4d7da !important;
+    border-bottom: 1px solid #e1e3e5 !important;
   }
 
-  /* Left and right outside edges of the table. */
-  .species-table td:first-child {
-    border-left: 1px solid #c8ccd1 !important;
-  }
 
+  /* No internal vertical line after the final column */
+  .species-table th:last-child,
   .species-table td:last-child {
-    border-right: 1px solid #c8ccd1 !important;
+    border-right: none !important;
   }
 
 
-  /* Subtle alternating rows make individual records easier to track. */
+  /* Alternating rows */
   .species-row-even td {
     background: #ffffff !important;
   }
@@ -131,21 +113,25 @@
   }>
 
 
-  <#-- Table becomes vertically scrollable once it exceeds 480 px.
-       Top and bottom borders belong to the scrolling viewport;
-       left and right borders are drawn by the table cells themselves. -->
-  <div class="species-scroll"
-       style="max-height:480px;
-              overflow-y:auto;
-              border-top:1px solid #b8bdc2;
-              border-bottom:1px solid #c8ccd1;">
+  <#-- Muted versions of the data-type colours used in the map style.
+       These are used only as small secondary accents in the table. -->
+  <#assign dataTypeMap = {
+    "abundance":"#C9A84E",
+    "mark-recapture":"#4AA98D",
+    "presence-only":"#4F708D",
+    "tracking":"#C65D78"
+  }>
+
+
+  <#-- Scrollable table viewport. -->
+  <div class="species-scroll">
 
     <table class="species-table" cellpadding="0" cellspacing="0">
 
-      <col width="40%" />
+      <col width="39%" />
       <col width="24%" />
       <col width="25%" />
-      <col width="11%" />
+      <col width="12%" />
 
       <tr>
         <th style="text-align:left;">
@@ -166,18 +152,19 @@
       </tr>
 
 
-      <#-- Display a maximum of 20 records. -->
-      <#list features as feature>
+      <#-- Display a maximum of 20 records, newest first. -->
+      <#list features?sort_by(["observation_date","rawValue"])?reverse as feature>
         <#if feature_index < 20>
 
           <#assign common = feature.common_name.value?string?trim>
           <#assign scientific = feature.scientific_name.value>
           <#assign date = feature.observation_date.value>
-          <#assign type = feature.data_type.value>
+          <#assign type = feature.data_type.value?string?trim>
           <#assign count = (feature.observation_count.value)!"" >
 
-          <#-- Case-insensitive lookup of the map colour for this species. -->
+          <#-- Case-insensitive lookups for species and data-type colours. -->
           <#assign speciesColor = speciesMap[common?lower_case]>
+          <#assign typeColor = dataTypeMap[type?lower_case]>
 
           <#-- Alternating row colour for easier horizontal tracking. -->
           <#if (feature_index % 2) == 0>
@@ -213,7 +200,15 @@
 
 
             <td style="padding:7px; font-size:11px; text-align:center; vertical-align:middle;">
-              ${type}
+              <span style="
+                display:inline-block;
+                width:6px;
+                height:6px;
+                margin-right:5px;
+                border-radius:50%;
+                background:${typeColor};
+                vertical-align:1px;">
+              </span>${type}
             </td>
 
 
