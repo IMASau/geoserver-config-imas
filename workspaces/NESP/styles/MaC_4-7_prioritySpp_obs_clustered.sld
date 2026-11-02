@@ -89,8 +89,8 @@
               </Mark>
               <Size>5.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
         <Rule>
@@ -141,9 +141,8 @@
               </Mark>
               <Size>10</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
-
+          <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
 
 
@@ -195,8 +194,8 @@
               </Mark>
               <Size>6.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
         <Rule>
@@ -274,8 +273,8 @@
             </Fill>
             <VendorOption name="conflictResolution">false</VendorOption>
             <VendorOption name="partials">true</VendorOption>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
 
@@ -328,8 +327,8 @@
               </Mark>
               <Size>7.5</Size>
             </Graphic>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
         <Rule>
@@ -407,8 +406,8 @@
             </Fill>
             <VendorOption name="conflictResolution">false</VendorOption>
             <VendorOption name="partials">true</VendorOption>
-            <VendorOption name="inclusion">mapOnly</VendorOption>
           </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
         </Rule>
 
 
