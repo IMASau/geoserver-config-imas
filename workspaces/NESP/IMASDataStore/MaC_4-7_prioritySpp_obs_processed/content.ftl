@@ -10,7 +10,6 @@
 
     scrollbar-width: thin;
     scrollbar-color: #c5c9cd transparent;
-    scrollbar-gutter: stable;
   }
 
   /* Lightweight scrollbar for Chrome / Edge / Safari */
