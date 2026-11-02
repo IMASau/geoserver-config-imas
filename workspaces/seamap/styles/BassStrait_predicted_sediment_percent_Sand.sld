@@ -26,7 +26,7 @@
               <ColorMapEntry color="#21908d" quantity="82" />
               <ColorMapEntry color="#35b779" quantity="88" />
               <ColorMapEntry color="#8fd744" quantity="92" />
-              <ColorMapEntry color="#fde725" quantity="92" />
+              <ColorMapEntry color="#fde725" quantity="95" />
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
