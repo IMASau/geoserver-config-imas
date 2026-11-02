@@ -19,16 +19,16 @@
                 <SourceChannelName>1</SourceChannelName> <!-- Band 1 is MEAN -->
               </GrayChannel>
             </ChannelSelection>
-              <ColorMap type="ramp">
-                <ColorMapEntry color="#dceff2" quantity="100"/>
-                <ColorMapEntry color="#9bc9cf" quantity="300"/>
-                <ColorMapEntry color="#5fa7aa" quantity="400"/>
-                <ColorMapEntry color="#7f9e69" quantity="500"/>
-                <ColorMapEntry color="#c1a451" quantity="600"/>
-                <ColorMapEntry color="#d68242" quantity="700"/>
-                <ColorMapEntry color="#a9543d" quantity="900"/>
-                <ColorMapEntry color="#5e3435" quantity="2200"/>
-              </ColorMap>
+            <ColorMap type="ramp">
+              <ColorMapEntry color="#d8edf0" quantity="100"/>
+              <ColorMapEntry color="#9bc7cb" quantity="300"/>
+              <ColorMapEntry color="#67a7a3" quantity="400"/>
+              <ColorMapEntry color="#8fa17a" quantity="500"/>
+              <ColorMapEntry color="#b7a263" quantity="600"/>
+              <ColorMapEntry color="#c78352" quantity="700"/>
+              <ColorMapEntry color="#a85b46" quantity="900"/>
+              <ColorMapEntry color="#68403a" quantity="2200"/>
+            </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
         </Rule>
@@ -38,15 +38,15 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Grain size (&#181;m)" />
-              <ColorMapEntry color="#5e3435" quantity="2200" label="  2200" />
-              <ColorMapEntry color="#a9543d" quantity="900" label="  900" />
-              <ColorMapEntry color="#d68242" quantity="700" label="  700" />
-              <ColorMapEntry color="#c1a451" quantity="600" label="  600" />
-              <ColorMapEntry color="#7f9e69" quantity="500" label="  500" />
-              <ColorMapEntry color="#5fa7aa" quantity="400" label="  400" />
-              <ColorMapEntry color="#9bc9cf" quantity="300" label="  300" />
-              <ColorMapEntry color="#dceff2" quantity="100" label="  100" />
-            </ColorMap>              
+              <ColorMapEntry color="#68403a" quantity="2200" label="  2200" />
+              <ColorMapEntry color="#a85b46" quantity="900" label="  900" />
+              <ColorMapEntry color="#c78352" quantity="700" label="  700" />
+              <ColorMapEntry color="#b7a263" quantity="600" label="  600" />
+              <ColorMapEntry color="#8fa17a" quantity="500" label="  500" />
+              <ColorMapEntry color="#67a7a3" quantity="400" label="  400" />
+              <ColorMapEntry color="#9bc7cb" quantity="300" label="  300" />
+              <ColorMapEntry color="#d8edf0" quantity="100" label="  100" />
+            </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>
         </Rule>
