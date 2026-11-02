@@ -1,0 +1,16 @@
+<layer>
+  <name>BassStrait_predicted_sediment_mean_grainsize</name>
+  <id>LayerInfoImpl-76a728da:1a19b6c4317:1d04</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--21071077:14b33c29d5b:-7ffa</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-76a728da:1a19b6c4317:1d03</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-02 09:21:46.971 UTC</dateCreated>
+</layer>

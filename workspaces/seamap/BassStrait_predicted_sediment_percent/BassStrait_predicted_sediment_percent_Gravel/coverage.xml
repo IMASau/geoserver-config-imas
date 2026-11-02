@@ -5,7 +5,7 @@
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>BassStrait_percent_sedimentType</title>
+  <title>Bass Strait predicted sediment composition: % occurrence of Gravel</title>
   <description>Generated from GeoTIFF</description>
   <abstract>This layer shows the predicted percentage cover of gravel across Bass Strait. Predictions were developed from Marine Sediments (MARS) samples and environmental and spatial predictors including bathymetry, seabed shear stress and hydrodynamic variables.&#xd;
 &#xd;
@@ -52,6 +52,7 @@ The dataset was produced through the Resourcing Australia’s Prosperity Initiat
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">BassStrait_predicted_sediment_percent_BassStrait_percent_sedimentType</entry>

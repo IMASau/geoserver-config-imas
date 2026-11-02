@@ -1,0 +1,22 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-76a728da:1a19b6c4317:1cfd</id>
+  <name>BassStrait_predicted_sediment_median_grainsize</name>
+  <description>Bass Strait predicted sediment composition: ensemble median grainsize prediction</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
+  </workspace>
+  <metadata>
+    <entry key="CogSettings.Key">
+      <cogSettings>
+        <useCachingStream>false</useCachingStream>
+        <rangeReaderSettings>HTTP</rangeReaderSettings>
+      </cogSettings>
+    </entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2026-11-02 09:13:15.324 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/BassStrait_sediment_grainsize/BassStrait_median_grainSize.tif</url>
+</coverageStore>

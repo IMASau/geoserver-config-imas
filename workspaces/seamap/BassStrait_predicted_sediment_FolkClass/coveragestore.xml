@@ -1,22 +1,15 @@
 <coverageStore>
   <id>CoverageStoreInfoImpl-76a728da:1a19521d465:-135d</id>
   <name>BassStrait_predicted_sediment_FolkClass</name>
-  <description>Bass Strait predicted sediment grainsize composition: Folk Class</description>
+  <description>Bass Strait predicted sediment composition: Folk Class</description>
   <type>GeoTIFF</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
-  <metadata>
-    <entry key="CogSettings.Key">
-      <cogSettings>
-        <useCachingStream>false</useCachingStream>
-        <rangeReaderSettings>HTTP</rangeReaderSettings>
-      </cogSettings>
-    </entry>
-  </metadata>
   <__default>false</__default>
   <dateCreated>2026-11-01 05:23:32.92 UTC</dateCreated>
+  <dateModified>2026-11-02 09:11:31.629 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
   <url>file:///mnt/rdsi/attachments/seamap_hosted_thirdparty/BassStrait_sediment_grainsize/BassStrait_sediment_folkClass.tif</url>
 </coverageStore>
