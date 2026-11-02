@@ -27,7 +27,7 @@
               <ColorMapEntry color="#b7a263" quantity="600"/>
               <ColorMapEntry color="#c78352" quantity="700"/>
               <ColorMapEntry color="#a85b46" quantity="900"/>
-              <ColorMapEntry color="#68403a" quantity="2200"/>
+              <ColorMapEntry color="#68403a" quantity="2000"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">mapOnly</VendorOption>
@@ -38,7 +38,7 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#ffffff" opacity="0.000000000001" quantity="-1" label="Grain size (&#181;m)" />
-              <ColorMapEntry color="#68403a" quantity="2200" label="  2200" />
+              <ColorMapEntry color="#68403a" quantity="2000" label="  2,000+" />
               <ColorMapEntry color="#a85b46" quantity="900" label="  900" />
               <ColorMapEntry color="#c78352" quantity="700" label="  700" />
               <ColorMapEntry color="#b7a263" quantity="600" label="  600" />

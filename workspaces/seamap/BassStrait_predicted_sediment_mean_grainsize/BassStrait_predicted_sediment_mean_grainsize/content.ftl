@@ -18,7 +18,7 @@
         <#assign color="#b7a263" textColor="#000000">
       <#elseif (mean<=750)>
         <#assign color="#c78352" textColor="#f2f2f2">
-      <#elseif (mean<=1500)>
+      <#elseif (mean<=1450)>
         <#assign color="#a85b46" textColor="#f2f2f2">                  
       <#else>
         <#assign color="#68403a" textColor="#ffffff">               
