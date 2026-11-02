@@ -116,10 +116,10 @@
   <#-- Muted versions of the data-type colours used in the map style.
        These are used only as small secondary accents in the table. -->
   <#assign dataTypeMap = {
-    "abundance":"#C9A84E",
-    "mark-recapture":"#4AA98D",
+    "abundance":"#f2cc73",
+    "mark-recapture":"#C65D78",
     "presence-only":"#4F708D",
-    "tracking":"#C65D78"
+    "tracking":"#4AA98D"
   }>
 
 
