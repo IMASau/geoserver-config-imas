@@ -25,6 +25,9 @@
               "label": "Zeehan"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Highlight_Video/Beagle_130_1260_1261_1260_2_squid_fish_50.91.mp4",
               "label": "Beagle"}
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Highlight_Video/Frey_9_3_1260_1261_megalopsflatheads.mp4",
+              "label": "Freycinet"
+            }
         ]
     },
     "2": {
@@ -87,11 +90,11 @@
         "color": "#eea6f1",
         "description": "Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.",
         "videos": [
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4"
+            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4",
               "label": "Elizabeth & Middleton Reefs"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4"
+            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4",
               "label": "Elizabeth & Middleton Reefs"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4"
+            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4",
               "label": "Elizabeth & Middleton Reefs"}
         ]
     },
@@ -229,13 +232,13 @@
 
             <#if item.videos??> <#-- If videos have been configured for NVE class, proceed with thumbnails. -->
                 <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin: 15px 0 3px;">
-                  <div style="font-size: 88%; text-align: center; color: #6495ED;">
+                  <div style="font-size: 88%; text-align: center; color: #698ac9;">
                       <div>
                           ${(item.videoIntro!"Select a thumbnail to view a sample video of this ecosystem.")}
                       </div>
                       <div style="margin-top: 0px;">
                           <span style="font-size: 110%;">&#9888;&#65039;</span>
-                          Videos are <span style="font-weight:750; color: #4a7ad3; font-style:italic;">representative</span> of the ecosystem class are not necessarily from the clicked location.
+                          Videos are <span style="font-weight:bold; color: #5773a7; text-decoration: underline;">representative</span> of the ecosystem class and not necessarily from the clicked location.
                           <span style="font-size: 110%;">&#9888;&#65039;</span>
                       </div>
                   </div>
