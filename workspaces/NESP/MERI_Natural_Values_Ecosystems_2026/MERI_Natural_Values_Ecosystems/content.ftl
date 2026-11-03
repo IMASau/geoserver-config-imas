@@ -87,9 +87,12 @@
         "color": "#eea6f1",
         "description": "Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.",
         "videos": [
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4"}
+            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4"
+              "label": "Elizabeth & Middleton Reefs"},
+            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4"
+              "label": "Elizabeth & Middleton Reefs"},
+            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4"
+              "label": "Elizabeth & Middleton Reefs"}
         ]
     },
     "9": {
@@ -219,10 +222,10 @@
         <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 6px 0; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center; gap: 7px; padding-bottom: 5px; font-weight: bold;">
                 <span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span>
-                <span>${item.title}</span>
+                <h5 style = "letter:spacing: 1.2 px;">${item.title}</h5>
             </div>
             
-            <div style="margin: 8px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic;">${item.description}</div>
+            <div style="margin: 8px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic; color: #404040;">${item.description}</div>
 
             <#if item.videos??> <#-- If videos have been configured for NVE class, proceed with thumbnails. -->
                 <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin: 15px 0 3px;">
@@ -230,14 +233,32 @@
                       <div>
                           ${(item.videoIntro!"Select a thumbnail to view a sample video of this ecosystem.")}
                       </div>
-                      <div style="margin-top: 1px;">
+                      <div style="margin-top: 0px;">
                           <span style="font-size: 110%;">&#9888;&#65039;</span>
-                          Videos are <span style="font-weight:750; color: #4a7ad3; font-style:italic;">representative</span> of the ecosystem class and may not be from the clicked location.
+                          Videos are <span style="font-weight:750; color: #4a7ad3; font-style:italic;">representative</span> of the ecosystem class are not necessarily from the clicked location.
                           <span style="font-size: 110%;">&#9888;&#65039;</span>
                       </div>
                   </div>
 
-                    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 12px 0 0;">
+                    <#-- Video metadata for client-side refresh. Hidden entries are not preloaded. -->
+                    <#if item.videos?size gt 3>
+                        <div class="nve-video-pool" style="display: none;">
+                            <#list item.videos as candidate>
+                                <span class="nve-video-entry"
+                                      data-url="${candidate.url}"
+                                      <#if candidate.label?has_content>data-label="${candidate.label}"</#if>
+                                      <#if candidate.url?contains("youtube.com/watch")>
+                                          <#assign poolThumb = "https://img.youtube.com/vi/" + candidate.url?split("v=")?last + "/0.jpg">
+                                          <#if item.thumbnailOverrides?? && item.thumbnailOverrides[candidate_index?c]??>
+                                              <#assign poolThumb = item.thumbnailOverrides[candidate_index?c]>
+                                          </#if>
+                                          data-thumb="${poolThumb}"
+                                      </#if>></span>
+                            </#list>
+                        </div>
+                    </#if>
+
+                    <div class="nve-video-thumbnails" style="display: flex; flex-wrap: wrap; justify-content: center; margin: 12px 0 0;">
                         <#-- Randomly choose up to 3 different videos from the class's full list. -->
                         <#assign remainingIndices = 0..(item.videos?size - 1)>
                         <#list 1..3 as preview>
@@ -265,53 +286,71 @@
                             </#if>
                         </#list>
                     </div>
+
+                    <#-- Inline JavaScript works in Seamap even though script blocks do not. -->
+                    <#if item.videos?size gt 3>
+                        <div style="width: 100%; display: flex; justify-content: flex-end; margin-top: 10px; padding-right: 9px; box-sizing: border-box;">
+                            <button type="button"
+                                    style="border: 1px solid #b9cce7; border-radius: 3px; padding: 3px 7px; background: #f4f8fe; color: #4a7ad3; font-size: 11px; cursor: pointer;"
+                                    title="Show another random selection of videos"
+                                    onclick="(function(button) {
+                                        var feature = button.closest('.feature');
+                                        var pool = Array.prototype.slice.call(feature.querySelectorAll('.nve-video-pool .nve-video-entry'));
+                                        var tiles = Array.prototype.slice.call(feature.querySelectorAll('.nve-video-thumbnails .thumbnail'));
+                                        if (pool.length <= 3 || tiles.length === 0) return;
+
+                                        var current = tiles.map(function(tile) {
+                                            return tile.querySelector('a').getAttribute('href');
+                                        });
+                                        var order, attempts = 0;
+                                        do {
+                                            order = pool.map(function(entry, index) { return index; });
+                                            for (var i = order.length - 1; i > 0; i--) {
+                                                var j = Math.floor(Math.random() * (i + 1));
+                                                var swap = order[i];
+                                                order[i] = order[j];
+                                                order[j] = swap;
+                                            }
+                                            attempts++;
+                                        } while (attempts < 20 && order.slice(0, tiles.length).every(function(index) {
+                                            return current.indexOf(pool[index].getAttribute('data-url')) !== -1;
+                                        }));
+
+                                        tiles.forEach(function(tile, index) {
+                                            var entry = pool[order[index]];
+                                            var url = entry.getAttribute('data-url');
+                                            var label = entry.getAttribute('data-label');
+                                            var thumb = entry.getAttribute('data-thumb');
+                                            var link = tile.querySelector('a');
+                                            link.setAttribute('href', url);
+                                            if (label) link.setAttribute('title', label);
+                                            else link.removeAttribute('title');
+
+                                            var media;
+                                            if (thumb) {
+                                                media = button.ownerDocument.createElement('img');
+                                                media.src = thumb;
+                                                media.alt = 'Video thumbnail';
+                                                media.style.width = '100%';
+                                            } else {
+                                                media = button.ownerDocument.createElement('video');
+                                                media.style.width = '100%';
+                                                media.preload = 'metadata';
+                                                var source = button.ownerDocument.createElement('source');
+                                                source.src = url;
+                                                source.type = 'video/mp4';
+                                                media.appendChild(source);
+                                            }
+                                            link.replaceChild(media, link.firstElementChild);
+                                            if (!thumb) media.load();
+                                        });
+                                    })(this)">
+                                &#8635; Reload
+                            </button>
+                        </div>
+                    </#if>
                 </div>
             </#if>
         </div>
     </#if>
 </#list>
-
-
-
-<div id="nve-js-test" style="padding:10px; margin-top:12px; background:#eeeeee; border:1px solid #999; font-size:12px;">
-
-    <b>JavaScript diagnostic</b>
-<div>Features returned by GeoServer: ${features?size}</div>
-
-    <div style="margin:8px 0;">
-        Script execution:
-        <span id="nve-script-status" style="font-weight:bold; color:#b00000;">
-            NOT EXECUTED
-        </span>
-    </div>
-
-
-
-
-<button type="button"
-        onclick="
-            var thumbs = this.getRootNode().querySelectorAll('.feature .thumbnail');
-            var first = thumbs[0].querySelector('a');
-            var second = thumbs[1].querySelector('a');
-            var video = first.querySelector('video');
-            var source = video.querySelector('source');
-            source.src = second.querySelector('source').src;
-            first.href = second.href;
-            video.load();
-        ">
-    Test video replacement
-</button>
-
-<div>Original selection</div>
-
-</div>
-
-<script>
-    try {
-        document.getElementById('nve-script-status').textContent = 'EXECUTED';
-        document.getElementById('nve-script-status').style.color = 'green';
-        console.log('NVE diagnostic: script executed successfully');
-    } catch (error) {
-        console.error('NVE diagnostic error:', error);
-    }
-</script>
