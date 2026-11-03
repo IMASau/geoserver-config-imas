@@ -1,469 +1,226 @@
+<#-- Raster class value -> metadata and sample video links. -->
+<#-- Add/change classes and links here; the display below is shared by all classes. -->
+<#assign ecosystems = {
+    "1": {
+        "title": "Shelf unvegetated sediments",
+        "color": "#a2d9ff",
+        "description": "Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.",
+        "videos": [
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4"
+        ]
+    },
+    "2": {
+        "title": "Upper slope sediments",
+        "color": "#5171e2",
+        "description": "Sediment habitats on the upper continental slope (200 m -700 m).",
+        "videos": [
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4"
+        ]
+    },
+    "3": {
+        "title": "Mid slope sediments",
+        "color": "#b13dff",
+        "description": "Sediment habitats on the mid continental slope (700-2,000 m)."
+    },
+    "4": {
+        "title": "Lower slope reef and sediments",
+        "color": "#4098c4",
+        "description": "Rocky reef and sediment habitats on the lower continental slope and continental rise (i.e. between 2,000 m and nominally 4,000 m)."
+    },
+    "5": {
+        "title": "Abyssal reef and sediments",
+        "color": "#0012d9",
+        "description": "Reef and sediment habitats in the abyssal zone, between 4,000 m and 6,000 m."
+    },
+    "6": {
+        "title": "Seamount sediments",
+        "color": "#42ecd0",
+        "description": "Sediment habitats occurring on seamounts.",
+        "videoIntro": "Select a thumbnail to view a short video on seamount formation and the ecosystems living on and around seamounts.",
+        "videos": [
+            "https://www.youtube.com/watch?v=wb7Wga5EymA",
+            "https://www.youtube.com/watch?v=mSZ6H5E6nTw",
+            "https://www.youtube.com/watch?v=6fKCeFl4b_w"
+        ],
+        "thumbnailOverrides": {
+            "2": "https://img.youtube.com/vi/6fKCeFl4b_w/2.jpg"
+        }
+    },
+    "7": {
+        "title": "Shelf incising canyons",
+        "color": "#848484",
+        "description": "Steep sided valleys in the seabed that extend onto the continental shelf at least 500 m shoreward of the shelf break.",
+        "videoIntro": "Select a thumbnail to view a short video on canyon ecosystems.",
+        "videos": [
+            "https://www.youtube.com/watch?v=wL6Z6QvM1Tc",
+            "https://www.youtube.com/watch?v=AgbuMT2QIRg",
+            "https://www.youtube.com/watch?v=BO-Ed2EPZZ4"
+        ]
+    },
+    "8": {
+        "title": "Oceanic shallow coral reefs",
+        "color": "#eea6f1",
+        "description": "Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.",
+        "videos": [
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4"
+        ]
+    },
+    "9": {
+        "title": "Shelf vegetated sediments",
+        "color": "#29d000",
+        "description": "Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.",
+        "videos": [
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4"
+        ]
+    },
+    "10": {
+        "title": "Shallow coral reefs",
+        "color": "#a17456",
+        "description": "Coral reefs occurring in continental shelf areas shallower than 30 m.",
+        "videos": [
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4"
+        ]
+    },
+    "11": {
+        "title": "Shallow rocky reefs",
+        "color": "#c15e7d",
+        "description": "Rocky reefs occurring in continental shelf areas shallower than 30 m.",
+        "videos": [
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4"
+        ]
+    },
+    "12": {
+        "title": "Mesophotic coral reefs",
+        "color": "#e0a800",
+        "description": "Coral reef formations on tropical continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.",
+        "videos": [
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4",
+            "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4"
+        ]
+    },
+    "13": {
+        "title": "Mesophotic rocky reefs",
+        "color": "#f427e3",
+        "description": "Rocky reef formations on temperate continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.",
+        "videos": [
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4"
+        ]
+    },
+    "14": {
+        "title": "Oceanic mesophotic coral reefs",
+        "color": "#e7689f",
+        "description": "Coral reefs occurring seaward of the continental shelf break in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.",
+        "videos": [
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4"
+        ]
+    },
+    "15": {
+        "title": "Rariphotic shelf reefs",
+        "color": "#df0003",
+        "description": "Rocky reef formations found on the continental shelf below the mesophotic zone where light is so scarce it is not enough to support photosynthesis. Nominally rariphotic shelf reefs occur between 70 m and 200 m (the nominal depth of the shelf break).",
+        "videos": [
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4",
+            "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4"
+        ]
+    },
+    "16": {
+        "title": "Upper slope reefs",
+        "color": "#ffe400",
+        "description": "Reef habitats on the upper section of the continental slope between shelf break (nominally 200 m) and 700 m."
+    },
+    "17": {
+        "title": "Mid slope reefs",
+        "color": "#b1c706",
+        "description": "Reef habitats on the mid-continental slope between 700 m and 2,000 m."
+    },
+    "18": {
+        "title": "Seamount reefs",
+        "color": "#9eed7c",
+        "description": "Rocky and deep-sea cold-water coral formations occurring on seamounts.",
+        "videoIntro": "Select a thumbnail to view a short video on seamount formation and the ecosystems living on and around seamounts.",
+        "videos": [
+            "https://www.youtube.com/watch?v=wb7Wga5EymA",
+            "https://www.youtube.com/watch?v=mSZ6H5E6nTw",
+            "https://www.youtube.com/watch?v=6fKCeFl4b_w"
+        ]
+    },
+    "27": {
+        "title": "Islands (including cays and islets)",
+        "description": "Island = Relatively small body of land surrounded by water; Cay = a low bank or reef of coral or sand; Islet = a little island."
+    },
+    "28": {
+        "title": "Oceanic vegetated sediments",
+        "color": "#6a7f4e",
+        "description": "Sediment habitats occurring seaward of the continental shelf break that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30m but can extend beyond this in areas with very clear waters."
+    }
+}>
+
+<#-- Reusable display: ignore NoData (255) and unknown raster classes. -->
 <#list features as feature>
+    <#assign item = ecosystems[feature.GRAY_INDEX.value?number?int?c]!{}> <#-- Convert raster value from int to character string, and return empty hash if the ecosystems value does not exist in the lookup above. -->
+    <#if item.title??> <#-- If Ecosystem TITLE is *not* an empty hash, proceed -->
 
-    <#if (feature_index < 1)>
-        <#assign ecosys = feature.GRAY_INDEX.value?number>
-
-        <#if (ecosys == 255)>
-        <#else>
-
-            <div class="feature" style='overflow-wrap: break-word; white-space: normal; width: 500px; padding-bottom: 7px; padding-top: 7px; text-align:center;'>
-                <#if ecosys == 1>
-                    <div style="padding-bottom:8px; font-weight:bold;">Shelf unvegetated sediments</div>
-                    <span style="font-size:97%"><i>Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 88%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br><span style="font-size:100%;">&#9888;&#65039;</span> Videos are <span style=
-                        "font-weight:800;">indicative</span> of the ecosystem class and may not be from the clicked location. <span style="font-size:100%;">&#9888;&#65039;</span></div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 2>
-                    <div style="padding-bottom:8px; font-weight:bold;">Upper slope sediments</div>
-                    <span style="font-size:97%"><i>Sediment habitats on the upper continental slope (200 m -700 m).</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 3>
-                    <div style="padding-bottom:8px; font-weight:bold;">Mid slope sediments</div>
-                    <span style="font-size:97%"><i>Sediment habitats on the mid continental slope (700-2000 m).</i></span>
-                <#elseif ecosys == 4>
-                    <div style="padding-bottom:8px; font-weight:bold;">Lower slope reef and sediments</div>
-                    <span style="font-size:97%"><i>Rocky reef and sediment habitats on the lower continental slope and continental rise (i.e. between 2000 m and nominally 4000 m).</i></span>
-                <#elseif ecosys == 5>
-                    <div style="padding-bottom:8px; font-weight:bold;">Abyssal reef and sediments</div>
-                    <span style="font-size:97%"><i>Reef and sediment habitats in the abyssal zone, between 4000 m and 6000 m.</i></span>
-                <#elseif ecosys == 6>
-                    <div style="padding-bottom:8px; font-weight:bold;">Seamount sediments</div>
-                    <span style="font-size:97%"><i>Sediment habitats occurring on seamounts.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts.<br>(Note: videos may be from a seamount feature at a different location).</div>
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <!-- First YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                            <!-- Second YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=mSZ6H5E6nTw" target="_blank">
-                                    <img src="https://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                            <!-- Third YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
-                                <a href="https://www.youtube.com/watch?v=6fKCeFl4b_w" target="_blank">
-                                    <img src="https://img.youtube.com/vi/6fKCeFl4b_w/2.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 7>
-                    <div style="padding-bottom:8px; font-weight:bold;">Shelf incising canyons</div>
-                    <span style="font-size:97%"><i>Steep sided valleys in the seabed that extend onto the continental shelf at least 500 m shoreward of the shelf break.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on canyon ecosystems.<br>(Note: videos may be from a canyon feature at a different location).</div>
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <!-- First YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=wL6Z6QvM1Tc" target="_blank">
-                                    <img src="https://img.youtube.com/vi/wL6Z6QvM1Tc/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                            <!-- Second YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=AgbuMT2QIRg" target="_blank">
-                                    <img src="https://img.youtube.com/vi/AgbuMT2QIRg/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                            <!-- Third YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
-                                <a href="https://www.youtube.com/watch?v=BO-Ed2EPZZ4" target="_blank">
-                                    <img src="https://img.youtube.com/vi/BO-Ed2EPZZ4/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 8>
-                    <div style="padding-bottom:8px; font-weight:bold;">Oceanic shallow coral reefs</div>
-                    <span style="font-size:97%"><i>Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 9>
-                    <div style="padding-bottom:8px; font-weight:bold;">Shelf vegetated sediments</div>
-                    <span style="font-size:97%"><i>Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 10>
-                    <div style="padding-bottom:8px; font-weight:bold;">Shallow coral reefs</div>
-                    <span style="font-size:97%"><i>Coral reefs occurring in continental shelf areas shallower than 30 m.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 11>
-                    <div style="padding-bottom:8px; font-weight:bold;">Shallow rocky reefs</div>
-                    <span style="font-size:97%"><i>Rocky reefs occurring in continental shelf areas shallower than 30 m.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 12>
-                    <div style="padding-bottom:8px; font-weight:bold;">Mesophotic coral reefs</div>
-                    <span style="font-size:97%"><i>Coral reef formations on tropical continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 13>
-                    <div style="padding-bottom:8px; font-weight:bold;">Mesophotic rocky reefs</div>
-                    <span style="font-size:97%"><i>Rocky reef formations on temperate continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 14>
-                    <div style="padding-bottom:8px; font-weight:bold;">Oceanic mesophotic coral reefs</div>
-                    <span style="font-size:97%"><i>Coral reefs occurring seaward of the continental shelf break in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 15>
-                    <div style="padding-bottom:8px; font-weight:bold;">Rariphotic shelf reefs</div>
-                    <span style="font-size:97%"><i>Rocky reef formations found on the continental shelf below the mesophotic zone where light is so scarce it is not enough to support photosynthesis. Nominally rariphotic shelf reefs occur between 70 m and 200 m (the nominal depth of the shelf break).</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
-                        <!-- First video thumbnail -->
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Second video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                            <!-- Third video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" target="_blank">
-                                    <video style="width: 100%;">
-                                        <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4" type="video/mp4">
-                                    </video>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                <#elseif ecosys == 16>
-                    <div style="padding-bottom:8px; font-weight:bold;">Upper slope reefs</div>
-                    <span style="font-size:97%"><i>Reef habitats on the upper section of the continental slope between shelf break (nominally 200 m) and 700 m.</i></span>
-                <#elseif ecosys == 17>
-                    <div style="padding-bottom:8px; font-weight:bold;">Mid slope reefs</div>
-                    <span style="font-size:97%"><i>Reef habitats on the mid-continental slope between 700 m and 2000 m.</i></span>
-                <#elseif ecosys == 18>
-                    <div style="padding-bottom:8px; font-weight:bold;">Seamount reefs</div>
-                    <span style="font-size:97%"><i>Rocky and deep-sea cold-water coral formations occurring on seamounts.</i></span>
-                    <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
-
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select from a thumbnail below to view a short video on the formation of, and the ecosystems living on and around seamounts.<br>(Note: videos may be from a seamount feature at a different location).</div>
-                        <div style="display: flex; flex-wrap: wrap;">
-                            <!-- First YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=wb7Wga5EymA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/wb7Wga5EymA/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                            <!-- Second YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-right: 5px; margin-bottom: 1px;">
-                                <a href="https://www.youtube.com/watch?v=mSZ6H5E6nTw" target="_blank">
-                                    <img src="https://img.youtube.com/vi/mSZ6H5E6nTw/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                            <!-- Third YouTube video thumbnail -->
-                            <div class="thumbnail" style="width: 160px; margin-bottom: 5px;">
-                                <a href="https://www.youtube.com/watch?v=6fKCeFl4b_w" target="_blank">
-                                    <img src="https://img.youtube.com/vi/6fKCeFl4b_w/0.jpg" style="width: 100%;">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                <#elseif ecosys == 28>
-                    <div style="padding-bottom:8px; font-weight:bold;">Oceanic vegetated sediments</div>
-                    <span style="font-size:97%"><i>Sediment habitats occurring seaward of the continental shelf break that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30m but can extend beyond this in areas with very clear waters.</i></span>                    
-
-                <#elseif ecosys == 20>
-                    <div style="padding-bottom:8px; font-weight:bold;">Bathypelagic & Abyssopelagic</div>
-                <#elseif ecosys == 21>
-                    <div style="padding-bottom:8px; font-weight:bold;">Mesopelagic</div>
-                <#elseif ecosys == 22>
-                    <div style="padding-bottom:8px; font-weight:bold;">Off-shelf (oceanic) epipelagic</div>
-                <#elseif ecosys == 23>
-                    <div style="padding-bottom:8px; font-weight:bold;">On-shelf (neritic) epipelagic</div>
-                <#elseif ecosys == 27>
-                    <div style="padding-bottom:8px; font-weight:bold;">Islands (including cays and islets)</div>
-                    <span style="font-size:97%"><i>Island = Relatively small body of land surrounded by water; Cay = a low bank or reef of coral or sand; Islet = a little island.</i></span>
+        <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 7px 0; text-align: center;">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 7px; padding-bottom: 5px; font-weight: bold;">
+                <#if item.color??>
+                    <span style="display: inline-block; width: 12px; height: 12px; flex: 0 0 12px; box-sizing: border-box; border: 1px solid #999; background-color: ${item.color};"></span>
                 </#if>
-
+                <span>${item.title}</span>
             </div>
-        </#if>
-    </#if>
+            <div style="margin: 5px 0; letter-spacing: 1.1px; font-size:11px; font-style:italic;">${item.description}</div>
 
+            <#if item.videos??> <#-- If videos have been configured for NVE class, proceed with thumbnails. -->
+                <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin: 10px 0 3px;">
+                  <div style="font-size: 88%; text-align: center; color: #6495ED; padding-bottom: 5px;">
+                      <div>
+                          ${(item.videoIntro!"Select a thumbnail to view a sample video of this ecosystem.")}
+                      </div>
+                      <div style="margin-top: 2px;">
+                          <span style="font-size: 110%;">&#9888;&#65039;</span>
+                          Videos are <span style="font-weight:750; color: #4a7ad3; font-style:italic;">representative</span> of the ecosystem class and may not be from the clicked location.
+                          <span style="font-size: 110%;">&#9888;&#65039;</span>
+                      </div>
+                  </div>
+
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 5px 0 0 3px;">
+                        <#list item.videos as url>
+                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="${url}" target="_blank" rel="noopener noreferrer">
+                                    <#if url?contains("youtube.com/watch")>
+                                        <#assign thumb = "https://img.youtube.com/vi/" + url?split("v=")?last + "/0.jpg">
+                                        <#if item.thumbnailOverrides?? && item.thumbnailOverrides[url_index?c]??>
+                                            <#assign thumb = item.thumbnailOverrides[url_index?c]>
+                                        </#if>
+                                        <img src="${thumb}" style="width: 100%;" alt="Video thumbnail">
+                                    <#else>
+                                        <video style="width: 100%;" preload="metadata">
+                                            <source src="${url}" type="video/mp4">
+                                        </video>
+                                    </#if>
+                                </a>
+                            </div>
+                        </#list>
+                    </div>
+                </div>
+            </#if>
+        </div>
+    </#if>
 </#list>
