@@ -1,5 +1,5 @@
 <#-- Raster class value -> metadata and sample video links. -->
-<#-- Add/change classes and links here; optional "label" on a video shows a hover tooltip. -->
+<#-- Add/change classes and links here; optional "label" on a video shows a centred hover band. -->
 <#-- The display below is shared by all classes. -->
 <#assign ecosystems = {
     "1": {
@@ -24,10 +24,11 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Representative_Video/Zeehan_16_5_1278_1279_1278_1_representative_3.21.mp4",
               "label": "Zeehan"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Highlight_Video/Beagle_130_1260_1261_1260_2_squid_fish_50.91.mp4",
-              "label": "Beagle"}
+              "label": "Beagle"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Highlight_Video/Frey_9_3_1260_1261_megalopsflatheads.mp4",
-              "label": "Freycinet"
-            }
+              "label": "Freycinet"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Highlight_Video/Frey_17_3_1258_1259_1258_scorpaenoidesbitingshell.mp4",
+              "label": "Freycinet"}
         ]
     },
     "2": {
@@ -165,7 +166,9 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Representative_Video/Beagle_11_1258_1259_1258_1_representative_5.75.mp4",
               "label": "Beagle"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Representative_Video/20221203_SAL_118_West_top_MAH00600_1800.mp4",
-              "label": "Investigator Marine Park"}
+              "label": "Investigator Marine Park"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Highlight_Video/20221121_SAL_101_east_top_MAH00379_1500_fish_nice_reef.mp4",
+              "label": "Eastern Recherche"}
         ]
     },
     "14": {
@@ -193,7 +196,9 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4",
               "label": "Huon"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Highlight_Video/Zeehan_15_6_1258_1259_1258_5_cuttlefish_42.26.mp4",
-              "label": "Zeehan"}
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_7_1_1260_1261_1260_5_2.31_megalops_macropterus.mp4",
+              "label": "Freycinet"}
         ]
     },
     "16": {
@@ -228,6 +233,30 @@
     }
 }>
 
+<#-- Hover label is defined here; header.ftl remains unchanged. -->
+<style type="text/css">
+    .nve-video-thumbnails .thumbnail[data-label]:hover::after {
+        content: attr(data-label);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%);
+        box-sizing: border-box;
+        padding: 5px 3px;
+        background: rgba(245, 245, 245, 0.45);
+        color: #222222;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-align: center;
+        white-space: normal;
+        overflow-wrap: break-word;
+        pointer-events: none;
+        z-index: 2;
+    }
+</style>
+
 <#-- Reusable display: ignore NoData (255) and unknown raster classes. -->
 <#list features as feature>
     <#assign item = ecosystems[feature.GRAY_INDEX.value?number?int?c]!{}> <#-- Convert raster value from int to character string, and return empty hash if the ecosystems value does not exist in the lookup above. -->
@@ -235,8 +264,8 @@
 
         <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 6px 0; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center; gap: 7px; padding-bottom: 5px; font-weight: bold;">
-                <span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span>
-                <h5 style = "letter:spacing: 1.2 px;; font-size: 11.5px;">${item.title}</h5>
+                <#if item.color??><span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span></#if>
+                <h5 style = "letter-spacing: 1.2px; font-size: 11.5px;">${item.title}</h5>
             </div>
             
             <div style="margin: 8px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic; color: #404040;">${item.description}</div>
@@ -282,8 +311,8 @@
                                 <#assign video = item.videos[originalIndex]>
                                 <#assign url = video.url>
                                 <#assign remainingIndices = remainingIndices?filter(i -> i != originalIndex)>
-                            <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
-                                <a href="${url}" target="_blank" rel="noopener noreferrer"<#if video.label?has_content> title="${video.label}"</#if>>
+                            <div class="thumbnail"<#if video.label?has_content> data-label="${video.label}"</#if> style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                                <a href="${url}" target="_blank" rel="noopener noreferrer">
                                     <#if url?contains("youtube.com/watch")>
                                         <#assign thumb = "https://img.youtube.com/vi/" + url?split("v=")?last + "/0.jpg">
                                         <#if item.thumbnailOverrides?? && item.thumbnailOverrides[originalIndex?c]??>
@@ -303,9 +332,11 @@
 
                     <#-- Inline JavaScript works in Seamap even though script blocks do not. -->
                     <#if item.videos?size gt 3>
-                        <div style="width: 100%; display: flex; justify-content: flex-end; margin-top: 10px; padding-right: 9px; box-sizing: border-box;">
+                        <div style="width: 100%; display: flex; justify-content: flex-end; margin-top: 5px; padding-right: 9px; box-sizing: border-box;"> <#-- Reload button -->
                             <button type="button"
-                                    style="border: 1px solid #b9cce7; border-radius: 3px; padding: 3px 7px; background: #f4f8fe; color: #4a7ad3; font-size: 11px; cursor: pointer;"
+                                    style="border: 1px solid #b9cce7; border-radius: 3px; padding: 3px 7px; background: #f4f8fe; color: #4a7ad3; font-size: 10.5px; cursor: pointer;"
+                                    onmouseenter="this.style.backgroundColor='#dce8f5'; this.style.borderColor='#789bcf';"
+                                    onmouseleave="this.style.backgroundColor='#f4f8fe'; this.style.borderColor='#b9cce7';"
                                     title="Show another random selection of videos"
                                     onclick="(function(button) {
                                         var feature = button.closest('.feature');
@@ -337,8 +368,8 @@
                                             var thumb = entry.getAttribute('data-thumb');
                                             var link = tile.querySelector('a');
                                             link.setAttribute('href', url);
-                                            if (label) link.setAttribute('title', label);
-                                            else link.removeAttribute('title');
+                                            if (label) tile.setAttribute('data-label', label);
+                                            else tile.removeAttribute('data-label');
 
                                             var media;
                                             if (thumb) {
