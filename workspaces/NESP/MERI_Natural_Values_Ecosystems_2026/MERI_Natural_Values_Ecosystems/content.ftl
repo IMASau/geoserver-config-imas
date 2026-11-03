@@ -32,7 +32,13 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M161_542_552_552_7.23_picta_filamentosus_unimaculatus.mp4",
               "label": "Elizabeth & Middleton Reefs"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E133_541_548_548_1.05.33_galapagensis_clupeidae_dentex.mp4",
-              "label": "Elizabeth & Middleton Reefs"}
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202508_HunterAMP/Representative_Video/Hunter_AMP_2_6_1260_1261_1260_1_representative_4.8.mp4",
+              "label": "Hunter"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_23_5_1262_1263_1262_3_5.03_sevengill.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_7_4_1258_1259_1258_3_4.55min_GummyShark_flathead.mp4",
+              "label": "Huon"}
         ]
     },
     "2": {
@@ -105,7 +111,17 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4",
               "label": "Elizabeth & Middleton Reefs"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M183_H_Left_200203_2_8.32_microlepidotus_galapagensis_polyacanthus.mp4",
-              "label": "Elizabeth & Middleton Reefs"}
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E29_282_283_282_7.25_mertensii_labridae_fraenatum_pomacentridae.mp4",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E107_406_407_406Representative.mp4",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/Hosted/NorfolkIsland_PendoleyEnv_2022/328-Vid-0.mp4",
+              "label": "Norfolk Island"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/Hosted/NorfolkIsland_PendoleyEnv_2022/286-Vid-0.mp4",
+              "label": "Norfolk Island"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/Hosted/NorfolkIsland_PendoleyEnv_2022/377-Vid-0.mp4",
+              "label": "Norfolk Island"}
         ]
     },
     "9": {
@@ -177,7 +193,11 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Representative_Video/20221203_SAL_118_West_top_MAH00600_1800.mp4",
               "label": "Investigator Marine Park"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Highlight_Video/20221121_SAL_101_east_top_MAH00379_1500_fish_nice_reef.mp4",
-              "label": "Eastern Recherche"}
+              "label": "Eastern Recherche"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202508_HunterAMP/Representative_Video/Hunter_AMP_49_1_1260_1261_1260_1_representative_3.31.mp4",
+              "label": "Hunter"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202508_HunterAMP/Highlight_Video/Hunter_AMP_49_6_1276_1277_1276_3_wobbe_30.39.mp4",
+              "label": "Hunter"}
         ]
     },
     "14": {
@@ -194,7 +214,13 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M67_406_407_406_9.24_mertensii_galapagensis_euanus_dussumieri_conspicillatus_rivulatus.mp4",
               "label": "Elizabeth & Middleton Reefs"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M78_547_549_549_5.59_dussumieri_auriga_caesius_fraenatum_francisi.mp4",
-              "label": "Elizabeth & Middleton Reefs"}
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E243_544_551_544_-_Segment1(03_42_51.800-03_45_53.320).mp4",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/Hosted/NorfolkIsland_PendoleyEnv_2022/285-Vid-0.mp4",
+              "label": "Norfolk Island"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/Hosted/NorfolkIsland_PendoleyEnv_2022/295-Vid-0.mp4",
+              "label": "Norfolk Island"}            
         ]
     },
     "15": {
@@ -211,7 +237,13 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Highlight_Video/Zeehan_15_6_1258_1259_1258_5_cuttlefish_42.26.mp4",
               "label": "Zeehan"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_7_1_1260_1261_1260_5_2.31_megalops_macropterus.mp4",
-              "label": "Freycinet"}
+              "label": "Freycinet"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_175_1_1262_1263_1262_4_6.53_latriceps_macleayi_lobsters_reallycoolvideo.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_28_4_1260_1261_1260_1_11.25_lobster_percoides_rockcod.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202103_TasFracture/Representative_Video/TF_215_406_407_406_3.04_edwardsii_percoides_squat_lobtser.mp4",
+              "label": "Tasman Fracture"}
         ]
     },
     "16": {
