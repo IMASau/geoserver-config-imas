@@ -28,7 +28,11 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Highlight_Video/Frey_9_3_1260_1261_megalopsflatheads.mp4",
               "label": "Freycinet"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Highlight_Video/Frey_17_3_1258_1259_1258_scorpaenoidesbitingshell.mp4",
-              "label": "Freycinet"}
+              "label": "Freycinet"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M161_542_552_552_7.23_picta_filamentosus_unimaculatus.mp4",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E133_541_548_548_1.05.33_galapagensis_clupeidae_dentex.mp4",
+              "label": "Elizabeth & Middleton Reefs"}
         ]
     },
     "2": {
@@ -67,9 +71,12 @@
         "description": "Sediment habitats occurring on seamounts.",
         "videoIntro": "Select a thumbnail to view a short video on seamount formation seamount-associated ecosystems.",
         "videos": [
-            {"url": "https://www.youtube.com/watch?v=wb7Wga5EymA"},
-            {"url": "https://www.youtube.com/watch?v=mSZ6H5E6nTw"},
-            {"url": "https://www.youtube.com/watch?v=6fKCeFl4b_w"}
+            { "url": "https://www.youtube.com/watch?v=wb7Wga5EymA",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://www.youtube.com/watch?v=mSZ6H5E6nTw",
+              "label": "Gifford"},
+            { "url": "https://www.youtube.com/watch?v=6fKCeFl4b_w",
+              "label": "Lord Howe Island Shelf"}
         ],
         "thumbnailOverrides": {
             "2": "https://img.youtube.com/vi/6fKCeFl4b_w/2.jpg"
@@ -91,11 +98,13 @@
         "color": "#eea6f1",
         "description": "Coral reefs occurring seaward of the continental shelf break in depths shallower than 30 m.",
         "videos": [
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4",
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E89_541_548_548_19.56_galapagensis_microlepidotus-maculatus_annasona.mp4",
               "label": "Elizabeth & Middleton Reefs"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4",
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E166_545_550_550_34.24_euanus_fraenatum_labridae_pomacentridae.mp4",
               "label": "Elizabeth & Middleton Reefs"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4",
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M298_A_Left_200202_1_9.51_galapagensis_sordidus_labridae_balistidae.mp4",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M183_H_Left_200203_2_8.32_microlepidotus_galapagensis_polyacanthus.mp4",
               "label": "Elizabeth & Middleton Reefs"}
         ]
     },
@@ -181,7 +190,11 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4",
               "label": "Elizabath & Midddleton Reefs"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4",
-              "label": "Elizabath & Midddleton Reefs"}
+              "label": "Elizabath & Midddleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M67_406_407_406_9.24_mertensii_galapagensis_euanus_dussumieri_conspicillatus_rivulatus.mp4",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_M78_547_549_549_5.59_dussumieri_auriga_caesius_fraenatum_francisi.mp4",
+              "label": "Elizabeth & Middleton Reefs"}
         ]
     },
     "15": {
@@ -217,9 +230,12 @@
         "description": "Rocky and deep-sea cold-water coral formations occurring on seamounts.",
         "videoIntro": "Select a thumbnail to view a short video on seamount formation seamount-associated ecosystems.",
         "videos": [
-            {"url": "https://www.youtube.com/watch?v=wb7Wga5EymA"},
-            {"url": "https://www.youtube.com/watch?v=mSZ6H5E6nTw"},
-            {"url": "https://www.youtube.com/watch?v=6fKCeFl4b_w"}
+            { "url": "https://www.youtube.com/watch?v=wb7Wga5EymA",
+              "label": "Elizabeth & Middleton Reefs"},
+            { "url": "https://www.youtube.com/watch?v=mSZ6H5E6nTw",
+              "label": "Gifford"},
+            { "url": "https://www.youtube.com/watch?v=6fKCeFl4b_w",
+              "label": "Lord Howe Island Shelf"}
         ]
     },
     "27": {
