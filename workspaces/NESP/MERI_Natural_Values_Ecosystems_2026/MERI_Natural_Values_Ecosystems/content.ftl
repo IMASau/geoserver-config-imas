@@ -65,7 +65,7 @@
         "title": "Seamount sediments",
         "color": "#42ecd0",
         "description": "Sediment habitats occurring on seamounts.",
-        "videoIntro": "Select a thumbnail to view a short video on seamount formation and the ecosystems living on and around seamounts.",
+        "videoIntro": "Select a thumbnail to view a short video on seamount formation seamount-associated ecosystems.",
         "videos": [
             {"url": "https://www.youtube.com/watch?v=wb7Wga5EymA"},
             {"url": "https://www.youtube.com/watch?v=mSZ6H5E6nTw"},
@@ -215,7 +215,7 @@
         "title": "Seamount reefs",
         "color": "#9eed7c",
         "description": "Rocky and deep-sea cold-water coral formations occurring on seamounts.",
-        "videoIntro": "Select a thumbnail to view a short video on seamount formation and the ecosystems living on and around seamounts.",
+        "videoIntro": "Select a thumbnail to view a short video on seamount formation seamount-associated ecosystems.",
         "videos": [
             {"url": "https://www.youtube.com/watch?v=wb7Wga5EymA"},
             {"url": "https://www.youtube.com/watch?v=mSZ6H5E6nTw"},
@@ -233,8 +233,28 @@
     }
 }>
 
-<#-- Hover label is defined here; header.ftl remains unchanged. -->
+<#-- Hover label is defined here. -->
 <style type="text/css">
+    /* Reserve space before video metadata loads or thumbnails are reloaded. */
+    .nve-video-thumbnails .thumbnail {
+        height: 90px;
+        overflow: hidden;
+    }
+    .nve-video-thumbnails .thumbnail a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .nve-video-thumbnails .thumbnail img,
+    .nve-video-thumbnails .thumbnail video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .nve-video-thumbnails .thumbnail img {
+        display: block;
+    }
+
     .nve-video-thumbnails .thumbnail[data-label]:hover::after {
         content: attr(data-label);
         position: absolute;
@@ -259,18 +279,18 @@
 
 <#-- Reusable display: ignore NoData (255) and unknown raster classes. -->
 <#list features as feature>
-    <#assign item = ecosystems[feature.GRAY_INDEX.value?number?int?c]!{}> <#-- Convert raster value from int to character string, and return empty hash if the ecosystems value does not exist in the lookup above. -->
-    <#if item.title??> <#-- If Ecosystem TITLE is *not* an empty hash, proceed -->
+    <#assign item = ecosystems[feature.GRAY_INDEX.value?number?int?c]!{}>
+    <#if item.title??>
 
         <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 6px 0; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center; gap: 7px; padding-bottom: 5px; font-weight: bold;">
                 <#if item.color??><span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span></#if>
-                <h5 style = "letter-spacing: 1.2px; font-size: 11.5px;">${item.title}</h5>
+                <h5 style="letter-spacing: 1.2px; font-size: 11.5px;">${item.title}</h5>
             </div>
             
             <div style="margin: 8px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic; color: #404040;">${item.description}</div>
 
-            <#if item.videos??> <#-- If videos have been configured for NVE class, proceed with thumbnails. -->
+            <#if item.videos??>
                 <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin: 15px 0 3px;">
                   <div style="font-size: 88%; text-align: center; color: #698ac9;">
                       <div>
@@ -283,7 +303,7 @@
                       </div>
                   </div>
 
-                    <#-- Video metadata for client-side refresh. Hidden entries are not preloaded. -->
+                    <#-- Metadata for Reload; no extra videos are preloaded. -->
                     <#if item.videos?size gt 3>
                         <div class="nve-video-pool" style="display: none;">
                             <#list item.videos as candidate>
@@ -311,16 +331,16 @@
                                 <#assign video = item.videos[originalIndex]>
                                 <#assign url = video.url>
                                 <#assign remainingIndices = remainingIndices?filter(i -> i != originalIndex)>
-                            <div class="thumbnail"<#if video.label?has_content> data-label="${video.label}"</#if> style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
+                            <div class="thumbnail"<#if video.label?has_content> data-label="${video.label}"</#if>>
                                 <a href="${url}" target="_blank" rel="noopener noreferrer">
                                     <#if url?contains("youtube.com/watch")>
                                         <#assign thumb = "https://img.youtube.com/vi/" + url?split("v=")?last + "/0.jpg">
                                         <#if item.thumbnailOverrides?? && item.thumbnailOverrides[originalIndex?c]??>
                                             <#assign thumb = item.thumbnailOverrides[originalIndex?c]>
                                         </#if>
-                                        <img src="${thumb}" style="width: 100%;" alt="Video thumbnail">
+                                        <img src="${thumb}" alt="Video thumbnail">
                                     <#else>
-                                        <video style="width: 100%;" preload="metadata">
+                                        <video preload="metadata">
                                             <source src="${url}" type="video/mp4">
                                         </video>
                                     </#if>
@@ -330,9 +350,9 @@
                         </#list>
                     </div>
 
-                    <#-- Inline JavaScript works in Seamap even though script blocks do not. -->
+                    <#-- Seamap runs the inline button handler. -->
                     <#if item.videos?size gt 3>
-                        <div style="width: 100%; display: flex; justify-content: flex-end; margin-top: 5px; padding-right: 9px; box-sizing: border-box;"> <#-- Reload button -->
+                        <div style="width: 100%; display: flex; justify-content: flex-end; margin-top: 5px; padding-right: 9px; box-sizing: border-box;">
                             <button type="button"
                                     style="border: 1px solid #b9cce7; border-radius: 3px; padding: 3px 7px; background: #f4f8fe; color: #4a7ad3; font-size: 10.5px; cursor: pointer;"
                                     onmouseenter="this.style.backgroundColor='#dce8f5'; this.style.borderColor='#789bcf';"
@@ -342,27 +362,24 @@
                                         var feature = button.closest('.feature');
                                         var pool = Array.prototype.slice.call(feature.querySelectorAll('.nve-video-pool .nve-video-entry'));
                                         var tiles = Array.prototype.slice.call(feature.querySelectorAll('.nve-video-thumbnails .thumbnail'));
-                                        if (pool.length <= 3 || tiles.length === 0) return;
-
                                         var current = tiles.map(function(tile) {
                                             return tile.querySelector('a').getAttribute('href');
                                         });
-                                        var order, attempts = 0;
-                                        do {
-                                            order = pool.map(function(entry, index) { return index; });
-                                            for (var i = order.length - 1; i > 0; i--) {
-                                                var j = Math.floor(Math.random() * (i + 1));
-                                                var swap = order[i];
-                                                order[i] = order[j];
-                                                order[j] = swap;
-                                            }
-                                            attempts++;
-                                        } while (attempts < 20 && order.slice(0, tiles.length).every(function(index) {
-                                            return current.indexOf(pool[index].getAttribute('data-url')) !== -1;
-                                        }));
+                                        var unseen = pool.filter(function(entry) {
+                                            return current.indexOf(entry.getAttribute('data-url')) === -1;
+                                        });
+                                        var first = unseen[Math.floor(Math.random() * unseen.length)];
+                                        var remaining = pool.filter(function(entry) { return entry !== first; });
+                                        for (var i = remaining.length - 1; i > 0; i--) {
+                                            var j = Math.floor(Math.random() * (i + 1));
+                                            var swap = remaining[i];
+                                            remaining[i] = remaining[j];
+                                            remaining[j] = swap;
+                                        }
+                                        var selected = [first].concat(remaining.slice(0, tiles.length - 1));
 
                                         tiles.forEach(function(tile, index) {
-                                            var entry = pool[order[index]];
+                                            var entry = selected[index];
                                             var url = entry.getAttribute('data-url');
                                             var label = entry.getAttribute('data-label');
                                             var thumb = entry.getAttribute('data-thumb');
@@ -376,10 +393,8 @@
                                                 media = button.ownerDocument.createElement('img');
                                                 media.src = thumb;
                                                 media.alt = 'Video thumbnail';
-                                                media.style.width = '100%';
                                             } else {
                                                 media = button.ownerDocument.createElement('video');
-                                                media.style.width = '100%';
                                                 media.preload = 'metadata';
                                                 var source = button.ownerDocument.createElement('source');
                                                 source.src = url;
