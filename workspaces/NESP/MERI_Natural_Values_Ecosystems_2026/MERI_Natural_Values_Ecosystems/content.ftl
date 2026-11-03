@@ -38,7 +38,11 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_23_5_1262_1263_1262_3_5.03_sevengill.mp4",
               "label": "Huon"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_7_4_1258_1259_1258_3_4.55min_GummyShark_flathead.mp4",
-              "label": "Huon"}
+              "label": "Huon"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2023-09_Dampier_stereo-BRUVs/DM-BV-95.mp4",
+              "label": "Dampier"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2023-09_Dampier_stereo-BRUVs/DM-BV-28.mp4",
+              "label": "Dampier"}
         ]
     },
     "2": {
@@ -53,7 +57,9 @@
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4",
               "label": "South-west Corner"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202204_ZeehanAMP/Representative_Video/20220511_AFTERNOON_(Z_161)_TOP_WEST_GX092350_12.24_sand.mp4",
-              "label": "Zeehan"}
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_79_1_1262_1263_1262_5_2.36_macropterus_lineata.mp4",
+              "label": "Freycinet"}
         ]
     },
     "3": {
@@ -142,9 +148,14 @@
         "color": "#a17456",
         "description": "Coral reefs occurring in continental shelf areas shallower than 30 m.",
         "videos": [
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4"}
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4",
+              "label": "Montebello"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB576.mp4",
+              "label": "Montebello"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4",
+              "label": "Montebello"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB711.mp4",
+              "label": "Montebello"}
         ]
     },
     "11": {
@@ -174,6 +185,8 @@
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4",
               "label": "Montebello"},
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4",
+              "label": "Montebello"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB657.mp4",
               "label": "Montebello"}
         ]
     },
@@ -238,12 +251,14 @@
               "label": "Zeehan"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_7_1_1260_1261_1260_5_2.31_megalops_macropterus.mp4",
               "label": "Freycinet"},
-            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_175_1_1262_1263_1262_4_6.53_latriceps_macleayi_lobsters_reallycoolvideo.mp4",
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_2_4_1280_1281_1281_4_6.42_laticeps_lobster_scaber.mp4",
               "label": "Huon"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_28_4_1260_1261_1260_1_11.25_lobster_percoides_rockcod.mp4",
               "label": "Huon"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202103_TasFracture/Representative_Video/TF_215_406_407_406_3.04_edwardsii_percoides_squat_lobtser.mp4",
-              "label": "Tasman Fracture"}
+              "label": "Tasman Fracture"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Highlight_Video/Frey_35_6_1280_1281_1280_stingaree_31mins.mp4",
+              "label": "Freycinet"}
         ]
     },
     "16": {
