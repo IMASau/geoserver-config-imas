@@ -8,14 +8,21 @@
         "description": "Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.",
         "videos": [
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-03_south-west_stereo-BOSS/109.mp4",
-              "label": "South-west Corner"
-            },
-            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181019_40_827_828_827_H_portusjacksoni_00_39_17.710-00_40_15.766.mp4",
-              "label": "Beagle"
-            },
+              "label": "South-west Corner"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Highlight_Video/Beagle_324_1_1278_1279_1278_4_thornback_skate_38.06.mp4",
+              "label": "Beagle"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4",
-              "label": "Beagle"
-            }
+              "label": "Beagle"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Representative_Video/Zeehan_4_2_1262_1263_1262_1_representative_3.34.mp4",
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Highlight_Video/Zeehan_17_4_1278_1279_1278_5_johnnyD_52.81.mp4",
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Representative_Video/Zeehan_17_4_1278_1279_1278_1_representative_4.31.mp4",
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Highlight_Video/Zeehan_32_3_1260_1261_1260_1_bb_7.92.mp4",
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Representative_Video/Zeehan_16_5_1278_1279_1278_1_representative_3.21.mp4",
+              "label": "Zeehan"}
         ]
     },
     "2": {
@@ -23,9 +30,14 @@
         "color": "#5171e2",
         "description": "Sediment habitats on the upper continental slope (200 m -700 m).",
         "videos": [
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4"}
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/78.mp4",
+              "label": "South-west Corner"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.4.mp4",
+              "label": "Abrolhos"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2020-10_south-west_stereo-BOSS/360.mp4",
+              "label": "South-west Corner"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202204_ZeehanAMP/Representative_Video/20220511_AFTERNOON_(Z_161)_TOP_WEST_GX092350_12.24_sand.mp4",
+              "label": "Zeehan"}
         ]
     },
     "3": {
@@ -143,9 +155,14 @@
         "color": "#df0003",
         "description": "Rocky reef formations found on the continental shelf below the mesophotic zone where light is so scarce it is not enough to support photosynthesis. Nominally rariphotic shelf reefs occur between 70 m and 200 m (the nominal depth of the shelf break).",
         "videos": [
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4"}
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_5_6_1262_1263_1262_2_10.21_cruciata.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202107_Freycinet/Representative_Video/Frey_16_4_1276_1277_1276_3_0.54_pseudophycis_lobster.mp4",
+              "label": "Freycinet"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Representative_Video/Huon_5_1_1280_1281_1280_5_5.55min_macropterus_scaber_rockcod.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Highlight_Video/Zeehan_15_6_1258_1259_1258_5_cuttlefish_42.26.mp4",
+              "label": "Zeehan"}
         ]
     },
     "16": {
