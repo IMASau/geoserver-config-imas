@@ -11,7 +11,7 @@
               "label": "South-west Corner"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Highlight_Video/Beagle_324_1_1278_1279_1278_4_thornback_skate_38.06.mp4",
               "label": "Beagle"},
-            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4",
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Highlight_Video/Beagle_108_1278_1279_1278_5_Unknown_48.85.mp4",
               "label": "Beagle"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Representative_Video/Zeehan_4_2_1262_1263_1262_1_representative_3.34.mp4",
               "label": "Zeehan"},
@@ -22,7 +22,9 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Highlight_Video/Zeehan_32_3_1260_1261_1260_1_bb_7.92.mp4",
               "label": "Zeehan"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202503_ZeehanAMP/Representative_Video/Zeehan_16_5_1278_1279_1278_1_representative_3.21.mp4",
-              "label": "Zeehan"}
+              "label": "Zeehan"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Highlight_Video/Beagle_130_1260_1261_1260_2_squid_fish_50.91.mp4",
+              "label": "Beagle"}
         ]
     },
     "2": {
@@ -115,9 +117,16 @@
         "color": "#c15e7d",
         "description": "Rocky reefs occurring in continental shelf areas shallower than 30 m.",
         "videos": [
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4"}
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-004.mp4",
+              "label": "Termination Island"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-017.mp4",
+              "label": "Termination Island"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2022-11_Termination_stereo-BOSS/TER-DC-014.mp4",
+              "label": "Termination Island"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Representative_Video/20221127_INV_116_West_top_MAH00499_2200.mp4",
+              "label": "Investigator Marine Park"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Representative_Video/20221127_INV_050_East_top_MAH00497_0500.mp4",
+              "label": "Investigator Marine Park"}
         ]
     },
     "12": {
@@ -135,9 +144,14 @@
         "color": "#f427e3",
         "description": "Rocky reef formations on temperate continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.",
         "videos": [
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4"}
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_21_6_1276_1277_1277_5_9.25_spilomelanurus.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202106_Huon/Highlight_Video/Huon_8_5_1258_1259_1258_adwardsii_38m.mp4",
+              "label": "Huon"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4",
+              "label": "Beagle"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Representative_Video/Beagle_11_1258_1259_1258_1_representative_5.75.mp4",
+              "label": "Beagle"}
         ]
     },
     "14": {
@@ -202,29 +216,28 @@
     <#assign item = ecosystems[feature.GRAY_INDEX.value?number?int?c]!{}> <#-- Convert raster value from int to character string, and return empty hash if the ecosystems value does not exist in the lookup above. -->
     <#if item.title??> <#-- If Ecosystem TITLE is *not* an empty hash, proceed -->
 
-        <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 7px 0; text-align: center;">
+        <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 6px 0; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center; gap: 7px; padding-bottom: 5px; font-weight: bold;">
-                <#if item.color??>
-                    <span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span>
-                </#if>
+                <span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span>
                 <span>${item.title}</span>
             </div>
-            <div style="margin: 5px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic;">${item.description}</div>
+            
+            <div style="margin: 8px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic;">${item.description}</div>
 
             <#if item.videos??> <#-- If videos have been configured for NVE class, proceed with thumbnails. -->
-                <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin: 12px 0 3px;">
+                <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin: 15px 0 3px;">
                   <div style="font-size: 88%; text-align: center; color: #6495ED;">
                       <div>
                           ${(item.videoIntro!"Select a thumbnail to view a sample video of this ecosystem.")}
                       </div>
-                      <div style="margin-top: 2px;">
+                      <div style="margin-top: 1px;">
                           <span style="font-size: 110%;">&#9888;&#65039;</span>
                           Videos are <span style="font-weight:750; color: #4a7ad3; font-style:italic;">representative</span> of the ecosystem class and may not be from the clicked location.
                           <span style="font-size: 110%;">&#9888;&#65039;</span>
                       </div>
                   </div>
 
-                    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 10px 0 0;">
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 12px 0 0;">
                         <#-- Randomly choose up to 3 different videos from the class's full list. -->
                         <#assign remainingIndices = 0..(item.videos?size - 1)>
                         <#list 1..3 as preview>
