@@ -287,10 +287,22 @@
 
 
 
+
 <button type="button"
-        onclick="var first = this.getRootNode().querySelector('.feature .thumbnail'); if (first) first.parentElement.appendChild(first);">
-    Test thumbnail refresh
-</button><div>Original selection</div>
+        onclick="
+            var thumbs = this.getRootNode().querySelectorAll('.feature .thumbnail');
+            var first = thumbs[0].querySelector('a');
+            var second = thumbs[1].querySelector('a');
+            var video = first.querySelector('video');
+            var source = video.querySelector('source');
+            source.src = second.querySelector('source').src;
+            first.href = second.href;
+            video.load();
+        ">
+    Test video replacement
+</button>
+
+<div>Original selection</div>
 
 </div>
 
