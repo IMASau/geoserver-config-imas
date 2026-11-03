@@ -288,11 +288,9 @@
 
 
 <button type="button"
-        onclick="this.textContent = 'Thumbnails found: ' + document.querySelectorAll('.feature .thumbnail').length">
-    Count thumbnails
-</button>
-
-<div>Original selection</div>
+        onclick="var first = this.getRootNode().querySelector('.feature .thumbnail'); if (first) first.parentElement.appendChild(first);">
+    Test thumbnail refresh
+</button><div>Original selection</div>
 
 </div>
 
