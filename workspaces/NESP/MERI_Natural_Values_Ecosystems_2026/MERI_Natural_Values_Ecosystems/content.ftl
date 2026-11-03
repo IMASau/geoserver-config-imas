@@ -225,7 +225,7 @@
         <div class="feature" style="overflow-wrap: break-word; white-space: normal; width: 500px; padding: 6px 0; text-align: center;">
             <div style="display: flex; align-items: center; justify-content: center; gap: 7px; padding-bottom: 5px; font-weight: bold;">
                 <span style="display: inline-block; width: 15px; height: 15px; flex: 0 0 15px; box-sizing: border-box; border: none; background-color: ${item.color};"></span>
-                <h5 style = "letter:spacing: 1.2 px;">${item.title}</h5>
+                <h5 style = "letter:spacing: 1.2 px;; font-size: 11.5px;">${item.title}</h5>
             </div>
             
             <div style="margin: 8px 0; letter-spacing: 1.1px; font-size:11px; line-height:1.35; font-style:italic; color: #404040;">${item.description}</div>
