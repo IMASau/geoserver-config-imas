@@ -42,7 +42,9 @@
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2023-09_Dampier_stereo-BRUVs/DM-BV-95.mp4",
               "label": "Dampier"},
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2023-09_Dampier_stereo-BRUVs/DM-BV-28.mp4",
-              "label": "Dampier"}
+              "label": "Dampier"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2019-08_Ningaloo-Deep_stereo-BRUVs/14.11.mp4",
+              "label": "Ningaloo"}
         ]
     },
     "2": {
@@ -155,6 +157,8 @@
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB566.mp4",
               "label": "Montebello"},
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB711.mp4",
+              "label": "Montebello"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-10_Montebello.sanctuaries_stereo-BRUVs/NCB596.mp4",
               "label": "Montebello"}
         ]
     },
