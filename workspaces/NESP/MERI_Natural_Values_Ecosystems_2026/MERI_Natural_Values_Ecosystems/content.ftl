@@ -103,9 +103,12 @@
         "color": "#29d000",
         "description": "Sediment habitats on the continental shelf that support marine macroalgae or seagrass. Typically, these occur in depths of less than 30 m but can extend beyond this in areas with very clear waters.",
         "videos": [
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4"}
+            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/202.mp4",
+              "label": "Geographe Bay"},
+            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/22.mp4",
+              "label": "Geographe Bay"},
+            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2014-12_Geographe.Bay_stereo-BRUVs/633.mp4",
+              "label": "Geographe Bay"}
         ]
     },
     "10": {
@@ -140,9 +143,12 @@
         "color": "#e0a800",
         "description": "Coral reef formations on tropical continental shelf areas in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.",
         "videos": [
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4"},
-            {"url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4"}
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.43.mp4",
+              "label": "Abrolhos"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB666.mp4",
+              "label": "Montebello"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2015-01_Montebello.transect_stereo-BRUVs/NCB655.mp4",
+              "label": "Montebello"}
         ]
     },
     "13": {
@@ -157,7 +163,9 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_180925_25_827_828_827_-_Segment2(00_27_24.060-00_27_58.840).mp4",
               "label": "Beagle"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202501_BeagleAMP/Representative_Video/Beagle_11_1258_1259_1258_1_representative_5.75.mp4",
-              "label": "Beagle"}
+              "label": "Beagle"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202211_Investigator_Salisbury/Representative_Video/20221203_SAL_118_West_top_MAH00600_1800.mp4",
+              "label": "Investigator Marine Park"}
         ]
     },
     "14": {
@@ -165,9 +173,12 @@
         "color": "#e7689f",
         "description": "Coral reefs occurring seaward of the continental shelf break in the mesophotic zone: a reduced light zone between 30 m and the maximum depth at which there is sufficient penetration of sunlight to support photosynthesis. The maximum depth is variable dependent upon water clarity and may extend to 150m in the clearest of waters however, as a national average it is nominally defined as 70m.",
         "videos": [
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4"},
-            {"url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4"}
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Highlight_Video/EMR_E208_286_287_286_43.54_everything_galapagensis_moray_grouper_etc.mp4",
+              "label": "Elizabath & Midddleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E140_544_551_544_36.40_galapagensis_microlepidotus_maculatus.mp4",
+              "label": "Elizabath & Midddleton Reefs"},
+            { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202001_EMR/Representative_Video/EMR_E208_286_287_286_49.51_everything.mp4",
+              "label": "Elizabath & Midddleton Reefs"}
         ]
     },
     "15": {
