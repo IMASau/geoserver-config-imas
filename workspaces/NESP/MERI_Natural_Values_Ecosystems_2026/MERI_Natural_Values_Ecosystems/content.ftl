@@ -12,7 +12,8 @@
                     <span style="font-size:97%"><i>Sediment habitats on the continental shelf (0-200 metres) that lack marine macroalgae or seagrass.</i></span>
                     <div style="display: flex; flex-wrap: wrap; width: 500px; justify-content: center; margin-bottom: 3px; margin-top: 10px;">
 
-                        <div style="font-size: 85%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br>(Note: videos may be from a different location).</div>
+                        <div style="font-size: 88%; text-align:center; color: cornflowerblue; padding-bottom: 5px;">Select a thumbnail to view a sample video of this ecosystem.<br><span style="font-size:100%;">&#9888;&#65039;</span> Videos are <span style=
+                        "font-weight:800;">indicative</span> of the ecosystem class and may not be from the clicked location. <span style="font-size:100%;">&#9888;&#65039;</span></div>
                         <!-- First video thumbnail -->
                         <div style="display: flex; flex-wrap: wrap;">
                             <div class="thumbnail" style="width: 160px; margin-right: 3px; margin-bottom: 1px;">
@@ -32,7 +33,7 @@
                             </div>
                             <!-- Third video thumbnail -->
                             <div class="thumbnail" style="width: 160px; margin-bottom: 1px;">
-                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181022_113_282_283_282%20-%20Segment1(00_16_51.318-00_17_28.318).mp4" target="_blank">
+                                <a href="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4" target="_blank">
                                     <video style="width: 100%;">
                                         <source src="https://data.imas.utas.edu.au/attachments/UW_curated_video/201810_Beagle/Representative_Video/Beagle_181021_53_827_828_827_-_Segment1(00_45_45.400-00_46_21.936).mp4" type="video/mp4">
                                     </video>
