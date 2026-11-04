@@ -6,6 +6,11 @@
     <id>NamespaceInfoImpl--492f85e9:17f900e0339:504e</id>
   </namespace>
   <title>Storm Bay monthly water quality monitoring</title>
+  <abstract>This data package package brings together water quality observations for Storm Bay collected through FRDC-funded projects 2018-131 and 2014-031, and earlier work undertaken through the Tasmanian Aquaculture and Fisheries Institute.&#xd;
+&#xd;
+Together, these projects established a long-term monitoring record for Storm Bay, coinciding with the expansion of the Tasmanian salmonid industry in the region. The resulting timeseries improves understanding of baseline environmental conditions and supports ongoing assessment of the environmental performance of aquaculture activities in Storm Bay.&#xd;
+&#xd;
+The data comprises monthly observations of physical, pigment and nutrient parameters from long-term monitoring sites associated with the Broadscale Environmental Monitoring Program (BEMP). Measurements are presented by standard depth category for the periods 2009–2015 and 2019–2023.</abstract>
   <keywords>
     <string>features</string>
     <string>IMMERSE_TMA_monthly</string>
