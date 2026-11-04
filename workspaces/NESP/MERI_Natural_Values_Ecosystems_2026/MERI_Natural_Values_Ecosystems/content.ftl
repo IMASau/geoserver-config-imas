@@ -44,6 +44,8 @@
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2023-09_Dampier_stereo-BRUVs/DM-BV-28.mp4",
               "label": "Dampier"},
             { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2019-08_Ningaloo-Deep_stereo-BRUVs/14.11.mp4",
+              "label": "Ningaloo"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2019-08_Ningaloo-Deep_stereo-BRUVs/12.05.mp4",
               "label": "Ningaloo"}
         ]
     },
@@ -214,7 +216,9 @@
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202508_HunterAMP/Representative_Video/Hunter_AMP_49_1_1260_1261_1260_1_representative_3.31.mp4",
               "label": "Hunter"},
             { "url": "https://data.imas.utas.edu.au/attachments/UW_curated_video/202508_HunterAMP/Highlight_Video/Hunter_AMP_49_6_1276_1277_1276_3_wobbe_30.39.mp4",
-              "label": "Hunter"}
+              "label": "Hunter"},
+            { "url": "https://object-store.rc.nectar.org.au/v1/AUTH_00a0b722182f427090a2d462ace79a0a/FishNClips/videos/2021-05_Abrolhos_stereo-BOSS/npz6.33.mp4",
+              "label": "Abrolhos"}
         ]
     },
     "14": {
