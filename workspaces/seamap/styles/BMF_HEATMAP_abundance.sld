@@ -19,19 +19,16 @@
               <ogc:Literal>data</ogc:Literal>
             </ogc:Function>
 
-            <ogc:Function name="parameter">
-              <ogc:Literal>weightAttr</ogc:Literal>
-              <ogc:Function name="pow">
-                <ogc:PropertyName>count</ogc:PropertyName>
-                <ogc:Literal>1.0</ogc:Literal>
-              </ogc:Function>
-            </ogc:Function>
+<ogc:Function name="parameter">
+  <ogc:Literal>weightAttr</ogc:Literal>
+  <ogc:Literal>count</ogc:Literal>
+</ogc:Function>
 
             <ogc:Function name="parameter">
               <ogc:Literal>radiusPixels</ogc:Literal>
               <ogc:Function name="env">
                 <ogc:Literal>radius</ogc:Literal>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>20</ogc:Literal>
               </ogc:Function>
             </ogc:Function>
 
@@ -66,7 +63,7 @@
 
         <Rule>
           <RasterSymbolizer>
-            <Opacity>0.75</Opacity>
+            <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0.00001"/>
               <ColorMapEntry color="#4444FF" quantity="0.01"/>
@@ -79,7 +76,7 @@
         
         <Rule>
           <RasterSymbolizer>
-            <Opacity>0.75</Opacity>
+            <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFF00" quantity="2" label="  higher abundance"/>  
               <ColorMapEntry color="#FF0000" quantity="1"/>              

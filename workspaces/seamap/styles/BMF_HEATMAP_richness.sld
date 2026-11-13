@@ -23,7 +23,7 @@
               <ogc:Literal>radiusPixels</ogc:Literal>
               <ogc:Function name="env">
                 <ogc:Literal>radius</ogc:Literal>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>20</ogc:Literal>
               </ogc:Function>
             </ogc:Function>
 
@@ -58,10 +58,10 @@
 
         <Rule>
           <RasterSymbolizer>
-            <Opacity>0.75</Opacity>
+            <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0.00001"/>
-              <ColorMapEntry color="#440154" quantity="0.01"/>
+              <ColorMapEntry color="#300160" quantity="0.01"/>
               <ColorMapEntry color="#21918c" quantity="0.5"/>
               <ColorMapEntry color="#fde725" quantity="1.0"/>
             </ColorMap>
@@ -71,11 +71,11 @@
         
         <Rule>
           <RasterSymbolizer>
-            <Opacity>0.75</Opacity>
+            <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
               <ColorMapEntry color="#fde725" quantity="2" label="  higher richness"/>  
               <ColorMapEntry color="#21918c" quantity="1"/>              
-              <ColorMapEntry color="#440154" quantity="0" label="  lower richness"/>
+              <ColorMapEntry color="#300160" quantity="0" label="  lower richness"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                              
