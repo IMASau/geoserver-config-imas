@@ -1,0 +1,17 @@
+<layer>
+  <name>benthic_macrofauna_abundance</name>
+  <id>LayerInfoImpl-76a728da:1a1d2f2d834:3fa7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a1d2f2d834:3fce</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-76a728da:1a1d2f2d834:3fa6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-13 04:23:52.100 UTC</dateCreated>
+  <dateModified>2026-11-13 04:26:22.411 UTC</dateModified>
+</layer>
