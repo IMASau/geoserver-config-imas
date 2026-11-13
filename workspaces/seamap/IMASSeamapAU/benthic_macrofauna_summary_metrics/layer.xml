@@ -1,0 +1,16 @@
+<layer>
+  <name>benthic_macrofauna_summary_metrics</name>
+  <id>LayerInfoImpl-76a728da:1a1d385eb42:-4b1c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-76a728da:1a1d385eb42:-4b80</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-76a728da:1a1d385eb42:-4b1d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-13 06:52:51.175 UTC</dateCreated>
+</layer>

@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-76a728da:1a1d2f2d834:3fa6</id>
-  <name>benthic_macrofauna_abundance</name>
+  <name>benthic_macrofauna_presence</name>
   <nativeName>VW_BMF_abundance</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Benthic Macrofauna database</title>
+  <title>Benthic Macrofauna database: full presence data</title>
   <keywords>
     <string>features</string>
     <string>VW_BMF_abundance</string>
