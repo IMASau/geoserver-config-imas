@@ -10,16 +10,15 @@
     <Name>Benthic macrofauna abundance per m2</Name>
 
     <UserStyle>
-      <Title>Benthic macrofauna abundance (individuals m&#8315;&#178;)</Title>
 
       <FeatureTypeStyle>
 
         <Rule>
-          <Title>Abundance (individuals/m2)</Title>
+          <Title>Abundance (individuals m&#8315;&#178;)</Title>
         </Rule>
 
         <Rule>
-          <Title>0 - 45</Title>
+          <Title>     0 - 45</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
