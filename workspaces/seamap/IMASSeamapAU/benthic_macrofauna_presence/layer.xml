@@ -3,16 +3,8 @@
   <id>LayerInfoImpl-76a728da:1a1d2f2d834:3fa7</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-76a728da:1a1d2f2d834:3fce</id>
+    <id>StyleInfoImpl--3ea8dad8:15793887a18:7173</id>
   </defaultStyle>
-  <styles class="linked-hash-set">
-    <style>
-      <id>StyleInfoImpl-76a728da:1a1d2f2d834:3fce</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-76a728da:1a1d2f2d834:6be8</id>
-    </style>
-  </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-76a728da:1a1d2f2d834:3fa6</id>
   </resource>
@@ -21,5 +13,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-11-13 04:23:52.100 UTC</dateCreated>
-  <dateModified>2026-11-13 06:51:02.410 UTC</dateModified>
+  <dateModified>2026-11-15 00:56:02.981 UTC</dateModified>
 </layer>

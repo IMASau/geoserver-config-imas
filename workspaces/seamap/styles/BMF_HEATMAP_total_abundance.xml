@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl-76a728da:1a1d2f2d834:3fce</id>
-  <name>BMF_HEATMAP_abundance</name>
+  <name>BMF_HEATMAP_total_abundance</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>BMF_HEATMAP_abundance.sld</filename>
+  <filename>BMF_HEATMAP_total_abundance.sld</filename>
   <dateCreated>2026-11-13 04:25:51.456 UTC</dateCreated>
-  <dateModified>2026-11-13 04:41:09.610 UTC</dateModified>
+  <dateModified>2026-11-15 00:54:20.45 UTC</dateModified>
 </style>

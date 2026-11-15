@@ -7,7 +7,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Benthic Macrofauna heatmap: OTU richness</Name>
+    <Name>Benthic Macrofauna heatmap: total OTU richness</Name>
 
     <UserStyle>
       <FeatureTypeStyle>
@@ -18,6 +18,11 @@
             <ogc:Function name="parameter">
               <ogc:Literal>data</ogc:Literal>
             </ogc:Function>
+            
+            <ogc:Function name="parameter">
+              <ogc:Literal>weightAttr</ogc:Literal>
+              <ogc:Literal>OTU_richness</ogc:Literal>
+            </ogc:Function>            
 
             <ogc:Function name="parameter">
               <ogc:Literal>radiusPixels</ogc:Literal>
@@ -73,9 +78,10 @@
           <RasterSymbolizer>
             <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#fde725" quantity="2" label="  higher richness"/>  
+              <ColorMapEntry color="#ffffff" opacity="0.00001" quantity="10" label="--Total Richness--"/>                            
+              <ColorMapEntry color="#fde725" quantity="2" label="  higher"/>  
               <ColorMapEntry color="#21918c" quantity="1"/>              
-              <ColorMapEntry color="#300160" quantity="0" label="  lower richness"/>
+              <ColorMapEntry color="#300160" quantity="0" label="  lower"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                              

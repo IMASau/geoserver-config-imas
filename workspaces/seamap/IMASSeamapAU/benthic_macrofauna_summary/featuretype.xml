@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-76a728da:1a1d385eb42:-4b1d</id>
-  <name>benthic_macrofauna_summary_metrics</name>
-  <nativeName>VW_BMF_grab_summary_metrics</nativeName>
+  <name>benthic_macrofauna_summary</name>
+  <nativeName>VW_BMF_summary_metrics_phyla</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Benthic Macrofauna database: summary metrics</title>
+  <title>Benthic Macrofauna database: grab summaries</title>
   <keywords>
     <string>features</string>
     <string>VW_BMF_grab_summary_metrics</string>

@@ -7,7 +7,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Benthic Macrofauna heatmap: abundance</Name>
+    <Name>Benthic Macrofauna heatmap: total abundance</Name>
 
     <UserStyle>
       <FeatureTypeStyle>
@@ -19,10 +19,10 @@
               <ogc:Literal>data</ogc:Literal>
             </ogc:Function>
 
-<ogc:Function name="parameter">
-  <ogc:Literal>weightAttr</ogc:Literal>
-  <ogc:Literal>count</ogc:Literal>
-</ogc:Function>
+            <ogc:Function name="parameter">
+              <ogc:Literal>weightAttr</ogc:Literal>
+              <ogc:Literal>total_abundance</ogc:Literal>
+            </ogc:Function>
 
             <ogc:Function name="parameter">
               <ogc:Literal>radiusPixels</ogc:Literal>
@@ -78,9 +78,10 @@
           <RasterSymbolizer>
             <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#FFFF00" quantity="2" label="  higher abundance"/>  
+              <ColorMapEntry color="#ffffff" opacity="0.00001" quantity="10" label="--Total Abundance--"/>              
+              <ColorMapEntry color="#FFFF00" quantity="2" label="  higher"/>  
               <ColorMapEntry color="#FF0000" quantity="1"/>              
-              <ColorMapEntry color="#4444FF" quantity="0" label="  lower abundance"/>
+              <ColorMapEntry color="#4444FF" quantity="0" label="  lower"/>
             </ColorMap>
           </RasterSymbolizer>
           <VendorOption name="inclusion">legendOnly</VendorOption>                              
