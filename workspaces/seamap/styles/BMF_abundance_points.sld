@@ -19,7 +19,7 @@
         </Rule>  
         
         <Rule>
-          <Title>1 - 3</Title>
+          <Title>   1 &#8211; 3</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>total_abundance</ogc:PropertyName>
@@ -46,7 +46,7 @@
         </Rule>
 
         <Rule>
-          <Title>4 - 6</Title>
+          <Title>   4 &#8211; 6</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -79,7 +79,7 @@
         </Rule>
 
         <Rule>
-          <Title>7 - 10</Title>
+          <Title>   7 &#8211; 10</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -112,7 +112,7 @@
         </Rule>
 
         <Rule>
-          <Title>11 - 20</Title>
+          <Title>   11 &#8211; 20</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -145,7 +145,7 @@
         </Rule>
 
         <Rule>
-          <Title>21 - 50</Title>
+          <Title>   21 &#8211; 50</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -178,7 +178,7 @@
         </Rule>
 
         <Rule>
-          <Title>51 - 200</Title>
+          <Title>   51 &#8211; 200</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
