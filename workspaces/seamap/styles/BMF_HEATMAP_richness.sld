@@ -78,7 +78,7 @@
           <RasterSymbolizer>
             <Opacity>0.8</Opacity>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#ffffff" opacity="0.00001" quantity="10" label="--Total Richness--"/>                            
+              <ColorMapEntry color="#ffffff" opacity="0.00001" quantity="10" label="--OTU Richness--"/>                            
               <ColorMapEntry color="#fde725" quantity="2" label="  higher"/>  
               <ColorMapEntry color="#21918c" quantity="1"/>              
               <ColorMapEntry color="#300160" quantity="0" label="  lower"/>
