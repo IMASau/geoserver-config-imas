@@ -4,7 +4,7 @@
     <#if feature_index == 0>
     
         <div style="font-size:11px; color:#777777; margin-top:4px; margin-bottom:10px;">
-            Survey <b>${feature.survey_code.value}</b>: sample <b>${feature.sample_code.value}</b>
+            Survey <b>${feature.survey_code.value}</b>: sample ID <b>${feature.sample_code.value}</b>
         </div>
         
         <#assign maxBarWidth = 150>
