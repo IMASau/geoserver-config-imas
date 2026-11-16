@@ -16,28 +16,19 @@
       <id>StyleInfoImpl-76a728da:1a1d2f2d834:3fce</id>
     </style>
     <style>
-      <id>StyleInfoImpl--44fdf4a0:1a1dcc3fbdc:1c4d</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl--44fdf4a0:1a1dcc3fbdc:-57dd</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-76a728da:1a1dbeddd17:2cf8</id>
-    </style>
-    <style>
       <id>StyleInfoImpl-76a728da:1a1d2f2d834:6be8</id>
-    </style>
-    <style>
-      <id>StyleInfoImpl-76a728da:1a1dbeddd17:2cfc</id>
     </style>
   </styles>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-76a728da:1a1d385eb42:-4b1d</id>
   </resource>
+  <metadata>
+    <entry key="buffer">256</entry>
+  </metadata>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-11-13 06:52:51.175 UTC</dateCreated>
-  <dateModified>2026-11-15 20:35:45.482 UTC</dateModified>
+  <dateModified>2026-11-15 23:55:50.212 UTC</dateModified>
 </layer>
