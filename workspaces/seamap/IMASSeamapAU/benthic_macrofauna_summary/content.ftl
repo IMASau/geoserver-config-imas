@@ -46,16 +46,16 @@
   }
 </style>
 
-<div style="padding:5px 0; width:680px;">
+<div style="padding:5px 0; width:700px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
       <col width="14%" />
-      <col width="14%" />
-      <col width="12%" />
+      <col width="13.5%" />
+      <col width="11.5%" />
       <col width="9%" />
       <col width="17%" />
-      <col width="10%" />
-      <col width="12%" />
-      <col width="12%" />
+      <col width="9.5%" />
+      <col width="12.75%" />
+      <col width="12.75%" />
 
       <tr>
         <th style="text-align:left;">Survey</th>
