@@ -11,7 +11,7 @@
   }
 
   .bmf-table th {
-    background: #f1f2f4;
+    background: #e7edf8;
     padding: 6px 4px;
     font-size: 10.5px;
     font-weight: 600;
@@ -19,6 +19,7 @@
     border-right: 1px solid #d4d7da;
     border-bottom: 1px solid #c8ccd1;
     white-space: normal;
+    text-transform: none;
   }
 
   .bmf-table td {
@@ -45,16 +46,16 @@
   }
 </style>
 
-<div style="padding:5px 0; width:650px;">
+<div style="padding:5px 0; width:680px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
-      <col width="12%" />
       <col width="14%" />
-      <col width="15%" />
+      <col width="14%" />
+      <col width="12%" />
       <col width="9%" />
       <col width="17%" />
-      <col width="11%" />
-      <col width="11%" />
-      <col width="11%" />
+      <col width="10%" />
+      <col width="12%" />
+      <col width="12%" />
 
       <tr>
         <th style="text-align:left;">Survey</th>
@@ -62,7 +63,7 @@
         <th style="text-align:center;">Sample date</th>
         <th style="text-align:center;">Depth (m)</th>
         <th style="text-align:left;">Sampling gear</th>
-        <th style="text-align:center;">Sampling area (mx&#178;)</th>
+        <th style="text-align:center;">Sampling area (m&#178;)</th>
         <th style="text-align:center;">Abundance</th>
         <th style="text-align:center;">OTU richness</th>
       </tr>
