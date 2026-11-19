@@ -92,7 +92,7 @@
        Keys are lowercase because the lookup below is case-insensitive. -->
   <#assign speciesMap = {
     "amsterdam albatross":"#8B5E8A",
-    "gould's petrel":"#A06C72",
+    "goulds petrel":"#A06C72",
     "grey-headed albatross":"#66739A",
     "northern royal albatross":"#B07B86",
     "shy albatross":"#8F4F6F",
