@@ -35,10 +35,10 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Gould*s Petrel</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
           <PointSymbolizer>
@@ -490,10 +490,10 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Gould*s Petrel</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
           <MaxScaleDenominator>30000000</MaxScaleDenominator>
@@ -960,10 +960,10 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Gould*s Petrel</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
           <MaxScaleDenominator>10000000</MaxScaleDenominator>
@@ -1430,10 +1430,10 @@
         <Rule>
           <Title>Gould's Petrel</Title>
           <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Gould&apos;s Petrel</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Gould*s Petrel</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PointSymbolizer>
