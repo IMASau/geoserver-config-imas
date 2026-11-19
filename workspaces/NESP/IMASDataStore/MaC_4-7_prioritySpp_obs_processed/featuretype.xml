@@ -1,19 +1,19 @@
 <featureType>
   <id>FeatureTypeInfoImpl--605439af:1a131c9ffa4:-7eb4</id>
   <name>MaC_4-7_prioritySpp_obs_processed</name>
-  <nativeName>NESP_MaC_4_7_prioritySpp_SDM</nativeName>
+  <nativeName>ORE_TEDISC_prioritySpp_SDM</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a9062c2:158f6d056c9:-3ecf</id>
   </namespace>
-  <title>Dynamically extracted compilation of observation records of priority bird and cetacean species (NESP MaC 4.7)</title>
-  <abstract>A database of compiled observation records for priority seabirds, migratory shorebirds, migratory parrots and cetaceans collated by NESP Marine and Coastal Hub Project 4.7. The species were selected from priorities identified by NOPSEMA and DCCEEW, building on work undertaken in NESP MaC Project 3.21.&#xd;
+  <title>Dynamically extracted compilation of observation records of priority bird and cetacean species (ORE TEDISC)</title>
+  <abstract>A database of compiled observation records for priority seabirds, migratory shorebirds, migratory parrots and cetaceans collated by NESP Marine and Coastal Hub 4.7 and ORE TEDISC projects. The species were selected from priorities identified by NOPSEMA and DCCEEW, building on work undertaken in NESP MaC Project 3.21.&#xd;
 &#xd;
 These records have been cleaned and standardised for use in subsequent Species Distribution Modelling.&#xd;
 &#xd;
 Records were collated from multiple biodiversity repositories, monitoring programs, government datasets and research projects to provide a consolidated view of where these species have been observed. The database can be used to support assessment of priority species distributions and potential exposure to offshore renewable energy development and other activities in and around Bass Strait.</abstract>
   <keywords>
     <string>features</string>
-    <string>NESP_MaC_4_7_prioritySpp_SDM</string>
+    <string>ORE_TEDISC_prioritySpp_SDM</string>
   </keywords>
   <metadataLinks>
     <metadataLink>
