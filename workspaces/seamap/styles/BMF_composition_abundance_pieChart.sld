@@ -207,7 +207,7 @@
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>26</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -230,7 +230,7 @@
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>28</ogc:Literal>
+                <ogc:Literal>31</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -253,7 +253,7 @@
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>31</ogc:Literal>
+                <ogc:Literal>36</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -275,7 +275,7 @@
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>35</ogc:Literal>
+                <ogc:Literal>41</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>

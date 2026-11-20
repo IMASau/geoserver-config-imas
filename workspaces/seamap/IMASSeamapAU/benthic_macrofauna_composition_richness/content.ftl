@@ -5,7 +5,7 @@
     <#if feature_index == 0>
             
         <#assign maxBarWidth = 150>
-        <#assign totalAbundance = (feature.total_richness.value)?number>
+        <#assign totalAbundance = (feature.OTU_richness.value)?number>
 
         <#assign phyla = [
             {"name": "Annelida", "value": (feature.Annelida_richness.value)?number, "color": "#BCA094"},

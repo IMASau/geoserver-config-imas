@@ -180,7 +180,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / total_richness},${100 * Arthropoda_richness / total_richness},${100 * Bryozoa_richness / total_richness},${100 * Chordata_richness / total_richness},${100 * Cnidaria_richness / total_richness},${100 * Echinodermata_richness / total_richness},${100 * Mollusca_richness / total_richness},${100 * Nematoda_richness / total_richness},${100 * Porifera_richness / total_richness},${100 * Other_richness / total_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
@@ -203,11 +203,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / total_richness},${100 * Arthropoda_richness / total_richness},${100 * Bryozoa_richness / total_richness},${100 * Chordata_richness / total_richness},${100 * Cnidaria_richness / total_richness},${100 * Echinodermata_richness / total_richness},${100 * Mollusca_richness / total_richness},${100 * Nematoda_richness / total_richness},${100 * Porifera_richness / total_richness},${100 * Other_richness / total_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>26</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -226,11 +226,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / total_richness},${100 * Arthropoda_richness / total_richness},${100 * Bryozoa_richness / total_richness},${100 * Chordata_richness / total_richness},${100 * Cnidaria_richness / total_richness},${100 * Echinodermata_richness / total_richness},${100 * Mollusca_richness / total_richness},${100 * Nematoda_richness / total_richness},${100 * Porifera_richness / total_richness},${100 * Other_richness / total_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>28</ogc:Literal>
+                <ogc:Literal>31</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -249,11 +249,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / total_richness},${100 * Arthropoda_richness / total_richness},${100 * Bryozoa_richness / total_richness},${100 * Chordata_richness / total_richness},${100 * Cnidaria_richness / total_richness},${100 * Echinodermata_richness / total_richness},${100 * Mollusca_richness / total_richness},${100 * Nematoda_richness / total_richness},${100 * Porifera_richness / total_richness},${100 * Other_richness / total_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>31</ogc:Literal>
+                <ogc:Literal>36</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
@@ -271,11 +271,11 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / total_richness},${100 * Arthropoda_richness / total_richness},${100 * Bryozoa_richness / total_richness},${100 * Chordata_richness / total_richness},${100 * Cnidaria_richness / total_richness},${100 * Echinodermata_richness / total_richness},${100 * Mollusca_richness / total_richness},${100 * Nematoda_richness / total_richness},${100 * Porifera_richness / total_richness},${100 * Other_richness / total_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>35</ogc:Literal>
+                <ogc:Literal>41</ogc:Literal>
               </Size>
             </Graphic>
           </PointSymbolizer>
