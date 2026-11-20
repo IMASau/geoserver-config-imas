@@ -1,6 +1,6 @@
 <style>
   <id>StyleInfoImpl--44fdf4a0:1a1e0fd4284:-7cd5</id>
-  <name>BMF_phyla_pieChart</name>
+  <name>BMF_composition_abundance_pieChart</name>
   <workspace>
     <id>WorkspaceInfoImpl-513dc49c:1562676d393:-568a</id>
   </workspace>
@@ -8,7 +8,7 @@
   <languageVersion>
     <version>1.0.0</version>
   </languageVersion>
-  <filename>BMF_phyla_pieChart.sld</filename>
+  <filename>BMF_composition_abundance_pieChart.sld</filename>
   <dateCreated>2026-11-15 21:08:23.675 UTC</dateCreated>
-  <dateModified>2026-11-16 00:51:34.570 UTC</dateModified>
+  <dateModified>2026-11-20 21:46:32.967 UTC</dateModified>
 </style>

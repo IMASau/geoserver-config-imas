@@ -9,7 +9,7 @@
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 
   <NamedLayer>
-    <Name>Benthic annotations from downward-facing seafloor video</Name>
+    <Name>Benthic macrofauna species composition (abundance)</Name>
     <UserStyle>
       <FeatureTypeStyle>
         
@@ -180,7 +180,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida / total_abundance},${100 * Arthropoda / total_abundance},${100 * Bryozoa / total_abundance},${100 * Chordata / total_abundance},${100 * Cnidaria / total_abundance},${100 * Echinodermata / total_abundance},${100 * Mollusca / total_abundance},${100 * Nematoda / total_abundance},${100 * Porifera / total_abundance},${100 * Other / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_abundance / total_abundance},${100 * Arthropoda_abundance / total_abundance},${100 * Bryozoa_abundance / total_abundance},${100 * Chordata_abundance / total_abundance},${100 * Cnidaria_abundance / total_abundance},${100 * Echinodermata_abundance / total_abundance},${100 * Mollusca_abundance / total_abundance},${100 * Nematoda_abundance / total_abundance},${100 * Porifera_abundance / total_abundance},${100 * Other_abundance / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
@@ -203,7 +203,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida / total_abundance},${100 * Arthropoda / total_abundance},${100 * Bryozoa / total_abundance},${100 * Chordata / total_abundance},${100 * Cnidaria / total_abundance},${100 * Echinodermata / total_abundance},${100 * Mollusca / total_abundance},${100 * Nematoda / total_abundance},${100 * Porifera / total_abundance},${100 * Other / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_abundance / total_abundance},${100 * Arthropoda_abundance / total_abundance},${100 * Bryozoa_abundance / total_abundance},${100 * Chordata_abundance / total_abundance},${100 * Cnidaria_abundance / total_abundance},${100 * Echinodermata_abundance / total_abundance},${100 * Mollusca_abundance / total_abundance},${100 * Nematoda_abundance / total_abundance},${100 * Porifera_abundance / total_abundance},${100 * Other_abundance / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
@@ -226,7 +226,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida / total_abundance},${100 * Arthropoda / total_abundance},${100 * Bryozoa / total_abundance},${100 * Chordata / total_abundance},${100 * Cnidaria / total_abundance},${100 * Echinodermata / total_abundance},${100 * Mollusca / total_abundance},${100 * Nematoda / total_abundance},${100 * Porifera / total_abundance},${100 * Other / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_abundance / total_abundance},${100 * Arthropoda_abundance / total_abundance},${100 * Bryozoa_abundance / total_abundance},${100 * Chordata_abundance / total_abundance},${100 * Cnidaria_abundance / total_abundance},${100 * Echinodermata_abundance / total_abundance},${100 * Mollusca_abundance / total_abundance},${100 * Nematoda_abundance / total_abundance},${100 * Porifera_abundance / total_abundance},${100 * Other_abundance / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
@@ -249,7 +249,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida / total_abundance},${100 * Arthropoda / total_abundance},${100 * Bryozoa / total_abundance},${100 * Chordata / total_abundance},${100 * Cnidaria / total_abundance},${100 * Echinodermata / total_abundance},${100 * Mollusca / total_abundance},${100 * Nematoda / total_abundance},${100 * Porifera / total_abundance},${100 * Other / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_abundance / total_abundance},${100 * Arthropoda_abundance / total_abundance},${100 * Bryozoa_abundance / total_abundance},${100 * Chordata_abundance / total_abundance},${100 * Cnidaria_abundance / total_abundance},${100 * Echinodermata_abundance / total_abundance},${100 * Mollusca_abundance / total_abundance},${100 * Nematoda_abundance / total_abundance},${100 * Porifera_abundance / total_abundance},${100 * Other_abundance / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
@@ -271,7 +271,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida / total_abundance},${100 * Arthropoda / total_abundance},${100 * Bryozoa / total_abundance},${100 * Chordata / total_abundance},${100 * Cnidaria / total_abundance},${100 * Echinodermata / total_abundance},${100 * Mollusca / total_abundance},${100 * Nematoda / total_abundance},${100 * Porifera / total_abundance},${100 * Other / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_abundance / total_abundance},${100 * Arthropoda_abundance / total_abundance},${100 * Bryozoa_abundance / total_abundance},${100 * Chordata_abundance / total_abundance},${100 * Cnidaria_abundance / total_abundance},${100 * Echinodermata_abundance / total_abundance},${100 * Mollusca_abundance / total_abundance},${100 * Nematoda_abundance / total_abundance},${100 * Porifera_abundance / total_abundance},${100 * Other_abundance / total_abundance}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>

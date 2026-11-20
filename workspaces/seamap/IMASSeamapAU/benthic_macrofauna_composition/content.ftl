@@ -11,16 +11,16 @@
         <#assign totalAbundance = (feature.total_abundance.value)?number>
 
         <#assign phyla = [
-            {"name": "Annelida", "value": (feature.Annelida.value)?number, "color": "#BCA094"},
-            {"name": "Arthropoda", "value": (feature.Arthropoda.value)?number, "color": "#9AB499"},
-            {"name": "Bryozoa", "value": (feature.Bryozoa.value)?number, "color": "#E1BF27"},
-            {"name": "Chordata", "value": (feature.Chordata.value)?number, "color": "#287FC0"},
-            {"name": "Cnidaria", "value": (feature.Cnidaria.value)?number, "color": "#DD3F7E"},
-            {"name": "Echinodermata", "value": (feature.Echinodermata.value)?number, "color": "#25976B"},
-            {"name": "Mollusca", "value": (feature.Mollusca.value)?number, "color": "#71A9DF"},
-            {"name": "Nematoda", "value": (feature.Nematoda.value)?number, "color": "#C46A24"},
-            {"name": "Porifera", "value": (feature.Porifera.value)?number, "color": "#A13BCC"},
-            {"name": "Unknown", "value": (feature.Other.value)?number, "color": "#858585"}
+            {"name": "Annelida", "value": (feature.Annelida_abundance.value)?number, "color": "#BCA094"},
+            {"name": "Arthropoda", "value": (feature.Arthropoda_abundance.value)?number, "color": "#9AB499"},
+            {"name": "Bryozoa", "value": (feature.Bryozoa_abundance.value)?number, "color": "#E1BF27"},
+            {"name": "Chordata", "value": (feature.Chordata_abundance.value)?number, "color": "#287FC0"},
+            {"name": "Cnidaria", "value": (feature.Cnidaria_abundance.value)?number, "color": "#DD3F7E"},
+            {"name": "Echinodermata", "value": (feature.Echinodermata_abundance.value)?number, "color": "#25976B"},
+            {"name": "Mollusca", "value": (feature.Mollusca_abundance.value)?number, "color": "#71A9DF"},
+            {"name": "Nematoda", "value": (feature.Nematoda_abundance.value)?number, "color": "#C46A24"},
+            {"name": "Porifera", "value": (feature.Porifera_abundance.value)?number, "color": "#A13BCC"},
+            {"name": "Unknown", "value": (feature.Other_abundance.value)?number, "color": "#858585"}
         ]>
         
         <#assign sortedPhyla = phyla?sort_by("value")?reverse>
