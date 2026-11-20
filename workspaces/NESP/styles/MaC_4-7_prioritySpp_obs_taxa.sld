@@ -35,7 +35,7 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould*s Petrel</ogc:Literal>
             </ogc:PropertyIsLike>
@@ -490,7 +490,7 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould*s Petrel</ogc:Literal>
             </ogc:PropertyIsLike>
@@ -960,7 +960,7 @@
 
         <Rule>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould*s Petrel</ogc:Literal>
             </ogc:PropertyIsLike>
@@ -1430,7 +1430,7 @@
         <Rule>
           <Title>Gould's Petrel</Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard="*" singleChar="?" escapeChar="\">
+            <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="\">
               <ogc:PropertyName>common_name</ogc:PropertyName>
               <ogc:Literal>Gould*s Petrel</ogc:Literal>
             </ogc:PropertyIsLike>
