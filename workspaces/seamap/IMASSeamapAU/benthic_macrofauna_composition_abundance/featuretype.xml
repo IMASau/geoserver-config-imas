@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--44fdf4a0:1a1e0fd4284:-7cca</id>
-  <name>benthic_macrofauna_composition</name>
+  <name>benthic_macrofauna_composition_abundance</name>
   <nativeName>VW_BMF_summary_metrics_phyla</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
-  <title>Benthic Macrofauna database: per-sample community composition</title>
+  <title>Benthic Macrofauna database: per-sample community composition (abundance)</title>
   <keywords>
     <string>features</string>
     <string>VW_BMF_summary_metrics_phyla</string>

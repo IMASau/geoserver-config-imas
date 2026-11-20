@@ -1,12 +1,9 @@
-<h5 style="padding-top:10px; padding-bottom:3px;">Benthic macrofauna community composition</h5>
+<h5 style="padding-top:10px; padding-bottom:3px; text-align:centre;">Benthic macrofauna community composition</h5>
+<h6 style="font-style:italic; padding-bottom:3px;  text-align:center;">Relative abundance</h6>
 
 <#list features as feature>
     <#if feature_index == 0>
-    
-        <div style="font-size:11px; color:#777777; margin-top:4px; margin-bottom:10px;">
-            Survey <b>${feature.survey_code.value}</b>: sample ID <b>${feature.sample_code.value}</b>
-        </div>
-        
+            
         <#assign maxBarWidth = 150>
         <#assign totalAbundance = (feature.total_abundance.value)?number>
 
@@ -52,5 +49,10 @@
               </#if>
           </#list>
       </div>
+
+      <div style="font-size:10.5px; color:#989898; margin-top:12px; margin-bottom:10px;">
+          <b>${feature.survey_code.value}</b> - sample ID <b>${feature.sample_code.value}</b>
+      </div>
+
     </#if>
 </#list>
