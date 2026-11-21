@@ -19,7 +19,7 @@
         </Rule>
 
         <Rule>
-          <Title>   &lt;= 0.80</Title>
+          <Title>   &#x2264; 0.80</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>Pielou_evenness</ogc:PropertyName>
@@ -178,7 +178,7 @@
         </Rule>
 
         <Rule>
-          <Title>   &gt; 0.97 &#8211; 0.985</Title>
+          <Title>   &gt; 0.97 &#8211; 0.98</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -187,7 +187,7 @@
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>Pielou_evenness</ogc:PropertyName>
-                <ogc:Literal>0.985</ogc:Literal>
+                <ogc:Literal>0.98</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -211,11 +211,11 @@
         </Rule>
 
         <Rule>
-          <Title>   &gt; 0.985</Title>
+          <Title>   &gt; 0.98</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>Pielou_evenness</ogc:PropertyName>
-              <ogc:Literal>0.985</ogc:Literal>
+              <ogc:Literal>0.98</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PointSymbolizer>
