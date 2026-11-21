@@ -1,5 +1,5 @@
 <layer>
-  <name>benthic_macrofauna_composition_richness</name>
+  <name>benthic_macrofauna_richness</name>
   <id>LayerInfoImpl--44fdf4a0:1a1fad1d7b0:37b1</id>
   <type>VECTOR</type>
   <defaultStyle>
@@ -16,5 +16,5 @@
     <logoHeight>0</logoHeight>
   </attribution>
   <dateCreated>2026-11-20 22:57:19.917 UTC</dateCreated>
-  <dateModified>2026-11-21 22:42:48.515 UTC</dateModified>
+  <dateModified>2026-11-21 23:07:49.751 UTC</dateModified>
 </layer>
