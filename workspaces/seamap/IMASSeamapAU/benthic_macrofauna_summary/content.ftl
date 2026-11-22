@@ -12,8 +12,8 @@
 
   .bmf-table th {
     background: #e7edf8;
-    padding: 6px 4px;
-    font-size: 10.5px;
+    padding: 6px 3px;
+    font-size: 10px;
     font-weight: 600;
     border: none;
     border-right: 1px solid #d4d7da;
@@ -23,8 +23,8 @@
   }
 
   .bmf-table td {
-    padding: 7px 4px;
-    font-size: 11px;
+    padding: 7px 3px;
+    font-size: 10px;
     vertical-align: middle;
     border-top: none;
     border-right: 1px solid #d4d7da;
@@ -40,6 +40,7 @@
   .bmf-row-odd td:not(.bmf-metric-cell) { background: #f4f5f6; }
 
   .bmf-metric-cell {
+    font-size: 11px !important;
     font-weight: 700;
     text-align: center;
     font-variant-numeric: tabular-nums;
@@ -48,14 +49,16 @@
 
 <div style="padding:5px 0; width:700px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
-      <col width="14%" />
-      <col width="13.5%" />
       <col width="11.5%" />
+      <col width="10.5%" />
+      <col width="10%" />
+      <col width="8%" />
+      <col width="14%" />
       <col width="9%" />
-      <col width="17%" />
+      <col width="9%" />
+      <col width="9%" />
       <col width="9.5%" />
-      <col width="12.75%" />
-      <col width="12.75%" />
+      <col width="9.5%" />
 
       <tr>
         <th style="text-align:left;">Survey</th>
@@ -66,6 +69,8 @@
         <th style="text-align:center;">Sampling area (m&#178;)</th>
         <th style="text-align:center;">Abundance</th>
         <th style="text-align:center;">OTU richness</th>
+        <th style="text-align:center;">Shannon diversity</th>
+        <th style="text-align:center;">Pielou's evenness</th>
       </tr>
 
       <#list features as feature>
@@ -79,6 +84,8 @@
           <#assign area = (feature.sample_area_m2.value)!"">
           <#assign abundance = feature.total_abundance.value?number>
           <#assign richness = feature.OTU_richness.value?number>
+          <#assign shannon = feature.Shannon_diversity.value?number>
+          <#assign evennessRaw = (feature.Pielou_evenness.value)!"">
 
           <#if abundance lte 3>
             <#assign abundanceColor = "#46039F"><#assign abundanceTint = "#E5DCF2">
@@ -110,6 +117,47 @@
             <#assign richnessColor = "#90D743"><#assign richnessTint = "#EFF9E5">
           <#else>
             <#assign richnessColor = "#FDE725"><#assign richnessTint = "#FFFCE0">
+          </#if>
+
+          <#-- Shannon diversity -->
+          <#if shannon lte 1.00>
+            <#assign shannonColor = "#003B47"><#assign shannonTint = "#DDE8EA">
+          <#elseif shannon lte 1.70>
+            <#assign shannonColor = "#15483A"><#assign shannonTint = "#E1ECE7">
+          <#elseif shannon lte 2.20>
+            <#assign shannonColor = "#345C27"><#assign shannonTint = "#E6EEDF">
+          <#elseif shannon lte 2.50>
+            <#assign shannonColor = "#5D770E"><#assign shannonTint = "#EEF1DD">
+          <#elseif shannon lte 2.80>
+            <#assign shannonColor = "#918B00"><#assign shannonTint = "#F3F1DB">
+          <#elseif shannon lte 3.10>
+            <#assign shannonColor = "#C9B810"><#assign shannonTint = "#FAF6DA">
+          <#else>
+            <#assign shannonColor = "#F0E900"><#assign shannonTint = "#FEFCD4">
+          </#if>
+
+          <#-- Pielou's evenness -->
+          <#assign evennessColor = "#C5C8CB">
+          <#assign evennessTint = "#F0F1F2">
+
+          <#if evennessRaw?has_content>
+            <#assign evenness = evennessRaw?number>
+
+            <#if evenness lte 0.80>
+              <#assign evennessColor = "#00224E"><#assign evennessTint = "#DEE3EC">
+            <#elseif evenness lte 0.88>
+              <#assign evennessColor = "#2A3F6D"><#assign evennessTint = "#E3E7EF">
+            <#elseif evenness lte 0.92>
+              <#assign evennessColor = "#575D6D"><#assign evennessTint = "#ECEDEF">
+            <#elseif evenness lte 0.95>
+              <#assign evennessColor = "#7D7C78"><#assign evennessTint = "#F0EFED">
+            <#elseif evenness lte 0.97>
+              <#assign evennessColor = "#A59C74"><#assign evennessTint = "#F5F2E7">
+            <#elseif evenness lte 0.98>
+              <#assign evennessColor = "#D2C060"><#assign evennessTint = "#FAF7E5">
+            <#else>
+              <#assign evennessColor = "#FEE838"><#assign evennessTint = "#FFFCE3">
+            </#if>
           </#if>
 
           <#if (feature_index % 2) == 0>
@@ -148,10 +196,19 @@
             <td class="bmf-metric-cell" style="background:${richnessTint}; border-left:4px solid ${richnessColor};">
               ${richness?string("0")}
             </td>
+
+            <td class="bmf-metric-cell" style="background:${shannonTint}; border-left:4px solid ${shannonColor};">
+              ${shannon?string("0.00")}
+            </td>
+
+            <td class="bmf-metric-cell" style="background:${evennessTint}; border-left:4px solid ${evennessColor};">
+              <#if evennessRaw?has_content>${evenness?string("0.000")}<#else>-</#if>
+            </td>
           </tr>
         </#if>
       </#list>
     </table>
+
   <#assign featureCount = 0>
   <#list features as f><#assign featureCount = featureCount + 1></#list>
   <#if featureCount gt 10>
