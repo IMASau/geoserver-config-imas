@@ -137,7 +137,7 @@
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Displacement>
-                  <DisplacementX>10</DisplacementX>
+                  <DisplacementX>8</DisplacementX>
                   <DisplacementY>0</DisplacementY>
                 </Displacement>
               </PointPlacement>
@@ -178,7 +178,7 @@
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Displacement>
-                  <DisplacementX>10</DisplacementX>
+                  <DisplacementX>8</DisplacementX>
                   <DisplacementY>0</DisplacementY>
                 </Displacement>
               </PointPlacement>
