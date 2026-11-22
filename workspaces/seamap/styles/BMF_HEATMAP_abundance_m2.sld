@@ -21,7 +21,7 @@
 
             <ogc:Function name="parameter">
               <ogc:Literal>weightAttr</ogc:Literal>
-              <ogc:Literal>total_abundance</ogc:Literal>
+              <ogc:Literal>total_abundance_m2</ogc:Literal>
             </ogc:Function>
 
             <ogc:Function name="parameter">
