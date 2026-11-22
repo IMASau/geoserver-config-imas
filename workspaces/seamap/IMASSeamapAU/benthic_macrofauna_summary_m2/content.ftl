@@ -48,15 +48,15 @@
   }
 </style>
 
-<div style="padding:5px 0; width:630px;">
+<div style="padding:5px 0; width:640px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
-      <col width="13%" />
-      <col width="9.5%" />
-      <col width="12.5%" />
-      <col width="10.5%" />
-      <col width="17.5%" />
-      <col width="10.5%" />
-      <col width="10.5%" />      
+      <col width="11%" />
+      <col width="9%" />
+      <col width="11%" />
+      <col width="9%" />
+      <col width="16%" />
+      <col width="9%" />
+      <col width="9%" />      
       <col width="13%" />
       <col width="13%" />
 
