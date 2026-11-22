@@ -9,13 +9,68 @@
         </Rule>	
 
         <Rule>
-          <Title>  Single</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>is_replicate</ogc:PropertyName>
               <ogc:Literal>N</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>  
+          <MinScaleDenominator>4000000</MinScaleDenominator>                    
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#3366cc</CssParameter> 
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                                                           
+                </Fill>  
+                <Stroke>
+                  <CssParameter name="stroke">#3366cc</CssParameter> 
+                  <CssParameter name="stroke-width">1</CssParameter>                                     
+                </Stroke>                 
+              </Mark>
+              <Size>7.5</Size>				
+            </Graphic>
+          </PointSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
+        </Rule>        
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>is_replicate</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <MinScaleDenominator>4000000</MinScaleDenominator>                              
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>triangle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#c40066</CssParameter>  
+                  <CssParameter name="fill-opacity">0.8</CssParameter>                                         
+                </Fill> 
+                <Stroke>
+                  <CssParameter name="stroke">#c40066</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>                   
+                </Stroke>                  
+              </Mark>
+              <Size>11</Size>				
+            </Graphic>
+          </PointSymbolizer> 
+          <VendorOption name="inclusion">mapOnly</VendorOption>          
+        </Rule> 
+
+
+        <Rule>
+          <Title>  Single</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>is_replicate</ogc:PropertyName>
+              <ogc:Literal>N</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MaxScaleDenominator>4000000</MaxScaleDenominator>                              
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -40,7 +95,8 @@
               <ogc:PropertyName>is_replicate</ogc:PropertyName>
               <ogc:Literal>Y</ogc:Literal>
             </ogc:PropertyIsEqualTo>
-          </ogc:Filter>  
+          </ogc:Filter> 
+          <MaxScaleDenominator>4000000</MaxScaleDenominator>                                        
           <PointSymbolizer>
             <Graphic>
               <Mark>
