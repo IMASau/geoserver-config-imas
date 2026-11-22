@@ -1,5 +1,6 @@
 <#setting date_format="yyyy-MM-dd">
 <#setting datetime_format="yyyy-MM-dd">
+<#setting number_format="#,###">
 
 <style>
   .bmf-table {
@@ -12,8 +13,8 @@
 
   .bmf-table th {
     background: #e7edf8;
-    padding: 6px 4px;
-    font-size: 10.5px;
+    padding: 6px 3px;
+    font-size: 10px;
     font-weight: 600;
     border: none;
     border-right: 1px solid #d4d7da;
@@ -23,8 +24,8 @@
   }
 
   .bmf-table td {
-    padding: 7px 4px;
-    font-size: 11px;
+    padding: 7px 3px;
+    font-size: 10px;
     vertical-align: middle;
     border-top: none;
     border-right: 1px solid #d4d7da;
@@ -40,6 +41,7 @@
   .bmf-row-odd td:not(.bmf-metric-cell) { background: #f4f5f6; }
 
   .bmf-metric-cell {
+    font-size: 11px !important;
     font-weight: 700;
     text-align: center;
     font-variant-numeric: tabular-nums;
@@ -48,14 +50,14 @@
 
 <div style="padding:5px 0; width:700px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
-      <col width="14%" />
-      <col width="13.5%" />
       <col width="11.5%" />
+      <col width="10.5%" />
+      <col width="10%" />
+      <col width="8%" />
+      <col width="14%" />
       <col width="9%" />
-      <col width="17%" />
-      <col width="9.5%" />
-      <col width="12.75%" />
-      <col width="12.75%" />
+      <col width="18.5%" />
+      <col width="18.5%" />
 
       <tr>
         <th style="text-align:left;">Survey</th>
@@ -80,33 +82,35 @@
           <#assign abundance = feature.total_abundance_m2.value?number>
           <#assign richness = feature.OTU_richness_m2.value?number>
 
-          <#if abundance lte 45>
+          <#-- Abundance per m2 -->
+          <#if abundance lte 50>
             <#assign abundanceColor = "#46039F"><#assign abundanceTint = "#E5DCF2">
-          <#elseif abundance lte 80>
+          <#elseif abundance lte 150>
             <#assign abundanceColor = "#8008A5"><#assign abundanceTint = "#EDDCF2">
-          <#elseif abundance lte 120>
+          <#elseif abundance lte 250>
             <#assign abundanceColor = "#B22C8E"><#assign abundanceTint = "#F4E1EF">
-          <#elseif abundance lte 170>
+          <#elseif abundance lte 450>
             <#assign abundanceColor = "#D8576B"><#assign abundanceTint = "#FAE7EA">
-          <#elseif abundance lte 260>
+          <#elseif abundance lte 1000>
             <#assign abundanceColor = "#F2864B"><#assign abundanceTint = "#FDEEE6">
-          <#elseif abundance lte 550>
+          <#elseif abundance lte 6000>
             <#assign abundanceColor = "#FCBC2D"><#assign abundanceTint = "#FFF6E2">
           <#else>
             <#assign abundanceColor = "#F0F921"><#assign abundanceTint = "#FDFEE0">
           </#if>
 
-          <#if richness lte 40>
+          <#-- OTU richness per m2 -->
+          <#if richness lte 50>
             <#assign richnessColor = "#300160"><#assign richnessTint = "#E2DBE9">
-          <#elseif richness lte 70>
-            <#assign richnessColor = "#443983"><#assign richnessTint = "#E5E3EE">
           <#elseif richness lte 100>
+            <#assign richnessColor = "#443983"><#assign richnessTint = "#E5E3EE">
+          <#elseif richness lte 160>
             <#assign richnessColor = "#31688E"><#assign richnessTint = "#E2EAEF">
-          <#elseif richness lte 140>
+          <#elseif richness lte 250>
             <#assign richnessColor = "#21918C"><#assign richnessTint = "#E0F0EF">
-          <#elseif richness lte 190>
+          <#elseif richness lte 400>
             <#assign richnessColor = "#35B779"><#assign richnessTint = "#E3F5EC">
-          <#elseif richness lte 260>
+          <#elseif richness lte 1200>
             <#assign richnessColor = "#90D743"><#assign richnessTint = "#EFF9E5">
           <#else>
             <#assign richnessColor = "#FDE725"><#assign richnessTint = "#FFFCE0">
@@ -142,16 +146,17 @@
             </td>
 
             <td class="bmf-metric-cell" style="background:${abundanceTint}; border-left:4px solid ${abundanceColor};">
-              ${abundance?string("0")}
+              ${abundance}
             </td>
 
             <td class="bmf-metric-cell" style="background:${richnessTint}; border-left:4px solid ${richnessColor};">
-              ${richness?string("0")}
+              ${richness}
             </td>
           </tr>
         </#if>
       </#list>
     </table>
+
   <#assign featureCount = 0>
   <#list features as f><#assign featureCount = featureCount + 1></#list>
   <#if featureCount gt 10>

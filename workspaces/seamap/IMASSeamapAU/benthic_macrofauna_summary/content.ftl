@@ -87,33 +87,35 @@
           <#assign shannon = feature.Shannon_diversity.value?number>
           <#assign evennessRaw = (feature.Pielou_evenness.value)!"">
 
+          <#-- Abundance -->
           <#if abundance lte 3>
             <#assign abundanceColor = "#46039F"><#assign abundanceTint = "#E5DCF2">
-          <#elseif abundance lte 6>
-            <#assign abundanceColor = "#8008A5"><#assign abundanceTint = "#EDDCF2">
           <#elseif abundance lte 10>
-            <#assign abundanceColor = "#B22C8E"><#assign abundanceTint = "#F4E1EF">
+            <#assign abundanceColor = "#8008A5"><#assign abundanceTint = "#EDDCF2">
           <#elseif abundance lte 20>
+            <#assign abundanceColor = "#B22C8E"><#assign abundanceTint = "#F4E1EF">
+          <#elseif abundance lte 40>
             <#assign abundanceColor = "#D8576B"><#assign abundanceTint = "#FAE7EA">
-          <#elseif abundance lte 50>
+          <#elseif abundance lte 80>
             <#assign abundanceColor = "#F2864B"><#assign abundanceTint = "#FDEEE6">
-          <#elseif abundance lte 200>
+          <#elseif abundance lte 300>
             <#assign abundanceColor = "#FCBC2D"><#assign abundanceTint = "#FFF6E2">
           <#else>
             <#assign abundanceColor = "#F0F921"><#assign abundanceTint = "#FDFEE0">
           </#if>
 
+          <#-- OTU richness -->
           <#if richness lte 3>
             <#assign richnessColor = "#300160"><#assign richnessTint = "#E2DBE9">
-          <#elseif richness lte 6>
+          <#elseif richness lte 9>
             <#assign richnessColor = "#443983"><#assign richnessTint = "#E5E3EE">
-          <#elseif richness lte 10>
+          <#elseif richness lte 14>
             <#assign richnessColor = "#31688E"><#assign richnessTint = "#E2EAEF">
-          <#elseif richness lte 15>
+          <#elseif richness lte 21>
             <#assign richnessColor = "#21918C"><#assign richnessTint = "#E0F0EF">
-          <#elseif richness lte 25>
+          <#elseif richness lte 30>
             <#assign richnessColor = "#35B779"><#assign richnessTint = "#E3F5EC">
-          <#elseif richness lte 40>
+          <#elseif richness lte 45>
             <#assign richnessColor = "#90D743"><#assign richnessTint = "#EFF9E5">
           <#else>
             <#assign richnessColor = "#FDE725"><#assign richnessTint = "#FFFCE0">
