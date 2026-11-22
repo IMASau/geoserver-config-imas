@@ -51,13 +51,13 @@
 <div style="padding:5px 0; width:700px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
       <col width="11.5%" />
-      <col width="10.5%" />
-      <col width="10%" />
       <col width="8%" />
-      <col width="14%" />
+      <col width="10.5%" />
+      <col width="8.5%" />
+      <col width="14.5%" />
       <col width="9%" />
-      <col width="18.5%" />
-      <col width="18.5%" />
+      <col width="19%" />
+      <col width="19%" />
 
       <tr>
         <th style="text-align:left;">Survey</th>
@@ -75,6 +75,9 @@
 
           <#assign survey = feature.survey_code.value>
           <#assign sample = feature.sample_code.value>
+          <#if sample?contains("_")>
+            <#assign sample = sample?substring(sample?index_of("_") + 1)>
+          </#if>
           <#assign sampleDate = (feature.sample_date.value)!"">
           <#assign depth = (feature.depth_m.value)!"">
           <#assign gear = feature.sampling_gear.value>
