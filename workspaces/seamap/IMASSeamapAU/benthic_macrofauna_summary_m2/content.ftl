@@ -48,24 +48,26 @@
   }
 </style>
 
-<div style="padding:5px 0; width:700px;">
+<div style="padding:5px 0; width:630px;">
     <table class="bmf-table" cellpadding="0" cellspacing="0">
-      <col width="11.5%" />
-      <col width="8%" />
+      <col width="13%" />
+      <col width="9.5%" />
+      <col width="12.5%" />
       <col width="10.5%" />
-      <col width="8.5%" />
-      <col width="14.5%" />
-      <col width="9%" />
-      <col width="19%" />
-      <col width="19%" />
+      <col width="17.5%" />
+      <col width="10.5%" />
+      <col width="10.5%" />      
+      <col width="13%" />
+      <col width="13%" />
 
       <tr>
         <th style="text-align:left;">Survey</th>
         <th style="text-align:left;">Sample</th>
         <th style="text-align:center;">Sample date</th>
         <th style="text-align:center;">Depth (m)</th>
-        <th style="text-align:left;">Sampling gear</th>
+        <th style="text-align:center;">Sampling gear</th>
         <th style="text-align:center;">Sampling area (m&#178;)</th>
+        <th style="text-align:center;">Sieve size (mm)</th>        
         <th style="text-align:center;">Abundance<br>(individ. m&#8315;&#178;)</th>
         <th style="text-align:center;">Richness<br>(no. OTUs m&#8315;&#178;)</th>
       </tr>
@@ -82,6 +84,7 @@
           <#assign depth = (feature.depth_m.value)!"">
           <#assign gear = feature.sampling_gear.value>
           <#assign area = (feature.sample_area_m2.value)!"">
+          <#assign sieve = (feature.sieve_size_mm.value)!"">                    
           <#assign abundance = feature.total_abundance_m2.value?number>
           <#assign richness = feature.OTU_richness_m2.value?number>
 
@@ -142,11 +145,15 @@
               <#if depth?has_content>${depth?number?string("0.#")}<#else>-</#if>
             </td>
 
-            <td style="text-align:left;">${gear}</td>
+            <td style="text-align:center;">${gear}</td>
 
             <td style="text-align:center;">
               <#if area?has_content>${area?number?string("0.###")}<#else>-</#if>
             </td>
+
+            <td style="text-align:center;">
+              <#if sieve?has_content>${sieve?number?string("0.#")}<#else>-</#if>
+            </td>  
 
             <td class="bmf-metric-cell" style="background:${abundanceTint}; border-left:4px solid ${abundanceColor};">
               ${abundance}
