@@ -45,7 +45,7 @@
         </Rule>
 
         <Rule>
-          <Title>   4 &#8211; 6</Title>
+          <Title>   4 &#8211; 9</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -54,7 +54,7 @@
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>6</ogc:Literal>
+                <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -78,16 +78,16 @@
         </Rule>
 
         <Rule>
-          <Title>   7 &#8211; 10</Title>
+          <Title>   10 &#8211; 14</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>6</ogc:Literal>
+                <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>10</ogc:Literal>
+                <ogc:Literal>14</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,16 +111,16 @@
         </Rule>
 
         <Rule>
-          <Title>   11 &#8211; 15</Title>
+          <Title>   15 &#8211; 21</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>10</ogc:Literal>
+                <ogc:Literal>14</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>15</ogc:Literal>
+                <ogc:Literal>21</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,16 +144,16 @@
         </Rule>
 
         <Rule>
-          <Title>   16 &#8211; 25</Title>
+          <Title>   22 &#8211; 30</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>15</ogc:Literal>
+                <ogc:Literal>22</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>30</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -177,16 +177,16 @@
         </Rule>
 
         <Rule>
-          <Title>   26 &#8211; 40</Title>
+          <Title>   31 &#8211; 45</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>25</ogc:Literal>
+                <ogc:Literal>30</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-                <ogc:Literal>40</ogc:Literal>
+                <ogc:Literal>45</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -210,11 +210,11 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 40</Title>
+          <Title>&gt; 45</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>OTU_richness</ogc:PropertyName>
-              <ogc:Literal>40</ogc:Literal>
+              <ogc:Literal>45</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PointSymbolizer>

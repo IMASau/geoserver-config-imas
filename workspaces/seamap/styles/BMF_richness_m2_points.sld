@@ -18,11 +18,11 @@
         </Rule>
 
         <Rule>
-          <Title>     0 &#8211; 40</Title>
+          <Title>     0 &#8211; 50</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-              <ogc:Literal>40</ogc:Literal>
+              <ogc:Literal>50</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <PointSymbolizer>
@@ -45,16 +45,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 40 &#8211; 70</Title>
+          <Title>&gt; 50 &#8211; 100</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>40</ogc:Literal>
+                <ogc:Literal>50</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>70</ogc:Literal>
+                <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -78,16 +78,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 70 &#8211; 100</Title>
+          <Title>&gt; 100 &#8211; 160</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>70</ogc:Literal>
+                <ogc:Literal>100</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:Literal>160</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,16 +111,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 100 &#8211; 140</Title>
+          <Title>&gt; 160 &#8211; 250</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>100</ogc:Literal>
+                <ogc:Literal>160</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>140</ogc:Literal>
+                <ogc:Literal>250</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,16 +144,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 140 &#8211; 190</Title>
+          <Title>&gt; 250 &#8211; 400</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>140</ogc:Literal>
+                <ogc:Literal>250</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>190</ogc:Literal>
+                <ogc:Literal>400</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -177,16 +177,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 190 &#8211; 260</Title>
+          <Title>&gt; 400 &#8211; 1,200</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>190</ogc:Literal>
+                <ogc:Literal>400</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-                <ogc:Literal>260</ogc:Literal>
+                <ogc:Literal>1200</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -210,11 +210,11 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 260</Title>
+          <Title>&gt; 1,200</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>OTU_richness_m2</ogc:PropertyName>
-              <ogc:Literal>260</ogc:Literal>
+              <ogc:Literal>1200</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PointSymbolizer>

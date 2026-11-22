@@ -18,11 +18,11 @@
         </Rule>
 
         <Rule>
-          <Title>     0 &#8211; 45</Title>
+          <Title>     0 &#8211; 50</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThanOrEqualTo>
               <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-              <ogc:Literal>45</ogc:Literal>
+              <ogc:Literal>50</ogc:Literal>
             </ogc:PropertyIsLessThanOrEqualTo>
           </ogc:Filter>
           <PointSymbolizer>
@@ -45,16 +45,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 45 &#8211; 80</Title>
+          <Title>&gt; 50 &#8211; 150</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>45</ogc:Literal>
+                <ogc:Literal>50</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>80</ogc:Literal>
+                <ogc:Literal>150</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -78,16 +78,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 80 &#8211; 120</Title>
+          <Title>&gt; 150 &#8211; 250</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>80</ogc:Literal>
+                <ogc:Literal>150</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>120</ogc:Literal>
+                <ogc:Literal>250</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -111,16 +111,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 120 &#8211; 170</Title>
+          <Title>&gt; 250 &#8211; 450</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>120</ogc:Literal>
+                <ogc:Literal>450</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>170</ogc:Literal>
+                <ogc:Literal>1000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -144,16 +144,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 170 &#8211; 260</Title>
+          <Title>&gt; 450 &#8211; 1,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>170</ogc:Literal>
+                <ogc:Literal>450</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>260</ogc:Literal>
+                <ogc:Literal>1000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -177,16 +177,16 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 260 &#8211; 550</Title>
+          <Title>&gt; 1,000 &#8211; 6,000</Title>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>260</ogc:Literal>
+                <ogc:Literal>1000</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
                 <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-                <ogc:Literal>550</ogc:Literal>
+                <ogc:Literal>6000</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -210,11 +210,11 @@
         </Rule>
 
         <Rule>
-          <Title>&gt; 550</Title>
+          <Title>&gt; 6000</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>total_abundance_m2</ogc:PropertyName>
-              <ogc:Literal>550</ogc:Literal>
+              <ogc:Literal>6000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
           <PointSymbolizer>
