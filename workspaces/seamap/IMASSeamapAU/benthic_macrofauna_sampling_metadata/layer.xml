@@ -1,0 +1,17 @@
+<layer>
+  <name>benthic_macrofauna_sampling_metadata</name>
+  <id>LayerInfoImpl--44fdf4a0:1a20445dd00:2946</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--44fdf4a0:1a202fb6331:2cce</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--44fdf4a0:1a20445dd00:2945</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-22 20:47:22.203 UTC</dateCreated>
+  <dateModified>2026-11-22 20:47:41.369 UTC</dateModified>
+</layer>

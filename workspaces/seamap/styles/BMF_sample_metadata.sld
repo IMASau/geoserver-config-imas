@@ -11,10 +11,10 @@
         <Rule>
           <Title>  Single</Title>
           <ogc:Filter>
-            <ogc:PropertyIsNotLike wildCard="*" singleChar="?" escape="\">
-              <ogc:PropertyName>sample_code</ogc:PropertyName>
-              <ogc:Literal>SOTS2020_R*</ogc:Literal>
-            </ogc:PropertyIsNotLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>is_replicate</ogc:PropertyName>
+              <ogc:Literal>N</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>  
           <PointSymbolizer>
             <Graphic>
@@ -36,10 +36,10 @@
         <Rule>
           <Title>  Replicate</Title>
           <ogc:Filter>
-            <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="\">
-              <ogc:PropertyName>sample_code</ogc:PropertyName>
-              <ogc:Literal>SOTS2020_R*</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>is_replicate</ogc:PropertyName>
+              <ogc:Literal>Y</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>  
           <PointSymbolizer>
             <Graphic>
@@ -57,7 +57,89 @@
               <Size>13</Size>				
             </Graphic>
           </PointSymbolizer>                 
-        </Rule> 		
+        </Rule> 	
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>survey_code</ogc:PropertyName>
+              <ogc:Literal>SOTS2020</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <MaxScaleDenominator>700000</MaxScaleDenominator>          
+          <TextSymbolizer>           
+            <Label>
+              <ogc:PropertyName>site_code</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">sans-serif</CssParameter>
+              <CssParameter name="font-size">10</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0.5</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>10</DisplacementX>
+                  <DisplacementY>0</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>             
+            <Halo>
+              <Radius>1.5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.33</CssParameter>
+              </Fill>
+            </Halo>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+            <VendorOption name="group">true</VendorOption>                        
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>
+        <Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyName>survey_code</ogc:PropertyName>
+              <ogc:Literal>SOTS2020</ogc:Literal>
+            </ogc:PropertyIsNotEqualTo>
+          </ogc:Filter>  
+          <MaxScaleDenominator>700000</MaxScaleDenominator>          
+          <TextSymbolizer>           
+            <Label>
+              <ogc:PropertyName>sample_code</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">sans-serif</CssParameter>
+              <CssParameter name="font-size">10</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0.5</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>10</DisplacementX>
+                  <DisplacementY>0</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>             
+            <Halo>
+              <Radius>1.5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">0.33</CssParameter>
+              </Fill>
+            </Halo>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+            <VendorOption name="group">true</VendorOption>                        
+          </TextSymbolizer>
+          <VendorOption name="inclusion">mapOnly</VendorOption>
+        </Rule>        
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
