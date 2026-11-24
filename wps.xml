@@ -11,7 +11,7 @@
   <citeCompliant>false</citeCompliant>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
-  <connectionTimeout>30.0</connectionTimeout>
+  <connectionTimeout>60.0</connectionTimeout>
   <resourceExpirationTimeout>300</resourceExpirationTimeout>
   <maxSynchronousProcesses>16</maxSynchronousProcesses>
   <maxAsynchronousProcesses>16</maxAsynchronousProcesses>
