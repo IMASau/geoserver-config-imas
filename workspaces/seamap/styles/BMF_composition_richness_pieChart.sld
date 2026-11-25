@@ -45,6 +45,21 @@
           </PointSymbolizer>
         </Rule>
         <Rule>
+          <Title>Brachiopoda</Title>
+          <VendorOption name="inclusion">legendOnly</VendorOption>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#942000</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>         
+        <Rule>
           <Title>Bryozoa</Title>
           <VendorOption name="inclusion">legendOnly</VendorOption>
           <PointSymbolizer>
@@ -180,7 +195,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Brachiopoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,942000,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>                
               </ExternalGraphic>
               <Size>
@@ -203,8 +218,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
-                <Format>application/chart</Format>                
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Brachiopoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,942000,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <Format>application/chart</Format>               
               </ExternalGraphic>
               <Size>
                 <ogc:Literal>26</ogc:Literal>
@@ -226,8 +241,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
-                <Format>application/chart</Format>                
+                 <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Brachiopoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,942000,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <Format>application/chart</Format>               
               </ExternalGraphic>
               <Size>
                 <ogc:Literal>31</ogc:Literal>
@@ -249,8 +264,8 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
-                <Format>application/chart</Format>                
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Brachiopoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,942000,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <Format>application/chart</Format>               
               </ExternalGraphic>
               <Size>
                 <ogc:Literal>36</ogc:Literal>
@@ -271,7 +286,7 @@
             <Graphic>
               <ExternalGraphic>
                 <!-- URL constructed for Google Charts (deprecated) -->
-                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
+                <OnlineResource xlink:href="http://chart?cht=p3&amp;chp=3.14&amp;chd=t:${100 * Annelida_richness / OTU_richness},${100 * Arthropoda_richness / OTU_richness},${100 * Brachiopoda_richness / OTU_richness},${100 * Bryozoa_richness / OTU_richness},${100 * Chordata_richness / OTU_richness},${100 * Cnidaria_richness / OTU_richness},${100 * Echinodermata_richness / OTU_richness},${100 * Mollusca_richness / OTU_richness},${100 * Nematoda_richness / OTU_richness},${100 * Porifera_richness / OTU_richness},${100 * Other_richness / OTU_richness}&amp;chco=bca094,9ab499,942000,E1BF27,287FC0,DD3F7E,25976B,71a9df,C46A24,9F4FC5,858585&amp;chf=bg,s,FFFFFF00" />
                 <Format>application/chart</Format>
               </ExternalGraphic>
               <Size>

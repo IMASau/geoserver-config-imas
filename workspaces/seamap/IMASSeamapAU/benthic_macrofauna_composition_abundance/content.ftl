@@ -10,6 +10,7 @@
         <#assign phyla = [
             {"name": "Annelida", "value": (feature.Annelida_abundance.value)?number, "color": "#BCA094"},
             {"name": "Arthropoda", "value": (feature.Arthropoda_abundance.value)?number, "color": "#9AB499"},
+            {"name": "Brachiopoda", "value": (feature.Brachiopoda_abundance.value)?number, "color": "#942000"},            
             {"name": "Bryozoa", "value": (feature.Bryozoa_abundance.value)?number, "color": "#E1BF27"},
             {"name": "Chordata", "value": (feature.Chordata_abundance.value)?number, "color": "#287FC0"},
             {"name": "Cnidaria", "value": (feature.Cnidaria_abundance.value)?number, "color": "#DD3F7E"},

@@ -23,14 +23,14 @@
   <nativeBoundingBox>
     <minx>113.217797735644</minx>
     <maxx>159.200303184006</maxx>
-    <miny>-38.95659277913184</miny>
+    <miny>-40.81333411626666</miny>
     <maxy>-10.298683094026334</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>113.217797735644</minx>
     <maxx>159.200303184006</maxx>
-    <miny>-38.95659277913184</miny>
+    <miny>-40.81333411626666</miny>
     <maxy>-10.298683094026334</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
