@@ -51,7 +51,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
-  <advertised>false</advertised>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">Aus_EEZ_multires_bathy_mosaic_hillshade</entry>
@@ -173,6 +173,10 @@
     </entry>
     <entry>
       <string>Accurate resolution computation</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>CacheGranules</string>
       <boolean>false</boolean>
     </entry>
     <entry>
