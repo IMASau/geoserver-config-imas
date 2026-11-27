@@ -24,14 +24,13 @@
 
             <ColorMap type="ramp">
               <ColorMapEntry color="#FFFFFF" quantity="0" opacity="0" />
-              <ColorMapEntry color="#FFE0B5" quantity="0.01" />
-              <ColorMapEntry color="#FFD097" quantity="1" />
-              <ColorMapEntry color="#FFBA73" quantity="2" />
-              <ColorMapEntry color="#FFA04D" quantity="3" />
-              <ColorMapEntry color="#F9882C" quantity="4" />
-              <ColorMapEntry color="#F16C14" quantity="5" />
-              <ColorMapEntry color="#E45505" quantity="6" />
-              <ColorMapEntry color="#CC3D00" quantity="8" />
+              <ColorMapEntry color="#FFF3E8" quantity="0.01" />
+              <ColorMapEntry color="#FFDCBF" quantity="1" />
+              <ColorMapEntry color="#FFC08A" quantity="2" />
+              <ColorMapEntry color="#FF9D52" quantity="3" />
+              <ColorMapEntry color="#FF7624" quantity="4" />
+              <ColorMapEntry color="#F94A08" quantity="5" />
+              <ColorMapEntry color="#E52B00" quantity="6" />
             </ColorMap>
           </RasterSymbolizer>
 
@@ -43,14 +42,13 @@
           <RasterSymbolizer>
             <ColorMap type="values">
               <ColorMapEntry color="#ffffff" quantity="-1" opacity="0.0001" label="Expected no. crossings" />
-              <ColorMapEntry color="#CC3D00" quantity="8" label="   8+" />
-              <ColorMapEntry color="#E45505" quantity="6" label="   6" />
-              <ColorMapEntry color="#F16C14" quantity="5" label="   5" />
-              <ColorMapEntry color="#F9882C" quantity="4" label="   4" />
-              <ColorMapEntry color="#FFA04D" quantity="3" label="   3" />
-              <ColorMapEntry color="#FFBA73" quantity="2" label="   2" />
-              <ColorMapEntry color="#FFD097" quantity="1" label="   1" />
-              <ColorMapEntry color="#FFE0B5" quantity="0" label=" &gt;0" />
+              <ColorMapEntry color="#E52B00" quantity="6" label="   6+" />
+              <ColorMapEntry color="#F94A08" quantity="5" label="   5" />
+              <ColorMapEntry color="#FF7624" quantity="4" label="   4" />
+              <ColorMapEntry color="#FF9D52" quantity="3" label="   3" />
+              <ColorMapEntry color="#FFC08A" quantity="2" label="   2" />
+              <ColorMapEntry color="#FFDCBF" quantity="1" label="   1" />
+              <ColorMapEntry color="#FFF3E8" quantity="0" label=" &gt;0" />
             </ColorMap>
           </RasterSymbolizer>
 
