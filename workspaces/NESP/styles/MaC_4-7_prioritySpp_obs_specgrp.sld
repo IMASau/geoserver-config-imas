@@ -10,11 +10,11 @@
             <ogc:Or>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*albatross*</ogc:Literal>
+                <ogc:Literal>*Albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*petrel*</ogc:Literal>
+                <ogc:Literal>*Petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -83,7 +83,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*parrot*</ogc:Literal>
+              <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>                                          
@@ -110,7 +110,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*whale*</ogc:Literal>
+              <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>                                          
@@ -139,11 +139,11 @@
             <ogc:Or>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*albatross*</ogc:Literal>
+                <ogc:Literal>*Albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*petrel*</ogc:Literal>
+                <ogc:Literal>*Petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -214,7 +214,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*parrot*</ogc:Literal>
+              <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>                                          
@@ -242,7 +242,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*whale*</ogc:Literal>
+              <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>                                          
@@ -273,11 +273,11 @@
             <ogc:Or>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*albatross*</ogc:Literal>
+                <ogc:Literal>*Albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*petrel*</ogc:Literal>
+                <ogc:Literal>*Petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -348,7 +348,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*parrot*</ogc:Literal>
+              <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>                                          
@@ -376,7 +376,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*whale*</ogc:Literal>
+              <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>                                          
@@ -407,11 +407,11 @@
             <ogc:Or>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*albatross*</ogc:Literal>
+                <ogc:Literal>*Albatross*</ogc:Literal>
               </ogc:PropertyIsLike>
               <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
                 <ogc:PropertyName>common_name</ogc:PropertyName>
-                <ogc:Literal>*petrel*</ogc:Literal>
+                <ogc:Literal>*Petrel*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>              
           </ogc:Filter>
@@ -480,7 +480,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*parrot*</ogc:Literal>
+              <ogc:Literal>*Parrot*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>            
@@ -507,7 +507,7 @@
           <ogc:Filter>
             <ogc:PropertyIsLike matchCase="false" wildCard='*' singleChar='.' escape='!'>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>*whale*</ogc:Literal>
+              <ogc:Literal>*Whale*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>            
