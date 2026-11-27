@@ -64,7 +64,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-Headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>30000000</MinScaleDenominator>
@@ -520,7 +520,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-Headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>10000000</MinScaleDenominator>
@@ -990,7 +990,7 @@
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-Headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>5000000</MinScaleDenominator>
@@ -1455,11 +1455,11 @@
         </Rule>
 
         <Rule>
-          <Title>Grey-headed Albatross</Title>
+          <Title>Grey-Headed Albatross</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>common_name</ogc:PropertyName>
-              <ogc:Literal>Grey-headed Albatross</ogc:Literal>
+              <ogc:Literal>Grey-Headed Albatross</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MaxScaleDenominator>5000000</MaxScaleDenominator>
