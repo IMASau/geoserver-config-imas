@@ -118,6 +118,7 @@
     "abundance":"#f2cc73",
     "mark-recapture":"#C65D78",
     "presence-only":"#4F708D",
+    "presence/absence":"#d27228",    
     "tracking":"#4AA98D"
   }>
 
