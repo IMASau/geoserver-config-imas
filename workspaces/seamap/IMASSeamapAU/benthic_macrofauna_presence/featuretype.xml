@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-76a728da:1a1d2f2d834:3fa6</id>
   <name>benthic_macrofauna_presence</name>
-  <nativeName>VW_BMF_abundance</nativeName>
+  <nativeName>VW_BMF_abundance_current</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-513dc49c:1562676d393:-5689</id>
   </namespace>
